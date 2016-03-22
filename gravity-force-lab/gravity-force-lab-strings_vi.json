@@ -1,74 +1,386 @@
 {
-  "custom": {
-    "value": "Điều chỉnh"
-  },
-  "readout.pattern-bodyname": {
-    "value": "Khối lượng {0}"
-  },
-  "units.kg": {
-    "value": "kg"
-  },
-  "sun": {
-    "value": "Mặt trời"
-  },
-  "my.solar.system": {
-    "value": "Thái dương hệ"
-  },
-  "object.size.actual-size": {
-    "value": "như thật"
-  },
-  "mass-2": {
-    "value": "m2"
-  },
-  "units.earth.masses": {
-    "value": "Khối lượng Địa cầu"
-  },
-  "mass-1": {
-    "value": "m1"
-  },
-  "planet.control.title": {
-    "value": "Hành tinh"
-  },
-  "module.force-laws.name": {
-    "value": "Các định luật về Lực"
-  },
   "body.name.earth": {
-    "value": "Địa cầu"
+    "value": "Địa cầu",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "Địa cầu",
+        "explanation": null
+      }
+    ]
   },
-  "object.size.cartoon": {
-    "value": "Hoạt hình"
+  "constantRadius": {
+    "value": "Bán kính không đổi",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "Bán kính không đổi",
+        "explanation": null
+      }
+    ]
   },
-  "planet": {
-    "value": "Hành tinh"
+  "custom": {
+    "value": "Điều chỉnh",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "Điều chỉnh",
+        "explanation": null
+      }
+    ]
   },
-  "units.light-minutes": {
-    "value": "Phút ánh sáng"
-  },
-  "sun.planet.controls": {
-    "value": "Thiết đặt"
-  },
-  "object.size": {
-    "value": "Kích thước vật"
-  },
-  "related.sims": {
-    "value": "Các Sims có liên quan"
-  },
-  "units": {
-    "value": "Đơn vị"
-  },
-  "module.sun-planet-system.name": {
-    "value": "Hệ Mặt trời-Hành tinh"
+  "force-description-pattern-target_source": {
+    "value": "Lực do {1} tác dụng lên {0} ",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "Lực do {1} tác dụng lên {0} ",
+        "explanation": null
+      }
+    ]
   },
   "force-description-pattern-target_source_value": {
-    "value": "Lực do {1} tác dụng lên {0}={2} N"
-  },
-  "units.kilometers": {
-    "value": "km"
+    "value": "Lực do {1} tác dụng lên {0} = {2} N",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "Lực do {1} tác dụng lên {0} = {2} N",
+        "explanation": null
+      }
+    ]
   },
   "gravity-force-lab.title": {
-    "value": "Phòng thí nghiệm Lực hấp dẫn"
+    "value": "Lực hấp dẫn",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "Lực hấp dẫn",
+        "explanation": null
+      }
+    ]
+  },
+  "mass-1": {
+    "value": "m1",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "m1",
+        "explanation": null
+      }
+    ]
+  },
+  "mass-2": {
+    "value": "m2",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "m2",
+        "explanation": null
+      }
+    ]
+  },
+  "mass1": {
+    "value": "Khối lượng 1",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "Khối lượng 1",
+        "explanation": null
+      }
+    ]
+  },
+  "mass1Abbreviated": {
+    "value": "m1",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "m1",
+        "explanation": null
+      }
+    ]
+  },
+  "mass2": {
+    "value": "Khối lượng 2",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "Khối lượng 2",
+        "explanation": null
+      }
+    ]
+  },
+  "mass2Abbreviated": {
+    "value": "m2",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "m2",
+        "explanation": null
+      }
+    ]
+  },
+  "module.force-laws.name": {
+    "value": "Các định luật về Lực",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "Các định luật về Lực",
+        "explanation": null
+      }
+    ]
+  },
+  "module.sun-planet-system.name": {
+    "value": "Hệ Mặt trời-Hành tinh",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "Hệ Mặt trời-Hành tinh",
+        "explanation": null
+      }
+    ]
+  },
+  "my.solar.system": {
+    "value": "Thái dương hệ",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "Thái dương hệ",
+        "explanation": null
+      }
+    ]
+  },
+  "object.size": {
+    "value": "Kích thước vật",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "Kích thước vật",
+        "explanation": null
+      }
+    ]
+  },
+  "object.size.actual-size": {
+    "value": "như thật",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "như thật",
+        "explanation": null
+      }
+    ]
+  },
+  "object.size.cartoon": {
+    "value": "Hoạt hình",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "Hoạt hình",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern_0value_1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "planet": {
+    "value": "Hành tinh",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "Hành tinh",
+        "explanation": null
+      }
+    ]
+  },
+  "planet.control.title": {
+    "value": "Hành tinh",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "Hành tinh",
+        "explanation": null
+      }
+    ]
+  },
+  "readout.pattern-bodyname": {
+    "value": "Khối lượng {0}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "Khối lượng {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "related.sims": {
+    "value": "Các Sims có liên quan",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "Các Sims có liên quan",
+        "explanation": null
+      }
+    ]
+  },
+  "showValues": {
+    "value": "Hiển thị giá trị",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "Hiển thị giá trị",
+        "explanation": null
+      }
+    ]
+  },
+  "sun": {
+    "value": "Mặt trời",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "Mặt trời",
+        "explanation": null
+      }
+    ]
+  },
+  "sun.planet.controls": {
+    "value": "Thiết đặt",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "Thiết đặt",
+        "explanation": null
+      }
+    ]
+  },
+  "units": {
+    "value": "Đơn vị",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "Đơn vị",
+        "explanation": null
+      }
+    ]
+  },
+  "units.earth.masses": {
+    "value": "Khối lượng Địa cầu",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "Khối lượng Địa cầu",
+        "explanation": null
+      }
+    ]
+  },
+  "units.kg": {
+    "value": "kg",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "kg",
+        "explanation": null
+      }
+    ]
+  },
+  "units.kilometers": {
+    "value": "km",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "km",
+        "explanation": null
+      }
+    ]
+  },
+  "units.light-minutes": {
+    "value": "Phút ánh sáng",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "Phút ánh sáng",
+        "explanation": null
+      }
+    ]
   },
   "units.meters": {
-    "value": "m"
+    "value": "m",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1458635488713,
+        "oldValue": "",
+        "newValue": "m",
+        "explanation": null
+      }
+    ]
   }
 }
