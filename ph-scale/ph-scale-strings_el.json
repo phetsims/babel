@@ -1,104 +1,581 @@
 {
-  "choice.handSoap": {
-    "value": "σαπούνι"
+  "acidic": {
+    "value": "Όξινο",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Όξινο",
+        "explanation": null
+      }
+    ]
   },
-  "radioButton.linearScale": {
-    "value": "Γραμμική κλίμακα"
-  },
-  "label.pH": {
-    "value": "pH:"
-  },
-  "checkBox.dontAskAgain": {
-    "value": "Μη με ξαναρωτήσεις."
-  },
-  "choice.milk": {
-    "value": "γάλα"
-  },
-  "confirm.changeLiquid": {
-    "value": ""
-  },
-  "title.waterComponents": {
-    "value": "Συστατικά νερού"
-  },
-  "choice.coffee": {
-    "value": "καφές"
-  },
-  "label.acid": {
-    "value": "οξύ"
-  },
-  "units.moles": {
-    "value": "mol"
-  },
-  "ph-scale.title": {
-    "value": "Κλίμακα pH"
-  },
-  "button.zoomOut": {
-    "value": "Σμίκρυνση (x10)"
-  },
-  "choice.blood": {
-    "value": "αίμα"
-  },
-  "units.molesPerLiter": {
-    "value": "mol/L"
-  },
-  "choice.batteryAcid": {
-    "value": "οξύ μπαταρίας"
-  },
-  "choice.drainCleaner": {
-    "value": "καθαριστικό αποχετεύσεων"
-  },
-  "checkBox.moleculeCount": {
-    "value": "Μέτρηση μορίων"
-  },
-  "radioButton.concentration": {
-    "value": "Συγκέντρωση ({0})"
-  },
-  "label.H2O": {
-    "value": ""
-  },
-  "ph-scale.description": {
-    "value": "Ελέγξτε το pH διαφόρων υλικών, όπως ο καφές, το σάλιο και το σαπούνι για να εξακριβώσετε εάν καθένα από αυτά είναι όξινο, αλκαλικό ή ουδέτερο. Οπτικοποιήστε τους σχετικούς αριθμούς των ιόντων του υδροξειδίου και του υδρονίου. Κάντε εναλλαγές μεταξύ λογαριθμικής και γραμμικής κλίμακας. Διερευνήστε εάν η αλλαγή του όγκου ή η διάλυση με νερό επηρεάζει το pH. Ή μπορείτε να δημιουργήσετε το δικό σας υγρό! "
-  },
-  "label.base": {
-    "value": "βάση"
-  },
-  "choice.vomit": {
-    "value": "εμετός"
-  },
-  "choice.spit": {
-    "value": "σάλιο"
-  },
-  "choice.water": {
-    "value": "νερό"
-  },
-  "checkBox.H3O_OH_ratio": {
-    "value": "{0}/{1} αναλογία"
-  },
-  "choice.beer": {
-    "value": "μπίρα"
+  "basic": {
+    "value": "Βασικό",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Βασικό",
+        "explanation": null
+      }
+    ]
   },
   "button.zoomIn": {
     "value": ""
   },
+  "button.zoomOut": {
+    "value": "Σμίκρυνση (x10)",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994816,
+        "oldValue": "",
+        "newValue": "Σμίκρυνση (x10)",
+        "explanation": null
+      }
+    ]
+  },
+  "checkBox.H3O_OH_ratio": {
+    "value": "{0}/{1} αναλογία",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994816,
+        "oldValue": "",
+        "newValue": "{0}/{1} αναλογία",
+        "explanation": null
+      }
+    ]
+  },
+  "checkBox.dontAskAgain": {
+    "value": "Μη με ξαναρωτήσεις.",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994816,
+        "oldValue": "",
+        "newValue": "Μη με ξαναρωτήσεις.",
+        "explanation": null
+      }
+    ]
+  },
+  "checkBox.moleculeCount": {
+    "value": "Μέτρηση μορίων",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994816,
+        "oldValue": "",
+        "newValue": "Μέτρηση μορίων",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.batteryAcid": {
+    "value": "Οξύ μπαταρίας",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Οξύ μπαταρίας",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.beer": {
+    "value": "μπίρα",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994816,
+        "oldValue": "",
+        "newValue": "μπίρα",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.blood": {
+    "value": "Αίμα",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Αίμα",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.chickenSoup": {
+    "value": "Κοτόσουπα",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Κοτόσουπα",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.coffee": {
+    "value": "Καφές",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Καφές",
+        "explanation": null
+      }
+    ]
+  },
   "choice.custom": {
-    "value": "προσαρμοσμένο υγρό"
+    "value": "Προσαρμοσμένο",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Προσαρμοσμένο",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.drainCleaner": {
+    "value": "Καθαριστικό αποχετεύσεων",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Καθαριστικό αποχετεύσεων",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.handSoap": {
+    "value": "Σαπούνι",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Σαπούνι",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.milk": {
+    "value": "Γάλα",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Γάλα",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.orangeJuice": {
+    "value": "Χυμός πορτοκάλι",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Χυμός πορτοκάλι",
+        "explanation": null
+      }
+    ]
   },
   "choice.soda": {
-    "value": "σόδα"
+    "value": "Σόδα",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Σόδα",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.spit": {
+    "value": "Σάλιο",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Σάλιο",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.vomit": {
+    "value": "Εμετός",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Εμετός",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.water": {
+    "value": "Νερό",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Νερό",
+        "explanation": null
+      }
+    ]
+  },
+  "concentration": {
+    "value": "Συγκέντρωση",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Συγκέντρωση",
+        "explanation": null
+      }
+    ]
+  },
+  "confirm.changeLiquid": {
+    "value": ""
+  },
+  "label.H2O": {
+    "value": ""
+  },
+  "label.H3O": {
+    "value": ""
   },
   "label.OH": {
     "value": ""
   },
-  "radioButton.numberOfMoles": {
-    "value": "Αριθμός γραμμορίων ({0})"
+  "label.acid": {
+    "value": "οξύ",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994816,
+        "oldValue": "",
+        "newValue": "οξύ",
+        "explanation": null
+      }
+    ]
+  },
+  "label.base": {
+    "value": "βάση",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994816,
+        "oldValue": "",
+        "newValue": "βάση",
+        "explanation": null
+      }
+    ]
+  },
+  "label.pH": {
+    "value": "pH:",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994816,
+        "oldValue": "",
+        "newValue": "pH:",
+        "explanation": null
+      }
+    ]
+  },
+  "linear": {
+    "value": "Γραμμική",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Γραμμική",
+        "explanation": null
+      }
+    ]
+  },
+  "logarithmic": {
+    "value": "Λογαριθμική",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Λογαριθμική",
+        "explanation": null
+      }
+    ]
+  },
+  "moleculeCount": {
+    "value": "Μέτρηση μορίων",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Μέτρηση μορίων",
+        "explanation": null
+      }
+    ]
+  },
+  "neutral": {
+    "value": "Ουδέτερο",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Ουδέτερο",
+        "explanation": null
+      }
+    ]
+  },
+  "offScale": {
+    "value": "εκτός κλίμακας",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "εκτός κλίμακας",
+        "explanation": null
+      }
+    ]
+  },
+  "pH": {
+    "value": "pH",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "pH",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0name.1pH": {
+    "value": "{0} (pH {1})",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "{0} (pH {1})",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "ph-scale.description": {
+    "value": "Ελέγξτε το pH διαφόρων υλικών, όπως ο καφές, το σάλιο και το σαπούνι για να εξακριβώσετε εάν καθένα από αυτά είναι όξινο, αλκαλικό ή ουδέτερο. Οπτικοποιήστε τους σχετικούς αριθμούς των ιόντων του υδροξειδίου και του υδρονίου. Κάντε εναλλαγές μεταξύ λογαριθμικής και γραμμικής κλίμακας. Διερευνήστε εάν η αλλαγή του όγκου ή η διάλυση με νερό επηρεάζει το pH. Ή μπορείτε να δημιουργήσετε το δικό σας υγρό! ",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994816,
+        "oldValue": "",
+        "newValue": "Ελέγξτε το pH διαφόρων υλικών, όπως ο καφές, το σάλιο και το σαπούνι για να εξακριβώσετε εάν καθένα από αυτά είναι όξινο, αλκαλικό ή ουδέτερο. Οπτικοποιήστε τους σχετικούς αριθμούς των ιόντων του υδροξειδίου και του υδρονίου. Κάντε εναλλαγές μεταξύ λογαριθμικής και γραμμικής κλίμακας. Διερευνήστε εάν η αλλαγή του όγκου ή η διάλυση με νερό επηρεάζει το pH. Ή μπορείτε να δημιουργήσετε το δικό σας υγρό! ",
+        "explanation": null
+      }
+    ]
+  },
+  "ph-scale.title": {
+    "value": "Κλίμακα pH",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Κλίμακα pH",
+        "explanation": null
+      }
+    ]
+  },
+  "quantity": {
+    "value": "Ποσότητα",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Ποσότητα",
+        "explanation": null
+      }
+    ]
+  },
+  "radioButton.concentration": {
+    "value": "Συγκέντρωση ({0})",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994816,
+        "oldValue": "",
+        "newValue": "Συγκέντρωση ({0})",
+        "explanation": null
+      }
+    ]
+  },
+  "radioButton.linearScale": {
+    "value": "Γραμμική κλίμακα",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994816,
+        "oldValue": "",
+        "newValue": "Γραμμική κλίμακα",
+        "explanation": null
+      }
+    ]
   },
   "radioButton.logarithmicScale": {
-    "value": "Λογαριθμική κλίμακα"
+    "value": "Λογαριθμική κλίμακα",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994816,
+        "oldValue": "",
+        "newValue": "Λογαριθμική κλίμακα",
+        "explanation": null
+      }
+    ]
+  },
+  "radioButton.numberOfMoles": {
+    "value": "Αριθμός γραμμορίων ({0})",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994816,
+        "oldValue": "",
+        "newValue": "Αριθμός γραμμορίων ({0})",
+        "explanation": null
+      }
+    ]
+  },
+  "ratio": {
+    "value": "αναλογία",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "αναλογία",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.macro": {
+    "value": "Macro",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Macro",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.micro": {
+    "value": "Micro",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Micro",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.mySolution": {
+    "value": "Η λύση μου",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "Η λύση μου",
+        "explanation": null
+      }
+    ]
+  },
+  "title.waterComponents": {
+    "value": "Συστατικά νερού",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994816,
+        "oldValue": "",
+        "newValue": "Συστατικά νερού",
+        "explanation": null
+      }
+    ]
   },
   "units.liters": {
-    "value": "L"
+    "value": "λ.",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "λ.",
+        "explanation": null
+      }
+    ]
   },
-  "label.H3O": {
-    "value": ""
+  "units.moles": {
+    "value": "mol",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "mol",
+        "explanation": null
+      }
+    ]
+  },
+  "units.molesPerLiter": {
+    "value": "mol/L",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913994815,
+        "oldValue": "",
+        "newValue": "mol/L",
+        "explanation": null
+      }
+    ]
   }
 }
