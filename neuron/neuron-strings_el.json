@@ -1,74 +1,557 @@
 {
+  "Chart.clear": {
+    "value": "Καθαρισμός διαγράμματος",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Καθαρισμός διαγράμματος",
+        "explanation": null
+      }
+    ]
+  },
+  "Chart.title": {
+    "value": "Δυναμικό Μεμβράνης vs. Χρόνος",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Δυναμικό Μεμβράνης vs. Χρόνος",
+        "explanation": null
+      }
+    ]
+  },
+  "Chart.xAxisLabel": {
+    "value": "Χρόνος (ms)",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Χρόνος (ms)",
+        "explanation": null
+      }
+    ]
+  },
+  "Chart.yAxisLabel": {
+    "value": "Δυναμικό Μεμβράνης (mV)",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Δυναμικό Μεμβράνης (mV)",
+        "explanation": null
+      }
+    ]
+  },
+  "ConcentrationReadoutPattern.0label.1value.2units": {
+    "value": "{0} [{1} {2}] ",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "{0} [{1} {2}] ",
+        "explanation": null
+      }
+    ]
+  },
+  "Control.title": {
+    "value": "Έλεγχος",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Έλεγχος",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.potassiumGatedChannel": {
+    "value": "Πύλη καναλιού Καλίου",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Πύλη καναλιού Καλίου",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.potassiumIon": {
+    "value": "Ιόν Καλίου (K+)",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Ιόν Καλίου (K+)",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.potassiumLeakChannel": {
+    "value": "Κανάλι διαρροής Καλίου",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Κανάλι διαρροής Καλίου",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.sodiumGatedChannel": {
+    "value": "Πύλη καναλιού Νατρίου",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Πύλη καναλιού Νατρίου",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.sodiumIon": {
+    "value": "Ιόν Νατρίου (Na+)",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Ιόν Νατρίου (Na+)",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.sodiumLeakChannel": {
+    "value": "Κανάλι διαρροής Νατρίου",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Κανάλι διαρροής Νατρίου",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.title": {
+    "value": "Υπόμνημα",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Υπόμνημα",
+        "explanation": null
+      }
+    ]
+  },
+  "ModuleTitle.AxonCrossSection": {
+    "value": "Δυναμικό Δράσης",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Δυναμικό Δράσης",
+        "explanation": null
+      }
+    ]
+  },
+  "PotassiumChemicalSymbol": {
+    "value": "K+",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "K+",
+        "explanation": null
+      }
+    ]
+  },
+  "ShowAllIons": {
+    "value": "Εμφάνιση όλων των ιόντων",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Εμφάνιση όλων των ιόντων",
+        "explanation": null
+      }
+    ]
+  },
+  "ShowCharges": {
+    "value": "Εμφάνιση φορτίων",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Εμφάνιση φορτίων",
+        "explanation": null
+      }
+    ]
+  },
+  "ShowConcentrations": {
+    "value": "Εμφάνιση συγκεντρώσεων",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Εμφάνιση συγκεντρώσεων",
+        "explanation": null
+      }
+    ]
+  },
+  "ShowPotentialChart": {
+    "value": "Διάγραμμα Δυναμικού",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Διάγραμμα Δυναμικού",
+        "explanation": null
+      }
+    ]
+  },
+  "SodiumChemicalSymbol": {
+    "value": "Na+",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Na+",
+        "explanation": null
+      }
+    ]
+  },
   "StimulateButton.caption": {
     "value": ""
   },
-  "ShowCharges": {
-    "value": "Εμφάνιση φορτίων"
+  "allIons": {
+    "value": "Όλα τα ιόντα",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287007,
+        "oldValue": "",
+        "newValue": "Όλα τα ιόντα",
+        "explanation": null
+      }
+    ]
   },
-  "Legend.potassiumGatedChannel": {
-    "value": "Πύλη καναλιού Καλίου"
+  "charges": {
+    "value": "Φορτία",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Φορτία",
+        "explanation": null
+      }
+    ]
   },
-  "PotassiumChemicalSymbol": {
-    "value": "K+"
+  "chartClear": {
+    "value": "Καθαρισμός",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287007,
+        "oldValue": "",
+        "newValue": "Καθαρισμός",
+        "explanation": null
+      }
+    ]
   },
-  "Legend.title": {
-    "value": "Υπόμνημα"
+  "chartTitle": {
+    "value": "Δυναμική μεμβράνη vs. Χρόνος",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287007,
+        "oldValue": "",
+        "newValue": "Δυναμική μεμβράνη vs. Χρόνος",
+        "explanation": null
+      }
+    ]
   },
-  "ConcentrationReadoutPattern.0label.1value.2units": {
-    "value": "{0} [{1} {2}] "
+  "chartXAxisLabel": {
+    "value": "Χρόνος (ms)",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287007,
+        "oldValue": "",
+        "newValue": "Χρόνος (ms)",
+        "explanation": null
+      }
+    ]
   },
-  "Chart.title": {
-    "value": "Δυναμικό Μεμβράνης vs. Χρόνος"
+  "chartYAxisLabel": {
+    "value": "Δυναμική μεμβράνη  (mV)",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287007,
+        "oldValue": "",
+        "newValue": "Δυναμική μεμβράνη  (mV)",
+        "explanation": null
+      }
+    ]
   },
-  "neuron.title": {
-    "value": "Νευρώνας"
+  "concentrationReadoutPattern.0label.1value.2units": {
+    "value": "{0} [{1} {2}]",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287007,
+        "oldValue": "",
+        "newValue": "{0} [{1} {2}]",
+        "explanation": null
+      }
+    ]
   },
-  "units.mM": {
-    "value": "mM"
+  "concentrations": {
+    "value": "Συγκέντρωση",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Συγκέντρωση",
+        "explanation": null
+      }
+    ]
   },
-  "Legend.sodiumGatedChannel": {
-    "value": "Πύλη καναλιού Νατρίου"
-  },
-  "ModuleTitle.AxonCrossSection": {
-    "value": "Δυναμικό Δράσης"
-  },
-  "Chart.xAxisLabel": {
-    "value": "Χρόνος (ms)"
-  },
-  "ShowConcentrations": {
-    "value": "Εμφάνιση συγκεντρώσεων"
-  },
-  "Legend.sodiumIon": {
-    "value": "Ιόν Νατρίου (Na+)"
-  },
-  "ShowAllIons": {
-    "value": "Εμφάνιση όλων των ιόντων"
-  },
-  "ShowPotentialChart": {
-    "value": "Διάγραμμα Δυναμικού"
-  },
-  "Control.title": {
-    "value": "Έλεγχος"
+  "fastForward": {
+    "value": "Γρήγορα μπροστά",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Γρήγορα μπροστά",
+        "explanation": null
+      }
+    ]
   },
   "int.minControlPanelWidth": {
-    "value": "215"
+    "value": "215",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "215",
+        "explanation": null
+      }
+    ]
   },
-  "Chart.yAxisLabel": {
-    "value": "Δυναμικό Μεμβράνης (mV)"
+  "legend": {
+    "value": "Υπόμνημα",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287007,
+        "oldValue": "",
+        "newValue": "Υπόμνημα",
+        "explanation": null
+      }
+    ]
   },
-  "Chart.clear": {
-    "value": "Καθαρισμός διαγράμματος"
+  "neuron.title": {
+    "value": "Νευρώνας",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Νευρώνας",
+        "explanation": null
+      }
+    ]
   },
-  "Legend.sodiumLeakChannel": {
-    "value": "Κανάλι διαρροής Νατρίου"
+  "normal": {
+    "value": "Κανονική ταχύτητα",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Κανονική ταχύτητα",
+        "explanation": null
+      }
+    ]
   },
-  "Legend.potassiumLeakChannel": {
-    "value": "Κανάλι διαρροής Καλίου"
+  "potassiumChemicalSymbol": {
+    "value": "K+",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287007,
+        "oldValue": "",
+        "newValue": "K+",
+        "explanation": null
+      }
+    ]
   },
-  "Legend.potassiumIon": {
-    "value": "Ιόν Καλίου (K+)"
+  "potassiumGatedChannel": {
+    "value": "Κανάλι μεταβίβασης Καλίου",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287007,
+        "oldValue": "",
+        "newValue": "Κανάλι μεταβίβασης Καλίου",
+        "explanation": null
+      }
+    ]
   },
-  "SodiumChemicalSymbol": {
-    "value": "Na+"
+  "potassiumIon": {
+    "value": "Ιόν Καλίου (K+)",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287007,
+        "oldValue": "",
+        "newValue": "Ιόν Καλίου (K+)",
+        "explanation": null
+      }
+    ]
+  },
+  "potassiumLeakChannel": {
+    "value": "Κανάλι διαρροής Καλίου",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287007,
+        "oldValue": "",
+        "newValue": "Κανάλι διαρροής Καλίου",
+        "explanation": null
+      }
+    ]
+  },
+  "potentialChart": {
+    "value": "Δυναμικό γράφημα",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287007,
+        "oldValue": "",
+        "newValue": "Δυναμικό γράφημα",
+        "explanation": null
+      }
+    ]
+  },
+  "showLegend": {
+    "value": "Εμφάνιση",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287007,
+        "oldValue": "",
+        "newValue": "Εμφάνιση",
+        "explanation": null
+      }
+    ]
+  },
+  "slowMotion": {
+    "value": "Αργή κίνηση",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Αργή κίνηση",
+        "explanation": null
+      }
+    ]
+  },
+  "sodiumChemicalSymbol": {
+    "value": "Na+",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287007,
+        "oldValue": "",
+        "newValue": "Na+",
+        "explanation": null
+      }
+    ]
+  },
+  "sodiumGatedChannel": {
+    "value": "Κανάλι μεταβίβασης Νατρίου",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287007,
+        "oldValue": "",
+        "newValue": "Κανάλι μεταβίβασης Νατρίου",
+        "explanation": null
+      }
+    ]
+  },
+  "sodiumIon": {
+    "value": "Ιόν Νατρίου (Na+)",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287007,
+        "oldValue": "",
+        "newValue": "Ιόν Νατρίου (Na+)",
+        "explanation": null
+      }
+    ]
+  },
+  "sodiumLeakChannel": {
+    "value": "Κανάλι διαρροής Νατρίου",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287007,
+        "oldValue": "",
+        "newValue": "Κανάλι διαρροής Νατρίου",
+        "explanation": null
+      }
+    ]
+  },
+  "stimulateNeuron": {
+    "value": "Διέγερση\nνευρώνα",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287008,
+        "oldValue": "",
+        "newValue": "Διέγερση\nνευρώνα",
+        "explanation": null
+      }
+    ]
+  },
+  "units.mM": {
+    "value": "mM",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461912287007,
+        "oldValue": "",
+        "newValue": "mM",
+        "explanation": null
+      }
+    ]
   }
 }
