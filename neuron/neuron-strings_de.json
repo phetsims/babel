@@ -1,77 +1,569 @@
 {
+  "Chart.clear": {
+    "value": "Löschen",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Löschen",
+        "explanation": null
+      }
+    ]
+  },
+  "Chart.title": {
+    "value": "Membranpotenzial als Funktion der Zeit",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Membranpotenzial als Funktion der Zeit",
+        "explanation": null
+      }
+    ]
+  },
+  "Chart.xAxisLabel": {
+    "value": "Zeit (ms)",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Zeit (ms)",
+        "explanation": null
+      }
+    ]
+  },
+  "Chart.yAxisLabel": {
+    "value": "Mebranpotenzial (mV)",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Mebranpotenzial (mV)",
+        "explanation": null
+      }
+    ]
+  },
+  "ConcentrationReadoutPattern.0label.1value.2units": {
+    "value": "{0} [{1} {2}] ",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "{0} [{1} {2}] ",
+        "explanation": null
+      }
+    ]
+  },
+  "Control.title": {
+    "value": "Kontrolle",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Kontrolle",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.potassiumGatedChannel": {
+    "value": "Kaliumkanal, stimulierbar",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Kaliumkanal, stimulierbar",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.potassiumIon": {
+    "value": "Kaliumion (K+)",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Kaliumion (K+)",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.potassiumLeakChannel": {
+    "value": "Kaliumkanal, offen",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Kaliumkanal, offen",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.sodiumGatedChannel": {
+    "value": "Kanal, Natrium-aktiviert",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Kanal, Natrium-aktiviert",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.sodiumIon": {
+    "value": "Natriumion (Na+)",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Natriumion (Na+)",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.sodiumLeakChannel": {
+    "value": "Natriumkanal, offen",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Natriumkanal, offen",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.title": {
+    "value": "Beschreibung",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Beschreibung",
+        "explanation": null
+      }
+    ]
+  },
+  "ModuleTitle.AxonCrossSection": {
+    "value": "Aktionspotenzial",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Aktionspotenzial",
+        "explanation": null
+      }
+    ]
+  },
+  "PotassiumChemicalSymbol": {
+    "value": "K+",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "K+",
+        "explanation": null
+      }
+    ]
+  },
+  "ShowAllIons": {
+    "value": "Alle Ionen anzeigen",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Alle Ionen anzeigen",
+        "explanation": null
+      }
+    ]
+  },
+  "ShowCharges": {
+    "value": "Ladungen anzeigen",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Ladungen anzeigen",
+        "explanation": null
+      }
+    ]
+  },
+  "ShowConcentrations": {
+    "value": "Konzentrationen anzeigen",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Konzentrationen anzeigen",
+        "explanation": null
+      }
+    ]
+  },
+  "ShowPotentialChart": {
+    "value": "Potenzialdiagramm",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Potenzialdiagramm",
+        "explanation": null
+      }
+    ]
+  },
+  "SodiumChemicalSymbol": {
+    "value": "Na+",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Na+",
+        "explanation": null
+      }
+    ]
+  },
   "StimulateButton.caption": {
     "value": ""
   },
-  "ShowCharges": {
-    "value": "Ladungen anzeigen"
+  "allIons": {
+    "value": "alle Ionen",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "alle Ionen",
+        "explanation": null
+      }
+    ]
   },
-  "Legend.potassiumGatedChannel": {
-    "value": "Kaliumkanal, stimulierbar"
+  "charges": {
+    "value": "Ladungen",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Ladungen",
+        "explanation": null
+      }
+    ]
   },
-  "PotassiumChemicalSymbol": {
-    "value": "K+"
+  "chartClear": {
+    "value": "Grafik neu",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Grafik neu",
+        "explanation": null
+      }
+    ]
   },
-  "Legend.title": {
-    "value": "Beschreibung"
+  "chartTitle": {
+    "value": "Membranpotential vs. Zeit",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Membranpotential vs. Zeit",
+        "explanation": null
+      }
+    ]
   },
-  "ConcentrationReadoutPattern.0label.1value.2units": {
-    "value": "{0} [{1} {2}] "
+  "chartXAxisLabel": {
+    "value": "Zeit [ms]",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Zeit [ms]",
+        "explanation": null
+      }
+    ]
   },
-  "Chart.title": {
-    "value": "Membranpotenzial als Funktion der Zeit"
+  "chartYAxisLabel": {
+    "value": "Membranpotentiel [mV]",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Membranpotentiel [mV]",
+        "explanation": null
+      }
+    ]
   },
-  "neuron.title": {
-    "value": "Stimulation eines Neurons"
+  "concentrationReadoutPattern.0label.1value.2units": {
+    "value": "{0} [{1} {2}]",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718171,
+        "oldValue": "",
+        "newValue": "{0} [{1} {2}]",
+        "explanation": null
+      }
+    ]
   },
-  "units.mM": {
-    "value": "mM"
+  "concentrations": {
+    "value": "Konzentrationen",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Konzentrationen",
+        "explanation": null
+      }
+    ]
   },
-  "Legend.sodiumGatedChannel": {
-    "value": "Kanal, Natrium-aktiviert"
-  },
-  "ModuleTitle.AxonCrossSection": {
-    "value": "Aktionspotenzial"
-  },
-  "Chart.xAxisLabel": {
-    "value": "Zeit (ms)"
-  },
-  "ShowConcentrations": {
-    "value": "Konzentrationen anzeigen"
-  },
-  "Legend.sodiumIon": {
-    "value": "Natriumion (Na+)"
-  },
-  "ShowAllIons": {
-    "value": "Alle Ionen anzeigen"
-  },
-  "ShowPotentialChart": {
-    "value": "Potenzialdiagramm"
-  },
-  "Control.title": {
-    "value": "Kontrolle"
+  "fastForward": {
+    "value": "schnell",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "schnell",
+        "explanation": null
+      }
+    ]
   },
   "int.minControlPanelWidth": {
-    "value": "215"
+    "value": "215",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "215",
+        "explanation": null
+      }
+    ]
   },
-  "Chart.yAxisLabel": {
-    "value": "Mebranpotenzial (mV)"
+  "legend": {
+    "value": "Legende",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Legende",
+        "explanation": null
+      }
+    ]
+  },
+  "neuron.title": {
+    "value": "Stimulation eines Neurons",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Stimulation eines Neurons",
+        "explanation": null
+      }
+    ]
+  },
+  "normal": {
+    "value": "normal ",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "normal ",
+        "explanation": null
+      }
+    ]
+  },
+  "potassiumChemicalSymbol": {
+    "value": "K+",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "K+",
+        "explanation": null
+      }
+    ]
+  },
+  "potassiumGatedChannel": {
+    "value": "gesteuerter Kaliumkanal",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "gesteuerter Kaliumkanal",
+        "explanation": null
+      }
+    ]
+  },
+  "potassiumIon": {
+    "value": "Kalium Ion (K+)",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Kalium Ion (K+)",
+        "explanation": null
+      }
+    ]
+  },
+  "potassiumLeakChannel": {
+    "value": "durchlässiger K-Kanal",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "durchlässiger K-Kanal",
+        "explanation": null
+      }
+    ]
+  },
+  "potentialChart": {
+    "value": "Potential Grafik",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Potential Grafik",
+        "explanation": null
+      }
+    ]
+  },
+  "showLegend": {
+    "value": "Anzeigen",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Anzeigen",
+        "explanation": null
+      }
+    ]
+  },
+  "slowMotion": {
+    "value": "Zeitlupe",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Zeitlupe",
+        "explanation": null
+      }
+    ]
+  },
+  "sodiumChemicalSymbol": {
+    "value": "Na+",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Na+",
+        "explanation": null
+      }
+    ]
+  },
+  "sodiumGatedChannel": {
+    "value": "gesteuerter Natriumkanal",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "gesteuerter Natriumkanal",
+        "explanation": null
+      }
+    ]
+  },
+  "sodiumIon": {
+    "value": "Natrium Ion (Na+)",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Natrium Ion (Na+)",
+        "explanation": null
+      }
+    ]
+  },
+  "sodiumLeakChannel": {
+    "value": "durchlässiger Na-Kanal",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "durchlässiger Na-Kanal",
+        "explanation": null
+      }
+    ]
+  },
+  "stimulateNeuron": {
+    "value": "\nNeuron stimulieren",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "\nNeuron stimulieren",
+        "explanation": null
+      }
+    ]
   },
   "translation.credits": {
-    "value": "Caroline Lauth, Karval High School"
+    "value": "Caroline Lauth, Karval High School",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "Caroline Lauth, Karval High School",
+        "explanation": null
+      }
+    ]
   },
-  "Chart.clear": {
-    "value": "Löschen"
-  },
-  "Legend.sodiumLeakChannel": {
-    "value": "Natriumkanal, offen"
-  },
-  "Legend.potassiumLeakChannel": {
-    "value": "Kaliumkanal, offen"
-  },
-  "Legend.potassiumIon": {
-    "value": "Kaliumion (K+)"
-  },
-  "SodiumChemicalSymbol": {
-    "value": "Na+"
+  "units.mM": {
+    "value": "mM",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1462784718172,
+        "oldValue": "",
+        "newValue": "mM",
+        "explanation": null
+      }
+    ]
   }
 }
