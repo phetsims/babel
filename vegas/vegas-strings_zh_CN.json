@@ -278,7 +278,7 @@
       },
       {
         "userId": 293040,
-        "timestamp": 1472907134634,
+        "timestamp": 1472908394740,
         "oldValue": "你还没有结束游戏\r\n你确信要开始新的游戏么?",
         "newValue": "你还没有结束游戏\r\n你确信要开始新的游戏么?",
         "explanation": null
@@ -298,13 +298,20 @@
     ]
   },
   "pattern.0challenge.1max": {
-    "value": "挑战 {0} of {1}",
+    "value": "挑战 {0} / {1}",
     "history": [
       {
         "userId": 162142,
         "timestamp": 1458179753227,
         "oldValue": "",
         "newValue": "挑战 {0} of {1}",
+        "explanation": null
+      },
+      {
+        "userId": 293040,
+        "timestamp": 1472908394740,
+        "oldValue": "挑战 {0} of {1}",
+        "newValue": "挑战 {0} / {1}",
         "explanation": null
       }
     ]
@@ -365,6 +372,18 @@
         "timestamp": 1458179753228,
         "oldValue": "",
         "newValue": "开",
+        "explanation": null
+      }
+    ]
+  },
+  "selectLevel": {
+    "value": "选择难度",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1472908394740,
+        "oldValue": "",
+        "newValue": "选择难度",
         "explanation": null
       }
     ]
