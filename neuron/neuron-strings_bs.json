@@ -1,62 +1,464 @@
 {
+  "Chart.clear": {
+    "value": "Obriši grafik",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Obriši grafik",
+        "explanation": null
+      }
+    ]
+  },
+  "Chart.title": {
+    "value": "Potencijal membrane vs. Vrijeme",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Potencijal membrane vs. Vrijeme",
+        "explanation": null
+      }
+    ]
+  },
+  "Chart.xAxisLabel": {
+    "value": "Vrijeme (ms)",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Vrijeme (ms)",
+        "explanation": null
+      }
+    ]
+  },
+  "Chart.yAxisLabel": {
+    "value": "Potencijal membrane (mV)",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Potencijal membrane (mV)",
+        "explanation": null
+      }
+    ]
+  },
+  "Control.title": {
+    "value": "Kontrole",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Kontrole",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.potassiumGatedChannel": {
+    "value": "Kanal (vrata) za KALIJUM",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Kanal (vrata) za KALIJUM",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.potassiumIon": {
+    "value": "Kalijumov jon (K+)",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Kalijumov jon (K+)",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.potassiumLeakChannel": {
+    "value": "Procjep za Kalijum",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Procjep za Kalijum",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.sodiumGatedChannel": {
+    "value": "Kanal (vrata) za NATRIJUM",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Kanal (vrata) za NATRIJUM",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.sodiumIon": {
+    "value": "Natrijumov jon (Na+)",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Natrijumov jon (Na+)",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.sodiumLeakChannel": {
+    "value": "Procjep za Natrijum",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Procjep za Natrijum",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.title": {
+    "value": "Legenda",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Legenda",
+        "explanation": null
+      }
+    ]
+  },
+  "ModuleTitle.AxonCrossSection": {
+    "value": "Akcioni potencijal",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Akcioni potencijal",
+        "explanation": null
+      }
+    ]
+  },
+  "ShowAllIons": {
+    "value": "Pokaži sve jone",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Pokaži sve jone",
+        "explanation": null
+      }
+    ]
+  },
+  "ShowCharges": {
+    "value": "Pokaži naelektrisanja",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Pokaži naelektrisanja",
+        "explanation": null
+      }
+    ]
+  },
+  "ShowConcentrations": {
+    "value": "Pokaži koncentracije",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Pokaži koncentracije",
+        "explanation": null
+      }
+    ]
+  },
+  "ShowPotentialChart": {
+    "value": "Grafik Potencijala",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Grafik Potencijala",
+        "explanation": null
+      }
+    ]
+  },
   "StimulateButton.caption": {
     "value": ""
   },
-  "ShowCharges": {
-    "value": "Pokaži naelektrisanja"
+  "allIons": {
+    "value": "Svi joni ",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Svi joni ",
+        "explanation": null
+      }
+    ]
   },
-  "Legend.potassiumGatedChannel": {
-    "value": "Kanal (vrata) za KALIJUM"
+  "charges": {
+    "value": "Naelektrisanja",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Naelektrisanja",
+        "explanation": null
+      }
+    ]
   },
-  "Legend.title": {
-    "value": "Legenda"
+  "chartClear": {
+    "value": "Očisti",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Očisti",
+        "explanation": null
+      }
+    ]
   },
-  "Chart.title": {
-    "value": "Potencijal membrane vs. Vrijeme"
+  "chartTitle": {
+    "value": "Membranski potencijal vs. Vrijeme",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Membranski potencijal vs. Vrijeme",
+        "explanation": null
+      }
+    ]
+  },
+  "chartXAxisLabel": {
+    "value": "Vrijeme (ms)",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Vrijeme (ms)",
+        "explanation": null
+      }
+    ]
+  },
+  "chartYAxisLabel": {
+    "value": "Membranski potencijal (mV)",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Membranski potencijal (mV)",
+        "explanation": null
+      }
+    ]
+  },
+  "concentrations": {
+    "value": "Koncentracije",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Koncentracije",
+        "explanation": null
+      }
+    ]
+  },
+  "fastForward": {
+    "value": "Brzo naprijed",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Brzo naprijed",
+        "explanation": null
+      }
+    ]
+  },
+  "legend": {
+    "value": "Legenda",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Legenda",
+        "explanation": null
+      }
+    ]
   },
   "neuron.title": {
-    "value": "NEURON"
+    "value": "Neuron",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Neuron",
+        "explanation": null
+      }
+    ]
   },
-  "Legend.sodiumGatedChannel": {
-    "value": "Kanal (vrata) za NATRIJUM"
+  "normal": {
+    "value": "Normalno",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Normalno",
+        "explanation": null
+      }
+    ]
   },
-  "ModuleTitle.AxonCrossSection": {
-    "value": "Akcioni potencijal"
+  "potassiumGatedChannel": {
+    "value": "K+ pumpa",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "K+ pumpa",
+        "explanation": null
+      }
+    ]
   },
-  "Chart.xAxisLabel": {
-    "value": "Vrijeme (ms)"
+  "potassiumIon": {
+    "value": "Jon kalijuma (K+)",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Jon kalijuma (K+)",
+        "explanation": null
+      }
+    ]
   },
-  "ShowConcentrations": {
-    "value": "Pokaži koncentracije"
+  "potassiumLeakChannel": {
+    "value": "Kalijumski kanal za isticanje",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Kalijumski kanal za isticanje",
+        "explanation": null
+      }
+    ]
   },
-  "Legend.sodiumIon": {
-    "value": "Natrijumov jon (Na+)"
+  "potentialChart": {
+    "value": "Grafik potencijala",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Grafik potencijala",
+        "explanation": null
+      }
+    ]
   },
-  "ShowAllIons": {
-    "value": "Pokaži sve jone"
+  "showLegend": {
+    "value": "Pokaži",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Pokaži",
+        "explanation": null
+      }
+    ]
   },
-  "ShowPotentialChart": {
-    "value": "Grafik Potencijala"
+  "slowMotion": {
+    "value": "Usporeno kretanje",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Usporeno kretanje",
+        "explanation": null
+      }
+    ]
   },
-  "Control.title": {
-    "value": "Kontrole"
+  "sodiumGatedChannel": {
+    "value": "Na+ pumpa",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Na+ pumpa",
+        "explanation": null
+      }
+    ]
   },
-  "Chart.yAxisLabel": {
-    "value": "Potencijal membrane (mV)"
+  "sodiumIon": {
+    "value": "Jon natrijuma (Na+)",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Jon natrijuma (Na+)",
+        "explanation": null
+      }
+    ]
+  },
+  "sodiumLeakChannel": {
+    "value": "Natrijumski kanal za isticanje",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Natrijumski kanal za isticanje",
+        "explanation": null
+      }
+    ]
+  },
+  "stimulateNeuron": {
+    "value": "Stimuliši\nneuron",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474754510204,
+        "oldValue": "",
+        "newValue": "Stimuliši\nneuron",
+        "explanation": null
+      }
+    ]
   },
   "translation.credits": {
     "value": ""
-  },
-  "Chart.clear": {
-    "value": "Obriši grafik"
-  },
-  "Legend.sodiumLeakChannel": {
-    "value": "Procjep za Natrijum"
-  },
-  "Legend.potassiumLeakChannel": {
-    "value": "Procjep za Kalijum"
-  },
-  "Legend.potassiumIon": {
-    "value": "Kalijumov jon (K+)"
   }
 }
