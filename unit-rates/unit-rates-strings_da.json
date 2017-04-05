@@ -228,6 +228,13 @@
         "oldValue": "lbs",
         "newValue": "Kilo",
         "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1491422022016,
+        "oldValue": "Kilo",
+        "newValue": "lbs",
+        "explanation": null
       }
     ]
   },
@@ -299,6 +306,13 @@
         "oldValue": "mil",
         "newValue": "km",
         "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1491422022016,
+        "oldValue": "km",
+        "newValue": "mil",
+        "explanation": null
       }
     ]
   },
@@ -327,7 +341,7 @@
     ]
   },
   "pattern_0cost": {
-    "value": "${0}",
+    "value": "Kr.{0}",
     "history": [
       {
         "userId": 130982,
@@ -342,11 +356,18 @@
         "oldValue": "${0}",
         "newValue": "Kr{0}",
         "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1491422022016,
+        "oldValue": "Kr{0}",
+        "newValue": "Kr.{0}",
+        "explanation": null
       }
     ]
   },
   "pattern_0items_1cost": {
-    "value": "{0} for ${1}?",
+    "value": "{0} for Kr. {1}?",
     "history": [
       {
         "userId": 130982,
@@ -360,6 +381,13 @@
         "timestamp": 1491421713359,
         "oldValue": "{0} for ${1}?",
         "newValue": "{0} for Kr{1}?",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1491422022016,
+        "oldValue": "{0} for Kr{1}?",
+        "newValue": "{0} for Kr. {1}?",
         "explanation": null
       }
     ]
@@ -565,7 +593,7 @@
     ]
   },
   "rate1": {
-    "value": "Rate 1",
+    "value": "Pris 1",
     "history": [
       {
         "userId": 130982,
@@ -580,11 +608,18 @@
         "oldValue": "Pris 1",
         "newValue": "Rate 1",
         "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1491422022016,
+        "oldValue": "Rate 1",
+        "newValue": "Pris 1",
+        "explanation": null
       }
     ]
   },
   "rate2": {
-    "value": "Rate 2",
+    "value": "Pris 2",
     "history": [
       {
         "userId": 130982,
@@ -598,6 +633,13 @@
         "timestamp": 1491368755419,
         "oldValue": "Pris 2",
         "newValue": "Rate 2",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1491422022016,
+        "oldValue": "Rate 2",
+        "newValue": "Pris 2",
         "explanation": null
       }
     ]
@@ -718,7 +760,7 @@
     ]
   },
   "unitRateQuestion": {
-    "value": "Enhedsrate?",
+    "value": "Enhedspris?",
     "history": [
       {
         "userId": 130982,
@@ -732,6 +774,13 @@
         "timestamp": 1491368755419,
         "oldValue": "Enhedspris?",
         "newValue": "Enhedsrate?",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1491422022016,
+        "oldValue": "Enhedsrate?",
+        "newValue": "Enhedspris?",
         "explanation": null
       }
     ]
