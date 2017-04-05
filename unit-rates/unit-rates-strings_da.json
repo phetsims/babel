@@ -200,13 +200,6 @@
         "oldValue": "",
         "newValue": "lbs",
         "explanation": null
-      },
-      {
-        "userId": 130982,
-        "timestamp": 1491362944467,
-        "oldValue": "lbs",
-        "newValue": "pund",
-        "explanation": null
       }
     ]
   },
@@ -249,6 +242,13 @@
         "timestamp": 1491362178300,
         "oldValue": "mil",
         "newValue": "kilometre",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1491363103960,
+        "oldValue": "kilometre",
+        "newValue": "mil",
         "explanation": null
       }
     ]
@@ -302,7 +302,7 @@
     ]
   },
   "pattern_0value_1units": {
-    "value": "{0}{1}",
+    "value": "{0} {1}",
     "history": [
       {
         "userId": 130982,
@@ -313,7 +313,7 @@
       },
       {
         "userId": 130982,
-        "timestamp": 1491362944467,
+        "timestamp": 1491363103960,
         "oldValue": "{0}{1}",
         "newValue": "{0} {1}",
         "explanation": null
@@ -321,7 +321,7 @@
     ]
   },
   "pattern_costOf_0quantity_1units": {
-    "value": "Pris på {0}{1}?",
+    "value": "Pris på {0} {1}?",
     "history": [
       {
         "userId": 130982,
@@ -332,7 +332,7 @@
       },
       {
         "userId": 130982,
-        "timestamp": 1491362944467,
+        "timestamp": 1491363103960,
         "oldValue": "Pris på {0}{1}?",
         "newValue": "Pris på {0} {1}?",
         "explanation": null
