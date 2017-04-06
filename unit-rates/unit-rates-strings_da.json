@@ -111,6 +111,13 @@
         "oldValue": "$",
         "newValue": "Kr.",
         "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1491460647090,
+        "oldValue": "Kr.",
+        "newValue": "$",
+        "explanation": null
       }
     ]
   },
@@ -136,6 +143,13 @@
         "timestamp": 1491421713359,
         "oldValue": "Dollars ",
         "newValue": "Kroner",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1491460647090,
+        "oldValue": "Kroner",
+        "newValue": "Dollars ",
         "explanation": null
       }
     ]
@@ -341,7 +355,7 @@
     ]
   },
   "pattern_0cost": {
-    "value": "Kr.{0}",
+    "value": "${0}",
     "history": [
       {
         "userId": 130982,
@@ -363,11 +377,18 @@
         "oldValue": "Kr{0}",
         "newValue": "Kr.{0}",
         "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1491460647090,
+        "oldValue": "Kr.{0}",
+        "newValue": "${0}",
+        "explanation": null
       }
     ]
   },
   "pattern_0items_1cost": {
-    "value": "{0} for Kr. {1}?",
+    "value": "{0} for ${1}?",
     "history": [
       {
         "userId": 130982,
@@ -388,6 +409,13 @@
         "timestamp": 1491422022016,
         "oldValue": "{0} for Kr{1}?",
         "newValue": "{0} for Kr. {1}?",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1491460647090,
+        "oldValue": "{0} for Kr. {1}?",
+        "newValue": "{0} for ${1}?",
         "explanation": null
       }
     ]
@@ -508,6 +536,13 @@
         "oldValue": "Pund",
         "newValue": "Kilo",
         "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1491460647090,
+        "oldValue": "Kilo",
+        "newValue": "Pund",
+        "explanation": null
       }
     ]
   },
@@ -534,6 +569,13 @@
         "oldValue": "Pund",
         "newValue": "Kilo",
         "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1491460647090,
+        "oldValue": "Kilo",
+        "newValue": "pund",
+        "explanation": null
       }
     ]
   },
@@ -552,6 +594,13 @@
         "timestamp": 1491421713359,
         "oldValue": "Pund",
         "newValue": "Kilo",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1491460647090,
+        "oldValue": "Kilo",
+        "newValue": "Pund",
         "explanation": null
       }
     ]
