@@ -79,7 +79,7 @@
     ]
   },
   "pricePattern": {
-    "value": "${{price}}",
+    "value": "Kr. {{price}}",
     "history": [
       {
         "userId": 130982,
@@ -93,6 +93,13 @@
         "timestamp": 1496337201394,
         "oldValue": "${{pris}}",
         "newValue": "${{price}}",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1496472974753,
+        "oldValue": "${{price}}",
+        "newValue": "Kr. {{price}}",
         "explanation": null
       }
     ]
