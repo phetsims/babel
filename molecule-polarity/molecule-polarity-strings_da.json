@@ -215,6 +215,18 @@
       }
     ]
   },
+  "dipoleDirection": {
+    "value": "Dipol-retning",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1501095761990,
+        "oldValue": "",
+        "newValue": "Dipol-retning",
+        "explanation": null
+      }
+    ]
+  },
   "electricField": {
     "value": "Elektrisk felt",
     "history": [
@@ -384,13 +396,20 @@
     ]
   },
   "molecule": {
-    "value": "Molekyle",
+    "value": "Molekyle:",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1501095137850,
         "oldValue": "",
         "newValue": "Molekyle",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1501095761990,
+        "oldValue": "Molekyle",
+        "newValue": "Molekyle:",
         "explanation": null
       }
     ]
@@ -547,6 +566,30 @@
         "timestamp": 1501095137850,
         "oldValue": "",
         "newValue": "Atom {{navn}}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.dipoleDirection": {
+    "value": "{{fra}}  {{til}}",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1501095761990,
+        "oldValue": "",
+        "newValue": "{{fra}}  {{til}}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.symbolName": {
+    "value": "{{symbol}}({{navn}})",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1501095761990,
+        "oldValue": "",
+        "newValue": "{{symbol}}({{navn}})",
         "explanation": null
       }
     ]
