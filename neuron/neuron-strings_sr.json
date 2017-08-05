@@ -1,62 +1,473 @@
 {
+  "Chart.clear": {
+    "value": "Обриши график",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Обриши график",
+        "explanation": null
+      }
+    ]
+  },
+  "Chart.title": {
+    "value": "Потенцијал мембране vs. Време",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Потенцијал мембране vs. Време",
+        "explanation": null
+      }
+    ]
+  },
+  "Chart.xAxisLabel": {
+    "value": "Време (ms)",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Време (ms)",
+        "explanation": null
+      }
+    ]
+  },
+  "Chart.yAxisLabel": {
+    "value": "Потенцијал мембране (mV)",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Потенцијал мембране (mV)",
+        "explanation": null
+      }
+    ]
+  },
+  "Control.title": {
+    "value": "Контроле",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Контроле",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.potassiumGatedChannel": {
+    "value": "Канал (врата) за КАЛИЈУМ",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Канал (врата) за КАЛИЈУМ",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.potassiumIon": {
+    "value": "Калијумов јон (K+)",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Калијумов јон (K+)",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.potassiumLeakChannel": {
+    "value": "Процеп за Калијум",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Процеп за Калијум",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.sodiumGatedChannel": {
+    "value": "Канал (врата) за НАТРИЈУМ",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Канал (врата) за НАТРИЈУМ",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.sodiumIon": {
+    "value": "Натријумов јон  (Na+)",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Натријумов јон  (Na+)",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.sodiumLeakChannel": {
+    "value": "Процеп за Натријум",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Процеп за Натријум",
+        "explanation": null
+      }
+    ]
+  },
+  "Legend.title": {
+    "value": "легенда",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "легенда",
+        "explanation": null
+      }
+    ]
+  },
+  "ModuleTitle.AxonCrossSection": {
+    "value": "Акциони потенцијал",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Акциони потенцијал",
+        "explanation": null
+      }
+    ]
+  },
+  "ShowAllIons": {
+    "value": "Покажи све јоне",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Покажи све јоне",
+        "explanation": null
+      }
+    ]
+  },
+  "ShowCharges": {
+    "value": "Покажи наелектрисања",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Покажи наелектрисања",
+        "explanation": null
+      }
+    ]
+  },
+  "ShowConcentrations": {
+    "value": "Покажи концентрације",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Покажи концентрације",
+        "explanation": null
+      }
+    ]
+  },
+  "ShowPotentialChart": {
+    "value": "График Потенцијала",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "График Потенцијала",
+        "explanation": null
+      }
+    ]
+  },
   "StimulateButton.caption": {
     "value": ""
   },
-  "ShowCharges": {
-    "value": "Покажи наелектрисања"
+  "allIons": {
+    "value": "Сви јони",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Сви јони",
+        "explanation": null
+      }
+    ]
   },
-  "Legend.potassiumGatedChannel": {
-    "value": "Канал (врата) за КАЛИЈУМ"
+  "charges": {
+    "value": "Наелектрисања",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Наелектрисања",
+        "explanation": null
+      }
+    ]
   },
-  "Legend.title": {
-    "value": "легенда"
+  "chartClear": {
+    "value": "Почисти",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Почисти",
+        "explanation": null
+      }
+    ]
   },
-  "Chart.title": {
-    "value": "Потенцијал мембране vs. Време"
+  "chartTitle": {
+    "value": "Потенцијал мембране-Време",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Потенцијал мембране-Време",
+        "explanation": null
+      }
+    ]
   },
-  "neuron.title": {
-    "value": "НЕУРОН"
+  "chartXAxisLabel": {
+    "value": "време (ms)",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "време (ms)",
+        "explanation": null
+      }
+    ]
   },
-  "Legend.sodiumGatedChannel": {
-    "value": "Канал (врата) за НАТРИЈУМ"
+  "chartYAxisLabel": {
+    "value": "потенцијал мембране (mV)",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "потенцијал мембране (mV)",
+        "explanation": null
+      }
+    ]
   },
-  "ModuleTitle.AxonCrossSection": {
-    "value": "Акциони потенцијал"
+  "concentrations": {
+    "value": "Концентрације",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Концентрације",
+        "explanation": null
+      }
+    ]
   },
-  "Chart.xAxisLabel": {
-    "value": "Време (ms)"
-  },
-  "ShowConcentrations": {
-    "value": "Покажи концентрације"
-  },
-  "Legend.sodiumIon": {
-    "value": "Натријумов јон  (Na+)"
-  },
-  "ShowAllIons": {
-    "value": "Покажи све јоне"
-  },
-  "ShowPotentialChart": {
-    "value": "График Потенцијала"
+  "fastForward": {
+    "value": "убрзано",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "убрзано",
+        "explanation": null
+      }
+    ]
   },
   "int.minControlPanelWidth": {
-    "value": "220"
+    "value": "220",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "220",
+        "explanation": null
+      }
+    ]
   },
-  "Control.title": {
-    "value": "Контроле"
+  "legend": {
+    "value": "Легенда",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Легенда",
+        "explanation": null
+      }
+    ]
   },
-  "Chart.yAxisLabel": {
-    "value": "Потенцијал мембране (mV)"
+  "neuron.title": {
+    "value": "Неурон",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Неурон",
+        "explanation": null
+      }
+    ]
   },
-  "Chart.clear": {
-    "value": "Обриши график"
+  "normal": {
+    "value": "нормално",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "нормално",
+        "explanation": null
+      }
+    ]
   },
-  "Legend.sodiumLeakChannel": {
-    "value": "Процеп за Натријум"
+  "potassiumGatedChannel": {
+    "value": "Калијум канал затворен",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Калијум канал затворен",
+        "explanation": null
+      }
+    ]
   },
-  "Legend.potassiumLeakChannel": {
-    "value": "Процеп за Калијум"
+  "potassiumIon": {
+    "value": "Калијум јон (K+)",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Калијум јон (K+)",
+        "explanation": null
+      }
+    ]
   },
-  "Legend.potassiumIon": {
-    "value": "Калијумов јон (K+)"
+  "potassiumLeakChannel": {
+    "value": "Калијум канал пропушта",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Калијум канал пропушта",
+        "explanation": null
+      }
+    ]
+  },
+  "potentialChart": {
+    "value": "График потенцијала",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "График потенцијала",
+        "explanation": null
+      }
+    ]
+  },
+  "showLegend": {
+    "value": "Прикажи",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Прикажи",
+        "explanation": null
+      }
+    ]
+  },
+  "slowMotion": {
+    "value": "успорено",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "успорено",
+        "explanation": null
+      }
+    ]
+  },
+  "sodiumGatedChannel": {
+    "value": "Натријум канал затворен",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Натријум канал затворен",
+        "explanation": null
+      }
+    ]
+  },
+  "sodiumIon": {
+    "value": "Натријум јон (Na+)",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Натријум јон (Na+)",
+        "explanation": null
+      }
+    ]
+  },
+  "sodiumLeakChannel": {
+    "value": "Натријум канал пропушта",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Натријум канал пропушта",
+        "explanation": null
+      }
+    ]
+  },
+  "stimulateNeuron": {
+    "value": "Стимлација\nнеурона",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1501961779909,
+        "oldValue": "",
+        "newValue": "Стимлација\nнеурона",
+        "explanation": null
+      }
+    ]
   }
 }
