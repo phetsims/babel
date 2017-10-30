@@ -96,13 +96,20 @@
     ]
   },
   "currentUnits": {
-    "value": "{{strøm}} A",
+    "value": "{{current}} A",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1509383733272,
         "oldValue": "",
         "newValue": "{{strøm}} A",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1509385925287,
+        "oldValue": "{{strøm}} A",
+        "newValue": "{{current}} A",
         "explanation": null
       }
     ]
@@ -240,7 +247,7 @@
     ]
   },
   "resistanceOhms": {
-    "value": "{{modstand}} ohm",
+    "value": "{{resistance}} ohm",
     "history": [
       {
         "userId": 130982,
@@ -248,11 +255,18 @@
         "oldValue": "",
         "newValue": "{{modstand}} ohm",
         "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1509385925287,
+        "oldValue": "{{modstand}} ohm",
+        "newValue": "{{resistance}} ohm",
+        "explanation": null
       }
     ]
   },
   "resistanceOhmsSymbol": {
-    "value": "{{modstand}} Ω",
+    "value": "{{resistance}} Ω",
     "history": [
       {
         "userId": 130982,
@@ -260,17 +274,31 @@
         "oldValue": "",
         "newValue": "{{modstand}} Ω",
         "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1509385925287,
+        "oldValue": "{{modstand}} Ω",
+        "newValue": "{{resistance}} Ω",
+        "explanation": null
       }
     ]
   },
   "resistanceOhmsValuePattern": {
-    "value": "{{modstand}} ohm",
+    "value": "{{resistance}} ohm",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1509383733272,
         "oldValue": "",
         "newValue": "{{modstand}} ohm",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1509385925287,
+        "oldValue": "{{modstand}} ohm",
+        "newValue": "{{resistance}} ohm",
         "explanation": null
       }
     ]
@@ -384,7 +412,7 @@
     ]
   },
   "voltageUnits": {
-    "value": "{{spænding}} V",
+    "value": "{{voltage}} V",
     "history": [
       {
         "userId": 130982,
@@ -392,11 +420,18 @@
         "oldValue": "",
         "newValue": "{{spænding}} V",
         "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1509385925287,
+        "oldValue": "{{spænding}} V",
+        "newValue": "{{voltage}} V",
+        "explanation": null
       }
     ]
   },
   "voltageVoltsValuePattern": {
-    "value": "{{spænding}} volt",
+    "value": "{{voltage}} volt",
     "history": [
       {
         "userId": 130982,
@@ -410,6 +445,13 @@
         "timestamp": 1509384405599,
         "oldValue": "{spænding}} volt",
         "newValue": "{{spænding}} volt",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1509385925287,
+        "oldValue": "{{spænding}} volt",
+        "newValue": "{{voltage}} volt",
         "explanation": null
       }
     ]
