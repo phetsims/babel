@@ -1,24 +1,24 @@
 {
-  "button.newGame": {
-    "value": "Juego Nuevo",
+  "pattern.0yourBest": {
+    "value": "(Mejor puntuación: {0})",
     "history": [
       {
         "userId": 282036,
         "timestamp": 1480450631800,
         "oldValue": "",
-        "newValue": "Juego Nuevo",
+        "newValue": "(Mejor puntuación: {0})",
         "explanation": null
       }
     ]
   },
-  "button.start": {
-    "value": "¡Comenzar!",
+  "yourNewBest": {
+    "value": "(¡Nueva mejor puntuación!)",
     "history": [
       {
         "userId": 282036,
         "timestamp": 1480450631800,
         "oldValue": "",
-        "newValue": "¡Comenzar!",
+        "newValue": "(¡Nueva mejor puntuación!)",
         "explanation": null
       }
     ]
@@ -59,18 +59,6 @@
       }
     ]
   },
-  "format.time.best": {
-    "value": "{0} ({1})",
-    "history": [
-      {
-        "userId": 282036,
-        "timestamp": 1480450631800,
-        "oldValue": "",
-        "newValue": "{0} ({1})",
-        "explanation": null
-      }
-    ]
-  },
   "good": {
     "value": "¡Bien!",
     "history": [
@@ -107,18 +95,6 @@
       }
     ]
   },
-  "label.best": {
-    "value": "Mejor: {0}",
-    "history": [
-      {
-        "userId": 282036,
-        "timestamp": 1480450631800,
-        "oldValue": "",
-        "newValue": "Mejor: {0}",
-        "explanation": null
-      }
-    ]
-  },
   "label.level": {
     "value": "Nivel: {0}",
     "history": [
@@ -131,26 +107,14 @@
       }
     ]
   },
-  "label.levelControl": {
-    "value": "Nivel:",
+  "next": {
+    "value": "Siguiente",
     "history": [
       {
         "userId": 282036,
         "timestamp": 1480450631800,
         "oldValue": "",
-        "newValue": "Nivel:",
-        "explanation": null
-      }
-    ]
-  },
-  "label.newBest": {
-    "value": "!Nuevo MEJOR!",
-    "history": [
-      {
-        "userId": 282036,
-        "timestamp": 1480450631800,
-        "oldValue": "",
-        "newValue": "!Nuevo MEJOR!",
+        "newValue": "Siguiente",
         "explanation": null
       }
     ]
@@ -193,18 +157,6 @@
       }
     ]
   },
-  "label.score.max.perfect": {
-    "value": "Puntaje: {0} de {1}(!PERFECTO!)",
-    "history": [
-      {
-        "userId": 282036,
-        "timestamp": 1480450631800,
-        "oldValue": "",
-        "newValue": "Puntaje: {0} de {1}(!PERFECTO!)",
-        "explanation": null
-      }
-    ]
-  },
   "label.time": {
     "value": "Tiempo: {0}",
     "history": [
@@ -213,6 +165,126 @@
         "timestamp": 1480450631800,
         "oldValue": "",
         "newValue": "Tiempo: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "tryAgain": {
+    "value": "Intenta de nuevo",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1480450631800,
+        "oldValue": "",
+        "newValue": "Intenta de nuevo",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0minutes.1seconds": {
+    "value": "{0}:{1}",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1483988290959,
+        "oldValue": "",
+        "newValue": "{0}:{1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1483988290959,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      }
+    ]
+  },
+  "button.newGame": {
+    "value": "Juego Nuevo",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1480450631800,
+        "oldValue": "",
+        "newValue": "Juego Nuevo",
+        "explanation": null
+      }
+    ]
+  },
+  "button.start": {
+    "value": "¡Comenzar!",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1480450631800,
+        "oldValue": "",
+        "newValue": "¡Comenzar!",
+        "explanation": null
+      }
+    ]
+  },
+  "format.time.best": {
+    "value": "{0} ({1})",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1480450631800,
+        "oldValue": "",
+        "newValue": "{0} ({1})",
+        "explanation": null
+      }
+    ]
+  },
+  "label.best": {
+    "value": "Mejor: {0}",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1480450631800,
+        "oldValue": "",
+        "newValue": "Mejor: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "label.levelControl": {
+    "value": "Nivel:",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1480450631800,
+        "oldValue": "",
+        "newValue": "Nivel:",
+        "explanation": null
+      }
+    ]
+  },
+  "label.newBest": {
+    "value": "!Nuevo MEJOR!",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1480450631800,
+        "oldValue": "",
+        "newValue": "!Nuevo MEJOR!",
+        "explanation": null
+      }
+    ]
+  },
+  "label.score.max.perfect": {
+    "value": "Puntaje: {0} de {1}(!PERFECTO!)",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1480450631800,
+        "oldValue": "",
+        "newValue": "Puntaje: {0} de {1}(!PERFECTO!)",
         "explanation": null
       }
     ]
@@ -331,17 +403,12 @@
         "oldValue": "No ha terminado este juego.\r\n¿Está seguro que quiere empezar uno nuevo?",
         "newValue": "No ha terminado este juego.\r\n¿Está seguro que quiere empezar uno nuevo?",
         "explanation": null
-      }
-    ]
-  },
-  "next": {
-    "value": "Siguiente",
-    "history": [
+      },
       {
         "userId": 282036,
-        "timestamp": 1480450631800,
-        "oldValue": "",
-        "newValue": "Siguiente",
+        "timestamp": 1516646977045,
+        "oldValue": "No ha terminado este juego.\r\\n¿Está seguro que quiere empezar uno nuevo?",
+        "newValue": "No ha terminado este juego.\r\n¿Está seguro que quiere empezar uno nuevo?",
         "explanation": null
       }
     ]
@@ -354,42 +421,6 @@
         "timestamp": 1480457655697,
         "oldValue": "",
         "newValue": "Reto {0} de {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0hours.1minutes.2seconds": {
-    "value": "{0}:{1}:{2}",
-    "history": [
-      {
-        "userId": 282036,
-        "timestamp": 1483988290959,
-        "oldValue": "",
-        "newValue": "{0}:{1}:{2}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0minutes.1seconds": {
-    "value": "{0}:{1}",
-    "history": [
-      {
-        "userId": 282036,
-        "timestamp": 1483988290959,
-        "oldValue": "",
-        "newValue": "{0}:{1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0yourBest": {
-    "value": "(Mejor puntuación: {0})",
-    "history": [
-      {
-        "userId": 282036,
-        "timestamp": 1480450631800,
-        "oldValue": "",
-        "newValue": "(Mejor puntuación: {0})",
         "explanation": null
       }
     ]
@@ -474,30 +505,6 @@
         "timestamp": 1480450631800,
         "oldValue": "",
         "newValue": "Condiciones de Juego",
-        "explanation": null
-      }
-    ]
-  },
-  "tryAgain": {
-    "value": "Intenta de nuevo",
-    "history": [
-      {
-        "userId": 282036,
-        "timestamp": 1480450631800,
-        "oldValue": "",
-        "newValue": "Intenta de nuevo",
-        "explanation": null
-      }
-    ]
-  },
-  "yourNewBest": {
-    "value": "(¡Nueva mejor puntuación!)",
-    "history": [
-      {
-        "userId": 282036,
-        "timestamp": 1480450631800,
-        "oldValue": "",
-        "newValue": "(¡Nueva mejor puntuación!)",
         "explanation": null
       }
     ]
