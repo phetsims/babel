@@ -1,18 +1,6 @@
 {
-  "apple": {
-    "value": "Manzana",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1496733824060,
-        "oldValue": "",
-        "newValue": "Manzana",
-        "explanation": null
-      }
-    ]
-  },
   "appleCost": {
-    "value": "Precio de la manzana",
+    "value": "Costo de la manzana",
     "history": [
       {
         "userId": 155750,
@@ -26,6 +14,63 @@
         "timestamp": 1514506129725,
         "oldValue": "Precio de las manzanas",
         "newValue": "Precio de la manzana",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1516647822252,
+        "oldValue": "Precio de la manzana",
+        "newValue": "Costo de la manzana",
+        "explanation": null
+      }
+    ]
+  },
+  "apple": {
+    "value": "Manzana",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1496733824060,
+        "oldValue": "",
+        "newValue": "Manzana",
+        "explanation": null
+      }
+    ]
+  },
+  "pricePattern": {
+    "value": "${{price}}",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1496733824060,
+        "oldValue": "",
+        "newValue": "${{precio}}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1514506129725,
+        "oldValue": "${{precio}}",
+        "newValue": "${{price}}",
+        "explanation": null
+      }
+    ]
+  },
+  "totalCost": {
+    "value": "Costo total",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1496733824060,
+        "oldValue": "",
+        "newValue": "Coste total",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1516647822252,
+        "oldValue": "Coste total",
+        "newValue": "Costo total",
         "explanation": null
       }
     ]
@@ -66,6 +111,18 @@
       }
     ]
   },
+  "width": {
+    "value": "Anchura",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1496733824060,
+        "oldValue": "",
+        "newValue": "Anchura",
+        "explanation": null
+      }
+    ]
+  },
   "pattern": {
     "value": "Patrón",
     "history": [
@@ -74,37 +131,6 @@
         "timestamp": 1496733824060,
         "oldValue": "",
         "newValue": "Patrón",
-        "explanation": null
-      }
-    ]
-  },
-  "pricePattern": {
-    "value": "${{price}}",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1496733824060,
-        "oldValue": "",
-        "newValue": "${{precio}}",
-        "explanation": null
-      },
-      {
-        "userId": 282036,
-        "timestamp": 1514506129725,
-        "oldValue": "${{precio}}",
-        "newValue": "${{price}}",
-        "explanation": null
-      }
-    ]
-  },
-  "proportion-playground.title": {
-    "value": "Pista de juego de proporciones",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1496733824060,
-        "oldValue": "",
-        "newValue": "Pista de juego de proporciones",
         "explanation": null
       }
     ]
@@ -133,26 +159,14 @@
       }
     ]
   },
-  "totalCost": {
-    "value": "Coste total",
+  "proportion-playground.title": {
+    "value": "Pista de juego de proporciones",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1496733824060,
         "oldValue": "",
-        "newValue": "Coste total",
-        "explanation": null
-      }
-    ]
-  },
-  "width": {
-    "value": "Anchura",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1496733824060,
-        "oldValue": "",
-        "newValue": "Anchura",
+        "newValue": "Pista de juego de proporciones",
         "explanation": null
       }
     ]
