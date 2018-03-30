@@ -1,12 +1,12 @@
 {
-  "cobaltChloride": {
-    "value": "Koboltklorid",
+  "drinkMix": {
+    "value": "Blanding",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1446152592583,
         "oldValue": "",
-        "newValue": "Koboltklorid",
+        "newValue": "Blanding",
         "explanation": null
       }
     ]
@@ -23,8 +23,89 @@
       }
     ]
   },
+  "cobaltChloride": {
+    "value": "Kobolt(II)klorid",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1446152592583,
+        "oldValue": "",
+        "newValue": "Koboltklorid",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1522409236995,
+        "oldValue": "Koboltklorid",
+        "newValue": "Kobolt(II)klorid",
+        "explanation": null
+      }
+    ]
+  },
+  "potassiumDichromate": {
+    "value": "Kaliumdichromat",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1446152592583,
+        "oldValue": "",
+        "newValue": "Kaliumdichromat",
+        "explanation": null
+      }
+    ]
+  },
+  "goldIIIChloride": {
+    "value": "Guld(III)klorid",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1446152592583,
+        "oldValue": "",
+        "newValue": "Guld(III)chlorid",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1522409236995,
+        "oldValue": "Guld(III)chlorid",
+        "newValue": "Guld(III)klorid",
+        "explanation": null
+      }
+    ]
+  },
+  "potassiumChromate": {
+    "value": "Kaliumchromat",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1446152592583,
+        "oldValue": "",
+        "newValue": "Kaliumchromat",
+        "explanation": null
+      }
+    ]
+  },
+  "nickelIIChloride": {
+    "value": "Nikkel(II)klorid",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1446152592583,
+        "oldValue": "",
+        "newValue": "Nikkel(II)chlorid",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1522409236995,
+        "oldValue": "Nikkel(II)chlorid",
+        "newValue": "Nikkel(II)klorid",
+        "explanation": null
+      }
+    ]
+  },
   "copperSulfate": {
-    "value": "Kobbersulfat",
+    "value": "Kobber(II)sulfat",
     "history": [
       {
         "userId": 130982,
@@ -32,41 +113,48 @@
         "oldValue": "",
         "newValue": "Kobbersulfat",
         "explanation": null
-      }
-    ]
-  },
-  "drinkMix": {
-    "value": "Blanding",
-    "history": [
+      },
       {
         "userId": 130982,
-        "timestamp": 1446152592583,
-        "oldValue": "",
-        "newValue": "Blanding",
+        "timestamp": 1522409236995,
+        "oldValue": "Kobbersulfat",
+        "newValue": "Kobber(II)sulfat",
         "explanation": null
       }
     ]
   },
-  "full": {
-    "value": "fuld",
+  "potassiumPermanganate": {
+    "value": "Kaliumpermanganat",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1446152592583,
         "oldValue": "",
-        "newValue": "fuld",
+        "newValue": "Kaliumpermanganat",
         "explanation": null
       }
     ]
   },
-  "goldIIIChloride": {
-    "value": "Guld(III)chlorid",
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1446152592583,
         "oldValue": "",
-        "newValue": "Guld(III)chlorid",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "units.liters": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1446152592583,
+        "oldValue": "",
+        "newValue": "L",
         "explanation": null
       }
     ]
@@ -79,6 +167,128 @@
         "timestamp": 1446152592583,
         "oldValue": "",
         "newValue": "maksimal",
+        "explanation": null
+      }
+    ]
+  },
+  "molarity": {
+    "value": "Molaritet",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1446152592583,
+        "oldValue": "",
+        "newValue": "Molaritet",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.parentheses.0text": {
+    "value": "({0})",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1446152592583,
+        "oldValue": "",
+        "newValue": "({0})",
+        "explanation": null
+      }
+    ]
+  },
+  "solutionConcentration": {
+    "value": "Opløsnings-\nkoncentration",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1446152592583,
+        "oldValue": "",
+        "newValue": "Opløsningens\nkoncentration",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1446212649670,
+        "oldValue": "Opløsningens\nkoncentration",
+        "newValue": "Opløsning\nkoncentration",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1446402030206,
+        "oldValue": "Opløsning\nkoncentration",
+        "newValue": "Opløsnings-\nkoncentration",
+        "explanation": null
+      }
+    ]
+  },
+  "units.molarity": {
+    "value": "M",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1446152592583,
+        "oldValue": "",
+        "newValue": "M",
+        "explanation": null
+      }
+    ]
+  },
+  "zero": {
+    "value": "nul",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1446152592583,
+        "oldValue": "",
+        "newValue": "nul",
+        "explanation": null
+      }
+    ]
+  },
+  "saturated": {
+    "value": "Mættet!",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1446152592583,
+        "oldValue": "",
+        "newValue": "Mættet!",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0label": {
+    "value": "{0}:",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1446152592583,
+        "oldValue": "",
+        "newValue": "{0}:",
+        "explanation": null
+      }
+    ]
+  },
+  "solute": {
+    "value": "Opløst",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1446152592583,
+        "oldValue": "",
+        "newValue": "Opløst",
+        "explanation": null
+      }
+    ]
+  },
+  "full": {
+    "value": "fuld",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1446152592583,
+        "oldValue": "",
+        "newValue": "fuld",
         "explanation": null
       }
     ]
@@ -119,30 +329,6 @@
       }
     ]
   },
-  "molarity": {
-    "value": "Molaritet",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1446152592583,
-        "oldValue": "",
-        "newValue": "Molaritet",
-        "explanation": null
-      }
-    ]
-  },
-  "molarity.title": {
-    "value": "Molaritet",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1446152592583,
-        "oldValue": "",
-        "newValue": "Molaritet",
-        "explanation": null
-      }
-    ]
-  },
   "moles": {
     "value": "Mol",
     "history": [
@@ -162,18 +348,6 @@
       }
     ]
   },
-  "nickelIIChloride": {
-    "value": "Nikkel(II)chlorid",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1446152592583,
-        "oldValue": "",
-        "newValue": "Nikkel(II)chlorid",
-        "explanation": null
-      }
-    ]
-  },
   "none": {
     "value": "ingen",
     "history": [
@@ -182,90 +356,6 @@
         "timestamp": 1446152592583,
         "oldValue": "",
         "newValue": "ingen",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0label": {
-    "value": "{0}:",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1446152592583,
-        "oldValue": "",
-        "newValue": "{0}:",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0value.1units": {
-    "value": "{0} {1}",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1446152592583,
-        "oldValue": "",
-        "newValue": "{0} {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.parentheses.0text": {
-    "value": "({0})",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1446152592583,
-        "oldValue": "",
-        "newValue": "({0})",
-        "explanation": null
-      }
-    ]
-  },
-  "potassiumChromate": {
-    "value": "Kaliumchromat",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1446152592583,
-        "oldValue": "",
-        "newValue": "Kaliumchromat",
-        "explanation": null
-      }
-    ]
-  },
-  "potassiumDichromate": {
-    "value": "Kaliumdichromat",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1446152592583,
-        "oldValue": "",
-        "newValue": "Kaliumdichromat",
-        "explanation": null
-      }
-    ]
-  },
-  "potassiumPermanganate": {
-    "value": "Kaliumpermanganat",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1446152592583,
-        "oldValue": "",
-        "newValue": "Kaliumpermanganat",
-        "explanation": null
-      }
-    ]
-  },
-  "saturated": {
-    "value": "Mættet!",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1446152592583,
-        "oldValue": "",
-        "newValue": "Mættet!",
         "explanation": null
       }
     ]
@@ -282,18 +372,6 @@
       }
     ]
   },
-  "solute": {
-    "value": "Opløst",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1446152592583,
-        "oldValue": "",
-        "newValue": "Opløst",
-        "explanation": null
-      }
-    ]
-  },
   "soluteAmount": {
     "value": "Opløst\nmængde",
     "history": [
@@ -302,32 +380,6 @@
         "timestamp": 1446152592583,
         "oldValue": "",
         "newValue": "Opløst\nmængde",
-        "explanation": null
-      }
-    ]
-  },
-  "solutionConcentration": {
-    "value": "Opløsnings-\nkoncentration",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1446152592583,
-        "oldValue": "",
-        "newValue": "Opløsningens\nkoncentration",
-        "explanation": null
-      },
-      {
-        "userId": 130982,
-        "timestamp": 1446212649670,
-        "oldValue": "Opløsningens\nkoncentration",
-        "newValue": "Opløsning\nkoncentration",
-        "explanation": null
-      },
-      {
-        "userId": 130982,
-        "timestamp": 1446402030206,
-        "oldValue": "Opløsning\nkoncentration",
-        "newValue": "Opløsnings-\nkoncentration",
         "explanation": null
       }
     ]
@@ -351,30 +403,6 @@
       }
     ]
   },
-  "units.liters": {
-    "value": "L",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1446152592583,
-        "oldValue": "",
-        "newValue": "L",
-        "explanation": null
-      }
-    ]
-  },
-  "units.molarity": {
-    "value": "M",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1446152592583,
-        "oldValue": "",
-        "newValue": "M",
-        "explanation": null
-      }
-    ]
-  },
   "units.moles": {
     "value": "mol",
     "history": [
@@ -387,14 +415,14 @@
       }
     ]
   },
-  "zero": {
-    "value": "nul",
+  "molarity.title": {
+    "value": "Molaritet",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1446152592583,
         "oldValue": "",
-        "newValue": "nul",
+        "newValue": "Molaritet",
         "explanation": null
       }
     ]
