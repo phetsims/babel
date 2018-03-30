@@ -1,36 +1,67 @@
 {
-  "absorbance": {
-    "value": "Opsugningsevne",
+  "drinkMix": {
+    "value": "Blanding",
     "history": [
       {
         "userId": 130982,
-        "timestamp": 1454821362858,
+        "timestamp": 1447207823840,
         "oldValue": "",
-        "newValue": "Opsugningsevne",
+        "newValue": "Blanding",
         "explanation": null
       }
     ]
   },
-  "beers-law-lab.title": {
-    "value": "Beers lovlab",
+  "units.mM": {
+    "value": "mM",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1454821362858,
         "oldValue": "",
-        "newValue": "Beers lovlab",
+        "newValue": "mM",
+        "explanation": null
+      }
+    ]
+  },
+  "units.uM": {
+    "value": "µM",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1454821362858,
+        "oldValue": "",
+        "newValue": "µM",
+        "explanation": null
+      }
+    ]
+  },
+  "water": {
+    "value": "vand",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1447207823841,
+        "oldValue": "",
+        "newValue": "vand",
         "explanation": null
       }
     ]
   },
   "cobaltChloride": {
-    "value": "Coboltchlorid",
+    "value": "Cobolt(II)klorid",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1447207823840,
         "oldValue": "",
         "newValue": "Coboltchlorid",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1522408924146,
+        "oldValue": "Coboltchlorid",
+        "newValue": "Cobolt(II)klorid",
         "explanation": null
       }
     ]
@@ -47,20 +78,8 @@
       }
     ]
   },
-  "concentration": {
-    "value": "Koncentration",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1447207823840,
-        "oldValue": "",
-        "newValue": "Koncentration",
-        "explanation": null
-      }
-    ]
-  },
   "copperSulfate": {
-    "value": "Kobbersulfat",
+    "value": "Kobber(II)sulfat",
     "history": [
       {
         "userId": 130982,
@@ -68,59 +87,18 @@
         "oldValue": "",
         "newValue": "Kobbersulfat",
         "explanation": null
-      }
-    ]
-  },
-  "drinkMix": {
-    "value": "Blanding",
-    "history": [
+      },
       {
         "userId": 130982,
-        "timestamp": 1447207823840,
-        "oldValue": "",
-        "newValue": "Blanding",
-        "explanation": null
-      }
-    ]
-  },
-  "evaporation": {
-    "value": "Fordampning",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1447207823840,
-        "oldValue": "",
-        "newValue": "Fordampning",
-        "explanation": null
-      }
-    ]
-  },
-  "preset": {
-    "value": "nulstil",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1454821362858,
-        "oldValue": "",
-        "newValue": "nulstil",
-        "explanation": null
-      }
-    ]
-  },
-  "lots": {
-    "value": "stor",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1447207823840,
-        "oldValue": "",
-        "newValue": "stor",
+        "timestamp": 1522408924147,
+        "oldValue": "Kobbersulfat",
+        "newValue": "Kobber(II)sulfat",
         "explanation": null
       }
     ]
   },
   "nickelIIChloride": {
-    "value": "Nikkel(II)chlorid",
+    "value": "Nikkel(II)klorid",
     "history": [
       {
         "userId": 130982,
@@ -128,17 +106,12 @@
         "oldValue": "",
         "newValue": "Nikkel(II)chlorid",
         "explanation": null
-      }
-    ]
-  },
-  "none": {
-    "value": "ingen",
-    "history": [
+      },
       {
         "userId": 130982,
-        "timestamp": 1447207823840,
-        "oldValue": "",
-        "newValue": "ingen",
+        "timestamp": 1522408924147,
+        "oldValue": "Nikkel(II)chlorid",
+        "newValue": "Nikkel(II)klorid",
         "explanation": null
       }
     ]
@@ -155,30 +128,6 @@
       }
     ]
   },
-  "pattern.0label": {
-    "value": "{0}:",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1447207823841,
-        "oldValue": "",
-        "newValue": "{0}:",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0percent": {
-    "value": "{0}%",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1454821362858,
-        "oldValue": "",
-        "newValue": "{0}%",
-        "explanation": null
-      }
-    ]
-  },
   "pattern.0value.1units": {
     "value": "{0} {1}",
     "history": [
@@ -191,20 +140,8 @@
       }
     ]
   },
-  "pattern.parentheses.0text": {
-    "value": "({0})",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1447207823840,
-        "oldValue": "",
-        "newValue": "({0})",
-        "explanation": null
-      }
-    ]
-  },
   "potassiumChromate": {
-    "value": "Kaliumchromat",
+    "value": "Kaliumkromat",
     "history": [
       {
         "userId": 130982,
@@ -212,17 +149,31 @@
         "oldValue": "",
         "newValue": "Kaliumchromat",
         "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1522408924147,
+        "oldValue": "Kaliumchromat",
+        "newValue": "Kaliumkromat",
+        "explanation": null
       }
     ]
   },
   "potassiumDichromate": {
-    "value": "Kaliumdichromat",
+    "value": "Kaliumdikromat",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1447207823841,
         "oldValue": "",
         "newValue": "Kaliumdichromat",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1522408924147,
+        "oldValue": "Kaliumdichromat",
+        "newValue": "Kaliumdikromat",
         "explanation": null
       }
     ]
@@ -239,86 +190,26 @@
       }
     ]
   },
-  "removeSolute": {
-    "value": "Fjern opløst stof",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1447207823841,
-        "oldValue": "",
-        "newValue": "Fjern opløst stof",
-        "explanation": null
-      }
-    ]
-  },
-  "saturated": {
-    "value": "Mættet!",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1447207823841,
-        "oldValue": "",
-        "newValue": "Mættet!",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.beersLaw": {
-    "value": "Beers lov",
+  "absorbance": {
+    "value": "Opsugningsevne",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1454821362858,
         "oldValue": "",
-        "newValue": "Beers lov",
+        "newValue": "Opsugningsevne",
         "explanation": null
       }
     ]
   },
-  "screen.concentration": {
-    "value": "Koncentration",
+  "pattern.0percent": {
+    "value": "{0}%",
     "history": [
       {
         "userId": 130982,
-        "timestamp": 1447207823840,
+        "timestamp": 1454821362858,
         "oldValue": "",
-        "newValue": "Koncentration",
-        "explanation": null
-      }
-    ]
-  },
-  "solid": {
-    "value": "Fast",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1447207823841,
-        "oldValue": "",
-        "newValue": "Fast",
-        "explanation": null
-      }
-    ]
-  },
-  "solute": {
-    "value": "Opløst",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1447207823841,
-        "oldValue": "",
-        "newValue": "Opløst",
-        "explanation": null
-      }
-    ]
-  },
-  "solution": {
-    "value": "Opløsning",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1447207823841,
-        "oldValue": "",
-        "newValue": "Opløsning",
+        "newValue": "{0}%",
         "explanation": null
       }
     ]
@@ -347,38 +238,50 @@
       }
     ]
   },
-  "units.liters": {
-    "value": "L",
+  "concentration": {
+    "value": "Koncentration",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1447207823840,
         "oldValue": "",
-        "newValue": "L",
+        "newValue": "Koncentration",
         "explanation": null
       }
     ]
   },
-  "units.mM": {
-    "value": "mM",
+  "pattern.0label": {
+    "value": "{0}:",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1447207823841,
+        "oldValue": "",
+        "newValue": "{0}:",
+        "explanation": null
+      }
+    ]
+  },
+  "solution": {
+    "value": "Opløsning",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1447207823841,
+        "oldValue": "",
+        "newValue": "Opløsning",
+        "explanation": null
+      }
+    ]
+  },
+  "preset": {
+    "value": "nulstil",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1454821362858,
         "oldValue": "",
-        "newValue": "mM",
-        "explanation": null
-      }
-    ]
-  },
-  "units.molesPerLiter": {
-    "value": "mol/L",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1447207823840,
-        "oldValue": "",
-        "newValue": "mol/L",
+        "newValue": "nulstil",
         "explanation": null
       }
     ]
@@ -395,18 +298,6 @@
       }
     ]
   },
-  "units.uM": {
-    "value": "µM",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1454821362858,
-        "oldValue": "",
-        "newValue": "µM",
-        "explanation": null
-      }
-    ]
-  },
   "variable": {
     "value": "variabel",
     "history": [
@@ -419,18 +310,6 @@
       }
     ]
   },
-  "water": {
-    "value": "vand",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1447207823841,
-        "oldValue": "",
-        "newValue": "vand",
-        "explanation": null
-      }
-    ]
-  },
   "wavelength": {
     "value": "Bølgelængde",
     "history": [
@@ -439,6 +318,198 @@
         "timestamp": 1454821362858,
         "oldValue": "",
         "newValue": "Bølgelængde",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.beersLaw": {
+    "value": "Beers lov",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1454821362858,
+        "oldValue": "",
+        "newValue": "Beers lov",
+        "explanation": null
+      }
+    ]
+  },
+  "sodiumChloride": {
+    "value": "Natriumklorid",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1522408924147,
+        "oldValue": "",
+        "newValue": "Natriumklorid",
+        "explanation": null
+      }
+    ]
+  },
+  "units.liters": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1447207823840,
+        "oldValue": "",
+        "newValue": "L",
+        "explanation": null
+      }
+    ]
+  },
+  "units.milliliters": {
+    "value": "mL",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1522408924147,
+        "oldValue": "",
+        "newValue": "mL",
+        "explanation": null
+      }
+    ]
+  },
+  "units.molesPerLiter": {
+    "value": "mol/L",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1447207823840,
+        "oldValue": "",
+        "newValue": "mol/L",
+        "explanation": null
+      }
+    ]
+  },
+  "evaporation": {
+    "value": "Fordampning",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1447207823840,
+        "oldValue": "",
+        "newValue": "Fordampning",
+        "explanation": null
+      }
+    ]
+  },
+  "lots": {
+    "value": "stor",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1447207823840,
+        "oldValue": "",
+        "newValue": "stor",
+        "explanation": null
+      }
+    ]
+  },
+  "none": {
+    "value": "ingen",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1447207823840,
+        "oldValue": "",
+        "newValue": "ingen",
+        "explanation": null
+      }
+    ]
+  },
+  "removeSolute": {
+    "value": "Fjern opløst stof",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1447207823841,
+        "oldValue": "",
+        "newValue": "Fjern opløst stof",
+        "explanation": null
+      }
+    ]
+  },
+  "saturated": {
+    "value": "Mættet!",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1447207823841,
+        "oldValue": "",
+        "newValue": "Mættet!",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0soluteAmount": {
+    "value": "Opløst mængde: {0} g",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1522408924147,
+        "oldValue": "",
+        "newValue": "Opløst mængde: {0} g",
+        "explanation": null
+      }
+    ]
+  },
+  "solute": {
+    "value": "Opløst",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1447207823841,
+        "oldValue": "",
+        "newValue": "Opløst",
+        "explanation": null
+      }
+    ]
+  },
+  "solid": {
+    "value": "Fast",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1447207823841,
+        "oldValue": "",
+        "newValue": "Fast",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.concentration": {
+    "value": "Koncentration",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1447207823840,
+        "oldValue": "",
+        "newValue": "Koncentration",
+        "explanation": null
+      }
+    ]
+  },
+  "beers-law-lab.title": {
+    "value": "Beers lovlab",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1454821362858,
+        "oldValue": "",
+        "newValue": "Beers lovlab",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.parentheses.0text": {
+    "value": "({0})",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1447207823840,
+        "oldValue": "",
+        "newValue": "({0})",
         "explanation": null
       }
     ]
