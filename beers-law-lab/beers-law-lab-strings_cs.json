@@ -1,52 +1,4 @@
 {
-  "drinkMix": {
-    "value": "Vitacit",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1462985101811,
-        "oldValue": "",
-        "newValue": "Vitacit",
-        "explanation": null
-      }
-    ]
-  },
-  "units.mM": {
-    "value": "mmol/l",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1522393966682,
-        "oldValue": "",
-        "newValue": "mmol/l",
-        "explanation": null
-      }
-    ]
-  },
-  "units.uM": {
-    "value": "µmol/l",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1522393966682,
-        "oldValue": "",
-        "newValue": "µmol/l",
-        "explanation": null
-      }
-    ]
-  },
-  "water": {
-    "value": "voda",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1462985101812,
-        "oldValue": "",
-        "newValue": "voda",
-        "explanation": null
-      }
-    ]
-  },
   "cobaltChloride": {
     "value": "Chlorid kobaltnatý",
     "history": [
@@ -71,6 +23,30 @@
       }
     ]
   },
+  "screen.concentration": {
+    "value": "Koncentrace",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1462985101811,
+        "oldValue": "",
+        "newValue": "Koncentrace",
+        "explanation": null
+      }
+    ]
+  },
+  "concentration": {
+    "value": "Koncentrace",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1462985101811,
+        "oldValue": "",
+        "newValue": "Koncentrace",
+        "explanation": null
+      }
+    ]
+  },
   "copperSulfate": {
     "value": "Síran měďnatý",
     "history": [
@@ -79,6 +55,78 @@
         "timestamp": 1462985101811,
         "oldValue": "",
         "newValue": "Síran měďnatý",
+        "explanation": null
+      }
+    ]
+  },
+  "drinkMix": {
+    "value": "Vitacit",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1462985101811,
+        "oldValue": "",
+        "newValue": "Vitacit",
+        "explanation": null
+      }
+    ]
+  },
+  "evaporation": {
+    "value": "Vypařování",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1462985101812,
+        "oldValue": "",
+        "newValue": "Vypařování",
+        "explanation": null
+      }
+    ]
+  },
+  "units.liters": {
+    "value": "l",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1462985101812,
+        "oldValue": "",
+        "newValue": "l",
+        "explanation": null
+      }
+    ]
+  },
+  "lots": {
+    "value": "velké",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1462985101812,
+        "oldValue": "",
+        "newValue": "velké",
+        "explanation": null
+      }
+    ]
+  },
+  "units.milliliters": {
+    "value": "ml",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1522393966682,
+        "oldValue": "",
+        "newValue": "ml",
+        "explanation": null
+      }
+    ]
+  },
+  "units.molesPerLiter": {
+    "value": "mol/l",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1462985101812,
+        "oldValue": "",
+        "newValue": "mol/l",
         "explanation": null
       }
     ]
@@ -95,14 +143,14 @@
       }
     ]
   },
-  "pattern.0value.1units": {
-    "value": "{0} {1}",
+  "none": {
+    "value": "žádné",
     "history": [
       {
         "userId": 315698,
         "timestamp": 1462985101812,
         "oldValue": "",
-        "newValue": "{0} {1}",
+        "newValue": "žádné",
         "explanation": null
       }
     ]
@@ -143,26 +191,110 @@
       }
     ]
   },
-  "transmittance": {
-    "value": "Transmitance",
+  "removeSolute": {
+    "value": "Odstranit rozpuštěnou látku",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1462985101812,
+        "oldValue": "",
+        "newValue": "Odstranit rozpuštěnou látku",
+        "explanation": null
+      }
+    ]
+  },
+  "saturated": {
+    "value": "Nasycený!",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1462985101812,
+        "oldValue": "",
+        "newValue": "Nasycený!",
+        "explanation": null
+      }
+    ]
+  },
+  "sodiumChloride": {
+    "value": "Chlorid sodný",
     "history": [
       {
         "userId": 315698,
         "timestamp": 1522393966682,
         "oldValue": "",
-        "newValue": "Transmitance",
+        "newValue": "Chlorid sodný",
         "explanation": null
       }
     ]
   },
-  "concentration": {
-    "value": "Koncentrace",
+  "solid": {
+    "value": "Pevná látka",
     "history": [
       {
         "userId": 315698,
-        "timestamp": 1462985101811,
+        "timestamp": 1462985101812,
         "oldValue": "",
-        "newValue": "Koncentrace",
+        "newValue": "Pevná látka",
+        "explanation": null
+      }
+    ]
+  },
+  "solute": {
+    "value": "Rozpuštěná látka",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1462985101812,
+        "oldValue": "",
+        "newValue": "Rozpuštěná látka",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0soluteAmount": {
+    "value": "Množství rozpuštěné látky: {0} g",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1522393966682,
+        "oldValue": "",
+        "newValue": "Množství rozpuštěné látky: {0} g",
+        "explanation": null
+      }
+    ]
+  },
+  "solution": {
+    "value": "Roztok",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1462985101812,
+        "oldValue": "",
+        "newValue": "Roztok",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1462985101812,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0percent": {
+    "value": "{0}%",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1522394093045,
+        "oldValue": "",
+        "newValue": "{0}%",
         "explanation": null
       }
     ]
@@ -179,14 +311,50 @@
       }
     ]
   },
-  "solution": {
-    "value": "Roztok",
+  "units.mM": {
+    "value": "mmol/l",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1522393966682,
+        "oldValue": "",
+        "newValue": "mmol/l",
+        "explanation": null
+      }
+    ]
+  },
+  "units.uM": {
+    "value": "µmol/l",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1522393966682,
+        "oldValue": "",
+        "newValue": "µmol/l",
+        "explanation": null
+      }
+    ]
+  },
+  "water": {
+    "value": "voda",
     "history": [
       {
         "userId": 315698,
         "timestamp": 1462985101812,
         "oldValue": "",
-        "newValue": "Roztok",
+        "newValue": "voda",
+        "explanation": null
+      }
+    ]
+  },
+  "transmittance": {
+    "value": "Transmitance",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1522393966682,
+        "oldValue": "",
+        "newValue": "Transmitance",
         "explanation": null
       }
     ]
@@ -235,162 +403,6 @@
         "timestamp": 1522393966682,
         "oldValue": "",
         "newValue": "Lambertův-Beerův zákon",
-        "explanation": null
-      }
-    ]
-  },
-  "sodiumChloride": {
-    "value": "Chlorid sodný",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1522393966682,
-        "oldValue": "",
-        "newValue": "Chlorid sodný",
-        "explanation": null
-      }
-    ]
-  },
-  "units.liters": {
-    "value": "l",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1462985101812,
-        "oldValue": "",
-        "newValue": "l",
-        "explanation": null
-      }
-    ]
-  },
-  "units.milliliters": {
-    "value": "ml",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1522393966682,
-        "oldValue": "",
-        "newValue": "ml",
-        "explanation": null
-      }
-    ]
-  },
-  "units.molesPerLiter": {
-    "value": "mol/l",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1462985101812,
-        "oldValue": "",
-        "newValue": "mol/l",
-        "explanation": null
-      }
-    ]
-  },
-  "evaporation": {
-    "value": "Vypařování",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1462985101812,
-        "oldValue": "",
-        "newValue": "Vypařování",
-        "explanation": null
-      }
-    ]
-  },
-  "lots": {
-    "value": "velké",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1462985101812,
-        "oldValue": "",
-        "newValue": "velké",
-        "explanation": null
-      }
-    ]
-  },
-  "none": {
-    "value": "žádné",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1462985101812,
-        "oldValue": "",
-        "newValue": "žádné",
-        "explanation": null
-      }
-    ]
-  },
-  "removeSolute": {
-    "value": "Odstranit rozpuštěnou látku",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1462985101812,
-        "oldValue": "",
-        "newValue": "Odstranit rozpuštěnou látku",
-        "explanation": null
-      }
-    ]
-  },
-  "saturated": {
-    "value": "Nasycený!",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1462985101812,
-        "oldValue": "",
-        "newValue": "Nasycený!",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0soluteAmount": {
-    "value": "Množství rozpuštěné látky: {0} g",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1522393966682,
-        "oldValue": "",
-        "newValue": "Množství rozpuštěné látky: {0} g",
-        "explanation": null
-      }
-    ]
-  },
-  "solute": {
-    "value": "Rozpuštěná látka",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1462985101812,
-        "oldValue": "",
-        "newValue": "Rozpuštěná látka",
-        "explanation": null
-      }
-    ]
-  },
-  "solid": {
-    "value": "Pevná látka",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1462985101812,
-        "oldValue": "",
-        "newValue": "Pevná látka",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.concentration": {
-    "value": "Koncentrace",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1462985101811,
-        "oldValue": "",
-        "newValue": "Koncentrace",
         "explanation": null
       }
     ]
