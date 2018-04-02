@@ -1,4 +1,16 @@
 {
+  "questionMark": {
+    "value": ";",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1509435856222,
+        "oldValue": "",
+        "newValue": ";",
+        "explanation": null
+      }
+    ]
+  },
   "ammeter": {
     "value": "Αμπερόμετρο",
     "history": [
@@ -60,7 +72,7 @@
     ]
   },
   "coin": {
-    "value": "Νόμισμα",
+    "value": "Κέρμα",
     "history": [
       {
         "userId": 146870,
@@ -68,11 +80,18 @@
         "oldValue": "",
         "newValue": "Νόμισμα",
         "explanation": null
+      },
+      {
+        "userId": 170570,
+        "timestamp": 1522699701033,
+        "oldValue": "Νόμισμα",
+        "newValue": "Κέρμα",
+        "explanation": null
       }
     ]
   },
   "conventional": {
-    "value": "Φορά ρεύματος",
+    "value": "Συμβατική ",
     "history": [
       {
         "userId": 146870,
@@ -80,11 +99,18 @@
         "oldValue": "",
         "newValue": "Φορά ρεύματος",
         "explanation": null
+      },
+      {
+        "userId": 170570,
+        "timestamp": 1522699701033,
+        "oldValue": "Φορά ρεύματος",
+        "newValue": "Συμβατική ",
+        "explanation": null
       }
     ]
   },
   "current": {
-    "value": "Τρέχον κύκλωμα",
+    "value": "Φορα Ρεύματος",
     "history": [
       {
         "userId": 146870,
@@ -92,17 +118,12 @@
         "oldValue": "",
         "newValue": "Τρέχον κύκλωμα",
         "explanation": null
-      }
-    ]
-  },
-  "currentUnits": {
-    "value": "{{current}} A",
-    "history": [
+      },
       {
-        "userId": 146870,
-        "timestamp": 1509435856222,
-        "oldValue": "",
-        "newValue": "{{current}} A",
+        "userId": 170570,
+        "timestamp": 1522699701033,
+        "oldValue": "Τρέχον κύκλωμα",
+        "newValue": "Φορα Ρεύματος",
         "explanation": null
       }
     ]
@@ -139,13 +160,20 @@
     ]
   },
   "electrons": {
-    "value": "Ηλεκτρόνια",
+    "value": "Ηλεκτρονίων",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1509435856222,
         "oldValue": "",
         "newValue": "Ηλεκτρόνια",
+        "explanation": null
+      },
+      {
+        "userId": 170570,
+        "timestamp": 1522699701033,
+        "oldValue": "Ηλεκτρόνια",
+        "newValue": "Ηλεκτρονίων",
         "explanation": null
       }
     ]
@@ -187,13 +215,20 @@
     ]
   },
   "lightBulb": {
-    "value": "Λάμπα",
+    "value": "Λαμπτήρας",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1509435856222,
         "oldValue": "",
         "newValue": "Λάμπα",
+        "explanation": null
+      },
+      {
+        "userId": 170570,
+        "timestamp": 1522699701033,
+        "oldValue": "Λάμπα",
+        "newValue": "Λαμπτήρας",
         "explanation": null
       }
     ]
@@ -234,18 +269,6 @@
       }
     ]
   },
-  "questionMark": {
-    "value": ";",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1509435856222,
-        "oldValue": "",
-        "newValue": ";",
-        "explanation": null
-      }
-    ]
-  },
   "resistance": {
     "value": "Αντίσταση",
     "history": [
@@ -254,42 +277,6 @@
         "timestamp": 1509435856222,
         "oldValue": "",
         "newValue": "Αντίσταση",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhms": {
-    "value": "{{resistance}} ohms",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1509435856222,
-        "oldValue": "",
-        "newValue": "{{resistance}} ohms",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhmsSymbol": {
-    "value": "{{resistance}} Ω",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1509435856222,
-        "oldValue": "",
-        "newValue": "{{resistance}} Ω",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhmsValuePattern": {
-    "value": "{{resistance}} ohms",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1509435856222,
-        "oldValue": "",
-        "newValue": "{{resistance}} ohms",
         "explanation": null
       }
     ]
@@ -314,7 +301,7 @@
     ]
   },
   "showCurrent": {
-    "value": "Τρέχον κύκλωμα",
+    "value": "Προβολή φοράς ρεύματος",
     "history": [
       {
         "userId": 146870,
@@ -328,6 +315,13 @@
         "timestamp": 1509628501202,
         "oldValue": "Εμφάνιση τρέχοντος",
         "newValue": "Τρέχον κύκλωμα",
+        "explanation": null
+      },
+      {
+        "userId": 170570,
+        "timestamp": 1522699701033,
+        "oldValue": "Τρέχον κύκλωμα",
+        "newValue": "Προβολή φοράς ρεύματος",
         "explanation": null
       }
     ]
@@ -416,30 +410,6 @@
       }
     ]
   },
-  "voltageUnits": {
-    "value": "{{voltage}} V",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1509435856222,
-        "oldValue": "",
-        "newValue": "{{voltage}} V",
-        "explanation": null
-      }
-    ]
-  },
-  "voltageVoltsValuePattern": {
-    "value": "{{voltage}} volts",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1509435856222,
-        "oldValue": "",
-        "newValue": "{{voltage}} volts",
-        "explanation": null
-      }
-    ]
-  },
   "voltmeter": {
     "value": "Βολτόμετρο",
     "history": [
@@ -472,6 +442,78 @@
         "timestamp": 1509435856222,
         "oldValue": "",
         "newValue": "Αντίσταση καλωδίου",
+        "explanation": null
+      }
+    ]
+  },
+  "currentUnits": {
+    "value": "{{current}} A",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1509435856222,
+        "oldValue": "",
+        "newValue": "{{current}} A",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhms": {
+    "value": "{{resistance}} ohms",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1509435856222,
+        "oldValue": "",
+        "newValue": "{{resistance}} ohms",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhmsValuePattern": {
+    "value": "{{resistance}} ohms",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1509435856222,
+        "oldValue": "",
+        "newValue": "{{resistance}} ohms",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhmsSymbol": {
+    "value": "{{resistance}} Ω",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1509435856222,
+        "oldValue": "",
+        "newValue": "{{resistance}} Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageUnits": {
+    "value": "{{voltage}} V",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1509435856222,
+        "oldValue": "",
+        "newValue": "{{voltage}} V",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageVoltsValuePattern": {
+    "value": "{{voltage}} volts",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1509435856222,
+        "oldValue": "",
+        "newValue": "{{voltage}} volts",
         "explanation": null
       }
     ]
