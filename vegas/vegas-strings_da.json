@@ -1,4 +1,40 @@
 {
+  "pattern.0yourBest": {
+    "value": "(Din bedste: {0})",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1449654762914,
+        "oldValue": "",
+        "newValue": "(Din bedste: {0})",
+        "explanation": null
+      }
+    ]
+  },
+  "yourNewBest": {
+    "value": "(Din nye bedste!)",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1449654762914,
+        "oldValue": "",
+        "newValue": "(Din nye bedste!)",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0challenge.1max": {
+    "value": "Udfordring {0} af {1}",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1460113673782,
+        "oldValue": "",
+        "newValue": "Udfordring {0} af {1}",
+        "explanation": null
+      }
+    ]
+  },
   "check": {
     "value": "Tjek",
     "history": [
@@ -83,14 +119,26 @@
       }
     ]
   },
-  "label.score": {
-    "value": "Score: {0}",
+  "next": {
+    "value": "Næste",
     "history": [
       {
         "userId": 130982,
-        "timestamp": 1449654762914,
+        "timestamp": 1460113673782,
         "oldValue": "",
-        "newValue": "Score: {0}",
+        "newValue": "Næste",
+        "explanation": null
+      }
+    ]
+  },
+  "score": {
+    "value": "Score:",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1524650834531,
+        "oldValue": "",
+        "newValue": "Score:",
         "explanation": null
       }
     ]
@@ -107,86 +155,14 @@
       }
     ]
   },
-  "label.time": {
-    "value": "Tid: {0}",
+  "pattern.score.number": {
+    "value": "Score: {{score}}",
     "history": [
       {
         "userId": 130982,
-        "timestamp": 1449654762914,
+        "timestamp": 1524650834531,
         "oldValue": "",
-        "newValue": "Tid: {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "next": {
-    "value": "Næste",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1460113673782,
-        "oldValue": "",
-        "newValue": "Næste",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0challenge.1max": {
-    "value": "Udfordring {0} af {1}",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1460113673782,
-        "oldValue": "",
-        "newValue": "Udfordring {0} af {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0hours.1minutes.2seconds": {
-    "value": "{0}:{1}:{2}",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1449654762914,
-        "oldValue": "",
-        "newValue": "{0}:{1}:{2}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0minutes.1seconds": {
-    "value": "{0}:{1}",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1449654762914,
-        "oldValue": "",
-        "newValue": "{0}:{1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0yourBest": {
-    "value": "(Din bedste: {0})",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1449654762914,
-        "oldValue": "",
-        "newValue": "(Din bedste: {0})",
-        "explanation": null
-      }
-    ]
-  },
-  "selectLevel": {
-    "value": "Vælg niveau",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1460113673782,
-        "oldValue": "",
-        "newValue": "Vælg niveau",
+        "newValue": "Score: {{score}}",
         "explanation": null
       }
     ]
@@ -215,6 +191,18 @@
       }
     ]
   },
+  "label.time": {
+    "value": "Tid: {0}",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1449654762914,
+        "oldValue": "",
+        "newValue": "Tid: {0}",
+        "explanation": null
+      }
+    ]
+  },
   "tryAgain": {
     "value": "Prøv igen",
     "history": [
@@ -227,14 +215,50 @@
       }
     ]
   },
-  "yourNewBest": {
-    "value": "(Din nye bedste!)",
+  "pattern.0minutes.1seconds": {
+    "value": "{0}:{1}",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1449654762914,
         "oldValue": "",
-        "newValue": "(Din nye bedste!)",
+        "newValue": "{0}:{1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1449654762914,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      }
+    ]
+  },
+  "label.score": {
+    "value": "Score: {0}",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1449654762914,
+        "oldValue": "",
+        "newValue": "Score: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "selectLevel": {
+    "value": "Vælg niveau",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1460113673782,
+        "oldValue": "",
+        "newValue": "Vælg niveau",
         "explanation": null
       }
     ]
