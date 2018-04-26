@@ -1,4 +1,40 @@
 {
+  "pattern.0yourBest": {
+    "value": "(Il tuo punteggio migliore: {0})",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1449598573678,
+        "oldValue": "",
+        "newValue": "(Il tuo punteggio migliore: {0})",
+        "explanation": null
+      }
+    ]
+  },
+  "yourNewBest": {
+    "value": "(Il tuo nuovo record!)",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1449598573678,
+        "oldValue": "",
+        "newValue": "(Il tuo nuovo record!)",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0challenge.1max": {
+    "value": "Partita {0} di {1}",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1452453931065,
+        "oldValue": "",
+        "newValue": "Partita {0} di {1}",
+        "explanation": null
+      }
+    ]
+  },
   "check": {
     "value": "Controlla",
     "history": [
@@ -83,14 +119,26 @@
       }
     ]
   },
-  "label.score": {
-    "value": "Punteggio: {0} ",
+  "next": {
+    "value": "Successivo",
     "history": [
       {
         "userId": 157247,
-        "timestamp": 1449598573678,
+        "timestamp": 1452800028294,
         "oldValue": "",
-        "newValue": "Punteggio: {0} ",
+        "newValue": "Successivo",
+        "explanation": null
+      }
+    ]
+  },
+  "score": {
+    "value": "Punteggio:",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1524764382788,
+        "oldValue": "",
+        "newValue": "Punteggio:",
         "explanation": null
       }
     ]
@@ -107,69 +155,14 @@
       }
     ]
   },
-  "label.time": {
-    "value": "Tempo: {0}",
+  "pattern.score.number": {
+    "value": "Punteggio: {{score}}",
     "history": [
       {
         "userId": 157247,
-        "timestamp": 1449598573678,
+        "timestamp": 1524764382788,
         "oldValue": "",
-        "newValue": "tempo: {0}",
-        "explanation": null
-      },
-      {
-        "userId": 157247,
-        "timestamp": 1461602840342,
-        "oldValue": "tempo: {0}",
-        "newValue": "Tempo: {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "next": {
-    "value": "Successivo",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1452800028294,
-        "oldValue": "",
-        "newValue": "Successivo",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0challenge.1max": {
-    "value": "Partita {0} di {1}",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1452453931065,
-        "oldValue": "",
-        "newValue": "Partita {0} di {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0yourBest": {
-    "value": "(Il tuo punteggio migliore: {0})",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1449598573678,
-        "oldValue": "",
-        "newValue": "(Il tuo punteggio migliore: {0})",
-        "explanation": null
-      }
-    ]
-  },
-  "selectLevel": {
-    "value": "Scegli il livello",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1460138165501,
-        "oldValue": "",
-        "newValue": "Scegli il livello",
+        "newValue": "Punteggio: {{score}}",
         "explanation": null
       }
     ]
@@ -198,6 +191,25 @@
       }
     ]
   },
+  "label.time": {
+    "value": "Tempo: {0}",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1449598573678,
+        "oldValue": "",
+        "newValue": "tempo: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 157247,
+        "timestamp": 1461602840342,
+        "oldValue": "tempo: {0}",
+        "newValue": "Tempo: {0}",
+        "explanation": null
+      }
+    ]
+  },
   "tryAgain": {
     "value": "Riprova",
     "history": [
@@ -210,14 +222,26 @@
       }
     ]
   },
-  "yourNewBest": {
-    "value": "(Il tuo nuovo record!)",
+  "label.score": {
+    "value": "Punteggio: {0} ",
     "history": [
       {
         "userId": 157247,
         "timestamp": 1449598573678,
         "oldValue": "",
-        "newValue": "(Il tuo nuovo record!)",
+        "newValue": "Punteggio: {0} ",
+        "explanation": null
+      }
+    ]
+  },
+  "selectLevel": {
+    "value": "Scegli il livello",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1460138165501,
+        "oldValue": "",
+        "newValue": "Scegli il livello",
         "explanation": null
       }
     ]
