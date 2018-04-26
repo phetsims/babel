@@ -131,21 +131,14 @@
       }
     ]
   },
-  "label.score": {
-    "value": "Puntuación: {0}",
+  "score": {
+    "value": "Puntuación:",
     "history": [
       {
         "userId": 282036,
-        "timestamp": 1480450631800,
+        "timestamp": 1524762729336,
         "oldValue": "",
-        "newValue": "Puntaje: {0}",
-        "explanation": null
-      },
-      {
-        "userId": 282036,
-        "timestamp": 1480471677698,
-        "oldValue": "Puntaje: {0}",
-        "newValue": "Puntuación: {0}",
+        "newValue": "Puntuación:",
         "explanation": null
       }
     ]
@@ -165,6 +158,18 @@
         "timestamp": 1480471677698,
         "oldValue": "Puntaje: {0} de {1}",
         "newValue": "Puntuación: {0} de {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.score.number": {
+    "value": "Puntuación{{score}}",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1524762729336,
+        "oldValue": "",
+        "newValue": "Puntuación{{score}}",
         "explanation": null
       }
     ]
@@ -237,6 +242,25 @@
         "timestamp": 1483988290959,
         "oldValue": "",
         "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      }
+    ]
+  },
+  "label.score": {
+    "value": "Puntuación: {0}",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1480450631800,
+        "oldValue": "",
+        "newValue": "Puntaje: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1480471677698,
+        "oldValue": "Puntaje: {0}",
+        "newValue": "Puntuación: {0}",
         "explanation": null
       }
     ]
@@ -457,6 +481,13 @@
       {
         "userId": 282036,
         "timestamp": 1516647836454,
+        "oldValue": "No ha terminado este juego.\r\\n¿Está seguro que quiere empezar uno nuevo?",
+        "newValue": "No ha terminado este juego.\r\n¿Está seguro que quiere empezar uno nuevo?",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1524762729337,
         "oldValue": "No ha terminado este juego.\r\\n¿Está seguro que quiere empezar uno nuevo?",
         "newValue": "No ha terminado este juego.\r\n¿Está seguro que quiere empezar uno nuevo?",
         "explanation": null
