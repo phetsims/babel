@@ -1,4 +1,40 @@
 {
+  "pattern.0yourBest": {
+    "value": "(您的最佳紀錄：{0})",
+    "history": [
+      {
+        "userId": 184096,
+        "timestamp": 1451541923560,
+        "oldValue": "",
+        "newValue": "(您的最佳紀錄：{0})",
+        "explanation": null
+      }
+    ]
+  },
+  "yourNewBest": {
+    "value": "您剛創了新紀錄！",
+    "history": [
+      {
+        "userId": 184096,
+        "timestamp": 1451541923560,
+        "oldValue": "",
+        "newValue": "您剛創了新紀錄！",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0challenge.1max": {
+    "value": "第 {0} 關 / 共 {1} 關",
+    "history": [
+      {
+        "userId": 184096,
+        "timestamp": 1456919482365,
+        "oldValue": "",
+        "newValue": "第 {0} 關 / 共 {1} 關",
+        "explanation": null
+      }
+    ]
+  },
   "check": {
     "value": "檢查",
     "history": [
@@ -90,42 +126,6 @@
       }
     ]
   },
-  "label.score": {
-    "value": "得分: {0}",
-    "history": [
-      {
-        "userId": 184096,
-        "timestamp": 1451541923560,
-        "oldValue": "",
-        "newValue": "得分: {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "label.score.max": {
-    "value": "得分: 共 {1} 分, 得到 {0} 分",
-    "history": [
-      {
-        "userId": 184096,
-        "timestamp": 1451541923560,
-        "oldValue": "",
-        "newValue": "得分: 共 {1} 分, 得到 {0} 分",
-        "explanation": null
-      }
-    ]
-  },
-  "label.time": {
-    "value": "時間: {0}",
-    "history": [
-      {
-        "userId": 184096,
-        "timestamp": 1451541923560,
-        "oldValue": "",
-        "newValue": "時間: {0}",
-        "explanation": null
-      }
-    ]
-  },
   "next": {
     "value": "下一個",
     "history": [
@@ -138,62 +138,45 @@
       }
     ]
   },
-  "pattern.0challenge.1max": {
-    "value": "第 {0} 關 / 共 {1} 關",
+  "score": {
+    "value": "得分：",
     "history": [
       {
         "userId": 184096,
-        "timestamp": 1456919482365,
+        "timestamp": 1524981292478,
         "oldValue": "",
-        "newValue": "第 {0} 關 / 共 {1} 關",
+        "newValue": "得分：",
         "explanation": null
       }
     ]
   },
-  "pattern.0hours.1minutes.2seconds": {
-    "value": "{0}:{1}:{2}",
+  "label.score.max": {
+    "value": "得分：共 {1} 分, 得到 {0} 分",
     "history": [
       {
         "userId": 184096,
         "timestamp": 1451541923560,
         "oldValue": "",
-        "newValue": "{0}:{1}:{2}",
+        "newValue": "得分: 共 {1} 分, 得到 {0} 分",
+        "explanation": null
+      },
+      {
+        "userId": 184096,
+        "timestamp": 1524981292478,
+        "oldValue": "得分: 共 {1} 分, 得到 {0} 分",
+        "newValue": "得分：共 {1} 分, 得到 {0} 分",
         "explanation": null
       }
     ]
   },
-  "pattern.0minutes.1seconds": {
-    "value": "{0}:{1}",
+  "pattern.score.number": {
+    "value": "得分：{{score}}",
     "history": [
       {
         "userId": 184096,
-        "timestamp": 1451541923560,
+        "timestamp": 1524981292478,
         "oldValue": "",
-        "newValue": "{0}:{1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0yourBest": {
-    "value": "(您的最佳紀錄：{0})",
-    "history": [
-      {
-        "userId": 184096,
-        "timestamp": 1451541923560,
-        "oldValue": "",
-        "newValue": "(您的最佳紀錄：{0})",
-        "explanation": null
-      }
-    ]
-  },
-  "selectLevel": {
-    "value": "請選擇關卡",
-    "history": [
-      {
-        "userId": 184096,
-        "timestamp": 1469276499055,
-        "oldValue": "",
-        "newValue": "請選擇關卡",
+        "newValue": "得分：{{score}}",
         "explanation": null
       }
     ]
@@ -222,6 +205,18 @@
       }
     ]
   },
+  "label.time": {
+    "value": "時間: {0}",
+    "history": [
+      {
+        "userId": 184096,
+        "timestamp": 1451541923560,
+        "oldValue": "",
+        "newValue": "時間: {0}",
+        "explanation": null
+      }
+    ]
+  },
   "tryAgain": {
     "value": "再試一次",
     "history": [
@@ -234,14 +229,50 @@
       }
     ]
   },
-  "yourNewBest": {
-    "value": "您剛創了新紀錄！",
+  "pattern.0minutes.1seconds": {
+    "value": "{0}:{1}",
     "history": [
       {
         "userId": 184096,
         "timestamp": 1451541923560,
         "oldValue": "",
-        "newValue": "您剛創了新紀錄！",
+        "newValue": "{0}:{1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 184096,
+        "timestamp": 1451541923560,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      }
+    ]
+  },
+  "label.score": {
+    "value": "得分: {0}",
+    "history": [
+      {
+        "userId": 184096,
+        "timestamp": 1451541923560,
+        "oldValue": "",
+        "newValue": "得分: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "selectLevel": {
+    "value": "請選擇關卡",
+    "history": [
+      {
+        "userId": 184096,
+        "timestamp": 1469276499055,
+        "oldValue": "",
+        "newValue": "請選擇關卡",
         "explanation": null
       }
     ]
