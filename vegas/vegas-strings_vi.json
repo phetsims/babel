@@ -1,4 +1,47 @@
 {
+  "pattern.0yourBest": {
+    "value": "(Điểm cao nhất: {0})",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1449645365294,
+        "oldValue": "",
+        "newValue": "(Điểm cao nhất: {0})",
+        "explanation": null
+      }
+    ]
+  },
+  "yourNewBest": {
+    "value": "(Kỷ lục mới!)",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1449645365294,
+        "oldValue": "",
+        "newValue": "(Kỷ lục mới!)",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0challenge.1max": {
+    "value": "Câu đố {0}/{1}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1452239285204,
+        "oldValue": "",
+        "newValue": "Thách thức {0}/{1}",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1452830578920,
+        "oldValue": "Thách thức {0}/{1}",
+        "newValue": "Câu đố {0}/{1}",
+        "explanation": null
+      }
+    ]
+  },
   "check": {
     "value": "Chấm điểm",
     "history": [
@@ -90,14 +133,26 @@
       }
     ]
   },
-  "label.score": {
-    "value": "Điểm: {0}",
+  "next": {
+    "value": "Kế tiếp",
     "history": [
       {
         "userId": 137535,
-        "timestamp": 1449645365294,
+        "timestamp": 1460350759492,
         "oldValue": "",
-        "newValue": "Điểm: {0}",
+        "newValue": "Kế tiếp",
+        "explanation": null
+      }
+    ]
+  },
+  "score": {
+    "value": "Điểm:",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1525197330346,
+        "oldValue": "",
+        "newValue": "Điểm:",
         "explanation": null
       }
     ]
@@ -114,93 +169,14 @@
       }
     ]
   },
-  "label.time": {
-    "value": "Thời gian: {0}",
+  "pattern.score.number": {
+    "value": "Điểm: {{score}}",
     "history": [
       {
         "userId": 137535,
-        "timestamp": 1449645365294,
+        "timestamp": 1525197330346,
         "oldValue": "",
-        "newValue": "Thời gian: {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "next": {
-    "value": "Kế tiếp",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1460350759492,
-        "oldValue": "",
-        "newValue": "Kế tiếp",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0challenge.1max": {
-    "value": "Câu đố {0}/{1}",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1452239285204,
-        "oldValue": "",
-        "newValue": "Thách thức {0}/{1}",
-        "explanation": null
-      },
-      {
-        "userId": 137535,
-        "timestamp": 1452830578920,
-        "oldValue": "Thách thức {0}/{1}",
-        "newValue": "Câu đố {0}/{1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0hours.1minutes.2seconds": {
-    "value": "{0}:{1}:{2}",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1449645365294,
-        "oldValue": "",
-        "newValue": "{0}:{1}:{2}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0minutes.1seconds": {
-    "value": "{0}: {1}",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1449645365294,
-        "oldValue": "",
-        "newValue": "{0}: {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0yourBest": {
-    "value": "(Điểm cao nhất: {0})",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1449645365294,
-        "oldValue": "",
-        "newValue": "(Điểm cao nhất: {0})",
-        "explanation": null
-      }
-    ]
-  },
-  "selectLevel": {
-    "value": "Chọn mức độ",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1460350759492,
-        "oldValue": "",
-        "newValue": "Chọn mức độ",
+        "newValue": "Điểm: {{score}}",
         "explanation": null
       }
     ]
@@ -236,6 +212,18 @@
       }
     ]
   },
+  "label.time": {
+    "value": "Thời gian: {0}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1449645365294,
+        "oldValue": "",
+        "newValue": "Thời gian: {0}",
+        "explanation": null
+      }
+    ]
+  },
   "tryAgain": {
     "value": "Thử lại",
     "history": [
@@ -248,14 +236,50 @@
       }
     ]
   },
-  "yourNewBest": {
-    "value": "(Kỷ lục mới!)",
+  "pattern.0minutes.1seconds": {
+    "value": "{0}: {1}",
     "history": [
       {
         "userId": 137535,
         "timestamp": 1449645365294,
         "oldValue": "",
-        "newValue": "(Kỷ lục mới!)",
+        "newValue": "{0}: {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1449645365294,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      }
+    ]
+  },
+  "label.score": {
+    "value": "Điểm: {0}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1449645365294,
+        "oldValue": "",
+        "newValue": "Điểm: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "selectLevel": {
+    "value": "Chọn mức độ",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1460350759492,
+        "oldValue": "",
+        "newValue": "Chọn mức độ",
         "explanation": null
       }
     ]
