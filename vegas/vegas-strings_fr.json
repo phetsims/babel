@@ -1,4 +1,47 @@
 {
+  "pattern.0yourBest": {
+    "value": "(Votre meilleur score: {0})",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831529555,
+        "oldValue": "",
+        "newValue": "(Votre meilleur score: {0})",
+        "explanation": null
+      }
+    ]
+  },
+  "yourNewBest": {
+    "value": "(Votre nouveau meilleur score!)",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831529555,
+        "oldValue": "",
+        "newValue": "(Votre nouveau meilleur score: {0})",
+        "explanation": null
+      },
+      {
+        "userId": 147846,
+        "timestamp": 1497640618638,
+        "oldValue": "(Votre nouveau meilleur score: {0})",
+        "newValue": "(Votre nouveau meilleur score!)",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0challenge.1max": {
+    "value": "Défi {0} of {1}",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831529555,
+        "oldValue": "",
+        "newValue": "Défi {0} of {1}",
+        "explanation": null
+      }
+    ]
+  },
   "check": {
     "value": "Vérifier",
     "history": [
@@ -83,14 +126,26 @@
       }
     ]
   },
-  "label.score": {
-    "value": "Score : {0}",
+  "next": {
+    "value": "Prochain",
     "history": [
       {
         "userId": 237975,
-        "timestamp": 1453831529555,
+        "timestamp": 1468264755790,
         "oldValue": "",
-        "newValue": "Score : {0}",
+        "newValue": "Prochain",
+        "explanation": null
+      }
+    ]
+  },
+  "score": {
+    "value": "Score:",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1525895229607,
+        "oldValue": "",
+        "newValue": "Score:",
         "explanation": null
       }
     ]
@@ -107,86 +162,14 @@
       }
     ]
   },
-  "label.time": {
-    "value": "Temps : {0}",
+  "pattern.score.number": {
+    "value": "Score: {{score}}",
     "history": [
       {
-        "userId": 237975,
-        "timestamp": 1453831529556,
+        "userId": 147846,
+        "timestamp": 1525895229607,
         "oldValue": "",
-        "newValue": "Temps : {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "next": {
-    "value": "Prochain",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1468264755790,
-        "oldValue": "",
-        "newValue": "Prochain",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0challenge.1max": {
-    "value": "Défi {0} of {1}",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1453831529555,
-        "oldValue": "",
-        "newValue": "Défi {0} of {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0hours.1minutes.2seconds": {
-    "value": "{0}:{1}:{2}",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1453831529556,
-        "oldValue": "",
-        "newValue": "{0}:{1}:{2}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0minutes.1seconds": {
-    "value": "{0}:{1}",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1453831529556,
-        "oldValue": "",
-        "newValue": "{0}:{1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0yourBest": {
-    "value": "(Votre meilleur score: {0})",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1453831529555,
-        "oldValue": "",
-        "newValue": "(Votre meilleur score: {0})",
-        "explanation": null
-      }
-    ]
-  },
-  "selectLevel": {
-    "value": "Choisir un niveau",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1468264755790,
-        "oldValue": "",
-        "newValue": "Choisir un niveau",
+        "newValue": "Score: {{score}}",
         "explanation": null
       }
     ]
@@ -215,6 +198,18 @@
       }
     ]
   },
+  "label.time": {
+    "value": "Temps : {0}",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831529556,
+        "oldValue": "",
+        "newValue": "Temps : {0}",
+        "explanation": null
+      }
+    ]
+  },
   "tryAgain": {
     "value": "Réessayer",
     "history": [
@@ -227,21 +222,50 @@
       }
     ]
   },
-  "yourNewBest": {
-    "value": "(Votre nouveau meilleur score!)",
+  "pattern.0minutes.1seconds": {
+    "value": "{0}:{1}",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831529556,
+        "oldValue": "",
+        "newValue": "{0}:{1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831529556,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      }
+    ]
+  },
+  "label.score": {
+    "value": "Score : {0}",
     "history": [
       {
         "userId": 237975,
         "timestamp": 1453831529555,
         "oldValue": "",
-        "newValue": "(Votre nouveau meilleur score: {0})",
+        "newValue": "Score : {0}",
         "explanation": null
-      },
+      }
+    ]
+  },
+  "selectLevel": {
+    "value": "Choisir un niveau",
+    "history": [
       {
-        "userId": 147846,
-        "timestamp": 1497640618638,
-        "oldValue": "(Votre nouveau meilleur score: {0})",
-        "newValue": "(Votre nouveau meilleur score!)",
+        "userId": 237975,
+        "timestamp": 1468264755790,
+        "oldValue": "",
+        "newValue": "Choisir un niveau",
         "explanation": null
       }
     ]
