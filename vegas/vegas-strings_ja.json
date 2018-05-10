@@ -1,12 +1,24 @@
 {
-  "check": {
-    "value": "答え合わせ",
+  "pattern.0yourBest": {
+    "value": "最高点: {0}",
     "history": [
       {
-        "userId": 197169,
-        "timestamp": 1496324778242,
+        "userId": 450702,
+        "timestamp": 1525926864932,
         "oldValue": "",
-        "newValue": "答え合わせ",
+        "newValue": "最高点: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "yourNewBest": {
+    "value": "最高点更新",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1525926864932,
+        "oldValue": "",
+        "newValue": "最高点更新",
         "explanation": null
       }
     ]
@@ -59,14 +71,26 @@
       }
     ]
   },
-  "label.score": {
-    "value": "点数：{0}",
+  "keepTrying": {
+    "value": "トライ!トライ！",
     "history": [
       {
-        "userId": 197169,
-        "timestamp": 1496324778242,
+        "userId": 450702,
+        "timestamp": 1525926864932,
         "oldValue": "",
-        "newValue": "点数：{0}",
+        "newValue": "トライ!トライ！",
+        "explanation": null
+      }
+    ]
+  },
+  "label.level": {
+    "value": "レベル: {0}",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1525926864932,
+        "oldValue": "",
+        "newValue": "レベル: {0}",
         "explanation": null
       }
     ]
@@ -79,6 +103,66 @@
         "timestamp": 1496324778242,
         "oldValue": "",
         "newValue": "正解：{0} 点 / {1} 点",
+        "explanation": null
+      }
+    ]
+  },
+  "label.time": {
+    "value": "時間: {0}",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1525926864932,
+        "oldValue": "",
+        "newValue": "時間: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0minutes.1seconds": {
+    "value": "{0}:{1}",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1525926864932,
+        "oldValue": "",
+        "newValue": "{0}:{1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1525926864932,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      }
+    ]
+  },
+  "check": {
+    "value": "答え合わせ",
+    "history": [
+      {
+        "userId": 197169,
+        "timestamp": 1496324778242,
+        "oldValue": "",
+        "newValue": "答え合わせ",
+        "explanation": null
+      }
+    ]
+  },
+  "label.score": {
+    "value": "点数：{0}",
+    "history": [
+      {
+        "userId": 197169,
+        "timestamp": 1496324778242,
+        "oldValue": "",
+        "newValue": "点数：{0}",
         "explanation": null
       }
     ]
