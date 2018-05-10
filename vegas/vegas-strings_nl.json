@@ -1,24 +1,36 @@
 {
-  "button.newGame": {
-    "value": "Opnieuw",
+  "pattern.0yourBest": {
+    "value": "(Je beste: {0})",
     "history": [
       {
         "userId": 170730,
-        "timestamp": 1457174787735,
+        "timestamp": 1457174787734,
         "oldValue": "",
-        "newValue": "Opnieuw",
+        "newValue": "(Je beste: {0})",
         "explanation": null
       }
     ]
   },
-  "button.start": {
-    "value": "Start!",
+  "yourNewBest": {
+    "value": "(Je nieuwste beste!)",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1457174787735,
         "oldValue": "",
-        "newValue": "Start!",
+        "newValue": "(Je nieuwste beste!)",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0challenge.1max": {
+    "value": "Uitdaging {0} van {1}",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457174787735,
+        "oldValue": "",
+        "newValue": "Uitdaging {0} van {1}",
         "explanation": null
       }
     ]
@@ -55,18 +67,6 @@
         "timestamp": 1457174787735,
         "oldValue": "",
         "newValue": "Uitstekend!",
-        "explanation": null
-      }
-    ]
-  },
-  "format.time.best": {
-    "value": "{0} ({1})",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457174787735,
-        "oldValue": "",
-        "newValue": "{0} ({1})",
         "explanation": null
       }
     ]
@@ -114,18 +114,6 @@
       }
     ]
   },
-  "label.best": {
-    "value": "Beste: {0}",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457174787735,
-        "oldValue": "",
-        "newValue": "Beste: {0}",
-        "explanation": null
-      }
-    ]
-  },
   "label.level": {
     "value": "Niveau: {0}",
     "history": [
@@ -134,6 +122,174 @@
         "timestamp": 1457174787735,
         "oldValue": "",
         "newValue": "Niveau: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "next": {
+    "value": "Volgende",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457179994903,
+        "oldValue": "",
+        "newValue": "Volgende",
+        "explanation": null
+      }
+    ]
+  },
+  "score": {
+    "value": "Score:",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1525957692877,
+        "oldValue": "",
+        "newValue": "Score:",
+        "explanation": null
+      }
+    ]
+  },
+  "label.score.max": {
+    "value": "Score: {0} van {1}",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457174787735,
+        "oldValue": "",
+        "newValue": "Score: {0} van {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.score.number": {
+    "value": "Score: {{score}}",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1525957692877,
+        "oldValue": "",
+        "newValue": "Score: {{score}}",
+        "explanation": null
+      }
+    ]
+  },
+  "showAnswer": {
+    "value": "Toon antwoord",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457179994903,
+        "oldValue": "",
+        "newValue": "Toon antwoord",
+        "explanation": null
+      }
+    ]
+  },
+  "startOver": {
+    "value": "Start opnieuw",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457174787735,
+        "oldValue": "",
+        "newValue": "Start opnieuw",
+        "explanation": null
+      }
+    ]
+  },
+  "label.time": {
+    "value": "Tijd: {0}",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457174787735,
+        "oldValue": "",
+        "newValue": "Tijd: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "tryAgain": {
+    "value": "Probeer opnieuw",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457179994903,
+        "oldValue": "",
+        "newValue": "Probeer opnieuw",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0minutes.1seconds": {
+    "value": "{0}:{1}",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457174787735,
+        "oldValue": "",
+        "newValue": "{0}:{1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457174787735,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      }
+    ]
+  },
+  "button.newGame": {
+    "value": "Opnieuw",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457174787735,
+        "oldValue": "",
+        "newValue": "Opnieuw",
+        "explanation": null
+      }
+    ]
+  },
+  "button.start": {
+    "value": "Start!",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457174787735,
+        "oldValue": "",
+        "newValue": "Start!",
+        "explanation": null
+      }
+    ]
+  },
+  "format.time.best": {
+    "value": "{0} ({1})",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457174787735,
+        "oldValue": "",
+        "newValue": "{0} ({1})",
+        "explanation": null
+      }
+    ]
+  },
+  "label.best": {
+    "value": "Beste: {0}",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457174787735,
+        "oldValue": "",
+        "newValue": "Beste: {0}",
         "explanation": null
       }
     ]
@@ -174,18 +330,6 @@
       }
     ]
   },
-  "label.score.max": {
-    "value": "Score: {0} van {1}",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457174787735,
-        "oldValue": "",
-        "newValue": "Score: {0} van {1}",
-        "explanation": null
-      }
-    ]
-  },
   "label.score.max.perfect": {
     "value": "Score: {0} van {1} (PERFECT!)",
     "history": [
@@ -194,18 +338,6 @@
         "timestamp": 1457174787735,
         "oldValue": "",
         "newValue": "Score: {0} van {1} (PERFECT!)",
-        "explanation": null
-      }
-    ]
-  },
-  "label.time": {
-    "value": "Tijd: {0}",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457174787735,
-        "oldValue": "",
-        "newValue": "Tijd: {0}",
         "explanation": null
       }
     ]
@@ -401,65 +533,12 @@
         "oldValue": "Je hebt deze ronde nog niet afgemaakt.\r\nToch een nieuwe ronde starten?",
         "newValue": "Je hebt deze ronde nog niet afgemaakt.\r\nToch een nieuwe ronde starten?",
         "explanation": null
-      }
-    ]
-  },
-  "next": {
-    "value": "Volgende",
-    "history": [
+      },
       {
         "userId": 170730,
-        "timestamp": 1457179994903,
-        "oldValue": "",
-        "newValue": "Volgende",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0challenge.1max": {
-    "value": "Uitdaging {0} van {1}",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457174787735,
-        "oldValue": "",
-        "newValue": "Uitdaging {0} van {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0hours.1minutes.2seconds": {
-    "value": "{0}:{1}:{2}",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457174787735,
-        "oldValue": "",
-        "newValue": "{0}:{1}:{2}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0minutes.1seconds": {
-    "value": "{0}:{1}",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457174787735,
-        "oldValue": "",
-        "newValue": "{0}:{1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0yourBest": {
-    "value": "(Je beste: {0})",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457174787734,
-        "oldValue": "",
-        "newValue": "(Je beste: {0})",
+        "timestamp": 1525957692877,
+        "oldValue": "Je hebt deze ronde nog niet afgemaakt.\r\\nToch een nieuwe ronde starten?",
+        "newValue": "Je hebt deze ronde nog niet afgemaakt.\r\nToch een nieuwe ronde starten?",
         "explanation": null
       }
     ]
@@ -500,30 +579,6 @@
       }
     ]
   },
-  "showAnswer": {
-    "value": "Toon antwoord",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457179994903,
-        "oldValue": "",
-        "newValue": "Toon antwoord",
-        "explanation": null
-      }
-    ]
-  },
-  "startOver": {
-    "value": "Start opnieuw",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457174787735,
-        "oldValue": "",
-        "newValue": "Start opnieuw",
-        "explanation": null
-      }
-    ]
-  },
   "title.gameOver": {
     "value": "Einde spel",
     "history": [
@@ -544,30 +599,6 @@
         "timestamp": 1457174787735,
         "oldValue": "",
         "newValue": "Spelinstellingen",
-        "explanation": null
-      }
-    ]
-  },
-  "tryAgain": {
-    "value": "Probeer opnieuw",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457179994903,
-        "oldValue": "",
-        "newValue": "Probeer opnieuw",
-        "explanation": null
-      }
-    ]
-  },
-  "yourNewBest": {
-    "value": "(Je nieuwste beste!)",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457174787735,
-        "oldValue": "",
-        "newValue": "(Je nieuwste beste!)",
         "explanation": null
       }
     ]
