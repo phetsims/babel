@@ -1,24 +1,43 @@
 {
-  "button.newGame": {
-    "value": "Νέο παιχνίδι",
+  "pattern.0yourBest": {
+    "value": "(Η καλύτερη βαθμολογία σας: {0})",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1461862366569,
         "oldValue": "",
-        "newValue": "Νέο παιχνίδι",
+        "newValue": "(Η καλύτερη βαθμολογία σας: {0})",
         "explanation": null
       }
     ]
   },
-  "button.start": {
-    "value": "Έναρξη!",
+  "yourNewBest": {
+    "value": "(Η καλύτερη νέα βαθμολογία σας!)",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1461862366569,
         "oldValue": "",
-        "newValue": "Έναρξη!",
+        "newValue": "(Η καλύτερη νέα βαθμολογία σας!!)",
+        "explanation": null
+      },
+      {
+        "userId": 146870,
+        "timestamp": 1526382882201,
+        "oldValue": "(Η καλύτερη νέα βαθμολογία σας!!)",
+        "newValue": "(Η καλύτερη νέα βαθμολογία σας!)",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0challenge.1max": {
+    "value": "Βήμα {0} από {1}",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461862980977,
+        "oldValue": "",
+        "newValue": "Βήμα {0} από {1}",
         "explanation": null
       }
     ]
@@ -59,18 +78,6 @@
       }
     ]
   },
-  "format.time.best": {
-    "value": "{0} ({1})",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461862366569,
-        "oldValue": "",
-        "newValue": "{0} ({1})",
-        "explanation": null
-      }
-    ]
-  },
   "good": {
     "value": "Πολύ καλά!",
     "history": [
@@ -107,18 +114,6 @@
       }
     ]
   },
-  "label.best": {
-    "value": "Καλύτερο: {0}",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461862366569,
-        "oldValue": "",
-        "newValue": "Καλύτερο: {0}",
-        "explanation": null
-      }
-    ]
-  },
   "label.level": {
     "value": "Επίπεδο: {0}",
     "history": [
@@ -127,6 +122,174 @@
         "timestamp": 1461862366569,
         "oldValue": "",
         "newValue": "Επίπεδο: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "next": {
+    "value": "Επόμενο",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461862980978,
+        "oldValue": "",
+        "newValue": "Επόμενο",
+        "explanation": null
+      }
+    ]
+  },
+  "score": {
+    "value": "Βαθμολογία:",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1526382882201,
+        "oldValue": "",
+        "newValue": "Βαθμολογία:",
+        "explanation": null
+      }
+    ]
+  },
+  "label.score.max": {
+    "value": "Βαθμολογία: {0} από {1}",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461862366569,
+        "oldValue": "",
+        "newValue": "Βαθμολογία: {0} από {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.score.number": {
+    "value": "Βαθμολογία: {{score}}",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1526382882201,
+        "oldValue": "",
+        "newValue": "Βαθμολογία: {{score}}",
+        "explanation": null
+      }
+    ]
+  },
+  "showAnswer": {
+    "value": "Εμφάνιση απάντησης",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461862980978,
+        "oldValue": "",
+        "newValue": "Εμφάνιση απάντησης",
+        "explanation": null
+      }
+    ]
+  },
+  "startOver": {
+    "value": "Επανεκκίνηση",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461862980978,
+        "oldValue": "",
+        "newValue": "Επανεκκίνηση",
+        "explanation": null
+      }
+    ]
+  },
+  "label.time": {
+    "value": "Χρόνος: {0}",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461862366569,
+        "oldValue": "",
+        "newValue": "Χρόνος: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "tryAgain": {
+    "value": "Προσπάθησε πάλι",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461862980978,
+        "oldValue": "",
+        "newValue": "Προσπάθησε πάλι",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0minutes.1seconds": {
+    "value": "{0}:{1}",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461862366569,
+        "oldValue": "",
+        "newValue": "{0}:{1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461862366569,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      }
+    ]
+  },
+  "button.newGame": {
+    "value": "Νέο παιχνίδι",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461862366569,
+        "oldValue": "",
+        "newValue": "Νέο παιχνίδι",
+        "explanation": null
+      }
+    ]
+  },
+  "button.start": {
+    "value": "Έναρξη!",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461862366569,
+        "oldValue": "",
+        "newValue": "Έναρξη!",
+        "explanation": null
+      }
+    ]
+  },
+  "format.time.best": {
+    "value": "{0} ({1})",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461862366569,
+        "oldValue": "",
+        "newValue": "{0} ({1})",
+        "explanation": null
+      }
+    ]
+  },
+  "label.best": {
+    "value": "Καλύτερο: {0}",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461862366569,
+        "oldValue": "",
+        "newValue": "Καλύτερο: {0}",
         "explanation": null
       }
     ]
@@ -167,18 +330,6 @@
       }
     ]
   },
-  "label.score.max": {
-    "value": "Βαθμολογία: {0} από {1}",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461862366569,
-        "oldValue": "",
-        "newValue": "Βαθμολογία: {0} από {1}",
-        "explanation": null
-      }
-    ]
-  },
   "label.score.max.perfect": {
     "value": "Βαθμολογία: {0} από {1} (ΕΞΑΙΡΕΤΙΚΗ!)",
     "history": [
@@ -187,18 +338,6 @@
         "timestamp": 1461862366569,
         "oldValue": "",
         "newValue": "Βαθμολογία: {0} από {1} (ΕΞΑΙΡΕΤΙΚΗ!)",
-        "explanation": null
-      }
-    ]
-  },
-  "label.time": {
-    "value": "Χρόνος: {0}",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461862366569,
-        "oldValue": "",
-        "newValue": "Χρόνος: {0}",
         "explanation": null
       }
     ]
@@ -275,65 +414,12 @@
         "oldValue": "Δεν έχετε τελειώσει αυτό το παιχνίδι.\r\nΕίστε σίγουρος ότι θέλετε να ξεκινήσετε ένα νέο παιχνίδι;",
         "newValue": "Δεν έχετε τελειώσει αυτό το παιχνίδι.\r\nΕίστε σίγουρος ότι θέλετε να ξεκινήσετε ένα νέο παιχνίδι;",
         "explanation": null
-      }
-    ]
-  },
-  "next": {
-    "value": "Επόμενο",
-    "history": [
+      },
       {
         "userId": 146870,
-        "timestamp": 1461862980978,
-        "oldValue": "",
-        "newValue": "Επόμενο",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0challenge.1max": {
-    "value": "Βήμα {0} από {1}",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461862980977,
-        "oldValue": "",
-        "newValue": "Βήμα {0} από {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0hours.1minutes.2seconds": {
-    "value": "{0}:{1}:{2}",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461862366569,
-        "oldValue": "",
-        "newValue": "{0}:{1}:{2}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0minutes.1seconds": {
-    "value": "{0}:{1}",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461862366569,
-        "oldValue": "",
-        "newValue": "{0}:{1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0yourBest": {
-    "value": "(Η καλύτερη βαθμολογία σας: {0})",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461862366569,
-        "oldValue": "",
-        "newValue": "(Η καλύτερη βαθμολογία σας: {0})",
+        "timestamp": 1526382882202,
+        "oldValue": "Δεν έχετε τελειώσει αυτό το παιχνίδι.\r\\nΕίστε σίγουρος ότι θέλετε να ξεκινήσετε ένα νέο παιχνίδι;",
+        "newValue": "Δεν έχετε τελειώσει αυτό το παιχνίδι.\r\nΕίστε σίγουρος ότι θέλετε να ξεκινήσετε ένα νέο παιχνίδι;",
         "explanation": null
       }
     ]
@@ -374,30 +460,6 @@
       }
     ]
   },
-  "showAnswer": {
-    "value": "Εμφάνιση απάντησης",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461862980978,
-        "oldValue": "",
-        "newValue": "Εμφάνιση απάντησης",
-        "explanation": null
-      }
-    ]
-  },
-  "startOver": {
-    "value": "Επανεκκίνηση",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461862980978,
-        "oldValue": "",
-        "newValue": "Επανεκκίνηση",
-        "explanation": null
-      }
-    ]
-  },
   "title.gameOver": {
     "value": "Τέλος παιχνιδιού",
     "history": [
@@ -418,30 +480,6 @@
         "timestamp": 1461862366569,
         "oldValue": "",
         "newValue": "Ρυθμίσεις παιχνιδιού",
-        "explanation": null
-      }
-    ]
-  },
-  "tryAgain": {
-    "value": "Προσπάθησε πάλι",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461862980978,
-        "oldValue": "",
-        "newValue": "Προσπάθησε πάλι",
-        "explanation": null
-      }
-    ]
-  },
-  "yourNewBest": {
-    "value": "(Η καλύτερη νέα βαθμολογία σας!!)",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461862366569,
-        "oldValue": "",
-        "newValue": "(Η καλύτερη νέα βαθμολογία σας!!)",
         "explanation": null
       }
     ]
