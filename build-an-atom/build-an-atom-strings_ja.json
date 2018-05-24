@@ -1,74 +1,350 @@
 {
-  "ion": {
-    "value": "イオン"
-  },
-  "stableSlashUnstable": {
-    "value": "安定／不安定を表示"
-  },
-  "symbol": {
-    "value": "記号"
-  },
-  "findTheElement": {
-    "value": "元素を見つけて下さい"
-  },
-  "massNumber": {
-    "value": "質量数"
-  },
-  "atom": {
-    "value": "原子の生成"
-  },
-  "netCharge": {
-    "value": "正味電荷"
-  },
   "element": {
-    "value": "元素"
-  },
-  "orbits": {
-    "value": "軌道"
-  },
-  "model": {
-    "value": "表示モデル："
-  },
-  "whatIsTheMassNumber": {
-    "value": "質量数はいくら？"
-  },
-  "build-an-atom.title": {
-    "value": "原子を生成"
-  },
-  "whatIsTheTotalCharge": {
-    "value": "全電荷は？"
-  },
-  "electronsColon": {
-    "value": "電子数:"
-  },
-  "game": {
-    "value": "ゲーム"
-  },
-  "neutralAtom": {
-    "value": "中性原子"
+    "value": "元素",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "元素",
+        "explanation": null
+      }
+    ]
   },
   "neutralSlashIon": {
-    "value": "イオン／中性原子を表示"
+    "value": "イオン／中性原子を表示",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "イオン／中性原子を表示",
+        "explanation": null
+      }
+    ]
   },
-  "neutrons": {
-    "value": "中性子"
+  "stableSlashUnstable": {
+    "value": "安定／不安定を表示",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "安定／不安定を表示",
+        "explanation": null
+      }
+    ]
   },
-  "protonsColon": {
-    "value": "陽子数:"
+  "show": {
+    "value": "表示",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "表示",
+        "explanation": null
+      }
+    ]
+  },
+  "orbits": {
+    "value": "軌道",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "軌道",
+        "explanation": null
+      }
+    ]
   },
   "cloud": {
-    "value": "電子雲"
+    "value": "電子雲",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "電子雲",
+        "explanation": null
+      }
+    ]
   },
-  "neutronsColon": {
-    "value": "中性子数:"
-  },
-  "electrons": {
-    "value": "電子"
-  },
-  "isIt": {
-    "value": "これですか？"
+  "model": {
+    "value": "モデル：",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "モデル：",
+        "explanation": null
+      }
+    ]
   },
   "protons": {
-    "value": "陽子"
+    "value": "陽子",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "陽子",
+        "explanation": null
+      }
+    ]
+  },
+  "neutrons": {
+    "value": "中性子",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "中性子",
+        "explanation": null
+      }
+    ]
+  },
+  "electrons": {
+    "value": "電子",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "電子",
+        "explanation": null
+      }
+    ]
+  },
+  "massNumber": {
+    "value": "質量数",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "質量数",
+        "explanation": null
+      }
+    ]
+  },
+  "netCharge": {
+    "value": "正味電荷",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "正味電荷",
+        "explanation": null
+      }
+    ]
+  },
+  "atom": {
+    "value": "原子の生成",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "原子の生成",
+        "explanation": null
+      }
+    ]
+  },
+  "protonsColonPattern": {
+    "value": "陽子: {0}",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "陽子: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "neutronsColonPattern": {
+    "value": "中性子: {0}",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "中性子: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "electronsColonPattern": {
+    "value": "電子: {0}",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "電子: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "whatIsTheTotalCharge": {
+    "value": "全電荷は？",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "全電荷は？",
+        "explanation": null
+      }
+    ]
+  },
+  "findTheElement": {
+    "value": "この元素はどれ？",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "この元素はどれ？",
+        "explanation": null
+      }
+    ]
+  },
+  "ion": {
+    "value": "イオン",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "イオン",
+        "explanation": null
+      }
+    ]
+  },
+  "neutralAtom": {
+    "value": "中性原子",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "中性原子",
+        "explanation": null
+      }
+    ]
+  },
+  "isIt": {
+    "value": "どちらですか？",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "どちらですか？",
+        "explanation": null
+      }
+    ]
+  },
+  "whatIsTheMassNumber": {
+    "value": "質量数はいくら？",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "質量数はいくら？",
+        "explanation": null
+      }
+    ]
+  },
+  "protonsColon": {
+    "value": "陽子数:",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "陽子数:",
+        "explanation": null
+      }
+    ]
+  },
+  "neutronsColon": {
+    "value": "中性子数:",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "中性子数:",
+        "explanation": null
+      }
+    ]
+  },
+  "electronsColon": {
+    "value": "電子数:",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "電子数:",
+        "explanation": null
+      }
+    ]
+  },
+  "chooseYourGame": {
+    "value": "ゲームを選んでください！",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "ゲームを選んでください！",
+        "explanation": null
+      }
+    ]
+  },
+  "game": {
+    "value": "ゲーム",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "ゲーム",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol": {
+    "value": "記号",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "記号",
+        "explanation": null
+      }
+    ]
+  },
+  "build-an-atom.title": {
+    "value": "原子の生成",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1527138060617,
+        "oldValue": "",
+        "newValue": "原子の生成",
+        "explanation": null
+      }
+    ]
   }
 }
