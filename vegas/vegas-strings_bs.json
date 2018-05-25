@@ -1,4 +1,40 @@
 {
+  "pattern.0yourBest": {
+    "value": "(Tvoj najbolji rezultat: {0})",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474394862399,
+        "oldValue": "",
+        "newValue": "(Tvoj najbolji rezultat: {0})",
+        "explanation": null
+      }
+    ]
+  },
+  "yourNewBest": {
+    "value": "(Tvoj novi najbolji rezultat!)",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474394862399,
+        "oldValue": "",
+        "newValue": "(Tvoj novi najbolji rezultat!)",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0challenge.1max": {
+    "value": "Izazov {0} od {1}",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474395871994,
+        "oldValue": "",
+        "newValue": "Izazov {0} od {1}",
+        "explanation": null
+      }
+    ]
+  },
   "check": {
     "value": "Provjeri",
     "history": [
@@ -83,14 +119,26 @@
       }
     ]
   },
-  "label.score": {
-    "value": "Rezultat: {0}",
+  "next": {
+    "value": "Sljedeći",
     "history": [
       {
         "userId": 148734,
-        "timestamp": 1474394862399,
+        "timestamp": 1474395871994,
         "oldValue": "",
-        "newValue": "Rezultat: {0}",
+        "newValue": "Sljedeći",
+        "explanation": null
+      }
+    ]
+  },
+  "score": {
+    "value": "Rezultat: ",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1527287338849,
+        "oldValue": "",
+        "newValue": "Rezultat: ",
         "explanation": null
       }
     ]
@@ -107,62 +155,14 @@
       }
     ]
   },
-  "label.time": {
-    "value": "Vrijeme: {0}",
+  "pattern.score.number": {
+    "value": "Rezultat: {{score}}",
     "history": [
       {
         "userId": 148734,
-        "timestamp": 1474395871994,
+        "timestamp": 1527287338849,
         "oldValue": "",
-        "newValue": "Vrijeme: {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "next": {
-    "value": "Sljedeći",
-    "history": [
-      {
-        "userId": 148734,
-        "timestamp": 1474395871994,
-        "oldValue": "",
-        "newValue": "Sljedeći",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0challenge.1max": {
-    "value": "Izazov {0} od {1}",
-    "history": [
-      {
-        "userId": 148734,
-        "timestamp": 1474395871994,
-        "oldValue": "",
-        "newValue": "Izazov {0} od {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0yourBest": {
-    "value": "(Tvoj najbolji rezultat: {0})",
-    "history": [
-      {
-        "userId": 148734,
-        "timestamp": 1474394862399,
-        "oldValue": "",
-        "newValue": "(Tvoj najbolji rezultat: {0})",
-        "explanation": null
-      }
-    ]
-  },
-  "selectLevel": {
-    "value": "Izaberi nivo",
-    "history": [
-      {
-        "userId": 148734,
-        "timestamp": 1474395871994,
-        "oldValue": "",
-        "newValue": "Izaberi nivo",
+        "newValue": "Rezultat: {{score}}",
         "explanation": null
       }
     ]
@@ -191,6 +191,18 @@
       }
     ]
   },
+  "label.time": {
+    "value": "Vrijeme: {0}",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474395871994,
+        "oldValue": "",
+        "newValue": "Vrijeme: {0}",
+        "explanation": null
+      }
+    ]
+  },
   "tryAgain": {
     "value": "Pokušaj ponovo",
     "history": [
@@ -203,14 +215,26 @@
       }
     ]
   },
-  "yourNewBest": {
-    "value": "(Tvoj novi najbolji rezultat!)",
+  "label.score": {
+    "value": "Rezultat: {0}",
     "history": [
       {
         "userId": 148734,
         "timestamp": 1474394862399,
         "oldValue": "",
-        "newValue": "(Tvoj novi najbolji rezultat!)",
+        "newValue": "Rezultat: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "selectLevel": {
+    "value": "Izaberi nivo",
+    "history": [
+      {
+        "userId": 148734,
+        "timestamp": 1474395871994,
+        "oldValue": "",
+        "newValue": "Izaberi nivo",
         "explanation": null
       }
     ]
