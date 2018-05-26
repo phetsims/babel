@@ -1,4 +1,54 @@
 {
+  "pattern.0yourBest": {
+    "value": "(Dein Rekord: {0})",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1454851110265,
+        "oldValue": "",
+        "newValue": "(Dein Rekord: {0})",
+        "explanation": null
+      }
+    ]
+  },
+  "yourNewBest": {
+    "value": "(Dein neuer Rekord!)",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1454851110265,
+        "oldValue": "",
+        "newValue": "(Dein neuer Rekord!)",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0challenge.1max": {
+    "value": "Herausforderung {0} von {1}",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1454851110265,
+        "oldValue": "",
+        "newValue": "Herausforderung {0} von {1}",
+        "explanation": null
+      },
+      {
+        "userId": 272196,
+        "timestamp": 1454861528735,
+        "oldValue": "Herausforderung {0} von {1}",
+        "newValue": "Aufgabe {0} von {1}",
+        "explanation": null
+      },
+      {
+        "userId": 272196,
+        "timestamp": 1473760656382,
+        "oldValue": "Aufgabe {0} von {1}",
+        "newValue": "Herausforderung {0} von {1}",
+        "explanation": null
+      }
+    ]
+  },
   "check": {
     "value": "Prüfen",
     "history": [
@@ -60,13 +110,20 @@
     ]
   },
   "keepTrying": {
-    "value": "Mach weiter",
+    "value": "mach weiter",
     "history": [
       {
         "userId": 272196,
         "timestamp": 1454851110265,
         "oldValue": "",
         "newValue": "Mach weiter",
+        "explanation": null
+      },
+      {
+        "userId": 272196,
+        "timestamp": 1527358418799,
+        "oldValue": "Mach weiter",
+        "newValue": "mach weiter",
         "explanation": null
       }
     ]
@@ -83,14 +140,26 @@
       }
     ]
   },
-  "label.score": {
-    "value": "Resultat: {0}",
+  "next": {
+    "value": "Weiter",
     "history": [
       {
         "userId": 272196,
-        "timestamp": 1454851110266,
+        "timestamp": 1454861838705,
         "oldValue": "",
-        "newValue": "Resultat: {0}",
+        "newValue": "Weiter",
+        "explanation": null
+      }
+    ]
+  },
+  "score": {
+    "value": "Resultat:",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1527358418799,
+        "oldValue": "",
+        "newValue": "Resultat:",
         "explanation": null
       }
     ]
@@ -107,100 +176,14 @@
       }
     ]
   },
-  "label.time": {
-    "value": "Zeit {0}",
+  "pattern.score.number": {
+    "value": "Resultat: {{score}}",
     "history": [
       {
         "userId": 272196,
-        "timestamp": 1454851110266,
+        "timestamp": 1527358418799,
         "oldValue": "",
-        "newValue": "Zeit {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "next": {
-    "value": "Weiter",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1454861838705,
-        "oldValue": "",
-        "newValue": "Weiter",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0challenge.1max": {
-    "value": "Herausforderung {0} von {1}",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1454851110265,
-        "oldValue": "",
-        "newValue": "Herausforderung {0} von {1}",
-        "explanation": null
-      },
-      {
-        "userId": 272196,
-        "timestamp": 1454861528735,
-        "oldValue": "Herausforderung {0} von {1}",
-        "newValue": "Aufgabe {0} von {1}",
-        "explanation": null
-      },
-      {
-        "userId": 272196,
-        "timestamp": 1473760656382,
-        "oldValue": "Aufgabe {0} von {1}",
-        "newValue": "Herausforderung {0} von {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0hours.1minutes.2seconds": {
-    "value": "{0}:{1}:{2}",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1454851110266,
-        "oldValue": "",
-        "newValue": "{0}:{1}:{2}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0minutes.1seconds": {
-    "value": "{0}:{1}",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1454851110266,
-        "oldValue": "",
-        "newValue": "{0}:{1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0yourBest": {
-    "value": "(Dein Rekord: {0})",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1454851110265,
-        "oldValue": "",
-        "newValue": "(Dein Rekord: {0})",
-        "explanation": null
-      }
-    ]
-  },
-  "selectLevel": {
-    "value": "Niveau wählen",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1474221914905,
-        "oldValue": "",
-        "newValue": "Niveau wählen",
+        "newValue": "Resultat: {{score}}",
         "explanation": null
       }
     ]
@@ -229,6 +212,18 @@
       }
     ]
   },
+  "label.time": {
+    "value": "Zeit {0}",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1454851110266,
+        "oldValue": "",
+        "newValue": "Zeit {0}",
+        "explanation": null
+      }
+    ]
+  },
   "tryAgain": {
     "value": "Nochmals",
     "history": [
@@ -241,14 +236,50 @@
       }
     ]
   },
-  "yourNewBest": {
-    "value": "(Dein neuer Rekord!)",
+  "pattern.0minutes.1seconds": {
+    "value": "{0}:{1}",
     "history": [
       {
         "userId": 272196,
-        "timestamp": 1454851110265,
+        "timestamp": 1454851110266,
         "oldValue": "",
-        "newValue": "(Dein neuer Rekord!)",
+        "newValue": "{0}:{1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1454851110266,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      }
+    ]
+  },
+  "label.score": {
+    "value": "Resultat: {0}",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1454851110266,
+        "oldValue": "",
+        "newValue": "Resultat: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "selectLevel": {
+    "value": "Niveau wählen",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1474221914905,
+        "oldValue": "",
+        "newValue": "Niveau wählen",
         "explanation": null
       }
     ]
