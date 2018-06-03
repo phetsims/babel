@@ -1,4 +1,40 @@
 {
+  "pattern.0yourBest": {
+    "value": "(Paras tuloksesi: {0})",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085668129,
+        "oldValue": "",
+        "newValue": "(Paras tuloksesi: {0})",
+        "explanation": null
+      }
+    ]
+  },
+  "yourNewBest": {
+    "value": "(Uusi ennätyksesi!)",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085668129,
+        "oldValue": "",
+        "newValue": "(Uusi ennätyksesi!)",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0challenge.1max": {
+    "value": "Haaste {0}/{1}",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085729974,
+        "oldValue": "",
+        "newValue": "Haaste {0}/{1}",
+        "explanation": null
+      }
+    ]
+  },
   "check": {
     "value": "Tarkista",
     "history": [
@@ -83,14 +119,26 @@
       }
     ]
   },
-  "label.score": {
-    "value": "Pisteet: {0}",
+  "next": {
+    "value": "Seuraava",
     "history": [
       {
         "userId": 158684,
-        "timestamp": 1454085668129,
+        "timestamp": 1457865239264,
         "oldValue": "",
-        "newValue": "Pisteet: {0}",
+        "newValue": "Seuraava",
+        "explanation": null
+      }
+    ]
+  },
+  "score": {
+    "value": "Pisteet:",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1528046535076,
+        "oldValue": "",
+        "newValue": "Pisteet:",
         "explanation": null
       }
     ]
@@ -107,86 +155,14 @@
       }
     ]
   },
-  "label.time": {
-    "value": "Aika: {0}",
+  "pattern.score.number": {
+    "value": "Pisteet: {{score}}",
     "history": [
       {
         "userId": 158684,
-        "timestamp": 1454085668129,
+        "timestamp": 1528046535076,
         "oldValue": "",
-        "newValue": "Aika: {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "next": {
-    "value": "Seuraava",
-    "history": [
-      {
-        "userId": 158684,
-        "timestamp": 1457865239264,
-        "oldValue": "",
-        "newValue": "Seuraava",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0challenge.1max": {
-    "value": "Haaste {0}/{1}",
-    "history": [
-      {
-        "userId": 158684,
-        "timestamp": 1454085729974,
-        "oldValue": "",
-        "newValue": "Haaste {0}/{1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0hours.1minutes.2seconds": {
-    "value": "{0}:{1}:{2}",
-    "history": [
-      {
-        "userId": 158684,
-        "timestamp": 1454085668129,
-        "oldValue": "",
-        "newValue": "{0}:{1}:{2}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0minutes.1seconds": {
-    "value": "{0}:{1}",
-    "history": [
-      {
-        "userId": 158684,
-        "timestamp": 1454085668129,
-        "oldValue": "",
-        "newValue": "{0}:{1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0yourBest": {
-    "value": "(Paras tuloksesi: {0})",
-    "history": [
-      {
-        "userId": 158684,
-        "timestamp": 1454085668129,
-        "oldValue": "",
-        "newValue": "(Paras tuloksesi: {0})",
-        "explanation": null
-      }
-    ]
-  },
-  "selectLevel": {
-    "value": "Valitse taso",
-    "history": [
-      {
-        "userId": 158684,
-        "timestamp": 1488717455673,
-        "oldValue": "",
-        "newValue": "Valitse taso",
+        "newValue": "Pisteet: {{score}}",
         "explanation": null
       }
     ]
@@ -215,6 +191,18 @@
       }
     ]
   },
+  "label.time": {
+    "value": "Aika: {0}",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085668129,
+        "oldValue": "",
+        "newValue": "Aika: {0}",
+        "explanation": null
+      }
+    ]
+  },
   "tryAgain": {
     "value": "Yritä uudelleen",
     "history": [
@@ -227,14 +215,50 @@
       }
     ]
   },
-  "yourNewBest": {
-    "value": "(Uusi ennätyksesi!)",
+  "pattern.0minutes.1seconds": {
+    "value": "{0}:{1}",
     "history": [
       {
         "userId": 158684,
         "timestamp": 1454085668129,
         "oldValue": "",
-        "newValue": "(Uusi ennätyksesi!)",
+        "newValue": "{0}:{1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085668129,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      }
+    ]
+  },
+  "label.score": {
+    "value": "Pisteet: {0}",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1454085668129,
+        "oldValue": "",
+        "newValue": "Pisteet: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "selectLevel": {
+    "value": "Valitse taso",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1488717455673,
+        "oldValue": "",
+        "newValue": "Valitse taso",
         "explanation": null
       }
     ]
