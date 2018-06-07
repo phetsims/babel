@@ -131,14 +131,14 @@
       }
     ]
   },
-  "label.score": {
-    "value": "点数：{0}",
+  "score": {
+    "value": "スコア",
     "history": [
       {
-        "userId": 197169,
-        "timestamp": 1496324778242,
+        "userId": 450702,
+        "timestamp": 1528345621910,
         "oldValue": "",
-        "newValue": "点数：{0}",
+        "newValue": "スコア",
         "explanation": null
       }
     ]
@@ -151,6 +151,18 @@
         "timestamp": 1496324778242,
         "oldValue": "",
         "newValue": "正解：{0} 点 / {1} 点",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.score.number": {
+    "value": "スコア: {{score}}",
+    "history": [
+      {
+        "userId": 450702,
+        "timestamp": 1528345621910,
+        "oldValue": "",
+        "newValue": "スコア: {{score}}",
         "explanation": null
       }
     ]
@@ -223,6 +235,18 @@
         "timestamp": 1525926864932,
         "oldValue": "",
         "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      }
+    ]
+  },
+  "label.score": {
+    "value": "点数：{0}",
+    "history": [
+      {
+        "userId": 197169,
+        "timestamp": 1496324778242,
+        "oldValue": "",
+        "newValue": "点数：{0}",
         "explanation": null
       }
     ]
