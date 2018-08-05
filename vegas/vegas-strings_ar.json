@@ -1,4 +1,28 @@
 {
+  "pattern.0minutes.1seconds": {
+    "value": "{0}:{1}",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449945120227,
+        "oldValue": "",
+        "newValue": "{0}:{1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449945120227,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      }
+    ]
+  },
   "pattern.0yourBest": {
     "value": "(الأفضل : {0})",
     "history": [
@@ -129,7 +153,7 @@
     ]
   },
   "label.score.max": {
-    "value": "النتيجة\n: {0} out of {1}",
+    "value": "النتيجة\r\n: {0} out of {1}",
     "history": [
       {
         "userId": 192293,
@@ -137,11 +161,18 @@
         "oldValue": "",
         "newValue": "النتيجة\n: {0} out of {1}",
         "explanation": null
+      },
+      {
+        "userId": 576246,
+        "timestamp": 1533464159606,
+        "oldValue": "النتيجة\\n: {0} out of {1}",
+        "newValue": "النتيجة\r\n: {0} out of {1}",
+        "explanation": null
       }
     ]
   },
   "label.time": {
-    "value": "الزمن\n: {0}",
+    "value": "الزمن\r\n: {0}",
     "history": [
       {
         "userId": 192293,
@@ -149,29 +180,12 @@
         "oldValue": "",
         "newValue": "الزمن\n: {0}",
         "explanation": null
-      }
-    ]
-  },
-  "pattern.0minutes.1seconds": {
-    "value": "{0}:{1}",
-    "history": [
+      },
       {
-        "userId": 192293,
-        "timestamp": 1449945120227,
-        "oldValue": "",
-        "newValue": "{0}:{1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0hours.1minutes.2seconds": {
-    "value": "{0}:{1}:{2}",
-    "history": [
-      {
-        "userId": 192293,
-        "timestamp": 1449945120227,
-        "oldValue": "",
-        "newValue": "{0}:{1}:{2}",
+        "userId": 576246,
+        "timestamp": 1533464159606,
+        "oldValue": "الزمن\\n: {0}",
+        "newValue": "الزمن\r\n: {0}",
         "explanation": null
       }
     ]
