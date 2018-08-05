@@ -30,6 +30,30 @@
       }
     ]
   },
+  "pattern.0challenge.1max": {
+    "value": "التحدي {0} من {1}",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449945120227,
+        "oldValue": "",
+        "newValue": "التحدي {0} من {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "check": {
+    "value": "تحقق",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449945120227,
+        "oldValue": "",
+        "newValue": "تحقق",
+        "explanation": null
+      }
+    ]
+  },
   "continue": {
     "value": "تابع",
     "history": [
@@ -102,104 +126,6 @@
       }
     ]
   },
-  "label.score": {
-    "value": "النتيجة\\n: {0}",
-    "history": [
-      {
-        "userId": 192293,
-        "timestamp": 1449945120227,
-        "oldValue": "",
-        "newValue": "النتيجة\n: {0}",
-        "explanation": null
-      },
-      {
-        "userId": 576246,
-        "timestamp": 1533460987224,
-        "oldValue": "النتيجة\\n: {0}",
-        "newValue": "النتيجة\r\n: {0}",
-        "explanation": null
-      },
-      {
-        "userId": 576246,
-        "timestamp": 1533462615497,
-        "oldValue": "النتيجة\r\\n: {0}",
-        "newValue": "النتيجة\\n: {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "label.score.max": {
-    "value": "النتيجة\n: {0} out of {1}",
-    "history": [
-      {
-        "userId": 192293,
-        "timestamp": 1449945120227,
-        "oldValue": "",
-        "newValue": "النتيجة\n: {0} out of {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "label.time": {
-    "value": "الزمن\n: {0}",
-    "history": [
-      {
-        "userId": 192293,
-        "timestamp": 1449945120227,
-        "oldValue": "",
-        "newValue": "الزمن\n: {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0minutes.1seconds": {
-    "value": "{0}:{1}",
-    "history": [
-      {
-        "userId": 192293,
-        "timestamp": 1449945120227,
-        "oldValue": "",
-        "newValue": "{0}:{1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0hours.1minutes.2seconds": {
-    "value": "{0}:{1}:{2}",
-    "history": [
-      {
-        "userId": 192293,
-        "timestamp": 1449945120227,
-        "oldValue": "",
-        "newValue": "{0}:{1}:{2}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0challenge.1max": {
-    "value": "التحدي {0} من {1}",
-    "history": [
-      {
-        "userId": 192293,
-        "timestamp": 1449945120227,
-        "oldValue": "",
-        "newValue": "التحدي {0} من {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "check": {
-    "value": "تحقق",
-    "history": [
-      {
-        "userId": 192293,
-        "timestamp": 1449945120227,
-        "oldValue": "",
-        "newValue": "تحقق",
-        "explanation": null
-      }
-    ]
-  },
   "next": {
     "value": "التالي",
     "history": [
@@ -220,6 +146,18 @@
         "timestamp": 1533460987223,
         "oldValue": "",
         "newValue": "الدرجة: ",
+        "explanation": null
+      }
+    ]
+  },
+  "label.score.max": {
+    "value": "النتيجة\n: {0} out of {1}",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449945120227,
+        "oldValue": "",
+        "newValue": "النتيجة\n: {0} out of {1}",
         "explanation": null
       }
     ]
@@ -260,6 +198,18 @@
       }
     ]
   },
+  "label.time": {
+    "value": "الزمن\n: {0}",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449945120227,
+        "oldValue": "",
+        "newValue": "الزمن\n: {0}",
+        "explanation": null
+      }
+    ]
+  },
   "tryAgain": {
     "value": "حاول مرة أخرى",
     "history": [
@@ -268,6 +218,56 @@
         "timestamp": 1449945120227,
         "oldValue": "",
         "newValue": "حاول مرة أخرى",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0minutes.1seconds": {
+    "value": "{0}:{1}",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449945120227,
+        "oldValue": "",
+        "newValue": "{0}:{1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449945120227,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      }
+    ]
+  },
+  "label.score": {
+    "value": "النتيجة\r\n: {0}",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449945120227,
+        "oldValue": "",
+        "newValue": "النتيجة\n: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 576246,
+        "timestamp": 1533460987224,
+        "oldValue": "النتيجة\\n: {0}",
+        "newValue": "النتيجة\r\n: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 576246,
+        "timestamp": 1533462673244,
+        "oldValue": "النتيجة\r\\n: {0}",
+        "newValue": "النتيجة\r\n: {0}",
         "explanation": null
       }
     ]
