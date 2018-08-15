@@ -1,4 +1,16 @@
 {
+  "appleCost": {
+    "value": "Kostprijs appels",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1496320077628,
+        "oldValue": "",
+        "newValue": "Kostprijs appels",
+        "explanation": null
+      }
+    ]
+  },
   "apple": {
     "value": "Appel",
     "history": [
@@ -11,14 +23,26 @@
       }
     ]
   },
-  "appleCost": {
-    "value": "Kostprijs appels",
+  "pricePattern": {
+    "value": "{{price}}€",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1496320077628,
         "oldValue": "",
-        "newValue": "Kostprijs appels",
+        "newValue": "{{price}}€",
+        "explanation": null
+      }
+    ]
+  },
+  "totalCost": {
+    "value": "Totale kostprijs",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1496320077628,
+        "oldValue": "",
+        "newValue": "Totale kostprijs",
         "explanation": null
       }
     ]
@@ -59,6 +83,18 @@
       }
     ]
   },
+  "width": {
+    "value": "Breedte",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1496320077628,
+        "oldValue": "",
+        "newValue": "Breedte",
+        "explanation": null
+      }
+    ]
+  },
   "pattern": {
     "value": "Patroon",
     "history": [
@@ -67,30 +103,6 @@
         "timestamp": 1496320077628,
         "oldValue": "",
         "newValue": "Patroon",
-        "explanation": null
-      }
-    ]
-  },
-  "pricePattern": {
-    "value": "{{price}}€",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1496320077628,
-        "oldValue": "",
-        "newValue": "{{price}}€",
-        "explanation": null
-      }
-    ]
-  },
-  "proportion-playground.title": {
-    "value": "We spelen met verhoudingen",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1496320077628,
-        "oldValue": "",
-        "newValue": "We spelen met verhoudingen",
         "explanation": null
       }
     ]
@@ -119,26 +131,21 @@
       }
     ]
   },
-  "totalCost": {
-    "value": "Totale kostprijs",
+  "proportion-playground.title": {
+    "value": "Spelen met verhoudingen",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1496320077628,
         "oldValue": "",
-        "newValue": "Totale kostprijs",
+        "newValue": "We spelen met verhoudingen",
         "explanation": null
-      }
-    ]
-  },
-  "width": {
-    "value": "Breedte",
-    "history": [
+      },
       {
         "userId": 170730,
-        "timestamp": 1496320077628,
-        "oldValue": "",
-        "newValue": "Breedte",
+        "timestamp": 1534363333390,
+        "oldValue": "We spelen met verhoudingen",
+        "newValue": "Spelen met verhoudingen",
         "explanation": null
       }
     ]
