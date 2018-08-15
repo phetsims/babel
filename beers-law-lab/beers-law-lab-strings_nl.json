@@ -1,38 +1,55 @@
 {
-  "absorbance": {
-    "value": "Absorptie",
+  "drinkMix": {
+    "value": "Drankje",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1457179088847,
         "oldValue": "",
-        "newValue": "Absorptie",
+        "newValue": "Limonade",
+        "explanation": null
+      },
+      {
+        "userId": 170730,
+        "timestamp": 1457520144875,
+        "oldValue": "Limonade",
+        "newValue": "Drankje",
         "explanation": null
       }
     ]
   },
-  "beers-law-lab.title": {
-    "value": "Lab Wet van Beer",
+  "units.mM": {
+    "value": "mM",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1457179088847,
         "oldValue": "",
-        "newValue": "Wet van Beer",
+        "newValue": "mM",
         "explanation": null
-      },
+      }
+    ]
+  },
+  "units.uM": {
+    "value": "µM",
+    "history": [
       {
         "userId": 170730,
-        "timestamp": 1509529973014,
-        "oldValue": "Wet van Beer",
-        "newValue": "Lab Wet van Beer",
+        "timestamp": 1457179088847,
+        "oldValue": "",
+        "newValue": "µM",
         "explanation": null
-      },
+      }
+    ]
+  },
+  "water": {
+    "value": "water",
+    "history": [
       {
         "userId": 170730,
-        "timestamp": 1510064518852,
-        "oldValue": "Lab Wet van Beer",
-        "newValue": "Wet van Beer Lab",
+        "timestamp": 1457179088847,
+        "oldValue": "",
+        "newValue": "water",
         "explanation": null
       }
     ]
@@ -75,30 +92,6 @@
       }
     ]
   },
-  "concentration": {
-    "value": "Concentratie",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457179088847,
-        "oldValue": "",
-        "newValue": "Concentratie",
-        "explanation": null
-      }
-    ]
-  },
-  "concentration.name": {
-    "value": "Concentratie",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457179088848,
-        "oldValue": "",
-        "newValue": "Concentratie",
-        "explanation": null
-      }
-    ]
-  },
   "copperSulfate": {
     "value": "Kopersulfaat",
     "history": [
@@ -114,49 +107,6 @@
         "timestamp": 1457520144875,
         "oldValue": "Koper sulfaat",
         "newValue": "Kopersulfaat",
-        "explanation": null
-      }
-    ]
-  },
-  "drinkMix": {
-    "value": "Drankje",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457179088847,
-        "oldValue": "",
-        "newValue": "Limonade",
-        "explanation": null
-      },
-      {
-        "userId": 170730,
-        "timestamp": 1457520144875,
-        "oldValue": "Limonade",
-        "newValue": "Drankje",
-        "explanation": null
-      }
-    ]
-  },
-  "evaporation": {
-    "value": "Verdamping",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457179088847,
-        "oldValue": "",
-        "newValue": "Verdamping",
-        "explanation": null
-      }
-    ]
-  },
-  "lots": {
-    "value": "veel",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457179088847,
-        "oldValue": "",
-        "newValue": "veel",
         "explanation": null
       }
     ]
@@ -180,18 +130,6 @@
       }
     ]
   },
-  "none": {
-    "value": "geen",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457179088847,
-        "oldValue": "",
-        "newValue": "geen",
-        "explanation": null
-      }
-    ]
-  },
   "pattern.0formula.1name": {
     "value": "{0}: {1}",
     "history": [
@@ -204,42 +142,6 @@
       }
     ]
   },
-  "pattern.0label": {
-    "value": "{0}:",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457179088847,
-        "oldValue": "",
-        "newValue": "{0}:",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0percent": {
-    "value": "{0}%",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457179088847,
-        "oldValue": "",
-        "newValue": "{0}%",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0soluteAmount": {
-    "value": "Massa opgeloste stof: {0} g",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1483478696364,
-        "oldValue": "",
-        "newValue": "Massa opgeloste stof: {0} g",
-        "explanation": null
-      }
-    ]
-  },
   "pattern.0value.1units": {
     "value": "{0} {1}",
     "history": [
@@ -248,18 +150,6 @@
         "timestamp": 1457179088847,
         "oldValue": "",
         "newValue": "{0} {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.parentheses.0text": {
-    "value": "({0})",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457179088847,
-        "oldValue": "",
-        "newValue": "({0})",
         "explanation": null
       }
     ]
@@ -321,6 +211,90 @@
       }
     ]
   },
+  "absorbance": {
+    "value": "Absorptie",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457179088847,
+        "oldValue": "",
+        "newValue": "Absorptie",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0percent": {
+    "value": "{0}%",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457179088847,
+        "oldValue": "",
+        "newValue": "{0}%",
+        "explanation": null
+      }
+    ]
+  },
+  "transmittance": {
+    "value": "Transmissie",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457179088847,
+        "oldValue": "",
+        "newValue": "Transmissie",
+        "explanation": null
+      }
+    ]
+  },
+  "units.centimeters": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457179088847,
+        "oldValue": "",
+        "newValue": "cm",
+        "explanation": null
+      }
+    ]
+  },
+  "concentration": {
+    "value": "Concentratie",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457179088847,
+        "oldValue": "",
+        "newValue": "Concentratie",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0label": {
+    "value": "{0}:",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457179088847,
+        "oldValue": "",
+        "newValue": "{0}:",
+        "explanation": null
+      }
+    ]
+  },
+  "solution": {
+    "value": "Oplossing",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457179088847,
+        "oldValue": "",
+        "newValue": "Oplossing",
+        "explanation": null
+      }
+    ]
+  },
   "preset": {
     "value": "vast",
     "history": [
@@ -329,6 +303,145 @@
         "timestamp": 1457179088847,
         "oldValue": "",
         "newValue": "vast",
+        "explanation": null
+      }
+    ]
+  },
+  "units.nm": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457179088847,
+        "oldValue": "",
+        "newValue": "nm",
+        "explanation": null
+      }
+    ]
+  },
+  "variable": {
+    "value": "variabel",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457179088847,
+        "oldValue": "",
+        "newValue": "variabele",
+        "explanation": null
+      },
+      {
+        "userId": 170730,
+        "timestamp": 1458289689219,
+        "oldValue": "variabele",
+        "newValue": "variabel",
+        "explanation": null
+      }
+    ]
+  },
+  "wavelength": {
+    "value": "Golflengte",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457179088847,
+        "oldValue": "",
+        "newValue": "Golflengte",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.beersLaw": {
+    "value": "Wet van Beer",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457179088847,
+        "oldValue": "",
+        "newValue": "Wet van Beer",
+        "explanation": null
+      }
+    ]
+  },
+  "sodiumChloride": {
+    "value": "Natriumchloride",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1483478696364,
+        "oldValue": "",
+        "newValue": "Natriumchloride",
+        "explanation": null
+      }
+    ]
+  },
+  "units.liters": {
+    "value": "l",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457179088847,
+        "oldValue": "",
+        "newValue": "l",
+        "explanation": null
+      }
+    ]
+  },
+  "units.milliliters": {
+    "value": "ml",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1483478696364,
+        "oldValue": "",
+        "newValue": "ml",
+        "explanation": null
+      }
+    ]
+  },
+  "units.molesPerLiter": {
+    "value": "mol/l",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457179088847,
+        "oldValue": "",
+        "newValue": "mol/l",
+        "explanation": null
+      }
+    ]
+  },
+  "evaporation": {
+    "value": "Verdamping",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457179088847,
+        "oldValue": "",
+        "newValue": "Verdamping",
+        "explanation": null
+      }
+    ]
+  },
+  "lots": {
+    "value": "veel",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457179088847,
+        "oldValue": "",
+        "newValue": "veel",
+        "explanation": null
+      }
+    ]
+  },
+  "none": {
+    "value": "geen",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457179088847,
+        "oldValue": "",
+        "newValue": "geen",
         "explanation": null
       }
     ]
@@ -371,50 +484,14 @@
       }
     ]
   },
-  "screen.beersLaw": {
-    "value": "Wet van Beer",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457179088847,
-        "oldValue": "",
-        "newValue": "Wet van Beer",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.concentration": {
-    "value": "Concentratie",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457179088847,
-        "oldValue": "",
-        "newValue": "Concentratie",
-        "explanation": null
-      }
-    ]
-  },
-  "sodiumChloride": {
-    "value": "Natriumchloride",
+  "pattern.0soluteAmount": {
+    "value": "Massa opgeloste stof: {0} g",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1483478696364,
         "oldValue": "",
-        "newValue": "Natriumchloride",
-        "explanation": null
-      }
-    ]
-  },
-  "solid": {
-    "value": "Vast",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457179088847,
-        "oldValue": "",
-        "newValue": "Vast",
+        "newValue": "Massa opgeloste stof: {0} g",
         "explanation": null
       }
     ]
@@ -438,14 +515,83 @@
       }
     ]
   },
-  "solution": {
-    "value": "Oplossing",
+  "solid": {
+    "value": "Vast",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1457179088847,
         "oldValue": "",
-        "newValue": "Oplossing",
+        "newValue": "Vast",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.concentration": {
+    "value": "Concentratie",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457179088847,
+        "oldValue": "",
+        "newValue": "Concentratie",
+        "explanation": null
+      }
+    ]
+  },
+  "beers-law-lab.title": {
+    "value": "Wet van Beer lab",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457179088847,
+        "oldValue": "",
+        "newValue": "Wet van Beer",
+        "explanation": null
+      },
+      {
+        "userId": 170730,
+        "timestamp": 1509529973014,
+        "oldValue": "Wet van Beer",
+        "newValue": "Lab Wet van Beer",
+        "explanation": null
+      },
+      {
+        "userId": 170730,
+        "timestamp": 1510064518852,
+        "oldValue": "Lab Wet van Beer",
+        "newValue": "Wet van Beer Lab",
+        "explanation": null
+      },
+      {
+        "userId": 170730,
+        "timestamp": 1534361742162,
+        "oldValue": "Wet van Beer Lab",
+        "newValue": "Wet van Beer lab",
+        "explanation": null
+      }
+    ]
+  },
+  "concentration.name": {
+    "value": "Concentratie",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457179088848,
+        "oldValue": "",
+        "newValue": "Concentratie",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.parentheses.0text": {
+    "value": "({0})",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457179088847,
+        "oldValue": "",
+        "newValue": "({0})",
         "explanation": null
       }
     ]
@@ -462,18 +608,6 @@
       }
     ]
   },
-  "transmittance": {
-    "value": "Transmissie",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457179088847,
-        "oldValue": "",
-        "newValue": "Transmissie",
-        "explanation": null
-      }
-    ]
-  },
   "units.M": {
     "value": "M",
     "history": [
@@ -482,133 +616,6 @@
         "timestamp": 1457179088848,
         "oldValue": "",
         "newValue": "M",
-        "explanation": null
-      }
-    ]
-  },
-  "units.centimeters": {
-    "value": "cm",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457179088847,
-        "oldValue": "",
-        "newValue": "cm",
-        "explanation": null
-      }
-    ]
-  },
-  "units.liters": {
-    "value": "l",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457179088847,
-        "oldValue": "",
-        "newValue": "l",
-        "explanation": null
-      }
-    ]
-  },
-  "units.mM": {
-    "value": "mM",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457179088847,
-        "oldValue": "",
-        "newValue": "mM",
-        "explanation": null
-      }
-    ]
-  },
-  "units.milliliters": {
-    "value": "ml",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1483478696364,
-        "oldValue": "",
-        "newValue": "ml",
-        "explanation": null
-      }
-    ]
-  },
-  "units.molesPerLiter": {
-    "value": "mol/l",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457179088847,
-        "oldValue": "",
-        "newValue": "mol/l",
-        "explanation": null
-      }
-    ]
-  },
-  "units.nm": {
-    "value": "nm",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457179088847,
-        "oldValue": "",
-        "newValue": "nm",
-        "explanation": null
-      }
-    ]
-  },
-  "units.uM": {
-    "value": "µM",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457179088847,
-        "oldValue": "",
-        "newValue": "µM",
-        "explanation": null
-      }
-    ]
-  },
-  "variable": {
-    "value": "variabel",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457179088847,
-        "oldValue": "",
-        "newValue": "variabele",
-        "explanation": null
-      },
-      {
-        "userId": 170730,
-        "timestamp": 1458289689219,
-        "oldValue": "variabele",
-        "newValue": "variabel",
-        "explanation": null
-      }
-    ]
-  },
-  "water": {
-    "value": "water",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457179088847,
-        "oldValue": "",
-        "newValue": "water",
-        "explanation": null
-      }
-    ]
-  },
-  "wavelength": {
-    "value": "Golflengte",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457179088847,
-        "oldValue": "",
-        "newValue": "Golflengte",
         "explanation": null
       }
     ]
