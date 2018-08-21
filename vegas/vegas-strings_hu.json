@@ -1,4 +1,40 @@
 {
+  "pattern.0yourBest": {
+    "value": "(Eddigi csúcsod: {0})",
+    "history": [
+      {
+        "userId": 156058,
+        "timestamp": 1455018000542,
+        "oldValue": "",
+        "newValue": "(Eddigi csúcsod: {0})",
+        "explanation": null
+      }
+    ]
+  },
+  "yourNewBest": {
+    "value": "(Csúcsot javítottál!)",
+    "history": [
+      {
+        "userId": 156058,
+        "timestamp": 1455018000542,
+        "oldValue": "",
+        "newValue": "(Csúcsot javítottál!)",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0challenge.1max": {
+    "value": "{0}. próba {1} közül",
+    "history": [
+      {
+        "userId": 156058,
+        "timestamp": 1455019747997,
+        "oldValue": "",
+        "newValue": "{0}. próba {1} közül",
+        "explanation": null
+      }
+    ]
+  },
   "check": {
     "value": "Ellenőrzés",
     "history": [
@@ -83,14 +119,26 @@
       }
     ]
   },
-  "label.score": {
-    "value": "Pontszám: {0}",
+  "next": {
+    "value": "Következő",
     "history": [
       {
         "userId": 156058,
-        "timestamp": 1455018000542,
+        "timestamp": 1474604618987,
         "oldValue": "",
-        "newValue": "Pontszám: {0}",
+        "newValue": "Következő",
+        "explanation": null
+      }
+    ]
+  },
+  "score": {
+    "value": "Pontszám:",
+    "history": [
+      {
+        "userId": 156058,
+        "timestamp": 1534845524431,
+        "oldValue": "",
+        "newValue": "Pontszám:",
         "explanation": null
       }
     ]
@@ -107,62 +155,14 @@
       }
     ]
   },
-  "label.time": {
-    "value": "Idő: {0}",
+  "pattern.score.number": {
+    "value": "Pontszám: {{score}}",
     "history": [
       {
         "userId": 156058,
-        "timestamp": 1455018000542,
+        "timestamp": 1534845524431,
         "oldValue": "",
-        "newValue": "Idő: {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "next": {
-    "value": "Következő",
-    "history": [
-      {
-        "userId": 156058,
-        "timestamp": 1474604618987,
-        "oldValue": "",
-        "newValue": "Következő",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0challenge.1max": {
-    "value": "{0}. próba {1} közül",
-    "history": [
-      {
-        "userId": 156058,
-        "timestamp": 1455019747997,
-        "oldValue": "",
-        "newValue": "{0}. próba {1} közül",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0yourBest": {
-    "value": "(Eddigi csúcsod: {0})",
-    "history": [
-      {
-        "userId": 156058,
-        "timestamp": 1455018000542,
-        "oldValue": "",
-        "newValue": "(Eddigi csúcsod: {0})",
-        "explanation": null
-      }
-    ]
-  },
-  "selectLevel": {
-    "value": "Válassz egy szintet",
-    "history": [
-      {
-        "userId": 156058,
-        "timestamp": 1474612274779,
-        "oldValue": "",
-        "newValue": "Válassz egy szintet",
+        "newValue": "Pontszám: {{score}}",
         "explanation": null
       }
     ]
@@ -191,6 +191,18 @@
       }
     ]
   },
+  "label.time": {
+    "value": "Idő: {0}",
+    "history": [
+      {
+        "userId": 156058,
+        "timestamp": 1455018000542,
+        "oldValue": "",
+        "newValue": "Idő: {0}",
+        "explanation": null
+      }
+    ]
+  },
   "tryAgain": {
     "value": "Próbáld újra",
     "history": [
@@ -203,14 +215,26 @@
       }
     ]
   },
-  "yourNewBest": {
-    "value": "(Csúcsot javítottál!)",
+  "label.score": {
+    "value": "Pontszám: {0}",
     "history": [
       {
         "userId": 156058,
         "timestamp": 1455018000542,
         "oldValue": "",
-        "newValue": "(Csúcsot javítottál!)",
+        "newValue": "Pontszám: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "selectLevel": {
+    "value": "Válassz egy szintet",
+    "history": [
+      {
+        "userId": 156058,
+        "timestamp": 1474612274779,
+        "oldValue": "",
+        "newValue": "Válassz egy szintet",
         "explanation": null
       }
     ]
