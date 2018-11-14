@@ -1,4 +1,54 @@
 {
+  "pattern.0yourBest": {
+    "value": "(Ваш рекорд: {0})",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1500954931455,
+        "oldValue": "",
+        "newValue": "(Ваш рекорд: {0})",
+        "explanation": null
+      }
+    ]
+  },
+  "yourNewBest": {
+    "value": "(Ваш новый рекорд!)",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1500954931455,
+        "oldValue": "",
+        "newValue": "(Ваш новый рекорд!)",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0challenge.1max": {
+    "value": "Задание {0} из {1}",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1500971060054,
+        "oldValue": "",
+        "newValue": "Задание {0} из {1}",
+        "explanation": null
+      },
+      {
+        "userId": 456246,
+        "timestamp": 1501493744553,
+        "oldValue": "Задание {0} из {1}",
+        "newValue": "Проблема {0} из {1}",
+        "explanation": null
+      },
+      {
+        "userId": 456246,
+        "timestamp": 1501565866360,
+        "oldValue": "Проблема {0} из {1}",
+        "newValue": "Задание {0} из {1}",
+        "explanation": null
+      }
+    ]
+  },
   "check": {
     "value": "Проверить",
     "history": [
@@ -12,13 +62,20 @@
     ]
   },
   "continue": {
-    "value": "Новая игра",
+    "value": "Продолжить",
     "history": [
       {
         "userId": 456246,
         "timestamp": 1500954931455,
         "oldValue": "",
         "newValue": "Новая игра",
+        "explanation": null
+      },
+      {
+        "userId": 456246,
+        "timestamp": 1542174441834,
+        "oldValue": "Новая игра",
+        "newValue": "Продолжить",
         "explanation": null
       }
     ]
@@ -111,14 +168,26 @@
       }
     ]
   },
-  "label.score": {
-    "value": "Баллы: {0}",
+  "next": {
+    "value": "Далее",
     "history": [
       {
         "userId": 456246,
-        "timestamp": 1500954931455,
+        "timestamp": 1500971060054,
         "oldValue": "",
-        "newValue": "Баллы: {0}",
+        "newValue": "Далее",
+        "explanation": null
+      }
+    ]
+  },
+  "score": {
+    "value": "Баллы:",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542174441834,
+        "oldValue": "",
+        "newValue": "Баллы:",
         "explanation": null
       }
     ]
@@ -135,76 +204,14 @@
       }
     ]
   },
-  "label.time": {
-    "value": "Время: {0}",
+  "pattern.score.number": {
+    "value": "Баллы: {{score}}",
     "history": [
       {
         "userId": 456246,
-        "timestamp": 1500954931455,
+        "timestamp": 1542174441834,
         "oldValue": "",
-        "newValue": "Время: {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "next": {
-    "value": "Далее",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1500971060054,
-        "oldValue": "",
-        "newValue": "Далее",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0challenge.1max": {
-    "value": "Задание {0} из {1}",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1500971060054,
-        "oldValue": "",
-        "newValue": "Задание {0} из {1}",
-        "explanation": null
-      },
-      {
-        "userId": 456246,
-        "timestamp": 1501493744553,
-        "oldValue": "Задание {0} из {1}",
-        "newValue": "Проблема {0} из {1}",
-        "explanation": null
-      },
-      {
-        "userId": 456246,
-        "timestamp": 1501565866360,
-        "oldValue": "Проблема {0} из {1}",
-        "newValue": "Задание {0} из {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0yourBest": {
-    "value": "(Ваш рекорд: {0})",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1500954931455,
-        "oldValue": "",
-        "newValue": "(Ваш рекорд: {0})",
-        "explanation": null
-      }
-    ]
-  },
-  "selectLevel": {
-    "value": "Выберите уровень",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1501569011762,
-        "oldValue": "",
-        "newValue": "Выберите уровень",
+        "newValue": "Баллы: {{score}}",
         "explanation": null
       }
     ]
@@ -222,7 +229,7 @@
     ]
   },
   "startOver": {
-    "value": "Новая игра ",
+    "value": "Новая игра",
     "history": [
       {
         "userId": 456246,
@@ -250,6 +257,25 @@
         "timestamp": 1502171875690,
         "oldValue": "Начать сначала",
         "newValue": "Новая игра ",
+        "explanation": null
+      },
+      {
+        "userId": 456246,
+        "timestamp": 1542174441834,
+        "oldValue": "Новая игра ",
+        "newValue": "Новая игра",
+        "explanation": null
+      }
+    ]
+  },
+  "label.time": {
+    "value": "Время: {0}",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1500954931455,
+        "oldValue": "",
+        "newValue": "Время: {0}",
         "explanation": null
       }
     ]
@@ -280,14 +306,26 @@
       }
     ]
   },
-  "yourNewBest": {
-    "value": "(Ваш новый рекорд!)",
+  "label.score": {
+    "value": "Баллы: {0}",
     "history": [
       {
         "userId": 456246,
         "timestamp": 1500954931455,
         "oldValue": "",
-        "newValue": "(Ваш новый рекорд!)",
+        "newValue": "Баллы: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "selectLevel": {
+    "value": "Выберите уровень",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1501569011762,
+        "oldValue": "",
+        "newValue": "Выберите уровень",
         "explanation": null
       }
     ]
