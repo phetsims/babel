@@ -1,12 +1,55 @@
 {
+  "pattern.0yourBest": {
+    "value": "(Сіздің рекордыңыз: {0})",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1502769129200,
+        "oldValue": "",
+        "newValue": "(Сіздің рекордыңыз: {0})",
+        "explanation": null
+      }
+    ]
+  },
+  "yourNewBest": {
+    "value": "(Сіздің жаңа рекордыңыз!)",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1502769129200,
+        "oldValue": "",
+        "newValue": "(Сіздің жаңа рекордыңыз!)",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0challenge.1max": {
+    "value": "Тапсырма {0}/{1}",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1502771554596,
+        "oldValue": "",
+        "newValue": "Тапсырма {0}/{1}",
+        "explanation": null
+      }
+    ]
+  },
   "check": {
-    "value": "Тексеру ",
+    "value": "Тексеру",
     "history": [
       {
         "userId": 456246,
         "timestamp": 1502771554596,
         "oldValue": "",
         "newValue": "Тексеру ",
+        "explanation": null
+      },
+      {
+        "userId": 456246,
+        "timestamp": 1542255560564,
+        "oldValue": "Тексеру ",
+        "newValue": "Тексеру",
         "explanation": null
       }
     ]
@@ -83,42 +126,6 @@
       }
     ]
   },
-  "label.score": {
-    "value": "Балл саны: {0}",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1502769129200,
-        "oldValue": "",
-        "newValue": "Балл саны: {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "label.score.max": {
-    "value": "Балл саны:  {0}/{1} ",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1502769129200,
-        "oldValue": "",
-        "newValue": "Балл саны:  {0}/{1} ",
-        "explanation": null
-      }
-    ]
-  },
-  "label.time": {
-    "value": "Уақыты: {0}",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1502769129200,
-        "oldValue": "",
-        "newValue": "Уақыты: {0}",
-        "explanation": null
-      }
-    ]
-  },
   "next": {
     "value": "Келесі",
     "history": [
@@ -131,26 +138,45 @@
       }
     ]
   },
-  "pattern.0challenge.1max": {
-    "value": "Тапсырма {0}/{1}",
+  "score": {
+    "value": "Балл саны:",
     "history": [
       {
         "userId": 456246,
-        "timestamp": 1502771554596,
+        "timestamp": 1542255560564,
         "oldValue": "",
-        "newValue": "Тапсырма {0}/{1}",
+        "newValue": "Балл саны:",
         "explanation": null
       }
     ]
   },
-  "pattern.0yourBest": {
-    "value": "(Сіздің рекордыңыз: {0})",
+  "label.score.max": {
+    "value": "Балл саны: {0}/{1}",
     "history": [
       {
         "userId": 456246,
         "timestamp": 1502769129200,
         "oldValue": "",
-        "newValue": "(Сіздің рекордыңыз: {0})",
+        "newValue": "Балл саны:  {0}/{1} ",
+        "explanation": null
+      },
+      {
+        "userId": 456246,
+        "timestamp": 1542255560564,
+        "oldValue": "Балл саны:  {0}/{1} ",
+        "newValue": "Балл саны: {0}/{1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.score.number": {
+    "value": "Балл саны: {{score}}",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542255560564,
+        "oldValue": "",
+        "newValue": "Балл саны: {{score}}",
         "explanation": null
       }
     ]
@@ -179,8 +205,20 @@
       }
     ]
   },
+  "label.time": {
+    "value": "Уақыты: {0}",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1502769129200,
+        "oldValue": "",
+        "newValue": "Уақыты: {0}",
+        "explanation": null
+      }
+    ]
+  },
   "tryAgain": {
-    "value": "Қайта байқап көріңіз ",
+    "value": "Қайта байқап көріңіз",
     "history": [
       {
         "userId": 456246,
@@ -195,17 +233,24 @@
         "oldValue": "Қайта байқап көру",
         "newValue": "Қайта байқап көріңіз ",
         "explanation": null
+      },
+      {
+        "userId": 456246,
+        "timestamp": 1542255560564,
+        "oldValue": "Қайта байқап көріңіз ",
+        "newValue": "Қайта байқап көріңіз",
+        "explanation": null
       }
     ]
   },
-  "yourNewBest": {
-    "value": "(Сіздің жаңа рекордыңыз!)",
+  "label.score": {
+    "value": "Балл саны: {0}",
     "history": [
       {
         "userId": 456246,
         "timestamp": 1502769129200,
         "oldValue": "",
-        "newValue": "(Сіздің жаңа рекордыңыз!)",
+        "newValue": "Балл саны: {0}",
         "explanation": null
       }
     ]
