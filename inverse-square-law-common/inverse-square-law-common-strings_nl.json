@@ -12,7 +12,7 @@
     ]
   },
   "forceOnObjectByOtherObjectWithUnitsPattern": {
-    "value": "Kracht op {{thisObject}} door6{{otherObject}} = {{value}} N",
+    "value": "Kracht op {{thisObject}} door {{otherObject}} = {{value}} N",
     "history": [
       {
         "userId": 170730,
@@ -26,6 +26,13 @@
         "timestamp": 1546090436888,
         "oldValue": "Kracht op {{thisObject}} door6 {{otherObject}} = {{value}} N",
         "newValue": "Kracht op {{thisObject}} door6{{otherObject}} = {{value}} N",
+        "explanation": null
+      },
+      {
+        "userId": 170730,
+        "timestamp": 1546259104615,
+        "oldValue": "Kracht op {{thisObject}} door6{{otherObject}} = {{value}} N",
+        "newValue": "Kracht op {{thisObject}} door {{otherObject}} = {{value}} N",
         "explanation": null
       }
     ]
