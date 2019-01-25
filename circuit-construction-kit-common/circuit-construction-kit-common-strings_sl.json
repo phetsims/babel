@@ -204,7 +204,7 @@
     ]
   },
   "resistance": {
-    "value": "Upornost",
+    "value": "Upor",
     "history": [
       {
         "userId": 157539,
@@ -212,29 +212,12 @@
         "oldValue": "",
         "newValue": "Upornost",
         "explanation": null
-      }
-    ]
-  },
-  "resistanceOhms": {
-    "value": "{{resistance}} ohmov",
-    "history": [
+      },
       {
         "userId": 157539,
-        "timestamp": 1509473567925,
-        "oldValue": "",
-        "newValue": "{{resistance}} ohmov",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhmsValuePattern": {
-    "value": "{{resistance}} ohmov",
-    "history": [
-      {
-        "userId": 157539,
-        "timestamp": 1509473567925,
-        "oldValue": "",
-        "newValue": "{{resistance}} ohmov",
+        "timestamp": 1548405319871,
+        "oldValue": "Upornost",
+        "newValue": "Upor",
         "explanation": null
       }
     ]
@@ -347,18 +330,6 @@
       }
     ]
   },
-  "voltageVoltsValuePattern": {
-    "value": "{{voltage}} voltov",
-    "history": [
-      {
-        "userId": 157539,
-        "timestamp": 1509473567925,
-        "oldValue": "",
-        "newValue": "{{voltage}} voltov",
-        "explanation": null
-      }
-    ]
-  },
   "voltmeter": {
     "value": "Voltmeter",
     "history": [
@@ -372,13 +343,20 @@
     ]
   },
   "wire": {
-    "value": "Žica",
+    "value": "Vodnik (žica)",
     "history": [
       {
         "userId": 157539,
         "timestamp": 1509473567925,
         "oldValue": "",
         "newValue": "Žica",
+        "explanation": null
+      },
+      {
+        "userId": 157539,
+        "timestamp": 1548405319871,
+        "oldValue": "Žica",
+        "newValue": "Vodnik (žica)",
         "explanation": null
       }
     ]
@@ -391,6 +369,42 @@
         "timestamp": 1509473567925,
         "oldValue": "",
         "newValue": "Upor žice",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhms": {
+    "value": "{{resistance}} ohmov",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "{{resistance}} ohmov",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhmsValuePattern": {
+    "value": "{{resistance}} ohmov",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "{{resistance}} ohmov",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageVoltsValuePattern": {
+    "value": "{{voltage}} voltov",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1509473567925,
+        "oldValue": "",
+        "newValue": "{{voltage}} voltov",
         "explanation": null
       }
     ]
