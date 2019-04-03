@@ -1,4 +1,28 @@
 {
+  "springStrength": {
+    "value": "Константа крутости опруге {{spring}}",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1554282532754,
+        "oldValue": "",
+        "newValue": "Константа крутости опруге {{spring}}",
+        "explanation": null
+      }
+    ]
+  },
+  "acceleration": {
+    "value": "Убрзање",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1537468421047,
+        "oldValue": "",
+        "newValue": "Убрзање",
+        "explanation": null
+      }
+    ]
+  },
   "body.custom": {
     "value": "Прилагоди",
     "history": [
@@ -11,6 +35,66 @@
       }
     ]
   },
+  "damping": {
+    "value": "Пригушење",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1537468421047,
+        "oldValue": "",
+        "newValue": "Пригушење",
+        "explanation": null
+      }
+    ]
+  },
+  "dampingEqualsZero": {
+    "value": "Пригушење{{equalsZero}}",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1537468421047,
+        "oldValue": "",
+        "newValue": "Пригушење{{equalsZero}}",
+        "explanation": null
+      }
+    ]
+  },
+  "displacement": {
+    "value": "Издужење",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1537468421047,
+        "oldValue": "",
+        "newValue": "Издужење",
+        "explanation": null
+      }
+    ]
+  },
+  "eTherm": {
+    "value": "E<sub>топлотна</sub>",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1537468751346,
+        "oldValue": "",
+        "newValue": "E<sub>топлотна</sub>",
+        "explanation": null
+      }
+    ]
+  },
+  "eTot": {
+    "value": "E<sub>укупно</sub>",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1537468421047,
+        "oldValue": "",
+        "newValue": "E<sub>укупно</sub>",
+        "explanation": null
+      }
+    ]
+  },
   "body.earth": {
     "value": "Земља",
     "history": [
@@ -19,42 +103,6 @@
         "timestamp": 1537468421047,
         "oldValue": "",
         "newValue": "Земља",
-        "explanation": null
-      }
-    ]
-  },
-  "body.jupiter": {
-    "value": "Јупитер",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1537468421047,
-        "oldValue": "",
-        "newValue": "Јупитер",
-        "explanation": null
-      }
-    ]
-  },
-  "body.moon": {
-    "value": "Месец",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1537468421047,
-        "oldValue": "",
-        "newValue": "Месец",
-        "explanation": null
-      }
-    ]
-  },
-  "body.planetX": {
-    "value": "Планета Х",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1537468421047,
-        "oldValue": "",
-        "newValue": "Планета Х",
         "explanation": null
       }
     ]
@@ -102,14 +150,14 @@
       }
     ]
   },
-  "eTherm": {
-    "value": "E<sub>топлотна</sub>",
+  "forces": {
+    "value": "Силе",
     "history": [
       {
         "userId": 156030,
-        "timestamp": 1537468751346,
+        "timestamp": 1537468421047,
         "oldValue": "",
-        "newValue": "E<sub>топлотна</sub>",
+        "newValue": "Силе",
         "explanation": null
       }
     ]
@@ -122,6 +170,42 @@
         "timestamp": 1537468421047,
         "oldValue": "",
         "newValue": "Гравитациона Еp",
+        "explanation": null
+      }
+    ]
+  },
+  "gravity": {
+    "value": "Гравитација",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1537468421047,
+        "oldValue": "",
+        "newValue": "Гравитација",
+        "explanation": null
+      }
+    ]
+  },
+  "heightEqualsZero": {
+    "value": "Висина= 0 m",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1537468421047,
+        "oldValue": "",
+        "newValue": "Висина= 0 m",
+        "explanation": null
+      }
+    ]
+  },
+  "body.jupiter": {
+    "value": "Јупитер",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1537468421047,
+        "oldValue": "",
+        "newValue": "Јупитер",
         "explanation": null
       }
     ]
@@ -150,6 +234,114 @@
       }
     ]
   },
+  "large": {
+    "value": "велика",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1537468421047,
+        "oldValue": "",
+        "newValue": "велика",
+        "explanation": null
+      }
+    ]
+  },
+  "lots": {
+    "value": "много",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1537468421047,
+        "oldValue": "",
+        "newValue": "много",
+        "explanation": null
+      }
+    ]
+  },
+  "mass": {
+    "value": "Маса",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1537468421047,
+        "oldValue": "",
+        "newValue": "Маса",
+        "explanation": null
+      }
+    ]
+  },
+  "massEquilibrium": {
+    "value": "Равнотежа маса",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1537468421047,
+        "oldValue": "",
+        "newValue": "Равнотежа маса",
+        "explanation": null
+      }
+    ]
+  },
+  "body.moon": {
+    "value": "Месец",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1537468421047,
+        "oldValue": "",
+        "newValue": "Месец",
+        "explanation": null
+      }
+    ]
+  },
+  "movableLine": {
+    "value": "Покретна линија",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1537468421047,
+        "oldValue": "",
+        "newValue": "Покретна линија",
+        "explanation": null
+      }
+    ]
+  },
+  "naturalLength": {
+    "value": "Основна дужина",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1537468421047,
+        "oldValue": "",
+        "newValue": "Основна дужина",
+        "explanation": null
+      }
+    ]
+  },
+  "netForce": {
+    "value": "Укупна сила",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1537468421047,
+        "oldValue": "",
+        "newValue": "Укупна сила",
+        "explanation": null
+      }
+    ]
+  },
+  "none": {
+    "value": "без",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1537468421047,
+        "oldValue": "",
+        "newValue": "без",
+        "explanation": null
+      }
+    ]
+  },
   "peElas": {
     "value": "Еp<sub>еласт</sub>",
     "history": [
@@ -170,6 +362,66 @@
         "timestamp": 1537468421047,
         "oldValue": "",
         "newValue": "Еp<sub>грав</sub>",
+        "explanation": null
+      }
+    ]
+  },
+  "periodTrace": {
+    "value": "Путања",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1537468751346,
+        "oldValue": "",
+        "newValue": "Путања",
+        "explanation": null
+      }
+    ]
+  },
+  "body.planetX": {
+    "value": "Планета Х",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1537468421047,
+        "oldValue": "",
+        "newValue": "Планета Х",
+        "explanation": null
+      }
+    ]
+  },
+  "small": {
+    "value": "мала",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1537468421047,
+        "oldValue": "",
+        "newValue": "мала",
+        "explanation": null
+      }
+    ]
+  },
+  "spring": {
+    "value": "Опруга",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1537468421047,
+        "oldValue": "",
+        "newValue": "Опруга",
+        "explanation": null
+      }
+    ]
+  },
+  "springConstantPattern": {
+    "value": "Константа опруге {{spring}}",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1554282532754,
+        "oldValue": "",
+        "newValue": "Константа опруге {{spring}}",
         "explanation": null
       }
     ]
@@ -198,86 +450,14 @@
       }
     ]
   },
-  "eTot": {
-    "value": "E<sub>укупно</sub>",
+  "velocity": {
+    "value": "Брзина",
     "history": [
       {
         "userId": 156030,
         "timestamp": 1537468421047,
         "oldValue": "",
-        "newValue": "E<sub>укупно</sub>",
-        "explanation": null
-      }
-    ]
-  },
-  "mass": {
-    "value": "Маса",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1537468421047,
-        "oldValue": "",
-        "newValue": "Маса",
-        "explanation": null
-      }
-    ]
-  },
-  "damping": {
-    "value": "Пригушење",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1537468421047,
-        "oldValue": "",
-        "newValue": "Пригушење",
-        "explanation": null
-      }
-    ]
-  },
-  "dampingEqualsZero": {
-    "value": "Пригушење{{equalsZero}}",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1537468421047,
-        "oldValue": "",
-        "newValue": "Пригушење{{equalsZero}}",
-        "explanation": null
-      }
-    ]
-  },
-  "lots": {
-    "value": "много",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1537468421047,
-        "oldValue": "",
-        "newValue": "много",
-        "explanation": null
-      }
-    ]
-  },
-  "none": {
-    "value": "без",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1537468421047,
-        "oldValue": "",
-        "newValue": "без",
-        "explanation": null
-      }
-    ]
-  },
-  "gravity": {
-    "value": "Гравитација",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1537468421047,
-        "oldValue": "",
-        "newValue": "Гравитација",
+        "newValue": "Брзина",
         "explanation": null
       }
     ]
@@ -294,66 +474,6 @@
       }
     ]
   },
-  "massEquilibrium": {
-    "value": "Равнотежа маса",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1537468421047,
-        "oldValue": "",
-        "newValue": "Равнотежа маса",
-        "explanation": null
-      }
-    ]
-  },
-  "movableLine": {
-    "value": "Покретна линија",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1537468421047,
-        "oldValue": "",
-        "newValue": "Покретна линија",
-        "explanation": null
-      }
-    ]
-  },
-  "displacement": {
-    "value": "Издужење",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1537468421047,
-        "oldValue": "",
-        "newValue": "Издужење",
-        "explanation": null
-      }
-    ]
-  },
-  "naturalLength": {
-    "value": "Основна дужина",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1537468421047,
-        "oldValue": "",
-        "newValue": "Основна дужина",
-        "explanation": null
-      }
-    ]
-  },
-  "periodTrace": {
-    "value": "Путања",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1537468751346,
-        "oldValue": "",
-        "newValue": "Путања",
-        "explanation": null
-      }
-    ]
-  },
   "springConstant": {
     "value": "Константа опруге{{spring}}",
     "history": [
@@ -362,42 +482,6 @@
         "timestamp": 1537468421047,
         "oldValue": "",
         "newValue": "Константа опруге{{spring}}",
-        "explanation": null
-      }
-    ]
-  },
-  "heightEqualsZero": {
-    "value": "Висина= 0 m",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1537468421047,
-        "oldValue": "",
-        "newValue": "Висина= 0 m",
-        "explanation": null
-      }
-    ]
-  },
-  "large": {
-    "value": "велика",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1537468421047,
-        "oldValue": "",
-        "newValue": "велика",
-        "explanation": null
-      }
-    ]
-  },
-  "small": {
-    "value": "мала",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1537468421047,
-        "oldValue": "",
-        "newValue": "мала",
         "explanation": null
       }
     ]
@@ -482,66 +566,6 @@
         "timestamp": 1537468421047,
         "oldValue": "",
         "newValue": "Увод",
-        "explanation": null
-      }
-    ]
-  },
-  "acceleration": {
-    "value": "Убрзање",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1537468421047,
-        "oldValue": "",
-        "newValue": "Убрзање",
-        "explanation": null
-      }
-    ]
-  },
-  "forces": {
-    "value": "Силе",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1537468421047,
-        "oldValue": "",
-        "newValue": "Силе",
-        "explanation": null
-      }
-    ]
-  },
-  "netForce": {
-    "value": "Укупна сила",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1537468421047,
-        "oldValue": "",
-        "newValue": "Укупна сила",
-        "explanation": null
-      }
-    ]
-  },
-  "spring": {
-    "value": "Опруга",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1537468421047,
-        "oldValue": "",
-        "newValue": "Опруга",
-        "explanation": null
-      }
-    ]
-  },
-  "velocity": {
-    "value": "Брзина",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1537468421047,
-        "oldValue": "",
-        "newValue": "Брзина",
         "explanation": null
       }
     ]
