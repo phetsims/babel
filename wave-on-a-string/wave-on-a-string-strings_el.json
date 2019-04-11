@@ -1,12 +1,48 @@
 {
-  "amplitude": {
-    "value": "Πλάτος",
+  "rulers": {
+    "value": "Χάρακες",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1461913621918,
         "oldValue": "",
-        "newValue": "Πλάτος",
+        "newValue": "Χάρακες",
+        "explanation": null
+      }
+    ]
+  },
+  "timer": {
+    "value": "Χρονόμετρο",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913621918,
+        "oldValue": "",
+        "newValue": "Χρονόμετρο",
+        "explanation": null
+      }
+    ]
+  },
+  "referenceLine": {
+    "value": "Γραμμή αναφοράς",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913621918,
+        "oldValue": "",
+        "newValue": "Γραμμή αναφοράς",
+        "explanation": null
+      }
+    ]
+  },
+  "tension": {
+    "value": "Τάση",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913621918,
+        "oldValue": "",
+        "newValue": "Τάση",
         "explanation": null
       }
     ]
@@ -23,38 +59,14 @@
       }
     ]
   },
-  "fixedEnd": {
-    "value": "Σταθερή άκρη",
+  "low": {
+    "value": "Χαμηλό",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1461913621918,
         "oldValue": "",
-        "newValue": "Σταθερή άκρη",
-        "explanation": null
-      }
-    ]
-  },
-  "frequency": {
-    "value": "Συχνότητα",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461913621918,
-        "oldValue": "",
-        "newValue": "Συχνότητα",
-        "explanation": null
-      }
-    ]
-  },
-  "hideHelp": {
-    "value": "κρύψε βοήθεια",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461913621919,
-        "oldValue": "",
-        "newValue": "κρύψε βοήθεια",
+        "newValue": "Χαμηλό",
         "explanation": null
       }
     ]
@@ -71,14 +83,14 @@
       }
     ]
   },
-  "looseEnd": {
-    "value": "Χαλαρή άκρη",
+  "none": {
+    "value": "Κανένα",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1461913621918,
         "oldValue": "",
-        "newValue": "Χαλαρή άκρη",
+        "newValue": "Κανένα",
         "explanation": null
       }
     ]
@@ -95,74 +107,14 @@
       }
     ]
   },
-  "low": {
-    "value": "Χαμηλό",
+  "frequency": {
+    "value": "Συχνότητα",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1461913621918,
         "oldValue": "",
-        "newValue": "Χαμηλό",
-        "explanation": null
-      }
-    ]
-  },
-  "manual": {
-    "value": "Χειροκίνητο",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461913621918,
-        "oldValue": "",
-        "newValue": "Χειροκίνητο",
-        "explanation": null
-      }
-    ]
-  },
-  "noEnd": {
-    "value": "Χωρίς άκρη",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461913621918,
-        "oldValue": "",
-        "newValue": "Χωρίς άκρη",
-        "explanation": null
-      }
-    ]
-  },
-  "none": {
-    "value": "Κανένα",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461913621918,
-        "oldValue": "",
-        "newValue": "Κανένα",
-        "explanation": null
-      }
-    ]
-  },
-  "oscillate": {
-    "value": "Ταλάντωση",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461913621918,
-        "oldValue": "",
-        "newValue": "Ταλάντωση",
-        "explanation": null
-      }
-    ]
-  },
-  "patternValueUnitCm": {
-    "value": "{0} εκ.",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461913621918,
-        "oldValue": "",
-        "newValue": "{0} εκ.",
+        "newValue": "Συχνότητα",
         "explanation": null
       }
     ]
@@ -179,6 +131,18 @@
       }
     ]
   },
+  "pulseWidth": {
+    "value": "Πλάτος παλμού",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913621918,
+        "oldValue": "",
+        "newValue": "Πλάτος παλμού",
+        "explanation": null
+      }
+    ]
+  },
   "patternValueUnitS": {
     "value": "{0} δ.",
     "history": [
@@ -187,6 +151,195 @@
         "timestamp": 1461913621918,
         "oldValue": "",
         "newValue": "{0} δ.",
+        "explanation": null
+      }
+    ]
+  },
+  "amplitude": {
+    "value": "Πλάτος",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913621918,
+        "oldValue": "",
+        "newValue": "Πλάτος",
+        "explanation": null
+      }
+    ]
+  },
+  "patternValueUnitCm": {
+    "value": "{0} εκ.",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913621918,
+        "oldValue": "",
+        "newValue": "{0} εκ.",
+        "explanation": null
+      }
+    ]
+  },
+  "restart": {
+    "value": "Επανεκκίνηση",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913621918,
+        "oldValue": "",
+        "newValue": "Επανεκκίνηση",
+        "explanation": null
+      }
+    ]
+  },
+  "speedSlow": {
+    "value": "Αργή κίνηση",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913621918,
+        "oldValue": "",
+        "newValue": "Αργή κίνηση",
+        "explanation": null
+      }
+    ]
+  },
+  "speedNormal": {
+    "value": "Κανονική ταχύτητα",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913621918,
+        "oldValue": "",
+        "newValue": "Κανονική ταχύτητα",
+        "explanation": null
+      }
+    ]
+  },
+  "manual": {
+    "value": "Χειροκίνητο",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913621918,
+        "oldValue": "",
+        "newValue": "Χειροκίνητο",
+        "explanation": null
+      }
+    ]
+  },
+  "oscillate": {
+    "value": "Ταλάντωση",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913621918,
+        "oldValue": "",
+        "newValue": "Ταλάντωση",
+        "explanation": null
+      }
+    ]
+  },
+  "pulse": {
+    "value": "Παλμός",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913621918,
+        "oldValue": "",
+        "newValue": "Παλμός",
+        "explanation": null
+      }
+    ]
+  },
+  "fixedEnd": {
+    "value": "Σταθερό άκρο",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913621918,
+        "oldValue": "",
+        "newValue": "Σταθερή άκρη",
+        "explanation": null
+      },
+      {
+        "userId": 146870,
+        "timestamp": 1554994855682,
+        "oldValue": "Σταθερή άκρη",
+        "newValue": "Σταθερό άκρο",
+        "explanation": null
+      }
+    ]
+  },
+  "looseEnd": {
+    "value": "Ελεύθερο άκρο",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913621918,
+        "oldValue": "",
+        "newValue": "Χαλαρή άκρη",
+        "explanation": null
+      },
+      {
+        "userId": 146870,
+        "timestamp": 1554994855682,
+        "oldValue": "Χαλαρή άκρη",
+        "newValue": "Ελεύθερο άκρο",
+        "explanation": null
+      }
+    ]
+  },
+  "noEnd": {
+    "value": "Χωρίς άκρο",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913621918,
+        "oldValue": "",
+        "newValue": "Χωρίς άκρη",
+        "explanation": null
+      },
+      {
+        "userId": 146870,
+        "timestamp": 1554994855682,
+        "oldValue": "Χωρίς άκρη",
+        "newValue": "Χωρίς άκρο",
+        "explanation": null
+      }
+    ]
+  },
+  "unitCm": {
+    "value": "εκ.",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913621918,
+        "oldValue": "",
+        "newValue": "εκ.",
+        "explanation": null
+      }
+    ]
+  },
+  "wave-on-a-string.title": {
+    "value": "Κύματα σε χορδή",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913621918,
+        "oldValue": "",
+        "newValue": "Κύματα σε χορδή",
+        "explanation": null
+      }
+    ]
+  },
+  "hideHelp": {
+    "value": "κρύψε βοήθεια",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913621919,
+        "oldValue": "",
+        "newValue": "κρύψε βοήθεια",
         "explanation": null
       }
     ]
@@ -215,18 +368,6 @@
       }
     ]
   },
-  "pulse": {
-    "value": "Παλμός",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461913621918,
-        "oldValue": "",
-        "newValue": "Παλμός",
-        "explanation": null
-      }
-    ]
-  },
   "pulse2": {
     "value": "παλμός",
     "history": [
@@ -239,18 +380,6 @@
       }
     ]
   },
-  "pulseWidth": {
-    "value": "Πλάτος παλμού",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461913621918,
-        "oldValue": "",
-        "newValue": "Πλάτος παλμού",
-        "explanation": null
-      }
-    ]
-  },
   "refLineHelp": {
     "value": "κινητή γραμμή αναφοράς",
     "history": [
@@ -259,18 +388,6 @@
         "timestamp": 1461913621919,
         "oldValue": "",
         "newValue": "κινητή γραμμή αναφοράς",
-        "explanation": null
-      }
-    ]
-  },
-  "referenceLine": {
-    "value": "Γραμμή αναφοράς",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461913621918,
-        "oldValue": "",
-        "newValue": "Γραμμή αναφοράς",
         "explanation": null
       }
     ]
@@ -299,18 +416,6 @@
       }
     ]
   },
-  "restart": {
-    "value": "Επανεκκίνηση",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461913621918,
-        "oldValue": "",
-        "newValue": "Επανεκκίνηση",
-        "explanation": null
-      }
-    ]
-  },
   "rulerHelp": {
     "value": "κινητός χάρακας",
     "history": [
@@ -323,18 +428,6 @@
       }
     ]
   },
-  "rulers": {
-    "value": "Χάρακες",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461913621918,
-        "oldValue": "",
-        "newValue": "Χάρακες",
-        "explanation": null
-      }
-    ]
-  },
   "showHelp": {
     "value": "δείξε βοήθεια",
     "history": [
@@ -343,30 +436,6 @@
         "timestamp": 1461913621919,
         "oldValue": "",
         "newValue": "δείξε βοήθεια",
-        "explanation": null
-      }
-    ]
-  },
-  "speedNormal": {
-    "value": "Κανονική ταχύτητα",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461913621918,
-        "oldValue": "",
-        "newValue": "Κανονική ταχύτητα",
-        "explanation": null
-      }
-    ]
-  },
-  "speedSlow": {
-    "value": "Αργή κίνηση",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461913621918,
-        "oldValue": "",
-        "newValue": "Αργή κίνηση",
         "explanation": null
       }
     ]
@@ -395,30 +464,6 @@
       }
     ]
   },
-  "tension": {
-    "value": "Τάση",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461913621918,
-        "oldValue": "",
-        "newValue": "Τάση",
-        "explanation": null
-      }
-    ]
-  },
-  "timer": {
-    "value": "Χρονόμετρο",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461913621918,
-        "oldValue": "",
-        "newValue": "Χρονόμετρο",
-        "explanation": null
-      }
-    ]
-  },
   "timerHelp": {
     "value": "κινητός χάρακας",
     "history": [
@@ -427,30 +472,6 @@
         "timestamp": 1461913621919,
         "oldValue": "",
         "newValue": "κινητός χάρακας",
-        "explanation": null
-      }
-    ]
-  },
-  "unitCm": {
-    "value": "εκ.",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461913621918,
-        "oldValue": "",
-        "newValue": "εκ.",
-        "explanation": null
-      }
-    ]
-  },
-  "wave-on-a-string.title": {
-    "value": "Κύματα σε χορδή",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461913621918,
-        "oldValue": "",
-        "newValue": "Κύματα σε χορδή",
         "explanation": null
       }
     ]
