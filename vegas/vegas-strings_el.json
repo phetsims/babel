@@ -42,6 +42,18 @@
       }
     ]
   },
+  "check": {
+    "value": "Έλεγχος",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461862980977,
+        "oldValue": "",
+        "newValue": "Έλεγχος",
+        "explanation": null
+      }
+    ]
+  },
   "continue": {
     "value": "Συνέχεια",
     "history": [
@@ -114,14 +126,26 @@
       }
     ]
   },
-  "score": {
-    "value": "Βαθμολογία:",
+  "next": {
+    "value": "Επόμενο",
     "history": [
       {
         "userId": 146870,
-        "timestamp": 1526382939120,
+        "timestamp": 1461862980978,
         "oldValue": "",
-        "newValue": "Βαθμολογία:",
+        "newValue": "Επόμενο",
+        "explanation": null
+      }
+    ]
+  },
+  "label.score": {
+    "value": "Βαθμολογία: {0}",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461862366569,
+        "oldValue": "",
+        "newValue": "Βαθμολογία: {0}",
         "explanation": null
       }
     ]
@@ -138,14 +162,14 @@
       }
     ]
   },
-  "pattern.score.number": {
-    "value": "Βαθμολογία: {{score}}",
+  "showAnswer": {
+    "value": "Εμφάνιση απάντησης",
     "history": [
       {
         "userId": 146870,
-        "timestamp": 1526382939120,
+        "timestamp": 1461862980978,
         "oldValue": "",
-        "newValue": "Βαθμολογία: {{score}}",
+        "newValue": "Εμφάνιση απάντησης",
         "explanation": null
       }
     ]
@@ -170,6 +194,18 @@
         "timestamp": 1461862366569,
         "oldValue": "",
         "newValue": "Χρόνος: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "tryAgain": {
+    "value": "Προσπάθησε πάλι",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461862980978,
+        "oldValue": "",
+        "newValue": "Προσπάθησε πάλι",
         "explanation": null
       }
     ]
@@ -210,14 +246,26 @@
       }
     ]
   },
-  "next": {
-    "value": "Επόμενο",
+  "score": {
+    "value": "Βαθμολογία:",
     "history": [
       {
         "userId": 146870,
-        "timestamp": 1461862980978,
+        "timestamp": 1526382939120,
         "oldValue": "",
-        "newValue": "Επόμενο",
+        "newValue": "Βαθμολογία:",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.score.number": {
+    "value": "Βαθμολογία: {{score}}",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1526382939120,
+        "oldValue": "",
+        "newValue": "Βαθμολογία: {{score}}",
         "explanation": null
       }
     ]
@@ -230,54 +278,6 @@
         "timestamp": 1548854102882,
         "oldValue": "",
         "newValue": "Ολοκλήρωσες όλα τα επίπεδα",
-        "explanation": null
-      }
-    ]
-  },
-  "check": {
-    "value": "Έλεγχος",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461862980977,
-        "oldValue": "",
-        "newValue": "Έλεγχος",
-        "explanation": null
-      }
-    ]
-  },
-  "label.score": {
-    "value": "Βαθμολογία: {0}",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461862366569,
-        "oldValue": "",
-        "newValue": "Βαθμολογία: {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "showAnswer": {
-    "value": "Εμφάνιση απάντησης",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461862980978,
-        "oldValue": "",
-        "newValue": "Εμφάνιση απάντησης",
-        "explanation": null
-      }
-    ]
-  },
-  "tryAgain": {
-    "value": "Προσπάθησε πάλι",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461862980978,
-        "oldValue": "",
-        "newValue": "Προσπάθησε πάλι",
         "explanation": null
       }
     ]
@@ -507,7 +507,7 @@
       },
       {
         "userId": 146870,
-        "timestamp": 1554993599616,
+        "timestamp": 1554993798294,
         "oldValue": "Δεν έχετε τελειώσει αυτό το παιχνίδι.\r\\nΕίστε σίγουρος ότι θέλετε να ξεκινήσετε ένα νέο παιχνίδι;",
         "newValue": "Δεν έχετε τελειώσει αυτό το παιχνίδι.\r\nΕίστε σίγουρος ότι θέλετε να ξεκινήσετε ένα νέο παιχνίδι;",
         "explanation": null
