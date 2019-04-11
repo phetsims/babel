@@ -1,16 +1,4 @@
 {
-  "acceleration": {
-    "value": "Επιτάχυνση",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1505637756005,
-        "oldValue": "",
-        "newValue": "Επιτάχυνση",
-        "explanation": null
-      }
-    ]
-  },
   "custom": {
     "value": "Προσαρμοσμένο",
     "history": [
@@ -19,18 +7,6 @@
         "timestamp": 1505637756005,
         "oldValue": "",
         "newValue": "Προσαρμοσμένο",
-        "explanation": null
-      }
-    ]
-  },
-  "degreesPattern": {
-    "value": "{{degrees}}°",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1505637756005,
-        "oldValue": "",
-        "newValue": "{{degrees}}°",
         "explanation": null
       }
     ]
@@ -47,66 +23,6 @@
       }
     ]
   },
-  "energyGraph": {
-    "value": "Γράφημα ενέργειας",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1505637756005,
-        "oldValue": "",
-        "newValue": "Γράφημα ενέργειας",
-        "explanation": null
-      }
-    ]
-  },
-  "energyLegend": {
-    "value": "Υπόμνημα ενέργειας",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1505637756005,
-        "oldValue": "",
-        "newValue": "Υπόμνημα ενέργειας",
-        "explanation": null
-      }
-    ]
-  },
-  "friction": {
-    "value": "Τριβή",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1505637756005,
-        "oldValue": "",
-        "newValue": "Τριβή",
-        "explanation": null
-      }
-    ]
-  },
-  "gravitationalAccelerationPattern": {
-    "value": "{{gravity}} μ/δ<sup>2</sup>",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1505637756005,
-        "oldValue": "",
-        "newValue": "{{gravity}} μ/δ<sup>2</sup>",
-        "explanation": null
-      }
-    ]
-  },
-  "gravity": {
-    "value": "Βαρύτητα",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1505637756005,
-        "oldValue": "",
-        "newValue": "Βαρύτητα",
-        "explanation": null
-      }
-    ]
-  },
   "jupiter": {
     "value": "Δίας",
     "history": [
@@ -119,26 +35,26 @@
       }
     ]
   },
-  "kilogramsPattern": {
-    "value": "{{kilograms}} κ",
+  "moon": {
+    "value": "Σελήνη",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1505637756005,
         "oldValue": "",
-        "newValue": "{{kilograms}} κ",
+        "newValue": "Σελήνη",
         "explanation": null
       }
     ]
   },
-  "legend.kineticEnergy": {
-    "value": "Κινητική ενέργεια",
+  "planetX": {
+    "value": "Πλανήτης X",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1505637756005,
         "oldValue": "",
-        "newValue": "Κινητική ενέργεια",
+        "newValue": "Πλανήτης X",
         "explanation": null
       }
     ]
@@ -155,18 +71,6 @@
       }
     ]
   },
-  "legend.potentialEnergy": {
-    "value": "Δυναμική ενέργεια",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1505637756005,
-        "oldValue": "",
-        "newValue": "Δυναμική ενέργεια",
-        "explanation": null
-      }
-    ]
-  },
   "legend.potentialEnergyAbbreviation": {
     "value": "ΔΕ",
     "history": [
@@ -175,18 +79,6 @@
         "timestamp": 1505637756005,
         "oldValue": "",
         "newValue": "ΔΕ",
-        "explanation": null
-      }
-    ]
-  },
-  "legend.thermalEnergy": {
-    "value": "Θερμική ενέργεια",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1505637756005,
-        "oldValue": "",
-        "newValue": "Θερμική ενέργεια",
         "explanation": null
       }
     ]
@@ -203,18 +95,6 @@
       }
     ]
   },
-  "legend.totalEnergy": {
-    "value": "Συνολική ενέργεια",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1505637756005,
-        "oldValue": "",
-        "newValue": "Συνολική ενέργεια",
-        "explanation": null
-      }
-    ]
-  },
   "legend.totalEnergyAbbreviation": {
     "value": "E<sub>σύνολο</sub>",
     "history": [
@@ -227,14 +107,98 @@
       }
     ]
   },
-  "length": {
-    "value": "Μήκος {{pendulumNumber}}",
+  "energyLegend": {
+    "value": "Υπόμνημα ενέργειας",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1505637756005,
         "oldValue": "",
-        "newValue": "Μήκος {{pendulumNumber}}",
+        "newValue": "Υπόμνημα ενέργειας",
+        "explanation": null
+      }
+    ]
+  },
+  "legend.kineticEnergy": {
+    "value": "Κινητική ενέργεια",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1505637756005,
+        "oldValue": "",
+        "newValue": "Κινητική ενέργεια",
+        "explanation": null
+      }
+    ]
+  },
+  "legend.potentialEnergy": {
+    "value": "Δυναμική ενέργεια",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1505637756005,
+        "oldValue": "",
+        "newValue": "Δυναμική ενέργεια",
+        "explanation": null
+      }
+    ]
+  },
+  "legend.thermalEnergy": {
+    "value": "Θερμική ενέργεια",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1505637756005,
+        "oldValue": "",
+        "newValue": "Θερμική ενέργεια",
+        "explanation": null
+      }
+    ]
+  },
+  "legend.totalEnergy": {
+    "value": "Συνολική ενέργεια",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1505637756005,
+        "oldValue": "",
+        "newValue": "Συνολική ενέργεια",
+        "explanation": null
+      }
+    ]
+  },
+  "energyGraph": {
+    "value": "Γράφημα ενέργειας",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1505637756005,
+        "oldValue": "",
+        "newValue": "Γράφημα ενέργειας",
+        "explanation": null
+      }
+    ]
+  },
+  "pendulumMassPattern": {
+    "value": "Μάζα {{pendulumNumber}}",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1505637756005,
+        "oldValue": "",
+        "newValue": "Μάζα {{pendulumNumber}}",
+        "explanation": null
+      }
+    ]
+  },
+  "friction": {
+    "value": "Τριβή",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1505637756005,
+        "oldValue": "",
+        "newValue": "Τριβή",
         "explanation": null
       }
     ]
@@ -247,6 +211,66 @@
         "timestamp": 1505637756005,
         "oldValue": "",
         "newValue": "Αρκετά",
+        "explanation": null
+      }
+    ]
+  },
+  "none": {
+    "value": "Καθόλου",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1505637756005,
+        "oldValue": "",
+        "newValue": "Καθόλου",
+        "explanation": null
+      }
+    ]
+  },
+  "gravitationalAccelerationPattern": {
+    "value": "{{gravity}} μ/δ<sup>2</sup>",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1505637756005,
+        "oldValue": "",
+        "newValue": "{{gravity}} μ/δ<sup>2</sup>",
+        "explanation": null
+      }
+    ]
+  },
+  "whatIsTheValueOfGravity": {
+    "value": "Ποια είναι η τιμή της βαρύτητας;",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1505637756005,
+        "oldValue": "",
+        "newValue": "Ποια είναι η τιμή της βαρύτητας;",
+        "explanation": null
+      }
+    ]
+  },
+  "gravity": {
+    "value": "Βαρύτητα",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1505637756005,
+        "oldValue": "",
+        "newValue": "Βαρύτητα",
+        "explanation": null
+      }
+    ]
+  },
+  "length": {
+    "value": "Μήκος {{pendulumNumber}}",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1505637756005,
+        "oldValue": "",
+        "newValue": "Μήκος {{pendulumNumber}}",
         "explanation": null
       }
     ]
@@ -275,26 +299,26 @@
       }
     ]
   },
-  "moon": {
-    "value": "Σελήνη",
+  "kilogramsPattern": {
+    "value": "{{kilograms}} κ",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1505637756005,
         "oldValue": "",
-        "newValue": "Σελήνη",
+        "newValue": "{{kilograms}} κ",
         "explanation": null
       }
     ]
   },
-  "none": {
-    "value": "Καθόλου",
+  "rulerUnits": {
+    "value": "εκ",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1505637756005,
         "oldValue": "",
-        "newValue": "Καθόλου",
+        "newValue": "εκ",
         "explanation": null
       }
     ]
@@ -311,38 +335,50 @@
       }
     ]
   },
-  "pendulum-lab.title": {
-    "value": "Εργαστήριο εκκρεμούς",
+  "slowMotion": {
+    "value": "Αργά",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1505637756005,
         "oldValue": "",
-        "newValue": "Εργαστήριο εκκρεμούς",
+        "newValue": "Αργά",
         "explanation": null
       }
     ]
   },
-  "pendulumMassPattern": {
-    "value": "Μάζα {{pendulumNumber}}",
+  "degreesPattern": {
+    "value": "{{degrees}}°",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1505637756005,
         "oldValue": "",
-        "newValue": "Μάζα {{pendulumNumber}}",
+        "newValue": "{{degrees}}°",
         "explanation": null
       }
     ]
   },
-  "period": {
-    "value": "Περίοδος",
+  "ruler": {
+    "value": "Χάρακας",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1505637756005,
         "oldValue": "",
-        "newValue": "Περίοδος",
+        "newValue": "Χάρακας",
+        "explanation": null
+      }
+    ]
+  },
+  "stopwatch": {
+    "value": "Χρονόμετρο",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1505637756005,
+        "oldValue": "",
+        "newValue": "Χρονόμετρο",
         "explanation": null
       }
     ]
@@ -360,7 +396,7 @@
     ]
   },
   "periodTrace": {
-    "value": "Παρακολούθηση περιόδου",
+    "value": "Ίχνος περιόδου",
     "history": [
       {
         "userId": 146870,
@@ -368,41 +404,12 @@
         "oldValue": "",
         "newValue": "Παρακολούθηση περιόδου",
         "explanation": null
-      }
-    ]
-  },
-  "planetX": {
-    "value": "Πλανήτης X",
-    "history": [
+      },
       {
         "userId": 146870,
-        "timestamp": 1505637756005,
-        "oldValue": "",
-        "newValue": "Πλανήτης X",
-        "explanation": null
-      }
-    ]
-  },
-  "ruler": {
-    "value": "Χάρακας",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1505637756005,
-        "oldValue": "",
-        "newValue": "Χάρακας",
-        "explanation": null
-      }
-    ]
-  },
-  "rulerUnits": {
-    "value": "εκ",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1505637756005,
-        "oldValue": "",
-        "newValue": "εκ",
+        "timestamp": 1554994518367,
+        "oldValue": "Παρακολούθηση περιόδου",
+        "newValue": "Ίχνος περιόδου",
         "explanation": null
       }
     ]
@@ -431,50 +438,14 @@
       }
     ]
   },
-  "screen.lab": {
-    "value": "Εργαστήριο",
+  "acceleration": {
+    "value": "Επιτάχυνση",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1505637756005,
         "oldValue": "",
-        "newValue": "Εργαστήριο",
-        "explanation": null
-      }
-    ]
-  },
-  "secondsPattern": {
-    "value": "{{seconds}} δ",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1505637756005,
-        "oldValue": "",
-        "newValue": "{{seconds}} δ",
-        "explanation": null
-      }
-    ]
-  },
-  "slowMotion": {
-    "value": "Αργά",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1505637756005,
-        "oldValue": "",
-        "newValue": "Αργά",
-        "explanation": null
-      }
-    ]
-  },
-  "stopwatch": {
-    "value": "Χρονόμετρο",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1505637756005,
-        "oldValue": "",
-        "newValue": "Χρονόμετρο",
+        "newValue": "Επιτάχυνση",
         "explanation": null
       }
     ]
@@ -491,14 +462,50 @@
       }
     ]
   },
-  "whatIsTheValueOfGravity": {
-    "value": "Ποια είναι η τιμή της βαρύτητας;",
+  "secondsPattern": {
+    "value": "{{seconds}} δ",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1505637756005,
         "oldValue": "",
-        "newValue": "Ποια είναι η τιμή της βαρύτητας;",
+        "newValue": "{{seconds}} δ",
+        "explanation": null
+      }
+    ]
+  },
+  "period": {
+    "value": "Περίοδος",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1505637756005,
+        "oldValue": "",
+        "newValue": "Περίοδος",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.lab": {
+    "value": "Εργαστήριο",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1505637756005,
+        "oldValue": "",
+        "newValue": "Εργαστήριο",
+        "explanation": null
+      }
+    ]
+  },
+  "pendulum-lab.title": {
+    "value": "Εργαστήριο εκκρεμούς",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1505637756005,
+        "oldValue": "",
+        "newValue": "Εργαστήριο εκκρεμούς",
         "explanation": null
       }
     ]
