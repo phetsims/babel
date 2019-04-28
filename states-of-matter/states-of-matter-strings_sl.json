@@ -1,12 +1,12 @@
 {
-  "neon": {
-    "value": "Neon",
+  "adjustableAttraction": {
+    "value": "Agregatno stanje ",
     "history": [
       {
         "userId": 157539,
-        "timestamp": 1482962703109,
+        "timestamp": 1482962841405,
         "oldValue": "",
-        "newValue": "Neon",
+        "newValue": "Agregatno stanje ",
         "explanation": null
       }
     ]
@@ -23,26 +23,14 @@
       }
     ]
   },
-  "oxygen": {
-    "value": "Kisik",
+  "atomDiameter": {
+    "value": "Premer atoma",
     "history": [
       {
         "userId": 157539,
-        "timestamp": 1482962703109,
+        "timestamp": 1556452908801,
         "oldValue": "",
-        "newValue": "Kisik",
-        "explanation": null
-      }
-    ]
-  },
-  "adjustableAttraction": {
-    "value": "Agregatno stanje ",
-    "history": [
-      {
-        "userId": 157539,
-        "timestamp": 1482962841405,
-        "oldValue": "",
-        "newValue": "Agregatno stanje ",
+        "newValue": "Premer atoma",
         "explanation": null
       }
     ]
@@ -59,6 +47,54 @@
       }
     ]
   },
+  "large": {
+    "value": "velik",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1482962703109,
+        "oldValue": "",
+        "newValue": "velik",
+        "explanation": null
+      }
+    ]
+  },
+  "moving": {
+    "value": "premikajoč",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1556452908801,
+        "oldValue": "",
+        "newValue": "premikajoč",
+        "explanation": null
+      }
+    ]
+  },
+  "neon": {
+    "value": "Neon",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1482962703109,
+        "oldValue": "",
+        "newValue": "Neon",
+        "explanation": null
+      }
+    ]
+  },
+  "oxygen": {
+    "value": "Kisik",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1482962703109,
+        "oldValue": "",
+        "newValue": "Kisik",
+        "explanation": null
+      }
+    ]
+  },
   "small": {
     "value": "majhen",
     "history": [
@@ -71,14 +107,14 @@
       }
     ]
   },
-  "large": {
-    "value": "velik",
+  "strong": {
+    "value": "trdni",
     "history": [
       {
         "userId": 157539,
         "timestamp": 1482962703109,
         "oldValue": "",
-        "newValue": "velik",
+        "newValue": "trdni",
         "explanation": null
       }
     ]
@@ -95,14 +131,14 @@
       }
     ]
   },
-  "strong": {
-    "value": "trdni",
+  "attractive": {
+    "value": "Aktivnost",
     "history": [
       {
         "userId": 157539,
         "timestamp": 1482962703109,
         "oldValue": "",
-        "newValue": "trdni",
+        "newValue": "Aktivnost",
         "explanation": null
       }
     ]
@@ -139,18 +175,6 @@
         "timestamp": 1482962703109,
         "oldValue": "",
         "newValue": "Rezultanta sil",
-        "explanation": null
-      }
-    ]
-  },
-  "attractive": {
-    "value": "Aktivnost",
-    "history": [
-      {
-        "userId": 157539,
-        "timestamp": 1482962703109,
-        "oldValue": "",
-        "newValue": "Aktivnost",
         "explanation": null
       }
     ]
@@ -198,18 +222,6 @@
       }
     ]
   },
-  "slowMotion": {
-    "value": "Počasni posnetek",
-    "history": [
-      {
-        "userId": 157539,
-        "timestamp": 1482962703110,
-        "oldValue": "",
-        "newValue": "Počasni posnetek",
-        "explanation": null
-      }
-    ]
-  },
   "returnAtom": {
     "value": "Vrni atom",
     "history": [
@@ -222,6 +234,18 @@
       }
     ]
   },
+  "slowMotion": {
+    "value": "Počasni posnetek",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1482962703110,
+        "oldValue": "",
+        "newValue": "Počasni posnetek",
+        "explanation": null
+      }
+    ]
+  },
   "pressure": {
     "value": "Tlak",
     "history": [
@@ -230,30 +254,6 @@
         "timestamp": 1482962703110,
         "oldValue": "",
         "newValue": "Tlak",
-        "explanation": null
-      }
-    ]
-  },
-  "water": {
-    "value": "Voda",
-    "history": [
-      {
-        "userId": 157539,
-        "timestamp": 1482962703110,
-        "oldValue": "",
-        "newValue": "Voda",
-        "explanation": null
-      }
-    ]
-  },
-  "diatomicOxygen": {
-    "value": "Kisik",
-    "history": [
-      {
-        "userId": 157539,
-        "timestamp": 1482962703110,
-        "oldValue": "",
-        "newValue": "Kisik",
         "explanation": null
       }
     ]
@@ -277,14 +277,26 @@
       }
     ]
   },
-  "solid": {
-    "value": "trdnina",
+  "diatomicOxygen": {
+    "value": "Kisik",
     "history": [
       {
         "userId": 157539,
         "timestamp": 1482962703110,
         "oldValue": "",
-        "newValue": "trdnina",
+        "newValue": "Kisik",
+        "explanation": null
+      }
+    ]
+  },
+  "water": {
+    "value": "Voda",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1482962703110,
+        "oldValue": "",
+        "newValue": "Voda",
         "explanation": null
       }
     ]
@@ -313,6 +325,30 @@
       }
     ]
   },
+  "phaseDiagram": {
+    "value": "Fazni diagram",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1556452908801,
+        "oldValue": "",
+        "newValue": "Fazni diagram",
+        "explanation": null
+      }
+    ]
+  },
+  "solid": {
+    "value": "trdnina",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1482962703110,
+        "oldValue": "",
+        "newValue": "trdnina",
+        "explanation": null
+      }
+    ]
+  },
   "temperature": {
     "value": "Temperatura",
     "history": [
@@ -321,6 +357,30 @@
         "timestamp": 1482962703110,
         "oldValue": "",
         "newValue": "Temperatura",
+        "explanation": null
+      }
+    ]
+  },
+  "triplePoint": {
+    "value": "trojna\\ntočka",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1556452908801,
+        "oldValue": "",
+        "newValue": "trojna\\ntočka",
+        "explanation": null
+      }
+    ]
+  },
+  "returnLid": {
+    "value": "Vrni pokrov",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1556452908801,
+        "oldValue": "",
+        "newValue": "Vrni pokrov",
         "explanation": null
       }
     ]
@@ -337,14 +397,14 @@
       }
     ]
   },
-  "Solid": {
-    "value": "Trdnina",
+  "Gas": {
+    "value": "Plin",
     "history": [
       {
         "userId": 157539,
         "timestamp": 1482962703110,
         "oldValue": "",
-        "newValue": "Trdnina",
+        "newValue": "Plin",
         "explanation": null
       }
     ]
@@ -361,14 +421,14 @@
       }
     ]
   },
-  "Gas": {
-    "value": "Plin",
+  "Solid": {
+    "value": "Trdnina",
     "history": [
       {
         "userId": 157539,
         "timestamp": 1482962703110,
         "oldValue": "",
-        "newValue": "Plin",
+        "newValue": "Trdnina",
         "explanation": null
       }
     ]
@@ -385,18 +445,6 @@
       }
     ]
   },
-  "states-of-matter.title": {
-    "value": "Agregatno stanje",
-    "history": [
-      {
-        "userId": 157539,
-        "timestamp": 1482962703110,
-        "oldValue": "",
-        "newValue": "Agregatno stanje",
-        "explanation": null
-      }
-    ]
-  },
   "interaction": {
     "value": "Interakcija",
     "history": [
@@ -405,6 +453,18 @@
         "timestamp": 1482962703110,
         "oldValue": "",
         "newValue": "Interakcija",
+        "explanation": null
+      }
+    ]
+  },
+  "states-of-matter.title": {
+    "value": "Agregatno stanje",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1482962703110,
+        "oldValue": "",
+        "newValue": "Agregatno stanje",
         "explanation": null
       }
     ]
