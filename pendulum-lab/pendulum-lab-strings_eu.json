@@ -1,18 +1,6 @@
 {
-  "acceleration": {
-    "value": "Azelerazioa",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1505726825243,
-        "oldValue": "",
-        "newValue": "Azelerazioa",
-        "explanation": null
-      }
-    ]
-  },
   "custom": {
-    "value": "Pertsonalizatu",
+    "value": "Aukeran",
     "history": [
       {
         "userId": 155750,
@@ -20,17 +8,12 @@
         "oldValue": "",
         "newValue": "Pertsonalizatu",
         "explanation": null
-      }
-    ]
-  },
-  "degreesPattern": {
-    "value": "{{degrees}}°",
-    "history": [
+      },
       {
-        "userId": 155750,
-        "timestamp": 1505726825243,
-        "oldValue": "",
-        "newValue": "{{degrees}}°",
+        "userId": 570617,
+        "timestamp": 1561278363351,
+        "oldValue": "Pertsonalizatu",
+        "newValue": "Aukeran",
         "explanation": null
       }
     ]
@@ -47,66 +30,6 @@
       }
     ]
   },
-  "energyGraph": {
-    "value": "Energia-grafikoa",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1505726825243,
-        "oldValue": "",
-        "newValue": "Energia-grafikoa",
-        "explanation": null
-      }
-    ]
-  },
-  "energyLegend": {
-    "value": "Energia-testua",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1505726825243,
-        "oldValue": "",
-        "newValue": "Energia-testua",
-        "explanation": null
-      }
-    ]
-  },
-  "friction": {
-    "value": "Marruskadura",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1505726825243,
-        "oldValue": "",
-        "newValue": "Marruskadura",
-        "explanation": null
-      }
-    ]
-  },
-  "gravitationalAccelerationPattern": {
-    "value": "{{gravity}} m/s<sup>2</sup>",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1505726825243,
-        "oldValue": "",
-        "newValue": "{{gravity}} m/s<sup>2</sup>",
-        "explanation": null
-      }
-    ]
-  },
-  "gravity": {
-    "value": "Grabitatea",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1505726825243,
-        "oldValue": "",
-        "newValue": "Grabitatea",
-        "explanation": null
-      }
-    ]
-  },
   "jupiter": {
     "value": "Jupiter",
     "history": [
@@ -119,32 +42,32 @@
       }
     ]
   },
-  "kilogramsPattern": {
-    "value": "{{kilograms}} kg",
+  "moon": {
+    "value": "Ilargia",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1505726825243,
         "oldValue": "",
-        "newValue": "{{kilograms}} kg",
+        "newValue": "Ilargia",
         "explanation": null
       }
     ]
   },
-  "legend.kineticEnergy": {
-    "value": "Enegia zinetikoa",
+  "planetX": {
+    "value": "X planeta",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1505726825243,
         "oldValue": "",
-        "newValue": "Enegia zinetikoa",
+        "newValue": "X planeta",
         "explanation": null
       }
     ]
   },
   "legend.kineticEnergyAbbreviation": {
-    "value": "KE Enegia zinetikoa",
+    "value": "EZ ",
     "history": [
       {
         "userId": 155750,
@@ -152,23 +75,18 @@
         "oldValue": "",
         "newValue": "KE Enegia zinetikoa",
         "explanation": null
-      }
-    ]
-  },
-  "legend.potentialEnergy": {
-    "value": "Energia potentziala",
-    "history": [
+      },
       {
-        "userId": 155750,
-        "timestamp": 1505726825243,
-        "oldValue": "",
-        "newValue": "Energia potentziala",
+        "userId": 570617,
+        "timestamp": 1561278363351,
+        "oldValue": "KE Enegia zinetikoa",
+        "newValue": "EZ ",
         "explanation": null
       }
     ]
   },
   "legend.potentialEnergyAbbreviation": {
-    "value": "PE Energia potentziala",
+    "value": "EP ",
     "history": [
       {
         "userId": 155750,
@@ -176,17 +94,12 @@
         "oldValue": "",
         "newValue": "PE Energia potentziala",
         "explanation": null
-      }
-    ]
-  },
-  "legend.thermalEnergy": {
-    "value": "Energia termikoa",
-    "history": [
+      },
       {
-        "userId": 155750,
-        "timestamp": 1505726825243,
-        "oldValue": "",
-        "newValue": "Energia termikoa",
+        "userId": 570617,
+        "timestamp": 1561278363351,
+        "oldValue": "PE Energia potentziala",
+        "newValue": "EP ",
         "explanation": null
       }
     ]
@@ -203,8 +116,82 @@
       }
     ]
   },
+  "legend.totalEnergyAbbreviation": {
+    "value": "E<sub>totala</sub>",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1505726825243,
+        "oldValue": "",
+        "newValue": "E<sub>osoa</sub>",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561278363351,
+        "oldValue": "E<sub>osoa</sub>",
+        "newValue": "E<sub>totala</sub>",
+        "explanation": null
+      }
+    ]
+  },
+  "energyLegend": {
+    "value": "Energia-legenda",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1505726825243,
+        "oldValue": "",
+        "newValue": "Energia-testua",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561278363351,
+        "oldValue": "Energia-testua",
+        "newValue": "Energia-legenda",
+        "explanation": null
+      }
+    ]
+  },
+  "legend.kineticEnergy": {
+    "value": "Enegia zinetikoa",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1505726825243,
+        "oldValue": "",
+        "newValue": "Enegia zinetikoa",
+        "explanation": null
+      }
+    ]
+  },
+  "legend.potentialEnergy": {
+    "value": "Energia potentziala",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1505726825243,
+        "oldValue": "",
+        "newValue": "Energia potentziala",
+        "explanation": null
+      }
+    ]
+  },
+  "legend.thermalEnergy": {
+    "value": "Energia termikoa",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1505726825243,
+        "oldValue": "",
+        "newValue": "Energia termikoa",
+        "explanation": null
+      }
+    ]
+  },
   "legend.totalEnergy": {
-    "value": "Energia osoa ",
+    "value": "Energia totala ",
     "history": [
       {
         "userId": 155750,
@@ -212,17 +199,129 @@
         "oldValue": "",
         "newValue": "Energia osoa ",
         "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561278363351,
+        "oldValue": "Energia osoa ",
+        "newValue": "Energia totala ",
+        "explanation": null
       }
     ]
   },
-  "legend.totalEnergyAbbreviation": {
-    "value": "E<sub>osoa</sub>",
+  "energyGraph": {
+    "value": "Energia-grafikoa",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1505726825243,
         "oldValue": "",
-        "newValue": "E<sub>osoa</sub>",
+        "newValue": "Energia-grafikoa",
+        "explanation": null
+      }
+    ]
+  },
+  "pendulumMassPattern": {
+    "value": "Masa {{pendulumNumber}}",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1505726825243,
+        "oldValue": "",
+        "newValue": "Masa {{pendulumNumber}}",
+        "explanation": null
+      }
+    ]
+  },
+  "friction": {
+    "value": "Marruskadura",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1505726825243,
+        "oldValue": "",
+        "newValue": "Marruskadura",
+        "explanation": null
+      }
+    ]
+  },
+  "lots": {
+    "value": "asko",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1505726825243,
+        "oldValue": "",
+        "newValue": "Asko",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561278363351,
+        "oldValue": "Asko",
+        "newValue": "asko",
+        "explanation": null
+      }
+    ]
+  },
+  "none": {
+    "value": "ezer ez",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1505726825243,
+        "oldValue": "",
+        "newValue": "Ezer ez",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561278363351,
+        "oldValue": "Ezer ez",
+        "newValue": "ezer ez",
+        "explanation": null
+      }
+    ]
+  },
+  "gravitationalAccelerationPattern": {
+    "value": "{{gravity}} m/s<sup>2</sup>",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1505726825243,
+        "oldValue": "",
+        "newValue": "{{gravity}} m/s<sup>2</sup>",
+        "explanation": null
+      }
+    ]
+  },
+  "whatIsTheValueOfGravity": {
+    "value": "Zenbat da grabitatearen balioa?",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1505726825243,
+        "oldValue": "",
+        "newValue": "Zein da grabitatearen balioa?",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561278363351,
+        "oldValue": "Zein da grabitatearen balioa?",
+        "newValue": "Zenbat da grabitatearen balioa?",
+        "explanation": null
+      }
+    ]
+  },
+  "gravity": {
+    "value": "Grabitatea",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1505726825243,
+        "oldValue": "",
+        "newValue": "Grabitatea",
         "explanation": null
       }
     ]
@@ -235,18 +334,6 @@
         "timestamp": 1505726825243,
         "oldValue": "",
         "newValue": "Luzera {{pendulumNumber}}",
-        "explanation": null
-      }
-    ]
-  },
-  "lots": {
-    "value": "Asko",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1505726825243,
-        "oldValue": "",
-        "newValue": "Asko",
         "explanation": null
       }
     ]
@@ -275,32 +362,32 @@
       }
     ]
   },
-  "moon": {
-    "value": "Ilargia",
+  "kilogramsPattern": {
+    "value": "{{kilograms}} kg",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1505726825243,
         "oldValue": "",
-        "newValue": "Ilargia",
+        "newValue": "{{kilograms}} kg",
         "explanation": null
       }
     ]
   },
-  "none": {
-    "value": "Ezer ez",
+  "rulerUnits": {
+    "value": "cm",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1505726825243,
         "oldValue": "",
-        "newValue": "Ezer ez",
+        "newValue": "cm",
         "explanation": null
       }
     ]
   },
   "normal": {
-    "value": "Normala",
+    "value": "Normal",
     "history": [
       {
         "userId": 155750,
@@ -308,41 +395,74 @@
         "oldValue": "",
         "newValue": "Normala",
         "explanation": null
-      }
-    ]
-  },
-  "pendulum-lab.title": {
-    "value": "Pendulu-laborategia",
-    "history": [
+      },
       {
-        "userId": 155750,
-        "timestamp": 1505726825243,
-        "oldValue": "",
-        "newValue": "Pendulu-laborategia",
+        "userId": 570617,
+        "timestamp": 1561278363351,
+        "oldValue": "Normala",
+        "newValue": "Normal",
         "explanation": null
       }
     ]
   },
-  "pendulumMassPattern": {
-    "value": "Masa {{pendulumNumber}}",
+  "slowMotion": {
+    "value": "Mantso",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1505726825243,
         "oldValue": "",
-        "newValue": "Masa {{pendulumNumber}}",
+        "newValue": "Poliki",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561278363351,
+        "oldValue": "Poliki",
+        "newValue": "Mantso",
         "explanation": null
       }
     ]
   },
-  "period": {
-    "value": "Periodoa",
+  "degreesPattern": {
+    "value": "{{degrees}}°",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1505726825243,
         "oldValue": "",
-        "newValue": "Periodoa",
+        "newValue": "{{degrees}}°",
+        "explanation": null
+      }
+    ]
+  },
+  "ruler": {
+    "value": "Erregela",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1505726825243,
+        "oldValue": "",
+        "newValue": "Erregela",
+        "explanation": null
+      }
+    ]
+  },
+  "stopwatch": {
+    "value": "Kronometroa",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1505726825243,
+        "oldValue": "",
+        "newValue": "Kronografoa",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561278363351,
+        "oldValue": "Kronografoa",
+        "newValue": "Kronometroa",
         "explanation": null
       }
     ]
@@ -371,42 +491,6 @@
       }
     ]
   },
-  "planetX": {
-    "value": "X planeta",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1505726825243,
-        "oldValue": "",
-        "newValue": "X planeta",
-        "explanation": null
-      }
-    ]
-  },
-  "ruler": {
-    "value": "Erregela",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1505726825243,
-        "oldValue": "",
-        "newValue": "Erregela",
-        "explanation": null
-      }
-    ]
-  },
-  "rulerUnits": {
-    "value": "cm",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1505726825243,
-        "oldValue": "",
-        "newValue": "cm",
-        "explanation": null
-      }
-    ]
-  },
   "screen.energy": {
     "value": "Energia",
     "history": [
@@ -431,50 +515,14 @@
       }
     ]
   },
-  "screen.lab": {
-    "value": "Laborategia",
+  "acceleration": {
+    "value": "Azelerazioa",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1505726825243,
         "oldValue": "",
-        "newValue": "Laborategia",
-        "explanation": null
-      }
-    ]
-  },
-  "secondsPattern": {
-    "value": "{{seconds}} s",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1505726825243,
-        "oldValue": "",
-        "newValue": "{{seconds}} s",
-        "explanation": null
-      }
-    ]
-  },
-  "slowMotion": {
-    "value": "Poliki",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1505726825243,
-        "oldValue": "",
-        "newValue": "Poliki",
-        "explanation": null
-      }
-    ]
-  },
-  "stopwatch": {
-    "value": "Kronografoa",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1505726825243,
-        "oldValue": "",
-        "newValue": "Kronografoa",
+        "newValue": "Azelerazioa",
         "explanation": null
       }
     ]
@@ -491,14 +539,50 @@
       }
     ]
   },
-  "whatIsTheValueOfGravity": {
-    "value": "Zein da grabitatearen balioa?",
+  "secondsPattern": {
+    "value": "{{seconds}} s",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1505726825243,
         "oldValue": "",
-        "newValue": "Zein da grabitatearen balioa?",
+        "newValue": "{{seconds}} s",
+        "explanation": null
+      }
+    ]
+  },
+  "period": {
+    "value": "Periodoa",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1505726825243,
+        "oldValue": "",
+        "newValue": "Periodoa",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.lab": {
+    "value": "Laborategia",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1505726825243,
+        "oldValue": "",
+        "newValue": "Laborategia",
+        "explanation": null
+      }
+    ]
+  },
+  "pendulum-lab.title": {
+    "value": "Pendulu-laborategia",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1505726825243,
+        "oldValue": "",
+        "newValue": "Pendulu-laborategia",
         "explanation": null
       }
     ]
