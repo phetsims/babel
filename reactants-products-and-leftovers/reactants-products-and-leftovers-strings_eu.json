@@ -1,72 +1,549 @@
 {
+  "combustMethane": {
+    "value": "Metano-errekuntza",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "Metano-errekuntza",
+        "explanation": null
+      }
+    ]
+  },
+  "makeAmmonia": {
+    "value": "Amoniako-eraketa",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "Amoniako-eraketa",
+        "explanation": null
+      }
+    ]
+  },
+  "makeWater": {
+    "value": "Ur-erakeka",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "Ur-erakeka",
+        "explanation": null
+      }
+    ]
+  },
+  "leftovers": {
+    "value": "Soberakinak",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "Soberakinak",
+        "explanation": null
+      }
+    ]
+  },
+  "products": {
+    "value": "Produktuak",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "Produktuak",
+        "explanation": null
+      }
+    ]
+  },
+  "reactants": {
+    "value": "Erreaktiboak",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "Erreaktiboak",
+        "explanation": null
+      }
+    ]
+  },
+  "questionMark": {
+    "value": "?",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "?",
+        "explanation": null
+      }
+    ]
+  },
+  "hideMolecules": {
+    "value": "Ezkutatu molekulak",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "Ezkutatu molekulak",
+        "explanation": null
+      }
+    ]
+  },
+  "hideNumbers": {
+    "value": "Ezkutatu zenbakiak",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "Ezkutatu zenbakiak",
+        "explanation": null
+      }
+    ]
+  },
+  "showAll": {
+    "value": "Erakutsi dena",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "Erakutsi dena",
+        "explanation": null
+      }
+    ]
+  },
+  "chooseYourLevel": {
+    "value": "Aukeratu zure maila",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "Aukeratu zure maila",
+        "explanation": null
+      }
+    ]
+  },
+  "doubleQuestionMark": {
+    "value": "??",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "??",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern_Level_0": {
+    "value": "{0}. maila",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "{0}. maila",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.game": {
+    "value": "Jokoa",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "Jokoa",
+        "explanation": null
+      }
+    ]
+  },
+  "afterReaction": {
+    "value": "Erreakzioaren ondoren",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "Erreakzioaren ondoren",
+        "explanation": null
+      }
+    ]
+  },
+  "beforeReaction": {
+    "value": "Erreakzioaren aurretik",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "Erreakzioaren aurretik",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.molecules": {
+    "value": "Molekulak",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "Molekulak",
+        "explanation": null
+      }
+    ]
+  },
+  "cheese": {
+    "value": "Gazta",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "Gazta",
+        "explanation": null
+      }
+    ]
+  },
+  "custom": {
+    "value": "Aukeran",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "Aukeran",
+        "explanation": null
+      }
+    ]
+  },
+  "meatAndCheese": {
+    "value": "Haragia eta gazta",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "Haragia eta gazta",
+        "explanation": null
+      }
+    ]
+  },
+  "noReaction": {
+    "value": "\"Erreakzio\"-rik ez",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "\"Erreakzio\"-rik ez",
+        "explanation": null
+      }
+    ]
+  },
+  "afterSandwich": {
+    "value": "\"Erreakzio\"-aren ondoren",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "\"Erreakzio\"-aren ondoren",
+        "explanation": null
+      }
+    ]
+  },
+  "beforeSandwich": {
+    "value": "\"Erreakzio\"-aren aurretik",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "\"Erreakzio\"-aren aurretik",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.sandwiches": {
+    "value": "Sandwichak",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "Sandwichak",
+        "explanation": null
+      }
+    ]
+  },
+  "reactants-products-and-leftovers.title": {
+    "value": "Erreaktiboak, produktuak eta soberakinak",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607251,
+        "oldValue": "",
+        "newValue": "Erreaktiboak, produktuak eta soberakinak",
+        "explanation": null
+      }
+    ]
+  },
   "button.showAnswer": {
-    "value": "Ikusi erantzuna"
+    "value": "Ikusi erantzuna",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "Ikusi erantzuna",
+        "explanation": null
+      }
+    ]
   },
   "message.valueOutOfRange": {
-    "value": "Balioa egon behar da {0} eta {1} artean"
+    "value": "Balioa egon behar da {0} eta {1} artean",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "Balioa egon behar da {0} eta {1} artean",
+        "explanation": null
+      }
+    ]
   },
   "radioButton.water": {
-    "value": "Ura sortu"
+    "value": "Ura sortu",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "Ura sortu",
+        "explanation": null
+      }
+    ]
   },
   "radioButton.numbers": {
-    "value": "zenbakiak"
+    "value": "zenbakiak",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "zenbakiak",
+        "explanation": null
+      }
+    ]
   },
   "message.numbersHidden": {
     "value": ""
   },
   "title.game": {
-    "value": "Jolastu!"
+    "value": "Jolastu!",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "Jolastu!",
+        "explanation": null
+      }
+    ]
   },
   "radioButton.molecules": {
-    "value": "molekulak"
+    "value": "molekulak",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "molekulak",
+        "explanation": null
+      }
+    ]
   },
   "question.howManyReactants": {
     "value": ""
   },
   "radioButton.ammonia": {
-    "value": "Amoniakoa sortu"
+    "value": "Amoniakoa sortu",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "Amoniakoa sortu",
+        "explanation": null
+      }
+    ]
   },
   "label.products": {
-    "value": "produktuak"
+    "value": "produktuak",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "produktuak",
+        "explanation": null
+      }
+    ]
   },
   "label.noSandwich": {
-    "value": "Ez erreakzionatu"
+    "value": "Ez erreakzionatu",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "Ez erreakzionatu",
+        "explanation": null
+      }
+    ]
   },
   "button.tryAgain": {
-    "value": "Saiatu berriro"
+    "value": "Saiatu berriro",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "Saiatu berriro",
+        "explanation": null
+      }
+    ]
   },
   "label.afterReaction": {
-    "value": "Erreakzionatu ondoren"
+    "value": "Erreakzionatu ondoren",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "Erreakzionatu ondoren",
+        "explanation": null
+      }
+    ]
   },
   "radioButton.cheeseSandwich": {
-    "value": "Gazta-sandwicha"
+    "value": "Gazta-sandwicha",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "Gazta-sandwicha",
+        "explanation": null
+      }
+    ]
   },
   "label.beforeReaction": {
-    "value": "Erreakzionatu baino lehen"
+    "value": "Erreakzionatu baino lehen",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "Erreakzionatu baino lehen",
+        "explanation": null
+      }
+    ]
   },
   "title.sandwichShop": {
-    "value": "Sandwich-denda"
+    "value": "Sandwich-denda",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "Sandwich-denda",
+        "explanation": null
+      }
+    ]
   },
   "title.realReaction": {
-    "value": "Erreakzioak"
+    "value": "Erreakzioak",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "Erreakzioak",
+        "explanation": null
+      }
+    ]
   },
   "radioButton.methane": {
-    "value": "Metanoaren errekuntza"
+    "value": "Metanoaren errekuntza",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "Metanoaren errekuntza",
+        "explanation": null
+      }
+    ]
   },
   "button.check": {
-    "value": "Egiaztatzea"
+    "value": "Egiaztatzea",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "Egiaztatzea",
+        "explanation": null
+      }
+    ]
   },
   "radioButton.nothing": {
-    "value": "ezer"
+    "value": "ezer",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "ezer",
+        "explanation": null
+      }
+    ]
   },
   "radioButton.meatCheeseSandwich": {
-    "value": "Okela eta Gazta-sandwicha"
-  },
-  "reactants-products-and-leftovers.title": {
-    "value": "Erreaktiboak, Produktuak eta Soberakinak"
+    "value": "Okela eta Gazta-sandwicha",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "Okela eta Gazta-sandwicha",
+        "explanation": null
+      }
+    ]
   },
   "label.leftovers": {
-    "value": "soberakinak"
+    "value": "soberakinak",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "soberakinak",
+        "explanation": null
+      }
+    ]
   },
   "question.howManyProductsAndLeftovers": {
     "value": ""
@@ -75,21 +552,75 @@
     "value": ""
   },
   "label.reactants": {
-    "value": "erreaktiboak"
+    "value": "erreaktiboak",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "erreaktiboak",
+        "explanation": null
+      }
+    ]
   },
   "label.hide": {
-    "value": "Ezkutatu:"
+    "value": "Ezkutatu:",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "Ezkutatu:",
+        "explanation": null
+      }
+    ]
   },
   "button.next": {
-    "value": "Hurrengoa"
+    "value": "Hurrengoa",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "Hurrengoa",
+        "explanation": null
+      }
+    ]
   },
   "label.reactionNumber": {
-    "value": "{1}tik {0}. erreakzioa"
+    "value": "{1}tik {0}. erreakzioa",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "{1}tik {0}. erreakzioa",
+        "explanation": null
+      }
+    ]
   },
   "label.afterSwndwich": {
-    "value": "Erreakzionatu ondoren"
+    "value": "Erreakzionatu ondoren",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "Erreakzionatu ondoren",
+        "explanation": null
+      }
+    ]
   },
   "label.beforeSandwich": {
-    "value": "Erreakzionatu baino lehen"
+    "value": "Erreakzionatu baino lehen",
+    "history": [
+      {
+        "userId": 570617,
+        "timestamp": 1561278607252,
+        "oldValue": "",
+        "newValue": "Erreakzionatu baino lehen",
+        "explanation": null
+      }
+    ]
   }
 }
