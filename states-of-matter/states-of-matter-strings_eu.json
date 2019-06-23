@@ -1,24 +1,57 @@
 {
-  "Atoms": {
-    "value": "Atomoak",
+  "electronOverlap": {
+    "value": "(elektroi-gainezarpena)",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1490130049458,
         "oldValue": "",
-        "newValue": "Atomoak",
+        "newValue": "(elektroia gainjarria)",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561273638511,
+        "oldValue": "(elektroia gainjarria)",
+        "newValue": "(elektroi-gainezarpena)",
+        "explanation": null
+      }
+    ]
+  },
+  "vanderwaals": {
+    "value": "(Van der Waals)",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490130049458,
+        "oldValue": "",
+        "newValue": "(van der Waals)",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561273638511,
+        "oldValue": "(van der Waals)",
+        "newValue": "(Van der Waals)",
         "explanation": null
       }
     ]
   },
   "adjustableAttraction": {
-    "value": "Erakarpen egokigarria",
+    "value": "Erakarpen doigarria",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1490130049458,
         "oldValue": "",
         "newValue": "Erakarpen egokigarria",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561273638511,
+        "oldValue": "Erakarpen egokigarria",
+        "newValue": "Erakarpen doigarria",
         "explanation": null
       }
     ]
@@ -36,7 +69,7 @@
     ]
   },
   "atomDiameter": {
-    "value": "Diametro atomikoa (σ)",
+    "value": "Atomo-diametroa (σ)",
     "history": [
       {
         "userId": 155750,
@@ -44,11 +77,30 @@
         "oldValue": "",
         "newValue": "Diametro atomikoa (σ)",
         "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561273638511,
+        "oldValue": "Diametro atomikoa (σ)",
+        "newValue": "Atomo-diametroa (σ)",
+        "explanation": null
+      }
+    ]
+  },
+  "Atoms": {
+    "value": "Atomoak",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490130049458,
+        "oldValue": "",
+        "newValue": "Atomoak",
+        "explanation": null
       }
     ]
   },
   "attractive": {
-    "value": "Erakargarria",
+    "value": "Erakarlea",
     "history": [
       {
         "userId": 155750,
@@ -56,11 +108,18 @@
         "oldValue": "",
         "newValue": "Erakargarria",
         "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561273638511,
+        "oldValue": "Erakargarria",
+        "newValue": "Erakarlea",
+        "explanation": null
       }
     ]
   },
   "customAttraction": {
-    "value": "Ekarpen pertsonalizatua",
+    "value": "Aukeratu erakarpena",
     "history": [
       {
         "userId": 155750,
@@ -68,11 +127,18 @@
         "oldValue": "",
         "newValue": "Ekarpen pertsonalizatua",
         "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561273638511,
+        "oldValue": "Ekarpen pertsonalizatua",
+        "newValue": "Aukeratu erakarpena",
+        "explanation": null
       }
     ]
   },
   "distanceBetweenAtoms": {
-    "value": "Atomoen arteko distantzia",
+    "value": "Atomo arteko distantzia",
     "history": [
       {
         "userId": 155750,
@@ -80,11 +146,18 @@
         "oldValue": "",
         "newValue": "Atomoen arteko distantzia",
         "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561273638511,
+        "oldValue": "Atomoen arteko distantzia",
+        "newValue": "Atomo arteko distantzia",
+        "explanation": null
       }
     ]
   },
   "distanceBetweenMolecules": {
-    "value": "Molekulen arteko distantzia",
+    "value": "Molekula arteko distantzia",
     "history": [
       {
         "userId": 155750,
@@ -92,29 +165,12 @@
         "oldValue": "",
         "newValue": "Molekulen arteko distantzia",
         "explanation": null
-      }
-    ]
-  },
-  "electronOverlap": {
-    "value": "(elektroia gainjarria)",
-    "history": [
+      },
       {
-        "userId": 155750,
-        "timestamp": 1490130049458,
-        "oldValue": "",
-        "newValue": "(elektroia gainjarria)",
-        "explanation": null
-      }
-    ]
-  },
-  "epsilon": {
-    "value": "ε",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1490130049458,
-        "oldValue": "",
-        "newValue": "ε",
+        "userId": 570617,
+        "timestamp": 1561273638511,
+        "oldValue": "Molekulen arteko distantzia",
+        "newValue": "Molekula arteko distantzia",
         "explanation": null
       }
     ]
@@ -132,7 +188,7 @@
     ]
   },
   "hideForces": {
-    "value": "Indar izkutuak",
+    "value": "Ezkutatu indarrak",
     "history": [
       {
         "userId": 155750,
@@ -140,11 +196,18 @@
         "oldValue": "",
         "newValue": "Indar izkutuak",
         "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561273638511,
+        "oldValue": "Indar izkutuak",
+        "newValue": "Ezkutatu indarrak",
+        "explanation": null
       }
     ]
   },
   "interactionStrength": {
-    "value": "Elkarrekintzako indarra (ε)",
+    "value": "Elkarrekintza-indarra (ε)",
     "history": [
       {
         "userId": 155750,
@@ -152,11 +215,18 @@
         "oldValue": "",
         "newValue": "Elkarrekintzako indarra (ε)",
         "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561273638511,
+        "oldValue": "Elkarrekintzako indarra (ε)",
+        "newValue": "Elkarrekintza-indarra (ε)",
+        "explanation": null
       }
     ]
   },
   "large": {
-    "value": "Handia",
+    "value": "handia",
     "history": [
       {
         "userId": 155750,
@@ -164,17 +234,31 @@
         "oldValue": "",
         "newValue": "Handia",
         "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561273638511,
+        "oldValue": "Handia",
+        "newValue": "handia",
+        "explanation": null
       }
     ]
   },
   "moving": {
-    "value": "Mugituz",
+    "value": "Higikorra",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1490130049458,
         "oldValue": "",
         "newValue": "Mugituz",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561273638511,
+        "oldValue": "Mugituz",
+        "newValue": "Higikorra",
         "explanation": null
       }
     ]
@@ -192,13 +276,20 @@
     ]
   },
   "normal": {
-    "value": "Normala",
+    "value": "Normal",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1490130049458,
         "oldValue": "",
         "newValue": "Normala",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561273638511,
+        "oldValue": "Normala",
+        "newValue": "Normal",
         "explanation": null
       }
     ]
@@ -216,13 +307,20 @@
     ]
   },
   "pinned": {
-    "value": "Lotuta",
+    "value": "Finkoa",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1490130049458,
         "oldValue": "",
         "newValue": "Lotuta",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561273638511,
+        "oldValue": "Lotuta",
+        "newValue": "Finkoa",
         "explanation": null
       }
     ]
@@ -239,20 +337,8 @@
       }
     ]
   },
-  "projectorMode": {
-    "value": "Proiektore-modua",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1490130049458,
-        "oldValue": "",
-        "newValue": "Proiektore-modua",
-        "explanation": null
-      }
-    ]
-  },
   "repulsive": {
-    "value": "Aldarapena",
+    "value": "Aldaratzailea",
     "history": [
       {
         "userId": 155750,
@@ -260,17 +346,138 @@
         "oldValue": "",
         "newValue": "Aldarapena",
         "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561273638511,
+        "oldValue": "Aldarapena",
+        "newValue": "Aldaratzailea",
+        "explanation": null
       }
     ]
   },
   "returnAtom": {
-    "value": "Itzulerako atomoa",
+    "value": "Itzuli atomoa",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1490130049458,
         "oldValue": "",
         "newValue": "Itzulerako atomoa",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561273638511,
+        "oldValue": "Itzulerako atomoa",
+        "newValue": "Itzuli atomoa",
+        "explanation": null
+      }
+    ]
+  },
+  "slowMotion": {
+    "value": "Kamera geldia",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490130049458,
+        "oldValue": "",
+        "newValue": "Kamera geldoa",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561273638511,
+        "oldValue": "Kamera geldoa",
+        "newValue": "Kamera geldia",
+        "explanation": null
+      }
+    ]
+  },
+  "small": {
+    "value": "txikia",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490130049458,
+        "oldValue": "",
+        "newValue": "Txikia",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561273638511,
+        "oldValue": "Txikia",
+        "newValue": "txikia",
+        "explanation": null
+      }
+    ]
+  },
+  "strong": {
+    "value": "sendoa",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490130049458,
+        "oldValue": "",
+        "newValue": "Sendoa",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561273638511,
+        "oldValue": "Sendoa",
+        "newValue": "sendoa",
+        "explanation": null
+      }
+    ]
+  },
+  "totalForce": {
+    "value": "Indar totala",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490130049458,
+        "oldValue": "",
+        "newValue": "Indar osoa",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561273638511,
+        "oldValue": "Indar osoa",
+        "newValue": "Indar totala",
+        "explanation": null
+      }
+    ]
+  },
+  "weak": {
+    "value": "ahula",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490130049458,
+        "oldValue": "",
+        "newValue": "Ahula",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561273638511,
+        "oldValue": "Ahula",
+        "newValue": "ahula",
+        "explanation": null
+      }
+    ]
+  },
+  "epsilon": {
+    "value": "ε",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490130049458,
+        "oldValue": "",
+        "newValue": "ε",
         "explanation": null
       }
     ]
@@ -287,74 +494,14 @@
       }
     ]
   },
-  "slowMotion": {
-    "value": "Kamera geldoa",
+  "projectorMode": {
+    "value": "Proiektore-modua",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1490130049458,
         "oldValue": "",
-        "newValue": "Kamera geldoa",
-        "explanation": null
-      }
-    ]
-  },
-  "small": {
-    "value": "Txikia",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1490130049458,
-        "oldValue": "",
-        "newValue": "Txikia",
-        "explanation": null
-      }
-    ]
-  },
-  "strong": {
-    "value": "Sendoa",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1490130049458,
-        "oldValue": "",
-        "newValue": "Sendoa",
-        "explanation": null
-      }
-    ]
-  },
-  "totalForce": {
-    "value": "Indar osoa",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1490130049458,
-        "oldValue": "",
-        "newValue": "Indar osoa",
-        "explanation": null
-      }
-    ]
-  },
-  "vanderwaals": {
-    "value": "(van der Waals)",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1490130049458,
-        "oldValue": "",
-        "newValue": "(van der Waals)",
-        "explanation": null
-      }
-    ]
-  },
-  "weak": {
-    "value": "Ahula",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1490130049458,
-        "oldValue": "",
-        "newValue": "Ahula",
+        "newValue": "Proiektore-modua",
         "explanation": null
       }
     ]
