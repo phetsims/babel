@@ -1,4 +1,183 @@
 {
+  "units.meters": {
+    "value": "m",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490136146236,
+        "oldValue": "",
+        "newValue": "m",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern_0value_1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490136146237,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "units.kg": {
+    "value": "kg",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490136146237,
+        "oldValue": "",
+        "newValue": "kg",
+        "explanation": null
+      }
+    ]
+  },
+  "force-description-pattern-target_source": {
+    "value": "{1}-(e)k {0}-(r)i egindako indarra",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490136146237,
+        "oldValue": "",
+        "newValue": "Indarra {0} {1}etik",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561277516841,
+        "oldValue": "Indarra {0} {1}etik",
+        "newValue": "{1}-(e)k {0}-(r)i egindako indarra",
+        "explanation": null
+      }
+    ]
+  },
+  "force-description-pattern-target_source_value": {
+    "value": "{1}-(e)k {0}-(r)i egindako indarra = {2} N",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490136146237,
+        "oldValue": "",
+        "newValue": "{1}-k {0}-ri eginiko indarra = {2} N",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561277516841,
+        "oldValue": "{1}-k {0}-ri eginiko indarra = {2} N",
+        "newValue": "{1}-(e)k {0}-(r)i egindako indarra = {2} N",
+        "explanation": null
+      }
+    ]
+  },
+  "constantRadius": {
+    "value": "Erradioa konstantea",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490136146237,
+        "oldValue": "",
+        "newValue": "Konstanteko erradioa",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561277516841,
+        "oldValue": "Konstanteko erradioa",
+        "newValue": "Erradioa konstantea",
+        "explanation": null
+      }
+    ]
+  },
+  "showValues": {
+    "value": "Erakutsi balioak",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490136146237,
+        "oldValue": "",
+        "newValue": "Erakustaldiko balioak",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561277516841,
+        "oldValue": "Erakustaldiko balioak",
+        "newValue": "Erakutsi balioak",
+        "explanation": null
+      }
+    ]
+  },
+  "mass1": {
+    "value": "Masa 1",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490136146237,
+        "oldValue": "",
+        "newValue": "Masa 1",
+        "explanation": null
+      }
+    ]
+  },
+  "mass2": {
+    "value": "Masa 2",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490136146237,
+        "oldValue": "",
+        "newValue": "Masa 2",
+        "explanation": null
+      }
+    ]
+  },
+  "mass1Abbreviated": {
+    "value": "m1",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490136146237,
+        "oldValue": "",
+        "newValue": "m1",
+        "explanation": null
+      }
+    ]
+  },
+  "mass2Abbreviated": {
+    "value": "m2",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490136146237,
+        "oldValue": "",
+        "newValue": "m2",
+        "explanation": null
+      }
+    ]
+  },
+  "gravity-force-lab.title": {
+    "value": "Grabitazio-indarraren laborategia",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490136146237,
+        "oldValue": "",
+        "newValue": "Grabitazio-indarraren Laborategia",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561277516841,
+        "oldValue": "Grabitazio-indarraren Laborategia",
+        "newValue": "Grabitazio-indarraren laborategia",
+        "explanation": null
+      }
+    ]
+  },
   "body.name.earth": {
     "value": "Lurra",
     "history": [
@@ -11,18 +190,6 @@
       }
     ]
   },
-  "constantRadius": {
-    "value": "Konstanteko erradioa",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1490136146237,
-        "oldValue": "",
-        "newValue": "Konstanteko erradioa",
-        "explanation": null
-      }
-    ]
-  },
   "custom": {
     "value": "Neurrira egin",
     "history": [
@@ -31,42 +198,6 @@
         "timestamp": 1490136146237,
         "oldValue": "",
         "newValue": "Neurrira egin",
-        "explanation": null
-      }
-    ]
-  },
-  "force-description-pattern-target_source": {
-    "value": "Indarra {0} {1}etik",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1490136146237,
-        "oldValue": "",
-        "newValue": "Indarra {0} {1}etik",
-        "explanation": null
-      }
-    ]
-  },
-  "force-description-pattern-target_source_value": {
-    "value": "{1}-k {0}-ri eginiko indarra = {2} N",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1490136146237,
-        "oldValue": "",
-        "newValue": "{1}-k {0}-ri eginiko indarra = {2} N",
-        "explanation": null
-      }
-    ]
-  },
-  "gravity-force-lab.title": {
-    "value": "Grabitazio-indarraren Laborategia",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1490136146237,
-        "oldValue": "",
-        "newValue": "Grabitazio-indarraren Laborategia",
         "explanation": null
       }
     ]
@@ -84,54 +215,6 @@
     ]
   },
   "mass-2": {
-    "value": "m2",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1490136146237,
-        "oldValue": "",
-        "newValue": "m2",
-        "explanation": null
-      }
-    ]
-  },
-  "mass1": {
-    "value": "Masa 1",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1490136146237,
-        "oldValue": "",
-        "newValue": "Masa 1",
-        "explanation": null
-      }
-    ]
-  },
-  "mass1Abbreviated": {
-    "value": "m1",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1490136146237,
-        "oldValue": "",
-        "newValue": "m1",
-        "explanation": null
-      }
-    ]
-  },
-  "mass2": {
-    "value": "Masa 2",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1490136146237,
-        "oldValue": "",
-        "newValue": "Masa 2",
-        "explanation": null
-      }
-    ]
-  },
-  "mass2Abbreviated": {
     "value": "m2",
     "history": [
       {
@@ -215,18 +298,6 @@
       }
     ]
   },
-  "pattern_0value_1units": {
-    "value": "{0} {1}",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1490136146237,
-        "oldValue": "",
-        "newValue": "{0} {1}",
-        "explanation": null
-      }
-    ]
-  },
   "planet": {
     "value": "Planeta",
     "history": [
@@ -271,18 +342,6 @@
         "timestamp": 1490136146237,
         "oldValue": "",
         "newValue": "Lotutako Simulazioak ",
-        "explanation": null
-      }
-    ]
-  },
-  "showValues": {
-    "value": "Erakustaldiko balioak",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1490136146237,
-        "oldValue": "",
-        "newValue": "Erakustaldiko balioak",
         "explanation": null
       }
     ]
@@ -335,18 +394,6 @@
       }
     ]
   },
-  "units.kg": {
-    "value": "kg",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1490136146237,
-        "oldValue": "",
-        "newValue": "kg",
-        "explanation": null
-      }
-    ]
-  },
   "units.kilometers": {
     "value": "kilometro",
     "history": [
@@ -367,18 +414,6 @@
         "timestamp": 1490136146237,
         "oldValue": "",
         "newValue": "argi-minutuak",
-        "explanation": null
-      }
-    ]
-  },
-  "units.meters": {
-    "value": "m",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1490136146236,
-        "oldValue": "",
-        "newValue": "m",
         "explanation": null
       }
     ]
