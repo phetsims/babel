@@ -1,36 +1,19 @@
 {
-  "angleUnit": {
-    "value": "deg",
+  "electricField": {
+    "value": "Eremu elektrikoa",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1490133256358,
         "oldValue": "",
-        "newValue": "deg",
+        "newValue": "Elektrizitate-eremua",
         "explanation": null
-      }
-    ]
-  },
-  "centimeterUnit": {
-    "value": "cm",
-    "history": [
+      },
       {
-        "userId": 155750,
-        "timestamp": 1490133256358,
-        "oldValue": "",
-        "newValue": "cm",
-        "explanation": null
-      }
-    ]
-  },
-  "charges-and-fields.title": {
-    "value": "Kargak eta eremuak",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1490133256358,
-        "oldValue": "",
-        "newValue": "Kargak eta eremuak",
+        "userId": 570617,
+        "timestamp": 1561274046414,
+        "oldValue": "Elektrizitate-eremua",
+        "newValue": "Eremu elektrikoa",
         "explanation": null
       }
     ]
@@ -47,38 +30,21 @@
       }
     ]
   },
-  "eFieldUnit": {
-    "value": "V/m",
+  "voltage": {
+    "value": "Potentzial elektrikoa",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1490133256358,
         "oldValue": "",
-        "newValue": "V/m",
+        "newValue": "Tentsioa",
         "explanation": null
-      }
-    ]
-  },
-  "electricField": {
-    "value": "Elektrizitate-eremua",
-    "history": [
+      },
       {
-        "userId": 155750,
-        "timestamp": 1490133256358,
-        "oldValue": "",
-        "newValue": "Elektrizitate-eremua",
-        "explanation": null
-      }
-    ]
-  },
-  "equipotential": {
-    "value": "Ekipotentziala",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1490133256358,
-        "oldValue": "",
-        "newValue": "Ekipotentziala",
+        "userId": 570617,
+        "timestamp": 1561274046414,
+        "oldValue": "Tentsioa",
+        "newValue": "Potentzial elektrikoa",
         "explanation": null
       }
     ]
@@ -95,6 +61,30 @@
       }
     ]
   },
+  "values": {
+    "value": "Balioak",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490133256358,
+        "oldValue": "",
+        "newValue": "Balioak",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageUnit": {
+    "value": "V",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490133256358,
+        "oldValue": "",
+        "newValue": "V",
+        "explanation": null
+      }
+    ]
+  },
   "minusOneNanoC": {
     "value": "-1 nC",
     "history": [
@@ -103,42 +93,6 @@
         "timestamp": 1490133256358,
         "oldValue": "",
         "newValue": "-1 nC",
-        "explanation": null
-      }
-    ]
-  },
-  "oneMeter": {
-    "value": "1 metro",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1490133256358,
-        "oldValue": "",
-        "newValue": "1 metro",
-        "explanation": null
-      }
-    ]
-  },
-  "options.projectorColors": {
-    "value": "Proiektore-modua",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1490133256358,
-        "oldValue": "",
-        "newValue": "Proiektore-modua",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0value.1units": {
-    "value": "{0} {1}",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1490133256358,
-        "oldValue": "",
-        "newValue": "{0} {1}",
         "explanation": null
       }
     ]
@@ -167,38 +121,105 @@
       }
     ]
   },
-  "values": {
-    "value": "Balioak",
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1490133256358,
         "oldValue": "",
-        "newValue": "Balioak",
+        "newValue": "{0} {1}",
         "explanation": null
       }
     ]
   },
-  "voltage": {
-    "value": "Tentsioa",
+  "eFieldUnit": {
+    "value": "V/m",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1490133256358,
         "oldValue": "",
-        "newValue": "Tentsioa",
+        "newValue": "V/m",
         "explanation": null
       }
     ]
   },
-  "voltageUnit": {
-    "value": "V",
+  "angleUnit": {
+    "value": "gradu",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1490133256358,
         "oldValue": "",
-        "newValue": "V",
+        "newValue": "deg",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1561274046414,
+        "oldValue": "deg",
+        "newValue": "gradu",
+        "explanation": null
+      }
+    ]
+  },
+  "equipotential": {
+    "value": "Ekipotentziala",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490133256358,
+        "oldValue": "",
+        "newValue": "Ekipotentziala",
+        "explanation": null
+      }
+    ]
+  },
+  "centimeterUnit": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490133256358,
+        "oldValue": "",
+        "newValue": "cm",
+        "explanation": null
+      }
+    ]
+  },
+  "oneMeter": {
+    "value": "1 metro",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490133256358,
+        "oldValue": "",
+        "newValue": "1 metro",
+        "explanation": null
+      }
+    ]
+  },
+  "charges-and-fields.title": {
+    "value": "Kargak eta eremuak",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490133256358,
+        "oldValue": "",
+        "newValue": "Kargak eta eremuak",
+        "explanation": null
+      }
+    ]
+  },
+  "options.projectorColors": {
+    "value": "Proiektore-modua",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1490133256358,
+        "oldValue": "",
+        "newValue": "Proiektore-modua",
         "explanation": null
       }
     ]
