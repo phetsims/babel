@@ -23,7 +23,7 @@
       },
       {
         "userId": 570617,
-        "timestamp": 1561273682723,
+        "timestamp": 1561273834006,
         "oldValue": "(Zure hoberena berria!)",
         "newValue": "(Zure azken hoberena!)",
         "explanation": null
@@ -42,9 +42,21 @@
       },
       {
         "userId": 570617,
-        "timestamp": 1561273682723,
+        "timestamp": 1561273834006,
         "oldValue": "{0} desafioa {1}tik",
         "newValue": "Desafioa: {0} ({1}etik)",
+        "explanation": null
+      }
+    ]
+  },
+  "check": {
+    "value": "Aztertu",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1488890057410,
+        "oldValue": "",
+        "newValue": "Aztertu",
         "explanation": null
       }
     ]
@@ -97,7 +109,7 @@
       },
       {
         "userId": 570617,
-        "timestamp": 1561273682723,
+        "timestamp": 1561273834006,
         "oldValue": "Primeran!",
         "newValue": "Oso ondo!",
         "explanation": null
@@ -128,21 +140,26 @@
       }
     ]
   },
-  "score": {
-    "value": "Puntuazioa:",
+  "next": {
+    "value": "Hurrengoa",
     "history": [
       {
         "userId": 155750,
-        "timestamp": 1526993296893,
+        "timestamp": 1488890057410,
         "oldValue": "",
-        "newValue": "Puntuaketa:",
+        "newValue": "Hurrengoa",
         "explanation": null
-      },
+      }
+    ]
+  },
+  "label.score": {
+    "value": "Puntuazioa: {0}",
+    "history": [
       {
-        "userId": 570617,
-        "timestamp": 1561273682723,
-        "oldValue": "Puntuaketa:",
-        "newValue": "Puntuazioa:",
+        "userId": 155750,
+        "timestamp": 1488890057410,
+        "oldValue": "",
+        "newValue": "Puntuazioa: {0}",
         "explanation": null
       }
     ]
@@ -159,28 +176,21 @@
       },
       {
         "userId": 570617,
-        "timestamp": 1561273682723,
+        "timestamp": 1561273834006,
         "oldValue": "Puntuazioa: {1}-(e)tik {0} ",
         "newValue": "Puntuazioa: {1}etik {0} ",
         "explanation": null
       }
     ]
   },
-  "pattern.score.number": {
-    "value": "Puntuazioa: {{score}}",
+  "showAnswer": {
+    "value": "Erakutsi erantzuna",
     "history": [
       {
         "userId": 155750,
-        "timestamp": 1526993296893,
+        "timestamp": 1488924497542,
         "oldValue": "",
-        "newValue": "Puntuaketa: {{score}}",
-        "explanation": null
-      },
-      {
-        "userId": 570617,
-        "timestamp": 1561273682723,
-        "oldValue": "Puntuaketa: {{score}}",
-        "newValue": "Puntuazioa: {{score}}",
+        "newValue": "Erakutsi erantzuna",
         "explanation": null
       }
     ]
@@ -209,6 +219,18 @@
       }
     ]
   },
+  "tryAgain": {
+    "value": "Saiatu berriro",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1488890057410,
+        "oldValue": "",
+        "newValue": "Saiatu berriro",
+        "explanation": null
+      }
+    ]
+  },
   "pattern.0minutes.1seconds": {
     "value": "{0}:{1}",
     "history": [
@@ -233,66 +255,6 @@
       }
     ]
   },
-  "check": {
-    "value": "Aztertu",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1488890057410,
-        "oldValue": "",
-        "newValue": "Aztertu",
-        "explanation": null
-      }
-    ]
-  },
-  "next": {
-    "value": "Hurrengoa",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1488890057410,
-        "oldValue": "",
-        "newValue": "Hurrengoa",
-        "explanation": null
-      }
-    ]
-  },
-  "label.score": {
-    "value": "Puntuazioa: {0}",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1488890057410,
-        "oldValue": "",
-        "newValue": "Puntuazioa: {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "showAnswer": {
-    "value": "Erakutsi erantzuna",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1488924497542,
-        "oldValue": "",
-        "newValue": "Erakutsi erantzuna",
-        "explanation": null
-      }
-    ]
-  },
-  "tryAgain": {
-    "value": "Saiatu berriro",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1488890057410,
-        "oldValue": "",
-        "newValue": "Saiatu berriro",
-        "explanation": null
-      }
-    ]
-  },
   "done": {
     "value": "Egina",
     "history": [
@@ -301,6 +263,30 @@
         "timestamp": 1548859135493,
         "oldValue": "",
         "newValue": "Egina",
+        "explanation": null
+      }
+    ]
+  },
+  "score": {
+    "value": "Puntuaketa:",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1526993296893,
+        "oldValue": "",
+        "newValue": "Puntuaketa:",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.score.number": {
+    "value": "Puntuaketa: {{score}}",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1526993296893,
+        "oldValue": "",
+        "newValue": "Puntuaketa: {{score}}",
         "explanation": null
       }
     ]
@@ -563,7 +549,7 @@
       },
       {
         "userId": 570617,
-        "timestamp": 1561273682724,
+        "timestamp": 1561273834007,
         "oldValue": "Ez duzu jokoa bukatu.\r\\nSeguru joko berri bat hasi nahi duzula?",
         "newValue": "Ez duzu jokoa bukatu.\r\nSeguru joko berri bat hasi nahi duzula?",
         "explanation": null
