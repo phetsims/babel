@@ -1,114 +1,6 @@
 {
-  "done": {
-    "value": "完成",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1554287030681,
-        "oldValue": "",
-        "newValue": "完成",
-        "explanation": null
-      }
-    ]
-  },
-  "next": {
-    "value": "下一步",
-    "history": [
-      {
-        "userId": 162142,
-        "timestamp": 1458179753227,
-        "oldValue": "",
-        "newValue": "下一步",
-        "explanation": null
-      }
-    ]
-  },
-  "score": {
-    "value": "分数:",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1528167770557,
-        "oldValue": "",
-        "newValue": "分数:",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.score.number": {
-    "value": "分数: {{score}}",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1528167770557,
-        "oldValue": "",
-        "newValue": "分数: {{score}}",
-        "explanation": null
-      }
-    ]
-  },
-  "youCompletedAllLevels": {
-    "value": "你已经完成所有等级",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1554287030681,
-        "oldValue": "",
-        "newValue": "你已经完成所有等级",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0minutes.1seconds": {
-    "value": "{0}:{1}",
-    "history": [
-      {
-        "userId": 162142,
-        "timestamp": 1458179753227,
-        "oldValue": "",
-        "newValue": "{0}:{1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0hours.1minutes.2seconds": {
-    "value": "{0}:{1}:{2}",
-    "history": [
-      {
-        "userId": 162142,
-        "timestamp": 1458179753227,
-        "oldValue": "",
-        "newValue": "{0}:{1}:{2}",
-        "explanation": null
-      }
-    ]
-  },
-  "keepGoing": {
-    "value": "继续",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1532636402589,
-        "oldValue": "",
-        "newValue": "继续",
-        "explanation": null
-      }
-    ]
-  },
-  "newLevel": {
-    "value": "新级别",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1532636402589,
-        "oldValue": "",
-        "newValue": "新级别",
-        "explanation": null
-      }
-    ]
-  },
   "pattern.0yourBest": {
-    "value": "(你最好的: {0})",
+    "value": "(你的最高分: {0})",
     "history": [
       {
         "userId": 162142,
@@ -116,11 +8,18 @@
         "oldValue": "",
         "newValue": "(你最好的: {0})",
         "explanation": null
+      },
+      {
+        "userId": 685789,
+        "timestamp": 1563853227180,
+        "oldValue": "(你最好的: {0})",
+        "newValue": "(你的最高分: {0})",
+        "explanation": null
       }
     ]
   },
   "yourNewBest": {
-    "value": "(你最新最棒的!)",
+    "value": "(你新的最高分!)",
     "history": [
       {
         "userId": 162142,
@@ -135,24 +34,12 @@
         "oldValue": "(你的最新最棒的!)",
         "newValue": "(你最新最棒的!)",
         "explanation": null
-      }
-    ]
-  },
-  "pattern.0challenge.1max": {
-    "value": "挑战 {0} / {1}",
-    "history": [
-      {
-        "userId": 162142,
-        "timestamp": 1458179753227,
-        "oldValue": "",
-        "newValue": "挑战 {0} of {1}",
-        "explanation": null
       },
       {
-        "userId": 293040,
-        "timestamp": 1472908394740,
-        "oldValue": "挑战 {0} of {1}",
-        "newValue": "挑战 {0} / {1}",
+        "userId": 685789,
+        "timestamp": 1563853227180,
+        "oldValue": "(你最新最棒的!)",
+        "newValue": "(你新的最高分!)",
         "explanation": null
       }
     ]
@@ -241,6 +128,30 @@
       }
     ]
   },
+  "score": {
+    "value": "分数:",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1528167770557,
+        "oldValue": "",
+        "newValue": "分数:",
+        "explanation": null
+      }
+    ]
+  },
+  "label.score": {
+    "value": "得分: {0}",
+    "history": [
+      {
+        "userId": 162142,
+        "timestamp": 1458179753227,
+        "oldValue": "",
+        "newValue": "得分: {0}",
+        "explanation": null
+      }
+    ]
+  },
   "label.score.max": {
     "value": "得分: {0} 总分 {1}",
     "history": [
@@ -260,6 +171,18 @@
       }
     ]
   },
+  "pattern.score.number": {
+    "value": "分数: {{score}}",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1528167770557,
+        "oldValue": "",
+        "newValue": "分数: {{score}}",
+        "explanation": null
+      }
+    ]
+  },
   "showAnswer": {
     "value": "显示答案",
     "history": [
@@ -268,18 +191,6 @@
         "timestamp": 1458179753227,
         "oldValue": "",
         "newValue": "显示答案",
-        "explanation": null
-      }
-    ]
-  },
-  "startOver": {
-    "value": "重新开始",
-    "history": [
-      {
-        "userId": 162142,
-        "timestamp": 1458179753227,
-        "oldValue": "",
-        "newValue": "重新开始",
         "explanation": null
       }
     ]
@@ -304,6 +215,121 @@
         "timestamp": 1458179753227,
         "oldValue": "",
         "newValue": "再试一次",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0minutes.1seconds": {
+    "value": "{0}:{1}",
+    "history": [
+      {
+        "userId": 162142,
+        "timestamp": 1458179753227,
+        "oldValue": "",
+        "newValue": "{0}:{1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 162142,
+        "timestamp": 1458179753227,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      }
+    ]
+  },
+  "done": {
+    "value": "完成",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1554287030681,
+        "oldValue": "",
+        "newValue": "完成",
+        "explanation": null
+      }
+    ]
+  },
+  "next": {
+    "value": "下一步",
+    "history": [
+      {
+        "userId": 162142,
+        "timestamp": 1458179753227,
+        "oldValue": "",
+        "newValue": "下一步",
+        "explanation": null
+      }
+    ]
+  },
+  "youCompletedAllLevels": {
+    "value": "你已经完成所有等级",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1554287030681,
+        "oldValue": "",
+        "newValue": "你已经完成所有等级",
+        "explanation": null
+      }
+    ]
+  },
+  "keepGoing": {
+    "value": "继续",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1532636402589,
+        "oldValue": "",
+        "newValue": "继续",
+        "explanation": null
+      }
+    ]
+  },
+  "newLevel": {
+    "value": "新级别",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1532636402589,
+        "oldValue": "",
+        "newValue": "新级别",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0challenge.1max": {
+    "value": "挑战 {0} / {1}",
+    "history": [
+      {
+        "userId": 162142,
+        "timestamp": 1458179753227,
+        "oldValue": "",
+        "newValue": "挑战 {0} of {1}",
+        "explanation": null
+      },
+      {
+        "userId": 293040,
+        "timestamp": 1472908394740,
+        "oldValue": "挑战 {0} of {1}",
+        "newValue": "挑战 {0} / {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "startOver": {
+    "value": "重新开始",
+    "history": [
+      {
+        "userId": 162142,
+        "timestamp": 1458179753227,
+        "oldValue": "",
+        "newValue": "重新开始",
         "explanation": null
       }
     ]
@@ -376,18 +402,6 @@
         "timestamp": 1458179753228,
         "oldValue": "",
         "newValue": "你最新最好成绩!",
-        "explanation": null
-      }
-    ]
-  },
-  "label.score": {
-    "value": "得分: {0}",
-    "history": [
-      {
-        "userId": 162142,
-        "timestamp": 1458179753227,
-        "oldValue": "",
-        "newValue": "得分: {0}",
         "explanation": null
       }
     ]
@@ -564,6 +578,13 @@
       {
         "userId": 293040,
         "timestamp": 1554287030681,
+        "oldValue": "你还没有结束游戏\r\\n你确信要开始新的游戏么?",
+        "newValue": "你还没有结束游戏\r\n你确信要开始新的游戏么?",
+        "explanation": null
+      },
+      {
+        "userId": 685789,
+        "timestamp": 1563853227181,
         "oldValue": "你还没有结束游戏\r\\n你确信要开始新的游戏么?",
         "newValue": "你还没有结束游戏\r\n你确信要开始新的游戏么?",
         "explanation": null
