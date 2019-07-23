@@ -1,4 +1,88 @@
 {
+  "done": {
+    "value": "完成",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1554287030681,
+        "oldValue": "",
+        "newValue": "完成",
+        "explanation": null
+      }
+    ]
+  },
+  "next": {
+    "value": "下一步",
+    "history": [
+      {
+        "userId": 162142,
+        "timestamp": 1458179753227,
+        "oldValue": "",
+        "newValue": "下一步",
+        "explanation": null
+      }
+    ]
+  },
+  "score": {
+    "value": "分数:",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1528167770557,
+        "oldValue": "",
+        "newValue": "分数:",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.score.number": {
+    "value": "分数: {{score}}",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1528167770557,
+        "oldValue": "",
+        "newValue": "分数: {{score}}",
+        "explanation": null
+      }
+    ]
+  },
+  "youCompletedAllLevels": {
+    "value": "你已经完成所有等级",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1554287030681,
+        "oldValue": "",
+        "newValue": "你已经完成所有等级",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0minutes.1seconds": {
+    "value": "{0}:{1}",
+    "history": [
+      {
+        "userId": 162142,
+        "timestamp": 1458179753227,
+        "oldValue": "",
+        "newValue": "{0}:{1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 162142,
+        "timestamp": 1458179753227,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      }
+    ]
+  },
   "pattern.0yourBest": {
     "value": "(你最好的: {0})",
     "history": [
@@ -14,6 +98,13 @@
         "timestamp": 1563853227180,
         "oldValue": "(你最好的: {0})",
         "newValue": "(你的最高分: {0})",
+        "explanation": null
+      },
+      {
+        "userId": 685789,
+        "timestamp": 1563853870296,
+        "oldValue": "(你的最高分: {0})",
+        "newValue": "(你最好的: {0})",
         "explanation": null
       }
     ]
@@ -40,6 +131,13 @@
         "timestamp": 1563853227180,
         "oldValue": "(你最新最棒的!)",
         "newValue": "(你新的最高分!)",
+        "explanation": null
+      },
+      {
+        "userId": 685789,
+        "timestamp": 1563853870296,
+        "oldValue": "(你新的最高分!)",
+        "newValue": "(你最新最棒的!)",
         "explanation": null
       }
     ]
@@ -128,18 +226,6 @@
       }
     ]
   },
-  "score": {
-    "value": "分数:",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1528167770557,
-        "oldValue": "",
-        "newValue": "分数:",
-        "explanation": null
-      }
-    ]
-  },
   "label.score": {
     "value": "得分: {0}",
     "history": [
@@ -167,18 +253,6 @@
         "timestamp": 1528168626928,
         "oldValue": "得分: {0} 超出 {1}",
         "newValue": "得分: {0} 总分 {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.score.number": {
-    "value": "分数: {{score}}",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1528167770557,
-        "oldValue": "",
-        "newValue": "分数: {{score}}",
         "explanation": null
       }
     ]
@@ -215,66 +289,6 @@
         "timestamp": 1458179753227,
         "oldValue": "",
         "newValue": "再试一次",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0minutes.1seconds": {
-    "value": "{0}:{1}",
-    "history": [
-      {
-        "userId": 162142,
-        "timestamp": 1458179753227,
-        "oldValue": "",
-        "newValue": "{0}:{1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0hours.1minutes.2seconds": {
-    "value": "{0}:{1}:{2}",
-    "history": [
-      {
-        "userId": 162142,
-        "timestamp": 1458179753227,
-        "oldValue": "",
-        "newValue": "{0}:{1}:{2}",
-        "explanation": null
-      }
-    ]
-  },
-  "done": {
-    "value": "完成",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1554287030681,
-        "oldValue": "",
-        "newValue": "完成",
-        "explanation": null
-      }
-    ]
-  },
-  "next": {
-    "value": "下一步",
-    "history": [
-      {
-        "userId": 162142,
-        "timestamp": 1458179753227,
-        "oldValue": "",
-        "newValue": "下一步",
-        "explanation": null
-      }
-    ]
-  },
-  "youCompletedAllLevels": {
-    "value": "你已经完成所有等级",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1554287030681,
-        "oldValue": "",
-        "newValue": "你已经完成所有等级",
         "explanation": null
       }
     ]
@@ -598,7 +612,7 @@
       },
       {
         "userId": 685789,
-        "timestamp": 1563853453063,
+        "timestamp": 1563853870297,
         "oldValue": "你还没有结束游戏\r\\n你确信要开始新的游戏么?",
         "newValue": "你还没有结束游戏\r\n你确信要开始新的游戏么?",
         "explanation": null
