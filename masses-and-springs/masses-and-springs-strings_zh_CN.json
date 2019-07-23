@@ -1,4 +1,52 @@
 {
+  "springStrength": {
+    "value": "弹簧强度{{spring}}",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1563855065232,
+        "oldValue": "",
+        "newValue": "弹簧强度{{spring}}",
+        "explanation": null
+      }
+    ]
+  },
+  "questionMark": {
+    "value": "?",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "?",
+        "explanation": null
+      }
+    ]
+  },
+  "acceleration": {
+    "value": "加速度",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "加速度",
+        "explanation": null
+      }
+    ]
+  },
+  "cm": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "cm",
+        "explanation": null
+      }
+    ]
+  },
   "body.custom": {
     "value": "自定义",
     "history": [
@@ -11,6 +59,80 @@
       }
     ]
   },
+  "damping": {
+    "value": "阻尼",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "阻尼",
+        "explanation": null
+      }
+    ]
+  },
+  "dampingEqualsZero": {
+    "value": "阻尼 {{equalsZero}}",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "阻尼 {{equalsZero}}",
+        "explanation": null
+      }
+    ]
+  },
+  "displacement": {
+    "value": "位移",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "位移",
+        "explanation": null
+      }
+    ]
+  },
+  "eTherm": {
+    "value": "热能",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "能量<sub>热能</sub>",
+        "explanation": null
+      },
+      {
+        "userId": 293040,
+        "timestamp": 1540971974885,
+        "oldValue": "能量<sub>热能</sub>",
+        "newValue": "热能",
+        "explanation": null
+      }
+    ]
+  },
+  "eTot": {
+    "value": "总能量",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "能量<sub>总</sub>",
+        "explanation": null
+      },
+      {
+        "userId": 293040,
+        "timestamp": 1540971974885,
+        "oldValue": "能量<sub>总</sub>",
+        "newValue": "总能量",
+        "explanation": null
+      }
+    ]
+  },
   "body.earth": {
     "value": "地球",
     "history": [
@@ -19,42 +141,6 @@
         "timestamp": 1540971604256,
         "oldValue": "",
         "newValue": "地球",
-        "explanation": null
-      }
-    ]
-  },
-  "body.jupiter": {
-    "value": "木星",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "木星",
-        "explanation": null
-      }
-    ]
-  },
-  "body.moon": {
-    "value": "月球",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "月球",
-        "explanation": null
-      }
-    ]
-  },
-  "body.planetX": {
-    "value": "X星球",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "X星球",
         "explanation": null
       }
     ]
@@ -95,21 +181,14 @@
       }
     ]
   },
-  "eTherm": {
-    "value": "热能",
+  "forces": {
+    "value": "力",
     "history": [
       {
         "userId": 293040,
         "timestamp": 1540971604256,
         "oldValue": "",
-        "newValue": "能量<sub>热能</sub>",
-        "explanation": null
-      },
-      {
-        "userId": 293040,
-        "timestamp": 1540971974885,
-        "oldValue": "能量<sub>热能</sub>",
-        "newValue": "热能",
+        "newValue": "力",
         "explanation": null
       }
     ]
@@ -122,6 +201,42 @@
         "timestamp": 1540971604256,
         "oldValue": "",
         "newValue": "重力势能",
+        "explanation": null
+      }
+    ]
+  },
+  "gravity": {
+    "value": "重力",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "重力",
+        "explanation": null
+      }
+    ]
+  },
+  "heightEqualsZero": {
+    "value": "高度 = 0 m",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "高度 = 0 m",
+        "explanation": null
+      }
+    ]
+  },
+  "body.jupiter": {
+    "value": "木星",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "木星",
         "explanation": null
       }
     ]
@@ -146,6 +261,121 @@
         "timestamp": 1540971604256,
         "oldValue": "",
         "newValue": "动能",
+        "explanation": null
+      }
+    ]
+  },
+  "large": {
+    "value": "大",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "小",
+        "explanation": null
+      },
+      {
+        "userId": 685789,
+        "timestamp": 1563855065232,
+        "oldValue": "小",
+        "newValue": "大",
+        "explanation": null
+      }
+    ]
+  },
+  "lots": {
+    "value": "大",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "大",
+        "explanation": null
+      }
+    ]
+  },
+  "mass": {
+    "value": "质量",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "质量",
+        "explanation": null
+      }
+    ]
+  },
+  "massEquilibrium": {
+    "value": "质量平衡线",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "质量平衡线",
+        "explanation": null
+      }
+    ]
+  },
+  "body.moon": {
+    "value": "月球",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "月球",
+        "explanation": null
+      }
+    ]
+  },
+  "movableLine": {
+    "value": "可移动线",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "可移动线",
+        "explanation": null
+      }
+    ]
+  },
+  "naturalLength": {
+    "value": "原始长度",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "原始长度",
+        "explanation": null
+      }
+    ]
+  },
+  "netForce": {
+    "value": "合力",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "合力",
+        "explanation": null
+      }
+    ]
+  },
+  "none": {
+    "value": "无",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "无",
         "explanation": null
       }
     ]
@@ -188,6 +418,73 @@
       }
     ]
   },
+  "periodTrace": {
+    "value": "周期轨迹",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "周期轨迹",
+        "explanation": null
+      }
+    ]
+  },
+  "body.planetX": {
+    "value": "X星球",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "X星球",
+        "explanation": null
+      }
+    ]
+  },
+  "small": {
+    "value": "小",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "大",
+        "explanation": null
+      },
+      {
+        "userId": 685789,
+        "timestamp": 1563855065232,
+        "oldValue": "大",
+        "newValue": "小",
+        "explanation": null
+      }
+    ]
+  },
+  "spring": {
+    "value": "弹簧",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1540971604256,
+        "oldValue": "",
+        "newValue": "弹簧",
+        "explanation": null
+      }
+    ]
+  },
+  "springConstantPattern": {
+    "value": "劲度系数{{spring}}",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1563855065232,
+        "oldValue": "",
+        "newValue": "劲度系数{{spring}}",
+        "explanation": null
+      }
+    ]
+  },
   "thermalEnergy": {
     "value": "热能",
     "history": [
@@ -212,141 +509,14 @@
       }
     ]
   },
-  "eTot": {
-    "value": "总能量",
+  "velocity": {
+    "value": "速度",
     "history": [
       {
         "userId": 293040,
         "timestamp": 1540971604256,
         "oldValue": "",
-        "newValue": "能量<sub>总</sub>",
-        "explanation": null
-      },
-      {
-        "userId": 293040,
-        "timestamp": 1540971974885,
-        "oldValue": "能量<sub>总</sub>",
-        "newValue": "总能量",
-        "explanation": null
-      }
-    ]
-  },
-  "massValue": {
-    "value": "{{mass}} g",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "{{mass}} g",
-        "explanation": null
-      }
-    ]
-  },
-  "questionMark": {
-    "value": "?",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "?",
-        "explanation": null
-      }
-    ]
-  },
-  "mass": {
-    "value": "质量",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "质量",
-        "explanation": null
-      }
-    ]
-  },
-  "cm": {
-    "value": "cm",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "cm",
-        "explanation": null
-      }
-    ]
-  },
-  "damping": {
-    "value": "阻尼",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "阻尼",
-        "explanation": null
-      }
-    ]
-  },
-  "dampingEqualsZero": {
-    "value": "阻尼 {{equalsZero}}",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "阻尼 {{equalsZero}}",
-        "explanation": null
-      }
-    ]
-  },
-  "lots": {
-    "value": "大",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "大",
-        "explanation": null
-      }
-    ]
-  },
-  "none": {
-    "value": "无",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "无",
-        "explanation": null
-      }
-    ]
-  },
-  "gravity": {
-    "value": "重力",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "重力",
-        "explanation": null
-      }
-    ]
-  },
-  "gravityValue": {
-    "value": "{{gravity}} m/s<sup>2</sup>",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "{{gravity}} m/s<sup>2</sup>",
+        "newValue": "速度",
         "explanation": null
       }
     ]
@@ -363,62 +533,26 @@
       }
     ]
   },
-  "massEquilibrium": {
-    "value": "质量平衡线",
+  "gravityValue": {
+    "value": "{{gravity}} m/s<sup>2</sup>",
     "history": [
       {
         "userId": 293040,
         "timestamp": 1540971604256,
         "oldValue": "",
-        "newValue": "质量平衡线",
+        "newValue": "{{gravity}} m/s<sup>2</sup>",
         "explanation": null
       }
     ]
   },
-  "movableLine": {
-    "value": "可移动线",
+  "massValue": {
+    "value": "{{mass}} g",
     "history": [
       {
         "userId": 293040,
         "timestamp": 1540971604256,
         "oldValue": "",
-        "newValue": "可移动线",
-        "explanation": null
-      }
-    ]
-  },
-  "displacement": {
-    "value": "位移",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "位移",
-        "explanation": null
-      }
-    ]
-  },
-  "naturalLength": {
-    "value": "原始长度",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "原始长度",
-        "explanation": null
-      }
-    ]
-  },
-  "periodTrace": {
-    "value": "周期轨迹",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "周期轨迹",
+        "newValue": "{{mass}} g",
         "explanation": null
       }
     ]
@@ -431,42 +565,6 @@
         "timestamp": 1540971604256,
         "oldValue": "",
         "newValue": "弹性常数 {{spring}}",
-        "explanation": null
-      }
-    ]
-  },
-  "heightEqualsZero": {
-    "value": "高度 = 0 m",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "高度 = 0 m",
-        "explanation": null
-      }
-    ]
-  },
-  "large": {
-    "value": "小",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "小",
-        "explanation": null
-      }
-    ]
-  },
-  "small": {
-    "value": "大",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "大",
         "explanation": null
       }
     ]
@@ -563,66 +661,6 @@
         "timestamp": 1540971604256,
         "oldValue": "",
         "newValue": "入门",
-        "explanation": null
-      }
-    ]
-  },
-  "acceleration": {
-    "value": "加速度",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "加速度",
-        "explanation": null
-      }
-    ]
-  },
-  "forces": {
-    "value": "力",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "力",
-        "explanation": null
-      }
-    ]
-  },
-  "netForce": {
-    "value": "合力",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "合力",
-        "explanation": null
-      }
-    ]
-  },
-  "spring": {
-    "value": "弹簧",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "弹簧",
-        "explanation": null
-      }
-    ]
-  },
-  "velocity": {
-    "value": "速度",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "速度",
         "explanation": null
       }
     ]
