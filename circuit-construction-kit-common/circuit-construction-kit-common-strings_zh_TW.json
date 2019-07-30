@@ -1,4 +1,16 @@
 {
+  "questionMark": {
+    "value": "?",
+    "history": [
+      {
+        "userId": 184096,
+        "timestamp": 1509802534193,
+        "oldValue": "",
+        "newValue": "?",
+        "explanation": null
+      }
+    ]
+  },
   "ammeter": {
     "value": "電表",
     "history": [
@@ -102,18 +114,6 @@
       }
     ]
   },
-  "currentUnits": {
-    "value": "{{current}} 安培",
-    "history": [
-      {
-        "userId": 184096,
-        "timestamp": 1509802534193,
-        "oldValue": "",
-        "newValue": "{{current}} 安培",
-        "explanation": null
-      }
-    ]
-  },
   "dog": {
     "value": "狗",
     "history": [
@@ -158,6 +158,30 @@
         "timestamp": 1509802534193,
         "oldValue": "",
         "newValue": "橡皮擦",
+        "explanation": null
+      }
+    ]
+  },
+  "frequency": {
+    "value": "頻率",
+    "history": [
+      {
+        "userId": 184096,
+        "timestamp": 1564476534588,
+        "oldValue": "",
+        "newValue": "頻率",
+        "explanation": null
+      }
+    ]
+  },
+  "fuse": {
+    "value": "保險絲",
+    "history": [
+      {
+        "userId": 184096,
+        "timestamp": 1564476534588,
+        "oldValue": "",
+        "newValue": "保險絲",
         "explanation": null
       }
     ]
@@ -234,18 +258,6 @@
       }
     ]
   },
-  "questionMark": {
-    "value": "?",
-    "history": [
-      {
-        "userId": 184096,
-        "timestamp": 1509802534193,
-        "oldValue": "",
-        "newValue": "?",
-        "explanation": null
-      }
-    ]
-  },
   "resistance": {
     "value": "電阻",
     "history": [
@@ -254,42 +266,6 @@
         "timestamp": 1509802534193,
         "oldValue": "",
         "newValue": "電阻",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhms": {
-    "value": "{{resistance}} 歐姆",
-    "history": [
-      {
-        "userId": 184096,
-        "timestamp": 1509802534193,
-        "oldValue": "",
-        "newValue": "{{resistance}} 歐姆",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhmsSymbol": {
-    "value": "{{resistance}} Ω",
-    "history": [
-      {
-        "userId": 184096,
-        "timestamp": 1509802534193,
-        "oldValue": "",
-        "newValue": "{{resistance}} Ω",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhmsValuePattern": {
-    "value": "{{resistance}} 歐姆",
-    "history": [
-      {
-        "userId": 184096,
-        "timestamp": 1509802534193,
-        "oldValue": "",
-        "newValue": "{{resistance}} 歐姆",
         "explanation": null
       }
     ]
@@ -373,6 +349,18 @@
       }
     ]
   },
+  "time": {
+    "value": "時間",
+    "history": [
+      {
+        "userId": 184096,
+        "timestamp": 1564476534588,
+        "oldValue": "",
+        "newValue": "時間",
+        "explanation": null
+      }
+    ]
+  },
   "tiny": {
     "value": "小",
     "history": [
@@ -409,26 +397,14 @@
       }
     ]
   },
-  "voltageUnits": {
-    "value": "{{voltage}} 伏特",
+  "voltageChart": {
+    "value": "電壓圖",
     "history": [
       {
         "userId": 184096,
-        "timestamp": 1509802534193,
+        "timestamp": 1564476534588,
         "oldValue": "",
-        "newValue": "{{voltage}} 伏特",
-        "explanation": null
-      }
-    ]
-  },
-  "voltageVoltsValuePattern": {
-    "value": "{{voltage}} 伏特",
-    "history": [
-      {
-        "userId": 184096,
-        "timestamp": 1509802534193,
-        "oldValue": "",
-        "newValue": "{{voltage}} 伏特",
+        "newValue": "電壓圖",
         "explanation": null
       }
     ]
@@ -465,6 +441,102 @@
         "timestamp": 1509802534193,
         "oldValue": "",
         "newValue": "電線電阻率",
+        "explanation": null
+      }
+    ]
+  },
+  "currentUnits": {
+    "value": "{{current}} 安培",
+    "history": [
+      {
+        "userId": 184096,
+        "timestamp": 1509802534193,
+        "oldValue": "",
+        "newValue": "{{current}} 安培",
+        "explanation": null
+      }
+    ]
+  },
+  "frequencyHzValuePattern": {
+    "value": "{{frequency}} Hz",
+    "history": [
+      {
+        "userId": 184096,
+        "timestamp": 1564476534588,
+        "oldValue": "",
+        "newValue": "{{frequency}} Hz",
+        "explanation": null
+      }
+    ]
+  },
+  "fuseValue": {
+    "value": "{{resistance}} mΩ<br><span style=\"font-size: 16px;\">≤ {{currentRating}} A</span>",
+    "history": [
+      {
+        "userId": 184096,
+        "timestamp": 1564476534588,
+        "oldValue": "",
+        "newValue": "{{resistance}} mΩ<br><span style=\"font-size: 16px;\">≤ {{currentRating}} A</span>",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhmsValuePattern": {
+    "value": "{{resistance}} 歐姆",
+    "history": [
+      {
+        "userId": 184096,
+        "timestamp": 1509802534193,
+        "oldValue": "",
+        "newValue": "{{resistance}} 歐姆",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhms": {
+    "value": "{{resistance}} 歐姆",
+    "history": [
+      {
+        "userId": 184096,
+        "timestamp": 1509802534193,
+        "oldValue": "",
+        "newValue": "{{resistance}} 歐姆",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhmsSymbol": {
+    "value": "{{resistance}} Ω",
+    "history": [
+      {
+        "userId": 184096,
+        "timestamp": 1509802534193,
+        "oldValue": "",
+        "newValue": "{{resistance}} Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageUnits": {
+    "value": "{{voltage}} 伏特",
+    "history": [
+      {
+        "userId": 184096,
+        "timestamp": 1509802534193,
+        "oldValue": "",
+        "newValue": "{{voltage}} 伏特",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageVoltsValuePattern": {
+    "value": "{{voltage}} 伏特",
+    "history": [
+      {
+        "userId": 184096,
+        "timestamp": 1509802534193,
+        "oldValue": "",
+        "newValue": "{{voltage}} 伏特",
         "explanation": null
       }
     ]
