@@ -1,4 +1,40 @@
 {
+  "oneSecond": {
+    "value": "1 s",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1565421166082,
+        "oldValue": "",
+        "newValue": "1 s",
+        "explanation": null
+      }
+    ]
+  },
+  "questionMark": {
+    "value": "?",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1509383313421,
+        "oldValue": "",
+        "newValue": "?",
+        "explanation": null
+      }
+    ]
+  },
+  "acSource": {
+    "value": "Vekselspænding",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1565421166082,
+        "oldValue": "",
+        "newValue": "Vekselspænding",
+        "explanation": null
+      }
+    ]
+  },
   "ammeter": {
     "value": "Amperemeter",
     "history": [
@@ -130,21 +166,26 @@
       }
     ]
   },
-  "currentUnits": {
-    "value": "{{current}} A",
+  "currentChart": {
+    "value": "Strøm-diagram",
     "history": [
       {
         "userId": 130982,
-        "timestamp": 1509383733272,
+        "timestamp": 1565421166082,
         "oldValue": "",
-        "newValue": "{{strøm}} A",
+        "newValue": "Strøm-diagram",
         "explanation": null
-      },
+      }
+    ]
+  },
+  "currentRating": {
+    "value": "Strømstyrke",
+    "history": [
       {
         "userId": 130982,
-        "timestamp": 1509385925287,
-        "oldValue": "{{strøm}} A",
-        "newValue": "{{current}} A",
+        "timestamp": 1565421166082,
+        "oldValue": "",
+        "newValue": "Strømstyrke",
         "explanation": null
       }
     ]
@@ -193,6 +234,30 @@
         "timestamp": 1509384405598,
         "oldValue": "",
         "newValue": "Viskelæder",
+        "explanation": null
+      }
+    ]
+  },
+  "frequency": {
+    "value": "Frekvens",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1565421166082,
+        "oldValue": "",
+        "newValue": "Frekvens",
+        "explanation": null
+      }
+    ]
+  },
+  "fuse": {
+    "value": "Sikring",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1565421166082,
+        "oldValue": "",
+        "newValue": "Sikring",
         "explanation": null
       }
     ]
@@ -290,18 +355,6 @@
       }
     ]
   },
-  "questionMark": {
-    "value": "?",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1509383313421,
-        "oldValue": "",
-        "newValue": "?",
-        "explanation": null
-      }
-    ]
-  },
   "resistance": {
     "value": "Modstand",
     "history": [
@@ -310,91 +363,6 @@
         "timestamp": 1509383733272,
         "oldValue": "",
         "newValue": "Modstand",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhms": {
-    "value": "{{resistance}} ohm",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1509383733272,
-        "oldValue": "",
-        "newValue": "{{modstand}} ohm",
-        "explanation": null
-      },
-      {
-        "userId": 130982,
-        "timestamp": 1509385925287,
-        "oldValue": "{{modstand}} ohm",
-        "newValue": "{{resistance}} ohm",
-        "explanation": null
-      },
-      {
-        "userId": 130982,
-        "timestamp": 1509386714801,
-        "oldValue": "{{resistance}} ohm",
-        "newValue": "{{resistance}} Ohm",
-        "explanation": null
-      },
-      {
-        "userId": 130982,
-        "timestamp": 1509423764969,
-        "oldValue": "{{resistance}} Ohm",
-        "newValue": "{{resistance}} ohm",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhmsSymbol": {
-    "value": "{{resistance}} Ω",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1509383733272,
-        "oldValue": "",
-        "newValue": "{{modstand}} Ω",
-        "explanation": null
-      },
-      {
-        "userId": 130982,
-        "timestamp": 1509385925287,
-        "oldValue": "{{modstand}} Ω",
-        "newValue": "{{resistance}} Ω",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhmsValuePattern": {
-    "value": "{{resistance}} ohm",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1509383733272,
-        "oldValue": "",
-        "newValue": "{{modstand}} ohm",
-        "explanation": null
-      },
-      {
-        "userId": 130982,
-        "timestamp": 1509385925287,
-        "oldValue": "{{modstand}} ohm",
-        "newValue": "{{resistance}} ohm",
-        "explanation": null
-      },
-      {
-        "userId": 130982,
-        "timestamp": 1509386714801,
-        "oldValue": "{{resistance}} ohm",
-        "newValue": "{{resistance}} Ohm",
-        "explanation": null
-      },
-      {
-        "userId": 130982,
-        "timestamp": 1509423764969,
-        "oldValue": "{{resistance}} Ohm",
-        "newValue": "{{resistance}} ohm",
         "explanation": null
       }
     ]
@@ -478,6 +446,18 @@
       }
     ]
   },
+  "time": {
+    "value": "Tid",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1565421166082,
+        "oldValue": "",
+        "newValue": "Tid",
+        "explanation": null
+      }
+    ]
+  },
   "tiny": {
     "value": "lille",
     "history": [
@@ -510,6 +490,191 @@
         "timestamp": 1509383733272,
         "oldValue": "",
         "newValue": "Spænding",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageChart": {
+    "value": "Spændingsdiagram",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1565421166082,
+        "oldValue": "",
+        "newValue": "Spændingsdiagram",
+        "explanation": null
+      }
+    ]
+  },
+  "voltmeter": {
+    "value": "Voltmeter",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1509383733272,
+        "oldValue": "",
+        "newValue": "Voltmeter",
+        "explanation": null
+      }
+    ]
+  },
+  "wire": {
+    "value": "Ledning",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1509383733272,
+        "oldValue": "",
+        "newValue": "Tråd",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1509395137130,
+        "oldValue": "Tråd",
+        "newValue": "Ledning",
+        "explanation": null
+      }
+    ]
+  },
+  "wireResistivity": {
+    "value": "Ledningernes modstand",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1509383942263,
+        "oldValue": "",
+        "newValue": "Trådens nodstand",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1509395137130,
+        "oldValue": "Trådens nodstand",
+        "newValue": "Ledningens modstand",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1509515055391,
+        "oldValue": "Ledningens modstand",
+        "newValue": "Ledningernes modstand",
+        "explanation": null
+      }
+    ]
+  },
+  "currentUnits": {
+    "value": "{{current}} A",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1509383733272,
+        "oldValue": "",
+        "newValue": "{{strøm}} A",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1509385925287,
+        "oldValue": "{{strøm}} A",
+        "newValue": "{{current}} A",
+        "explanation": null
+      }
+    ]
+  },
+  "frequencyHzValuePattern": {
+    "value": "{{frequency}} Hz",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1565421166082,
+        "oldValue": "",
+        "newValue": "{{frequency}} Hz",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhmsValuePattern": {
+    "value": "{{resistance}} ohm",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1509383733272,
+        "oldValue": "",
+        "newValue": "{{modstand}} ohm",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1509385925287,
+        "oldValue": "{{modstand}} ohm",
+        "newValue": "{{resistance}} ohm",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1509386714801,
+        "oldValue": "{{resistance}} ohm",
+        "newValue": "{{resistance}} Ohm",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1509423764969,
+        "oldValue": "{{resistance}} Ohm",
+        "newValue": "{{resistance}} ohm",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhms": {
+    "value": "{{resistance}} ohm",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1509383733272,
+        "oldValue": "",
+        "newValue": "{{modstand}} ohm",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1509385925287,
+        "oldValue": "{{modstand}} ohm",
+        "newValue": "{{resistance}} ohm",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1509386714801,
+        "oldValue": "{{resistance}} ohm",
+        "newValue": "{{resistance}} Ohm",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1509423764969,
+        "oldValue": "{{resistance}} Ohm",
+        "newValue": "{{resistance}} ohm",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhmsSymbol": {
+    "value": "{{resistance}} Ω",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1509383733272,
+        "oldValue": "",
+        "newValue": "{{modstand}} Ω",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1509385925287,
+        "oldValue": "{{modstand}} Ω",
+        "newValue": "{{resistance}} Ω",
         "explanation": null
       }
     ]
@@ -569,63 +734,6 @@
         "timestamp": 1509395137130,
         "oldValue": "{{voltage}} Volt",
         "newValue": "{{voltage}} volt",
-        "explanation": null
-      }
-    ]
-  },
-  "voltmeter": {
-    "value": "Voltmeter",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1509383733272,
-        "oldValue": "",
-        "newValue": "Voltmeter",
-        "explanation": null
-      }
-    ]
-  },
-  "wire": {
-    "value": "Ledning",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1509383733272,
-        "oldValue": "",
-        "newValue": "Tråd",
-        "explanation": null
-      },
-      {
-        "userId": 130982,
-        "timestamp": 1509395137130,
-        "oldValue": "Tråd",
-        "newValue": "Ledning",
-        "explanation": null
-      }
-    ]
-  },
-  "wireResistivity": {
-    "value": "Ledningernes modstand",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1509383942263,
-        "oldValue": "",
-        "newValue": "Trådens nodstand",
-        "explanation": null
-      },
-      {
-        "userId": 130982,
-        "timestamp": 1509395137130,
-        "oldValue": "Trådens nodstand",
-        "newValue": "Ledningens modstand",
-        "explanation": null
-      },
-      {
-        "userId": 130982,
-        "timestamp": 1509515055391,
-        "oldValue": "Ledningens modstand",
-        "newValue": "Ledningernes modstand",
         "explanation": null
       }
     ]
