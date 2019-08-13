@@ -11,50 +11,14 @@
       }
     ]
   },
-  "kilopascals": {
-    "value": "kPa",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1565684401652,
-        "oldValue": "",
-        "newValue": "kPa",
-        "explanation": null
-      }
-    ]
-  },
-  "pressure": {
-    "value": "ciśnienie",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1565684401652,
-        "oldValue": "",
-        "newValue": "ciśnienie",
-        "explanation": null
-      }
-    ]
-  },
-  "tAvg": {
-    "value": "T<sub>śr.</sub> = {{value}}",
+  "centerOfMass": {
+    "value": "środek masy",
     "history": [
       {
         "userId": 196556,
         "timestamp": 1565686753502,
         "oldValue": "",
-        "newValue": "T<sub>śr.</sub> = {{value}}",
-        "explanation": null
-      }
-    ]
-  },
-  "tAvgK": {
-    "value": "T<sub>śr.</sub> = {{value}} K",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1565686753502,
-        "oldValue": "",
-        "newValue": "T<sub>śr.</sub> = {{value}} K",
+        "newValue": "środek masy",
         "explanation": null
       }
     ]
@@ -71,14 +35,14 @@
       }
     ]
   },
-  "centerOfMass": {
-    "value": "środek masy",
+  "screen.diffusion": {
+    "value": "Dyfuzja",
     "history": [
       {
         "userId": 196556,
         "timestamp": 1565686753502,
         "oldValue": "",
-        "newValue": "środek masy",
+        "newValue": "Dyfuzja",
         "explanation": null
       }
     ]
@@ -95,6 +59,18 @@
       }
     ]
   },
+  "kilopascals": {
+    "value": "kPa",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1565684401652,
+        "oldValue": "",
+        "newValue": "kPa",
+        "explanation": null
+      }
+    ]
+  },
   "massAMU": {
     "value": "Masa (u)",
     "history": [
@@ -107,6 +83,18 @@
       }
     ]
   },
+  "nanometers": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1565684401652,
+        "oldValue": "",
+        "newValue": "nm",
+        "explanation": null
+      }
+    ]
+  },
   "numberOfParticles": {
     "value": "Liczba cząsteczek",
     "history": [
@@ -115,6 +103,61 @@
         "timestamp": 1565686753502,
         "oldValue": "",
         "newValue": "Liczba cząsteczek",
+        "explanation": null
+      }
+    ]
+  },
+  "particleFlowRate": {
+    "value": "szybkość przepływu",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1565686753502,
+        "oldValue": "",
+        "newValue": "szybkość przepływu",
+        "explanation": null
+      }
+    ]
+  },
+  "pressure": {
+    "value": "ciśnienie",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1565684401652,
+        "oldValue": "",
+        "newValue": "ciśnienie",
+        "explanation": null
+      }
+    ]
+  },
+  "pressureNoise": {
+    "value": "Odgłos ciśnienia",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1565684946981,
+        "oldValue": "",
+        "newValue": "Hałas ciśnienia",
+        "explanation": null
+      },
+      {
+        "userId": 196556,
+        "timestamp": 1565686753502,
+        "oldValue": "Hałas ciśnienia",
+        "newValue": "Odgłos ciśnienia",
+        "explanation": null
+      }
+    ]
+  },
+  "picoseconds": {
+    "value": "ps",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1565684401652,
+        "oldValue": "",
+        "newValue": "ps",
         "explanation": null
       }
     ]
@@ -162,18 +205,6 @@
       }
     ]
   },
-  "particleFlowRate": {
-    "value": "szybkość przepływu",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1565686753502,
-        "oldValue": "",
-        "newValue": "szybkość przepływu",
-        "explanation": null
-      }
-    ]
-  },
   "scale": {
     "value": "skala",
     "history": [
@@ -198,38 +229,38 @@
       }
     ]
   },
-  "nanometers": {
-    "value": "nm",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1565684401652,
-        "oldValue": "",
-        "newValue": "nm",
-        "explanation": null
-      }
-    ]
-  },
-  "picoseconds": {
-    "value": "ps",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1565684401652,
-        "oldValue": "",
-        "newValue": "ps",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.diffusion": {
-    "value": "Dyfuzja",
+  "tAvg": {
+    "value": "T<sub>śr.</sub> = {{value}}",
     "history": [
       {
         "userId": 196556,
         "timestamp": 1565686753502,
         "oldValue": "",
-        "newValue": "Dyfuzja",
+        "newValue": "T<sub>śr.</sub> = {{value}}",
+        "explanation": null
+      }
+    ]
+  },
+  "tAvgK": {
+    "value": "T<sub>śr.</sub> = {{value}} K",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1565686753502,
+        "oldValue": "",
+        "newValue": "T<sub>śr.</sub> = {{value}} K",
+        "explanation": null
+      }
+    ]
+  },
+  "valueUnits": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1565692519656,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}",
         "explanation": null
       }
     ]
@@ -393,25 +424,6 @@
         "timestamp": 1565686753502,
         "oldValue": "",
         "newValue": "Badaj",
-        "explanation": null
-      }
-    ]
-  },
-  "pressureNoise": {
-    "value": "Odgłos ciśnienia",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1565684946981,
-        "oldValue": "",
-        "newValue": "Hałas ciśnienia",
-        "explanation": null
-      },
-      {
-        "userId": 196556,
-        "timestamp": 1565686753502,
-        "oldValue": "Hałas ciśnienia",
-        "newValue": "Odgłos ciśnienia",
         "explanation": null
       }
     ]
