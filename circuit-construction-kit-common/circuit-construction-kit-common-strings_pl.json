@@ -1,4 +1,16 @@
 {
+  "acSource": {
+    "value": "Napięcie przemienne",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1565722179612,
+        "oldValue": "",
+        "newValue": "Napięcie przemienne",
+        "explanation": null
+      }
+    ]
+  },
   "ammeter": {
     "value": "Amperomierz",
     "history": [
@@ -95,14 +107,26 @@
       }
     ]
   },
-  "currentUnits": {
-    "value": "{{current}} A",
+  "currentChart": {
+    "value": "Wykres natężenia",
     "history": [
       {
         "userId": 196556,
-        "timestamp": 1509404483454,
+        "timestamp": 1565722179612,
         "oldValue": "",
-        "newValue": "{{current}} A",
+        "newValue": "Wykres natężenia",
+        "explanation": null
+      }
+    ]
+  },
+  "currentRating": {
+    "value": "Prąd znamionowy",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1565722179612,
+        "oldValue": "",
+        "newValue": "Prąd znamionowy",
         "explanation": null
       }
     ]
@@ -151,6 +175,30 @@
         "timestamp": 1509404483454,
         "oldValue": "",
         "newValue": "Gumka",
+        "explanation": null
+      }
+    ]
+  },
+  "frequency": {
+    "value": "Częstotliwość",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1565722179612,
+        "oldValue": "",
+        "newValue": "Częstotliwość",
+        "explanation": null
+      }
+    ]
+  },
+  "fuse": {
+    "value": "Bezpiecznik",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1565722179612,
+        "oldValue": "",
+        "newValue": "Bezpiecznik",
         "explanation": null
       }
     ]
@@ -239,42 +287,6 @@
       }
     ]
   },
-  "resistanceOhms": {
-    "value": "{{resistance}} Ω",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1509404483454,
-        "oldValue": "",
-        "newValue": "{{resistance}} Ω",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhmsSymbol": {
-    "value": "{{resistance}} Ω",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1509404483454,
-        "oldValue": "",
-        "newValue": "{{resistance}} Ω",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhmsValuePattern": {
-    "value": "{{resistance}} Ω",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1509404483454,
-        "oldValue": "",
-        "newValue": "{{resistance}} Ω",
-        "explanation": null
-      }
-    ]
-  },
   "resistor": {
     "value": "Opornik",
     "history": [
@@ -347,6 +359,18 @@
       }
     ]
   },
+  "time": {
+    "value": "Czas",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1565722179612,
+        "oldValue": "",
+        "newValue": "Czas",
+        "explanation": null
+      }
+    ]
+  },
   "tiny": {
     "value": "malutka",
     "history": [
@@ -383,26 +407,14 @@
       }
     ]
   },
-  "voltageUnits": {
-    "value": "{{voltage}} V",
+  "voltageChart": {
+    "value": "Wykres napięcia",
     "history": [
       {
         "userId": 196556,
-        "timestamp": 1509404483454,
+        "timestamp": 1565722179612,
         "oldValue": "",
-        "newValue": "{{voltage}} V",
-        "explanation": null
-      }
-    ]
-  },
-  "voltageVoltsValuePattern": {
-    "value": "{{voltage}} V",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1509404483454,
-        "oldValue": "",
-        "newValue": "{{voltage}} V",
+        "newValue": "Wykres napięcia",
         "explanation": null
       }
     ]
@@ -439,6 +451,78 @@
         "timestamp": 1509404483454,
         "oldValue": "",
         "newValue": "Rezystywność przewodu",
+        "explanation": null
+      }
+    ]
+  },
+  "currentUnits": {
+    "value": "{{current}} A",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1509404483454,
+        "oldValue": "",
+        "newValue": "{{current}} A",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhmsValuePattern": {
+    "value": "{{resistance}} Ω",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1509404483454,
+        "oldValue": "",
+        "newValue": "{{resistance}} Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhms": {
+    "value": "{{resistance}} Ω",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1509404483454,
+        "oldValue": "",
+        "newValue": "{{resistance}} Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhmsSymbol": {
+    "value": "{{resistance}} Ω",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1509404483454,
+        "oldValue": "",
+        "newValue": "{{resistance}} Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageUnits": {
+    "value": "{{voltage}} V",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1509404483454,
+        "oldValue": "",
+        "newValue": "{{voltage}} V",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageVoltsValuePattern": {
+    "value": "{{voltage}} V",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1509404483454,
+        "oldValue": "",
+        "newValue": "{{voltage}} V",
         "explanation": null
       }
     ]
