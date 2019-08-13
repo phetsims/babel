@@ -11,50 +11,14 @@
       }
     ]
   },
-  "kilopascals": {
-    "value": "kPa",
+  "centerOfMass": {
+    "value": "Massemidtpunkt",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1565688231443,
         "oldValue": "",
-        "newValue": "kPa",
-        "explanation": null
-      }
-    ]
-  },
-  "pressure": {
-    "value": "Tryk",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1565688231443,
-        "oldValue": "",
-        "newValue": "Tryk",
-        "explanation": null
-      }
-    ]
-  },
-  "tAvg": {
-    "value": "T<sub>avg</sub> = {{value}}",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1565688231443,
-        "oldValue": "",
-        "newValue": "T<sub>avg</sub> = {{value}}",
-        "explanation": null
-      }
-    ]
-  },
-  "tAvgK": {
-    "value": "T<sub>avg</sub> = {{value}} K",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1565688231443,
-        "oldValue": "",
-        "newValue": "T<sub>avg</sub> = {{value}} K",
+        "newValue": "Massemidtpunkt",
         "explanation": null
       }
     ]
@@ -71,14 +35,14 @@
       }
     ]
   },
-  "centerOfMass": {
-    "value": "Massemidtpunkt",
+  "screen.diffusion": {
+    "value": "Diffusion",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1565688231443,
         "oldValue": "",
-        "newValue": "Massemidtpunkt",
+        "newValue": "Diffusion",
         "explanation": null
       }
     ]
@@ -95,14 +59,45 @@
       }
     ]
   },
+  "kilopascals": {
+    "value": "kPa",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1565688231443,
+        "oldValue": "",
+        "newValue": "kPa",
+        "explanation": null
+      }
+    ]
+  },
   "massAMU": {
-    "value": "Masse (AMU)",
+    "value": "Masse (u)",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1565688231443,
         "oldValue": "",
         "newValue": "Masse (AMU)",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1565694500796,
+        "oldValue": "Masse (AMU)",
+        "newValue": "Masse (u)",
+        "explanation": null
+      }
+    ]
+  },
+  "nanometers": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1565688231443,
+        "oldValue": "",
+        "newValue": "nm",
         "explanation": null
       }
     ]
@@ -115,6 +110,54 @@
         "timestamp": 1565688231443,
         "oldValue": "",
         "newValue": "Antal partikler",
+        "explanation": null
+      }
+    ]
+  },
+  "particleFlowRate": {
+    "value": "Partikel-strømningshastighed",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1565688231443,
+        "oldValue": "",
+        "newValue": "Partikel-strømningshastighed",
+        "explanation": null
+      }
+    ]
+  },
+  "pressure": {
+    "value": "Tryk",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1565688231443,
+        "oldValue": "",
+        "newValue": "Tryk",
+        "explanation": null
+      }
+    ]
+  },
+  "pressureNoise": {
+    "value": "Tryk larm",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1565688231443,
+        "oldValue": "",
+        "newValue": "Tryk larm",
+        "explanation": null
+      }
+    ]
+  },
+  "picoseconds": {
+    "value": "ps",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1565688231443,
+        "oldValue": "",
+        "newValue": "ps",
         "explanation": null
       }
     ]
@@ -155,18 +198,6 @@
       }
     ]
   },
-  "particleFlowRate": {
-    "value": "Partikel-strømningshastighed",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1565688231443,
-        "oldValue": "",
-        "newValue": "Partikel-strømningshastighed",
-        "explanation": null
-      }
-    ]
-  },
   "scale": {
     "value": "Skala",
     "history": [
@@ -191,14 +222,40 @@
       }
     ]
   },
-  "nanometers": {
-    "value": "nm",
+  "tAvg": {
+    "value": "T<sub>Gns</sub> = {{value}}",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1565688231443,
         "oldValue": "",
-        "newValue": "nm",
+        "newValue": "T<sub>avg</sub> = {{value}}",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1565694500796,
+        "oldValue": "T<sub>avg</sub> = {{value}}",
+        "newValue": "T<sub>Gns</sub> = {{value}}",
+        "explanation": null
+      }
+    ]
+  },
+  "tAvgK": {
+    "value": "T<sub>Gns</sub> = {{value}} K",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1565688231443,
+        "oldValue": "",
+        "newValue": "T<sub>avg</sub> = {{value}} K",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1565694500796,
+        "oldValue": "T<sub>avg</sub> = {{value}} K",
+        "newValue": "T<sub>Gns</sub> = {{value}} K",
         "explanation": null
       }
     ]
@@ -211,30 +268,6 @@
         "timestamp": 1565688231443,
         "oldValue": "",
         "newValue": "{{value}} {{units}}",
-        "explanation": null
-      }
-    ]
-  },
-  "picoseconds": {
-    "value": "ps",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1565688231443,
-        "oldValue": "",
-        "newValue": "ps",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.diffusion": {
-    "value": "Diffusion",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1565688231443,
-        "oldValue": "",
-        "newValue": "Diffusion",
         "explanation": null
       }
     ]
@@ -391,18 +424,6 @@
         "timestamp": 1565688231443,
         "oldValue": "",
         "newValue": "Opdag",
-        "explanation": null
-      }
-    ]
-  },
-  "pressureNoise": {
-    "value": "Tryk larm",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1565688231443,
-        "oldValue": "",
-        "newValue": "Tryk larm",
         "explanation": null
       }
     ]
