@@ -11,50 +11,14 @@
       }
     ]
   },
-  "kilopascals": {
-    "value": "kPa",
-    "history": [
-      {
-        "userId": 685589,
-        "timestamp": 1565974995620,
-        "oldValue": "",
-        "newValue": "kPa",
-        "explanation": null
-      }
-    ]
-  },
-  "pressure": {
-    "value": "Presión",
-    "history": [
-      {
-        "userId": 685589,
-        "timestamp": 1565974995620,
-        "oldValue": "",
-        "newValue": "Presión",
-        "explanation": null
-      }
-    ]
-  },
-  "tAvg": {
-    "value": "T<sub>avg</sub> = {{value}}",
+  "centerOfMass": {
+    "value": "Centro de Masa",
     "history": [
       {
         "userId": 685589,
         "timestamp": 1565980480319,
         "oldValue": "",
-        "newValue": "T<sub>avg</sub> = {{value}}",
-        "explanation": null
-      }
-    ]
-  },
-  "tAvgK": {
-    "value": "T<sub>avg</sub> = {{value}} K",
-    "history": [
-      {
-        "userId": 685589,
-        "timestamp": 1565980480319,
-        "oldValue": "",
-        "newValue": "T<sub>avg</sub> = {{value}} K",
+        "newValue": "Centro de Masa",
         "explanation": null
       }
     ]
@@ -71,14 +35,14 @@
       }
     ]
   },
-  "centerOfMass": {
-    "value": "Centro de Masa",
+  "screen.diffusion": {
+    "value": "Difusión ",
     "history": [
       {
         "userId": 685589,
         "timestamp": 1565980480319,
         "oldValue": "",
-        "newValue": "Centro de Masa",
+        "newValue": "Difusión ",
         "explanation": null
       }
     ]
@@ -95,6 +59,18 @@
       }
     ]
   },
+  "kilopascals": {
+    "value": "kPa",
+    "history": [
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "",
+        "newValue": "kPa",
+        "explanation": null
+      }
+    ]
+  },
   "massAMU": {
     "value": "Masa (AMU)",
     "history": [
@@ -107,6 +83,18 @@
       }
     ]
   },
+  "nanometers": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "",
+        "newValue": "nm",
+        "explanation": null
+      }
+    ]
+  },
   "numberOfParticles": {
     "value": "Número de Partículas ",
     "history": [
@@ -115,6 +103,68 @@
         "timestamp": 1565980480319,
         "oldValue": "",
         "newValue": "Número de Partículas ",
+        "explanation": null
+      }
+    ]
+  },
+  "particleFlowRate": {
+    "value": "La Tasa de Caudal de Partículas",
+    "history": [
+      {
+        "userId": 685589,
+        "timestamp": 1565980480319,
+        "oldValue": "",
+        "newValue": "Velocidad de Flujo de Partículas",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1565985379787,
+        "oldValue": "Velocidad de Flujo de Partículas",
+        "newValue": "La tasa de Caudal de Partículas",
+        "explanation": null
+      },
+      {
+        "userId": 685589,
+        "timestamp": 1565987187012,
+        "oldValue": "La tasa de Caudal de Partículas",
+        "newValue": "La Tasa de Caudal de Partículas",
+        "explanation": null
+      }
+    ]
+  },
+  "pressure": {
+    "value": "Presión",
+    "history": [
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "",
+        "newValue": "Presión",
+        "explanation": null
+      }
+    ]
+  },
+  "pressureNoise": {
+    "value": "Ruido de Presión",
+    "history": [
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "",
+        "newValue": "Ruido de Presión",
+        "explanation": null
+      }
+    ]
+  },
+  "picoseconds": {
+    "value": "ps",
+    "history": [
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "",
+        "newValue": "ps",
         "explanation": null
       }
     ]
@@ -155,32 +205,6 @@
       }
     ]
   },
-  "particleFlowRate": {
-    "value": "La Tasa de Caudal de Partículas",
-    "history": [
-      {
-        "userId": 685589,
-        "timestamp": 1565980480319,
-        "oldValue": "",
-        "newValue": "Velocidad de Flujo de Partículas",
-        "explanation": null
-      },
-      {
-        "userId": 685589,
-        "timestamp": 1565985379787,
-        "oldValue": "Velocidad de Flujo de Partículas",
-        "newValue": "La tasa de Caudal de Partículas",
-        "explanation": null
-      },
-      {
-        "userId": 685589,
-        "timestamp": 1565987155450,
-        "oldValue": "La tasa de Caudal de Partículas",
-        "newValue": "La Tasa de Caudal de Partículas",
-        "explanation": null
-      }
-    ]
-  },
   "scale": {
     "value": "Escala",
     "history": [
@@ -205,14 +229,26 @@
       }
     ]
   },
-  "nanometers": {
-    "value": "nm",
+  "tAvg": {
+    "value": "T<sub>avg</sub> = {{value}}",
     "history": [
       {
         "userId": 685589,
-        "timestamp": 1565974995620,
+        "timestamp": 1565980480319,
         "oldValue": "",
-        "newValue": "nm",
+        "newValue": "T<sub>avg</sub> = {{value}}",
+        "explanation": null
+      }
+    ]
+  },
+  "tAvgK": {
+    "value": "T<sub>avg</sub> = {{value}} K",
+    "history": [
+      {
+        "userId": 685589,
+        "timestamp": 1565980480319,
+        "oldValue": "",
+        "newValue": "T<sub>avg</sub> = {{value}} K",
         "explanation": null
       }
     ]
@@ -225,30 +261,6 @@
         "timestamp": 1565974995620,
         "oldValue": "",
         "newValue": "{{value}} {{units}}",
-        "explanation": null
-      }
-    ]
-  },
-  "picoseconds": {
-    "value": "ps",
-    "history": [
-      {
-        "userId": 685589,
-        "timestamp": 1565974995620,
-        "oldValue": "",
-        "newValue": "ps",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.diffusion": {
-    "value": "Difusión ",
-    "history": [
-      {
-        "userId": 685589,
-        "timestamp": 1565980480319,
-        "oldValue": "",
-        "newValue": "Difusión ",
         "explanation": null
       }
     ]
@@ -426,18 +438,6 @@
         "timestamp": 1565980480319,
         "oldValue": "",
         "newValue": "Explorar",
-        "explanation": null
-      }
-    ]
-  },
-  "pressureNoise": {
-    "value": "Ruido de Presión",
-    "history": [
-      {
-        "userId": 685589,
-        "timestamp": 1565974995620,
-        "oldValue": "",
-        "newValue": "Ruido de Presión",
         "explanation": null
       }
     ]
