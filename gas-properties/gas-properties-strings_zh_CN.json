@@ -11,50 +11,14 @@
       }
     ]
   },
-  "kilopascals": {
-    "value": "kPa",
+  "centerOfMass": {
+    "value": "质心",
     "history": [
       {
         "userId": 685789,
         "timestamp": 1565927224510,
         "oldValue": "",
-        "newValue": "kPa",
-        "explanation": null
-      }
-    ]
-  },
-  "pressure": {
-    "value": "压强",
-    "history": [
-      {
-        "userId": 685789,
-        "timestamp": 1565927224510,
-        "oldValue": "",
-        "newValue": "压强",
-        "explanation": null
-      }
-    ]
-  },
-  "tAvg": {
-    "value": "T<sub>avg</sub> = {{value}}",
-    "history": [
-      {
-        "userId": 685789,
-        "timestamp": 1565927224510,
-        "oldValue": "",
-        "newValue": "T<sub>avg</sub> = {{value}}",
-        "explanation": null
-      }
-    ]
-  },
-  "tAvgK": {
-    "value": "T<sub>avg</sub> = {{value}} K",
-    "history": [
-      {
-        "userId": 685789,
-        "timestamp": 1565927224510,
-        "oldValue": "",
-        "newValue": "T<sub>avg</sub> = {{value}} K",
+        "newValue": "质心",
         "explanation": null
       }
     ]
@@ -71,14 +35,14 @@
       }
     ]
   },
-  "centerOfMass": {
-    "value": "质心",
+  "screen.diffusion": {
+    "value": "扩散",
     "history": [
       {
         "userId": 685789,
         "timestamp": 1565927224510,
         "oldValue": "",
-        "newValue": "质心",
+        "newValue": "扩散",
         "explanation": null
       }
     ]
@@ -95,6 +59,18 @@
       }
     ]
   },
+  "kilopascals": {
+    "value": "kPa",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1565927224510,
+        "oldValue": "",
+        "newValue": "kPa",
+        "explanation": null
+      }
+    ]
+  },
   "massAMU": {
     "value": "质量(AMU)",
     "history": [
@@ -107,6 +83,18 @@
       }
     ]
   },
+  "nanometers": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1565927224510,
+        "oldValue": "",
+        "newValue": "nm",
+        "explanation": null
+      }
+    ]
+  },
   "numberOfParticles": {
     "value": "粒子数",
     "history": [
@@ -115,6 +103,54 @@
         "timestamp": 1565927224510,
         "oldValue": "",
         "newValue": "粒子数",
+        "explanation": null
+      }
+    ]
+  },
+  "particleFlowRate": {
+    "value": "粒子流数率",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1565927224510,
+        "oldValue": "",
+        "newValue": "粒子流数率",
+        "explanation": null
+      }
+    ]
+  },
+  "pressure": {
+    "value": "压强",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1565927224510,
+        "oldValue": "",
+        "newValue": "压强",
+        "explanation": null
+      }
+    ]
+  },
+  "pressureNoise": {
+    "value": "压强涨落",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1565927224510,
+        "oldValue": "",
+        "newValue": "压强涨落",
+        "explanation": null
+      }
+    ]
+  },
+  "picoseconds": {
+    "value": "ps",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1565927224510,
+        "oldValue": "",
+        "newValue": "ps",
         "explanation": null
       }
     ]
@@ -155,26 +191,21 @@
       }
     ]
   },
-  "particleFlowRate": {
-    "value": "粒子流数率",
-    "history": [
-      {
-        "userId": 685789,
-        "timestamp": 1565927224510,
-        "oldValue": "",
-        "newValue": "粒子流数率",
-        "explanation": null
-      }
-    ]
-  },
   "scale": {
-    "value": "天平",
+    "value": "标度",
     "history": [
       {
         "userId": 685789,
         "timestamp": 1565927224510,
         "oldValue": "",
         "newValue": "天平",
+        "explanation": null
+      },
+      {
+        "userId": 685789,
+        "timestamp": 1566331548174,
+        "oldValue": "天平",
+        "newValue": "标度",
         "explanation": null
       }
     ]
@@ -191,14 +222,26 @@
       }
     ]
   },
-  "nanometers": {
-    "value": "nm",
+  "tAvg": {
+    "value": "T<sub>avg</sub> = {{value}}",
     "history": [
       {
         "userId": 685789,
         "timestamp": 1565927224510,
         "oldValue": "",
-        "newValue": "nm",
+        "newValue": "T<sub>avg</sub> = {{value}}",
+        "explanation": null
+      }
+    ]
+  },
+  "tAvgK": {
+    "value": "T<sub>avg</sub> = {{value}} K",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1565927224510,
+        "oldValue": "",
+        "newValue": "T<sub>avg</sub> = {{value}} K",
         "explanation": null
       }
     ]
@@ -211,30 +254,6 @@
         "timestamp": 1565927224510,
         "oldValue": "",
         "newValue": "{{value}} {{units}}",
-        "explanation": null
-      }
-    ]
-  },
-  "picoseconds": {
-    "value": "ps",
-    "history": [
-      {
-        "userId": 685789,
-        "timestamp": 1565927224510,
-        "oldValue": "",
-        "newValue": "ps",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.diffusion": {
-    "value": "扩散",
-    "history": [
-      {
-        "userId": 685789,
-        "timestamp": 1565927224510,
-        "oldValue": "",
-        "newValue": "扩散",
         "explanation": null
       }
     ]
@@ -391,18 +410,6 @@
         "timestamp": 1565927224510,
         "oldValue": "",
         "newValue": "探索",
-        "explanation": null
-      }
-    ]
-  },
-  "pressureNoise": {
-    "value": "压强涨落",
-    "history": [
-      {
-        "userId": 685789,
-        "timestamp": 1565927224510,
-        "oldValue": "",
-        "newValue": "压强涨落",
         "explanation": null
       }
     ]
