@@ -1,4 +1,16 @@
 {
+  "cool": {
+    "value": "Frío",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1482399228003,
+        "oldValue": "",
+        "newValue": "Frío",
+        "explanation": null
+      }
+    ]
+  },
   "key.enter": {
     "value": "Entrar",
     "history": [
@@ -31,6 +43,30 @@
         "timestamp": 1544306111543,
         "oldValue": "",
         "newValue": "Agarra o suelta {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "heat": {
+    "value": "Calor",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1482399228003,
+        "oldValue": "",
+        "newValue": "Calor",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "Normal",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1539049230335,
+        "oldValue": "",
+        "newValue": "Normal",
         "explanation": null
       }
     ]
@@ -83,6 +119,18 @@
       }
     ]
   },
+  "speed.slow": {
+    "value": "Lento",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1539049230335,
+        "oldValue": "",
+        "newValue": "Lento",
+        "explanation": null
+      }
+    ]
+  },
   "key.space": {
     "value": "Espacio",
     "history": [
@@ -107,14 +155,14 @@
       }
     ]
   },
-  "frequencyUnitsPattern": {
-    "value": "{{frequency}} THz",
+  "comboBoxDisplay.valueUnits": {
+    "value": "{{value}} {{units}}",
     "history": [
       {
         "userId": 133358,
-        "timestamp": 1549029783831,
+        "timestamp": 1566579016369,
         "oldValue": "",
-        "newValue": "{{frequency}} THz",
+        "newValue": "{{value}} {{units}}",
         "explanation": null
       }
     ]
@@ -139,6 +187,18 @@
         "timestamp": 1549029783831,
         "oldValue": "",
         "newValue": "Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "frequencyUnitsPattern": {
+    "value": "{{frequency}} THz",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1549029783831,
+        "oldValue": "",
+        "newValue": "{{frequency}} THz",
         "explanation": null
       }
     ]
@@ -275,30 +335,6 @@
       }
     ]
   },
-  "speed.normal": {
-    "value": "Normal",
-    "history": [
-      {
-        "userId": 133358,
-        "timestamp": 1539049230335,
-        "oldValue": "",
-        "newValue": "Normal",
-        "explanation": null
-      }
-    ]
-  },
-  "speed.slow": {
-    "value": "Lento",
-    "history": [
-      {
-        "userId": 133358,
-        "timestamp": 1539049230335,
-        "oldValue": "",
-        "newValue": "Lento",
-        "explanation": null
-      }
-    ]
-  },
   "WavelengthSlider.pattern_0wavelength_1units": {
     "value": "{0} {1}",
     "history": [
@@ -307,30 +343,6 @@
         "timestamp": 1455725913156,
         "oldValue": "",
         "newValue": "{0} {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "cool": {
-    "value": "Frío",
-    "history": [
-      {
-        "userId": 133358,
-        "timestamp": 1482399228003,
-        "oldValue": "",
-        "newValue": "Frío",
-        "explanation": null
-      }
-    ]
-  },
-  "heat": {
-    "value": "Calor",
-    "history": [
-      {
-        "userId": 133358,
-        "timestamp": 1482399228003,
-        "oldValue": "",
-        "newValue": "Calor",
         "explanation": null
       }
     ]
