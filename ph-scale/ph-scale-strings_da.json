@@ -1,24 +1,12 @@
 {
-  "acidic": {
-    "value": "Sur",
+  "choice.water": {
+    "value": "Vand",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1447913755381,
         "oldValue": "",
-        "newValue": "Sur",
-        "explanation": null
-      }
-    ]
-  },
-  "basic": {
-    "value": "Basisk",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1447913755381,
-        "oldValue": "",
-        "newValue": "Basisk",
+        "newValue": "Vand",
         "explanation": null
       }
     ]
@@ -167,14 +155,129 @@
       }
     ]
   },
-  "choice.water": {
-    "value": "Vand",
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1447913755381,
         "oldValue": "",
-        "newValue": "Vand",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "units.liters": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1447913755381,
+        "oldValue": "",
+        "newValue": "L",
+        "explanation": null
+      }
+    ]
+  },
+  "acidic": {
+    "value": "Sur",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1447913755381,
+        "oldValue": "",
+        "newValue": "Sur",
+        "explanation": null
+      }
+    ]
+  },
+  "basic": {
+    "value": "Basisk",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1447913755381,
+        "oldValue": "",
+        "newValue": "Basisk",
+        "explanation": null
+      }
+    ]
+  },
+  "pH": {
+    "value": "pH",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1447913755381,
+        "oldValue": "",
+        "newValue": "pH",
+        "explanation": null
+      }
+    ]
+  },
+  "neutral": {
+    "value": "Neutral",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1447913755381,
+        "oldValue": "",
+        "newValue": "Neutral",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.macro": {
+    "value": "Makro",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1447913755381,
+        "oldValue": "",
+        "newValue": "Makro",
+        "explanation": null
+      }
+    ]
+  },
+  "moleculeCount": {
+    "value": "Molekyletælling",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1454499484930,
+        "oldValue": "",
+        "newValue": "Molekyletælling",
+        "explanation": null
+      }
+    ]
+  },
+  "ratio": {
+    "value": "mængde",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1454499484930,
+        "oldValue": "",
+        "newValue": "mængde",
+        "explanation": null
+      }
+    ]
+  },
+  "offScale": {
+    "value": "uden for skala",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1454499484930,
+        "oldValue": "",
+        "newValue": "Uden for skala",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1454499673128,
+        "oldValue": "Uden for skala",
+        "newValue": "uden for skala",
         "explanation": null
       }
     ]
@@ -215,97 +318,6 @@
       }
     ]
   },
-  "moleculeCount": {
-    "value": "Molekyletælling",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1454499484930,
-        "oldValue": "",
-        "newValue": "Molekyletælling",
-        "explanation": null
-      }
-    ]
-  },
-  "neutral": {
-    "value": "Neutral",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1447913755381,
-        "oldValue": "",
-        "newValue": "Neutral",
-        "explanation": null
-      }
-    ]
-  },
-  "offScale": {
-    "value": "uden for skala",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1454499484930,
-        "oldValue": "",
-        "newValue": "Uden for skala",
-        "explanation": null
-      },
-      {
-        "userId": 130982,
-        "timestamp": 1454499673128,
-        "oldValue": "Uden for skala",
-        "newValue": "uden for skala",
-        "explanation": null
-      }
-    ]
-  },
-  "pH": {
-    "value": "pH",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1447913755381,
-        "oldValue": "",
-        "newValue": "pH",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0name.1pH": {
-    "value": "{0} (pH {1})",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1447913755381,
-        "oldValue": "",
-        "newValue": "{0} (pH {1})",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0value.1units": {
-    "value": "{0} {1}",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1447913755381,
-        "oldValue": "",
-        "newValue": "{0} {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "ph-scale.title": {
-    "value": "pH-skala",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1454499484930,
-        "oldValue": "",
-        "newValue": "pH-skala",
-        "explanation": null
-      }
-    ]
-  },
   "quantity": {
     "value": "Mængde",
     "history": [
@@ -314,78 +326,6 @@
         "timestamp": 1454499484930,
         "oldValue": "",
         "newValue": "Mængde",
-        "explanation": null
-      }
-    ]
-  },
-  "ratio": {
-    "value": "mængde",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1454499484930,
-        "oldValue": "",
-        "newValue": "mængde",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.macro": {
-    "value": "Makro",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1447913755381,
-        "oldValue": "",
-        "newValue": "Makro",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.micro": {
-    "value": "Micro",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1454499484930,
-        "oldValue": "",
-        "newValue": "Micro",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.mySolution": {
-    "value": "Min opløsning",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1454499484930,
-        "oldValue": "",
-        "newValue": "Min opløsning",
-        "explanation": null
-      }
-    ]
-  },
-  "units.liters": {
-    "value": "L",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1447913755381,
-        "oldValue": "",
-        "newValue": "L",
-        "explanation": null
-      }
-    ]
-  },
-  "units.moles": {
-    "value": "mol",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1454499484930,
-        "oldValue": "",
-        "newValue": "mol",
         "explanation": null
       }
     ]
@@ -405,6 +345,73 @@
         "timestamp": 1454499673128,
         "oldValue": "Mol/L",
         "newValue": "mol/L",
+        "explanation": null
+      }
+    ]
+  },
+  "units.moles": {
+    "value": "mol",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1454499484930,
+        "oldValue": "",
+        "newValue": "mol",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.micro": {
+    "value": "Mikro",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1454499484930,
+        "oldValue": "",
+        "newValue": "Micro",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1568405502025,
+        "oldValue": "Micro",
+        "newValue": "Mikro",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.mySolution": {
+    "value": "Min opløsning",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1454499484930,
+        "oldValue": "",
+        "newValue": "Min opløsning",
+        "explanation": null
+      }
+    ]
+  },
+  "ph-scale.title": {
+    "value": "pH-skala",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1454499484930,
+        "oldValue": "",
+        "newValue": "pH-skala",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0name.1pH": {
+    "value": "{0} (pH {1})",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1447913755381,
+        "oldValue": "",
+        "newValue": "{0} (pH {1})",
         "explanation": null
       }
     ]
