@@ -71,8 +71,32 @@
       }
     ]
   },
+  "pattern.0label.1value.2units": {
+    "value": "{0} = {1} {2}",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1568427576690,
+        "oldValue": "",
+        "newValue": "{0} = {1} {2}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0resistanceUnits.1lengthUnits": {
+    "value": "{0}{1}",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1568427576690,
+        "oldValue": "",
+        "newValue": "{0}{1}",
+        "explanation": null
+      }
+    ]
+  },
   "resistance": {
-    "value": "Modstand",
+    "value": "modstand",
     "history": [
       {
         "userId": 130982,
@@ -86,6 +110,44 @@
         "timestamp": 1457414453176,
         "oldValue": "modstand",
         "newValue": "Modstand",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1568427576690,
+        "oldValue": "Modstand",
+        "newValue": "modstand",
+        "explanation": null
+      }
+    ]
+  },
+  "resistivity": {
+    "value": "specifik modstand",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1457413967410,
+        "oldValue": "",
+        "newValue": "resistivitet",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1568427576690,
+        "oldValue": "resistivitet",
+        "newValue": "specifik modstand",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceSymbol": {
+    "value": "R",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1457413967410,
+        "oldValue": "",
+        "newValue": "R",
         "explanation": null
       }
     ]
@@ -110,30 +172,6 @@
         "timestamp": 1457413967410,
         "oldValue": "",
         "newValue": "Modstand =",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceSymbol": {
-    "value": "R",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1457413967410,
-        "oldValue": "",
-        "newValue": "R",
-        "explanation": null
-      }
-    ]
-  },
-  "resistivity": {
-    "value": "resistivitet",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1457413967410,
-        "oldValue": "",
-        "newValue": "resistivitet",
         "explanation": null
       }
     ]
