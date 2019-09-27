@@ -1,48 +1,192 @@
 {
-  "femtosecondConversion": {
-    "value": "1 fs = 10<sup>-15</sup> s",
+  "circleDiameter": {
+    "value": "Đường kính vòng tròn",
     "history": [
       {
         "userId": 137535,
-        "timestamp": 1548989824193,
+        "timestamp": 1569601319669,
         "oldValue": "",
-        "newValue": "1 fs = 10<sup>-15</sup> s",
+        "newValue": "Đường kính vòng tròn",
         "explanation": null
       }
     ]
   },
-  "millisecondConversion": {
-    "value": "1 ms = 10<sup>-3</sup> s",
+  "mmValue": {
+    "value": "{{value}} mm",
     "history": [
       {
         "userId": 137535,
-        "timestamp": 1548989824193,
+        "timestamp": 1569601319669,
         "oldValue": "",
-        "newValue": "1 ms = 10<sup>-3</sup> s",
+        "newValue": "{{value}} mm",
         "explanation": null
       }
     ]
   },
-  "amplitude": {
-    "value": "Biên độ",
+  "squareWidth": {
+    "value": "Chiều rộng hình vuông",
     "history": [
       {
         "userId": 137535,
-        "timestamp": 1548989824193,
+        "timestamp": 1569601319669,
         "oldValue": "",
-        "newValue": "Biên độ",
+        "newValue": "Chiều rộng hình vuông",
         "explanation": null
       }
     ]
   },
-  "both": {
-    "value": "Cả hai",
+  "disorder": {
+    "value": "Độ hỗn độn",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1569601319669,
+        "oldValue": "",
+        "newValue": "Độ hỗn độn",
+        "explanation": null
+      }
+    ]
+  },
+  "latticeSpacing": {
+    "value": "Hằng số mạng",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1569601319669,
+        "oldValue": "",
+        "newValue": "Hằng số mạng",
+        "explanation": null
+      }
+    ]
+  },
+  "lots": {
+    "value": "Nhiều",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1569601319669,
+        "oldValue": "",
+        "newValue": "Nhiều",
+        "explanation": null
+      }
+    ]
+  },
+  "none": {
+    "value": "Không có",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1569601319669,
+        "oldValue": "",
+        "newValue": "Không có",
+        "explanation": null
+      }
+    ]
+  },
+  "diameter": {
+    "value": "Đường kính",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1569601319669,
+        "oldValue": "",
+        "newValue": "Đường kính",
+        "explanation": null
+      }
+    ]
+  },
+  "eccentricity": {
+    "value": "Tâm sai",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1569601319669,
+        "oldValue": "",
+        "newValue": "Tâm sai",
+        "explanation": null
+      }
+    ]
+  },
+  "height": {
+    "value": "Chiều cao",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1569601319669,
+        "oldValue": "",
+        "newValue": "Chiều cao",
+        "explanation": null
+      }
+    ]
+  },
+  "width": {
+    "value": "Chiều rộng",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1569601319669,
+        "oldValue": "",
+        "newValue": "Chiều rộng",
+        "explanation": null
+      }
+    ]
+  },
+  "degreesValue": {
+    "value": "{{value}}˚",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1569601319669,
+        "oldValue": "",
+        "newValue": "{{value}}˚",
+        "explanation": null
+      }
+    ]
+  },
+  "rotation": {
+    "value": "Góc quay",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1569601319669,
+        "oldValue": "",
+        "newValue": "Góc quay",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.diffraction": {
+    "value": "Nhiễu xạ",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1569601319669,
+        "oldValue": "",
+        "newValue": "Nhiễu xạ",
+        "explanation": null
+      }
+    ]
+  },
+  "distanceUnits": {
+    "value": "{{distance}} {{units}}",
     "history": [
       {
         "userId": 137535,
         "timestamp": 1548989824193,
         "oldValue": "",
-        "newValue": "Cả hai",
+        "newValue": "{{distance}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "timeUnits": {
+    "value": "{{time}} {{units}}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "{{time}} {{units}}",
         "explanation": null
       }
     ]
@@ -59,18 +203,6 @@
       }
     ]
   },
-  "electricField": {
-    "value": "Điện trường",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Điện trường",
-        "explanation": null
-      }
-    ]
-  },
   "electricFieldAtCenter": {
     "value": "Điện trường ở trung tâm",
     "history": [
@@ -83,14 +215,26 @@
       }
     ]
   },
-  "frequency": {
-    "value": "Tần số",
+  "electricField": {
+    "value": "Điện trường",
     "history": [
       {
         "userId": 137535,
         "timestamp": 1548989824193,
         "oldValue": "",
-        "newValue": "Tần số",
+        "newValue": "Điện trường",
+        "explanation": null
+      }
+    ]
+  },
+  "femtosecondConversion": {
+    "value": "1 fs = 10<sup>-15</sup> s",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "1 fs = 10<sup>-15</sup> s",
         "explanation": null
       }
     ]
@@ -107,30 +251,6 @@
       }
     ]
   },
-  "graph": {
-    "value": "Đồ thị",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Đồ thị",
-        "explanation": null
-      }
-    ]
-  },
-  "intensity": {
-    "value": "Cường độ",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Cường độ",
-        "explanation": null
-      }
-    ]
-  },
   "lightGenerator": {
     "value": "Máy phát ánh sáng",
     "history": [
@@ -143,26 +263,14 @@
       }
     ]
   },
-  "max": {
-    "value": "max",
+  "millisecondConversion": {
+    "value": "1 ms = 10<sup>-3</sup> s",
     "history": [
       {
         "userId": 137535,
         "timestamp": 1548989824193,
         "oldValue": "",
-        "newValue": "max",
-        "explanation": null
-      }
-    ]
-  },
-  "min": {
-    "value": "min",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "min",
+        "newValue": "1 ms = 10<sup>-3</sup> s",
         "explanation": null
       }
     ]
@@ -191,42 +299,6 @@
       }
     ]
   },
-  "normal": {
-    "value": "Bình thường",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Bình thường",
-        "explanation": null
-      }
-    ]
-  },
-  "particles": {
-    "value": "Hạt",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Hạt",
-        "explanation": null
-      }
-    ]
-  },
-  "playTone": {
-    "value": "Âm thanh",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1569600666706,
-        "oldValue": "",
-        "newValue": "Âm thanh",
-        "explanation": null
-      }
-    ]
-  },
   "positionCM": {
     "value": "Vị trí (cm)",
     "history": [
@@ -251,18 +323,6 @@
       }
     ]
   },
-  "pressure": {
-    "value": "Áp suất",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Áp suất",
-        "explanation": null
-      }
-    ]
-  },
   "pressureAtCenter": {
     "value": "Áp suất ở trung tâm",
     "history": [
@@ -271,6 +331,18 @@
         "timestamp": 1548989824193,
         "oldValue": "",
         "newValue": "Áp suất ở trung tâm",
+        "explanation": null
+      }
+    ]
+  },
+  "pressure": {
+    "value": "Áp suất",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Áp suất",
         "explanation": null
       }
     ]
@@ -287,54 +359,6 @@
       }
     ]
   },
-  "screen": {
-    "value": "Màn",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Màn",
-        "explanation": null
-      }
-    ]
-  },
-  "sideView": {
-    "value": "Nhìn ngang",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Nhìn ngang",
-        "explanation": null
-      }
-    ]
-  },
-  "slow": {
-    "value": "Chậm",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Chậm",
-        "explanation": null
-      }
-    ]
-  },
-  "soundEffect": {
-    "value": "Hiệu ứng âm",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1569600666706,
-        "oldValue": "",
-        "newValue": "Hiệu ứng âm",
-        "explanation": null
-      }
-    ]
-  },
   "soundGenerator": {
     "value": "Máy phát âm",
     "history": [
@@ -343,54 +367,6 @@
         "timestamp": 1548989824193,
         "oldValue": "",
         "newValue": "Máy phát âm",
-        "explanation": null
-      }
-    ]
-  },
-  "time": {
-    "value": "Thời gian",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Thời gian",
-        "explanation": null
-      }
-    ]
-  },
-  "top": {
-    "value": "Phía trên",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Phía trên",
-        "explanation": null
-      }
-    ]
-  },
-  "topView": {
-    "value": "Nhìn từ trên xuống",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Nhìn từ trên xuống",
-        "explanation": null
-      }
-    ]
-  },
-  "waterLevel": {
-    "value": "Mực nước",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Mực nước",
         "explanation": null
       }
     ]
@@ -407,6 +383,18 @@
       }
     ]
   },
+  "waterLevel": {
+    "value": "Mực nước",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Mực nước",
+        "explanation": null
+      }
+    ]
+  },
   "waterWaveGenerator": {
     "value": "Máy tạo sóng nước",
     "history": [
@@ -415,42 +403,6 @@
         "timestamp": 1548989824193,
         "oldValue": "",
         "newValue": "Máy tạo sóng nước",
-        "explanation": null
-      }
-    ]
-  },
-  "waves": {
-    "value": "Sóng",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Sóng",
-        "explanation": null
-      }
-    ]
-  },
-  "distanceUnits": {
-    "value": "{{distance}} {{units}}",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "{{distance}} {{units}}",
-        "explanation": null
-      }
-    ]
-  },
-  "timeUnits": {
-    "value": "{{time}} {{units}}",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "{{time}} {{units}}",
         "explanation": null
       }
     ]
@@ -487,6 +439,222 @@
         "timestamp": 1548989824193,
         "oldValue": "",
         "newValue": "Khoảng cách 2 nguồn",
+        "explanation": null
+      }
+    ]
+  },
+  "intensity": {
+    "value": "Cường độ",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Cường độ",
+        "explanation": null
+      }
+    ]
+  },
+  "top": {
+    "value": "Phía trên",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Phía trên",
+        "explanation": null
+      }
+    ]
+  },
+  "normal": {
+    "value": "Bình thường",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Bình thường",
+        "explanation": null
+      }
+    ]
+  },
+  "slow": {
+    "value": "Chậm",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Chậm",
+        "explanation": null
+      }
+    ]
+  },
+  "sideView": {
+    "value": "Nhìn ngang",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Nhìn ngang",
+        "explanation": null
+      }
+    ]
+  },
+  "topView": {
+    "value": "Nhìn từ trên xuống",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Nhìn từ trên xuống",
+        "explanation": null
+      }
+    ]
+  },
+  "max": {
+    "value": "max",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "max",
+        "explanation": null
+      }
+    ]
+  },
+  "min": {
+    "value": "min",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "min",
+        "explanation": null
+      }
+    ]
+  },
+  "amplitude": {
+    "value": "Biên độ",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Biên độ",
+        "explanation": null
+      }
+    ]
+  },
+  "frequency": {
+    "value": "Tần số",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Tần số",
+        "explanation": null
+      }
+    ]
+  },
+  "both": {
+    "value": "Cả hai",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Cả hai",
+        "explanation": null
+      }
+    ]
+  },
+  "particles": {
+    "value": "Hạt",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Hạt",
+        "explanation": null
+      }
+    ]
+  },
+  "waves": {
+    "value": "Sóng",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Sóng",
+        "explanation": null
+      }
+    ]
+  },
+  "graph": {
+    "value": "Đồ thị",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Đồ thị",
+        "explanation": null
+      }
+    ]
+  },
+  "playTone": {
+    "value": "Âm thanh",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1569600666706,
+        "oldValue": "",
+        "newValue": "Âm thanh",
+        "explanation": null
+      }
+    ]
+  },
+  "screen": {
+    "value": "Màn",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Màn",
+        "explanation": null
+      }
+    ]
+  },
+  "soundEffect": {
+    "value": "Hiệu ứng âm",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1569600666706,
+        "oldValue": "",
+        "newValue": "Hiệu ứng âm",
+        "explanation": null
+      }
+    ]
+  },
+  "time": {
+    "value": "Thời gian",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Thời gian",
         "explanation": null
       }
     ]
