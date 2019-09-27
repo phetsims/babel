@@ -1,24 +1,48 @@
 {
-  "distanceUnits": {
-    "value": "{{distance}} {{units}}",
+  "femtosecondConversion": {
+    "value": "1 fs = 10<sup>-15</sup> s",
     "history": [
       {
         "userId": 137535,
         "timestamp": 1548989824193,
         "oldValue": "",
-        "newValue": "{{distance}} {{units}}",
+        "newValue": "1 fs = 10<sup>-15</sup> s",
         "explanation": null
       }
     ]
   },
-  "timeUnits": {
-    "value": "{{time}} {{units}}",
+  "millisecondConversion": {
+    "value": "1 ms = 10<sup>-3</sup> s",
     "history": [
       {
         "userId": 137535,
         "timestamp": 1548989824193,
         "oldValue": "",
-        "newValue": "{{time}} {{units}}",
+        "newValue": "1 ms = 10<sup>-3</sup> s",
+        "explanation": null
+      }
+    ]
+  },
+  "amplitude": {
+    "value": "Biên độ",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Biên độ",
+        "explanation": null
+      }
+    ]
+  },
+  "both": {
+    "value": "Cả hai",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Cả hai",
         "explanation": null
       }
     ]
@@ -35,18 +59,6 @@
       }
     ]
   },
-  "electricFieldAtCenter": {
-    "value": "Điện trường ở trung tâm",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Điện trường ở trung tâm",
-        "explanation": null
-      }
-    ]
-  },
   "electricField": {
     "value": "Điện trường",
     "history": [
@@ -59,14 +71,26 @@
       }
     ]
   },
-  "femtosecondConversion": {
-    "value": "1 fs = 10<sup>-15</sup> s",
+  "electricFieldAtCenter": {
+    "value": "Điện trường ở trung tâm",
     "history": [
       {
         "userId": 137535,
         "timestamp": 1548989824193,
         "oldValue": "",
-        "newValue": "1 fs = 10<sup>-15</sup> s",
+        "newValue": "Điện trường ở trung tâm",
+        "explanation": null
+      }
+    ]
+  },
+  "frequency": {
+    "value": "Tần số",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Tần số",
         "explanation": null
       }
     ]
@@ -83,6 +107,30 @@
       }
     ]
   },
+  "graph": {
+    "value": "Đồ thị",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Đồ thị",
+        "explanation": null
+      }
+    ]
+  },
+  "intensity": {
+    "value": "Cường độ",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Cường độ",
+        "explanation": null
+      }
+    ]
+  },
   "lightGenerator": {
     "value": "Máy phát ánh sáng",
     "history": [
@@ -95,14 +143,26 @@
       }
     ]
   },
-  "millisecondConversion": {
-    "value": "1 ms = 10<sup>-3</sup> s",
+  "max": {
+    "value": "max",
     "history": [
       {
         "userId": 137535,
         "timestamp": 1548989824193,
         "oldValue": "",
-        "newValue": "1 ms = 10<sup>-3</sup> s",
+        "newValue": "max",
+        "explanation": null
+      }
+    ]
+  },
+  "min": {
+    "value": "min",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "min",
         "explanation": null
       }
     ]
@@ -131,6 +191,42 @@
       }
     ]
   },
+  "normal": {
+    "value": "Bình thường",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Bình thường",
+        "explanation": null
+      }
+    ]
+  },
+  "particles": {
+    "value": "Hạt",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Hạt",
+        "explanation": null
+      }
+    ]
+  },
+  "playTone": {
+    "value": "Âm thanh",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1569600666706,
+        "oldValue": "",
+        "newValue": "Âm thanh",
+        "explanation": null
+      }
+    ]
+  },
   "positionCM": {
     "value": "Vị trí (cm)",
     "history": [
@@ -155,18 +251,6 @@
       }
     ]
   },
-  "pressureAtCenter": {
-    "value": "Áp suất ở trung tâm",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Áp suất ở trung tâm",
-        "explanation": null
-      }
-    ]
-  },
   "pressure": {
     "value": "Áp suất",
     "history": [
@@ -175,6 +259,18 @@
         "timestamp": 1548989824193,
         "oldValue": "",
         "newValue": "Áp suất",
+        "explanation": null
+      }
+    ]
+  },
+  "pressureAtCenter": {
+    "value": "Áp suất ở trung tâm",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Áp suất ở trung tâm",
         "explanation": null
       }
     ]
@@ -191,6 +287,54 @@
       }
     ]
   },
+  "screen": {
+    "value": "Màn",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Màn",
+        "explanation": null
+      }
+    ]
+  },
+  "sideView": {
+    "value": "Nhìn ngang",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Nhìn ngang",
+        "explanation": null
+      }
+    ]
+  },
+  "slow": {
+    "value": "Chậm",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Chậm",
+        "explanation": null
+      }
+    ]
+  },
+  "soundEffect": {
+    "value": "Hiệu ứng âm",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1569600666706,
+        "oldValue": "",
+        "newValue": "Hiệu ứng âm",
+        "explanation": null
+      }
+    ]
+  },
   "soundGenerator": {
     "value": "Máy phát âm",
     "history": [
@@ -203,14 +347,38 @@
       }
     ]
   },
-  "waterLevelAtCenter": {
-    "value": "Mực nước ở trung tâm",
+  "time": {
+    "value": "Thời gian",
     "history": [
       {
         "userId": 137535,
         "timestamp": 1548989824193,
         "oldValue": "",
-        "newValue": "Mực nước ở trung tâm",
+        "newValue": "Thời gian",
+        "explanation": null
+      }
+    ]
+  },
+  "top": {
+    "value": "Phía trên",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Phía trên",
+        "explanation": null
+      }
+    ]
+  },
+  "topView": {
+    "value": "Nhìn từ trên xuống",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Nhìn từ trên xuống",
         "explanation": null
       }
     ]
@@ -227,6 +395,18 @@
       }
     ]
   },
+  "waterLevelAtCenter": {
+    "value": "Mực nước ở trung tâm",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Mực nước ở trung tâm",
+        "explanation": null
+      }
+    ]
+  },
   "waterWaveGenerator": {
     "value": "Máy tạo sóng nước",
     "history": [
@@ -235,6 +415,42 @@
         "timestamp": 1548989824193,
         "oldValue": "",
         "newValue": "Máy tạo sóng nước",
+        "explanation": null
+      }
+    ]
+  },
+  "waves": {
+    "value": "Sóng",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "Sóng",
+        "explanation": null
+      }
+    ]
+  },
+  "distanceUnits": {
+    "value": "{{distance}} {{units}}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "{{distance}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "timeUnits": {
+    "value": "{{time}} {{units}}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548989824193,
+        "oldValue": "",
+        "newValue": "{{time}} {{units}}",
         "explanation": null
       }
     ]
@@ -271,198 +487,6 @@
         "timestamp": 1548989824193,
         "oldValue": "",
         "newValue": "Khoảng cách 2 nguồn",
-        "explanation": null
-      }
-    ]
-  },
-  "intensity": {
-    "value": "Cường độ",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Cường độ",
-        "explanation": null
-      }
-    ]
-  },
-  "top": {
-    "value": "Phía trên",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Phía trên",
-        "explanation": null
-      }
-    ]
-  },
-  "normal": {
-    "value": "Bình thường",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Bình thường",
-        "explanation": null
-      }
-    ]
-  },
-  "slow": {
-    "value": "Chậm",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Chậm",
-        "explanation": null
-      }
-    ]
-  },
-  "sideView": {
-    "value": "Nhìn ngang",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Nhìn ngang",
-        "explanation": null
-      }
-    ]
-  },
-  "topView": {
-    "value": "Nhìn từ trên xuống",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Nhìn từ trên xuống",
-        "explanation": null
-      }
-    ]
-  },
-  "max": {
-    "value": "max",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "max",
-        "explanation": null
-      }
-    ]
-  },
-  "min": {
-    "value": "min",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "min",
-        "explanation": null
-      }
-    ]
-  },
-  "amplitude": {
-    "value": "Biên độ",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Biên độ",
-        "explanation": null
-      }
-    ]
-  },
-  "frequency": {
-    "value": "Tần số",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Tần số",
-        "explanation": null
-      }
-    ]
-  },
-  "both": {
-    "value": "Cả hai",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Cả hai",
-        "explanation": null
-      }
-    ]
-  },
-  "particles": {
-    "value": "Hạt",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Hạt",
-        "explanation": null
-      }
-    ]
-  },
-  "waves": {
-    "value": "Sóng",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Sóng",
-        "explanation": null
-      }
-    ]
-  },
-  "graph": {
-    "value": "Đồ thị",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Đồ thị",
-        "explanation": null
-      }
-    ]
-  },
-  "screen": {
-    "value": "Màn",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Màn",
-        "explanation": null
-      }
-    ]
-  },
-  "time": {
-    "value": "Thời gian",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548989824193,
-        "oldValue": "",
-        "newValue": "Thời gian",
         "explanation": null
       }
     ]
