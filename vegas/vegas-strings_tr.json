@@ -1,4 +1,61 @@
 {
+  "pattern.0yourBest": {
+    "value": "(Rekorun: {0})",
+    "history": [
+      {
+        "userId": 388777,
+        "timestamp": 1481973521044,
+        "oldValue": "",
+        "newValue": "Rekorun: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 354576,
+        "timestamp": 1483580192817,
+        "oldValue": "Rekorun: {0}",
+        "newValue": "(Rekorun: {0})",
+        "explanation": null
+      }
+    ]
+  },
+  "yourNewBest": {
+    "value": "(Yeni Rekorun!)",
+    "history": [
+      {
+        "userId": 388777,
+        "timestamp": 1481973521044,
+        "oldValue": "",
+        "newValue": "Yeni Rekorun!",
+        "explanation": null
+      },
+      {
+        "userId": 354576,
+        "timestamp": 1483580192817,
+        "oldValue": "Yeni Rekorun!",
+        "newValue": "(Yeni Rekorun)",
+        "explanation": null
+      },
+      {
+        "userId": 707975,
+        "timestamp": 1571686929632,
+        "oldValue": "(Yeni Rekorun)",
+        "newValue": "(Yeni Rekorun!)",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0challenge.1max": {
+    "value": "Görev {0} / {1}",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483580192817,
+        "oldValue": "",
+        "newValue": "Görev {0} / {1}",
+        "explanation": null
+      }
+    ]
+  },
   "check": {
     "value": "Kontrol et",
     "history": [
@@ -125,14 +182,26 @@
       }
     ]
   },
-  "label.score": {
-    "value": "Skor: {0}",
+  "next": {
+    "value": "Sonraki",
     "history": [
       {
-        "userId": 354576,
-        "timestamp": 1483580192817,
+        "userId": 388777,
+        "timestamp": 1483948792749,
         "oldValue": "",
-        "newValue": "Skor: {0}",
+        "newValue": "Sonraki",
+        "explanation": null
+      }
+    ]
+  },
+  "score": {
+    "value": "Skor",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1571686929632,
+        "oldValue": "",
+        "newValue": "Skor",
         "explanation": null
       }
     ]
@@ -156,100 +225,14 @@
       }
     ]
   },
-  "label.time": {
-    "value": "Zaman: {0}",
+  "pattern.score.number": {
+    "value": "Score: {{score}}",
     "history": [
       {
-        "userId": 388777,
-        "timestamp": 1481973521045,
+        "userId": 707975,
+        "timestamp": 1571686929632,
         "oldValue": "",
-        "newValue": "Zaman: {0}",
-        "explanation": null
-      },
-      {
-        "userId": 354576,
-        "timestamp": 1483580192817,
-        "oldValue": "Zaman: {0}",
-        "newValue": "Zaman: {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "next": {
-    "value": "Sonraki",
-    "history": [
-      {
-        "userId": 388777,
-        "timestamp": 1483948792749,
-        "oldValue": "",
-        "newValue": "Sonraki",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0challenge.1max": {
-    "value": "Görev {0} / {1}",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483580192817,
-        "oldValue": "",
-        "newValue": "Görev {0} / {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0hours.1minutes.2seconds": {
-    "value": "{0}:{1}:{2}",
-    "history": [
-      {
-        "userId": 388777,
-        "timestamp": 1481973521045,
-        "oldValue": "",
-        "newValue": "{0}:{1}:{2}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0minutes.1seconds": {
-    "value": "{0}:{1}",
-    "history": [
-      {
-        "userId": 388777,
-        "timestamp": 1481973521045,
-        "oldValue": "",
-        "newValue": "{0}:{1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0yourBest": {
-    "value": "(Rekorun: {0})",
-    "history": [
-      {
-        "userId": 388777,
-        "timestamp": 1481973521044,
-        "oldValue": "",
-        "newValue": "Rekorun: {0}",
-        "explanation": null
-      },
-      {
-        "userId": 354576,
-        "timestamp": 1483580192817,
-        "oldValue": "Rekorun: {0}",
-        "newValue": "(Rekorun: {0})",
-        "explanation": null
-      }
-    ]
-  },
-  "selectLevel": {
-    "value": "Seviyeyi Seç",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483606491466,
-        "oldValue": "",
-        "newValue": "Seviyeyi Seç",
+        "newValue": "Score: {{score}}",
         "explanation": null
       }
     ]
@@ -278,6 +261,25 @@
       }
     ]
   },
+  "label.time": {
+    "value": "Zaman: {0}",
+    "history": [
+      {
+        "userId": 388777,
+        "timestamp": 1481973521045,
+        "oldValue": "",
+        "newValue": "Zaman: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 354576,
+        "timestamp": 1483580192817,
+        "oldValue": "Zaman: {0}",
+        "newValue": "Zaman: {0}",
+        "explanation": null
+      }
+    ]
+  },
   "tryAgain": {
     "value": "Tekrar Dene",
     "history": [
@@ -290,21 +292,50 @@
       }
     ]
   },
-  "yourNewBest": {
-    "value": "(Yeni Rekorun)",
+  "pattern.0minutes.1seconds": {
+    "value": "{0}:{1}",
     "history": [
       {
         "userId": 388777,
-        "timestamp": 1481973521044,
+        "timestamp": 1481973521045,
         "oldValue": "",
-        "newValue": "Yeni Rekorun!",
+        "newValue": "{0}:{1}",
         "explanation": null
-      },
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 388777,
+        "timestamp": 1481973521045,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      }
+    ]
+  },
+  "label.score": {
+    "value": "Skor: {0}",
+    "history": [
       {
         "userId": 354576,
         "timestamp": 1483580192817,
-        "oldValue": "Yeni Rekorun!",
-        "newValue": "(Yeni Rekorun)",
+        "oldValue": "",
+        "newValue": "Skor: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "selectLevel": {
+    "value": "Seviyeyi Seç",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483606491466,
+        "oldValue": "",
+        "newValue": "Seviyeyi Seç",
         "explanation": null
       }
     ]
