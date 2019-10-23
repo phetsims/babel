@@ -11,56 +11,20 @@
       }
     ]
   },
-  "kilopascals": {
-    "value": "kPa",
+  "centerOfMass": {
+    "value": "Masa-zentroa",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1567987069215,
         "oldValue": "",
-        "newValue": "kPa",
-        "explanation": null
-      }
-    ]
-  },
-  "pressure": {
-    "value": "Presioa",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1567987069215,
-        "oldValue": "",
-        "newValue": "Presioa",
-        "explanation": null
-      }
-    ]
-  },
-  "tAvg": {
-    "value": "T<sub>avg</sub> = {{value}}",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1567987069215,
-        "oldValue": "",
-        "newValue": "T<sub>avg</sub> = {{value}}",
-        "explanation": null
-      }
-    ]
-  },
-  "tAvgK": {
-    "value": "T<sub>avg</sub> = {{value}} K",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1567987069215,
-        "oldValue": "",
-        "newValue": "T<sub>avg</sub> = {{value}} K",
+        "newValue": "Masa-zentroa",
         "explanation": null
       }
     ]
   },
   "data": {
-    "value": "Data",
+    "value": "Datuak",
     "history": [
       {
         "userId": 155750,
@@ -75,17 +39,24 @@
         "oldValue": "Datuak",
         "newValue": "Data",
         "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1571853573987,
+        "oldValue": "Data",
+        "newValue": "Datuak",
+        "explanation": null
       }
     ]
   },
-  "centerOfMass": {
-    "value": "Masa-zentroa",
+  "screen.diffusion": {
+    "value": "Difusioa",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1567987069215,
         "oldValue": "",
-        "newValue": "Masa-zentroa",
+        "newValue": "Difusioa",
         "explanation": null
       }
     ]
@@ -102,8 +73,20 @@
       }
     ]
   },
+  "kilopascals": {
+    "value": "kPa",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1567987069215,
+        "oldValue": "",
+        "newValue": "kPa",
+        "explanation": null
+      }
+    ]
+  },
   "massAMU": {
-    "value": "Masa (AMU)",
+    "value": "Masa (u)",
     "history": [
       {
         "userId": 155750,
@@ -111,17 +94,98 @@
         "oldValue": "",
         "newValue": "Masa (AMU)",
         "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1571853573987,
+        "oldValue": "Masa (AMU)",
+        "newValue": "Masa (u)",
+        "explanation": null
+      }
+    ]
+  },
+  "nanometers": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1567987069215,
+        "oldValue": "",
+        "newValue": "nm",
+        "explanation": null
       }
     ]
   },
   "numberOfParticles": {
-    "value": "Partikula-lopurua",
+    "value": "Partikula-kopurua",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1567987069215,
         "oldValue": "",
         "newValue": "Partikula-lopurua",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1571853573987,
+        "oldValue": "Partikula-lopurua",
+        "newValue": "Partikula-kopurua",
+        "explanation": null
+      }
+    ]
+  },
+  "particleFlowRate": {
+    "value": "Partikulen fluxu-adierazlea",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1567987069215,
+        "oldValue": "",
+        "newValue": "Partikulen fluxu-abiadura",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1571853573987,
+        "oldValue": "Partikulen fluxu-abiadura",
+        "newValue": "Partikulen fluxu-adierazlea",
+        "explanation": null
+      }
+    ]
+  },
+  "pressure": {
+    "value": "Presioa",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1567987069215,
+        "oldValue": "",
+        "newValue": "Presioa",
+        "explanation": null
+      }
+    ]
+  },
+  "pressureNoise": {
+    "value": "Presio-zarata",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1567987069215,
+        "oldValue": "",
+        "newValue": "Presio-zarata",
+        "explanation": null
+      }
+    ]
+  },
+  "picoseconds": {
+    "value": "ps",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1567987069215,
+        "oldValue": "",
+        "newValue": "ps",
         "explanation": null
       }
     ]
@@ -139,7 +203,7 @@
     ]
   },
   "removeDivider": {
-    "value": "Zatitzailea ezabatu",
+    "value": "Ezabatu banatzailea",
     "history": [
       {
         "userId": 155750,
@@ -147,11 +211,18 @@
         "oldValue": "",
         "newValue": "Zatitzailea ezabatu",
         "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1571853573987,
+        "oldValue": "Zatitzailea ezabatu",
+        "newValue": "Ezabatu banatzailea",
+        "explanation": null
       }
     ]
   },
   "resetDivider": {
-    "value": "Zatitzailea leheneratu",
+    "value": "Leheneratu banatzailea",
     "history": [
       {
         "userId": 155750,
@@ -159,17 +230,12 @@
         "oldValue": "",
         "newValue": "Zatitzailea leheneratu",
         "explanation": null
-      }
-    ]
-  },
-  "particleFlowRate": {
-    "value": "Partikulen fluxu-abiadura",
-    "history": [
+      },
       {
-        "userId": 155750,
-        "timestamp": 1567987069215,
-        "oldValue": "",
-        "newValue": "Partikulen fluxu-abiadura",
+        "userId": 570617,
+        "timestamp": 1571853573987,
+        "oldValue": "Zatitzailea leheneratu",
+        "newValue": "Leheneratu banatzailea",
         "explanation": null
       }
     ]
@@ -187,7 +253,7 @@
     ]
   },
   "stopwatch": {
-    "value": "Kronografoa",
+    "value": "Kronometroa",
     "history": [
       {
         "userId": 155750,
@@ -195,17 +261,50 @@
         "oldValue": "",
         "newValue": "Kronografoa",
         "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1571853573987,
+        "oldValue": "Kronografoa",
+        "newValue": "Kronometroa",
+        "explanation": null
       }
     ]
   },
-  "nanometers": {
-    "value": "nm",
+  "tAvg": {
+    "value": "T<sub>batazbesteko</sub> = {{value}}",
     "history": [
       {
         "userId": 155750,
         "timestamp": 1567987069215,
         "oldValue": "",
-        "newValue": "nm",
+        "newValue": "T<sub>avg</sub> = {{value}}",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1571853573987,
+        "oldValue": "T<sub>avg</sub> = {{value}}",
+        "newValue": "T<sub>batazbesteko</sub> = {{value}}",
+        "explanation": null
+      }
+    ]
+  },
+  "tAvgK": {
+    "value": "T<sub>batazbesteko</sub> = {{value}} K",
+    "history": [
+      {
+        "userId": 155750,
+        "timestamp": 1567987069215,
+        "oldValue": "",
+        "newValue": "T<sub>avg</sub> = {{value}} K",
+        "explanation": null
+      },
+      {
+        "userId": 570617,
+        "timestamp": 1571853573987,
+        "oldValue": "T<sub>avg</sub> = {{value}} K",
+        "newValue": "T<sub>batazbesteko</sub> = {{value}} K",
         "explanation": null
       }
     ]
@@ -218,30 +317,6 @@
         "timestamp": 1567987069215,
         "oldValue": "",
         "newValue": "{{value}} {{units}}",
-        "explanation": null
-      }
-    ]
-  },
-  "picoseconds": {
-    "value": "ps",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1567987069215,
-        "oldValue": "",
-        "newValue": "ps",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.diffusion": {
-    "value": "Difusioa",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1567987069215,
-        "oldValue": "",
-        "newValue": "Difusioa",
         "explanation": null
       }
     ]
@@ -398,18 +473,6 @@
         "timestamp": 1567987069215,
         "oldValue": "",
         "newValue": "Esploratu",
-        "explanation": null
-      }
-    ]
-  },
-  "pressureNoise": {
-    "value": "Presio-zarata",
-    "history": [
-      {
-        "userId": 155750,
-        "timestamp": 1567987069215,
-        "oldValue": "",
-        "newValue": "Presio-zarata",
         "explanation": null
       }
     ]
