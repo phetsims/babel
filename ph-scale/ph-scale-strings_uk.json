@@ -1,12 +1,24 @@
 {
-  "choice.water": {
-    "value": "Вода",
+  "acidic": {
+    "value": "Кислотні",
     "history": [
       {
         "userId": 166868,
         "timestamp": 1572452966649,
         "oldValue": "",
-        "newValue": "Вода",
+        "newValue": "Кислотні",
+        "explanation": null
+      }
+    ]
+  },
+  "basic": {
+    "value": "Основні",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1572452966649,
+        "oldValue": "",
+        "newValue": "Основні",
         "explanation": null
       }
     ]
@@ -60,7 +72,7 @@
     ]
   },
   "choice.custom": {
-    "value": "Звичн.",
+    "value": "? Невідом.",
     "history": [
       {
         "userId": 166868,
@@ -74,6 +86,13 @@
         "timestamp": 1572454040193,
         "oldValue": "? Невідом.",
         "newValue": "Звичн.",
+        "explanation": null
+      },
+      {
+        "userId": 166868,
+        "timestamp": 1572460816147,
+        "oldValue": "Звичн.",
+        "newValue": "? Невідом.",
         "explanation": null
       }
     ]
@@ -102,6 +121,30 @@
       }
     ]
   },
+  "units.liters": {
+    "value": "Л",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1572452966649,
+        "oldValue": "",
+        "newValue": "Л",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.macro": {
+    "value": "Макро",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1572452966649,
+        "oldValue": "",
+        "newValue": "Макро",
+        "explanation": null
+      }
+    ]
+  },
   "choice.milk": {
     "value": "Молоко",
     "history": [
@@ -114,6 +157,18 @@
       }
     ]
   },
+  "neutral": {
+    "value": "Нейтральн.",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1572452966649,
+        "oldValue": "",
+        "newValue": "Нейтральн.",
+        "explanation": null
+      }
+    ]
+  },
   "choice.orangeJuice": {
     "value": "Апельсин. сік",
     "history": [
@@ -122,6 +177,18 @@
         "timestamp": 1572452966649,
         "oldValue": "",
         "newValue": "Апельсин. сік",
+        "explanation": null
+      }
+    ]
+  },
+  "pH": {
+    "value": "pH",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1572452966649,
+        "oldValue": "",
+        "newValue": "pH",
         "explanation": null
       }
     ]
@@ -162,6 +229,18 @@
       }
     ]
   },
+  "choice.water": {
+    "value": "Вода",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1572452966649,
+        "oldValue": "",
+        "newValue": "Вода",
+        "explanation": null
+      }
+    ]
+  },
   "pattern.0value.1units": {
     "value": "{0} {1}",
     "history": [
@@ -170,78 +249,6 @@
         "timestamp": 1572452966649,
         "oldValue": "",
         "newValue": "{0} {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "units.liters": {
-    "value": "Л",
-    "history": [
-      {
-        "userId": 166868,
-        "timestamp": 1572452966649,
-        "oldValue": "",
-        "newValue": "Л",
-        "explanation": null
-      }
-    ]
-  },
-  "acidic": {
-    "value": "Кислотні",
-    "history": [
-      {
-        "userId": 166868,
-        "timestamp": 1572452966649,
-        "oldValue": "",
-        "newValue": "Кислотні",
-        "explanation": null
-      }
-    ]
-  },
-  "basic": {
-    "value": "Основні",
-    "history": [
-      {
-        "userId": 166868,
-        "timestamp": 1572452966649,
-        "oldValue": "",
-        "newValue": "Основні",
-        "explanation": null
-      }
-    ]
-  },
-  "pH": {
-    "value": "pH",
-    "history": [
-      {
-        "userId": 166868,
-        "timestamp": 1572452966649,
-        "oldValue": "",
-        "newValue": "pH",
-        "explanation": null
-      }
-    ]
-  },
-  "neutral": {
-    "value": "Нейтральн.",
-    "history": [
-      {
-        "userId": 166868,
-        "timestamp": 1572452966649,
-        "oldValue": "",
-        "newValue": "Нейтральн.",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.macro": {
-    "value": "Макро",
-    "history": [
-      {
-        "userId": 166868,
-        "timestamp": 1572452966649,
-        "oldValue": "",
-        "newValue": "Макро",
         "explanation": null
       }
     ]
