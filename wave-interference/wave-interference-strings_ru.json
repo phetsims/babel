@@ -1,24 +1,69 @@
 {
-  "distanceUnits": {
-    "value": "{{distance}} {{units}}",
+  "femtosecondConversion": {
+    "value": "1 фс = 10<sup>-15</sup> с",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1550554439461,
         "oldValue": "",
-        "newValue": "{{distance}} {{units}}",
+        "newValue": "1 фс = 10<sup>-15</sup> s",
+        "explanation": null
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1550744334755,
+        "oldValue": "1 фс = 10<sup>-15</sup> s",
+        "newValue": "1 фс = 10<sup>-15</sup> с",
         "explanation": null
       }
     ]
   },
-  "timeUnits": {
-    "value": "{{time}} {{units}}",
+  "millisecondConversion": {
+    "value": "1 мс = 10<sup>-3</sup> с",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1550554439461,
         "oldValue": "",
-        "newValue": "{{time}} {{units}}",
+        "newValue": "1 мс = 10<sup>-3</sup> s        ",
+        "explanation": null
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1550744334755,
+        "oldValue": "1 мс = 10<sup>-3</sup> s        ",
+        "newValue": "1 мс = 10<sup>-3</sup> с",
+        "explanation": null
+      }
+    ]
+  },
+  "amplitude": {
+    "value": "Амплитуда",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1550554439461,
+        "oldValue": "",
+        "newValue": "Амплитуда",
+        "explanation": null
+      }
+    ]
+  },
+  "both": {
+    "value": "Волны и частицы",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1550554439461,
+        "oldValue": "",
+        "newValue": "Обе",
+        "explanation": null
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1550747254399,
+        "oldValue": "Обе",
+        "newValue": "Волны и частицы",
         "explanation": null
       }
     ]
@@ -35,18 +80,6 @@
       }
     ]
   },
-  "electricFieldAtCenter": {
-    "value": "Электрическое поле",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1550554439461,
-        "oldValue": "",
-        "newValue": "Электрическое поле",
-        "explanation": null
-      }
-    ]
-  },
   "electricField": {
     "value": "Электрическое поле",
     "history": [
@@ -59,21 +92,33 @@
       }
     ]
   },
-  "femtosecondConversion": {
-    "value": "1 фс = 10<sup>-15</sup> с",
+  "electricFieldAtCenter": {
+    "value": "Электрическое поле в центре",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1550554439461,
         "oldValue": "",
-        "newValue": "1 фс = 10<sup>-15</sup> s",
+        "newValue": "Электрическое поле",
         "explanation": null
       },
       {
         "userId": 641649,
-        "timestamp": 1550744334755,
-        "oldValue": "1 фс = 10<sup>-15</sup> s",
-        "newValue": "1 фс = 10<sup>-15</sup> с",
+        "timestamp": 1572848811246,
+        "oldValue": "Электрическое поле",
+        "newValue": "Электрическое поле в центре",
+        "explanation": null
+      }
+    ]
+  },
+  "frequency": {
+    "value": "Частота",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1550554439461,
+        "oldValue": "",
+        "newValue": "Частота",
         "explanation": null
       }
     ]
@@ -97,6 +142,30 @@
       }
     ]
   },
+  "graph": {
+    "value": "График",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1550554439461,
+        "oldValue": "",
+        "newValue": "График",
+        "explanation": null
+      }
+    ]
+  },
+  "intensity": {
+    "value": "Интенстивность",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1550554439461,
+        "oldValue": "",
+        "newValue": "Интенстивность",
+        "explanation": null
+      }
+    ]
+  },
   "lightGenerator": {
     "value": "Источник света",
     "history": [
@@ -109,21 +178,26 @@
       }
     ]
   },
-  "millisecondConversion": {
-    "value": "1 мс = 10<sup>-3</sup> с",
+  "max": {
+    "value": "макс.",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1550554439461,
         "oldValue": "",
-        "newValue": "1 мс = 10<sup>-3</sup> s        ",
+        "newValue": "макс.",
         "explanation": null
-      },
+      }
+    ]
+  },
+  "min": {
+    "value": "мин.",
+    "history": [
       {
         "userId": 641649,
-        "timestamp": 1550744334755,
-        "oldValue": "1 мс = 10<sup>-3</sup> s        ",
-        "newValue": "1 мс = 10<sup>-3</sup> с",
+        "timestamp": 1550554439461,
+        "oldValue": "",
+        "newValue": "мин.",
         "explanation": null
       }
     ]
@@ -152,6 +226,42 @@
       }
     ]
   },
+  "normal": {
+    "value": "Нормальный режим",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1550554439461,
+        "oldValue": "",
+        "newValue": "Нормальный режим",
+        "explanation": null
+      }
+    ]
+  },
+  "particles": {
+    "value": "Частицы",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1550554439461,
+        "oldValue": "",
+        "newValue": "Частицы",
+        "explanation": null
+      }
+    ]
+  },
+  "playTone": {
+    "value": "Воспроизводить звук",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1572848811246,
+        "oldValue": "",
+        "newValue": "Воспроизводить звук",
+        "explanation": null
+      }
+    ]
+  },
   "positionCM": {
     "value": "Положение (см)",
     "history": [
@@ -176,7 +286,7 @@
       }
     ]
   },
-  "pressureAtCenter": {
+  "pressure": {
     "value": "Давление",
     "history": [
       {
@@ -188,14 +298,21 @@
       }
     ]
   },
-  "pressure": {
-    "value": "Давление",
+  "pressureAtCenter": {
+    "value": "Давление в центре",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1550554439461,
         "oldValue": "",
         "newValue": "Давление",
+        "explanation": null
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1572848811246,
+        "oldValue": "Давление",
+        "newValue": "Давление в центре",
         "explanation": null
       }
     ]
@@ -212,6 +329,61 @@
       }
     ]
   },
+  "screen": {
+    "value": "Отображение на экране",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1550554439461,
+        "oldValue": "",
+        "newValue": "Изображение на экране",
+        "explanation": null
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1572848811246,
+        "oldValue": "Изображение на экране",
+        "newValue": "Отображение на экране",
+        "explanation": null
+      }
+    ]
+  },
+  "sideView": {
+    "value": "Вид сбоку",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1550554439461,
+        "oldValue": "",
+        "newValue": "Вид сбоку",
+        "explanation": null
+      }
+    ]
+  },
+  "slow": {
+    "value": "Замедленный режим",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1550554439461,
+        "oldValue": "",
+        "newValue": "Замедленный режим",
+        "explanation": null
+      }
+    ]
+  },
+  "soundEffect": {
+    "value": "Звуковой эффект",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1572848811246,
+        "oldValue": "",
+        "newValue": "Звуковой эффект",
+        "explanation": null
+      }
+    ]
+  },
   "soundGenerator": {
     "value": "Источник звука",
     "history": [
@@ -224,14 +396,38 @@
       }
     ]
   },
-  "waterLevelAtCenter": {
-    "value": "Уровень воды",
+  "time": {
+    "value": "Время",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1550554439461,
         "oldValue": "",
-        "newValue": "Уровень воды",
+        "newValue": "Время",
+        "explanation": null
+      }
+    ]
+  },
+  "top": {
+    "value": "Вершина",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1550554439461,
+        "oldValue": "",
+        "newValue": "Вершина",
+        "explanation": null
+      }
+    ]
+  },
+  "topView": {
+    "value": "Вид сверху",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1550554439461,
+        "oldValue": "",
+        "newValue": "Вид сверху",
         "explanation": null
       }
     ]
@@ -248,6 +444,25 @@
       }
     ]
   },
+  "waterLevelAtCenter": {
+    "value": "Уровень воды в центре",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1550554439461,
+        "oldValue": "",
+        "newValue": "Уровень воды",
+        "explanation": null
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1572848811246,
+        "oldValue": "Уровень воды",
+        "newValue": "Уровень воды в центре",
+        "explanation": null
+      }
+    ]
+  },
   "waterWaveGenerator": {
     "value": "Источник волн",
     "history": [
@@ -256,6 +471,42 @@
         "timestamp": 1550554439461,
         "oldValue": "",
         "newValue": "Источник волн",
+        "explanation": null
+      }
+    ]
+  },
+  "waves": {
+    "value": "Волны",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1550554439461,
+        "oldValue": "",
+        "newValue": "Волны",
+        "explanation": null
+      }
+    ]
+  },
+  "distanceUnits": {
+    "value": "{{distance}} {{units}}",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1550554439461,
+        "oldValue": "",
+        "newValue": "{{distance}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "timeUnits": {
+    "value": "{{time}} {{units}}",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1550554439461,
+        "oldValue": "",
+        "newValue": "{{time}} {{units}}",
         "explanation": null
       }
     ]
@@ -292,205 +543,6 @@
         "timestamp": 1550554439461,
         "oldValue": "",
         "newValue": "Расстояние",
-        "explanation": null
-      }
-    ]
-  },
-  "intensity": {
-    "value": "Интенстивность",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1550554439461,
-        "oldValue": "",
-        "newValue": "Интенстивность",
-        "explanation": null
-      }
-    ]
-  },
-  "top": {
-    "value": "Вершина",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1550554439461,
-        "oldValue": "",
-        "newValue": "Вершина",
-        "explanation": null
-      }
-    ]
-  },
-  "normal": {
-    "value": "Нормальный режим",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1550554439461,
-        "oldValue": "",
-        "newValue": "Нормальный режим",
-        "explanation": null
-      }
-    ]
-  },
-  "slow": {
-    "value": "Замедленный режим",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1550554439461,
-        "oldValue": "",
-        "newValue": "Замедленный режим",
-        "explanation": null
-      }
-    ]
-  },
-  "sideView": {
-    "value": "Вид сбоку",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1550554439461,
-        "oldValue": "",
-        "newValue": "Вид сбоку",
-        "explanation": null
-      }
-    ]
-  },
-  "topView": {
-    "value": "Вид сверху",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1550554439461,
-        "oldValue": "",
-        "newValue": "Вид сверху",
-        "explanation": null
-      }
-    ]
-  },
-  "max": {
-    "value": "макс.",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1550554439461,
-        "oldValue": "",
-        "newValue": "макс.",
-        "explanation": null
-      }
-    ]
-  },
-  "min": {
-    "value": "мин.",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1550554439461,
-        "oldValue": "",
-        "newValue": "мин.",
-        "explanation": null
-      }
-    ]
-  },
-  "amplitude": {
-    "value": "Амплитуда",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1550554439461,
-        "oldValue": "",
-        "newValue": "Амплитуда",
-        "explanation": null
-      }
-    ]
-  },
-  "frequency": {
-    "value": "Частота",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1550554439461,
-        "oldValue": "",
-        "newValue": "Частота",
-        "explanation": null
-      }
-    ]
-  },
-  "both": {
-    "value": "Волны и частицы",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1550554439461,
-        "oldValue": "",
-        "newValue": "Обе",
-        "explanation": null
-      },
-      {
-        "userId": 641649,
-        "timestamp": 1550747254399,
-        "oldValue": "Обе",
-        "newValue": "Волны и частицы",
-        "explanation": null
-      }
-    ]
-  },
-  "particles": {
-    "value": "Частицы",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1550554439461,
-        "oldValue": "",
-        "newValue": "Частицы",
-        "explanation": null
-      }
-    ]
-  },
-  "waves": {
-    "value": "Волны",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1550554439461,
-        "oldValue": "",
-        "newValue": "Волны",
-        "explanation": null
-      }
-    ]
-  },
-  "graph": {
-    "value": "График",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1550554439461,
-        "oldValue": "",
-        "newValue": "График",
-        "explanation": null
-      }
-    ]
-  },
-  "screen": {
-    "value": "Изображение на экране",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1550554439461,
-        "oldValue": "",
-        "newValue": "Изображение на экране",
-        "explanation": null
-      }
-    ]
-  },
-  "time": {
-    "value": "Время",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1550554439461,
-        "oldValue": "",
-        "newValue": "Время",
         "explanation": null
       }
     ]
