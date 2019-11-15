@@ -1,18 +1,6 @@
 {
-  "units.centimeters": {
-    "value": "cm",
-    "history": [
-      {
-        "userId": 154927,
-        "timestamp": 1549003193637,
-        "oldValue": "",
-        "newValue": "cm",
-        "explanation": null
-      }
-    ]
-  },
   "forceOnObjectByOtherObjectPattern": {
-    "value": "{{otherObject}}에 의해 {{thisObject}}에 가해지는 힘",
+    "value": " {{thisObject}}에 대한{{otherObject}}의 힘 translated",
     "history": [
       {
         "userId": 154927,
@@ -20,17 +8,31 @@
         "oldValue": "",
         "newValue": "{{otherObject}}에 의해 {{thisObject}}에 가해지는 힘",
         "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1573824843399,
+        "oldValue": "{{otherObject}}에 의해 {{thisObject}}에 가해지는 힘",
+        "newValue": " {{thisObject}}에 대한{{otherObject}}의 힘 translated",
+        "explanation": null
       }
     ]
   },
   "forceOnObjectByOtherObjectWithUnitsPattern": {
-    "value": "{{otherObject}}에 의해 {{thisObject}}에 가해지는 힘 ={{value}}N",
+    "value": "{{thisObject}}에 대한 {{otherObject}}의 힘 = {{value}} N translated",
     "history": [
       {
         "userId": 154927,
         "timestamp": 1549003193637,
         "oldValue": "",
         "newValue": "{{otherObject}}에 의해 {{thisObject}}에 가해지는 힘 ={{value}}N",
+        "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1573824843399,
+        "oldValue": "{{otherObject}}에 의해 {{thisObject}}에 가해지는 힘 ={{value}}N",
+        "newValue": "{{thisObject}}에 대한 {{otherObject}}의 힘 = {{value}} N translated",
         "explanation": null
       }
     ]
@@ -43,6 +45,54 @@
         "timestamp": 1549003193637,
         "oldValue": "",
         "newValue": "힘 값",
+        "explanation": null
+      }
+    ]
+  },
+  "units.meter": {
+    "value": "미터",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1573824843399,
+        "oldValue": "",
+        "newValue": "미터",
+        "explanation": null
+      }
+    ]
+  },
+  "units.meters": {
+    "value": "미터",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1573824843399,
+        "oldValue": "",
+        "newValue": "미터",
+        "explanation": null
+      }
+    ]
+  },
+  "units.newtons": {
+    "value": "뉴턴",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1573824843399,
+        "oldValue": "",
+        "newValue": "뉴턴",
+        "explanation": null
+      }
+    ]
+  },
+  "units.centimeters": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1549003193637,
+        "oldValue": "",
+        "newValue": "cm",
         "explanation": null
       }
     ]
