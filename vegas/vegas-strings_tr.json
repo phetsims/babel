@@ -1,126 +1,4 @@
 {
-  "done": {
-    "value": "Tamam",
-    "history": [
-      {
-        "userId": 707975,
-        "timestamp": 1573071478274,
-        "oldValue": "",
-        "newValue": "Tamam",
-        "explanation": null
-      }
-    ]
-  },
-  "next": {
-    "value": "Sonraki",
-    "history": [
-      {
-        "userId": 388777,
-        "timestamp": 1483948792749,
-        "oldValue": "",
-        "newValue": "Sonraki",
-        "explanation": null
-      }
-    ]
-  },
-  "score": {
-    "value": "Skor",
-    "history": [
-      {
-        "userId": 707975,
-        "timestamp": 1571686929632,
-        "oldValue": "",
-        "newValue": "Skor",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.score.number": {
-    "value": "Score: {{score}}",
-    "history": [
-      {
-        "userId": 707975,
-        "timestamp": 1571686929632,
-        "oldValue": "",
-        "newValue": "Score: {{score}}",
-        "explanation": null
-      }
-    ]
-  },
-  "youCompletedAllLevels": {
-    "value": "Tüm seviyeleri tamamladınız!",
-    "history": [
-      {
-        "userId": 707975,
-        "timestamp": 1573071478274,
-        "oldValue": "",
-        "newValue": "Tüm seviyeleri tamamladınız!",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0minutes.1seconds": {
-    "value": "{0}, {1}",
-    "history": [
-      {
-        "userId": 388777,
-        "timestamp": 1481973521045,
-        "oldValue": "",
-        "newValue": "{0}:{1}",
-        "explanation": null
-      },
-      {
-        "userId": 707975,
-        "timestamp": 1572632438491,
-        "oldValue": "{0}:{1}",
-        "newValue": "{0}, {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0hours.1minutes.2seconds": {
-    "value": "{0}, {1}: {2}",
-    "history": [
-      {
-        "userId": 388777,
-        "timestamp": 1481973521045,
-        "oldValue": "",
-        "newValue": "{0}:{1}:{2}",
-        "explanation": null
-      },
-      {
-        "userId": 707975,
-        "timestamp": 1572632438491,
-        "oldValue": "{0}:{1}:{2}",
-        "newValue": "{0}, {1}: {2}",
-        "explanation": null
-      }
-    ]
-  },
-  "keepGoing": {
-    "value": "Devam Et",
-    "history": [
-      {
-        "userId": 707975,
-        "timestamp": 1572723990410,
-        "oldValue": "",
-        "newValue": "Devam Et",
-        "explanation": null
-      }
-    ]
-  },
-  "newLevel": {
-    "value": "Yeni Seviye",
-    "history": [
-      {
-        "userId": 707975,
-        "timestamp": 1572723990410,
-        "oldValue": "",
-        "newValue": "Yeni Seviye",
-        "explanation": null
-      }
-    ]
-  },
   "pattern.0yourBest": {
     "value": "(Rekorun: {0})",
     "history": [
@@ -169,18 +47,6 @@
         "timestamp": 1571686929632,
         "oldValue": "(Yeni Rekorun)",
         "newValue": "(Yeni Rekorun!)",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0challenge.1max": {
-    "value": "Görev {0} / {1}",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483580192817,
-        "oldValue": "",
-        "newValue": "Görev {0} / {1}",
         "explanation": null
       }
     ]
@@ -325,6 +191,37 @@
       }
     ]
   },
+  "score": {
+    "value": "Skor",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1571686929632,
+        "oldValue": "",
+        "newValue": "Skor",
+        "explanation": null
+      }
+    ]
+  },
+  "label.score": {
+    "value": "Skor: {0}",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483580192817,
+        "oldValue": "",
+        "newValue": "Skor: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 707975,
+        "timestamp": 1573846371487,
+        "oldValue": "Skor: {0}",
+        "newValue": "Skor: {0}",
+        "explanation": null
+      }
+    ]
+  },
   "label.score.max": {
     "value": "Skor: {0} / {1}",
     "history": [
@@ -351,6 +248,18 @@
       }
     ]
   },
+  "pattern.score.number": {
+    "value": "Score: {{score}}",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1571686929632,
+        "oldValue": "",
+        "newValue": "Score: {{score}}",
+        "explanation": null
+      }
+    ]
+  },
   "showAnswer": {
     "value": "Kısa Cevap",
     "history": [
@@ -359,18 +268,6 @@
         "timestamp": 1483606491466,
         "oldValue": "",
         "newValue": "Kısa Cevap",
-        "explanation": null
-      }
-    ]
-  },
-  "startOver": {
-    "value": "Yeniden Başla",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483580192817,
-        "oldValue": "",
-        "newValue": "Yeniden Başla",
         "explanation": null
       }
     ]
@@ -413,14 +310,124 @@
       }
     ]
   },
-  "label.score": {
-    "value": "Skor: {0}",
+  "pattern.0minutes.1seconds": {
+    "value": "{0}, {1}",
+    "history": [
+      {
+        "userId": 388777,
+        "timestamp": 1481973521045,
+        "oldValue": "",
+        "newValue": "{0}:{1}",
+        "explanation": null
+      },
+      {
+        "userId": 707975,
+        "timestamp": 1572632438491,
+        "oldValue": "{0}:{1}",
+        "newValue": "{0}, {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}, {1}: {2}",
+    "history": [
+      {
+        "userId": 388777,
+        "timestamp": 1481973521045,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      },
+      {
+        "userId": 707975,
+        "timestamp": 1572632438491,
+        "oldValue": "{0}:{1}:{2}",
+        "newValue": "{0}, {1}: {2}",
+        "explanation": null
+      }
+    ]
+  },
+  "done": {
+    "value": "Tamam",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1573071478274,
+        "oldValue": "",
+        "newValue": "Tamam",
+        "explanation": null
+      }
+    ]
+  },
+  "next": {
+    "value": "Sonraki",
+    "history": [
+      {
+        "userId": 388777,
+        "timestamp": 1483948792749,
+        "oldValue": "",
+        "newValue": "Sonraki",
+        "explanation": null
+      }
+    ]
+  },
+  "youCompletedAllLevels": {
+    "value": "Tüm seviyeleri tamamladınız!",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1573071478274,
+        "oldValue": "",
+        "newValue": "Tüm seviyeleri tamamladınız!",
+        "explanation": null
+      }
+    ]
+  },
+  "keepGoing": {
+    "value": "Devam Et",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1572723990410,
+        "oldValue": "",
+        "newValue": "Devam Et",
+        "explanation": null
+      }
+    ]
+  },
+  "newLevel": {
+    "value": "Yeni Seviye",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1572723990410,
+        "oldValue": "",
+        "newValue": "Yeni Seviye",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0challenge.1max": {
+    "value": "Görev {0} / {1}",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1483580192817,
         "oldValue": "",
-        "newValue": "Skor: {0}",
+        "newValue": "Görev {0} / {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "startOver": {
+    "value": "Yeniden Başla",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483580192817,
+        "oldValue": "",
+        "newValue": "Yeniden Başla",
         "explanation": null
       }
     ]
