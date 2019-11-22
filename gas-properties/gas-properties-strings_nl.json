@@ -11,6 +11,42 @@
       }
     ]
   },
+  "pressure": {
+    "value": "Druk",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1565766585857,
+        "oldValue": "",
+        "newValue": "Druk",
+        "explanation": null
+      }
+    ]
+  },
+  "tAvg": {
+    "value": "T<sub>gem</sub> = {{value}}",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1565766585857,
+        "oldValue": "",
+        "newValue": "T<sub>gem</sub> = {{value}}",
+        "explanation": null
+      }
+    ]
+  },
+  "tAvgK": {
+    "value": "T<sub>gem</sub> = {{value}} K",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1565766585857,
+        "oldValue": "",
+        "newValue": "T<sub>gem</sub> = {{value}} K",
+        "explanation": null
+      }
+    ]
+  },
   "centerOfMass": {
     "value": "Massamiddelpunt",
     "history": [
@@ -19,18 +55,6 @@
         "timestamp": 1565766585857,
         "oldValue": "",
         "newValue": "Massamiddelpunt",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.diffusion": {
-    "value": "Diffusie",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1565766585857,
-        "oldValue": "",
-        "newValue": "Diffusie",
         "explanation": null
       }
     ]
@@ -59,7 +83,7 @@
       },
       {
         "userId": 170730,
-        "timestamp": 1574423082749,
+        "timestamp": 1574423462985,
         "oldValue": "Massa (AMU)",
         "newValue": "Molaire massa",
         "explanation": null
@@ -74,42 +98,6 @@
         "timestamp": 1565766585857,
         "oldValue": "",
         "newValue": "Aantal deeltjes",
-        "explanation": null
-      }
-    ]
-  },
-  "particleFlowRate": {
-    "value": "Snelheid deeltjes",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1565766585857,
-        "oldValue": "",
-        "newValue": "Snelheid deeltjes",
-        "explanation": null
-      }
-    ]
-  },
-  "pressure": {
-    "value": "Druk",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1565766585857,
-        "oldValue": "",
-        "newValue": "Druk",
-        "explanation": null
-      }
-    ]
-  },
-  "pressureNoise": {
-    "value": "Ruis op de druk",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1565766585857,
-        "oldValue": "",
-        "newValue": "Ruis op de druk",
         "explanation": null
       }
     ]
@@ -145,7 +133,7 @@
       },
       {
         "userId": 170730,
-        "timestamp": 1574423082750,
+        "timestamp": 1574423462985,
         "oldValue": "Verwijder deler",
         "newValue": "Verwijder tussenschot",
         "explanation": null
@@ -164,9 +152,21 @@
       },
       {
         "userId": 170730,
-        "timestamp": 1574423082750,
+        "timestamp": 1574423462985,
         "oldValue": "Reset deler",
         "newValue": "Plaats tussenschot",
+        "explanation": null
+      }
+    ]
+  },
+  "particleFlowRate": {
+    "value": "Snelheid deeltjes",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1565766585857,
+        "oldValue": "",
+        "newValue": "Snelheid deeltjes",
         "explanation": null
       }
     ]
@@ -195,26 +195,14 @@
       }
     ]
   },
-  "tAvg": {
-    "value": "T<sub>gem</sub> = {{value}}",
+  "screen.diffusion": {
+    "value": "Diffusie",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1565766585857,
         "oldValue": "",
-        "newValue": "T<sub>gem</sub> = {{value}}",
-        "explanation": null
-      }
-    ]
-  },
-  "tAvgK": {
-    "value": "T<sub>gem</sub> = {{value}} K",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1565766585857,
-        "oldValue": "",
-        "newValue": "T<sub>gem</sub> = {{value}} K",
+        "newValue": "Diffusie",
         "explanation": null
       }
     ]
@@ -275,13 +263,20 @@
     ]
   },
   "returnLid": {
-    "value": "Deksel terug plaatsen",
+    "value": "Plaats deksel",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1565766585857,
         "oldValue": "",
         "newValue": "Deksel terug plaatsen",
+        "explanation": null
+      },
+      {
+        "userId": 170730,
+        "timestamp": 1574423462985,
+        "oldValue": "Deksel terug plaatsen",
+        "newValue": "Plaats deksel",
         "explanation": null
       }
     ]
@@ -354,6 +349,18 @@
         "timestamp": 1565766585857,
         "oldValue": "",
         "newValue": "Ontdek",
+        "explanation": null
+      }
+    ]
+  },
+  "pressureNoise": {
+    "value": "Ruis op de druk",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1565766585857,
+        "oldValue": "",
+        "newValue": "Ruis op de druk",
         "explanation": null
       }
     ]
@@ -534,13 +541,20 @@
     ]
   },
   "setTo": {
-    "value": "Stel in op:",
+    "value": "Stel in:",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1565766585857,
         "oldValue": "",
         "newValue": "Stel in op:",
+        "explanation": null
+      },
+      {
+        "userId": 170730,
+        "timestamp": 1574423462985,
+        "oldValue": "Stel in op:",
+        "newValue": "Stel in:",
         "explanation": null
       }
     ]
