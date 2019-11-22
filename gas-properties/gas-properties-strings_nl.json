@@ -11,42 +11,6 @@
       }
     ]
   },
-  "pressure": {
-    "value": "Druk",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1565766585857,
-        "oldValue": "",
-        "newValue": "Druk",
-        "explanation": null
-      }
-    ]
-  },
-  "tAvg": {
-    "value": "T<sub>gem</sub> = {{value}}",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1565766585857,
-        "oldValue": "",
-        "newValue": "T<sub>gem</sub> = {{value}}",
-        "explanation": null
-      }
-    ]
-  },
-  "tAvgK": {
-    "value": "T<sub>gem</sub> = {{value}} K",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1565766585857,
-        "oldValue": "",
-        "newValue": "T<sub>gem</sub> = {{value}} K",
-        "explanation": null
-      }
-    ]
-  },
   "centerOfMass": {
     "value": "Massamiddelpunt",
     "history": [
@@ -55,6 +19,18 @@
         "timestamp": 1565766585857,
         "oldValue": "",
         "newValue": "Massamiddelpunt",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.diffusion": {
+    "value": "Diffusie",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1565766585857,
+        "oldValue": "",
+        "newValue": "Diffusie",
         "explanation": null
       }
     ]
@@ -72,13 +48,20 @@
     ]
   },
   "massAMU": {
-    "value": "Massa (AMU)",
+    "value": "Molaire massa",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1565766585857,
         "oldValue": "",
         "newValue": "Massa (AMU)",
+        "explanation": null
+      },
+      {
+        "userId": 170730,
+        "timestamp": 1574423082749,
+        "oldValue": "Massa (AMU)",
+        "newValue": "Molaire massa",
         "explanation": null
       }
     ]
@@ -91,6 +74,42 @@
         "timestamp": 1565766585857,
         "oldValue": "",
         "newValue": "Aantal deeltjes",
+        "explanation": null
+      }
+    ]
+  },
+  "particleFlowRate": {
+    "value": "Snelheid deeltjes",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1565766585857,
+        "oldValue": "",
+        "newValue": "Snelheid deeltjes",
+        "explanation": null
+      }
+    ]
+  },
+  "pressure": {
+    "value": "Druk",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1565766585857,
+        "oldValue": "",
+        "newValue": "Druk",
+        "explanation": null
+      }
+    ]
+  },
+  "pressureNoise": {
+    "value": "Ruis op de druk",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1565766585857,
+        "oldValue": "",
+        "newValue": "Ruis op de druk",
         "explanation": null
       }
     ]
@@ -115,7 +134,7 @@
     ]
   },
   "removeDivider": {
-    "value": "Verwijder deler",
+    "value": "Verwijder tussenschot",
     "history": [
       {
         "userId": 170730,
@@ -123,11 +142,18 @@
         "oldValue": "",
         "newValue": "Verwijder deler",
         "explanation": null
+      },
+      {
+        "userId": 170730,
+        "timestamp": 1574423082750,
+        "oldValue": "Verwijder deler",
+        "newValue": "Verwijder tussenschot",
+        "explanation": null
       }
     ]
   },
   "resetDivider": {
-    "value": "Reset deler",
+    "value": "Plaats tussenschot",
     "history": [
       {
         "userId": 170730,
@@ -135,17 +161,12 @@
         "oldValue": "",
         "newValue": "Reset deler",
         "explanation": null
-      }
-    ]
-  },
-  "particleFlowRate": {
-    "value": "Snelheid deeltjes",
-    "history": [
+      },
       {
         "userId": 170730,
-        "timestamp": 1565766585857,
-        "oldValue": "",
-        "newValue": "Snelheid deeltjes",
+        "timestamp": 1574423082750,
+        "oldValue": "Reset deler",
+        "newValue": "Plaats tussenschot",
         "explanation": null
       }
     ]
@@ -174,14 +195,26 @@
       }
     ]
   },
-  "screen.diffusion": {
-    "value": "Diffusie",
+  "tAvg": {
+    "value": "T<sub>gem</sub> = {{value}}",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1565766585857,
         "oldValue": "",
-        "newValue": "Diffusie",
+        "newValue": "T<sub>gem</sub> = {{value}}",
+        "explanation": null
+      }
+    ]
+  },
+  "tAvgK": {
+    "value": "T<sub>gem</sub> = {{value}} K",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1565766585857,
+        "oldValue": "",
+        "newValue": "T<sub>gem</sub> = {{value}} K",
         "explanation": null
       }
     ]
@@ -321,18 +354,6 @@
         "timestamp": 1565766585857,
         "oldValue": "",
         "newValue": "Ontdek",
-        "explanation": null
-      }
-    ]
-  },
-  "pressureNoise": {
-    "value": "Ruis op de druk",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1565766585857,
-        "oldValue": "",
-        "newValue": "Ruis op de druk",
         "explanation": null
       }
     ]
