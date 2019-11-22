@@ -11,42 +11,6 @@
       }
     ]
   },
-  "pressure": {
-    "value": "Druk",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1565766585857,
-        "oldValue": "",
-        "newValue": "Druk",
-        "explanation": null
-      }
-    ]
-  },
-  "tAvg": {
-    "value": "T<sub>gem</sub> = {{value}}",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1565766585857,
-        "oldValue": "",
-        "newValue": "T<sub>gem</sub> = {{value}}",
-        "explanation": null
-      }
-    ]
-  },
-  "tAvgK": {
-    "value": "T<sub>gem</sub> = {{value}} K",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1565766585857,
-        "oldValue": "",
-        "newValue": "T<sub>gem</sub> = {{value}} K",
-        "explanation": null
-      }
-    ]
-  },
   "centerOfMass": {
     "value": "Massamiddelpunt",
     "history": [
@@ -55,6 +19,18 @@
         "timestamp": 1565766585857,
         "oldValue": "",
         "newValue": "Massamiddelpunt",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.diffusion": {
+    "value": "Diffusie",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1565766585857,
+        "oldValue": "",
+        "newValue": "Diffusie",
         "explanation": null
       }
     ]
@@ -72,7 +48,7 @@
     ]
   },
   "massAMU": {
-    "value": "Molaire massa",
+    "value": "Molaire massa (g/mol)",
     "history": [
       {
         "userId": 170730,
@@ -87,6 +63,13 @@
         "oldValue": "Massa (AMU)",
         "newValue": "Molaire massa",
         "explanation": null
+      },
+      {
+        "userId": 170730,
+        "timestamp": 1574455171595,
+        "oldValue": "Molaire massa",
+        "newValue": "Molaire massa (g/mol)",
+        "explanation": null
       }
     ]
   },
@@ -98,6 +81,42 @@
         "timestamp": 1565766585857,
         "oldValue": "",
         "newValue": "Aantal deeltjes",
+        "explanation": null
+      }
+    ]
+  },
+  "particleFlowRate": {
+    "value": "Snelheid deeltjes",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1565766585857,
+        "oldValue": "",
+        "newValue": "Snelheid deeltjes",
+        "explanation": null
+      }
+    ]
+  },
+  "pressure": {
+    "value": "Druk",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1565766585857,
+        "oldValue": "",
+        "newValue": "Druk",
+        "explanation": null
+      }
+    ]
+  },
+  "pressureNoise": {
+    "value": "Ruis op de druk",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1565766585857,
+        "oldValue": "",
+        "newValue": "Ruis op de druk",
         "explanation": null
       }
     ]
@@ -159,18 +178,6 @@
       }
     ]
   },
-  "particleFlowRate": {
-    "value": "Snelheid deeltjes",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1565766585857,
-        "oldValue": "",
-        "newValue": "Snelheid deeltjes",
-        "explanation": null
-      }
-    ]
-  },
   "scale": {
     "value": "Schaal",
     "history": [
@@ -195,14 +202,26 @@
       }
     ]
   },
-  "screen.diffusion": {
-    "value": "Diffusie",
+  "tAvg": {
+    "value": "T<sub>gem</sub> = {{value}}",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1565766585857,
         "oldValue": "",
-        "newValue": "Diffusie",
+        "newValue": "T<sub>gem</sub> = {{value}}",
+        "explanation": null
+      }
+    ]
+  },
+  "tAvgK": {
+    "value": "T<sub>gem</sub> = {{value}} K",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1565766585857,
+        "oldValue": "",
+        "newValue": "T<sub>gem</sub> = {{value}} K",
         "explanation": null
       }
     ]
@@ -349,18 +368,6 @@
         "timestamp": 1565766585857,
         "oldValue": "",
         "newValue": "Ontdek",
-        "explanation": null
-      }
-    ]
-  },
-  "pressureNoise": {
-    "value": "Ruis op de druk",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1565766585857,
-        "oldValue": "",
-        "newValue": "Ruis op de druk",
         "explanation": null
       }
     ]
