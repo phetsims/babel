@@ -1,36 +1,86 @@
 {
-  "constantSize": {
-    "value": "Konštantná veľkosť",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1574508571440,
-        "oldValue": "",
-        "newValue": "Konštantná veľkosť",
-        "explanation": null
-      }
-    ]
-  },
-  "mass1Abbreviated": {
-    "value": "m1",
+  "units.meters": {
+    "value": "metre",
     "history": [
       {
         "userId": 134140,
         "timestamp": 1458766570347,
         "oldValue": "",
-        "newValue": "m1",
+        "newValue": "metre",
         "explanation": null
       }
     ]
   },
-  "mass2Abbreviated": {
-    "value": "m2",
+  "units.kg": {
+    "value": "kg",
     "history": [
       {
         "userId": 134140,
         "timestamp": 1458766570347,
         "oldValue": "",
-        "newValue": "m2",
+        "newValue": "kg",
+        "explanation": null
+      }
+    ]
+  },
+  "force-description-pattern-target_source": {
+    "value": "Sila na {0} od {1} ",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1458766570347,
+        "oldValue": "",
+        "newValue": "Sila {0} na {1} ",
+        "explanation": null
+      },
+      {
+        "userId": 134140,
+        "timestamp": 1574508742802,
+        "oldValue": "Sila {0} na {1} ",
+        "newValue": "Sila na {0} od {1} ",
+        "explanation": null
+      }
+    ]
+  },
+  "force-description-pattern-target_source_value": {
+    "value": "Sila na {0} od {1} = {2} N",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1458766570347,
+        "oldValue": "",
+        "newValue": "Sila {0} na {1} = {2} N",
+        "explanation": null
+      },
+      {
+        "userId": 134140,
+        "timestamp": 1574508742802,
+        "oldValue": "Sila {0} na {1} = {2} N",
+        "newValue": "Sila na {0} od {1} = {2} N",
+        "explanation": null
+      }
+    ]
+  },
+  "constantRadius": {
+    "value": "Konštantný polomer",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1458766570347,
+        "oldValue": "",
+        "newValue": "Konštantný polomer",
+        "explanation": null
+      }
+    ]
+  },
+  "showValues": {
+    "value": "Zobraziť hodnoty",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1458766570347,
+        "oldValue": "",
+        "newValue": "Zobraziť hodnoty",
         "explanation": null
       }
     ]
@@ -59,62 +109,26 @@
       }
     ]
   },
-  "body.name.earth": {
-    "value": "Zem",
+  "mass1Abbreviated": {
+    "value": "m1",
     "history": [
       {
         "userId": 134140,
         "timestamp": 1458766570347,
         "oldValue": "",
-        "newValue": "Zem",
+        "newValue": "m1",
         "explanation": null
       }
     ]
   },
-  "constantRadius": {
-    "value": "Konštantný polomer",
+  "mass2Abbreviated": {
+    "value": "m2",
     "history": [
       {
         "userId": 134140,
         "timestamp": 1458766570347,
         "oldValue": "",
-        "newValue": "Konštantný polomer",
-        "explanation": null
-      }
-    ]
-  },
-  "custom": {
-    "value": "Voliteľný",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1458766570347,
-        "oldValue": "",
-        "newValue": "Voliteľný",
-        "explanation": null
-      }
-    ]
-  },
-  "force-description-pattern-target_source": {
-    "value": "Sila {0} na {1} ",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1458766570347,
-        "oldValue": "",
-        "newValue": "Sila {0} na {1} ",
-        "explanation": null
-      }
-    ]
-  },
-  "force-description-pattern-target_source_value": {
-    "value": "Sila {0} na {1} = {2} N",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1458766570347,
-        "oldValue": "",
-        "newValue": "Sila {0} na {1} = {2} N",
+        "newValue": "m2",
         "explanation": null
       }
     ]
@@ -127,6 +141,42 @@
         "timestamp": 1458766570347,
         "oldValue": "",
         "newValue": "Laboratórium gravitačnej sily",
+        "explanation": null
+      }
+    ]
+  },
+  "constantSize": {
+    "value": "Konštantná veľkosť",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1574508571440,
+        "oldValue": "",
+        "newValue": "Konštantná veľkosť",
+        "explanation": null
+      }
+    ]
+  },
+  "body.name.earth": {
+    "value": "Zem",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1458766570347,
+        "oldValue": "",
+        "newValue": "Zem",
+        "explanation": null
+      }
+    ]
+  },
+  "custom": {
+    "value": "Voliteľný",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1458766570347,
+        "oldValue": "",
+        "newValue": "Voliteľný",
         "explanation": null
       }
     ]
@@ -275,18 +325,6 @@
       }
     ]
   },
-  "showValues": {
-    "value": "Zobraziť hodnoty",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1458766570347,
-        "oldValue": "",
-        "newValue": "Zobraziť hodnoty",
-        "explanation": null
-      }
-    ]
-  },
   "sun": {
     "value": "Slnko",
     "history": [
@@ -338,18 +376,6 @@
       }
     ]
   },
-  "units.kg": {
-    "value": "kg",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1458766570347,
-        "oldValue": "",
-        "newValue": "kg",
-        "explanation": null
-      }
-    ]
-  },
   "units.kilometers": {
     "value": "kilometrov",
     "history": [
@@ -370,18 +396,6 @@
         "timestamp": 1458766570347,
         "oldValue": "",
         "newValue": "svetelné minúty",
-        "explanation": null
-      }
-    ]
-  },
-  "units.meters": {
-    "value": "metre",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1458766570347,
-        "oldValue": "",
-        "newValue": "metre",
         "explanation": null
       }
     ]
