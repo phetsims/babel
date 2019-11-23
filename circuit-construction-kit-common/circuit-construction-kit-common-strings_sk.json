@@ -1,4 +1,28 @@
 {
+  "oneSecond": {
+    "value": "1 s",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1574520876809,
+        "oldValue": "",
+        "newValue": "1 s",
+        "explanation": null
+      }
+    ]
+  },
+  "questionMark": {
+    "value": "?",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1509523539115,
+        "oldValue": "",
+        "newValue": "?",
+        "explanation": null
+      }
+    ]
+  },
   "ammeter": {
     "value": "Ampérmeter",
     "history": [
@@ -95,14 +119,14 @@
       }
     ]
   },
-  "currentUnits": {
-    "value": " {{current}} A",
+  "currentRating": {
+    "value": "Nominálny prúd",
     "history": [
       {
         "userId": 134140,
-        "timestamp": 1509523539116,
+        "timestamp": 1574520876810,
         "oldValue": "",
-        "newValue": " {{current}} A",
+        "newValue": "Nominálny prúd",
         "explanation": null
       }
     ]
@@ -151,6 +175,30 @@
         "timestamp": 1509523539115,
         "oldValue": "",
         "newValue": "Guma",
+        "explanation": null
+      }
+    ]
+  },
+  "frequency": {
+    "value": "Frekvencia",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1574520876810,
+        "oldValue": "",
+        "newValue": "Frekvencia",
+        "explanation": null
+      }
+    ]
+  },
+  "fuse": {
+    "value": "Poistka",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1574520876810,
+        "oldValue": "",
+        "newValue": "Poistka",
         "explanation": null
       }
     ]
@@ -227,18 +275,6 @@
       }
     ]
   },
-  "questionMark": {
-    "value": "?",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1509523539115,
-        "oldValue": "",
-        "newValue": "?",
-        "explanation": null
-      }
-    ]
-  },
   "resistance": {
     "value": "Elektrický odpor",
     "history": [
@@ -247,42 +283,6 @@
         "timestamp": 1509523539115,
         "oldValue": "",
         "newValue": "Elektrický odpor",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhms": {
-    "value": " {{resistance}} ohmov",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1509523539116,
-        "oldValue": "",
-        "newValue": " {{resistance}} ohmov",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhmsSymbol": {
-    "value": "{{resistance}} Ω",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1509523539116,
-        "oldValue": "",
-        "newValue": "{{resistance}} Ω",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhmsValuePattern": {
-    "value": "{{resistance}} ohmov",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1509523539116,
-        "oldValue": "",
-        "newValue": "{{resistance}} ohmov",
         "explanation": null
       }
     ]
@@ -395,30 +395,6 @@
       }
     ]
   },
-  "voltageUnits": {
-    "value": " {{voltage}} V",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1509523539116,
-        "oldValue": "",
-        "newValue": " {{voltage}} V",
-        "explanation": null
-      }
-    ]
-  },
-  "voltageVoltsValuePattern": {
-    "value": "{{voltage}} voltov",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1509523539116,
-        "oldValue": "",
-        "newValue": "{{voltage}} voltov",
-        "explanation": null
-      }
-    ]
-  },
   "voltmeter": {
     "value": "Voltmeter",
     "history": [
@@ -451,6 +427,102 @@
         "timestamp": 1509523539116,
         "oldValue": "",
         "newValue": "Odpor vodičov",
+        "explanation": null
+      }
+    ]
+  },
+  "currentUnits": {
+    "value": " {{current}} A",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1509523539116,
+        "oldValue": "",
+        "newValue": " {{current}} A",
+        "explanation": null
+      }
+    ]
+  },
+  "frequencyHzValuePattern": {
+    "value": " {{frequency}} Hz",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1574520876810,
+        "oldValue": "",
+        "newValue": " {{frequency}} Hz",
+        "explanation": null
+      }
+    ]
+  },
+  "fuseValue": {
+    "value": "{{resistance}} mΩ<br><span style=\"font-size: 16px;\">≤ {{currentRating}} A</span>",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1574520876810,
+        "oldValue": "",
+        "newValue": "{{resistance}} mΩ<br><span style=\"font-size: 16px;\">≤ {{currentRating}} A</span>",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhmsValuePattern": {
+    "value": "{{resistance}} ohmov",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1509523539116,
+        "oldValue": "",
+        "newValue": "{{resistance}} ohmov",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhms": {
+    "value": " {{resistance}} ohmov",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1509523539116,
+        "oldValue": "",
+        "newValue": " {{resistance}} ohmov",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhmsSymbol": {
+    "value": "{{resistance}} Ω",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1509523539116,
+        "oldValue": "",
+        "newValue": "{{resistance}} Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageUnits": {
+    "value": " {{voltage}} V",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1509523539116,
+        "oldValue": "",
+        "newValue": " {{voltage}} V",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageVoltsValuePattern": {
+    "value": "{{voltage}} voltov",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1509523539116,
+        "oldValue": "",
+        "newValue": "{{voltage}} voltov",
         "explanation": null
       }
     ]
