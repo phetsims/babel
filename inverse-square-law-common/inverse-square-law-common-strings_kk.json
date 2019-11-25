@@ -1,4 +1,97 @@
 {
+  "forceOnObjectByOtherObjectPattern": {
+    "value": "{{thisObject}} жағынан {{otherObject}} әрекет ететін күш",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1550637744297,
+        "oldValue": "",
+        "newValue": "{{otherObject}} объектісімен {{thisObject}} әсер ету",
+        "explanation": null
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1574648302546,
+        "oldValue": "{{otherObject}} объектісімен {{thisObject}} әсер ету",
+        "newValue": "{{thisObject}} жағынан {{otherObject}} әрекет ететін күш",
+        "explanation": null
+      }
+    ]
+  },
+  "forceOnObjectByOtherObjectWithUnitsPattern": {
+    "value": "{{thisObject}} жағынан {{otherObject}} әрекет ететін күш = {{value}} Н",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1550637744297,
+        "oldValue": "",
+        "newValue": "{{otherObject}} объектісімен {{thisObject}} әсер ету = {{value}} Н",
+        "explanation": null
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1574648302546,
+        "oldValue": "{{otherObject}} объектісімен {{thisObject}} әсер ету = {{value}} Н",
+        "newValue": "{{thisObject}} жағынан {{otherObject}} әрекет ететін күш = {{value}} Н",
+        "explanation": null
+      }
+    ]
+  },
+  "forceValues": {
+    "value": "Күштің мәні",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1550637744297,
+        "oldValue": "",
+        "newValue": "Күш мәні",
+        "explanation": null
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1574648302546,
+        "oldValue": "Күш мәні",
+        "newValue": "Күштің мәні",
+        "explanation": null
+      }
+    ]
+  },
+  "units.meter": {
+    "value": "метр",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1574648302547,
+        "oldValue": "",
+        "newValue": "метр",
+        "explanation": null
+      }
+    ]
+  },
+  "units.meters": {
+    "value": "метрлер",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1574648302547,
+        "oldValue": "",
+        "newValue": "метрлер",
+        "explanation": null
+      }
+    ]
+  },
+  "units.newtons": {
+    "value": "ньютондар",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1574648302547,
+        "oldValue": "",
+        "newValue": "ньютондар",
+        "explanation": null
+      }
+    ]
+  },
   "units.centimeters": {
     "value": "см",
     "history": [
@@ -7,42 +100,6 @@
         "timestamp": 1550637744297,
         "oldValue": "",
         "newValue": "см",
-        "explanation": null
-      }
-    ]
-  },
-  "forceOnObjectByOtherObjectPattern": {
-    "value": "{{otherObject}} объектісімен {{thisObject}} әсер ету",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1550637744297,
-        "oldValue": "",
-        "newValue": "{{otherObject}} объектісімен {{thisObject}} әсер ету",
-        "explanation": null
-      }
-    ]
-  },
-  "forceOnObjectByOtherObjectWithUnitsPattern": {
-    "value": "{{otherObject}} объектісімен {{thisObject}} әсер ету = {{value}} Н",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1550637744297,
-        "oldValue": "",
-        "newValue": "{{otherObject}} объектісімен {{thisObject}} әсер ету = {{value}} Н",
-        "explanation": null
-      }
-    ]
-  },
-  "forceValues": {
-    "value": "Күш мәні",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1550637744297,
-        "oldValue": "",
-        "newValue": "Күш мәні",
         "explanation": null
       }
     ]
