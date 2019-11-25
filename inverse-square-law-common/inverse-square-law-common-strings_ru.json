@@ -1,4 +1,97 @@
 {
+  "forceOnObjectByOtherObjectPattern": {
+    "value": "Сила, действующая со стороны {{thisObject}} на {{otherObject}}",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1550547079264,
+        "oldValue": "",
+        "newValue": "Воздействие на {{thisObject}} объектом {{otherObject}}",
+        "explanation": null
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1574647939938,
+        "oldValue": "Воздействие на {{thisObject}} объектом {{otherObject}}",
+        "newValue": "Сила, действующая со стороны {{thisObject}} на {{otherObject}}",
+        "explanation": null
+      }
+    ]
+  },
+  "forceOnObjectByOtherObjectWithUnitsPattern": {
+    "value": "Сила, действующая со стороны {{thisObject}} на {{otherObject}} = {{value}} Н",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1550547079264,
+        "oldValue": "",
+        "newValue": "Воздействие на {{thisObject}} объектом {{otherObject}} = {{value}} Н",
+        "explanation": null
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1574647939938,
+        "oldValue": "Воздействие на {{thisObject}} объектом {{otherObject}} = {{value}} Н",
+        "newValue": "Сила, действующая со стороны {{thisObject}} на {{otherObject}} = {{value}} Н",
+        "explanation": null
+      }
+    ]
+  },
+  "forceValues": {
+    "value": "Значения сил",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1550547079264,
+        "oldValue": "",
+        "newValue": "Значение силы",
+        "explanation": null
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1574647939938,
+        "oldValue": "Значение силы",
+        "newValue": "Значения сил",
+        "explanation": null
+      }
+    ]
+  },
+  "units.meter": {
+    "value": "метр",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1574647939938,
+        "oldValue": "",
+        "newValue": "метр",
+        "explanation": null
+      }
+    ]
+  },
+  "units.meters": {
+    "value": "метры",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1574647939938,
+        "oldValue": "",
+        "newValue": "метры",
+        "explanation": null
+      }
+    ]
+  },
+  "units.newtons": {
+    "value": "ньютоны",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1574647939938,
+        "oldValue": "",
+        "newValue": "ньютоны",
+        "explanation": null
+      }
+    ]
+  },
   "units.centimeters": {
     "value": "см",
     "history": [
@@ -7,42 +100,6 @@
         "timestamp": 1550547079264,
         "oldValue": "",
         "newValue": "см",
-        "explanation": null
-      }
-    ]
-  },
-  "forceOnObjectByOtherObjectPattern": {
-    "value": "Воздействие на {{thisObject}} объектом {{otherObject}}",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1550547079264,
-        "oldValue": "",
-        "newValue": "Воздействие на {{thisObject}} объектом {{otherObject}}",
-        "explanation": null
-      }
-    ]
-  },
-  "forceOnObjectByOtherObjectWithUnitsPattern": {
-    "value": "Воздействие на {{thisObject}} объектом {{otherObject}} = {{value}} Н",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1550547079264,
-        "oldValue": "",
-        "newValue": "Воздействие на {{thisObject}} объектом {{otherObject}} = {{value}} Н",
-        "explanation": null
-      }
-    ]
-  },
-  "forceValues": {
-    "value": "Значение силы",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1550547079264,
-        "oldValue": "",
-        "newValue": "Значение силы",
         "explanation": null
       }
     ]
