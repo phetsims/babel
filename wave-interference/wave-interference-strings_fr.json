@@ -1,24 +1,48 @@
 {
-  "distanceUnits": {
-    "value": "{{distance}} {{units}}",
+  "femtosecondConversion": {
+    "value": "1 fs = 10<sup>-15</sup> s  ",
     "history": [
       {
         "userId": 147846,
         "timestamp": 1548940786289,
         "oldValue": "",
-        "newValue": "{{distance}} {{units}}",
+        "newValue": "1 fs = 10<sup>-15</sup> s  ",
         "explanation": null
       }
     ]
   },
-  "timeUnits": {
-    "value": "{{time}} {{units}}",
+  "millisecondConversion": {
+    "value": "1 ms = 10<sup>-3</sup> s",
     "history": [
       {
         "userId": 147846,
         "timestamp": 1548940786289,
         "oldValue": "",
-        "newValue": "{{time}} {{units}}",
+        "newValue": "1 ms = 10<sup>-3</sup> s",
+        "explanation": null
+      }
+    ]
+  },
+  "amplitude": {
+    "value": "Amplitude",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548940786289,
+        "oldValue": "",
+        "newValue": "Amplitude",
+        "explanation": null
+      }
+    ]
+  },
+  "both": {
+    "value": "Ensemble",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548940786289,
+        "oldValue": "",
+        "newValue": "Ensemble",
         "explanation": null
       }
     ]
@@ -35,18 +59,6 @@
       }
     ]
   },
-  "electricFieldAtCenter": {
-    "value": "Champ électrique au centre",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548940786289,
-        "oldValue": "",
-        "newValue": "Champ électrique au centre",
-        "explanation": null
-      }
-    ]
-  },
   "electricField": {
     "value": "Champ électrique",
     "history": [
@@ -59,14 +71,26 @@
       }
     ]
   },
-  "femtosecondConversion": {
-    "value": "1 fs = 10<sup>-15</sup> s  ",
+  "electricFieldAtCenter": {
+    "value": "Champ électrique au centre",
     "history": [
       {
         "userId": 147846,
         "timestamp": 1548940786289,
         "oldValue": "",
-        "newValue": "1 fs = 10<sup>-15</sup> s  ",
+        "newValue": "Champ électrique au centre",
+        "explanation": null
+      }
+    ]
+  },
+  "frequency": {
+    "value": "Fréquence",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548940786289,
+        "oldValue": "",
+        "newValue": "Fréquence",
         "explanation": null
       }
     ]
@@ -83,6 +107,30 @@
       }
     ]
   },
+  "graph": {
+    "value": "Graphique",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548940786289,
+        "oldValue": "",
+        "newValue": "Graphique",
+        "explanation": null
+      }
+    ]
+  },
+  "intensity": {
+    "value": "Intensité",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548940786289,
+        "oldValue": "",
+        "newValue": "Intensité",
+        "explanation": null
+      }
+    ]
+  },
   "lightGenerator": {
     "value": "Source lumineuse",
     "history": [
@@ -95,14 +143,26 @@
       }
     ]
   },
-  "millisecondConversion": {
-    "value": "1 ms = 10<sup>-3</sup> s",
+  "max": {
+    "value": "max",
     "history": [
       {
         "userId": 147846,
         "timestamp": 1548940786289,
         "oldValue": "",
-        "newValue": "1 ms = 10<sup>-3</sup> s",
+        "newValue": "max",
+        "explanation": null
+      }
+    ]
+  },
+  "min": {
+    "value": "min",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548940786289,
+        "oldValue": "",
+        "newValue": "min",
         "explanation": null
       }
     ]
@@ -131,6 +191,42 @@
       }
     ]
   },
+  "normal": {
+    "value": "Normal",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548940786289,
+        "oldValue": "",
+        "newValue": "Normal",
+        "explanation": null
+      }
+    ]
+  },
+  "particles": {
+    "value": "Particules",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548940786289,
+        "oldValue": "",
+        "newValue": "Particules",
+        "explanation": null
+      }
+    ]
+  },
+  "playTone": {
+    "value": "Jouer le Ton",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1576972668185,
+        "oldValue": "",
+        "newValue": "Jouer le Ton",
+        "explanation": null
+      }
+    ]
+  },
   "positionCM": {
     "value": "Position (cm)",
     "history": [
@@ -155,18 +251,6 @@
       }
     ]
   },
-  "pressureAtCenter": {
-    "value": "Pression au centre",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548940786289,
-        "oldValue": "",
-        "newValue": "Pression au centre",
-        "explanation": null
-      }
-    ]
-  },
   "pressure": {
     "value": "Pression",
     "history": [
@@ -175,6 +259,18 @@
         "timestamp": 1548940786289,
         "oldValue": "",
         "newValue": "Pression",
+        "explanation": null
+      }
+    ]
+  },
+  "pressureAtCenter": {
+    "value": "Pression au centre",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548940786289,
+        "oldValue": "",
+        "newValue": "Pression au centre",
         "explanation": null
       }
     ]
@@ -191,6 +287,54 @@
       }
     ]
   },
+  "screen": {
+    "value": "Ecran",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548940786289,
+        "oldValue": "",
+        "newValue": "Ecran",
+        "explanation": null
+      }
+    ]
+  },
+  "sideView": {
+    "value": "Vue latérale",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548940786289,
+        "oldValue": "",
+        "newValue": "Vue latérale",
+        "explanation": null
+      }
+    ]
+  },
+  "slow": {
+    "value": "Lent",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548940786289,
+        "oldValue": "",
+        "newValue": "Lent",
+        "explanation": null
+      }
+    ]
+  },
+  "soundEffect": {
+    "value": "Effet Sonore",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1576972668185,
+        "oldValue": "",
+        "newValue": "Effet Sonore",
+        "explanation": null
+      }
+    ]
+  },
   "soundGenerator": {
     "value": "Source sonore",
     "history": [
@@ -203,14 +347,38 @@
       }
     ]
   },
-  "waterLevelAtCenter": {
-    "value": "Niveau d'eau au centre",
+  "time": {
+    "value": "Temps",
     "history": [
       {
         "userId": 147846,
         "timestamp": 1548940786289,
         "oldValue": "",
-        "newValue": "Niveau d'eau au centre",
+        "newValue": "Temps",
+        "explanation": null
+      }
+    ]
+  },
+  "top": {
+    "value": "Sommet",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548940786289,
+        "oldValue": "",
+        "newValue": "Sommet",
+        "explanation": null
+      }
+    ]
+  },
+  "topView": {
+    "value": "Vue de dessus",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548940786289,
+        "oldValue": "",
+        "newValue": "Vue de dessus",
         "explanation": null
       }
     ]
@@ -227,6 +395,18 @@
       }
     ]
   },
+  "waterLevelAtCenter": {
+    "value": "Niveau d'eau au centre",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548940786289,
+        "oldValue": "",
+        "newValue": "Niveau d'eau au centre",
+        "explanation": null
+      }
+    ]
+  },
   "waterWaveGenerator": {
     "value": "Générateur d'onde aquatique",
     "history": [
@@ -235,6 +415,42 @@
         "timestamp": 1548940786289,
         "oldValue": "",
         "newValue": "Générateur d'onde aquatique",
+        "explanation": null
+      }
+    ]
+  },
+  "waves": {
+    "value": "Ondes",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548940786289,
+        "oldValue": "",
+        "newValue": "Ondes",
+        "explanation": null
+      }
+    ]
+  },
+  "distanceUnits": {
+    "value": "{{distance}} {{units}}",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548940786289,
+        "oldValue": "",
+        "newValue": "{{distance}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "timeUnits": {
+    "value": "{{time}} {{units}}",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548940786289,
+        "oldValue": "",
+        "newValue": "{{time}} {{units}}",
         "explanation": null
       }
     ]
@@ -271,198 +487,6 @@
         "timestamp": 1548940786289,
         "oldValue": "",
         "newValue": "Séparation",
-        "explanation": null
-      }
-    ]
-  },
-  "intensity": {
-    "value": "Intensité",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548940786289,
-        "oldValue": "",
-        "newValue": "Intensité",
-        "explanation": null
-      }
-    ]
-  },
-  "top": {
-    "value": "Sommet",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548940786289,
-        "oldValue": "",
-        "newValue": "Sommet",
-        "explanation": null
-      }
-    ]
-  },
-  "normal": {
-    "value": "Normal",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548940786289,
-        "oldValue": "",
-        "newValue": "Normal",
-        "explanation": null
-      }
-    ]
-  },
-  "slow": {
-    "value": "Lent",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548940786289,
-        "oldValue": "",
-        "newValue": "Lent",
-        "explanation": null
-      }
-    ]
-  },
-  "sideView": {
-    "value": "Vue latérale",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548940786289,
-        "oldValue": "",
-        "newValue": "Vue latérale",
-        "explanation": null
-      }
-    ]
-  },
-  "topView": {
-    "value": "Vue de dessus",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548940786289,
-        "oldValue": "",
-        "newValue": "Vue de dessus",
-        "explanation": null
-      }
-    ]
-  },
-  "max": {
-    "value": "max",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548940786289,
-        "oldValue": "",
-        "newValue": "max",
-        "explanation": null
-      }
-    ]
-  },
-  "min": {
-    "value": "min",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548940786289,
-        "oldValue": "",
-        "newValue": "min",
-        "explanation": null
-      }
-    ]
-  },
-  "amplitude": {
-    "value": "Amplitude",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548940786289,
-        "oldValue": "",
-        "newValue": "Amplitude",
-        "explanation": null
-      }
-    ]
-  },
-  "frequency": {
-    "value": "Fréquence",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548940786289,
-        "oldValue": "",
-        "newValue": "Fréquence",
-        "explanation": null
-      }
-    ]
-  },
-  "both": {
-    "value": "Ensemble",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548940786289,
-        "oldValue": "",
-        "newValue": "Ensemble",
-        "explanation": null
-      }
-    ]
-  },
-  "particles": {
-    "value": "Particules",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548940786289,
-        "oldValue": "",
-        "newValue": "Particules",
-        "explanation": null
-      }
-    ]
-  },
-  "waves": {
-    "value": "Ondes",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548940786289,
-        "oldValue": "",
-        "newValue": "Ondes",
-        "explanation": null
-      }
-    ]
-  },
-  "graph": {
-    "value": "Graphique",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548940786289,
-        "oldValue": "",
-        "newValue": "Graphique",
-        "explanation": null
-      }
-    ]
-  },
-  "screen": {
-    "value": "Ecran",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548940786289,
-        "oldValue": "",
-        "newValue": "Ecran",
-        "explanation": null
-      }
-    ]
-  },
-  "time": {
-    "value": "Temps",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548940786289,
-        "oldValue": "",
-        "newValue": "Temps",
         "explanation": null
       }
     ]
