@@ -1,88 +1,4 @@
 {
-  "done": {
-    "value": "Fait",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548937981613,
-        "oldValue": "",
-        "newValue": "Fait",
-        "explanation": null
-      }
-    ]
-  },
-  "next": {
-    "value": "Prochain",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1468264755790,
-        "oldValue": "",
-        "newValue": "Prochain",
-        "explanation": null
-      }
-    ]
-  },
-  "score": {
-    "value": "Score:",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1525895229607,
-        "oldValue": "",
-        "newValue": "Score:",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.score.number": {
-    "value": "Score: {{score}}",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1525895229607,
-        "oldValue": "",
-        "newValue": "Score: {{score}}",
-        "explanation": null
-      }
-    ]
-  },
-  "youCompletedAllLevels": {
-    "value": "Tu as complété tous les niveaux!",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548937981613,
-        "oldValue": "",
-        "newValue": "Tu as complété tous les niveaux!",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0minutes.1seconds": {
-    "value": "{0}:{1}",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1453831529556,
-        "oldValue": "",
-        "newValue": "{0}:{1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0hours.1minutes.2seconds": {
-    "value": "{0}:{1}:{2}",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1453831529556,
-        "oldValue": "",
-        "newValue": "{0}:{1}:{2}",
-        "explanation": null
-      }
-    ]
-  },
   "pattern.0yourBest": {
     "value": "(Votre meilleur score: {0})",
     "history": [
@@ -114,18 +30,6 @@
       }
     ]
   },
-  "pattern.0challenge.1max": {
-    "value": "Défi {0} of {1}",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1453831529555,
-        "oldValue": "",
-        "newValue": "Défi {0} of {1}",
-        "explanation": null
-      }
-    ]
-  },
   "check": {
     "value": "Vérifier",
     "history": [
@@ -134,6 +38,18 @@
         "timestamp": 1468264755790,
         "oldValue": "",
         "newValue": "Vérifier",
+        "explanation": null
+      }
+    ]
+  },
+  "chooseYourLevel": {
+    "value": "Choisir votre niveau",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1576978005472,
+        "oldValue": "",
+        "newValue": "Choisir votre niveau",
         "explanation": null
       }
     ]
@@ -210,6 +126,30 @@
       }
     ]
   },
+  "score": {
+    "value": "Score:",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1525895229607,
+        "oldValue": "",
+        "newValue": "Score:",
+        "explanation": null
+      }
+    ]
+  },
+  "label.score": {
+    "value": "Score : {0}",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831529555,
+        "oldValue": "",
+        "newValue": "Score : {0}",
+        "explanation": null
+      }
+    ]
+  },
   "label.score.max": {
     "value": "Score : {0} sur {1}",
     "history": [
@@ -222,6 +162,18 @@
       }
     ]
   },
+  "pattern.score.number": {
+    "value": "Score: {{score}}",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1525895229607,
+        "oldValue": "",
+        "newValue": "Score: {{score}}",
+        "explanation": null
+      }
+    ]
+  },
   "showAnswer": {
     "value": "Voir la réponse",
     "history": [
@@ -230,18 +182,6 @@
         "timestamp": 1468264755790,
         "oldValue": "",
         "newValue": "Voir la réponse",
-        "explanation": null
-      }
-    ]
-  },
-  "startOver": {
-    "value": "Réessayer",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1453831529556,
-        "oldValue": "",
-        "newValue": "Réessayer",
         "explanation": null
       }
     ]
@@ -270,14 +210,86 @@
       }
     ]
   },
-  "label.score": {
-    "value": "Score : {0}",
+  "pattern.0minutes.1seconds": {
+    "value": "{0}:{1}",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831529556,
+        "oldValue": "",
+        "newValue": "{0}:{1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831529556,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      }
+    ]
+  },
+  "done": {
+    "value": "Fait",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548937981613,
+        "oldValue": "",
+        "newValue": "Fait",
+        "explanation": null
+      }
+    ]
+  },
+  "next": {
+    "value": "Prochain",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1468264755790,
+        "oldValue": "",
+        "newValue": "Prochain",
+        "explanation": null
+      }
+    ]
+  },
+  "youCompletedAllLevels": {
+    "value": "Tu as complété tous les niveaux!",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548937981613,
+        "oldValue": "",
+        "newValue": "Tu as complété tous les niveaux!",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0challenge.1max": {
+    "value": "Défi {0} of {1}",
     "history": [
       {
         "userId": 237975,
         "timestamp": 1453831529555,
         "oldValue": "",
-        "newValue": "Score : {0}",
+        "newValue": "Défi {0} of {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "startOver": {
+    "value": "Réessayer",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831529556,
+        "oldValue": "",
+        "newValue": "Réessayer",
         "explanation": null
       }
     ]
