@@ -1,6 +1,6 @@
 {
   "pattern.0yourBest": {
-    "value": "(આપનો શ્રેષ્ઠ : {0})",
+    "value": "(આપનો શ્રેષ્ઠ સ્કોર: {0})",
     "history": [
       {
         "userId": 654769,
@@ -8,11 +8,18 @@
         "oldValue": "",
         "newValue": "(આપનો શ્રેષ્ઠ : {0})",
         "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577172638730,
+        "oldValue": "(આપનો શ્રેષ્ઠ : {0})",
+        "newValue": "(આપનો શ્રેષ્ઠ સ્કોર: {0})",
+        "explanation": null
       }
     ]
   },
   "yourNewBest": {
-    "value": "(આપનો નવો શ્રેષ્ઠ )",
+    "value": "(આપનો નવો શ્રેષ્ઠ સ્કોર !)",
     "history": [
       {
         "userId": 654769,
@@ -20,17 +27,12 @@
         "oldValue": "",
         "newValue": "(આપનો નવો શ્રેષ્ઠ )",
         "explanation": null
-      }
-    ]
-  },
-  "pattern.0challenge.1max": {
-    "value": "ચેલેન્જ  {1} માંથી {0} ",
-    "history": [
+      },
       {
-        "userId": 654769,
-        "timestamp": 1553530515113,
-        "oldValue": "",
-        "newValue": "ચેલેન્જ  {1} માંથી {0} ",
+        "userId": 726621,
+        "timestamp": 1577172638730,
+        "oldValue": "(આપનો નવો શ્રેષ્ઠ )",
+        "newValue": "(આપનો નવો શ્રેષ્ઠ સ્કોર !)",
         "explanation": null
       }
     ]
@@ -43,6 +45,18 @@
         "timestamp": 1553529823013,
         "oldValue": "",
         "newValue": "ચેક કરો ",
+        "explanation": null
+      }
+    ]
+  },
+  "chooseYourLevel": {
+    "value": "તમારું લેવલ પસંદ કરો...",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577172638730,
+        "oldValue": "",
+        "newValue": "તમારું લેવલ પસંદ કરો...",
         "explanation": null
       }
     ]
@@ -60,7 +74,7 @@
     ]
   },
   "excellent": {
-    "value": "ખુબ સરસ ",
+    "value": "ખૂબ સરસ !",
     "history": [
       {
         "userId": 654769,
@@ -68,11 +82,18 @@
         "oldValue": "",
         "newValue": "ખુબ સરસ ",
         "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577172638730,
+        "oldValue": "ખુબ સરસ ",
+        "newValue": "ખૂબ સરસ !",
+        "explanation": null
       }
     ]
   },
   "good": {
-    "value": "વાહ !",
+    "value": "સરસ !",
     "history": [
       {
         "userId": 654769,
@@ -80,17 +101,31 @@
         "oldValue": "",
         "newValue": "વાહ !",
         "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577172638730,
+        "oldValue": "વાહ !",
+        "newValue": "સરસ !",
+        "explanation": null
       }
     ]
   },
   "great": {
-    "value": "સરસ ",
+    "value": "જોરદાર !",
     "history": [
       {
         "userId": 654769,
         "timestamp": 1553529823014,
         "oldValue": "",
         "newValue": "સરસ ",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577172638730,
+        "oldValue": "સરસ ",
+        "newValue": "જોરદાર !",
         "explanation": null
       }
     ]
@@ -119,20 +154,27 @@
       }
     ]
   },
-  "next": {
-    "value": "આગળ ",
+  "score": {
+    "value": "સ્કોર:",
     "history": [
       {
         "userId": 654769,
-        "timestamp": 1553529823014,
+        "timestamp": 1553530515113,
         "oldValue": "",
-        "newValue": "આગળ ",
+        "newValue": "સ્કોર :",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577172638730,
+        "oldValue": "સ્કોર :",
+        "newValue": "સ્કોર:",
         "explanation": null
       }
     ]
   },
   "label.score": {
-    "value": "સ્કોર : {0}",
+    "value": "સ્કોર: {0}",
     "history": [
       {
         "userId": 654769,
@@ -140,11 +182,18 @@
         "oldValue": "",
         "newValue": "સ્કોર : {0}",
         "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577172638730,
+        "oldValue": "સ્કોર : {0}",
+        "newValue": "સ્કોર: {0}",
+        "explanation": null
       }
     ]
   },
   "label.score.max": {
-    "value": "Score: {0} out of {1}",
+    "value": "સ્કોર: {1} માંથી {0}",
     "history": [
       {
         "userId": 654769,
@@ -152,17 +201,31 @@
         "oldValue": "",
         "newValue": "Score: {0} out of {1}",
         "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577172638730,
+        "oldValue": "Score: {0} out of {1}",
+        "newValue": "સ્કોર: {1} માંથી {0}",
+        "explanation": null
       }
     ]
   },
-  "selectLevel": {
-    "value": "લેવેલ પસંદ કરો ",
+  "pattern.score.number": {
+    "value": "સ્કોર: {{score}}",
     "history": [
       {
         "userId": 654769,
-        "timestamp": 1553592146225,
+        "timestamp": 1553530515113,
         "oldValue": "",
-        "newValue": "લેવેલ પસંદ કરો ",
+        "newValue": "સ્કોર : {{score}}",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577172638730,
+        "oldValue": "સ્કોર : {{score}}",
+        "newValue": "સ્કોર: {{score}}",
         "explanation": null
       }
     ]
@@ -175,18 +238,6 @@
         "timestamp": 1553530515113,
         "oldValue": "",
         "newValue": "જવાબ જુઓ ",
-        "explanation": null
-      }
-    ]
-  },
-  "startOver": {
-    "value": "ફરી શરુ કરો ",
-    "history": [
-      {
-        "userId": 654769,
-        "timestamp": 1553530515113,
-        "oldValue": "",
-        "newValue": "ફરી શરુ કરો ",
         "explanation": null
       }
     ]
@@ -239,26 +290,50 @@
       }
     ]
   },
-  "score": {
-    "value": "સ્કોર :",
+  "pattern.0challenge.1max": {
+    "value": "ચેલેન્જ  {1} માંથી {0} ",
     "history": [
       {
         "userId": 654769,
         "timestamp": 1553530515113,
         "oldValue": "",
-        "newValue": "સ્કોર :",
+        "newValue": "ચેલેન્જ  {1} માંથી {0} ",
         "explanation": null
       }
     ]
   },
-  "pattern.score.number": {
-    "value": "સ્કોર : {{score}}",
+  "next": {
+    "value": "આગળ ",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553529823014,
+        "oldValue": "",
+        "newValue": "આગળ ",
+        "explanation": null
+      }
+    ]
+  },
+  "selectLevel": {
+    "value": "લેવેલ પસંદ કરો ",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553592146225,
+        "oldValue": "",
+        "newValue": "લેવેલ પસંદ કરો ",
+        "explanation": null
+      }
+    ]
+  },
+  "startOver": {
+    "value": "ફરી શરુ કરો ",
     "history": [
       {
         "userId": 654769,
         "timestamp": 1553530515113,
         "oldValue": "",
-        "newValue": "સ્કોર : {{score}}",
+        "newValue": "ફરી શરુ કરો ",
         "explanation": null
       }
     ]
