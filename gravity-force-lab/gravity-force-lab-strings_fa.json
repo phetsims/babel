@@ -1,36 +1,43 @@
 {
-  "body.name.earth": {
-    "value": "زمین",
-    "history": [
-      {
-        "userId": 333721,
-        "timestamp": 1486021863025,
-        "oldValue": "",
-        "newValue": "زمین",
-        "explanation": null
-      }
-    ]
-  },
-  "constantRadius": {
-    "value": "شعاع ثابت",
+  "units.meters": {
+    "value": "متر",
     "history": [
       {
         "userId": 333721,
         "timestamp": 1486021863024,
         "oldValue": "",
-        "newValue": "شعاع ثابت",
+        "newValue": "m",
+        "explanation": null
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1577165767554,
+        "oldValue": "m",
+        "newValue": "متر",
         "explanation": null
       }
     ]
   },
-  "custom": {
-    "value": "آداب",
+  "pattern_0value_1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 641432,
+        "timestamp": 1577165767554,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "units.kg": {
+    "value": "kg",
     "history": [
       {
         "userId": 333721,
         "timestamp": 1486021863024,
         "oldValue": "",
-        "newValue": "آداب",
+        "newValue": "kg",
         "explanation": null
       }
     ]
@@ -48,7 +55,7 @@
     ]
   },
   "force-description-pattern-target_source_value": {
-    "value": "نیروی وارد به{0} توسط {1}={2} برحسب نیوتون",
+    "value": " برحسب نیوتون {2} = نیروی وارد بر {0} توسط {1}",
     "history": [
       {
         "userId": 449508,
@@ -56,41 +63,36 @@
         "oldValue": "",
         "newValue": "نیروی وارد به{0} توسط {1}={2} برحسب نیوتون",
         "explanation": null
-      }
-    ]
-  },
-  "gravity-force-lab.title": {
-    "value": "آرمایشگاه نیروی گرانش",
-    "history": [
+      },
       {
-        "userId": 333721,
-        "timestamp": 1486021863024,
-        "oldValue": "",
-        "newValue": "آرمایشگاه نیروی گرانش",
+        "userId": 641432,
+        "timestamp": 1577165767554,
+        "oldValue": "نیروی وارد به{0} توسط {1}={2} برحسب نیوتون",
+        "newValue": " برحسب نیوتون {2} = نیروی وارد بر {0} توسط {1}",
         "explanation": null
       }
     ]
   },
-  "mass-1": {
-    "value": "m1",
+  "constantRadius": {
+    "value": "شعاع ثابت",
     "history": [
       {
         "userId": 333721,
         "timestamp": 1486021863024,
         "oldValue": "",
-        "newValue": "m1",
+        "newValue": "شعاع ثابت",
         "explanation": null
       }
     ]
   },
-  "mass-2": {
-    "value": "m2",
+  "showValues": {
+    "value": "مقادیر را نشان بده",
     "history": [
       {
         "userId": 333721,
         "timestamp": 1486021863024,
         "oldValue": "",
-        "newValue": "m2",
+        "newValue": "مقادیر را نشان بده",
         "explanation": null
       }
     ]
@@ -115,6 +117,97 @@
         "timestamp": 1486021863024,
         "oldValue": "",
         "newValue": "جرم 2",
+        "explanation": null
+      }
+    ]
+  },
+  "mass1Abbreviated": {
+    "value": "m1",
+    "history": [
+      {
+        "userId": 641432,
+        "timestamp": 1577165767554,
+        "oldValue": "",
+        "newValue": "m1",
+        "explanation": null
+      }
+    ]
+  },
+  "mass2Abbreviated": {
+    "value": "m2",
+    "history": [
+      {
+        "userId": 641432,
+        "timestamp": 1577165767554,
+        "oldValue": "",
+        "newValue": "m2",
+        "explanation": null
+      }
+    ]
+  },
+  "gravity-force-lab.title": {
+    "value": "آزمایشگاه نیروی گرانش",
+    "history": [
+      {
+        "userId": 333721,
+        "timestamp": 1486021863024,
+        "oldValue": "",
+        "newValue": "آرمایشگاه نیروی گرانش",
+        "explanation": null
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1577165767554,
+        "oldValue": "آرمایشگاه نیروی گرانش",
+        "newValue": "آزمایشگاه نیروی گرانش",
+        "explanation": null
+      }
+    ]
+  },
+  "body.name.earth": {
+    "value": "زمین",
+    "history": [
+      {
+        "userId": 333721,
+        "timestamp": 1486021863025,
+        "oldValue": "",
+        "newValue": "زمین",
+        "explanation": null
+      }
+    ]
+  },
+  "custom": {
+    "value": "آداب",
+    "history": [
+      {
+        "userId": 333721,
+        "timestamp": 1486021863024,
+        "oldValue": "",
+        "newValue": "آداب",
+        "explanation": null
+      }
+    ]
+  },
+  "mass-1": {
+    "value": "m1",
+    "history": [
+      {
+        "userId": 333721,
+        "timestamp": 1486021863024,
+        "oldValue": "",
+        "newValue": "m1",
+        "explanation": null
+      }
+    ]
+  },
+  "mass-2": {
+    "value": "m2",
+    "history": [
+      {
+        "userId": 333721,
+        "timestamp": 1486021863024,
+        "oldValue": "",
+        "newValue": "m2",
         "explanation": null
       }
     ]
@@ -239,18 +332,6 @@
       }
     ]
   },
-  "showValues": {
-    "value": "مقادیر را نشان بده",
-    "history": [
-      {
-        "userId": 333721,
-        "timestamp": 1486021863024,
-        "oldValue": "",
-        "newValue": "مقادیر را نشان بده",
-        "explanation": null
-      }
-    ]
-  },
   "sun": {
     "value": "خورشید",
     "history": [
@@ -299,18 +380,6 @@
       }
     ]
   },
-  "units.kg": {
-    "value": "kg",
-    "history": [
-      {
-        "userId": 333721,
-        "timestamp": 1486021863024,
-        "oldValue": "",
-        "newValue": "kg",
-        "explanation": null
-      }
-    ]
-  },
   "units.kilometers": {
     "value": "کیلومتر",
     "history": [
@@ -331,18 +400,6 @@
         "timestamp": 1486021863025,
         "oldValue": "",
         "newValue": "دقبقه ی نوری",
-        "explanation": null
-      }
-    ]
-  },
-  "units.meters": {
-    "value": "m",
-    "history": [
-      {
-        "userId": 333721,
-        "timestamp": 1486021863024,
-        "oldValue": "",
-        "newValue": "m",
         "explanation": null
       }
     ]
