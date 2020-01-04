@@ -1,12 +1,180 @@
 {
-  "acceleration": {
-    "value": "Versnelling",
+  "speed": {
+    "value": "Snelheid",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1462625338012,
         "oldValue": "",
-        "newValue": "Versnelling",
+        "newValue": "Snelheid",
+        "explanation": null
+      }
+    ]
+  },
+  "go": {
+    "value": "Start!",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1462625338011,
+        "oldValue": "",
+        "newValue": "Start!",
+        "explanation": null
+      }
+    ]
+  },
+  "pause": {
+    "value": "Pauze",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1462625338012,
+        "oldValue": "",
+        "newValue": "Pauze",
+        "explanation": null
+      }
+    ]
+  },
+  "return": {
+    "value": "Opnieuw",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1462625338012,
+        "oldValue": "",
+        "newValue": "Opnieuw",
+        "explanation": null
+      }
+    ]
+  },
+  "blueWins": {
+    "value": "Blauw wint!",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1462625338012,
+        "oldValue": "",
+        "newValue": "Blauw wint!",
+        "explanation": null
+      }
+    ]
+  },
+  "redWins": {
+    "value": "Rood wint!",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1462625338012,
+        "oldValue": "",
+        "newValue": "Rood wint!",
+        "explanation": null
+      }
+    ]
+  },
+  "sumOfForces": {
+    "value": "Som van de krachten",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1462625338012,
+        "oldValue": "",
+        "newValue": "Som van de krachten",
+        "explanation": null
+      }
+    ]
+  },
+  "values": {
+    "value": "Waarden",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1462625338012,
+        "oldValue": "",
+        "newValue": "Waarden",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0valueUnitsN": {
+    "value": "{0} N",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1462625338012,
+        "oldValue": "",
+        "newValue": "{0} N",
+        "explanation": null
+      }
+    ]
+  },
+  "sumOfForcesEqualsZero": {
+    "value": "Som van de krachten = 0",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1462625338012,
+        "oldValue": "",
+        "newValue": "Som van de krachten = 0",
+        "explanation": null
+      }
+    ]
+  },
+  "leftForce": {
+    "value": "Kracht naar links",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1462625338012,
+        "oldValue": "",
+        "newValue": "Kracht naar links",
+        "explanation": null
+      }
+    ]
+  },
+  "rightForce": {
+    "value": "Kracht naar rechts",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1462625338012,
+        "oldValue": "",
+        "newValue": "Kracht naar rechts",
+        "explanation": null
+      }
+    ]
+  },
+  "left": {
+    "value": "links",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1578146314062,
+        "oldValue": "",
+        "newValue": "links",
+        "explanation": null
+      }
+    ]
+  },
+  "right": {
+    "value": "rechts",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1578146314062,
+        "oldValue": "",
+        "newValue": "rechts",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0massUnitsKilograms": {
+    "value": "{0} kg",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1462625338012,
+        "oldValue": "",
+        "newValue": "{0} kg",
         "explanation": null
       }
     ]
@@ -23,14 +191,38 @@
       }
     ]
   },
-  "blueWins": {
-    "value": "Blauw wint!",
+  "frictionForce": {
+    "value": "Wrijvingskracht",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1462625338012,
         "oldValue": "",
-        "newValue": "Blauw wint!",
+        "newValue": "Wrijvingskracht",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0name.1valueUnitsVelocity": {
+    "value": "{0} m/s",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1462625338012,
+        "oldValue": "",
+        "newValue": "{0} m/s",
+        "explanation": null
+      }
+    ]
+  },
+  "acceleration": {
+    "value": "Versnelling",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1462625338012,
+        "oldValue": "",
+        "newValue": "Versnelling",
         "explanation": null
       }
     ]
@@ -59,21 +251,14 @@
       }
     ]
   },
-  "forces-and-motion-basics.title": {
-    "value": "Kracht en beweging: eenvoudig",
+  "masses": {
+    "value": "Massa's",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1462625338012,
         "oldValue": "",
-        "newValue": "Kracht en beweging: basis",
-        "explanation": null
-      },
-      {
-        "userId": 170730,
-        "timestamp": 1509531574092,
-        "oldValue": "Kracht en beweging: basis",
-        "newValue": "Kracht en beweging: eenvoudig",
+        "newValue": "Massa's",
         "explanation": null
       }
     ]
@@ -90,42 +275,6 @@
       }
     ]
   },
-  "frictionForce": {
-    "value": "Wrijvingskracht",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1462625338012,
-        "oldValue": "",
-        "newValue": "Wrijvingskracht",
-        "explanation": null
-      }
-    ]
-  },
-  "go": {
-    "value": "Start!",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1462625338011,
-        "oldValue": "",
-        "newValue": "Start!",
-        "explanation": null
-      }
-    ]
-  },
-  "leftForce": {
-    "value": "Kracht naar links",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1462625338012,
-        "oldValue": "",
-        "newValue": "Kracht naar links",
-        "explanation": null
-      }
-    ]
-  },
   "lots": {
     "value": "Veel",
     "history": [
@@ -138,42 +287,6 @@
       }
     ]
   },
-  "masses": {
-    "value": "Massa's",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1462625338012,
-        "oldValue": "",
-        "newValue": "Massa's",
-        "explanation": null
-      }
-    ]
-  },
-  "motion": {
-    "value": "Beweging",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1462625338012,
-        "oldValue": "",
-        "newValue": "Beweging",
-        "explanation": null
-      }
-    ]
-  },
-  "netForce": {
-    "value": "Resultante",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1462625338012,
-        "oldValue": "",
-        "newValue": "Resultante",
-        "explanation": null
-      }
-    ]
-  },
   "none": {
     "value": "Geen",
     "history": [
@@ -182,18 +295,6 @@
         "timestamp": 1462625338012,
         "oldValue": "",
         "newValue": "Geen",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0massUnitsKilograms": {
-    "value": "{0} kg",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1462625338012,
-        "oldValue": "",
-        "newValue": "{0} kg",
         "explanation": null
       }
     ]
@@ -217,30 +318,6 @@
       }
     ]
   },
-  "pattern.0name.1valueUnitsVelocity": {
-    "value": "{0} m/s",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1462625338012,
-        "oldValue": "",
-        "newValue": "{0} m/s",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0valueUnitsN": {
-    "value": "{0} N",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1462625338012,
-        "oldValue": "",
-        "newValue": "{0} N",
-        "explanation": null
-      }
-    ]
-  },
   "pattern.0valueUnitsNewtons": {
     "value": "{0} N",
     "history": [
@@ -253,98 +330,45 @@
       }
     ]
   },
-  "pause": {
-    "value": "Pauze",
+  "forces-and-motion-basics.title": {
+    "value": "Kracht en beweging: eenvoudig",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1462625338012,
         "oldValue": "",
-        "newValue": "Pauze",
+        "newValue": "Kracht en beweging: basis",
+        "explanation": null
+      },
+      {
+        "userId": 170730,
+        "timestamp": 1509531574092,
+        "oldValue": "Kracht en beweging: basis",
+        "newValue": "Kracht en beweging: eenvoudig",
         "explanation": null
       }
     ]
   },
-  "redWins": {
-    "value": "Rood wint!",
+  "netForce": {
+    "value": "Resultante",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1462625338012,
         "oldValue": "",
-        "newValue": "Rood wint!",
+        "newValue": "Resultante",
         "explanation": null
       }
     ]
   },
-  "return": {
-    "value": "Opnieuw",
+  "motion": {
+    "value": "Beweging",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1462625338012,
         "oldValue": "",
-        "newValue": "Opnieuw",
-        "explanation": null
-      }
-    ]
-  },
-  "rightForce": {
-    "value": "Kracht naar rechts",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1462625338012,
-        "oldValue": "",
-        "newValue": "Kracht naar rechts",
-        "explanation": null
-      }
-    ]
-  },
-  "speed": {
-    "value": "Snelheid",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1462625338012,
-        "oldValue": "",
-        "newValue": "Snelheid",
-        "explanation": null
-      }
-    ]
-  },
-  "sumOfForces": {
-    "value": "Som van de krachten",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1462625338012,
-        "oldValue": "",
-        "newValue": "Som van de krachten",
-        "explanation": null
-      }
-    ]
-  },
-  "sumOfForcesEqualsZero": {
-    "value": "Som van de krachten = 0",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1462625338012,
-        "oldValue": "",
-        "newValue": "Som van de krachten = 0",
-        "explanation": null
-      }
-    ]
-  },
-  "values": {
-    "value": "Waarden",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1462625338012,
-        "oldValue": "",
-        "newValue": "Waarden",
+        "newValue": "Beweging",
         "explanation": null
       }
     ]
