@@ -1,30 +1,63 @@
 {
-  "ButtonNode.ReturnMolecule": {
-    "value": "Andere molecule?",
+  "KeyboardHelpDialog.lightSourceSlider": {
+    "value": "Kies de lichtbron",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1578148645099,
+        "oldValue": "",
+        "newValue": "Kies de lichtbron",
+        "explanation": null
+      }
+    ]
+  },
+  "QuadWavelengthSelector.Infrared": {
+    "value": "Infrarood",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1457172700807,
         "oldValue": "",
-        "newValue": "Andere molecule?",
+        "newValue": "Infrarood",
         "explanation": null
       }
     ]
   },
-  "ControlPanel.AtmosphericGasesTitle": {
-    "value": "Gassen in de atmosfeer",
+  "QuadWavelengthSelector.Microwave": {
+    "value": "Microgolf",
     "history": [
       {
         "userId": 170730,
-        "timestamp": 1457172700808,
+        "timestamp": 1457172700807,
         "oldValue": "",
-        "newValue": "Gassen in de atmosfeer",
+        "newValue": "Microgolf",
         "explanation": null
       }
     ]
   },
-  "ControlPanel.BuildAtmosphere": {
-    "value": ""
+  "QuadWavelengthSelector.Ultraviolet": {
+    "value": "Ultraviolet",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457172700807,
+        "oldValue": "",
+        "newValue": "Ultraviolet",
+        "explanation": null
+      }
+    ]
+  },
+  "QuadWavelengthSelector.Visible": {
+    "value": "Zichtbaar",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457172700807,
+        "oldValue": "",
+        "newValue": "Zichtbaar",
+        "explanation": null
+      }
+    ]
   },
   "ControlPanel.CarbonDioxide": {
     "value": "Koolstofdioxide",
@@ -50,14 +83,14 @@
       }
     ]
   },
-  "ControlPanel.Methane": {
-    "value": "Methaan",
+  "ControlPanel.NitrogenDioxide": {
+    "value": "Stikstofdioxide",
     "history": [
       {
         "userId": 170730,
-        "timestamp": 1457172700808,
+        "timestamp": 1457172700807,
         "oldValue": "",
-        "newValue": "Methaan",
+        "newValue": "Stikstofdioxide",
         "explanation": null
       }
     ]
@@ -70,18 +103,6 @@
         "timestamp": 1457172700807,
         "oldValue": "",
         "newValue": "Stikstof",
-        "explanation": null
-      }
-    ]
-  },
-  "ControlPanel.NitrogenDioxide": {
-    "value": "Stikstofdioxide",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457172700807,
-        "oldValue": "",
-        "newValue": "Stikstofdioxide",
         "explanation": null
       }
     ]
@@ -122,26 +143,26 @@
       }
     ]
   },
-  "ModuleTitle.MoleculesAndLightModule": {
-    "value": "Molecules en licht",
+  "molecularNamePattern": {
+    "value": "{0} ({1})",
     "history": [
       {
         "userId": 170730,
-        "timestamp": 1457172700808,
+        "timestamp": 1457172700807,
         "oldValue": "",
-        "newValue": "Molecules en licht",
+        "newValue": "{0} ({1})",
         "explanation": null
       }
     ]
   },
-  "OptionsMenu.whiteBackground": {
-    "value": "Witte achtergrond",
+  "ButtonNode.ReturnMolecule": {
+    "value": "Andere molecule?",
     "history": [
       {
         "userId": 170730,
-        "timestamp": 1457172700808,
+        "timestamp": 1457172700807,
         "oldValue": "",
-        "newValue": "Witte achtergrond",
+        "newValue": "Andere molecule?",
         "explanation": null
       }
     ]
@@ -154,90 +175,6 @@
         "timestamp": 1457172700807,
         "oldValue": "",
         "newValue": "Meer energie",
-        "explanation": null
-      }
-    ]
-  },
-  "QuadWavelengthSelector.Infrared": {
-    "value": "Infrarood",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457172700807,
-        "oldValue": "",
-        "newValue": "Infrarood",
-        "explanation": null
-      }
-    ]
-  },
-  "QuadWavelengthSelector.Microwave": {
-    "value": "Microgolf",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457172700807,
-        "oldValue": "",
-        "newValue": "Microgolf",
-        "explanation": null
-      }
-    ]
-  },
-  "QuadWavelengthSelector.PhotonEnergy": {
-    "value": "Energie van foton",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457172700808,
-        "oldValue": "",
-        "newValue": "Energie van foton",
-        "explanation": null
-      }
-    ]
-  },
-  "QuadWavelengthSelector.Ultraviolet": {
-    "value": "Ultraviolet",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457172700807,
-        "oldValue": "",
-        "newValue": "Ultraviolet",
-        "explanation": null
-      }
-    ]
-  },
-  "QuadWavelengthSelector.Visible": {
-    "value": "Zichtbaar",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457172700807,
-        "oldValue": "",
-        "newValue": "Zichtbaar",
-        "explanation": null
-      }
-    ]
-  },
-  "SpectrumWindow.buttonCaption": {
-    "value": "Toon elektromagnetisch spectrum ",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457172700807,
-        "oldValue": "",
-        "newValue": "Toon elektromagnetisch spectrum ",
-        "explanation": null
-      }
-    ]
-  },
-  "SpectrumWindow.close": {
-    "value": "Sluiten",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1457172700807,
-        "oldValue": "",
-        "newValue": "Sluiten",
         "explanation": null
       }
     ]
@@ -386,14 +323,26 @@
       }
     ]
   },
-  "molecularNamePattern": {
-    "value": "{0} ({1})",
+  "SpectrumWindow.close": {
+    "value": "Sluiten",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1457172700807,
         "oldValue": "",
-        "newValue": "{0} ({1})",
+        "newValue": "Sluiten",
+        "explanation": null
+      }
+    ]
+  },
+  "SpectrumWindow.buttonCaption": {
+    "value": "Toon elektromagnetisch spectrum ",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457172700807,
+        "oldValue": "",
+        "newValue": "Toon elektromagnetisch spectrum ",
         "explanation": null
       }
     ]
@@ -413,6 +362,69 @@
         "timestamp": 1483638177365,
         "oldValue": "Molecules en licht",
         "newValue": "Moleculen en licht",
+        "explanation": null
+      }
+    ]
+  },
+  "ControlPanel.AtmosphericGasesTitle": {
+    "value": "Gassen in de atmosfeer",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457172700808,
+        "oldValue": "",
+        "newValue": "Gassen in de atmosfeer",
+        "explanation": null
+      }
+    ]
+  },
+  "ControlPanel.BuildAtmosphere": {
+    "value": ""
+  },
+  "ControlPanel.Methane": {
+    "value": "Methaan",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457172700808,
+        "oldValue": "",
+        "newValue": "Methaan",
+        "explanation": null
+      }
+    ]
+  },
+  "ModuleTitle.MoleculesAndLightModule": {
+    "value": "Molecules en licht",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457172700808,
+        "oldValue": "",
+        "newValue": "Molecules en licht",
+        "explanation": null
+      }
+    ]
+  },
+  "OptionsMenu.whiteBackground": {
+    "value": "Witte achtergrond",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457172700808,
+        "oldValue": "",
+        "newValue": "Witte achtergrond",
+        "explanation": null
+      }
+    ]
+  },
+  "QuadWavelengthSelector.PhotonEnergy": {
+    "value": "Energie van foton",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1457172700808,
+        "oldValue": "",
+        "newValue": "Energie van foton",
         "explanation": null
       }
     ]
