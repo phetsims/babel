@@ -1,60 +1,45 @@
 {
-  "Atoms": {
-    "value": "Atomen",
+  "electronOverlap": {
+    "value": "(overlapping van elektronen)",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1476541596572,
         "oldValue": "",
-        "newValue": "Atomen",
+        "newValue": "(overlapping van elektron)",
+        "explanation": null
+      },
+      {
+        "userId": 170730,
+        "timestamp": 1476548684227,
+        "oldValue": "(overlapping van elektron)",
+        "newValue": "(overlapping van elektronen)",
+        "explanation": null
+      },
+      {
+        "userId": 170730,
+        "timestamp": 1476643622318,
+        "oldValue": "(overlapping van elektronen)",
+        "newValue": "(overlapping van elektron)",
+        "explanation": null
+      },
+      {
+        "userId": 170730,
+        "timestamp": 1476979643809,
+        "oldValue": "(overlapping van elektron)",
+        "newValue": "(overlapping van elektronen)",
         "explanation": null
       }
     ]
   },
-  "AtomsAndMolecules": {
-    "value": "Atomen en molecules",
+  "vanderwaals": {
+    "value": "(van der Waals)",
     "history": [
       {
         "userId": 170730,
-        "timestamp": 1482436027529,
+        "timestamp": 1476541596572,
         "oldValue": "",
-        "newValue": "Atomen en molecules",
-        "explanation": null
-      }
-    ]
-  },
-  "Gas": {
-    "value": "Gas",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1482436027529,
-        "oldValue": "",
-        "newValue": "Gas",
-        "explanation": null
-      }
-    ]
-  },
-  "Liquid": {
-    "value": "Vloeistof",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1482436027529,
-        "oldValue": "",
-        "newValue": "Vloeistof",
-        "explanation": null
-      }
-    ]
-  },
-  "Solid": {
-    "value": "Vaste stof",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1482436027529,
-        "oldValue": "",
-        "newValue": "Vaste stof",
+        "newValue": "(van der Waals)",
         "explanation": null
       }
     ]
@@ -119,13 +104,32 @@
     ]
   },
   "atomDiameter": {
-    "value": "Atoomdiameter",
+    "value": "Atoomdiameter (σ)",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1476541596572,
         "oldValue": "",
         "newValue": "Atoomdiameter",
+        "explanation": null
+      },
+      {
+        "userId": 170730,
+        "timestamp": 1578142844946,
+        "oldValue": "Atoomdiameter",
+        "newValue": "Atoomdiameter (σ)",
+        "explanation": null
+      }
+    ]
+  },
+  "Atoms": {
+    "value": "Atomen",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1476541596572,
+        "oldValue": "",
+        "newValue": "Atomen",
         "explanation": null
       }
     ]
@@ -177,46 +181,6 @@
       }
     ]
   },
-  "criticalPoint": {
-    "value": "Kritisch\r\npunt",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1482436027529,
-        "oldValue": "",
-        "newValue": "Kritisch\npunt",
-        "explanation": null
-      },
-      {
-        "userId": 170730,
-        "timestamp": 1483638427296,
-        "oldValue": "Kritisch\npunt",
-        "newValue": "Kritisch\r\npunt",
-        "explanation": null
-      },
-      {
-        "userId": 170730,
-        "timestamp": 1483796912690,
-        "oldValue": "Kritisch\r\npunt",
-        "newValue": "Kritisch\r\npunt",
-        "explanation": null
-      },
-      {
-        "userId": 170730,
-        "timestamp": 1509529300455,
-        "oldValue": "Kritisch\r\npunt",
-        "newValue": "Kritisch\r\npunt",
-        "explanation": null
-      },
-      {
-        "userId": 170730,
-        "timestamp": 1513504130786,
-        "oldValue": "Kritisch\r\npunt",
-        "newValue": "Kritisch\r\npunt",
-        "explanation": null
-      }
-    ]
-  },
   "customAttraction": {
     "value": "Instellen van aantrekking",
     "history": [
@@ -239,18 +203,6 @@
         "timestamp": 1476643622318,
         "oldValue": "In te stellen aantrekking",
         "newValue": "Instellen van aantrekking",
-        "explanation": null
-      }
-    ]
-  },
-  "diatomicOxygen": {
-    "value": "Zuurstof",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1482436027529,
-        "oldValue": "",
-        "newValue": "Zuurstof",
         "explanation": null
       }
     ]
@@ -356,39 +308,6 @@
       }
     ]
   },
-  "electronOverlap": {
-    "value": "(overlapping van elektronen)",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1476541596572,
-        "oldValue": "",
-        "newValue": "(overlapping van elektron)",
-        "explanation": null
-      },
-      {
-        "userId": 170730,
-        "timestamp": 1476548684227,
-        "oldValue": "(overlapping van elektron)",
-        "newValue": "(overlapping van elektronen)",
-        "explanation": null
-      },
-      {
-        "userId": 170730,
-        "timestamp": 1476643622318,
-        "oldValue": "(overlapping van elektronen)",
-        "newValue": "(overlapping van elektron)",
-        "explanation": null
-      },
-      {
-        "userId": 170730,
-        "timestamp": 1476979643809,
-        "oldValue": "(overlapping van elektron)",
-        "newValue": "(overlapping van elektronen)",
-        "explanation": null
-      }
-    ]
-  },
   "forces": {
     "value": "Krachten",
     "history": [
@@ -397,18 +316,6 @@
         "timestamp": 1476541596572,
         "oldValue": "",
         "newValue": "Krachten",
-        "explanation": null
-      }
-    ]
-  },
-  "gas": {
-    "value": "Gas",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1482436027529,
-        "oldValue": "",
-        "newValue": "Gas",
         "explanation": null
       }
     ]
@@ -460,32 +367,8 @@
       }
     ]
   },
-  "interaction": {
-    "value": "Interactie",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1482436027529,
-        "oldValue": "",
-        "newValue": "Interactie",
-        "explanation": null
-      }
-    ]
-  },
-  "interactionPotential": {
-    "value": "Interactiepotentiaal",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1482436027529,
-        "oldValue": "",
-        "newValue": "Interactiepotentiaal",
-        "explanation": null
-      }
-    ]
-  },
   "interactionStrength": {
-    "value": "Sterkte van interactie",
+    "value": "Sterkte van interactie (ε)",
     "history": [
       {
         "userId": 170730,
@@ -507,17 +390,12 @@
         "oldValue": "Sterkte van de interactie",
         "newValue": "Sterkte van interactie",
         "explanation": null
-      }
-    ]
-  },
-  "interactionStrengthWithSymbol": {
-    "value": "Interactiesterkte ",
-    "history": [
+      },
       {
         "userId": 170730,
-        "timestamp": 1482436027529,
-        "oldValue": "",
-        "newValue": "Interactiesterkte ",
+        "timestamp": 1578142844947,
+        "oldValue": "Sterkte van interactie",
+        "newValue": "Sterkte van interactie (ε)",
         "explanation": null
       }
     ]
@@ -530,18 +408,6 @@
         "timestamp": 1476541596572,
         "oldValue": "",
         "newValue": "groot",
-        "explanation": null
-      }
-    ]
-  },
-  "liquid": {
-    "value": "Vloeistof",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1482436027529,
-        "oldValue": "",
-        "newValue": "Vloeistof",
         "explanation": null
       }
     ]
@@ -590,30 +456,6 @@
         "timestamp": 1476541596572,
         "oldValue": "",
         "newValue": "Zuurstof",
-        "explanation": null
-      }
-    ]
-  },
-  "phaseChanges": {
-    "value": "Veranderingen van fase",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1482436027529,
-        "oldValue": "",
-        "newValue": "Veranderingen van fase",
-        "explanation": null
-      }
-    ]
-  },
-  "phaseDiagram": {
-    "value": "Fasediagram",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1482436027529,
-        "oldValue": "",
-        "newValue": "Fasediagram",
         "explanation": null
       }
     ]
@@ -691,42 +533,6 @@
       }
     ]
   },
-  "pressure": {
-    "value": "Druk",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1482436027529,
-        "oldValue": "",
-        "newValue": "Druk",
-        "explanation": null
-      }
-    ]
-  },
-  "pressureOverload": {
-    "value": "Te hoge druk!",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1482436027529,
-        "oldValue": "",
-        "newValue": "Te hoge druk!",
-        "explanation": null
-      }
-    ]
-  },
-  "projectorMode": {
-    "value": "Projecteren",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1476541596572,
-        "oldValue": "",
-        "newValue": "Projecteren",
-        "explanation": null
-      }
-    ]
-  },
   "repulsive": {
     "value": "Afstotend",
     "history": [
@@ -793,18 +599,6 @@
       }
     ]
   },
-  "returnLid": {
-    "value": "Terugkeren",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1482436027529,
-        "oldValue": "",
-        "newValue": "Terugkeren",
-        "explanation": null
-      }
-    ]
-  },
   "slowMotion": {
     "value": "Vertraagde beweging",
     "history": [
@@ -836,42 +630,6 @@
       }
     ]
   },
-  "solid": {
-    "value": "Vaste stof",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1482436027529,
-        "oldValue": "",
-        "newValue": "Vaste stof",
-        "explanation": null
-      }
-    ]
-  },
-  "states": {
-    "value": "Toestanden",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1482436027529,
-        "oldValue": "",
-        "newValue": "Toestanden",
-        "explanation": null
-      }
-    ]
-  },
-  "states-of-matter.title": {
-    "value": "Aggregatietoestanden",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1482436027529,
-        "oldValue": "",
-        "newValue": "Aggregatietoestanden",
-        "explanation": null
-      }
-    ]
-  },
   "strong": {
     "value": "sterk",
     "history": [
@@ -880,18 +638,6 @@
         "timestamp": 1476541596572,
         "oldValue": "",
         "newValue": "sterk",
-        "explanation": null
-      }
-    ]
-  },
-  "temperature": {
-    "value": "Temperatuur",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1482436027529,
-        "oldValue": "",
-        "newValue": "Temperatuur",
         "explanation": null
       }
     ]
@@ -943,6 +689,298 @@
       }
     ]
   },
+  "weak": {
+    "value": "zwak",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1476541596572,
+        "oldValue": "",
+        "newValue": "zwak",
+        "explanation": null
+      }
+    ]
+  },
+  "AtomsAndMolecules": {
+    "value": "Atomen en molecules",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1482436027529,
+        "oldValue": "",
+        "newValue": "Atomen en molecules",
+        "explanation": null
+      }
+    ]
+  },
+  "Gas": {
+    "value": "Gas",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1482436027529,
+        "oldValue": "",
+        "newValue": "Gas",
+        "explanation": null
+      }
+    ]
+  },
+  "Liquid": {
+    "value": "Vloeistof",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1482436027529,
+        "oldValue": "",
+        "newValue": "Vloeistof",
+        "explanation": null
+      }
+    ]
+  },
+  "Solid": {
+    "value": "Vaste stof",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1482436027529,
+        "oldValue": "",
+        "newValue": "Vaste stof",
+        "explanation": null
+      }
+    ]
+  },
+  "criticalPoint": {
+    "value": "Kritisch\r\npunt",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1482436027529,
+        "oldValue": "",
+        "newValue": "Kritisch\npunt",
+        "explanation": null
+      },
+      {
+        "userId": 170730,
+        "timestamp": 1483638427296,
+        "oldValue": "Kritisch\npunt",
+        "newValue": "Kritisch\r\npunt",
+        "explanation": null
+      },
+      {
+        "userId": 170730,
+        "timestamp": 1483796912690,
+        "oldValue": "Kritisch\r\npunt",
+        "newValue": "Kritisch\r\npunt",
+        "explanation": null
+      },
+      {
+        "userId": 170730,
+        "timestamp": 1509529300455,
+        "oldValue": "Kritisch\r\npunt",
+        "newValue": "Kritisch\r\npunt",
+        "explanation": null
+      },
+      {
+        "userId": 170730,
+        "timestamp": 1513504130786,
+        "oldValue": "Kritisch\r\npunt",
+        "newValue": "Kritisch\r\npunt",
+        "explanation": null
+      }
+    ]
+  },
+  "diatomicOxygen": {
+    "value": "Zuurstof",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1482436027529,
+        "oldValue": "",
+        "newValue": "Zuurstof",
+        "explanation": null
+      }
+    ]
+  },
+  "gas": {
+    "value": "Gas",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1482436027529,
+        "oldValue": "",
+        "newValue": "Gas",
+        "explanation": null
+      }
+    ]
+  },
+  "interaction": {
+    "value": "Interactie",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1482436027529,
+        "oldValue": "",
+        "newValue": "Interactie",
+        "explanation": null
+      }
+    ]
+  },
+  "interactionPotential": {
+    "value": "Interactiepotentiaal",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1482436027529,
+        "oldValue": "",
+        "newValue": "Interactiepotentiaal",
+        "explanation": null
+      }
+    ]
+  },
+  "interactionStrengthWithSymbol": {
+    "value": "Interactiesterkte ",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1482436027529,
+        "oldValue": "",
+        "newValue": "Interactiesterkte ",
+        "explanation": null
+      }
+    ]
+  },
+  "liquid": {
+    "value": "Vloeistof",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1482436027529,
+        "oldValue": "",
+        "newValue": "Vloeistof",
+        "explanation": null
+      }
+    ]
+  },
+  "phaseChanges": {
+    "value": "Veranderingen van fase",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1482436027529,
+        "oldValue": "",
+        "newValue": "Veranderingen van fase",
+        "explanation": null
+      }
+    ]
+  },
+  "phaseDiagram": {
+    "value": "Fasediagram",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1482436027529,
+        "oldValue": "",
+        "newValue": "Fasediagram",
+        "explanation": null
+      }
+    ]
+  },
+  "pressure": {
+    "value": "Druk",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1482436027529,
+        "oldValue": "",
+        "newValue": "Druk",
+        "explanation": null
+      }
+    ]
+  },
+  "pressureOverload": {
+    "value": "Te hoge druk!",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1482436027529,
+        "oldValue": "",
+        "newValue": "Te hoge druk!",
+        "explanation": null
+      }
+    ]
+  },
+  "projectorMode": {
+    "value": "Projecteren",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1476541596572,
+        "oldValue": "",
+        "newValue": "Projecteren",
+        "explanation": null
+      }
+    ]
+  },
+  "returnLid": {
+    "value": "Terugkeren",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1482436027529,
+        "oldValue": "",
+        "newValue": "Terugkeren",
+        "explanation": null
+      }
+    ]
+  },
+  "solid": {
+    "value": "Vaste stof",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1482436027529,
+        "oldValue": "",
+        "newValue": "Vaste stof",
+        "explanation": null
+      }
+    ]
+  },
+  "states": {
+    "value": "Toestanden",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1482436027529,
+        "oldValue": "",
+        "newValue": "Toestanden",
+        "explanation": null
+      }
+    ]
+  },
+  "states-of-matter.title": {
+    "value": "Aggregatietoestanden",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1482436027529,
+        "oldValue": "",
+        "newValue": "Aggregatietoestanden",
+        "explanation": null
+      }
+    ]
+  },
+  "temperature": {
+    "value": "Temperatuur",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1482436027529,
+        "oldValue": "",
+        "newValue": "Temperatuur",
+        "explanation": null
+      }
+    ]
+  },
   "triplePoint": {
     "value": "Tripel\r\npunt",
     "history": [
@@ -979,30 +1017,6 @@
         "timestamp": 1513504130786,
         "oldValue": "Tripel\r\npunt",
         "newValue": "Tripel\r\npunt",
-        "explanation": null
-      }
-    ]
-  },
-  "vanderwaals": {
-    "value": "(van der Waals)",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1476541596572,
-        "oldValue": "",
-        "newValue": "(van der Waals)",
-        "explanation": null
-      }
-    ]
-  },
-  "weak": {
-    "value": "zwak",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1476541596572,
-        "oldValue": "",
-        "newValue": "zwak",
         "explanation": null
       }
     ]
