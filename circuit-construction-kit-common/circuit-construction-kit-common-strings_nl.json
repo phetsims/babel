@@ -1,4 +1,28 @@
 {
+  "questionMark": {
+    "value": "?",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1509452376282,
+        "oldValue": "",
+        "newValue": "?",
+        "explanation": null
+      }
+    ]
+  },
+  "acSource": {
+    "value": "Wisselspanning",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1578144798115,
+        "oldValue": "",
+        "newValue": "Wisselspanning",
+        "explanation": null
+      }
+    ]
+  },
   "ammeter": {
     "value": "Ampéremeter",
     "history": [
@@ -24,7 +48,7 @@
     ]
   },
   "animationSpeedLimitReached": {
-    "value": "Snelheidslimiet van animatie bereikt! Snelheid van animatie beperkt tot {{percent}}% normaal.",
+    "value": "Snelheidslimiet van animatie bereikt! Snelheid van animatie beperkt tot normaal {{percent}}% .",
     "history": [
       {
         "userId": 170730,
@@ -38,6 +62,13 @@
         "timestamp": 1509528496419,
         "oldValue": "Snelheid van animatie bereikt! Snelheid van animatie beperkt tot {{percent}}% normaal.",
         "newValue": "Snelheidslimiet van animatie bereikt! Snelheid van animatie beperkt tot {{percent}}% normaal.",
+        "explanation": null
+      },
+      {
+        "userId": 170730,
+        "timestamp": 1578144798115,
+        "oldValue": "Snelheidslimiet van animatie bereikt! Snelheid van animatie beperkt tot {{percent}}% normaal.",
+        "newValue": "Snelheidslimiet van animatie bereikt! Snelheid van animatie beperkt tot normaal {{percent}}% .",
         "explanation": null
       }
     ]
@@ -123,6 +154,30 @@
       }
     ]
   },
+  "currentChart": {
+    "value": "Kaart van stroom",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1578144798115,
+        "oldValue": "",
+        "newValue": "Kaart van stroom",
+        "explanation": null
+      }
+    ]
+  },
+  "currentRating": {
+    "value": "Grootte.van stroom",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1578144798115,
+        "oldValue": "",
+        "newValue": "Grootte.van stroom",
+        "explanation": null
+      }
+    ]
+  },
   "dog": {
     "value": "Hond",
     "history": [
@@ -181,6 +236,30 @@
         "timestamp": 1509452376282,
         "oldValue": "",
         "newValue": "Gom",
+        "explanation": null
+      }
+    ]
+  },
+  "frequency": {
+    "value": "Frequentie",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1578144798115,
+        "oldValue": "",
+        "newValue": "Frequentie",
+        "explanation": null
+      }
+    ]
+  },
+  "fuse": {
+    "value": "Smeltveiligheid",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1578144798115,
+        "oldValue": "",
+        "newValue": "Smeltveiligheid",
         "explanation": null
       }
     ]
@@ -278,18 +357,6 @@
       }
     ]
   },
-  "questionMark": {
-    "value": "?",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1509452376282,
-        "oldValue": "",
-        "newValue": "?",
-        "explanation": null
-      }
-    ]
-  },
   "resistance": {
     "value": "Weerstand",
     "history": [
@@ -298,30 +365,6 @@
         "timestamp": 1509452376282,
         "oldValue": "",
         "newValue": "Weerstand",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhms": {
-    "value": "{{resistance}} ohm",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1509452376282,
-        "oldValue": "",
-        "newValue": "{{resistance}} ohm",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhmsValuePattern": {
-    "value": "{{resistance}} ohm",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1509452376282,
-        "oldValue": "",
-        "newValue": "{{resistance}} ohm",
         "explanation": null
       }
     ]
@@ -384,13 +427,20 @@
     ]
   },
   "tapCircuitElementToEdit": {
-    "value": "Klik op circuitelement om dit wijzigen",
+    "value": "Klik op component van circuit om dit te wijzigen",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1509452376282,
         "oldValue": "",
         "newValue": "Klik op circuitelement om dit wijzigen",
+        "explanation": null
+      },
+      {
+        "userId": 170730,
+        "timestamp": 1578144798115,
+        "oldValue": "Klik op circuitelement om dit wijzigen",
+        "newValue": "Klik op component van circuit om dit te wijzigen",
         "explanation": null
       }
     ]
@@ -415,6 +465,18 @@
         "timestamp": 1509452376282,
         "oldValue": "",
         "newValue": "De schakelaar is open.",
+        "explanation": null
+      }
+    ]
+  },
+  "time": {
+    "value": "Tijd",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1578144798115,
+        "oldValue": "",
+        "newValue": "Tijd",
         "explanation": null
       }
     ]
@@ -455,14 +517,14 @@
       }
     ]
   },
-  "voltageVoltsValuePattern": {
-    "value": "{{voltage}} volt",
+  "voltageChart": {
+    "value": "Kaart spanning",
     "history": [
       {
         "userId": 170730,
-        "timestamp": 1509452376282,
+        "timestamp": 1578144798115,
         "oldValue": "",
-        "newValue": "{{voltage}} volt",
+        "newValue": "Kaart spanning",
         "explanation": null
       }
     ]
@@ -513,6 +575,42 @@
         "timestamp": 1509528496420,
         "oldValue": "Weerstand van Draad",
         "newValue": "Weerstand van draad",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhmsValuePattern": {
+    "value": "{{resistance}} ohm",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1509452376282,
+        "oldValue": "",
+        "newValue": "{{resistance}} ohm",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhms": {
+    "value": "{{resistance}} ohm",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1509452376282,
+        "oldValue": "",
+        "newValue": "{{resistance}} ohm",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageVoltsValuePattern": {
+    "value": "{{voltage}} volt",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1509452376282,
+        "oldValue": "",
+        "newValue": "{{voltage}} volt",
         "explanation": null
       }
     ]
