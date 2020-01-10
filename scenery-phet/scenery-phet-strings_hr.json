@@ -12,7 +12,7 @@
     ]
   },
   "key.end": {
-    "value": "Kraj",
+    "value": "Tipka End",
     "history": [
       {
         "userId": 169574,
@@ -20,29 +20,31 @@
         "oldValue": "",
         "newValue": "Kraj",
         "explanation": null
-      }
-    ]
-  },
-  "key.enter": {
-    "value": "Tipka Enter",
-    "history": [
+      },
       {
-        "userId": 148932,
-        "timestamp": 1549142987868,
-        "oldValue": "",
-        "newValue": "Tipka Enter",
+        "userId": 641452,
+        "timestamp": 1578690889758,
+        "oldValue": "Kraj",
+        "newValue": "Tipka End",
         "explanation": null
       }
     ]
   },
   "key.esc": {
-    "value": "Esc",
+    "value": "Tipka Esc",
     "history": [
       {
         "userId": 169574,
         "timestamp": 1574528492512,
         "oldValue": "",
         "newValue": "Esc",
+        "explanation": null
+      },
+      {
+        "userId": 641452,
+        "timestamp": 1578690889758,
+        "oldValue": "Esc",
+        "newValue": "Tipka Esc",
         "explanation": null
       }
     ]
@@ -59,38 +61,21 @@
       }
     ]
   },
-  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-    "value": "Uhvati ili oslobodi {{thing}}",
-    "history": [
-      {
-        "userId": 148932,
-        "timestamp": 1549142987868,
-        "oldValue": "",
-        "newValue": "Uhvati ili oslobodi {{thing}}",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-    "value": "Uhvati ili oslobodi {{thing}}",
-    "history": [
-      {
-        "userId": 148932,
-        "timestamp": 1549142987868,
-        "oldValue": "",
-        "newValue": "Uhvati ili oslobodi {{thing}}",
-        "explanation": null
-      }
-    ]
-  },
   "key.home": {
-    "value": "Početak",
+    "value": "Tipka Home",
     "history": [
       {
         "userId": 169574,
         "timestamp": 1574528492512,
         "oldValue": "",
         "newValue": "Početak",
+        "explanation": null
+      },
+      {
+        "userId": 641452,
+        "timestamp": 1578690889758,
+        "oldValue": "Početak",
+        "newValue": "Tipka Home",
         "explanation": null
       }
     ]
@@ -108,7 +93,7 @@
     ]
   },
   "keyboardHelpDialog.moveToNextItem": {
-    "value": "Premještanje na slijedeću stavku",
+    "value": "Premještanje na slijedeću stavku{{orGroup}}",
     "history": [
       {
         "userId": 169574,
@@ -116,23 +101,18 @@
         "oldValue": "",
         "newValue": "Premještanje na slijedeću stavku",
         "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveToNextItemOrGroup": {
-    "value": "Premještanje na slijedeću stavku u grupi",
-    "history": [
+      },
       {
-        "userId": 169574,
-        "timestamp": 1574528492512,
-        "oldValue": "",
-        "newValue": "Premještanje na slijedeću stavku u grupi",
+        "userId": 641452,
+        "timestamp": 1578690889758,
+        "oldValue": "Premještanje na slijedeću stavku",
+        "newValue": "Premještanje na slijedeću stavku{{orGroup}}",
         "explanation": null
       }
     ]
   },
   "keyboardHelpDialog.moveToPreviousItem": {
-    "value": "Premještanje na prethodnu stavku",
+    "value": "Premještanje na prethodnu stavku{{orGroup}}",
     "history": [
       {
         "userId": 169574,
@@ -140,17 +120,12 @@
         "oldValue": "",
         "newValue": "Premještanje na prethodnu stavku",
         "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
-    "value": "Premještanje na prethodnu stavku u grupi",
-    "history": [
+      },
       {
-        "userId": 169574,
-        "timestamp": 1574528492512,
-        "oldValue": "",
-        "newValue": "Premještanje na prethodnu stavku u grupi",
+        "userId": 641452,
+        "timestamp": 1578690889758,
+        "oldValue": "Premještanje na prethodnu stavku",
+        "newValue": "Premještanje na prethodnu stavku{{orGroup}}",
         "explanation": null
       }
     ]
@@ -203,30 +178,6 @@
       }
     ]
   },
-  "rulerCapitalized": {
-    "value": "ravnalo",
-    "history": [
-      {
-        "userId": 169574,
-        "timestamp": 1574528492512,
-        "oldValue": "",
-        "newValue": "ravnalo",
-        "explanation": null
-      }
-    ]
-  },
-  "ruler": {
-    "value": "Ravnalo",
-    "history": [
-      {
-        "userId": 169574,
-        "timestamp": 1574528492512,
-        "oldValue": "",
-        "newValue": "Ravnalo",
-        "explanation": null
-      }
-    ]
-  },
   "key.shift": {
     "value": "Tipka Shift",
     "history": [
@@ -252,13 +203,104 @@
     ]
   },
   "key.tab": {
-    "value": "Pošaljite zapisnik unosa",
+    "value": "Tipka Tab",
     "history": [
       {
         "userId": 148932,
         "timestamp": 1549142987869,
         "oldValue": "",
         "newValue": "Pošaljite zapisnik unosa",
+        "explanation": null
+      },
+      {
+        "userId": 641452,
+        "timestamp": 1578690889758,
+        "oldValue": "Pošaljite zapisnik unosa",
+        "newValue": "Tipka Tab",
+        "explanation": null
+      }
+    ]
+  },
+  "key.enter": {
+    "value": "Tipka Enter",
+    "history": [
+      {
+        "userId": 148932,
+        "timestamp": 1549142987868,
+        "oldValue": "",
+        "newValue": "Tipka Enter",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "Uhvati ili oslobodi {{thing}}",
+    "history": [
+      {
+        "userId": 148932,
+        "timestamp": 1549142987868,
+        "oldValue": "",
+        "newValue": "Uhvati ili oslobodi {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "Uhvati ili oslobodi {{thing}}",
+    "history": [
+      {
+        "userId": 148932,
+        "timestamp": 1549142987868,
+        "oldValue": "",
+        "newValue": "Uhvati ili oslobodi {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItemOrGroup": {
+    "value": "Premještanje na slijedeću stavku u grupi",
+    "history": [
+      {
+        "userId": 169574,
+        "timestamp": 1574528492512,
+        "oldValue": "",
+        "newValue": "Premještanje na slijedeću stavku u grupi",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+    "value": "Premještanje na prethodnu stavku u grupi",
+    "history": [
+      {
+        "userId": 169574,
+        "timestamp": 1574528492512,
+        "oldValue": "",
+        "newValue": "Premještanje na prethodnu stavku u grupi",
+        "explanation": null
+      }
+    ]
+  },
+  "rulerCapitalized": {
+    "value": "ravnalo",
+    "history": [
+      {
+        "userId": 169574,
+        "timestamp": 1574528492512,
+        "oldValue": "",
+        "newValue": "ravnalo",
+        "explanation": null
+      }
+    ]
+  },
+  "ruler": {
+    "value": "Ravnalo",
+    "history": [
+      {
+        "userId": 169574,
+        "timestamp": 1574528492512,
+        "oldValue": "",
+        "newValue": "Ravnalo",
         "explanation": null
       }
     ]
