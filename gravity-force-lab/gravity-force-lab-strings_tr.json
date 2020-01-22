@@ -1,74 +1,350 @@
 {
-  "custom": {
-    "value": "Özel"
-  },
-  "readout.pattern-bodyname": {
-    "value": "{0} mass"
+  "units.meters": {
+    "value": "m",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "m",
+        "explanation": null
+      }
+    ]
   },
   "units.kg": {
-    "value": "kg"
+    "value": "kg",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "kg",
+        "explanation": null
+      }
+    ]
   },
-  "sun": {
-    "value": "Güneş"
-  },
-  "my.solar.system": {
-    "value": "Benim Güneş Sistemim"
-  },
-  "object.size.actual-size": {
-    "value": "Gerçeğe Uygun"
-  },
-  "mass-2": {
-    "value": "(m2)"
-  },
-  "units.earth.masses": {
-    "value": "Dünya Kütleleri"
-  },
-  "mass-1": {
-    "value": "(m1)"
-  },
-  "planet.control.title": {
-    "value": "Uydu"
-  },
-  "module.force-laws.name": {
-    "value": "Kuvvet Kanunları"
-  },
-  "body.name.earth": {
-    "value": "Dünya"
-  },
-  "object.size.cartoon": {
-    "value": "Karikatürize"
-  },
-  "planet": {
-    "value": "Uydu"
-  },
-  "units.light-minutes": {
-    "value": "ışık dakikası"
-  },
-  "sun.planet.controls": {
-    "value": "Ayarlar"
-  },
-  "object.size": {
-    "value": "Cisim Boyutu"
-  },
-  "related.sims": {
-    "value": "İlgili Canlandırma"
-  },
-  "units": {
-    "value": "Birimler"
-  },
-  "module.sun-planet-system.name": {
-    "value": "Güneş Sistemi"
+  "force-description-pattern-target_source": {
+    "value": "{1} 'nin {0} Uyguladığı Çekim Kuvveti ",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "{1} 'nin {0} Uyguladığı Çekim Kuvveti ",
+        "explanation": null
+      }
+    ]
   },
   "force-description-pattern-target_source_value": {
-    "value": "{0} yi {1} nin Çekim Kuvveti = {2} N"
+    "value": "{1} 'nin {0} Uyguladığı Çekim Kuvveti = {2} N",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "{1} 'nin {0} Uyguladığı Çekim Kuvveti = {2} N",
+        "explanation": null
+      }
+    ]
   },
-  "units.kilometers": {
-    "value": "kilometre"
+  "constantRadius": {
+    "value": "Sabit Yarıçap",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "Sabit Yarıçap",
+        "explanation": null
+      }
+    ]
+  },
+  "showValues": {
+    "value": "Değerleri Göster",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "Değerleri Göster",
+        "explanation": null
+      }
+    ]
+  },
+  "mass1": {
+    "value": "Kütle 1",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "Kütle 1",
+        "explanation": null
+      }
+    ]
+  },
+  "mass2": {
+    "value": "Kütle 2",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "Kütle 2",
+        "explanation": null
+      }
+    ]
   },
   "gravity-force-lab.title": {
-    "value": "Çekim Kuvveti Laboratuvarı"
+    "value": "Kütle Çekim Kuvveti Laboratuvarı",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "Kütle Çekim Kuvveti Laboratuvarı",
+        "explanation": null
+      }
+    ]
   },
-  "units.meters": {
-    "value": "m"
+  "custom": {
+    "value": "Özel",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "Özel",
+        "explanation": null
+      }
+    ]
+  },
+  "readout.pattern-bodyname": {
+    "value": "{0} mass",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "{0} mass",
+        "explanation": null
+      }
+    ]
+  },
+  "sun": {
+    "value": "Güneş",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "Güneş",
+        "explanation": null
+      }
+    ]
+  },
+  "my.solar.system": {
+    "value": "Benim Güneş Sistemim",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "Benim Güneş Sistemim",
+        "explanation": null
+      }
+    ]
+  },
+  "object.size.actual-size": {
+    "value": "Gerçeğe Uygun",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "Gerçeğe Uygun",
+        "explanation": null
+      }
+    ]
+  },
+  "mass-2": {
+    "value": "(m2)",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "(m2)",
+        "explanation": null
+      }
+    ]
+  },
+  "units.earth.masses": {
+    "value": "Dünya Kütleleri",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "Dünya Kütleleri",
+        "explanation": null
+      }
+    ]
+  },
+  "mass-1": {
+    "value": "(m1)",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "(m1)",
+        "explanation": null
+      }
+    ]
+  },
+  "planet.control.title": {
+    "value": "Uydu",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "Uydu",
+        "explanation": null
+      }
+    ]
+  },
+  "module.force-laws.name": {
+    "value": "Kuvvet Kanunları",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "Kuvvet Kanunları",
+        "explanation": null
+      }
+    ]
+  },
+  "body.name.earth": {
+    "value": "Dünya",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "Dünya",
+        "explanation": null
+      }
+    ]
+  },
+  "object.size.cartoon": {
+    "value": "Karikatürize",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "Karikatürize",
+        "explanation": null
+      }
+    ]
+  },
+  "planet": {
+    "value": "Uydu",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "Uydu",
+        "explanation": null
+      }
+    ]
+  },
+  "units.light-minutes": {
+    "value": "ışık dakikası",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "ışık dakikası",
+        "explanation": null
+      }
+    ]
+  },
+  "sun.planet.controls": {
+    "value": "Ayarlar",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "Ayarlar",
+        "explanation": null
+      }
+    ]
+  },
+  "object.size": {
+    "value": "Cisim Boyutu",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "Cisim Boyutu",
+        "explanation": null
+      }
+    ]
+  },
+  "related.sims": {
+    "value": "İlgili Canlandırma",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "İlgili Canlandırma",
+        "explanation": null
+      }
+    ]
+  },
+  "units": {
+    "value": "Birimler",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "Birimler",
+        "explanation": null
+      }
+    ]
+  },
+  "module.sun-planet-system.name": {
+    "value": "Güneş Sistemi",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "Güneş Sistemi",
+        "explanation": null
+      }
+    ]
+  },
+  "units.kilometers": {
+    "value": "kilometre",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579681301690,
+        "oldValue": "",
+        "newValue": "kilometre",
+        "explanation": null
+      }
+    ]
   }
 }
