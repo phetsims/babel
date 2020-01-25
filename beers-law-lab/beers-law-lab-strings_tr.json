@@ -1,28 +1,4 @@
 {
-  "absorbance": {
-    "value": "Soğurum",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483678009626,
-        "oldValue": "",
-        "newValue": "Soğurum",
-        "explanation": null
-      }
-    ]
-  },
-  "beers-law-lab.title": {
-    "value": "Beer's Kanunu Laboratuvarı",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483678009626,
-        "oldValue": "",
-        "newValue": "Beer's Kanunu Laboratuvarı",
-        "explanation": null
-      }
-    ]
-  },
   "cobaltChloride": {
     "value": "Kobalt klorit",
     "history": [
@@ -43,6 +19,18 @@
         "timestamp": 1483678009626,
         "oldValue": "",
         "newValue": "Kobalt (ll) nitrat",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.concentration": {
+    "value": "Derişim",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483678009626,
+        "oldValue": "",
+        "newValue": "Derişim",
         "explanation": null
       }
     ]
@@ -72,13 +60,20 @@
     ]
   },
   "drinkMix": {
-    "value": "Karışık sıvılar",
+    "value": "Sıvı karışımı",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1483678009626,
         "oldValue": "",
         "newValue": "Karışık sıvılar",
+        "explanation": null
+      },
+      {
+        "userId": 354576,
+        "timestamp": 1579971865824,
+        "oldValue": "Karışık sıvılar",
+        "newValue": "Sıvı karışımı",
         "explanation": null
       }
     ]
@@ -95,6 +90,18 @@
       }
     ]
   },
+  "units.liters": {
+    "value": "lt",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483678009626,
+        "oldValue": "",
+        "newValue": "lt",
+        "explanation": null
+      }
+    ]
+  },
   "lots": {
     "value": "çok",
     "history": [
@@ -103,6 +110,30 @@
         "timestamp": 1483678009626,
         "oldValue": "",
         "newValue": "çok",
+        "explanation": null
+      }
+    ]
+  },
+  "units.milliliters": {
+    "value": "mlt",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483678009626,
+        "oldValue": "",
+        "newValue": "mlt",
+        "explanation": null
+      }
+    ]
+  },
+  "units.molesPerLiter": {
+    "value": "mol/lt",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483678009626,
+        "oldValue": "",
+        "newValue": "mol/lt",
         "explanation": null
       }
     ]
@@ -127,18 +158,6 @@
         "timestamp": 1483678009626,
         "oldValue": "",
         "newValue": "hiç",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0soluteAmount": {
-    "value": "Çözünen Miktarı: {0} g",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483678009626,
-        "oldValue": "",
-        "newValue": "Çözünen Miktarı: {0} g",
         "explanation": null
       }
     ]
@@ -179,18 +198,6 @@
       }
     ]
   },
-  "preset": {
-    "value": "sabit",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483678009626,
-        "oldValue": "",
-        "newValue": "sabit",
-        "explanation": null
-      }
-    ]
-  },
   "removeSolute": {
     "value": "Çözüneni Çıkar",
     "history": [
@@ -204,7 +211,7 @@
     ]
   },
   "saturated": {
-    "value": "Doymuş!\"",
+    "value": "Doymuş!",
     "history": [
       {
         "userId": 354576,
@@ -212,29 +219,12 @@
         "oldValue": "",
         "newValue": "Doymuş!\"",
         "explanation": null
-      }
-    ]
-  },
-  "screen.beersLaw": {
-    "value": "Beer's Kanunu",
-    "history": [
+      },
       {
         "userId": 354576,
-        "timestamp": 1483678009626,
-        "oldValue": "",
-        "newValue": "Beer's Kanunu",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.concentration": {
-    "value": "Derişim",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483678009626,
-        "oldValue": "",
-        "newValue": "Derişim",
+        "timestamp": 1579971865824,
+        "oldValue": "Doymuş!\"",
+        "newValue": "Doymuş!",
         "explanation": null
       }
     ]
@@ -275,6 +265,18 @@
       }
     ]
   },
+  "pattern.0soluteAmount": {
+    "value": "Çözünen Miktarı: {0} g",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483678009626,
+        "oldValue": "",
+        "newValue": "Çözünen Miktarı: {0} g",
+        "explanation": null
+      }
+    ]
+  },
   "solution": {
     "value": "Çözelti",
     "history": [
@@ -283,6 +285,54 @@
         "timestamp": 1483678009626,
         "oldValue": "",
         "newValue": "Çözelti",
+        "explanation": null
+      }
+    ]
+  },
+  "absorbance": {
+    "value": "Soğurum",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483678009626,
+        "oldValue": "",
+        "newValue": "Soğurum",
+        "explanation": null
+      }
+    ]
+  },
+  "beers-law-lab.title": {
+    "value": "Beer's Kanunu Laboratuvarı",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483678009626,
+        "oldValue": "",
+        "newValue": "Beer's Kanunu Laboratuvarı",
+        "explanation": null
+      }
+    ]
+  },
+  "preset": {
+    "value": "sabit",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483678009626,
+        "oldValue": "",
+        "newValue": "sabit",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.beersLaw": {
+    "value": "Beer's Kanunu",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483678009626,
+        "oldValue": "",
+        "newValue": "Beer's Kanunu",
         "explanation": null
       }
     ]
@@ -307,42 +357,6 @@
         "timestamp": 1483678009626,
         "oldValue": "",
         "newValue": "cm",
-        "explanation": null
-      }
-    ]
-  },
-  "units.liters": {
-    "value": "lt",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483678009626,
-        "oldValue": "",
-        "newValue": "lt",
-        "explanation": null
-      }
-    ]
-  },
-  "units.milliliters": {
-    "value": "mlt",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483678009626,
-        "oldValue": "",
-        "newValue": "mlt",
-        "explanation": null
-      }
-    ]
-  },
-  "units.molesPerLiter": {
-    "value": "mol/lt",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483678009626,
-        "oldValue": "",
-        "newValue": "mol/lt",
         "explanation": null
       }
     ]
