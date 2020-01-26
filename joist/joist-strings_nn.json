@@ -35,6 +35,18 @@
       }
     ]
   },
+  "credits.contributors": {
+    "value": "Bidragsytarar: {0}",
+    "history": [
+      {
+        "userId": 536139,
+        "timestamp": 1519199606877,
+        "oldValue": "",
+        "newValue": "Bidragsytarar: {0}",
+        "explanation": null
+      }
+    ]
+  },
   "credits.title": {
     "value": "Krediteringar",
     "history": [
@@ -75,14 +87,21 @@
       }
     ]
   },
-  "done": {
-    "value": "Ferdig",
+  "menuItem.enhancedSound": {
+    "value": "Forbetra lyd",
     "history": [
       {
-        "userId": 536139,
-        "timestamp": 1578172611463,
+        "userId": 267946,
+        "timestamp": 1542624851945,
         "oldValue": "",
-        "newValue": "Ferdig",
+        "newValue": "Forbedret Lyd",
+        "explanation": null
+      },
+      {
+        "userId": 536139,
+        "timestamp": 1580076490396,
+        "oldValue": "Forbedret Lyd",
+        "newValue": "Forbetra lyd",
         "explanation": null
       }
     ]
@@ -119,6 +138,18 @@
         "timestamp": 1519199606877,
         "oldValue": "",
         "newValue": "Grafikk: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.title": {
+    "value": "Snarvegar",
+    "history": [
+      {
+        "userId": 536139,
+        "timestamp": 1519199606877,
+        "oldValue": "",
+        "newValue": "Snarvegar",
         "explanation": null
       }
     ]
@@ -255,30 +286,6 @@
       }
     ]
   },
-  "title.settings": {
-    "value": "Innstillingar",
-    "history": [
-      {
-        "userId": 536139,
-        "timestamp": 1519889077071,
-        "oldValue": "",
-        "newValue": "Innstillingar",
-        "explanation": null
-      }
-    ]
-  },
-  "showPointers": {
-    "value": "Vis peikarar",
-    "history": [
-      {
-        "userId": 536139,
-        "timestamp": 1519889077071,
-        "oldValue": "",
-        "newValue": "Vis peikarar",
-        "explanation": null
-      }
-    ]
-  },
   "credits.softwareDevelopment": {
     "value": "Programvareutvikling: {0}",
     "history": [
@@ -301,6 +308,18 @@
         "timestamp": 1539517982494,
         "oldValue": "Programutvekling: {0}",
         "newValue": "Programvareutvikling: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.soundDesign": {
+    "value": "Lyddesign: {0}",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1542624851945,
+        "oldValue": "",
+        "newValue": "Lyddesign: {0}",
         "explanation": null
       }
     ]
@@ -487,6 +506,25 @@
       }
     ]
   },
+  "keyboardShortcuts.toGetStarted": {
+    "value": "for å starta",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1542624851945,
+        "oldValue": "",
+        "newValue": "for å starte",
+        "explanation": null
+      },
+      {
+        "userId": 536139,
+        "timestamp": 1558108066581,
+        "oldValue": "for å starte",
+        "newValue": "for å starta",
+        "explanation": null
+      }
+    ]
+  },
   "credits.translation": {
     "value": "Omsetjing",
     "history": [
@@ -547,73 +585,6 @@
       }
     ]
   },
-  "credits.contributors": {
-    "value": "Bidragsytarar: {0}",
-    "history": [
-      {
-        "userId": 536139,
-        "timestamp": 1519199606877,
-        "oldValue": "",
-        "newValue": "Bidragsytarar: {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardShortcuts.title": {
-    "value": "Snarvegar",
-    "history": [
-      {
-        "userId": 536139,
-        "timestamp": 1519199606877,
-        "oldValue": "",
-        "newValue": "Snarvegar",
-        "explanation": null
-      }
-    ]
-  },
-  "menuItem.enhancedSound": {
-    "value": "Forbedret Lyd",
-    "history": [
-      {
-        "userId": 267946,
-        "timestamp": 1542624851945,
-        "oldValue": "",
-        "newValue": "Forbedret Lyd",
-        "explanation": null
-      }
-    ]
-  },
-  "credits.soundDesign": {
-    "value": "Lyddesign: {0}",
-    "history": [
-      {
-        "userId": 267946,
-        "timestamp": 1542624851945,
-        "oldValue": "",
-        "newValue": "Lyddesign: {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardShortcuts.toGetStarted": {
-    "value": "for å starta",
-    "history": [
-      {
-        "userId": 267946,
-        "timestamp": 1542624851945,
-        "oldValue": "",
-        "newValue": "for å starte",
-        "explanation": null
-      },
-      {
-        "userId": 536139,
-        "timestamp": 1558108066581,
-        "oldValue": "for å starte",
-        "newValue": "for å starta",
-        "explanation": null
-      }
-    ]
-  },
   "simTitleWithScreenNamePattern": {
     "value": "{{simName}} — {{screenName}}",
     "history": [
@@ -622,6 +593,42 @@
         "timestamp": 1519214287731,
         "oldValue": "",
         "newValue": "{{simName}} — {{screenName}}",
+        "explanation": null
+      }
+    ]
+  },
+  "done": {
+    "value": "Ferdig",
+    "history": [
+      {
+        "userId": 536139,
+        "timestamp": 1578172611463,
+        "oldValue": "",
+        "newValue": "Ferdig",
+        "explanation": null
+      }
+    ]
+  },
+  "title.settings": {
+    "value": "Innstillingar",
+    "history": [
+      {
+        "userId": 536139,
+        "timestamp": 1519889077071,
+        "oldValue": "",
+        "newValue": "Innstillingar",
+        "explanation": null
+      }
+    ]
+  },
+  "showPointers": {
+    "value": "Vis peikarar",
+    "history": [
+      {
+        "userId": 536139,
+        "timestamp": 1519889077071,
+        "oldValue": "",
+        "newValue": "Vis peikarar",
         "explanation": null
       }
     ]
