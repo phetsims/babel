@@ -1,4 +1,52 @@
 {
+  "drinkMix": {
+    "value": "Bebida mix",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541100945118,
+        "oldValue": "",
+        "newValue": "Bebida mix",
+        "explanation": null
+      }
+    ]
+  },
+  "units.mM": {
+    "value": "mM",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1580845343125,
+        "oldValue": "",
+        "newValue": "mM",
+        "explanation": null
+      }
+    ]
+  },
+  "units.uM": {
+    "value": "µM",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1580845343125,
+        "oldValue": "",
+        "newValue": "µM",
+        "explanation": null
+      }
+    ]
+  },
+  "water": {
+    "value": "água",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1580845343125,
+        "oldValue": "",
+        "newValue": "água",
+        "explanation": null
+      }
+    ]
+  },
   "cobaltChloride": {
     "value": "Cloreto de Cobalto(II)",
     "history": [
@@ -23,30 +71,6 @@
       }
     ]
   },
-  "screen.concentration": {
-    "value": "Concentração",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1541100945118,
-        "oldValue": "",
-        "newValue": "Concentração",
-        "explanation": null
-      }
-    ]
-  },
-  "concentration": {
-    "value": "Concentração",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1541100945118,
-        "oldValue": "",
-        "newValue": "Concentração",
-        "explanation": null
-      }
-    ]
-  },
   "copperSulfate": {
     "value": "Sulfato de Cobre(II)",
     "history": [
@@ -55,78 +79,6 @@
         "timestamp": 1541100945118,
         "oldValue": "",
         "newValue": "Sulfato de Cobre(II)",
-        "explanation": null
-      }
-    ]
-  },
-  "drinkMix": {
-    "value": "Bebida mix",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1541100945118,
-        "oldValue": "",
-        "newValue": "Bebida mix",
-        "explanation": null
-      }
-    ]
-  },
-  "evaporation": {
-    "value": "Evaporação",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1541100945118,
-        "oldValue": "",
-        "newValue": "Evaporação",
-        "explanation": null
-      }
-    ]
-  },
-  "units.liters": {
-    "value": "L",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1541100945118,
-        "oldValue": "",
-        "newValue": "L",
-        "explanation": null
-      }
-    ]
-  },
-  "lots": {
-    "value": "alta",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1541100945118,
-        "oldValue": "",
-        "newValue": "alta",
-        "explanation": null
-      }
-    ]
-  },
-  "units.milliliters": {
-    "value": "mL",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1541100945118,
-        "oldValue": "",
-        "newValue": "mL",
-        "explanation": null
-      }
-    ]
-  },
-  "units.molesPerLiter": {
-    "value": "mol/L",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1541100945118,
-        "oldValue": "",
-        "newValue": "mol/L",
         "explanation": null
       }
     ]
@@ -143,14 +95,26 @@
       }
     ]
   },
-  "none": {
-    "value": "nenhuma",
+  "pattern.0formula.1name": {
+    "value": "{0}: {1}",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1580845343125,
+        "oldValue": "",
+        "newValue": "{0}: {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
     "history": [
       {
         "userId": 610145,
         "timestamp": 1541100945118,
         "oldValue": "",
-        "newValue": "nenhuma",
+        "newValue": "{0} {1}",
         "explanation": null
       }
     ]
@@ -191,6 +155,234 @@
       }
     ]
   },
+  "absorbance": {
+    "value": "Absorvância",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1580845343125,
+        "oldValue": "",
+        "newValue": "Absorvância",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0percent": {
+    "value": "{0}%",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541100945118,
+        "oldValue": "",
+        "newValue": "{0}%",
+        "explanation": null
+      }
+    ]
+  },
+  "transmittance": {
+    "value": "Transmitância",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1580845343125,
+        "oldValue": "",
+        "newValue": "Transmitância",
+        "explanation": null
+      }
+    ]
+  },
+  "units.centimeters": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1580845343125,
+        "oldValue": "",
+        "newValue": "cm",
+        "explanation": null
+      }
+    ]
+  },
+  "concentration": {
+    "value": "Concentração",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541100945118,
+        "oldValue": "",
+        "newValue": "Concentração",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0label": {
+    "value": "{0}:",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541100945118,
+        "oldValue": "",
+        "newValue": "{0}:",
+        "explanation": null
+      }
+    ]
+  },
+  "solution": {
+    "value": "Solução",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541100945118,
+        "oldValue": "",
+        "newValue": "Solução",
+        "explanation": null
+      }
+    ]
+  },
+  "preset": {
+    "value": "predefinido",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1580845343125,
+        "oldValue": "",
+        "newValue": "predefinido",
+        "explanation": null
+      }
+    ]
+  },
+  "units.nm": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1580845343125,
+        "oldValue": "",
+        "newValue": "nm",
+        "explanation": null
+      }
+    ]
+  },
+  "variable": {
+    "value": "variável",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1580845343125,
+        "oldValue": "",
+        "newValue": "variável",
+        "explanation": null
+      }
+    ]
+  },
+  "wavelength": {
+    "value": "Comprimento de onda",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1580845343125,
+        "oldValue": "",
+        "newValue": "Comprimento de onda",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.beersLaw": {
+    "value": "Lei da Cerveja",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1580845343125,
+        "oldValue": "",
+        "newValue": "Lei da Cerveja",
+        "explanation": null
+      }
+    ]
+  },
+  "sodiumChloride": {
+    "value": "Cloreto de Sódio",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541100945118,
+        "oldValue": "",
+        "newValue": "Cloreto de Sódio",
+        "explanation": null
+      }
+    ]
+  },
+  "units.liters": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541100945118,
+        "oldValue": "",
+        "newValue": "L",
+        "explanation": null
+      }
+    ]
+  },
+  "units.milliliters": {
+    "value": "mL",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541100945118,
+        "oldValue": "",
+        "newValue": "mL",
+        "explanation": null
+      }
+    ]
+  },
+  "units.molesPerLiter": {
+    "value": "mol/L",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541100945118,
+        "oldValue": "",
+        "newValue": "mol/L",
+        "explanation": null
+      }
+    ]
+  },
+  "evaporation": {
+    "value": "Evaporação",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541100945118,
+        "oldValue": "",
+        "newValue": "Evaporação",
+        "explanation": null
+      }
+    ]
+  },
+  "lots": {
+    "value": "alta",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541100945118,
+        "oldValue": "",
+        "newValue": "alta",
+        "explanation": null
+      }
+    ]
+  },
+  "none": {
+    "value": "nenhuma",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541100945118,
+        "oldValue": "",
+        "newValue": "nenhuma",
+        "explanation": null
+      }
+    ]
+  },
   "removeSolute": {
     "value": "Remover Soluto",
     "history": [
@@ -215,26 +407,14 @@
       }
     ]
   },
-  "sodiumChloride": {
-    "value": "Cloreto de Sódio",
+  "pattern.0soluteAmount": {
+    "value": "Quantidade de Soluto: {0} g",
     "history": [
       {
         "userId": 610145,
         "timestamp": 1541100945118,
         "oldValue": "",
-        "newValue": "Cloreto de Sódio",
-        "explanation": null
-      }
-    ]
-  },
-  "solid": {
-    "value": "Sólido",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1541100945118,
-        "oldValue": "",
-        "newValue": "Sólido",
+        "newValue": "Quantidade de Soluto: {0} g",
         "explanation": null
       }
     ]
@@ -251,62 +431,38 @@
       }
     ]
   },
-  "pattern.0soluteAmount": {
-    "value": "Quantidade de Soluto: {0} g",
+  "solid": {
+    "value": "Sólido",
     "history": [
       {
         "userId": 610145,
         "timestamp": 1541100945118,
         "oldValue": "",
-        "newValue": "Quantidade de Soluto: {0} g",
+        "newValue": "Sólido",
         "explanation": null
       }
     ]
   },
-  "solution": {
-    "value": "Solução",
+  "screen.concentration": {
+    "value": "Concentração",
     "history": [
       {
         "userId": 610145,
         "timestamp": 1541100945118,
         "oldValue": "",
-        "newValue": "Solução",
+        "newValue": "Concentração",
         "explanation": null
       }
     ]
   },
-  "pattern.0value.1units": {
-    "value": "{0} {1}",
+  "beers-law-lab.title": {
+    "value": "Laboratório da Lei da Cerveja",
     "history": [
       {
         "userId": 610145,
-        "timestamp": 1541100945118,
+        "timestamp": 1580845343125,
         "oldValue": "",
-        "newValue": "{0} {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0percent": {
-    "value": "{0}%",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1541100945118,
-        "oldValue": "",
-        "newValue": "{0}%",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0label": {
-    "value": "{0}:",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1541100945118,
-        "oldValue": "",
-        "newValue": "{0}:",
+        "newValue": "Laboratório da Lei da Cerveja",
         "explanation": null
       }
     ]
