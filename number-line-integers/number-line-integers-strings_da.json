@@ -186,7 +186,7 @@
     ]
   },
   "debtAmount": {
-    "value": "gæld i kr. {{value}}",
+    "value": "Gæld {{value}} kr.",
     "history": [
       {
         "userId": 130982,
@@ -207,6 +207,13 @@
         "timestamp": 1581068807742,
         "oldValue": "gæld i $ {{value}}",
         "newValue": "gæld i kr. {{value}}",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1581071262755,
+        "oldValue": "gæld i kr. {{value}}",
+        "newValue": "Gæld {{value}} kr.",
         "explanation": null
       }
     ]
