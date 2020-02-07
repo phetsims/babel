@@ -141,7 +141,7 @@
     ]
   },
   "currencyUnits": {
-    "value": "$",
+    "value": "kr.",
     "history": [
       {
         "userId": 130982,
@@ -149,11 +149,18 @@
         "oldValue": "",
         "newValue": "$",
         "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1581068807742,
+        "oldValue": "$",
+        "newValue": "kr.",
+        "explanation": null
       }
     ]
   },
   "balanceAmount": {
-    "value": "opsparing i $ {{value}}",
+    "value": "Opsparing {{value}} kr.",
     "history": [
       {
         "userId": 130982,
@@ -168,11 +175,18 @@
         "oldValue": "balance i ${{value}}",
         "newValue": "opsparing i $ {{value}}",
         "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1581068807742,
+        "oldValue": "opsparing i $ {{value}}",
+        "newValue": "Opsparing {{value}} kr.",
+        "explanation": null
       }
     ]
   },
   "debtAmount": {
-    "value": "gæld i $ {{value}}",
+    "value": "gæld i kr. {{value}}",
     "history": [
       {
         "userId": 130982,
@@ -186,6 +200,13 @@
         "timestamp": 1580334066559,
         "oldValue": "gæld i ${{value}}",
         "newValue": "gæld i $ {{value}}",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1581068807742,
+        "oldValue": "gæld i $ {{value}}",
+        "newValue": "gæld i kr. {{value}}",
         "explanation": null
       }
     ]
