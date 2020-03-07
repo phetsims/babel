@@ -1,40 +1,4 @@
 {
-  "keyboardHelpDialog.adjustInLargerSteps": {
-    "value": "Regola rapidamente",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1572634820968,
-        "oldValue": "",
-        "newValue": "Regola rapidamente",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.adjustInSmallerSteps": {
-    "value": "Regola lentamente",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1572634820968,
-        "oldValue": "",
-        "newValue": "Regola lentamente",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.adjustSlider": {
-    "value": "Regolazione cursore",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1572634820968,
-        "oldValue": "",
-        "newValue": "Regolazione cursore",
-        "explanation": null
-      }
-    ]
-  },
   "keyboardHelpDialog.basicActions": {
     "value": "Azioni base",
     "history": [
@@ -114,38 +78,21 @@
       }
     ]
   },
-  "keyboardHelpDialog.jumpToMaximum": {
-    "value": "Vai al massimo",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1572634820968,
-        "oldValue": "",
-        "newValue": "Vai al massimo",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.jumpToMinimum": {
-    "value": "Vai al minimo",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1572634820968,
-        "oldValue": "",
-        "newValue": "Vai al minimo",
-        "explanation": null
-      }
-    ]
-  },
   "keyboardHelpDialog.moveBetweenItemsInAGroup": {
-    "value": "Muovi tra gli lementi del gruppo",
+    "value": "Muovi tra gli elementi del gruppo",
     "history": [
       {
         "userId": 157247,
         "timestamp": 1546181802690,
         "oldValue": "",
         "newValue": "Muovi tra gli lementi del gruppo",
+        "explanation": null
+      },
+      {
+        "userId": 157247,
+        "timestamp": 1583587627772,
+        "oldValue": "Muovi tra gli lementi del gruppo",
+        "newValue": "Muovi tra gli elementi del gruppo",
         "explanation": null
       }
     ]
@@ -260,6 +207,30 @@
       }
     ]
   },
+  "rulerCapitalized": {
+    "value": "Righello",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1572633948041,
+        "oldValue": "",
+        "newValue": "Righello",
+        "explanation": null
+      }
+    ]
+  },
+  "ruler": {
+    "value": "righello",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1572633948041,
+        "oldValue": "",
+        "newValue": "righello",
+        "explanation": null
+      }
+    ]
+  },
   "key.shift": {
     "value": "Maiuscolo",
     "history": [
@@ -268,18 +239,6 @@
         "timestamp": 1544809985143,
         "oldValue": "",
         "newValue": "Maiuscolo",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.sliderControls": {
-    "value": "Controlli del cursore",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1572634820968,
-        "oldValue": "",
-        "newValue": "Controlli del cursore",
         "explanation": null
       }
     ]
@@ -315,6 +274,18 @@
       }
     ]
   },
+  "key.toGrabOrRelease": {
+    "value": "<b>Prendere</b> o <b>Lasciare</b>",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1583587627772,
+        "oldValue": "",
+        "newValue": "<b>Prendere</b> o <b>Lasciare</b>",
+        "explanation": null
+      }
+    ]
+  },
   "keyboardHelpDialog.toggleCheckboxes": {
     "value": "Attiva/disattiva le caselle di controllo",
     "history": [
@@ -327,26 +298,74 @@
       }
     ]
   },
-  "rulerCapitalized": {
-    "value": "Righello",
+  "keyboardHelpDialog.adjustInLargerSteps": {
+    "value": "Regola rapidamente",
     "history": [
       {
         "userId": 157247,
-        "timestamp": 1572633948041,
+        "timestamp": 1572634820968,
         "oldValue": "",
-        "newValue": "Righello",
+        "newValue": "Regola rapidamente",
         "explanation": null
       }
     ]
   },
-  "ruler": {
-    "value": "righello",
+  "keyboardHelpDialog.adjustInSmallerSteps": {
+    "value": "Regola lentamente",
     "history": [
       {
         "userId": 157247,
-        "timestamp": 1572633948041,
+        "timestamp": 1572634820968,
         "oldValue": "",
-        "newValue": "righello",
+        "newValue": "Regola lentamente",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustSlider": {
+    "value": "Regolazione cursore",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1572634820968,
+        "oldValue": "",
+        "newValue": "Regolazione cursore",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMaximum": {
+    "value": "Vai al massimo",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1572634820968,
+        "oldValue": "",
+        "newValue": "Vai al massimo",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMinimum": {
+    "value": "Vai al minimo",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1572634820968,
+        "oldValue": "",
+        "newValue": "Vai al minimo",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.sliderControls": {
+    "value": "Controlli del cursore",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1572634820968,
+        "oldValue": "",
+        "newValue": "Controlli del cursore",
         "explanation": null
       }
     ]
