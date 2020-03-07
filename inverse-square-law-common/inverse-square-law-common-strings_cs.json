@@ -1,18 +1,6 @@
 {
-  "decimalNotation": {
-    "value": "Desetinná notace",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1583575652414,
-        "oldValue": "",
-        "newValue": "Desetinná notace",
-        "explanation": null
-      }
-    ]
-  },
   "forceOnObjectByOtherObjectPattern": {
-    "value": "Síla na {{thisObject}} způsobená {{otherObject}}",
+    "value": "Síla na {{thisObject}}, kterou způsobila  {{otherObject}}",
     "history": [
       {
         "userId": 315698,
@@ -27,11 +15,18 @@
         "oldValue": "Síla na {{thisObject}} vyvolaná {{otherObject}}",
         "newValue": "Síla na {{thisObject}} způsobená {{otherObject}}",
         "explanation": null
+      },
+      {
+        "userId": 315698,
+        "timestamp": 1583577303176,
+        "oldValue": "Síla na {{thisObject}} způsobená {{otherObject}}",
+        "newValue": "Síla na {{thisObject}}, kterou způsobila  {{otherObject}}",
+        "explanation": null
       }
     ]
   },
   "forceOnObjectByOtherObjectWithUnitsPattern": {
-    "value": "Síla na {{thisObject}} způsobená  {{otherObject}} = {{value}} N",
+    "value": "Síla na {{thisObject}}, kterou způsobila {{otherObject}} = {{value}} N",
     "history": [
       {
         "userId": 315698,
@@ -46,6 +41,13 @@
         "oldValue": "Síla na {{thisObject}} vyvolaná {{otherObject}} = {{value}} N",
         "newValue": "Síla na {{thisObject}} způsobená  {{otherObject}} = {{value}} N",
         "explanation": null
+      },
+      {
+        "userId": 315698,
+        "timestamp": 1583577303176,
+        "oldValue": "Síla na {{thisObject}} způsobená  {{otherObject}} = {{value}} N",
+        "newValue": "Síla na {{thisObject}}, kterou způsobila {{otherObject}} = {{value}} N",
+        "explanation": null
       }
     ]
   },
@@ -57,18 +59,6 @@
         "timestamp": 1565965222746,
         "oldValue": "",
         "newValue": "Zobrazit hodnoty",
-        "explanation": null
-      }
-    ]
-  },
-  "hidden": {
-    "value": "Skrýt",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1583575652414,
-        "oldValue": "",
-        "newValue": "Skrýt",
         "explanation": null
       }
     ]
@@ -105,6 +95,30 @@
         "timestamp": 1583575652414,
         "oldValue": "",
         "newValue": "newtony",
+        "explanation": null
+      }
+    ]
+  },
+  "decimalNotation": {
+    "value": "Desetinná notace",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1583575652414,
+        "oldValue": "",
+        "newValue": "Desetinná notace",
+        "explanation": null
+      }
+    ]
+  },
+  "hidden": {
+    "value": "Skrýt",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1583575652414,
+        "oldValue": "",
+        "newValue": "Skrýt",
         "explanation": null
       }
     ]
