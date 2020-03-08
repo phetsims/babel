@@ -1,6 +1,30 @@
 {
+  "units.centimeters": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1549003193637,
+        "oldValue": "",
+        "newValue": "cm",
+        "explanation": null
+      }
+    ]
+  },
+  "decimalNotation": {
+    "value": "소숫점 표시법",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1583640603995,
+        "oldValue": "",
+        "newValue": "소숫점 표시법",
+        "explanation": null
+      }
+    ]
+  },
   "forceOnObjectByOtherObjectPattern": {
-    "value": " {{thisObject}}에 대한{{otherObject}}의 힘 translated",
+    "value": " {{thisObject}}에 대한{{otherObject}}의 힘 ",
     "history": [
       {
         "userId": 154927,
@@ -15,11 +39,18 @@
         "oldValue": "{{otherObject}}에 의해 {{thisObject}}에 가해지는 힘",
         "newValue": " {{thisObject}}에 대한{{otherObject}}의 힘 translated",
         "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1583640603995,
+        "oldValue": " {{thisObject}}에 대한{{otherObject}}의 힘 translated",
+        "newValue": " {{thisObject}}에 대한{{otherObject}}의 힘 ",
+        "explanation": null
       }
     ]
   },
   "forceOnObjectByOtherObjectWithUnitsPattern": {
-    "value": "{{thisObject}}에 대한 {{otherObject}}의 힘 = {{value}} N translated",
+    "value": "{{thisObject}}에 대한 {{otherObject}}의 힘 = {{value}} N",
     "history": [
       {
         "userId": 154927,
@@ -34,6 +65,13 @@
         "oldValue": "{{otherObject}}에 의해 {{thisObject}}에 가해지는 힘 ={{value}}N",
         "newValue": "{{thisObject}}에 대한 {{otherObject}}의 힘 = {{value}} N translated",
         "explanation": null
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1583640603995,
+        "oldValue": "{{thisObject}}에 대한 {{otherObject}}의 힘 = {{value}} N translated",
+        "newValue": "{{thisObject}}에 대한 {{otherObject}}의 힘 = {{value}} N",
+        "explanation": null
       }
     ]
   },
@@ -45,6 +83,18 @@
         "timestamp": 1549003193637,
         "oldValue": "",
         "newValue": "힘 값",
+        "explanation": null
+      }
+    ]
+  },
+  "hidden": {
+    "value": "감춰진 값",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1583640603995,
+        "oldValue": "",
+        "newValue": "감춰진 값",
         "explanation": null
       }
     ]
@@ -85,26 +135,14 @@
       }
     ]
   },
-  "units.centimeters": {
-    "value": "cm",
+  "scientificNotation": {
+    "value": "과학적 표시법",
     "history": [
       {
         "userId": 154927,
-        "timestamp": 1549003193637,
+        "timestamp": 1583640603995,
         "oldValue": "",
-        "newValue": "cm",
-        "explanation": null
-      }
-    ]
-  },
-  "units.picometers": {
-    "value": "pm",
-    "history": [
-      {
-        "userId": 154927,
-        "timestamp": 1549003193637,
-        "oldValue": "",
-        "newValue": "pm",
+        "newValue": "과학적 표시법",
         "explanation": null
       }
     ]
@@ -117,6 +155,18 @@
         "timestamp": 1549003193637,
         "oldValue": "",
         "newValue": "{{value}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "units.picometers": {
+    "value": "pm",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1549003193637,
+        "oldValue": "",
+        "newValue": "pm",
         "explanation": null
       }
     ]
