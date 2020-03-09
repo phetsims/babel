@@ -11,50 +11,14 @@
       }
     ]
   },
-  "kilopascals": {
-    "value": "кПа",
+  "centerOfMass": {
+    "value": "Центр масс",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1568106196853,
         "oldValue": "",
-        "newValue": "кПа",
-        "explanation": null
-      }
-    ]
-  },
-  "pressure": {
-    "value": "Давление",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1568106196853,
-        "oldValue": "",
-        "newValue": "Давление",
-        "explanation": null
-      }
-    ]
-  },
-  "tAvg": {
-    "value": "T<sub>сред</sub> = {{value}}",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1568106196853,
-        "oldValue": "",
-        "newValue": "T<sub>сред</sub> = {{value}}",
-        "explanation": null
-      }
-    ]
-  },
-  "tAvgK": {
-    "value": "T<sub>сред</sub> = {{value}} K",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1568106196853,
-        "oldValue": "",
-        "newValue": "T<sub>сред</sub> = {{value}} K",
+        "newValue": "Центр масс",
         "explanation": null
       }
     ]
@@ -71,20 +35,20 @@
       }
     ]
   },
-  "centerOfMass": {
-    "value": "Центр масс",
+  "screen.diffusion": {
+    "value": "Диффузия",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1568106196853,
         "oldValue": "",
-        "newValue": "Центр масс",
+        "newValue": "Диффузия",
         "explanation": null
       }
     ]
   },
   "initialTemperatureK": {
-    "value": "Начальная температура (К)",
+    "value": "Начальная температура, К",
     "history": [
       {
         "userId": 641649,
@@ -92,17 +56,55 @@
         "oldValue": "",
         "newValue": "Начальная температура (К)",
         "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583774212930,
+        "oldValue": "Начальная температура (К)",
+        "newValue": "Начальная температура, К",
+        "explanation": null
+      }
+    ]
+  },
+  "kilopascals": {
+    "value": "кПа",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1568106196853,
+        "oldValue": "",
+        "newValue": "кПа",
+        "explanation": null
       }
     ]
   },
   "massAMU": {
-    "value": "Масса (а.е.м.)",
+    "value": "Масса, а.е.м.",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1568106196853,
         "oldValue": "",
         "newValue": "Масса (а.е.м.)",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583774212930,
+        "oldValue": "Масса (а.е.м.)",
+        "newValue": "Масса, а.е.м.",
+        "explanation": null
+      }
+    ]
+  },
+  "nanometers": {
+    "value": "нм",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1568106196853,
+        "oldValue": "",
+        "newValue": "нм",
         "explanation": null
       }
     ]
@@ -119,14 +121,76 @@
       }
     ]
   },
+  "particleFlowRate": {
+    "value": "Потоки частиц",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1568106196853,
+        "oldValue": "",
+        "newValue": "Поток частиц",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583774212930,
+        "oldValue": "Поток частиц",
+        "newValue": "Потоки частиц",
+        "explanation": null
+      }
+    ]
+  },
+  "pressure": {
+    "value": "Давление",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1568106196853,
+        "oldValue": "",
+        "newValue": "Давление",
+        "explanation": null
+      }
+    ]
+  },
+  "pressureNoise": {
+    "value": "Давление шума",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1568106196853,
+        "oldValue": "",
+        "newValue": "Давление шума",
+        "explanation": null
+      }
+    ]
+  },
+  "picoseconds": {
+    "value": "мс",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1568106196853,
+        "oldValue": "",
+        "newValue": "мс",
+        "explanation": null
+      }
+    ]
+  },
   "radiusPm": {
-    "value": "Радиус (пм)",
+    "value": "Радиус, пм",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1568106196853,
         "oldValue": "",
         "newValue": "Радиус (пм)",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583774212930,
+        "oldValue": "Радиус (пм)",
+        "newValue": "Радиус, пм",
         "explanation": null
       }
     ]
@@ -144,7 +208,7 @@
     ]
   },
   "resetDivider": {
-    "value": "Вернуть разделитель",
+    "value": "Сбросить и разделить",
     "history": [
       {
         "userId": 641649,
@@ -152,17 +216,12 @@
         "oldValue": "",
         "newValue": "Вернуть разделитель",
         "explanation": null
-      }
-    ]
-  },
-  "particleFlowRate": {
-    "value": "Поток частиц",
-    "history": [
+      },
       {
-        "userId": 641649,
-        "timestamp": 1568106196853,
-        "oldValue": "",
-        "newValue": "Поток частиц",
+        "userId": 728618,
+        "timestamp": 1583774212930,
+        "oldValue": "Вернуть разделитель",
+        "newValue": "Сбросить и разделить",
         "explanation": null
       }
     ]
@@ -191,14 +250,26 @@
       }
     ]
   },
-  "nanometers": {
-    "value": "нм",
+  "tAvg": {
+    "value": "T<sub>сред</sub> = {{value}}",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1568106196853,
         "oldValue": "",
-        "newValue": "нм",
+        "newValue": "T<sub>сред</sub> = {{value}}",
+        "explanation": null
+      }
+    ]
+  },
+  "tAvgK": {
+    "value": "T<sub>сред</sub> = {{value}} K",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1568106196853,
+        "oldValue": "",
+        "newValue": "T<sub>сред</sub> = {{value}} K",
         "explanation": null
       }
     ]
@@ -211,30 +282,6 @@
         "timestamp": 1568106196853,
         "oldValue": "",
         "newValue": "{{value}} {{units}}",
-        "explanation": null
-      }
-    ]
-  },
-  "picoseconds": {
-    "value": "мс",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1568106196853,
-        "oldValue": "",
-        "newValue": "мс",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.diffusion": {
-    "value": "Диффузия",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1568106196853,
-        "oldValue": "",
-        "newValue": "Диффузия",
         "explanation": null
       }
     ]
@@ -391,18 +438,6 @@
         "timestamp": 1568106926858,
         "oldValue": "",
         "newValue": "Изучение",
-        "explanation": null
-      }
-    ]
-  },
-  "pressureNoise": {
-    "value": "Давление шума",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1568106196853,
-        "oldValue": "",
-        "newValue": "Давление шума",
         "explanation": null
       }
     ]
