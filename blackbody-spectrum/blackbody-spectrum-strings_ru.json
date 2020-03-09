@@ -57,7 +57,7 @@
     ]
   },
   "graphValues": {
-    "value": "Значения",
+    "value": "Точка графика",
     "history": [
       {
         "userId": 641649,
@@ -65,17 +65,31 @@
         "oldValue": "",
         "newValue": "Значения",
         "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583772279958,
+        "oldValue": "Значения",
+        "newValue": "Точка графика",
+        "explanation": null
       }
     ]
   },
   "intensityUnitsLabel": {
-    "value": "{{intensity}} В/м<sup>2</sup>",
+    "value": "{{intensity}} Вт/м<sup>2</sup>",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1565322394633,
         "oldValue": "",
         "newValue": "{{intensity}} В/м<sup>2</sup>",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583772279958,
+        "oldValue": "{{intensity}} В/м<sup>2</sup>",
+        "newValue": "{{intensity}} Вт/м<sup>2</sup>",
         "explanation": null
       }
     ]
@@ -93,13 +107,20 @@
     ]
   },
   "labels": {
-    "value": "Спектр",
+    "value": "Вид излучения",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1565322394633,
         "oldValue": "",
         "newValue": "Спектр",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583772279958,
+        "oldValue": "Спектр",
+        "newValue": "Вид излучения",
         "explanation": null
       }
     ]
@@ -153,13 +174,20 @@
     ]
   },
   "wavelengthLabel": {
-    "value": "Длина волны (мкм)",
+    "value": "Длина волны, мкм",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1565322394633,
         "oldValue": "",
         "newValue": "Длина волны (мкм)",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583772279958,
+        "oldValue": "Длина волны (мкм)",
+        "newValue": "Длина волны, мкм",
         "explanation": null
       }
     ]
@@ -176,14 +204,14 @@
       }
     ]
   },
-  "spectralRadianceLabel": {
-    "value": "Спектральное излучение (МВт/м²/мкм)",
+  "spectralPowerDensityLabel": {
+    "value": "Поверхностная плотность мощности излучения, МВт/(м²⋅мкм)",
     "history": [
       {
-        "userId": 641649,
-        "timestamp": 1565322394633,
+        "userId": 728618,
+        "timestamp": 1583772279958,
         "oldValue": "",
-        "newValue": "Спектральное излучение (МВт/м²/мкм)",
+        "newValue": "Поверхностная плотность мощности излучения, МВт/(м²⋅мкм)",
         "explanation": null
       }
     ]
@@ -201,7 +229,7 @@
     ]
   },
   "ultraviolet": {
-    "value": "Уф",
+    "value": "УФ",
     "history": [
       {
         "userId": 641649,
@@ -215,6 +243,13 @@
         "timestamp": 1565330098632,
         "oldValue": "Ультрафиолетовый",
         "newValue": "Уф",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583772279958,
+        "oldValue": "Уф",
+        "newValue": "УФ",
         "explanation": null
       }
     ]
@@ -268,13 +303,32 @@
     ]
   },
   "blackbody-spectrum.title": {
-    "value": "Спектр черного тела",
+    "value": "Спектр абсолютно чёрного тела",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1565322394633,
         "oldValue": "",
         "newValue": "Спектр черного тела",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583772279958,
+        "oldValue": "Спектр черного тела",
+        "newValue": "Спектр абсолютно чёрного тела",
+        "explanation": null
+      }
+    ]
+  },
+  "spectralRadianceLabel": {
+    "value": "Спектральное излучение (МВт/м²/мкм)",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1565322394633,
+        "oldValue": "",
+        "newValue": "Спектральное излучение (МВт/м²/мкм)",
         "explanation": null
       }
     ]
