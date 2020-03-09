@@ -1,12 +1,31 @@
 {
   "capacitance": {
-    "value": "Электроемкость",
+    "value": "Электроёмкость",
     "history": [
       {
         "userId": 456246,
         "timestamp": 1541998044422,
         "oldValue": "",
         "newValue": "Электроемкость",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583785113051,
+        "oldValue": "Электроемкость",
+        "newValue": "Электроёмкость",
+        "explanation": null
+      }
+    ]
+  },
+  "picoCoulombsPattern": {
+    "value": "{{value}} пКл",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1541998044422,
+        "oldValue": "",
+        "newValue": "{{value}} пКл",
         "explanation": null
       }
     ]
@@ -23,6 +42,56 @@
       }
     ]
   },
+  "picoJoulesPattern": {
+    "value": "{{value}} пДж",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1541998044422,
+        "oldValue": "",
+        "newValue": "{{value}} пДж",
+        "explanation": null
+      }
+    ]
+  },
+  "storedEnergy": {
+    "value": "Энергия эл. поля",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1541998044422,
+        "oldValue": "",
+        "newValue": "Накопленный заряд",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583785113051,
+        "oldValue": "Накопленный заряд",
+        "newValue": "Энергия эл. поля",
+        "explanation": null
+      }
+    ]
+  },
+  "topPlateCharge": {
+    "value": "Заряд верх.пластины",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1541998044422,
+        "oldValue": "",
+        "newValue": "Заряд верхней пластины",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583785113051,
+        "oldValue": "Заряд верхней пластины",
+        "newValue": "Заряд верх.пластины",
+        "explanation": null
+      }
+    ]
+  },
   "voltsPattern": {
     "value": "{{value}} В",
     "history": [
@@ -31,18 +100,6 @@
         "timestamp": 1541998044422,
         "oldValue": "",
         "newValue": "{{value}} В",
-        "explanation": null
-      }
-    ]
-  },
-  "plateArea": {
-    "value": "Площадь пластины",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1541998044422,
-        "oldValue": "",
-        "newValue": "Площадь пластины",
         "explanation": null
       }
     ]
@@ -59,14 +116,14 @@
       }
     ]
   },
-  "separation": {
-    "value": "Расстояние",
+  "plateArea": {
+    "value": "Площадь пластины",
     "history": [
       {
         "userId": 456246,
         "timestamp": 1541998044422,
         "oldValue": "",
-        "newValue": "Расстояние",
+        "newValue": "Площадь пластины",
         "explanation": null
       }
     ]
@@ -83,6 +140,18 @@
       }
     ]
   },
+  "separation": {
+    "value": "Расстояние",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1541998044422,
+        "oldValue": "",
+        "newValue": "Расстояние",
+        "explanation": null
+      }
+    ]
+  },
   "barGraphs": {
     "value": "Линейные диаграммы",
     "history": [
@@ -95,26 +164,21 @@
       }
     ]
   },
-  "barGraph": {
-    "value": "Линейная диаграмма",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1541998044422,
-        "oldValue": "",
-        "newValue": "Линейная диаграмма",
-        "explanation": null
-      }
-    ]
-  },
   "currentDirection": {
-    "value": "Направление потока",
+    "value": "Направление движения электронов",
     "history": [
       {
         "userId": 456246,
         "timestamp": 1541998044422,
         "oldValue": "",
         "newValue": "Направление потока",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583785113051,
+        "oldValue": "Направление потока",
+        "newValue": "Направление движения электронов",
         "explanation": null
       }
     ]
@@ -175,7 +239,7 @@
     ]
   },
   "screen.capacitance": {
-    "value": "Электроемкость",
+    "value": "Электроёмкость",
     "history": [
       {
         "userId": 456246,
@@ -183,53 +247,12 @@
         "oldValue": "",
         "newValue": "Электроемкость",
         "explanation": null
-      }
-    ]
-  },
-  "topPlateCharge": {
-    "value": "Заряд верхней пластины",
-    "history": [
+      },
       {
-        "userId": 456246,
-        "timestamp": 1541998044422,
-        "oldValue": "",
-        "newValue": "Заряд верхней пластины",
-        "explanation": null
-      }
-    ]
-  },
-  "storedEnergy": {
-    "value": "Накопленный заряд",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1541998044422,
-        "oldValue": "",
-        "newValue": "Накопленный заряд",
-        "explanation": null
-      }
-    ]
-  },
-  "picoCoulombsPattern": {
-    "value": "{{value}} пКл",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1541998044422,
-        "oldValue": "",
-        "newValue": "{{value}} пКл",
-        "explanation": null
-      }
-    ]
-  },
-  "picoJoulesPattern": {
-    "value": "{{value}} пДж",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1541998044422,
-        "oldValue": "",
-        "newValue": "{{value}} пДж",
+        "userId": 728618,
+        "timestamp": 1583785113051,
+        "oldValue": "Электроемкость",
+        "newValue": "Электроёмкость",
         "explanation": null
       }
     ]
@@ -247,13 +270,32 @@
     ]
   },
   "capacitor-lab-basics.title": {
-    "value": "Емкость конденсаторов: основы",
+    "value": "Электроёмкость конденсаторов: основы",
     "history": [
       {
         "userId": 456246,
         "timestamp": 1541998044422,
         "oldValue": "",
         "newValue": "Емкость конденсаторов: основы",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583785113051,
+        "oldValue": "Емкость конденсаторов: основы",
+        "newValue": "Электроёмкость конденсаторов: основы",
+        "explanation": null
+      }
+    ]
+  },
+  "barGraph": {
+    "value": "Линейная диаграмма",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1541998044422,
+        "oldValue": "",
+        "newValue": "Линейная диаграмма",
         "explanation": null
       }
     ]
