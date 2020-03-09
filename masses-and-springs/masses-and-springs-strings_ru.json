@@ -1,40 +1,4 @@
 {
-  "questionMark": {
-    "value": "?",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1542605532751,
-        "oldValue": "",
-        "newValue": "?",
-        "explanation": null
-      }
-    ]
-  },
-  "acceleration": {
-    "value": "Вектор ускорения",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1542605532751,
-        "oldValue": "",
-        "newValue": "Вектор ускорения",
-        "explanation": null
-      }
-    ]
-  },
-  "cm": {
-    "value": "см",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1542605532751,
-        "oldValue": "",
-        "newValue": "см",
-        "explanation": null
-      }
-    ]
-  },
   "body.custom": {
     "value": "Заданная пользователем",
     "history": [
@@ -43,66 +7,6 @@
         "timestamp": 1542605532751,
         "oldValue": "",
         "newValue": "Заданная пользователем",
-        "explanation": null
-      }
-    ]
-  },
-  "damping": {
-    "value": "Поглощение колебаний",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1542605532751,
-        "oldValue": "",
-        "newValue": "Поглощение колебаний",
-        "explanation": null
-      }
-    ]
-  },
-  "dampingEqualsZero": {
-    "value": "Поглощение колебаний {{equalsZero}}",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1542605532751,
-        "oldValue": "",
-        "newValue": "Поглощение колебаний {{equalsZero}}",
-        "explanation": null
-      }
-    ]
-  },
-  "displacement": {
-    "value": "Смещение",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1542605532751,
-        "oldValue": "",
-        "newValue": "Смещение",
-        "explanation": null
-      }
-    ]
-  },
-  "eTherm": {
-    "value": "E<sub>тепла</sub>",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1542605532751,
-        "oldValue": "",
-        "newValue": "E<sub>тепла</sub>",
-        "explanation": null
-      }
-    ]
-  },
-  "eTot": {
-    "value": "Е<sub>полн.</sub>",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1542605532751,
-        "oldValue": "",
-        "newValue": "Е<sub>полн.</sub>",
         "explanation": null
       }
     ]
@@ -119,8 +23,58 @@
       }
     ]
   },
+  "body.jupiter": {
+    "value": "Юпитер",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542605532751,
+        "oldValue": "",
+        "newValue": "Юпитер",
+        "explanation": null
+      }
+    ]
+  },
+  "body.moon": {
+    "value": "Луна",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542605532751,
+        "oldValue": "",
+        "newValue": "Луна",
+        "explanation": null
+      }
+    ]
+  },
+  "body.planetX": {
+    "value": "Планета Х",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542605532751,
+        "oldValue": "",
+        "newValue": "Планета Икс",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583781783311,
+        "oldValue": "Планета Икс",
+        "newValue": "Неизвестная планета",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583783090507,
+        "oldValue": "Неизвестная планета",
+        "newValue": "Планета Х",
+        "explanation": null
+      }
+    ]
+  },
   "elasticPotentialEnergy": {
-    "value": "Потенциальная энергия упругой деформации",
+    "value": "Потенциальная энергия деформированной пружины",
     "history": [
       {
         "userId": 456246,
@@ -128,17 +82,31 @@
         "oldValue": "",
         "newValue": "Потенциальная энергия упругой деформации",
         "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583783090507,
+        "oldValue": "Потенциальная энергия упругой деформации",
+        "newValue": "Потенциальная энергия деформированной пружины",
+        "explanation": null
       }
     ]
   },
   "energyGraph": {
-    "value": "График показателей энергии",
+    "value": "График превращения видов энергии",
     "history": [
       {
         "userId": 456246,
         "timestamp": 1542605532751,
         "oldValue": "",
         "newValue": "График показателей энергии",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583783090507,
+        "oldValue": "График показателей энергии",
+        "newValue": "График превращения видов энергии",
         "explanation": null
       }
     ]
@@ -155,20 +123,27 @@
       }
     ]
   },
-  "forces": {
-    "value": "Вектор силы",
+  "eTherm": {
+    "value": "ΔU",
     "history": [
       {
         "userId": 456246,
         "timestamp": 1542605532751,
         "oldValue": "",
-        "newValue": "Вектор силы",
+        "newValue": "E<sub>тепла</sub>",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583783090507,
+        "oldValue": "E<sub>тепла</sub>",
+        "newValue": "ΔU",
         "explanation": null
       }
     ]
   },
   "gravitationalPotentialEnergy": {
-    "value": "Гравитационная (потенциальная) энергия",
+    "value": "Потенциальная энергия в поле тяжести планеты",
     "history": [
       {
         "userId": 456246,
@@ -176,48 +151,12 @@
         "oldValue": "",
         "newValue": "Гравитационная (потенциальная) энергия",
         "explanation": null
-      }
-    ]
-  },
-  "gravity": {
-    "value": "Ускорение свободного падения",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1542605532751,
-        "oldValue": "",
-        "newValue": "Гравитация",
-        "explanation": null
       },
       {
         "userId": 728618,
-        "timestamp": 1583781783311,
-        "oldValue": "Гравитация",
-        "newValue": "Ускорение свободного падения",
-        "explanation": null
-      }
-    ]
-  },
-  "heightEqualsZero": {
-    "value": "Высота = 0 м",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1542605532751,
-        "oldValue": "",
-        "newValue": "Высота = 0 м",
-        "explanation": null
-      }
-    ]
-  },
-  "body.jupiter": {
-    "value": "Юпитер",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1542605532751,
-        "oldValue": "",
-        "newValue": "Юпитер",
+        "timestamp": 1583783090507,
+        "oldValue": "Гравитационная (потенциальная) энергия",
+        "newValue": "Потенциальная энергия в поле тяжести планеты",
         "explanation": null
       }
     ]
@@ -253,21 +192,183 @@
       }
     ]
   },
-  "large": {
-    "value": "Больше",
+  "peElas": {
+    "value": "Е<sub>п деф</sub>",
     "history": [
       {
         "userId": 456246,
         "timestamp": 1542605532751,
         "oldValue": "",
-        "newValue": "Большая",
+        "newValue": "Еп<sub>(упр.деф.)</sub>",
         "explanation": null
       },
       {
+        "userId": 728618,
+        "timestamp": 1583783090507,
+        "oldValue": "Еп<sub>(упр.деф.)</sub>",
+        "newValue": "Е<sub>п деф</sub>",
+        "explanation": null
+      }
+    ]
+  },
+  "peGrav": {
+    "value": "Е<sub>п тяж</sub>",
+    "history": [
+      {
         "userId": 456246,
-        "timestamp": 1542947108054,
-        "oldValue": "Большая",
-        "newValue": "Больше",
+        "timestamp": 1542605532751,
+        "oldValue": "",
+        "newValue": "Еп<sub>(грав.)</sub>",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583783090507,
+        "oldValue": "Еп<sub>(грав.)</sub>",
+        "newValue": "Е<sub>п тяж</sub>",
+        "explanation": null
+      }
+    ]
+  },
+  "thermalEnergy": {
+    "value": "Внутренняя энергия",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542605532751,
+        "oldValue": "",
+        "newValue": "Тепловая энергия",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583783090507,
+        "oldValue": "Тепловая энергия",
+        "newValue": "Внутренняя энергия",
+        "explanation": null
+      }
+    ]
+  },
+  "totalEnergy": {
+    "value": "Полная энергия",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542605532751,
+        "oldValue": "",
+        "newValue": "Полная энергия",
+        "explanation": null
+      }
+    ]
+  },
+  "eTot": {
+    "value": "Е<sub>полн</sub>",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542605532751,
+        "oldValue": "",
+        "newValue": "Е<sub>полн.</sub>",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583783090507,
+        "oldValue": "Е<sub>полн.</sub>",
+        "newValue": "Е<sub>полн</sub>",
+        "explanation": null
+      }
+    ]
+  },
+  "massValue": {
+    "value": "{{mass}} г",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542605532751,
+        "oldValue": "",
+        "newValue": "{{mass}} g",
+        "explanation": null
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1550557730259,
+        "oldValue": "{{mass}} g",
+        "newValue": "{{mass}} г",
+        "explanation": null
+      }
+    ]
+  },
+  "questionMark": {
+    "value": "?",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542605532751,
+        "oldValue": "",
+        "newValue": "?",
+        "explanation": null
+      }
+    ]
+  },
+  "mass": {
+    "value": "Масса",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542605532751,
+        "oldValue": "",
+        "newValue": "Масса",
+        "explanation": null
+      }
+    ]
+  },
+  "cm": {
+    "value": "см",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542605532751,
+        "oldValue": "",
+        "newValue": "см",
+        "explanation": null
+      }
+    ]
+  },
+  "damping": {
+    "value": "Затухание колебаний",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542605532751,
+        "oldValue": "",
+        "newValue": "Поглощение колебаний",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583783090507,
+        "oldValue": "Поглощение колебаний",
+        "newValue": "Затухание колебаний",
+        "explanation": null
+      }
+    ]
+  },
+  "dampingEqualsZero": {
+    "value": "Коэффициент затухания {{equalsZero}}",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542605532751,
+        "oldValue": "",
+        "newValue": "Поглощение колебаний {{equalsZero}}",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583783090507,
+        "oldValue": "Поглощение колебаний {{equalsZero}}",
+        "newValue": "Коэффициент затухания {{equalsZero}}",
         "explanation": null
       }
     ]
@@ -298,20 +399,84 @@
       }
     ]
   },
-  "mass": {
-    "value": "Масса",
+  "none": {
+    "value": "Нулевая",
     "history": [
       {
         "userId": 456246,
         "timestamp": 1542605532751,
         "oldValue": "",
-        "newValue": "Масса",
+        "newValue": "Нулевое",
+        "explanation": null
+      },
+      {
+        "userId": 456246,
+        "timestamp": 1542947108054,
+        "oldValue": "Нулевое",
+        "newValue": "Нулевая",
+        "explanation": null
+      }
+    ]
+  },
+  "gravity": {
+    "value": "Сила тяжести (гравитация g)",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542605532751,
+        "oldValue": "",
+        "newValue": "Гравитация",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583781783311,
+        "oldValue": "Гравитация",
+        "newValue": "Ускорение свободного падения",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583783090507,
+        "oldValue": "Ускорение свободного падения",
+        "newValue": "Сила тяжести (гравитация g)",
+        "explanation": null
+      }
+    ]
+  },
+  "gravityValue": {
+    "value": "{{gravity}} м/с<sup>2</sup>",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542605532751,
+        "oldValue": "",
+        "newValue": "{{gravity}} м/с<sup>2</sup>",
+        "explanation": null
+      }
+    ]
+  },
+  "whatIsTheValueOfGravity": {
+    "value": "Какого значение силы тяжести?",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542605532751,
+        "oldValue": "",
+        "newValue": "Какого значение силы гравитации?",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583783090507,
+        "oldValue": "Какого значение силы гравитации?",
+        "newValue": "Какого значение силы тяжести?",
         "explanation": null
       }
     ]
   },
   "massEquilibrium": {
-    "value": "Равновесие тела",
+    "value": "Равновесие",
     "history": [
       {
         "userId": 456246,
@@ -319,17 +484,12 @@
         "oldValue": "",
         "newValue": "Равновесие тела",
         "explanation": null
-      }
-    ]
-  },
-  "body.moon": {
-    "value": "Луна",
-    "history": [
+      },
       {
-        "userId": 456246,
-        "timestamp": 1542605532751,
-        "oldValue": "",
-        "newValue": "Луна",
+        "userId": 728618,
+        "timestamp": 1583783090507,
+        "oldValue": "Равновесие тела",
+        "newValue": "Равновесие",
         "explanation": null
       }
     ]
@@ -353,8 +513,27 @@
       }
     ]
   },
+  "displacement": {
+    "value": "Смещение от...",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542605532751,
+        "oldValue": "",
+        "newValue": "Смещение",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583783090507,
+        "oldValue": "Смещение",
+        "newValue": "Смещение от...",
+        "explanation": null
+      }
+    ]
+  },
   "naturalLength": {
-    "value": "Начальная длина пружины",
+    "value": "Недеформированное положение",
     "history": [
       {
         "userId": 456246,
@@ -376,60 +555,12 @@
         "oldValue": "Изначальная длина пружины",
         "newValue": "Начальная длина пружины",
         "explanation": null
-      }
-    ]
-  },
-  "netForce": {
-    "value": "Вектор результирующей силы",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1542605532751,
-        "oldValue": "",
-        "newValue": "Вектор результирующей силы",
-        "explanation": null
-      }
-    ]
-  },
-  "none": {
-    "value": "Нулевая",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1542605532751,
-        "oldValue": "",
-        "newValue": "Нулевое",
-        "explanation": null
       },
       {
-        "userId": 456246,
-        "timestamp": 1542947108054,
-        "oldValue": "Нулевое",
-        "newValue": "Нулевая",
-        "explanation": null
-      }
-    ]
-  },
-  "peElas": {
-    "value": "Еп<sub>(упр.деф.)</sub>",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1542605532751,
-        "oldValue": "",
-        "newValue": "Еп<sub>(упр.деф.)</sub>",
-        "explanation": null
-      }
-    ]
-  },
-  "peGrav": {
-    "value": "Еп<sub>(грав.)</sub>",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1542605532751,
-        "oldValue": "",
-        "newValue": "Еп<sub>(грав.)</sub>",
+        "userId": 728618,
+        "timestamp": 1583783090507,
+        "oldValue": "Начальная длина пружины",
+        "newValue": "Недеформированное положение",
         "explanation": null
       }
     ]
@@ -453,21 +584,52 @@
       }
     ]
   },
-  "body.planetX": {
-    "value": "Неизвестная планета",
+  "springConstant": {
+    "value": "Жесткость пружины {{spring}}",
     "history": [
       {
         "userId": 456246,
         "timestamp": 1542605532751,
         "oldValue": "",
-        "newValue": "Планета Икс",
+        "newValue": "Жесткость пружины {{spring}}",
+        "explanation": null
+      }
+    ]
+  },
+  "heightEqualsZero": {
+    "value": "Нулевой уровень высоты",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542605532751,
+        "oldValue": "",
+        "newValue": "Высота = 0 м",
         "explanation": null
       },
       {
         "userId": 728618,
-        "timestamp": 1583781783311,
-        "oldValue": "Планета Икс",
-        "newValue": "Неизвестная планета",
+        "timestamp": 1583783090507,
+        "oldValue": "Высота = 0 м",
+        "newValue": "Нулевой уровень высоты",
+        "explanation": null
+      }
+    ]
+  },
+  "large": {
+    "value": "Больше",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542605532751,
+        "oldValue": "",
+        "newValue": "Большая",
+        "explanation": null
+      },
+      {
+        "userId": 456246,
+        "timestamp": 1542947108054,
+        "oldValue": "Большая",
+        "newValue": "Больше",
         "explanation": null
       }
     ]
@@ -487,133 +649,6 @@
         "timestamp": 1542947108054,
         "oldValue": "Маленькая",
         "newValue": "Меньше",
-        "explanation": null
-      }
-    ]
-  },
-  "spring": {
-    "value": "Сила упругости",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1542605532751,
-        "oldValue": "",
-        "newValue": "Сила упругости",
-        "explanation": null
-      }
-    ]
-  },
-  "springConstantPattern": {
-    "value": "Постоянная пружины {{spring}}",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1554262693620,
-        "oldValue": "",
-        "newValue": "Постоянная пружины {{spring}}",
-        "explanation": null
-      }
-    ]
-  },
-  "springStrength": {
-    "value": "Жесткость пружины {{spring}}",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1554262693620,
-        "oldValue": "",
-        "newValue": "Жесткость пружины {{spring}}",
-        "explanation": null
-      }
-    ]
-  },
-  "thermalEnergy": {
-    "value": "Тепловая энергия",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1542605532751,
-        "oldValue": "",
-        "newValue": "Тепловая энергия",
-        "explanation": null
-      }
-    ]
-  },
-  "totalEnergy": {
-    "value": "Полная энергия",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1542605532751,
-        "oldValue": "",
-        "newValue": "Полная энергия",
-        "explanation": null
-      }
-    ]
-  },
-  "velocity": {
-    "value": "Вектор скорости",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1542605532751,
-        "oldValue": "",
-        "newValue": "Вектор скорости",
-        "explanation": null
-      }
-    ]
-  },
-  "whatIsTheValueOfGravity": {
-    "value": "Какого значение силы гравитации?",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1542605532751,
-        "oldValue": "",
-        "newValue": "Какого значение силы гравитации?",
-        "explanation": null
-      }
-    ]
-  },
-  "gravityValue": {
-    "value": "{{gravity}} м/с<sup>2</sup>",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1542605532751,
-        "oldValue": "",
-        "newValue": "{{gravity}} м/с<sup>2</sup>",
-        "explanation": null
-      }
-    ]
-  },
-  "massValue": {
-    "value": "{{mass}} г",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1542605532751,
-        "oldValue": "",
-        "newValue": "{{mass}} g",
-        "explanation": null
-      },
-      {
-        "userId": 641649,
-        "timestamp": 1550557730259,
-        "oldValue": "{{mass}} g",
-        "newValue": "{{mass}} г",
-        "explanation": null
-      }
-    ]
-  },
-  "springConstant": {
-    "value": "Жесткость пружины {{spring}}",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1542605532751,
-        "oldValue": "",
-        "newValue": "Жесткость пружины {{spring}}",
         "explanation": null
       }
     ]
@@ -714,6 +749,66 @@
       }
     ]
   },
+  "acceleration": {
+    "value": "Вектор ускорения",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542605532751,
+        "oldValue": "",
+        "newValue": "Вектор ускорения",
+        "explanation": null
+      }
+    ]
+  },
+  "forces": {
+    "value": "Вектор силы",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542605532751,
+        "oldValue": "",
+        "newValue": "Вектор силы",
+        "explanation": null
+      }
+    ]
+  },
+  "netForce": {
+    "value": "Вектор результирующей силы",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542605532751,
+        "oldValue": "",
+        "newValue": "Вектор результирующей силы",
+        "explanation": null
+      }
+    ]
+  },
+  "spring": {
+    "value": "Сила упругости",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542605532751,
+        "oldValue": "",
+        "newValue": "Сила упругости",
+        "explanation": null
+      }
+    ]
+  },
+  "velocity": {
+    "value": "Вектор скорости",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1542605532751,
+        "oldValue": "",
+        "newValue": "Вектор скорости",
+        "explanation": null
+      }
+    ]
+  },
   "screen.lab": {
     "value": "Лаборатория",
     "history": [
@@ -739,7 +834,7 @@
     ]
   },
   "masses-and-springs.title": {
-    "value": "Пружинный маятник",
+    "value": "Колебания тела на пружине",
     "history": [
       {
         "userId": 456246,
@@ -753,6 +848,37 @@
         "timestamp": 1554263171325,
         "oldValue": "Тело, подвешенное на пружине",
         "newValue": "Пружинный маятник",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583783090507,
+        "oldValue": "Пружинный маятник",
+        "newValue": "Колебания тела на пружине",
+        "explanation": null
+      }
+    ]
+  },
+  "springConstantPattern": {
+    "value": "Постоянная пружины {{spring}}",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1554262693620,
+        "oldValue": "",
+        "newValue": "Постоянная пружины {{spring}}",
+        "explanation": null
+      }
+    ]
+  },
+  "springStrength": {
+    "value": "Жесткость пружины {{spring}}",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1554262693620,
+        "oldValue": "",
+        "newValue": "Жесткость пружины {{spring}}",
         "explanation": null
       }
     ]
