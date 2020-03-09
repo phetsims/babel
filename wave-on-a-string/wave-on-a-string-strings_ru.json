@@ -1,12 +1,55 @@
 {
-  "amplitude": {
-    "value": "Амплитуда",
+  "rulers": {
+    "value": "Линейки",
     "history": [
       {
         "userId": 456246,
         "timestamp": 1501130140119,
         "oldValue": "",
-        "newValue": "Амплитуда",
+        "newValue": "Шкалы",
+        "explanation": null
+      },
+      {
+        "userId": 456246,
+        "timestamp": 1501561230823,
+        "oldValue": "Шкалы",
+        "newValue": "Линейки",
+        "explanation": null
+      }
+    ]
+  },
+  "timer": {
+    "value": "Таймер",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1501130140119,
+        "oldValue": "",
+        "newValue": "Таймер",
+        "explanation": null
+      }
+    ]
+  },
+  "referenceLine": {
+    "value": "Направляющая",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1501130140119,
+        "oldValue": "",
+        "newValue": "Направляющая",
+        "explanation": null
+      }
+    ]
+  },
+  "tension": {
+    "value": "Натяжение",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1501130140119,
+        "oldValue": "",
+        "newValue": "Натяжение",
         "explanation": null
       }
     ]
@@ -19,106 +62,6 @@
         "timestamp": 1501130140119,
         "oldValue": "",
         "newValue": "Затухание",
-        "explanation": null
-      }
-    ]
-  },
-  "fixedEnd": {
-    "value": "Закрепленный конец",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1501130140119,
-        "oldValue": "",
-        "newValue": "Закрепленный конец",
-        "explanation": null
-      }
-    ]
-  },
-  "frequency": {
-    "value": "Частота",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1501130140119,
-        "oldValue": "",
-        "newValue": "Частота",
-        "explanation": null
-      }
-    ]
-  },
-  "hideHelp": {
-    "value": "Скрыть Help",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1501130140120,
-        "oldValue": "",
-        "newValue": "Скрыть Help",
-        "explanation": null
-      }
-    ]
-  },
-  "high": {
-    "value": "Больше",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1501130140119,
-        "oldValue": "",
-        "newValue": "Высокое",
-        "explanation": null
-      },
-      {
-        "userId": 456246,
-        "timestamp": 1501561230824,
-        "oldValue": "Высокое",
-        "newValue": "Высокая",
-        "explanation": null
-      },
-      {
-        "userId": 456246,
-        "timestamp": 1502179867286,
-        "oldValue": "Высокая",
-        "newValue": "Больше",
-        "explanation": null
-      }
-    ]
-  },
-  "looseEnd": {
-    "value": "Свободный конец",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1501130140119,
-        "oldValue": "",
-        "newValue": "Свободный конец",
-        "explanation": null
-      }
-    ]
-  },
-  "lots": {
-    "value": "Сильное",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1501130140119,
-        "oldValue": "",
-        "newValue": "Максимальное",
-        "explanation": null
-      },
-      {
-        "userId": 456246,
-        "timestamp": 1501561230824,
-        "oldValue": "Максимальное",
-        "newValue": "Много",
-        "explanation": null
-      },
-      {
-        "userId": 456246,
-        "timestamp": 1502179867286,
-        "oldValue": "Много",
-        "newValue": "Сильное",
         "explanation": null
       }
     ]
@@ -149,26 +92,28 @@
       }
     ]
   },
-  "manual": {
-    "value": "Вручную",
+  "high": {
+    "value": "Больше",
     "history": [
       {
         "userId": 456246,
         "timestamp": 1501130140119,
         "oldValue": "",
-        "newValue": "Вручную",
+        "newValue": "Высокое",
         "explanation": null
-      }
-    ]
-  },
-  "noEnd": {
-    "value": "Без конца",
-    "history": [
+      },
       {
         "userId": 456246,
-        "timestamp": 1501130140119,
-        "oldValue": "",
-        "newValue": "Без конца",
+        "timestamp": 1501561230824,
+        "oldValue": "Высокое",
+        "newValue": "Высокая",
+        "explanation": null
+      },
+      {
+        "userId": 456246,
+        "timestamp": 1502179867286,
+        "oldValue": "Высокая",
+        "newValue": "Больше",
         "explanation": null
       }
     ]
@@ -192,26 +137,40 @@
       }
     ]
   },
-  "oscillate": {
-    "value": "Колебания",
+  "lots": {
+    "value": "Сильное",
     "history": [
       {
         "userId": 456246,
         "timestamp": 1501130140119,
         "oldValue": "",
-        "newValue": "Колебания",
+        "newValue": "Максимальное",
+        "explanation": null
+      },
+      {
+        "userId": 456246,
+        "timestamp": 1501561230824,
+        "oldValue": "Максимальное",
+        "newValue": "Много",
+        "explanation": null
+      },
+      {
+        "userId": 456246,
+        "timestamp": 1502179867286,
+        "oldValue": "Много",
+        "newValue": "Сильное",
         "explanation": null
       }
     ]
   },
-  "patternValueUnitCm": {
-    "value": "{0} см",
+  "frequency": {
+    "value": "Частота",
     "history": [
       {
         "userId": 456246,
         "timestamp": 1501130140119,
         "oldValue": "",
-        "newValue": "{0} см",
+        "newValue": "Частота",
         "explanation": null
       }
     ]
@@ -228,6 +187,25 @@
       }
     ]
   },
+  "pulseWidth": {
+    "value": "Длительность импульса",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1501130140119,
+        "oldValue": "",
+        "newValue": "Ширина импульса",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583774924094,
+        "oldValue": "Ширина импульса",
+        "newValue": "Длительность импульса",
+        "explanation": null
+      }
+    ]
+  },
   "patternValueUnitS": {
     "value": "{0} с",
     "history": [
@@ -236,6 +214,202 @@
         "timestamp": 1501130140119,
         "oldValue": "",
         "newValue": "{0} с",
+        "explanation": null
+      }
+    ]
+  },
+  "amplitude": {
+    "value": "Амплитуда",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1501130140119,
+        "oldValue": "",
+        "newValue": "Амплитуда",
+        "explanation": null
+      }
+    ]
+  },
+  "patternValueUnitCm": {
+    "value": "{0} см",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1501130140119,
+        "oldValue": "",
+        "newValue": "{0} см",
+        "explanation": null
+      }
+    ]
+  },
+  "restart": {
+    "value": "Исходное положение",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1501130140119,
+        "oldValue": "",
+        "newValue": "Исходное положение",
+        "explanation": null
+      }
+    ]
+  },
+  "speedSlow": {
+    "value": "Медленный режим",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1501130140119,
+        "oldValue": "",
+        "newValue": "Замедленный режим",
+        "explanation": null
+      },
+      {
+        "userId": 456246,
+        "timestamp": 1501561230824,
+        "oldValue": "Замедленный режим",
+        "newValue": "Замедленное движение",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583774924094,
+        "oldValue": "Замедленное движение",
+        "newValue": "Медленный режим",
+        "explanation": null
+      }
+    ]
+  },
+  "speedNormal": {
+    "value": "Обычный режим",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1501130140119,
+        "oldValue": "",
+        "newValue": "Обычный режим",
+        "explanation": null
+      }
+    ]
+  },
+  "manual": {
+    "value": "Вручную",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1501130140119,
+        "oldValue": "",
+        "newValue": "Вручную",
+        "explanation": null
+      }
+    ]
+  },
+  "oscillate": {
+    "value": "Колебания",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1501130140119,
+        "oldValue": "",
+        "newValue": "Колебания",
+        "explanation": null
+      }
+    ]
+  },
+  "pulse": {
+    "value": "Импульс",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1501130140119,
+        "oldValue": "",
+        "newValue": "Импульс",
+        "explanation": null
+      }
+    ]
+  },
+  "fixedEnd": {
+    "value": "Закрепленный конец",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1501130140119,
+        "oldValue": "",
+        "newValue": "Закрепленный конец",
+        "explanation": null
+      }
+    ]
+  },
+  "looseEnd": {
+    "value": "Свободный конец",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1501130140119,
+        "oldValue": "",
+        "newValue": "Свободный конец",
+        "explanation": null
+      }
+    ]
+  },
+  "noEnd": {
+    "value": "Без конца",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1501130140119,
+        "oldValue": "",
+        "newValue": "Без конца",
+        "explanation": null
+      }
+    ]
+  },
+  "unitCm": {
+    "value": "см",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1501130140119,
+        "oldValue": "",
+        "newValue": "см",
+        "explanation": null
+      }
+    ]
+  },
+  "wave-on-a-string.title": {
+    "value": "Волна из бус на нити",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1501130140119,
+        "oldValue": "",
+        "newValue": "Механическая волна на примере колебаний связки бус",
+        "explanation": null
+      },
+      {
+        "userId": 456246,
+        "timestamp": 1502179867286,
+        "oldValue": "Механическая волна на примере колебаний связки бус",
+        "newValue": "Волна на связке бус",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583774924094,
+        "oldValue": "Волна на связке бус",
+        "newValue": "Волна из бус на нити",
+        "explanation": null
+      }
+    ]
+  },
+  "hideHelp": {
+    "value": "Скрыть Help",
+    "history": [
+      {
+        "userId": 456246,
+        "timestamp": 1501130140120,
+        "oldValue": "",
+        "newValue": "Скрыть Help",
         "explanation": null
       }
     ]
@@ -264,18 +438,6 @@
       }
     ]
   },
-  "pulse": {
-    "value": "Импульс",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1501130140119,
-        "oldValue": "",
-        "newValue": "Импульс",
-        "explanation": null
-      }
-    ]
-  },
   "pulse2": {
     "value": "Импульс",
     "history": [
@@ -288,18 +450,6 @@
       }
     ]
   },
-  "pulseWidth": {
-    "value": "Ширина импульса",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1501130140119,
-        "oldValue": "",
-        "newValue": "Ширина импульса",
-        "explanation": null
-      }
-    ]
-  },
   "refLineHelp": {
     "value": "Подвижная линия отсчета",
     "history": [
@@ -308,18 +458,6 @@
         "timestamp": 1501130140120,
         "oldValue": "",
         "newValue": "Подвижная линия отсчета",
-        "explanation": null
-      }
-    ]
-  },
-  "referenceLine": {
-    "value": "Направляющая",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1501130140119,
-        "oldValue": "",
-        "newValue": "Направляющая",
         "explanation": null
       }
     ]
@@ -348,18 +486,6 @@
       }
     ]
   },
-  "restart": {
-    "value": "Исходное положение",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1501130140119,
-        "oldValue": "",
-        "newValue": "Исходное положение",
-        "explanation": null
-      }
-    ]
-  },
   "rulerHelp": {
     "value": "подвижная линейка",
     "history": [
@@ -372,25 +498,6 @@
       }
     ]
   },
-  "rulers": {
-    "value": "Линейки",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1501130140119,
-        "oldValue": "",
-        "newValue": "Шкалы",
-        "explanation": null
-      },
-      {
-        "userId": 456246,
-        "timestamp": 1501561230823,
-        "oldValue": "Шкалы",
-        "newValue": "Линейки",
-        "explanation": null
-      }
-    ]
-  },
   "showHelp": {
     "value": "Показать Help",
     "history": [
@@ -399,37 +506,6 @@
         "timestamp": 1501130140120,
         "oldValue": "",
         "newValue": "Показать Help",
-        "explanation": null
-      }
-    ]
-  },
-  "speedNormal": {
-    "value": "Обычный режим",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1501130140119,
-        "oldValue": "",
-        "newValue": "Обычный режим",
-        "explanation": null
-      }
-    ]
-  },
-  "speedSlow": {
-    "value": "Замедленное движение",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1501130140119,
-        "oldValue": "",
-        "newValue": "Замедленный режим",
-        "explanation": null
-      },
-      {
-        "userId": 456246,
-        "timestamp": 1501561230824,
-        "oldValue": "Замедленный режим",
-        "newValue": "Замедленное движение",
         "explanation": null
       }
     ]
@@ -458,30 +534,6 @@
       }
     ]
   },
-  "tension": {
-    "value": "Натяжение",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1501130140119,
-        "oldValue": "",
-        "newValue": "Натяжение",
-        "explanation": null
-      }
-    ]
-  },
-  "timer": {
-    "value": "Таймер",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1501130140119,
-        "oldValue": "",
-        "newValue": "Таймер",
-        "explanation": null
-      }
-    ]
-  },
   "timerHelp": {
     "value": "подвижный таймер",
     "history": [
@@ -490,37 +542,6 @@
         "timestamp": 1501130140120,
         "oldValue": "",
         "newValue": "подвижный таймер",
-        "explanation": null
-      }
-    ]
-  },
-  "unitCm": {
-    "value": "см",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1501130140119,
-        "oldValue": "",
-        "newValue": "см",
-        "explanation": null
-      }
-    ]
-  },
-  "wave-on-a-string.title": {
-    "value": "Волна на связке бус",
-    "history": [
-      {
-        "userId": 456246,
-        "timestamp": 1501130140119,
-        "oldValue": "",
-        "newValue": "Механическая волна на примере колебаний связки бус",
-        "explanation": null
-      },
-      {
-        "userId": 456246,
-        "timestamp": 1502179867286,
-        "oldValue": "Механическая волна на примере колебаний связки бус",
-        "newValue": "Волна на связке бус",
         "explanation": null
       }
     ]
