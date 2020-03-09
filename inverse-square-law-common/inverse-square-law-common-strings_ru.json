@@ -1,6 +1,30 @@
 {
+  "units.centimeters": {
+    "value": "см",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1550547079264,
+        "oldValue": "",
+        "newValue": "см",
+        "explanation": null
+      }
+    ]
+  },
+  "decimalNotation": {
+    "value": "Десятичный вид",
+    "history": [
+      {
+        "userId": 728618,
+        "timestamp": 1583770938374,
+        "oldValue": "",
+        "newValue": "Десятичный вид",
+        "explanation": null
+      }
+    ]
+  },
   "forceOnObjectByOtherObjectPattern": {
-    "value": "Сила, действующая со стороны {{thisObject}} на {{otherObject}}",
+    "value": "Сила, действующая на {{thisObject}}<br>со стороны {{otherObject}}",
     "history": [
       {
         "userId": 641649,
@@ -15,11 +39,18 @@
         "oldValue": "Воздействие на {{thisObject}} объектом {{otherObject}}",
         "newValue": "Сила, действующая со стороны {{thisObject}} на {{otherObject}}",
         "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583770938374,
+        "oldValue": "Сила, действующая со стороны {{thisObject}} на {{otherObject}}",
+        "newValue": "Сила, действующая на {{thisObject}}<br>со стороны {{otherObject}}",
+        "explanation": null
       }
     ]
   },
   "forceOnObjectByOtherObjectWithUnitsPattern": {
-    "value": "Сила, действующая со стороны {{thisObject}} на {{otherObject}} = {{value}} Н",
+    "value": "Сила, действующая на {{thisObject}} со стороны {{otherObject}}<br>равна  {{value}} Н",
     "history": [
       {
         "userId": 641649,
@@ -33,6 +64,13 @@
         "timestamp": 1574647939938,
         "oldValue": "Воздействие на {{thisObject}} объектом {{otherObject}} = {{value}} Н",
         "newValue": "Сила, действующая со стороны {{thisObject}} на {{otherObject}} = {{value}} Н",
+        "explanation": null
+      },
+      {
+        "userId": 728618,
+        "timestamp": 1583770938374,
+        "oldValue": "Сила, действующая со стороны {{thisObject}} на {{otherObject}} = {{value}} Н",
+        "newValue": "Сила, действующая на {{thisObject}} со стороны {{otherObject}}<br>равна  {{value}} Н",
         "explanation": null
       }
     ]
@@ -52,6 +90,18 @@
         "timestamp": 1574647939938,
         "oldValue": "Значение силы",
         "newValue": "Значения сил",
+        "explanation": null
+      }
+    ]
+  },
+  "hidden": {
+    "value": "Скрыть",
+    "history": [
+      {
+        "userId": 728618,
+        "timestamp": 1583770938374,
+        "oldValue": "",
+        "newValue": "Скрыть",
         "explanation": null
       }
     ]
@@ -92,14 +142,26 @@
       }
     ]
   },
-  "units.centimeters": {
-    "value": "см",
+  "scientificNotation": {
+    "value": "Стандартный вид",
     "history": [
       {
-        "userId": 641649,
-        "timestamp": 1550547079264,
+        "userId": 728618,
+        "timestamp": 1583770938374,
         "oldValue": "",
-        "newValue": "см",
+        "newValue": "Стандартный вид",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern_0value_1units": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 728618,
+        "timestamp": 1583770938374,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}",
         "explanation": null
       }
     ]
