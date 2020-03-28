@@ -11,6 +11,25 @@
       }
     ]
   },
+  "picoCoulombsPattern": {
+    "value": "{{value}} pKl",
+    "history": [
+      {
+        "userId": 661982,
+        "timestamp": 1554922427351,
+        "oldValue": "",
+        "newValue": "{{value}} pC",
+        "explanation": null
+      },
+      {
+        "userId": 661982,
+        "timestamp": 1554927473641,
+        "oldValue": "{{value}} pC",
+        "newValue": "{{value}} pKl",
+        "explanation": null
+      }
+    ]
+  },
   "picoFaradsPattern": {
     "value": "{{value}} pF",
     "history": [
@@ -19,6 +38,42 @@
         "timestamp": 1554922427351,
         "oldValue": "",
         "newValue": "{{value}} pF",
+        "explanation": null
+      }
+    ]
+  },
+  "picoJoulesPattern": {
+    "value": "{{value}} pJ",
+    "history": [
+      {
+        "userId": 661982,
+        "timestamp": 1554922427351,
+        "oldValue": "",
+        "newValue": "{{value}} pJ",
+        "explanation": null
+      }
+    ]
+  },
+  "storedEnergy": {
+    "value": "Sahənin enerjisi",
+    "history": [
+      {
+        "userId": 661982,
+        "timestamp": 1554922427351,
+        "oldValue": "",
+        "newValue": "Sahənin enerjisi",
+        "explanation": null
+      }
+    ]
+  },
+  "topPlateCharge": {
+    "value": "Yuxarı lövhənin yükü",
+    "history": [
+      {
+        "userId": 661982,
+        "timestamp": 1554922427351,
+        "oldValue": "",
+        "newValue": "Yuxarı lövhənin yükü",
         "explanation": null
       }
     ]
@@ -35,18 +90,6 @@
       }
     ]
   },
-  "plateArea": {
-    "value": "Lövhələrin sahəsi",
-    "history": [
-      {
-        "userId": 661982,
-        "timestamp": 1554922427351,
-        "oldValue": "",
-        "newValue": "Lövhələrin sahəsi",
-        "explanation": null
-      }
-    ]
-  },
   "millimetersSquaredPattern": {
     "value": "{{value}} mm<sup>2</sup>",
     "history": [
@@ -59,14 +102,14 @@
       }
     ]
   },
-  "separation": {
-    "value": "Lövhələrarası məsafə",
+  "plateArea": {
+    "value": "Lövhələrin sahəsi",
     "history": [
       {
         "userId": 661982,
         "timestamp": 1554922427351,
         "oldValue": "",
-        "newValue": "Lövhələrarası məsafə",
+        "newValue": "Lövhələrin sahəsi",
         "explanation": null
       }
     ]
@@ -83,6 +126,18 @@
       }
     ]
   },
+  "separation": {
+    "value": "Lövhələrarası məsafə",
+    "history": [
+      {
+        "userId": 661982,
+        "timestamp": 1554922427351,
+        "oldValue": "",
+        "newValue": "Lövhələrarası məsafə",
+        "explanation": null
+      }
+    ]
+  },
   "barGraphs": {
     "value": "Qrafiklər",
     "history": [
@@ -91,18 +146,6 @@
         "timestamp": 1554922427351,
         "oldValue": "",
         "newValue": "Qrafiklər",
-        "explanation": null
-      }
-    ]
-  },
-  "barGraph": {
-    "value": "Qrafik çubuğu",
-    "history": [
-      {
-        "userId": 661982,
-        "timestamp": 1554922427351,
-        "oldValue": "",
-        "newValue": "Qrafik çubuğu",
         "explanation": null
       }
     ]
@@ -179,61 +222,6 @@
       }
     ]
   },
-  "topPlateCharge": {
-    "value": "Yuxarı lövhənin yükü",
-    "history": [
-      {
-        "userId": 661982,
-        "timestamp": 1554922427351,
-        "oldValue": "",
-        "newValue": "Yuxarı lövhənin yükü",
-        "explanation": null
-      }
-    ]
-  },
-  "storedEnergy": {
-    "value": "Sahənin enerjisi",
-    "history": [
-      {
-        "userId": 661982,
-        "timestamp": 1554922427351,
-        "oldValue": "",
-        "newValue": "Sahənin enerjisi",
-        "explanation": null
-      }
-    ]
-  },
-  "picoCoulombsPattern": {
-    "value": "{{value}} pKl",
-    "history": [
-      {
-        "userId": 661982,
-        "timestamp": 1554922427351,
-        "oldValue": "",
-        "newValue": "{{value}} pC",
-        "explanation": null
-      },
-      {
-        "userId": 661982,
-        "timestamp": 1554927473641,
-        "oldValue": "{{value}} pC",
-        "newValue": "{{value}} pKl",
-        "explanation": null
-      }
-    ]
-  },
-  "picoJoulesPattern": {
-    "value": "{{value}} pJ",
-    "history": [
-      {
-        "userId": 661982,
-        "timestamp": 1554922427351,
-        "oldValue": "",
-        "newValue": "{{value}} pJ",
-        "explanation": null
-      }
-    ]
-  },
   "screen.lightBulb": {
     "value": "Lampa",
     "history": [
@@ -247,13 +235,32 @@
     ]
   },
   "capacitor-lab-basics.title": {
-    "value": "Kondensator labarotoriyası ",
+    "value": "Kondensator laboratoriyası ",
     "history": [
       {
         "userId": 661982,
         "timestamp": 1554922427351,
         "oldValue": "",
         "newValue": "Kondensator labarotoriyası ",
+        "explanation": null
+      },
+      {
+        "userId": 661982,
+        "timestamp": 1585404156772,
+        "oldValue": "Kondensator labarotoriyası ",
+        "newValue": "Kondensator laboratoriyası ",
+        "explanation": null
+      }
+    ]
+  },
+  "barGraph": {
+    "value": "Qrafik çubuğu",
+    "history": [
+      {
+        "userId": 661982,
+        "timestamp": 1554922427351,
+        "oldValue": "",
+        "newValue": "Qrafik çubuğu",
         "explanation": null
       }
     ]
