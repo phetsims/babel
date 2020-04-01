@@ -1,12 +1,215 @@
 {
-  "acceleration": {
-    "value": "Επιτάχυνση",
+  "speed": {
+    "value": "Ταχύτητα",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1462970059006,
         "oldValue": "",
-        "newValue": "Επιτάχυνση",
+        "newValue": "Ταχύτητα",
+        "explanation": null
+      }
+    ]
+  },
+  "go": {
+    "value": "Πάμε!",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1462970059006,
+        "oldValue": "",
+        "newValue": "Πάμε!",
+        "explanation": null
+      }
+    ]
+  },
+  "pause": {
+    "value": "Παύση",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1462970059006,
+        "oldValue": "",
+        "newValue": "Παύση",
+        "explanation": null
+      }
+    ]
+  },
+  "return": {
+    "value": "Επιστροφή",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1462970059006,
+        "oldValue": "",
+        "newValue": "Επιστροφή",
+        "explanation": null
+      }
+    ]
+  },
+  "blueWins": {
+    "value": "Οι μπλε κερδίζουν!",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1462970059006,
+        "oldValue": "",
+        "newValue": "Οι μπλε κερδίζουν!",
+        "explanation": null
+      }
+    ]
+  },
+  "redWins": {
+    "value": "Οι κόκκινοι κερδίζουν!",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1462970059006,
+        "oldValue": "",
+        "newValue": "Οι κόκκινοι κερδίζουν!",
+        "explanation": null
+      }
+    ]
+  },
+  "sumOfForces": {
+    "value": "Συνισταμένη Δύναμη",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1462970059006,
+        "oldValue": "",
+        "newValue": "Άθροισμα δυνάμεων",
+        "explanation": null
+      },
+      {
+        "userId": 170570,
+        "timestamp": 1506621921082,
+        "oldValue": "Άθροισμα δυνάμεων",
+        "newValue": "Συνισταμένη Δύναμη",
+        "explanation": null
+      }
+    ]
+  },
+  "values": {
+    "value": "Τιμές",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1462970059006,
+        "oldValue": "",
+        "newValue": "Τιμές",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0valueUnitsN": {
+    "value": "{0}N",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1462970059006,
+        "oldValue": "",
+        "newValue": "{0}N",
+        "explanation": null
+      }
+    ]
+  },
+  "sumOfForcesEqualsZero": {
+    "value": "Συνισταμένη Δύναμη = 0",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1462970059006,
+        "oldValue": "",
+        "newValue": "Άθροισμα δυνάμεων = 0",
+        "explanation": null
+      },
+      {
+        "userId": 170570,
+        "timestamp": 1506621921082,
+        "oldValue": "Άθροισμα δυνάμεων = 0",
+        "newValue": "Συνισταμένη Δύναμη = 0",
+        "explanation": null
+      }
+    ]
+  },
+  "leftForce": {
+    "value": "Δύναμη προς τα αριστερά",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1462970059006,
+        "oldValue": "",
+        "newValue": "Αριστερή δύναμη",
+        "explanation": null
+      },
+      {
+        "userId": 170570,
+        "timestamp": 1506622310527,
+        "oldValue": "Αριστερή δύναμη",
+        "newValue": "Δύναμη προς τα αριστερά",
+        "explanation": null
+      }
+    ]
+  },
+  "rightForce": {
+    "value": "Δύναμη προς τα δεξιά",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1462970059006,
+        "oldValue": "",
+        "newValue": "Δεξιά δύναμη",
+        "explanation": null
+      },
+      {
+        "userId": 170570,
+        "timestamp": 1506622310527,
+        "oldValue": "Δεξιά δύναμη",
+        "newValue": "Δύναμη προς τα δεξιά",
+        "explanation": null
+      }
+    ]
+  },
+  "left": {
+    "value": "αριστερά",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1585725194341,
+        "oldValue": "",
+        "newValue": "αριστερά",
+        "explanation": null
+      }
+    ]
+  },
+  "right": {
+    "value": "δεξιά",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1585725194341,
+        "oldValue": "",
+        "newValue": "δεξιά",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0massUnitsKilograms": {
+    "value": "{0} kg",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1462970059006,
+        "oldValue": "",
+        "newValue": "{0} κ.",
+        "explanation": null
+      },
+      {
+        "userId": 170570,
+        "timestamp": 1506622310527,
+        "oldValue": "{0} κ.",
+        "newValue": "{0} kg",
         "explanation": null
       }
     ]
@@ -30,14 +233,45 @@
       }
     ]
   },
-  "blueWins": {
-    "value": "Οι μπλε κερδίζουν!",
+  "frictionForce": {
+    "value": "Δύναμη τριβής",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1462970059006,
         "oldValue": "",
-        "newValue": "Οι μπλε κερδίζουν!",
+        "newValue": "Δύναμη τριβής",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0name.1valueUnitsVelocity": {
+    "value": "{0} m/s",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1462970059006,
+        "oldValue": "",
+        "newValue": "{0} μ/δ",
+        "explanation": null
+      },
+      {
+        "userId": 170570,
+        "timestamp": 1506622310527,
+        "oldValue": "{0} μ/δ",
+        "newValue": "{0} m/s",
+        "explanation": null
+      }
+    ]
+  },
+  "acceleration": {
+    "value": "Επιτάχυνση",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1462970059006,
+        "oldValue": "",
+        "newValue": "Επιτάχυνση",
         "explanation": null
       }
     ]
@@ -66,14 +300,14 @@
       }
     ]
   },
-  "forces-and-motion-basics.title": {
-    "value": "Δυνάμεις και κίνηση: Τα βασικά",
+  "masses": {
+    "value": "Μάζες",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1462970059006,
         "oldValue": "",
-        "newValue": "Δυνάμεις και κίνηση: Τα βασικά",
+        "newValue": "Μάζες",
         "explanation": null
       }
     ]
@@ -90,49 +324,6 @@
       }
     ]
   },
-  "frictionForce": {
-    "value": "Δύναμη τριβής",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1462970059006,
-        "oldValue": "",
-        "newValue": "Δύναμη τριβής",
-        "explanation": null
-      }
-    ]
-  },
-  "go": {
-    "value": "Πάμε!",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1462970059006,
-        "oldValue": "",
-        "newValue": "Πάμε!",
-        "explanation": null
-      }
-    ]
-  },
-  "leftForce": {
-    "value": "Δύναμη προς τα αριστερά",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1462970059006,
-        "oldValue": "",
-        "newValue": "Αριστερή δύναμη",
-        "explanation": null
-      },
-      {
-        "userId": 170570,
-        "timestamp": 1506622310527,
-        "oldValue": "Αριστερή δύναμη",
-        "newValue": "Δύναμη προς τα αριστερά",
-        "explanation": null
-      }
-    ]
-  },
   "lots": {
     "value": "Μεγάλη",
     "history": [
@@ -145,42 +336,6 @@
       }
     ]
   },
-  "masses": {
-    "value": "Μάζες",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1462970059006,
-        "oldValue": "",
-        "newValue": "Μάζες",
-        "explanation": null
-      }
-    ]
-  },
-  "motion": {
-    "value": "Κίνηση",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1462970059006,
-        "oldValue": "",
-        "newValue": "Κίνηση",
-        "explanation": null
-      }
-    ]
-  },
-  "netForce": {
-    "value": "Διελκυστίνδα",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1462970059006,
-        "oldValue": "",
-        "newValue": "Διελκυστίνδα",
-        "explanation": null
-      }
-    ]
-  },
   "none": {
     "value": "Μικρή",
     "history": [
@@ -189,25 +344,6 @@
         "timestamp": 1462970059006,
         "oldValue": "",
         "newValue": "Μικρή",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0massUnitsKilograms": {
-    "value": "{0} kg",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1462970059006,
-        "oldValue": "",
-        "newValue": "{0} κ.",
-        "explanation": null
-      },
-      {
-        "userId": 170570,
-        "timestamp": 1506622310527,
-        "oldValue": "{0} κ.",
-        "newValue": "{0} kg",
         "explanation": null
       }
     ]
@@ -231,37 +367,6 @@
       }
     ]
   },
-  "pattern.0name.1valueUnitsVelocity": {
-    "value": "{0} m/s",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1462970059006,
-        "oldValue": "",
-        "newValue": "{0} μ/δ",
-        "explanation": null
-      },
-      {
-        "userId": 170570,
-        "timestamp": 1506622310527,
-        "oldValue": "{0} μ/δ",
-        "newValue": "{0} m/s",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0valueUnitsN": {
-    "value": "{0}N",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1462970059006,
-        "oldValue": "",
-        "newValue": "{0}N",
-        "explanation": null
-      }
-    ]
-  },
   "pattern.0valueUnitsNewtons": {
     "value": "{0} Newtons",
     "history": [
@@ -274,119 +379,38 @@
       }
     ]
   },
-  "pause": {
-    "value": "Παύση",
+  "forces-and-motion-basics.title": {
+    "value": "Δυνάμεις και κίνηση: Τα βασικά",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1462970059006,
         "oldValue": "",
-        "newValue": "Παύση",
+        "newValue": "Δυνάμεις και κίνηση: Τα βασικά",
         "explanation": null
       }
     ]
   },
-  "redWins": {
-    "value": "Οι κόκκινοι κερδίζουν!",
+  "netForce": {
+    "value": "Διελκυστίνδα",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1462970059006,
         "oldValue": "",
-        "newValue": "Οι κόκκινοι κερδίζουν!",
+        "newValue": "Διελκυστίνδα",
         "explanation": null
       }
     ]
   },
-  "return": {
-    "value": "Επιστροφή",
+  "motion": {
+    "value": "Κίνηση",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1462970059006,
         "oldValue": "",
-        "newValue": "Επιστροφή",
-        "explanation": null
-      }
-    ]
-  },
-  "rightForce": {
-    "value": "Δύναμη προς τα δεξιά",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1462970059006,
-        "oldValue": "",
-        "newValue": "Δεξιά δύναμη",
-        "explanation": null
-      },
-      {
-        "userId": 170570,
-        "timestamp": 1506622310527,
-        "oldValue": "Δεξιά δύναμη",
-        "newValue": "Δύναμη προς τα δεξιά",
-        "explanation": null
-      }
-    ]
-  },
-  "speed": {
-    "value": "Ταχύτητα",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1462970059006,
-        "oldValue": "",
-        "newValue": "Ταχύτητα",
-        "explanation": null
-      }
-    ]
-  },
-  "sumOfForces": {
-    "value": "Συνισταμένη Δύναμη",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1462970059006,
-        "oldValue": "",
-        "newValue": "Άθροισμα δυνάμεων",
-        "explanation": null
-      },
-      {
-        "userId": 170570,
-        "timestamp": 1506621921082,
-        "oldValue": "Άθροισμα δυνάμεων",
-        "newValue": "Συνισταμένη Δύναμη",
-        "explanation": null
-      }
-    ]
-  },
-  "sumOfForcesEqualsZero": {
-    "value": "Συνισταμένη Δύναμη = 0",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1462970059006,
-        "oldValue": "",
-        "newValue": "Άθροισμα δυνάμεων = 0",
-        "explanation": null
-      },
-      {
-        "userId": 170570,
-        "timestamp": 1506621921082,
-        "oldValue": "Άθροισμα δυνάμεων = 0",
-        "newValue": "Συνισταμένη Δύναμη = 0",
-        "explanation": null
-      }
-    ]
-  },
-  "values": {
-    "value": "Τιμές",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1462970059006,
-        "oldValue": "",
-        "newValue": "Τιμές",
+        "newValue": "Κίνηση",
         "explanation": null
       }
     ]
