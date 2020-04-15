@@ -1,50 +1,72 @@
 {
-  "acid": {
-    "value": "අම්ලය",
+  "pattern.0label.1value": {
+    "value": "{0}:{1}",
     "history": [
       {
         "userId": 190960,
         "timestamp": 1462608471941,
         "oldValue": "",
-        "newValue": "අම්ලය",
+        "newValue": "{0}:{1}",
         "explanation": null
       }
     ]
   },
-  "acid-base-solutions.title": {
-    "value": "අම්ල-භස්ම ද්‍රාවණ",
+  "pH": {
+    "value": "pH",
     "history": [
       {
         "userId": 190960,
         "timestamp": 1462608471941,
         "oldValue": "",
-        "newValue": "අම්ල-භෂ්ම විසඳුම්",
-        "explanation": null
-      },
-      {
-        "userId": 308527,
-        "timestamp": 1462771501158,
-        "oldValue": "අම්ල-භෂ්ම විසඳුම්",
-        "newValue": "අම්ල-භෂ්ම ද්‍රාවණ",
-        "explanation": null
-      },
-      {
-        "userId": 190960,
-        "timestamp": 1463984020442,
-        "oldValue": "අම්ල-භෂ්ම ද්‍රාවණ",
-        "newValue": "අම්ල-භස්ම ද්‍රාවණ",
+        "newValue": "pH",
         "explanation": null
       }
     ]
   },
-  "base": {
-    "value": "භස්මය",
+  "pattern.0value.1units": {
+    "value": "{0}{1}",
     "history": [
       {
         "userId": 190960,
         "timestamp": 1462608471941,
         "oldValue": "",
-        "newValue": "භස්මය",
+        "newValue": "{0}{1}",
+        "explanation": null
+      }
+    ]
+  },
+  "liters": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1462608471941,
+        "oldValue": "",
+        "newValue": "L",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0value.1power": {
+    "value": "{0} x 10<sup>{1}</sup>",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1462608471941,
+        "oldValue": "",
+        "newValue": "{0} x 10<sup>{1}</sup>",
+        "explanation": null
+      }
+    ]
+  },
+  "negligible": {
+    "value": "නොසැලකිය යුතු",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1462608471941,
+        "oldValue": "",
+        "newValue": "නොසැලකිය යුතු",
         "explanation": null
       }
     ]
@@ -71,6 +93,13 @@
         "timestamp": 1465878646626,
         "oldValue": "සමතුලිතතා සාන්ද්‍රණය (මෞල / ලීටර)",
         "newValue": "සමතුලිතතා සාන්ද්‍රණය ((mol/L)",
+        "explanation": null
+      },
+      {
+        "userId": 742873,
+        "timestamp": 1586956649841,
+        "oldValue": "සමතුලිතතා සාන්ද්‍රණය ((mol/L)",
+        "newValue": "සමතුලිතතා සාන්ද්‍රණය (මෞල / ලීටර)",
         "explanation": null
       }
     ]
@@ -113,44 +142,6 @@
       }
     ]
   },
-  "initialConcentration": {
-    "value": "ආරම්භක සාන්ද්‍රණය (මෞල / ලීටර):",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1462608471941,
-        "oldValue": "",
-        "newValue": "ආරම්භක සාන්ද්‍රණය (mol / L):",
-        "explanation": null
-      },
-      {
-        "userId": 308527,
-        "timestamp": 1463983231712,
-        "oldValue": "ආරම්භක සාන්ද්‍රණය (mol / L):",
-        "newValue": "ආරම්භක සාන්ද්‍රණය (මෞල / ලීටර):",
-        "explanation": null
-      },
-      {
-        "userId": 308527,
-        "timestamp": 1465878646626,
-        "oldValue": "ආරම්භක සාන්ද්‍රණය (මෞල / ලීටර):",
-        "newValue": "ආරම්භක සාන්ද්‍රණය(mol/L)",
-        "explanation": null
-      }
-    ]
-  },
-  "liters": {
-    "value": "L",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1462608471941,
-        "oldValue": "",
-        "newValue": "L",
-        "explanation": null
-      }
-    ]
-  },
   "molecules": {
     "value": "අණු",
     "history": [
@@ -159,142 +150,6 @@
         "timestamp": 1462608471941,
         "oldValue": "",
         "newValue": "අණු",
-        "explanation": null
-      }
-    ]
-  },
-  "negligible": {
-    "value": "නොසැලකිය යුතු",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1462608471941,
-        "oldValue": "",
-        "newValue": "නොසැලකිය යුතු",
-        "explanation": null
-      }
-    ]
-  },
-  "pH": {
-    "value": "pH",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1462608471941,
-        "oldValue": "",
-        "newValue": "pH",
-        "explanation": null
-      }
-    ]
-  },
-  "pHColorKey": {
-    "value": "pH අගය: වර්ණ සූචිය",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1462608471941,
-        "oldValue": "",
-        "newValue": "pH අගය වර්ණ සූචිය",
-        "explanation": null
-      },
-      {
-        "userId": 308527,
-        "timestamp": 1463983231712,
-        "oldValue": "pH අගය වර්ණ සූචිය",
-        "newValue": "pH අගය: වර්ණ සූචිය",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0label.1value": {
-    "value": "{0}:{1}",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1462608471941,
-        "oldValue": "",
-        "newValue": "{0}:{1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0value.1power": {
-    "value": "{0} x 10<sup>{1}</sup>",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1462608471941,
-        "oldValue": "",
-        "newValue": "{0} x 10<sup>{1}</sup>",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0value.1units": {
-    "value": "{0}{1}",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1462608471941,
-        "oldValue": "",
-        "newValue": "{0}{1}",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.introduction": {
-    "value": "හැඳින්වීම",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1462608471941,
-        "oldValue": "",
-        "newValue": "හැදින්වීම",
-        "explanation": null
-      },
-      {
-        "userId": 190960,
-        "timestamp": 1463984020442,
-        "oldValue": "හැදින්වීම",
-        "newValue": "හැඳින්වීම",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.mySolution": {
-    "value": "මගේ ද්‍රාවණය",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1462608471941,
-        "oldValue": "",
-        "newValue": "මගේ විසඳුම",
-        "explanation": null
-      },
-      {
-        "userId": 308527,
-        "timestamp": 1462771501157,
-        "oldValue": "මගේ විසඳුම",
-        "newValue": "මගේ ද්‍රාවණය",
-        "explanation": null
-      }
-    ]
-  },
-  "solution": {
-    "value": "ද්‍රාවණය",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1462608471941,
-        "oldValue": "",
-        "newValue": "විසඳුම",
-        "explanation": null
-      },
-      {
-        "userId": 308527,
-        "timestamp": 1462771501157,
-        "oldValue": "විසඳුම",
-        "newValue": "ද්‍රාවණය",
         "explanation": null
       }
     ]
@@ -321,6 +176,163 @@
         "timestamp": 1463983231712,
         "oldValue": "ද්‍රාවක",
         "newValue": "ද්‍රාවකය",
+        "explanation": null
+      }
+    ]
+  },
+  "solution": {
+    "value": "ද්‍රාවණය",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1462608471941,
+        "oldValue": "",
+        "newValue": "විසඳුම",
+        "explanation": null
+      },
+      {
+        "userId": 308527,
+        "timestamp": 1462771501157,
+        "oldValue": "විසඳුම",
+        "newValue": "ද්‍රාවණය",
+        "explanation": null
+      }
+    ]
+  },
+  "tools": {
+    "value": "මෙවලම්",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1462608471941,
+        "oldValue": "",
+        "newValue": "මෙවලම්",
+        "explanation": null
+      }
+    ]
+  },
+  "views": {
+    "value": "දසුන්",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1462608471941,
+        "oldValue": "",
+        "newValue": "දසුන්",
+        "explanation": null
+      }
+    ]
+  },
+  "pHColorKey": {
+    "value": "pH අගය: වර්ණ සූචිය",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1462608471941,
+        "oldValue": "",
+        "newValue": "pH අගය වර්ණ සූචිය",
+        "explanation": null
+      },
+      {
+        "userId": 308527,
+        "timestamp": 1463983231712,
+        "oldValue": "pH අගය වර්ණ සූචිය",
+        "newValue": "pH අගය: වර්ණ සූචිය",
+        "explanation": null
+      }
+    ]
+  },
+  "stronger": {
+    "value": "වඩා ශක්තිමත්",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1462608471941,
+        "oldValue": "",
+        "newValue": "ශක්තිමත්",
+        "explanation": null
+      },
+      {
+        "userId": 308527,
+        "timestamp": 1463983231712,
+        "oldValue": "ශක්තිමත්",
+        "newValue": "වඩා ශක්තිමත්",
+        "explanation": null
+      }
+    ]
+  },
+  "weaker": {
+    "value": "වඩා දුර්වල",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1462608471941,
+        "oldValue": "",
+        "newValue": "දුර්වල",
+        "explanation": null
+      },
+      {
+        "userId": 308527,
+        "timestamp": 1463983231712,
+        "oldValue": "දුර්වල",
+        "newValue": "වඩා දුර්වල",
+        "explanation": null
+      }
+    ]
+  },
+  "acid": {
+    "value": "අම්ලය",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1462608471941,
+        "oldValue": "",
+        "newValue": "අම්ලය",
+        "explanation": null
+      }
+    ]
+  },
+  "base": {
+    "value": "භස්මය",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1462608471941,
+        "oldValue": "",
+        "newValue": "භස්මය",
+        "explanation": null
+      }
+    ]
+  },
+  "initialConcentration": {
+    "value": "ආරම්භක සාන්ද්‍රණය (මෞල / ලීටර):",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1462608471941,
+        "oldValue": "",
+        "newValue": "ආරම්භක සාන්ද්‍රණය (mol / L):",
+        "explanation": null
+      },
+      {
+        "userId": 308527,
+        "timestamp": 1463983231712,
+        "oldValue": "ආරම්භක සාන්ද්‍රණය (mol / L):",
+        "newValue": "ආරම්භක සාන්ද්‍රණය (මෞල / ලීටර):",
+        "explanation": null
+      },
+      {
+        "userId": 308527,
+        "timestamp": 1465878646626,
+        "oldValue": "ආරම්භක සාන්ද්‍රණය (මෞල / ලීටර):",
+        "newValue": "ආරම්භක සාන්ද්‍රණය(mol/L)",
+        "explanation": null
+      },
+      {
+        "userId": 742873,
+        "timestamp": 1586956649841,
+        "oldValue": "ආරම්භක සාන්ද්‍රණය(mol/L)",
+        "newValue": "ආරම්භක සාන්ද්‍රණය (මෞල / ලීටර):",
         "explanation": null
       }
     ]
@@ -356,6 +368,37 @@
       }
     ]
   },
+  "weak": {
+    "value": "දුර්වල",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1462608471941,
+        "oldValue": "",
+        "newValue": "දුර්වල",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.mySolution": {
+    "value": "මගේ ද්‍රාවණය",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1462608471941,
+        "oldValue": "",
+        "newValue": "මගේ විසඳුම",
+        "explanation": null
+      },
+      {
+        "userId": 308527,
+        "timestamp": 1462771501157,
+        "oldValue": "මගේ විසඳුම",
+        "newValue": "මගේ ද්‍රාවණය",
+        "explanation": null
+      }
+    ]
+  },
   "strongAcid": {
     "value": "ප්‍රබල අම්ල",
     "history": [
@@ -380,49 +423,6 @@
       }
     ]
   },
-  "stronger": {
-    "value": "වඩා ශක්තිමත්",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1462608471941,
-        "oldValue": "",
-        "newValue": "ශක්තිමත්",
-        "explanation": null
-      },
-      {
-        "userId": 308527,
-        "timestamp": 1463983231712,
-        "oldValue": "ශක්තිමත්",
-        "newValue": "වඩා ශක්තිමත්",
-        "explanation": null
-      }
-    ]
-  },
-  "tools": {
-    "value": "මෙවලම්",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1462608471941,
-        "oldValue": "",
-        "newValue": "මෙවලම්",
-        "explanation": null
-      }
-    ]
-  },
-  "views": {
-    "value": "දසුන්",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1462608471941,
-        "oldValue": "",
-        "newValue": "දසුන්",
-        "explanation": null
-      }
-    ]
-  },
   "water": {
     "value": "ජලය",
     "history": [
@@ -431,18 +431,6 @@
         "timestamp": 1462608471941,
         "oldValue": "",
         "newValue": "ජලය",
-        "explanation": null
-      }
-    ]
-  },
-  "weak": {
-    "value": "දුර්වල",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1462608471941,
-        "oldValue": "",
-        "newValue": "දුර්වල",
         "explanation": null
       }
     ]
@@ -471,21 +459,47 @@
       }
     ]
   },
-  "weaker": {
-    "value": "වඩා දුර්වල",
+  "screen.introduction": {
+    "value": "හැඳින්වීම",
     "history": [
       {
         "userId": 190960,
         "timestamp": 1462608471941,
         "oldValue": "",
-        "newValue": "දුර්වල",
+        "newValue": "හැදින්වීම",
+        "explanation": null
+      },
+      {
+        "userId": 190960,
+        "timestamp": 1463984020442,
+        "oldValue": "හැදින්වීම",
+        "newValue": "හැඳින්වීම",
+        "explanation": null
+      }
+    ]
+  },
+  "acid-base-solutions.title": {
+    "value": "අම්ල-භස්ම ද්‍රාවණ",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1462608471941,
+        "oldValue": "",
+        "newValue": "අම්ල-භෂ්ම විසඳුම්",
         "explanation": null
       },
       {
         "userId": 308527,
-        "timestamp": 1463983231712,
-        "oldValue": "දුර්වල",
-        "newValue": "වඩා දුර්වල",
+        "timestamp": 1462771501158,
+        "oldValue": "අම්ල-භෂ්ම විසඳුම්",
+        "newValue": "අම්ල-භෂ්ම ද්‍රාවණ",
+        "explanation": null
+      },
+      {
+        "userId": 190960,
+        "timestamp": 1463984020442,
+        "oldValue": "අම්ල-භෂ්ම ද්‍රාවණ",
+        "newValue": "අම්ල-භස්ම ද්‍රාවණ",
         "explanation": null
       }
     ]
