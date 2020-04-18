@@ -1,4 +1,131 @@
 {
+  "grabOrReleaseBalloonHeading": {
+    "value": "බැලූනය අල්ලා හෝ නිදහස් කරන්න",
+    "history": [
+      {
+        "userId": 742873,
+        "timestamp": 1587226643662,
+        "oldValue": "",
+        "newValue": "බැලූනය අල්ලා හෝ නිදහස් කරන්න",
+        "explanation": null
+      }
+    ]
+  },
+  "grabOrReleaseBalloonLabel": {
+    "value": "බැලූනය අල්ලා හෝ නිදහස් කරන්න",
+    "history": [
+      {
+        "userId": 742873,
+        "timestamp": 1587226643662,
+        "oldValue": "",
+        "newValue": "බැලූනය අල්ලා හෝ නිදහස් කරන්න",
+        "explanation": null
+      }
+    ]
+  },
+  "moveOrJumpGrabbedBalloonHeading": {
+    "value": "උදුරා ගත් බැලූනය ගෙනයන්න හෝ පනින්න",
+    "history": [
+      {
+        "userId": 742873,
+        "timestamp": 1587226643662,
+        "oldValue": "",
+        "newValue": "උදුරා ගත් බැලූනය ගෙනයන්න හෝ පනින්න",
+        "explanation": null
+      }
+    ]
+  },
+  "moveGrabbedBalloonLabel": {
+    "value": "අල්ලා ගත් බැලූනය ගෙනයන්න",
+    "history": [
+      {
+        "userId": 742873,
+        "timestamp": 1587226643662,
+        "oldValue": "",
+        "newValue": "අල්ලා ගත් බැලූනය ගෙනයන්න",
+        "explanation": null
+      }
+    ]
+  },
+  "moveSlowerLabel": {
+    "value": "මන්දගාමීව ගමන් කරන්න",
+    "history": [
+      {
+        "userId": 742873,
+        "timestamp": 1587226643662,
+        "oldValue": "",
+        "newValue": "මන්දගාමීව ගමන් කරන්න",
+        "explanation": null
+      }
+    ]
+  },
+  "jumpCloseToSweaterLabel": {
+    "value": "ස්ෙවටර් එක ළඟට පනින්න",
+    "history": [
+      {
+        "userId": 742873,
+        "timestamp": 1587226643662,
+        "oldValue": "",
+        "newValue": "ස්ෙවටර් එක ළඟට පනින්න",
+        "explanation": null
+      }
+    ]
+  },
+  "jumpCloseToWallLabel": {
+    "value": "බිත්තියට පනින්න",
+    "history": [
+      {
+        "userId": 742873,
+        "timestamp": 1587226643662,
+        "oldValue": "",
+        "newValue": "බිත්තියට පනින්න",
+        "explanation": null
+      }
+    ]
+  },
+  "jumpNearWallLabel": {
+    "value": "අසල බිත්තියට පනින්න",
+    "history": [
+      {
+        "userId": 742873,
+        "timestamp": 1587226643662,
+        "oldValue": "",
+        "newValue": "අසල බිත්තියට පනින්න",
+        "explanation": null
+      }
+    ]
+  },
+  "jumpToCenterLabel": {
+    "value": "මැදට යන්න",
+    "history": [
+      {
+        "userId": 742873,
+        "timestamp": 1587226643662,
+        "oldValue": "",
+        "newValue": "මැදට යන්න",
+        "explanation": null
+      }
+    ]
+  },
+  "addWall": {
+    "value": "බිත්තිය නැවත ගෙනෙන්න",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1462617849367,
+        "oldValue": "",
+        "newValue": "බිත්තිය එක්කරන්න",
+        "explanation": null
+      },
+      {
+        "userId": 308527,
+        "timestamp": 1465882813997,
+        "oldValue": "බිත්තිය එක්කරන්න",
+        "newValue": "බිත්තිය නැවත ගෙනෙන්න",
+        "explanation": null
+      }
+    ]
+  },
   "BalloonApplet.ShowAllCharges": {
     "value": "ආරෝපණ පෙන්වන්න",
     "history": [
@@ -56,21 +183,38 @@
       }
     ]
   },
-  "addWall": {
-    "value": "බිත්තිය නැවත ගෙනෙන්න",
+  "removeWall": {
+    "value": "බිත්තිය ඉවත්කරන්න",
     "history": [
       {
         "userId": 190960,
         "timestamp": 1462617849367,
         "oldValue": "",
-        "newValue": "බිත්තිය එක්කරන්න",
+        "newValue": "බිත්තිය ඉවත්කරන්න",
         "explanation": null
-      },
+      }
+    ]
+  },
+  "resetBalloons": {
+    "value": "බැලුන නැවත සකසන්න",
+    "history": [
       {
-        "userId": 308527,
-        "timestamp": 1465882813997,
-        "oldValue": "බිත්තිය එක්කරන්න",
-        "newValue": "බිත්තිය නැවත ගෙනෙන්න",
+        "userId": 190960,
+        "timestamp": 1462617849367,
+        "oldValue": "",
+        "newValue": "බැලුන නැවත සකසන්න",
+        "explanation": null
+      }
+    ]
+  },
+  "resetBalloon": {
+    "value": "බැලුනය නැවත සකසන්න",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1462617849367,
+        "oldValue": "",
+        "newValue": "බැලුනය නැවත සකසන්න",
         "explanation": null
       }
     ]
@@ -97,42 +241,6 @@
         "timestamp": 1463985824526,
         "oldValue": "බැලුන සහ ස්තති විද්‍යුත් ආරෝපණ",
         "newValue": "බැලුන සහ ස්ථිති විද්‍යුතය",
-        "explanation": null
-      }
-    ]
-  },
-  "removeWall": {
-    "value": "බිත්තිය ඉවත්කරන්න",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1462617849367,
-        "oldValue": "",
-        "newValue": "බිත්තිය ඉවත්කරන්න",
-        "explanation": null
-      }
-    ]
-  },
-  "resetBalloon": {
-    "value": "බැලුනය නැවත සකසන්න",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1462617849367,
-        "oldValue": "",
-        "newValue": "බැලුනය නැවත සකසන්න",
-        "explanation": null
-      }
-    ]
-  },
-  "resetBalloons": {
-    "value": "බැලුන නැවත සකසන්න",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1462617849367,
-        "oldValue": "",
-        "newValue": "බැලුන නැවත සකසන්න",
         "explanation": null
       }
     ]
