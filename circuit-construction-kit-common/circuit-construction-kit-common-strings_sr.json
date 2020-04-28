@@ -1,4 +1,16 @@
 {
+  "acSource": {
+    "value": "AC (наизменични) напон",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1588095915362,
+        "oldValue": "",
+        "newValue": "AC (наизменични) напон",
+        "explanation": null
+      }
+    ]
+  },
   "ammeter": {
     "value": "амперметар",
     "history": [
@@ -123,6 +135,30 @@
       }
     ]
   },
+  "currentChart": {
+    "value": "Граф струје",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1588095915362,
+        "oldValue": "",
+        "newValue": "Граф струје",
+        "explanation": null
+      }
+    ]
+  },
+  "currentRating": {
+    "value": "Тренутна струја",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1588095915362,
+        "oldValue": "",
+        "newValue": "Тренутна струја",
+        "explanation": null
+      }
+    ]
+  },
   "dog": {
     "value": "џукац",
     "history": [
@@ -181,6 +217,30 @@
         "timestamp": 1509400100582,
         "oldValue": "",
         "newValue": "гумица",
+        "explanation": null
+      }
+    ]
+  },
+  "frequency": {
+    "value": "фреквенција",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1588095915362,
+        "oldValue": "",
+        "newValue": "фреквенција",
+        "explanation": null
+      }
+    ]
+  },
+  "fuse": {
+    "value": "осигурач",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1588095915362,
+        "oldValue": "",
+        "newValue": "осигурач",
         "explanation": null
       }
     ]
@@ -279,30 +339,6 @@
         "timestamp": 1509400100582,
         "oldValue": "",
         "newValue": "Отпорност",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhms": {
-    "value": "{{resistance}} oма",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1509400100582,
-        "oldValue": "",
-        "newValue": "{{resistance}} oма",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhmsValuePattern": {
-    "value": "{{resistance}} oма",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1509400100582,
-        "oldValue": "",
-        "newValue": "{{resistance}} oма",
         "explanation": null
       }
     ]
@@ -429,14 +465,14 @@
       }
     ]
   },
-  "voltageVoltsValuePattern": {
-    "value": "{{voltage}} волти",
+  "voltageChart": {
+    "value": "граф напона",
     "history": [
       {
         "userId": 156030,
-        "timestamp": 1509400100582,
+        "timestamp": 1588095915362,
         "oldValue": "",
-        "newValue": "{{voltage}} волти",
+        "newValue": "граф напона",
         "explanation": null
       }
     ]
@@ -480,6 +516,42 @@
         "timestamp": 1509400100582,
         "oldValue": "",
         "newValue": "отпорност жице",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhmsValuePattern": {
+    "value": "{{resistance}} oма",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1509400100582,
+        "oldValue": "",
+        "newValue": "{{resistance}} oма",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageVoltsValuePattern": {
+    "value": "{{voltage}} волти",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1509400100582,
+        "oldValue": "",
+        "newValue": "{{voltage}} волти",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhms": {
+    "value": "{{resistance}} oма",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1509400100582,
+        "oldValue": "",
+        "newValue": "{{resistance}} oма",
         "explanation": null
       }
     ]
