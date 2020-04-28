@@ -1,12 +1,48 @@
 {
-  "centerOfMass": {
-    "value": "Центар масе",
+  "atmospheres": {
+    "value": "atm",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1588104766726,
+        "oldValue": "",
+        "newValue": "atm",
+        "explanation": null
+      }
+    ]
+  },
+  "pressure": {
+    "value": "Притисак",
     "history": [
       {
         "userId": 156030,
         "timestamp": 1565770503983,
         "oldValue": "",
-        "newValue": "Центар масе",
+        "newValue": "Притисак",
+        "explanation": null
+      }
+    ]
+  },
+  "tAvg": {
+    "value": "T<sub>sr</sub> = {{value}}",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1565770503983,
+        "oldValue": "",
+        "newValue": "T<sub>sr</sub> = {{value}}",
+        "explanation": null
+      }
+    ]
+  },
+  "tAvgK": {
+    "value": "T<sub>sr</sub> = {{value}} K",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1565770503983,
+        "oldValue": "",
+        "newValue": "T<sub>sr</sub> = {{value}} K",
         "explanation": null
       }
     ]
@@ -23,14 +59,14 @@
       }
     ]
   },
-  "screen.diffusion": {
-    "value": "Дифузија",
+  "centerOfMass": {
+    "value": "Центар масе",
     "history": [
       {
         "userId": 156030,
         "timestamp": 1565770503983,
         "oldValue": "",
-        "newValue": "Дифузија",
+        "newValue": "Центар масе",
         "explanation": null
       }
     ]
@@ -59,18 +95,6 @@
       }
     ]
   },
-  "nanometers": {
-    "value": "nm",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1588096454778,
-        "oldValue": "",
-        "newValue": "nm",
-        "explanation": null
-      }
-    ]
-  },
   "numberOfParticles": {
     "value": "Број честица",
     "history": [
@@ -79,30 +103,6 @@
         "timestamp": 1565770503983,
         "oldValue": "",
         "newValue": "Број честица",
-        "explanation": null
-      }
-    ]
-  },
-  "particleFlowRate": {
-    "value": "Смер протока честица",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1565770503983,
-        "oldValue": "",
-        "newValue": "Смер протока честица",
-        "explanation": null
-      }
-    ]
-  },
-  "pressure": {
-    "value": "Притисак",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1565770503983,
-        "oldValue": "",
-        "newValue": "Притисак",
         "explanation": null
       }
     ]
@@ -150,6 +150,18 @@
       }
     ]
   },
+  "particleFlowRate": {
+    "value": "Смер протока честица",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1565770503983,
+        "oldValue": "",
+        "newValue": "Смер протока честица",
+        "explanation": null
+      }
+    ]
+  },
   "scale": {
     "value": "Скала",
     "history": [
@@ -174,26 +186,26 @@
       }
     ]
   },
-  "tAvg": {
-    "value": "T<sub>sr</sub> = {{value}}",
+  "nanometers": {
+    "value": "nm",
     "history": [
       {
         "userId": 156030,
-        "timestamp": 1565770503983,
+        "timestamp": 1588096454778,
         "oldValue": "",
-        "newValue": "T<sub>sr</sub> = {{value}}",
+        "newValue": "nm",
         "explanation": null
       }
     ]
   },
-  "tAvgK": {
-    "value": "T<sub>sr</sub> = {{value}} K",
+  "screen.diffusion": {
+    "value": "Дифузија",
     "history": [
       {
         "userId": 156030,
         "timestamp": 1565770503983,
         "oldValue": "",
-        "newValue": "T<sub>sr</sub> = {{value}} K",
+        "newValue": "Дифузија",
         "explanation": null
       }
     ]
