@@ -1,4 +1,28 @@
 {
+  "oneSecond": {
+    "value": "1c",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1593985757343,
+        "oldValue": "",
+        "newValue": "1c",
+        "explanation": null
+      }
+    ]
+  },
+  "questionMark": {
+    "value": "?",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1512206964806,
+        "oldValue": "",
+        "newValue": "?",
+        "explanation": null
+      }
+    ]
+  },
   "ammeter": {
     "value": "Амперметр",
     "history": [
@@ -36,7 +60,7 @@
     ]
   },
   "battery": {
-    "value": "Батарея",
+    "value": "Батарейка",
     "history": [
       {
         "userId": 166868,
@@ -44,17 +68,31 @@
         "oldValue": "",
         "newValue": "Батарея",
         "explanation": null
+      },
+      {
+        "userId": 166868,
+        "timestamp": 1593985757343,
+        "oldValue": "Батарея",
+        "newValue": "Батарейка",
+        "explanation": null
       }
     ]
   },
   "batteryResistance": {
-    "value": "Опір батареї",
+    "value": "Опір батарейки",
     "history": [
       {
         "userId": 166868,
         "timestamp": 1512206964806,
         "oldValue": "",
         "newValue": "Опір батареї",
+        "explanation": null
+      },
+      {
+        "userId": 166868,
+        "timestamp": 1593985757343,
+        "oldValue": "Опір батареї",
+        "newValue": "Опір батарейки",
         "explanation": null
       }
     ]
@@ -72,13 +110,20 @@
     ]
   },
   "conventional": {
-    "value": "Струм",
+    "value": "Звичайн.",
     "history": [
       {
         "userId": 166868,
         "timestamp": 1512206964806,
         "oldValue": "",
         "newValue": "Струм",
+        "explanation": null
+      },
+      {
+        "userId": 166868,
+        "timestamp": 1593985757343,
+        "oldValue": "Струм",
+        "newValue": "Звичайн.",
         "explanation": null
       }
     ]
@@ -95,14 +140,14 @@
       }
     ]
   },
-  "currentUnits": {
-    "value": "{{current}} A",
+  "currentChart": {
+    "value": "Графік струму",
     "history": [
       {
         "userId": 166868,
-        "timestamp": 1512206964806,
+        "timestamp": 1593985757343,
         "oldValue": "",
-        "newValue": "{{current}} A",
+        "newValue": "Графік струму",
         "explanation": null
       }
     ]
@@ -151,6 +196,30 @@
         "timestamp": 1512206964806,
         "oldValue": "",
         "newValue": "Витирачка",
+        "explanation": null
+      }
+    ]
+  },
+  "frequency": {
+    "value": "Частота",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1593985757343,
+        "oldValue": "",
+        "newValue": "Частота",
+        "explanation": null
+      }
+    ]
+  },
+  "fuse": {
+    "value": "Запобіжник",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1593985757343,
+        "oldValue": "",
+        "newValue": "Запобіжник",
         "explanation": null
       }
     ]
@@ -227,18 +296,6 @@
       }
     ]
   },
-  "questionMark": {
-    "value": "?",
-    "history": [
-      {
-        "userId": 166868,
-        "timestamp": 1512206964806,
-        "oldValue": "",
-        "newValue": "?",
-        "explanation": null
-      }
-    ]
-  },
   "resistance": {
     "value": "Опір",
     "history": [
@@ -247,42 +304,6 @@
         "timestamp": 1512206964806,
         "oldValue": "",
         "newValue": "Опір",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhms": {
-    "value": "{{resistance}} Ом",
-    "history": [
-      {
-        "userId": 166868,
-        "timestamp": 1512206964806,
-        "oldValue": "",
-        "newValue": "{{resistance}} Ом",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhmsSymbol": {
-    "value": "{{resistance}} Ω",
-    "history": [
-      {
-        "userId": 166868,
-        "timestamp": 1512206964806,
-        "oldValue": "",
-        "newValue": "{{resistance}} Ω",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhmsValuePattern": {
-    "value": "{{resistance}} Ом",
-    "history": [
-      {
-        "userId": 166868,
-        "timestamp": 1512206964806,
-        "oldValue": "",
-        "newValue": "{{resistance}} Ом",
         "explanation": null
       }
     ]
@@ -359,6 +380,18 @@
       }
     ]
   },
+  "time": {
+    "value": "Час",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1593985757343,
+        "oldValue": "",
+        "newValue": "Час",
+        "explanation": null
+      }
+    ]
+  },
   "tiny": {
     "value": "незначний",
     "history": [
@@ -395,26 +428,14 @@
       }
     ]
   },
-  "voltageUnits": {
-    "value": "{{voltage}} В",
+  "voltageChart": {
+    "value": "Графік напруги",
     "history": [
       {
         "userId": 166868,
-        "timestamp": 1512206964806,
+        "timestamp": 1593985757343,
         "oldValue": "",
-        "newValue": "{{voltage}} В",
-        "explanation": null
-      }
-    ]
-  },
-  "voltageVoltsValuePattern": {
-    "value": "{{voltage}} Вольти",
-    "history": [
-      {
-        "userId": 166868,
-        "timestamp": 1512206964806,
-        "oldValue": "",
-        "newValue": "{{voltage}} Вольти",
+        "newValue": "Графік напруги",
         "explanation": null
       }
     ]
@@ -451,6 +472,104 @@
         "timestamp": 1512206964806,
         "oldValue": "",
         "newValue": "Опір дроту",
+        "explanation": null
+      }
+    ]
+  },
+  "currentUnits": {
+    "value": "{{current}} A",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1512206964806,
+        "oldValue": "",
+        "newValue": "{{current}} A",
+        "explanation": null
+      }
+    ]
+  },
+  "frequencyHzValuePattern": {
+    "value": "{{frequency}} Гц",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1593985757343,
+        "oldValue": "",
+        "newValue": "{{frequency}} Гц",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhmsValuePattern": {
+    "value": "{{resistance}} Ом",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1512206964806,
+        "oldValue": "",
+        "newValue": "{{resistance}} Ом",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhmsSymbol": {
+    "value": "{{resistance}} Ом",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1512206964806,
+        "oldValue": "",
+        "newValue": "{{resistance}} Ω",
+        "explanation": null
+      },
+      {
+        "userId": 166868,
+        "timestamp": 1593985757343,
+        "oldValue": "{{resistance}} Ω",
+        "newValue": "{{resistance}} Ом",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageUnits": {
+    "value": "{{voltage}} В",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1512206964806,
+        "oldValue": "",
+        "newValue": "{{voltage}} В",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageVoltsValuePattern": {
+    "value": "{{voltage}} Вольт",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1512206964806,
+        "oldValue": "",
+        "newValue": "{{voltage}} Вольти",
+        "explanation": null
+      },
+      {
+        "userId": 166868,
+        "timestamp": 1593985757343,
+        "oldValue": "{{voltage}} Вольти",
+        "newValue": "{{voltage}} Вольт",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhms": {
+    "value": "{{resistance}} Ом",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1512206964806,
+        "oldValue": "",
+        "newValue": "{{resistance}} Ом",
         "explanation": null
       }
     ]
