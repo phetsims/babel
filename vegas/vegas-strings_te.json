@@ -42,18 +42,6 @@
       }
     ]
   },
-  "check": {
-    "value": "సరి చూడు",
-    "history": [
-      {
-        "userId": 789806,
-        "timestamp": 1591815906874,
-        "oldValue": "",
-        "newValue": "సరి చూడు",
-        "explanation": null
-      }
-    ]
-  },
   "continue": {
     "value": "కొనసాగించు",
     "history": [
@@ -67,7 +55,7 @@
     ]
   },
   "excellent": {
-    "value": "అద్భుతం!",
+    "value": "అత్యద్భుతం!",
     "history": [
       {
         "userId": 789806,
@@ -75,11 +63,18 @@
         "oldValue": "",
         "newValue": "అద్భుతం!",
         "explanation": null
+      },
+      {
+        "userId": 789806,
+        "timestamp": 1596207533609,
+        "oldValue": "అద్భుతం!",
+        "newValue": "అత్యద్భుతం!",
+        "explanation": null
       }
     ]
   },
   "good": {
-    "value": "శభాష్ బాగుంది!",
+    "value": "శభాష్!",
     "history": [
       {
         "userId": 789806,
@@ -87,17 +82,31 @@
         "oldValue": "",
         "newValue": "శభాష్ బాగుంది!",
         "explanation": null
+      },
+      {
+        "userId": 789806,
+        "timestamp": 1596207533609,
+        "oldValue": "శభాష్ బాగుంది!",
+        "newValue": "శభాష్!",
+        "explanation": null
       }
     ]
   },
   "great": {
-    "value": "భలే బాగుంది!",
+    "value": "అద్భుతం!",
     "history": [
       {
         "userId": 789806,
         "timestamp": 1591815906874,
         "oldValue": "",
         "newValue": "భలే బాగుంది!",
+        "explanation": null
+      },
+      {
+        "userId": 789806,
+        "timestamp": 1596207533609,
+        "oldValue": "భలే బాగుంది!",
+        "newValue": "అద్భుతం!",
         "explanation": null
       }
     ]
@@ -126,26 +135,14 @@
       }
     ]
   },
-  "next": {
-    "value": "తర్వాత",
+  "score": {
+    "value": "స్కోర్",
     "history": [
       {
         "userId": 789806,
-        "timestamp": 1591815906874,
+        "timestamp": 1596207533609,
         "oldValue": "",
-        "newValue": "తర్వాత",
-        "explanation": null
-      }
-    ]
-  },
-  "label.scorePattern": {
-    "value": "స్కోర్: {0}",
-    "history": [
-      {
-        "userId": 789806,
-        "timestamp": 1592912981136,
-        "oldValue": "",
-        "newValue": "స్కోర్: {0}",
+        "newValue": "స్కోర్",
         "explanation": null
       }
     ]
@@ -162,26 +159,14 @@
       }
     ]
   },
-  "selectLevel": {
-    "value": "నీ స్థాయినెంచుకో",
+  "pattern.score.number": {
+    "value": "స్కోర్: {{score}}",
     "history": [
       {
         "userId": 789806,
-        "timestamp": 1594223654311,
+        "timestamp": 1596207533609,
         "oldValue": "",
-        "newValue": "నీ స్థాయినెంచుకో",
-        "explanation": null
-      }
-    ]
-  },
-  "showAnswer": {
-    "value": "జవాబు చూపండి",
-    "history": [
-      {
-        "userId": 789806,
-        "timestamp": 1591815906875,
-        "oldValue": "",
-        "newValue": "జవాబు చూపండి",
+        "newValue": "స్కోర్: {{score}}",
         "explanation": null
       }
     ]
@@ -210,18 +195,6 @@
       }
     ]
   },
-  "tryAgain": {
-    "value": "తిరిగి ప్రయత్నించండి",
-    "history": [
-      {
-        "userId": 789806,
-        "timestamp": 1591815906875,
-        "oldValue": "",
-        "newValue": "తిరిగి ప్రయత్నించండి",
-        "explanation": null
-      }
-    ]
-  },
   "pattern.0minutes.1seconds": {
     "value": "{0}:{1}",
     "history": [
@@ -242,6 +215,78 @@
         "timestamp": 1592912981137,
         "oldValue": "",
         "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      }
+    ]
+  },
+  "check": {
+    "value": "సరి చూడు",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1591815906874,
+        "oldValue": "",
+        "newValue": "సరి చూడు",
+        "explanation": null
+      }
+    ]
+  },
+  "next": {
+    "value": "తర్వాత",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1591815906874,
+        "oldValue": "",
+        "newValue": "తర్వాత",
+        "explanation": null
+      }
+    ]
+  },
+  "label.scorePattern": {
+    "value": "స్కోర్: {0}",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1592912981136,
+        "oldValue": "",
+        "newValue": "స్కోర్: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "selectLevel": {
+    "value": "నీ స్థాయినెంచుకో",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1594223654311,
+        "oldValue": "",
+        "newValue": "నీ స్థాయినెంచుకో",
+        "explanation": null
+      }
+    ]
+  },
+  "showAnswer": {
+    "value": "జవాబు చూపండి",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1591815906875,
+        "oldValue": "",
+        "newValue": "జవాబు చూపండి",
+        "explanation": null
+      }
+    ]
+  },
+  "tryAgain": {
+    "value": "తిరిగి ప్రయత్నించండి",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1591815906875,
+        "oldValue": "",
+        "newValue": "తిరిగి ప్రయత్నించండి",
         "explanation": null
       }
     ]
