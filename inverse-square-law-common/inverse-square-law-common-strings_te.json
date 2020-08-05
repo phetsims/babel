@@ -11,14 +11,26 @@
       }
     ]
   },
-  "decimalNotation": {
-    "value": "దశాంశ సంకేత పద్ధతి",
+  "forceOnObjectByOtherObjectPattern": {
+    "value": "{{thisObject}} పై {{otherObject}} బలం",
     "history": [
       {
         "userId": 789806,
-        "timestamp": 1592746459729,
+        "timestamp": 1596623787923,
         "oldValue": "",
-        "newValue": "దశాంశ సంకేత పద్ధతి",
+        "newValue": "{{thisObject}} పై {{otherObject}} బలం",
+        "explanation": null
+      }
+    ]
+  },
+  "forceOnObjectByOtherObjectWithUnitsPattern": {
+    "value": "{{thisObject}} పై {{otherObject}} బలం  = {{value}} N",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1596623787923,
+        "oldValue": "",
+        "newValue": "{{thisObject}} పై {{otherObject}} బలం  = {{value}} N",
         "explanation": null
       }
     ]
@@ -31,6 +43,42 @@
         "timestamp": 1592745088953,
         "oldValue": "",
         "newValue": "బలం విలువలు",
+        "explanation": null
+      }
+    ]
+  },
+  "units.picometers": {
+    "value": "pm",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1596623787923,
+        "oldValue": "",
+        "newValue": "pm",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern_0value_1units": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1596623787923,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "decimalNotation": {
+    "value": "దశాంశ సంకేత పద్ధతి",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1592746459729,
+        "oldValue": "",
+        "newValue": "దశాంశ సంకేత పద్ధతి",
         "explanation": null
       }
     ]
