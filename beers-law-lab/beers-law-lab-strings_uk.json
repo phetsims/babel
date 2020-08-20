@@ -1,4 +1,52 @@
 {
+  "drinkMix": {
+    "value": "Порошк. суміш для напоїв",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1573211389919,
+        "oldValue": "",
+        "newValue": "Порошк. суміш для напоїв",
+        "explanation": null
+      }
+    ]
+  },
+  "units.mM": {
+    "value": "мМ",
+    "history": [
+      {
+        "userId": 618178,
+        "timestamp": 1597906827693,
+        "oldValue": "",
+        "newValue": "мМ",
+        "explanation": null
+      }
+    ]
+  },
+  "units.uM": {
+    "value": "мкМ",
+    "history": [
+      {
+        "userId": 618178,
+        "timestamp": 1597906827693,
+        "oldValue": "",
+        "newValue": "мкМ",
+        "explanation": null
+      }
+    ]
+  },
+  "water": {
+    "value": "вода",
+    "history": [
+      {
+        "userId": 618178,
+        "timestamp": 1597906827693,
+        "oldValue": "",
+        "newValue": "вода",
+        "explanation": null
+      }
+    ]
+  },
   "cobaltChloride": {
     "value": "Кобальт(II) хлорид",
     "history": [
@@ -65,30 +113,6 @@
       }
     ]
   },
-  "screen.concentration": {
-    "value": "Концентрація",
-    "history": [
-      {
-        "userId": 166868,
-        "timestamp": 1573211389919,
-        "oldValue": "",
-        "newValue": "Концентрація",
-        "explanation": null
-      }
-    ]
-  },
-  "concentration": {
-    "value": "Концентрація",
-    "history": [
-      {
-        "userId": 166868,
-        "timestamp": 1573211389919,
-        "oldValue": "",
-        "newValue": "Концентрація",
-        "explanation": null
-      }
-    ]
-  },
   "copperSulfate": {
     "value": "Купрум(II) сульфат",
     "history": [
@@ -118,78 +142,6 @@
         "timestamp": 1580732306767,
         "oldValue": "Купрум (II) сульфат",
         "newValue": "Купрум(II) сульфат",
-        "explanation": null
-      }
-    ]
-  },
-  "drinkMix": {
-    "value": "Порошк. суміш для напоїв",
-    "history": [
-      {
-        "userId": 166868,
-        "timestamp": 1573211389919,
-        "oldValue": "",
-        "newValue": "Порошк. суміш для напоїв",
-        "explanation": null
-      }
-    ]
-  },
-  "evaporation": {
-    "value": "Випаровування",
-    "history": [
-      {
-        "userId": 166868,
-        "timestamp": 1573211389919,
-        "oldValue": "",
-        "newValue": "Випаровування",
-        "explanation": null
-      }
-    ]
-  },
-  "units.liters": {
-    "value": "л",
-    "history": [
-      {
-        "userId": 166868,
-        "timestamp": 1573211389919,
-        "oldValue": "",
-        "newValue": "л",
-        "explanation": null
-      }
-    ]
-  },
-  "lots": {
-    "value": "багато",
-    "history": [
-      {
-        "userId": 166868,
-        "timestamp": 1573211389919,
-        "oldValue": "",
-        "newValue": "багато",
-        "explanation": null
-      }
-    ]
-  },
-  "units.milliliters": {
-    "value": "мл",
-    "history": [
-      {
-        "userId": 166868,
-        "timestamp": 1573211389919,
-        "oldValue": "",
-        "newValue": "мл",
-        "explanation": null
-      }
-    ]
-  },
-  "units.molesPerLiter": {
-    "value": "моль/л",
-    "history": [
-      {
-        "userId": 166868,
-        "timestamp": 1573211389919,
-        "oldValue": "",
-        "newValue": "моль/л",
         "explanation": null
       }
     ]
@@ -227,14 +179,26 @@
       }
     ]
   },
-  "none": {
-    "value": "немає",
+  "pattern.0formula.1name": {
+    "value": "{0}: {1}",
+    "history": [
+      {
+        "userId": 618178,
+        "timestamp": 1597906827693,
+        "oldValue": "",
+        "newValue": "{0}: {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
     "history": [
       {
         "userId": 166868,
         "timestamp": 1573211389919,
         "oldValue": "",
-        "newValue": "немає",
+        "newValue": "{0} {1}",
         "explanation": null
       }
     ]
@@ -266,7 +230,7 @@
     ]
   },
   "potassiumDichromate": {
-    "value": "Калій діхромат ",
+    "value": "Калій дихромат ",
     "history": [
       {
         "userId": 166868,
@@ -287,6 +251,13 @@
         "timestamp": 1580732306767,
         "oldValue": "Діхромат калію",
         "newValue": "Калій діхромат ",
+        "explanation": null
+      },
+      {
+        "userId": 618178,
+        "timestamp": 1597906827693,
+        "oldValue": "Калій діхромат ",
+        "newValue": "Калій дихромат ",
         "explanation": null
       }
     ]
@@ -313,6 +284,262 @@
         "timestamp": 1580732306767,
         "oldValue": "Перманганат калію",
         "newValue": "Калій перманганат ",
+        "explanation": null
+      }
+    ]
+  },
+  "absorbance": {
+    "value": "поглинання",
+    "history": [
+      {
+        "userId": 618178,
+        "timestamp": 1597906827693,
+        "oldValue": "",
+        "newValue": "поглинання",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0percent": {
+    "value": "{0}%",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1573211389919,
+        "oldValue": "",
+        "newValue": "{0}%",
+        "explanation": null
+      }
+    ]
+  },
+  "transmittance": {
+    "value": "пропускання",
+    "history": [
+      {
+        "userId": 618178,
+        "timestamp": 1597906827693,
+        "oldValue": "",
+        "newValue": "пропускання",
+        "explanation": null
+      }
+    ]
+  },
+  "units.centimeters": {
+    "value": "см",
+    "history": [
+      {
+        "userId": 618178,
+        "timestamp": 1597906827693,
+        "oldValue": "",
+        "newValue": "см",
+        "explanation": null
+      }
+    ]
+  },
+  "concentration": {
+    "value": "Концентрація",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1573211389919,
+        "oldValue": "",
+        "newValue": "Концентрація",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0label": {
+    "value": "{0}:",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1573211389919,
+        "oldValue": "",
+        "newValue": "{0}:",
+        "explanation": null
+      }
+    ]
+  },
+  "solution": {
+    "value": "Розчин",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1573211389919,
+        "oldValue": "",
+        "newValue": "Розчин",
+        "explanation": null
+      }
+    ]
+  },
+  "preset": {
+    "value": "стала",
+    "history": [
+      {
+        "userId": 618178,
+        "timestamp": 1597906827693,
+        "oldValue": "",
+        "newValue": "стала",
+        "explanation": null
+      }
+    ]
+  },
+  "units.nm": {
+    "value": "нм",
+    "history": [
+      {
+        "userId": 618178,
+        "timestamp": 1597906827693,
+        "oldValue": "",
+        "newValue": "нм",
+        "explanation": null
+      }
+    ]
+  },
+  "variable": {
+    "value": "змінна",
+    "history": [
+      {
+        "userId": 618178,
+        "timestamp": 1597906827693,
+        "oldValue": "",
+        "newValue": "змінна",
+        "explanation": null
+      }
+    ]
+  },
+  "wavelength": {
+    "value": "довжина хвилі",
+    "history": [
+      {
+        "userId": 618178,
+        "timestamp": 1597906827693,
+        "oldValue": "",
+        "newValue": "довжина хвилі",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.beersLaw": {
+    "value": "Закон Бера",
+    "history": [
+      {
+        "userId": 618178,
+        "timestamp": 1597906827693,
+        "oldValue": "",
+        "newValue": "Закон Бера",
+        "explanation": null
+      }
+    ]
+  },
+  "sodiumChloride": {
+    "value": "Натрій хлорид",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1573211389919,
+        "oldValue": "",
+        "newValue": "Натрій хлорид",
+        "explanation": null
+      },
+      {
+        "userId": 166868,
+        "timestamp": 1575055840639,
+        "oldValue": "Натрій хлорид",
+        "newValue": "Хлористий натрій",
+        "explanation": null
+      },
+      {
+        "userId": 166868,
+        "timestamp": 1580732306767,
+        "oldValue": "Хлористий натрій",
+        "newValue": "Натрій хлор",
+        "explanation": null
+      },
+      {
+        "userId": 618178,
+        "timestamp": 1597906827693,
+        "oldValue": "Натрій хлор",
+        "newValue": "Натрій хлорид",
+        "explanation": null
+      }
+    ]
+  },
+  "units.liters": {
+    "value": "л",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1573211389919,
+        "oldValue": "",
+        "newValue": "л",
+        "explanation": null
+      }
+    ]
+  },
+  "units.milliliters": {
+    "value": "мл",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1573211389919,
+        "oldValue": "",
+        "newValue": "мл",
+        "explanation": null
+      }
+    ]
+  },
+  "units.molesPerLiter": {
+    "value": "моль/л",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1573211389919,
+        "oldValue": "",
+        "newValue": "моль/л",
+        "explanation": null
+      }
+    ]
+  },
+  "evaporation": {
+    "value": "Випаровування",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1573211389919,
+        "oldValue": "",
+        "newValue": "Випаровування",
+        "explanation": null
+      }
+    ]
+  },
+  "lots": {
+    "value": "швидке",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1573211389919,
+        "oldValue": "",
+        "newValue": "багато",
+        "explanation": null
+      },
+      {
+        "userId": 618178,
+        "timestamp": 1597906827693,
+        "oldValue": "багато",
+        "newValue": "швидке",
+        "explanation": null
+      }
+    ]
+  },
+  "none": {
+    "value": "немає",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1573211389919,
+        "oldValue": "",
+        "newValue": "немає",
         "explanation": null
       }
     ]
@@ -355,40 +582,28 @@
       }
     ]
   },
-  "sodiumChloride": {
-    "value": "Натрій хлор",
+  "pattern.0soluteAmount": {
+    "value": "Кількість розч. речов.: {0} г",
     "history": [
       {
         "userId": 166868,
         "timestamp": 1573211389919,
         "oldValue": "",
-        "newValue": "Натрій хлорид",
+        "newValue": "Кількість розчину: {0} г",
         "explanation": null
       },
       {
         "userId": 166868,
         "timestamp": 1575055840639,
-        "oldValue": "Натрій хлорид",
-        "newValue": "Хлористий натрій",
+        "oldValue": "Кількість розчину: {0} г",
+        "newValue": "Кількість речовини: {0} г",
         "explanation": null
       },
       {
         "userId": 166868,
-        "timestamp": 1580732306767,
-        "oldValue": "Хлористий натрій",
-        "newValue": "Натрій хлор",
-        "explanation": null
-      }
-    ]
-  },
-  "solid": {
-    "value": "Тверд.",
-    "history": [
-      {
-        "userId": 166868,
-        "timestamp": 1573211389919,
-        "oldValue": "",
-        "newValue": "Тверд.",
+        "timestamp": 1577979734124,
+        "oldValue": "Кількість речовини: {0} г",
+        "newValue": "Кількість розч. речов.: {0} г",
         "explanation": null
       }
     ]
@@ -419,76 +634,38 @@
       }
     ]
   },
-  "pattern.0soluteAmount": {
-    "value": "Кількість розч. речов.: {0} г",
+  "solid": {
+    "value": "Тверд.",
     "history": [
       {
         "userId": 166868,
         "timestamp": 1573211389919,
         "oldValue": "",
-        "newValue": "Кількість розчину: {0} г",
-        "explanation": null
-      },
-      {
-        "userId": 166868,
-        "timestamp": 1575055840639,
-        "oldValue": "Кількість розчину: {0} г",
-        "newValue": "Кількість речовини: {0} г",
-        "explanation": null
-      },
-      {
-        "userId": 166868,
-        "timestamp": 1577979734124,
-        "oldValue": "Кількість речовини: {0} г",
-        "newValue": "Кількість розч. речов.: {0} г",
+        "newValue": "Тверд.",
         "explanation": null
       }
     ]
   },
-  "solution": {
-    "value": "Розчин",
+  "screen.concentration": {
+    "value": "Концентрація",
     "history": [
       {
         "userId": 166868,
         "timestamp": 1573211389919,
         "oldValue": "",
-        "newValue": "Розчин",
+        "newValue": "Концентрація",
         "explanation": null
       }
     ]
   },
-  "pattern.0value.1units": {
-    "value": "{0} {1}",
+  "beers-law-lab.title": {
+    "value": "Закон Бера",
     "history": [
       {
-        "userId": 166868,
-        "timestamp": 1573211389919,
+        "userId": 618178,
+        "timestamp": 1597906827693,
         "oldValue": "",
-        "newValue": "{0} {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0percent": {
-    "value": "{0}%",
-    "history": [
-      {
-        "userId": 166868,
-        "timestamp": 1573211389919,
-        "oldValue": "",
-        "newValue": "{0}%",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0label": {
-    "value": "{0}:",
-    "history": [
-      {
-        "userId": 166868,
-        "timestamp": 1573211389919,
-        "oldValue": "",
-        "newValue": "{0}:",
+        "newValue": "Закон Бера",
         "explanation": null
       }
     ]
