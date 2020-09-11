@@ -1,4 +1,40 @@
 {
+  "oneSecond": {
+    "value": "1s",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599844870060,
+        "oldValue": "",
+        "newValue": "1s",
+        "explanation": null
+      }
+    ]
+  },
+  "questionMark": {
+    "value": "?",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1509463245769,
+        "oldValue": "",
+        "newValue": "?",
+        "explanation": null
+      }
+    ]
+  },
+  "acSource": {
+    "value": "Hiệu thế giao phiên",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599844870060,
+        "oldValue": "",
+        "newValue": "Hiệu thế giao phiên",
+        "explanation": null
+      }
+    ]
+  },
   "ammeter": {
     "value": "Ampere kế",
     "history": [
@@ -95,14 +131,26 @@
       }
     ]
   },
-  "currentUnits": {
-    "value": "{{current}} A",
+  "currentChart": {
+    "value": "Biểu đồ cường độ",
     "history": [
       {
         "userId": 137535,
-        "timestamp": 1509463245770,
+        "timestamp": 1599844870060,
         "oldValue": "",
-        "newValue": "{{current}} A",
+        "newValue": "Biểu đồ cường độ",
+        "explanation": null
+      }
+    ]
+  },
+  "currentRating": {
+    "value": "Định mức dòng điện",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599844870060,
+        "oldValue": "",
+        "newValue": "Định mức dòng điện",
         "explanation": null
       }
     ]
@@ -151,6 +199,30 @@
         "timestamp": 1509463245770,
         "oldValue": "",
         "newValue": "Gôm",
+        "explanation": null
+      }
+    ]
+  },
+  "frequency": {
+    "value": "Tần số",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599844870060,
+        "oldValue": "",
+        "newValue": "Tần số",
+        "explanation": null
+      }
+    ]
+  },
+  "fuse": {
+    "value": "Cầu chì",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599844870060,
+        "oldValue": "",
+        "newValue": "Cầu chì",
         "explanation": null
       }
     ]
@@ -234,18 +306,6 @@
       }
     ]
   },
-  "questionMark": {
-    "value": "?",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1509463245769,
-        "oldValue": "",
-        "newValue": "?",
-        "explanation": null
-      }
-    ]
-  },
   "resistance": {
     "value": "Điện trở",
     "history": [
@@ -254,42 +314,6 @@
         "timestamp": 1509463245770,
         "oldValue": "",
         "newValue": "Điện trở",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhms": {
-    "value": "{{resistance}}  Ω",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1509463245770,
-        "oldValue": "",
-        "newValue": "{{resistance}}  Ω",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhmsSymbol": {
-    "value": "{{resistance}} Ω",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1509463245770,
-        "oldValue": "",
-        "newValue": "{{resistance}} Ω",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhmsValuePattern": {
-    "value": "{{resistance}}  Ω",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1509463245770,
-        "oldValue": "",
-        "newValue": "{{resistance}}  Ω",
         "explanation": null
       }
     ]
@@ -366,6 +390,18 @@
       }
     ]
   },
+  "time": {
+    "value": "Thời gian",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599844870061,
+        "oldValue": "",
+        "newValue": "Thời gian",
+        "explanation": null
+      }
+    ]
+  },
   "tiny": {
     "value": "nhỏ",
     "history": [
@@ -402,26 +438,14 @@
       }
     ]
   },
-  "voltageUnits": {
-    "value": "{{voltage}} V",
+  "voltageChart": {
+    "value": "Biểu đồ hiệu thế",
     "history": [
       {
         "userId": 137535,
-        "timestamp": 1509463245770,
+        "timestamp": 1599844870061,
         "oldValue": "",
-        "newValue": "{{voltage}} V",
-        "explanation": null
-      }
-    ]
-  },
-  "voltageVoltsValuePattern": {
-    "value": "{{voltage}} V",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1509463245770,
-        "oldValue": "",
-        "newValue": "{{voltage}} V",
+        "newValue": "Biểu đồ hiệu thế",
         "explanation": null
       }
     ]
@@ -458,6 +482,102 @@
         "timestamp": 1509463245770,
         "oldValue": "",
         "newValue": "Điện trở dây nối",
+        "explanation": null
+      }
+    ]
+  },
+  "currentUnits": {
+    "value": "{{current}} A",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1509463245770,
+        "oldValue": "",
+        "newValue": "{{current}} A",
+        "explanation": null
+      }
+    ]
+  },
+  "frequencyHzValuePattern": {
+    "value": "{{frequency}} Hz",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599844870061,
+        "oldValue": "",
+        "newValue": "{{frequency}} Hz",
+        "explanation": null
+      }
+    ]
+  },
+  "fuseValue": {
+    "value": " {{resistance}} mΩ<br><span style=\"font-size: 16px;\">≤ {{currentRating}} A</span>",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599844870061,
+        "oldValue": "",
+        "newValue": " {{resistance}} mΩ<br><span style=\"font-size: 16px;\">≤ {{currentRating}} A</span>",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhmsValuePattern": {
+    "value": "{{resistance}}  Ω",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1509463245770,
+        "oldValue": "",
+        "newValue": "{{resistance}}  Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhmsSymbol": {
+    "value": "{{resistance}} Ω",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1509463245770,
+        "oldValue": "",
+        "newValue": "{{resistance}} Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageUnits": {
+    "value": "{{voltage}} V",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1509463245770,
+        "oldValue": "",
+        "newValue": "{{voltage}} V",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageVoltsValuePattern": {
+    "value": "{{voltage}} V",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1509463245770,
+        "oldValue": "",
+        "newValue": "{{voltage}} V",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhms": {
+    "value": "{{resistance}}  Ω",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1509463245770,
+        "oldValue": "",
+        "newValue": "{{resistance}}  Ω",
         "explanation": null
       }
     ]
