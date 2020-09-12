@@ -1,12 +1,38 @@
 {
-  "key.alt": {
-    "value": "Alt",
+  "keyboardHelpDialog.basicActions": {
+    "value": "Điều khiển cơ bản",
     "history": [
       {
         "userId": 137535,
-        "timestamp": 1599588660952,
+        "timestamp": 1546274172683,
         "oldValue": "",
-        "newValue": "Alt",
+        "newValue": "Tác dụng cơ bản",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1599898047060,
+        "oldValue": "Tác dụng cơ bản",
+        "newValue": "Điều khiển cơ bản",
+        "explanation": null
+      }
+    ]
+  },
+  "key.end": {
+    "value": "End",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1546274172683,
+        "oldValue": "",
+        "newValue": "Hết",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1583556087223,
+        "oldValue": "Hết",
+        "newValue": "End",
         "explanation": null
       }
     ]
@@ -35,21 +61,14 @@
       }
     ]
   },
-  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-    "value": "Giữ hay buông {{thing}}",
+  "keyboardHelpDialog.exitADialog": {
+    "value": "Thoát khỏi dialog",
     "history": [
       {
         "userId": 137535,
-        "timestamp": 1544768306836,
+        "timestamp": 1546274172683,
         "oldValue": "",
-        "newValue": "Cầm hay buông {{thing}}",
-        "explanation": null
-      },
-      {
-        "userId": 137535,
-        "timestamp": 1583556087223,
-        "oldValue": "Cầm hay buông {{thing}}",
-        "newValue": "Giữ hay buông {{thing}}",
+        "newValue": "Thoát khỏi dialog",
         "explanation": null
       }
     ]
@@ -73,26 +92,128 @@
       }
     ]
   },
-  "key.k": {
-    "value": "K",
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "Giữ hay buông {{thing}}",
     "history": [
       {
         "userId": 137535,
-        "timestamp": 1599588660952,
+        "timestamp": 1544768306836,
         "oldValue": "",
-        "newValue": "K",
+        "newValue": "Cầm hay buông {{thing}}",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1583556087223,
+        "oldValue": "Cầm hay buông {{thing}}",
+        "newValue": "Giữ hay buông {{thing}}",
         "explanation": null
       }
     ]
   },
-  "key.l": {
-    "value": "L",
+  "key.home": {
+    "value": "Home",
     "history": [
       {
         "userId": 137535,
-        "timestamp": 1599588660952,
+        "timestamp": 1546274172683,
         "oldValue": "",
-        "newValue": "L",
+        "newValue": "Home",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+    "value": "Di chuyển giữa các đối tượng",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1546274172683,
+        "oldValue": "",
+        "newValue": "Di chuyển giữa các đề mục",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1599898047060,
+        "oldValue": "Di chuyển giữa các đề mục",
+        "newValue": "Di chuyển giữa các đối tượng",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItem": {
+    "value": "Chuyển tới đối tượng kế tiếp",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1546274172683,
+        "oldValue": "",
+        "newValue": "Chuyển tới mục kế tiếp",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1599898047060,
+        "oldValue": "Chuyển tới mục kế tiếp",
+        "newValue": "Chuyển tới đối tượng kế tiếp",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItemOrGroup": {
+    "value": "Chuyển tới đối tượng/nhóm kế tiếp",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1546274172683,
+        "oldValue": "",
+        "newValue": "Chuyển tới mục/nhóm kế tiếp",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1599898047060,
+        "oldValue": "Chuyển tới mục/nhóm kế tiếp",
+        "newValue": "Chuyển tới đối tượng/nhóm kế tiếp",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItem": {
+    "value": "Chuyển tới đối tượng trước đó",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1546274172683,
+        "oldValue": "",
+        "newValue": "Chuyển tới mục trước đó",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1599898047060,
+        "oldValue": "Chuyển tới mục trước đó",
+        "newValue": "Chuyển tới đối tượng trước đó",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+    "value": "Chuyển tới đối tượng/nhóm trước đó",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1546274172683,
+        "oldValue": "",
+        "newValue": "Chuyển tới mục/nhóm trước đó",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1599898047060,
+        "oldValue": "Chuyển tới mục/nhóm trước đó",
+        "newValue": "Chuyển tới đối tượng/nhóm trước đó",
         "explanation": null
       }
     ]
@@ -133,181 +254,6 @@
       }
     ]
   },
-  "key.shift": {
-    "value": "Shift",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1544768306836,
-        "oldValue": "",
-        "newValue": "Shift",
-        "explanation": null
-      }
-    ]
-  },
-  "key.space": {
-    "value": "Space",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1544768306836,
-        "oldValue": "",
-        "newValue": "Space",
-        "explanation": null
-      }
-    ]
-  },
-  "key.tab": {
-    "value": "Tab",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1544768306836,
-        "oldValue": "",
-        "newValue": "Tab",
-        "explanation": null
-      }
-    ]
-  },
-  "symbol.resistivity": {
-    "value": "ρ",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548861277475,
-        "oldValue": "",
-        "newValue": "ρ",
-        "explanation": null
-      }
-    ]
-  },
-  "symbol.ohms": {
-    "value": "Ω",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1548861277475,
-        "oldValue": "",
-        "newValue": "Ω",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.basicActions": {
-    "value": "Tác dụng cơ bản",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1546274172683,
-        "oldValue": "",
-        "newValue": "Tác dụng cơ bản",
-        "explanation": null
-      }
-    ]
-  },
-  "key.end": {
-    "value": "End",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1546274172683,
-        "oldValue": "",
-        "newValue": "Hết",
-        "explanation": null
-      },
-      {
-        "userId": 137535,
-        "timestamp": 1583556087223,
-        "oldValue": "Hết",
-        "newValue": "End",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.exitADialog": {
-    "value": "Thoát khỏi dialog",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1546274172683,
-        "oldValue": "",
-        "newValue": "Thoát khỏi dialog",
-        "explanation": null
-      }
-    ]
-  },
-  "key.home": {
-    "value": "Home",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1546274172683,
-        "oldValue": "",
-        "newValue": "Home",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveBetweenItemsInAGroup": {
-    "value": "Di chuyển giữa các đề mục",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1546274172683,
-        "oldValue": "",
-        "newValue": "Di chuyển giữa các đề mục",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveToNextItem": {
-    "value": "Chuyển tới mục kế tiếp",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1546274172683,
-        "oldValue": "",
-        "newValue": "Chuyển tới mục kế tiếp",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveToNextItemOrGroup": {
-    "value": "Chuyển tới mục/nhóm kế tiếp",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1546274172683,
-        "oldValue": "",
-        "newValue": "Chuyển tới mục/nhóm kế tiếp",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveToPreviousItem": {
-    "value": "Chuyển tới mục trước đó",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1546274172683,
-        "oldValue": "",
-        "newValue": "Chuyển tới mục trước đó",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
-    "value": "Chuyển tới mục/nhóm trước đó",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1546274172683,
-        "oldValue": "",
-        "newValue": "Chuyển tới mục/nhóm trước đó",
-        "explanation": null
-      }
-    ]
-  },
   "keyboardHelpDialog.pressButtons": {
     "value": "Bấm phím",
     "history": [
@@ -344,14 +290,38 @@
       }
     ]
   },
-  "key.toGrabOrRelease": {
-    "value": "<b>Giữ</b>hay<b>Thả</b>",
+  "key.shift": {
+    "value": "Shift",
     "history": [
       {
         "userId": 137535,
-        "timestamp": 1583556087223,
+        "timestamp": 1544768306836,
         "oldValue": "",
-        "newValue": "<b>Giữ</b>hay<b>Thả</b>",
+        "newValue": "Shift",
+        "explanation": null
+      }
+    ]
+  },
+  "key.space": {
+    "value": "Space",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1544768306836,
+        "oldValue": "",
+        "newValue": "Space",
+        "explanation": null
+      }
+    ]
+  },
+  "key.tab": {
+    "value": "Tab",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1544768306836,
+        "oldValue": "",
+        "newValue": "Tab",
         "explanation": null
       }
     ]
@@ -364,6 +334,78 @@
         "timestamp": 1573023036881,
         "oldValue": "",
         "newValue": "Thay đổi dấu chọn",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.resistivity": {
+    "value": "ρ",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548861277475,
+        "oldValue": "",
+        "newValue": "ρ",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.ohms": {
+    "value": "Ω",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1548861277475,
+        "oldValue": "",
+        "newValue": "Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "key.alt": {
+    "value": "Alt",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599588660952,
+        "oldValue": "",
+        "newValue": "Alt",
+        "explanation": null
+      }
+    ]
+  },
+  "key.k": {
+    "value": "K",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599588660952,
+        "oldValue": "",
+        "newValue": "K",
+        "explanation": null
+      }
+    ]
+  },
+  "key.l": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599588660952,
+        "oldValue": "",
+        "newValue": "L",
+        "explanation": null
+      }
+    ]
+  },
+  "key.toGrabOrRelease": {
+    "value": "<b>Giữ</b>hay<b>Thả</b>",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1583556087223,
+        "oldValue": "",
+        "newValue": "<b>Giữ</b>hay<b>Thả</b>",
         "explanation": null
       }
     ]
