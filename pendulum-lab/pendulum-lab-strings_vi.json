@@ -1,16 +1,4 @@
 {
-  "acceleration": {
-    "value": "Gia tốc",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1505386661914,
-        "oldValue": "",
-        "newValue": "Gia tốc",
-        "explanation": null
-      }
-    ]
-  },
   "custom": {
     "value": "Tuỳ biến",
     "history": [
@@ -19,18 +7,6 @@
         "timestamp": 1505386661914,
         "oldValue": "",
         "newValue": "Tuỳ biến",
-        "explanation": null
-      }
-    ]
-  },
-  "degreesPattern": {
-    "value": "{{degrees}}°",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1505386661914,
-        "oldValue": "",
-        "newValue": "{{degrees}}°",
         "explanation": null
       }
     ]
@@ -47,66 +23,6 @@
       }
     ]
   },
-  "energyGraph": {
-    "value": "Đồ thị năng lượng",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1505386661914,
-        "oldValue": "",
-        "newValue": "Đồ thị năng lượng",
-        "explanation": null
-      }
-    ]
-  },
-  "energyLegend": {
-    "value": "Chú thích năng lượng",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1505386661914,
-        "oldValue": "",
-        "newValue": "Chú thích năng lượng",
-        "explanation": null
-      }
-    ]
-  },
-  "friction": {
-    "value": "Ma sát",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1505386661914,
-        "oldValue": "",
-        "newValue": "Ma sát",
-        "explanation": null
-      }
-    ]
-  },
-  "gravitationalAccelerationPattern": {
-    "value": "{{gravity}} m/s<sup>2</sup>  ",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1505386661914,
-        "oldValue": "",
-        "newValue": "{{gravity}} m/s<sup>2</sup>  ",
-        "explanation": null
-      }
-    ]
-  },
-  "gravity": {
-    "value": "Trọng lực",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1505386661914,
-        "oldValue": "",
-        "newValue": "Trọng lực",
-        "explanation": null
-      }
-    ]
-  },
   "jupiter": {
     "value": "Mộc tinh",
     "history": [
@@ -119,26 +35,26 @@
       }
     ]
   },
-  "kilogramsPattern": {
-    "value": "{{kilograms}} kg",
+  "moon": {
+    "value": "Mặt trăng",
     "history": [
       {
         "userId": 137535,
         "timestamp": 1505386661914,
         "oldValue": "",
-        "newValue": "{{kilograms}} kg",
+        "newValue": "Mặt trăng",
         "explanation": null
       }
     ]
   },
-  "legend.kineticEnergy": {
-    "value": "Động năng",
+  "planetX": {
+    "value": "Hành tinh X",
     "history": [
       {
         "userId": 137535,
         "timestamp": 1505386661914,
         "oldValue": "",
-        "newValue": "Động năng",
+        "newValue": "Hành tinh X",
         "explanation": null
       }
     ]
@@ -155,18 +71,6 @@
       }
     ]
   },
-  "legend.potentialEnergy": {
-    "value": "Thế năng",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1505386661914,
-        "oldValue": "",
-        "newValue": "Thế năng",
-        "explanation": null
-      }
-    ]
-  },
   "legend.potentialEnergyAbbreviation": {
     "value": "PE",
     "history": [
@@ -175,18 +79,6 @@
         "timestamp": 1505386661914,
         "oldValue": "",
         "newValue": "PE",
-        "explanation": null
-      }
-    ]
-  },
-  "legend.thermalEnergy": {
-    "value": "Nhiệt năng",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1505386661914,
-        "oldValue": "",
-        "newValue": "Nhiệt năng",
         "explanation": null
       }
     ]
@@ -203,18 +95,6 @@
       }
     ]
   },
-  "legend.totalEnergy": {
-    "value": "Năng lượng toàn phần",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1505386661914,
-        "oldValue": "",
-        "newValue": "Năng lượng toàn phần",
-        "explanation": null
-      }
-    ]
-  },
   "legend.totalEnergyAbbreviation": {
     "value": "E<sub>tổng</sub>",
     "history": [
@@ -227,6 +107,169 @@
       }
     ]
   },
+  "energyLegend": {
+    "value": "Chú thích năng lượng",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1505386661914,
+        "oldValue": "",
+        "newValue": "Chú thích năng lượng",
+        "explanation": null
+      }
+    ]
+  },
+  "legend.kineticEnergy": {
+    "value": "Động năng",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1505386661914,
+        "oldValue": "",
+        "newValue": "Động năng",
+        "explanation": null
+      }
+    ]
+  },
+  "legend.potentialEnergy": {
+    "value": "Thế năng",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1505386661914,
+        "oldValue": "",
+        "newValue": "Thế năng",
+        "explanation": null
+      }
+    ]
+  },
+  "legend.thermalEnergy": {
+    "value": "Nhiệt năng",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1505386661914,
+        "oldValue": "",
+        "newValue": "Nhiệt năng",
+        "explanation": null
+      }
+    ]
+  },
+  "legend.totalEnergy": {
+    "value": "Năng lượng toàn phần",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1505386661914,
+        "oldValue": "",
+        "newValue": "Năng lượng toàn phần",
+        "explanation": null
+      }
+    ]
+  },
+  "energyGraph": {
+    "value": "Đồ thị năng lượng",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1505386661914,
+        "oldValue": "",
+        "newValue": "Đồ thị năng lượng",
+        "explanation": null
+      }
+    ]
+  },
+  "pendulumMassPattern": {
+    "value": "Khối lượng {{pendulumNumber}}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1505386661914,
+        "oldValue": "",
+        "newValue": "Khối lượng {{pendulumNumber}}",
+        "explanation": null
+      }
+    ]
+  },
+  "friction": {
+    "value": "Ma sát",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1505386661914,
+        "oldValue": "",
+        "newValue": "Ma sát",
+        "explanation": null
+      }
+    ]
+  },
+  "lots": {
+    "value": "Lớn",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1505386661914,
+        "oldValue": "",
+        "newValue": "Nhiều",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1601916351933,
+        "oldValue": "Nhiều",
+        "newValue": "Lớn",
+        "explanation": null
+      }
+    ]
+  },
+  "none": {
+    "value": "Không có",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1505386661914,
+        "oldValue": "",
+        "newValue": "Không có",
+        "explanation": null
+      }
+    ]
+  },
+  "gravitationalAccelerationPattern": {
+    "value": "{{gravity}} m/s<sup>2</sup>  ",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1505386661914,
+        "oldValue": "",
+        "newValue": "{{gravity}} m/s<sup>2</sup>  ",
+        "explanation": null
+      }
+    ]
+  },
+  "whatIsTheValueOfGravity": {
+    "value": "Trọng lực bằng bao nhiêu?",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1505386661914,
+        "oldValue": "",
+        "newValue": "Trọng lực bằng bao nhiêu?",
+        "explanation": null
+      }
+    ]
+  },
+  "gravity": {
+    "value": "Trọng lực",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1505386661914,
+        "oldValue": "",
+        "newValue": "Trọng lực",
+        "explanation": null
+      }
+    ]
+  },
   "length": {
     "value": "Chiều dài  {{pendulumNumber}}",
     "history": [
@@ -235,18 +278,6 @@
         "timestamp": 1505386661914,
         "oldValue": "",
         "newValue": "Chiều dài  {{pendulumNumber}}",
-        "explanation": null
-      }
-    ]
-  },
-  "lots": {
-    "value": "Nhiều",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1505386661914,
-        "oldValue": "",
-        "newValue": "Nhiều",
         "explanation": null
       }
     ]
@@ -275,26 +306,26 @@
       }
     ]
   },
-  "moon": {
-    "value": "Mặt trăng",
+  "kilogramsPattern": {
+    "value": "{{kilograms}} kg",
     "history": [
       {
         "userId": 137535,
         "timestamp": 1505386661914,
         "oldValue": "",
-        "newValue": "Mặt trăng",
+        "newValue": "{{kilograms}} kg",
         "explanation": null
       }
     ]
   },
-  "none": {
-    "value": "Không có",
+  "rulerUnits": {
+    "value": "cm",
     "history": [
       {
         "userId": 137535,
         "timestamp": 1505386661914,
         "oldValue": "",
-        "newValue": "Không có",
+        "newValue": "cm",
         "explanation": null
       }
     ]
@@ -311,45 +342,50 @@
       }
     ]
   },
-  "pendulum-lab.title": {
-    "value": "Con lắc",
+  "slowMotion": {
+    "value": "Chậm",
     "history": [
       {
         "userId": 137535,
         "timestamp": 1505386661914,
         "oldValue": "",
-        "newValue": "Con lắc đơn",
-        "explanation": null
-      },
-      {
-        "userId": 137535,
-        "timestamp": 1505388405588,
-        "oldValue": "Con lắc đơn",
-        "newValue": "Con lắc",
+        "newValue": "Chậm",
         "explanation": null
       }
     ]
   },
-  "pendulumMassPattern": {
-    "value": "Khối lượng {{pendulumNumber}}",
+  "degreesPattern": {
+    "value": "{{degrees}}°",
     "history": [
       {
         "userId": 137535,
         "timestamp": 1505386661914,
         "oldValue": "",
-        "newValue": "Khối lượng {{pendulumNumber}}",
+        "newValue": "{{degrees}}°",
         "explanation": null
       }
     ]
   },
-  "period": {
-    "value": "Chu kỳ",
+  "ruler": {
+    "value": "Thước",
     "history": [
       {
         "userId": 137535,
         "timestamp": 1505386661914,
         "oldValue": "",
-        "newValue": "Chu kỳ",
+        "newValue": "Thước",
+        "explanation": null
+      }
+    ]
+  },
+  "stopwatch": {
+    "value": "Đồng hồ",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1505386661914,
+        "oldValue": "",
+        "newValue": "Đồng hồ",
         "explanation": null
       }
     ]
@@ -385,42 +421,6 @@
       }
     ]
   },
-  "planetX": {
-    "value": "Hành tinh X",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1505386661914,
-        "oldValue": "",
-        "newValue": "Hành tinh X",
-        "explanation": null
-      }
-    ]
-  },
-  "ruler": {
-    "value": "Thước",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1505386661914,
-        "oldValue": "",
-        "newValue": "Thước",
-        "explanation": null
-      }
-    ]
-  },
-  "rulerUnits": {
-    "value": "cm",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1505386661914,
-        "oldValue": "",
-        "newValue": "cm",
-        "explanation": null
-      }
-    ]
-  },
   "screen.energy": {
     "value": "Năng lượng",
     "history": [
@@ -445,50 +445,14 @@
       }
     ]
   },
-  "screen.lab": {
-    "value": "Lab",
+  "acceleration": {
+    "value": "Gia tốc",
     "history": [
       {
         "userId": 137535,
         "timestamp": 1505386661914,
         "oldValue": "",
-        "newValue": "Lab",
-        "explanation": null
-      }
-    ]
-  },
-  "secondsPattern": {
-    "value": "{{seconds}} s",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1505386661914,
-        "oldValue": "",
-        "newValue": "{{seconds}} s",
-        "explanation": null
-      }
-    ]
-  },
-  "slowMotion": {
-    "value": "Chậm",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1505386661914,
-        "oldValue": "",
-        "newValue": "Chậm",
-        "explanation": null
-      }
-    ]
-  },
-  "stopwatch": {
-    "value": "Đồng hồ",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1505386661914,
-        "oldValue": "",
-        "newValue": "Đồng hồ",
+        "newValue": "Gia tốc",
         "explanation": null
       }
     ]
@@ -505,14 +469,57 @@
       }
     ]
   },
-  "whatIsTheValueOfGravity": {
-    "value": "Trọng lực bằng bao nhiêu?",
+  "secondsPattern": {
+    "value": "{{seconds}} s",
     "history": [
       {
         "userId": 137535,
         "timestamp": 1505386661914,
         "oldValue": "",
-        "newValue": "Trọng lực bằng bao nhiêu?",
+        "newValue": "{{seconds}} s",
+        "explanation": null
+      }
+    ]
+  },
+  "period": {
+    "value": "Chu kỳ",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1505386661914,
+        "oldValue": "",
+        "newValue": "Chu kỳ",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.lab": {
+    "value": "Lab",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1505386661914,
+        "oldValue": "",
+        "newValue": "Lab",
+        "explanation": null
+      }
+    ]
+  },
+  "pendulum-lab.title": {
+    "value": "Con lắc",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1505386661914,
+        "oldValue": "",
+        "newValue": "Con lắc đơn",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1505388405588,
+        "oldValue": "Con lắc đơn",
+        "newValue": "Con lắc",
         "explanation": null
       }
     ]
