@@ -23,6 +23,18 @@
       }
     ]
   },
+  "acSource": {
+    "value": "Напруга зм. струму",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1604153037648,
+        "oldValue": "",
+        "newValue": "Напруга зм. струму",
+        "explanation": null
+      }
+    ]
+  },
   "ammeter": {
     "value": "Амперметр",
     "history": [
@@ -159,6 +171,18 @@
       }
     ]
   },
+  "currentRating": {
+    "value": "Номінальний струм",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1604153037648,
+        "oldValue": "",
+        "newValue": "Номінальний струм",
+        "explanation": null
+      }
+    ]
+  },
   "dog": {
     "value": "Собака",
     "history": [
@@ -172,13 +196,20 @@
     ]
   },
   "dollarBill": {
-    "value": "Долар купюра",
+    "value": "Купюра",
     "history": [
       {
         "userId": 166868,
         "timestamp": 1512206964806,
         "oldValue": "",
         "newValue": "Долар купюра",
+        "explanation": null
+      },
+      {
+        "userId": 166868,
+        "timestamp": 1604153037648,
+        "oldValue": "Долар купюра",
+        "newValue": "Купюра",
         "explanation": null
       }
     ]
@@ -268,13 +299,20 @@
     ]
   },
   "lots": {
-    "value": "великий",
+    "value": "велик.",
     "history": [
       {
         "userId": 166868,
         "timestamp": 1512206964806,
         "oldValue": "",
         "newValue": "великий",
+        "explanation": null
+      },
+      {
+        "userId": 166868,
+        "timestamp": 1604153037648,
+        "oldValue": "великий",
+        "newValue": "велик.",
         "explanation": null
       }
     ]
@@ -503,6 +541,18 @@
         "timestamp": 1593985757343,
         "oldValue": "",
         "newValue": "{{frequency}} Гц",
+        "explanation": null
+      }
+    ]
+  },
+  "fuseValue": {
+    "value": "{{resistance}} мОм<br><span style=\"font-size: 16px;\">≤ {{currentRating}} A</span>",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1604153037648,
+        "oldValue": "",
+        "newValue": "{{resistance}} мОм<br><span style=\"font-size: 16px;\">≤ {{currentRating}} A</span>",
         "explanation": null
       }
     ]
