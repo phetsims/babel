@@ -1,12 +1,187 @@
 {
-  "acceleration": {
-    "value": "Acceleration",
+  "speed": {
+    "value": "Hastighed",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1462589466752,
         "oldValue": "",
-        "newValue": "Acceleration",
+        "newValue": "Hastighed",
+        "explanation": null
+      }
+    ]
+  },
+  "go": {
+    "value": "Go!",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1462589466752,
+        "oldValue": "",
+        "newValue": "Go!",
+        "explanation": null
+      }
+    ]
+  },
+  "pause": {
+    "value": "Pause",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1462589466752,
+        "oldValue": "",
+        "newValue": "Pause",
+        "explanation": null
+      }
+    ]
+  },
+  "return": {
+    "value": "Tilbage",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1462589466752,
+        "oldValue": "",
+        "newValue": "Tilbage",
+        "explanation": null
+      }
+    ]
+  },
+  "blueWins": {
+    "value": "Blå vinder!",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1462589466752,
+        "oldValue": "",
+        "newValue": "Blå vinder!",
+        "explanation": null
+      }
+    ]
+  },
+  "redWins": {
+    "value": "Rød vinder!",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1462589466752,
+        "oldValue": "",
+        "newValue": "Rød vinder",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1462634989417,
+        "oldValue": "Rød vinder",
+        "newValue": "Rød vinder!",
+        "explanation": null
+      }
+    ]
+  },
+  "sumOfForces": {
+    "value": "Resulterende kraft",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1462589466752,
+        "oldValue": "",
+        "newValue": "Resulterende kraft",
+        "explanation": null
+      }
+    ]
+  },
+  "values": {
+    "value": "Værdier",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1462589466752,
+        "oldValue": "",
+        "newValue": "Værdier",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0valueUnitsN": {
+    "value": "{0}N",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1462589466752,
+        "oldValue": "",
+        "newValue": "{0}N",
+        "explanation": null
+      }
+    ]
+  },
+  "sumOfForcesEqualsZero": {
+    "value": "Resulterende kraft = 0",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1462589466752,
+        "oldValue": "",
+        "newValue": "Resulterende kraft = 0",
+        "explanation": null
+      }
+    ]
+  },
+  "leftForce": {
+    "value": "Venstre kraft",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1462589466752,
+        "oldValue": "",
+        "newValue": "Venstre kraft",
+        "explanation": null
+      }
+    ]
+  },
+  "rightForce": {
+    "value": "Højre kraft",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1462589466752,
+        "oldValue": "",
+        "newValue": "Højre kraft",
+        "explanation": null
+      }
+    ]
+  },
+  "left": {
+    "value": "venstre",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1515593545813,
+        "oldValue": "",
+        "newValue": "venstre",
+        "explanation": null
+      }
+    ]
+  },
+  "right": {
+    "value": "højre",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1515593545813,
+        "oldValue": "",
+        "newValue": "højre",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0massUnitsKilograms": {
+    "value": "{0} kg",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1462589466752,
+        "oldValue": "",
+        "newValue": "{0} kg",
         "explanation": null
       }
     ]
@@ -23,14 +198,45 @@
       }
     ]
   },
-  "blueWins": {
-    "value": "Blå vinder!",
+  "frictionForce": {
+    "value": "Friktionskraft",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1462589466752,
         "oldValue": "",
-        "newValue": "Blå vinder!",
+        "newValue": "Friktionskraften",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1604257854384,
+        "oldValue": "Friktionskraften",
+        "newValue": "Friktionskraft",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0name.1valueUnitsVelocity": {
+    "value": "{0} m/s",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1462589466752,
+        "oldValue": "",
+        "newValue": "{0} m/s",
+        "explanation": null
+      }
+    ]
+  },
+  "acceleration": {
+    "value": "Acceleration",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1462589466752,
+        "oldValue": "",
+        "newValue": "Acceleration",
         "explanation": null
       }
     ]
@@ -59,90 +265,6 @@
       }
     ]
   },
-  "forces-and-motion-basics.title": {
-    "value": "Kræfter og bevægelse: Basis",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1462589466752,
-        "oldValue": "",
-        "newValue": "Kræfter og bevægelse: Basis",
-        "explanation": null
-      }
-    ]
-  },
-  "friction": {
-    "value": "Friktion",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1462589466752,
-        "oldValue": "",
-        "newValue": "Friktion",
-        "explanation": null
-      }
-    ]
-  },
-  "frictionForce": {
-    "value": "Friktionskraften",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1462589466752,
-        "oldValue": "",
-        "newValue": "Friktionskraften",
-        "explanation": null
-      }
-    ]
-  },
-  "go": {
-    "value": "Go!",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1462589466752,
-        "oldValue": "",
-        "newValue": "Go!",
-        "explanation": null
-      }
-    ]
-  },
-  "left": {
-    "value": "venstre",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1515593545813,
-        "oldValue": "",
-        "newValue": "venstre",
-        "explanation": null
-      }
-    ]
-  },
-  "leftForce": {
-    "value": "Venstre kraft",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1462589466752,
-        "oldValue": "",
-        "newValue": "Venstre kraft",
-        "explanation": null
-      }
-    ]
-  },
-  "lots": {
-    "value": "Høj",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1462589466752,
-        "oldValue": "",
-        "newValue": "Høj",
-        "explanation": null
-      }
-    ]
-  },
   "masses": {
     "value": "Masser",
     "history": [
@@ -162,14 +284,74 @@
       }
     ]
   },
-  "motion": {
-    "value": "Bevægelse",
+  "friction": {
+    "value": "Friktion",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1462589466752,
         "oldValue": "",
-        "newValue": "Bevægelse",
+        "newValue": "Friktion",
+        "explanation": null
+      }
+    ]
+  },
+  "lots": {
+    "value": "Høj",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1462589466752,
+        "oldValue": "",
+        "newValue": "Høj",
+        "explanation": null
+      }
+    ]
+  },
+  "none": {
+    "value": "Ingen",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1462589466752,
+        "oldValue": "",
+        "newValue": "Ingen",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0name.1valueUnitsAcceleration": {
+    "value": "{0}: {1} m/s<sup>2</sup>",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1462589466752,
+        "oldValue": "",
+        "newValue": "{0}: {1} m/s<sup>2</sup>",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0valueUnitsNewtons": {
+    "value": "{0} Newton",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1462589466752,
+        "oldValue": "",
+        "newValue": "{0} Newton",
+        "explanation": null
+      }
+    ]
+  },
+  "forces-and-motion-basics.title": {
+    "value": "Kræfter og bevægelse: Basis",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1462589466752,
+        "oldValue": "",
+        "newValue": "Kræfter og bevægelse: Basis",
         "explanation": null
       }
     ]
@@ -193,189 +375,14 @@
       }
     ]
   },
-  "none": {
-    "value": "Ingen",
+  "motion": {
+    "value": "Bevægelse",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1462589466752,
         "oldValue": "",
-        "newValue": "Ingen",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0massUnitsKilograms": {
-    "value": "{0} kg",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1462589466752,
-        "oldValue": "",
-        "newValue": "{0} kg",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0name.1valueUnitsAcceleration": {
-    "value": "{0}: {1} m/s<sup>2</sup>",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1462589466752,
-        "oldValue": "",
-        "newValue": "{0}: {1} m/s<sup>2</sup>",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0name.1valueUnitsVelocity": {
-    "value": "{0} m/s",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1462589466752,
-        "oldValue": "",
-        "newValue": "{0} m/s",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0valueUnitsN": {
-    "value": "{0}N",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1462589466752,
-        "oldValue": "",
-        "newValue": "{0}N",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0valueUnitsNewtons": {
-    "value": "{0} Newton",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1462589466752,
-        "oldValue": "",
-        "newValue": "{0} Newton",
-        "explanation": null
-      }
-    ]
-  },
-  "pause": {
-    "value": "Pause",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1462589466752,
-        "oldValue": "",
-        "newValue": "Pause",
-        "explanation": null
-      }
-    ]
-  },
-  "redWins": {
-    "value": "Rød vinder!",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1462589466752,
-        "oldValue": "",
-        "newValue": "Rød vinder",
-        "explanation": null
-      },
-      {
-        "userId": 130982,
-        "timestamp": 1462634989417,
-        "oldValue": "Rød vinder",
-        "newValue": "Rød vinder!",
-        "explanation": null
-      }
-    ]
-  },
-  "return": {
-    "value": "Tilbage",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1462589466752,
-        "oldValue": "",
-        "newValue": "Tilbage",
-        "explanation": null
-      }
-    ]
-  },
-  "right": {
-    "value": "højre",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1515593545813,
-        "oldValue": "",
-        "newValue": "højre",
-        "explanation": null
-      }
-    ]
-  },
-  "rightForce": {
-    "value": "Højre kraft",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1462589466752,
-        "oldValue": "",
-        "newValue": "Højre kraft",
-        "explanation": null
-      }
-    ]
-  },
-  "speed": {
-    "value": "Hastighed",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1462589466752,
-        "oldValue": "",
-        "newValue": "Hastighed",
-        "explanation": null
-      }
-    ]
-  },
-  "sumOfForces": {
-    "value": "Resulterende kraft",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1462589466752,
-        "oldValue": "",
-        "newValue": "Resulterende kraft",
-        "explanation": null
-      }
-    ]
-  },
-  "sumOfForcesEqualsZero": {
-    "value": "Resulterende kraft = 0",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1462589466752,
-        "oldValue": "",
-        "newValue": "Resulterende kraft = 0",
-        "explanation": null
-      }
-    ]
-  },
-  "values": {
-    "value": "Værdier",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1462589466752,
-        "oldValue": "",
-        "newValue": "Værdier",
+        "newValue": "Bevægelse",
         "explanation": null
       }
     ]
