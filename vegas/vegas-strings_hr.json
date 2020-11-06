@@ -1,112 +1,4 @@
 {
-  "keepGoing": {
-    "value": "Samo naprijed",
-    "history": [
-      {
-        "userId": 169574,
-        "timestamp": 1568553448162,
-        "oldValue": "",
-        "newValue": "Samo naprijed",
-        "explanation": null
-      }
-    ]
-  },
-  "newLevel": {
-    "value": "Novi nivo",
-    "history": [
-      {
-        "userId": 169574,
-        "timestamp": 1568553448162,
-        "oldValue": "",
-        "newValue": "Novi nivo",
-        "explanation": null
-      }
-    ]
-  },
-  "score": {
-    "value": "Rezultat:",
-    "history": [
-      {
-        "userId": 169574,
-        "timestamp": 1556827313708,
-        "oldValue": "",
-        "newValue": "Rezultat:",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.score.number": {
-    "value": "rezultat:  {{score}}",
-    "history": [
-      {
-        "userId": 169574,
-        "timestamp": 1556827313708,
-        "oldValue": "",
-        "newValue": "rezultat:  {{score}}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0minutes.1seconds": {
-    "value": "{0}:{1}",
-    "history": [
-      {
-        "userId": 445867,
-        "timestamp": 1500906045885,
-        "oldValue": "",
-        "newValue": "{0}:{1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0hours.1minutes.2seconds": {
-    "value": "{0}:{1}:{2}",
-    "history": [
-      {
-        "userId": 445867,
-        "timestamp": 1500906045885,
-        "oldValue": "",
-        "newValue": "{0}:{1}:{2}",
-        "explanation": null
-      }
-    ]
-  },
-  "done": {
-    "value": "Gotovo",
-    "history": [
-      {
-        "userId": 169574,
-        "timestamp": 1556827313708,
-        "oldValue": "",
-        "newValue": "Gotovo",
-        "explanation": null
-      }
-    ]
-  },
-  "next": {
-    "value": "Slijedeće",
-    "history": [
-      {
-        "userId": 169574,
-        "timestamp": 1542366244605,
-        "oldValue": "",
-        "newValue": "Slijedeće",
-        "explanation": null
-      }
-    ]
-  },
-  "youCompletedAllLevels": {
-    "value": "Uradili ste sve nivoe!",
-    "history": [
-      {
-        "userId": 169574,
-        "timestamp": 1556827313708,
-        "oldValue": "",
-        "newValue": "Uradili ste sve nivoe!",
-        "explanation": null
-      }
-    ]
-  },
   "pattern.0yourBest": {
     "value": "(Tvoj najbolji rezultat  {0})",
     "history": [
@@ -151,6 +43,18 @@
         "timestamp": 1542366244605,
         "oldValue": "",
         "newValue": "Provjeri",
+        "explanation": null
+      }
+    ]
+  },
+  "chooseYourLevel": {
+    "value": "Izaberi svoj nivo",
+    "history": [
+      {
+        "userId": 169574,
+        "timestamp": 1604652590294,
+        "oldValue": "",
+        "newValue": "Izaberi svoj nivo",
         "explanation": null
       }
     ]
@@ -227,14 +131,26 @@
       }
     ]
   },
-  "label.scorePattern": {
-    "value": "Bodovi: {0}",
+  "next": {
+    "value": "Slijedeće",
     "history": [
       {
-        "userId": 180275,
-        "timestamp": 1491300255710,
+        "userId": 169574,
+        "timestamp": 1542366244605,
         "oldValue": "",
-        "newValue": "Bodovi: {0}",
+        "newValue": "Slijedeće",
+        "explanation": null
+      }
+    ]
+  },
+  "score": {
+    "value": "Rezultat:",
+    "history": [
+      {
+        "userId": 169574,
+        "timestamp": 1556827313708,
+        "oldValue": "",
+        "newValue": "Rezultat:",
         "explanation": null
       }
     ]
@@ -247,6 +163,18 @@
         "timestamp": 1491300255710,
         "oldValue": "",
         "newValue": "Bodovi: {0} od {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.score.number": {
+    "value": "rezultat:  {{score}}",
+    "history": [
+      {
+        "userId": 169574,
+        "timestamp": 1556827313708,
+        "oldValue": "",
+        "newValue": "rezultat:  {{score}}",
         "explanation": null
       }
     ]
@@ -295,6 +223,90 @@
         "timestamp": 1542366244605,
         "oldValue": "",
         "newValue": "Pokušaj ponovo",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0minutes.1seconds": {
+    "value": "{0}:{1}",
+    "history": [
+      {
+        "userId": 445867,
+        "timestamp": 1500906045885,
+        "oldValue": "",
+        "newValue": "{0}:{1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 445867,
+        "timestamp": 1500906045885,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      }
+    ]
+  },
+  "keepGoing": {
+    "value": "Samo naprijed",
+    "history": [
+      {
+        "userId": 169574,
+        "timestamp": 1568553448162,
+        "oldValue": "",
+        "newValue": "Samo naprijed",
+        "explanation": null
+      }
+    ]
+  },
+  "newLevel": {
+    "value": "Novi nivo",
+    "history": [
+      {
+        "userId": 169574,
+        "timestamp": 1568553448162,
+        "oldValue": "",
+        "newValue": "Novi nivo",
+        "explanation": null
+      }
+    ]
+  },
+  "done": {
+    "value": "Gotovo",
+    "history": [
+      {
+        "userId": 169574,
+        "timestamp": 1556827313708,
+        "oldValue": "",
+        "newValue": "Gotovo",
+        "explanation": null
+      }
+    ]
+  },
+  "youCompletedAllLevels": {
+    "value": "Uradili ste sve nivoe!",
+    "history": [
+      {
+        "userId": 169574,
+        "timestamp": 1556827313708,
+        "oldValue": "",
+        "newValue": "Uradili ste sve nivoe!",
+        "explanation": null
+      }
+    ]
+  },
+  "label.scorePattern": {
+    "value": "Bodovi: {0}",
+    "history": [
+      {
+        "userId": 180275,
+        "timestamp": 1491300255710,
+        "oldValue": "",
+        "newValue": "Bodovi: {0}",
         "explanation": null
       }
     ]
