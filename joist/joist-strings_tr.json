@@ -47,7 +47,7 @@
     ]
   },
   "menuItem.getUpdate": {
-    "value": "Güncellemeler için tıklayınız",
+    "value": "Güncellemeler için tıklayınız...",
     "history": [
       {
         "userId": 354576,
@@ -90,11 +90,18 @@
         "oldValue": "Güncellemeler için tıklayınız ...",
         "newValue": "Güncellemeler için tıklayınız",
         "explanation": null
+      },
+      {
+        "userId": 354576,
+        "timestamp": 1606209779655,
+        "oldValue": "Güncellemeler için tıklayınız",
+        "newValue": "Güncellemeler için tıklayınız...",
+        "explanation": null
       }
     ]
   },
   "updates.checking": {
-    "value": "Güncellemeler kontrol ediliyor",
+    "value": "Güncellemeler kontrol ediliyor...",
     "history": [
       {
         "userId": 354576,
@@ -137,6 +144,32 @@
         "oldValue": "Güncellemeler kontrol ediliyor ...",
         "newValue": "Güncellemeler kontrol ediliyor",
         "explanation": null
+      },
+      {
+        "userId": 354576,
+        "timestamp": 1606209779655,
+        "oldValue": "Güncellemeler kontrol ediliyor",
+        "newValue": "Güncellemeler kontrol ediliyor...",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.contributors": {
+    "value": "Katkıda bulunanlar: {0}",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1556607334431,
+        "oldValue": "",
+        "newValue": "Katkıda bulunanlar: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 707975,
+        "timestamp": 1572978625853,
+        "oldValue": "Katkıda bulunanlar: {0}",
+        "newValue": "Katkıda bulunanlar: {0}",
+        "explanation": null
       }
     ]
   },
@@ -152,21 +185,14 @@
       }
     ]
   },
-  "done": {
-    "value": "Tamamlandı",
+  "menuItem.enhancedSound": {
+    "value": "Gelişmiş Ses",
     "history": [
       {
         "userId": 707975,
-        "timestamp": 1573845961051,
+        "timestamp": 1573071478274,
         "oldValue": "",
-        "newValue": "tamamlandı",
-        "explanation": null
-      },
-      {
-        "userId": 354576,
-        "timestamp": 1578490475247,
-        "oldValue": "tamamlandı",
-        "newValue": "Tamamlandı",
+        "newValue": "Gelişmiş Ses",
         "explanation": null
       }
     ]
@@ -252,6 +278,18 @@
         "timestamp": 1584909465772,
         "oldValue": "Grafikler: {0}",
         "newValue": "Grafikler: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.title": {
+    "value": "Klavye Kısayolları",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1556607334431,
+        "oldValue": "",
+        "newValue": "Klavye Kısayolları",
         "explanation": null
       }
     ]
@@ -546,44 +584,6 @@
       }
     ]
   },
-  "title.settings": {
-    "value": "Ayarlar",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1481895116375,
-        "oldValue": "",
-        "newValue": "Ayarlar",
-        "explanation": null
-      },
-      {
-        "userId": 707975,
-        "timestamp": 1573845961051,
-        "oldValue": "Ayarlar",
-        "newValue": "custom",
-        "explanation": null
-      },
-      {
-        "userId": 354576,
-        "timestamp": 1578490475247,
-        "oldValue": "custom",
-        "newValue": "Ayarlar",
-        "explanation": null
-      }
-    ]
-  },
-  "showPointers": {
-    "value": "İşaretçiyi göster",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1481895116375,
-        "oldValue": "",
-        "newValue": "İşaretçiyi göster",
-        "explanation": null
-      }
-    ]
-  },
   "credits.softwareDevelopment": {
     "value": "Yazılım Geliştirme: {0}",
     "history": [
@@ -620,6 +620,18 @@
         "timestamp": 1584909465772,
         "oldValue": "Yazılım Geliştirme: {0}",
         "newValue": "Yazılım Geliştirme: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.soundDesign": {
+    "value": "Ses Tasarımı: {0}",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1573071478274,
+        "oldValue": "",
+        "newValue": "Ses Tasarımı: {0}",
         "explanation": null
       }
     ]
@@ -794,6 +806,25 @@
       }
     ]
   },
+  "keyboardShortcuts.toGetStarted": {
+    "value": "Başlamak için",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1556607334431,
+        "oldValue": "",
+        "newValue": "başlamak için",
+        "explanation": null
+      },
+      {
+        "userId": 613972,
+        "timestamp": 1579679061023,
+        "oldValue": "başlamak için",
+        "newValue": "Başlamak için",
+        "explanation": null
+      }
+    ]
+  },
   "credits.translation": {
     "value": "Çeviri",
     "history": [
@@ -917,45 +948,59 @@
       }
     ]
   },
-  "credits.contributors": {
-    "value": "Katkıda bulunanlar: {0}",
+  "done": {
+    "value": "Tamamlandı",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1573845961051,
+        "oldValue": "",
+        "newValue": "tamamlandı",
+        "explanation": null
+      },
+      {
+        "userId": 354576,
+        "timestamp": 1578490475247,
+        "oldValue": "tamamlandı",
+        "newValue": "Tamamlandı",
+        "explanation": null
+      }
+    ]
+  },
+  "title.settings": {
+    "value": "Ayarlar",
     "history": [
       {
         "userId": 354576,
-        "timestamp": 1556607334431,
+        "timestamp": 1481895116375,
         "oldValue": "",
-        "newValue": "Katkıda bulunanlar: {0}",
+        "newValue": "Ayarlar",
         "explanation": null
       },
       {
         "userId": 707975,
-        "timestamp": 1572978625853,
-        "oldValue": "Katkıda bulunanlar: {0}",
-        "newValue": "Katkıda bulunanlar: {0}",
+        "timestamp": 1573845961051,
+        "oldValue": "Ayarlar",
+        "newValue": "custom",
         "explanation": null
-      }
-    ]
-  },
-  "menuItem.enhancedSound": {
-    "value": "Gelişmiş Ses",
-    "history": [
+      },
       {
-        "userId": 707975,
-        "timestamp": 1573071478274,
-        "oldValue": "",
-        "newValue": "Gelişmiş Ses",
+        "userId": 354576,
+        "timestamp": 1578490475247,
+        "oldValue": "custom",
+        "newValue": "Ayarlar",
         "explanation": null
       }
     ]
   },
-  "keyboardShortcuts.title": {
-    "value": "Klavye Kısayolları",
+  "showPointers": {
+    "value": "İşaretçiyi göster",
     "history": [
       {
         "userId": 354576,
-        "timestamp": 1556607334431,
+        "timestamp": 1481895116375,
         "oldValue": "",
-        "newValue": "Klavye Kısayolları",
+        "newValue": "İşaretçiyi göster",
         "explanation": null
       }
     ]
@@ -968,37 +1013,6 @@
         "timestamp": 1483521961463,
         "oldValue": "",
         "newValue": "Projektör Modu",
-        "explanation": null
-      }
-    ]
-  },
-  "credits.soundDesign": {
-    "value": "Ses Tasarımı: {0}",
-    "history": [
-      {
-        "userId": 707975,
-        "timestamp": 1573071478274,
-        "oldValue": "",
-        "newValue": "Ses Tasarımı: {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardShortcuts.toGetStarted": {
-    "value": "Başlamak için",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1556607334431,
-        "oldValue": "",
-        "newValue": "başlamak için",
-        "explanation": null
-      },
-      {
-        "userId": 613972,
-        "timestamp": 1579679061023,
-        "oldValue": "başlamak için",
-        "newValue": "Başlamak için",
         "explanation": null
       }
     ]
