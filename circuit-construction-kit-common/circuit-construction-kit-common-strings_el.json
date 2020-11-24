@@ -1,4 +1,16 @@
 {
+  "oneSecond": {
+    "value": "1 δ.",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1606197680879,
+        "oldValue": "",
+        "newValue": "1 δ.",
+        "explanation": null
+      }
+    ]
+  },
   "questionMark": {
     "value": ";",
     "history": [
@@ -7,6 +19,18 @@
         "timestamp": 1509435856222,
         "oldValue": "",
         "newValue": ";",
+        "explanation": null
+      }
+    ]
+  },
+  "acSource": {
+    "value": "Τάση εναλλασσόμενου ρεύματος",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1606197680879,
+        "oldValue": "",
+        "newValue": "Τάση εναλλασσόμενου ρεύματος",
         "explanation": null
       }
     ]
@@ -128,7 +152,7 @@
       },
       {
         "userId": 146870,
-        "timestamp": 1606196752115,
+        "timestamp": 1606197680879,
         "oldValue": "Φορα Ρεύματος",
         "newValue": "Ένταση",
         "explanation": null
@@ -140,9 +164,21 @@
     "history": [
       {
         "userId": 146870,
-        "timestamp": 1606196752115,
+        "timestamp": 1606197680879,
         "oldValue": "",
         "newValue": "Διάγραμμα έντασης",
+        "explanation": null
+      }
+    ]
+  },
+  "currentRating": {
+    "value": "Μέγιστη ένταση",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1606197680879,
+        "oldValue": "",
+        "newValue": "Μέγιστη ένταση",
         "explanation": null
       }
     ]
@@ -214,9 +250,21 @@
     "history": [
       {
         "userId": 146870,
-        "timestamp": 1606196752115,
+        "timestamp": 1606197680879,
         "oldValue": "",
         "newValue": "Συχνότητα",
+        "explanation": null
+      }
+    ]
+  },
+  "fuse": {
+    "value": "Ασφάλεια",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1606197680879,
+        "oldValue": "",
+        "newValue": "Ασφάλεια",
         "explanation": null
       }
     ]
@@ -405,6 +453,18 @@
       }
     ]
   },
+  "time": {
+    "value": "Χρόνος",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1606197680879,
+        "oldValue": "",
+        "newValue": "Χρόνος",
+        "explanation": null
+      }
+    ]
+  },
   "tiny": {
     "value": "μικρή",
     "history": [
@@ -437,6 +497,18 @@
         "timestamp": 1509435856222,
         "oldValue": "",
         "newValue": "Τάση",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageChart": {
+    "value": "Διάγραμμα τάσης",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1606197680879,
+        "oldValue": "",
+        "newValue": "Διάγραμμα τάσης",
         "explanation": null
       }
     ]
@@ -485,6 +557,30 @@
         "timestamp": 1509435856222,
         "oldValue": "",
         "newValue": "{{current}} A",
+        "explanation": null
+      }
+    ]
+  },
+  "frequencyHzValuePattern": {
+    "value": "{{frequency}} Hz",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1606197680879,
+        "oldValue": "",
+        "newValue": "{{frequency}} Hz",
+        "explanation": null
+      }
+    ]
+  },
+  "fuseValue": {
+    "value": "{{resistance}} mΩ<br><span style=\"font-size: 16px;\">≤ {{currentRating}} A</span>",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1606197680879,
+        "oldValue": "",
+        "newValue": "{{resistance}} mΩ<br><span style=\"font-size: 16px;\">≤ {{currentRating}} A</span>",
         "explanation": null
       }
     ]
