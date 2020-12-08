@@ -1,4 +1,40 @@
 {
+  "oneSecond": {
+    "value": "1 s",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1607462056345,
+        "oldValue": "",
+        "newValue": "1 s",
+        "explanation": null
+      }
+    ]
+  },
+  "questionMark": {
+    "value": "?",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1509568683609,
+        "oldValue": "",
+        "newValue": "?",
+        "explanation": null
+      }
+    ]
+  },
+  "acSource": {
+    "value": "Voltaje CA",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1607462056345,
+        "oldValue": "",
+        "newValue": "Voltaje CA",
+        "explanation": null
+      }
+    ]
+  },
   "ammeter": {
     "value": "Amperímetro",
     "history": [
@@ -95,14 +131,26 @@
       }
     ]
   },
-  "currentUnits": {
-    "value": "{{current}} A",
+  "currentChart": {
+    "value": "Gráfico de la corriente",
     "history": [
       {
         "userId": 133358,
-        "timestamp": 1509568683609,
+        "timestamp": 1607462056345,
         "oldValue": "",
-        "newValue": "{{current}} A",
+        "newValue": "Gráfico de la corriente",
+        "explanation": null
+      }
+    ]
+  },
+  "currentRating": {
+    "value": "Índice la corriente",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1607462056345,
+        "oldValue": "",
+        "newValue": "Índice la corriente",
         "explanation": null
       }
     ]
@@ -151,6 +199,30 @@
         "timestamp": 1509568683609,
         "oldValue": "",
         "newValue": "Borrador",
+        "explanation": null
+      }
+    ]
+  },
+  "frequency": {
+    "value": "Frecuencia",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1607462056345,
+        "oldValue": "",
+        "newValue": "Frecuencia",
+        "explanation": null
+      }
+    ]
+  },
+  "fuse": {
+    "value": "Fusible",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1607462056345,
+        "oldValue": "",
+        "newValue": "Fusible",
         "explanation": null
       }
     ]
@@ -227,18 +299,6 @@
       }
     ]
   },
-  "questionMark": {
-    "value": "?",
-    "history": [
-      {
-        "userId": 133358,
-        "timestamp": 1509568683609,
-        "oldValue": "",
-        "newValue": "?",
-        "explanation": null
-      }
-    ]
-  },
   "resistance": {
     "value": "Resistencia",
     "history": [
@@ -247,42 +307,6 @@
         "timestamp": 1509568683609,
         "oldValue": "",
         "newValue": "Resistencia",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhms": {
-    "value": "{{resistance}} ohms",
-    "history": [
-      {
-        "userId": 133358,
-        "timestamp": 1509568683609,
-        "oldValue": "",
-        "newValue": "{{resistance}} ohms",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhmsSymbol": {
-    "value": "{{resistance}} Ω",
-    "history": [
-      {
-        "userId": 133358,
-        "timestamp": 1509568683609,
-        "oldValue": "",
-        "newValue": "{{resistance}} Ω",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhmsValuePattern": {
-    "value": "{{resistance}} ohms",
-    "history": [
-      {
-        "userId": 133358,
-        "timestamp": 1509568683609,
-        "oldValue": "",
-        "newValue": "{{resistance}} ohms",
         "explanation": null
       }
     ]
@@ -359,6 +383,18 @@
       }
     ]
   },
+  "time": {
+    "value": "Tiempo",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1607462056345,
+        "oldValue": "",
+        "newValue": "Tiempo",
+        "explanation": null
+      }
+    ]
+  },
   "tiny": {
     "value": "poco",
     "history": [
@@ -395,26 +431,14 @@
       }
     ]
   },
-  "voltageUnits": {
-    "value": "{{voltage}} V",
+  "voltageChart": {
+    "value": "Gráfico del voltaje",
     "history": [
       {
         "userId": 133358,
-        "timestamp": 1509568683609,
+        "timestamp": 1607462056345,
         "oldValue": "",
-        "newValue": "{{voltage}} V",
-        "explanation": null
-      }
-    ]
-  },
-  "voltageVoltsValuePattern": {
-    "value": "{{voltage}} voltios",
-    "history": [
-      {
-        "userId": 133358,
-        "timestamp": 1509568683609,
-        "oldValue": "",
-        "newValue": "{{voltage}} voltios",
+        "newValue": "Gráfico del voltaje",
         "explanation": null
       }
     ]
@@ -451,6 +475,102 @@
         "timestamp": 1509568683609,
         "oldValue": "",
         "newValue": "Resistividad del Alambre",
+        "explanation": null
+      }
+    ]
+  },
+  "currentUnits": {
+    "value": "{{current}} A",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1509568683609,
+        "oldValue": "",
+        "newValue": "{{current}} A",
+        "explanation": null
+      }
+    ]
+  },
+  "frequencyHzValuePattern": {
+    "value": "{{frequency}} Hz",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1607462056345,
+        "oldValue": "",
+        "newValue": "{{frequency}} Hz",
+        "explanation": null
+      }
+    ]
+  },
+  "fuseValue": {
+    "value": "{{resistance}} mΩ<br><span style=\"font-size: 16px;\">≤ {{currentRating}} A</span>",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1607462056345,
+        "oldValue": "",
+        "newValue": "{{resistance}} mΩ<br><span style=\"font-size: 16px;\">≤ {{currentRating}} A</span>",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhmsValuePattern": {
+    "value": "{{resistance}} ohms",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1509568683609,
+        "oldValue": "",
+        "newValue": "{{resistance}} ohms",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhmsSymbol": {
+    "value": "{{resistance}} Ω",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1509568683609,
+        "oldValue": "",
+        "newValue": "{{resistance}} Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageUnits": {
+    "value": "{{voltage}} V",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1509568683609,
+        "oldValue": "",
+        "newValue": "{{voltage}} V",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageVoltsValuePattern": {
+    "value": "{{voltage}} voltios",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1509568683609,
+        "oldValue": "",
+        "newValue": "{{voltage}} voltios",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhms": {
+    "value": "{{resistance}} ohms",
+    "history": [
+      {
+        "userId": 133358,
+        "timestamp": 1509568683609,
+        "oldValue": "",
+        "newValue": "{{resistance}} ohms",
         "explanation": null
       }
     ]
