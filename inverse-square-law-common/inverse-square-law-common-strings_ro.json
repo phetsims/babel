@@ -1,18 +1,6 @@
 {
-  "units.centimeters": {
-    "value": "cm",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1607363430356,
-        "oldValue": "",
-        "newValue": "cm",
-        "explanation": null
-      }
-    ]
-  },
   "forceOnObjectByOtherObjectPattern": {
-    "value": "Forța {{thisObject}} asupra  {{otherObject}}",
+    "value": "{{thisObject}} este atras de {{otherObject}}",
     "history": [
       {
         "userId": 726466,
@@ -27,11 +15,18 @@
         "oldValue": "Forța {{thisObject}} asupra {{otherObject}}",
         "newValue": "Forța {{thisObject}} asupra  {{otherObject}}",
         "explanation": null
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1608151706391,
+        "oldValue": "Forța {{thisObject}} asupra  {{otherObject}}",
+        "newValue": "{{thisObject}} este atras de {{otherObject}}",
+        "explanation": null
       }
     ]
   },
   "forceOnObjectByOtherObjectWithUnitsPattern": {
-    "value": "Forța {{thisObject}} asupra {{otherObject}} = {{value}} N",
+    "value": "{{thisObject}} este atras de {{otherObject}} cu forța = {{value}} N",
     "history": [
       {
         "userId": 726466,
@@ -46,17 +41,79 @@
         "oldValue": "Forța {{thisObject}} asupra{{otherObject}} = {{value}} N",
         "newValue": "Forța {{thisObject}} asupra {{otherObject}} = {{value}} N",
         "explanation": null
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1608151706391,
+        "oldValue": "Forța {{thisObject}} asupra {{otherObject}} = {{value}} N",
+        "newValue": "{{thisObject}} este atras de {{otherObject}} cu forța = {{value}} N",
+        "explanation": null
       }
     ]
   },
   "forceValues": {
-    "value": "Valoarea Forței",
+    "value": "Valori forțe",
     "history": [
       {
         "userId": 726466,
         "timestamp": 1607363430356,
         "oldValue": "",
         "newValue": "Valoarea Forței",
+        "explanation": null
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1608151706391,
+        "oldValue": "Valoarea Forței",
+        "newValue": "Valori forțe",
+        "explanation": null
+      }
+    ]
+  },
+  "units.meter": {
+    "value": "metru",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1608151706391,
+        "oldValue": "",
+        "newValue": "metru",
+        "explanation": null
+      }
+    ]
+  },
+  "units.meters": {
+    "value": "metri",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1608151706391,
+        "oldValue": "",
+        "newValue": "metri",
+        "explanation": null
+      }
+    ]
+  },
+  "units.newtons": {
+    "value": "newtoni",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1608151706391,
+        "oldValue": "",
+        "newValue": "newtoni",
+        "explanation": null
+      }
+    ]
+  },
+  "units.centimeters": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1607363430356,
+        "oldValue": "",
+        "newValue": "cm",
         "explanation": null
       }
     ]
