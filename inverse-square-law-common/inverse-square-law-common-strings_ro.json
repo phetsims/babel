@@ -1,6 +1,30 @@
 {
+  "units.centimeters": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1607363430356,
+        "oldValue": "",
+        "newValue": "cm",
+        "explanation": null
+      }
+    ]
+  },
+  "decimalNotation": {
+    "value": "Notație zecimală",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1608151734183,
+        "oldValue": "",
+        "newValue": "Notație zecimală",
+        "explanation": null
+      }
+    ]
+  },
   "forceOnObjectByOtherObjectPattern": {
-    "value": "{{thisObject}} este atras de {{otherObject}}",
+    "value": "Forța {{thisObject}} asupra  {{otherObject}}",
     "history": [
       {
         "userId": 726466,
@@ -26,7 +50,7 @@
     ]
   },
   "forceOnObjectByOtherObjectWithUnitsPattern": {
-    "value": "{{thisObject}} este atras de {{otherObject}} cu forța = {{value}} N",
+    "value": "Forța {{thisObject}} asupra {{otherObject}} = {{value}} N",
     "history": [
       {
         "userId": 726466,
@@ -52,7 +76,7 @@
     ]
   },
   "forceValues": {
-    "value": "Valori forțe",
+    "value": "Valoarea Forței",
     "history": [
       {
         "userId": 726466,
@@ -70,12 +94,24 @@
       }
     ]
   },
+  "hidden": {
+    "value": "Ascunde",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1608151734183,
+        "oldValue": "",
+        "newValue": "Ascunde",
+        "explanation": null
+      }
+    ]
+  },
   "units.meter": {
     "value": "metru",
     "history": [
       {
         "userId": 183155,
-        "timestamp": 1608151706391,
+        "timestamp": 1608151734183,
         "oldValue": "",
         "newValue": "metru",
         "explanation": null
@@ -87,7 +123,7 @@
     "history": [
       {
         "userId": 183155,
-        "timestamp": 1608151706391,
+        "timestamp": 1608151734183,
         "oldValue": "",
         "newValue": "metri",
         "explanation": null
@@ -99,33 +135,21 @@
     "history": [
       {
         "userId": 183155,
-        "timestamp": 1608151706391,
+        "timestamp": 1608151734183,
         "oldValue": "",
         "newValue": "newtoni",
         "explanation": null
       }
     ]
   },
-  "units.centimeters": {
-    "value": "cm",
+  "scientificNotation": {
+    "value": "Notație științifică",
     "history": [
       {
-        "userId": 726466,
-        "timestamp": 1607363430356,
+        "userId": 183155,
+        "timestamp": 1608151734183,
         "oldValue": "",
-        "newValue": "cm",
-        "explanation": null
-      }
-    ]
-  },
-  "units.picometers": {
-    "value": "pm",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1607363430356,
-        "oldValue": "",
-        "newValue": "pm",
+        "newValue": "Notație științifică",
         "explanation": null
       }
     ]
@@ -138,6 +162,18 @@
         "timestamp": 1607363430356,
         "oldValue": "",
         "newValue": "{{value}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "units.picometers": {
+    "value": "pm",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1607363430356,
+        "oldValue": "",
+        "newValue": "pm",
         "explanation": null
       }
     ]
