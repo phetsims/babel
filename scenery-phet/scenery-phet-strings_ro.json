@@ -1,12 +1,26 @@
 {
-  "key.alt": {
-    "value": "Alt",
+  "cool": {
+    "value": "Răcire",
     "history": [
       {
         "userId": 726466,
-        "timestamp": 1606229756445,
+        "timestamp": 1602176223287,
         "oldValue": "",
-        "newValue": "Alt",
+        "newValue": "Misto",
+        "explanation": null
+      },
+      {
+        "userId": 726466,
+        "timestamp": 1602177040476,
+        "oldValue": "Misto",
+        "newValue": "Rece",
+        "explanation": null
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1608299207877,
+        "oldValue": "Rece",
+        "newValue": "Răcire",
         "explanation": null
       }
     ]
@@ -23,26 +37,14 @@
       }
     ]
   },
-  "key.esc": {
-    "value": "Esc",
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "Apucați sau eliberați {{thing}}",
     "history": [
       {
         "userId": 726466,
-        "timestamp": 1606229756445,
+        "timestamp": 1601317946899,
         "oldValue": "",
-        "newValue": "Esc",
-        "explanation": null
-      }
-    ]
-  },
-  "speed.fast": {
-    "value": "Repede",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1606229756445,
-        "oldValue": "",
-        "newValue": "Repede",
+        "newValue": "Apucați sau eliberați {{thing}}",
         "explanation": null
       }
     ]
@@ -66,38 +68,21 @@
       }
     ]
   },
-  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-    "value": "Apucați sau eliberați {{thing}}",
+  "heat": {
+    "value": "Încălzire",
     "history": [
       {
         "userId": 726466,
-        "timestamp": 1601317946899,
+        "timestamp": 1602176223287,
         "oldValue": "",
-        "newValue": "Apucați sau eliberați {{thing}}",
+        "newValue": "Căldură",
         "explanation": null
-      }
-    ]
-  },
-  "key.k": {
-    "value": "K",
-    "history": [
+      },
       {
-        "userId": 726466,
-        "timestamp": 1606229756445,
-        "oldValue": "",
-        "newValue": "K",
-        "explanation": null
-      }
-    ]
-  },
-  "key.l": {
-    "value": "L",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1606229756445,
-        "oldValue": "",
-        "newValue": "L",
+        "userId": 183155,
+        "timestamp": 1608299207877,
+        "oldValue": "Căldură",
+        "newValue": "Încălzire",
         "explanation": null
       }
     ]
@@ -205,24 +190,12 @@
       }
     ]
   },
-  "measuringTapeReadoutPattern": {
-    "value": "{{distance}} {{units}}",
-    "history": [
-      {
-        "userId": 183155,
-        "timestamp": 1608227290957,
-        "oldValue": "",
-        "newValue": "{{distance}} {{units}}",
-        "explanation": null
-      }
-    ]
-  },
-  "stopwatchValueUnitsPattern": {
+  "comboBoxDisplay.valueUnits": {
     "value": "{{value}} {{units}}",
     "history": [
       {
-        "userId": 183155,
-        "timestamp": 1608227290957,
+        "userId": 726466,
+        "timestamp": 1601317946899,
         "oldValue": "",
         "newValue": "{{value}} {{units}}",
         "explanation": null
@@ -249,6 +222,90 @@
         "timestamp": 1601317946899,
         "oldValue": "",
         "newValue": "Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "key.alt": {
+    "value": "Alt",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1606229756445,
+        "oldValue": "",
+        "newValue": "Alt",
+        "explanation": null
+      }
+    ]
+  },
+  "key.esc": {
+    "value": "Esc",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1606229756445,
+        "oldValue": "",
+        "newValue": "Esc",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.fast": {
+    "value": "Repede",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1606229756445,
+        "oldValue": "",
+        "newValue": "Repede",
+        "explanation": null
+      }
+    ]
+  },
+  "key.k": {
+    "value": "K",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1606229756445,
+        "oldValue": "",
+        "newValue": "K",
+        "explanation": null
+      }
+    ]
+  },
+  "key.l": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1606229756445,
+        "oldValue": "",
+        "newValue": "L",
+        "explanation": null
+      }
+    ]
+  },
+  "measuringTapeReadoutPattern": {
+    "value": "{{distance}} {{units}}",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1608227290957,
+        "oldValue": "",
+        "newValue": "{{distance}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "stopwatchValueUnitsPattern": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1608227290957,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}",
         "explanation": null
       }
     ]
@@ -534,49 +591,6 @@
         "timestamp": 1607496376996,
         "oldValue": "",
         "newValue": "Controale cursor",
-        "explanation": null
-      }
-    ]
-  },
-  "cool": {
-    "value": "Rece",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1602176223287,
-        "oldValue": "",
-        "newValue": "Misto",
-        "explanation": null
-      },
-      {
-        "userId": 726466,
-        "timestamp": 1602177040476,
-        "oldValue": "Misto",
-        "newValue": "Rece",
-        "explanation": null
-      }
-    ]
-  },
-  "heat": {
-    "value": "Căldură",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1602176223287,
-        "oldValue": "",
-        "newValue": "Căldură",
-        "explanation": null
-      }
-    ]
-  },
-  "comboBoxDisplay.valueUnits": {
-    "value": "{{value}} {{units}}",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1601317946899,
-        "oldValue": "",
-        "newValue": "{{value}} {{units}}",
         "explanation": null
       }
     ]
