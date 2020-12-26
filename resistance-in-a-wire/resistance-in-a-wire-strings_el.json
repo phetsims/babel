@@ -1,12 +1,19 @@
 {
   "area": {
-    "value": "περιοχή",
+    "value": "εμβαδόν διατομής",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1461913022308,
         "oldValue": "",
         "newValue": "περιοχή",
+        "explanation": null
+      },
+      {
+        "userId": 170570,
+        "timestamp": 1608988185033,
+        "oldValue": "περιοχή",
+        "newValue": "εμβαδόν διατομής",
         "explanation": null
       }
     ]
@@ -71,18 +78,6 @@
       }
     ]
   },
-  "ohmsSymbol": {
-    "value": "Ω",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461913022308,
-        "oldValue": "",
-        "newValue": "Ω ",
-        "explanation": null
-      }
-    ]
-  },
   "pattern.0label.1value.2units": {
     "value": "{0} = {1} {2}",
     "history": [
@@ -104,6 +99,13 @@
         "oldValue": "",
         "newValue": "{0}{1}",
         "explanation": null
+      },
+      {
+        "userId": 170570,
+        "timestamp": 1608988185033,
+        "oldValue": "{0}{1}",
+        "newValue": "{0} {1}",
+        "explanation": null
       }
     ]
   },
@@ -119,26 +121,14 @@
       }
     ]
   },
-  "resistance-in-a-wire.title": {
-    "value": "Αντίσταση σε καλώδιο",
+  "resistivity": {
+    "value": "ειδική αντίσταση",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1461913022308,
         "oldValue": "",
-        "newValue": "Αντίσταση σε καλώδιο",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceEq": {
-    "value": "αντίσταση= =",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1461913022309,
-        "oldValue": "",
-        "newValue": "αντίσταση= =",
+        "newValue": "ειδική αντίσταση",
         "explanation": null
       }
     ]
@@ -155,14 +145,45 @@
       }
     ]
   },
-  "resistivity": {
-    "value": "ειδική αντίσταση",
+  "resistance-in-a-wire.title": {
+    "value": "Αντίσταση σε καλώδιο",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1461913022308,
         "oldValue": "",
-        "newValue": "ειδική αντίσταση",
+        "newValue": "Αντίσταση σε καλώδιο",
+        "explanation": null
+      }
+    ]
+  },
+  "ohmsSymbol": {
+    "value": "Ω",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913022308,
+        "oldValue": "",
+        "newValue": "Ω ",
+        "explanation": null
+      },
+      {
+        "userId": 170570,
+        "timestamp": 1608988185033,
+        "oldValue": "Ω ",
+        "newValue": "Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceEq": {
+    "value": "αντίσταση= =",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1461913022309,
+        "oldValue": "",
+        "newValue": "αντίσταση= =",
         "explanation": null
       }
     ]
