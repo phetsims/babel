@@ -1,24 +1,12 @@
 {
-  "acidic": {
-    "value": "Sur",
+  "choice.water": {
+    "value": "Vatn",
     "history": [
       {
         "userId": 267946,
         "timestamp": 1584886890087,
         "oldValue": "",
-        "newValue": "Sur",
-        "explanation": null
-      }
-    ]
-  },
-  "basic": {
-    "value": "Basisk",
-    "history": [
-      {
-        "userId": 267946,
-        "timestamp": 1584886890087,
-        "oldValue": "",
-        "newValue": "Basisk",
+        "newValue": "Vatn",
         "explanation": null
       }
     ]
@@ -35,7 +23,7 @@
       },
       {
         "userId": 267946,
-        "timestamp": 1609141569636,
+        "timestamp": 1609141789702,
         "oldValue": "Battterisyre",
         "newValue": "Batterisyre",
         "explanation": null
@@ -78,15 +66,34 @@
       },
       {
         "userId": 267946,
-        "timestamp": 1609141569636,
+        "timestamp": 1609141789702,
         "oldValue": "Kaffe",
         "newValue": "Kaffi",
         "explanation": null
       }
     ]
   },
+  "choice.custom": {
+    "value": "Tilpassa",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1584886890087,
+        "oldValue": "",
+        "newValue": "Tilpasset",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1609141789702,
+        "oldValue": "Tilpasset",
+        "newValue": "Tilpassa",
+        "explanation": null
+      }
+    ]
+  },
   "choice.drainCleaner": {
-    "value": "Avløpsåpnar",
+    "value": "Avløpsopnar",
     "history": [
       {
         "userId": 267946,
@@ -97,9 +104,9 @@
       },
       {
         "userId": 267946,
-        "timestamp": 1609141569636,
+        "timestamp": 1609141789702,
         "oldValue": "Avløpsåpner",
-        "newValue": "Avløpsåpnar",
+        "newValue": "Avløpsopnar",
         "explanation": null
       }
     ]
@@ -116,30 +123,6 @@
       }
     ]
   },
-  "units.liters": {
-    "value": "L",
-    "history": [
-      {
-        "userId": 267946,
-        "timestamp": 1584886890087,
-        "oldValue": "",
-        "newValue": "L",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.macro": {
-    "value": "Makro",
-    "history": [
-      {
-        "userId": 267946,
-        "timestamp": 1584886890087,
-        "oldValue": "",
-        "newValue": "Makro",
-        "explanation": null
-      }
-    ]
-  },
   "choice.milk": {
     "value": "Mjølk",
     "history": [
@@ -152,27 +135,15 @@
       },
       {
         "userId": 267946,
-        "timestamp": 1609141569637,
+        "timestamp": 1609141789702,
         "oldValue": "Melk",
         "newValue": "Mjølk",
         "explanation": null
       }
     ]
   },
-  "neutral": {
-    "value": "Nøytral",
-    "history": [
-      {
-        "userId": 267946,
-        "timestamp": 1584886890087,
-        "oldValue": "",
-        "newValue": "Nøytral",
-        "explanation": null
-      }
-    ]
-  },
   "choice.orangeJuice": {
-    "value": "Appelsinjuice",
+    "value": "Appelsinjus",
     "history": [
       {
         "userId": 267946,
@@ -180,17 +151,12 @@
         "oldValue": "",
         "newValue": "Appelsinjuice",
         "explanation": null
-      }
-    ]
-  },
-  "pH": {
-    "value": "pH",
-    "history": [
+      },
       {
         "userId": 267946,
-        "timestamp": 1584886890087,
-        "oldValue": "",
-        "newValue": "pH",
+        "timestamp": 1609141789702,
+        "oldValue": "Appelsinjuice",
+        "newValue": "Appelsinjus",
         "explanation": null
       }
     ]
@@ -231,18 +197,6 @@
       }
     ]
   },
-  "choice.water": {
-    "value": "Vatn",
-    "history": [
-      {
-        "userId": 267946,
-        "timestamp": 1584886890087,
-        "oldValue": "",
-        "newValue": "Vatn",
-        "explanation": null
-      }
-    ]
-  },
   "pattern.0value.1units": {
     "value": "{0} {1}",
     "history": [
@@ -255,14 +209,74 @@
       }
     ]
   },
-  "choice.custom": {
-    "value": "Tilpasset",
+  "units.liters": {
+    "value": "L",
     "history": [
       {
         "userId": 267946,
         "timestamp": 1584886890087,
         "oldValue": "",
-        "newValue": "Tilpasset",
+        "newValue": "L",
+        "explanation": null
+      }
+    ]
+  },
+  "acidic": {
+    "value": "Sur",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1584886890087,
+        "oldValue": "",
+        "newValue": "Sur",
+        "explanation": null
+      }
+    ]
+  },
+  "basic": {
+    "value": "Basisk",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1584886890087,
+        "oldValue": "",
+        "newValue": "Basisk",
+        "explanation": null
+      }
+    ]
+  },
+  "pH": {
+    "value": "pH",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1584886890087,
+        "oldValue": "",
+        "newValue": "pH",
+        "explanation": null
+      }
+    ]
+  },
+  "neutral": {
+    "value": "Nøytral",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1584886890087,
+        "oldValue": "",
+        "newValue": "Nøytral",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.macro": {
+    "value": "Makro",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1584886890087,
+        "oldValue": "",
+        "newValue": "Makro",
         "explanation": null
       }
     ]
