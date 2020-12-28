@@ -1,19 +1,24 @@
 {
-  "choice.water": {
-    "value": "Vann",
+  "acidic": {
+    "value": "Sur",
     "history": [
       {
         "userId": 267946,
-        "timestamp": 1452723972109,
+        "timestamp": 1452723972110,
         "oldValue": "",
-        "newValue": "vann",
+        "newValue": "Sur",
         "explanation": null
-      },
+      }
+    ]
+  },
+  "basic": {
+    "value": "Basisk",
+    "history": [
       {
         "userId": 267946,
-        "timestamp": 1584886732464,
-        "oldValue": "vann",
-        "newValue": "Vann",
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Basisk",
         "explanation": null
       }
     ]
@@ -94,25 +99,6 @@
       }
     ]
   },
-  "choice.custom": {
-    "value": "Tilpasset",
-    "history": [
-      {
-        "userId": 267946,
-        "timestamp": 1452723972110,
-        "oldValue": "",
-        "newValue": "tilpasset væske",
-        "explanation": null
-      },
-      {
-        "userId": 267946,
-        "timestamp": 1584886732464,
-        "oldValue": "tilpasset væske",
-        "newValue": "Tilpasset",
-        "explanation": null
-      }
-    ]
-  },
   "choice.drainCleaner": {
     "value": "Avløpsåpner",
     "history": [
@@ -151,6 +137,30 @@
       }
     ]
   },
+  "units.liters": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "L",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.macro": {
+    "value": "Makro",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Makro",
+        "explanation": null
+      }
+    ]
+  },
   "choice.milk": {
     "value": "Melk",
     "history": [
@@ -170,8 +180,20 @@
       }
     ]
   },
+  "neutral": {
+    "value": "Nøytral",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "Nøytral",
+        "explanation": null
+      }
+    ]
+  },
   "choice.orangeJuice": {
-    "value": "Appelsinjuice",
+    "value": "Appelsinjus",
     "history": [
       {
         "userId": 267946,
@@ -185,6 +207,25 @@
         "timestamp": 1584886732464,
         "oldValue": "appelsinjuice",
         "newValue": "Appelsinjuice",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1609141348210,
+        "oldValue": "Appelsinjuice",
+        "newValue": "Appelsinjus",
+        "explanation": null
+      }
+    ]
+  },
+  "pH": {
+    "value": "pH",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972110,
+        "oldValue": "",
+        "newValue": "pH",
         "explanation": null
       }
     ]
@@ -246,6 +287,25 @@
       }
     ]
   },
+  "choice.water": {
+    "value": "Vann",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1452723972109,
+        "oldValue": "",
+        "newValue": "vann",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1584886732464,
+        "oldValue": "vann",
+        "newValue": "Vann",
+        "explanation": null
+      }
+    ]
+  },
   "pattern.0value.1units": {
     "value": "{0} {1}",
     "history": [
@@ -258,74 +318,21 @@
       }
     ]
   },
-  "units.liters": {
-    "value": "L",
+  "choice.custom": {
+    "value": "Tilpasset",
     "history": [
       {
         "userId": 267946,
         "timestamp": 1452723972110,
         "oldValue": "",
-        "newValue": "L",
+        "newValue": "tilpasset væske",
         "explanation": null
-      }
-    ]
-  },
-  "acidic": {
-    "value": "Sur",
-    "history": [
+      },
       {
         "userId": 267946,
-        "timestamp": 1452723972110,
-        "oldValue": "",
-        "newValue": "Sur",
-        "explanation": null
-      }
-    ]
-  },
-  "basic": {
-    "value": "Basisk",
-    "history": [
-      {
-        "userId": 267946,
-        "timestamp": 1452723972110,
-        "oldValue": "",
-        "newValue": "Basisk",
-        "explanation": null
-      }
-    ]
-  },
-  "pH": {
-    "value": "pH",
-    "history": [
-      {
-        "userId": 267946,
-        "timestamp": 1452723972110,
-        "oldValue": "",
-        "newValue": "pH",
-        "explanation": null
-      }
-    ]
-  },
-  "neutral": {
-    "value": "Nøytral",
-    "history": [
-      {
-        "userId": 267946,
-        "timestamp": 1452723972110,
-        "oldValue": "",
-        "newValue": "Nøytral",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.macro": {
-    "value": "Makro",
-    "history": [
-      {
-        "userId": 267946,
-        "timestamp": 1452723972110,
-        "oldValue": "",
-        "newValue": "Makro",
+        "timestamp": 1584886732464,
+        "oldValue": "tilpasset væske",
+        "newValue": "Tilpasset",
         "explanation": null
       }
     ]
