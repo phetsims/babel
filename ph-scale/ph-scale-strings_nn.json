@@ -1,24 +1,43 @@
 {
-  "choice.water": {
-    "value": "Vatn",
+  "acidic": {
+    "value": "Sur",
     "history": [
       {
         "userId": 267946,
         "timestamp": 1584886890087,
         "oldValue": "",
-        "newValue": "Vatn",
+        "newValue": "Sur",
+        "explanation": null
+      }
+    ]
+  },
+  "basic": {
+    "value": "Basisk",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1584886890087,
+        "oldValue": "",
+        "newValue": "Basisk",
         "explanation": null
       }
     ]
   },
   "choice.batteryAcid": {
-    "value": "Battterisyre",
+    "value": "Batterisyre",
     "history": [
       {
         "userId": 267946,
         "timestamp": 1584886890087,
         "oldValue": "",
         "newValue": "Battterisyre",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1609141569636,
+        "oldValue": "Battterisyre",
+        "newValue": "Batterisyre",
         "explanation": null
       }
     ]
@@ -48,7 +67,7 @@
     ]
   },
   "choice.coffee": {
-    "value": "Kaffe",
+    "value": "Kaffi",
     "history": [
       {
         "userId": 267946,
@@ -56,29 +75,31 @@
         "oldValue": "",
         "newValue": "Kaffe",
         "explanation": null
-      }
-    ]
-  },
-  "choice.custom": {
-    "value": "Tilpasset",
-    "history": [
+      },
       {
         "userId": 267946,
-        "timestamp": 1584886890087,
-        "oldValue": "",
-        "newValue": "Tilpasset",
+        "timestamp": 1609141569636,
+        "oldValue": "Kaffe",
+        "newValue": "Kaffi",
         "explanation": null
       }
     ]
   },
   "choice.drainCleaner": {
-    "value": "Avløpsåpner",
+    "value": "Avløpsåpnar",
     "history": [
       {
         "userId": 267946,
         "timestamp": 1584886890087,
         "oldValue": "",
         "newValue": "Avløpsåpner",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1609141569636,
+        "oldValue": "Avløpsåpner",
+        "newValue": "Avløpsåpnar",
         "explanation": null
       }
     ]
@@ -95,14 +116,57 @@
       }
     ]
   },
+  "units.liters": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1584886890087,
+        "oldValue": "",
+        "newValue": "L",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.macro": {
+    "value": "Makro",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1584886890087,
+        "oldValue": "",
+        "newValue": "Makro",
+        "explanation": null
+      }
+    ]
+  },
   "choice.milk": {
-    "value": "Melk",
+    "value": "Mjølk",
     "history": [
       {
         "userId": 267946,
         "timestamp": 1584886890087,
         "oldValue": "",
         "newValue": "Melk",
+        "explanation": null
+      },
+      {
+        "userId": 267946,
+        "timestamp": 1609141569637,
+        "oldValue": "Melk",
+        "newValue": "Mjølk",
+        "explanation": null
+      }
+    ]
+  },
+  "neutral": {
+    "value": "Nøytral",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1584886890087,
+        "oldValue": "",
+        "newValue": "Nøytral",
         "explanation": null
       }
     ]
@@ -115,6 +179,18 @@
         "timestamp": 1584886890087,
         "oldValue": "",
         "newValue": "Appelsinjuice",
+        "explanation": null
+      }
+    ]
+  },
+  "pH": {
+    "value": "pH",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1584886890087,
+        "oldValue": "",
+        "newValue": "pH",
         "explanation": null
       }
     ]
@@ -155,6 +231,18 @@
       }
     ]
   },
+  "choice.water": {
+    "value": "Vatn",
+    "history": [
+      {
+        "userId": 267946,
+        "timestamp": 1584886890087,
+        "oldValue": "",
+        "newValue": "Vatn",
+        "explanation": null
+      }
+    ]
+  },
   "pattern.0value.1units": {
     "value": "{0} {1}",
     "history": [
@@ -167,74 +255,14 @@
       }
     ]
   },
-  "units.liters": {
-    "value": "L",
+  "choice.custom": {
+    "value": "Tilpasset",
     "history": [
       {
         "userId": 267946,
         "timestamp": 1584886890087,
         "oldValue": "",
-        "newValue": "L",
-        "explanation": null
-      }
-    ]
-  },
-  "acidic": {
-    "value": "Sur",
-    "history": [
-      {
-        "userId": 267946,
-        "timestamp": 1584886890087,
-        "oldValue": "",
-        "newValue": "Sur",
-        "explanation": null
-      }
-    ]
-  },
-  "basic": {
-    "value": "Basisk",
-    "history": [
-      {
-        "userId": 267946,
-        "timestamp": 1584886890087,
-        "oldValue": "",
-        "newValue": "Basisk",
-        "explanation": null
-      }
-    ]
-  },
-  "pH": {
-    "value": "pH",
-    "history": [
-      {
-        "userId": 267946,
-        "timestamp": 1584886890087,
-        "oldValue": "",
-        "newValue": "pH",
-        "explanation": null
-      }
-    ]
-  },
-  "neutral": {
-    "value": "Nøytral",
-    "history": [
-      {
-        "userId": 267946,
-        "timestamp": 1584886890087,
-        "oldValue": "",
-        "newValue": "Nøytral",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.macro": {
-    "value": "Makro",
-    "history": [
-      {
-        "userId": 267946,
-        "timestamp": 1584886890087,
-        "oldValue": "",
-        "newValue": "Makro",
+        "newValue": "Tilpasset",
         "explanation": null
       }
     ]
