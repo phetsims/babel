@@ -1,13 +1,31 @@
 {
-  "choice.water": {
-    "value": "الماء",
+  "acidic": {
+    "value": "حمضي",
     "history": [
       {
         "userId": 192293,
         "timestamp": 1449947473663,
         "oldValue": "",
-        "newValue": "الماء",
+        "newValue": "حمضي",
         "explanation": null
+      }
+    ]
+  },
+  "basic": {
+    "value": "قاعدي",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449947473663,
+        "oldValue": "",
+        "newValue": "قلوي",
+        "explanation": null
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1610888189262,
+        "oldValue": "قلوي",
+        "newValue": "قاعدي"
       }
     ]
   },
@@ -59,20 +77,8 @@
       }
     ]
   },
-  "choice.custom": {
-    "value": "السائل حسب الطّلب",
-    "history": [
-      {
-        "userId": 192293,
-        "timestamp": 1449947473663,
-        "oldValue": "",
-        "newValue": "السائل حسب الطّلب",
-        "explanation": null
-      }
-    ]
-  },
   "choice.drainCleaner": {
-    "value": "منظّف البالوعة",
+    "value": "منظّف المصارف",
     "history": [
       {
         "userId": 192293,
@@ -80,17 +86,59 @@
         "oldValue": "",
         "newValue": "منظّف البالوعة",
         "explanation": null
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1610888189262,
+        "oldValue": "منظّف البالوعة",
+        "newValue": "منظّف المصارف"
       }
     ]
   },
   "choice.handSoap": {
-    "value": "الصّابون اليدوي",
+    "value": "صابون اليدين",
     "history": [
       {
         "userId": 192293,
         "timestamp": 1449947473663,
         "oldValue": "",
         "newValue": "الصّابون اليدوي",
+        "explanation": null
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1610888189262,
+        "oldValue": "الصّابون اليدوي",
+        "newValue": "صابون اليدين"
+      }
+    ]
+  },
+  "units.liters": {
+    "value": "لتر",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449947473663,
+        "oldValue": "",
+        "newValue": "ل",
+        "explanation": null
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1610888189262,
+        "oldValue": "ل",
+        "newValue": "لتر"
+      }
+    ]
+  },
+  "screen.macro": {
+    "value": "ماكرو",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449947473663,
+        "oldValue": "",
+        "newValue": "ماكرو",
         "explanation": null
       }
     ]
@@ -107,6 +155,24 @@
       }
     ]
   },
+  "neutral": {
+    "value": "متعادل",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449947473663,
+        "oldValue": "",
+        "newValue": "محايد",
+        "explanation": null
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1610888189262,
+        "oldValue": "محايد",
+        "newValue": "متعادل"
+      }
+    ]
+  },
   "choice.orangeJuice": {
     "value": "عصير البرتقال",
     "history": [
@@ -115,6 +181,18 @@
         "timestamp": 1449947473663,
         "oldValue": "",
         "newValue": "عصير البرتقال",
+        "explanation": null
+      }
+    ]
+  },
+  "pH": {
+    "value": "pH",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449947473663,
+        "oldValue": "",
+        "newValue": "pH",
         "explanation": null
       }
     ]
@@ -132,7 +210,7 @@
     ]
   },
   "choice.spit": {
-    "value": "البصاق",
+    "value": "اللعاب",
     "history": [
       {
         "userId": 192293,
@@ -140,6 +218,12 @@
         "oldValue": "",
         "newValue": "البصاق",
         "explanation": null
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1610888189262,
+        "oldValue": "البصاق",
+        "newValue": "اللعاب"
       }
     ]
   },
@@ -151,6 +235,18 @@
         "timestamp": 1449947473663,
         "oldValue": "",
         "newValue": "القيئ",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.water": {
+    "value": "الماء",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449947473663,
+        "oldValue": "",
+        "newValue": "الماء",
         "explanation": null
       }
     ]
@@ -167,74 +263,14 @@
       }
     ]
   },
-  "units.liters": {
-    "value": "ل",
+  "choice.custom": {
+    "value": "السائل حسب الطّلب",
     "history": [
       {
         "userId": 192293,
         "timestamp": 1449947473663,
         "oldValue": "",
-        "newValue": "ل",
-        "explanation": null
-      }
-    ]
-  },
-  "acidic": {
-    "value": "حمضي",
-    "history": [
-      {
-        "userId": 192293,
-        "timestamp": 1449947473663,
-        "oldValue": "",
-        "newValue": "حمضي",
-        "explanation": null
-      }
-    ]
-  },
-  "basic": {
-    "value": "قلوي",
-    "history": [
-      {
-        "userId": 192293,
-        "timestamp": 1449947473663,
-        "oldValue": "",
-        "newValue": "قلوي",
-        "explanation": null
-      }
-    ]
-  },
-  "pH": {
-    "value": "pH",
-    "history": [
-      {
-        "userId": 192293,
-        "timestamp": 1449947473663,
-        "oldValue": "",
-        "newValue": "pH",
-        "explanation": null
-      }
-    ]
-  },
-  "neutral": {
-    "value": "محايد",
-    "history": [
-      {
-        "userId": 192293,
-        "timestamp": 1449947473663,
-        "oldValue": "",
-        "newValue": "محايد",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.macro": {
-    "value": "ماكرو",
-    "history": [
-      {
-        "userId": 192293,
-        "timestamp": 1449947473663,
-        "oldValue": "",
-        "newValue": "ماكرو",
+        "newValue": "السائل حسب الطّلب",
         "explanation": null
       }
     ]
