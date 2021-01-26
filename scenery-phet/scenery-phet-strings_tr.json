@@ -25,27 +25,30 @@
       }
     ]
   },
-  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-    "value": "{{şey}} Tut veya Bırak",
+  "key.esc": {
+    "value": "Çıkış",
     "history": [
       {
-        "userId": 707975,
-        "timestamp": 1573071478274,
+        "userId": 613972,
+        "timestamp": 1611682807901,
         "oldValue": "",
-        "newValue": "{{thing}} Tut veya Bırak",
-        "explanation": null
-      },
+        "newValue": "Çıkış"
+      }
+    ]
+  },
+  "speed.fast": {
+    "value": "Hızlı",
+    "history": [
       {
-        "userId": 707975,
-        "timestamp": 1608644628037,
-        "oldValue": "{{thing}} Tut veya Bırak",
-        "newValue": "{{şey}} Tut veya Bırak",
-        "explanation": null
+        "userId": 613972,
+        "timestamp": 1611682807901,
+        "oldValue": "",
+        "newValue": "Hızlı"
       }
     ]
   },
   "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-    "value": "{{şey}} Tut veya Bırak",
+    "value": "Sürükle ve Bırak {{thing}}",
     "history": [
       {
         "userId": 707975,
@@ -59,6 +62,49 @@
         "timestamp": 1608644628037,
         "oldValue": "{{thing}} Tut veya Bırak",
         "newValue": "{{şey}} Tut veya Bırak",
+        "explanation": null
+      },
+      {
+        "userId": 613972,
+        "timestamp": 1611682807901,
+        "oldValue": "{{şey}} Tut veya Bırak",
+        "newValue": "Sürükle ve Bırak {{thing}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "Sürükle ve Bırak {{thing}}",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1573071478274,
+        "oldValue": "",
+        "newValue": "{{thing}} Tut veya Bırak",
+        "explanation": null
+      },
+      {
+        "userId": 707975,
+        "timestamp": 1608644628037,
+        "oldValue": "{{thing}} Tut veya Bırak",
+        "newValue": "{{şey}} Tut veya Bırak",
+        "explanation": null
+      },
+      {
+        "userId": 613972,
+        "timestamp": 1611682807901,
+        "oldValue": "{{şey}} Tut veya Bırak",
+        "newValue": "Sürükle ve Bırak {{thing}}"
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "Normal",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579813939678,
+        "oldValue": "",
+        "newValue": "Normal",
         "explanation": null
       }
     ]
@@ -135,6 +181,18 @@
         "timestamp": 1608644628037,
         "oldValue": "Değiştirme (Shift)",
         "newValue": "Değiştirme (Vardiya)",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "Yavaş",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1579813939678,
+        "oldValue": "",
+        "newValue": "Yavaş",
         "explanation": null
       }
     ]
@@ -401,30 +459,6 @@
         "timestamp": 1579971522124,
         "oldValue": "",
         "newValue": "Düşük grafik kalitesinde çalışıyor",
-        "explanation": null
-      }
-    ]
-  },
-  "speed.normal": {
-    "value": "Normal",
-    "history": [
-      {
-        "userId": 613972,
-        "timestamp": 1579813939678,
-        "oldValue": "",
-        "newValue": "Normal",
-        "explanation": null
-      }
-    ]
-  },
-  "speed.slow": {
-    "value": "Yavaş",
-    "history": [
-      {
-        "userId": 613972,
-        "timestamp": 1579813939678,
-        "oldValue": "",
-        "newValue": "Yavaş",
         "explanation": null
       }
     ]
