@@ -11,13 +11,19 @@
     ]
   },
   "operationDescriptions": {
-    "value": "Aktivitet",
+    "value": "Udregning",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1612502397695,
         "oldValue": "",
         "newValue": "Aktivitet"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1612532618510,
+        "oldValue": "Aktivitet",
+        "newValue": "Udregning"
       }
     ]
   },
@@ -110,24 +116,36 @@
     ]
   },
   "add": {
-    "value": "tilføj",
+    "value": "Tilføj",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1612502397695,
         "oldValue": "",
         "newValue": "tilføj"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1612532618510,
+        "oldValue": "tilføj",
+        "newValue": "Tilføj"
       }
     ]
   },
   "remove": {
-    "value": "fjern",
+    "value": "Fjern",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1612502397695,
         "oldValue": "",
         "newValue": "fjern"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1612532618510,
+        "oldValue": "fjern",
+        "newValue": "Fjern"
       }
     ]
   },
@@ -143,13 +161,19 @@
     ]
   },
   "addRemoveAssetDebtPattern": {
-    "value": "{{addOrRemove}} {{assetOrDebt}} af {{currencyUnits}}{{value}}",
+    "value": "{{addOrRemove}} {{assetOrDebt}} af {{value}} {{currencyUnits}}",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1612502397695,
         "oldValue": "",
         "newValue": "{{addOrRemove}} {{assetOrDebt}} af {{currencyUnits}}{{value}}"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1612532618510,
+        "oldValue": "{{addOrRemove}} {{assetOrDebt}} af {{currencyUnits}}{{value}}",
+        "newValue": "{{addOrRemove}} {{assetOrDebt}} af {{value}} {{currencyUnits}}"
       }
     ]
   },
@@ -186,25 +210,48 @@
       }
     ]
   },
+  "addRemovePositiveNegativePattern": {
+    "value": "{{addOrRemove}}{{positiveOrNegative}} {{value}}",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1612532618510,
+        "oldValue": "",
+        "newValue": "{{addOrRemove}}{{positiveOrNegative}} {{value}}"
+      }
+    ]
+  },
   "positive": {
-    "value": "plus",
+    "value": "plus ",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1612502397695,
         "oldValue": "",
         "newValue": "plus"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1612532618510,
+        "oldValue": "plus",
+        "newValue": "plus "
       }
     ]
   },
   "negative": {
-    "value": "minus",
+    "value": "minus ",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1612502397695,
         "oldValue": "",
         "newValue": "minus"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1612532618510,
+        "oldValue": "minus",
+        "newValue": "minus "
       }
     ]
   },
@@ -219,25 +266,70 @@
       }
     ]
   },
+  "totalCurrencyPattern": {
+    "value": "{{totalString}} = {{sign}}{{totalValue}} {{currencyUnits}}",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1612532618510,
+        "oldValue": "",
+        "newValue": "{{totalString}} = {{sign}}{{totalValue}} {{currencyUnits}}"
+      }
+    ]
+  },
+  "totalValuePattern": {
+    "value": "{{totalString}} = {{totalValue}}",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1612532618510,
+        "oldValue": "",
+        "newValue": "{{totalString}} = {{totalValue}}"
+      }
+    ]
+  },
+  "currencyValuePattern": {
+    "value": "{{sign}}{{value}} {{currencyUnits}}",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1612532618510,
+        "oldValue": "",
+        "newValue": "{{sign}}{{value}} {{currencyUnits}}"
+      }
+    ]
+  },
   "screen.generic": {
-    "value": "Generelt",
+    "value": "Grundlæggende",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1612502397695,
         "oldValue": "",
         "newValue": "Generelt"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1612532618510,
+        "oldValue": "Generelt",
+        "newValue": "Grundlæggende"
       }
     ]
   },
   "pointLabels": {
-    "value": "Værdier på tallinien ",
+    "value": "Punktværdier",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1612502397695,
         "oldValue": "",
         "newValue": "Værdier på tallinien "
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1612532618510,
+        "oldValue": "Værdier på tallinien ",
+        "newValue": "Punktværdier"
       }
     ]
   },
@@ -297,13 +389,19 @@
     ]
   },
   "number-line-operations.title": {
-    "value": "Tallinie: ",
+    "value": "Tallinie: Bevægelser",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1612502397695,
         "oldValue": "",
         "newValue": "Tallinie: "
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1612532618510,
+        "oldValue": "Tallinie: ",
+        "newValue": "Tallinie: Bevægelser"
       }
     ]
   },
