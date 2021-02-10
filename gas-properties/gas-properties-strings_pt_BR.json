@@ -1,36 +1,12 @@
 {
-  "pressure": {
-    "value": "Pressão",
+  "centerOfMass": {
+    "value": "Centro de Massa",
     "history": [
       {
         "userId": 143491,
         "timestamp": 1565798093300,
         "oldValue": "",
-        "newValue": "Pressão",
-        "explanation": null
-      }
-    ]
-  },
-  "tAvg": {
-    "value": "T<sub>média</sub> = {{value}}",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1565798093300,
-        "oldValue": "",
-        "newValue": "T<sub>média</sub> = {{value}}",
-        "explanation": null
-      }
-    ]
-  },
-  "tAvgK": {
-    "value": "T<sub>média</sub> = {{value}} K",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1565798093300,
-        "oldValue": "",
-        "newValue": "T<sub>média</sub> = {{value}} K",
+        "newValue": "Centro de Massa",
         "explanation": null
       }
     ]
@@ -47,14 +23,14 @@
       }
     ]
   },
-  "centerOfMass": {
-    "value": "Centro de Massa",
+  "screen.diffusion": {
+    "value": "Difusão",
     "history": [
       {
         "userId": 143491,
         "timestamp": 1565798093300,
         "oldValue": "",
-        "newValue": "Centro de Massa",
+        "newValue": "Difusão",
         "explanation": null
       }
     ]
@@ -72,7 +48,7 @@
     ]
   },
   "massAMU": {
-    "value": "Massa (u.m.a.)",
+    "value": "Massa (u)",
     "history": [
       {
         "userId": 143491,
@@ -80,6 +56,12 @@
         "oldValue": "",
         "newValue": "Massa (u.m.a.)",
         "explanation": null
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1612983527460,
+        "oldValue": "Massa (u.m.a.)",
+        "newValue": "Massa (u)"
       }
     ]
   },
@@ -91,6 +73,56 @@
         "timestamp": 1565798093300,
         "oldValue": "",
         "newValue": "Número de Partículas",
+        "explanation": null
+      }
+    ]
+  },
+  "particleFlowRate": {
+    "value": "Taxa de Fluxo de Partículas",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1565798093300,
+        "oldValue": "",
+        "newValue": "Taxa de Fluxo de Partículas",
+        "explanation": null
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1565798843457,
+        "oldValue": "Taxa de Fluxo de Partículas",
+        "newValue": "Taxa do Fluxo de Partículas",
+        "explanation": null
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1572628302571,
+        "oldValue": "Taxa do Fluxo de Partículas",
+        "newValue": "Taxa de Fluxo de Partículas",
+        "explanation": null
+      }
+    ]
+  },
+  "pressure": {
+    "value": "Pressão",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1565798093300,
+        "oldValue": "",
+        "newValue": "Pressão",
+        "explanation": null
+      }
+    ]
+  },
+  "pressureNoise": {
+    "value": "Ruído de Pressão",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1565798093300,
+        "oldValue": "",
+        "newValue": "Ruído de Pressão",
         "explanation": null
       }
     ]
@@ -131,32 +163,6 @@
       }
     ]
   },
-  "particleFlowRate": {
-    "value": "Taxa de Fluxo de Partículas",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1565798093300,
-        "oldValue": "",
-        "newValue": "Taxa de Fluxo de Partículas",
-        "explanation": null
-      },
-      {
-        "userId": 143491,
-        "timestamp": 1565798843457,
-        "oldValue": "Taxa de Fluxo de Partículas",
-        "newValue": "Taxa do Fluxo de Partículas",
-        "explanation": null
-      },
-      {
-        "userId": 143491,
-        "timestamp": 1572628302571,
-        "oldValue": "Taxa do Fluxo de Partículas",
-        "newValue": "Taxa de Fluxo de Partículas",
-        "explanation": null
-      }
-    ]
-  },
   "scale": {
     "value": "Escala",
     "history": [
@@ -181,14 +187,26 @@
       }
     ]
   },
-  "screen.diffusion": {
-    "value": "Difusão",
+  "tAvg": {
+    "value": "T<sub>média</sub> = {{value}}",
     "history": [
       {
         "userId": 143491,
         "timestamp": 1565798093300,
         "oldValue": "",
-        "newValue": "Difusão",
+        "newValue": "T<sub>média</sub> = {{value}}",
+        "explanation": null
+      }
+    ]
+  },
+  "tAvgK": {
+    "value": "T<sub>média</sub> = {{value}} K",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1565798093300,
+        "oldValue": "",
+        "newValue": "T<sub>média</sub> = {{value}} K",
         "explanation": null
       }
     ]
@@ -321,18 +339,6 @@
         "timestamp": 1565798843457,
         "oldValue": "",
         "newValue": "Explorar",
-        "explanation": null
-      }
-    ]
-  },
-  "pressureNoise": {
-    "value": "Ruído de Pressão",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1565798093300,
-        "oldValue": "",
-        "newValue": "Ruído de Pressão",
         "explanation": null
       }
     ]
