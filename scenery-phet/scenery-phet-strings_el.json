@@ -1,4 +1,15 @@
 {
+  "keyboardHelpDialog.hyphen": {
+    "value": "-",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1613054087095,
+        "oldValue": "",
+        "newValue": "-"
+      }
+    ]
+  },
   "key.alt": {
     "value": "Alt",
     "history": [
@@ -7,6 +18,41 @@
         "timestamp": 1599584344581,
         "oldValue": "",
         "newValue": "Alt",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.basicActions": {
+    "value": "Βασικές ενέργειες",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1546067511250,
+        "oldValue": "",
+        "newValue": "Βασικές ενέργειες",
+        "explanation": null
+      }
+    ]
+  },
+  "key.capsLock": {
+    "value": "Κεφαλαία",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1613054087095,
+        "oldValue": "",
+        "newValue": "Κεφαλαία"
+      }
+    ]
+  },
+  "key.end": {
+    "value": "Τέλος",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1546067511250,
+        "oldValue": "",
+        "newValue": "Τέλος",
         "explanation": null
       }
     ]
@@ -63,14 +109,37 @@
       }
     ]
   },
-  "speed.fast": {
-    "value": "Γρήγορα",
+  "keyboardHelpDialog.exitADialog": {
+    "value": "Κλείσιμο παραθύρου",
     "history": [
       {
         "userId": 146870,
-        "timestamp": 1608300108811,
+        "timestamp": 1546067511250,
         "oldValue": "",
-        "newValue": "Γρήγορα",
+        "newValue": "Κλείσιμο παραθύρου",
+        "explanation": null
+      }
+    ]
+  },
+  "key.fn": {
+    "value": "Fn",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1613054087095,
+        "oldValue": "",
+        "newValue": "Fn"
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "Πιάστε ή αφήστε {{thing}}",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1544769136831,
+        "oldValue": "",
+        "newValue": "Πιάστε ή αφήστε {{thing}}",
         "explanation": null
       }
     ]
@@ -87,50 +156,50 @@
       }
     ]
   },
-  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-    "value": "Πιάστε ή αφήστε {{thing}}",
+  "key.home": {
+    "value": "Αρχική",
     "history": [
       {
         "userId": 146870,
-        "timestamp": 1544769136831,
+        "timestamp": 1546067511250,
         "oldValue": "",
-        "newValue": "Πιάστε ή αφήστε {{thing}}",
+        "newValue": "Αρχική",
         "explanation": null
       }
     ]
   },
-  "key.k": {
-    "value": "Κ",
+  "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+    "value": "Μετακίνηση μεταξύ αντικειμένων σε μια ομάδα",
     "history": [
       {
         "userId": 146870,
-        "timestamp": 1599584344581,
+        "timestamp": 1546067511250,
         "oldValue": "",
-        "newValue": "Κ",
+        "newValue": "Μετακίνηση μεταξύ αντικειμένων σε μια ομάδα",
         "explanation": null
       }
     ]
   },
-  "key.l": {
-    "value": "L",
+  "keyboardHelpDialog.moveToNextItemOrGroup": {
+    "value": "Μετακίνηση στο επόμενο αντικείμενο ή ομάδα",
     "history": [
       {
         "userId": 146870,
-        "timestamp": 1599584344581,
+        "timestamp": 1546067511250,
         "oldValue": "",
-        "newValue": "L",
+        "newValue": "Μετακίνηση στο επόμενο αντικείμενο ή ομάδα",
         "explanation": null
       }
     ]
   },
-  "speed.normal": {
-    "value": "Κανονικά",
+  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+    "value": "Μετακίνησ στο προηγούμενο αντικείμενο ή ομάδα",
     "history": [
       {
         "userId": 146870,
-        "timestamp": 1537462262981,
+        "timestamp": 1546067511250,
         "oldValue": "",
-        "newValue": "Κανονικά",
+        "newValue": "Μετακίνησ στο προηγούμενο αντικείμενο ή ομάδα",
         "explanation": null
       }
     ]
@@ -199,6 +268,18 @@
       }
     ]
   },
+  "keyboardHelpDialog.pressButtons": {
+    "value": "Πάτημα πλήκτρων",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1546067511250,
+        "oldValue": "",
+        "newValue": "Πάτημα πλήκτρων",
+        "explanation": null
+      }
+    ]
+  },
   "key.shift": {
     "value": "Shift",
     "history": [
@@ -207,18 +288,6 @@
         "timestamp": 1544769136831,
         "oldValue": "",
         "newValue": "Shift",
-        "explanation": null
-      }
-    ]
-  },
-  "speed.slow": {
-    "value": "Αργά",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1537462262981,
-        "oldValue": "",
-        "newValue": "Αργά",
         "explanation": null
       }
     ]
@@ -247,26 +316,14 @@
       }
     ]
   },
-  "measuringTapeReadoutPattern": {
-    "value": "{{distance}} {{units}}",
+  "keyboardHelpDialog.toggleCheckboxes": {
+    "value": "Εναλλαγή πλαισίων ελέγχου",
     "history": [
       {
         "userId": 146870,
-        "timestamp": 1608300108811,
+        "timestamp": 1573198976675,
         "oldValue": "",
-        "newValue": "{{distance}} {{units}}",
-        "explanation": null
-      }
-    ]
-  },
-  "stopwatchValueUnitsPattern": {
-    "value": "{{value}} {{units}}",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1608300108811,
-        "oldValue": "",
-        "newValue": "{{value}} {{units}}",
+        "newValue": "Εναλλαγή πλαισίων ελέγχου",
         "explanation": null
       }
     ]
@@ -295,62 +352,86 @@
       }
     ]
   },
-  "keyboardHelpDialog.basicActions": {
-    "value": "Βασικές ενέργειες",
+  "speed.fast": {
+    "value": "Γρήγορα",
     "history": [
       {
         "userId": 146870,
-        "timestamp": 1546067511250,
+        "timestamp": 1608300108811,
         "oldValue": "",
-        "newValue": "Βασικές ενέργειες",
+        "newValue": "Γρήγορα",
         "explanation": null
       }
     ]
   },
-  "key.end": {
-    "value": "Τέλος",
+  "key.k": {
+    "value": "Κ",
     "history": [
       {
         "userId": 146870,
-        "timestamp": 1546067511250,
+        "timestamp": 1599584344581,
         "oldValue": "",
-        "newValue": "Τέλος",
+        "newValue": "Κ",
         "explanation": null
       }
     ]
   },
-  "keyboardHelpDialog.exitADialog": {
-    "value": "Κλείσιμο παραθύρου",
+  "key.l": {
+    "value": "L",
     "history": [
       {
         "userId": 146870,
-        "timestamp": 1546067511250,
+        "timestamp": 1599584344581,
         "oldValue": "",
-        "newValue": "Κλείσιμο παραθύρου",
+        "newValue": "L",
         "explanation": null
       }
     ]
   },
-  "key.home": {
-    "value": "Αρχική",
+  "speed.normal": {
+    "value": "Κανονικά",
     "history": [
       {
         "userId": 146870,
-        "timestamp": 1546067511250,
+        "timestamp": 1537462262981,
         "oldValue": "",
-        "newValue": "Αρχική",
+        "newValue": "Κανονικά",
         "explanation": null
       }
     ]
   },
-  "keyboardHelpDialog.moveBetweenItemsInAGroup": {
-    "value": "Μετακίνηση μεταξύ αντικειμένων σε μια ομάδα",
+  "speed.slow": {
+    "value": "Αργά",
     "history": [
       {
         "userId": 146870,
-        "timestamp": 1546067511250,
+        "timestamp": 1537462262981,
         "oldValue": "",
-        "newValue": "Μετακίνηση μεταξύ αντικειμένων σε μια ομάδα",
+        "newValue": "Αργά",
+        "explanation": null
+      }
+    ]
+  },
+  "measuringTapeReadoutPattern": {
+    "value": "{{distance}} {{units}}",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1608300108811,
+        "oldValue": "",
+        "newValue": "{{distance}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "stopwatchValueUnitsPattern": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1608300108811,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}",
         "explanation": null
       }
     ]
@@ -367,18 +448,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.moveToNextItemOrGroup": {
-    "value": "Μετακίνηση στο επόμενο αντικείμενο ή ομάδα",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1546067511250,
-        "oldValue": "",
-        "newValue": "Μετακίνηση στο επόμενο αντικείμενο ή ομάδα",
-        "explanation": null
-      }
-    ]
-  },
   "keyboardHelpDialog.moveToPreviousItem": {
     "value": "Μετακίνηση στο προηγούμενο αντικείμενο",
     "history": [
@@ -387,30 +456,6 @@
         "timestamp": 1546067511250,
         "oldValue": "",
         "newValue": "Μετακίνηση στο προηγούμενο αντικείμενο",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
-    "value": "Μετακίνησ στο προηγούμενο αντικείμενο ή ομάδα",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1546067511250,
-        "oldValue": "",
-        "newValue": "Μετακίνησ στο προηγούμενο αντικείμενο ή ομάδα",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.pressButtons": {
-    "value": "Πάτημα πλήκτρων",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1546067511250,
-        "oldValue": "",
-        "newValue": "Πάτημα πλήκτρων",
         "explanation": null
       }
     ]
@@ -447,18 +492,6 @@
         "timestamp": 1583574113828,
         "oldValue": "",
         "newValue": "για τη <b>Σύλληψη</b> ή την  <b>Απελευθέρωση</b>",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.toggleCheckboxes": {
-    "value": "Εναλλαγή πλαισίων ελέγχου",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1573198976675,
-        "oldValue": "",
-        "newValue": "Εναλλαγή πλαισίων ελέγχου",
         "explanation": null
       }
     ]
