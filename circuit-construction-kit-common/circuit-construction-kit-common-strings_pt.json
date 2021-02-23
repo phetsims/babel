@@ -1,4 +1,15 @@
 {
+  "oneSecond": {
+    "value": "1 s",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1614110808400,
+        "oldValue": "",
+        "newValue": "1 s"
+      }
+    ]
+  },
   "questionMark": {
     "value": "?",
     "history": [
@@ -8,6 +19,17 @@
         "oldValue": "",
         "newValue": "?",
         "explanation": null
+      }
+    ]
+  },
+  "acSource": {
+    "value": "Voltagem CA",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1614110808400,
+        "oldValue": "",
+        "newValue": "Voltagem CA"
       }
     ]
   },
@@ -96,7 +118,7 @@
     ]
   },
   "current": {
-    "value": "Atual",
+    "value": "Corrente",
     "history": [
       {
         "userId": 610145,
@@ -104,6 +126,34 @@
         "oldValue": "",
         "newValue": "Atual",
         "explanation": null
+      },
+      {
+        "userId": 160498,
+        "timestamp": 1614110808400,
+        "oldValue": "Atual",
+        "newValue": "Corrente"
+      }
+    ]
+  },
+  "currentChart": {
+    "value": "Gráfico Corrente",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1614110808400,
+        "oldValue": "",
+        "newValue": "Gráfico Corrente"
+      }
+    ]
+  },
+  "currentRating": {
+    "value": "Corrente Atual",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1614110808400,
+        "oldValue": "",
+        "newValue": "Corrente Atual"
       }
     ]
   },
@@ -152,6 +202,28 @@
         "oldValue": "",
         "newValue": "Borracha",
         "explanation": null
+      }
+    ]
+  },
+  "frequency": {
+    "value": "Frequência",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1614110808400,
+        "oldValue": "",
+        "newValue": "Frequência"
+      }
+    ]
+  },
+  "fuse": {
+    "value": "Fusível",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1614110808400,
+        "oldValue": "",
+        "newValue": "Fusível"
       }
     ]
   },
@@ -311,6 +383,17 @@
       }
     ]
   },
+  "time": {
+    "value": "Tempo",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1614110808401,
+        "oldValue": "",
+        "newValue": "Tempo"
+      }
+    ]
+  },
   "tiny": {
     "value": "baixa",
     "history": [
@@ -344,6 +427,17 @@
         "oldValue": "",
         "newValue": "Voltagem",
         "explanation": null
+      }
+    ]
+  },
+  "voltageChart": {
+    "value": "Gráfico Voltímetro",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1614110808401,
+        "oldValue": "",
+        "newValue": "Gráfico Voltímetro"
       }
     ]
   },
@@ -395,15 +489,25 @@
       }
     ]
   },
-  "resistanceOhms": {
-    "value": "{{resistance}} ohms",
+  "frequencyHzValuePattern": {
+    "value": "{{frequency}}Hz",
     "history": [
       {
-        "userId": 610145,
-        "timestamp": 1541096027915,
+        "userId": 160498,
+        "timestamp": 1614110808401,
         "oldValue": "",
-        "newValue": "{{resistance}} ohms",
-        "explanation": null
+        "newValue": "{{frequency}}Hz"
+      }
+    ]
+  },
+  "fuseValue": {
+    "value": " {{resistance}} mΩ<br><span style=\"font-size: 16px;\">≤ {{currentRating}} A</span>",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1614110808401,
+        "oldValue": "",
+        "newValue": " {{resistance}} mΩ<br><span style=\"font-size: 16px;\">≤ {{currentRating}} A</span>"
       }
     ]
   },
@@ -451,6 +555,18 @@
         "timestamp": 1541096027915,
         "oldValue": "",
         "newValue": "{{voltage}} volts",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhms": {
+    "value": "{{resistance}} ohms",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541096027915,
+        "oldValue": "",
+        "newValue": "{{resistance}} ohms",
         "explanation": null
       }
     ]
