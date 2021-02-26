@@ -121,6 +121,18 @@
       }
     ]
   },
+  "speed.fast": {
+    "value": "Γρήγορα",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1608300108811,
+        "oldValue": "",
+        "newValue": "Γρήγορα",
+        "explanation": null
+      }
+    ]
+  },
   "key.fn": {
     "value": "Fn",
     "history": [
@@ -132,7 +144,7 @@
       }
     ]
   },
-  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
     "value": "Πιάστε ή αφήστε {{thing}}",
     "history": [
       {
@@ -144,7 +156,7 @@
       }
     ]
   },
-  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
     "value": "Πιάστε ή αφήστε {{thing}}",
     "history": [
       {
@@ -200,6 +212,18 @@
         "timestamp": 1546067511250,
         "oldValue": "",
         "newValue": "Μετακίνησ στο προηγούμενο αντικείμενο ή ομάδα",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "Κανονικά",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1537462262981,
+        "oldValue": "",
+        "newValue": "Κανονικά",
         "explanation": null
       }
     ]
@@ -292,8 +316,20 @@
       }
     ]
   },
+  "speed.slow": {
+    "value": "Αργά",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1537462262981,
+        "oldValue": "",
+        "newValue": "Αργά",
+        "explanation": null
+      }
+    ]
+  },
   "key.space": {
-    "value": "Space",
+    "value": "Διάστημα",
     "history": [
       {
         "userId": 146870,
@@ -301,6 +337,12 @@
         "oldValue": "",
         "newValue": "Space",
         "explanation": null
+      },
+      {
+        "userId": 146870,
+        "timestamp": 1614347748660,
+        "oldValue": "Space",
+        "newValue": "Διάστημα"
       }
     ]
   },
@@ -324,6 +366,18 @@
         "timestamp": 1573198976675,
         "oldValue": "",
         "newValue": "Εναλλαγή πλαισίων ελέγχου",
+        "explanation": null
+      }
+    ]
+  },
+  "stopwatchValueUnitsPattern": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1608300108811,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}",
         "explanation": null
       }
     ]
@@ -352,18 +406,6 @@
       }
     ]
   },
-  "speed.fast": {
-    "value": "Γρήγορα",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1608300108811,
-        "oldValue": "",
-        "newValue": "Γρήγορα",
-        "explanation": null
-      }
-    ]
-  },
   "key.k": {
     "value": "Κ",
     "history": [
@@ -388,30 +430,6 @@
       }
     ]
   },
-  "speed.normal": {
-    "value": "Κανονικά",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1537462262981,
-        "oldValue": "",
-        "newValue": "Κανονικά",
-        "explanation": null
-      }
-    ]
-  },
-  "speed.slow": {
-    "value": "Αργά",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1537462262981,
-        "oldValue": "",
-        "newValue": "Αργά",
-        "explanation": null
-      }
-    ]
-  },
   "measuringTapeReadoutPattern": {
     "value": "{{distance}} {{units}}",
     "history": [
@@ -420,18 +438,6 @@
         "timestamp": 1608300108811,
         "oldValue": "",
         "newValue": "{{distance}} {{units}}",
-        "explanation": null
-      }
-    ]
-  },
-  "stopwatchValueUnitsPattern": {
-    "value": "{{value}} {{units}}",
-    "history": [
-      {
-        "userId": 146870,
-        "timestamp": 1608300108811,
-        "oldValue": "",
-        "newValue": "{{value}} {{units}}",
         "explanation": null
       }
     ]
