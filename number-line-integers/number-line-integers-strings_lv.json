@@ -11,6 +11,50 @@
       }
     ]
   },
+  "labels": {
+    "value": "Punktu vērtības",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1614425228073,
+        "oldValue": "",
+        "newValue": "Punktu vērtības"
+      }
+    ]
+  },
+  "tickMarks": {
+    "value": "Skaitļu atzīmes",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1614425228073,
+        "oldValue": "",
+        "newValue": "Skaitļu atzīmes"
+      }
+    ]
+  },
+  "opposite": {
+    "value": "Pretējās vērtības",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1614425228073,
+        "oldValue": "",
+        "newValue": "Pretējās vērtības"
+      }
+    ]
+  },
+  "range": {
+    "value": "{{lowValue}} līdz {{highValue}}",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1614425228073,
+        "oldValue": "",
+        "newValue": "{{lowValue}} līdz {{highValue}}"
+      }
+    ]
+  },
   "screen.generic": {
     "value": "Vispārīgi",
     "history": [
@@ -348,7 +392,7 @@
     ]
   },
   "positiveTemperatureAmount": {
-    "value": " {{value}}° zem 0",
+    "value": " {{value}}° virs 0",
     "history": [
       {
         "userId": 155506,
@@ -356,6 +400,12 @@
         "oldValue": "",
         "newValue": " {{value}}° zem 0",
         "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1614425228073,
+        "oldValue": " {{value}}° zem 0",
+        "newValue": " {{value}}° virs 0"
       }
     ]
   },
