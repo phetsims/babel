@@ -1,4 +1,60 @@
 {
+  "oneSecond": {
+    "value": "1 s",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": "1 s"
+      }
+    ]
+  },
+  "questionMark": {
+    "value": "?",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1510270438022,
+        "oldValue": "",
+        "newValue": "?",
+        "explanation": null
+      }
+    ]
+  },
+  "acSource": {
+    "value": "Wechselstrom Spannung",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": "Wechselstrom Spannung"
+      }
+    ]
+  },
+  "addRealBulbs": {
+    "value": "mit echten Lampen",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": "mit echten Lampen"
+      }
+    ]
+  },
+  "advanced": {
+    "value": "für Fortgeschrittene",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": "für Fortgeschrittene"
+      }
+    ]
+  },
   "ammeter": {
     "value": "Ampere Meter",
     "history": [
@@ -59,6 +115,28 @@
       }
     ]
   },
+  "capacitance": {
+    "value": "Kapazität",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": "Kapazität"
+      }
+    ]
+  },
+  "capacitor": {
+    "value": "Kapazität",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": "Kapazität"
+      }
+    ]
+  },
   "coin": {
     "value": "Münze",
     "history": [
@@ -84,7 +162,7 @@
     ]
   },
   "current": {
-    "value": "Strom",
+    "value": "Stromstärke",
     "history": [
       {
         "userId": 272196,
@@ -92,18 +170,45 @@
         "oldValue": "",
         "newValue": "Strom",
         "explanation": null
+      },
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "Strom",
+        "newValue": "Stromstärke"
       }
     ]
   },
-  "currentUnits": {
-    "value": "{{current}} A",
+  "currentWithUnits": {
+    "value": "Stromstärke [A]",
     "history": [
       {
         "userId": 272196,
-        "timestamp": 1510270438022,
+        "timestamp": 1614521182574,
         "oldValue": "",
-        "newValue": "{{current}} A",
-        "explanation": null
+        "newValue": "Stromstärke [A]"
+      }
+    ]
+  },
+  "currentChart": {
+    "value": "Stromstärke Diagramm",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": "Stromstärke Diagramm"
+      }
+    ]
+  },
+  "currentRating": {
+    "value": "Nennstrom",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": "Nennstrom"
       }
     ]
   },
@@ -155,6 +260,28 @@
       }
     ]
   },
+  "frequency": {
+    "value": "Frequenz",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": "Frequenz"
+      }
+    ]
+  },
+  "fuse": {
+    "value": "Sicherung",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": "Sicherung"
+      }
+    ]
+  },
   "hand": {
     "value": "Hand",
     "history": [
@@ -164,6 +291,50 @@
         "oldValue": "",
         "newValue": "Hand",
         "explanation": null
+      }
+    ]
+  },
+  "iec": {
+    "value": "IEC",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": "IEC"
+      }
+    ]
+  },
+  "ieee": {
+    "value": "IEEE",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": "IEEE"
+      }
+    ]
+  },
+  "inductance": {
+    "value": "Induktivität",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": "Induktivität"
+      }
+    ]
+  },
+  "inductor": {
+    "value": "Induktivität",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": "Induktivität"
       }
     ]
   },
@@ -180,7 +351,7 @@
     ]
   },
   "lightBulb": {
-    "value": "Licht",
+    "value": "Lampe",
     "history": [
       {
         "userId": 272196,
@@ -188,6 +359,12 @@
         "oldValue": "",
         "newValue": "Licht",
         "explanation": null
+      },
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "Licht",
+        "newValue": "Lampe"
       }
     ]
   },
@@ -227,15 +404,25 @@
       }
     ]
   },
-  "questionMark": {
-    "value": "?",
+  "phaseShift": {
+    "value": "Phasenverschiebung",
     "history": [
       {
         "userId": 272196,
-        "timestamp": 1510270438022,
+        "timestamp": 1614521182574,
         "oldValue": "",
-        "newValue": "?",
-        "explanation": null
+        "newValue": "Phasenverschiebung"
+      }
+    ]
+  },
+  "realBulb": {
+    "value": "Echte Lampe",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": "Echte Lampe"
       }
     ]
   },
@@ -247,42 +434,6 @@
         "timestamp": 1510270438022,
         "oldValue": "",
         "newValue": "Widerstand",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhms": {
-    "value": "{{resistance}} ohm",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1510270438022,
-        "oldValue": "",
-        "newValue": "{{resistance}} ohm",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhmsSymbol": {
-    "value": "{{resistance}} Ω",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1510270438022,
-        "oldValue": "",
-        "newValue": "{{resistance}} Ω",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhmsValuePattern": {
-    "value": "{{resistance}} ohm",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1510270438022,
-        "oldValue": "",
-        "newValue": "{{resistance}} ohm",
         "explanation": null
       }
     ]
@@ -299,6 +450,17 @@
       }
     ]
   },
+  "schematicStandard": {
+    "value": "Standarad Schema",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": "Standarad Schema"
+      }
+    ]
+  },
   "showCurrent": {
     "value": "Strom anzeigen",
     "history": [
@@ -308,6 +470,28 @@
         "oldValue": "",
         "newValue": "Strom anzeigen",
         "explanation": null
+      }
+    ]
+  },
+  "sourceResistance": {
+    "value": "Widerstand",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": "Widerstand"
+      }
+    ]
+  },
+  "stopwatch": {
+    "value": "Stopppuhr",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": "Stopppuhr"
       }
     ]
   },
@@ -359,6 +543,17 @@
       }
     ]
   },
+  "time": {
+    "value": "Zeit",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": "Zeit"
+      }
+    ]
+  },
   "tiny": {
     "value": "winzig",
     "history": [
@@ -395,27 +590,25 @@
       }
     ]
   },
-  "voltageUnits": {
-    "value": "{{voltage}} V",
+  "voltageWithUnits": {
+    "value": "Spannung [V]",
     "history": [
       {
         "userId": 272196,
-        "timestamp": 1510270438022,
+        "timestamp": 1614521182574,
         "oldValue": "",
-        "newValue": "{{voltage}} V",
-        "explanation": null
+        "newValue": "Spannung [V]"
       }
     ]
   },
-  "voltageVoltsValuePattern": {
-    "value": "{{voltage}} volt",
+  "voltageChart": {
+    "value": "Spannung Diagramm",
     "history": [
       {
         "userId": 272196,
-        "timestamp": 1510270438022,
+        "timestamp": 1614521182574,
         "oldValue": "",
-        "newValue": "{{voltage}} volt",
-        "explanation": null
+        "newValue": "Spannung Diagramm"
       }
     ]
   },
@@ -451,6 +644,144 @@
         "timestamp": 1510270438022,
         "oldValue": "",
         "newValue": "Draht Widerstand",
+        "explanation": null
+      }
+    ]
+  },
+  "capacitanceUnits": {
+    "value": "{{capacitance}} F",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": "{{capacitance}} F"
+      }
+    ]
+  },
+  "currentUnits": {
+    "value": "{{current}} A",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1510270438022,
+        "oldValue": "",
+        "newValue": "{{current}} A",
+        "explanation": null
+      }
+    ]
+  },
+  "frequencyHzValuePattern": {
+    "value": " {{frequency}} Hz",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": " {{frequency}} Hz"
+      }
+    ]
+  },
+  "inductanceUnits": {
+    "value": "{{inductance}} H",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": "{{inductance}} H"
+      }
+    ]
+  },
+  "capacitanceFaradsSymbol": {
+    "value": "{{resistance}} F",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": "{{resistance}} F"
+      }
+    ]
+  },
+  "inductanceHenriesSymbol": {
+    "value": " {{resistance}} H",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": " {{resistance}} H"
+      }
+    ]
+  },
+  "fuseValue": {
+    "value": "{{resistance}} mΩ<br><span style=\"font-size: 16px;\">≤ {{currentRating}} A</span>",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1614521182574,
+        "oldValue": "",
+        "newValue": "{{resistance}} mΩ<br><span style=\"font-size: 16px;\">≤ {{currentRating}} A</span>"
+      }
+    ]
+  },
+  "resistanceOhmsValuePattern": {
+    "value": "{{resistance}} ohm",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1510270438022,
+        "oldValue": "",
+        "newValue": "{{resistance}} ohm",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhmsSymbol": {
+    "value": "{{resistance}} Ω",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1510270438022,
+        "oldValue": "",
+        "newValue": "{{resistance}} Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageUnits": {
+    "value": "{{voltage}} V",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1510270438022,
+        "oldValue": "",
+        "newValue": "{{voltage}} V",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageVoltsValuePattern": {
+    "value": "{{voltage}} volt",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1510270438022,
+        "oldValue": "",
+        "newValue": "{{voltage}} volt",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhms": {
+    "value": "{{resistance}} ohm",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1510270438022,
+        "oldValue": "",
+        "newValue": "{{resistance}} ohm",
         "explanation": null
       }
     ]
