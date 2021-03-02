@@ -93,6 +93,24 @@
       }
     ]
   },
+  "speed.fast": {
+    "value": "Schnell",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1608642384651,
+        "oldValue": "",
+        "newValue": "schnell",
+        "explanation": null
+      },
+      {
+        "userId": 446279,
+        "timestamp": 1614712659528,
+        "oldValue": "schnell",
+        "newValue": "Schnell"
+      }
+    ]
+  },
   "key.fn": {
     "value": "Fn",
     "history": [
@@ -104,18 +122,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-    "value": " Greife oder setze {{thing}}",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1546442150442,
-        "oldValue": "",
-        "newValue": " Greife oder setze {{thing}}",
-        "explanation": null
-      }
-    ]
-  },
   "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
     "value": "Greife oder setze {{thing}}",
     "history": [
@@ -124,6 +130,18 @@
         "timestamp": 1546442150442,
         "oldValue": "",
         "newValue": "Greife oder setze {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": " Greife oder setze {{thing}}",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1546442150442,
+        "oldValue": "",
+        "newValue": " Greife oder setze {{thing}}",
         "explanation": null
       }
     ]
@@ -141,7 +159,7 @@
     ]
   },
   "keyboardHelpDialog.moveBetweenItemsInAGroup": {
-    "value": "zwischen Elementen in Gruppe wechseln",
+    "value": "Zwischen Elementen einer Gruppe wechseln",
     "history": [
       {
         "userId": 272196,
@@ -149,11 +167,17 @@
         "oldValue": "",
         "newValue": "zwischen Elementen in Gruppe wechseln",
         "explanation": null
+      },
+      {
+        "userId": 446279,
+        "timestamp": 1614712659528,
+        "oldValue": "zwischen Elementen in Gruppe wechseln",
+        "newValue": "Zwischen Elementen einer Gruppe wechseln"
       }
     ]
   },
   "keyboardHelpDialog.moveToNextItemOrGroup": {
-    "value": "nächstes Element oder Gruppe",
+    "value": "Zum nächsten Element oder nächster Gruppe wechseln",
     "history": [
       {
         "userId": 272196,
@@ -161,17 +185,41 @@
         "oldValue": "",
         "newValue": "nächstes Element oder Gruppe",
         "explanation": null
+      },
+      {
+        "userId": 446279,
+        "timestamp": 1614712659528,
+        "oldValue": "nächstes Element oder Gruppe",
+        "newValue": "Zum nächsten Element oder nächster Gruppe wechseln"
       }
     ]
   },
   "keyboardHelpDialog.moveToPreviousItemOrGroup": {
-    "value": "letztes Element oder Gruppe",
+    "value": "Zum letzten Element oder letzter Gruppe wechseln",
     "history": [
       {
         "userId": 272196,
         "timestamp": 1546288317104,
         "oldValue": "",
         "newValue": "letztes Element oder Gruppe",
+        "explanation": null
+      },
+      {
+        "userId": 446279,
+        "timestamp": 1614712659528,
+        "oldValue": "letztes Element oder Gruppe",
+        "newValue": "Zum letzten Element oder letzter Gruppe wechseln"
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "Normal",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1538479148885,
+        "oldValue": "",
+        "newValue": "Normal",
         "explanation": null
       }
     ]
@@ -236,6 +284,18 @@
       }
     ]
   },
+  "speed.slow": {
+    "value": "Langsam",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1538479148885,
+        "oldValue": "",
+        "newValue": "Langsam",
+        "explanation": null
+      }
+    ]
+  },
   "key.space": {
     "value": "Leerschlag",
     "history": [
@@ -272,6 +332,18 @@
       }
     ]
   },
+  "stopwatchValueUnitsPattern": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1608642384651,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
   "symbol.resistivity": {
     "value": "ρ",
     "history": [
@@ -285,7 +357,7 @@
     ]
   },
   "symbol.ohms": {
-    "value": "Ω",
+    "value": "Ω",
     "history": [
       {
         "userId": 272196,
@@ -293,18 +365,12 @@
         "oldValue": "",
         "newValue": "Ω",
         "explanation": null
-      }
-    ]
-  },
-  "speed.fast": {
-    "value": "schnell",
-    "history": [
+      },
       {
-        "userId": 272196,
-        "timestamp": 1608642384651,
-        "oldValue": "",
-        "newValue": "schnell",
-        "explanation": null
+        "userId": 446279,
+        "timestamp": 1614712659529,
+        "oldValue": "Ω",
+        "newValue": "Ω"
       }
     ]
   },
@@ -332,30 +398,6 @@
       }
     ]
   },
-  "speed.normal": {
-    "value": "Normal",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1538479148885,
-        "oldValue": "",
-        "newValue": "Normal",
-        "explanation": null
-      }
-    ]
-  },
-  "speed.slow": {
-    "value": "Langsam",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1538479148885,
-        "oldValue": "",
-        "newValue": "Langsam",
-        "explanation": null
-      }
-    ]
-  },
   "measuringTapeReadoutPattern": {
     "value": "{{distance}} {{units}}",
     "history": [
@@ -364,18 +406,6 @@
         "timestamp": 1608642384651,
         "oldValue": "",
         "newValue": "{{distance}} {{units}}",
-        "explanation": null
-      }
-    ]
-  },
-  "stopwatchValueUnitsPattern": {
-    "value": "{{value}} {{units}}",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1608642384651,
-        "oldValue": "",
-        "newValue": "{{value}} {{units}}",
         "explanation": null
       }
     ]
