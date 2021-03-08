@@ -1,72 +1,504 @@
 {
+  "combustMethane": {
+    "value": "Combustão do Metano",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Combustão do Metano"
+      }
+    ]
+  },
+  "makeAmmonia": {
+    "value": "Produzir Amónia",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Produzir Amónia"
+      }
+    ]
+  },
+  "makeWater": {
+    "value": "Produzir Água",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Produzir Água"
+      }
+    ]
+  },
+  "leftovers": {
+    "value": "Sobras",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Sobras"
+      }
+    ]
+  },
+  "products": {
+    "value": "Produtos",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Produtos"
+      }
+    ]
+  },
+  "reactants": {
+    "value": "Reagentes",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Reagentes"
+      }
+    ]
+  },
+  "questionMark": {
+    "value": "?",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "?"
+      }
+    ]
+  },
+  "hideMolecules": {
+    "value": "Ocultar Moléculas",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Ocultar Moléculas"
+      }
+    ]
+  },
+  "hideNumbers": {
+    "value": "Ocultar Números",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Ocultar Números"
+      }
+    ]
+  },
+  "showAll": {
+    "value": "Mostrar Todos",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Mostrar Todos"
+      }
+    ]
+  },
+  "chooseYourLevel": {
+    "value": "Escolher O Seu Nível ",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Escolher O Seu Nível "
+      }
+    ]
+  },
+  "doubleQuestionMark": {
+    "value": "??",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "??"
+      }
+    ]
+  },
+  "pattern_Level_0": {
+    "value": "Nível {0}",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Nível {0}"
+      }
+    ]
+  },
+  "screen.game": {
+    "value": "Jogo",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Jogo"
+      }
+    ]
+  },
+  "afterReaction": {
+    "value": "Depois da Reação",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Depois da Reação"
+      }
+    ]
+  },
+  "beforeReaction": {
+    "value": "Antes da Reação",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Antes da Reação"
+      }
+    ]
+  },
+  "screen.molecules": {
+    "value": "Moléculas",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Moléculas"
+      }
+    ]
+  },
+  "cheese": {
+    "value": "Queijo",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Queijo"
+      }
+    ]
+  },
+  "custom": {
+    "value": "Personalizado",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Personalizado"
+      }
+    ]
+  },
+  "meatAndCheese": {
+    "value": "Carne e Queijo",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Carne e Queijo"
+      }
+    ]
+  },
+  "noReaction": {
+    "value": "Não\n\"Reação\"",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Não\n\"Reação\""
+      }
+    ]
+  },
+  "afterSandwich": {
+    "value": "Depois da \"Reação\"",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Depois da \"Reação\""
+      }
+    ]
+  },
+  "beforeSandwich": {
+    "value": "Antes da \"Reação\"",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Antes da \"Reação\""
+      }
+    ]
+  },
+  "screen.sandwiches": {
+    "value": "Sandes",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Sandes"
+      }
+    ]
+  },
+  "reactants-products-and-leftovers.title": {
+    "value": "Reagentes, Produtos e Reagentes em Excesso",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Reagentes, Produtos e Reagentes em Excesso"
+      }
+    ]
+  },
   "button.showAnswer": {
-    "value": "Mostrar Resposta"
+    "value": "Mostrar Resposta",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Mostrar Resposta"
+      }
+    ]
   },
   "message.valueOutOfRange": {
-    "value": "O valor deve estar entre {0} e {1}"
+    "value": "O valor deve estar entre {0} e {1}",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "O valor deve estar entre {0} e {1}"
+      }
+    ]
   },
   "radioButton.numbers": {
-    "value": "números"
+    "value": "números",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "números"
+      }
+    ]
   },
   "radioButton.water": {
-    "value": "Produzir água"
+    "value": "Produzir água",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Produzir água"
+      }
+    ]
   },
   "message.numbersHidden": {
     "value": ""
   },
   "title.game": {
-    "value": "Jogo!"
+    "value": "Jogo!",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Jogo!"
+      }
+    ]
   },
   "radioButton.molecules": {
-    "value": "moléculas"
+    "value": "moléculas",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "moléculas"
+      }
+    ]
   },
   "question.howManyReactants": {
     "value": ""
   },
   "radioButton.ammonia": {
-    "value": "Produzir amoníaco"
+    "value": "Produzir amoníaco",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Produzir amoníaco"
+      }
+    ]
   },
   "label.products": {
-    "value": "produtos"
+    "value": "produtos",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "produtos"
+      }
+    ]
   },
   "button.tryAgain": {
-    "value": "Tentar de Novo"
+    "value": "Tentar de Novo",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Tentar de Novo"
+      }
+    ]
   },
   "label.noSandwich": {
-    "value": "sem Reacção"
+    "value": "sem Reacção",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "sem Reacção"
+      }
+    ]
   },
   "label.afterReaction": {
-    "value": "Depois da Reacção"
+    "value": "Depois da Reacção",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Depois da Reacção"
+      }
+    ]
   },
   "radioButton.cheeseSandwich": {
-    "value": "Sandwich de queijo"
+    "value": "Sandwich de queijo",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Sandwich de queijo"
+      }
+    ]
   },
   "label.beforeReaction": {
-    "value": "Antes da Reacção"
+    "value": "Antes da Reacção",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Antes da Reacção"
+      }
+    ]
   },
   "title.sandwichShop": {
-    "value": "Loja de Sandwiches"
+    "value": "Loja de Sandwiches",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Loja de Sandwiches"
+      }
+    ]
   },
   "title.realReaction": {
-    "value": "Reacção Química"
+    "value": "Reacção Química",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Reacção Química"
+      }
+    ]
   },
   "radioButton.methane": {
-    "value": "Combustão de Metano"
+    "value": "Combustão de Metano",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Combustão de Metano"
+      }
+    ]
   },
   "button.check": {
-    "value": "Verificar"
+    "value": "Verificar",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Verificar"
+      }
+    ]
   },
   "radioButton.nothing": {
-    "value": "nada"
-  },
-  "reactants-products-and-leftovers.title": {
-    "value": "Reagentes, Produtos e Reagentes em Excesso"
+    "value": "nada",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "nada"
+      }
+    ]
   },
   "radioButton.meatCheeseSandwich": {
-    "value": "Sandwich Mista"
+    "value": "Sandwich Mista",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Sandwich Mista"
+      }
+    ]
   },
   "label.leftovers": {
-    "value": "excessos"
+    "value": "excessos",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "excessos"
+      }
+    ]
   },
   "question.howManyProductsAndLeftovers": {
     "value": ""
@@ -75,21 +507,69 @@
     "value": ""
   },
   "label.reactants": {
-    "value": "reagentes"
+    "value": "reagentes",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "reagentes"
+      }
+    ]
   },
   "label.hide": {
-    "value": "Ocultar:"
+    "value": "Ocultar:",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Ocultar:"
+      }
+    ]
   },
   "label.reactionNumber": {
-    "value": "Reacção {0} de {1}:"
+    "value": "Reacção {0} de {1}:",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Reacção {0} de {1}:"
+      }
+    ]
   },
   "button.next": {
-    "value": "Próximo"
+    "value": "Próximo",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Próximo"
+      }
+    ]
   },
   "label.afterSwndwich": {
-    "value": "Depois da \"Reacção\""
+    "value": "Depois da ",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Depois da "
+      }
+    ]
   },
   "label.beforeSandwich": {
-    "value": "Antes da \"Reacção\""
+    "value": "Antes da ",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615246070090,
+        "oldValue": "",
+        "newValue": "Antes da "
+      }
+    ]
   }
 }
