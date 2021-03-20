@@ -24,7 +24,7 @@
     ]
   },
   "atmospheres": {
-    "value": "Atmosfēras",
+    "value": "atm",
     "history": [
       {
         "userId": 155506,
@@ -32,30 +32,12 @@
         "oldValue": "",
         "newValue": "Atmosfēras",
         "explanation": null
-      }
-    ]
-  },
-  "densityUnitsEnglish": {
-    "value": "lb/ft<sup>3</sup>",
-    "history": [
+      },
       {
         "userId": 155506,
-        "timestamp": 1463692266252,
-        "oldValue": "",
-        "newValue": "lb/ft<sup>3</sup>",
-        "explanation": null
-      }
-    ]
-  },
-  "densityUnitsMetric": {
-    "value": "kg/m<sup>3</sup>",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1463692266252,
-        "oldValue": "",
-        "newValue": "kg/m<sup>3</sup>",
-        "explanation": null
+        "timestamp": 1616234469921,
+        "oldValue": "Atmosfēras",
+        "newValue": "atm"
       }
     ]
   },
@@ -168,7 +150,7 @@
     ]
   },
   "gravity": {
-    "value": "Gravitāte",
+    "value": "Brīvās krišanas paātrinājums",
     "history": [
       {
         "userId": 155506,
@@ -176,11 +158,17 @@
         "oldValue": "",
         "newValue": "Gravitāte",
         "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1616234469921,
+        "oldValue": "Gravitāte",
+        "newValue": "Brīvās krišanas paātrinājums"
       }
     ]
   },
   "grid": {
-    "value": "Režģis",
+    "value": "Augstuma līmeņi",
     "history": [
       {
         "userId": 155506,
@@ -188,6 +176,12 @@
         "oldValue": "",
         "newValue": "Režģis",
         "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1616234469921,
+        "oldValue": "Režģis",
+        "newValue": "Augstuma līmeņi"
       }
     ]
   },
@@ -215,6 +209,18 @@
       }
     ]
   },
+  "densityUnitsMetric": {
+    "value": "kg/m<sup>3</sup>",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1463692266252,
+        "oldValue": "",
+        "newValue": "kg/m<sup>3</sup>",
+        "explanation": null
+      }
+    ]
+  },
   "kPa": {
     "value": "kPa",
     "history": [
@@ -223,6 +229,18 @@
         "timestamp": 1463692266252,
         "oldValue": "",
         "newValue": "kPa",
+        "explanation": null
+      }
+    ]
+  },
+  "densityUnitsEnglish": {
+    "value": "lb/ft<sup>3</sup>",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1463692266252,
+        "oldValue": "",
+        "newValue": "lb/ft<sup>3</sup>",
         "explanation": null
       }
     ]
@@ -263,20 +281,8 @@
       }
     ]
   },
-  "massLabelPattern": {
-    "value": "{0} kg",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1463692266252,
-        "oldValue": "",
-        "newValue": "{0} kg",
-        "explanation": null
-      }
-    ]
-  },
   "metric": {
-    "value": "Metriskās",
+    "value": "kPaF",
     "history": [
       {
         "userId": 155506,
@@ -284,6 +290,12 @@
         "oldValue": "",
         "newValue": "Metriskās",
         "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1616234469921,
+        "oldValue": "Metriskās",
+        "newValue": "kPaF"
       }
     ]
   },
@@ -395,30 +407,6 @@
       }
     ]
   },
-  "readoutFeet": {
-    "value": "{0} ft",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1463692266252,
-        "oldValue": "",
-        "newValue": "{0} ft",
-        "explanation": null
-      }
-    ]
-  },
-  "readoutMeters": {
-    "value": "{0} m",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1463692266252,
-        "oldValue": "",
-        "newValue": "{0} m",
-        "explanation": null
-      }
-    ]
-  },
   "ruler": {
     "value": "Lineāls",
     "history": [
@@ -455,18 +443,6 @@
       }
     ]
   },
-  "valueWithUnitsPattern": {
-    "value": "{0} {1}",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1463692266252,
-        "oldValue": "",
-        "newValue": "{0} {1}",
-        "explanation": null
-      }
-    ]
-  },
   "water": {
     "value": "ūdens",
     "history": [
@@ -475,6 +451,54 @@
         "timestamp": 1463692266252,
         "oldValue": "",
         "newValue": "ūdens",
+        "explanation": null
+      }
+    ]
+  },
+  "readoutFeet": {
+    "value": "{0} ft",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1463692266252,
+        "oldValue": "",
+        "newValue": "{0} ft",
+        "explanation": null
+      }
+    ]
+  },
+  "massLabelPattern": {
+    "value": "{0} kg",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1463692266252,
+        "oldValue": "",
+        "newValue": "{0} kg",
+        "explanation": null
+      }
+    ]
+  },
+  "readoutMeters": {
+    "value": "{0} m",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1463692266252,
+        "oldValue": "",
+        "newValue": "{0} m",
+        "explanation": null
+      }
+    ]
+  },
+  "valueWithUnitsPattern": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1463692266252,
+        "oldValue": "",
+        "newValue": "{0} {1}",
         "explanation": null
       }
     ]
