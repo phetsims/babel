@@ -1,18 +1,6 @@
 {
-  "acceleration": {
-    "value": "Paātrinājums",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1505369835559,
-        "oldValue": "",
-        "newValue": "Paātrinājums",
-        "explanation": null
-      }
-    ]
-  },
   "custom": {
-    "value": "Pielāgota",
+    "value": "Pēc izvēles",
     "history": [
       {
         "userId": 155506,
@@ -20,18 +8,12 @@
         "oldValue": "",
         "newValue": "Pielāgota",
         "explanation": null
-      }
-    ]
-  },
-  "degreesPattern": {
-    "value": "{{degrees}}°",
-    "history": [
+      },
       {
         "userId": 155506,
-        "timestamp": 1505369835559,
-        "oldValue": "",
-        "newValue": "{{degrees}}°",
-        "explanation": null
+        "timestamp": 1616233604968,
+        "oldValue": "Pielāgota",
+        "newValue": "Pēc izvēles"
       }
     ]
   },
@@ -43,66 +25,6 @@
         "timestamp": 1505369835559,
         "oldValue": "",
         "newValue": "Zeme",
-        "explanation": null
-      }
-    ]
-  },
-  "energyGraph": {
-    "value": "Enerģijas grafiks",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1505369835559,
-        "oldValue": "",
-        "newValue": "Enerģijas grafiks",
-        "explanation": null
-      }
-    ]
-  },
-  "energyLegend": {
-    "value": "Enerģijas apzīmējumi",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1505369835559,
-        "oldValue": "",
-        "newValue": "Enerģijas apzīmējumi",
-        "explanation": null
-      }
-    ]
-  },
-  "friction": {
-    "value": "Berze",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1505369835559,
-        "oldValue": "",
-        "newValue": "Berze",
-        "explanation": null
-      }
-    ]
-  },
-  "gravitationalAccelerationPattern": {
-    "value": "{{gravity}} m/s<sup>2</sup>",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1505369835559,
-        "oldValue": "",
-        "newValue": "{{gravity}} m/s<sup>2</sup>",
-        "explanation": null
-      }
-    ]
-  },
-  "gravity": {
-    "value": "Gravitācija",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1505369835559,
-        "oldValue": "",
-        "newValue": "Gravitācija",
         "explanation": null
       }
     ]
@@ -119,14 +41,110 @@
       }
     ]
   },
-  "kilogramsPattern": {
-    "value": "{{kilograms}} kg",
+  "moon": {
+    "value": "Mēness",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1505369835559,
         "oldValue": "",
-        "newValue": "{{kilograms}} kg",
+        "newValue": "Mēness",
+        "explanation": null
+      }
+    ]
+  },
+  "planetX": {
+    "value": "Planēta X",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1505369835559,
+        "oldValue": "",
+        "newValue": "Planēta X",
+        "explanation": null
+      }
+    ]
+  },
+  "legend.kineticEnergyAbbreviation": {
+    "value": "Kin. enerģija",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1505369835559,
+        "oldValue": "",
+        "newValue": "KE",
+        "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1616233604968,
+        "oldValue": "KE",
+        "newValue": "Kin. enerģija"
+      }
+    ]
+  },
+  "legend.potentialEnergyAbbreviation": {
+    "value": "Pot. enerģija",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1505369835559,
+        "oldValue": "",
+        "newValue": "PE",
+        "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1616233604968,
+        "oldValue": "PE",
+        "newValue": "Pot. enerģija"
+      }
+    ]
+  },
+  "legend.thermalEnergyAbbreviation": {
+    "value": "Siltums",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1505369835559,
+        "oldValue": "",
+        "newValue": "E<sub>term</sub>",
+        "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1616233604968,
+        "oldValue": "E<sub>term</sub>",
+        "newValue": "Siltums"
+      }
+    ]
+  },
+  "legend.totalEnergyAbbreviation": {
+    "value": "Pilnā enerģija",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1505369835559,
+        "oldValue": "",
+        "newValue": "E<sub>kop</sub>",
+        "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1616233604968,
+        "oldValue": "E<sub>kop</sub>",
+        "newValue": "Pilnā enerģija"
+      }
+    ]
+  },
+  "energyLegend": {
+    "value": "Enerģijas apzīmējumi",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1505369835559,
+        "oldValue": "",
+        "newValue": "Enerģijas apzīmējumi",
         "explanation": null
       }
     ]
@@ -143,18 +161,6 @@
       }
     ]
   },
-  "legend.kineticEnergyAbbreviation": {
-    "value": "KE",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1505369835559,
-        "oldValue": "",
-        "newValue": "KE",
-        "explanation": null
-      }
-    ]
-  },
   "legend.potentialEnergy": {
     "value": "Potenciālā enerģija",
     "history": [
@@ -163,18 +169,6 @@
         "timestamp": 1505369835559,
         "oldValue": "",
         "newValue": "Potenciālā enerģija",
-        "explanation": null
-      }
-    ]
-  },
-  "legend.potentialEnergyAbbreviation": {
-    "value": "PE",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1505369835559,
-        "oldValue": "",
-        "newValue": "PE",
         "explanation": null
       }
     ]
@@ -191,18 +185,6 @@
       }
     ]
   },
-  "legend.thermalEnergyAbbreviation": {
-    "value": "E<sub>term</sub>",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1505369835559,
-        "oldValue": "",
-        "newValue": "E<sub>term</sub>",
-        "explanation": null
-      }
-    ]
-  },
   "legend.totalEnergy": {
     "value": "Kopējā enerģija",
     "history": [
@@ -215,26 +197,38 @@
       }
     ]
   },
-  "legend.totalEnergyAbbreviation": {
-    "value": "E<sub>kop</sub>",
+  "energyGraph": {
+    "value": "Enerģijas grafiks",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1505369835559,
         "oldValue": "",
-        "newValue": "E<sub>kop</sub>",
+        "newValue": "Enerģijas grafiks",
         "explanation": null
       }
     ]
   },
-  "length": {
-    "value": "Garums {{pendulumNumber}}",
+  "pendulumMassPattern": {
+    "value": "Masa {{pendulumNumber}}",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1505369835559,
         "oldValue": "",
-        "newValue": "Garums {{pendulumNumber}}",
+        "newValue": "Masa {{pendulumNumber}}",
+        "explanation": null
+      }
+    ]
+  },
+  "friction": {
+    "value": "Berze",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1505369835559,
+        "oldValue": "",
+        "newValue": "Berze",
         "explanation": null
       }
     ]
@@ -247,6 +241,66 @@
         "timestamp": 1505369835559,
         "oldValue": "",
         "newValue": "Liela",
+        "explanation": null
+      }
+    ]
+  },
+  "none": {
+    "value": "Nav",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1505369835559,
+        "oldValue": "",
+        "newValue": "Nav",
+        "explanation": null
+      }
+    ]
+  },
+  "gravitationalAccelerationPattern": {
+    "value": "{{gravity}} m/s<sup>2</sup>",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1505369835559,
+        "oldValue": "",
+        "newValue": "{{gravity}} m/s<sup>2</sup>",
+        "explanation": null
+      }
+    ]
+  },
+  "whatIsTheValueOfGravity": {
+    "value": "Kāda ir gravitācijas koeficienta vērtība?",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1505369835559,
+        "oldValue": "",
+        "newValue": "Kāda ir gravitācijas koeficienta vērtība?",
+        "explanation": null
+      }
+    ]
+  },
+  "gravity": {
+    "value": "Gravitācija",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1505369835559,
+        "oldValue": "",
+        "newValue": "Gravitācija",
+        "explanation": null
+      }
+    ]
+  },
+  "length": {
+    "value": "Garums {{pendulumNumber}}",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1505369835559,
+        "oldValue": "",
+        "newValue": "Garums {{pendulumNumber}}",
         "explanation": null
       }
     ]
@@ -275,26 +329,26 @@
       }
     ]
   },
-  "moon": {
-    "value": "Mēness",
+  "kilogramsPattern": {
+    "value": "{{kilograms}} kg",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1505369835559,
         "oldValue": "",
-        "newValue": "Mēness",
+        "newValue": "{{kilograms}} kg",
         "explanation": null
       }
     ]
   },
-  "none": {
-    "value": "Nav",
+  "rulerUnits": {
+    "value": "cm",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1505369835559,
         "oldValue": "",
-        "newValue": "Nav",
+        "newValue": "cm",
         "explanation": null
       }
     ]
@@ -311,38 +365,50 @@
       }
     ]
   },
-  "pendulum-lab.title": {
-    "value": "Svārsta laboratorija",
+  "slowMotion": {
+    "value": "Palēnināti",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1505369835559,
         "oldValue": "",
-        "newValue": "Svārsta laboratorija",
+        "newValue": "Palēnināti",
         "explanation": null
       }
     ]
   },
-  "pendulumMassPattern": {
-    "value": "Masa {{pendulumNumber}}",
+  "degreesPattern": {
+    "value": "{{degrees}}°",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1505369835559,
         "oldValue": "",
-        "newValue": "Masa {{pendulumNumber}}",
+        "newValue": "{{degrees}}°",
         "explanation": null
       }
     ]
   },
-  "period": {
-    "value": "Periods",
+  "ruler": {
+    "value": "Lineāls",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1505369835559,
         "oldValue": "",
-        "newValue": "Periods",
+        "newValue": "Lineāls",
+        "explanation": null
+      }
+    ]
+  },
+  "stopwatch": {
+    "value": "Hronometrs",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1505369835559,
+        "oldValue": "",
+        "newValue": "Hronometrs",
         "explanation": null
       }
     ]
@@ -360,7 +426,7 @@
     ]
   },
   "periodTrace": {
-    "value": "Perioda ceļš",
+    "value": "Ceļš perioda laikā",
     "history": [
       {
         "userId": 155506,
@@ -368,42 +434,12 @@
         "oldValue": "",
         "newValue": "Perioda ceļš",
         "explanation": null
-      }
-    ]
-  },
-  "planetX": {
-    "value": "Planēta X",
-    "history": [
+      },
       {
         "userId": 155506,
-        "timestamp": 1505369835559,
-        "oldValue": "",
-        "newValue": "Planēta X",
-        "explanation": null
-      }
-    ]
-  },
-  "ruler": {
-    "value": "Lineāls",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1505369835559,
-        "oldValue": "",
-        "newValue": "Lineāls",
-        "explanation": null
-      }
-    ]
-  },
-  "rulerUnits": {
-    "value": "cm",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1505369835559,
-        "oldValue": "",
-        "newValue": "cm",
-        "explanation": null
+        "timestamp": 1616233604969,
+        "oldValue": "Perioda ceļš",
+        "newValue": "Ceļš perioda laikā"
       }
     ]
   },
@@ -431,50 +467,14 @@
       }
     ]
   },
-  "screen.lab": {
-    "value": "Laboratorija",
+  "acceleration": {
+    "value": "Paātrinājums",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1505369835559,
         "oldValue": "",
-        "newValue": "Laboratorija",
-        "explanation": null
-      }
-    ]
-  },
-  "secondsPattern": {
-    "value": "{{seconds}} s",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1505369835559,
-        "oldValue": "",
-        "newValue": "{{seconds}} s",
-        "explanation": null
-      }
-    ]
-  },
-  "slowMotion": {
-    "value": "Palēnināti",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1505369835559,
-        "oldValue": "",
-        "newValue": "Palēnināti",
-        "explanation": null
-      }
-    ]
-  },
-  "stopwatch": {
-    "value": "Hronometrs",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1505369835559,
-        "oldValue": "",
-        "newValue": "Hronometrs",
+        "newValue": "Paātrinājums",
         "explanation": null
       }
     ]
@@ -491,14 +491,50 @@
       }
     ]
   },
-  "whatIsTheValueOfGravity": {
-    "value": "Kāda ir gravitācijas koeficienta vērtība?",
+  "secondsPattern": {
+    "value": "{{seconds}} s",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1505369835559,
         "oldValue": "",
-        "newValue": "Kāda ir gravitācijas koeficienta vērtība?",
+        "newValue": "{{seconds}} s",
+        "explanation": null
+      }
+    ]
+  },
+  "period": {
+    "value": "Periods",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1505369835559,
+        "oldValue": "",
+        "newValue": "Periods",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.lab": {
+    "value": "Laboratorija",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1505369835559,
+        "oldValue": "",
+        "newValue": "Laboratorija",
+        "explanation": null
+      }
+    ]
+  },
+  "pendulum-lab.title": {
+    "value": "Svārsta laboratorija",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1505369835559,
+        "oldValue": "",
+        "newValue": "Svārsta laboratorija",
         "explanation": null
       }
     ]
