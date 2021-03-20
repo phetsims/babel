@@ -1,18 +1,60 @@
 {
-  "amplitude": {
-    "value": "Amplitūda",
+  "rulers": {
+    "value": "Lineāli",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1456914439667,
         "oldValue": "",
-        "newValue": "Amplitūda",
+        "newValue": "Lineāli",
+        "explanation": null
+      }
+    ]
+  },
+  "timer": {
+    "value": "Hronometrs",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1456914439667,
+        "oldValue": "",
+        "newValue": "Hronometrs",
+        "explanation": null
+      }
+    ]
+  },
+  "referenceLine": {
+    "value": "Pārvietojama līnija",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1456914439667,
+        "oldValue": "",
+        "newValue": "Atskaites līnija",
+        "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1616234182959,
+        "oldValue": "Atskaites līnija",
+        "newValue": "Pārvietojama līnija"
+      }
+    ]
+  },
+  "tension": {
+    "value": "Daļiņu sablīvējums",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1456914439667,
+        "oldValue": "",
+        "newValue": "Daļiņu sablīvējums",
         "explanation": null
       }
     ]
   },
   "damping": {
-    "value": "Viļņa slāpēšana",
+    "value": "Viļņa rimšana",
     "history": [
       {
         "userId": 155506,
@@ -20,29 +62,23 @@
         "oldValue": "",
         "newValue": "Viļņa slāpēšana",
         "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1616234182959,
+        "oldValue": "Viļņa slāpēšana",
+        "newValue": "Viļņa rimšana"
       }
     ]
   },
-  "fixedEnd": {
-    "value": "Fiksēts galapunkts",
+  "low": {
+    "value": "Zems",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1456914439667,
         "oldValue": "",
-        "newValue": "Fiksēts galapunkts",
-        "explanation": null
-      }
-    ]
-  },
-  "frequency": {
-    "value": "Frekvence",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1456914439667,
-        "oldValue": "",
-        "newValue": "Frekvence",
+        "newValue": "Zems",
         "explanation": null
       }
     ]
@@ -59,14 +95,14 @@
       }
     ]
   },
-  "looseEnd": {
-    "value": "Nenostiprināts galapunkts",
+  "none": {
+    "value": "Nav",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1456914439667,
         "oldValue": "",
-        "newValue": "Nenostiprināts galapunkts",
+        "newValue": "Nav",
         "explanation": null
       }
     ]
@@ -83,74 +119,14 @@
       }
     ]
   },
-  "low": {
-    "value": "Zems",
+  "frequency": {
+    "value": "Frekvence",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1456914439667,
         "oldValue": "",
-        "newValue": "Zems",
-        "explanation": null
-      }
-    ]
-  },
-  "manual": {
-    "value": "Manuāli",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1456914439667,
-        "oldValue": "",
-        "newValue": "Manuāli",
-        "explanation": null
-      }
-    ]
-  },
-  "noEnd": {
-    "value": "Bez galapunkta",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1456914439667,
-        "oldValue": "",
-        "newValue": "Bez galapunkta",
-        "explanation": null
-      }
-    ]
-  },
-  "none": {
-    "value": "Nav",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1456914439667,
-        "oldValue": "",
-        "newValue": "Nav",
-        "explanation": null
-      }
-    ]
-  },
-  "oscillate": {
-    "value": "Oscilators",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1456914439667,
-        "oldValue": "",
-        "newValue": "Oscilators",
-        "explanation": null
-      }
-    ]
-  },
-  "patternValueUnitCm": {
-    "value": "{0} cm",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1456914439667,
-        "oldValue": "",
-        "newValue": "{0} cm",
+        "newValue": "Frekvence",
         "explanation": null
       }
     ]
@@ -167,6 +143,24 @@
       }
     ]
   },
+  "pulseWidth": {
+    "value": "Impulsa ilgums",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1456914439667,
+        "oldValue": "",
+        "newValue": "Pulsa ilgums",
+        "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1616234182959,
+        "oldValue": "Pulsa ilgums",
+        "newValue": "Impulsa ilgums"
+      }
+    ]
+  },
   "patternValueUnitS": {
     "value": "{0} s",
     "history": [
@@ -179,44 +173,32 @@
       }
     ]
   },
-  "pulse": {
-    "value": "Pulss",
+  "amplitude": {
+    "value": "Amplitūda",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1456914439667,
         "oldValue": "",
-        "newValue": "Pulss",
+        "newValue": "Amplitūda",
         "explanation": null
       }
     ]
   },
-  "pulseWidth": {
-    "value": "Pulsa ilgums",
+  "patternValueUnitCm": {
+    "value": "{0} cm",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1456914439667,
         "oldValue": "",
-        "newValue": "Pulsa ilgums",
-        "explanation": null
-      }
-    ]
-  },
-  "referenceLine": {
-    "value": "Atskaites līnija",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1456914439667,
-        "oldValue": "",
-        "newValue": "Atskaites līnija",
+        "newValue": "{0} cm",
         "explanation": null
       }
     ]
   },
   "restart": {
-    "value": "Atiestatīt",
+    "value": "Sākt no jauna",
     "history": [
       {
         "userId": 155506,
@@ -224,35 +206,17 @@
         "oldValue": "",
         "newValue": "Atiestatīt",
         "explanation": null
-      }
-    ]
-  },
-  "rulers": {
-    "value": "Lineāli",
-    "history": [
+      },
       {
         "userId": 155506,
-        "timestamp": 1456914439667,
-        "oldValue": "",
-        "newValue": "Lineāli",
-        "explanation": null
-      }
-    ]
-  },
-  "speedNormal": {
-    "value": "Vidēji ātri",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1456914439667,
-        "oldValue": "",
-        "newValue": "Vidēji ātri",
-        "explanation": null
+        "timestamp": 1616234182959,
+        "oldValue": "Atiestatīt",
+        "newValue": "Sākt no jauna"
       }
     ]
   },
   "speedSlow": {
-    "value": "Palēnināti",
+    "value": "Palēnināts režīms",
     "history": [
       {
         "userId": 155506,
@@ -260,29 +224,107 @@
         "oldValue": "",
         "newValue": "Palēnināti",
         "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1616234182959,
+        "oldValue": "Palēnināti",
+        "newValue": "Palēnināts režīms"
       }
     ]
   },
-  "tension": {
-    "value": "Daļiņu sablīvējums",
+  "speedNormal": {
+    "value": "Normāls režīms",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1456914439667,
         "oldValue": "",
-        "newValue": "Daļiņu sablīvējums",
+        "newValue": "Vidēji ātri",
+        "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1616234182959,
+        "oldValue": "Vidēji ātri",
+        "newValue": "Normāls režīms"
+      }
+    ]
+  },
+  "manual": {
+    "value": "Manuāli",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1456914439667,
+        "oldValue": "",
+        "newValue": "Manuāli",
         "explanation": null
       }
     ]
   },
-  "timer": {
-    "value": "Hronometrs",
+  "oscillate": {
+    "value": "Oscilators",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1456914439667,
         "oldValue": "",
-        "newValue": "Hronometrs",
+        "newValue": "Oscilators",
+        "explanation": null
+      }
+    ]
+  },
+  "pulse": {
+    "value": "Impulss",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1456914439667,
+        "oldValue": "",
+        "newValue": "Pulss",
+        "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1616234182959,
+        "oldValue": "Pulss",
+        "newValue": "Impulss"
+      }
+    ]
+  },
+  "fixedEnd": {
+    "value": "Fiksēts galapunkts",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1456914439667,
+        "oldValue": "",
+        "newValue": "Fiksēts galapunkts",
+        "explanation": null
+      }
+    ]
+  },
+  "looseEnd": {
+    "value": "Nenostiprināts galapunkts",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1456914439667,
+        "oldValue": "",
+        "newValue": "Nenostiprināts galapunkts",
+        "explanation": null
+      }
+    ]
+  },
+  "noEnd": {
+    "value": "Bez galapunkta",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1456914439667,
+        "oldValue": "",
+        "newValue": "Bez galapunkta",
         "explanation": null
       }
     ]
