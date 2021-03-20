@@ -1,55 +1,179 @@
 {
-  "femtosecondConversion": {
-    "value": "1 fs = 10<sup>-15</sup> s",
+  "circleDiameter": {
+    "value": "Apļa diamerts",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1616235398895,
+        "oldValue": "",
+        "newValue": "Apļa diamerts"
+      }
+    ]
+  },
+  "mmValue": {
+    "value": "{{value}} mm",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1616235398895,
+        "oldValue": "",
+        "newValue": "{{value}} mm"
+      }
+    ]
+  },
+  "squareWidth": {
+    "value": "Kvadrāta malas garums",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1616235398895,
+        "oldValue": "",
+        "newValue": "Kvadrāta malas garums"
+      }
+    ]
+  },
+  "disorder": {
+    "value": "Sajukums",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1616235398895,
+        "oldValue": "",
+        "newValue": "Sajukums"
+      }
+    ]
+  },
+  "latticeSpacing": {
+    "value": "Režģa atstatums",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1616235398895,
+        "oldValue": "",
+        "newValue": "Režģa atstatums"
+      }
+    ]
+  },
+  "lots": {
+    "value": "Liels",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1616235398895,
+        "oldValue": "",
+        "newValue": "Liels"
+      }
+    ]
+  },
+  "none": {
+    "value": "Nav",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1616235398895,
+        "oldValue": "",
+        "newValue": "Nav"
+      }
+    ]
+  },
+  "diameter": {
+    "value": "Diametrs",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1616235398895,
+        "oldValue": "",
+        "newValue": "Diametrs"
+      }
+    ]
+  },
+  "eccentricity": {
+    "value": "Ekscentriskums",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1616235398895,
+        "oldValue": "",
+        "newValue": "Ekscentriskums"
+      }
+    ]
+  },
+  "height": {
+    "value": "Augstums",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1616235398895,
+        "oldValue": "",
+        "newValue": "Augstums"
+      }
+    ]
+  },
+  "width": {
+    "value": "Platums",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1616235398895,
+        "oldValue": "",
+        "newValue": "Platums"
+      }
+    ]
+  },
+  "degreesValue": {
+    "value": "{{value}} ˚",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1616235398895,
+        "oldValue": "",
+        "newValue": "{{value}} ˚"
+      }
+    ]
+  },
+  "rotation": {
+    "value": "Rotācija",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1616235398895,
+        "oldValue": "",
+        "newValue": "Rotācija"
+      }
+    ]
+  },
+  "screen.diffraction": {
+    "value": "Difrakcija",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1616235398895,
+        "oldValue": "",
+        "newValue": "Difrakcija"
+      }
+    ]
+  },
+  "distanceUnits": {
+    "value": "{{distance}} {{units}}",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1549556653263,
         "oldValue": "",
-        "newValue": "1 fs = 10<sup>-15</sup> s",
+        "newValue": "{{distance}} {{units}}",
         "explanation": null
       }
     ]
   },
-  "millisecondConversion": {
-    "value": "1 ms = 10<sup>-3</sup> s",
+  "timeUnits": {
+    "value": "{{time}} {{units}}",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1549556653263,
         "oldValue": "",
-        "newValue": "1 ms = 10<sup>-3</sup> s",
+        "newValue": "{{time}} {{units}}",
         "explanation": null
-      }
-    ]
-  },
-  "amplitude": {
-    "value": "Amplitūda",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1549556653263,
-        "oldValue": "",
-        "newValue": "Amplitūda",
-        "explanation": null
-      }
-    ]
-  },
-  "both": {
-    "value": "Kopā",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1549556653263,
-        "oldValue": "",
-        "newValue": "Abi",
-        "explanation": null
-      },
-      {
-        "userId": 155506,
-        "timestamp": 1616234250635,
-        "oldValue": "Abi",
-        "newValue": "Kopā"
       }
     ]
   },
@@ -61,18 +185,6 @@
         "timestamp": 1549556653263,
         "oldValue": "",
         "newValue": "cm",
-        "explanation": null
-      }
-    ]
-  },
-  "electricField": {
-    "value": "Elektriskais lauks",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1549556653263,
-        "oldValue": "",
-        "newValue": "Elektriskais lauks",
         "explanation": null
       }
     ]
@@ -95,14 +207,26 @@
       }
     ]
   },
-  "frequency": {
-    "value": "Frekvence",
+  "electricField": {
+    "value": "Elektriskais lauks",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1549556653263,
         "oldValue": "",
-        "newValue": "Frekvence",
+        "newValue": "Elektriskais lauks",
+        "explanation": null
+      }
+    ]
+  },
+  "femtosecondConversion": {
+    "value": "1 fs = 10<sup>-15</sup> s",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1549556653263,
+        "oldValue": "",
+        "newValue": "1 fs = 10<sup>-15</sup> s",
         "explanation": null
       }
     ]
@@ -119,30 +243,6 @@
       }
     ]
   },
-  "graph": {
-    "value": "Grafiks",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1549556653263,
-        "oldValue": "",
-        "newValue": "Grafiks",
-        "explanation": null
-      }
-    ]
-  },
-  "intensity": {
-    "value": "Intensitāte",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1549556653263,
-        "oldValue": "",
-        "newValue": "Intensitāte",
-        "explanation": null
-      }
-    ]
-  },
   "lightGenerator": {
     "value": "Gaismas ģenerators",
     "history": [
@@ -155,26 +255,14 @@
       }
     ]
   },
-  "max": {
-    "value": "max",
+  "millisecondConversion": {
+    "value": "1 ms = 10<sup>-3</sup> s",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1549556653263,
         "oldValue": "",
-        "newValue": "max",
-        "explanation": null
-      }
-    ]
-  },
-  "min": {
-    "value": "min",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1549556653263,
-        "oldValue": "",
-        "newValue": "min",
+        "newValue": "1 ms = 10<sup>-3</sup> s",
         "explanation": null
       }
     ]
@@ -203,55 +291,6 @@
       }
     ]
   },
-  "normal": {
-    "value": "Normāls režīms",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1549556653263,
-        "oldValue": "",
-        "newValue": "Vidēji",
-        "explanation": null
-      },
-      {
-        "userId": 155506,
-        "timestamp": 1597424981353,
-        "oldValue": "Vidēji",
-        "newValue": "Vidējs",
-        "explanation": null
-      },
-      {
-        "userId": 155506,
-        "timestamp": 1616234564570,
-        "oldValue": "Vidējs",
-        "newValue": "Normāls režīms"
-      }
-    ]
-  },
-  "particles": {
-    "value": "Daļiņas",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1549556653263,
-        "oldValue": "",
-        "newValue": "Daļiņas",
-        "explanation": null
-      }
-    ]
-  },
-  "playTone": {
-    "value": "Atskaņot toni",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1597424981353,
-        "oldValue": "",
-        "newValue": "Atskaņot toni",
-        "explanation": null
-      }
-    ]
-  },
   "positionCM": {
     "value": "Attālums (cm)",
     "history": [
@@ -276,6 +315,24 @@
       }
     ]
   },
+  "pressureAtCenter": {
+    "value": "Spiediens centrā",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1549556653263,
+        "oldValue": "",
+        "newValue": "Centrā spiediens",
+        "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1616235398895,
+        "oldValue": "Centrā spiediens",
+        "newValue": "Spiediens centrā"
+      }
+    ]
+  },
   "pressure": {
     "value": "Spiediens",
     "history": [
@@ -284,18 +341,6 @@
         "timestamp": 1549556653263,
         "oldValue": "",
         "newValue": "Spiediens",
-        "explanation": null
-      }
-    ]
-  },
-  "pressureAtCenter": {
-    "value": "Centrā spiediens",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1549556653263,
-        "oldValue": "",
-        "newValue": "Centrā spiediens",
         "explanation": null
       }
     ]
@@ -312,67 +357,6 @@
       }
     ]
   },
-  "screenLabel": {
-    "value": "Ekrāns",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1549556653263,
-        "oldValue": "",
-        "newValue": "Ekrāns",
-        "explanation": null
-      }
-    ]
-  },
-  "sideView": {
-    "value": "Sānskats",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1549556653263,
-        "oldValue": "",
-        "newValue": "Sānskats",
-        "explanation": null
-      }
-    ]
-  },
-  "slow": {
-    "value": "Palēnināts režīms",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1549556653263,
-        "oldValue": "",
-        "newValue": "Palēnināti",
-        "explanation": null
-      },
-      {
-        "userId": 155506,
-        "timestamp": 1597424981353,
-        "oldValue": "Palēnināti",
-        "newValue": "Palēnināts",
-        "explanation": null
-      },
-      {
-        "userId": 155506,
-        "timestamp": 1616234564570,
-        "oldValue": "Palēnināts",
-        "newValue": "Palēnināts režīms"
-      }
-    ]
-  },
-  "soundEffect": {
-    "value": "Skaņas efekts",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1597424981353,
-        "oldValue": "",
-        "newValue": "Skaņas efekts",
-        "explanation": null
-      }
-    ]
-  },
   "soundGenerator": {
     "value": "Skaņas ģenerators",
     "history": [
@@ -385,39 +369,21 @@
       }
     ]
   },
-  "time": {
-    "value": "Laiks",
+  "waterLevelAtCenter": {
+    "value": "Ūdens līmenis centrā",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1549556653263,
         "oldValue": "",
-        "newValue": "Laiks",
+        "newValue": "Centrā ūdens līmenis",
         "explanation": null
-      }
-    ]
-  },
-  "top": {
-    "value": "Augša",
-    "history": [
+      },
       {
         "userId": 155506,
-        "timestamp": 1549556653263,
-        "oldValue": "",
-        "newValue": "Augša",
-        "explanation": null
-      }
-    ]
-  },
-  "topView": {
-    "value": "Virsskats",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1549556653263,
-        "oldValue": "",
-        "newValue": "Virsskats",
-        "explanation": null
+        "timestamp": 1616235398895,
+        "oldValue": "Centrā ūdens līmenis",
+        "newValue": "Ūdens līmenis centrā"
       }
     ]
   },
@@ -433,18 +399,6 @@
       }
     ]
   },
-  "waterLevelAtCenter": {
-    "value": "Centrā ūdens līmenis",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1549556653263,
-        "oldValue": "",
-        "newValue": "Centrā ūdens līmenis",
-        "explanation": null
-      }
-    ]
-  },
   "waterWaveGenerator": {
     "value": "Ūdens viļņu ģenerators",
     "history": [
@@ -453,42 +407,6 @@
         "timestamp": 1549556653263,
         "oldValue": "",
         "newValue": "Ūdens viļņu ģenerators",
-        "explanation": null
-      }
-    ]
-  },
-  "waves": {
-    "value": "Viļņi",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1549556653263,
-        "oldValue": "",
-        "newValue": "Viļņi",
-        "explanation": null
-      }
-    ]
-  },
-  "distanceUnits": {
-    "value": "{{distance}} {{units}}",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1549556653263,
-        "oldValue": "",
-        "newValue": "{{distance}} {{units}}",
-        "explanation": null
-      }
-    ]
-  },
-  "timeUnits": {
-    "value": "{{time}} {{units}}",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1549556653263,
-        "oldValue": "",
-        "newValue": "{{time}} {{units}}",
         "explanation": null
       }
     ]
@@ -525,6 +443,254 @@
         "timestamp": 1549556653263,
         "oldValue": "",
         "newValue": "Atstatums",
+        "explanation": null
+      }
+    ]
+  },
+  "intensity": {
+    "value": "Intensitāte",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1549556653263,
+        "oldValue": "",
+        "newValue": "Intensitāte",
+        "explanation": null
+      }
+    ]
+  },
+  "top": {
+    "value": "Augša",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1549556653263,
+        "oldValue": "",
+        "newValue": "Augša",
+        "explanation": null
+      }
+    ]
+  },
+  "normal": {
+    "value": "Normāls režīms",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1549556653263,
+        "oldValue": "",
+        "newValue": "Vidēji",
+        "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1597424981353,
+        "oldValue": "Vidēji",
+        "newValue": "Vidējs",
+        "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1616234564570,
+        "oldValue": "Vidējs",
+        "newValue": "Normāls režīms"
+      }
+    ]
+  },
+  "slow": {
+    "value": "Palēnināts režīms",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1549556653263,
+        "oldValue": "",
+        "newValue": "Palēnināti",
+        "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1597424981353,
+        "oldValue": "Palēnināti",
+        "newValue": "Palēnināts",
+        "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1616234564570,
+        "oldValue": "Palēnināts",
+        "newValue": "Palēnināts režīms"
+      }
+    ]
+  },
+  "sideView": {
+    "value": "Sānskats",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1549556653263,
+        "oldValue": "",
+        "newValue": "Sānskats",
+        "explanation": null
+      }
+    ]
+  },
+  "topView": {
+    "value": "Virsskats",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1549556653263,
+        "oldValue": "",
+        "newValue": "Virsskats",
+        "explanation": null
+      }
+    ]
+  },
+  "max": {
+    "value": "max",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1549556653263,
+        "oldValue": "",
+        "newValue": "max",
+        "explanation": null
+      }
+    ]
+  },
+  "min": {
+    "value": "min",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1549556653263,
+        "oldValue": "",
+        "newValue": "min",
+        "explanation": null
+      }
+    ]
+  },
+  "amplitude": {
+    "value": "Amplitūda",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1549556653263,
+        "oldValue": "",
+        "newValue": "Amplitūda",
+        "explanation": null
+      }
+    ]
+  },
+  "frequency": {
+    "value": "Frekvence",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1549556653263,
+        "oldValue": "",
+        "newValue": "Frekvence",
+        "explanation": null
+      }
+    ]
+  },
+  "both": {
+    "value": "Kopā",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1549556653263,
+        "oldValue": "",
+        "newValue": "Abi",
+        "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1616234250635,
+        "oldValue": "Abi",
+        "newValue": "Kopā"
+      }
+    ]
+  },
+  "particles": {
+    "value": "Daļiņas",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1549556653263,
+        "oldValue": "",
+        "newValue": "Daļiņas",
+        "explanation": null
+      }
+    ]
+  },
+  "waves": {
+    "value": "Viļņi",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1549556653263,
+        "oldValue": "",
+        "newValue": "Viļņi",
+        "explanation": null
+      }
+    ]
+  },
+  "graph": {
+    "value": "Grafiks",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1549556653263,
+        "oldValue": "",
+        "newValue": "Grafiks",
+        "explanation": null
+      }
+    ]
+  },
+  "playTone": {
+    "value": "Atskaņot toni",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1597424981353,
+        "oldValue": "",
+        "newValue": "Atskaņot toni",
+        "explanation": null
+      }
+    ]
+  },
+  "screenLabel": {
+    "value": "Ekrāns",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1549556653263,
+        "oldValue": "",
+        "newValue": "Ekrāns",
+        "explanation": null
+      }
+    ]
+  },
+  "soundEffect": {
+    "value": "Skaņas efekts",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1597424981353,
+        "oldValue": "",
+        "newValue": "Skaņas efekts",
+        "explanation": null
+      }
+    ]
+  },
+  "time": {
+    "value": "Laiks",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1549556653263,
+        "oldValue": "",
+        "newValue": "Laiks",
         "explanation": null
       }
     ]
