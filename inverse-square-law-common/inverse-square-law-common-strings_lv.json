@@ -1,36 +1,6 @@
 {
-  "units.centimeters": {
-    "value": "cm",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1548972288604,
-        "oldValue": "",
-        "newValue": "cm",
-        "explanation": null
-      }
-    ]
-  },
-  "decimalNotation": {
-    "value": "Decimāls skaitlis",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1583577217507,
-        "oldValue": "",
-        "newValue": "Decimālā notācija",
-        "explanation": null
-      },
-      {
-        "userId": 155506,
-        "timestamp": 1616226678213,
-        "oldValue": "Decimālā notācija",
-        "newValue": "Decimāls skaitlis"
-      }
-    ]
-  },
   "forceOnObjectByOtherObjectPattern": {
-    "value": "Spēks uz {{thisObject}} no {{otherObject}}",
+    "value": "{{thisObject}} iedarbojas uz {{otherObject}}",
     "history": [
       {
         "userId": 155506,
@@ -38,11 +8,17 @@
         "oldValue": "",
         "newValue": "Spēks uz {{thisObject}} no {{otherObject}}",
         "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1616229636095,
+        "oldValue": "Spēks uz {{thisObject}} no {{otherObject}}",
+        "newValue": "{{thisObject}} iedarbojas uz {{otherObject}}"
       }
     ]
   },
   "forceOnObjectByOtherObjectWithUnitsPattern": {
-    "value": "Spēks uz {{thisObject}} no {{otherObject}} = {{value}} N",
+    "value": "{{thisObject}} iedarbojas uz {{otherObject}} ar spēku F = {{value}} N",
     "history": [
       {
         "userId": 155506,
@@ -50,6 +26,12 @@
         "oldValue": "",
         "newValue": "Spēks uz {{thisObject}} no {{otherObject}} = {{value}} N",
         "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1616229636095,
+        "oldValue": "Spēks uz {{thisObject}} no {{otherObject}} = {{value}} N",
+        "newValue": "{{thisObject}} iedarbojas uz {{otherObject}} ar spēku F = {{value}} N"
       }
     ]
   },
@@ -61,18 +43,6 @@
         "timestamp": 1548972288604,
         "oldValue": "",
         "newValue": "Spēku lielumi",
-        "explanation": null
-      }
-    ]
-  },
-  "hidden": {
-    "value": "Slēpti",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1583577217507,
-        "oldValue": "",
-        "newValue": "Slēpti",
         "explanation": null
       }
     ]
@@ -109,6 +79,48 @@
         "timestamp": 1583577217507,
         "oldValue": "",
         "newValue": "ņūtoni",
+        "explanation": null
+      }
+    ]
+  },
+  "units.centimeters": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1548972288604,
+        "oldValue": "",
+        "newValue": "cm",
+        "explanation": null
+      }
+    ]
+  },
+  "decimalNotation": {
+    "value": "Decimāls skaitlis",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1583577217507,
+        "oldValue": "",
+        "newValue": "Decimālā notācija",
+        "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1616226678213,
+        "oldValue": "Decimālā notācija",
+        "newValue": "Decimāls skaitlis"
+      }
+    ]
+  },
+  "hidden": {
+    "value": "Slēpti",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1583577217507,
+        "oldValue": "",
+        "newValue": "Slēpti",
         "explanation": null
       }
     ]
