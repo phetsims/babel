@@ -1,36 +1,12 @@
 {
-  "angleUnit": {
-    "value": "grādi",
+  "electricField": {
+    "value": "Elektriskais lauks",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1473179518230,
         "oldValue": "",
-        "newValue": "grādi",
-        "explanation": null
-      }
-    ]
-  },
-  "centimeterUnit": {
-    "value": "cm",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1473179518230,
-        "oldValue": "",
-        "newValue": "cm",
-        "explanation": null
-      }
-    ]
-  },
-  "charges-and-fields.title": {
-    "value": "Lādiņi un lauki",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1473179518230,
-        "oldValue": "",
-        "newValue": "Lādiņi un lauki",
+        "newValue": "Elektriskais lauks",
         "explanation": null
       }
     ]
@@ -47,39 +23,21 @@
       }
     ]
   },
-  "eFieldUnit": {
-    "value": "V/m",
+  "voltage": {
+    "value": "Potenciāls",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1473179518230,
         "oldValue": "",
-        "newValue": "V/m",
+        "newValue": "Spriegums",
         "explanation": null
-      }
-    ]
-  },
-  "electricField": {
-    "value": "Elektriskais lauks",
-    "history": [
+      },
       {
         "userId": 155506,
-        "timestamp": 1473179518230,
-        "oldValue": "",
-        "newValue": "Elektriskais lauks",
-        "explanation": null
-      }
-    ]
-  },
-  "equipotential": {
-    "value": "Ekvipotenciāls",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1473179518230,
-        "oldValue": "",
-        "newValue": "Ekvipotenciāls",
-        "explanation": null
+        "timestamp": 1616231366774,
+        "oldValue": "Spriegums",
+        "newValue": "Potenciāls"
       }
     ]
   },
@@ -95,6 +53,30 @@
       }
     ]
   },
+  "values": {
+    "value": "Vērtības",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1473179518230,
+        "oldValue": "",
+        "newValue": "Vērtības",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageUnit": {
+    "value": "V",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1473179518230,
+        "oldValue": "",
+        "newValue": "V",
+        "explanation": null
+      }
+    ]
+  },
   "minusOneNanoC": {
     "value": "-1 nC",
     "history": [
@@ -103,42 +85,6 @@
         "timestamp": 1473179518230,
         "oldValue": "",
         "newValue": "-1 nC",
-        "explanation": null
-      }
-    ]
-  },
-  "oneMeter": {
-    "value": "1 metrs",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1473179518230,
-        "oldValue": "",
-        "newValue": "1 metrs",
-        "explanation": null
-      }
-    ]
-  },
-  "options.projectorColors": {
-    "value": "Projektēšanas režīms",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1473179518230,
-        "oldValue": "",
-        "newValue": "Projektēšanas režīms",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0value.1units": {
-    "value": "{0} {1}",
-    "history": [
-      {
-        "userId": 155506,
-        "timestamp": 1473179518230,
-        "oldValue": "",
-        "newValue": "{0} {1}",
         "explanation": null
       }
     ]
@@ -167,38 +113,98 @@
       }
     ]
   },
-  "values": {
-    "value": "Vērtības",
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1473179518230,
         "oldValue": "",
-        "newValue": "Vērtības",
+        "newValue": "{0} {1}",
         "explanation": null
       }
     ]
   },
-  "voltage": {
-    "value": "Spriegums",
+  "eFieldUnit": {
+    "value": "V/m",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1473179518230,
         "oldValue": "",
-        "newValue": "Spriegums",
+        "newValue": "V/m",
         "explanation": null
       }
     ]
   },
-  "voltageUnit": {
-    "value": "V",
+  "angleUnit": {
+    "value": "grādi",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1473179518230,
         "oldValue": "",
-        "newValue": "V",
+        "newValue": "grādi",
+        "explanation": null
+      }
+    ]
+  },
+  "equipotential": {
+    "value": "Ekvipotenciāls",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1473179518230,
+        "oldValue": "",
+        "newValue": "Ekvipotenciāls",
+        "explanation": null
+      }
+    ]
+  },
+  "centimeterUnit": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1473179518230,
+        "oldValue": "",
+        "newValue": "cm",
+        "explanation": null
+      }
+    ]
+  },
+  "oneMeter": {
+    "value": "1 metrs",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1473179518230,
+        "oldValue": "",
+        "newValue": "1 metrs",
+        "explanation": null
+      }
+    ]
+  },
+  "charges-and-fields.title": {
+    "value": "Lādiņi un lauki",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1473179518230,
+        "oldValue": "",
+        "newValue": "Lādiņi un lauki",
+        "explanation": null
+      }
+    ]
+  },
+  "options.projectorColors": {
+    "value": "Projektēšanas režīms",
+    "history": [
+      {
+        "userId": 155506,
+        "timestamp": 1473179518230,
+        "oldValue": "",
+        "newValue": "Projektēšanas režīms",
         "explanation": null
       }
     ]
