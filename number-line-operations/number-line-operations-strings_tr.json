@@ -33,13 +33,19 @@
     ]
   },
   "tickMarks": {
-    "value": "İşaretleme Kalemi ",
+    "value": "Noktalar",
     "history": [
       {
         "userId": 707975,
         "timestamp": 1616187006887,
         "oldValue": "",
         "newValue": "İşaretleme Kalemi "
+      },
+      {
+        "userId": 707975,
+        "timestamp": 1616267684192,
+        "oldValue": "İşaretleme Kalemi ",
+        "newValue": "Noktalar"
       }
     ]
   },
@@ -121,35 +127,58 @@
     ]
   },
   "addRemoveAssetDebtPattern": {
-    "value": "{{addOrRemove}} {{assetOrDebt}}   {{currencyUnits}}{{value}}",
+    "value": "{{currencyUnits}}{{value}} {{assetOrDebt}} {{addOrRemove}}",
     "history": [
       {
         "userId": 707975,
-        "timestamp": 1616265459194,
+        "timestamp": 1616267684192,
         "oldValue": "",
-        "newValue": "{{addOrRemove}} {{assetOrDebt}}   {{currencyUnits}}{{value}}"
+        "newValue": "{{currencyUnits}}{{value}} {{assetOrDebt}} {{addOrRemove}}"
       }
     ]
   },
   "asset": {
-    "value": "mal varlığı",
+    "value": "varlık",
     "history": [
       {
         "userId": 707975,
         "timestamp": 1616187006887,
         "oldValue": "",
         "newValue": "mal varlığı"
+      },
+      {
+        "userId": 707975,
+        "timestamp": 1616267684192,
+        "oldValue": "mal varlığı",
+        "newValue": "varlık"
       }
     ]
   },
   "debt": {
-    "value": "borçlar",
+    "value": "borç",
     "history": [
       {
         "userId": 707975,
         "timestamp": 1616187006887,
         "oldValue": "",
         "newValue": "borçlar"
+      },
+      {
+        "userId": 707975,
+        "timestamp": 1616267684192,
+        "oldValue": "borçlar",
+        "newValue": "borç"
+      }
+    ]
+  },
+  "addRemovePositiveNegativePattern": {
+    "value": "{{positiveOrNegative}} {{value}} {{addOrRemove}} ",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1616267684192,
+        "oldValue": "",
+        "newValue": "{{positiveOrNegative}} {{value}} {{addOrRemove}} "
       }
     ]
   },
@@ -213,7 +242,7 @@
     "history": [
       {
         "userId": 707975,
-        "timestamp": 1616265459194,
+        "timestamp": 1616267684193,
         "oldValue": "",
         "newValue": "Sayısal İfade"
       }
@@ -224,9 +253,97 @@
     "history": [
       {
         "userId": 707975,
-        "timestamp": 1616265459194,
+        "timestamp": 1616267684193,
         "oldValue": "",
         "newValue": "Net Değer"
+      }
+    ]
+  },
+  "loan": {
+    "value": "Borç",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1616267684193,
+        "oldValue": "",
+        "newValue": "Borç"
+      }
+    ]
+  },
+  "assets": {
+    "value": "Varlıklar",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1616267684193,
+        "oldValue": "",
+        "newValue": "Varlıklar"
+      }
+    ]
+  },
+  "debts": {
+    "value": "Borçlar",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1616267684193,
+        "oldValue": "",
+        "newValue": "Borçlar"
+      }
+    ]
+  },
+  "number-line-operations.title": {
+    "value": "Sayı Doğrusu: İşlemler",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1616267684193,
+        "oldValue": "",
+        "newValue": "Sayı Doğrusu: İşlemler"
+      }
+    ]
+  },
+  "screen.operations": {
+    "value": "İşlemler",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1616267684193,
+        "oldValue": "",
+        "newValue": "İşlemler"
+      }
+    ]
+  },
+  "initialNetWorth": {
+    "value": "İlk Net Değer",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1616267684193,
+        "oldValue": "",
+        "newValue": "İlk Net Değer"
+      }
+    ]
+  },
+  "initialNetWorthWithBreak": {
+    "value": "İlk<br>Net Değer",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1616267684193,
+        "oldValue": "",
+        "newValue": "İlk<br>Net Değer"
+      }
+    ]
+  },
+  "simplify": {
+    "value": "Sade Hali",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1616267684193,
+        "oldValue": "",
+        "newValue": "Sade Hali"
       }
     ]
   }
