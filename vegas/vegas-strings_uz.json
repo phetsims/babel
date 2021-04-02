@@ -121,6 +121,17 @@
       }
     ]
   },
+  "chooseYourLevel": {
+    "value": "Darajangizni tanlang",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615447675493,
+        "oldValue": "",
+        "newValue": "Darajangizni tanlang"
+      }
+    ]
+  },
   "continue": {
     "value": "Davom ettirish",
     "history": [
@@ -157,7 +168,7 @@
     ]
   },
   "excellent": {
-    "value": "Qoyilmaqom, zo'r!",
+    "value": "Qoyilmaqom, zo‘r!",
     "history": [
       {
         "userId": 641649,
@@ -182,6 +193,12 @@
         "timestamp": 1615279965913,
         "oldValue": " zo'r!",
         "newValue": "Qoyilmaqom, zo'r!"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1617367246533,
+        "oldValue": "Qoyilmaqom, zo'r!",
+        "newValue": "Qoyilmaqom, zo‘r!"
       }
     ]
   },
@@ -360,32 +377,14 @@
       }
     ]
   },
-  "label.scorePattern": {
-    "value": "Natija: {0}",
+  "score": {
+    "value": "Hisob:",
     "history": [
       {
         "userId": 641649,
-        "timestamp": 1614752416087,
+        "timestamp": 1615275066427,
         "oldValue": "",
-        "newValue": "\r\n  Natija: {0}"
-      },
-      {
-        "userId": 641649,
-        "timestamp": 1614843469337,
-        "oldValue": "\r\n  Natija: {0}",
-        "newValue": "\r\n\n  Natija: {0}"
-      },
-      {
-        "userId": 641649,
-        "timestamp": 1615275040186,
-        "oldValue": "\r\n\n  Natija: {0}",
-        "newValue": "\r\n\r\n  Natija: {0}"
-      },
-      {
-        "userId": 641649,
-        "timestamp": 1615279965913,
-        "oldValue": "\r\n\r\n  Natija: {0}",
-        "newValue": "Natija: {0}"
+        "newValue": "Hisob:"
       }
     ]
   },
@@ -415,35 +414,6 @@
         "timestamp": 1615279965913,
         "oldValue": "Hisob: {1} dan {0}",
         "newValue": "Natija: {1} dan {0}"
-      }
-    ]
-  },
-  "selectLevel": {
-    "value": "Bosqichni tanlash",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1614752416087,
-        "oldValue": "",
-        "newValue": "\r\n  Bosqichni tanlash"
-      },
-      {
-        "userId": 641649,
-        "timestamp": 1614843469337,
-        "oldValue": "\r\n  Bosqichni tanlash",
-        "newValue": "\r\n\n  Bosqichni tanlash"
-      },
-      {
-        "userId": 641649,
-        "timestamp": 1615275040186,
-        "oldValue": "\r\n\n  Bosqichni tanlash",
-        "newValue": "\r\n\r\n  Bosqichni tanlash"
-      },
-      {
-        "userId": 641649,
-        "timestamp": 1615279965913,
-        "oldValue": "\r\n\r\n  Bosqichni tanlash",
-        "newValue": "Bosqichni tanlash"
       }
     ]
   },
@@ -587,25 +557,61 @@
       }
     ]
   },
-  "chooseYourLevel": {
-    "value": "Darajangizni tanlang",
+  "label.scorePattern": {
+    "value": "Natija: {0}",
     "history": [
       {
         "userId": 641649,
-        "timestamp": 1615447675493,
+        "timestamp": 1614752416087,
         "oldValue": "",
-        "newValue": "Darajangizni tanlang"
+        "newValue": "\r\n  Natija: {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469337,
+        "oldValue": "\r\n  Natija: {0}",
+        "newValue": "\r\n\n  Natija: {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1615275040186,
+        "oldValue": "\r\n\n  Natija: {0}",
+        "newValue": "\r\n\r\n  Natija: {0}"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1615279965913,
+        "oldValue": "\r\n\r\n  Natija: {0}",
+        "newValue": "Natija: {0}"
       }
     ]
   },
-  "score": {
-    "value": "Hisob:",
+  "selectLevel": {
+    "value": "Bosqichni tanlash",
     "history": [
       {
         "userId": 641649,
-        "timestamp": 1615275066427,
+        "timestamp": 1614752416087,
         "oldValue": "",
-        "newValue": "Hisob:"
+        "newValue": "\r\n  Bosqichni tanlash"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1614843469337,
+        "oldValue": "\r\n  Bosqichni tanlash",
+        "newValue": "\r\n\n  Bosqichni tanlash"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1615275040186,
+        "oldValue": "\r\n\n  Bosqichni tanlash",
+        "newValue": "\r\n\r\n  Bosqichni tanlash"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1615279965913,
+        "oldValue": "\r\n\r\n  Bosqichni tanlash",
+        "newValue": "Bosqichni tanlash"
       }
     ]
   },
