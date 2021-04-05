@@ -10,14 +10,25 @@
       }
     ]
   },
-  "centerOfMass": {
-    "value": "Massa markazi",
+  "kilopascals": {
+    "value": "kPa",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1615275337508,
         "oldValue": "",
-        "newValue": "Massa markazi"
+        "newValue": "kPa"
+      }
+    ]
+  },
+  "pressure": {
+    "value": "Bosim",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615275337508,
+        "oldValue": "",
+        "newValue": "Bosim"
       }
     ]
   },
@@ -32,14 +43,14 @@
       }
     ]
   },
-  "screen.diffusion": {
-    "value": "Diffuziya",
+  "centerOfMass": {
+    "value": "Massa markazi",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1615275337508,
         "oldValue": "",
-        "newValue": "Diffuziya"
+        "newValue": "Massa markazi"
       }
     ]
   },
@@ -60,17 +71,6 @@
       }
     ]
   },
-  "kilopascals": {
-    "value": "kPa",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1615275337508,
-        "oldValue": "",
-        "newValue": "kPa"
-      }
-    ]
-  },
   "massAMU": {
     "value": "Massa (amb)",
     "history": [
@@ -82,17 +82,6 @@
       }
     ]
   },
-  "nanometers": {
-    "value": "nm",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1615275337508,
-        "oldValue": "",
-        "newValue": "nm"
-      }
-    ]
-  },
   "numberOfParticles": {
     "value": "Zarrachalar soni",
     "history": [
@@ -101,50 +90,6 @@
         "timestamp": 1615275337508,
         "oldValue": "",
         "newValue": "Zarrachalar soni"
-      }
-    ]
-  },
-  "particleFlowRate": {
-    "value": "Zarrachalar oqimi tempi",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1615275337508,
-        "oldValue": "",
-        "newValue": "Zarrachalar oqimi tempi"
-      }
-    ]
-  },
-  "pressure": {
-    "value": "Bosim",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1615275337508,
-        "oldValue": "",
-        "newValue": "Bosim"
-      }
-    ]
-  },
-  "pressureNoise": {
-    "value": "Bosim shovqini",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1615275337508,
-        "oldValue": "",
-        "newValue": "Bosim shovqini"
-      }
-    ]
-  },
-  "picoseconds": {
-    "value": "ps",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1615275337508,
-        "oldValue": "",
-        "newValue": "ps"
       }
     ]
   },
@@ -177,7 +122,7 @@
     ]
   },
   "resetDivider": {
-    "value": "To‘siqni qayta o'rnatish",
+    "value": "To‘siqni qayta o‘rnatish",
     "history": [
       {
         "userId": 641649,
@@ -190,6 +135,23 @@
         "timestamp": 1617373956037,
         "oldValue": "To'siqni qayta o'rnatish",
         "newValue": "To‘siqni qayta o'rnatish"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1617631841052,
+        "oldValue": "To‘siqni qayta o'rnatish",
+        "newValue": "To‘siqni qayta o‘rnatish"
+      }
+    ]
+  },
+  "particleFlowRate": {
+    "value": "Zarrachalar oqimi tempi",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615275337508,
+        "oldValue": "",
+        "newValue": "Zarrachalar oqimi tempi"
       }
     ]
   },
@@ -215,6 +177,17 @@
       }
     ]
   },
+  "nanometers": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615275337508,
+        "oldValue": "",
+        "newValue": "nm"
+      }
+    ]
+  },
   "valueUnits": {
     "value": "{{value}} {{units}}",
     "history": [
@@ -223,6 +196,28 @@
         "timestamp": 1615371813871,
         "oldValue": "",
         "newValue": "{{value}} {{units}}"
+      }
+    ]
+  },
+  "picoseconds": {
+    "value": "ps",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615275337508,
+        "oldValue": "",
+        "newValue": "ps"
+      }
+    ]
+  },
+  "screen.diffusion": {
+    "value": "Diffuziya",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615275337508,
+        "oldValue": "",
+        "newValue": "Diffuziya"
       }
     ]
   },
@@ -237,47 +232,53 @@
       }
     ]
   },
-  "collisions": {
-    "value": "To'qnashuvlar",
+  "width": {
+    "value": "Uzunlik",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1615371813871,
         "oldValue": "",
-        "newValue": "To'qnashuvlar"
+        "newValue": "Uzunlik"
       }
     ]
   },
-  "heavy": {
-    "value": "Og'ir",
+  "samplePeriod": {
+    "value": "To'qnashish davri",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1615371813871,
         "oldValue": "",
-        "newValue": "Og'ir"
+        "newValue": "To'qnashish davri"
       }
     ]
   },
-  "holdConstant.title": {
-    "value": "O'zgarmas saqlash",
+  "wallCollisions": {
+    "value": "Devor bilan to‘qnashuvlar soni",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1615371813871,
         "oldValue": "",
-        "newValue": "O'zgarmas saqlash"
+        "newValue": "Devor bilan to'qnashuvlar soni"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1617631841052,
+        "oldValue": "Devor bilan to'qnashuvlar soni",
+        "newValue": "Devor bilan to‘qnashuvlar soni"
       }
     ]
   },
-  "screen.ideal": {
-    "value": "Ideal gaz",
+  "degreesCelsius": {
+    "value": "°C",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1615371813871,
         "oldValue": "",
-        "newValue": "Ideal gaz"
+        "newValue": "°C"
       }
     ]
   },
@@ -292,25 +293,14 @@
       }
     ]
   },
-  "light": {
-    "value": "Yengil",
+  "returnLid": {
+    "value": "Idishni yopish",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1615371813871,
         "oldValue": "",
-        "newValue": "Yengil"
-      }
-    ]
-  },
-  "holdConstant.nothing": {
-    "value": "Hech biri",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1615371813871,
-        "oldValue": "",
-        "newValue": "Hech biri"
+        "newValue": "Idishni yopish"
       }
     ]
   },
@@ -325,58 +315,48 @@
       }
     ]
   },
-  "oopsPressureEmpty": {
-    "value": "Kechirasiz! Idish bo'sh bo'lganda bosimni o'zgarmas saqlab bo'lmaydi.",
+  "collisions": {
+    "value": "To‘qnashuvlar",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1615371813871,
         "oldValue": "",
-        "newValue": "Kechirasiz! Idish bo'sh bo'lganda bosimni o'zgarmas saqlab bo'lmaydi."
+        "newValue": "To'qnashuvlar"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1617631841052,
+        "oldValue": "To'qnashuvlar",
+        "newValue": "To‘qnashuvlar"
       }
     ]
   },
-  "oopsPressureLarge": {
-    "value": "Kechirasiz! Idishning hajmi maksimal qiymatga yetdi. Endi bosimni o'zgarmas saqlab bo'lmaydi.",
+  "heavy": {
+    "value": "Og‘ir",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1615371813871,
         "oldValue": "",
-        "newValue": "Kechirasiz! Idishning hajmi maksimal qiymatga yetdi. Endi bosimni o'zgarmas saqlab bo'lmaydi."
+        "newValue": "Og'ir"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1617631841052,
+        "oldValue": "Og'ir",
+        "newValue": "Og‘ir"
       }
     ]
   },
-  "oopsPressureSmall": {
-    "value": "Kechirasiz! Idishning hajmi minimal qiymatga yetdi. Endi bosimni o'zgarmas saqlab bo'lmaydi.",
+  "light": {
+    "value": "Yengil",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1615371813871,
         "oldValue": "",
-        "newValue": "Kechirasiz! Idishning hajmi minimal qiymatga yetdi. Endi bosimni o'zgarmas saqlab bo'lmaydi."
-      }
-    ]
-  },
-  "oopsTemperatureEmpty": {
-    "value": "Kechirasiz! Idish bo'sh bo'lganda temperaturani o'zgarmas saqlab bo'lmaydi.",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1615371813871,
-        "oldValue": "",
-        "newValue": "Kechirasiz! Idish bo'sh bo'lganda temperaturani o'zgarmas saqlab bo'lmaydi."
-      }
-    ]
-  },
-  "oopsTemperatureOpen": {
-    "value": "Kechirasiz! Idishning og'zi ochiq bo'lganda temperaturani o'zgarmas saqlab bo'lmaydi.",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1615371813871,
-        "oldValue": "",
-        "newValue": "Kechirasiz! Idishning og'zi ochiq bo'lganda temperaturani o'zgarmas saqlab bo'lmaydi."
+        "newValue": "Yengil"
       }
     ]
   },
@@ -388,6 +368,28 @@
         "timestamp": 1615371813871,
         "oldValue": "",
         "newValue": "Zarralar"
+      }
+    ]
+  },
+  "pressureNoise": {
+    "value": "Bosim shovqini",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615275337508,
+        "oldValue": "",
+        "newValue": "Bosim shovqini"
+      }
+    ]
+  },
+  "holdConstant.nothing": {
+    "value": "Hech biri",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615371813871,
+        "oldValue": "",
+        "newValue": "Hech biri"
       }
     ]
   },
@@ -413,25 +415,20 @@
       }
     ]
   },
-  "returnLid": {
-    "value": "Idishni yopish",
+  "holdConstant.title": {
+    "value": "O‘zgarmas saqlash",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1615371813871,
         "oldValue": "",
-        "newValue": "Idishni yopish"
-      }
-    ]
-  },
-  "samplePeriod": {
-    "value": "To'qnashish davri",
-    "history": [
+        "newValue": "O'zgarmas saqlash"
+      },
       {
         "userId": 641649,
-        "timestamp": 1615371813871,
-        "oldValue": "",
-        "newValue": "To'qnashish davri"
+        "timestamp": 1617631841052,
+        "oldValue": "O'zgarmas saqlash",
+        "newValue": "O‘zgarmas saqlash"
       }
     ]
   },
@@ -457,36 +454,198 @@
       }
     ]
   },
-  "wallCollisions": {
-    "value": "Devor bilan to'qnashuvlar soni",
+  "oopsPressureEmpty": {
+    "value": "Kechirasiz! Idish bo‘sh bo‘lganda bosimni o‘zgarmas saqlab bo‘lmaydi.",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1615371813871,
         "oldValue": "",
-        "newValue": "Devor bilan to'qnashuvlar soni"
+        "newValue": "Kechirasiz! Idish bo'sh bo'lganda bosimni o'zgarmas saqlab bo'lmaydi."
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1617631841052,
+        "oldValue": "Kechirasiz! Idish bo'sh bo'lganda bosimni o'zgarmas saqlab bo'lmaydi.",
+        "newValue": "Kechirasiz! Idish bo‘sh bo‘lganda bosimni o‘zgarmas saqlab bo‘lmaydi."
       }
     ]
   },
-  "width": {
-    "value": "Uzunlik",
+  "oopsPressureLarge": {
+    "value": "Kechirasiz! Idishning hajmi maksimal qiymatga yetdi. Endi bosimni o‘zgarmas saqlab bo‘lmaydi.",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1615371813871,
         "oldValue": "",
-        "newValue": "Uzunlik"
+        "newValue": "Kechirasiz! Idishning hajmi maksimal qiymatga yetdi. Endi bosimni o'zgarmas saqlab bo'lmaydi."
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1617631841052,
+        "oldValue": "Kechirasiz! Idishning hajmi maksimal qiymatga yetdi. Endi bosimni o'zgarmas saqlab bo'lmaydi.",
+        "newValue": "Kechirasiz! Idishning hajmi maksimal qiymatga yetdi. Endi bosimni o‘zgarmas saqlab bo‘lmaydi."
       }
     ]
   },
-  "degreesCelsius": {
-    "value": "°C",
+  "oopsPressureSmall": {
+    "value": "Kechirasiz! Idishning hajmi minimal qiymatga yetdi. Endi bosimni o‘zgarmas saqlab bo‘lmaydi.",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1615371813871,
         "oldValue": "",
-        "newValue": "°C"
+        "newValue": "Kechirasiz! Idishning hajmi minimal qiymatga yetdi. Endi bosimni o'zgarmas saqlab bo'lmaydi."
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1617631841052,
+        "oldValue": "Kechirasiz! Idishning hajmi minimal qiymatga yetdi. Endi bosimni o'zgarmas saqlab bo'lmaydi.",
+        "newValue": "Kechirasiz! Idishning hajmi minimal qiymatga yetdi. Endi bosimni o‘zgarmas saqlab bo‘lmaydi."
+      }
+    ]
+  },
+  "oopsTemperatureEmpty": {
+    "value": "Kechirasiz! Idish bo‘sh bo‘lganda temperaturani o‘zgarmas saqlab bo‘lmaydi.",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615371813871,
+        "oldValue": "",
+        "newValue": "Kechirasiz! Idish bo'sh bo'lganda temperaturani o'zgarmas saqlab bo'lmaydi."
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1617631841052,
+        "oldValue": "Kechirasiz! Idish bo'sh bo'lganda temperaturani o'zgarmas saqlab bo'lmaydi.",
+        "newValue": "Kechirasiz! Idish bo‘sh bo‘lganda temperaturani o‘zgarmas saqlab bo‘lmaydi."
+      }
+    ]
+  },
+  "oopsTemperatureOpen": {
+    "value": "Kechirasiz! Idishning og‘zi ochiq bo‘lganda temperaturani o‘zgarmas saqlab bo‘lmaydi.",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615371813871,
+        "oldValue": "",
+        "newValue": "Kechirasiz! Idishning og'zi ochiq bo'lganda temperaturani o'zgarmas saqlab bo'lmaydi."
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1617631841052,
+        "oldValue": "Kechirasiz! Idishning og'zi ochiq bo'lganda temperaturani o'zgarmas saqlab bo'lmaydi.",
+        "newValue": "Kechirasiz! Idishning og‘zi ochiq bo‘lganda temperaturani o‘zgarmas saqlab bo‘lmaydi."
+      }
+    ]
+  },
+  "screen.ideal": {
+    "value": "Ideal gaz",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615371813871,
+        "oldValue": "",
+        "newValue": "Ideal gaz"
+      }
+    ]
+  },
+  "averageSpeed": {
+    "value": "O‘rtacha tezlik",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1617631841052,
+        "oldValue": "",
+        "newValue": "O‘rtacha tezlik"
+      }
+    ]
+  },
+  "metersPerSecond": {
+    "value": "m/s",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1617631841052,
+        "oldValue": "",
+        "newValue": "m/s"
+      }
+    ]
+  },
+  "injectionTemperature": {
+    "value": "Damlash temperaturasi",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1617631841052,
+        "oldValue": "",
+        "newValue": "Damlash temperaturasi"
+      }
+    ]
+  },
+  "matchContainer": {
+    "value": "Idish temperaturasida",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1617631841052,
+        "oldValue": "",
+        "newValue": "Idish temperaturasida"
+      }
+    ]
+  },
+  "setTo": {
+    "value": "Qiymat kiritish",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1617631841052,
+        "oldValue": "",
+        "newValue": "Qiymat kiritish"
+      }
+    ]
+  },
+  "kineticEnergy": {
+    "value": "Kinetik energiya",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1617631841052,
+        "oldValue": "",
+        "newValue": "Kinetik energiya"
+      }
+    ]
+  },
+  "speed": {
+    "value": "Tezlik",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1617631841052,
+        "oldValue": "",
+        "newValue": "Tezlik"
+      }
+    ]
+  },
+  "screen.energy": {
+    "value": "Energiya",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1617631841052,
+        "oldValue": "",
+        "newValue": "Energiya"
+      }
+    ]
+  },
+  "gas-properties.title": {
+    "value": "Gaz xossalari",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1617631841052,
+        "oldValue": "",
+        "newValue": "Gaz xossalari"
       }
     ]
   }
