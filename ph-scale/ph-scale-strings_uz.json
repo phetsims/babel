@@ -1,34 +1,29 @@
 {
-  "acidic": {
-    "value": "Kislotali",
+  "choice.water": {
+    "value": "Suv",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1615275199777,
         "oldValue": "",
-        "newValue": "Kislotali"
-      }
-    ]
-  },
-  "basic": {
-    "value": "Asosli",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1615275199777,
-        "oldValue": "",
-        "newValue": "Asosli"
+        "newValue": "Suv"
       }
     ]
   },
   "choice.batteryAcid": {
-    "value": "Akkumulyator kislotasi",
+    "value": "\r\n  Sulfat\r\n  kislota",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1615275199777,
         "oldValue": "",
         "newValue": "Akkumulyator kislotasi"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1617803731333,
+        "oldValue": "Akkumulyator kislotasi",
+        "newValue": "\r\n  Sulfat\r\n  kislota"
       }
     ]
   },
@@ -71,6 +66,17 @@
       }
     ]
   },
+  "choice.custom": {
+    "value": "Istak bo'yicha tartiblash",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615275199777,
+        "oldValue": "",
+        "newValue": "Istak bo'yicha tartiblash"
+      }
+    ]
+  },
   "choice.drainCleaner": {
     "value": "Quvurlarni tozaluvchu vosita",
     "history": [
@@ -99,28 +105,6 @@
       }
     ]
   },
-  "units.liters": {
-    "value": "l",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1615275199777,
-        "oldValue": "",
-        "newValue": "l"
-      }
-    ]
-  },
-  "screen.macro": {
-    "value": "Makro",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1615275199777,
-        "oldValue": "",
-        "newValue": "Makro"
-      }
-    ]
-  },
   "choice.milk": {
     "value": "Sut",
     "history": [
@@ -132,17 +116,6 @@
       }
     ]
   },
-  "neutral": {
-    "value": "Neytral",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1615275199777,
-        "oldValue": "",
-        "newValue": "Neytral"
-      }
-    ]
-  },
   "choice.orangeJuice": {
     "value": "Apelsin sharbati",
     "history": [
@@ -151,17 +124,6 @@
         "timestamp": 1615275199777,
         "oldValue": "",
         "newValue": "Apelsin sharbati"
-      }
-    ]
-  },
-  "pH": {
-    "value": "pH",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1615275199777,
-        "oldValue": "",
-        "newValue": "pH"
       }
     ]
   },
@@ -204,25 +166,69 @@
       }
     ]
   },
-  "choice.water": {
-    "value": "Suv",
+  "units.liters": {
+    "value": "l",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1615275199777,
         "oldValue": "",
-        "newValue": "Suv"
+        "newValue": "l"
       }
     ]
   },
-  "choice.custom": {
-    "value": "Istak bo'yicha tartiblash",
+  "acidic": {
+    "value": "Kislotali",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1615275199777,
         "oldValue": "",
-        "newValue": "Istak bo'yicha tartiblash"
+        "newValue": "Kislotali"
+      }
+    ]
+  },
+  "basic": {
+    "value": "Asosli",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615275199777,
+        "oldValue": "",
+        "newValue": "Asosli"
+      }
+    ]
+  },
+  "pH": {
+    "value": "pH",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615275199777,
+        "oldValue": "",
+        "newValue": "pH"
+      }
+    ]
+  },
+  "neutral": {
+    "value": "Neytral",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615275199777,
+        "oldValue": "",
+        "newValue": "Neytral"
+      }
+    ]
+  },
+  "screen.macro": {
+    "value": "Makro",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615275199777,
+        "oldValue": "",
+        "newValue": "Makro"
       }
     ]
   },
@@ -238,13 +244,19 @@
     ]
   },
   "ratio": {
-    "value": "Nisbat",
+    "value": "\r\n  nisbati",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1615275199777,
         "oldValue": "",
         "newValue": "Nisbat"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1617803731333,
+        "oldValue": "Nisbat",
+        "newValue": "\r\n  nisbati"
       }
     ]
   },
