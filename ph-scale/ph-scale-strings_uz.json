@@ -1,17 +1,28 @@
 {
-  "choice.water": {
-    "value": "Suv",
+  "acidic": {
+    "value": "Kislotali",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1615275199777,
         "oldValue": "",
-        "newValue": "Suv"
+        "newValue": "Kislotali"
+      }
+    ]
+  },
+  "basic": {
+    "value": "Asosli",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615275199777,
+        "oldValue": "",
+        "newValue": "Asosli"
       }
     ]
   },
   "choice.batteryAcid": {
-    "value": "\r\n  Sulfat\r\n  kislota",
+    "value": "Sulfat kislota",
     "history": [
       {
         "userId": 641649,
@@ -24,6 +35,12 @@
         "timestamp": 1617803731333,
         "oldValue": "Akkumulyator kislotasi",
         "newValue": "\r\n  Sulfat\r\n  kislota"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1617881443536,
+        "oldValue": "\r\n  Sulfat\r\n  kislota",
+        "newValue": "Sulfat kislota"
       }
     ]
   },
@@ -66,17 +83,6 @@
       }
     ]
   },
-  "choice.custom": {
-    "value": "Istak bo'yicha tartiblash",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1615275199777,
-        "oldValue": "",
-        "newValue": "Istak bo'yicha tartiblash"
-      }
-    ]
-  },
   "choice.drainCleaner": {
     "value": "Quvurlarni tozaluvchu vosita",
     "history": [
@@ -105,6 +111,34 @@
       }
     ]
   },
+  "units.liters": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615275199777,
+        "oldValue": "",
+        "newValue": "l"
+      },
+      {
+        "userId": 641649,
+        "timestamp": 1617881443536,
+        "oldValue": "l",
+        "newValue": "L"
+      }
+    ]
+  },
+  "screen.macro": {
+    "value": "Makro",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615275199777,
+        "oldValue": "",
+        "newValue": "Makro"
+      }
+    ]
+  },
   "choice.milk": {
     "value": "Sut",
     "history": [
@@ -116,6 +150,17 @@
       }
     ]
   },
+  "neutral": {
+    "value": "Neytral",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615275199777,
+        "oldValue": "",
+        "newValue": "Neytral"
+      }
+    ]
+  },
   "choice.orangeJuice": {
     "value": "Apelsin sharbati",
     "history": [
@@ -124,6 +169,17 @@
         "timestamp": 1615275199777,
         "oldValue": "",
         "newValue": "Apelsin sharbati"
+      }
+    ]
+  },
+  "pH": {
+    "value": "pH",
+    "history": [
+      {
+        "userId": 641649,
+        "timestamp": 1615275199777,
+        "oldValue": "",
+        "newValue": "pH"
       }
     ]
   },
@@ -166,69 +222,25 @@
       }
     ]
   },
-  "units.liters": {
-    "value": "l",
+  "choice.water": {
+    "value": "Suv",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1615275199777,
         "oldValue": "",
-        "newValue": "l"
+        "newValue": "Suv"
       }
     ]
   },
-  "acidic": {
-    "value": "Kislotali",
+  "choice.custom": {
+    "value": "Istak bo'yicha tartiblash",
     "history": [
       {
         "userId": 641649,
         "timestamp": 1615275199777,
         "oldValue": "",
-        "newValue": "Kislotali"
-      }
-    ]
-  },
-  "basic": {
-    "value": "Asosli",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1615275199777,
-        "oldValue": "",
-        "newValue": "Asosli"
-      }
-    ]
-  },
-  "pH": {
-    "value": "pH",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1615275199777,
-        "oldValue": "",
-        "newValue": "pH"
-      }
-    ]
-  },
-  "neutral": {
-    "value": "Neytral",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1615275199777,
-        "oldValue": "",
-        "newValue": "Neytral"
-      }
-    ]
-  },
-  "screen.macro": {
-    "value": "Makro",
-    "history": [
-      {
-        "userId": 641649,
-        "timestamp": 1615275199777,
-        "oldValue": "",
-        "newValue": "Makro"
+        "newValue": "Istak bo'yicha tartiblash"
       }
     ]
   },
