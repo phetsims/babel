@@ -41,6 +41,24 @@
       }
     ]
   },
+  "credits.contributors": {
+    "value": "Hi han contribuït: {0}",
+    "history": [
+      {
+        "userId": 639116,
+        "timestamp": 1570349115248,
+        "oldValue": "",
+        "newValue": "Han contribuït: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 936741,
+        "timestamp": 1619808133978,
+        "oldValue": "Han contribuït: {0}",
+        "newValue": "Hi han contribuït: {0}"
+      }
+    ]
+  },
   "credits.title": {
     "value": "Reconeixements",
     "history": [
@@ -53,14 +71,21 @@
       }
     ]
   },
-  "done": {
-    "value": "Fet",
+  "menuItem.enhancedSound": {
+    "value": "Millora de so",
     "history": [
       {
-        "userId": 763752,
-        "timestamp": 1586453796050,
+        "userId": 639116,
+        "timestamp": 1571646884369,
         "oldValue": "",
-        "newValue": "Fet",
+        "newValue": "Reforçament del só",
+        "explanation": null
+      },
+      {
+        "userId": 763752,
+        "timestamp": 1586422260914,
+        "oldValue": "Reforçament del só",
+        "newValue": "Millora de so",
         "explanation": null
       }
     ]
@@ -107,6 +132,18 @@
       }
     ]
   },
+  "keyboardShortcuts.title": {
+    "value": "Dreceres de teclat",
+    "history": [
+      {
+        "userId": 639116,
+        "timestamp": 1570349115249,
+        "oldValue": "",
+        "newValue": "Dreceres de teclat",
+        "explanation": null
+      }
+    ]
+  },
   "credits.leadDesign": {
     "value": " Director de disseny: {0}",
     "history": [
@@ -132,7 +169,7 @@
     ]
   },
   "updates.outOfDate": {
-    "value": "Existeix una nova versió",
+    "value": "Hi ha una versió nova",
     "history": [
       {
         "userId": 639116,
@@ -140,6 +177,12 @@
         "oldValue": "",
         "newValue": "Existeix una nova versió",
         "explanation": null
+      },
+      {
+        "userId": 936741,
+        "timestamp": 1620385241137,
+        "oldValue": "Existeix una nova versió",
+        "newValue": "Hi ha una versió nova"
       }
     ]
   },
@@ -251,36 +294,6 @@
       }
     ]
   },
-  "title.settings": {
-    "value": "Configuració",
-    "history": [
-      {
-        "userId": 763752,
-        "timestamp": 1586453796051,
-        "oldValue": "",
-        "newValue": "Configuració",
-        "explanation": null
-      }
-    ]
-  },
-  "showPointers": {
-    "value": "Mostra apunts",
-    "history": [
-      {
-        "userId": 763752,
-        "timestamp": 1586453796051,
-        "oldValue": "",
-        "newValue": "Mostra Apunts",
-        "explanation": null
-      },
-      {
-        "userId": 936741,
-        "timestamp": 1619764412982,
-        "oldValue": "Mostra Apunts",
-        "newValue": "Mostra apunts"
-      }
-    ]
-  },
   "credits.softwareDevelopment": {
     "value": "Desenvolupament del programari: {0}",
     "history": [
@@ -296,6 +309,18 @@
         "timestamp": 1620109813316,
         "oldValue": "Desenvolupament de software: {0}",
         "newValue": "Desenvolupament del programari: {0}"
+      }
+    ]
+  },
+  "credits.soundDesign": {
+    "value": "Disseny de so: {0}",
+    "history": [
+      {
+        "userId": 763752,
+        "timestamp": 1586422260914,
+        "oldValue": "",
+        "newValue": "Disseny de so: {0}",
+        "explanation": null
       }
     ]
   },
@@ -389,6 +414,24 @@
       }
     ]
   },
+  "keyboardShortcuts.toGetStarted": {
+    "value": "per començar",
+    "history": [
+      {
+        "userId": 763752,
+        "timestamp": 1586422260914,
+        "oldValue": "",
+        "newValue": "engegar",
+        "explanation": null
+      },
+      {
+        "userId": 936741,
+        "timestamp": 1620385241137,
+        "oldValue": "engegar",
+        "newValue": "per començar"
+      }
+    ]
+  },
   "credits.translation": {
     "value": "Traducció",
     "history": [
@@ -449,40 +492,57 @@
       }
     ]
   },
-  "credits.contributors": {
-    "value": "Hi han contribuït: {0}",
+  "simTitleWithScreenNamePattern": {
+    "value": "{{simName}} — {{screenName}}",
     "history": [
       {
-        "userId": 639116,
-        "timestamp": 1570349115248,
+        "userId": 763752,
+        "timestamp": 1586422260914,
         "oldValue": "",
-        "newValue": "Han contribuït: {0}",
+        "newValue": "{{simName}} — {{screenName}}",
+        "explanation": null
+      }
+    ]
+  },
+  "done": {
+    "value": "Fet",
+    "history": [
+      {
+        "userId": 763752,
+        "timestamp": 1586453796050,
+        "oldValue": "",
+        "newValue": "Fet",
+        "explanation": null
+      }
+    ]
+  },
+  "title.settings": {
+    "value": "Configuració",
+    "history": [
+      {
+        "userId": 763752,
+        "timestamp": 1586453796051,
+        "oldValue": "",
+        "newValue": "Configuració",
+        "explanation": null
+      }
+    ]
+  },
+  "showPointers": {
+    "value": "Mostra apunts",
+    "history": [
+      {
+        "userId": 763752,
+        "timestamp": 1586453796051,
+        "oldValue": "",
+        "newValue": "Mostra Apunts",
         "explanation": null
       },
       {
         "userId": 936741,
-        "timestamp": 1619808133978,
-        "oldValue": "Han contribuït: {0}",
-        "newValue": "Hi han contribuït: {0}"
-      }
-    ]
-  },
-  "menuItem.enhancedSound": {
-    "value": "Millora de so",
-    "history": [
-      {
-        "userId": 639116,
-        "timestamp": 1571646884369,
-        "oldValue": "",
-        "newValue": "Reforçament del só",
-        "explanation": null
-      },
-      {
-        "userId": 763752,
-        "timestamp": 1586422260914,
-        "oldValue": "Reforçament del só",
-        "newValue": "Millora de so",
-        "explanation": null
+        "timestamp": 1619764412982,
+        "oldValue": "Mostra Apunts",
+        "newValue": "Mostra apunts"
       }
     ]
   },
@@ -505,18 +565,6 @@
         "timestamp": 1619809353547,
         "oldValue": "",
         "newValue": "Els paràmetres de consulta no són vàlids."
-      }
-    ]
-  },
-  "keyboardShortcuts.title": {
-    "value": "Dreceres de teclat",
-    "history": [
-      {
-        "userId": 639116,
-        "timestamp": 1570349115249,
-        "oldValue": "",
-        "newValue": "Dreceres de teclat",
-        "explanation": null
       }
     ]
   },
@@ -553,18 +601,6 @@
       }
     ]
   },
-  "credits.soundDesign": {
-    "value": "Disseny de so: {0}",
-    "history": [
-      {
-        "userId": 763752,
-        "timestamp": 1586422260914,
-        "oldValue": "",
-        "newValue": "Disseny de so: {0}",
-        "explanation": null
-      }
-    ]
-  },
   "queryParametersWarningDialog.theSimulationWillStart": {
     "value": "La simulació començarà amb els valors per defecte <br>per aquests paràmetres consultats.",
     "history": [
@@ -573,30 +609,6 @@
         "timestamp": 1619809353547,
         "oldValue": "",
         "newValue": "La simulació començarà amb els valors per defecte <br>per aquests paràmetres consultats."
-      }
-    ]
-  },
-  "keyboardShortcuts.toGetStarted": {
-    "value": "engegar",
-    "history": [
-      {
-        "userId": 763752,
-        "timestamp": 1586422260914,
-        "oldValue": "",
-        "newValue": "engegar",
-        "explanation": null
-      }
-    ]
-  },
-  "simTitleWithScreenNamePattern": {
-    "value": "{{simName}} — {{screenName}}",
-    "history": [
-      {
-        "userId": 763752,
-        "timestamp": 1586422260914,
-        "oldValue": "",
-        "newValue": "{{simName}} — {{screenName}}",
-        "explanation": null
       }
     ]
   },
