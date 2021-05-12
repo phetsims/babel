@@ -23,18 +23,6 @@
       }
     ]
   },
-  "pattern.0challenge.1max": {
-    "value": "Resultats {0} de {1}",
-    "history": [
-      {
-        "userId": 639116,
-        "timestamp": 1570349115248,
-        "oldValue": "",
-        "newValue": "Resultats {0} de {1}",
-        "explanation": null
-      }
-    ]
-  },
   "check": {
     "value": "Comprova-ho",
     "history": [
@@ -50,6 +38,17 @@
         "timestamp": 1619848694583,
         "oldValue": "Comprova",
         "newValue": "Comprova-ho"
+      }
+    ]
+  },
+  "chooseYourLevel": {
+    "value": "Tria el nivell!",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1620807834477,
+        "oldValue": "",
+        "newValue": "Tria el nivell!"
       }
     ]
   },
@@ -125,15 +124,14 @@
       }
     ]
   },
-  "next": {
-    "value": "Següent",
+  "score": {
+    "value": "Puntuació:",
     "history": [
       {
-        "userId": 639116,
-        "timestamp": 1570349115249,
+        "userId": 936741,
+        "timestamp": 1620807834477,
         "oldValue": "",
-        "newValue": "Següent",
-        "explanation": null
+        "newValue": "Puntuació:"
       }
     ]
   },
@@ -161,14 +159,14 @@
       }
     ]
   },
-  "selectLevel": {
-    "value": "Selecciona el nivell",
+  "pattern.score.number": {
+    "value": "Puntuació {{score}}",
     "history": [
       {
         "userId": 936741,
-        "timestamp": 1620109813316,
+        "timestamp": 1620807834477,
         "oldValue": "",
-        "newValue": "Selecciona el nivell"
+        "newValue": "Puntuació {{score}}"
       }
     ]
   },
@@ -181,24 +179,6 @@
         "oldValue": "",
         "newValue": "Mostra la resposta",
         "explanation": null
-      }
-    ]
-  },
-  "startOver": {
-    "value": "Torna a començar",
-    "history": [
-      {
-        "userId": 639116,
-        "timestamp": 1570349115249,
-        "oldValue": "",
-        "newValue": "Tornar a començar",
-        "explanation": null
-      },
-      {
-        "userId": 936741,
-        "timestamp": 1620109813316,
-        "oldValue": "Tornar a començar",
-        "newValue": "Torna a començar"
       }
     ]
   },
@@ -247,6 +227,59 @@
         "oldValue": "",
         "newValue": "{0}:{1}:{2}",
         "explanation": null
+      }
+    ]
+  },
+  "pattern.0challenge.1max": {
+    "value": "Resultats {0} de {1}",
+    "history": [
+      {
+        "userId": 639116,
+        "timestamp": 1570349115248,
+        "oldValue": "",
+        "newValue": "Resultats {0} de {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "next": {
+    "value": "Següent",
+    "history": [
+      {
+        "userId": 639116,
+        "timestamp": 1570349115249,
+        "oldValue": "",
+        "newValue": "Següent",
+        "explanation": null
+      }
+    ]
+  },
+  "selectLevel": {
+    "value": "Selecciona el nivell",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1620109813316,
+        "oldValue": "",
+        "newValue": "Selecciona el nivell"
+      }
+    ]
+  },
+  "startOver": {
+    "value": "Torna a començar",
+    "history": [
+      {
+        "userId": 639116,
+        "timestamp": 1570349115249,
+        "oldValue": "",
+        "newValue": "Tornar a començar",
+        "explanation": null
+      },
+      {
+        "userId": 936741,
+        "timestamp": 1620109813316,
+        "oldValue": "Tornar a començar",
+        "newValue": "Torna a començar"
       }
     ]
   }
