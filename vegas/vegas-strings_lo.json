@@ -1,92 +1,4 @@
 {
-  "pattern.0minutes.1seconds": {
-    "value": "{0}:{1}",
-    "history": [
-      {
-        "userId": 883840,
-        "timestamp": 1621845010304,
-        "oldValue": "",
-        "newValue": "{0}:{1}"
-      }
-    ]
-  },
-  "pattern.0hours.1minutes.2seconds": {
-    "value": "{0}:{1}:{2}",
-    "history": [
-      {
-        "userId": 883840,
-        "timestamp": 1621845010304,
-        "oldValue": "",
-        "newValue": "{0}:{1}:{2}"
-      }
-    ]
-  },
-  "chooseYourLevel": {
-    "value": "ເລືອກລະດັບອງທ່ານ",
-    "history": [
-      {
-        "userId": 883840,
-        "timestamp": 1615367989325,
-        "oldValue": "",
-        "newValue": "ເລືອກລະດັບອງທ່ານ"
-      }
-    ]
-  },
-  "done": {
-    "value": "ສຳເລັດ",
-    "history": [
-      {
-        "userId": 883840,
-        "timestamp": 1615367989325,
-        "oldValue": "",
-        "newValue": "ສຳເລັດ"
-      }
-    ]
-  },
-  "next": {
-    "value": "ຕໍ່ໄປ",
-    "history": [
-      {
-        "userId": 883840,
-        "timestamp": 1614051582453,
-        "oldValue": "",
-        "newValue": "ຕໍ່ໄປ"
-      }
-    ]
-  },
-  "score": {
-    "value": "ຄະແນນ:",
-    "history": [
-      {
-        "userId": 883840,
-        "timestamp": 1615367989326,
-        "oldValue": "",
-        "newValue": "ຄະແນນ:"
-      }
-    ]
-  },
-  "pattern.score.number": {
-    "value": "ຄະແນນ: {{score}}",
-    "history": [
-      {
-        "userId": 883840,
-        "timestamp": 1615367989326,
-        "oldValue": "",
-        "newValue": "ຄະແນນ: {{score}}"
-      }
-    ]
-  },
-  "youCompletedAllLevels": {
-    "value": "ທ່ານສຳເລັດທຸກລະດັບ!",
-    "history": [
-      {
-        "userId": 883840,
-        "timestamp": 1615367989326,
-        "oldValue": "",
-        "newValue": "ທ່ານສຳເລັດທຸກລະດັບ!"
-      }
-    ]
-  },
   "pattern.0yourBest": {
     "value": "(ດີຫຼາຍ: {0})",
     "history": [
@@ -106,6 +18,17 @@
         "timestamp": 1614051582453,
         "oldValue": "",
         "newValue": "(ສະຖິຕິໃໝ່ຂອງທ່ານ!)"
+      }
+    ]
+  },
+  "pattern.0challenge.1max": {
+    "value": "ທ້າທາຍ {0} ໃນ {1}",
+    "history": [
+      {
+        "userId": 883840,
+        "timestamp": 1621859643303,
+        "oldValue": "",
+        "newValue": "ທ້າທາຍ {0} ໃນ {1}"
       }
     ]
   },
@@ -186,14 +109,25 @@
       }
     ]
   },
-  "label.scorePattern": {
-    "value": "ຄະແນນ: {0}",
+  "next": {
+    "value": "ຕໍ່ໄປ",
     "history": [
       {
         "userId": 883840,
         "timestamp": 1614051582453,
         "oldValue": "",
-        "newValue": "ຄະແນນ: {0}"
+        "newValue": "ຕໍ່ໄປ"
+      }
+    ]
+  },
+  "score": {
+    "value": "ຄະແນນ:",
+    "history": [
+      {
+        "userId": 883840,
+        "timestamp": 1615367989326,
+        "oldValue": "",
+        "newValue": "ຄະແນນ:"
       }
     ]
   },
@@ -205,6 +139,39 @@
         "timestamp": 1614051582453,
         "oldValue": "",
         "newValue": "ຄະແນນ: {0} ຈາກທັງໝົດ {1}"
+      }
+    ]
+  },
+  "pattern.score.number": {
+    "value": "ຄະແນນ: {{score}}",
+    "history": [
+      {
+        "userId": 883840,
+        "timestamp": 1615367989326,
+        "oldValue": "",
+        "newValue": "ຄະແນນ: {{score}}"
+      }
+    ]
+  },
+  "showAnswer": {
+    "value": "ສະແດງຄຳຕອບ",
+    "history": [
+      {
+        "userId": 883840,
+        "timestamp": 1621859643303,
+        "oldValue": "",
+        "newValue": "ສະແດງຄຳຕອບ"
+      }
+    ]
+  },
+  "startOver": {
+    "value": "ເລີ່ມຕົ້ນໃໝ່",
+    "history": [
+      {
+        "userId": 883840,
+        "timestamp": 1621859643303,
+        "oldValue": "",
+        "newValue": "ເລີ່ມຕົ້ນໃໝ່"
       }
     ]
   },
@@ -227,6 +194,72 @@
         "timestamp": 1614051582453,
         "oldValue": "",
         "newValue": "ລອງອີກເທື່ອໃໝ່"
+      }
+    ]
+  },
+  "pattern.0minutes.1seconds": {
+    "value": "{0}:{1}",
+    "history": [
+      {
+        "userId": 883840,
+        "timestamp": 1621845010304,
+        "oldValue": "",
+        "newValue": "{0}:{1}"
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 883840,
+        "timestamp": 1621845010304,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}"
+      }
+    ]
+  },
+  "chooseYourLevel": {
+    "value": "ເລືອກລະດັບອງທ່ານ",
+    "history": [
+      {
+        "userId": 883840,
+        "timestamp": 1615367989325,
+        "oldValue": "",
+        "newValue": "ເລືອກລະດັບອງທ່ານ"
+      }
+    ]
+  },
+  "done": {
+    "value": "ສຳເລັດ",
+    "history": [
+      {
+        "userId": 883840,
+        "timestamp": 1615367989325,
+        "oldValue": "",
+        "newValue": "ສຳເລັດ"
+      }
+    ]
+  },
+  "youCompletedAllLevels": {
+    "value": "ທ່ານສຳເລັດທຸກລະດັບ!",
+    "history": [
+      {
+        "userId": 883840,
+        "timestamp": 1615367989326,
+        "oldValue": "",
+        "newValue": "ທ່ານສຳເລັດທຸກລະດັບ!"
+      }
+    ]
+  },
+  "label.scorePattern": {
+    "value": "ຄະແນນ: {0}",
+    "history": [
+      {
+        "userId": 883840,
+        "timestamp": 1614051582453,
+        "oldValue": "",
+        "newValue": "ຄະແນນ: {0}"
       }
     ]
   }
