@@ -47,14 +47,14 @@
       }
     ]
   },
-  "menuItem.enhancedSound": {
-    "value": "Betra hljóð",
+  "done": {
+    "value": "Lokið",
     "history": [
       {
         "userId": 773195,
-        "timestamp": 1605783195658,
+        "timestamp": 1588091672179,
         "oldValue": "",
-        "newValue": "Betra hljóð",
+        "newValue": "Lokið",
         "explanation": null
       }
     ]
@@ -91,18 +91,6 @@
         "timestamp": 1588091672179,
         "oldValue": "",
         "newValue": "Grafík: {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardShortcuts.title": {
-    "value": "Flýtivísar",
-    "history": [
-      {
-        "userId": 773195,
-        "timestamp": 1605781228502,
-        "oldValue": "",
-        "newValue": "Flýtivísar",
         "explanation": null
       }
     ]
@@ -180,7 +168,7 @@
     ]
   },
   "menuItem.outputInputEventsLog": {
-    "value": "Output Input Events Log",
+    "value": "Atburðarskrár inntaks og úttaks",
     "history": [
       {
         "userId": 773195,
@@ -188,6 +176,12 @@
         "oldValue": "",
         "newValue": "Output Input Events Log",
         "explanation": null
+      },
+      {
+        "userId": 242720,
+        "timestamp": 1621934275010,
+        "oldValue": "Output Input Events Log",
+        "newValue": "Atburðarskrár inntaks og úttaks"
       }
     ]
   },
@@ -200,17 +194,6 @@
         "oldValue": "",
         "newValue": "Heimasíða PhET…",
         "explanation": null
-      }
-    ]
-  },
-  "projectorMode": {
-    "value": "Skjávarpahamur",
-    "history": [
-      {
-        "userId": 773195,
-        "timestamp": 1619222048542,
-        "oldValue": "",
-        "newValue": "Skjávarpahamur"
       }
     ]
   },
@@ -250,6 +233,30 @@
       }
     ]
   },
+  "title.settings": {
+    "value": "Stillingar",
+    "history": [
+      {
+        "userId": 773195,
+        "timestamp": 1588091672179,
+        "oldValue": "",
+        "newValue": "Stillingar",
+        "explanation": null
+      }
+    ]
+  },
+  "showPointers": {
+    "value": "Sýna ábendingar",
+    "history": [
+      {
+        "userId": 773195,
+        "timestamp": 1588091672179,
+        "oldValue": "",
+        "newValue": "Sýna ábendingar",
+        "explanation": null
+      }
+    ]
+  },
   "credits.softwareDevelopment": {
     "value": "Hugbúnaðarþróun: {0}",
     "history": [
@@ -258,18 +265,6 @@
         "timestamp": 1588091672179,
         "oldValue": "",
         "newValue": "Hugbúnaðarþróun: {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "credits.soundDesign": {
-    "value": "Hljóðgerð: {0}",
-    "history": [
-      {
-        "userId": 773195,
-        "timestamp": 1605789849018,
-        "oldValue": "",
-        "newValue": "Hljóðgerð: {0}",
         "explanation": null
       }
     ]
@@ -347,7 +342,7 @@
     ]
   },
   "updates.upToDate": {
-    "value": "Þessi sýndartilraun er á nýjustu útgáfu.",
+    "value": "Nýjasta útgáfa sýndartilraunar",
     "history": [
       {
         "userId": 773195,
@@ -355,18 +350,12 @@
         "oldValue": "",
         "newValue": "Þessi sýndartilraun er á nýjustu útgáfu.",
         "explanation": null
-      }
-    ]
-  },
-  "keyboardShortcuts.toGetStarted": {
-    "value": "til að byrja",
-    "history": [
+      },
       {
-        "userId": 773195,
-        "timestamp": 1605783195658,
-        "oldValue": "",
-        "newValue": "til að byrja",
-        "explanation": null
+        "userId": 242720,
+        "timestamp": 1621934275010,
+        "oldValue": "Þessi sýndartilraun er á nýjustu útgáfu.",
+        "newValue": "Nýjasta útgáfa sýndartilraunar"
       }
     ]
   },
@@ -430,6 +419,65 @@
       }
     ]
   },
+  "menuItem.enhancedSound": {
+    "value": "Betra hljóð",
+    "history": [
+      {
+        "userId": 773195,
+        "timestamp": 1605783195658,
+        "oldValue": "",
+        "newValue": "Betra hljóð",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.title": {
+    "value": "Flýtivísar",
+    "history": [
+      {
+        "userId": 773195,
+        "timestamp": 1605781228502,
+        "oldValue": "",
+        "newValue": "Flýtivísar",
+        "explanation": null
+      }
+    ]
+  },
+  "projectorMode": {
+    "value": "Skjávarpahamur",
+    "history": [
+      {
+        "userId": 773195,
+        "timestamp": 1619222048542,
+        "oldValue": "",
+        "newValue": "Skjávarpahamur"
+      }
+    ]
+  },
+  "credits.soundDesign": {
+    "value": "Hljóðgerð: {0}",
+    "history": [
+      {
+        "userId": 773195,
+        "timestamp": 1605789849018,
+        "oldValue": "",
+        "newValue": "Hljóðgerð: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.toGetStarted": {
+    "value": "til að byrja",
+    "history": [
+      {
+        "userId": 773195,
+        "timestamp": 1605783195658,
+        "oldValue": "",
+        "newValue": "til að byrja",
+        "explanation": null
+      }
+    ]
+  },
   "simTitleWithScreenNamePattern": {
     "value": "{{simName}} — {{screenName}}",
     "history": [
@@ -438,42 +486,6 @@
         "timestamp": 1619222048542,
         "oldValue": "",
         "newValue": "{{simName}} — {{screenName}}"
-      }
-    ]
-  },
-  "done": {
-    "value": "Lokið",
-    "history": [
-      {
-        "userId": 773195,
-        "timestamp": 1588091672179,
-        "oldValue": "",
-        "newValue": "Lokið",
-        "explanation": null
-      }
-    ]
-  },
-  "title.settings": {
-    "value": "Stillingar",
-    "history": [
-      {
-        "userId": 773195,
-        "timestamp": 1588091672179,
-        "oldValue": "",
-        "newValue": "Stillingar",
-        "explanation": null
-      }
-    ]
-  },
-  "showPointers": {
-    "value": "Sýna ábendingar",
-    "history": [
-      {
-        "userId": 773195,
-        "timestamp": 1588091672179,
-        "oldValue": "",
-        "newValue": "Sýna ábendingar",
-        "explanation": null
       }
     ]
   }
