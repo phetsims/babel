@@ -1,22 +1,4 @@
 {
-  "cool": {
-    "value": "Refreda",
-    "history": [
-      {
-        "userId": 639116,
-        "timestamp": 1571646884369,
-        "oldValue": "",
-        "newValue": "Refredar",
-        "explanation": null
-      },
-      {
-        "userId": 936741,
-        "timestamp": 1622042737659,
-        "oldValue": "Refredar",
-        "newValue": "Refreda"
-      }
-    ]
-  },
   "key.enter": {
     "value": "Accepta",
     "history": [
@@ -47,53 +29,6 @@
       }
     ]
   },
-  "key.esc": {
-    "value": "Esc.",
-    "history": [
-      {
-        "userId": 763752,
-        "timestamp": 1586629213284,
-        "oldValue": "",
-        "newValue": "Esc",
-        "explanation": null
-      },
-      {
-        "userId": 936741,
-        "timestamp": 1620385241137,
-        "oldValue": "Esc",
-        "newValue": "Esc."
-      }
-    ]
-  },
-  "speed.fast": {
-    "value": "ràpida",
-    "history": [
-      {
-        "userId": 936741,
-        "timestamp": 1619809353547,
-        "oldValue": "",
-        "newValue": "ràpida"
-      }
-    ]
-  },
-  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-    "value": "Agafa o deixa anar {{thing}}",
-    "history": [
-      {
-        "userId": 763752,
-        "timestamp": 1586422260914,
-        "oldValue": "",
-        "newValue": "Agafar o Deixar {{thing}}",
-        "explanation": null
-      },
-      {
-        "userId": 936741,
-        "timestamp": 1619809353547,
-        "oldValue": "Agafar o Deixar {{thing}}",
-        "newValue": "Agafa o deixa anar {{thing}}"
-      }
-    ]
-  },
   "keyboardHelpDialog.grabOrReleaseLabelPattern": {
     "value": "Agafa o deixa anar {{thing}}",
     "history": [
@@ -112,38 +47,21 @@
       }
     ]
   },
-  "heat": {
-    "value": "Escalfa",
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "Agafa o deixa anar {{thing}}",
     "history": [
       {
-        "userId": 639116,
-        "timestamp": 1571646884370,
+        "userId": 763752,
+        "timestamp": 1586422260914,
         "oldValue": "",
-        "newValue": "Escalfar",
+        "newValue": "Agafar o Deixar {{thing}}",
         "explanation": null
       },
       {
         "userId": 936741,
-        "timestamp": 1622042737659,
-        "oldValue": "Escalfar",
-        "newValue": "Escalfa"
-      }
-    ]
-  },
-  "speed.normal": {
-    "value": "normal",
-    "history": [
-      {
-        "userId": 936741,
         "timestamp": 1619809353547,
-        "oldValue": "",
-        "newValue": "Normal"
-      },
-      {
-        "userId": 936741,
-        "timestamp": 1620650843043,
-        "oldValue": "Normal",
-        "newValue": "normal"
+        "oldValue": "Agafar o Deixar {{thing}}",
+        "newValue": "Agafa o deixa anar {{thing}}"
       }
     ]
   },
@@ -201,23 +119,6 @@
       }
     ]
   },
-  "speed.slow": {
-    "value": "lenta",
-    "history": [
-      {
-        "userId": 936741,
-        "timestamp": 1619809353547,
-        "oldValue": "",
-        "newValue": "Lenta"
-      },
-      {
-        "userId": 936741,
-        "timestamp": 1620650843043,
-        "oldValue": "Lenta",
-        "newValue": "lenta"
-      }
-    ]
-  },
   "key.space": {
     "value": "espai",
     "history": [
@@ -254,14 +155,25 @@
       }
     ]
   },
-  "comboBoxDisplay.valueUnits": {
-    "value": "{{value}} {{units}}",
+  "wavelength": {
+    "value": "Longitud d'ona",
     "history": [
       {
         "userId": 936741,
-        "timestamp": 1622042737659,
+        "timestamp": 1622046301593,
         "oldValue": "",
-        "newValue": "{{value}} {{units}}"
+        "newValue": "Longitud d'ona"
+      }
+    ]
+  },
+  "wavelengthNMValuePattern": {
+    "value": "{0} nm",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1622046301593,
+        "oldValue": "",
+        "newValue": "{0} nm"
       }
     ]
   },
@@ -286,6 +198,116 @@
         "oldValue": "",
         "newValue": "Ω",
         "explanation": null
+      }
+    ]
+  },
+  "cool": {
+    "value": "Refreda",
+    "history": [
+      {
+        "userId": 639116,
+        "timestamp": 1571646884369,
+        "oldValue": "",
+        "newValue": "Refredar",
+        "explanation": null
+      },
+      {
+        "userId": 936741,
+        "timestamp": 1622042737659,
+        "oldValue": "Refredar",
+        "newValue": "Refreda"
+      }
+    ]
+  },
+  "key.esc": {
+    "value": "Esc.",
+    "history": [
+      {
+        "userId": 763752,
+        "timestamp": 1586629213284,
+        "oldValue": "",
+        "newValue": "Esc",
+        "explanation": null
+      },
+      {
+        "userId": 936741,
+        "timestamp": 1620385241137,
+        "oldValue": "Esc",
+        "newValue": "Esc."
+      }
+    ]
+  },
+  "speed.fast": {
+    "value": "ràpida",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1619809353547,
+        "oldValue": "",
+        "newValue": "ràpida"
+      }
+    ]
+  },
+  "heat": {
+    "value": "Escalfa",
+    "history": [
+      {
+        "userId": 639116,
+        "timestamp": 1571646884370,
+        "oldValue": "",
+        "newValue": "Escalfar",
+        "explanation": null
+      },
+      {
+        "userId": 936741,
+        "timestamp": 1622042737659,
+        "oldValue": "Escalfar",
+        "newValue": "Escalfa"
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "normal",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1619809353547,
+        "oldValue": "",
+        "newValue": "Normal"
+      },
+      {
+        "userId": 936741,
+        "timestamp": 1620650843043,
+        "oldValue": "Normal",
+        "newValue": "normal"
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "lenta",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1619809353547,
+        "oldValue": "",
+        "newValue": "Lenta"
+      },
+      {
+        "userId": 936741,
+        "timestamp": 1620650843043,
+        "oldValue": "Lenta",
+        "newValue": "lenta"
+      }
+    ]
+  },
+  "comboBoxDisplay.valueUnits": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1622042737659,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}"
       }
     ]
   },
