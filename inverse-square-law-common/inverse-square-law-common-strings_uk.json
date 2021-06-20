@@ -11,18 +11,6 @@
       }
     ]
   },
-  "decimalNotation": {
-    "value": "Десяткові позначення",
-    "history": [
-      {
-        "userId": 166868,
-        "timestamp": 1583591416161,
-        "oldValue": "",
-        "newValue": "Десяткові позначення",
-        "explanation": null
-      }
-    ]
-  },
   "forceOnObjectByOtherObjectPattern": {
     "value": "Сила на {{thisObject}} від {{otherObject}}",
     "history": [
@@ -36,7 +24,7 @@
     ]
   },
   "forceOnObjectByOtherObjectWithUnitsPattern": {
-    "value": "Сила на {{thisObject}} від {{otherObject}} = {{value}} N",
+    "value": "Сила на {{thisObject}} від {{otherObject}} = {{value}} Н",
     "history": [
       {
         "userId": 166868,
@@ -44,6 +32,12 @@
         "oldValue": "",
         "newValue": "Сила на {{thisObject}} від {{otherObject}} = {{value}} N",
         "explanation": null
+      },
+      {
+        "userId": 919288,
+        "timestamp": 1624213737428,
+        "oldValue": "Сила на {{thisObject}} від {{otherObject}} = {{value}} N",
+        "newValue": "Сила на {{thisObject}} від {{otherObject}} = {{value}} Н"
       }
     ]
   },
@@ -55,6 +49,41 @@
         "timestamp": 1572807251910,
         "oldValue": "",
         "newValue": "Величини сил",
+        "explanation": null
+      }
+    ]
+  },
+  "units.picometers": {
+    "value": "пм",
+    "history": [
+      {
+        "userId": 919288,
+        "timestamp": 1624213737428,
+        "oldValue": "",
+        "newValue": "пм"
+      }
+    ]
+  },
+  "pattern_0value_1units": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1583591416161,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "decimalNotation": {
+    "value": "Десяткові позначення",
+    "history": [
+      {
+        "userId": 166868,
+        "timestamp": 1583591416161,
+        "oldValue": "",
+        "newValue": "Десяткові позначення",
         "explanation": null
       }
     ]
@@ -115,18 +144,6 @@
         "timestamp": 1583591416161,
         "oldValue": "",
         "newValue": "Наукові позначення",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern_0value_1units": {
-    "value": "{{value}} {{units}}",
-    "history": [
-      {
-        "userId": 166868,
-        "timestamp": 1583591416161,
-        "oldValue": "",
-        "newValue": "{{value}} {{units}}",
         "explanation": null
       }
     ]
