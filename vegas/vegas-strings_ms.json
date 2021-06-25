@@ -29,6 +29,18 @@
       }
     ]
   },
+  "pattern.0challenge.1max": {
+    "value": "Cabaran {0} daripada {1}",
+    "history": [
+      {
+        "userId": 158829,
+        "timestamp": 1473838915121,
+        "oldValue": "",
+        "newValue": "Cabaran {0} daripada {1}",
+        "explanation": null
+      }
+    ]
+  },
   "check": {
     "value": "Semak",
     "history": [
@@ -38,17 +50,6 @@
         "oldValue": "",
         "newValue": "Semak",
         "explanation": null
-      }
-    ]
-  },
-  "chooseYourLevel": {
-    "value": "Sila pilih tahap anda!",
-    "history": [
-      {
-        "userId": 951608,
-        "timestamp": 1623230863692,
-        "oldValue": "",
-        "newValue": "Sila pilih tahap anda!"
       }
     ]
   },
@@ -130,14 +131,15 @@
       }
     ]
   },
-  "score": {
-    "value": "Markah:",
+  "next": {
+    "value": "Berikutnya",
     "history": [
       {
-        "userId": 951608,
-        "timestamp": 1623230863692,
+        "userId": 158829,
+        "timestamp": 1473838915121,
         "oldValue": "",
-        "newValue": "Markah:"
+        "newValue": "Berikutnya",
+        "explanation": null
       }
     ]
   },
@@ -165,14 +167,21 @@
       }
     ]
   },
-  "pattern.score.number": {
-    "value": "Markah: {{score}}",
+  "selectLevel": {
+    "value": "Pilih Tahap Anda",
     "history": [
       {
-        "userId": 951608,
-        "timestamp": 1623230863692,
+        "userId": 158829,
+        "timestamp": 1473838915121,
         "oldValue": "",
-        "newValue": "Markah: {{score}}"
+        "newValue": "Pilih Aras",
+        "explanation": null
+      },
+      {
+        "userId": 951608,
+        "timestamp": 1624597053851,
+        "oldValue": "Pilih Aras",
+        "newValue": "Pilih Tahap Anda"
       }
     ]
   },
@@ -191,6 +200,18 @@
         "timestamp": 1623575129070,
         "oldValue": "Tunjuk Jawapan",
         "newValue": "Pamerkan Jawapan"
+      }
+    ]
+  },
+  "startOver": {
+    "value": "Mula Semula",
+    "history": [
+      {
+        "userId": 158829,
+        "timestamp": 1473838915121,
+        "oldValue": "",
+        "newValue": "Mula Semula",
+        "explanation": null
       }
     ]
   },
@@ -218,6 +239,39 @@
       }
     ]
   },
+  "chooseYourLevel": {
+    "value": "Sila pilih tahap anda!",
+    "history": [
+      {
+        "userId": 951608,
+        "timestamp": 1623230863692,
+        "oldValue": "",
+        "newValue": "Sila pilih tahap anda!"
+      }
+    ]
+  },
+  "score": {
+    "value": "Markah:",
+    "history": [
+      {
+        "userId": 951608,
+        "timestamp": 1623230863692,
+        "oldValue": "",
+        "newValue": "Markah:"
+      }
+    ]
+  },
+  "pattern.score.number": {
+    "value": "Markah: {{score}}",
+    "history": [
+      {
+        "userId": 951608,
+        "timestamp": 1623230863692,
+        "oldValue": "",
+        "newValue": "Markah: {{score}}"
+      }
+    ]
+  },
   "done": {
     "value": "Selesai",
     "history": [
@@ -229,18 +283,6 @@
       }
     ]
   },
-  "next": {
-    "value": "Berikutnya",
-    "history": [
-      {
-        "userId": 158829,
-        "timestamp": 1473838915121,
-        "oldValue": "",
-        "newValue": "Berikutnya",
-        "explanation": null
-      }
-    ]
-  },
   "youCompletedAllLevels": {
     "value": "Semua tahap telah selesai!",
     "history": [
@@ -249,42 +291,6 @@
         "timestamp": 1623232361627,
         "oldValue": "",
         "newValue": "Semua tahap telah selesai!"
-      }
-    ]
-  },
-  "pattern.0challenge.1max": {
-    "value": "Cabaran {0} daripada {1}",
-    "history": [
-      {
-        "userId": 158829,
-        "timestamp": 1473838915121,
-        "oldValue": "",
-        "newValue": "Cabaran {0} daripada {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "selectLevel": {
-    "value": "Pilih Aras",
-    "history": [
-      {
-        "userId": 158829,
-        "timestamp": 1473838915121,
-        "oldValue": "",
-        "newValue": "Pilih Aras",
-        "explanation": null
-      }
-    ]
-  },
-  "startOver": {
-    "value": "Mula Semula",
-    "history": [
-      {
-        "userId": 158829,
-        "timestamp": 1473838915121,
-        "oldValue": "",
-        "newValue": "Mula Semula",
-        "explanation": null
       }
     ]
   }
