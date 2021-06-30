@@ -1,4 +1,40 @@
 {
+  "drinkMix": {
+    "value": "خليط مشروب",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219131,
+        "oldValue": "",
+        "newValue": "مشروب",
+        "explanation": null
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1623239046001,
+        "oldValue": "مشروب",
+        "newValue": "مزج الخليط"
+      },
+      {
+        "userId": 131095,
+        "timestamp": 1625054508610,
+        "oldValue": "مزج الخليط",
+        "newValue": "خليط مشروب"
+      }
+    ]
+  },
+  "water": {
+    "value": "ماء",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219131,
+        "oldValue": "",
+        "newValue": "ماء",
+        "explanation": null
+      }
+    ]
+  },
   "cobaltChloride": {
     "value": "كلوريد الكوبالت الثنائي",
     "history": [
@@ -29,30 +65,6 @@
       }
     ]
   },
-  "screen.concentration": {
-    "value": "التركيز",
-    "history": [
-      {
-        "userId": 192293,
-        "timestamp": 1449944219132,
-        "oldValue": "",
-        "newValue": "التركيز",
-        "explanation": null
-      }
-    ]
-  },
-  "concentration": {
-    "value": "التركيز",
-    "history": [
-      {
-        "userId": 192293,
-        "timestamp": 1449944219132,
-        "oldValue": "",
-        "newValue": "التركيز",
-        "explanation": null
-      }
-    ]
-  },
   "copperSulfate": {
     "value": "كبريتات النحاس الثنائي",
     "history": [
@@ -68,89 +80,6 @@
         "timestamp": 1623239046001,
         "oldValue": "كبريتات النحاس",
         "newValue": "كبريتات النحاس الثنائي"
-      }
-    ]
-  },
-  "drinkMix": {
-    "value": "مزج الخليط",
-    "history": [
-      {
-        "userId": 192293,
-        "timestamp": 1449944219131,
-        "oldValue": "",
-        "newValue": "مشروب",
-        "explanation": null
-      },
-      {
-        "userId": 844820,
-        "timestamp": 1623239046001,
-        "oldValue": "مشروب",
-        "newValue": "مزج الخليط"
-      }
-    ]
-  },
-  "evaporation": {
-    "value": "التبخر",
-    "history": [
-      {
-        "userId": 192293,
-        "timestamp": 1449944219132,
-        "oldValue": "",
-        "newValue": "تبخر",
-        "explanation": null
-      },
-      {
-        "userId": 844820,
-        "timestamp": 1623239046001,
-        "oldValue": "تبخر",
-        "newValue": "التبخر"
-      }
-    ]
-  },
-  "units.liters": {
-    "value": "L",
-    "history": [
-      {
-        "userId": 192293,
-        "timestamp": 1449944219132,
-        "oldValue": "",
-        "newValue": "L",
-        "explanation": null
-      }
-    ]
-  },
-  "lots": {
-    "value": "الكثير",
-    "history": [
-      {
-        "userId": 192293,
-        "timestamp": 1449944219132,
-        "oldValue": "",
-        "newValue": "الكثير",
-        "explanation": null
-      }
-    ]
-  },
-  "units.milliliters": {
-    "value": "mL",
-    "history": [
-      {
-        "userId": 844820,
-        "timestamp": 1623239046001,
-        "oldValue": "",
-        "newValue": "mL"
-      }
-    ]
-  },
-  "units.molesPerLiter": {
-    "value": "mol/L",
-    "history": [
-      {
-        "userId": 192293,
-        "timestamp": 1449944219132,
-        "oldValue": "",
-        "newValue": "mol/L",
-        "explanation": null
       }
     ]
   },
@@ -172,14 +101,14 @@
       }
     ]
   },
-  "none": {
-    "value": "لا شيء",
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
     "history": [
       {
         "userId": 192293,
-        "timestamp": 1449944219132,
+        "timestamp": 1449944219131,
         "oldValue": "",
-        "newValue": "لا شيء",
+        "newValue": "{0} {1}",
         "explanation": null
       }
     ]
@@ -226,8 +155,216 @@
       }
     ]
   },
+  "absorbance": {
+    "value": "الامتصاص",
+    "history": [
+      {
+        "userId": 131095,
+        "timestamp": 1625054508610,
+        "oldValue": "",
+        "newValue": "الامتصاص"
+      }
+    ]
+  },
+  "transmittance": {
+    "value": "النفاذ",
+    "history": [
+      {
+        "userId": 131095,
+        "timestamp": 1625054508610,
+        "oldValue": "",
+        "newValue": "النفاذ"
+      }
+    ]
+  },
+  "concentration": {
+    "value": "التركيز",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "التركيز",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0label": {
+    "value": "{0}",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "{0}:",
+        "explanation": null
+      },
+      {
+        "userId": 131095,
+        "timestamp": 1625054508610,
+        "oldValue": "{0}:",
+        "newValue": "{0}"
+      }
+    ]
+  },
+  "solution": {
+    "value": "محلول",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "محلول",
+        "explanation": null
+      }
+    ]
+  },
+  "preset": {
+    "value": "مُحدّد مُسبقاً",
+    "history": [
+      {
+        "userId": 131095,
+        "timestamp": 1625054508610,
+        "oldValue": "",
+        "newValue": "مُحدّد مُسبقاً"
+      }
+    ]
+  },
+  "variable": {
+    "value": "مُتغيّر",
+    "history": [
+      {
+        "userId": 131095,
+        "timestamp": 1625054508610,
+        "oldValue": "",
+        "newValue": "مُتغيّر"
+      }
+    ]
+  },
+  "wavelength": {
+    "value": "الطول الموجي",
+    "history": [
+      {
+        "userId": 131095,
+        "timestamp": 1625054508610,
+        "oldValue": "",
+        "newValue": "الطول الموجي"
+      }
+    ]
+  },
+  "screen.beersLaw": {
+    "value": "قانون بير",
+    "history": [
+      {
+        "userId": 131095,
+        "timestamp": 1625054508610,
+        "oldValue": "",
+        "newValue": "قانون بير"
+      }
+    ]
+  },
+  "sodiumChloride": {
+    "value": "كلوريد الصوديوم",
+    "history": [
+      {
+        "userId": 844820,
+        "timestamp": 1623239046001,
+        "oldValue": "",
+        "newValue": "كلوريد الصوديوم"
+      }
+    ]
+  },
+  "units.liters": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "L",
+        "explanation": null
+      }
+    ]
+  },
+  "units.milliliters": {
+    "value": "mL",
+    "history": [
+      {
+        "userId": 844820,
+        "timestamp": 1623239046001,
+        "oldValue": "",
+        "newValue": "mL"
+      }
+    ]
+  },
+  "units.molesPerLiter": {
+    "value": "mol/L",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "mol/L",
+        "explanation": null
+      }
+    ]
+  },
+  "evaporation": {
+    "value": "التبخر",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "تبخر",
+        "explanation": null
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1623239046001,
+        "oldValue": "تبخر",
+        "newValue": "التبخر"
+      }
+    ]
+  },
+  "lots": {
+    "value": "عالٍ",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "الكثير",
+        "explanation": null
+      },
+      {
+        "userId": 131095,
+        "timestamp": 1625054508610,
+        "oldValue": "الكثير",
+        "newValue": "عالٍ"
+      }
+    ]
+  },
+  "none": {
+    "value": "لايوجد",
+    "history": [
+      {
+        "userId": 192293,
+        "timestamp": 1449944219132,
+        "oldValue": "",
+        "newValue": "لا شيء",
+        "explanation": null
+      },
+      {
+        "userId": 131095,
+        "timestamp": 1625054508610,
+        "oldValue": "لا شيء",
+        "newValue": "لايوجد"
+      }
+    ]
+  },
   "removeSolute": {
-    "value": "إزالة المذاب",
+    "value": "إزالة المُذاب",
     "history": [
       {
         "userId": 192293,
@@ -241,6 +378,12 @@
         "timestamp": 1623239046001,
         "oldValue": "إزالة المذيب",
         "newValue": "إزالة المذاب"
+      },
+      {
+        "userId": 131095,
+        "timestamp": 1625054508610,
+        "oldValue": "إزالة المذاب",
+        "newValue": "إزالة المُذاب"
       }
     ]
   },
@@ -262,14 +405,21 @@
       }
     ]
   },
-  "sodiumChloride": {
-    "value": "كلوريد الصوديوم",
+  "solute": {
+    "value": "المُذاب",
     "history": [
       {
-        "userId": 844820,
-        "timestamp": 1623239046001,
+        "userId": 192293,
+        "timestamp": 1449944219132,
         "oldValue": "",
-        "newValue": "كلوريد الصوديوم"
+        "newValue": "المذاب",
+        "explanation": null
+      },
+      {
+        "userId": 131095,
+        "timestamp": 1625054508610,
+        "oldValue": "المذاب",
+        "newValue": "المُذاب"
       }
     ]
   },
@@ -285,51 +435,26 @@
       }
     ]
   },
-  "solute": {
-    "value": "المذاب",
+  "screen.concentration": {
+    "value": "التركيز",
     "history": [
       {
         "userId": 192293,
         "timestamp": 1449944219132,
         "oldValue": "",
-        "newValue": "المذاب",
+        "newValue": "التركيز",
         "explanation": null
       }
     ]
   },
-  "solution": {
-    "value": "محلول",
+  "beers-law-lab.title": {
+    "value": "مختبر قانون بير",
     "history": [
       {
-        "userId": 192293,
-        "timestamp": 1449944219132,
+        "userId": 131095,
+        "timestamp": 1625054508610,
         "oldValue": "",
-        "newValue": "محلول",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0value.1units": {
-    "value": "{0} {1}",
-    "history": [
-      {
-        "userId": 192293,
-        "timestamp": 1449944219131,
-        "oldValue": "",
-        "newValue": "{0} {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0label": {
-    "value": "{0}:",
-    "history": [
-      {
-        "userId": 192293,
-        "timestamp": 1449944219132,
-        "oldValue": "",
-        "newValue": "{0}:",
-        "explanation": null
+        "newValue": "مختبر قانون بير"
       }
     ]
   },
@@ -341,18 +466,6 @@
         "timestamp": 1449944219132,
         "oldValue": "",
         "newValue": "({0})",
-        "explanation": null
-      }
-    ]
-  },
-  "water": {
-    "value": "ماء",
-    "history": [
-      {
-        "userId": 192293,
-        "timestamp": 1449944219131,
-        "oldValue": "",
-        "newValue": "ماء",
         "explanation": null
       }
     ]
