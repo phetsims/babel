@@ -1,34 +1,35 @@
 {
   "pattern.0yourBest": {
-    "value": "(Pi bon ou: {0})",
+    "value": "",
     "history": [
       {
         "userId": 942402,
         "timestamp": 1625508548534,
         "oldValue": "",
         "newValue": "(Pi bon ou: {0})"
+      },
+      {
+        "userId": 942402,
+        "timestamp": 1626126208322,
+        "oldValue": "(Pi bon ou: {0})",
+        "newValue": ""
       }
     ]
   },
   "yourNewBest": {
-    "value": "(Nouvo pi bon ou!)",
+    "value": "",
     "history": [
       {
         "userId": 942402,
         "timestamp": 1625508548534,
         "oldValue": "",
         "newValue": "(Nouvo pi bon ou!)"
-      }
-    ]
-  },
-  "pattern.0challenge.1max": {
-    "value": "Defi {0} nan {1}",
-    "history": [
+      },
       {
         "userId": 942402,
-        "timestamp": 1623441433659,
-        "oldValue": "",
-        "newValue": "Defi {0} nan {1}"
+        "timestamp": 1626126208322,
+        "oldValue": "(Nouvo pi bon ou!)",
+        "newValue": ""
       }
     ]
   },
@@ -40,6 +41,23 @@
         "timestamp": 1623441433659,
         "oldValue": "",
         "newValue": "Tcheke"
+      }
+    ]
+  },
+  "chooseYourLevel": {
+    "value": "Chwazi nivo w!",
+    "history": [
+      {
+        "userId": 942402,
+        "timestamp": 1623441433659,
+        "oldValue": "",
+        "newValue": "Chwazi Nivo W"
+      },
+      {
+        "userId": 942402,
+        "timestamp": 1623715911103,
+        "oldValue": "Chwazi Nivo W",
+        "newValue": "Chwazi nivo w!"
       }
     ]
   },
@@ -109,14 +127,14 @@
       }
     ]
   },
-  "next": {
-    "value": "Swivan",
+  "score": {
+    "value": "Pwen",
     "history": [
       {
         "userId": 942402,
-        "timestamp": 1623423870541,
+        "timestamp": 1623423870542,
         "oldValue": "",
-        "newValue": "Swivan"
+        "newValue": "Pwen"
       }
     ]
   },
@@ -154,14 +172,14 @@
       }
     ]
   },
-  "selectLevel": {
-    "value": "Chwazi Nivo",
+  "pattern.score.number": {
+    "value": "Pwen: {{score}}",
     "history": [
       {
         "userId": 942402,
-        "timestamp": 1625508548534,
+        "timestamp": 1623423870542,
         "oldValue": "",
-        "newValue": "Chwazi Nivo"
+        "newValue": "Pwen: {{score}}"
       }
     ]
   },
@@ -173,17 +191,6 @@
         "timestamp": 1623441433659,
         "oldValue": "",
         "newValue": "Montre Repons"
-      }
-    ]
-  },
-  "startOver": {
-    "value": "Rekòmanse",
-    "history": [
-      {
-        "userId": 942402,
-        "timestamp": 1623441433659,
-        "oldValue": "",
-        "newValue": "Rekòmanse"
       }
     ]
   },
@@ -231,20 +238,47 @@
       }
     ]
   },
-  "chooseYourLevel": {
-    "value": "Chwazi nivo w!",
+  "pattern.0challenge.1max": {
+    "value": "Defi {0} nan {1}",
     "history": [
       {
         "userId": 942402,
         "timestamp": 1623441433659,
         "oldValue": "",
-        "newValue": "Chwazi Nivo W"
-      },
+        "newValue": "Defi {0} nan {1}"
+      }
+    ]
+  },
+  "next": {
+    "value": "Swivan",
+    "history": [
       {
         "userId": 942402,
-        "timestamp": 1623715911103,
-        "oldValue": "Chwazi Nivo W",
-        "newValue": "Chwazi nivo w!"
+        "timestamp": 1623423870541,
+        "oldValue": "",
+        "newValue": "Swivan"
+      }
+    ]
+  },
+  "selectLevel": {
+    "value": "Chwazi Nivo",
+    "history": [
+      {
+        "userId": 942402,
+        "timestamp": 1625508548534,
+        "oldValue": "",
+        "newValue": "Chwazi Nivo"
+      }
+    ]
+  },
+  "startOver": {
+    "value": "Rekòmanse",
+    "history": [
+      {
+        "userId": 942402,
+        "timestamp": 1623441433659,
+        "oldValue": "",
+        "newValue": "Rekòmanse"
       }
     ]
   },
@@ -256,28 +290,6 @@
         "timestamp": 1623423870541,
         "oldValue": "",
         "newValue": "Fini"
-      }
-    ]
-  },
-  "score": {
-    "value": "Pwen",
-    "history": [
-      {
-        "userId": 942402,
-        "timestamp": 1623423870542,
-        "oldValue": "",
-        "newValue": "Pwen"
-      }
-    ]
-  },
-  "pattern.score.number": {
-    "value": "Pwen: {{score}}",
-    "history": [
-      {
-        "userId": 942402,
-        "timestamp": 1623423870542,
-        "oldValue": "",
-        "newValue": "Pwen: {{score}}"
       }
     ]
   },
