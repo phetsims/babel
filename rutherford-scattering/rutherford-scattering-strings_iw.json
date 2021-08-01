@@ -1,59 +1,310 @@
 {
-  "plumPuddingAtom": {
-    "value": "מודל עוגת הצימוקים"
-  },
-  "numberOfProtons": {
-    "value": "מספר פרוטונים:"
-  },
-  "rutherford-scattering.title": {
-    "value": "פיזור ראתרפורד"
-  },
-  "maxEnergy": {
-    "value": "מקסימום"
-  },
-  "neutron": {
-    "value": "נויטרון"
-  },
-  "energy": {
-    "value": "אנרגיה:"
-  },
-  "minEnergy": {
-    "value": "מינימום"
-  },
-  "alphaParticle": {
-    "value": "חלקיק אלפא"
-  },
-  "numberOfNeutrons": {
-    "value": "מספר נויטרונים:"
-  },
-  "showTraces": {
-    "value": "הראה עקבות"
-  },
-  "legend": {
-    "value": "מקרא"
-  },
-  "int.minControlPanelWidth": {
-    "value": "250"
-  },
-  "rutherfordAtom": {
-    "value": "אטום ראתרפורד"
-  },
-  "proton": {
-    "value": "פרוטון"
-  },
-  "turnOnTheGun": {
-    "value": "הפעל תותח"
-  },
-  "atomProperties": {
-    "value": "תכונות האטום"
-  },
-  "electron": {
-    "value": "אלקטרון"
-  },
-  "rutherford-scattering.description": {
-    "value": "כיצד פענח ראתרפורד את מבנה גרעין האטום מבלי לצפות בו? בצע סימולציה של הניסוי המפורסם שהפריך את מודל עוגת הצימוקים של האטום ע\"י צפיה בחלקיקי אלפא, שמתפזרים מאטומים, וע\"י קביעה שלאטומים חייב להיות גרעין קטן."
+  "options.projectorMode": {
+    "value": "מצב הקרנה",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "מצב הקרנה"
+      }
+    ]
   },
   "alphaParticleProperties": {
-    "value": "תכונות חלקי האלפא"
+    "value": "תכונות חלקי האלפא",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "תכונות חלקי האלפא"
+      }
+    ]
+  },
+  "energy": {
+    "value": "אנרגיה:",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "אנרגיה:"
+      }
+    ]
+  },
+  "maxEnergy": {
+    "value": "מקסימום",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "מקסימום"
+      }
+    ]
+  },
+  "minEnergy": {
+    "value": "מינימום",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "מינימום"
+      }
+    ]
+  },
+  "showTraces": {
+    "value": "הראה עקבות",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "הראה עקבות"
+      }
+    ]
+  },
+  "legend": {
+    "value": "מקרא",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "מקרא"
+      }
+    ]
+  },
+  "alphaParticle": {
+    "value": "חלקיק אלפא",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "חלקיק אלפא"
+      }
+    ]
+  },
+  "electron": {
+    "value": "אלקטרון",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "אלקטרון"
+      }
+    ]
+  },
+  "neutron": {
+    "value": "נויטרון",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "נויטרון"
+      }
+    ]
+  },
+  "positiveCharge": {
+    "value": "מטען חיובי",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "מטען חיובי"
+      }
+    ]
+  },
+  "proton": {
+    "value": "פרוטון",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "פרוטון"
+      }
+    ]
+  },
+  "alphaParticles": {
+    "value": "חלקיקי אלפא",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "חלקיקי אלפא"
+      }
+    ]
+  },
+  "pattern.0atomicScale": {
+    "value": "{0} m (קנה מידה אטומי)",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "{0} m (קנה מידה אטומי)"
+      }
+    ]
+  },
+  "plumPuddingAtom": {
+    "value": "מודל עוגת הצימוקים",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "מודל עוגת הצימוקים"
+      }
+    ]
+  },
+  "alphaParticleTrace": {
+    "value": "עקבות חלקיקי אלפא",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "עקבות חלקיקי אלפא"
+      }
+    ]
+  },
+  "electronEnergyLevel": {
+    "value": "רמת יינון של האלקטרונים",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "רמת יינון של האלקטרונים"
+      }
+    ]
+  },
+  "nucleus": {
+    "value": "גרעין",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "גרעין"
+      }
+    ]
+  },
+  "atom": {
+    "value": "אטום",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "אטום"
+      }
+    ]
+  },
+  "numberOfNeutrons": {
+    "value": "מספר נויטרונים:",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "מספר נויטרונים:"
+      }
+    ]
+  },
+  "numberOfProtons": {
+    "value": "מספר פרוטונים:",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "מספר פרוטונים:"
+      }
+    ]
+  },
+  "pattern.0nuclearScale": {
+    "value": "{0} m (קנה מידה גרעיני)",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "{0} m (קנה מידה גרעיני)"
+      }
+    ]
+  },
+  "rutherfordAtom": {
+    "value": "אטום ראתרפורד",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "אטום ראתרפורד"
+      }
+    ]
+  },
+  "rutherford-scattering.title": {
+    "value": "פיזור ראתרפורד",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "פיזור ראתרפורד"
+      }
+    ]
+  },
+  "int.minControlPanelWidth": {
+    "value": "250",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "250"
+      }
+    ]
+  },
+  "turnOnTheGun": {
+    "value": "הפעל תותח",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "הפעל תותח"
+      }
+    ]
+  },
+  "atomProperties": {
+    "value": "תכונות האטום",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "תכונות האטום"
+      }
+    ]
+  },
+  "rutherford-scattering.description": {
+    "value": "כיצד פענח ראתרפורד את מבנה גרעין האטום מבלי לצפות בו? בצע סימולציה של הניסוי המפורסם שהפריך את מודל עוגת הצימוקים של האטום ע",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627776069644,
+        "oldValue": "",
+        "newValue": "כיצד פענח ראתרפורד את מבנה גרעין האטום מבלי לצפות בו? בצע סימולציה של הניסוי המפורסם שהפריך את מודל עוגת הצימוקים של האטום ע"
+      }
+    ]
   }
 }
