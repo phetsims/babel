@@ -11,24 +11,36 @@
     ]
   },
   "screen.generic": {
-    "value": "Generisk",
+    "value": "Generelt",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1629097851266,
         "oldValue": "",
         "newValue": "Generisk"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1629183172388,
+        "oldValue": "Generisk",
+        "newValue": "Generelt"
       }
     ]
   },
   "genericAbsoluteDistanceTemplate": {
-    "value": "{{secondaryPointControllerLabel}} og {{primaryPointControllerLabel}} er {{difference}} {{units}} adskilt.",
+    "value": "{{secondaryPointControllerLabel}} og {{primaryPointControllerLabel}} er {{difference}} {{units}} fra hinanden.",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1629097851266,
         "oldValue": "",
         "newValue": "{{secondaryPointControllerLabel}} og {{primaryPointControllerLabel}} er {{difference}} {{units}} adskilt."
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1629183172388,
+        "oldValue": "{{secondaryPointControllerLabel}} og {{primaryPointControllerLabel}} er {{difference}} {{units}} adskilt.",
+        "newValue": "{{secondaryPointControllerLabel}} og {{primaryPointControllerLabel}} er {{difference}} {{units}} fra hinanden."
       }
     ]
   },
@@ -143,13 +155,19 @@
     ]
   },
   "distanceSceneAbsoluteDistanceTemplate": {
-    "value": "{{secondaryPointControllerLabel}} og {{primaryPointControllerLabel}} er {{difference}} {{units}} adskilt.",
+    "value": "{{secondaryPointControllerLabel}} og {{primaryPointControllerLabel}} er {{difference}} {{units}} fra hinanden.",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1629097851266,
         "oldValue": "",
         "newValue": "{{secondaryPointControllerLabel}} og {{primaryPointControllerLabel}} er {{difference}} {{units}} adskilt."
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1629183172388,
+        "oldValue": "{{secondaryPointControllerLabel}} og {{primaryPointControllerLabel}} er {{difference}} {{units}} adskilt.",
+        "newValue": "{{secondaryPointControllerLabel}} og {{primaryPointControllerLabel}} er {{difference}} {{units}} fra hinanden."
       }
     ]
   },
@@ -260,6 +278,17 @@
         "timestamp": 1629097851266,
         "oldValue": "",
         "newValue": "Placering {{secondaryPointControllerLabel}} er {{difference}} {{units}} koldere end placering {{primaryPointControllerLabel}}."
+      }
+    ]
+  },
+  "symbol.degreesCelsius": {
+    "value": "°C",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1629183172388,
+        "oldValue": "",
+        "newValue": "°C"
       }
     ]
   },
@@ -418,13 +447,19 @@
     ]
   },
   "number-line-distance.title": {
-    "value": "Tallinie: Afstand",
+    "value": "Tallinje: Afstand",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1629097851266,
         "oldValue": "",
         "newValue": "Tallinie: Afstand"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1629183172388,
+        "oldValue": "Tallinie: Afstand",
+        "newValue": "Tallinje: Afstand"
       }
     ]
   }
