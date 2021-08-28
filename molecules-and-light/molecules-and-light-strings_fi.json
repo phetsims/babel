@@ -1,4 +1,52 @@
 {
+  "molecules-and-light.title": {
+    "value": "Molekyylit ja sähkömagneettinen säteily",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1457866061018,
+        "oldValue": "",
+        "newValue": "Molekyylit ja valo",
+        "explanation": null
+      },
+      {
+        "userId": 161174,
+        "timestamp": 1630155988925,
+        "oldValue": "Molekyylit ja valo",
+        "newValue": "Molekyylit ja sähkömagneettinen säteily"
+      }
+    ]
+  },
+  "molecularNamePattern": {
+    "value": "{0} ({1})",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1457866061018,
+        "oldValue": "",
+        "newValue": "{0} ({1})",
+        "explanation": null
+      }
+    ]
+  },
+  "SpectrumWindow.buttonCaption": {
+    "value": "Näytä säteilyn spektri",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1457866061018,
+        "oldValue": "",
+        "newValue": "Näytä valon spektri",
+        "explanation": null
+      },
+      {
+        "userId": 161174,
+        "timestamp": 1630155988925,
+        "oldValue": "Näytä valon spektri",
+        "newValue": "Näytä säteilyn spektri"
+      }
+    ]
+  },
   "ButtonNode.ReturnMolecule": {
     "value": "Palauta molekyyli",
     "history": [
@@ -7,90 +55,6 @@
         "timestamp": 1457866061018,
         "oldValue": "",
         "newValue": "Palauta molekyyli",
-        "explanation": null
-      }
-    ]
-  },
-  "ControlPanel.CarbonDioxide": {
-    "value": "Hiilidioksidi",
-    "history": [
-      {
-        "userId": 158684,
-        "timestamp": 1457866061018,
-        "oldValue": "",
-        "newValue": "Hiilidioksidi",
-        "explanation": null
-      }
-    ]
-  },
-  "ControlPanel.CarbonMonoxide": {
-    "value": "Hiilimonoksidi",
-    "history": [
-      {
-        "userId": 158684,
-        "timestamp": 1457866061018,
-        "oldValue": "",
-        "newValue": "Hiilimonoksidi",
-        "explanation": null
-      }
-    ]
-  },
-  "ControlPanel.Nitrogen": {
-    "value": "Typpi",
-    "history": [
-      {
-        "userId": 158684,
-        "timestamp": 1457866061018,
-        "oldValue": "",
-        "newValue": "Typpi",
-        "explanation": null
-      }
-    ]
-  },
-  "ControlPanel.NitrogenDioxide": {
-    "value": "Typpidioksidi",
-    "history": [
-      {
-        "userId": 158684,
-        "timestamp": 1457866061018,
-        "oldValue": "",
-        "newValue": "Typpidioksidi",
-        "explanation": null
-      }
-    ]
-  },
-  "ControlPanel.Oxygen": {
-    "value": "Happi",
-    "history": [
-      {
-        "userId": 158684,
-        "timestamp": 1457866061018,
-        "oldValue": "",
-        "newValue": "Happi",
-        "explanation": null
-      }
-    ]
-  },
-  "ControlPanel.Ozone": {
-    "value": "Otsoni",
-    "history": [
-      {
-        "userId": 158684,
-        "timestamp": 1457866061018,
-        "oldValue": "",
-        "newValue": "Otsoni",
-        "explanation": null
-      }
-    ]
-  },
-  "ControlPanel.Water": {
-    "value": "Vesi",
-    "history": [
-      {
-        "userId": 158684,
-        "timestamp": 1457866061018,
-        "oldValue": "",
-        "newValue": "Vesi",
         "explanation": null
       }
     ]
@@ -144,7 +108,7 @@
     ]
   },
   "QuadWavelengthSelector.Visible": {
-    "value": "Näkyvä",
+    "value": "Näkyvä valo",
     "history": [
       {
         "userId": 158684,
@@ -152,30 +116,12 @@
         "oldValue": "",
         "newValue": "Näkyvä",
         "explanation": null
-      }
-    ]
-  },
-  "SpectrumWindow.buttonCaption": {
-    "value": "Näytä valon spektri",
-    "history": [
+      },
       {
-        "userId": 158684,
-        "timestamp": 1457866061018,
-        "oldValue": "",
-        "newValue": "Näytä valon spektri",
-        "explanation": null
-      }
-    ]
-  },
-  "SpectrumWindow.close": {
-    "value": "Sulje",
-    "history": [
-      {
-        "userId": 158684,
-        "timestamp": 1457866061018,
-        "oldValue": "",
-        "newValue": "Sulje",
-        "explanation": null
+        "userId": 161174,
+        "timestamp": 1630155988925,
+        "oldValue": "Näkyvä",
+        "newValue": "Näkyvä valo"
       }
     ]
   },
@@ -204,7 +150,7 @@
     ]
   },
   "SpectrumWindow.gammaRayBandLabel": {
-    "value": "Gamma",
+    "value": "Gammasäteily",
     "history": [
       {
         "userId": 158684,
@@ -212,11 +158,17 @@
         "oldValue": "",
         "newValue": "Gamma",
         "explanation": null
+      },
+      {
+        "userId": 161174,
+        "timestamp": 1630155988925,
+        "oldValue": "Gamma",
+        "newValue": "Gammasäteily"
       }
     ]
   },
   "SpectrumWindow.infraredBandLabel": {
-    "value": "Infrapuna",
+    "value": "Infrapunasäteily",
     "history": [
       {
         "userId": 158684,
@@ -224,6 +176,12 @@
         "oldValue": "",
         "newValue": "Infrapuna",
         "explanation": null
+      },
+      {
+        "userId": 161174,
+        "timestamp": 1630155988925,
+        "oldValue": "Infrapuna",
+        "newValue": "Infrapunasäteily"
       }
     ]
   },
@@ -252,7 +210,7 @@
     ]
   },
   "SpectrumWindow.radioBandLabel": {
-    "value": "Radio",
+    "value": "Radioaalto",
     "history": [
       {
         "userId": 158684,
@@ -260,11 +218,17 @@
         "oldValue": "",
         "newValue": "Radio",
         "explanation": null
+      },
+      {
+        "userId": 161174,
+        "timestamp": 1630155988925,
+        "oldValue": "Radio",
+        "newValue": "Radioaalto"
       }
     ]
   },
   "SpectrumWindow.title": {
-    "value": "Valon spektri",
+    "value": "Säteilyn spektri",
     "history": [
       {
         "userId": 158684,
@@ -272,6 +236,12 @@
         "oldValue": "",
         "newValue": "Valon spektri",
         "explanation": null
+      },
+      {
+        "userId": 161174,
+        "timestamp": 1630155988925,
+        "oldValue": "Valon spektri",
+        "newValue": "Säteilyn spektri"
       }
     ]
   },
@@ -288,7 +258,7 @@
     ]
   },
   "SpectrumWindow.visibleBandLabel": {
-    "value": "Näkyvä",
+    "value": "Näkyvä valo",
     "history": [
       {
         "userId": 158684,
@@ -296,6 +266,12 @@
         "oldValue": "",
         "newValue": "Näkyvä",
         "explanation": null
+      },
+      {
+        "userId": 161174,
+        "timestamp": 1630155988925,
+        "oldValue": "Näkyvä",
+        "newValue": "Näkyvä valo"
       }
     ]
   },
@@ -312,7 +288,7 @@
     ]
   },
   "SpectrumWindow.xrayBandLabel": {
-    "value": "Röntgen",
+    "value": "Röntgensäteily",
     "history": [
       {
         "userId": 158684,
@@ -320,29 +296,118 @@
         "oldValue": "",
         "newValue": "Röntgen",
         "explanation": null
+      },
+      {
+        "userId": 161174,
+        "timestamp": 1630155988925,
+        "oldValue": "Röntgen",
+        "newValue": "Röntgensäteily"
       }
     ]
   },
-  "molecularNamePattern": {
-    "value": "{0} ({1})",
+  "ControlPanel.CarbonDioxide": {
+    "value": "Hiilidioksidi",
     "history": [
       {
         "userId": 158684,
         "timestamp": 1457866061018,
         "oldValue": "",
-        "newValue": "{0} ({1})",
+        "newValue": "Hiilidioksidi",
         "explanation": null
       }
     ]
   },
-  "molecules-and-light.title": {
-    "value": "Molekyylit ja valo",
+  "ControlPanel.CarbonMonoxide": {
+    "value": "Hiilimonoksidi",
     "history": [
       {
         "userId": 158684,
         "timestamp": 1457866061018,
         "oldValue": "",
-        "newValue": "Molekyylit ja valo",
+        "newValue": "Hiilimonoksidi",
+        "explanation": null
+      }
+    ]
+  },
+  "ControlPanel.Methane": {
+    "value": "Metaani",
+    "history": [
+      {
+        "userId": 161174,
+        "timestamp": 1630155988925,
+        "oldValue": "",
+        "newValue": "Metaani"
+      }
+    ]
+  },
+  "ControlPanel.NitrogenDioxide": {
+    "value": "Typpidioksidi",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1457866061018,
+        "oldValue": "",
+        "newValue": "Typpidioksidi",
+        "explanation": null
+      }
+    ]
+  },
+  "ControlPanel.Nitrogen": {
+    "value": "Typpi",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1457866061018,
+        "oldValue": "",
+        "newValue": "Typpi",
+        "explanation": null
+      }
+    ]
+  },
+  "ControlPanel.Oxygen": {
+    "value": "Happi",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1457866061018,
+        "oldValue": "",
+        "newValue": "Happi",
+        "explanation": null
+      }
+    ]
+  },
+  "ControlPanel.Ozone": {
+    "value": "Otsoni",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1457866061018,
+        "oldValue": "",
+        "newValue": "Otsoni",
+        "explanation": null
+      }
+    ]
+  },
+  "ControlPanel.Water": {
+    "value": "Vesi",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1457866061018,
+        "oldValue": "",
+        "newValue": "Vesi",
+        "explanation": null
+      }
+    ]
+  },
+  "SpectrumWindow.close": {
+    "value": "Sulje",
+    "history": [
+      {
+        "userId": 158684,
+        "timestamp": 1457866061018,
+        "oldValue": "",
+        "newValue": "Sulje",
         "explanation": null
       }
     ]
