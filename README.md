@@ -6,7 +6,7 @@ web-based utility. If you are interested in translating PhET simulations, please
 https://phet.colorado.edu/en/for-translators.
 
 By PhET Interactive Simulations
-http://phet.colorado.edu/
+https://phet.colorado.edu/
 
 ### License
 See the [license](LICENSE)
