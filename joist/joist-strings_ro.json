@@ -78,18 +78,6 @@
       }
     ]
   },
-  "menuItem.enhancedSound": {
-    "value": "Sunet îmbunătățit",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1601317946899,
-        "oldValue": "",
-        "newValue": "Sunet îmbunătățit",
-        "explanation": null
-      }
-    ]
-  },
   "menuItem.fullscreen": {
     "value": "Afișare pe tot ecranul",
     "history": [
@@ -109,7 +97,7 @@
     ]
   },
   "updates.getUpdate": {
-    "value": "Actualizează",
+    "value": "Descarcă actualizare...",
     "history": [
       {
         "userId": 161937,
@@ -123,6 +111,12 @@
         "timestamp": 1624711975283,
         "oldValue": "Preia actualizări",
         "newValue": "Actualizează"
+      },
+      {
+        "userId": 955557,
+        "timestamp": 1632061505378,
+        "oldValue": "Actualizează",
+        "newValue": "Descarcă actualizare..."
       }
     ]
   },
@@ -139,7 +133,7 @@
     ]
   },
   "keyboardShortcuts.title": {
-    "value": "Scurtături de la tastatură",
+    "value": "Scurtături tastatură",
     "history": [
       {
         "userId": 726466,
@@ -153,6 +147,12 @@
         "timestamp": 1624711975283,
         "oldValue": "Taste scurte",
         "newValue": "Scurtături de la tastatură"
+      },
+      {
+        "userId": 955557,
+        "timestamp": 1632061505379,
+        "oldValue": "Scurtături de la tastatură",
+        "newValue": "Scurtături tastatură"
       }
     ]
   },
@@ -175,7 +175,7 @@
     ]
   },
   "menuItem.mailInputEventsLog": {
-    "value": "E-mail jurnal intrări",
+    "value": "Trimite pe mail jurnalul de intrări",
     "history": [
       {
         "userId": 161937,
@@ -183,6 +183,12 @@
         "oldValue": "",
         "newValue": "E-mail jurnal intrări",
         "explanation": null
+      },
+      {
+        "userId": 955557,
+        "timestamp": 1632061505379,
+        "oldValue": "E-mail jurnal intrări",
+        "newValue": "Trimite pe mail jurnalul de intrări"
       }
     ]
   },
@@ -360,24 +366,6 @@
       }
     ]
   },
-  "credits.soundDesign": {
-    "value": "Sunet: {0}",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1601317946899,
-        "oldValue": "",
-        "newValue": "Sonorizare: {0}",
-        "explanation": null
-      },
-      {
-        "userId": 954258,
-        "timestamp": 1624711975283,
-        "oldValue": "Sonorizare: {0}",
-        "newValue": "Sunet: {0}"
-      }
-    ]
-  },
   "menuItem.submitInputEventsLog": {
     "value": "Trimite jurnal intrări",
     "history": [
@@ -469,7 +457,7 @@
     ]
   },
   "updates.upToDate": {
-    "value": "Simulare actualizată",
+    "value": "Această simulare este la zi.",
     "history": [
       {
         "userId": 161937,
@@ -484,30 +472,17 @@
         "oldValue": "Actualizare la zi",
         "newValue": "Simulare actualizată",
         "explanation": null
-      }
-    ]
-  },
-  "keyboardShortcuts.toGetStarted": {
-    "value": "pentru a începe",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1601317946899,
-        "oldValue": "",
-        "newValue": "pentru a incepe",
-        "explanation": null
       },
       {
-        "userId": 183155,
-        "timestamp": 1607496376996,
-        "oldValue": "pentru a incepe",
-        "newValue": "pentru a începe",
-        "explanation": null
+        "userId": 955557,
+        "timestamp": 1632061505379,
+        "oldValue": "Simulare actualizată",
+        "newValue": "Această simulare este la zi."
       }
     ]
   },
   "credits.translation": {
-    "value": "Traducerea Florean Mihail",
+    "value": "Traducere",
     "history": [
       {
         "userId": 161937,
@@ -555,11 +530,17 @@
         "timestamp": 1631276433209,
         "oldValue": "Traducerea",
         "newValue": "Traducerea Florean Mihail"
+      },
+      {
+        "userId": 955557,
+        "timestamp": 1632061505379,
+        "oldValue": "Traducerea Florean Mihail",
+        "newValue": "Traducere"
       }
     ]
   },
   "translation.credits.link": {
-    "value": "Traducerea:",
+    "value": "Traducere",
     "history": [
       {
         "userId": 161937,
@@ -601,11 +582,17 @@
         "timestamp": 1624711975283,
         "oldValue": "Tradus de: ",
         "newValue": "Traducerea:"
+      },
+      {
+        "userId": 955557,
+        "timestamp": 1632061505379,
+        "oldValue": "Traducerea:",
+        "newValue": "Traducere"
       }
     ]
   },
   "updates.offline": {
-    "value": "Nu se pot căuta actualizări",
+    "value": "Nu se pot căuta actualizări.",
     "history": [
       {
         "userId": 161937,
@@ -619,6 +606,12 @@
         "timestamp": 1624711975283,
         "oldValue": "Imposibil de găsit actualizări",
         "newValue": "Nu se pot căuta actualizări"
+      },
+      {
+        "userId": 955557,
+        "timestamp": 1632061505379,
+        "oldValue": "Nu se pot căuta actualizări",
+        "newValue": "Nu se pot căuta actualizări."
       }
     ]
   },
@@ -666,6 +659,55 @@
         "timestamp": 1601317946899,
         "oldValue": "",
         "newValue": "{{simName}} — {{screenName}}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.enhancedSound": {
+    "value": "Sunet îmbunătățit",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "Sunet îmbunătățit",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.soundDesign": {
+    "value": "Sunet: {0}",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "Sonorizare: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 954258,
+        "timestamp": 1624711975283,
+        "oldValue": "Sonorizare: {0}",
+        "newValue": "Sunet: {0}"
+      }
+    ]
+  },
+  "keyboardShortcuts.toGetStarted": {
+    "value": "pentru a începe",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "pentru a incepe",
+        "explanation": null
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1607496376996,
+        "oldValue": "pentru a incepe",
+        "newValue": "pentru a începe",
         "explanation": null
       }
     ]
