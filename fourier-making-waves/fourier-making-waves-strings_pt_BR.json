@@ -10,17 +10,6 @@
       }
     ]
   },
-  "screen.waveGame": {
-    "value": "Jogo da Onda",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1634241436852,
-        "oldValue": "",
-        "newValue": "Jogo da Onda"
-      }
-    ]
-  },
   "screen.wavePacket": {
     "value": "Pacote de Onda",
     "history": [
@@ -29,6 +18,17 @@
         "timestamp": 1634241436852,
         "oldValue": "",
         "newValue": "Pacote de Onda"
+      }
+    ]
+  },
+  "screen.waveGame": {
+    "value": "Jogo da Onda",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1634241436852,
+        "oldValue": "",
+        "newValue": "Jogo da Onda"
       }
     ]
   },
@@ -62,6 +62,28 @@
         "timestamp": 1634241436852,
         "oldValue": "",
         "newValue": "Você não pode fazer uma onda serrilhada com cossenos<br>pois ela é assimétrica. Mudando para senos. "
+      }
+    ]
+  },
+  "amplitudesOfFourierComponents": {
+    "value": "Amplitudes dos Componentes de Fourier ",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1634241436852,
+        "oldValue": "",
+        "newValue": "Amplitudes dos Componentes de Fourier "
+      }
+    ]
+  },
+  "fourierComponents": {
+    "value": "Componentes de Fourier",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1634241436852,
+        "oldValue": "",
+        "newValue": "Componentes de Fourier"
       }
     ]
   },
@@ -110,13 +132,19 @@
     ]
   },
   "keyboardHelpDialog.checkYourAnswer": {
-    "value": "Verifique sua resposta",
+    "value": "Verificar",
     "history": [
       {
         "userId": 143491,
         "timestamp": 1634241436852,
         "oldValue": "",
         "newValue": "Verifique sua resposta"
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1634320535427,
+        "oldValue": "Verifique sua resposta",
+        "newValue": "Verificar"
       }
     ]
   },
@@ -131,25 +159,47 @@
       }
     ]
   },
-  "amplitudesOfFourierComponents": {
-    "value": "Amplitudes dos Componentes de Fourier ",
+  "keyboardHelpDialog.moveTool": {
+    "value": "Mover ferramenta",
     "history": [
       {
         "userId": 143491,
         "timestamp": 1634241436852,
         "oldValue": "",
-        "newValue": "Amplitudes dos Componentes de Fourier "
+        "newValue": "Mover ferramenta"
       }
     ]
   },
-  "fourierComponents": {
-    "value": "Componentes de Fourier",
+  "keyboardHelpDialog.moveToolSlower": {
+    "value": "Mover mais devagar ",
     "history": [
       {
         "userId": 143491,
         "timestamp": 1634241436852,
         "oldValue": "",
-        "newValue": "Componentes de Fourier"
+        "newValue": "Mover mais devagar "
+      }
+    ]
+  },
+  "keyboardHelpDialog.measurementTools": {
+    "value": "Ferramentas de Medição",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1634241436852,
+        "oldValue": "",
+        "newValue": "Ferramentas de Medição"
+      }
+    ]
+  },
+  "minToMax": {
+    "value": "{{min}} até {{max}}",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1634241436852,
+        "oldValue": "",
+        "newValue": "{{min}} até {{max}}"
       }
     ]
   },
@@ -238,50 +288,6 @@
         "timestamp": 1634241436852,
         "oldValue": "",
         "newValue": "sen"
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveTool": {
-    "value": "Mover ferramenta",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1634241436852,
-        "oldValue": "",
-        "newValue": "Mover ferramenta"
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveToolSlower": {
-    "value": "Mover mais devagar ",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1634241436852,
-        "oldValue": "",
-        "newValue": "Mover mais devagar "
-      }
-    ]
-  },
-  "keyboardHelpDialog.measurementTools": {
-    "value": "Ferramentas de Medição",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1634241436852,
-        "oldValue": "",
-        "newValue": "Ferramentas de Medição"
-      }
-    ]
-  },
-  "minToMax": {
-    "value": "{{min}} até {{max}}",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1634241436852,
-        "oldValue": "",
-        "newValue": "{{min}} até {{max}}"
       }
     ]
   },
@@ -417,6 +423,78 @@
       }
     ]
   },
+  "continuousWaveform": {
+    "value": "Forma de Onda Contínua",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1634241436852,
+        "oldValue": "",
+        "newValue": "Forma de Onda Contínua"
+      }
+    ]
+  },
+  "waveformEnvelope": {
+    "value": "Forma de Onda Envelope",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1634241436852,
+        "oldValue": "",
+        "newValue": "Forma de Onda Envelope"
+      }
+    ]
+  },
+  "infiniteComponentsCannotBePlotted": {
+    "value": "Não pode ser plotado um número infinito de componentes. ",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1634241436852,
+        "oldValue": "",
+        "newValue": "Não pode ser plotado um número infinito de componentes. "
+      }
+    ]
+  },
+  "componentSpacing": {
+    "value": "Espaçamento da Componente ",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1634241436852,
+        "oldValue": "",
+        "newValue": "Espaçamento do Componente "
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1634320535428,
+        "oldValue": "Espaçamento do Componente ",
+        "newValue": "Espaçamento da Componente "
+      }
+    ]
+  },
+  "wavePacketCenter": {
+    "value": "Centro de Pacote de Onda ",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1634241436852,
+        "oldValue": "",
+        "newValue": "Centro de Pacote de Onda "
+      }
+    ]
+  },
+  "wavePacketWidth": {
+    "value": "Largura de Pacote de Onda ",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1634241436852,
+        "oldValue": "",
+        "newValue": "Largura de Pacote de Onda "
+      }
+    ]
+  },
   "checkAnswer": {
     "value": "Verifique a resposta ",
     "history": [
@@ -458,72 +536,6 @@
         "timestamp": 1634241436852,
         "oldValue": "",
         "newValue": "Escolha o Nível"
-      }
-    ]
-  },
-  "continuousWaveform": {
-    "value": "Forma de Onda Contínua",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1634241436852,
-        "oldValue": "",
-        "newValue": "Forma de Onda Contínua"
-      }
-    ]
-  },
-  "waveformEnvelope": {
-    "value": "Forma de Onda Envelope",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1634241436852,
-        "oldValue": "",
-        "newValue": "Forma de Onda Envelope"
-      }
-    ]
-  },
-  "infiniteComponentsCannotBePlotted": {
-    "value": "Não pode ser plotado um número infinito de componentes. ",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1634241436852,
-        "oldValue": "",
-        "newValue": "Não pode ser plotado um número infinito de componentes. "
-      }
-    ]
-  },
-  "componentSpacing": {
-    "value": "Espaçamento do Componente ",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1634241436852,
-        "oldValue": "",
-        "newValue": "Espaçamento do Componente "
-      }
-    ]
-  },
-  "wavePacketCenter": {
-    "value": "Centro de Pacote de Onda ",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1634241436852,
-        "oldValue": "",
-        "newValue": "Centro de Pacote de Onda "
-      }
-    ]
-  },
-  "wavePacketWidth": {
-    "value": "Largura de Pacote de Onda ",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1634241436852,
-        "oldValue": "",
-        "newValue": "Largura de Pacote de Onda "
       }
     ]
   },
@@ -704,46 +716,70 @@
     ]
   },
   "sinusoid": {
-    "value": "sinusóide ",
+    "value": "senoidal",
     "history": [
       {
         "userId": 143491,
         "timestamp": 1634241436852,
         "oldValue": "",
         "newValue": "sinusóide "
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1634320535428,
+        "oldValue": "sinusóide ",
+        "newValue": "senoidal"
       }
     ]
   },
   "triangle": {
-    "value": "triângulo",
+    "value": "triangular",
     "history": [
       {
         "userId": 143491,
         "timestamp": 1634241436852,
         "oldValue": "",
         "newValue": "triângulo"
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1634320535428,
+        "oldValue": "triângulo",
+        "newValue": "triangular"
       }
     ]
   },
   "square": {
-    "value": "quadrado",
+    "value": "quadrada",
     "history": [
       {
         "userId": 143491,
         "timestamp": 1634241436852,
         "oldValue": "",
         "newValue": "quadrado"
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1634320535428,
+        "oldValue": "quadrado",
+        "newValue": "quadrada"
       }
     ]
   },
   "sawtooth": {
-    "value": "serrilhado",
+    "value": "serrilhada",
     "history": [
       {
         "userId": 143491,
         "timestamp": 1634241436852,
         "oldValue": "",
         "newValue": "serrilhado"
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1634320535428,
+        "oldValue": "serrilhado",
+        "newValue": "serrilhada"
       }
     ]
   },
@@ -759,13 +795,19 @@
     ]
   },
   "custom": {
-    "value": "personalizado",
+    "value": "personalizada",
     "history": [
       {
         "userId": 143491,
         "timestamp": 1634241436852,
         "oldValue": "",
         "newValue": "personalizado"
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1634320535428,
+        "oldValue": "personalizado",
+        "newValue": "personalizada"
       }
     ]
   },
@@ -777,28 +819,6 @@
         "timestamp": 1634241436852,
         "oldValue": "",
         "newValue": "Comprimento de Onda:"
-      }
-    ]
-  },
-  "amplitudeControls": {
-    "value": "Controles de Amplitude:",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1634241436852,
-        "oldValue": "",
-        "newValue": "Controles de Amplitude:"
-      }
-    ]
-  },
-  "levels": {
-    "value": "Níveis",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1634241436852,
-        "oldValue": "",
-        "newValue": "Níveis"
       }
     ]
   },
@@ -821,6 +841,28 @@
         "timestamp": 1634241436852,
         "oldValue": "",
         "newValue": "Indicadores de largura "
+      }
+    ]
+  },
+  "amplitudeControls": {
+    "value": "Controles de Amplitude:",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1634241436852,
+        "oldValue": "",
+        "newValue": "Controles de Amplitude:"
+      }
+    ]
+  },
+  "levels": {
+    "value": "Níveis",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1634241436852,
+        "oldValue": "",
+        "newValue": "Níveis"
       }
     ]
   },
