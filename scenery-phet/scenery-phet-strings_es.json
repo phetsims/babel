@@ -1,4 +1,26 @@
 {
+  "keyboardHelpDialog.hyphen": {
+    "value": "-",
+    "history": [
+      {
+        "userId": 964963,
+        "timestamp": 1634582445403,
+        "oldValue": "",
+        "newValue": "-"
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjust": {
+    "value": "Ajustar ",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1618591684286,
+        "oldValue": "",
+        "newValue": "Ajustar "
+      }
+    ]
+  },
   "key.alt": {
     "value": "Alt",
     "history": [
@@ -158,6 +180,18 @@
       }
     ]
   },
+  "speed.fast": {
+    "value": "Rápido ",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1608226194494,
+        "oldValue": "",
+        "newValue": "Rápido ",
+        "explanation": null
+      }
+    ]
+  },
   "key.fn": {
     "value": "Fn",
     "history": [
@@ -166,6 +200,32 @@
         "timestamp": 1613012970995,
         "oldValue": "",
         "newValue": "Fn"
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "Agarra o suelta {{thing}}",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1544581085277,
+        "oldValue": "",
+        "newValue": "Agarra o suelta {{thing}}",
+        "explanation": null
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1563484834340,
+        "oldValue": "Agarra o suelta {{thing}}",
+        "newValue": "Agarrar o soltar {{thing}}",
+        "explanation": null
+      },
+      {
+        "userId": 155750,
+        "timestamp": 1583534681079,
+        "oldValue": "Agarrar o soltar {{thing}}",
+        "newValue": "Agarra o suelta {{thing}}",
+        "explanation": null
       }
     ]
   },
@@ -265,32 +325,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-    "value": "Agarra o suelta {{thing}}",
-    "history": [
-      {
-        "userId": 282036,
-        "timestamp": 1544581085277,
-        "oldValue": "",
-        "newValue": "Agarra o suelta {{thing}}",
-        "explanation": null
-      },
-      {
-        "userId": 282036,
-        "timestamp": 1563484834340,
-        "oldValue": "Agarra o suelta {{thing}}",
-        "newValue": "Agarrar o soltar {{thing}}",
-        "explanation": null
-      },
-      {
-        "userId": 155750,
-        "timestamp": 1583534681079,
-        "oldValue": "Agarrar o soltar {{thing}}",
-        "newValue": "Agarra o suelta {{thing}}",
-        "explanation": null
-      }
-    ]
-  },
   "key.home": {
     "value": "Inicio",
     "history": [
@@ -300,6 +334,50 @@
         "oldValue": "",
         "newValue": "Inicio",
         "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMaximumPattern": {
+    "value": "Ir hasta {{maximum}}",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1618591684286,
+        "oldValue": "",
+        "newValue": "Ir hasta {{maximum}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMinimumPattern": {
+    "value": "Ir hasta {{minimum}}",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1618591684286,
+        "oldValue": "",
+        "newValue": "Ir hasta {{minimum}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.maximum": {
+    "value": "máximo ",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1618591684286,
+        "oldValue": "",
+        "newValue": "máximo "
+      }
+    ]
+  },
+  "keyboardHelpDialog.minimum": {
+    "value": "mínimo",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1618591684286,
+        "oldValue": "",
+        "newValue": "mínimo"
       }
     ]
   },
@@ -419,6 +497,18 @@
         "timestamp": 1583534681079,
         "oldValue": "Mover al elemento o grupo anterior ",
         "newValue": "mover al elemento o grupo anterior ",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "Normal",
+    "history": [
+      {
+        "userId": 685589,
+        "timestamp": 1565974995620,
+        "oldValue": "",
+        "newValue": "Normal",
         "explanation": null
       }
     ]
@@ -832,6 +922,40 @@
       }
     ]
   },
+  "keyboardHelpDialog.slider": {
+    "value": "deslizador",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1618591684286,
+        "oldValue": "",
+        "newValue": "deslizador"
+      }
+    ]
+  },
+  "keyboardHelpDialog.sliderControls": {
+    "value": "Controles del Deslizador ",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1618591684286,
+        "oldValue": "",
+        "newValue": "Controles del Deslizador "
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "Lento",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1537466340434,
+        "oldValue": "",
+        "newValue": "Lento",
+        "explanation": null
+      }
+    ]
+  },
   "key.space": {
     "value": "Espacio",
     "history": [
@@ -949,6 +1073,39 @@
         "oldValue": "Activar/Desactivar casillas ",
         "newValue": "Alternar casillas de verificación",
         "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.verbInLargerStepsPattern": {
+    "value": " {{verb}} en pasos grandes",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1618591684286,
+        "oldValue": "",
+        "newValue": " {{verb}} en pasos grandes"
+      }
+    ]
+  },
+  "keyboardHelpDialog.verbInSmallerStepsPattern": {
+    "value": " {{verb}} en pasos pequeños",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1618591684286,
+        "oldValue": "",
+        "newValue": " {{verb}} en pasos pequeños"
+      }
+    ]
+  },
+  "keyboardHelpDialog.verbSliderPattern": {
+    "value": "{{verb}} {{slider}}",
+    "history": [
+      {
+        "userId": 964963,
+        "timestamp": 1634582445404,
+        "oldValue": "",
+        "newValue": "{{verb}} {{slider}}"
       }
     ]
   },
@@ -1090,17 +1247,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.adjust": {
-    "value": "Ajustar ",
-    "history": [
-      {
-        "userId": 282036,
-        "timestamp": 1618591684286,
-        "oldValue": "",
-        "newValue": "Ajustar "
-      }
-    ]
-  },
   "keyboardHelpDialog.comboBox.chooseAThingPattern": {
     "value": "Escoger {{thingTitle}}",
     "history": [
@@ -1142,50 +1288,6 @@
         "timestamp": 1618591684286,
         "oldValue": "",
         "newValue": "cuatro"
-      }
-    ]
-  },
-  "keyboardHelpDialog.jumpToMaximumPattern": {
-    "value": "Ir hasta {{maximum}}",
-    "history": [
-      {
-        "userId": 282036,
-        "timestamp": 1618591684286,
-        "oldValue": "",
-        "newValue": "Ir hasta {{maximum}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.jumpToMinimumPattern": {
-    "value": "Ir hasta {{minimum}}",
-    "history": [
-      {
-        "userId": 282036,
-        "timestamp": 1618591684286,
-        "oldValue": "",
-        "newValue": "Ir hasta {{minimum}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.maximum": {
-    "value": "máximo ",
-    "history": [
-      {
-        "userId": 282036,
-        "timestamp": 1618591684286,
-        "oldValue": "",
-        "newValue": "máximo "
-      }
-    ]
-  },
-  "keyboardHelpDialog.minimum": {
-    "value": "mínimo",
-    "history": [
-      {
-        "userId": 282036,
-        "timestamp": 1618591684286,
-        "oldValue": "",
-        "newValue": "mínimo"
       }
     ]
   },
@@ -1255,28 +1357,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.slider": {
-    "value": "deslizador",
-    "history": [
-      {
-        "userId": 282036,
-        "timestamp": 1618591684286,
-        "oldValue": "",
-        "newValue": "deslizador"
-      }
-    ]
-  },
-  "keyboardHelpDialog.sliderControls": {
-    "value": "Controles del Deslizador ",
-    "history": [
-      {
-        "userId": 282036,
-        "timestamp": 1618591684286,
-        "oldValue": "",
-        "newValue": "Controles del Deslizador "
-      }
-    ]
-  },
   "ten": {
     "value": "diez ",
     "history": [
@@ -1318,64 +1398,6 @@
         "timestamp": 1618591684286,
         "oldValue": "",
         "newValue": "cero"
-      }
-    ]
-  },
-  "keyboardHelpDialog.verbInLargerStepsPattern": {
-    "value": " {{verb}} en pasos grandes",
-    "history": [
-      {
-        "userId": 282036,
-        "timestamp": 1618591684286,
-        "oldValue": "",
-        "newValue": " {{verb}} en pasos grandes"
-      }
-    ]
-  },
-  "keyboardHelpDialog.verbInSmallerStepsPattern": {
-    "value": " {{verb}} en pasos pequeños",
-    "history": [
-      {
-        "userId": 282036,
-        "timestamp": 1618591684286,
-        "oldValue": "",
-        "newValue": " {{verb}} en pasos pequeños"
-      }
-    ]
-  },
-  "speed.fast": {
-    "value": "Rápido ",
-    "history": [
-      {
-        "userId": 282036,
-        "timestamp": 1608226194494,
-        "oldValue": "",
-        "newValue": "Rápido ",
-        "explanation": null
-      }
-    ]
-  },
-  "speed.normal": {
-    "value": "Normal",
-    "history": [
-      {
-        "userId": 685589,
-        "timestamp": 1565974995620,
-        "oldValue": "",
-        "newValue": "Normal",
-        "explanation": null
-      }
-    ]
-  },
-  "speed.slow": {
-    "value": "Lento",
-    "history": [
-      {
-        "userId": 282036,
-        "timestamp": 1537466340434,
-        "oldValue": "",
-        "newValue": "Lento",
-        "explanation": null
       }
     ]
   },
