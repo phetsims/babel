@@ -1,4 +1,34 @@
 {
+  "options.showOuterLonePairs": {
+    "value": "عرض ازواج الالكترونات الخارجية غير المرتبطة ",
+    "history": [
+      {
+        "userId": 576246,
+        "timestamp": 1533230008853,
+        "oldValue": "",
+        "newValue": "خيارات عرض الأزواج الغير مترابطة الخارجية",
+        "explanation": null
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1635584849980,
+        "oldValue": "خيارات عرض الأزواج الغير مترابطة الخارجية",
+        "newValue": "عرض ازواج الالكترونات الخارجية غير المرتبطة "
+      }
+    ]
+  },
+  "geometry.diatomic": {
+    "value": "خطي",
+    "history": [
+      {
+        "userId": 576246,
+        "timestamp": 1533230008853,
+        "oldValue": "",
+        "newValue": "خطي",
+        "explanation": null
+      }
+    ]
+  },
   "geometry.empty": {
     "value": "هندسة فراغية",
     "history": [
@@ -18,20 +48,8 @@
       }
     ]
   },
-  "geometry.diatomic": {
-    "value": "خطي",
-    "history": [
-      {
-        "userId": 576246,
-        "timestamp": 1533230008853,
-        "oldValue": "",
-        "newValue": "خطي",
-        "explanation": null
-      }
-    ]
-  },
   "geometry.linear": {
-    "value": "الهندسة الخطية",
+    "value": "خطي",
     "history": [
       {
         "userId": 576246,
@@ -39,17 +57,23 @@
         "oldValue": "",
         "newValue": "الهندسة الخطية",
         "explanation": null
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1635584849980,
+        "oldValue": "الهندسة الخطية",
+        "newValue": "خطي"
       }
     ]
   },
-  "geometry.trigonalPlanar": {
-    "value": "مستو ثلاثي الزوايا",
+  "geometry.octahedral": {
+    "value": "ثماني الأوجه  ",
     "history": [
       {
         "userId": 576246,
         "timestamp": 1533230008853,
         "oldValue": "",
-        "newValue": "مستو ثلاثي الزوايا",
+        "newValue": "ثماني الأوجه  ",
         "explanation": null
       }
     ]
@@ -67,7 +91,7 @@
     ]
   },
   "geometry.trigonalBipyramidal": {
-    "value": "ثلاثي الزوايا ثنائي الهرم",
+    "value": "هرم مزدوج ثلاثي",
     "history": [
       {
         "userId": 576246,
@@ -75,17 +99,59 @@
         "oldValue": "",
         "newValue": "ثلاثي الزوايا ثنائي الهرم",
         "explanation": null
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1635584849980,
+        "oldValue": "ثلاثي الزوايا ثنائي الهرم",
+        "newValue": "هرم مزدوج ثلاثي"
       }
     ]
   },
-  "geometry.octahedral": {
-    "value": "ثماني الأوجه  ",
+  "geometry.trigonalPlanar": {
+    "value": "مثلث مسطح",
     "history": [
       {
         "userId": 576246,
         "timestamp": 1533230008853,
         "oldValue": "",
-        "newValue": "ثماني الأوجه  ",
+        "newValue": "مستو ثلاثي الزوايا",
+        "explanation": null
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1635584849980,
+        "oldValue": "مستو ثلاثي الزوايا",
+        "newValue": "مثلث مسطح"
+      }
+    ]
+  },
+  "shape.bent": {
+    "value": "منحني",
+    "history": [
+      {
+        "userId": 576246,
+        "timestamp": 1533230008853,
+        "oldValue": "",
+        "newValue": "شكل مقوس  ",
+        "explanation": null
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1635584849980,
+        "oldValue": "شكل مقوس  ",
+        "newValue": "منحني"
+      }
+    ]
+  },
+  "shape.diatomic": {
+    "value": "خطي",
+    "history": [
+      {
+        "userId": 576246,
+        "timestamp": 1533230008853,
+        "oldValue": "",
+        "newValue": "خطي",
         "explanation": null
       }
     ]
@@ -102,18 +168,6 @@
       }
     ]
   },
-  "shape.diatomic": {
-    "value": "خطي",
-    "history": [
-      {
-        "userId": 576246,
-        "timestamp": 1533230008853,
-        "oldValue": "",
-        "newValue": "خطي",
-        "explanation": null
-      }
-    ]
-  },
   "shape.linear": {
     "value": "شكل خطي",
     "history": [
@@ -126,62 +180,14 @@
       }
     ]
   },
-  "shape.bent": {
-    "value": "شكل مقوس  ",
+  "shape.octahedral": {
+    "value": "شكل ثماني الأوجه ",
     "history": [
       {
         "userId": 576246,
         "timestamp": 1533230008853,
         "oldValue": "",
-        "newValue": "شكل مقوس  ",
-        "explanation": null
-      }
-    ]
-  },
-  "shape.trigonalPlanar": {
-    "value": "شكل مستو ثلاثي الزوايا",
-    "history": [
-      {
-        "userId": 576246,
-        "timestamp": 1533230008853,
-        "oldValue": "",
-        "newValue": "شكل مستو ثلاثي الزوايا",
-        "explanation": null
-      }
-    ]
-  },
-  "shape.trigonalPyramidal": {
-    "value": "شكل ثلاثي الزوايا هرمي",
-    "history": [
-      {
-        "userId": 576246,
-        "timestamp": 1533230008853,
-        "oldValue": "",
-        "newValue": "شكل ثلاثي الزوايا هرمي",
-        "explanation": null
-      }
-    ]
-  },
-  "shape.tShaped": {
-    "value": "شكل - T",
-    "history": [
-      {
-        "userId": 576246,
-        "timestamp": 1533230008853,
-        "oldValue": "",
-        "newValue": "شكل - T",
-        "explanation": null
-      }
-    ]
-  },
-  "shape.tetrahedral": {
-    "value": "شكل رباعي الأوجه",
-    "history": [
-      {
-        "userId": 576246,
-        "timestamp": 1533230008853,
-        "oldValue": "",
-        "newValue": "شكل رباعي الأوجه",
+        "newValue": "شكل ثماني الأوجه ",
         "explanation": null
       }
     ]
@@ -210,18 +216,6 @@
       }
     ]
   },
-  "shape.trigonalBipyramidal": {
-    "value": "شكل ثلاثي الزوايا ثنائي الهرم",
-    "history": [
-      {
-        "userId": 576246,
-        "timestamp": 1533230008853,
-        "oldValue": "",
-        "newValue": "شكل ثلاثي الزوايا ثنائي الهرم",
-        "explanation": null
-      }
-    ]
-  },
   "shape.squarePyramidal": {
     "value": "شكل مربع هرمي",
     "history": [
@@ -234,20 +228,110 @@
       }
     ]
   },
-  "shape.octahedral": {
-    "value": "شكل ثماني الأوجه ",
+  "shape.tetrahedral": {
+    "value": " رباعي الأوجه",
     "history": [
       {
         "userId": 576246,
         "timestamp": 1533230008853,
         "oldValue": "",
-        "newValue": "شكل ثماني الأوجه ",
+        "newValue": "شكل رباعي الأوجه",
+        "explanation": null
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1635584849980,
+        "oldValue": "شكل رباعي الأوجه",
+        "newValue": " رباعي الأوجه"
+      }
+    ]
+  },
+  "shape.trigonalBipyramidal": {
+    "value": "هرم مزدوج ثلاثي",
+    "history": [
+      {
+        "userId": 576246,
+        "timestamp": 1533230008853,
+        "oldValue": "",
+        "newValue": "شكل ثلاثي الزوايا ثنائي الهرم",
+        "explanation": null
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1635584849980,
+        "oldValue": "شكل ثلاثي الزوايا ثنائي الهرم",
+        "newValue": "هرم مزدوج ثلاثي"
+      }
+    ]
+  },
+  "shape.trigonalPlanar": {
+    "value": "مثلث مسطح",
+    "history": [
+      {
+        "userId": 576246,
+        "timestamp": 1533230008853,
+        "oldValue": "",
+        "newValue": "شكل مستو ثلاثي الزوايا",
+        "explanation": null
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1635584849980,
+        "oldValue": "شكل مستو ثلاثي الزوايا",
+        "newValue": "مثلث مسطح"
+      }
+    ]
+  },
+  "shape.trigonalPyramidal": {
+    "value": "هرم ثلاثي",
+    "history": [
+      {
+        "userId": 576246,
+        "timestamp": 1533230008853,
+        "oldValue": "",
+        "newValue": "شكل ثلاثي الزوايا هرمي",
+        "explanation": null
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1635584849980,
+        "oldValue": "شكل ثلاثي الزوايا هرمي",
+        "newValue": "هرم ثلاثي"
+      }
+    ]
+  },
+  "shape.tShaped": {
+    "value": "شكل - T",
+    "history": [
+      {
+        "userId": 576246,
+        "timestamp": 1533230008853,
+        "oldValue": "",
+        "newValue": "شكل - T",
         "explanation": null
       }
     ]
   },
+  "control.electronGeometry": {
+    "value": "هندسة الالكترونات",
+    "history": [
+      {
+        "userId": 576246,
+        "timestamp": 1533230008853,
+        "oldValue": "",
+        "newValue": "هندسة الكترونية",
+        "explanation": null
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1635584849980,
+        "oldValue": "هندسة الكترونية",
+        "newValue": "هندسة الالكترونات"
+      }
+    ]
+  },
   "control.geometryName": {
-    "value": "اسم",
+    "value": "الاسم",
     "history": [
       {
         "userId": 576246,
@@ -255,6 +339,12 @@
         "oldValue": "",
         "newValue": "اسم",
         "explanation": null
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1635584849980,
+        "oldValue": "اسم",
+        "newValue": "الاسم"
       }
     ]
   },
@@ -266,30 +356,6 @@
         "timestamp": 1533230008853,
         "oldValue": "",
         "newValue": "الهندسة الجزيئية",
-        "explanation": null
-      }
-    ]
-  },
-  "control.electronGeometry": {
-    "value": "هندسة الكترونية",
-    "history": [
-      {
-        "userId": 576246,
-        "timestamp": 1533230008853,
-        "oldValue": "",
-        "newValue": "هندسة الكترونية",
-        "explanation": null
-      }
-    ]
-  },
-  "control.showLonePairs": {
-    "value": "عرض الزوج الوحيد (الغير مترابط)",
-    "history": [
-      {
-        "userId": 576246,
-        "timestamp": 1533230008853,
-        "oldValue": "",
-        "newValue": "عرض الزوج الوحيد (الغير مترابط)",
         "explanation": null
       }
     ]
@@ -306,6 +372,24 @@
       }
     ]
   },
+  "control.showLonePairs": {
+    "value": "عرض الازوج غير المرتبطة",
+    "history": [
+      {
+        "userId": 576246,
+        "timestamp": 1533230008853,
+        "oldValue": "",
+        "newValue": "عرض الزوج الوحيد (الغير مترابط)",
+        "explanation": null
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1635584849980,
+        "oldValue": "عرض الزوج الوحيد (الغير مترابط)",
+        "newValue": "عرض الازوج غير المرتبطة"
+      }
+    ]
+  },
   "control.bonding": {
     "value": "الرابطة",
     "history": [
@@ -319,7 +403,7 @@
     ]
   },
   "control.lonePair": {
-    "value": "الزوج الوحيد (الغير مترابط)",
+    "value": "زوج غير مرتبط",
     "history": [
       {
         "userId": 576246,
@@ -327,6 +411,12 @@
         "oldValue": "",
         "newValue": "الزوج الوحيد (الغير مترابط)",
         "explanation": null
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1635584849980,
+        "oldValue": "الزوج الوحيد (الغير مترابط)",
+        "newValue": "زوج غير مرتبط"
       }
     ]
   },
@@ -355,13 +445,31 @@
     ]
   },
   "screen.model": {
-    "value": "نموذج الشاشة",
+    "value": "النماذج ",
     "history": [
       {
         "userId": 576246,
         "timestamp": 1533230008853,
         "oldValue": "",
         "newValue": "نموذج الشاشة",
+        "explanation": null
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1635584849980,
+        "oldValue": "نموذج الشاشة",
+        "newValue": "النماذج "
+      }
+    ]
+  },
+  "control.modelView": {
+    "value": "عرض النموذج",
+    "history": [
+      {
+        "userId": 576246,
+        "timestamp": 1533230008853,
+        "oldValue": "",
+        "newValue": "عرض النموذج",
         "explanation": null
       }
     ]
@@ -390,18 +498,6 @@
       }
     ]
   },
-  "control.modelView": {
-    "value": "عرض النموذج",
-    "history": [
-      {
-        "userId": 576246,
-        "timestamp": 1533230008853,
-        "oldValue": "",
-        "newValue": "عرض النموذج",
-        "explanation": null
-      }
-    ]
-  },
   "screen.realMolecules": {
     "value": "جزيئات حقيقية",
     "history": [
@@ -414,15 +510,27 @@
       }
     ]
   },
-  "options.showOuterLonePairs": {
-    "value": "خيارات عرض الأزواج الغير مترابطة الخارجية",
+  "molecule-shapes.title": {
+    "value": "أشكال الجزيئات",
     "history": [
       {
         "userId": 576246,
-        "timestamp": 1533230008853,
+        "timestamp": 1533230144070,
         "oldValue": "",
-        "newValue": "خيارات عرض الأزواج الغير مترابطة الخارجية",
+        "newValue": "أشكال الجزئ",
         "explanation": null
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1635584849980,
+        "oldValue": "أشكال الجزئ",
+        "newValue": "أشكال الجزئات"
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1635586977309,
+        "oldValue": "أشكال الجزئات",
+        "newValue": "أشكال الجزيئات"
       }
     ]
   },
@@ -434,18 +542,6 @@
         "timestamp": 1533230008853,
         "oldValue": "",
         "newValue": "وضع جهاز الإسقاط الضوئي",
-        "explanation": null
-      }
-    ]
-  },
-  "molecule-shapes.title": {
-    "value": "أشكال الجزئ",
-    "history": [
-      {
-        "userId": 576246,
-        "timestamp": 1533230144070,
-        "oldValue": "",
-        "newValue": "أشكال الجزئ",
         "explanation": null
       }
     ]
