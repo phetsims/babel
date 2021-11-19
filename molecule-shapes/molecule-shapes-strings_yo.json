@@ -1,23 +1,91 @@
 {
-  "options.showOuterLonePairs": {
-    "value": "Ṣe afihan awọn outer lone pair",
+  "shape.bent": {
+    "value": "Ti tẹ",
     "history": [
       {
         "userId": 958597,
         "timestamp": 1629821898443,
         "oldValue": "",
-        "newValue": "Ṣe afihan Awọn orisii lone pair"
+        "newValue": "Ti tẹ"
+      }
+    ]
+  },
+  "control.bonding": {
+    "value": "Bonding",
+    "history": [
+      {
+        "userId": 958597,
+        "timestamp": 1629821898443,
+        "oldValue": "",
+        "newValue": "Bonding"
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1637324236984,
+        "oldValue": "Bonding",
+        "newValue": "Isopọmọra"
+      }
+    ]
+  },
+  "control.electronGeometry": {
+    "value": "Jíómẹ́trì Ẹ̀lẹ́ktròn",
+    "history": [
+      {
+        "userId": 958597,
+        "timestamp": 1629821898443,
+        "oldValue": "",
+        "newValue": "Jíómẹ́trì Ẹ̀lẹ́ktròn"
+      }
+    ]
+  },
+  "shape.linear": {
+    "value": "Linear",
+    "history": [
+      {
+        "userId": 958597,
+        "timestamp": 1629821898443,
+        "oldValue": "",
+        "newValue": "Tààrà"
       },
       {
         "userId": 958597,
         "timestamp": 1632256897231,
-        "oldValue": "Ṣe afihan Awọn orisii lone pair",
-        "newValue": "Ṣe afihan awọn outer lone pair"
+        "oldValue": "Tààrà",
+        "newValue": "Linear"
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1637324236984,
+        "oldValue": "Linear",
+        "newValue": "Laini"
       }
     ]
   },
   "geometry.diatomic": {
-    "value": "Laini",
+    "value": "Linear",
+    "history": [
+      {
+        "userId": 958597,
+        "timestamp": 1629821898443,
+        "oldValue": "",
+        "newValue": "Tààrà"
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1632256897231,
+        "oldValue": "Tààrà",
+        "newValue": "Linear"
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1637324236984,
+        "oldValue": "Linear",
+        "newValue": "Laini"
+      }
+    ]
+  },
+  "shape.diatomic": {
+    "value": "Linear",
     "history": [
       {
         "userId": 958597,
@@ -40,7 +108,7 @@
     ]
   },
   "geometry.linear": {
-    "value": "Laini",
+    "value": "Linear",
     "history": [
       {
         "userId": 958597,
@@ -62,128 +130,105 @@
       }
     ]
   },
-  "geometry.octahedral": {
-    "value": "Octahedral",
+  "control.lonePair": {
+    "value": "Lone Pair",
     "history": [
       {
         "userId": 958597,
         "timestamp": 1629821898443,
         "oldValue": "",
-        "newValue": "Hedral onigun  mẹjo"
+        "newValue": "Lone Pair"
+      }
+    ]
+  },
+  "screen.model": {
+    "value": "Model",
+    "history": [
+      {
+        "userId": 958597,
+        "timestamp": 1629821898443,
+        "oldValue": "",
+        "newValue": "Awòṣé"
       },
       {
         "userId": 958597,
         "timestamp": 1632256897231,
-        "oldValue": "Hedral onigun  mẹjo",
-        "newValue": "Octahedral"
-      }
-    ]
-  },
-  "geometry.tetrahedral": {
-    "value": "Tetrahedral",
-    "history": [
-      {
-        "userId": 958597,
-        "timestamp": 1629821898443,
-        "oldValue": "",
-        "newValue": "Hedral onigun mẹẹrin"
-      },
-      {
-        "userId": 958597,
-        "timestamp": 1632256897231,
-        "oldValue": "Hedral onigun mẹẹrin",
-        "newValue": "Tetrahedral"
-      }
-    ]
-  },
-  "geometry.trigonalBipyramidal": {
-    "value": "Trigonal Bipyramidal",
-    "history": [
-      {
-        "userId": 958597,
-        "timestamp": 1629821898443,
-        "oldValue": "",
-        "newValue": "Pyramidal Meeji onigun mẹta"
-      },
-      {
-        "userId": 958597,
-        "timestamp": 1632256897231,
-        "oldValue": "Pyramidal Meeji onigun mẹta",
-        "newValue": "Trigonal Bipyramidal"
-      }
-    ]
-  },
-  "geometry.trigonalPlanar": {
-    "value": "Trigonal Planar",
-    "history": [
-      {
-        "userId": 958597,
-        "timestamp": 1629821898443,
-        "oldValue": "",
-        "newValue": "Planar onigun mẹta"
-      },
-      {
-        "userId": 958597,
-        "timestamp": 1632256897231,
-        "oldValue": "Planar onigun mẹta",
-        "newValue": "Trigonal Planar"
-      }
-    ]
-  },
-  "shape.bent": {
-    "value": "Ti tẹ",
-    "history": [
-      {
-        "userId": 958597,
-        "timestamp": 1629821898443,
-        "oldValue": "",
-        "newValue": "Ti tẹ"
-      }
-    ]
-  },
-  "shape.diatomic": {
-    "value": "Laini",
-    "history": [
-      {
-        "userId": 958597,
-        "timestamp": 1629821898443,
-        "oldValue": "",
-        "newValue": "Tààrà"
-      },
-      {
-        "userId": 958597,
-        "timestamp": 1632256897231,
-        "oldValue": "Tààrà",
-        "newValue": "Linear"
+        "oldValue": "Awòṣé",
+        "newValue": "Model"
       },
       {
         "userId": 958597,
         "timestamp": 1637324236984,
-        "oldValue": "Linear",
-        "newValue": "Laini"
+        "oldValue": "Model",
+        "newValue": "Awòṣe"
       }
     ]
   },
-  "shape.linear": {
-    "value": "Laini",
+  "control.modelView": {
+    "value": "Model",
     "history": [
       {
         "userId": 958597,
         "timestamp": 1629821898443,
         "oldValue": "",
-        "newValue": "Tààrà"
+        "newValue": "Awòṣé"
       },
       {
         "userId": 958597,
         "timestamp": 1632256897231,
-        "oldValue": "Tààrà",
-        "newValue": "Linear"
+        "oldValue": "Awòṣé",
+        "newValue": "Model"
       },
       {
         "userId": 958597,
         "timestamp": 1637324236984,
-        "oldValue": "Linear",
-        "newValue": "Laini"
+        "oldValue": "Model",
+        "newValue": "Awòṣe"
+      }
+    ]
+  },
+  "control.molecule": {
+    "value": "Molekulu",
+    "history": [
+      {
+        "userId": 958597,
+        "timestamp": 1629821898443,
+        "oldValue": "",
+        "newValue": "Moleku"
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1637324441400,
+        "oldValue": "Moleku",
+        "newValue": "Molekulu"
+      }
+    ]
+  },
+  "control.moleculeGeometry": {
+    "value": "Molekulu oni Jíómẹ́trì ",
+    "history": [
+      {
+        "userId": 958597,
+        "timestamp": 1629821898443,
+        "oldValue": "",
+        "newValue": " Moleku oni Jíómẹ́trì "
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1637324441400,
+        "oldValue": " Moleku oni Jíómẹ́trì ",
+        "newValue": "Molekulu oni Jíómẹ́trì "
+      }
+    ]
+  },
+  "control.geometryName": {
+    "value": "Orúkọ",
+    "history": [
+      {
+        "userId": 958597,
+        "timestamp": 1629821898443,
+        "oldValue": "",
+        "newValue": "Orúkọ"
       }
     ]
   },
@@ -204,6 +249,79 @@
       }
     ]
   },
+  "geometry.octahedral": {
+    "value": "Octahedral",
+    "history": [
+      {
+        "userId": 958597,
+        "timestamp": 1629821898443,
+        "oldValue": "",
+        "newValue": "Hedral onigun  mẹjo"
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1632256897231,
+        "oldValue": "Hedral onigun  mẹjo",
+        "newValue": "Octahedral"
+      }
+    ]
+  },
+  "control.options": {
+    "value": "Options",
+    "history": [
+      {
+        "userId": 958597,
+        "timestamp": 1629821898443,
+        "oldValue": "",
+        "newValue": "Àwọn Ẹ̀yàn"
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1632256897231,
+        "oldValue": "Àwọn Ẹ̀yàn",
+        "newValue": "Options"
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1637324236984,
+        "oldValue": "Options",
+        "newValue": "Àwọn Ẹ̀yàn"
+      }
+    ]
+  },
+  "control.realView": {
+    "value": "Gidi",
+    "history": [
+      {
+        "userId": 958597,
+        "timestamp": 1629821898443,
+        "oldValue": "",
+        "newValue": "Gidi"
+      }
+    ]
+  },
+  "screen.realMolecules": {
+    "value": "Moléku gidi",
+    "history": [
+      {
+        "userId": 958597,
+        "timestamp": 1629821898443,
+        "oldValue": "",
+        "newValue": "Moléku gidi"
+      }
+    ]
+  },
+  "control.removeAll": {
+    "value": "Yọ Gbogbo rẹ kuro",
+    "history": [
+      {
+        "userId": 958597,
+        "timestamp": 1629821898443,
+        "oldValue": "",
+        "newValue": "Yọ Gbogbo rẹ kuro"
+      }
+    ]
+  },
   "shape.seesaw": {
     "value": "Seesaw",
     "history": [
@@ -212,146 +330,6 @@
         "timestamp": 1629821898443,
         "oldValue": "",
         "newValue": "Seesaw"
-      }
-    ]
-  },
-  "shape.squarePlanar": {
-    "value": "Planar oni Square ",
-    "history": [
-      {
-        "userId": 958597,
-        "timestamp": 1629821898443,
-        "oldValue": "",
-        "newValue": "Planar onigun  mẹẹrin"
-      },
-      {
-        "userId": 958597,
-        "timestamp": 1632256897231,
-        "oldValue": "Planar onigun  mẹẹrin",
-        "newValue": "Planar oni Square "
-      }
-    ]
-  },
-  "shape.squarePyramidal": {
-    "value": "Pyramidal oni Square",
-    "history": [
-      {
-        "userId": 958597,
-        "timestamp": 1629821898443,
-        "oldValue": "",
-        "newValue": "Pyramidal onigun  mẹẹrin"
-      },
-      {
-        "userId": 958597,
-        "timestamp": 1632256897231,
-        "oldValue": "Pyramidal onigun  mẹẹrin",
-        "newValue": "Pyramidal oni Square"
-      }
-    ]
-  },
-  "shape.tetrahedral": {
-    "value": "Hedral onigun  mẹẹrin",
-    "history": [
-      {
-        "userId": 958597,
-        "timestamp": 1629821898443,
-        "oldValue": "",
-        "newValue": "Hedral onigun  mẹẹrin"
-      }
-    ]
-  },
-  "shape.trigonalBipyramidal": {
-    "value": "Bipyramidal oni Trigonal",
-    "history": [
-      {
-        "userId": 958597,
-        "timestamp": 1629821898443,
-        "oldValue": "",
-        "newValue": "Pyramidal Meeji onigun mẹta"
-      },
-      {
-        "userId": 958597,
-        "timestamp": 1632256897231,
-        "oldValue": "Pyramidal Meeji onigun mẹta",
-        "newValue": "Bipyramidal oni Trigonal"
-      }
-    ]
-  },
-  "shape.trigonalPlanar": {
-    "value": "Planar oni trigonal",
-    "history": [
-      {
-        "userId": 958597,
-        "timestamp": 1629821898443,
-        "oldValue": "",
-        "newValue": "Planar onigun mẹta"
-      },
-      {
-        "userId": 958597,
-        "timestamp": 1632256897231,
-        "oldValue": "Planar onigun mẹta",
-        "newValue": "Planar oni trigonal"
-      }
-    ]
-  },
-  "shape.trigonalPyramidal": {
-    "value": "Pyramidal oni Trigonal",
-    "history": [
-      {
-        "userId": 958597,
-        "timestamp": 1629821898443,
-        "oldValue": "",
-        "newValue": "Pyramidal onigun mẹta"
-      },
-      {
-        "userId": 958597,
-        "timestamp": 1632256897231,
-        "oldValue": "Pyramidal onigun mẹta",
-        "newValue": "Pyramidal oni Trigonal"
-      }
-    ]
-  },
-  "shape.tShaped": {
-    "value": "T-shaped",
-    "history": [
-      {
-        "userId": 958597,
-        "timestamp": 1629821898443,
-        "oldValue": "",
-        "newValue": "T-shaped"
-      }
-    ]
-  },
-  "control.electronGeometry": {
-    "value": "Jíómẹ́trì Ẹ̀lẹ́ktròn",
-    "history": [
-      {
-        "userId": 958597,
-        "timestamp": 1629821898443,
-        "oldValue": "",
-        "newValue": "Jíómẹ́trì Ẹ̀lẹ́ktròn"
-      }
-    ]
-  },
-  "control.geometryName": {
-    "value": "Orúkọ",
-    "history": [
-      {
-        "userId": 958597,
-        "timestamp": 1629821898443,
-        "oldValue": "",
-        "newValue": "Orúkọ"
-      }
-    ]
-  },
-  "control.moleculeGeometry": {
-    "value": " Moleku oni Jíómẹ́trì ",
-    "history": [
-      {
-        "userId": 958597,
-        "timestamp": 1629821898443,
-        "oldValue": "",
-        "newValue": " Moleku oni Jíómẹ́trì "
       }
     ]
   },
@@ -389,149 +367,183 @@
       }
     ]
   },
-  "control.bonding": {
-    "value": "Isopọmọra",
+  "options.showOuterLonePairs": {
+    "value": "Ṣe afihan awọn outer lone pair",
     "history": [
       {
         "userId": 958597,
         "timestamp": 1629821898443,
         "oldValue": "",
-        "newValue": "Bonding"
-      },
-      {
-        "userId": 958597,
-        "timestamp": 1637324236984,
-        "oldValue": "Bonding",
-        "newValue": "Isopọmọra"
-      }
-    ]
-  },
-  "control.lonePair": {
-    "value": "Lone Pair",
-    "history": [
-      {
-        "userId": 958597,
-        "timestamp": 1629821898443,
-        "oldValue": "",
-        "newValue": "Lone Pair"
-      }
-    ]
-  },
-  "control.options": {
-    "value": "Àwọn Ẹ̀yàn",
-    "history": [
-      {
-        "userId": 958597,
-        "timestamp": 1629821898443,
-        "oldValue": "",
-        "newValue": "Àwọn Ẹ̀yàn"
+        "newValue": "Ṣe afihan Awọn orisii lone pair"
       },
       {
         "userId": 958597,
         "timestamp": 1632256897231,
-        "oldValue": "Àwọn Ẹ̀yàn",
-        "newValue": "Options"
-      },
-      {
-        "userId": 958597,
-        "timestamp": 1637324236984,
-        "oldValue": "Options",
-        "newValue": "Àwọn Ẹ̀yàn"
+        "oldValue": "Ṣe afihan Awọn orisii lone pair",
+        "newValue": "Ṣe afihan awọn outer lone pair"
       }
     ]
   },
-  "control.removeAll": {
-    "value": "Yọ Gbogbo rẹ kuro",
+  "shape.squarePlanar": {
+    "value": "Planar oni Square ",
     "history": [
       {
         "userId": 958597,
         "timestamp": 1629821898443,
         "oldValue": "",
-        "newValue": "Yọ Gbogbo rẹ kuro"
-      }
-    ]
-  },
-  "screen.model": {
-    "value": "Awòṣe",
-    "history": [
-      {
-        "userId": 958597,
-        "timestamp": 1629821898443,
-        "oldValue": "",
-        "newValue": "Awòṣé"
+        "newValue": "Planar onigun  mẹẹrin"
       },
       {
         "userId": 958597,
         "timestamp": 1632256897231,
-        "oldValue": "Awòṣé",
-        "newValue": "Model"
-      },
-      {
-        "userId": 958597,
-        "timestamp": 1637324236984,
-        "oldValue": "Model",
-        "newValue": "Awòṣe"
+        "oldValue": "Planar onigun  mẹẹrin",
+        "newValue": "Planar oni Square "
       }
     ]
   },
-  "control.modelView": {
-    "value": "Awòṣe",
+  "shape.squarePyramidal": {
+    "value": "Pyramidal oni Square",
     "history": [
       {
         "userId": 958597,
         "timestamp": 1629821898443,
         "oldValue": "",
-        "newValue": "Awòṣé"
+        "newValue": "Pyramidal onigun  mẹẹrin"
       },
       {
         "userId": 958597,
         "timestamp": 1632256897231,
-        "oldValue": "Awòṣé",
-        "newValue": "Model"
+        "oldValue": "Pyramidal onigun  mẹẹrin",
+        "newValue": "Pyramidal oni Square"
+      }
+    ]
+  },
+  "shape.tShaped": {
+    "value": "T-shaped",
+    "history": [
+      {
+        "userId": 958597,
+        "timestamp": 1629821898443,
+        "oldValue": "",
+        "newValue": "T-shaped"
+      }
+    ]
+  },
+  "shape.tetrahedral": {
+    "value": "Hedral onigun  mẹẹrin",
+    "history": [
+      {
+        "userId": 958597,
+        "timestamp": 1629821898443,
+        "oldValue": "",
+        "newValue": "Hedral onigun  mẹẹrin"
+      }
+    ]
+  },
+  "geometry.tetrahedral": {
+    "value": "Tetrahedral",
+    "history": [
+      {
+        "userId": 958597,
+        "timestamp": 1629821898443,
+        "oldValue": "",
+        "newValue": "Hedral onigun mẹẹrin"
       },
       {
         "userId": 958597,
-        "timestamp": 1637324236984,
-        "oldValue": "Model",
-        "newValue": "Awòṣe"
+        "timestamp": 1632256897231,
+        "oldValue": "Hedral onigun mẹẹrin",
+        "newValue": "Tetrahedral"
       }
     ]
   },
-  "control.molecule": {
-    "value": "Moleku",
+  "geometry.trigonalBipyramidal": {
+    "value": "Trigonal Bipyramidal",
     "history": [
       {
         "userId": 958597,
         "timestamp": 1629821898443,
         "oldValue": "",
-        "newValue": "Moleku"
+        "newValue": "Pyramidal Meeji onigun mẹta"
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1632256897231,
+        "oldValue": "Pyramidal Meeji onigun mẹta",
+        "newValue": "Trigonal Bipyramidal"
       }
     ]
   },
-  "control.realView": {
-    "value": "Gidi",
+  "shape.trigonalBipyramidal": {
+    "value": "Bipyramidal oni Trigonal",
     "history": [
       {
         "userId": 958597,
         "timestamp": 1629821898443,
         "oldValue": "",
-        "newValue": "Gidi"
+        "newValue": "Pyramidal Meeji onigun mẹta"
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1632256897231,
+        "oldValue": "Pyramidal Meeji onigun mẹta",
+        "newValue": "Bipyramidal oni Trigonal"
       }
     ]
   },
-  "screen.realMolecules": {
-    "value": "Moléku gidi",
+  "shape.trigonalPlanar": {
+    "value": "Planar oni trigonal",
     "history": [
       {
         "userId": 958597,
         "timestamp": 1629821898443,
         "oldValue": "",
-        "newValue": "Moléku gidi"
+        "newValue": "Planar onigun mẹta"
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1632256897231,
+        "oldValue": "Planar onigun mẹta",
+        "newValue": "Planar oni trigonal"
+      }
+    ]
+  },
+  "geometry.trigonalPlanar": {
+    "value": "Trigonal Planar",
+    "history": [
+      {
+        "userId": 958597,
+        "timestamp": 1629821898443,
+        "oldValue": "",
+        "newValue": "Planar onigun mẹta"
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1632256897231,
+        "oldValue": "Planar onigun mẹta",
+        "newValue": "Trigonal Planar"
+      }
+    ]
+  },
+  "shape.trigonalPyramidal": {
+    "value": "Pyramidal oni Trigonal",
+    "history": [
+      {
+        "userId": 958597,
+        "timestamp": 1629821898443,
+        "oldValue": "",
+        "newValue": "Pyramidal onigun mẹta"
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1632256897231,
+        "oldValue": "Pyramidal onigun mẹta",
+        "newValue": "Pyramidal oni Trigonal"
       }
     ]
   },
   "molecule-shapes.title": {
-    "value": "Ìrísí Moléku ",
+    "value": "Awon ìrísí Moléku ",
     "history": [
       {
         "userId": 958597,
@@ -556,6 +568,12 @@
         "timestamp": 1637324236985,
         "oldValue": "Awon ìrísí Moléku ",
         "newValue": "Ìrísí Moléku "
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1637324441400,
+        "oldValue": "Ìrísí Moléku ",
+        "newValue": "Awon ìrísí Moléku "
       }
     ]
   }
