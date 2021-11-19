@@ -1,6 +1,6 @@
 {
   "screen.realMolecules": {
-    "value": "Awọn real Molékù  ",
+    "value": "Molékùlù ",
     "history": [
       {
         "userId": 958597,
@@ -13,17 +13,23 @@
         "timestamp": 1632241793984,
         "oldValue": "Awọn Molékù  gidi",
         "newValue": "Awọn real Molékù  "
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1637323847050,
+        "oldValue": "Awọn real Molékù  ",
+        "newValue": "Molékùlù "
       }
     ]
   },
-  "screen.twoAtoms": {
-    "value": "Átọ̀mù mééji",
+  "screen.threeAtoms": {
+    "value": "Átọ̀mù mẹta",
     "history": [
       {
         "userId": 958597,
         "timestamp": 1629819935324,
         "oldValue": "",
-        "newValue": "Átọ̀mù mééji"
+        "newValue": "Átọ̀mù mẹta"
       }
     ]
   },
@@ -49,17 +55,6 @@
       }
     ]
   },
-  "screen.threeAtoms": {
-    "value": "Átọ̀mù mẹta",
-    "history": [
-      {
-        "userId": 958597,
-        "timestamp": 1629819935324,
-        "oldValue": "",
-        "newValue": "Átọ̀mù mẹta"
-      }
-    ]
-  },
   "atomC": {
     "value": "C",
     "history": [
@@ -68,6 +63,17 @@
         "timestamp": 1629819935324,
         "oldValue": "",
         "newValue": "C"
+      }
+    ]
+  },
+  "screen.twoAtoms": {
+    "value": "Átọ̀mù mééji",
+    "history": [
+      {
+        "userId": 958597,
+        "timestamp": 1629819935324,
+        "oldValue": "",
+        "newValue": "Átọ̀mù mééji"
       }
     ]
   },
@@ -364,7 +370,7 @@
     ]
   },
   "negative": {
-    "value": "Negative",
+    "value": "Odi",
     "history": [
       {
         "userId": 958597,
@@ -377,6 +383,12 @@
         "timestamp": 1632241793984,
         "oldValue": "Odi",
         "newValue": "Negative"
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1637323847050,
+        "oldValue": "Negative",
+        "newValue": "Odi"
       }
     ]
   },
@@ -392,13 +404,19 @@
     ]
   },
   "molecule": {
-    "value": "Moleku",
+    "value": "Molekulu",
     "history": [
       {
         "userId": 958597,
         "timestamp": 1629819935324,
         "oldValue": "",
         "newValue": "Moleku"
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1637323847050,
+        "oldValue": "Moleku",
+        "newValue": "Molekulu"
       }
     ]
   },
@@ -414,18 +432,24 @@
     ]
   },
   "underDevelopment.line1": {
-    "value": "Molecules gidi ko si  lọwọlọwọ ni HTML5.",
+    "value": "Molekulu gidi ko si  lọwọlọwọ ni HTML5.",
     "history": [
       {
         "userId": 958597,
         "timestamp": 1629819935324,
         "oldValue": "",
         "newValue": "Molecules gidi ko si  lọwọlọwọ ni HTML5."
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1637323847050,
+        "oldValue": "Molecules gidi ko si  lọwọlọwọ ni HTML5.",
+        "newValue": "Molekulu gidi ko si  lọwọlọwọ ni HTML5."
       }
     ]
   },
   "underDevelopment.line2": {
-    "value": "Ti device rẹ ba nṣiṣẹ pelu Java, o le lo ẹya Java ni",
+    "value": "Ti erọ̀ rẹ ba nṣiṣẹ pelu Java, o le lo ẹya Java ni",
     "history": [
       {
         "userId": 958597,
@@ -438,6 +462,12 @@
         "timestamp": 1632241793984,
         "oldValue": "Ti ẹrọ rẹ ba nṣiṣẹ Java, o le lo ẹya Java ni",
         "newValue": "Ti device rẹ ba nṣiṣẹ pelu Java, o le lo ẹya Java ni"
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1637323847050,
+        "oldValue": "Ti device rẹ ba nṣiṣẹ pelu Java, o le lo ẹya Java ni",
+        "newValue": "Ti erọ̀ rẹ ba nṣiṣẹ pelu Java, o le lo ẹya Java ni"
       }
     ]
   },
@@ -460,45 +490,6 @@
         "timestamp": 1629819935324,
         "oldValue": "",
         "newValue": "Átọ̀mù {{name}}"
-      }
-    ]
-  },
-  "bondCharacter": {
-    "value": "Character Bondi",
-    "history": [
-      {
-        "userId": 958597,
-        "timestamp": 1629819935324,
-        "oldValue": "",
-        "newValue": "Iwa ise Bondi"
-      },
-      {
-        "userId": 958597,
-        "timestamp": 1632241793984,
-        "oldValue": "Iwa ise Bondi",
-        "newValue": "Character Bondi"
-      }
-    ]
-  },
-  "moreCovalent": {
-    "value": "Covalent pupo si",
-    "history": [
-      {
-        "userId": 958597,
-        "timestamp": 1629819935324,
-        "oldValue": "",
-        "newValue": "Covalent pupo si"
-      }
-    ]
-  },
-  "moreIonic": {
-    "value": "Ionic pupo si",
-    "history": [
-      {
-        "userId": 958597,
-        "timestamp": 1629819935324,
-        "oldValue": "",
-        "newValue": "Ionic pupo si"
       }
     ]
   },
@@ -535,8 +526,53 @@
       }
     ]
   },
+  "bondCharacter": {
+    "value": "Ise Bondi",
+    "history": [
+      {
+        "userId": 958597,
+        "timestamp": 1629819935324,
+        "oldValue": "",
+        "newValue": "Iwa ise Bondi"
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1632241793984,
+        "oldValue": "Iwa ise Bondi",
+        "newValue": "Character Bondi"
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1637323847050,
+        "oldValue": "Character Bondi",
+        "newValue": "Ise Bondi"
+      }
+    ]
+  },
+  "moreCovalent": {
+    "value": "Covalent pupo si",
+    "history": [
+      {
+        "userId": 958597,
+        "timestamp": 1629819935324,
+        "oldValue": "",
+        "newValue": "Covalent pupo si"
+      }
+    ]
+  },
+  "moreIonic": {
+    "value": "Ionic pupo si",
+    "history": [
+      {
+        "userId": 958597,
+        "timestamp": 1629819935324,
+        "oldValue": "",
+        "newValue": "Ionic pupo si"
+      }
+    ]
+  },
   "surface": {
-    "value": "surface",
+    "value": "Oju",
     "history": [
       {
         "userId": 958597,
@@ -549,11 +585,17 @@
         "timestamp": 1632241793984,
         "oldValue": "Oju ",
         "newValue": "surface"
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1637323847050,
+        "oldValue": "surface",
+        "newValue": "Oju"
       }
     ]
   },
   "view": {
-    "value": "view",
+    "value": "Iwo",
     "history": [
       {
         "userId": 958597,
@@ -566,17 +608,29 @@
         "timestamp": 1632241793984,
         "oldValue": "Wo",
         "newValue": "view"
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1637323847050,
+        "oldValue": "view",
+        "newValue": "Iwo"
       }
     ]
   },
   "electricField": {
-    "value": "Electric field",
+    "value": "Pápá iná mànàmáná ",
     "history": [
       {
         "userId": 958597,
         "timestamp": 1632241793985,
         "oldValue": "",
         "newValue": "Electric field"
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1637323847050,
+        "oldValue": "Electric field",
+        "newValue": "Pápá iná mànàmáná "
       }
     ]
   },
@@ -592,57 +646,53 @@
     ]
   },
   "on": {
-    "value": "Taan",
+    "value": "Tá án",
     "history": [
       {
         "userId": 958597,
         "timestamp": 1629819935324,
         "oldValue": "",
         "newValue": "Taan"
-      }
-    ]
-  },
-  "none": {
-    "value": "Ko si",
-    "history": [
+      },
       {
         "userId": 958597,
-        "timestamp": 1629819935324,
-        "oldValue": "",
-        "newValue": "Ko si"
+        "timestamp": 1637323847050,
+        "oldValue": "Taan",
+        "newValue": "Tá án"
       }
     ]
   },
   "bondDipole": {
-    "value": "Bond Dipole",
+    "value": "Bondi Dipole",
     "history": [
       {
         "userId": 958597,
         "timestamp": 1629819935324,
         "oldValue": "",
         "newValue": "Bond Dipole"
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1637323847050,
+        "oldValue": "Bond Dipole",
+        "newValue": "Bondi Dipole"
       }
     ]
   },
   "bondDipoles": {
-    "value": "Bond Dipoles",
+    "value": "Bondi Dipoles",
     "history": [
       {
         "userId": 958597,
         "timestamp": 1629819935324,
         "oldValue": "",
         "newValue": "Bond Dipoles"
-      }
-    ]
-  },
-  "partialCharges": {
-    "value": "Partial Charges",
-    "history": [
+      },
       {
         "userId": 958597,
-        "timestamp": 1629819935324,
-        "oldValue": "",
-        "newValue": "Partial Charges"
+        "timestamp": 1637323847050,
+        "oldValue": "Bond Dipoles",
+        "newValue": "Bondi Dipoles"
       }
     ]
   },
@@ -657,25 +707,65 @@
       }
     ]
   },
+  "partialCharges": {
+    "value": "Agbára apá kan",
+    "history": [
+      {
+        "userId": 958597,
+        "timestamp": 1629819935324,
+        "oldValue": "",
+        "newValue": "Partial Charges"
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1637323847050,
+        "oldValue": "Partial Charges",
+        "newValue": "Agbára apá kan"
+      }
+    ]
+  },
   "atomLabels": {
-    "value": "Lebẹ́li Átọ̀mù ",
+    "value": "Ami Átọ̀mù ",
     "history": [
       {
         "userId": 958597,
         "timestamp": 1629819935324,
         "oldValue": "",
         "newValue": "Lebẹ́li Átọ̀mù "
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1637323847050,
+        "oldValue": "Lebẹ́li Átọ̀mù ",
+        "newValue": "Ami Átọ̀mù "
+      }
+    ]
+  },
+  "none": {
+    "value": "Ko si",
+    "history": [
+      {
+        "userId": 958597,
+        "timestamp": 1629819935324,
+        "oldValue": "",
+        "newValue": "Ko si"
       }
     ]
   },
   "molecule-polarity.title": {
-    "value": "Polárìtì Molékù ",
+    "value": "Polárìtì Molékùlù",
     "history": [
       {
         "userId": 958597,
         "timestamp": 1629819935324,
         "oldValue": "",
         "newValue": "Polárìtì Molékù "
+      },
+      {
+        "userId": 958597,
+        "timestamp": 1637323847050,
+        "oldValue": "Polárìtì Molékù ",
+        "newValue": "Polárìtì Molékùlù"
       }
     ]
   }
