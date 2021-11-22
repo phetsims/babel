@@ -1,12 +1,12 @@
 {
-  "check": {
-    "value": "فحص",
+  "pattern.0challenge.1max": {
+    "value": "التحدي من {0} الى {1}",
     "history": [
       {
-        "userId": 412402,
-        "timestamp": 1616428020450,
+        "userId": 844820,
+        "timestamp": 1637595980774,
         "oldValue": "",
-        "newValue": "فحص"
+        "newValue": "التحدي من {0} الى {1}"
       }
     ]
   },
@@ -44,13 +44,19 @@
     ]
   },
   "great": {
-    "value": "عظيم !",
+    "value": "رائع !",
     "history": [
       {
         "userId": 412402,
         "timestamp": 1616428020450,
         "oldValue": "",
         "newValue": "عظيم !"
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1637595980774,
+        "oldValue": "عظيم !",
+        "newValue": "رائع !"
       }
     ]
   },
@@ -76,25 +82,14 @@
       }
     ]
   },
-  "next": {
-    "value": "التالي",
+  "score": {
+    "value": "النتيجة",
     "history": [
       {
-        "userId": 412402,
-        "timestamp": 1616428020450,
+        "userId": 844820,
+        "timestamp": 1637595980774,
         "oldValue": "",
-        "newValue": "التالي"
-      }
-    ]
-  },
-  "label.scorePattern": {
-    "value": "النتيجة\n: {0}",
-    "history": [
-      {
-        "userId": 412402,
-        "timestamp": 1616428020450,
-        "oldValue": "",
-        "newValue": "النتيجة\n: {0}"
+        "newValue": "النتيجة"
       }
     ]
   },
@@ -109,14 +104,14 @@
       }
     ]
   },
-  "showAnswer": {
-    "value": "اظهار الاجابة",
+  "pattern.score.number": {
+    "value": "النتيجة {{score}}",
     "history": [
       {
-        "userId": 412402,
-        "timestamp": 1616428020450,
+        "userId": 844820,
+        "timestamp": 1637595980774,
         "oldValue": "",
-        "newValue": "اظهار الاجابة"
+        "newValue": "النتيجة {{score}}"
       }
     ]
   },
@@ -139,6 +134,56 @@
         "timestamp": 1616428020450,
         "oldValue": "",
         "newValue": "الزمن\n: {0}"
+      }
+    ]
+  },
+  "check": {
+    "value": "فحص",
+    "history": [
+      {
+        "userId": 412402,
+        "timestamp": 1616428020450,
+        "oldValue": "",
+        "newValue": "فحص"
+      }
+    ]
+  },
+  "next": {
+    "value": "التالي",
+    "history": [
+      {
+        "userId": 412402,
+        "timestamp": 1616428020450,
+        "oldValue": "",
+        "newValue": "التالي"
+      }
+    ]
+  },
+  "label.scorePattern": {
+    "value": "النتيجة\r\n: {0}",
+    "history": [
+      {
+        "userId": 412402,
+        "timestamp": 1616428020450,
+        "oldValue": "",
+        "newValue": "النتيجة\n: {0}"
+      },
+      {
+        "userId": 844820,
+        "timestamp": 1637595980774,
+        "oldValue": "النتيجة\n: {0}",
+        "newValue": "النتيجة\r\n: {0}"
+      }
+    ]
+  },
+  "showAnswer": {
+    "value": "اظهار الاجابة",
+    "history": [
+      {
+        "userId": 412402,
+        "timestamp": 1616428020450,
+        "oldValue": "",
+        "newValue": "اظهار الاجابة"
       }
     ]
   },
