@@ -11,18 +11,6 @@
       }
     ]
   },
-  "decimalNotation": {
-    "value": "Notație zecimală",
-    "history": [
-      {
-        "userId": 183155,
-        "timestamp": 1608151734183,
-        "oldValue": "",
-        "newValue": "Notație zecimală",
-        "explanation": null
-      }
-    ]
-  },
   "forceOnObjectByOtherObjectPattern": {
     "value": "Forța {{thisObject}} asupra  {{otherObject}}",
     "history": [
@@ -46,6 +34,12 @@
         "oldValue": "Forța {{thisObject}} asupra  {{otherObject}}",
         "newValue": "{{thisObject}} este atras de {{otherObject}}",
         "explanation": null
+      },
+      {
+        "userId": 955557,
+        "timestamp": 1638119672017,
+        "oldValue": "{{thisObject}} este atras de {{otherObject}}",
+        "newValue": "Forța {{thisObject}} asupra  {{otherObject}}"
       }
     ]
   },
@@ -72,6 +66,12 @@
         "oldValue": "Forța {{thisObject}} asupra {{otherObject}} = {{value}} N",
         "newValue": "{{thisObject}} este atras de {{otherObject}} cu forța = {{value}} N",
         "explanation": null
+      },
+      {
+        "userId": 955557,
+        "timestamp": 1638119672017,
+        "oldValue": "{{thisObject}} este atras de {{otherObject}} cu forța = {{value}} N",
+        "newValue": "Forța {{thisObject}} asupra {{otherObject}} = {{value}} N"
       }
     ]
   },
@@ -90,6 +90,48 @@
         "timestamp": 1608151706391,
         "oldValue": "Valoarea Forței",
         "newValue": "Valori forțe",
+        "explanation": null
+      },
+      {
+        "userId": 955557,
+        "timestamp": 1638119672017,
+        "oldValue": "Valori forțe",
+        "newValue": "Valoarea Forței"
+      }
+    ]
+  },
+  "units.picometers": {
+    "value": "pm",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1607363430356,
+        "oldValue": "",
+        "newValue": "pm",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern_0value_1units": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1607363430356,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "decimalNotation": {
+    "value": "Notație zecimală",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1608151734183,
+        "oldValue": "",
+        "newValue": "Notație zecimală",
         "explanation": null
       }
     ]
@@ -150,30 +192,6 @@
         "timestamp": 1608151734183,
         "oldValue": "",
         "newValue": "Notație științifică",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern_0value_1units": {
-    "value": "{{value}} {{units}}",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1607363430356,
-        "oldValue": "",
-        "newValue": "{{value}} {{units}}",
-        "explanation": null
-      }
-    ]
-  },
-  "units.picometers": {
-    "value": "pm",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1607363430356,
-        "oldValue": "",
-        "newValue": "pm",
         "explanation": null
       }
     ]
