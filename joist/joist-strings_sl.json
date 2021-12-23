@@ -11,6 +11,28 @@
       }
     ]
   },
+  "preferences.tabs.audio.title": {
+    "value": "Avdio",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1640258583927,
+        "oldValue": "",
+        "newValue": "Avdio"
+      }
+    ]
+  },
+  "preferences.tabs.audio.audioFeatures.title": {
+    "value": "Avdio nastavitve",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1640258583927,
+        "oldValue": "",
+        "newValue": "Avdio nastavitve"
+      }
+    ]
+  },
   "menuItem.getUpdate": {
     "value": "Preveri posodobitve...",
     "history": [
@@ -78,6 +100,17 @@
       }
     ]
   },
+  "preferences.tabs.audio.sounds.extraSounds.title": {
+    "value": "Dodatni zvoki",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1640258583927,
+        "oldValue": "",
+        "newValue": "Dodatni zvoki"
+      }
+    ]
+  },
   "menuItem.fullscreen": {
     "value": "Celozaslonska slika",
     "history": [
@@ -87,6 +120,17 @@
         "oldValue": "",
         "newValue": "Celozaslonska slika",
         "explanation": null
+      }
+    ]
+  },
+  "preferences.tabs.general.title": {
+    "value": "Splošno",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1640258583927,
+        "oldValue": "",
+        "newValue": "Splošno"
       }
     ]
   },
@@ -176,32 +220,6 @@
       }
     ]
   },
-  "menuItem.mailInputEventsLog": {
-    "value": "Pošlji dnevnik dogodkov po epošti",
-    "history": [
-      {
-        "userId": 157539,
-        "timestamp": 1455561037849,
-        "oldValue": "",
-        "newValue": "Mail Input Events Log",
-        "explanation": null
-      },
-      {
-        "userId": 156538,
-        "timestamp": 1462256111644,
-        "oldValue": "Mail Input Events Log",
-        "newValue": "Pošlji dnevnika dogodkov po epošti",
-        "explanation": null
-      },
-      {
-        "userId": 156538,
-        "timestamp": 1463388636994,
-        "oldValue": "Pošlji dnevnika dogodkov po epošti",
-        "newValue": "Pošlji dnevnik dogodkov po epošti",
-        "explanation": null
-      }
-    ]
-  },
   "updates.outOfDate": {
     "value": "Na voljo je nova verzija",
     "history": [
@@ -265,25 +283,6 @@
         "timestamp": 1455561037849,
         "oldValue": "",
         "newValue": "Možnosti...",
-        "explanation": null
-      }
-    ]
-  },
-  "menuItem.outputInputEventsLog": {
-    "value": "Izpis dnevnika dogodkov",
-    "history": [
-      {
-        "userId": 157539,
-        "timestamp": 1455561037849,
-        "oldValue": "",
-        "newValue": "Output Input Events Log",
-        "explanation": null
-      },
-      {
-        "userId": 156538,
-        "timestamp": 1462256111644,
-        "oldValue": "Output Input Events Log",
-        "newValue": "Izpis dnevnika dogodkov",
         "explanation": null
       }
     ]
@@ -398,22 +397,14 @@
       }
     ]
   },
-  "menuItem.submitInputEventsLog": {
-    "value": "Pošlji dnevnik dogodkov",
+  "preferences.tabs.audio.sounds.title": {
+    "value": "Zvoki",
     "history": [
       {
-        "userId": 157539,
-        "timestamp": 1455561037849,
-        "oldValue": "",
-        "newValue": "Submit Input Events Log",
-        "explanation": null
-      },
-      {
         "userId": 156538,
-        "timestamp": 1462256111644,
-        "oldValue": "Submit Input Events Log",
-        "newValue": "Pošlji dnevnik dogodkov",
-        "explanation": null
+        "timestamp": 1640258583927,
+        "oldValue": "",
+        "newValue": "Zvoki"
       }
     ]
   },
@@ -513,18 +504,6 @@
       }
     ]
   },
-  "credits.translation": {
-    "value": "Prevod",
-    "history": [
-      {
-        "userId": 157539,
-        "timestamp": 1455561037849,
-        "oldValue": "",
-        "newValue": "Prevod",
-        "explanation": null
-      }
-    ]
-  },
   "translation.credits.link": {
     "value": "Zahvala prevajalcu",
     "history": [
@@ -588,6 +567,82 @@
         "timestamp": 1606853130543,
         "oldValue": "",
         "newValue": "{{simName}} — {{screenName}}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.mailInputEventsLog": {
+    "value": "Pošlji dnevnik dogodkov po epošti",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1455561037849,
+        "oldValue": "",
+        "newValue": "Mail Input Events Log",
+        "explanation": null
+      },
+      {
+        "userId": 156538,
+        "timestamp": 1462256111644,
+        "oldValue": "Mail Input Events Log",
+        "newValue": "Pošlji dnevnika dogodkov po epošti",
+        "explanation": null
+      },
+      {
+        "userId": 156538,
+        "timestamp": 1463388636994,
+        "oldValue": "Pošlji dnevnika dogodkov po epošti",
+        "newValue": "Pošlji dnevnik dogodkov po epošti",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.outputInputEventsLog": {
+    "value": "Izpis dnevnika dogodkov",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1455561037849,
+        "oldValue": "",
+        "newValue": "Output Input Events Log",
+        "explanation": null
+      },
+      {
+        "userId": 156538,
+        "timestamp": 1462256111644,
+        "oldValue": "Output Input Events Log",
+        "newValue": "Izpis dnevnika dogodkov",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.submitInputEventsLog": {
+    "value": "Pošlji dnevnik dogodkov",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1455561037849,
+        "oldValue": "",
+        "newValue": "Submit Input Events Log",
+        "explanation": null
+      },
+      {
+        "userId": 156538,
+        "timestamp": 1462256111644,
+        "oldValue": "Submit Input Events Log",
+        "newValue": "Pošlji dnevnik dogodkov",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.translation": {
+    "value": "Prevod",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1455561037849,
+        "oldValue": "",
+        "newValue": "Prevod",
         "explanation": null
       }
     ]
