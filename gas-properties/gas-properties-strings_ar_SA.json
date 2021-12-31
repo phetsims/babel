@@ -96,7 +96,7 @@
     ]
   },
   "radiusPm": {
-    "value": "القطر (pm)",
+    "value": "نصف القطر (pm)",
     "history": [
       {
         "userId": 844820,
@@ -104,6 +104,34 @@
         "oldValue": "",
         "newValue": "القطر (pm)",
         "explanation": null
+      },
+      {
+        "userId": 997918,
+        "timestamp": 1640945189032,
+        "oldValue": "القطر (pm)",
+        "newValue": "نصف القطر (pm)"
+      }
+    ]
+  },
+  "removeDivider": {
+    "value": "إزالة الحاجز",
+    "history": [
+      {
+        "userId": 997918,
+        "timestamp": 1640945189032,
+        "oldValue": "",
+        "newValue": "إزالة الحاجز"
+      }
+    ]
+  },
+  "resetDivider": {
+    "value": "إعادة تعيين الحاجز",
+    "history": [
+      {
+        "userId": 997918,
+        "timestamp": 1640945189032,
+        "oldValue": "",
+        "newValue": "إعادة تعيين الحاجز"
       }
     ]
   },
@@ -252,7 +280,7 @@
     ]
   },
   "returnLid": {
-    "value": "اعط الغطاء",
+    "value": "استرداد الغطاء",
     "history": [
       {
         "userId": 844820,
@@ -260,6 +288,23 @@
         "oldValue": "",
         "newValue": "اعط الغطاء",
         "explanation": null
+      },
+      {
+        "userId": 997918,
+        "timestamp": 1640945189032,
+        "oldValue": "اعط الغطاء",
+        "newValue": "استرداد الغطاء"
+      }
+    ]
+  },
+  "oopsMaximumTemperature": {
+    "value": "تم الوصول إلى الحد الأقصى لدرجة الحرارة",
+    "history": [
+      {
+        "userId": 997918,
+        "timestamp": 1640945189032,
+        "oldValue": "",
+        "newValue": "تم الوصول إلى الحد الأقصى لدرجة الحرارة"
       }
     ]
   },
@@ -320,6 +365,17 @@
         "oldValue": "",
         "newValue": "استكشف",
         "explanation": null
+      }
+    ]
+  },
+  "pressureNoise": {
+    "value": "ضجيج الضغط",
+    "history": [
+      {
+        "userId": 997918,
+        "timestamp": 1640945189032,
+        "oldValue": "",
+        "newValue": "ضجيج الضغط"
       }
     ]
   },
@@ -395,6 +451,61 @@
       }
     ]
   },
+  "oopsPressureEmpty": {
+    "value": "عفواً! لا يمكن إبقاء الضغط ثابتاً عندما تكون الحاوية فارغة",
+    "history": [
+      {
+        "userId": 997918,
+        "timestamp": 1640945189032,
+        "oldValue": "",
+        "newValue": "عفواً! لا يمكن إبقاء الضغط ثابتاً عندما تكون الحاوية فارغة"
+      }
+    ]
+  },
+  "oopsPressureLarge": {
+    "value": "عفواً! لا يمكن إبقاء الضغط ثابتاً عندما يكون حجم الصوت كبيراً جداً",
+    "history": [
+      {
+        "userId": 997918,
+        "timestamp": 1640945189032,
+        "oldValue": "",
+        "newValue": "عفواً! لا يمكن إبقاء الضغط ثابتاً عندما يكون حجم الصوت كبيراً جداً"
+      }
+    ]
+  },
+  "oopsPressureSmall": {
+    "value": "عفواً! لا يمكن إبقاء الضغط ثابتاً عندما يكون الحجم صغير جداً",
+    "history": [
+      {
+        "userId": 997918,
+        "timestamp": 1640945189032,
+        "oldValue": "",
+        "newValue": "عفواً! لا يمكن إبقاء الضغط ثابتاً عندما يكون الحجم صغير جداً"
+      }
+    ]
+  },
+  "oopsTemperatureEmpty": {
+    "value": "عفواً! لا يمكن تثبيت درجة الحرارة عندما تكون الحاوية فارغة",
+    "history": [
+      {
+        "userId": 997918,
+        "timestamp": 1640945189032,
+        "oldValue": "",
+        "newValue": "عفواً! لا يمكن تثبيت درجة الحرارة عندما تكون الحاوية فارغة"
+      }
+    ]
+  },
+  "oopsTemperatureOpen": {
+    "value": "عفواً! لا يمكن تثبيت درجة الحرارة عندما تمون الحاوية مفتوحة",
+    "history": [
+      {
+        "userId": 997918,
+        "timestamp": 1640945189032,
+        "oldValue": "",
+        "newValue": "عفواً! لا يمكن تثبيت درجة الحرارة عندما تمون الحاوية مفتوحة"
+      }
+    ]
+  },
   "screen.ideal": {
     "value": "مثال",
     "history": [
@@ -428,6 +539,39 @@
         "oldValue": "",
         "newValue": "m/s",
         "explanation": null
+      }
+    ]
+  },
+  "injectionTemperature": {
+    "value": "درجة حرارة الحقن",
+    "history": [
+      {
+        "userId": 997918,
+        "timestamp": 1640945189032,
+        "oldValue": "",
+        "newValue": "درجة حرارة الحقن"
+      }
+    ]
+  },
+  "matchContainer": {
+    "value": "الحاوية",
+    "history": [
+      {
+        "userId": 997918,
+        "timestamp": 1640945189032,
+        "oldValue": "",
+        "newValue": "الحاوية"
+      }
+    ]
+  },
+  "setTo": {
+    "value": "بدء النشاط",
+    "history": [
+      {
+        "userId": 997918,
+        "timestamp": 1640945189032,
+        "oldValue": "",
+        "newValue": "بدء النشاط"
       }
     ]
   },
@@ -468,7 +612,7 @@
     ]
   },
   "gas-properties.title": {
-    "value": "خصائص الغازات",
+    "value": "خصائص الغاز",
     "history": [
       {
         "userId": 844820,
@@ -476,6 +620,12 @@
         "oldValue": "",
         "newValue": "خصائص الغازات",
         "explanation": null
+      },
+      {
+        "userId": 997918,
+        "timestamp": 1640945189032,
+        "oldValue": "خصائص الغازات",
+        "newValue": "خصائص الغاز"
       }
     ]
   }
