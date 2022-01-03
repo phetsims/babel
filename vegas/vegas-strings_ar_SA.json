@@ -11,13 +11,19 @@
     ]
   },
   "check": {
-    "value": "فحص",
+    "value": "التأكد",
     "history": [
       {
         "userId": 412402,
         "timestamp": 1616428020450,
         "oldValue": "",
         "newValue": "فحص"
+      },
+      {
+        "userId": 997918,
+        "timestamp": 1641241939890,
+        "oldValue": "فحص",
+        "newValue": "التأكد"
       }
     ]
   },
@@ -110,14 +116,26 @@
       }
     ]
   },
-  "score": {
-    "value": "النتيجة",
+  "label.scorePattern": {
+    "value": "النتيجة\r\n\n: {0}",
     "history": [
+      {
+        "userId": 412402,
+        "timestamp": 1616428020450,
+        "oldValue": "",
+        "newValue": "النتيجة\n: {0}"
+      },
       {
         "userId": 844820,
         "timestamp": 1637595980774,
-        "oldValue": "",
-        "newValue": "النتيجة"
+        "oldValue": "النتيجة\n: {0}",
+        "newValue": "النتيجة\r\n: {0}"
+      },
+      {
+        "userId": 997918,
+        "timestamp": 1641241939890,
+        "oldValue": "النتيجة\r\n: {0}",
+        "newValue": "النتيجة\r\n\n: {0}"
       }
     ]
   },
@@ -129,17 +147,6 @@
         "timestamp": 1616428020450,
         "oldValue": "",
         "newValue": "النتيجة\n: {0} out of {1}"
-      }
-    ]
-  },
-  "pattern.score.number": {
-    "value": "النتيجة {{score}}",
-    "history": [
-      {
-        "userId": 844820,
-        "timestamp": 1637595980774,
-        "oldValue": "",
-        "newValue": "النتيجة {{score}}"
       }
     ]
   },
@@ -187,20 +194,25 @@
       }
     ]
   },
-  "label.scorePattern": {
-    "value": "النتيجة\r\n: {0}",
+  "score": {
+    "value": "النتيجة",
     "history": [
-      {
-        "userId": 412402,
-        "timestamp": 1616428020450,
-        "oldValue": "",
-        "newValue": "النتيجة\n: {0}"
-      },
       {
         "userId": 844820,
         "timestamp": 1637595980774,
-        "oldValue": "النتيجة\n: {0}",
-        "newValue": "النتيجة\r\n: {0}"
+        "oldValue": "",
+        "newValue": "النتيجة"
+      }
+    ]
+  },
+  "pattern.score.number": {
+    "value": "النتيجة {{score}}",
+    "history": [
+      {
+        "userId": 844820,
+        "timestamp": 1637595980774,
+        "oldValue": "",
+        "newValue": "النتيجة {{score}}"
       }
     ]
   },
