@@ -1,4 +1,15 @@
 {
+  "key.alt": {
+    "value": "Alt",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1614121898460,
+        "oldValue": "",
+        "newValue": "Alt"
+      }
+    ]
+  },
   "key.enter": {
     "value": "Enter",
     "history": [
@@ -8,6 +19,29 @@
         "oldValue": "",
         "newValue": "Enter",
         "explanation": null
+      }
+    ]
+  },
+  "key.esc": {
+    "value": "Esc",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541102030979,
+        "oldValue": "",
+        "newValue": "Esc",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.fast": {
+    "value": "Rápido",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615576113397,
+        "oldValue": "",
+        "newValue": "Rápido"
       }
     ]
   },
@@ -32,6 +66,28 @@
         "oldValue": "",
         "newValue": "Agarrar ou libertar {{thing}}",
         "explanation": null
+      }
+    ]
+  },
+  "key.k": {
+    "value": "K",
+    "history": [
+      {
+        "userId": 156648,
+        "timestamp": 1642438101861,
+        "oldValue": "",
+        "newValue": "K"
+      }
+    ]
+  },
+  "key.l": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 156648,
+        "timestamp": 1642438101861,
+        "oldValue": "",
+        "newValue": "L"
       }
     ]
   },
@@ -95,13 +151,19 @@
     ]
   },
   "speed.slow": {
-    "value": "Lento",
+    "value": "Lenta",
     "history": [
       {
         "userId": 160498,
         "timestamp": 1615576113397,
         "oldValue": "",
         "newValue": "Lento"
+      },
+      {
+        "userId": 610145,
+        "timestamp": 1642623781485,
+        "oldValue": "Lento",
+        "newValue": "Lenta"
       }
     ]
   },
@@ -129,14 +191,25 @@
       }
     ]
   },
-  "comboBoxDisplay.valueUnits": {
-    "value": "{{value}} {{units}}",
+  "measuringTapeReadoutPattern": {
+    "value": "{{distance}} {{units}}",
     "history": [
       {
         "userId": 610145,
-        "timestamp": 1642621085097,
+        "timestamp": 1642623781485,
         "oldValue": "",
-        "newValue": "{{value}} {{units}}"
+        "newValue": "{{distance}} {{units}}"
+      }
+    ]
+  },
+  "stopwatchValueUnitsPattern": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615576113397,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}"
       }
     ]
   },
@@ -164,48 +237,14 @@
       }
     ]
   },
-  "key.alt": {
-    "value": "Alt",
-    "history": [
-      {
-        "userId": 160498,
-        "timestamp": 1614121898460,
-        "oldValue": "",
-        "newValue": "Alt"
-      }
-    ]
-  },
-  "key.esc": {
-    "value": "Esc",
+  "comboBoxDisplay.valueUnits": {
+    "value": "{{value}} {{units}}",
     "history": [
       {
         "userId": 610145,
-        "timestamp": 1541102030979,
+        "timestamp": 1642621085097,
         "oldValue": "",
-        "newValue": "Esc",
-        "explanation": null
-      }
-    ]
-  },
-  "key.k": {
-    "value": "K",
-    "history": [
-      {
-        "userId": 156648,
-        "timestamp": 1642438101861,
-        "oldValue": "",
-        "newValue": "K"
-      }
-    ]
-  },
-  "key.l": {
-    "value": "L",
-    "history": [
-      {
-        "userId": 156648,
-        "timestamp": 1642438101861,
-        "oldValue": "",
-        "newValue": "L"
+        "newValue": "{{value}} {{units}}"
       }
     ]
   },
@@ -300,17 +339,6 @@
       }
     ]
   },
-  "speed.fast": {
-    "value": "Rápido",
-    "history": [
-      {
-        "userId": 160498,
-        "timestamp": 1615576113397,
-        "oldValue": "",
-        "newValue": "Rápido"
-      }
-    ]
-  },
   "key.fn": {
     "value": "Fn",
     "history": [
@@ -391,17 +419,6 @@
         "oldValue": "",
         "newValue": "Alternar caixas de seleção",
         "explanation": null
-      }
-    ]
-  },
-  "stopwatchValueUnitsPattern": {
-    "value": "{{value}} {{units}}",
-    "history": [
-      {
-        "userId": 160498,
-        "timestamp": 1615576113397,
-        "oldValue": "",
-        "newValue": "{{value}} {{units}}"
       }
     ]
   },
