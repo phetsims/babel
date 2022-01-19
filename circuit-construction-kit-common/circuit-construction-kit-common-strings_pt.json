@@ -10,18 +10,6 @@
       }
     ]
   },
-  "questionMark": {
-    "value": "?",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1541096027915,
-        "oldValue": "",
-        "newValue": "?",
-        "explanation": null
-      }
-    ]
-  },
   "acSource": {
     "value": "Voltagem CA",
     "history": [
@@ -64,6 +52,17 @@
         "oldValue": "",
         "newValue": "Amperímetro",
         "explanation": null
+      }
+    ]
+  },
+  "ammeterReadout": {
+    "value": "Leitura do Amperímetro",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1642632231346,
+        "oldValue": "",
+        "newValue": "Leitura do Amperímetro"
       }
     ]
   },
@@ -173,7 +172,7 @@
     ]
   },
   "current": {
-    "value": "Corrente",
+    "value": "Atual",
     "history": [
       {
         "userId": 610145,
@@ -187,6 +186,12 @@
         "timestamp": 1614110808400,
         "oldValue": "Atual",
         "newValue": "Corrente"
+      },
+      {
+        "userId": 610145,
+        "timestamp": 1642632231346,
+        "oldValue": "Corrente",
+        "newValue": "Atual"
       }
     ]
   },
@@ -220,6 +225,17 @@
         "timestamp": 1614110808400,
         "oldValue": "",
         "newValue": "Corrente Atual"
+      }
+    ]
+  },
+  "dataOutOfRange": {
+    "value": "Dados fora do intervalo",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1642632231346,
+        "oldValue": "",
+        "newValue": "Dados fora do intervalo"
       }
     ]
   },
@@ -385,6 +401,17 @@
       }
     ]
   },
+  "magnitude": {
+    "value": "Magnitude",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1642632231346,
+        "oldValue": "",
+        "newValue": "Magnitude"
+      }
+    ]
+  },
   "paperClip": {
     "value": "Clipe",
     "history": [
@@ -417,17 +444,6 @@
         "timestamp": 1615576113397,
         "oldValue": "",
         "newValue": "Mudança de fase"
-      }
-    ]
-  },
-  "realBulb": {
-    "value": "Lâmpada Real",
-    "history": [
-      {
-        "userId": 160498,
-        "timestamp": 1615576113397,
-        "oldValue": "",
-        "newValue": "Lâmpada Real"
       }
     ]
   },
@@ -467,7 +483,7 @@
     ]
   },
   "showCurrent": {
-    "value": "Mostra atual",
+    "value": "Mostra Atual",
     "history": [
       {
         "userId": 610145,
@@ -475,6 +491,23 @@
         "oldValue": "",
         "newValue": "Mostra atual",
         "explanation": null
+      },
+      {
+        "userId": 610145,
+        "timestamp": 1642632231347,
+        "oldValue": "Mostra atual",
+        "newValue": "Mostra Atual"
+      }
+    ]
+  },
+  "signed": {
+    "value": "Assinado",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1642632231347,
+        "oldValue": "",
+        "newValue": "Assinado"
       }
     ]
   },
@@ -776,6 +809,29 @@
         "oldValue": "",
         "newValue": "{{voltage}} volts",
         "explanation": null
+      }
+    ]
+  },
+  "questionMark": {
+    "value": "?",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541096027915,
+        "oldValue": "",
+        "newValue": "?",
+        "explanation": null
+      }
+    ]
+  },
+  "realBulb": {
+    "value": "Lâmpada Real",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1615576113397,
+        "oldValue": "",
+        "newValue": "Lâmpada Real"
       }
     ]
   },
