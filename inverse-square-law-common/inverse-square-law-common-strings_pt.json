@@ -1,18 +1,6 @@
 {
-  "units.centimeters": {
-    "value": "cm",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1583523132730,
-        "oldValue": "",
-        "newValue": "cm",
-        "explanation": null
-      }
-    ]
-  },
   "forceOnObjectByOtherObjectPattern": {
-    "value": "Força em {{thisObject}} por {{otherObject}}",
+    "value": "Força em {{thisObject}} via {{otherObject}}",
     "history": [
       {
         "userId": 610145,
@@ -20,11 +8,17 @@
         "oldValue": "",
         "newValue": "Força em {{thisObject}} por {{otherObject}}",
         "explanation": null
+      },
+      {
+        "userId": 610145,
+        "timestamp": 1642706836163,
+        "oldValue": "Força em {{thisObject}} por {{otherObject}}",
+        "newValue": "Força em {{thisObject}} via {{otherObject}}"
       }
     ]
   },
   "forceOnObjectByOtherObjectWithUnitsPattern": {
-    "value": "Força em {{thisObject}} por {{otherObject}} = {{value}} N",
+    "value": "Força em {{thisObject}} via {{otherObject}} = {{value}} N",
     "history": [
       {
         "userId": 610145,
@@ -32,6 +26,12 @@
         "oldValue": "",
         "newValue": "Força em {{thisObject}} por {{otherObject}} = {{value}} N",
         "explanation": null
+      },
+      {
+        "userId": 610145,
+        "timestamp": 1642706836163,
+        "oldValue": "Força em {{thisObject}} por {{otherObject}} = {{value}} N",
+        "newValue": "Força em {{thisObject}} via {{otherObject}} = {{value}} N"
       }
     ]
   },
@@ -43,6 +43,54 @@
         "timestamp": 1583523132730,
         "oldValue": "",
         "newValue": "Valores da Força",
+        "explanation": null
+      }
+    ]
+  },
+  "units.meter": {
+    "value": "metro",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1583523132730,
+        "oldValue": "",
+        "newValue": "metro",
+        "explanation": null
+      }
+    ]
+  },
+  "units.meters": {
+    "value": "metros",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1583523132730,
+        "oldValue": "",
+        "newValue": "metros",
+        "explanation": null
+      }
+    ]
+  },
+  "units.newtons": {
+    "value": "newtons",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1583523132730,
+        "oldValue": "",
+        "newValue": "newtons",
+        "explanation": null
+      }
+    ]
+  },
+  "units.centimeters": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1583523132730,
+        "oldValue": "",
+        "newValue": "cm",
         "explanation": null
       }
     ]
@@ -90,42 +138,6 @@
         "timestamp": 1583523132730,
         "oldValue": "",
         "newValue": "Ocultas",
-        "explanation": null
-      }
-    ]
-  },
-  "units.meter": {
-    "value": "metro",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1583523132730,
-        "oldValue": "",
-        "newValue": "metro",
-        "explanation": null
-      }
-    ]
-  },
-  "units.meters": {
-    "value": "metros",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1583523132730,
-        "oldValue": "",
-        "newValue": "metros",
-        "explanation": null
-      }
-    ]
-  },
-  "units.newtons": {
-    "value": "newtons",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1583523132730,
-        "oldValue": "",
-        "newValue": "newtons",
         "explanation": null
       }
     ]
