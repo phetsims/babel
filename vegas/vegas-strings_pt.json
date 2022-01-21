@@ -1,99 +1,6 @@
 {
-  "chooseYourLevel": {
-    "value": "Escolhe o Teu Nível!",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1642622118486,
-        "oldValue": "",
-        "newValue": "Escolhe o Teu Nível!"
-      }
-    ]
-  },
-  "done": {
-    "value": "Feito",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1642622118486,
-        "oldValue": "",
-        "newValue": "Feito"
-      }
-    ]
-  },
-  "next": {
-    "value": "Seguinte",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1541094629741,
-        "oldValue": "",
-        "newValue": "Seguinte",
-        "explanation": null
-      }
-    ]
-  },
-  "score": {
-    "value": "Resultado:",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1541096744448,
-        "oldValue": "",
-        "newValue": "Resultado:",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.score.number": {
-    "value": "Resultado: {{score}}",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1541096744448,
-        "oldValue": "",
-        "newValue": "Resultado: {{score}}",
-        "explanation": null
-      }
-    ]
-  },
-  "youCompletedAllLevels": {
-    "value": "Completaste os níveis todos!",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1642622118486,
-        "oldValue": "",
-        "newValue": "Completaste os níveis todos!"
-      }
-    ]
-  },
-  "pattern.0minutes.1seconds": {
-    "value": "{0}:{1}",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1541094277780,
-        "oldValue": "",
-        "newValue": "{0}:{1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0hours.1minutes.2seconds": {
-    "value": "{0}:{1}:{2}",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1541094277780,
-        "oldValue": "",
-        "newValue": "{0}:{1}:{2}",
-        "explanation": null
-      }
-    ]
-  },
   "pattern.0yourBest": {
-    "value": "(O teu Recorde: {0})",
+    "value": "(O teu recorde: {0})",
     "history": [
       {
         "userId": 610145,
@@ -108,6 +15,12 @@
         "oldValue": "(Teu Recorde: {0})",
         "newValue": "(O teu Recorde: {0})",
         "explanation": null
+      },
+      {
+        "userId": 1017174,
+        "timestamp": 1642728085034,
+        "oldValue": "(O teu Recorde: {0})",
+        "newValue": "(O teu recorde: {0})"
       }
     ]
   },
@@ -179,7 +92,7 @@
     ]
   },
   "good": {
-    "value": "Boa!",
+    "value": "Muito Bem !",
     "history": [
       {
         "userId": 610145,
@@ -187,11 +100,17 @@
         "oldValue": "",
         "newValue": "Boa!",
         "explanation": null
+      },
+      {
+        "userId": 1017174,
+        "timestamp": 1642728085034,
+        "oldValue": "Boa!",
+        "newValue": "Muito Bem !"
       }
     ]
   },
   "great": {
-    "value": "Fixe!",
+    "value": "Fixe !",
     "history": [
       {
         "userId": 610145,
@@ -199,6 +118,12 @@
         "oldValue": "",
         "newValue": "Fixe!",
         "explanation": null
+      },
+      {
+        "userId": 1017174,
+        "timestamp": 1642728085034,
+        "oldValue": "Fixe!",
+        "newValue": "Fixe !"
       }
     ]
   },
@@ -222,6 +147,18 @@
         "timestamp": 1541094277780,
         "oldValue": "",
         "newValue": "Nível: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "next": {
+    "value": "Seguinte",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094629741,
+        "oldValue": "",
+        "newValue": "Seguinte",
         "explanation": null
       }
     ]
@@ -295,6 +232,87 @@
         "oldValue": "",
         "newValue": "Tenta de novo",
         "explanation": null
+      }
+    ]
+  },
+  "pattern.0minutes.1seconds": {
+    "value": "{0}:{1}",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "{0}:{1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      }
+    ]
+  },
+  "chooseYourLevel": {
+    "value": "Escolhe o Teu Nível!",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1642622118486,
+        "oldValue": "",
+        "newValue": "Escolhe o Teu Nível!"
+      }
+    ]
+  },
+  "done": {
+    "value": "Feito",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1642622118486,
+        "oldValue": "",
+        "newValue": "Feito"
+      }
+    ]
+  },
+  "score": {
+    "value": "Resultado:",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541096744448,
+        "oldValue": "",
+        "newValue": "Resultado:",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.score.number": {
+    "value": "Resultado: {{score}}",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541096744448,
+        "oldValue": "",
+        "newValue": "Resultado: {{score}}",
+        "explanation": null
+      }
+    ]
+  },
+  "youCompletedAllLevels": {
+    "value": "Completaste os níveis todos!",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1642622118486,
+        "oldValue": "",
+        "newValue": "Completaste os níveis todos!"
       }
     ]
   },
