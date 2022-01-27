@@ -103,6 +103,17 @@
       }
     ]
   },
+  "speed.fast": {
+    "value": "מהר",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1627764710498,
+        "oldValue": "",
+        "newValue": "מהר"
+      }
+    ]
+  },
   "key.fn": {
     "value": "Fn",
     "history": [
@@ -209,6 +220,18 @@
       }
     ]
   },
+  "speed.normal": {
+    "value": "רגיל",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1584820277589,
+        "oldValue": "",
+        "newValue": "רגיל",
+        "explanation": null
+      }
+    ]
+  },
   "keyboardHelpDialog.or": {
     "value": "או",
     "history": [
@@ -289,18 +312,6 @@
       }
     ]
   },
-  "webglWarning.contextLossReload": {
-    "value": "טען מחדש",
-    "history": [
-      {
-        "userId": 282815,
-        "timestamp": 1607196066638,
-        "oldValue": "",
-        "newValue": "טען מחדש",
-        "explanation": null
-      }
-    ]
-  },
   "key.shift": {
     "value": "Shift",
     "history": [
@@ -312,14 +323,21 @@
       }
     ]
   },
-  "webglWarning.contextLossFailure": {
-    "value": "סליחה, חלה שגיאת גרפיקה.",
+  "speed.slow": {
+    "value": "איטי",
     "history": [
       {
         "userId": 282815,
-        "timestamp": 1607198723811,
+        "timestamp": 1584820277589,
         "oldValue": "",
-        "newValue": "סליחה, חלה שגיאת גרפיקה.",
+        "newValue": "לאט",
+        "explanation": null
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1584827770936,
+        "oldValue": "לאט",
+        "newValue": "איטי",
         "explanation": null
       }
     ]
@@ -391,15 +409,14 @@
       }
     ]
   },
-  "webglWarning.body": {
-    "value": "WebGL לא מאופשר או זמין. לחצו ללמוד עוד",
+  "stopwatchValueUnitsPattern": {
+    "value": "{{value}} {{units}}",
     "history": [
       {
-        "userId": 282815,
-        "timestamp": 1607198417320,
+        "userId": 775981,
+        "timestamp": 1643314541423,
         "oldValue": "",
-        "newValue": "WebGL לא מאופשר או זמין. לחצו ללמוד עוד",
-        "explanation": null
+        "newValue": "{{value}} {{units}}"
       }
     ]
   },
@@ -425,6 +442,42 @@
       }
     ]
   },
+  "webglWarning.contextLossReload": {
+    "value": "טען מחדש",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1607196066638,
+        "oldValue": "",
+        "newValue": "טען מחדש",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossFailure": {
+    "value": "סליחה, חלה שגיאת גרפיקה.",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1607198723811,
+        "oldValue": "",
+        "newValue": "סליחה, חלה שגיאת גרפיקה.",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.body": {
+    "value": "WebGL לא מאופשר או זמין. לחצו ללמוד עוד",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1607198417320,
+        "oldValue": "",
+        "newValue": "WebGL לא מאופשר או זמין. לחצו ללמוד עוד",
+        "explanation": null
+      }
+    ]
+  },
   "keyboardHelpDialog.adjust": {
     "value": "התאם",
     "history": [
@@ -433,17 +486,6 @@
         "timestamp": 1633790674907,
         "oldValue": "",
         "newValue": "התאם"
-      }
-    ]
-  },
-  "speed.fast": {
-    "value": "מהר",
-    "history": [
-      {
-        "userId": 282815,
-        "timestamp": 1627764710498,
-        "oldValue": "",
-        "newValue": "מהר"
       }
     ]
   },
@@ -491,18 +533,6 @@
       }
     ]
   },
-  "speed.normal": {
-    "value": "רגיל",
-    "history": [
-      {
-        "userId": 282815,
-        "timestamp": 1584820277589,
-        "oldValue": "",
-        "newValue": "רגיל",
-        "explanation": null
-      }
-    ]
-  },
   "keyboardHelpDialog.slider": {
     "value": "שקופית",
     "history": [
@@ -522,25 +552,6 @@
         "timestamp": 1633790674908,
         "oldValue": "",
         "newValue": "שקופית בקרים"
-      }
-    ]
-  },
-  "speed.slow": {
-    "value": "איטי",
-    "history": [
-      {
-        "userId": 282815,
-        "timestamp": 1584820277589,
-        "oldValue": "",
-        "newValue": "לאט",
-        "explanation": null
-      },
-      {
-        "userId": 282815,
-        "timestamp": 1584827770936,
-        "oldValue": "לאט",
-        "newValue": "איטי",
-        "explanation": null
       }
     ]
   },
