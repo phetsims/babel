@@ -1,12 +1,34 @@
 {
-  "keyboardHelpDialog.hyphen": {
-    "value": "-",
+  "keyboardHelpDialog.adjustInLargerSteps": {
+    "value": "ปรับการเพิ่มมากขึ้น",
     "history": [
       {
         "userId": 153887,
-        "timestamp": 1642834320900,
+        "timestamp": 1643362134088,
         "oldValue": "",
-        "newValue": "-"
+        "newValue": "ปรับการเพิ่มมากขึ้น"
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustInSmallerSteps": {
+    "value": "ปรับการเพิ่มลดลง",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1643362134088,
+        "oldValue": "",
+        "newValue": "ปรับการเพิ่มลดลง"
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustSlider": {
+    "value": "ปรับตัวสไลด์",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1643362134088,
+        "oldValue": "",
+        "newValue": "ปรับตัวสไลด์"
       }
     ]
   },
@@ -57,18 +79,7 @@
       }
     ]
   },
-  "speed.fast": {
-    "value": "เร็ว",
-    "history": [
-      {
-        "userId": 153887,
-        "timestamp": 1642834166997,
-        "oldValue": "",
-        "newValue": "เร็ว"
-      }
-    ]
-  },
-  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
     "value": "เลือก หรือ ปล่อย {{thing}}",
     "history": [
       {
@@ -80,7 +91,7 @@
       }
     ]
   },
-  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
     "value": "เลือก หรือ ปล่อย {{thing}}",
     "history": [
       {
@@ -104,6 +115,28 @@
       }
     ]
   },
+  "keyboardHelpDialog.jumpToMaximum": {
+    "value": "ไปยังค่ามากที่สุด",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1643362134089,
+        "oldValue": "",
+        "newValue": "ไปยังค่ามากที่สุด"
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMinimum": {
+    "value": "ไปยังค่าน้อยที่สุด",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1643362134089,
+        "oldValue": "",
+        "newValue": "ไปยังค่าน้อยที่สุด"
+      }
+    ]
+  },
   "keyboardHelpDialog.moveBetweenItemsInAGroup": {
     "value": "ย้ายระหว่างตัวเลือกในกลุ่ม",
     "history": [
@@ -112,6 +145,18 @@
         "timestamp": 1610244570018,
         "oldValue": "",
         "newValue": "ย้ายระหว่างตัวเลือกในกลุ่ม",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItem": {
+    "value": "ไปยังตัวเลือกต่อไป",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1610249823469,
+        "oldValue": "",
+        "newValue": "ไปยังตัวเลือกต่อไป",
         "explanation": null
       }
     ]
@@ -135,6 +180,18 @@
       }
     ]
   },
+  "keyboardHelpDialog.moveToPreviousItem": {
+    "value": "ไปยังตัวเลือกที่แล้ว",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1610249823470,
+        "oldValue": "",
+        "newValue": "ไปยังตัวเลือกที่แล้ว",
+        "explanation": null
+      }
+    ]
+  },
   "keyboardHelpDialog.moveToPreviousItemOrGroup": {
     "value": "ไปยังตัวเลือกหรือกลุ่มที่แล้ว",
     "history": [
@@ -143,18 +200,6 @@
         "timestamp": 1610244570018,
         "oldValue": "",
         "newValue": "ไปยังตัวเลือกหรือกลุ่มที่แล้ว",
-        "explanation": null
-      }
-    ]
-  },
-  "speed.normal": {
-    "value": "ปกติ",
-    "history": [
-      {
-        "userId": 153887,
-        "timestamp": 1588393534132,
-        "oldValue": "",
-        "newValue": "ปกติ",
         "explanation": null
       }
     ]
@@ -219,15 +264,14 @@
       }
     ]
   },
-  "speed.slow": {
-    "value": "ช้า",
+  "keyboardHelpDialog.sliderControls": {
+    "value": "ควบคุมตัวสไลด์",
     "history": [
       {
         "userId": 153887,
-        "timestamp": 1588393534132,
+        "timestamp": 1643362134089,
         "oldValue": "",
-        "newValue": "ช้า",
-        "explanation": null
+        "newValue": "ควบคุมตัวสไลด์"
       }
     ]
   },
@@ -251,18 +295,6 @@
         "timestamp": 1585557258095,
         "oldValue": "",
         "newValue": "กด Tab",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.toggleCheckboxes": {
-    "value": "เลือกกล่องข้อความ",
-    "history": [
-      {
-        "userId": 153887,
-        "timestamp": 1610244570018,
-        "oldValue": "",
-        "newValue": "เลือกกล่องข้อความ",
         "explanation": null
       }
     ]
@@ -294,6 +326,64 @@
         "timestamp": 1588393534132,
         "oldValue": "Ω",
         "newValue": "Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.hyphen": {
+    "value": "-",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1642834320900,
+        "oldValue": "",
+        "newValue": "-"
+      }
+    ]
+  },
+  "speed.fast": {
+    "value": "เร็ว",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1642834166997,
+        "oldValue": "",
+        "newValue": "เร็ว"
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "ปกติ",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1588393534132,
+        "oldValue": "",
+        "newValue": "ปกติ",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "ช้า",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1588393534132,
+        "oldValue": "",
+        "newValue": "ช้า",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.toggleCheckboxes": {
+    "value": "เลือกกล่องข้อความ",
+    "history": [
+      {
+        "userId": 153887,
+        "timestamp": 1610244570018,
+        "oldValue": "",
+        "newValue": "เลือกกล่องข้อความ",
         "explanation": null
       }
     ]
@@ -330,30 +420,6 @@
         "timestamp": 1642752951625,
         "oldValue": "",
         "newValue": "WebGL ไม่เปิดทำงานหรือไม่พร้อม ให้กดเพื่อเรียนรู้เพิ่มเติม"
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveToNextItem": {
-    "value": "ไปยังตัวเลือกต่อไป",
-    "history": [
-      {
-        "userId": 153887,
-        "timestamp": 1610249823469,
-        "oldValue": "",
-        "newValue": "ไปยังตัวเลือกต่อไป",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveToPreviousItem": {
-    "value": "ไปยังตัวเลือกที่แล้ว",
-    "history": [
-      {
-        "userId": 153887,
-        "timestamp": 1610249823470,
-        "oldValue": "",
-        "newValue": "ไปยังตัวเลือกที่แล้ว",
-        "explanation": null
       }
     ]
   },
