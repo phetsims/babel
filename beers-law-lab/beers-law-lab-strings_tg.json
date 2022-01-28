@@ -1,4 +1,77 @@
 {
+  "cobaltChloride": {
+    "value": "Хлориди кобалт (II).",
+    "history": [
+      {
+        "userId": 1005397,
+        "timestamp": 1640249776480,
+        "oldValue": "",
+        "newValue": "Хлориди кобальт (II)."
+      },
+      {
+        "userId": 900124,
+        "timestamp": 1643358960922,
+        "oldValue": "Хлориди кобальт (II).",
+        "newValue": "Хлориди кобалт (II)."
+      }
+    ]
+  },
+  "cobaltIINitrate": {
+    "value": "Нитрати кобалт (II).",
+    "history": [
+      {
+        "userId": 1005397,
+        "timestamp": 1640249776480,
+        "oldValue": "",
+        "newValue": "Нитрати кобальт (II)."
+      },
+      {
+        "userId": 900124,
+        "timestamp": 1643358960922,
+        "oldValue": "Нитрати кобальт (II).",
+        "newValue": "Нитрати кобалт (II)."
+      }
+    ]
+  },
+  "screen.concentration": {
+    "value": "Консентратсияи",
+    "history": [
+      {
+        "userId": 1005397,
+        "timestamp": 1640318363716,
+        "oldValue": "",
+        "newValue": "Консентратсияи"
+      }
+    ]
+  },
+  "concentration": {
+    "value": "Консентратсияи",
+    "history": [
+      {
+        "userId": 1005397,
+        "timestamp": 1640249776480,
+        "oldValue": "",
+        "newValue": "Консентратсияи"
+      }
+    ]
+  },
+  "copperSulfate": {
+    "value": "Сулфати мис (II).",
+    "history": [
+      {
+        "userId": 1005397,
+        "timestamp": 1640249776480,
+        "oldValue": "",
+        "newValue": "Сульфати мис (II)."
+      },
+      {
+        "userId": 900124,
+        "timestamp": 1643358960922,
+        "oldValue": "Сульфати мис (II).",
+        "newValue": "Сулфати мис (II)."
+      }
+    ]
+  },
   "drinkMix": {
     "value": "Омехта кардани нӯшокӣ",
     "history": [
@@ -10,69 +83,76 @@
       }
     ]
   },
-  "units.mM": {
-    "value": "mM",
+  "evaporation": {
+    "value": "Бухоршавӣ",
     "history": [
       {
         "userId": 1005397,
         "timestamp": 1640249776480,
         "oldValue": "",
-        "newValue": "mM"
+        "newValue": "Бухоршавӣ"
       }
     ]
   },
-  "units.uM": {
-    "value": "µM",
+  "units.liters": {
+    "value": "л",
     "history": [
       {
         "userId": 1005397,
         "timestamp": 1640249776480,
         "oldValue": "",
-        "newValue": "µM"
+        "newValue": "L"
+      },
+      {
+        "userId": 900124,
+        "timestamp": 1643358960922,
+        "oldValue": "L",
+        "newValue": "л"
       }
     ]
   },
-  "water": {
-    "value": "об",
+  "lots": {
+    "value": "лот",
     "history": [
       {
         "userId": 1005397,
         "timestamp": 1640249776480,
         "oldValue": "",
-        "newValue": "об"
+        "newValue": "лот"
       }
     ]
   },
-  "cobaltChloride": {
-    "value": "Хлориди кобальт (II).",
+  "units.milliliters": {
+    "value": "мл",
     "history": [
       {
         "userId": 1005397,
         "timestamp": 1640249776480,
         "oldValue": "",
-        "newValue": "Хлориди кобальт (II)."
+        "newValue": "mL"
+      },
+      {
+        "userId": 900124,
+        "timestamp": 1643358960922,
+        "oldValue": "mL",
+        "newValue": "мл"
       }
     ]
   },
-  "cobaltIINitrate": {
-    "value": "Нитрати кобальт (II).",
+  "units.molesPerLiter": {
+    "value": "мол/л",
     "history": [
       {
         "userId": 1005397,
         "timestamp": 1640249776480,
         "oldValue": "",
-        "newValue": "Нитрати кобальт (II)."
-      }
-    ]
-  },
-  "copperSulfate": {
-    "value": "Сульфати мис (II).",
-    "history": [
+        "newValue": "mol/L"
+      },
       {
-        "userId": 1005397,
-        "timestamp": 1640249776480,
-        "oldValue": "",
-        "newValue": "Сульфати мис (II)."
+        "userId": 900124,
+        "timestamp": 1643358960922,
+        "oldValue": "mol/L",
+        "newValue": "мол/л"
       }
     ]
   },
@@ -87,25 +167,14 @@
       }
     ]
   },
-  "pattern.0formula.1name": {
-    "value": "{0}: {1}",
+  "none": {
+    "value": "ҳеҷ",
     "history": [
       {
         "userId": 1005397,
         "timestamp": 1640249776480,
         "oldValue": "",
-        "newValue": "{0}: {1}"
-      }
-    ]
-  },
-  "pattern.0value.1units": {
-    "value": "{0} {1}",
-    "history": [
-      {
-        "userId": 1005397,
-        "timestamp": 1640249776480,
-        "oldValue": "",
-        "newValue": "{0} {1}"
+        "newValue": "ҳеҷ"
       }
     ]
   },
@@ -142,14 +211,109 @@
       }
     ]
   },
-  "absorbance": {
-    "value": "Азхудкунӣ",
+  "removeSolute": {
+    "value": "Хориҷкунии маҳлул",
+    "history": [
+      {
+        "userId": 1005397,
+        "timestamp": 1640318363716,
+        "oldValue": "",
+        "newValue": "Хориҷкунии маҳлул"
+      }
+    ]
+  },
+  "saturated": {
+    "value": "Сершуда!",
+    "history": [
+      {
+        "userId": 1005397,
+        "timestamp": 1640318363716,
+        "oldValue": "",
+        "newValue": "Сершуда!"
+      }
+    ]
+  },
+  "sodiumChloride": {
+    "value": "Хлориди натрий",
     "history": [
       {
         "userId": 1005397,
         "timestamp": 1640249776480,
         "oldValue": "",
-        "newValue": "Азхудкунӣ"
+        "newValue": "Натрия хлорид"
+      },
+      {
+        "userId": 900124,
+        "timestamp": 1643358960922,
+        "oldValue": "Натрия хлорид",
+        "newValue": "Хлориди натрий"
+      }
+    ]
+  },
+  "solid": {
+    "value": "Сахт",
+    "history": [
+      {
+        "userId": 1005397,
+        "timestamp": 1640318363716,
+        "oldValue": "",
+        "newValue": "Сахт"
+      }
+    ]
+  },
+  "solute": {
+    "value": "Маҳлулшуда",
+    "history": [
+      {
+        "userId": 1005397,
+        "timestamp": 1640318363716,
+        "oldValue": "",
+        "newValue": "Маҳлул"
+      },
+      {
+        "userId": 900124,
+        "timestamp": 1643358960922,
+        "oldValue": "Маҳлул",
+        "newValue": "Маҳлулшуда"
+      }
+    ]
+  },
+  "pattern.0soluteAmount": {
+    "value": "Миқдори маҳлул: {0} г",
+    "history": [
+      {
+        "userId": 1005397,
+        "timestamp": 1640318363716,
+        "oldValue": "",
+        "newValue": "Миқдори маҳлул: {0} г"
+      }
+    ]
+  },
+  "solution": {
+    "value": "Маҳлул",
+    "history": [
+      {
+        "userId": 1005397,
+        "timestamp": 1640249776480,
+        "oldValue": "",
+        "newValue": "Ҳалли"
+      },
+      {
+        "userId": 900124,
+        "timestamp": 1643358960922,
+        "oldValue": "Ҳалли",
+        "newValue": "Маҳлул"
+      }
+    ]
+  },
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 1005397,
+        "timestamp": 1640249776480,
+        "oldValue": "",
+        "newValue": "{0} {1}"
       }
     ]
   },
@@ -161,6 +325,72 @@
         "timestamp": 1640249776480,
         "oldValue": "",
         "newValue": "{0}%"
+      }
+    ]
+  },
+  "pattern.0label": {
+    "value": "{0}:",
+    "history": [
+      {
+        "userId": 1005397,
+        "timestamp": 1640249776480,
+        "oldValue": "",
+        "newValue": "{0}:"
+      }
+    ]
+  },
+  "units.mM": {
+    "value": "mM",
+    "history": [
+      {
+        "userId": 1005397,
+        "timestamp": 1640249776480,
+        "oldValue": "",
+        "newValue": "mM"
+      }
+    ]
+  },
+  "units.uM": {
+    "value": "µM",
+    "history": [
+      {
+        "userId": 1005397,
+        "timestamp": 1640249776480,
+        "oldValue": "",
+        "newValue": "µM"
+      }
+    ]
+  },
+  "water": {
+    "value": "об",
+    "history": [
+      {
+        "userId": 1005397,
+        "timestamp": 1640249776480,
+        "oldValue": "",
+        "newValue": "об"
+      }
+    ]
+  },
+  "pattern.0formula.1name": {
+    "value": "{0}: {1}",
+    "history": [
+      {
+        "userId": 1005397,
+        "timestamp": 1640249776480,
+        "oldValue": "",
+        "newValue": "{0}: {1}"
+      }
+    ]
+  },
+  "absorbance": {
+    "value": "Азхудкунӣ",
+    "history": [
+      {
+        "userId": 1005397,
+        "timestamp": 1640249776480,
+        "oldValue": "",
+        "newValue": "Азхудкунӣ"
       }
     ]
   },
@@ -183,39 +413,6 @@
         "timestamp": 1640249776480,
         "oldValue": "",
         "newValue": "cm"
-      }
-    ]
-  },
-  "concentration": {
-    "value": "Консентратсияи",
-    "history": [
-      {
-        "userId": 1005397,
-        "timestamp": 1640249776480,
-        "oldValue": "",
-        "newValue": "Консентратсияи"
-      }
-    ]
-  },
-  "pattern.0label": {
-    "value": "{0}:",
-    "history": [
-      {
-        "userId": 1005397,
-        "timestamp": 1640249776480,
-        "oldValue": "",
-        "newValue": "{0}:"
-      }
-    ]
-  },
-  "solution": {
-    "value": "Ҳалли",
-    "history": [
-      {
-        "userId": 1005397,
-        "timestamp": 1640249776480,
-        "oldValue": "",
-        "newValue": "Ҳалли"
       }
     ]
   },
@@ -271,149 +468,6 @@
         "timestamp": 1640249776480,
         "oldValue": "",
         "newValue": "Қонуни пиво"
-      }
-    ]
-  },
-  "sodiumChloride": {
-    "value": "Натрия хлорид",
-    "history": [
-      {
-        "userId": 1005397,
-        "timestamp": 1640249776480,
-        "oldValue": "",
-        "newValue": "Натрия хлорид"
-      }
-    ]
-  },
-  "units.liters": {
-    "value": "L",
-    "history": [
-      {
-        "userId": 1005397,
-        "timestamp": 1640249776480,
-        "oldValue": "",
-        "newValue": "L"
-      }
-    ]
-  },
-  "units.milliliters": {
-    "value": "mL",
-    "history": [
-      {
-        "userId": 1005397,
-        "timestamp": 1640249776480,
-        "oldValue": "",
-        "newValue": "mL"
-      }
-    ]
-  },
-  "units.molesPerLiter": {
-    "value": "mol/L",
-    "history": [
-      {
-        "userId": 1005397,
-        "timestamp": 1640249776480,
-        "oldValue": "",
-        "newValue": "mol/L"
-      }
-    ]
-  },
-  "evaporation": {
-    "value": "Бухоршавӣ",
-    "history": [
-      {
-        "userId": 1005397,
-        "timestamp": 1640249776480,
-        "oldValue": "",
-        "newValue": "Бухоршавӣ"
-      }
-    ]
-  },
-  "lots": {
-    "value": "лот",
-    "history": [
-      {
-        "userId": 1005397,
-        "timestamp": 1640249776480,
-        "oldValue": "",
-        "newValue": "лот"
-      }
-    ]
-  },
-  "none": {
-    "value": "ҳеҷ",
-    "history": [
-      {
-        "userId": 1005397,
-        "timestamp": 1640249776480,
-        "oldValue": "",
-        "newValue": "ҳеҷ"
-      }
-    ]
-  },
-  "removeSolute": {
-    "value": "Хориҷкунии маҳлул",
-    "history": [
-      {
-        "userId": 1005397,
-        "timestamp": 1640318363716,
-        "oldValue": "",
-        "newValue": "Хориҷкунии маҳлул"
-      }
-    ]
-  },
-  "saturated": {
-    "value": "Сершуда!",
-    "history": [
-      {
-        "userId": 1005397,
-        "timestamp": 1640318363716,
-        "oldValue": "",
-        "newValue": "Сершуда!"
-      }
-    ]
-  },
-  "pattern.0soluteAmount": {
-    "value": "Миқдори маҳлул: {0} г",
-    "history": [
-      {
-        "userId": 1005397,
-        "timestamp": 1640318363716,
-        "oldValue": "",
-        "newValue": "Миқдори маҳлул: {0} г"
-      }
-    ]
-  },
-  "solute": {
-    "value": "Маҳлул",
-    "history": [
-      {
-        "userId": 1005397,
-        "timestamp": 1640318363716,
-        "oldValue": "",
-        "newValue": "Маҳлул"
-      }
-    ]
-  },
-  "solid": {
-    "value": "Сахт",
-    "history": [
-      {
-        "userId": 1005397,
-        "timestamp": 1640318363716,
-        "oldValue": "",
-        "newValue": "Сахт"
-      }
-    ]
-  },
-  "screen.concentration": {
-    "value": "Консентратсияи",
-    "history": [
-      {
-        "userId": 1005397,
-        "timestamp": 1640318363716,
-        "oldValue": "",
-        "newValue": "Консентратсияи"
       }
     ]
   },
