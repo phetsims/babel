@@ -93,6 +93,17 @@
       }
     ]
   },
+  "speed.fast": {
+    "value": "Fast",
+    "history": [
+      {
+        "userId": 1005397,
+        "timestamp": 1640243639999,
+        "oldValue": "",
+        "newValue": "Fast"
+      }
+    ]
+  },
   "key.fn": {
     "value": "Fn",
     "history": [
@@ -101,29 +112,6 @@
         "timestamp": 1640248630279,
         "oldValue": "",
         "newValue": "Fn"
-      }
-    ]
-  },
-  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-    "value": "{{thing}}-ро гиред ё озод кунед",
-    "history": [
-      {
-        "userId": 900124,
-        "timestamp": 1612463719113,
-        "oldValue": "",
-        "newValue": "Қапидан\r\nва сар додан {{thing}}"
-      },
-      {
-        "userId": 1005397,
-        "timestamp": 1639150787384,
-        "oldValue": "Қапидан\r\nва сар додан {{thing}}",
-        "newValue": "Қапидан \\ nва сар додан {{вещь}}"
-      },
-      {
-        "userId": 1005397,
-        "timestamp": 1639152341017,
-        "oldValue": "Қапидан \\ nва сар додан {{вещь}}",
-        "newValue": "{{thing}}-ро гиред ё озод кунед"
       }
     ]
   },
@@ -146,6 +134,29 @@
         "userId": 1005397,
         "timestamp": 1639152341017,
         "oldValue": "Қапидан ва сар додан {{вещь}}",
+        "newValue": "{{thing}}-ро гиред ё озод кунед"
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "{{thing}}-ро гиред ё озод кунед",
+    "history": [
+      {
+        "userId": 900124,
+        "timestamp": 1612463719113,
+        "oldValue": "",
+        "newValue": "Қапидан\r\nва сар додан {{thing}}"
+      },
+      {
+        "userId": 1005397,
+        "timestamp": 1639150787384,
+        "oldValue": "Қапидан\r\nва сар додан {{thing}}",
+        "newValue": "Қапидан \\ nва сар додан {{вещь}}"
+      },
+      {
+        "userId": 1005397,
+        "timestamp": 1639152341017,
+        "oldValue": "Қапидан \\ nва сар додан {{вещь}}",
         "newValue": "{{thing}}-ро гиред ё озод кунед"
       }
     ]
@@ -191,6 +202,17 @@
         "timestamp": 1640248630279,
         "oldValue": "",
         "newValue": "Гузариш ба ашё ё гурӯҳи қаблӣ"
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "Муқаррарӣ",
+    "history": [
+      {
+        "userId": 1005397,
+        "timestamp": 1640243639999,
+        "oldValue": "",
+        "newValue": "Муқаррарӣ"
       }
     ]
   },
@@ -250,17 +272,6 @@
       }
     ]
   },
-  "webglWarning.contextLossReload": {
-    "value": "Аз нав бор кунед",
-    "history": [
-      {
-        "userId": 1005397,
-        "timestamp": 1640320564836,
-        "oldValue": "",
-        "newValue": "Аз нав бор кунед"
-      }
-    ]
-  },
   "key.shift": {
     "value": "Шифт",
     "history": [
@@ -278,14 +289,14 @@
       }
     ]
   },
-  "webglWarning.contextLossFailure": {
-    "value": "Бубахшед, хатои графикӣ рух дод.",
+  "speed.slow": {
+    "value": "Суст",
     "history": [
       {
         "userId": 1005397,
-        "timestamp": 1640320564836,
+        "timestamp": 1640243639999,
         "oldValue": "",
-        "newValue": "Бубахшед, хатои графикӣ рух дод."
+        "newValue": "Суст"
       }
     ]
   },
@@ -301,13 +312,19 @@
     ]
   },
   "key.tab": {
-    "value": "Вкладка",
+    "value": "Tab",
     "history": [
       {
         "userId": 1005397,
         "timestamp": 1639150787384,
         "oldValue": "",
         "newValue": "Вкладка"
+      },
+      {
+        "userId": 900124,
+        "timestamp": 1643393526685,
+        "oldValue": "Вкладка",
+        "newValue": "Tab"
       }
     ]
   },
@@ -322,20 +339,14 @@
       }
     ]
   },
-  "webglWarning.body": {
-    "value": "WebGL фаъол ё дастрас нест. Барои гирифтани маълумоти бештар клик кунед.",
+  "stopwatchValueUnitsPattern": {
+    "value": "{{value}} {{units}}",
     "history": [
       {
         "userId": 1005397,
-        "timestamp": 1640320564836,
+        "timestamp": 1640327254569,
         "oldValue": "",
-        "newValue": "WebGL фаъол нест ё дастрас нест. Барои гирифтани маълумоти бештар клик кунед."
-      },
-      {
-        "userId": 900124,
-        "timestamp": 1643392233854,
-        "oldValue": "WebGL фаъол нест ё дастрас нест. Барои гирифтани маълумоти бештар клик кунед.",
-        "newValue": "WebGL фаъол ё дастрас нест. Барои гирифтани маълумоти бештар клик кунед."
+        "newValue": "{{value}} {{units}}"
       }
     ]
   },
@@ -367,47 +378,42 @@
       }
     ]
   },
-  "speed.fast": {
-    "value": "Fast",
+  "webglWarning.contextLossReload": {
+    "value": "Аз нав бор кунед",
     "history": [
       {
         "userId": 1005397,
-        "timestamp": 1640243639999,
+        "timestamp": 1640320564836,
         "oldValue": "",
-        "newValue": "Fast"
+        "newValue": "Аз нав бор кунед"
       }
     ]
   },
-  "speed.normal": {
-    "value": "Муқаррарӣ",
+  "webglWarning.contextLossFailure": {
+    "value": "Бубахшед, хатои графикӣ рух дод.",
     "history": [
       {
         "userId": 1005397,
-        "timestamp": 1640243639999,
+        "timestamp": 1640320564836,
         "oldValue": "",
-        "newValue": "Муқаррарӣ"
+        "newValue": "Бубахшед, хатои графикӣ рух дод."
       }
     ]
   },
-  "speed.slow": {
-    "value": "Суст",
+  "webglWarning.body": {
+    "value": "WebGL фаъол ё дастрас нест. Барои гирифтани маълумоти бештар клик кунед.",
     "history": [
       {
         "userId": 1005397,
-        "timestamp": 1640243639999,
+        "timestamp": 1640320564836,
         "oldValue": "",
-        "newValue": "Суст"
-      }
-    ]
-  },
-  "stopwatchValueUnitsPattern": {
-    "value": "{{value}} {{units}}",
-    "history": [
+        "newValue": "WebGL фаъол нест ё дастрас нест. Барои гирифтани маълумоти бештар клик кунед."
+      },
       {
-        "userId": 1005397,
-        "timestamp": 1640327254569,
-        "oldValue": "",
-        "newValue": "{{value}} {{units}}"
+        "userId": 900124,
+        "timestamp": 1643392233854,
+        "oldValue": "WebGL фаъол нест ё дастрас нест. Барои гирифтани маълумоти бештар клик кунед.",
+        "newValue": "WebGL фаъол ё дастрас нест. Барои гирифтани маълумоти бештар клик кунед."
       }
     ]
   },
