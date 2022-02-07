@@ -1,13 +1,31 @@
 {
-  "choice.water": {
-    "value": "Vatn",
+  "acidic": {
+    "value": "Súrt",
     "history": [
       {
         "userId": 861708,
         "timestamp": 1605890323605,
         "oldValue": "",
-        "newValue": "Vatn",
+        "newValue": "Súrt",
         "explanation": null
+      }
+    ]
+  },
+  "basic": {
+    "value": "Basiskt",
+    "history": [
+      {
+        "userId": 861708,
+        "timestamp": 1605890323605,
+        "oldValue": "",
+        "newValue": "Beiskt",
+        "explanation": null
+      },
+      {
+        "userId": 874126,
+        "timestamp": 1644272206280,
+        "oldValue": "Beiskt",
+        "newValue": "Basiskt"
       }
     ]
   },
@@ -60,7 +78,7 @@
     ]
   },
   "choice.drainCleaner": {
-    "value": "Avløbsreins",
+    "value": "Frárenslreins (afløbsrens)",
     "history": [
       {
         "userId": 861708,
@@ -68,17 +86,41 @@
         "oldValue": "",
         "newValue": "Avløbsreins",
         "explanation": null
+      },
+      {
+        "userId": 874126,
+        "timestamp": 1644272206280,
+        "oldValue": "Avløbsreins",
+        "newValue": "Frárenslreins (afløbsrens)"
       }
     ]
   },
   "choice.handSoap": {
-    "value": "Hándsápa",
+    "value": "Hondsápa",
     "history": [
       {
         "userId": 861708,
         "timestamp": 1605890323605,
         "oldValue": "",
         "newValue": "Hándsápa",
+        "explanation": null
+      },
+      {
+        "userId": 874126,
+        "timestamp": 1644272206280,
+        "oldValue": "Hándsápa",
+        "newValue": "Hondsápa"
+      }
+    ]
+  },
+  "screen.macro": {
+    "value": "Makro",
+    "history": [
+      {
+        "userId": 861708,
+        "timestamp": 1605890323605,
+        "oldValue": "",
+        "newValue": "Makro",
         "explanation": null
       }
     ]
@@ -95,8 +137,20 @@
       }
     ]
   },
+  "neutral": {
+    "value": "Nevtralt",
+    "history": [
+      {
+        "userId": 861708,
+        "timestamp": 1605890323605,
+        "oldValue": "",
+        "newValue": "Nevtralt",
+        "explanation": null
+      }
+    ]
+  },
   "choice.orangeJuice": {
-    "value": "Appelsindjús",
+    "value": "Appilsindjús",
     "history": [
       {
         "userId": 861708,
@@ -104,6 +158,12 @@
         "oldValue": "",
         "newValue": "Appelsindjús",
         "explanation": null
+      },
+      {
+        "userId": 874126,
+        "timestamp": 1644272206280,
+        "oldValue": "Appelsindjús",
+        "newValue": "Appilsindjús"
       }
     ]
   },
@@ -132,7 +192,7 @@
     ]
   },
   "choice.vomit": {
-    "value": "Spíggj",
+    "value": "Spýggj",
     "history": [
       {
         "userId": 861708,
@@ -140,53 +200,23 @@
         "oldValue": "",
         "newValue": "Spíggj",
         "explanation": null
+      },
+      {
+        "userId": 874126,
+        "timestamp": 1644272206280,
+        "oldValue": "Spíggj",
+        "newValue": "Spýggj"
       }
     ]
   },
-  "acidic": {
-    "value": "Súrt",
+  "choice.water": {
+    "value": "Vatn",
     "history": [
       {
         "userId": 861708,
         "timestamp": 1605890323605,
         "oldValue": "",
-        "newValue": "Súrt",
-        "explanation": null
-      }
-    ]
-  },
-  "basic": {
-    "value": "Beiskt",
-    "history": [
-      {
-        "userId": 861708,
-        "timestamp": 1605890323605,
-        "oldValue": "",
-        "newValue": "Beiskt",
-        "explanation": null
-      }
-    ]
-  },
-  "neutral": {
-    "value": "Nevtralt",
-    "history": [
-      {
-        "userId": 861708,
-        "timestamp": 1605890323605,
-        "oldValue": "",
-        "newValue": "Nevtralt",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.macro": {
-    "value": "Makro",
-    "history": [
-      {
-        "userId": 861708,
-        "timestamp": 1605890323605,
-        "oldValue": "",
-        "newValue": "Makro",
+        "newValue": "Vatn",
         "explanation": null
       }
     ]
