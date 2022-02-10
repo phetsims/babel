@@ -10,6 +10,17 @@
       }
     ]
   },
+  "key.capsLock": {
+    "value": "Velike črke",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1644478894520,
+        "oldValue": "",
+        "newValue": "Velike črke"
+      }
+    ]
+  },
   "key.end": {
     "value": "Konec",
     "history": [
@@ -58,17 +69,6 @@
       }
     ]
   },
-  "speed.fast": {
-    "value": "Hitro",
-    "history": [
-      {
-        "userId": 156538,
-        "timestamp": 1616142451607,
-        "oldValue": "",
-        "newValue": "Hitro"
-      }
-    ]
-  },
   "keyboardHelpDialog.grabOrReleaseLabelPattern": {
     "value": "Primi in spusti {{thing}}",
     "history": [
@@ -104,22 +104,36 @@
       }
     ]
   },
-  "speed.normal": {
-    "value": "Realno",
+  "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+    "value": "Premik med predmeti v skupini",
     "history": [
       {
-        "userId": 157539,
-        "timestamp": 1538336250954,
+        "userId": 156538,
+        "timestamp": 1644478894520,
         "oldValue": "",
-        "newValue": "Realna hitrost",
-        "explanation": null
-      },
+        "newValue": "Premik med predmeti v skupini"
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItemOrGroup": {
+    "value": "Premakni se na naslednji predmet ali skupino",
+    "history": [
       {
-        "userId": 157539,
-        "timestamp": 1556452223754,
-        "oldValue": "Realna hitrost",
-        "newValue": "Realno",
-        "explanation": null
+        "userId": 156538,
+        "timestamp": 1644478894520,
+        "oldValue": "",
+        "newValue": "Premakni se na naslednji predmet ali skupino"
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+    "value": "Premakni se na prejšnji predmet ali skupino",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1644478894520,
+        "oldValue": "",
+        "newValue": "Premakni se na prejšnji predmet ali skupino"
       }
     ]
   },
@@ -159,6 +173,17 @@
       }
     ]
   },
+  "keyboardHelpDialog.pressButtons": {
+    "value": "Pritisni na gumb",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1644478894520,
+        "oldValue": "",
+        "newValue": "Pritisni na gumb"
+      }
+    ]
+  },
   "key.shift": {
     "value": "Shift",
     "history": [
@@ -167,25 +192,6 @@
         "timestamp": 1606853130543,
         "oldValue": "",
         "newValue": "Shift",
-        "explanation": null
-      }
-    ]
-  },
-  "speed.slow": {
-    "value": "Počasneje",
-    "history": [
-      {
-        "userId": 157539,
-        "timestamp": 1538336250954,
-        "oldValue": "",
-        "newValue": "Počasnejša hitrost",
-        "explanation": null
-      },
-      {
-        "userId": 157539,
-        "timestamp": 1556452223754,
-        "oldValue": "Počasnejša hitrost",
-        "newValue": "Počasneje",
         "explanation": null
       }
     ]
@@ -214,6 +220,17 @@
       }
     ]
   },
+  "keyboardHelpDialog.toggleCheckboxes": {
+    "value": "Označi kvadratke",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1644478894520,
+        "oldValue": "",
+        "newValue": "Označi kvadratke"
+      }
+    ]
+  },
   "symbol.resistivity": {
     "value": "ζ",
     "history": [
@@ -234,6 +251,55 @@
         "timestamp": 1606853130543,
         "oldValue": "",
         "newValue": "Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.fast": {
+    "value": "Hitro",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1616142451607,
+        "oldValue": "",
+        "newValue": "Hitro"
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "Realno",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1538336250954,
+        "oldValue": "",
+        "newValue": "Realna hitrost",
+        "explanation": null
+      },
+      {
+        "userId": 157539,
+        "timestamp": 1556452223754,
+        "oldValue": "Realna hitrost",
+        "newValue": "Realno",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "Počasneje",
+    "history": [
+      {
+        "userId": 157539,
+        "timestamp": 1538336250954,
+        "oldValue": "",
+        "newValue": "Počasnejša hitrost",
+        "explanation": null
+      },
+      {
+        "userId": 157539,
+        "timestamp": 1556452223754,
+        "oldValue": "Počasnejša hitrost",
+        "newValue": "Počasneje",
         "explanation": null
       }
     ]
