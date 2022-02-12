@@ -39,7 +39,7 @@
     ]
   },
   "genericDirectedPositiveDistanceTemplate": {
-    "value": "{{secondaryPointControllerLabel}}-ը {{difference}} {{units}} ավելի դրական է, քան {{primaryPointControllerLabel}}-ը։",
+    "value": "{{secondaryPointControllerLabel}}ը {{difference}} {{units}} ավելի դրական է, քան {{primaryPointControllerLabel}}։",
     "history": [
       {
         "userId": 203054,
@@ -52,17 +52,11 @@
         "timestamp": 1644670023806,
         "oldValue": "{{secondaryPointControllerLabel}}-ը {{difference}} {{units}} ավելի դրական է, քան {{primaryPointControllerLabel}}։",
         "newValue": "{{secondaryPointControllerLabel}}ը {{difference}} {{units}} ավելի դրական է, քան {{primaryPointControllerLabel}}։"
-      },
-      {
-        "userId": 203054,
-        "timestamp": 1644670451336,
-        "oldValue": "{{secondaryPointControllerLabel}}ը {{difference}} {{units}} ավելի դրական է, քան {{primaryPointControllerLabel}}։",
-        "newValue": "{{secondaryPointControllerLabel}}-ը {{difference}} {{units}} ավելի դրական է, քան {{primaryPointControllerLabel}}-ը։"
       }
     ]
   },
   "genericDirectedNegativeDistanceTemplate": {
-    "value": "{{secondaryPointControllerLabel}}-ը {{difference}} {{units}} ավելի բացասական է, քան {{primaryPointControllerLabel}}-ը։",
+    "value": "{{secondaryPointControllerLabel}}ը {{difference}} {{units}} ավելի բացասական է, քան {{primaryPointControllerLabel}}։",
     "history": [
       {
         "userId": 203054,
@@ -75,12 +69,6 @@
         "timestamp": 1644670023806,
         "oldValue": "{{secondaryPointControllerLabel}}-ը {{difference}} {{units}} ավելի բացասական է, քան {{primaryPointControllerLabel}}։",
         "newValue": "{{secondaryPointControllerLabel}}ը {{difference}} {{units}} ավելի բացասական է, քան {{primaryPointControllerLabel}}։"
-      },
-      {
-        "userId": 203054,
-        "timestamp": 1644670451336,
-        "oldValue": "{{secondaryPointControllerLabel}}ը {{difference}} {{units}} ավելի բացասական է, քան {{primaryPointControllerLabel}}։",
-        "newValue": "{{secondaryPointControllerLabel}}-ը {{difference}} {{units}} ավելի բացասական է, քան {{primaryPointControllerLabel}}-ը։"
       }
     ]
   },
@@ -96,19 +84,13 @@
     ]
   },
   "units": {
-    "value": "միավորով",
+    "value": "միավորներ",
     "history": [
       {
         "userId": 203054,
         "timestamp": 1644394750160,
         "oldValue": "",
         "newValue": "միավորներ"
-      },
-      {
-        "userId": 203054,
-        "timestamp": 1644670451336,
-        "oldValue": "միավորներ",
-        "newValue": "միավորով"
       }
     ]
   },
@@ -135,24 +117,36 @@
     ]
   },
   "symbol.east": {
-    "value": "E",
+    "value": "",
     "history": [
       {
         "userId": 203054,
         "timestamp": 1644394750160,
         "oldValue": "",
         "newValue": "E"
+      },
+      {
+        "userId": 203054,
+        "timestamp": 1644670791990,
+        "oldValue": "E",
+        "newValue": ""
       }
     ]
   },
   "symbol.west": {
-    "value": "W",
+    "value": "",
     "history": [
       {
         "userId": 203054,
         "timestamp": 1644394750160,
         "oldValue": "",
         "newValue": "W"
+      },
+      {
+        "userId": 203054,
+        "timestamp": 1644670791990,
+        "oldValue": "W",
+        "newValue": ""
       }
     ]
   },
@@ -373,7 +367,7 @@
     ]
   },
   "elevationSceneAbsoluteDistanceTemplate": {
-    "value": "{{secondaryPointControllerLabel}}ը և {{primaryPointControllerLabel}}ը ունեն ուղղահայաց հեռավորություն {{difference}} {{units}}։",
+    "value": "{{secondaryPointControllerLabel}}ը և {{primaryPointControllerLabel}}ը  հեռավորությունը {{difference}} {{units}} է։",
     "history": [
       {
         "userId": 203054,
@@ -386,11 +380,17 @@
         "timestamp": 1644670023806,
         "oldValue": "{{secondaryPointControllerLabel}}-ը և {{primaryPointControllerLabel}}-ը ունեն ուղղահայաց հեռավորություն {{difference}} {{units}}։",
         "newValue": "{{secondaryPointControllerLabel}}ը և {{primaryPointControllerLabel}}ը ունեն ուղղահայաց հեռավորություն {{difference}} {{units}}։"
+      },
+      {
+        "userId": 203054,
+        "timestamp": 1644670791990,
+        "oldValue": "{{secondaryPointControllerLabel}}ը և {{primaryPointControllerLabel}}ը ունեն ուղղահայաց հեռավորություն {{difference}} {{units}}։",
+        "newValue": "{{secondaryPointControllerLabel}}ը և {{primaryPointControllerLabel}}ը  հեռավորությունը {{difference}} {{units}} է։"
       }
     ]
   },
   "elevationSceneDirectedPositiveDistanceTemplate": {
-    "value": "{{secondaryPointControllerLabel}}ը բարձր է {{difference}} {{units}} {{primaryPointControllerLabel}}ից։",
+    "value": "{{secondaryPointControllerLabel}}ը  {{difference}} {{units}} բարձր է {{primaryPointControllerLabel}}ից։",
     "history": [
       {
         "userId": 203054,
@@ -403,6 +403,12 @@
         "timestamp": 1644670023806,
         "oldValue": "{{secondaryPointControllerLabel}}-ը բարձր է {{difference}} {{units}} {{primaryPointControllerLabel}}-ից։",
         "newValue": "{{secondaryPointControllerLabel}}ը բարձր է {{difference}} {{units}} {{primaryPointControllerLabel}}ից։"
+      },
+      {
+        "userId": 203054,
+        "timestamp": 1644670791990,
+        "oldValue": "{{secondaryPointControllerLabel}}ը բարձր է {{difference}} {{units}} {{primaryPointControllerLabel}}ից։",
+        "newValue": "{{secondaryPointControllerLabel}}ը  {{difference}} {{units}} բարձր է {{primaryPointControllerLabel}}ից։"
       }
     ]
   },
