@@ -1,12 +1,48 @@
 {
-  "amplitude": {
-    "value": "Genlik",
+  "rulers": {
+    "value": "Cetveller",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1483679729182,
         "oldValue": "",
-        "newValue": "Genlik",
+        "newValue": "Cetveller",
+        "explanation": null
+      }
+    ]
+  },
+  "timer": {
+    "value": "Süre ölçer",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483679729182,
+        "oldValue": "",
+        "newValue": "Süre ölçer",
+        "explanation": null
+      }
+    ]
+  },
+  "referenceLine": {
+    "value": "Referans Çizgisi",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483679729182,
+        "oldValue": "",
+        "newValue": "Referans Çizgisi",
+        "explanation": null
+      }
+    ]
+  },
+  "tension": {
+    "value": "Gerginlik",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483679729182,
+        "oldValue": "",
+        "newValue": "Gerginlik",
         "explanation": null
       }
     ]
@@ -23,38 +59,14 @@
       }
     ]
   },
-  "fixedEnd": {
-    "value": "Ucu Sabitlenmiş",
+  "low": {
+    "value": "Düşük",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1483679729182,
         "oldValue": "",
-        "newValue": "Ucu Sabitlenmiş",
-        "explanation": null
-      }
-    ]
-  },
-  "frequency": {
-    "value": "Frekans",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483679729182,
-        "oldValue": "",
-        "newValue": "Frekans",
-        "explanation": null
-      }
-    ]
-  },
-  "hideHelp": {
-    "value": "Yardımı Gizle",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483679729183,
-        "oldValue": "",
-        "newValue": "Yardımı Gizle",
+        "newValue": "Düşük",
         "explanation": null
       }
     ]
@@ -71,14 +83,14 @@
       }
     ]
   },
-  "looseEnd": {
-    "value": "Ucu Gevşek Bağlı",
+  "none": {
+    "value": "Hiç",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1483679729182,
         "oldValue": "",
-        "newValue": "Ucu Gevşek Bağlı",
+        "newValue": "Hiç",
         "explanation": null
       }
     ]
@@ -95,14 +107,74 @@
       }
     ]
   },
-  "low": {
-    "value": "Düşük",
+  "frequency": {
+    "value": "Frekans",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1483679729182,
         "oldValue": "",
-        "newValue": "Düşük",
+        "newValue": "Frekans",
+        "explanation": null
+      }
+    ]
+  },
+  "pulseWidth": {
+    "value": "Darbe Genişliği",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483679729182,
+        "oldValue": "",
+        "newValue": "Darbe Genişliği",
+        "explanation": null
+      }
+    ]
+  },
+  "amplitude": {
+    "value": "Genlik",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483679729182,
+        "oldValue": "",
+        "newValue": "Genlik",
+        "explanation": null
+      }
+    ]
+  },
+  "restart": {
+    "value": "Yeniden Başla",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483679729182,
+        "oldValue": "",
+        "newValue": "Yeniden Başla",
+        "explanation": null
+      }
+    ]
+  },
+  "speedSlow": {
+    "value": "Yavaş Çekim",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483679729182,
+        "oldValue": "",
+        "newValue": "Yavaş Çekim",
+        "explanation": null
+      }
+    ]
+  },
+  "speedNormal": {
+    "value": "Normal",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483679729182,
+        "oldValue": "",
+        "newValue": "Normal",
         "explanation": null
       }
     ]
@@ -119,6 +191,72 @@
       }
     ]
   },
+  "oscillate": {
+    "value": "Salınım",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483679729182,
+        "oldValue": "",
+        "newValue": "Salınım",
+        "explanation": null
+      }
+    ]
+  },
+  "pulse": {
+    "value": "Atma",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483679729182,
+        "oldValue": "",
+        "newValue": "Darbe",
+        "explanation": null
+      },
+      {
+        "userId": 613972,
+        "timestamp": 1645863205144,
+        "oldValue": "Darbe",
+        "newValue": "Atma"
+      }
+    ]
+  },
+  "fixedEnd": {
+    "value": "Sabit Uç",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483679729182,
+        "oldValue": "",
+        "newValue": "Ucu Sabitlenmiş",
+        "explanation": null
+      },
+      {
+        "userId": 613972,
+        "timestamp": 1645863205144,
+        "oldValue": "Ucu Sabitlenmiş",
+        "newValue": "Sabit Uç"
+      }
+    ]
+  },
+  "looseEnd": {
+    "value": "Serbest Uç",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483679729182,
+        "oldValue": "",
+        "newValue": "Ucu Gevşek Bağlı",
+        "explanation": null
+      },
+      {
+        "userId": 613972,
+        "timestamp": 1645863205144,
+        "oldValue": "Ucu Gevşek Bağlı",
+        "newValue": "Serbest Uç"
+      }
+    ]
+  },
   "noEnd": {
     "value": "Uçsuz",
     "history": [
@@ -131,26 +269,38 @@
       }
     ]
   },
-  "none": {
-    "value": "Hiç",
+  "unitCm": {
+    "value": "cm",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1483679729182,
         "oldValue": "",
-        "newValue": "Hiç",
+        "newValue": "cm",
         "explanation": null
       }
     ]
   },
-  "oscillate": {
-    "value": "Salınım",
+  "wave-on-a-string.title": {
+    "value": "Telde Dalga Hareketi",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1483679729182,
         "oldValue": "",
-        "newValue": "Salınım",
+        "newValue": "Telde Dalga Hareketi",
+        "explanation": null
+      }
+    ]
+  },
+  "hideHelp": {
+    "value": "Yardımı Gizle",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483679729183,
+        "oldValue": "",
+        "newValue": "Yardımı Gizle",
         "explanation": null
       }
     ]
@@ -179,18 +329,6 @@
       }
     ]
   },
-  "pulse": {
-    "value": "Darbe",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483679729182,
-        "oldValue": "",
-        "newValue": "Darbe",
-        "explanation": null
-      }
-    ]
-  },
   "pulse2": {
     "value": "Darbe",
     "history": [
@@ -203,18 +341,6 @@
       }
     ]
   },
-  "pulseWidth": {
-    "value": "Darbe Genişliği",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483679729182,
-        "oldValue": "",
-        "newValue": "Darbe Genişliği",
-        "explanation": null
-      }
-    ]
-  },
   "refLineHelp": {
     "value": "sürüklenebilir referans çizgisi",
     "history": [
@@ -223,18 +349,6 @@
         "timestamp": 1483679729183,
         "oldValue": "",
         "newValue": "sürüklenebilir referans çizgisi",
-        "explanation": null
-      }
-    ]
-  },
-  "referenceLine": {
-    "value": "Referans Çizgisi",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483679729182,
-        "oldValue": "",
-        "newValue": "Referans Çizgisi",
         "explanation": null
       }
     ]
@@ -263,18 +377,6 @@
       }
     ]
   },
-  "restart": {
-    "value": "Yeniden Başla",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483679729182,
-        "oldValue": "",
-        "newValue": "Yeniden Başla",
-        "explanation": null
-      }
-    ]
-  },
   "rulerHelp": {
     "value": "sürüklenebilir cetvel",
     "history": [
@@ -287,18 +389,6 @@
       }
     ]
   },
-  "rulers": {
-    "value": "Cetveller",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483679729182,
-        "oldValue": "",
-        "newValue": "Cetveller",
-        "explanation": null
-      }
-    ]
-  },
   "showHelp": {
     "value": "Yardımı Göster",
     "history": [
@@ -307,30 +397,6 @@
         "timestamp": 1483679729183,
         "oldValue": "",
         "newValue": "Yardımı Göster",
-        "explanation": null
-      }
-    ]
-  },
-  "speedNormal": {
-    "value": "Normal",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483679729182,
-        "oldValue": "",
-        "newValue": "Normal",
-        "explanation": null
-      }
-    ]
-  },
-  "speedSlow": {
-    "value": "Yavaş Çekim",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483679729182,
-        "oldValue": "",
-        "newValue": "Yavaş Çekim",
         "explanation": null
       }
     ]
@@ -359,30 +425,6 @@
       }
     ]
   },
-  "tension": {
-    "value": "Gerginlik",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483679729182,
-        "oldValue": "",
-        "newValue": "Gerginlik",
-        "explanation": null
-      }
-    ]
-  },
-  "timer": {
-    "value": "Süre ölçer",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483679729182,
-        "oldValue": "",
-        "newValue": "Süre ölçer",
-        "explanation": null
-      }
-    ]
-  },
   "timerHelp": {
     "value": "sürüklenebilir süre ölçer",
     "history": [
@@ -391,30 +433,6 @@
         "timestamp": 1483679729183,
         "oldValue": "",
         "newValue": "sürüklenebilir süre ölçer",
-        "explanation": null
-      }
-    ]
-  },
-  "unitCm": {
-    "value": "cm",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483679729182,
-        "oldValue": "",
-        "newValue": "cm",
-        "explanation": null
-      }
-    ]
-  },
-  "wave-on-a-string.title": {
-    "value": "Telde Dalga Hareketi",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483679729182,
-        "oldValue": "",
-        "newValue": "Telde Dalga Hareketi",
         "explanation": null
       }
     ]
