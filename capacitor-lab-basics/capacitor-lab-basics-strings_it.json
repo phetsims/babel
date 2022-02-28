@@ -1,28 +1,4 @@
 {
-  "barGraph": {
-    "value": "Grafico a barre",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1511029717178,
-        "oldValue": "",
-        "newValue": "Grafico a barre",
-        "explanation": null
-      }
-    ]
-  },
-  "barGraphs": {
-    "value": "Grafici a barre",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1511029717178,
-        "oldValue": "",
-        "newValue": "Grafici a barre",
-        "explanation": null
-      }
-    ]
-  },
   "capacitance": {
     "value": "Capacità",
     "history": [
@@ -35,14 +11,140 @@
       }
     ]
   },
-  "capacitor-lab-basics.title": {
-    "value": "Laboratorio condensatori: introduzione",
+  "picoCoulombsPattern": {
+    "value": "{{value}} pC",
+    "history": [
+      {
+        "userId": 1029687,
+        "timestamp": 1646079563086,
+        "oldValue": "",
+        "newValue": "{{value}} pC"
+      }
+    ]
+  },
+  "picoFaradsPattern": {
+    "value": "{{value}} pF",
+    "history": [
+      {
+        "userId": 1029687,
+        "timestamp": 1646079563086,
+        "oldValue": "",
+        "newValue": "{{value}} pF"
+      }
+    ]
+  },
+  "picoJoulesPattern": {
+    "value": "{{value}} pJ",
+    "history": [
+      {
+        "userId": 1029687,
+        "timestamp": 1646079563086,
+        "oldValue": "",
+        "newValue": "{{value}} pJ"
+      }
+    ]
+  },
+  "storedEnergy": {
+    "value": "Energia immagazzinata",
     "history": [
       {
         "userId": 157247,
         "timestamp": 1511029717178,
         "oldValue": "",
-        "newValue": "Laboratorio condensatori: introduzione",
+        "newValue": "Energia immagazzinata",
+        "explanation": null
+      }
+    ]
+  },
+  "topPlateCharge": {
+    "value": "Carica dell'armatura superiore",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1511029717178,
+        "oldValue": "",
+        "newValue": "Carica della piastra superiore",
+        "explanation": null
+      },
+      {
+        "userId": 1029687,
+        "timestamp": 1646079563086,
+        "oldValue": "Carica della piastra superiore",
+        "newValue": "Carica dell'armatura superiore"
+      }
+    ]
+  },
+  "voltsPattern": {
+    "value": "{{value}} V",
+    "history": [
+      {
+        "userId": 1029687,
+        "timestamp": 1646079563086,
+        "oldValue": "",
+        "newValue": "{{value}} V"
+      }
+    ]
+  },
+  "millimetersSquaredPattern": {
+    "value": "{{value}} mm<sup>2</sup>",
+    "history": [
+      {
+        "userId": 1029687,
+        "timestamp": 1646079563086,
+        "oldValue": "",
+        "newValue": "{{value}} mm<sup>2</sup>"
+      }
+    ]
+  },
+  "plateArea": {
+    "value": "Area armatura",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1511029717178,
+        "oldValue": "",
+        "newValue": "Area piastra",
+        "explanation": null
+      },
+      {
+        "userId": 1029687,
+        "timestamp": 1646079563086,
+        "oldValue": "Area piastra",
+        "newValue": "Area armatura"
+      }
+    ]
+  },
+  "millimetersPattern": {
+    "value": "{{value}} mm",
+    "history": [
+      {
+        "userId": 1029687,
+        "timestamp": 1646079563086,
+        "oldValue": "",
+        "newValue": "{{value}} mm"
+      }
+    ]
+  },
+  "separation": {
+    "value": "Distanza",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1511029717178,
+        "oldValue": "",
+        "newValue": "Distanza",
+        "explanation": null
+      }
+    ]
+  },
+  "barGraphs": {
+    "value": "Grafici a barre",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1511029717178,
+        "oldValue": "",
+        "newValue": "Grafici a barre",
         "explanation": null
       }
     ]
@@ -71,20 +173,8 @@
       }
     ]
   },
-  "plateArea": {
-    "value": "Area piastra",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1511029717178,
-        "oldValue": "",
-        "newValue": "Area piastra",
-        "explanation": null
-      }
-    ]
-  },
   "plateCharges": {
-    "value": "Cariche della piastra",
+    "value": "Cariche delle armature",
     "history": [
       {
         "userId": 157247,
@@ -92,6 +182,35 @@
         "oldValue": "",
         "newValue": "Cariche della piastra",
         "explanation": null
+      },
+      {
+        "userId": 1029687,
+        "timestamp": 1646079563086,
+        "oldValue": "Cariche della piastra",
+        "newValue": "Cariche delle armature"
+      }
+    ]
+  },
+  "voltage": {
+    "value": "Tensione",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1511029717178,
+        "oldValue": "",
+        "newValue": "Tensione",
+        "explanation": null
+      }
+    ]
+  },
+  "volts.unknown": {
+    "value": "?",
+    "history": [
+      {
+        "userId": 1029687,
+        "timestamp": 1646079563086,
+        "oldValue": "",
+        "newValue": "?"
       }
     ]
   },
@@ -119,50 +238,26 @@
       }
     ]
   },
-  "separation": {
-    "value": "Distanza",
+  "capacitor-lab-basics.title": {
+    "value": "Laboratorio condensatori: introduzione",
     "history": [
       {
         "userId": 157247,
         "timestamp": 1511029717178,
         "oldValue": "",
-        "newValue": "Distanza",
+        "newValue": "Laboratorio condensatori: introduzione",
         "explanation": null
       }
     ]
   },
-  "storedEnergy": {
-    "value": "Energia immagazzinata",
+  "barGraph": {
+    "value": "Grafico a barre",
     "history": [
       {
         "userId": 157247,
         "timestamp": 1511029717178,
         "oldValue": "",
-        "newValue": "Energia immagazzinata",
-        "explanation": null
-      }
-    ]
-  },
-  "topPlateCharge": {
-    "value": "Carica della piastra superiore",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1511029717178,
-        "oldValue": "",
-        "newValue": "Carica della piastra superiore",
-        "explanation": null
-      }
-    ]
-  },
-  "voltage": {
-    "value": "Tensione",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1511029717178,
-        "oldValue": "",
-        "newValue": "Tensione",
+        "newValue": "Grafico a barre",
         "explanation": null
       }
     ]
