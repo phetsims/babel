@@ -87,17 +87,6 @@
       }
     ]
   },
-  "radiusOfCurvature": {
-    "value": "Raio da Curvatura",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1643462168634,
-        "oldValue": "",
-        "newValue": "Raio da Curvatura"
-      }
-    ]
-  },
   "indexOfRefraction": {
     "value": "Índice de Refração",
     "history": [
@@ -120,61 +109,6 @@
       }
     ]
   },
-  "object": {
-    "value": "Objeto",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1643462168634,
-        "oldValue": "",
-        "newValue": "Objeto"
-      }
-    ]
-  },
-  "convexLens": {
-    "value": "Lente Convexa",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1643462168634,
-        "oldValue": "",
-        "newValue": "Lente Convexa"
-      }
-    ]
-  },
-  "convexMirror": {
-    "value": "Espelho Convexo",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1643462168634,
-        "oldValue": "",
-        "newValue": "Espelho Convexo"
-      }
-    ]
-  },
-  "concaveLens": {
-    "value": "Lente Côncava",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1643462168634,
-        "oldValue": "",
-        "newValue": "Lente Côncava"
-      }
-    ]
-  },
-  "concaveMirror": {
-    "value": "Espelho Côncavo",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1643462168634,
-        "oldValue": "",
-        "newValue": "Espelho Côncavo"
-      }
-    ]
-  },
   "focalPoint": {
     "value": "Ponto Focal",
     "history": [
@@ -186,62 +120,29 @@
       }
     ]
   },
-  "virtualImage": {
-    "value": "Imagem Virtual",
+  "geometric-optics.title": {
+    "value": "Óptica Geométrica",
     "history": [
       {
         "userId": 143491,
         "timestamp": 1643462168634,
         "oldValue": "",
-        "newValue": "Imagem Virtual"
+        "newValue": "Óptica Geométrica"
       }
     ]
   },
-  "realImage": {
-    "value": "Imagem Real",
+  "radiusOfCurvaturePositive": {
+    "value": "Raio da Curvatura",
     "history": [
       {
         "userId": 143491,
         "timestamp": 1643462168634,
         "oldValue": "",
-        "newValue": "Imagem Real"
+        "newValue": "Raio da Curvatura"
       }
     ]
   },
-  "projectorScreen": {
-    "value": "Anteparo",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1643462168634,
-        "oldValue": "",
-        "newValue": "Anteparo"
-      }
-    ]
-  },
-  "opticalAxis": {
-    "value": "Eixo Óptico",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1643462168634,
-        "oldValue": "",
-        "newValue": "Eixo Óptico"
-      }
-    ]
-  },
-  "many": {
-    "value": "Muitos",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1643462168634,
-        "oldValue": "",
-        "newValue": "Muitos"
-      }
-    ]
-  },
-  "none": {
+  "radioButton.none": {
     "value": "Nenhum",
     "history": [
       {
@@ -252,7 +153,18 @@
       }
     ]
   },
-  "focalPoints": {
+  "radioButton.many": {
+    "value": "Muitos",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1643462168634,
+        "oldValue": "",
+        "newValue": "Muitos"
+      }
+    ]
+  },
+  "checkbox.focalPoints": {
     "value": "Pontos Focais",
     "history": [
       {
@@ -263,7 +175,7 @@
       }
     ]
   },
-  "labels": {
+  "checkbox.labels": {
     "value": "Rótulos",
     "history": [
       {
@@ -274,7 +186,18 @@
       }
     ]
   },
-  "secondPoint": {
+  "checkbox.virtualImage": {
+    "value": "Imagem Virtual",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1643462168634,
+        "oldValue": "",
+        "newValue": "Imagem Virtual"
+      }
+    ]
+  },
+  "checkbox.secondPoint": {
     "value": "Ponto Secundário",
     "history": [
       {
@@ -285,7 +208,7 @@
       }
     ]
   },
-  "guides": {
+  "checkbox.guides": {
     "value": "Guias",
     "history": [
       {
@@ -296,14 +219,91 @@
       }
     ]
   },
-  "geometric-optics.title": {
-    "value": "Óptica Geométrica",
+  "label.convexLens": {
+    "value": "Lente Convexa",
     "history": [
       {
         "userId": 143491,
         "timestamp": 1643462168634,
         "oldValue": "",
-        "newValue": "Óptica Geométrica"
+        "newValue": "Lente Convexa"
+      }
+    ]
+  },
+  "label.concaveLens": {
+    "value": "Lente Côncava",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1643462168634,
+        "oldValue": "",
+        "newValue": "Lente Côncava"
+      }
+    ]
+  },
+  "label.convexMirror": {
+    "value": "Espelho Convexo",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1643462168634,
+        "oldValue": "",
+        "newValue": "Espelho Convexo"
+      }
+    ]
+  },
+  "label.concaveMirror": {
+    "value": "Espelho Côncavo",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1643462168634,
+        "oldValue": "",
+        "newValue": "Espelho Côncavo"
+      }
+    ]
+  },
+  "label.object": {
+    "value": "Objeto",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1643462168634,
+        "oldValue": "",
+        "newValue": "Objeto"
+      }
+    ]
+  },
+  "label.realImage": {
+    "value": "Imagem Real",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1643462168634,
+        "oldValue": "",
+        "newValue": "Imagem Real"
+      }
+    ]
+  },
+  "label.projectionScreen": {
+    "value": "Anteparo",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1643462168634,
+        "oldValue": "",
+        "newValue": "Anteparo"
+      }
+    ]
+  },
+  "label.opticalAxis": {
+    "value": "Eixo Óptico",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1643462168634,
+        "oldValue": "",
+        "newValue": "Eixo Óptico"
       }
     ]
   }

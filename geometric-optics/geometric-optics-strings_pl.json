@@ -87,17 +87,6 @@
       }
     ]
   },
-  "radiusOfCurvature": {
-    "value": "Promień krzywizny",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1647295212560,
-        "oldValue": "",
-        "newValue": "Promień krzywizny"
-      }
-    ]
-  },
   "indexOfRefraction": {
     "value": "Współczynnik załamania",
     "history": [
@@ -120,61 +109,6 @@
       }
     ]
   },
-  "object": {
-    "value": "Przedmiot",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1647295212560,
-        "oldValue": "",
-        "newValue": "Przedmiot"
-      }
-    ]
-  },
-  "convexLens": {
-    "value": "Soczewka wypukła",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1647295212560,
-        "oldValue": "",
-        "newValue": "Soczewka wypukła"
-      }
-    ]
-  },
-  "convexMirror": {
-    "value": "Zwierciadło wypukłe",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1647295212560,
-        "oldValue": "",
-        "newValue": "Zwierciadło wypukłe"
-      }
-    ]
-  },
-  "concaveLens": {
-    "value": "Soczewka wklęsła",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1647295212560,
-        "oldValue": "",
-        "newValue": "Soczewka wklęsła"
-      }
-    ]
-  },
-  "concaveMirror": {
-    "value": "Zwierciadło wklęsłe",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1647295212560,
-        "oldValue": "",
-        "newValue": "Zwierciadło wklęsłe"
-      }
-    ]
-  },
   "focalPoint": {
     "value": "Ognisko",
     "history": [
@@ -186,84 +120,29 @@
       }
     ]
   },
-  "virtualImage": {
-    "value": "Obraz pozorny",
+  "geometric-optics.title": {
+    "value": "Optyka geometryczna",
     "history": [
       {
         "userId": 196556,
         "timestamp": 1647295212560,
         "oldValue": "",
-        "newValue": "Obraz pozorny"
+        "newValue": "Optyka geometryczna"
       }
     ]
   },
-  "realImage": {
-    "value": "Obraz rzeczywisty",
+  "radiusOfCurvaturePositive": {
+    "value": "Promień krzywizny",
     "history": [
       {
         "userId": 196556,
         "timestamp": 1647295212560,
         "oldValue": "",
-        "newValue": "Obraz rzeczywisty"
+        "newValue": "Promień krzywizny"
       }
     ]
   },
-  "projectorScreen": {
-    "value": "Ekran",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1647295212560,
-        "oldValue": "",
-        "newValue": "Ekran"
-      }
-    ]
-  },
-  "opticalAxis": {
-    "value": "Oś optyczna",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1647295212560,
-        "oldValue": "",
-        "newValue": "Oś optyczna"
-      }
-    ]
-  },
-  "marginal": {
-    "value": "skrajne",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1647295212560,
-        "oldValue": "",
-        "newValue": "skrajne"
-      }
-    ]
-  },
-  "principal": {
-    "value": "podstawowe",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1647295212560,
-        "oldValue": "",
-        "newValue": "podstawowe"
-      }
-    ]
-  },
-  "many": {
-    "value": "dużo",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1647295212560,
-        "oldValue": "",
-        "newValue": "dużo"
-      }
-    ]
-  },
-  "none": {
+  "radioButton.none": {
     "value": "żaden",
     "history": [
       {
@@ -274,7 +153,40 @@
       }
     ]
   },
-  "focalPoints": {
+  "radioButton.marginal": {
+    "value": "skrajne",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1647295212560,
+        "oldValue": "",
+        "newValue": "skrajne"
+      }
+    ]
+  },
+  "radioButton.principal": {
+    "value": "podstawowe",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1647295212560,
+        "oldValue": "",
+        "newValue": "podstawowe"
+      }
+    ]
+  },
+  "radioButton.many": {
+    "value": "dużo",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1647295212560,
+        "oldValue": "",
+        "newValue": "dużo"
+      }
+    ]
+  },
+  "checkbox.focalPoints": {
     "value": "Ogniska",
     "history": [
       {
@@ -285,7 +197,7 @@
       }
     ]
   },
-  "labels": {
+  "checkbox.labels": {
     "value": "Etykiety",
     "history": [
       {
@@ -296,7 +208,18 @@
       }
     ]
   },
-  "secondPoint": {
+  "checkbox.virtualImage": {
+    "value": "Obraz pozorny",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1647295212560,
+        "oldValue": "",
+        "newValue": "Obraz pozorny"
+      }
+    ]
+  },
+  "checkbox.secondPoint": {
     "value": "Drugi punkt",
     "history": [
       {
@@ -307,7 +230,7 @@
       }
     ]
   },
-  "guides": {
+  "checkbox.guides": {
     "value": "Wskazówki",
     "history": [
       {
@@ -318,14 +241,91 @@
       }
     ]
   },
-  "geometric-optics.title": {
-    "value": "Optyka geometryczna",
+  "label.convexLens": {
+    "value": "Soczewka wypukła",
     "history": [
       {
         "userId": 196556,
         "timestamp": 1647295212560,
         "oldValue": "",
-        "newValue": "Optyka geometryczna"
+        "newValue": "Soczewka wypukła"
+      }
+    ]
+  },
+  "label.concaveLens": {
+    "value": "Soczewka wklęsła",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1647295212560,
+        "oldValue": "",
+        "newValue": "Soczewka wklęsła"
+      }
+    ]
+  },
+  "label.convexMirror": {
+    "value": "Zwierciadło wypukłe",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1647295212560,
+        "oldValue": "",
+        "newValue": "Zwierciadło wypukłe"
+      }
+    ]
+  },
+  "label.concaveMirror": {
+    "value": "Zwierciadło wklęsłe",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1647295212560,
+        "oldValue": "",
+        "newValue": "Zwierciadło wklęsłe"
+      }
+    ]
+  },
+  "label.object": {
+    "value": "Przedmiot",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1647295212560,
+        "oldValue": "",
+        "newValue": "Przedmiot"
+      }
+    ]
+  },
+  "label.realImage": {
+    "value": "Obraz rzeczywisty",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1647295212560,
+        "oldValue": "",
+        "newValue": "Obraz rzeczywisty"
+      }
+    ]
+  },
+  "label.projectionScreen": {
+    "value": "Ekran",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1647295212560,
+        "oldValue": "",
+        "newValue": "Ekran"
+      }
+    ]
+  },
+  "label.opticalAxis": {
+    "value": "Oś optyczna",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1647295212560,
+        "oldValue": "",
+        "newValue": "Oś optyczna"
       }
     ]
   }

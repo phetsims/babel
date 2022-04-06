@@ -87,17 +87,6 @@
       }
     ]
   },
-  "radiusOfCurvature": {
-    "value": "полупречник кривине",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1647292026989,
-        "oldValue": "",
-        "newValue": "полупречник кривине"
-      }
-    ]
-  },
   "indexOfRefraction": {
     "value": "индекс преламања",
     "history": [
@@ -120,61 +109,6 @@
       }
     ]
   },
-  "object": {
-    "value": "објекат",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1647292026989,
-        "oldValue": "",
-        "newValue": "објекат"
-      }
-    ]
-  },
-  "convexLens": {
-    "value": "конвексна сочива",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1647292026989,
-        "oldValue": "",
-        "newValue": "конвексна сочива"
-      }
-    ]
-  },
-  "convexMirror": {
-    "value": "конвексно огледало",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1647292026989,
-        "oldValue": "",
-        "newValue": "конвексно огледало"
-      }
-    ]
-  },
-  "concaveLens": {
-    "value": "конкавна сочива",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1647292026989,
-        "oldValue": "",
-        "newValue": "конкавна сочива"
-      }
-    ]
-  },
-  "concaveMirror": {
-    "value": "конкавно огледало",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1647292026989,
-        "oldValue": "",
-        "newValue": "конкавно огледало"
-      }
-    ]
-  },
   "focalPoint": {
     "value": "жижа (фокус)",
     "history": [
@@ -186,84 +120,29 @@
       }
     ]
   },
-  "virtualImage": {
-    "value": "имагинарни лик",
+  "geometric-optics.title": {
+    "value": "Геометријска оптика",
     "history": [
       {
         "userId": 156030,
         "timestamp": 1647292026989,
         "oldValue": "",
-        "newValue": "имагинарни лик"
+        "newValue": "Геометријска оптика"
       }
     ]
   },
-  "realImage": {
-    "value": "реални лик",
+  "radiusOfCurvaturePositive": {
+    "value": "полупречник кривине",
     "history": [
       {
         "userId": 156030,
         "timestamp": 1647292026989,
         "oldValue": "",
-        "newValue": "реални лик"
+        "newValue": "полупречник кривине"
       }
     ]
   },
-  "projectorScreen": {
-    "value": "екран",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1647292026989,
-        "oldValue": "",
-        "newValue": "екран"
-      }
-    ]
-  },
-  "opticalAxis": {
-    "value": "оптичка оса",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1647292026989,
-        "oldValue": "",
-        "newValue": "оптичка оса"
-      }
-    ]
-  },
-  "marginal": {
-    "value": "споредни",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1647292026989,
-        "oldValue": "",
-        "newValue": "споредни"
-      }
-    ]
-  },
-  "principal": {
-    "value": "главни",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1647292026989,
-        "oldValue": "",
-        "newValue": "главни"
-      }
-    ]
-  },
-  "many": {
-    "value": "више",
-    "history": [
-      {
-        "userId": 156030,
-        "timestamp": 1647292026989,
-        "oldValue": "",
-        "newValue": "више"
-      }
-    ]
-  },
-  "none": {
+  "radioButton.none": {
     "value": "без",
     "history": [
       {
@@ -274,7 +153,40 @@
       }
     ]
   },
-  "focalPoints": {
+  "radioButton.marginal": {
+    "value": "споредни",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1647292026989,
+        "oldValue": "",
+        "newValue": "споредни"
+      }
+    ]
+  },
+  "radioButton.principal": {
+    "value": "главни",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1647292026989,
+        "oldValue": "",
+        "newValue": "главни"
+      }
+    ]
+  },
+  "radioButton.many": {
+    "value": "више",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1647292026989,
+        "oldValue": "",
+        "newValue": "више"
+      }
+    ]
+  },
+  "checkbox.focalPoints": {
     "value": "жижа",
     "history": [
       {
@@ -285,7 +197,7 @@
       }
     ]
   },
-  "labels": {
+  "checkbox.labels": {
     "value": "натписи",
     "history": [
       {
@@ -296,7 +208,18 @@
       }
     ]
   },
-  "secondPoint": {
+  "checkbox.virtualImage": {
+    "value": "имагинарни лик",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1647292026989,
+        "oldValue": "",
+        "newValue": "имагинарни лик"
+      }
+    ]
+  },
+  "checkbox.secondPoint": {
     "value": "друга тачка",
     "history": [
       {
@@ -307,7 +230,7 @@
       }
     ]
   },
-  "guides": {
+  "checkbox.guides": {
     "value": "вођице",
     "history": [
       {
@@ -318,14 +241,91 @@
       }
     ]
   },
-  "geometric-optics.title": {
-    "value": "Геометријска оптика",
+  "label.convexLens": {
+    "value": "конвексна сочива",
     "history": [
       {
         "userId": 156030,
         "timestamp": 1647292026989,
         "oldValue": "",
-        "newValue": "Геометријска оптика"
+        "newValue": "конвексна сочива"
+      }
+    ]
+  },
+  "label.concaveLens": {
+    "value": "конкавна сочива",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1647292026989,
+        "oldValue": "",
+        "newValue": "конкавна сочива"
+      }
+    ]
+  },
+  "label.convexMirror": {
+    "value": "конвексно огледало",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1647292026989,
+        "oldValue": "",
+        "newValue": "конвексно огледало"
+      }
+    ]
+  },
+  "label.concaveMirror": {
+    "value": "конкавно огледало",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1647292026989,
+        "oldValue": "",
+        "newValue": "конкавно огледало"
+      }
+    ]
+  },
+  "label.object": {
+    "value": "објекат",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1647292026989,
+        "oldValue": "",
+        "newValue": "објекат"
+      }
+    ]
+  },
+  "label.realImage": {
+    "value": "реални лик",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1647292026989,
+        "oldValue": "",
+        "newValue": "реални лик"
+      }
+    ]
+  },
+  "label.projectionScreen": {
+    "value": "екран",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1647292026989,
+        "oldValue": "",
+        "newValue": "екран"
+      }
+    ]
+  },
+  "label.opticalAxis": {
+    "value": "оптичка оса",
+    "history": [
+      {
+        "userId": 156030,
+        "timestamp": 1647292026989,
+        "oldValue": "",
+        "newValue": "оптичка оса"
       }
     ]
   }

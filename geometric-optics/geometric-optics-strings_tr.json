@@ -87,17 +87,6 @@
       }
     ]
   },
-  "radiusOfCurvature": {
-    "value": "Eğrilik Yarıçapı",
-    "history": [
-      {
-        "userId": 613972,
-        "timestamp": 1649238372207,
-        "oldValue": "",
-        "newValue": "Eğrilik Yarıçapı"
-      }
-    ]
-  },
   "indexOfRefraction": {
     "value": "Kırılma İndisi",
     "history": [
@@ -120,61 +109,6 @@
       }
     ]
   },
-  "object": {
-    "value": "Cisim",
-    "history": [
-      {
-        "userId": 613972,
-        "timestamp": 1649238372207,
-        "oldValue": "",
-        "newValue": "Cisim"
-      }
-    ]
-  },
-  "convexLens": {
-    "value": "İnce Kenarlı Mercek",
-    "history": [
-      {
-        "userId": 613972,
-        "timestamp": 1649238372207,
-        "oldValue": "",
-        "newValue": "İnce Kenarlı Mercek"
-      }
-    ]
-  },
-  "convexMirror": {
-    "value": "Çukur Ayna",
-    "history": [
-      {
-        "userId": 613972,
-        "timestamp": 1649238372207,
-        "oldValue": "",
-        "newValue": "Çukur Ayna"
-      }
-    ]
-  },
-  "concaveLens": {
-    "value": "Kalın Kenarlı Mercek",
-    "history": [
-      {
-        "userId": 613972,
-        "timestamp": 1649238372207,
-        "oldValue": "",
-        "newValue": "Kalın Kenarlı Mercek"
-      }
-    ]
-  },
-  "concaveMirror": {
-    "value": "Tümsek Ayna",
-    "history": [
-      {
-        "userId": 613972,
-        "timestamp": 1649238372207,
-        "oldValue": "",
-        "newValue": "Tümsek Ayna"
-      }
-    ]
-  },
   "focalPoint": {
     "value": "Odak Noktası",
     "history": [
@@ -186,51 +120,29 @@
       }
     ]
   },
-  "virtualImage": {
-    "value": "Sanal Görüntü",
+  "geometric-optics.title": {
+    "value": "Geometrik Optik",
     "history": [
       {
         "userId": 613972,
         "timestamp": 1649238372207,
         "oldValue": "",
-        "newValue": "Sanal Görüntü"
+        "newValue": "Geometrik Optik"
       }
     ]
   },
-  "realImage": {
-    "value": "Gerçek Görüntü",
+  "radiusOfCurvaturePositive": {
+    "value": "Eğrilik Yarıçapı",
     "history": [
       {
         "userId": 613972,
         "timestamp": 1649238372207,
         "oldValue": "",
-        "newValue": "Gerçek Görüntü"
+        "newValue": "Eğrilik Yarıçapı"
       }
     ]
   },
-  "projectorScreen": {
-    "value": "Ekran",
-    "history": [
-      {
-        "userId": 613972,
-        "timestamp": 1649238372207,
-        "oldValue": "",
-        "newValue": "Ekran"
-      }
-    ]
-  },
-  "opticalAxis": {
-    "value": "Asal Eksen",
-    "history": [
-      {
-        "userId": 613972,
-        "timestamp": 1649238372207,
-        "oldValue": "",
-        "newValue": "Asal Eksen"
-      }
-    ]
-  },
-  "none": {
+  "radioButton.none": {
     "value": "Yok",
     "history": [
       {
@@ -241,7 +153,7 @@
       }
     ]
   },
-  "focalPoints": {
+  "checkbox.focalPoints": {
     "value": "Odak Noktası",
     "history": [
       {
@@ -252,7 +164,7 @@
       }
     ]
   },
-  "labels": {
+  "checkbox.labels": {
     "value": "Etiketler",
     "history": [
       {
@@ -263,7 +175,18 @@
       }
     ]
   },
-  "secondPoint": {
+  "checkbox.virtualImage": {
+    "value": "Sanal Görüntü",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1649238372207,
+        "oldValue": "",
+        "newValue": "Sanal Görüntü"
+      }
+    ]
+  },
+  "checkbox.secondPoint": {
     "value": "İkinci Nokta",
     "history": [
       {
@@ -274,7 +197,7 @@
       }
     ]
   },
-  "guides": {
+  "checkbox.guides": {
     "value": "Klavuzlar",
     "history": [
       {
@@ -285,14 +208,91 @@
       }
     ]
   },
-  "geometric-optics.title": {
-    "value": "Geometrik Optik",
+  "label.convexLens": {
+    "value": "İnce Kenarlı Mercek",
     "history": [
       {
         "userId": 613972,
         "timestamp": 1649238372207,
         "oldValue": "",
-        "newValue": "Geometrik Optik"
+        "newValue": "İnce Kenarlı Mercek"
+      }
+    ]
+  },
+  "label.concaveLens": {
+    "value": "Kalın Kenarlı Mercek",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1649238372207,
+        "oldValue": "",
+        "newValue": "Kalın Kenarlı Mercek"
+      }
+    ]
+  },
+  "label.convexMirror": {
+    "value": "Çukur Ayna",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1649238372207,
+        "oldValue": "",
+        "newValue": "Çukur Ayna"
+      }
+    ]
+  },
+  "label.concaveMirror": {
+    "value": "Tümsek Ayna",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1649238372207,
+        "oldValue": "",
+        "newValue": "Tümsek Ayna"
+      }
+    ]
+  },
+  "label.object": {
+    "value": "Cisim",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1649238372207,
+        "oldValue": "",
+        "newValue": "Cisim"
+      }
+    ]
+  },
+  "label.realImage": {
+    "value": "Gerçek Görüntü",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1649238372207,
+        "oldValue": "",
+        "newValue": "Gerçek Görüntü"
+      }
+    ]
+  },
+  "label.projectionScreen": {
+    "value": "Ekran",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1649238372207,
+        "oldValue": "",
+        "newValue": "Ekran"
+      }
+    ]
+  },
+  "label.opticalAxis": {
+    "value": "Asal Eksen",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1649238372207,
+        "oldValue": "",
+        "newValue": "Asal Eksen"
       }
     ]
   }
