@@ -10,6 +10,56 @@
       }
     ]
   },
+  "keyboardHelpDialog.comboBox.popUpListPattern": {
+    "value": "1. Wyskakująca lista: {{thingPlural}}",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1617721845124,
+        "oldValue": "",
+        "newValue": "1. Wyskakująca lista: {{thingPlural}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.moveThroughPattern": {
+    "value": "2. Przejdź przez {{thingPlural}}",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1617721845124,
+        "oldValue": "",
+        "newValue": "2. Przejdź przez {{thingPlural}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.chooseNewPattern": {
+    "value": "3. Wybierz nowy {{thingSingular}}",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1617721845124,
+        "oldValue": "",
+        "newValue": "3. Wybierz nową {{thingSingular}}"
+      },
+      {
+        "userId": 196556,
+        "timestamp": 1649329909409,
+        "oldValue": "3. Wybierz nową {{thingSingular}}",
+        "newValue": "3. Wybierz nowy {{thingSingular}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+    "value": "4. Zamknij listę bez zmiany",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1617721845124,
+        "oldValue": "",
+        "newValue": "4. Zamknij listę bez zmiany"
+      }
+    ]
+  },
   "keyboardHelpDialog.adjust": {
     "value": "Ustaw",
     "history": [
@@ -103,18 +153,6 @@
       }
     ]
   },
-  "speed.fast": {
-    "value": "Szybko",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1608200855791,
-        "oldValue": "",
-        "newValue": "Szybko",
-        "explanation": null
-      }
-    ]
-  },
   "key.fn": {
     "value": "Fn",
     "history": [
@@ -126,7 +164,7 @@
       }
     ]
   },
-  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
     "value": "Chwyć lub uwolnij {{thing}}",
     "history": [
       {
@@ -145,7 +183,7 @@
       }
     ]
   },
-  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
     "value": "Chwyć lub uwolnij {{thing}}",
     "history": [
       {
@@ -256,15 +294,25 @@
       }
     ]
   },
-  "speed.normal": {
-    "value": "Normalnie",
+  "keyboardHelpDialog.comboBox.option": {
+    "value": "opcję",
     "history": [
       {
         "userId": 196556,
-        "timestamp": 1537478959203,
+        "timestamp": 1617721845124,
         "oldValue": "",
-        "newValue": "Normalnie",
-        "explanation": null
+        "newValue": "opcję"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.options": {
+    "value": "opcje",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1617721845124,
+        "oldValue": "",
+        "newValue": "opcje"
       }
     ]
   },
@@ -347,18 +395,6 @@
         "timestamp": 1567087108857,
         "oldValue": "",
         "newValue": "Sterowanie suwakiem",
-        "explanation": null
-      }
-    ]
-  },
-  "speed.slow": {
-    "value": "Wolno",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1537478959203,
-        "oldValue": "",
-        "newValue": "Wolno",
         "explanation": null
       }
     ]
@@ -456,47 +492,39 @@
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.popUpListPattern": {
-    "value": "1. Wyskakująca lista: {{thingPlural}}",
+  "speed.fast": {
+    "value": "Szybko",
     "history": [
       {
         "userId": 196556,
-        "timestamp": 1617721845124,
+        "timestamp": 1608200855791,
         "oldValue": "",
-        "newValue": "1. Wyskakująca lista: {{thingPlural}}"
+        "newValue": "Szybko",
+        "explanation": null
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.moveThroughPattern": {
-    "value": "2. Przejdź przez {{thingPlural}}",
+  "speed.normal": {
+    "value": "Normalnie",
     "history": [
       {
         "userId": 196556,
-        "timestamp": 1617721845124,
+        "timestamp": 1537478959203,
         "oldValue": "",
-        "newValue": "2. Przejdź przez {{thingPlural}}"
+        "newValue": "Normalnie",
+        "explanation": null
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.chooseNewPattern": {
-    "value": "3. Wybierz nową {{thingSingular}}",
+  "speed.slow": {
+    "value": "Wolno",
     "history": [
       {
         "userId": 196556,
-        "timestamp": 1617721845124,
+        "timestamp": 1537478959203,
         "oldValue": "",
-        "newValue": "3. Wybierz nową {{thingSingular}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-    "value": "4. Zamknij listę bez zmiany",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1617721845124,
-        "oldValue": "",
-        "newValue": "4. Zamknij listę bez zmiany"
+        "newValue": "Wolno",
+        "explanation": null
       }
     ]
   },
@@ -563,28 +591,6 @@
         "timestamp": 1617721845124,
         "oldValue": "",
         "newValue": "jeden"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.option": {
-    "value": "opcję",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1617721845124,
-        "oldValue": "",
-        "newValue": "opcję"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.options": {
-    "value": "opcje",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1617721845124,
-        "oldValue": "",
-        "newValue": "opcje"
       }
     ]
   },
