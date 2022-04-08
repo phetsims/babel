@@ -1,12 +1,24 @@
 {
-  "button.newGame": {
-    "value": "Permainan Baru",
+  "pattern.0yourBest": {
+    "value": "(Skor Terbaikmu: {0})",
     "history": [
       {
         "userId": 177550,
         "timestamp": 1472877570612,
         "oldValue": "",
-        "newValue": "Permainan Baru",
+        "newValue": "(Skor Terbaikmu: {0})",
+        "explanation": null
+      }
+    ]
+  },
+  "yourNewBest": {
+    "value": "(Skor Terbaik",
+    "history": [
+      {
+        "userId": 177550,
+        "timestamp": 1472877570612,
+        "oldValue": "",
+        "newValue": "(Skor Terbaik",
         "explanation": null
       }
     ]
@@ -20,6 +32,17 @@
         "oldValue": "",
         "newValue": "Periksa",
         "explanation": null
+      }
+    ]
+  },
+  "chooseYourLevel": {
+    "value": "Pilih Levelmu!",
+    "history": [
+      {
+        "userId": 1035812,
+        "timestamp": 1649381504394,
+        "oldValue": "",
+        "newValue": "Pilih Levelmu!"
       }
     ]
   },
@@ -83,18 +106,6 @@
       }
     ]
   },
-  "label.best": {
-    "value": "Nilai Terbaik Anda : {0}",
-    "history": [
-      {
-        "userId": 177550,
-        "timestamp": 1472877570612,
-        "oldValue": "",
-        "newValue": "Nilai Terbaik Anda : {0}",
-        "explanation": null
-      }
-    ]
-  },
   "label.level": {
     "value": "Level: {0}",
     "history": [
@@ -107,15 +118,14 @@
       }
     ]
   },
-  "label.newBest": {
-    "value": "Nilai Terbaik Anda Terbaru !",
+  "score": {
+    "value": "Skor:",
     "history": [
       {
-        "userId": 177550,
-        "timestamp": 1472877570612,
+        "userId": 1035812,
+        "timestamp": 1649381504394,
         "oldValue": "",
-        "newValue": "Nilai Terbaik Anda Terbaru !",
-        "explanation": null
+        "newValue": "Skor:"
       }
     ]
   },
@@ -143,14 +153,14 @@
       }
     ]
   },
-  "label.score.max.perfect": {
-    "value": "Skor : {0} dari {1} ( Sempurna )",
+  "showAnswer": {
+    "value": "Tampilkan Jawaban",
     "history": [
       {
         "userId": 177550,
         "timestamp": 1472877570612,
         "oldValue": "",
-        "newValue": "Skor : {0} dari {1} ( Sempurna )",
+        "newValue": "Tampilkan Jawaban",
         "explanation": null
       }
     ]
@@ -163,6 +173,90 @@
         "timestamp": 1472877570612,
         "oldValue": "",
         "newValue": "Waktu : {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "tryAgain": {
+    "value": "Coba lagi",
+    "history": [
+      {
+        "userId": 177550,
+        "timestamp": 1472877570612,
+        "oldValue": "",
+        "newValue": "Coba lagi",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0minutes.1seconds": {
+    "value": "{0}:{1}",
+    "history": [
+      {
+        "userId": 177550,
+        "timestamp": 1472877570612,
+        "oldValue": "",
+        "newValue": "{0}:{1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 177550,
+        "timestamp": 1472877570612,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      }
+    ]
+  },
+  "button.newGame": {
+    "value": "Permainan Baru",
+    "history": [
+      {
+        "userId": 177550,
+        "timestamp": 1472877570612,
+        "oldValue": "",
+        "newValue": "Permainan Baru",
+        "explanation": null
+      }
+    ]
+  },
+  "label.best": {
+    "value": "Nilai Terbaik Anda : {0}",
+    "history": [
+      {
+        "userId": 177550,
+        "timestamp": 1472877570612,
+        "oldValue": "",
+        "newValue": "Nilai Terbaik Anda : {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "label.newBest": {
+    "value": "Nilai Terbaik Anda Terbaru !",
+    "history": [
+      {
+        "userId": 177550,
+        "timestamp": 1472877570612,
+        "oldValue": "",
+        "newValue": "Nilai Terbaik Anda Terbaru !",
+        "explanation": null
+      }
+    ]
+  },
+  "label.score.max.perfect": {
+    "value": "Skor : {0} dari {1} ( Sempurna )",
+    "history": [
+      {
+        "userId": 177550,
+        "timestamp": 1472877570612,
+        "oldValue": "",
+        "newValue": "Skor : {0} dari {1} ( Sempurna )",
         "explanation": null
       }
     ]
@@ -203,42 +297,6 @@
       }
     ]
   },
-  "pattern.0hours.1minutes.2seconds": {
-    "value": "{0}:{1}:{2}",
-    "history": [
-      {
-        "userId": 177550,
-        "timestamp": 1472877570612,
-        "oldValue": "",
-        "newValue": "{0}:{1}:{2}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0minutes.1seconds": {
-    "value": "{0}:{1}",
-    "history": [
-      {
-        "userId": 177550,
-        "timestamp": 1472877570612,
-        "oldValue": "",
-        "newValue": "{0}:{1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0yourBest": {
-    "value": "(Skor Terbaikmu: {0})",
-    "history": [
-      {
-        "userId": 177550,
-        "timestamp": 1472877570612,
-        "oldValue": "",
-        "newValue": "(Skor Terbaikmu: {0})",
-        "explanation": null
-      }
-    ]
-  },
   "radioButton.off": {
     "value": "OFF",
     "history": [
@@ -275,18 +333,6 @@
       }
     ]
   },
-  "showAnswer": {
-    "value": "Tampilkan Jawaban",
-    "history": [
-      {
-        "userId": 177550,
-        "timestamp": 1472877570612,
-        "oldValue": "",
-        "newValue": "Tampilkan Jawaban",
-        "explanation": null
-      }
-    ]
-  },
   "startOver": {
     "value": "Memulai",
     "history": [
@@ -319,30 +365,6 @@
         "timestamp": 1472877570612,
         "oldValue": "",
         "newValue": "Pengaturan Permainan",
-        "explanation": null
-      }
-    ]
-  },
-  "tryAgain": {
-    "value": "Coba lagi",
-    "history": [
-      {
-        "userId": 177550,
-        "timestamp": 1472877570612,
-        "oldValue": "",
-        "newValue": "Coba lagi",
-        "explanation": null
-      }
-    ]
-  },
-  "yourNewBest": {
-    "value": "(Skor Terbaik",
-    "history": [
-      {
-        "userId": 177550,
-        "timestamp": 1472877570612,
-        "oldValue": "",
-        "newValue": "(Skor Terbaik",
         "explanation": null
       }
     ]
