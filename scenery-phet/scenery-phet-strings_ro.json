@@ -10,6 +10,50 @@
       }
     ]
   },
+  "keyboardHelpDialog.comboBox.popUpListPattern": {
+    "value": "1. Lista pop-up cu {{thingPlural}}",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1649523000461,
+        "oldValue": "",
+        "newValue": "1. Lista pop-up cu {{thingPlural}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.moveThroughPattern": {
+    "value": "2. Treci prin {{thingPlural}}",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1649523000461,
+        "oldValue": "",
+        "newValue": "2. Treci prin {{thingPlural}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.chooseNewPattern": {
+    "value": "3. Alege {{thingSingular}} nou/ă",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1649523000461,
+        "oldValue": "",
+        "newValue": "3. Alege {{thingSingular}} nou/ă"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+    "value": "4. Închide lista fără o modifica",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1649523000461,
+        "oldValue": "",
+        "newValue": "4. Închide lista fără o modifica"
+      }
+    ]
+  },
   "keyboardHelpDialog.adjust": {
     "value": "Reglaje",
     "history": [
@@ -134,18 +178,6 @@
         "timestamp": 1632061505378,
         "oldValue": "Mesaj de ieșire",
         "newValue": "Ieși din fereastră"
-      }
-    ]
-  },
-  "speed.fast": {
-    "value": "Repede",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1606229756445,
-        "oldValue": "",
-        "newValue": "Repede",
-        "explanation": null
       }
     ]
   },
@@ -331,15 +363,25 @@
       }
     ]
   },
-  "speed.normal": {
-    "value": "Normal",
+  "keyboardHelpDialog.comboBox.option": {
+    "value": "opțiune",
     "history": [
       {
-        "userId": 726466,
-        "timestamp": 1601317946899,
+        "userId": 955557,
+        "timestamp": 1649523000461,
         "oldValue": "",
-        "newValue": "Normal",
-        "explanation": null
+        "newValue": "opțiune"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.options": {
+    "value": "opțiuni",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1649523000461,
+        "oldValue": "",
+        "newValue": "opțiuni"
       }
     ]
   },
@@ -376,6 +418,17 @@
         "oldValue": "",
         "newValue": "Pg Up",
         "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.headingString": {
+    "value": "Expandează meniul",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1649523000461,
+        "oldValue": "",
+        "newValue": "Expandează meniul"
       }
     ]
   },
@@ -426,25 +479,6 @@
       }
     ]
   },
-  "speed.slow": {
-    "value": "Lent",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1601317946899,
-        "oldValue": "",
-        "newValue": "Încet",
-        "explanation": null
-      },
-      {
-        "userId": 183155,
-        "timestamp": 1607283659877,
-        "oldValue": "Încet",
-        "newValue": "Lent",
-        "explanation": null
-      }
-    ]
-  },
   "key.space": {
     "value": "Space",
     "history": [
@@ -490,6 +524,18 @@
         "timestamp": 1638117910294,
         "oldValue": "Selectează/Deselectează",
         "newValue": "Casete de/selectate"
+      }
+    ]
+  },
+  "measuringTapeReadoutPattern": {
+    "value": "{{distance}} {{units}}",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1608227290957,
+        "oldValue": "",
+        "newValue": "{{distance}} {{units}}",
+        "explanation": null
       }
     ]
   },
@@ -553,6 +599,49 @@
         "timestamp": 1631276296237,
         "oldValue": "Ω",
         "newValue": "Ω"
+      }
+    ]
+  },
+  "speed.fast": {
+    "value": "Repede",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1606229756445,
+        "oldValue": "",
+        "newValue": "Repede",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "Normal",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "Normal",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "Lent",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "Încet",
+        "explanation": null
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1607283659877,
+        "oldValue": "Încet",
+        "newValue": "Lent",
+        "explanation": null
       }
     ]
   },
@@ -737,18 +826,6 @@
         "timestamp": 1601317946899,
         "oldValue": "",
         "newValue": "{{value}} {{units}}",
-        "explanation": null
-      }
-    ]
-  },
-  "measuringTapeReadoutPattern": {
-    "value": "{{distance}} {{units}}",
-    "history": [
-      {
-        "userId": 183155,
-        "timestamp": 1608227290957,
-        "oldValue": "",
-        "newValue": "{{distance}} {{units}}",
         "explanation": null
       }
     ]
