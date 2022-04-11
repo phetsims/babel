@@ -1,48 +1,4 @@
 {
-  "drinkMix": {
-    "value": "Concentrat de băut",
-    "history": [
-      {
-        "userId": 955557,
-        "timestamp": 1633173895918,
-        "oldValue": "",
-        "newValue": "Concentrat de băut"
-      }
-    ]
-  },
-  "units.mM": {
-    "value": "mMolar",
-    "history": [
-      {
-        "userId": 955557,
-        "timestamp": 1633173895918,
-        "oldValue": "",
-        "newValue": "mMolar"
-      }
-    ]
-  },
-  "units.uM": {
-    "value": "µMolar",
-    "history": [
-      {
-        "userId": 955557,
-        "timestamp": 1633173895918,
-        "oldValue": "",
-        "newValue": "µMolar"
-      }
-    ]
-  },
-  "water": {
-    "value": "apă",
-    "history": [
-      {
-        "userId": 955557,
-        "timestamp": 1633173895918,
-        "oldValue": "",
-        "newValue": "apă"
-      }
-    ]
-  },
   "cobaltChloride": {
     "value": "Clorură de cobalt(II)",
     "history": [
@@ -55,13 +11,41 @@
     ]
   },
   "cobaltIINitrate": {
-    "value": "Clorură de nitrat(II)",
+    "value": "Nitrat de cobalt(II)",
     "history": [
       {
         "userId": 955557,
         "timestamp": 1633173895918,
         "oldValue": "",
         "newValue": "Clorură de nitrat(II)"
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1649694891472,
+        "oldValue": "Clorură de nitrat(II)",
+        "newValue": "Nitrat de cobalt(II)"
+      }
+    ]
+  },
+  "concentration": {
+    "value": "Concentrația",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1633173895918,
+        "oldValue": "",
+        "newValue": "Concentrația"
+      }
+    ]
+  },
+  "screen.concentration": {
+    "value": "Concentrația",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1633173895918,
+        "oldValue": "",
+        "newValue": "Concentrația"
       }
     ]
   },
@@ -76,6 +60,72 @@
       }
     ]
   },
+  "drinkMix": {
+    "value": "Concentrat de băut",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1633173895918,
+        "oldValue": "",
+        "newValue": "Concentrat de băut"
+      }
+    ]
+  },
+  "evaporation": {
+    "value": "Evaporare",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1633173895918,
+        "oldValue": "",
+        "newValue": "Evaporare"
+      }
+    ]
+  },
+  "units.liters": {
+    "value": "l",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1633173895918,
+        "oldValue": "",
+        "newValue": "l"
+      }
+    ]
+  },
+  "lots": {
+    "value": "rapidă",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1633173895918,
+        "oldValue": "",
+        "newValue": "rapidă"
+      }
+    ]
+  },
+  "units.milliliters": {
+    "value": "ml",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1633173895918,
+        "oldValue": "",
+        "newValue": "ml"
+      }
+    ]
+  },
+  "units.molesPerLiter": {
+    "value": "mol/l",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1633173895918,
+        "oldValue": "",
+        "newValue": "mol/l"
+      }
+    ]
+  },
   "nickelIIChloride": {
     "value": "Clorură de nichel(II)",
     "history": [
@@ -87,25 +137,14 @@
       }
     ]
   },
-  "pattern.0formula.1name": {
-    "value": "{0}: {1}",
+  "none": {
+    "value": "deloc",
     "history": [
       {
         "userId": 955557,
         "timestamp": 1633173895918,
         "oldValue": "",
-        "newValue": "{0}: {1}"
-      }
-    ]
-  },
-  "pattern.0value.1units": {
-    "value": "{0} {1}",
-    "history": [
-      {
-        "userId": 955557,
-        "timestamp": 1633173895918,
-        "oldValue": "",
-        "newValue": "{0} {1}"
+        "newValue": "deloc"
       }
     ]
   },
@@ -142,14 +181,91 @@
       }
     ]
   },
-  "absorbance": {
-    "value": "Absorbție",
+  "removeSolute": {
+    "value": "Îndepărtează solvat",
     "history": [
       {
         "userId": 955557,
         "timestamp": 1633173895918,
         "oldValue": "",
-        "newValue": "Absorbție"
+        "newValue": "Îndepărtează solvat"
+      }
+    ]
+  },
+  "saturated": {
+    "value": "Saturat!",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1633173895918,
+        "oldValue": "",
+        "newValue": "Saturat!"
+      }
+    ]
+  },
+  "sodiumChloride": {
+    "value": "Clorură de sodiu",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1633173895918,
+        "oldValue": "",
+        "newValue": "Clorură de sodiu"
+      }
+    ]
+  },
+  "solid": {
+    "value": "Solid",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1633173895918,
+        "oldValue": "",
+        "newValue": "Solid"
+      }
+    ]
+  },
+  "solute": {
+    "value": "Solvat",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1633173895918,
+        "oldValue": "",
+        "newValue": "Solvat"
+      }
+    ]
+  },
+  "pattern.0soluteAmount": {
+    "value": "Cantitatea de solvat {0} g",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1633173895918,
+        "oldValue": "",
+        "newValue": "Cantitatea de solvat {0} g"
+      }
+    ]
+  },
+  "solution": {
+    "value": "Soluție",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1633173895918,
+        "oldValue": "",
+        "newValue": "Soluție"
+      }
+    ]
+  },
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1633173895918,
+        "oldValue": "",
+        "newValue": "{0} {1}"
       }
     ]
   },
@@ -161,6 +277,72 @@
         "timestamp": 1633173895918,
         "oldValue": "",
         "newValue": "{0}%"
+      }
+    ]
+  },
+  "pattern.0label": {
+    "value": "{0}:",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1633173895918,
+        "oldValue": "",
+        "newValue": "{0}:"
+      }
+    ]
+  },
+  "units.mM": {
+    "value": "mMolar",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1633173895918,
+        "oldValue": "",
+        "newValue": "mMolar"
+      }
+    ]
+  },
+  "units.uM": {
+    "value": "µMolar",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1633173895918,
+        "oldValue": "",
+        "newValue": "µMolar"
+      }
+    ]
+  },
+  "water": {
+    "value": "apă",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1633173895918,
+        "oldValue": "",
+        "newValue": "apă"
+      }
+    ]
+  },
+  "pattern.0formula.1name": {
+    "value": "{0}: {1}",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1633173895918,
+        "oldValue": "",
+        "newValue": "{0}: {1}"
+      }
+    ]
+  },
+  "absorbance": {
+    "value": "Absorbție",
+    "history": [
+      {
+        "userId": 955557,
+        "timestamp": 1633173895918,
+        "oldValue": "",
+        "newValue": "Absorbție"
       }
     ]
   },
@@ -183,39 +365,6 @@
         "timestamp": 1633173895918,
         "oldValue": "",
         "newValue": "cm"
-      }
-    ]
-  },
-  "concentration": {
-    "value": "Concentrația",
-    "history": [
-      {
-        "userId": 955557,
-        "timestamp": 1633173895918,
-        "oldValue": "",
-        "newValue": "Concentrația"
-      }
-    ]
-  },
-  "pattern.0label": {
-    "value": "{0}:",
-    "history": [
-      {
-        "userId": 955557,
-        "timestamp": 1633173895918,
-        "oldValue": "",
-        "newValue": "{0}:"
-      }
-    ]
-  },
-  "solution": {
-    "value": "Soluție",
-    "history": [
-      {
-        "userId": 955557,
-        "timestamp": 1633173895918,
-        "oldValue": "",
-        "newValue": "Soluție"
       }
     ]
   },
@@ -271,149 +420,6 @@
         "timestamp": 1633173895918,
         "oldValue": "",
         "newValue": "Legea lui Beer"
-      }
-    ]
-  },
-  "sodiumChloride": {
-    "value": "Clorură de sodiu",
-    "history": [
-      {
-        "userId": 955557,
-        "timestamp": 1633173895918,
-        "oldValue": "",
-        "newValue": "Clorură de sodiu"
-      }
-    ]
-  },
-  "units.liters": {
-    "value": "l",
-    "history": [
-      {
-        "userId": 955557,
-        "timestamp": 1633173895918,
-        "oldValue": "",
-        "newValue": "l"
-      }
-    ]
-  },
-  "units.milliliters": {
-    "value": "ml",
-    "history": [
-      {
-        "userId": 955557,
-        "timestamp": 1633173895918,
-        "oldValue": "",
-        "newValue": "ml"
-      }
-    ]
-  },
-  "units.molesPerLiter": {
-    "value": "mol/l",
-    "history": [
-      {
-        "userId": 955557,
-        "timestamp": 1633173895918,
-        "oldValue": "",
-        "newValue": "mol/l"
-      }
-    ]
-  },
-  "evaporation": {
-    "value": "Evaporare",
-    "history": [
-      {
-        "userId": 955557,
-        "timestamp": 1633173895918,
-        "oldValue": "",
-        "newValue": "Evaporare"
-      }
-    ]
-  },
-  "lots": {
-    "value": "rapidă",
-    "history": [
-      {
-        "userId": 955557,
-        "timestamp": 1633173895918,
-        "oldValue": "",
-        "newValue": "rapidă"
-      }
-    ]
-  },
-  "none": {
-    "value": "deloc",
-    "history": [
-      {
-        "userId": 955557,
-        "timestamp": 1633173895918,
-        "oldValue": "",
-        "newValue": "deloc"
-      }
-    ]
-  },
-  "removeSolute": {
-    "value": "Îndepărtează solvat",
-    "history": [
-      {
-        "userId": 955557,
-        "timestamp": 1633173895918,
-        "oldValue": "",
-        "newValue": "Îndepărtează solvat"
-      }
-    ]
-  },
-  "saturated": {
-    "value": "Saturat!",
-    "history": [
-      {
-        "userId": 955557,
-        "timestamp": 1633173895918,
-        "oldValue": "",
-        "newValue": "Saturat!"
-      }
-    ]
-  },
-  "pattern.0soluteAmount": {
-    "value": "Cantitatea de solvat {0} g",
-    "history": [
-      {
-        "userId": 955557,
-        "timestamp": 1633173895918,
-        "oldValue": "",
-        "newValue": "Cantitatea de solvat {0} g"
-      }
-    ]
-  },
-  "solute": {
-    "value": "Solvat",
-    "history": [
-      {
-        "userId": 955557,
-        "timestamp": 1633173895918,
-        "oldValue": "",
-        "newValue": "Solvat"
-      }
-    ]
-  },
-  "solid": {
-    "value": "Solid",
-    "history": [
-      {
-        "userId": 955557,
-        "timestamp": 1633173895918,
-        "oldValue": "",
-        "newValue": "Solid"
-      }
-    ]
-  },
-  "screen.concentration": {
-    "value": "Concentrația",
-    "history": [
-      {
-        "userId": 955557,
-        "timestamp": 1633173895918,
-        "oldValue": "",
-        "newValue": "Concentrația"
       }
     ]
   },
