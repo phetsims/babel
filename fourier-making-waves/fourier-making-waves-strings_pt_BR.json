@@ -10,17 +10,6 @@
       }
     ]
   },
-  "screen.wavePacket": {
-    "value": "Pacote de Onda",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1634241436852,
-        "oldValue": "",
-        "newValue": "Pacote de Onda"
-      }
-    ]
-  },
   "screen.waveGame": {
     "value": "Jogo da Onda",
     "history": [
@@ -29,6 +18,17 @@
         "timestamp": 1634241436852,
         "oldValue": "",
         "newValue": "Jogo da Onda"
+      }
+    ]
+  },
+  "screen.wavePacket": {
+    "value": "Pacote de Onda",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1634241436852,
+        "oldValue": "",
+        "newValue": "Pacote de Onda"
       }
     ]
   },
@@ -65,36 +65,20 @@
       }
     ]
   },
-  "amplitudesOfFourierComponents": {
-    "value": "Amplitudes dos Componentes de Fourier ",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1634241436852,
-        "oldValue": "",
-        "newValue": "Amplitudes dos Componentes de Fourier "
-      }
-    ]
-  },
-  "fourierComponents": {
-    "value": "Componentes de Fourier",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1634241436852,
-        "oldValue": "",
-        "newValue": "Componentes de Fourier"
-      }
-    ]
-  },
   "matchUsing1Harmonic": {
-    "value": "<b>Nível 1</b>: Combine a forma de onda rosa usando <b>1</b> harmônico. ",
+    "value": "<b>Nível 1</b>: Encontre a forma da onda rosa usando <b>1</b> harmônico. ",
     "history": [
       {
         "userId": 143491,
         "timestamp": 1634241436852,
         "oldValue": "",
         "newValue": "<b>Nível 1</b>: Combine a forma de onda rosa usando <b>1</b> harmônico. "
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1649864694641,
+        "oldValue": "<b>Nível 1</b>: Combine a forma de onda rosa usando <b>1</b> harmônico. ",
+        "newValue": "<b>Nível 1</b>: Encontre a forma da onda rosa usando <b>1</b> harmônico. "
       }
     ]
   },
@@ -110,13 +94,19 @@
     ]
   },
   "matchUsingNOrMoreHarmonics": {
-    "value": "<b>Nível {{levelNumber}}</b>: Combine a forma de onda rosa usando <u><b>{{numberOfHarmonics}} ou mais</b></u> harmônicos. ",
+    "value": "<b>Nível {{levelNumber}}</b>: Encontre a forma da onda rosa usando <u><b>{{numberOfHarmonics}} ou mais</b></u> harmônicos. ",
     "history": [
       {
         "userId": 143491,
         "timestamp": 1634241436852,
         "oldValue": "",
         "newValue": "<b>Nível {{levelNumber}}</b>: Combine a forma de onda rosa usando <u><b>{{numberOfHarmonics}} ou mais</b></u> harmônicos. "
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1649864694641,
+        "oldValue": "<b>Nível {{levelNumber}}</b>: Combine a forma de onda rosa usando <u><b>{{numberOfHarmonics}} ou mais</b></u> harmônicos. ",
+        "newValue": "<b>Nível {{levelNumber}}</b>: Encontre a forma da onda rosa usando <u><b>{{numberOfHarmonics}} ou mais</b></u> harmônicos. "
       }
     ]
   },
@@ -159,6 +149,28 @@
       }
     ]
   },
+  "amplitudesOfFourierComponents": {
+    "value": "Amplitudes dos Componentes de Fourier ",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1634241436852,
+        "oldValue": "",
+        "newValue": "Amplitudes dos Componentes de Fourier "
+      }
+    ]
+  },
+  "fourierComponents": {
+    "value": "Componentes de Fourier",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1634241436852,
+        "oldValue": "",
+        "newValue": "Componentes de Fourier"
+      }
+    ]
+  },
   "keyboardHelpDialog.moveTool": {
     "value": "Mover ferramenta",
     "history": [
@@ -189,17 +201,6 @@
         "timestamp": 1634241436852,
         "oldValue": "",
         "newValue": "Ferramentas de Medição"
-      }
-    ]
-  },
-  "minToMax": {
-    "value": "{{min}} até {{max}}",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1634241436852,
-        "oldValue": "",
-        "newValue": "{{min}} até {{max}}"
       }
     ]
   },
@@ -288,6 +289,39 @@
         "timestamp": 1634241436852,
         "oldValue": "",
         "newValue": "sen"
+      }
+    ]
+  },
+  "matchUsingNHarmonics": {
+    "value": "<b>Nível {{levelNumber}}</b>: Encontre a forma de onda rosa usando <b> {{numberOfHarmonics}}</b> harmônicos.",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1634241436852,
+        "oldValue": "",
+        "newValue": "<b>Nível {{levelNumber}}</b>: Encontre a forma de onda rosa usando <b> {{numberOfHarmonics}}</b> harmônicos."
+      }
+    ]
+  },
+  "infoNHarmonics": {
+    "value": "<b>Nível {{levelNumber}}</b>: {{numberOfHarmonics}} harmônicos",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1634241436852,
+        "oldValue": "",
+        "newValue": "<b>Nível {{levelNumber}}</b>: {{numberOfHarmonics}} harmônicos"
+      }
+    ]
+  },
+  "minToMax": {
+    "value": "{{min}} até {{max}}",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1634241436852,
+        "oldValue": "",
+        "newValue": "{{min}} até {{max}}"
       }
     ]
   },
@@ -401,25 +435,47 @@
       }
     ]
   },
-  "matchUsingNHarmonics": {
-    "value": "<b>Nível {{levelNumber}}</b>: Encontre a forma de onda rosa usando <b> {{numberOfHarmonics}}</b> harmônicos.",
+  "checkAnswer": {
+    "value": "Verifique a resposta ",
     "history": [
       {
         "userId": 143491,
         "timestamp": 1634241436852,
         "oldValue": "",
-        "newValue": "<b>Nível {{levelNumber}}</b>: Encontre a forma de onda rosa usando <b> {{numberOfHarmonics}}</b> harmônicos."
+        "newValue": "Verifique a resposta "
       }
     ]
   },
-  "infoNHarmonics": {
-    "value": "<b>Nível {{levelNumber}}</b>: {{numberOfHarmonics}} harmônicos",
+  "showAnswer": {
+    "value": "Ver a resposta ",
     "history": [
       {
         "userId": 143491,
         "timestamp": 1634241436852,
         "oldValue": "",
-        "newValue": "<b>Nível {{levelNumber}}</b>: {{numberOfHarmonics}} harmônicos"
+        "newValue": "Ver a resposta "
+      }
+    ]
+  },
+  "newWaveform": {
+    "value": "Nova Forma de Onda",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1634241436852,
+        "oldValue": "",
+        "newValue": "Nova Forma de Onda"
+      }
+    ]
+  },
+  "chooseYourLevel": {
+    "value": "Escolha o Nível",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1634241436852,
+        "oldValue": "",
+        "newValue": "Escolha o Nível"
       }
     ]
   },
@@ -492,50 +548,6 @@
         "timestamp": 1634241436852,
         "oldValue": "",
         "newValue": "Largura de Pacote de Onda "
-      }
-    ]
-  },
-  "checkAnswer": {
-    "value": "Verifique a resposta ",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1634241436852,
-        "oldValue": "",
-        "newValue": "Verifique a resposta "
-      }
-    ]
-  },
-  "showAnswer": {
-    "value": "Ver a resposta ",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1634241436852,
-        "oldValue": "",
-        "newValue": "Ver a resposta "
-      }
-    ]
-  },
-  "newWaveform": {
-    "value": "Nova Forma de Onda",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1634241436852,
-        "oldValue": "",
-        "newValue": "Nova Forma de Onda"
-      }
-    ]
-  },
-  "chooseYourLevel": {
-    "value": "Escolha o Nível",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1634241436852,
-        "oldValue": "",
-        "newValue": "Escolha o Nível"
       }
     ]
   },
@@ -822,28 +834,6 @@
       }
     ]
   },
-  "symbolsDialog.sigma": {
-    "value": "{{sigma}} - desvio padrão do pacote de ondas gaussianas ",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1634241436852,
-        "oldValue": "",
-        "newValue": "{{sigma}} - desvio padrão do pacote de ondas gaussianas "
-      }
-    ]
-  },
-  "widthIndicators": {
-    "value": "Indicadores de largura ",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1634241436852,
-        "oldValue": "",
-        "newValue": "Indicadores de largura "
-      }
-    ]
-  },
   "amplitudeControls": {
     "value": "Controles de Amplitude:",
     "history": [
@@ -863,6 +853,28 @@
         "timestamp": 1634241436852,
         "oldValue": "",
         "newValue": "Níveis"
+      }
+    ]
+  },
+  "widthIndicators": {
+    "value": "Indicadores de largura ",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1634241436852,
+        "oldValue": "",
+        "newValue": "Indicadores de largura "
+      }
+    ]
+  },
+  "symbolsDialog.sigma": {
+    "value": "{{sigma}} - desvio padrão do pacote de ondas gaussianas ",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1634241436852,
+        "oldValue": "",
+        "newValue": "{{sigma}} - desvio padrão do pacote de ondas gaussianas "
       }
     ]
   },
