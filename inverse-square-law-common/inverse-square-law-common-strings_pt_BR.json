@@ -1,18 +1,6 @@
 {
-  "decimalNotation": {
-    "value": "Notação Decimal",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1583789936398,
-        "oldValue": "",
-        "newValue": "Notação Decimal",
-        "explanation": null
-      }
-    ]
-  },
   "forceOnObjectByOtherObjectPattern": {
-    "value": "Força sobre {{thisObject}} por {{otherObject}}",
+    "value": "Força de {{otherObject}} sobre {{thisObject}}",
     "history": [
       {
         "userId": 143491,
@@ -20,11 +8,17 @@
         "oldValue": "",
         "newValue": "Força sobre {{thisObject}} por {{otherObject}}",
         "explanation": null
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1649952024297,
+        "oldValue": "Força sobre {{thisObject}} por {{otherObject}}",
+        "newValue": "Força de {{otherObject}} sobre {{thisObject}}"
       }
     ]
   },
   "forceOnObjectByOtherObjectWithUnitsPattern": {
-    "value": "Força sobre {{thisObject}} por {{otherObject}} = {{value}} N",
+    "value": "Força de {{otherObject}} sobre {{thisObject}} = {{value}} N",
     "history": [
       {
         "userId": 143491,
@@ -32,6 +26,12 @@
         "oldValue": "",
         "newValue": "Força sobre {{thisObject}} por {{otherObject}} = {{value}} N",
         "explanation": null
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1649952024297,
+        "oldValue": "Força sobre {{thisObject}} por {{otherObject}} = {{value}} N",
+        "newValue": "Força de {{otherObject}} sobre {{thisObject}} = {{value}} N"
       }
     ]
   },
@@ -43,18 +43,6 @@
         "timestamp": 1546255665162,
         "oldValue": "",
         "newValue": "Valores de Força",
-        "explanation": null
-      }
-    ]
-  },
-  "hidden": {
-    "value": "Escondido",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1583789936398,
-        "oldValue": "",
-        "newValue": "Escondido",
         "explanation": null
       }
     ]
@@ -79,6 +67,30 @@
         "timestamp": 1572311205551,
         "oldValue": "",
         "newValue": "metros",
+        "explanation": null
+      }
+    ]
+  },
+  "decimalNotation": {
+    "value": "Notação Decimal",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1583789936398,
+        "oldValue": "",
+        "newValue": "Notação Decimal",
+        "explanation": null
+      }
+    ]
+  },
+  "hidden": {
+    "value": "Escondido",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1583789936398,
+        "oldValue": "",
+        "newValue": "Escondido",
         "explanation": null
       }
     ]
