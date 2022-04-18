@@ -1,4 +1,28 @@
 {
+  "electronOverlap": {
+    "value": "(překryv elektronů)",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1583579088267,
+        "oldValue": "",
+        "newValue": "(překryv elektronů)",
+        "explanation": null
+      }
+    ]
+  },
+  "vanderwaals": {
+    "value": "(van der Waalsovy)",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1583579088267,
+        "oldValue": "",
+        "newValue": "(van der Waalsovy)",
+        "explanation": null
+      }
+    ]
+  },
   "adjustableAttraction": {
     "value": "Nastavitelná přitažlivá síla",
     "history": [
@@ -35,114 +59,6 @@
       }
     ]
   },
-  "customAttraction": {
-    "value": "Vlastní přitažlivost",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1583579088267,
-        "oldValue": "",
-        "newValue": "Vlastní přitažlivost",
-        "explanation": null
-      }
-    ]
-  },
-  "interactionStrength": {
-    "value": "Síla interakce [ε]",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1583579088267,
-        "oldValue": "",
-        "newValue": "Síla interakce [ε]",
-        "explanation": null
-      }
-    ]
-  },
-  "large": {
-    "value": "velký",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1583579088267,
-        "oldValue": "",
-        "newValue": "velký",
-        "explanation": null
-      }
-    ]
-  },
-  "moving": {
-    "value": "Pohybovat",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1583579088267,
-        "oldValue": "",
-        "newValue": "Pohybovat",
-        "explanation": null
-      }
-    ]
-  },
-  "oxygen": {
-    "value": "Kyslík",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1583579088267,
-        "oldValue": "",
-        "newValue": "Kyslík",
-        "explanation": null
-      }
-    ]
-  },
-  "pinned": {
-    "value": "Připevněný",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1583579088267,
-        "oldValue": "",
-        "newValue": "Připevněný",
-        "explanation": null
-      }
-    ]
-  },
-  "small": {
-    "value": "malý",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1583579088267,
-        "oldValue": "",
-        "newValue": "malý",
-        "explanation": null
-      }
-    ]
-  },
-  "strong": {
-    "value": "silná",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1583579088267,
-        "oldValue": "",
-        "newValue": "silná",
-        "explanation": null
-      }
-    ]
-  },
-  "weak": {
-    "value": "slabá",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1583579088267,
-        "oldValue": "",
-        "newValue": "slabá",
-        "explanation": null
-      }
-    ]
-  },
   "attractive": {
     "value": "Přitažlivé",
     "history": [
@@ -155,14 +71,44 @@
       }
     ]
   },
-  "electronOverlap": {
-    "value": "(překryv elektronů)",
+  "customAttraction": {
+    "value": "Vlastní nastavení",
     "history": [
       {
         "userId": 315698,
         "timestamp": 1583579088267,
         "oldValue": "",
-        "newValue": "(překryv elektronů)",
+        "newValue": "Vlastní přitažlivost",
+        "explanation": null
+      },
+      {
+        "userId": 315698,
+        "timestamp": 1650289369536,
+        "oldValue": "Vlastní přitažlivost",
+        "newValue": "Vlastní nastavení"
+      }
+    ]
+  },
+  "distanceBetweenAtoms": {
+    "value": "Vzdálenost mezi atomy",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1583579088267,
+        "oldValue": "",
+        "newValue": "Vzdálenost mezi atomy",
+        "explanation": null
+      }
+    ]
+  },
+  "distanceBetweenMolecules": {
+    "value": "Vzdálenost mezi molekulami",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1583579088267,
+        "oldValue": "",
+        "newValue": "Vzdálenost mezi molekulami",
         "explanation": null
       }
     ]
@@ -191,62 +137,74 @@
       }
     ]
   },
-  "repulsive": {
-    "value": "Odpudivé",
+  "interactionStrength": {
+    "value": "Síla interakce [ε]",
     "history": [
       {
         "userId": 315698,
         "timestamp": 1583579088267,
         "oldValue": "",
-        "newValue": "Odpudivé",
+        "newValue": "Síla interakce [ε]",
         "explanation": null
       }
     ]
   },
-  "totalForce": {
-    "value": "Celková sía",
+  "large": {
+    "value": "",
     "history": [
       {
         "userId": 315698,
         "timestamp": 1583579088267,
         "oldValue": "",
-        "newValue": "Celková sía",
+        "newValue": "velký",
+        "explanation": null
+      },
+      {
+        "userId": 315698,
+        "timestamp": 1650289369536,
+        "oldValue": "velký",
+        "newValue": ""
+      }
+    ]
+  },
+  "moving": {
+    "value": "Pohyblivý",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1583579088267,
+        "oldValue": "",
+        "newValue": "Pohybovat",
+        "explanation": null
+      },
+      {
+        "userId": 315698,
+        "timestamp": 1650289369536,
+        "oldValue": "Pohybovat",
+        "newValue": "Pohyblivý"
+      }
+    ]
+  },
+  "oxygen": {
+    "value": "Kyslík",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1583579088267,
+        "oldValue": "",
+        "newValue": "Kyslík",
         "explanation": null
       }
     ]
   },
-  "vanderwaals": {
-    "value": "(van der Waalsovy)",
+  "pinned": {
+    "value": "Připevněný",
     "history": [
       {
         "userId": 315698,
         "timestamp": 1583579088267,
         "oldValue": "",
-        "newValue": "(van der Waalsovy)",
-        "explanation": null
-      }
-    ]
-  },
-  "distanceBetweenAtoms": {
-    "value": "Vzdálenost mezi atomy",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1583579088267,
-        "oldValue": "",
-        "newValue": "Vzdálenost mezi atomy",
-        "explanation": null
-      }
-    ]
-  },
-  "distanceBetweenMolecules": {
-    "value": "Vzdálenost mezi molekulami",
-    "history": [
-      {
-        "userId": 315698,
-        "timestamp": 1583579088267,
-        "oldValue": "",
-        "newValue": "Vzdálenost mezi molekulami",
+        "newValue": "Připevněný",
         "explanation": null
       }
     ]
@@ -263,14 +221,14 @@
       }
     ]
   },
-  "normal": {
-    "value": "Normálně",
+  "repulsive": {
+    "value": "Odpudivé",
     "history": [
       {
         "userId": 315698,
         "timestamp": 1583579088267,
         "oldValue": "",
-        "newValue": "Normálně",
+        "newValue": "Odpudivé",
         "explanation": null
       }
     ]
@@ -283,6 +241,72 @@
         "timestamp": 1583579088267,
         "oldValue": "",
         "newValue": "Vrať atom",
+        "explanation": null
+      }
+    ]
+  },
+  "small": {
+    "value": "malý",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1583579088267,
+        "oldValue": "",
+        "newValue": "malý",
+        "explanation": null
+      }
+    ]
+  },
+  "strong": {
+    "value": "silná",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1583579088267,
+        "oldValue": "",
+        "newValue": "silná",
+        "explanation": null
+      }
+    ]
+  },
+  "totalForce": {
+    "value": "Celková síla",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1583579088267,
+        "oldValue": "",
+        "newValue": "Celková sía",
+        "explanation": null
+      },
+      {
+        "userId": 315698,
+        "timestamp": 1650289369536,
+        "oldValue": "Celková sía",
+        "newValue": "Celková síla"
+      }
+    ]
+  },
+  "weak": {
+    "value": "slabá",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1583579088267,
+        "oldValue": "",
+        "newValue": "slabá",
+        "explanation": null
+      }
+    ]
+  },
+  "normal": {
+    "value": "Normálně",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1583579088267,
+        "oldValue": "",
+        "newValue": "Normálně",
         "explanation": null
       }
     ]
