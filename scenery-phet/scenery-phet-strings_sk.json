@@ -10,6 +10,67 @@
       }
     ]
   },
+  "keyboardHelpDialog.comboBox.popUpListPattern": {
+    "value": "Vyskakovací zoznam {{thingPlural}}",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1619953055967,
+        "oldValue": "",
+        "newValue": "Vyskakovací zoznam {{thingPlural}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.moveThroughPattern": {
+    "value": "Presun na {{thingPlural}}",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1619953055967,
+        "oldValue": "",
+        "newValue": "Presun na {{thingPlural}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.chooseNewPattern": {
+    "value": "Vybrať nový {{thingSingular}}",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1619953055967,
+        "oldValue": "",
+        "newValue": "Vybrať nové {{thingSingular}}"
+      },
+      {
+        "userId": 134140,
+        "timestamp": 1650379574890,
+        "oldValue": "Vybrať nové {{thingSingular}}",
+        "newValue": "Vybrať nový {{thingSingular}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+    "value": "Zatvoriť zoznam bez zmeny",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1619953055967,
+        "oldValue": "",
+        "newValue": "Zatvoriť zoznam bez zmeny"
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjust": {
+    "value": "Upraviť",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1650379574890,
+        "oldValue": "",
+        "newValue": "Upraviť"
+      }
+    ]
+  },
   "key.alt": {
     "value": "Alt",
     "history": [
@@ -92,17 +153,6 @@
       }
     ]
   },
-  "speed.fast": {
-    "value": "Rýchlo ",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1642972669431,
-        "oldValue": "",
-        "newValue": "Rýchlo "
-      }
-    ]
-  },
   "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
     "value": "Chytenie alebo uvoľnenie {{thing}}",
     "history": [
@@ -135,6 +185,50 @@
         "timestamp": 1642972669431,
         "oldValue": "",
         "newValue": "Home"
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMaximumPattern": {
+    "value": "Skok na {{maximum}}",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1619953055967,
+        "oldValue": "",
+        "newValue": "Skok na {{maximum}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMinimumPattern": {
+    "value": "Skok na {{minimum}}",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1619953055967,
+        "oldValue": "",
+        "newValue": "Skok na {{minimum}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.maximum": {
+    "value": "maximum",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1619953055967,
+        "oldValue": "",
+        "newValue": "maximum"
+      }
+    ]
+  },
+  "keyboardHelpDialog.minimum": {
+    "value": "minimum",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1619953055967,
+        "oldValue": "",
+        "newValue": "minimum"
       }
     ]
   },
@@ -174,15 +268,25 @@
       }
     ]
   },
-  "speed.normal": {
-    "value": "Normálne",
+  "keyboardHelpDialog.comboBox.option": {
+    "value": "možnosť",
     "history": [
       {
         "userId": 134140,
-        "timestamp": 1546535263326,
+        "timestamp": 1619953055967,
         "oldValue": "",
-        "newValue": "Normálne",
-        "explanation": null
+        "newValue": "možnosť"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.options": {
+    "value": "možnosti",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1619953055967,
+        "oldValue": "",
+        "newValue": "možnosti"
       }
     ]
   },
@@ -246,15 +350,25 @@
       }
     ]
   },
-  "speed.slow": {
-    "value": "Spomalene",
+  "keyboardHelpDialog.slider": {
+    "value": "posuvník",
     "history": [
       {
         "userId": 134140,
-        "timestamp": 1546535263326,
+        "timestamp": 1619953055967,
         "oldValue": "",
-        "newValue": "Spomalene",
-        "explanation": null
+        "newValue": "posuvník"
+      }
+    ]
+  },
+  "keyboardHelpDialog.sliderControls": {
+    "value": "Ovládanie posúvača",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1650379574890,
+        "oldValue": "",
+        "newValue": "Ovládanie posúvača"
       }
     ]
   },
@@ -293,15 +407,48 @@
       }
     ]
   },
-  "stopwatchValueUnitsPattern": {
-    "value": "{{value}} {{units}}",
+  "measuringTapeReadoutPattern": {
+    "value": "{{distance}} {{units}}",
     "history": [
       {
         "userId": 134140,
         "timestamp": 1608310495720,
         "oldValue": "",
-        "newValue": "{{value}} {{units}}",
+        "newValue": "{{distance}} {{units}}",
         "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.verbInLargerStepsPattern": {
+    "value": "{{verb}} po veľkých krokoch",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1619953055967,
+        "oldValue": "",
+        "newValue": "{{verb}} po veľkých krokoch"
+      }
+    ]
+  },
+  "keyboardHelpDialog.verbInSmallerStepsPattern": {
+    "value": "{{verb}} po malých krokoch",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1619953055967,
+        "oldValue": "",
+        "newValue": "{{verb}} po malých krokoch"
+      }
+    ]
+  },
+  "keyboardHelpDialog.verbSliderPattern": {
+    "value": "{{verb}} {{slider}}",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1619953055967,
+        "oldValue": "",
+        "newValue": "{{verb}} {{slider}}"
       }
     ]
   },
@@ -329,47 +476,50 @@
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.popUpListPattern": {
-    "value": "Vyskakovací zoznam {{thingPlural}}",
+  "speed.fast": {
+    "value": "Rýchlo ",
     "history": [
       {
         "userId": 134140,
-        "timestamp": 1619953055967,
+        "timestamp": 1642972669431,
         "oldValue": "",
-        "newValue": "Vyskakovací zoznam {{thingPlural}}"
+        "newValue": "Rýchlo "
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.moveThroughPattern": {
-    "value": "Presun na {{thingPlural}}",
+  "speed.normal": {
+    "value": "Normálne",
     "history": [
       {
         "userId": 134140,
-        "timestamp": 1619953055967,
+        "timestamp": 1546535263326,
         "oldValue": "",
-        "newValue": "Presun na {{thingPlural}}"
+        "newValue": "Normálne",
+        "explanation": null
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.chooseNewPattern": {
-    "value": "Vybrať nové {{thingSingular}}",
+  "speed.slow": {
+    "value": "Spomalene",
     "history": [
       {
         "userId": 134140,
-        "timestamp": 1619953055967,
+        "timestamp": 1546535263326,
         "oldValue": "",
-        "newValue": "Vybrať nové {{thingSingular}}"
+        "newValue": "Spomalene",
+        "explanation": null
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-    "value": "Zatvoriť zoznam bez zmeny",
+  "stopwatchValueUnitsPattern": {
+    "value": "{{value}} {{units}}",
     "history": [
       {
         "userId": 134140,
-        "timestamp": 1619953055967,
+        "timestamp": 1608310495720,
         "oldValue": "",
-        "newValue": "Zatvoriť zoznam bez zmeny"
+        "newValue": "{{value}} {{units}}",
+        "explanation": null
       }
     ]
   },
@@ -417,50 +567,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.jumpToMaximumPattern": {
-    "value": "Skok na {{maximum}}",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1619953055967,
-        "oldValue": "",
-        "newValue": "Skok na {{maximum}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.jumpToMinimumPattern": {
-    "value": "Skok na {{minimum}}",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1619953055967,
-        "oldValue": "",
-        "newValue": "Skok na {{minimum}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.maximum": {
-    "value": "maximum",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1619953055967,
-        "oldValue": "",
-        "newValue": "maximum"
-      }
-    ]
-  },
-  "keyboardHelpDialog.minimum": {
-    "value": "minimum",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1619953055967,
-        "oldValue": "",
-        "newValue": "minimum"
-      }
-    ]
-  },
   "nine": {
     "value": "deväť",
     "history": [
@@ -483,28 +589,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.option": {
-    "value": "možnosť",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1619953055967,
-        "oldValue": "",
-        "newValue": "možnosť"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.options": {
-    "value": "možnosti",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1619953055967,
-        "oldValue": "",
-        "newValue": "možnosti"
-      }
-    ]
-  },
   "seven": {
     "value": "sedem ",
     "history": [
@@ -524,17 +608,6 @@
         "timestamp": 1619953055967,
         "oldValue": "",
         "newValue": "šesť "
-      }
-    ]
-  },
-  "keyboardHelpDialog.slider": {
-    "value": "posuvník",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1619953055967,
-        "oldValue": "",
-        "newValue": "posuvník"
       }
     ]
   },
@@ -582,39 +655,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.verbInLargerStepsPattern": {
-    "value": "{{verb}} po veľkých krokoch",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1619953055967,
-        "oldValue": "",
-        "newValue": "{{verb}} po veľkých krokoch"
-      }
-    ]
-  },
-  "keyboardHelpDialog.verbInSmallerStepsPattern": {
-    "value": "{{verb}} po malých krokoch",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1619953055967,
-        "oldValue": "",
-        "newValue": "{{verb}} po malých krokoch"
-      }
-    ]
-  },
-  "keyboardHelpDialog.verbSliderPattern": {
-    "value": "{{verb}} {{slider}}",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1619953055967,
-        "oldValue": "",
-        "newValue": "{{verb}} {{slider}}"
-      }
-    ]
-  },
   "keyboardHelpDialog.moveToNextItem": {
     "value": "Posun na ďalšiu položku",
     "history": [
@@ -659,18 +699,6 @@
         "timestamp": 1608310495720,
         "oldValue": "",
         "newValue": "L",
-        "explanation": null
-      }
-    ]
-  },
-  "measuringTapeReadoutPattern": {
-    "value": "{{distance}} {{units}}",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1608310495720,
-        "oldValue": "",
-        "newValue": "{{distance}} {{units}}",
         "explanation": null
       }
     ]
