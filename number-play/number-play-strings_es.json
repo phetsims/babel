@@ -1,37 +1,4 @@
 {
-  "number-play.title": {
-    "value": "Juego de Números",
-    "history": [
-      {
-        "userId": 282036,
-        "timestamp": 1629821691952,
-        "oldValue": "",
-        "newValue": "Juego de Números"
-      }
-    ]
-  },
-  "screen.ten": {
-    "value": "Diez",
-    "history": [
-      {
-        "userId": 282036,
-        "timestamp": 1629821691952,
-        "oldValue": "",
-        "newValue": "Diez"
-      }
-    ]
-  },
-  "screen.twenty": {
-    "value": "Veinte",
-    "history": [
-      {
-        "userId": 282036,
-        "timestamp": 1629821691952,
-        "oldValue": "",
-        "newValue": "Veinte"
-      }
-    ]
-  },
   "screen.compare": {
     "value": "Compara",
     "history": [
@@ -54,14 +21,25 @@
       }
     ]
   },
-  "screen.lab": {
-    "value": "Laboratorio",
+  "screen.ten": {
+    "value": "Diez",
     "history": [
       {
         "userId": 282036,
         "timestamp": 1629821691952,
         "oldValue": "",
-        "newValue": "Laboratorio"
+        "newValue": "Diez"
+      }
+    ]
+  },
+  "screen.twenty": {
+    "value": "Veinte",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1629821691952,
+        "oldValue": "",
+        "newValue": "Veinte"
       }
     ]
   },
@@ -296,6 +274,100 @@
       }
     ]
   },
+  "ones": {
+    "value": "Unos",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1629821691952,
+        "oldValue": "",
+        "newValue": "Unos"
+      }
+    ]
+  },
+  "objects": {
+    "value": "Objetos",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1629821691952,
+        "oldValue": "",
+        "newValue": "Objetos"
+      }
+    ]
+  },
+  "tenFrame": {
+    "value": "Marco de Diez",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1629821691952,
+        "oldValue": "",
+        "newValue": "Grupos de Diez"
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1631172615958,
+        "oldValue": "Grupos de Diez",
+        "newValue": "Marco de Diez"
+      }
+    ]
+  },
+  "total": {
+    "value": "Total",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1629821691952,
+        "oldValue": "",
+        "newValue": "Total"
+      }
+    ]
+  },
+  "word": {
+    "value": "Palabra",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1629821691952,
+        "oldValue": "",
+        "newValue": "Palabra"
+      }
+    ]
+  },
+  "wordLanguage": {
+    "value": "Palabra ({{language}})",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1650386114165,
+        "oldValue": "",
+        "newValue": "Palabra ({{language}})"
+      }
+    ]
+  },
+  "language": {
+    "value": "Español",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1629821691952,
+        "oldValue": "",
+        "newValue": "Español"
+      }
+    ]
+  },
+  "chooseYourGame": {
+    "value": "¡Elige tu Juego!",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1650386114165,
+        "oldValue": "",
+        "newValue": "¡Elige tu Juego!"
+      }
+    ]
+  },
   "isLessThan": {
     "value": "{{smallerNumber}} es menor que {{greaterNumber}}",
     "history": [
@@ -329,75 +401,91 @@
       }
     ]
   },
-  "word": {
-    "value": "Palabra",
+  "counting": {
+    "value": "Contando",
     "history": [
       {
         "userId": 282036,
-        "timestamp": 1629821691952,
+        "timestamp": 1650386114165,
         "oldValue": "",
-        "newValue": "Palabra"
+        "newValue": "Contando"
       }
     ]
   },
-  "total": {
-    "value": "Total",
+  "subitizing": {
+    "value": "Subitizando",
     "history": [
       {
         "userId": 282036,
-        "timestamp": 1629821691952,
+        "timestamp": 1650386114165,
         "oldValue": "",
-        "newValue": "Total"
+        "newValue": "Subitizando"
       }
     ]
   },
-  "tenFrame": {
-    "value": "Marco de Diez",
+  "gameNameLevelNumberPattern": {
+    "value": "{{gameName}}: Nivel {{levelNumber}}",
     "history": [
       {
         "userId": 282036,
-        "timestamp": 1629821691952,
+        "timestamp": 1650386114165,
         "oldValue": "",
-        "newValue": "Grupos de Diez"
-      },
-      {
-        "userId": 282036,
-        "timestamp": 1631172615958,
-        "oldValue": "Grupos de Diez",
-        "newValue": "Marco de Diez"
+        "newValue": "{{gameName}}: Nivel {{levelNumber}}"
       }
     ]
   },
-  "ones": {
-    "value": "Unos",
+  "countFromPattern": {
+    "value": "Contar de {{minimumChallengeNumber}}-{{maximumChallengeNumber}}",
     "history": [
       {
         "userId": 282036,
-        "timestamp": 1629821691952,
+        "timestamp": 1650386114165,
         "oldValue": "",
-        "newValue": "Unos"
+        "newValue": "Contar de {{minimumChallengeNumber}}-{{maximumChallengeNumber}}"
       }
     ]
   },
-  "objects": {
-    "value": "Objetos",
+  "subitizeFromPattern": {
+    "value": "Subitizar de {{minimumChallengeNumber}}-{{maximumChallengeNumber}}",
     "history": [
       {
         "userId": 282036,
-        "timestamp": 1629821691952,
+        "timestamp": 1650386114165,
         "oldValue": "",
-        "newValue": "Objetos"
+        "newValue": "Subitizar de {{minimumChallengeNumber}}-{{maximumChallengeNumber}}"
       }
     ]
   },
-  "language": {
-    "value": "Español",
+  "games": {
+    "value": "Juegos",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1650386114165,
+        "oldValue": "",
+        "newValue": "Juegos"
+      }
+    ]
+  },
+  "number-play.title": {
+    "value": "Juego de Números",
     "history": [
       {
         "userId": 282036,
         "timestamp": 1629821691952,
         "oldValue": "",
-        "newValue": "Español"
+        "newValue": "Juego de Números"
+      }
+    ]
+  },
+  "screen.lab": {
+    "value": "Laboratorio",
+    "history": [
+      {
+        "userId": 282036,
+        "timestamp": 1629821691952,
+        "oldValue": "",
+        "newValue": "Laboratorio"
       }
     ]
   }
