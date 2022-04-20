@@ -1,12 +1,112 @@
 {
-  "cool": {
-    "value": "Freddo",
+  "keyboardHelpDialog.hyphen": {
+    "value": "-",
+    "history": [
+      {
+        "userId": 1029687,
+        "timestamp": 1646133491432,
+        "oldValue": "",
+        "newValue": "-"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.popUpListPattern": {
+    "value": "1. Elenco a comparsa di {{thingPlural}}",
     "history": [
       {
         "userId": 157247,
-        "timestamp": 1482395176526,
+        "timestamp": 1619027655797,
         "oldValue": "",
-        "newValue": "Freddo",
+        "newValue": "1. Elenco a comparsa di {{thingPlural}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.moveThroughPattern": {
+    "value": "2. Muovi attraverso {{thingPlural}}",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1619027655797,
+        "oldValue": "",
+        "newValue": "2. Muovi attraverso {{thingPlural}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.chooseNewPattern": {
+    "value": "3. Scegli uno nuovo {{thingSingular}}",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1619027655797,
+        "oldValue": "",
+        "newValue": "3. Scegli uno nuovo {{thingSingular}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+    "value": "4. Chiudi l'elenco senza cambiamenti",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1619027655797,
+        "oldValue": "",
+        "newValue": "4. Chiudi l'elenco senza cambiamenti"
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjust": {
+    "value": "Regola",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1619027655797,
+        "oldValue": "",
+        "newValue": "Regola"
+      }
+    ]
+  },
+  "key.alt": {
+    "value": "Alt",
+    "history": [
+      {
+        "userId": 1029687,
+        "timestamp": 1646133491432,
+        "oldValue": "",
+        "newValue": "Alt"
+      }
+    ]
+  },
+  "keyboardHelpDialog.basicActions": {
+    "value": "Azioni base",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1546181802690,
+        "oldValue": "",
+        "newValue": "Azioni base",
+        "explanation": null
+      }
+    ]
+  },
+  "key.capsLock": {
+    "value": "Blocco maiuscole",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1639903440669,
+        "oldValue": "",
+        "newValue": "Blocco maiuscole"
+      }
+    ]
+  },
+  "key.end": {
+    "value": "Fine",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1546181802690,
+        "oldValue": "",
+        "newValue": "Fine",
         "explanation": null
       }
     ]
@@ -30,21 +130,37 @@
       }
     ]
   },
-  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-    "value": "Afferra o lascia {{thing}}",
+  "key.esc": {
+    "value": "Esc",
+    "history": [
+      {
+        "userId": 1029687,
+        "timestamp": 1646079853798,
+        "oldValue": "",
+        "newValue": "Esc"
+      }
+    ]
+  },
+  "keyboardHelpDialog.exitADialog": {
+    "value": "Chiudi la finestra di dialogo",
     "history": [
       {
         "userId": 157247,
-        "timestamp": 1544809985143,
+        "timestamp": 1546181802690,
         "oldValue": "",
-        "newValue": "Afferra o rilascia {{thing}}",
+        "newValue": "Chiudi la finestra di dialogo",
         "explanation": null
-      },
+      }
+    ]
+  },
+  "key.fn": {
+    "value": "Fn",
+    "history": [
       {
-        "userId": 157247,
-        "timestamp": 1645034575696,
-        "oldValue": "Afferra o rilascia {{thing}}",
-        "newValue": "Afferra o lascia {{thing}}"
+        "userId": 1029687,
+        "timestamp": 1646133491432,
+        "oldValue": "",
+        "newValue": "Fn"
       }
     ]
   },
@@ -66,27 +182,141 @@
       }
     ]
   },
-  "heat": {
-    "value": "Caldo",
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "Afferra o lascia {{thing}}",
     "history": [
       {
         "userId": 157247,
-        "timestamp": 1482395176526,
+        "timestamp": 1544809985143,
         "oldValue": "",
-        "newValue": "Caldo",
+        "newValue": "Afferra o rilascia {{thing}}",
+        "explanation": null
+      },
+      {
+        "userId": 157247,
+        "timestamp": 1645034575696,
+        "oldValue": "Afferra o rilascia {{thing}}",
+        "newValue": "Afferra o lascia {{thing}}"
+      }
+    ]
+  },
+  "key.home": {
+    "value": "Home",
+    "history": [
+      {
+        "userId": 1029687,
+        "timestamp": 1646079853798,
+        "oldValue": "",
+        "newValue": "Home"
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMaximumPattern": {
+    "value": "Salta al {{maximum}}",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1619027655797,
+        "oldValue": "",
+        "newValue": "Salta al {{maximum}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMinimumPattern": {
+    "value": "Salta al {{minimum}}",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1619027655797,
+        "oldValue": "",
+        "newValue": "Salta al {{minimum}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.maximum": {
+    "value": "massimo",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1619027655797,
+        "oldValue": "",
+        "newValue": "massimo"
+      }
+    ]
+  },
+  "keyboardHelpDialog.minimum": {
+    "value": "minimo",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1619027655797,
+        "oldValue": "",
+        "newValue": "minimo"
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+    "value": "Muovi tra gli elementi del gruppo",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1546181802690,
+        "oldValue": "",
+        "newValue": "Muovi tra gli lementi del gruppo",
+        "explanation": null
+      },
+      {
+        "userId": 157247,
+        "timestamp": 1583587627772,
+        "oldValue": "Muovi tra gli lementi del gruppo",
+        "newValue": "Muovi tra gli elementi del gruppo",
         "explanation": null
       }
     ]
   },
-  "speed.normal": {
-    "value": "Normale",
+  "keyboardHelpDialog.moveToNextItemOrGroup": {
+    "value": "Passa al prossimo elemento o gruppo",
     "history": [
       {
         "userId": 157247,
-        "timestamp": 1538154819132,
+        "timestamp": 1546181802690,
         "oldValue": "",
-        "newValue": "Normale",
+        "newValue": "Passa al prossimo elemento o gruppo",
         "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+    "value": "Torna al precedente elemento o gruppo",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1546181802690,
+        "oldValue": "",
+        "newValue": "Torna al precedente elemento o gruppo",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.option": {
+    "value": "opzione",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1619027655797,
+        "oldValue": "",
+        "newValue": "opzione"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.options": {
+    "value": "opzioni",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1619027655797,
+        "oldValue": "",
+        "newValue": "opzioni"
       }
     ]
   },
@@ -152,6 +382,35 @@
       }
     ]
   },
+  "keyboardHelpDialog.comboBox.headingString": {
+    "value": "Menu a comparsa",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1650460527120,
+        "oldValue": "",
+        "newValue": "Menu a comparsa"
+      }
+    ]
+  },
+  "keyboardHelpDialog.pressButtons": {
+    "value": "Premi i pulsanti",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1546181802690,
+        "oldValue": "",
+        "newValue": "Premi il pulsante",
+        "explanation": null
+      },
+      {
+        "userId": 157247,
+        "timestamp": 1650460527120,
+        "oldValue": "Premi il pulsante",
+        "newValue": "Premi i pulsanti"
+      }
+    ]
+  },
   "key.shift": {
     "value": "Maiuscolo",
     "history": [
@@ -164,14 +423,25 @@
       }
     ]
   },
-  "speed.slow": {
-    "value": "Lento",
+  "keyboardHelpDialog.slider": {
+    "value": "cursore",
     "history": [
       {
         "userId": 157247,
-        "timestamp": 1538154819132,
+        "timestamp": 1619027655797,
         "oldValue": "",
-        "newValue": "Lento",
+        "newValue": "cursore"
+      }
+    ]
+  },
+  "keyboardHelpDialog.sliderControls": {
+    "value": "Controlli del cursore",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1572634820968,
+        "oldValue": "",
+        "newValue": "Controlli del cursore",
         "explanation": null
       }
     ]
@@ -207,14 +477,37 @@
       }
     ]
   },
-  "comboBoxDisplay.valueUnits": {
-    "value": "{{value}} {{units}}",
+  "keyboardHelpDialog.toggleCheckboxes": {
+    "value": "Attiva/disattiva le caselle di controllo",
     "history": [
       {
-        "userId": 1029687,
-        "timestamp": 1646219539335,
+        "userId": 157247,
+        "timestamp": 1572633948041,
         "oldValue": "",
-        "newValue": "{{value}} {{units}}"
+        "newValue": "Attiva/disattiva le caselle di controllo",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.verbInLargerStepsPattern": {
+    "value": "{{verb}} a grandi passi",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1619027655797,
+        "oldValue": "",
+        "newValue": "{{verb}} a grandi passi"
+      }
+    ]
+  },
+  "keyboardHelpDialog.verbInSmallerStepsPattern": {
+    "value": "{{verb}} a piccoli passi",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1619027655797,
+        "oldValue": "",
+        "newValue": "{{verb}} a piccoli passi"
       }
     ]
   },
@@ -240,25 +533,62 @@
       }
     ]
   },
-  "key.alt": {
-    "value": "Alt",
+  "cool": {
+    "value": "Freddo",
     "history": [
       {
-        "userId": 1029687,
-        "timestamp": 1646133491432,
+        "userId": 157247,
+        "timestamp": 1482395176526,
         "oldValue": "",
-        "newValue": "Alt"
+        "newValue": "Freddo",
+        "explanation": null
       }
     ]
   },
-  "key.esc": {
-    "value": "Esc",
+  "heat": {
+    "value": "Caldo",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1482395176526,
+        "oldValue": "",
+        "newValue": "Caldo",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "Normale",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1538154819132,
+        "oldValue": "",
+        "newValue": "Normale",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "Lento",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1538154819132,
+        "oldValue": "",
+        "newValue": "Lento",
+        "explanation": null
+      }
+    ]
+  },
+  "comboBoxDisplay.valueUnits": {
+    "value": "{{value}} {{units}}",
     "history": [
       {
         "userId": 1029687,
-        "timestamp": 1646079853798,
+        "timestamp": 1646219539335,
         "oldValue": "",
-        "newValue": "Esc"
+        "newValue": "{{value}} {{units}}"
       }
     ]
   },
@@ -296,153 +626,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.hyphen": {
-    "value": "-",
-    "history": [
-      {
-        "userId": 1029687,
-        "timestamp": 1646133491432,
-        "oldValue": "",
-        "newValue": "-"
-      }
-    ]
-  },
-  "keyboardHelpDialog.basicActions": {
-    "value": "Azioni base",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1546181802690,
-        "oldValue": "",
-        "newValue": "Azioni base",
-        "explanation": null
-      }
-    ]
-  },
-  "key.capsLock": {
-    "value": "Blocco maiuscole",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1639903440669,
-        "oldValue": "",
-        "newValue": "Blocco maiuscole"
-      }
-    ]
-  },
-  "key.end": {
-    "value": "Fine",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1546181802690,
-        "oldValue": "",
-        "newValue": "Fine",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.exitADialog": {
-    "value": "Chiudi la finestra di dialogo",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1546181802690,
-        "oldValue": "",
-        "newValue": "Chiudi la finestra di dialogo",
-        "explanation": null
-      }
-    ]
-  },
-  "key.fn": {
-    "value": "Fn",
-    "history": [
-      {
-        "userId": 1029687,
-        "timestamp": 1646133491432,
-        "oldValue": "",
-        "newValue": "Fn"
-      }
-    ]
-  },
-  "key.home": {
-    "value": "Home",
-    "history": [
-      {
-        "userId": 1029687,
-        "timestamp": 1646079853798,
-        "oldValue": "",
-        "newValue": "Home"
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveBetweenItemsInAGroup": {
-    "value": "Muovi tra gli elementi del gruppo",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1546181802690,
-        "oldValue": "",
-        "newValue": "Muovi tra gli lementi del gruppo",
-        "explanation": null
-      },
-      {
-        "userId": 157247,
-        "timestamp": 1583587627772,
-        "oldValue": "Muovi tra gli lementi del gruppo",
-        "newValue": "Muovi tra gli elementi del gruppo",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveToNextItemOrGroup": {
-    "value": "Passa al prossimo elemento o gruppo",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1546181802690,
-        "oldValue": "",
-        "newValue": "Passa al prossimo elemento o gruppo",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
-    "value": "Torna al precedente elemento o gruppo",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1546181802690,
-        "oldValue": "",
-        "newValue": "Torna al precedente elemento o gruppo",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.pressButtons": {
-    "value": "Premi il pulsante",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1546181802690,
-        "oldValue": "",
-        "newValue": "Premi il pulsante",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.toggleCheckboxes": {
-    "value": "Attiva/disattiva le caselle di controllo",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1572633948041,
-        "oldValue": "",
-        "newValue": "Attiva/disattiva le caselle di controllo",
-        "explanation": null
-      }
-    ]
-  },
   "stopwatchValueUnitsPattern": {
     "value": "{{value}} {{units}}",
     "history": [
@@ -475,61 +658,6 @@
         "oldValue": "",
         "newValue": "Torna all'elemento precedente",
         "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.popUpListPattern": {
-    "value": "1. Elenco a comparsa di {{thingPlural}}",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1619027655797,
-        "oldValue": "",
-        "newValue": "1. Elenco a comparsa di {{thingPlural}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.moveThroughPattern": {
-    "value": "2. Muovi attraverso {{thingPlural}}",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1619027655797,
-        "oldValue": "",
-        "newValue": "2. Muovi attraverso {{thingPlural}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.chooseNewPattern": {
-    "value": "3. Scegli uno nuovo {{thingSingular}}",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1619027655797,
-        "oldValue": "",
-        "newValue": "3. Scegli uno nuovo {{thingSingular}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-    "value": "4. Chiudi l'elenco senza cambiamenti",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1619027655797,
-        "oldValue": "",
-        "newValue": "4. Chiudi l'elenco senza cambiamenti"
-      }
-    ]
-  },
-  "keyboardHelpDialog.adjust": {
-    "value": "Regola",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1619027655797,
-        "oldValue": "",
-        "newValue": "Regola"
       }
     ]
   },
@@ -577,50 +705,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.jumpToMaximumPattern": {
-    "value": "Salta al {{maximum}}",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1619027655797,
-        "oldValue": "",
-        "newValue": "Salta al {{maximum}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.jumpToMinimumPattern": {
-    "value": "Salta al {{minimum}}",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1619027655797,
-        "oldValue": "",
-        "newValue": "Salta al {{minimum}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.maximum": {
-    "value": "massimo",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1619027655797,
-        "oldValue": "",
-        "newValue": "massimo"
-      }
-    ]
-  },
-  "keyboardHelpDialog.minimum": {
-    "value": "minimo",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1619027655797,
-        "oldValue": "",
-        "newValue": "minimo"
-      }
-    ]
-  },
   "nine": {
     "value": "nove",
     "history": [
@@ -643,28 +727,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.option": {
-    "value": "opzione",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1619027655797,
-        "oldValue": "",
-        "newValue": "opzione"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.options": {
-    "value": "opzioni",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1619027655797,
-        "oldValue": "",
-        "newValue": "opzioni"
-      }
-    ]
-  },
   "seven": {
     "value": "sette",
     "history": [
@@ -684,29 +746,6 @@
         "timestamp": 1619027655797,
         "oldValue": "",
         "newValue": "sei"
-      }
-    ]
-  },
-  "keyboardHelpDialog.slider": {
-    "value": "cursore",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1619027655797,
-        "oldValue": "",
-        "newValue": "cursore"
-      }
-    ]
-  },
-  "keyboardHelpDialog.sliderControls": {
-    "value": "Controlli del cursore",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1572634820968,
-        "oldValue": "",
-        "newValue": "Controlli del cursore",
-        "explanation": null
       }
     ]
   },
@@ -740,28 +779,6 @@
         "timestamp": 1619027655797,
         "oldValue": "",
         "newValue": "due"
-      }
-    ]
-  },
-  "keyboardHelpDialog.verbInLargerStepsPattern": {
-    "value": "{{verb}} a grandi passi",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1619027655797,
-        "oldValue": "",
-        "newValue": "{{verb}} a grandi passi"
-      }
-    ]
-  },
-  "keyboardHelpDialog.verbInSmallerStepsPattern": {
-    "value": "{{verb}} a piccoli passi",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1619027655797,
-        "oldValue": "",
-        "newValue": "{{verb}} a piccoli passi"
       }
     ]
   },
