@@ -78,7 +78,7 @@
     ]
   },
   "keyboardHelpDialog.basicActions": {
-    "value": "Điều khiển cơ bản",
+    "value": "Basic Actions",
     "history": [
       {
         "userId": 137535,
@@ -93,6 +93,12 @@
         "oldValue": "Tác dụng cơ bản",
         "newValue": "Điều khiển cơ bản",
         "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1650740167744,
+        "oldValue": "Điều khiển cơ bản",
+        "newValue": "Basic Actions"
       }
     ]
   },
@@ -104,28 +110,6 @@
         "timestamp": 1613405555033,
         "oldValue": "",
         "newValue": "Caps Lock"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.chooseAThingPattern": {
-    "value": "Chọn một {{thingTitle}}",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1618334068004,
-        "oldValue": "",
-        "newValue": "Chọn một {{thingTitle}}"
-      }
-    ]
-  },
-  "eight": {
-    "value": "8",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1618334068005,
-        "oldValue": "",
-        "newValue": "8"
       }
     ]
   },
@@ -184,17 +168,6 @@
       }
     ]
   },
-  "five": {
-    "value": "5",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1618334068005,
-        "oldValue": "",
-        "newValue": "5"
-      }
-    ]
-  },
   "key.fn": {
     "value": "Fn",
     "history": [
@@ -203,17 +176,6 @@
         "timestamp": 1613405555033,
         "oldValue": "",
         "newValue": "Fn"
-      }
-    ]
-  },
-  "four": {
-    "value": "4",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1618334068005,
-        "oldValue": "",
-        "newValue": "4"
       }
     ]
   },
@@ -368,28 +330,6 @@
       }
     ]
   },
-  "nine": {
-    "value": "9",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1618334068005,
-        "oldValue": "",
-        "newValue": "9"
-      }
-    ]
-  },
-  "one": {
-    "value": "1",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1618334068005,
-        "oldValue": "",
-        "newValue": "1"
-      }
-    ]
-  },
   "keyboardHelpDialog.comboBox.option": {
     "value": "tuỳ chọn",
     "history": [
@@ -460,17 +400,6 @@
       }
     ]
   },
-  "seven": {
-    "value": "7",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1618334068005,
-        "oldValue": "",
-        "newValue": "7"
-      }
-    ]
-  },
   "key.shift": {
     "value": "Shift",
     "history": [
@@ -480,17 +409,6 @@
         "oldValue": "",
         "newValue": "Shift",
         "explanation": null
-      }
-    ]
-  },
-  "six": {
-    "value": "6",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1618334068005,
-        "oldValue": "",
-        "newValue": "6"
       }
     ]
   },
@@ -541,28 +459,6 @@
       }
     ]
   },
-  "ten": {
-    "value": "10",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1618334068005,
-        "oldValue": "",
-        "newValue": "10"
-      }
-    ]
-  },
-  "three": {
-    "value": "3",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1618334068005,
-        "oldValue": "",
-        "newValue": "3"
-      }
-    ]
-  },
   "keyboardHelpDialog.toggleCheckboxes": {
     "value": "Thay đổi dấu chọn",
     "history": [
@@ -575,25 +471,15 @@
       }
     ]
   },
-  "two": {
-    "value": "2",
+  "measuringTapeReadoutPattern": {
+    "value": "{{distance}} {{units}}",
     "history": [
       {
         "userId": 137535,
-        "timestamp": 1618334068005,
+        "timestamp": 1608337506160,
         "oldValue": "",
-        "newValue": "2"
-      }
-    ]
-  },
-  "zero": {
-    "value": "0",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1618334068005,
-        "oldValue": "",
-        "newValue": "0"
+        "newValue": "{{distance}} {{units}}",
+        "explanation": null
       }
     ]
   },
@@ -654,6 +540,138 @@
       }
     ]
   },
+  "keyboardHelpDialog.comboBox.chooseAThingPattern": {
+    "value": "Chọn một {{thingTitle}}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1618334068004,
+        "oldValue": "",
+        "newValue": "Chọn một {{thingTitle}}"
+      }
+    ]
+  },
+  "eight": {
+    "value": "8",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1618334068005,
+        "oldValue": "",
+        "newValue": "8"
+      }
+    ]
+  },
+  "five": {
+    "value": "5",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1618334068005,
+        "oldValue": "",
+        "newValue": "5"
+      }
+    ]
+  },
+  "four": {
+    "value": "4",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1618334068005,
+        "oldValue": "",
+        "newValue": "4"
+      }
+    ]
+  },
+  "nine": {
+    "value": "9",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1618334068005,
+        "oldValue": "",
+        "newValue": "9"
+      }
+    ]
+  },
+  "one": {
+    "value": "1",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1618334068005,
+        "oldValue": "",
+        "newValue": "1"
+      }
+    ]
+  },
+  "seven": {
+    "value": "7",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1618334068005,
+        "oldValue": "",
+        "newValue": "7"
+      }
+    ]
+  },
+  "six": {
+    "value": "6",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1618334068005,
+        "oldValue": "",
+        "newValue": "6"
+      }
+    ]
+  },
+  "ten": {
+    "value": "10",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1618334068005,
+        "oldValue": "",
+        "newValue": "10"
+      }
+    ]
+  },
+  "three": {
+    "value": "3",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1618334068005,
+        "oldValue": "",
+        "newValue": "3"
+      }
+    ]
+  },
+  "two": {
+    "value": "2",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1618334068005,
+        "oldValue": "",
+        "newValue": "2"
+      }
+    ]
+  },
+  "zero": {
+    "value": "0",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1618334068005,
+        "oldValue": "",
+        "newValue": "0"
+      }
+    ]
+  },
   "speed.fast": {
     "value": "Nhanh",
     "history": [
@@ -710,18 +728,6 @@
         "timestamp": 1538195277016,
         "oldValue": "",
         "newValue": "Chậm",
-        "explanation": null
-      }
-    ]
-  },
-  "measuringTapeReadoutPattern": {
-    "value": "{{distance}} {{units}}",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1608337506160,
-        "oldValue": "",
-        "newValue": "{{distance}} {{units}}",
         "explanation": null
       }
     ]
