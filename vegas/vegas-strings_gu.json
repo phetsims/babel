@@ -1,6 +1,6 @@
 {
   "pattern.0yourBest": {
-    "value": "(આપનો શ્રેષ્ઠ : {0})",
+    "value": "(આપનો રેકોર્ડ : {0})",
     "history": [
       {
         "userId": 654769,
@@ -21,11 +21,17 @@
         "timestamp": 1643297718089,
         "oldValue": "(આપનો શ્રેષ્ઠ સ્કોર: {0})",
         "newValue": "(આપનો શ્રેષ્ઠ : {0})"
+      },
+      {
+        "userId": 685826,
+        "timestamp": 1651660457810,
+        "oldValue": "(આપનો શ્રેષ્ઠ : {0})",
+        "newValue": "(આપનો રેકોર્ડ : {0})"
       }
     ]
   },
   "yourNewBest": {
-    "value": "(આપનો નવો શ્રેષ્ઠ )",
+    "value": "(આપનો નવો રેકોર્ડ )",
     "history": [
       {
         "userId": 654769,
@@ -46,6 +52,12 @@
         "timestamp": 1643297718089,
         "oldValue": "(આપનો નવો શ્રેષ્ઠ સ્કોર !)",
         "newValue": "(આપનો નવો શ્રેષ્ઠ )"
+      },
+      {
+        "userId": 685826,
+        "timestamp": 1651660457810,
+        "oldValue": "(આપનો નવો શ્રેષ્ઠ )",
+        "newValue": "(આપનો નવો રેકોર્ડ )"
       }
     ]
   },
@@ -57,6 +69,30 @@
         "timestamp": 1553530515113,
         "oldValue": "",
         "newValue": "ચેલેન્જ  {1} માંથી {0} ",
+        "explanation": null
+      }
+    ]
+  },
+  "check": {
+    "value": "ચેક કરો ",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553529823013,
+        "oldValue": "",
+        "newValue": "ચેક કરો ",
+        "explanation": null
+      }
+    ]
+  },
+  "chooseYourLevel": {
+    "value": "તમારું લેવલ પસંદ કરો...",
+    "history": [
+      {
+        "userId": 726621,
+        "timestamp": 1577172638730,
+        "oldValue": "",
+        "newValue": "તમારું લેવલ પસંદ કરો...",
         "explanation": null
       }
     ]
@@ -172,6 +208,25 @@
       }
     ]
   },
+  "next": {
+    "value": "આગળ વધો...",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553529823014,
+        "oldValue": "",
+        "newValue": "આગળ ",
+        "explanation": null
+      },
+      {
+        "userId": 726621,
+        "timestamp": 1577181532582,
+        "oldValue": "આગળ ",
+        "newValue": "આગળ વધો...",
+        "explanation": null
+      }
+    ]
+  },
   "score": {
     "value": "સ્કોર :",
     "history": [
@@ -247,6 +302,18 @@
       }
     ]
   },
+  "showAnswer": {
+    "value": "જવાબ જુઓ ",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553530515113,
+        "oldValue": "",
+        "newValue": "જવાબ જુઓ ",
+        "explanation": null
+      }
+    ]
+  },
   "startOver": {
     "value": "ફરી શરુ કરો ",
     "history": [
@@ -267,6 +334,18 @@
         "timestamp": 1553529823014,
         "oldValue": "",
         "newValue": "સમય :{0}",
+        "explanation": null
+      }
+    ]
+  },
+  "tryAgain": {
+    "value": "ફરી પ્રયત્ન કરો ",
+    "history": [
+      {
+        "userId": 654769,
+        "timestamp": 1553529823014,
+        "oldValue": "",
+        "newValue": "ફરી પ્રયત્ન કરો ",
         "explanation": null
       }
     ]
@@ -331,25 +410,6 @@
       }
     ]
   },
-  "next": {
-    "value": "આગળ વધો...",
-    "history": [
-      {
-        "userId": 654769,
-        "timestamp": 1553529823014,
-        "oldValue": "",
-        "newValue": "આગળ ",
-        "explanation": null
-      },
-      {
-        "userId": 726621,
-        "timestamp": 1577181532582,
-        "oldValue": "આગળ ",
-        "newValue": "આગળ વધો...",
-        "explanation": null
-      }
-    ]
-  },
   "youCompletedAllLevels": {
     "value": "તમે બધા લેવલ પૂર્ણ કર્યા છે !",
     "history": [
@@ -358,30 +418,6 @@
         "timestamp": 1577181532582,
         "oldValue": "",
         "newValue": "તમે બધા લેવલ પૂર્ણ કર્યા છે !",
-        "explanation": null
-      }
-    ]
-  },
-  "check": {
-    "value": "ચેક કરો ",
-    "history": [
-      {
-        "userId": 654769,
-        "timestamp": 1553529823013,
-        "oldValue": "",
-        "newValue": "ચેક કરો ",
-        "explanation": null
-      }
-    ]
-  },
-  "chooseYourLevel": {
-    "value": "તમારું લેવલ પસંદ કરો...",
-    "history": [
-      {
-        "userId": 726621,
-        "timestamp": 1577172638730,
-        "oldValue": "",
-        "newValue": "તમારું લેવલ પસંદ કરો...",
         "explanation": null
       }
     ]
@@ -401,30 +437,6 @@
         "timestamp": 1577172638730,
         "oldValue": "સ્કોર : {0}",
         "newValue": "સ્કોર: {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "showAnswer": {
-    "value": "જવાબ જુઓ ",
-    "history": [
-      {
-        "userId": 654769,
-        "timestamp": 1553530515113,
-        "oldValue": "",
-        "newValue": "જવાબ જુઓ ",
-        "explanation": null
-      }
-    ]
-  },
-  "tryAgain": {
-    "value": "ફરી પ્રયત્ન કરો ",
-    "history": [
-      {
-        "userId": 654769,
-        "timestamp": 1553529823014,
-        "oldValue": "",
-        "newValue": "ફરી પ્રયત્ન કરો ",
         "explanation": null
       }
     ]
