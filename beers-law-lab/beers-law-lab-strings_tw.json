@@ -1,4 +1,48 @@
 {
+  "drinkMix": {
+    "value": "Nsa Nframuu",
+    "history": [
+      {
+        "userId": 498027,
+        "timestamp": 1652120704963,
+        "oldValue": "",
+        "newValue": "Nsa Nframuu"
+      }
+    ]
+  },
+  "units.mM": {
+    "value": "mM",
+    "history": [
+      {
+        "userId": 498027,
+        "timestamp": 1652622918398,
+        "oldValue": "",
+        "newValue": "mM"
+      }
+    ]
+  },
+  "units.uM": {
+    "value": "µM",
+    "history": [
+      {
+        "userId": 498027,
+        "timestamp": 1652622918398,
+        "oldValue": "",
+        "newValue": "µM"
+      }
+    ]
+  },
+  "water": {
+    "value": "Nsuo",
+    "history": [
+      {
+        "userId": 498027,
+        "timestamp": 1652622918398,
+        "oldValue": "",
+        "newValue": "Nsuo"
+      }
+    ]
+  },
   "cobaltChloride": {
     "value": "Kobalt (II) Kloraid",
     "history": [
@@ -21,28 +65,6 @@
       }
     ]
   },
-  "concentration": {
-    "value": "Konsɛntrahyen",
-    "history": [
-      {
-        "userId": 498027,
-        "timestamp": 1652120704963,
-        "oldValue": "",
-        "newValue": "Konsɛntrahyen"
-      }
-    ]
-  },
-  "screen.concentration": {
-    "value": "Konsɛntrahyen",
-    "history": [
-      {
-        "userId": 498027,
-        "timestamp": 1652120704963,
-        "oldValue": "",
-        "newValue": "Konsɛntrahyen"
-      }
-    ]
-  },
   "copperSulfate": {
     "value": "Kupa (II) Sɔlfet",
     "history": [
@@ -51,72 +73,6 @@
         "timestamp": 1652120704963,
         "oldValue": "",
         "newValue": "Kupa (II) Sɔlfet"
-      }
-    ]
-  },
-  "drinkMix": {
-    "value": "Nsa Nframuu",
-    "history": [
-      {
-        "userId": 498027,
-        "timestamp": 1652120704963,
-        "oldValue": "",
-        "newValue": "Nsa Nframuu"
-      }
-    ]
-  },
-  "evaporation": {
-    "value": "ɛvaporahyen (Ntutuo ade)",
-    "history": [
-      {
-        "userId": 498027,
-        "timestamp": 1652120704963,
-        "oldValue": "",
-        "newValue": "ɛvaporahyen (Ntutuo ade)"
-      }
-    ]
-  },
-  "units.liters": {
-    "value": "L",
-    "history": [
-      {
-        "userId": 498027,
-        "timestamp": 1652120704963,
-        "oldValue": "",
-        "newValue": "L"
-      }
-    ]
-  },
-  "lots": {
-    "value": "Bebiree",
-    "history": [
-      {
-        "userId": 498027,
-        "timestamp": 1652120704963,
-        "oldValue": "",
-        "newValue": "Bebiree"
-      }
-    ]
-  },
-  "units.milliliters": {
-    "value": "mL",
-    "history": [
-      {
-        "userId": 498027,
-        "timestamp": 1652120704963,
-        "oldValue": "",
-        "newValue": "mL"
-      }
-    ]
-  },
-  "units.molesPerLiter": {
-    "value": "mol/L",
-    "history": [
-      {
-        "userId": 498027,
-        "timestamp": 1652120704963,
-        "oldValue": "",
-        "newValue": "mol/L"
       }
     ]
   },
@@ -131,14 +87,25 @@
       }
     ]
   },
-  "none": {
-    "value": "ɛnyɛ mu bia",
+  "pattern.0formula.1name": {
+    "value": "{0}: {1}",
+    "history": [
+      {
+        "userId": 498027,
+        "timestamp": 1652622918398,
+        "oldValue": "",
+        "newValue": "{0}: {1}"
+      }
+    ]
+  },
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
     "history": [
       {
         "userId": 498027,
         "timestamp": 1652120704963,
         "oldValue": "",
-        "newValue": "ɛnyɛ mu bia"
+        "newValue": "{0} {1}"
       }
     ]
   },
@@ -175,6 +142,215 @@
       }
     ]
   },
+  "absorbance": {
+    "value": "Abzɔɔbanse",
+    "history": [
+      {
+        "userId": 498027,
+        "timestamp": 1652622918398,
+        "oldValue": "",
+        "newValue": "Abzɔɔbanse"
+      }
+    ]
+  },
+  "pattern.0percent": {
+    "value": "{0}%",
+    "history": [
+      {
+        "userId": 498027,
+        "timestamp": 1652120704963,
+        "oldValue": "",
+        "newValue": "{0}%"
+      }
+    ]
+  },
+  "transmittance": {
+    "value": "Trasmetanse",
+    "history": [
+      {
+        "userId": 498027,
+        "timestamp": 1652622918398,
+        "oldValue": "",
+        "newValue": "Trasmetanse"
+      }
+    ]
+  },
+  "units.centimeters": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 498027,
+        "timestamp": 1652622918398,
+        "oldValue": "",
+        "newValue": "cm"
+      }
+    ]
+  },
+  "concentration": {
+    "value": "Konsɛntrahyen",
+    "history": [
+      {
+        "userId": 498027,
+        "timestamp": 1652120704963,
+        "oldValue": "",
+        "newValue": "Konsɛntrahyen"
+      }
+    ]
+  },
+  "pattern.0label": {
+    "value": "{0}:",
+    "history": [
+      {
+        "userId": 498027,
+        "timestamp": 1652120704963,
+        "oldValue": "",
+        "newValue": "{0}:"
+      }
+    ]
+  },
+  "solution": {
+    "value": "Sɔluuhyen",
+    "history": [
+      {
+        "userId": 498027,
+        "timestamp": 1652120704963,
+        "oldValue": "",
+        "newValue": "Sɔluuhyen"
+      }
+    ]
+  },
+  "preset": {
+    "value": "presɛt",
+    "history": [
+      {
+        "userId": 498027,
+        "timestamp": 1652622918398,
+        "oldValue": "",
+        "newValue": "presɛt"
+      }
+    ]
+  },
+  "units.nm": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 498027,
+        "timestamp": 1652622918398,
+        "oldValue": "",
+        "newValue": "nm"
+      }
+    ]
+  },
+  "variable": {
+    "value": "Nea ɛsakra ",
+    "history": [
+      {
+        "userId": 498027,
+        "timestamp": 1652622918398,
+        "oldValue": "",
+        "newValue": "Nea ɛsakra "
+      }
+    ]
+  },
+  "wavelength": {
+    "value": "Weflɛnt",
+    "history": [
+      {
+        "userId": 498027,
+        "timestamp": 1652622918398,
+        "oldValue": "",
+        "newValue": "Weflɛnt"
+      }
+    ]
+  },
+  "screen.beersLaw": {
+    "value": "Beer Mmera",
+    "history": [
+      {
+        "userId": 498027,
+        "timestamp": 1652622918398,
+        "oldValue": "",
+        "newValue": "Beer Mmera"
+      }
+    ]
+  },
+  "sodiumChloride": {
+    "value": "Soodiɔm Kloraid",
+    "history": [
+      {
+        "userId": 498027,
+        "timestamp": 1652120704963,
+        "oldValue": "",
+        "newValue": "Soodiɔm Kloraid"
+      }
+    ]
+  },
+  "units.liters": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 498027,
+        "timestamp": 1652120704963,
+        "oldValue": "",
+        "newValue": "L"
+      }
+    ]
+  },
+  "units.milliliters": {
+    "value": "mL",
+    "history": [
+      {
+        "userId": 498027,
+        "timestamp": 1652120704963,
+        "oldValue": "",
+        "newValue": "mL"
+      }
+    ]
+  },
+  "units.molesPerLiter": {
+    "value": "mol/L",
+    "history": [
+      {
+        "userId": 498027,
+        "timestamp": 1652120704963,
+        "oldValue": "",
+        "newValue": "mol/L"
+      }
+    ]
+  },
+  "evaporation": {
+    "value": "ɛvaporahyen (Ntutuo ade)",
+    "history": [
+      {
+        "userId": 498027,
+        "timestamp": 1652120704963,
+        "oldValue": "",
+        "newValue": "ɛvaporahyen (Ntutuo ade)"
+      }
+    ]
+  },
+  "lots": {
+    "value": "Bebiree",
+    "history": [
+      {
+        "userId": 498027,
+        "timestamp": 1652120704963,
+        "oldValue": "",
+        "newValue": "Bebiree"
+      }
+    ]
+  },
+  "none": {
+    "value": "ɛnyɛ mu bia",
+    "history": [
+      {
+        "userId": 498027,
+        "timestamp": 1652120704963,
+        "oldValue": "",
+        "newValue": "ɛnyɛ mu bia"
+      }
+    ]
+  },
   "removeSolute": {
     "value": "Yi Sɔluut no",
     "history": [
@@ -197,25 +373,14 @@
       }
     ]
   },
-  "sodiumChloride": {
-    "value": "Soodiɔm Kloraid",
+  "pattern.0soluteAmount": {
+    "value": "Solute Amount: {0} g",
     "history": [
       {
         "userId": 498027,
         "timestamp": 1652120704963,
         "oldValue": "",
-        "newValue": "Soodiɔm Kloraid"
-      }
-    ]
-  },
-  "solid": {
-    "value": "Sɔlid",
-    "history": [
-      {
-        "userId": 498027,
-        "timestamp": 1652120704963,
-        "oldValue": "",
-        "newValue": "Sɔlid"
+        "newValue": "Solute Amount: {0} g"
       }
     ]
   },
@@ -230,58 +395,36 @@
       }
     ]
   },
-  "pattern.0soluteAmount": {
-    "value": "Solute Amount: {0} g",
+  "solid": {
+    "value": "Sɔlid",
     "history": [
       {
         "userId": 498027,
         "timestamp": 1652120704963,
         "oldValue": "",
-        "newValue": "Solute Amount: {0} g"
+        "newValue": "Sɔlid"
       }
     ]
   },
-  "solution": {
-    "value": "Sɔluuhyen",
+  "screen.concentration": {
+    "value": "Konsɛntrahyen",
     "history": [
       {
         "userId": 498027,
         "timestamp": 1652120704963,
         "oldValue": "",
-        "newValue": "Sɔluuhyen"
+        "newValue": "Konsɛntrahyen"
       }
     ]
   },
-  "pattern.0value.1units": {
-    "value": "{0} {1}",
+  "beers-law-lab.title": {
+    "value": "Beer Mmera Lab",
     "history": [
       {
         "userId": 498027,
-        "timestamp": 1652120704963,
+        "timestamp": 1652622918398,
         "oldValue": "",
-        "newValue": "{0} {1}"
-      }
-    ]
-  },
-  "pattern.0percent": {
-    "value": "{0}%",
-    "history": [
-      {
-        "userId": 498027,
-        "timestamp": 1652120704963,
-        "oldValue": "",
-        "newValue": "{0}%"
-      }
-    ]
-  },
-  "pattern.0label": {
-    "value": "{0}:",
-    "history": [
-      {
-        "userId": 498027,
-        "timestamp": 1652120704963,
-        "oldValue": "",
-        "newValue": "{0}:"
+        "newValue": "Beer Mmera Lab"
       }
     ]
   }
