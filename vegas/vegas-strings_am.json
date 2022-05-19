@@ -1,34 +1,35 @@
 {
   "pattern.0yourBest": {
-    "value": "የእርስዎ ምርጥ! {0}",
+    "value": "የአንተ/ቺ ምርጥ! {0}",
     "history": [
       {
         "userId": 852474,
         "timestamp": 1652955697797,
         "oldValue": "",
         "newValue": "የእርስዎ ምርጥ! {0}"
+      },
+      {
+        "userId": 852474,
+        "timestamp": 1652957075670,
+        "oldValue": "የእርስዎ ምርጥ! {0}",
+        "newValue": "የአንተ/ቺ ምርጥ! {0}"
       }
     ]
   },
   "yourNewBest": {
-    "value": "የእርስዎ አዲሱ ምርጥ!",
+    "value": "የአንተ/ቺ አዲሱ ምርጥ!",
     "history": [
       {
         "userId": 852474,
         "timestamp": 1652955697797,
         "oldValue": "",
         "newValue": "የእርስዎ አዲሱ ምርጥ!"
-      }
-    ]
-  },
-  "pattern.0challenge.1max": {
-    "value": "{0} of {1}",
-    "history": [
+      },
       {
         "userId": 852474,
-        "timestamp": 1652955697797,
-        "oldValue": "",
-        "newValue": "{0} of {1}"
+        "timestamp": 1652957075670,
+        "oldValue": "የእርስዎ አዲሱ ምርጥ!",
+        "newValue": "የአንተ/ቺ አዲሱ ምርጥ!"
       }
     ]
   },
@@ -46,17 +47,6 @@
         "timestamp": 1652955697797,
         "oldValue": "አረጋግጥ",
         "newValue": "አረጋግጥ/ጭ "
-      }
-    ]
-  },
-  "chooseYourLevel": {
-    "value": "ደረጃህን/ሽን መረጥ/ጭ ",
-    "history": [
-      {
-        "userId": 852474,
-        "timestamp": 1652955697797,
-        "oldValue": "",
-        "newValue": "ደረጃህን/ሽን መረጥ/ጭ "
       }
     ]
   },
@@ -143,14 +133,14 @@
       }
     ]
   },
-  "score": {
-    "value": "ነጥብ",
+  "label.scorePattern": {
+    "value": "ውጤት: {0}",
     "history": [
       {
         "userId": 852474,
-        "timestamp": 1652955697797,
+        "timestamp": 1652957075670,
         "oldValue": "",
-        "newValue": "ነጥብ"
+        "newValue": "ውጤት: {0}"
       }
     ]
   },
@@ -165,47 +155,20 @@
       }
     ]
   },
-  "pattern.score.number": {
-    "value": "ነጥብ {{score}}",
-    "history": [
-      {
-        "userId": 852474,
-        "timestamp": 1652955697797,
-        "oldValue": "",
-        "newValue": "ነጥብ {{score}}"
-      }
-    ]
-  },
-  "showAnswer": {
-    "value": "መልሱን አሳይ",
-    "history": [
-      {
-        "userId": 133844,
-        "timestamp": 1631709633353,
-        "oldValue": "",
-        "newValue": "መልሱን አሳይ"
-      }
-    ]
-  },
-  "startOver": {
-    "value": "እንደገና ጀምር",
-    "history": [
-      {
-        "userId": 133844,
-        "timestamp": 1631709633353,
-        "oldValue": "",
-        "newValue": "እንደገና ጀምር"
-      }
-    ]
-  },
   "label.time": {
-    "value": "ሰአት  {0}",
+    "value": "ሰአት፡ {0}",
     "history": [
       {
         "userId": 852474,
         "timestamp": 1652955697797,
         "oldValue": "",
         "newValue": "ሰአት  {0}"
+      },
+      {
+        "userId": 852474,
+        "timestamp": 1652957075670,
+        "oldValue": "ሰአት  {0}",
+        "newValue": "ሰአት፡ {0}"
       }
     ]
   },
@@ -245,6 +208,72 @@
         "timestamp": 1652955697797,
         "oldValue": "",
         "newValue": "{0}:{1}:{2}"
+      }
+    ]
+  },
+  "pattern.0challenge.1max": {
+    "value": "{0} of {1}",
+    "history": [
+      {
+        "userId": 852474,
+        "timestamp": 1652955697797,
+        "oldValue": "",
+        "newValue": "{0} of {1}"
+      }
+    ]
+  },
+  "chooseYourLevel": {
+    "value": "ደረጃህን/ሽን መረጥ/ጭ ",
+    "history": [
+      {
+        "userId": 852474,
+        "timestamp": 1652955697797,
+        "oldValue": "",
+        "newValue": "ደረጃህን/ሽን መረጥ/ጭ "
+      }
+    ]
+  },
+  "score": {
+    "value": "ነጥብ",
+    "history": [
+      {
+        "userId": 852474,
+        "timestamp": 1652955697797,
+        "oldValue": "",
+        "newValue": "ነጥብ"
+      }
+    ]
+  },
+  "pattern.score.number": {
+    "value": "ነጥብ {{score}}",
+    "history": [
+      {
+        "userId": 852474,
+        "timestamp": 1652955697797,
+        "oldValue": "",
+        "newValue": "ነጥብ {{score}}"
+      }
+    ]
+  },
+  "showAnswer": {
+    "value": "መልሱን አሳይ",
+    "history": [
+      {
+        "userId": 133844,
+        "timestamp": 1631709633353,
+        "oldValue": "",
+        "newValue": "መልሱን አሳይ"
+      }
+    ]
+  },
+  "startOver": {
+    "value": "እንደገና ጀምር",
+    "history": [
+      {
+        "userId": 133844,
+        "timestamp": 1631709633353,
+        "oldValue": "",
+        "newValue": "እንደገና ጀምር"
       }
     ]
   },
