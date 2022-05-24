@@ -1,4 +1,26 @@
 {
+  "oneSecond": {
+    "value": "1秒",
+    "history": [
+      {
+        "userId": 143772,
+        "timestamp": 1653375796544,
+        "oldValue": "",
+        "newValue": "1秒"
+      }
+    ]
+  },
+  "acSource": {
+    "value": "交流电压",
+    "history": [
+      {
+        "userId": 143772,
+        "timestamp": 1653375796544,
+        "oldValue": "",
+        "newValue": "交流电压"
+      }
+    ]
+  },
   "ammeter": {
     "value": "电流表",
     "history": [
@@ -8,6 +30,17 @@
         "oldValue": "",
         "newValue": "电流表",
         "explanation": null
+      }
+    ]
+  },
+  "ammeterReadout": {
+    "value": "显示电流",
+    "history": [
+      {
+        "userId": 143772,
+        "timestamp": 1653375796544,
+        "oldValue": "",
+        "newValue": "显示电流"
       }
     ]
   },
@@ -66,6 +99,17 @@
       }
     ]
   },
+  "capacitor": {
+    "value": "电容",
+    "history": [
+      {
+        "userId": 143772,
+        "timestamp": 1653375796544,
+        "oldValue": "",
+        "newValue": "电容"
+      }
+    ]
+  },
   "coin": {
     "value": "硬币",
     "history": [
@@ -109,15 +153,25 @@
       }
     ]
   },
-  "currentUnits": {
-    "value": "{{current}} A",
+  "currentWithUnits": {
+    "value": "电流",
     "history": [
       {
-        "userId": 293040,
-        "timestamp": 1509976928469,
+        "userId": 143772,
+        "timestamp": 1653375796544,
         "oldValue": "",
-        "newValue": "{{current}} A",
-        "explanation": null
+        "newValue": "电流"
+      }
+    ]
+  },
+  "dataOutOfRange": {
+    "value": "超出范围",
+    "history": [
+      {
+        "userId": 143772,
+        "timestamp": 1653375796544,
+        "oldValue": "",
+        "newValue": "超出范围"
       }
     ]
   },
@@ -166,6 +220,28 @@
         "oldValue": "",
         "newValue": "橡皮擦",
         "explanation": null
+      }
+    ]
+  },
+  "frequency": {
+    "value": "频率",
+    "history": [
+      {
+        "userId": 143772,
+        "timestamp": 1653375796544,
+        "oldValue": "",
+        "newValue": "频率"
+      }
+    ]
+  },
+  "fuse": {
+    "value": "否",
+    "history": [
+      {
+        "userId": 143772,
+        "timestamp": 1653375796544,
+        "oldValue": "",
+        "newValue": "否"
       }
     ]
   },
@@ -255,18 +331,6 @@
       }
     ]
   },
-  "questionMark": {
-    "value": "?",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1509976928469,
-        "oldValue": "",
-        "newValue": "?",
-        "explanation": null
-      }
-    ]
-  },
   "resistance": {
     "value": "电阻值",
     "history": [
@@ -282,42 +346,6 @@
         "timestamp": 1509977728733,
         "oldValue": "电阻",
         "newValue": "电阻值",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhms": {
-    "value": "{{resistance}} ohms",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1509976928469,
-        "oldValue": "",
-        "newValue": "{{resistance}} ohms",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhmsSymbol": {
-    "value": "{{resistance}} Ω",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1509976928469,
-        "oldValue": "",
-        "newValue": "{{resistance}} Ω",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceOhmsValuePattern": {
-    "value": "{{resistance}} ohms",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1509976928469,
-        "oldValue": "",
-        "newValue": "{{resistance}} ohms",
         "explanation": null
       }
     ]
@@ -350,6 +378,17 @@
         "oldValue": "",
         "newValue": "显示电流",
         "explanation": null
+      }
+    ]
+  },
+  "stopwatch": {
+    "value": "秒表",
+    "history": [
+      {
+        "userId": 143772,
+        "timestamp": 1653375796544,
+        "oldValue": "",
+        "newValue": "秒表"
       }
     ]
   },
@@ -415,6 +454,17 @@
       }
     ]
   },
+  "time": {
+    "value": "时间",
+    "history": [
+      {
+        "userId": 143772,
+        "timestamp": 1653375796545,
+        "oldValue": "",
+        "newValue": "时间"
+      }
+    ]
+  },
   "tiny": {
     "value": "小",
     "history": [
@@ -451,27 +501,14 @@
       }
     ]
   },
-  "voltageUnits": {
-    "value": "{{voltage}} V",
+  "voltageWithUnits": {
+    "value": "电压（v）",
     "history": [
       {
-        "userId": 293040,
-        "timestamp": 1509976928469,
+        "userId": 143772,
+        "timestamp": 1653375796545,
         "oldValue": "",
-        "newValue": "{{voltage}} V",
-        "explanation": null
-      }
-    ]
-  },
-  "voltageVoltsValuePattern": {
-    "value": "{{voltage}} volts",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1509976928469,
-        "oldValue": "",
-        "newValue": "{{voltage}} volts",
-        "explanation": null
+        "newValue": "电压（v）"
       }
     ]
   },
@@ -521,6 +558,90 @@
         "timestamp": 1509979410304,
         "oldValue": "电线电阻率",
         "newValue": "导线电阻率",
+        "explanation": null
+      }
+    ]
+  },
+  "currentUnits": {
+    "value": "{{current}} A",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1509976928469,
+        "oldValue": "",
+        "newValue": "{{current}} A",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhmsValuePattern": {
+    "value": "{{resistance}} ohms",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1509976928469,
+        "oldValue": "",
+        "newValue": "{{resistance}} ohms",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhmsSymbol": {
+    "value": "{{resistance}} Ω",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1509976928469,
+        "oldValue": "",
+        "newValue": "{{resistance}} Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageUnits": {
+    "value": "{{voltage}} V",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1509976928469,
+        "oldValue": "",
+        "newValue": "{{voltage}} V",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageVoltsValuePattern": {
+    "value": "{{voltage}} volts",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1509976928469,
+        "oldValue": "",
+        "newValue": "{{voltage}} volts",
+        "explanation": null
+      }
+    ]
+  },
+  "questionMark": {
+    "value": "?",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1509976928469,
+        "oldValue": "",
+        "newValue": "?",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceOhms": {
+    "value": "{{resistance}} ohms",
+    "history": [
+      {
+        "userId": 293040,
+        "timestamp": 1509976928469,
+        "oldValue": "",
+        "newValue": "{{resistance}} ohms",
         "explanation": null
       }
     ]
