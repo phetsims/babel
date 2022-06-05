@@ -98,6 +98,28 @@
       }
     ]
   },
+  "ieErrorPage.ieIsNotSupported": {
+    "value": "لا يدعم Internet Explorer",
+    "history": [
+      {
+        "userId": 458291,
+        "timestamp": 1654215737023,
+        "oldValue": "",
+        "newValue": "لا يدعم Internet Explorer"
+      }
+    ]
+  },
+  "queryParametersWarningDialog.invalidQueryParameters": {
+    "value": "معطيات بحث غير صالحة",
+    "history": [
+      {
+        "userId": 458291,
+        "timestamp": 1654215737023,
+        "oldValue": "",
+        "newValue": "معطيات بحث غير صالحة"
+      }
+    ]
+  },
   "keyboardShortcuts.title": {
     "value": "أزرار مختصرة",
     "history": [
@@ -142,6 +164,17 @@
       }
     ]
   },
+  "queryParametersWarningDialog.oneOrMoreQueryParameters": {
+    "value": " واحدة أو أكثر من معامِلات البحث تحتوي على <br> قيم غير صالحة:",
+    "history": [
+      {
+        "userId": 458291,
+        "timestamp": 1654215737023,
+        "oldValue": "",
+        "newValue": " واحدة أو أكثر من معامِلات البحث تحتوي على <br> قيم غير صالحة:"
+      }
+    ]
+  },
   "options.title": {
     "value": "خيارات",
     "history": [
@@ -154,13 +187,19 @@
     ]
   },
   "menuItem.options": {
-    "value": "خيارات",
+    "value": "خيار",
     "history": [
       {
         "userId": 458291,
         "timestamp": 1653854632672,
         "oldValue": "",
         "newValue": "خيارات"
+      },
+      {
+        "userId": 458291,
+        "timestamp": 1654453406129,
+        "oldValue": "خيارات",
+        "newValue": "خيار"
       }
     ]
   },
@@ -175,14 +214,25 @@
       }
     ]
   },
-  "projectorMode": {
-    "value": "وضعية المسلاط",
+  "ieErrorPage.platformError": {
+    "value": "خلل في المنصة",
     "history": [
       {
         "userId": 458291,
-        "timestamp": 1654341934237,
+        "timestamp": 1654215737023,
         "oldValue": "",
-        "newValue": "وضعية المسلاط"
+        "newValue": "خلل في المنصة"
+      }
+    ]
+  },
+  "ieErrorPage.useDifferentBrowser": {
+    "value": "المرجو استعمال متصفح آخر لتشغيل هذه المحاكاة",
+    "history": [
+      {
+        "userId": 458291,
+        "timestamp": 1654215737023,
+        "oldValue": "",
+        "newValue": "المرجو استعمال متصفح آخر لتشغيل هذه المحاكاة"
       }
     ]
   },
@@ -271,6 +321,17 @@
         "timestamp": 1653854632672,
         "oldValue": "",
         "newValue": "كلمة شكر"
+      }
+    ]
+  },
+  "queryParametersWarningDialog.theSimulationWillStart": {
+    "value": "ستبدأ المحاكاة بالقيم الافتراضية <br> معامِلات طلب البحث هذه.",
+    "history": [
+      {
+        "userId": 458291,
+        "timestamp": 1654215737023,
+        "oldValue": "",
+        "newValue": "ستبدأ المحاكاة بالقيم الافتراضية <br> معامِلات طلب البحث هذه."
       }
     ]
   },
@@ -384,6 +445,17 @@
       }
     ]
   },
+  "projectorMode": {
+    "value": "وضعية المسلاط",
+    "history": [
+      {
+        "userId": 458291,
+        "timestamp": 1654341934237,
+        "oldValue": "",
+        "newValue": "وضعية المسلاط"
+      }
+    ]
+  },
   "preferences.tabs.visual.interactiveHighlightsDescription": {
     "value": "أضف تمييزات مرئية للماوس ولوحة المفاتيح أثناء التفاعل",
     "history": [
@@ -450,50 +522,6 @@
       }
     ]
   },
-  "ieErrorPage.ieIsNotSupported": {
-    "value": "لا يدعم Internet Explorer",
-    "history": [
-      {
-        "userId": 458291,
-        "timestamp": 1654215737023,
-        "oldValue": "",
-        "newValue": "لا يدعم Internet Explorer"
-      }
-    ]
-  },
-  "queryParametersWarningDialog.invalidQueryParameters": {
-    "value": "معطيات بحث غير صالحة",
-    "history": [
-      {
-        "userId": 458291,
-        "timestamp": 1654215737023,
-        "oldValue": "",
-        "newValue": "معطيات بحث غير صالحة"
-      }
-    ]
-  },
-  "queryParametersWarningDialog.oneOrMoreQueryParameters": {
-    "value": " واحدة أو أكثر من معامِلات البحث تحتوي على <br> قيم غير صالحة:",
-    "history": [
-      {
-        "userId": 458291,
-        "timestamp": 1654215737023,
-        "oldValue": "",
-        "newValue": " واحدة أو أكثر من معامِلات البحث تحتوي على <br> قيم غير صالحة:"
-      }
-    ]
-  },
-  "ieErrorPage.platformError": {
-    "value": "خلل في المنصة",
-    "history": [
-      {
-        "userId": 458291,
-        "timestamp": 1654215737023,
-        "oldValue": "",
-        "newValue": "خلل في المنصة"
-      }
-    ]
-  },
   "preferences.tabs.audio.sounds.extraSounds.description": {
     "value": "تشغيل صوت إضافي قد يكون مفيدًا لبعض المتعلمين.",
     "history": [
@@ -516,17 +544,6 @@
       }
     ]
   },
-  "ieErrorPage.useDifferentBrowser": {
-    "value": "المرجو استعمال متصفح آخر لتشغيل هذه المحاكاة",
-    "history": [
-      {
-        "userId": 458291,
-        "timestamp": 1654215737023,
-        "oldValue": "",
-        "newValue": "المرجو استعمال متصفح آخر لتشغيل هذه المحاكاة"
-      }
-    ]
-  },
   "preferences.title": {
     "value": "تفضيلات",
     "history": [
@@ -546,17 +563,6 @@
         "timestamp": 1654215737023,
         "oldValue": "",
         "newValue": "أصوات"
-      }
-    ]
-  },
-  "queryParametersWarningDialog.theSimulationWillStart": {
-    "value": "ستبدأ المحاكاة بالقيم الافتراضية <br> معامِلات طلب البحث هذه.",
-    "history": [
-      {
-        "userId": 458291,
-        "timestamp": 1654215737023,
-        "oldValue": "",
-        "newValue": "ستبدأ المحاكاة بالقيم الافتراضية <br> معامِلات طلب البحث هذه."
       }
     ]
   },
