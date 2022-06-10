@@ -1,60 +1,79 @@
 {
-  "billionBillionSpaceStationMasses": {
-    "value": "billion-billion rumstationsvægte",
+  "model": {
+    "value": "Model",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1480393683262,
         "oldValue": "",
-        "newValue": "billion-billion rumstationsvægte",
+        "newValue": "Model",
         "explanation": null
       }
     ]
   },
-  "cartoon": {
-    "value": "Fortegnet (skala passer ikke)",
+  "toScale": {
+    "value": "Rigtig skala",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1480393683262,
         "oldValue": "",
-        "newValue": "Fortegnet (skala passer ikke)",
+        "newValue": "Til skala",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1480394844665,
+        "oldValue": "Til skala",
+        "newValue": "Rigtig skala",
         "explanation": null
       }
     ]
   },
-  "clear": {
-    "value": "Slet",
+  "moonMass": {
+    "value": "Månevægt",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1480393683262,
         "oldValue": "",
-        "newValue": "Slet",
+        "newValue": "Månevægt",
         "explanation": null
       }
     ]
   },
-  "earth": {
-    "value": "Jorden",
+  "planetMass": {
+    "value": "Planetvægt",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1480393683262,
         "oldValue": "",
-        "newValue": "Jorden",
+        "newValue": "Planetvægt",
         "explanation": null
       }
     ]
   },
-  "earthDay": {
-    "value": "Jorddag",
+  "satelliteMass": {
+    "value": "Satellitvægt",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1480393683262,
         "oldValue": "",
-        "newValue": "Jorddag",
+        "newValue": "Satellitvægt",
+        "explanation": null
+      }
+    ]
+  },
+  "starMass": {
+    "value": "Stjernevægt",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1480393683262,
+        "oldValue": "",
+        "newValue": "Stjernevægt",
         "explanation": null
       }
     ]
@@ -71,38 +90,14 @@
       }
     ]
   },
-  "earthMass": {
-    "value": "Jordvægt",
+  "earthDay": {
+    "value": "Jorddag",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1480393683262,
         "oldValue": "",
-        "newValue": "Jordvægt",
-        "explanation": null
-      }
-    ]
-  },
-  "earthMasses": {
-    "value": "Jordvægte",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1480393683262,
-        "oldValue": "",
-        "newValue": "Jordvægte",
-        "explanation": null
-      }
-    ]
-  },
-  "earthMinute": {
-    "value": "Jordminut",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1480393683262,
-        "oldValue": "",
-        "newValue": "Jordminut",
+        "newValue": "Jorddag",
         "explanation": null
       }
     ]
@@ -119,50 +114,74 @@
       }
     ]
   },
-  "earthValues": {
-    "value": "Jordværdier",
+  "earthMinute": {
+    "value": "Jordminut",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1480393683262,
         "oldValue": "",
-        "newValue": "Jordværdier",
+        "newValue": "Jordminut",
         "explanation": null
       }
     ]
   },
-  "fastForward": {
-    "value": "Hurtigt fremad",
+  "earth": {
+    "value": "Jorden",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1480393683262,
         "oldValue": "",
-        "newValue": "Hurtigt fremad",
+        "newValue": "Jorden",
         "explanation": null
       }
     ]
   },
-  "gravity": {
-    "value": "Tiltrækning:",
+  "ourMoon": {
+    "value": "Vores måne",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1480393683262,
         "oldValue": "",
-        "newValue": "Tiltrækning:",
+        "newValue": "Vores måne",
         "explanation": null
       }
     ]
   },
-  "gravity-and-orbits.title": {
-    "value": "Tiltrækning og kredsløb",
+  "ourSun": {
+    "value": "Vores Sol",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1480393683262,
         "oldValue": "",
-        "newValue": "Tiltrækning og kredsløb",
+        "newValue": "Vores Sol",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1480393683262,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "spaceStation": {
+    "value": "Rumstation",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1480393683262,
+        "oldValue": "",
+        "newValue": "Rumstation",
         "explanation": null
       }
     ]
@@ -215,62 +234,45 @@
       }
     ]
   },
-  "millionEarthMasses": {
-    "value": "millioner Jordvægte",
+  "path": {
+    "value": "Bane",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1480393683262,
         "oldValue": "",
-        "newValue": "millioner Jordvægte",
+        "newValue": "Baner",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1480393822342,
+        "oldValue": "Baner",
+        "newValue": "Bane",
         "explanation": null
       }
     ]
   },
-  "model": {
-    "value": "Model",
+  "velocity": {
+    "value": "Hastighed",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1480393683262,
         "oldValue": "",
-        "newValue": "Model",
+        "newValue": "Hastighed",
         "explanation": null
       }
     ]
   },
-  "moon": {
-    "value": "Månen",
+  "gravity": {
+    "value": "Tiltrækning:",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1480393683262,
         "oldValue": "",
-        "newValue": "Månen",
-        "explanation": null
-      }
-    ]
-  },
-  "moonMass": {
-    "value": "Månevægt",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1480393683262,
-        "oldValue": "",
-        "newValue": "Månevægt",
-        "explanation": null
-      }
-    ]
-  },
-  "normal": {
-    "value": "Normal",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1480393683262,
-        "oldValue": "",
-        "newValue": "Normal",
+        "newValue": "Tiltrækning:",
         "explanation": null
       }
     ]
@@ -299,69 +301,14 @@
       }
     ]
   },
-  "ourMoon": {
-    "value": "Vores måne",
+  "moon": {
+    "value": "Månen",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1480393683262,
         "oldValue": "",
-        "newValue": "Vores måne",
-        "explanation": null
-      }
-    ]
-  },
-  "ourSun": {
-    "value": "Vores Sol",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1480393683262,
-        "oldValue": "",
-        "newValue": "Vores Sol",
-        "explanation": null
-      }
-    ]
-  },
-  "path": {
-    "value": "Bane",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1480393683262,
-        "oldValue": "",
-        "newValue": "Baner",
-        "explanation": null
-      },
-      {
-        "userId": 130982,
-        "timestamp": 1480393822342,
-        "oldValue": "Baner",
-        "newValue": "Bane",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0value.1units": {
-    "value": "{0} {1}",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1480393683262,
-        "oldValue": "",
-        "newValue": "{0} {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "physics": {
-    "value": "Fysik",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1480393683262,
-        "oldValue": "",
-        "newValue": "Fysik",
+        "newValue": "Månen",
         "explanation": null
       }
     ]
@@ -374,6 +321,221 @@
         "timestamp": 1480393683262,
         "oldValue": "",
         "newValue": "Jorden",
+        "explanation": null
+      }
+    ]
+  },
+  "satellite": {
+    "value": "Satellit",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1480393683262,
+        "oldValue": "",
+        "newValue": "Satellit",
+        "explanation": null
+      }
+    ]
+  },
+  "star": {
+    "value": "Sol",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1480393683262,
+        "oldValue": "",
+        "newValue": "Sol",
+        "explanation": null
+      }
+    ]
+  },
+  "earthMasses": {
+    "value": "Jordvægte",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1480393683262,
+        "oldValue": "",
+        "newValue": "Jordvægte",
+        "explanation": null
+      }
+    ]
+  },
+  "earthMass": {
+    "value": "Jordvægt",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1480393683262,
+        "oldValue": "",
+        "newValue": "Jordvægt",
+        "explanation": null
+      }
+    ]
+  },
+  "thousandEarthMasses": {
+    "value": "tusinde Jordvægte",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1480393683262,
+        "oldValue": "",
+        "newValue": "tusinde Jordvægte",
+        "explanation": null
+      }
+    ]
+  },
+  "billionBillionSpaceStationMasses": {
+    "value": "billion-billion rumstationsvægte",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1480393683262,
+        "oldValue": "",
+        "newValue": "billion-billion rumstationsvægte",
+        "explanation": null
+      }
+    ]
+  },
+  "spaceStationMass": {
+    "value": "Vægt af rumstation",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1480393683262,
+        "oldValue": "",
+        "newValue": "Vægt af rumstation",
+        "explanation": null
+      }
+    ]
+  },
+  "returnObjects": {
+    "value": "Returner objekter",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1480393683262,
+        "oldValue": "",
+        "newValue": "Returner objekter",
+        "explanation": null
+      }
+    ]
+  },
+  "v": {
+    "value": "V",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1480393683262,
+        "oldValue": "",
+        "newValue": "V",
+        "explanation": null
+      }
+    ]
+  },
+  "kilometers": {
+    "value": "kilometer",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1654849914039,
+        "oldValue": "",
+        "newValue": "kilometer"
+      }
+    ]
+  },
+  "clear": {
+    "value": "Slet",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1480393683262,
+        "oldValue": "",
+        "newValue": "Slet",
+        "explanation": null
+      }
+    ]
+  },
+  "gravity-and-orbits.title": {
+    "value": "Tiltrækning og kredsløb",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1480393683262,
+        "oldValue": "",
+        "newValue": "Tiltrækning og kredsløb",
+        "explanation": null
+      }
+    ]
+  },
+  "cartoon": {
+    "value": "Fortegnet (skala passer ikke)",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1480393683262,
+        "oldValue": "",
+        "newValue": "Fortegnet (skala passer ikke)",
+        "explanation": null
+      }
+    ]
+  },
+  "earthValues": {
+    "value": "Jordværdier",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1480393683262,
+        "oldValue": "",
+        "newValue": "Jordværdier",
+        "explanation": null
+      }
+    ]
+  },
+  "fastForward": {
+    "value": "Hurtigt fremad",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1480393683262,
+        "oldValue": "",
+        "newValue": "Hurtigt fremad",
+        "explanation": null
+      }
+    ]
+  },
+  "millionEarthMasses": {
+    "value": "millioner Jordvægte",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1480393683262,
+        "oldValue": "",
+        "newValue": "millioner Jordvægte",
+        "explanation": null
+      }
+    ]
+  },
+  "normal": {
+    "value": "Normal",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1480393683262,
+        "oldValue": "",
+        "newValue": "Normal",
+        "explanation": null
+      }
+    ]
+  },
+  "physics": {
+    "value": "Fysik",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1480393683262,
+        "oldValue": "",
+        "newValue": "Fysik",
         "explanation": null
       }
     ]
@@ -398,18 +560,6 @@
         "timestamp": 1480393683262,
         "oldValue": "",
         "newValue": "Planet og rumstation",
-        "explanation": null
-      }
-    ]
-  },
-  "planetMass": {
-    "value": "Planetvægt",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1480393683262,
-        "oldValue": "",
-        "newValue": "Planetvægt",
         "explanation": null
       }
     ]
@@ -450,42 +600,6 @@
       }
     ]
   },
-  "returnObjects": {
-    "value": "Returner objekter",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1480393683262,
-        "oldValue": "",
-        "newValue": "Returner objekter",
-        "explanation": null
-      }
-    ]
-  },
-  "satellite": {
-    "value": "Satellit",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1480393683262,
-        "oldValue": "",
-        "newValue": "Satellit",
-        "explanation": null
-      }
-    ]
-  },
-  "satelliteMass": {
-    "value": "Satellitvægt",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1480393683262,
-        "oldValue": "",
-        "newValue": "Satellitvægt",
-        "explanation": null
-      }
-    ]
-  },
   "scale": {
     "value": "Skala",
     "history": [
@@ -522,30 +636,6 @@
       }
     ]
   },
-  "spaceStation": {
-    "value": "Rumstation",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1480393683262,
-        "oldValue": "",
-        "newValue": "Rumstation",
-        "explanation": null
-      }
-    ]
-  },
-  "spaceStationMass": {
-    "value": "Vægt af rumstation",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1480393683262,
-        "oldValue": "",
-        "newValue": "Vægt af rumstation",
-        "explanation": null
-      }
-    ]
-  },
   "spaceStationMasses": {
     "value": "Vægt af rumstationer",
     "history": [
@@ -554,30 +644,6 @@
         "timestamp": 1480393683262,
         "oldValue": "",
         "newValue": "Vægt af rumstationer",
-        "explanation": null
-      }
-    ]
-  },
-  "star": {
-    "value": "Sol",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1480393683262,
-        "oldValue": "",
-        "newValue": "Sol",
-        "explanation": null
-      }
-    ]
-  },
-  "starMass": {
-    "value": "Stjernevægt",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1480393683262,
-        "oldValue": "",
-        "newValue": "Stjernevægt",
         "explanation": null
       }
     ]
@@ -606,18 +672,6 @@
       }
     ]
   },
-  "thousandEarthMasses": {
-    "value": "tusinde Jordvægte",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1480393683262,
-        "oldValue": "",
-        "newValue": "tusinde Jordvægte",
-        "explanation": null
-      }
-    ]
-  },
   "thousandMiles": {
     "value": "tusind mil",
     "history": [
@@ -626,49 +680,6 @@
         "timestamp": 1480393683262,
         "oldValue": "",
         "newValue": "tusind mil",
-        "explanation": null
-      }
-    ]
-  },
-  "toScale": {
-    "value": "Rigtig skala",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1480393683262,
-        "oldValue": "",
-        "newValue": "Til skala",
-        "explanation": null
-      },
-      {
-        "userId": 130982,
-        "timestamp": 1480394844665,
-        "oldValue": "Til skala",
-        "newValue": "Rigtig skala",
-        "explanation": null
-      }
-    ]
-  },
-  "v": {
-    "value": "V",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1480393683262,
-        "oldValue": "",
-        "newValue": "V",
-        "explanation": null
-      }
-    ]
-  },
-  "velocity": {
-    "value": "Hastighed",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1480393683262,
-        "oldValue": "",
-        "newValue": "Hastighed",
         "explanation": null
       }
     ]
