@@ -1,23 +1,46 @@
 {
+  "units.centimeters": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 458291,
+        "timestamp": 1656069632880,
+        "oldValue": "",
+        "newValue": "cm"
+      }
+    ]
+  },
   "forceOnObjectByOtherObjectPattern": {
-    "value": "قوة مطبقة على {{thisObject}} من طرف  {{otherObject}}",
+    "value": "القوة المطبقة على {{thisObject}} من طرف  {{otherObject}}",
     "history": [
       {
         "userId": 458291,
         "timestamp": 1656018611881,
         "oldValue": "",
         "newValue": "قوة مطبقة على {{thisObject}} من طرف  {{otherObject}}"
+      },
+      {
+        "userId": 458291,
+        "timestamp": 1656069632881,
+        "oldValue": "قوة مطبقة على {{thisObject}} من طرف  {{otherObject}}",
+        "newValue": "القوة المطبقة على {{thisObject}} من طرف  {{otherObject}}"
       }
     ]
   },
   "forceOnObjectByOtherObjectWithUnitsPattern": {
-    "value": "قوة مطبقة على {{thisObject}} من طرف {{otherObject}} = {{value}} نيوتن",
+    "value": "القوة المطبقة على {{thisObject}} من طرف {{otherObject}} = {{value}} نيوتن",
     "history": [
       {
         "userId": 458291,
         "timestamp": 1656018611881,
         "oldValue": "",
         "newValue": "قوة مطبقة على {{thisObject}} من طرف {{otherObject}} = {{value}} نيوتن"
+      },
+      {
+        "userId": 458291,
+        "timestamp": 1656069632881,
+        "oldValue": "قوة مطبقة على {{thisObject}} من طرف {{otherObject}} = {{value}} نيوتن",
+        "newValue": "القوة المطبقة على {{thisObject}} من طرف {{otherObject}} = {{value}} نيوتن"
       }
     ]
   },
@@ -29,6 +52,28 @@
         "timestamp": 1656018611881,
         "oldValue": "",
         "newValue": "شدة القوة"
+      }
+    ]
+  },
+  "units.picometers": {
+    "value": "pm",
+    "history": [
+      {
+        "userId": 458291,
+        "timestamp": 1656069632881,
+        "oldValue": "",
+        "newValue": "pm"
+      }
+    ]
+  },
+  "pattern_0value_1units": {
+    "value": " {{units}} {{value}}",
+    "history": [
+      {
+        "userId": 458291,
+        "timestamp": 1656069632881,
+        "oldValue": "",
+        "newValue": " {{units}} {{value}}"
       }
     ]
   },
