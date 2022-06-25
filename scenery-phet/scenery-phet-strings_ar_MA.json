@@ -1,23 +1,34 @@
 {
-  "keyboardHelpDialog.hyphen": {
-    "value": "-",
+  "keyboardHelpDialog.adjustInLargerSteps": {
+    "value": "التعديل بخطوات أكبر",
     "history": [
       {
         "userId": 458291,
-        "timestamp": 1654215737023,
+        "timestamp": 1654454732271,
         "oldValue": "",
-        "newValue": "-"
+        "newValue": "التعديل بخطوات أكبر"
       }
     ]
   },
-  "key.alt": {
-    "value": "Alt",
+  "keyboardHelpDialog.adjustInSmallerSteps": {
+    "value": "التعديل بخطوات أصغر",
     "history": [
       {
         "userId": 458291,
-        "timestamp": 1654215737023,
+        "timestamp": 1654454732271,
         "oldValue": "",
-        "newValue": "Alt"
+        "newValue": "التعديل بخطوات أصغر"
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustSlider": {
+    "value": "تعديل السكة",
+    "history": [
+      {
+        "userId": 458291,
+        "timestamp": 1654454732271,
+        "oldValue": "",
+        "newValue": "تعديل السكة"
       }
     ]
   },
@@ -29,17 +40,6 @@
         "timestamp": 1654215737023,
         "oldValue": "",
         "newValue": "الإجراءات الأساسية"
-      }
-    ]
-  },
-  "key.capsLock": {
-    "value": "Caps Lock",
-    "history": [
-      {
-        "userId": 458291,
-        "timestamp": 1654215737023,
-        "oldValue": "",
-        "newValue": "Caps Lock"
       }
     ]
   },
@@ -93,17 +93,6 @@
       }
     ]
   },
-  "key.fn": {
-    "value": "Fn",
-    "history": [
-      {
-        "userId": 458291,
-        "timestamp": 1654215737023,
-        "oldValue": "",
-        "newValue": "Fn"
-      }
-    ]
-  },
   "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
     "value": "اسحب أو ادفع {{thing}}",
     "history": [
@@ -143,6 +132,28 @@
       }
     ]
   },
+  "keyboardHelpDialog.jumpToMaximum": {
+    "value": "القفز الى أعلى قيمة",
+    "history": [
+      {
+        "userId": 458291,
+        "timestamp": 1654454732271,
+        "oldValue": "",
+        "newValue": "القفز الى أعلى قيمة"
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMinimum": {
+    "value": "القفز الى أصغر قيمة",
+    "history": [
+      {
+        "userId": 458291,
+        "timestamp": 1654454732271,
+        "oldValue": "",
+        "newValue": "القفز الى أصغر قيمة"
+      }
+    ]
+  },
   "keyboardHelpDialog.moveBetweenItemsInAGroup": {
     "value": "التنقل بين عناصر المجموعة",
     "history": [
@@ -154,6 +165,17 @@
       }
     ]
   },
+  "keyboardHelpDialog.moveToNextItem": {
+    "value": "المرور الى العنصر الموالي",
+    "history": [
+      {
+        "userId": 458291,
+        "timestamp": 1654454732271,
+        "oldValue": "",
+        "newValue": "المرور الى العنصر الموالي"
+      }
+    ]
+  },
   "keyboardHelpDialog.moveToNextItemOrGroup": {
     "value": "انتقل إلى العنصر أو المجموعة الموالية",
     "history": [
@@ -162,6 +184,17 @@
         "timestamp": 1654215737023,
         "oldValue": "",
         "newValue": "انتقل إلى العنصر أو المجموعة الموالية"
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItem": {
+    "value": "الرجوع الى العنصر السابق",
+    "history": [
+      {
+        "userId": 458291,
+        "timestamp": 1654454732271,
+        "oldValue": "",
+        "newValue": "الرجوع الى العنصر السابق"
       }
     ]
   },
@@ -231,6 +264,17 @@
       }
     ]
   },
+  "keyboardHelpDialog.sliderControls": {
+    "value": "اعدادات السكة",
+    "history": [
+      {
+        "userId": 458291,
+        "timestamp": 1654453406129,
+        "oldValue": "",
+        "newValue": "اعدادات السكة"
+      }
+    ]
+  },
   "key.space": {
     "value": "Space",
     "history": [
@@ -253,6 +297,84 @@
       }
     ]
   },
+  "symbol.resistivity": {
+    "value": "",
+    "history": [
+      {
+        "userId": 458291,
+        "timestamp": 1653872027607,
+        "oldValue": "",
+        "newValue": "المقاومية ρ"
+      },
+      {
+        "userId": 458291,
+        "timestamp": 1656191159240,
+        "oldValue": "المقاومية ρ",
+        "newValue": ""
+      }
+    ]
+  },
+  "symbol.ohms": {
+    "value": "Ω",
+    "history": [
+      {
+        "userId": 458291,
+        "timestamp": 1653872027607,
+        "oldValue": "",
+        "newValue": "الأوم Ω"
+      },
+      {
+        "userId": 458291,
+        "timestamp": 1656191159240,
+        "oldValue": "الأوم Ω",
+        "newValue": "Ω"
+      }
+    ]
+  },
+  "keyboardHelpDialog.hyphen": {
+    "value": "-",
+    "history": [
+      {
+        "userId": 458291,
+        "timestamp": 1654215737023,
+        "oldValue": "",
+        "newValue": "-"
+      }
+    ]
+  },
+  "key.alt": {
+    "value": "Alt",
+    "history": [
+      {
+        "userId": 458291,
+        "timestamp": 1654215737023,
+        "oldValue": "",
+        "newValue": "Alt"
+      }
+    ]
+  },
+  "key.capsLock": {
+    "value": "Caps Lock",
+    "history": [
+      {
+        "userId": 458291,
+        "timestamp": 1654215737023,
+        "oldValue": "",
+        "newValue": "Caps Lock"
+      }
+    ]
+  },
+  "key.fn": {
+    "value": "Fn",
+    "history": [
+      {
+        "userId": 458291,
+        "timestamp": 1654215737023,
+        "oldValue": "",
+        "newValue": "Fn"
+      }
+    ]
+  },
   "key.toGrabOrRelease": {
     "value": "من أجل <b> انتزع </ b> أو <b> قم بتحرير </b>",
     "history": [
@@ -272,28 +394,6 @@
         "timestamp": 1654215737023,
         "oldValue": "",
         "newValue": "تبديل مربعات الاختيار"
-      }
-    ]
-  },
-  "symbol.resistivity": {
-    "value": "المقاومية ρ",
-    "history": [
-      {
-        "userId": 458291,
-        "timestamp": 1653872027607,
-        "oldValue": "",
-        "newValue": "المقاومية ρ"
-      }
-    ]
-  },
-  "symbol.ohms": {
-    "value": "الأوم Ω",
-    "history": [
-      {
-        "userId": 458291,
-        "timestamp": 1653872027607,
-        "oldValue": "",
-        "newValue": "الأوم Ω"
       }
     ]
   },
@@ -517,17 +617,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.sliderControls": {
-    "value": "اعدادات السكة",
-    "history": [
-      {
-        "userId": 458291,
-        "timestamp": 1654453406129,
-        "oldValue": "",
-        "newValue": "اعدادات السكة"
-      }
-    ]
-  },
   "measuringTapeReadoutPattern": {
     "value": "{{units}} {{distance}}",
     "history": [
@@ -569,83 +658,6 @@
         "timestamp": 1654453406129,
         "oldValue": "",
         "newValue": "{{verb}} {{slider}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.adjustInLargerSteps": {
-    "value": "التعديل بخطوات أكبر",
-    "history": [
-      {
-        "userId": 458291,
-        "timestamp": 1654454732271,
-        "oldValue": "",
-        "newValue": "التعديل بخطوات أكبر"
-      }
-    ]
-  },
-  "keyboardHelpDialog.adjustInSmallerSteps": {
-    "value": "التعديل بخطوات أصغر",
-    "history": [
-      {
-        "userId": 458291,
-        "timestamp": 1654454732271,
-        "oldValue": "",
-        "newValue": "التعديل بخطوات أصغر"
-      }
-    ]
-  },
-  "keyboardHelpDialog.adjustSlider": {
-    "value": "تعديل السكة",
-    "history": [
-      {
-        "userId": 458291,
-        "timestamp": 1654454732271,
-        "oldValue": "",
-        "newValue": "تعديل السكة"
-      }
-    ]
-  },
-  "keyboardHelpDialog.jumpToMaximum": {
-    "value": "القفز الى أعلى قيمة",
-    "history": [
-      {
-        "userId": 458291,
-        "timestamp": 1654454732271,
-        "oldValue": "",
-        "newValue": "القفز الى أعلى قيمة"
-      }
-    ]
-  },
-  "keyboardHelpDialog.jumpToMinimum": {
-    "value": "القفز الى أصغر قيمة",
-    "history": [
-      {
-        "userId": 458291,
-        "timestamp": 1654454732271,
-        "oldValue": "",
-        "newValue": "القفز الى أصغر قيمة"
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveToNextItem": {
-    "value": "المرور الى العنصر الموالي",
-    "history": [
-      {
-        "userId": 458291,
-        "timestamp": 1654454732271,
-        "oldValue": "",
-        "newValue": "المرور الى العنصر الموالي"
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveToPreviousItem": {
-    "value": "الرجوع الى العنصر السابق",
-    "history": [
-      {
-        "userId": 458291,
-        "timestamp": 1654454732271,
-        "oldValue": "",
-        "newValue": "الرجوع الى العنصر السابق"
       }
     ]
   },
