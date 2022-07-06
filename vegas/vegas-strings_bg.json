@@ -1,68 +1,23 @@
 {
-  "chooseYourLevel": {
-    "value": "Избери ниво",
+  "pattern.0yourBest": {
+    "value": "(Твоят най-добър резултат: {0})",
     "history": [
       {
         "userId": 1070013,
-        "timestamp": 1657054947096,
+        "timestamp": 1657088588771,
         "oldValue": "",
-        "newValue": "Избери ниво"
+        "newValue": "(Твоят най-добър резултат: {0})"
       }
     ]
   },
-  "done": {
-    "value": "Готово",
+  "yourNewBest": {
+    "value": "(Твоят нов най-добър резултат!)",
     "history": [
       {
         "userId": 1070013,
-        "timestamp": 1657088218383,
+        "timestamp": 1657088588771,
         "oldValue": "",
-        "newValue": "Готово"
-      }
-    ]
-  },
-  "next": {
-    "value": "Напред",
-    "history": [
-      {
-        "userId": 374709,
-        "timestamp": 1485340498383,
-        "oldValue": "",
-        "newValue": "Напред",
-        "explanation": null
-      }
-    ]
-  },
-  "score": {
-    "value": "Резултат",
-    "history": [
-      {
-        "userId": 1070013,
-        "timestamp": 1657088218383,
-        "oldValue": "",
-        "newValue": "Резултат"
-      }
-    ]
-  },
-  "pattern.score.number": {
-    "value": "Резултат: {{score}}",
-    "history": [
-      {
-        "userId": 1070013,
-        "timestamp": 1657088218383,
-        "oldValue": "",
-        "newValue": "Резултат: {{score}}"
-      }
-    ]
-  },
-  "youCompletedAllLevels": {
-    "value": "Завършихте всички нива!",
-    "history": [
-      {
-        "userId": 1070013,
-        "timestamp": 1657088218383,
-        "oldValue": "",
-        "newValue": "Завършихте всички нива!"
+        "newValue": "(Твоят нов най-добър резултат!)"
       }
     ]
   },
@@ -75,6 +30,17 @@
         "oldValue": "",
         "newValue": "Провери",
         "explanation": null
+      }
+    ]
+  },
+  "chooseYourLevel": {
+    "value": "Избери ниво",
+    "history": [
+      {
+        "userId": 1070013,
+        "timestamp": 1657054947096,
+        "oldValue": "",
+        "newValue": "Избери ниво"
       }
     ]
   },
@@ -220,6 +186,17 @@
       }
     ]
   },
+  "score": {
+    "value": "Резултат",
+    "history": [
+      {
+        "userId": 1070013,
+        "timestamp": 1657088218383,
+        "oldValue": "",
+        "newValue": "Резултат"
+      }
+    ]
+  },
   "label.scorePattern": {
     "value": "Резултат: {0}",
     "history": [
@@ -244,6 +221,29 @@
       }
     ]
   },
+  "pattern.score.number": {
+    "value": "Резултат: {{score}}",
+    "history": [
+      {
+        "userId": 1070013,
+        "timestamp": 1657088218383,
+        "oldValue": "",
+        "newValue": "Резултат: {{score}}"
+      }
+    ]
+  },
+  "showAnswer": {
+    "value": "Покажи отговор",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340498383,
+        "oldValue": "",
+        "newValue": "Покажи отговор",
+        "explanation": null
+      }
+    ]
+  },
   "label.time": {
     "value": "Време: {0}",
     "history": [
@@ -253,6 +253,52 @@
         "oldValue": "",
         "newValue": "Време: {0}",
         "explanation": null
+      }
+    ]
+  },
+  "tryAgain": {
+    "value": "Опитай отново",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340498383,
+        "oldValue": "",
+        "newValue": "Опитай отново",
+        "explanation": null
+      }
+    ]
+  },
+  "done": {
+    "value": "Готово",
+    "history": [
+      {
+        "userId": 1070013,
+        "timestamp": 1657088218383,
+        "oldValue": "",
+        "newValue": "Готово"
+      }
+    ]
+  },
+  "next": {
+    "value": "Напред",
+    "history": [
+      {
+        "userId": 374709,
+        "timestamp": 1485340498383,
+        "oldValue": "",
+        "newValue": "Напред",
+        "explanation": null
+      }
+    ]
+  },
+  "youCompletedAllLevels": {
+    "value": "Завършихте всички нива!",
+    "history": [
+      {
+        "userId": 1070013,
+        "timestamp": 1657088218383,
+        "oldValue": "",
+        "newValue": "Завършихте всички нива!"
       }
     ]
   },
@@ -280,18 +326,6 @@
       }
     ]
   },
-  "showAnswer": {
-    "value": "Покажи отговор",
-    "history": [
-      {
-        "userId": 374709,
-        "timestamp": 1485340498383,
-        "oldValue": "",
-        "newValue": "Покажи отговор",
-        "explanation": null
-      }
-    ]
-  },
   "startOver": {
     "value": "Започни отначало",
     "history": [
@@ -300,18 +334,6 @@
         "timestamp": 1485340498383,
         "oldValue": "",
         "newValue": "Започни отначало",
-        "explanation": null
-      }
-    ]
-  },
-  "tryAgain": {
-    "value": "Опитай отново",
-    "history": [
-      {
-        "userId": 374709,
-        "timestamp": 1485340498383,
-        "oldValue": "",
-        "newValue": "Опитай отново",
         "explanation": null
       }
     ]
