@@ -1,36 +1,36 @@
 {
-  "acid": {
-    "value": "སྐྱུར་རྫས།",
+  "pH": {
+    "value": "pH",
     "history": [
       {
         "userId": 301938,
         "timestamp": 1462096162239,
         "oldValue": "",
-        "newValue": "སྐྱུར་རྫས།",
+        "newValue": "pH",
         "explanation": null
       }
     ]
   },
-  "acid-base-solutions.title": {
-    "value": "སྐྱུར་རྫས་དང་ཚྭ་འགྱུར་གྱི་ཞུན་ཁུ།",
+  "liters": {
+    "value": "L ",
     "history": [
       {
         "userId": 301938,
         "timestamp": 1462096162239,
         "oldValue": "",
-        "newValue": "སྐྱུར་རྫས་དང་ཚྭ་འགྱུར་གྱི་ཞུན་ཁུ།",
+        "newValue": "L ",
         "explanation": null
       }
     ]
   },
-  "base": {
-    "value": "ཚྭ་འགྱུར།",
+  "negligible": {
+    "value": "ཧ་ཅང་ཉུང་ཉུང།",
     "history": [
       {
         "userId": 301938,
         "timestamp": 1462096162239,
         "oldValue": "",
-        "newValue": "ཚྭ་འགྱུར།",
+        "newValue": "ཧ་ཅང་ཉུང་ཉུང།",
         "explanation": null
       }
     ]
@@ -60,7 +60,7 @@
     ]
   },
   "hideViews": {
-    "value": "མི་མངོན་པ།",
+    "value": "མཐོང་རིས་སྐུང་།",
     "history": [
       {
         "userId": 301938,
@@ -68,30 +68,12 @@
         "oldValue": "",
         "newValue": "མི་མངོན་པ།",
         "explanation": null
-      }
-    ]
-  },
-  "initialConcentration": {
-    "value": "དང་ཐོག་གི་གར་ཚད (mol/L):",
-    "history": [
+      },
       {
-        "userId": 301938,
-        "timestamp": 1462096162239,
-        "oldValue": "",
-        "newValue": "དང་ཐོག་གི་གར་ཚད (mol/L):",
-        "explanation": null
-      }
-    ]
-  },
-  "liters": {
-    "value": "L ",
-    "history": [
-      {
-        "userId": 301938,
-        "timestamp": 1462096162239,
-        "oldValue": "",
-        "newValue": "L ",
-        "explanation": null
+        "userId": 204419,
+        "timestamp": 1657868386974,
+        "oldValue": "མི་མངོན་པ།",
+        "newValue": "མཐོང་རིས་སྐུང་།"
       }
     ]
   },
@@ -107,26 +89,62 @@
       }
     ]
   },
-  "negligible": {
-    "value": "ཧ་ཅང་ཉུང་ཉུང།",
+  "solvent": {
+    "value": "བཞུ་བྱེད།",
     "history": [
       {
         "userId": 301938,
         "timestamp": 1462096162239,
         "oldValue": "",
-        "newValue": "ཧ་ཅང་ཉུང་ཉུང།",
+        "newValue": "བཞུ་བྱེད།",
         "explanation": null
       }
     ]
   },
-  "pH": {
-    "value": "pH",
+  "solution": {
+    "value": "བཞུ་ཁུ།",
     "history": [
       {
         "userId": 301938,
         "timestamp": 1462096162239,
         "oldValue": "",
-        "newValue": "pH",
+        "newValue": "བཞུ་བྱ།",
+        "explanation": null
+      },
+      {
+        "userId": 204419,
+        "timestamp": 1657868386974,
+        "oldValue": "བཞུ་བྱ།",
+        "newValue": "བཞུ་ཁུ།"
+      }
+    ]
+  },
+  "tools": {
+    "value": "སྤྱོད་ཆས།",
+    "history": [
+      {
+        "userId": 301938,
+        "timestamp": 1462096162239,
+        "oldValue": "",
+        "newValue": "ལག་ཆ།",
+        "explanation": null
+      },
+      {
+        "userId": 204419,
+        "timestamp": 1657868386974,
+        "oldValue": "ལག་ཆ།",
+        "newValue": "སྤྱོད་ཆས།"
+      }
+    ]
+  },
+  "views": {
+    "value": "མཐོང་ཚུལ།",
+    "history": [
+      {
+        "userId": 301938,
+        "timestamp": 1462096162239,
+        "oldValue": "",
+        "newValue": "མཐོང་ཚུལ།",
         "explanation": null
       }
     ]
@@ -143,51 +161,87 @@
       }
     ]
   },
-  "screen.introduction": {
-    "value": "ངོ་སྤྲོད།",
+  "stronger": {
+    "value": "གར་བ།",
     "history": [
       {
         "userId": 301938,
         "timestamp": 1462096162239,
         "oldValue": "",
-        "newValue": "ངོ་སྤྲོད།",
+        "newValue": "གར་རུ་གཏོང་བ།",
+        "explanation": null
+      },
+      {
+        "userId": 204419,
+        "timestamp": 1657868386974,
+        "oldValue": "གར་རུ་གཏོང་བ།",
+        "newValue": "གར་བ།"
+      }
+    ]
+  },
+  "weaker": {
+    "value": "སླ་བ།",
+    "history": [
+      {
+        "userId": 301938,
+        "timestamp": 1462096162239,
+        "oldValue": "",
+        "newValue": "སླ་རུ་གཏོང་བ།",
+        "explanation": null
+      },
+      {
+        "userId": 204419,
+        "timestamp": 1657868386974,
+        "oldValue": "སླ་རུ་གཏོང་བ།",
+        "newValue": "སླ་བ།"
+      }
+    ]
+  },
+  "acid": {
+    "value": "སྐྱུར་རྫས།",
+    "history": [
+      {
+        "userId": 301938,
+        "timestamp": 1462096162239,
+        "oldValue": "",
+        "newValue": "སྐྱུར་རྫས།",
         "explanation": null
       }
     ]
   },
-  "screen.mySolution": {
-    "value": "ངའི་ཞུན་ཁུ།",
+  "base": {
+    "value": "བུལ་ཚ།",
     "history": [
       {
         "userId": 301938,
         "timestamp": 1462096162239,
         "oldValue": "",
-        "newValue": "ངའི་ཞུན་ཁུ།",
+        "newValue": "ཚྭ་འགྱུར།",
         "explanation": null
+      },
+      {
+        "userId": 204419,
+        "timestamp": 1657868386974,
+        "oldValue": "ཚྭ་འགྱུར།",
+        "newValue": "བུལ་ཚ།"
       }
     ]
   },
-  "solution": {
-    "value": "བཞུ་བྱ།",
+  "initialConcentration": {
+    "value": "ཐོག་མའི་གར་ཚད (mol/L):",
     "history": [
       {
         "userId": 301938,
         "timestamp": 1462096162239,
         "oldValue": "",
-        "newValue": "བཞུ་བྱ།",
+        "newValue": "དང་ཐོག་གི་གར་ཚད (mol/L):",
         "explanation": null
-      }
-    ]
-  },
-  "solvent": {
-    "value": "བཞུ་བྱེད།",
-    "history": [
+      },
       {
-        "userId": 301938,
-        "timestamp": 1462096162239,
-        "oldValue": "",
-        "newValue": "བཞུ་བྱེད།",
-        "explanation": null
+        "userId": 204419,
+        "timestamp": 1657868386974,
+        "oldValue": "དང་ཐོག་གི་གར་ཚད (mol/L):",
+        "newValue": "ཐོག་མའི་གར་ཚད (mol/L):"
       }
     ]
   },
@@ -215,6 +269,36 @@
       }
     ]
   },
+  "weak": {
+    "value": "སླ་པོ།",
+    "history": [
+      {
+        "userId": 301938,
+        "timestamp": 1462096162239,
+        "oldValue": "",
+        "newValue": "སླ་པོ།",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.mySolution": {
+    "value": "ངའི་བཞུ་ཁུ།",
+    "history": [
+      {
+        "userId": 301938,
+        "timestamp": 1462096162239,
+        "oldValue": "",
+        "newValue": "ངའི་ཞུན་ཁུ།",
+        "explanation": null
+      },
+      {
+        "userId": 204419,
+        "timestamp": 1657868386974,
+        "oldValue": "ངའི་ཞུན་ཁུ།",
+        "newValue": "ངའི་བཞུ་ཁུ།"
+      }
+    ]
+  },
   "strongAcid": {
     "value": "སྐྱུར་རྫས་གར་པོ།",
     "history": [
@@ -239,42 +323,6 @@
       }
     ]
   },
-  "stronger": {
-    "value": "གར་རུ་གཏོང་བ།",
-    "history": [
-      {
-        "userId": 301938,
-        "timestamp": 1462096162239,
-        "oldValue": "",
-        "newValue": "གར་རུ་གཏོང་བ།",
-        "explanation": null
-      }
-    ]
-  },
-  "tools": {
-    "value": "ལག་ཆ།",
-    "history": [
-      {
-        "userId": 301938,
-        "timestamp": 1462096162239,
-        "oldValue": "",
-        "newValue": "ལག་ཆ།",
-        "explanation": null
-      }
-    ]
-  },
-  "views": {
-    "value": "མཐོང་ཚུལ།",
-    "history": [
-      {
-        "userId": 301938,
-        "timestamp": 1462096162239,
-        "oldValue": "",
-        "newValue": "མཐོང་ཚུལ།",
-        "explanation": null
-      }
-    ]
-  },
   "water": {
     "value": "ཆུ།",
     "history": [
@@ -283,18 +331,6 @@
         "timestamp": 1462096162239,
         "oldValue": "",
         "newValue": "ཆུ།",
-        "explanation": null
-      }
-    ]
-  },
-  "weak": {
-    "value": "སླ་པོ།",
-    "history": [
-      {
-        "userId": 301938,
-        "timestamp": 1462096162239,
-        "oldValue": "",
-        "newValue": "སླ་པོ།",
         "explanation": null
       }
     ]
@@ -323,15 +359,33 @@
       }
     ]
   },
-  "weaker": {
-    "value": "སླ་རུ་གཏོང་བ།",
+  "screen.introduction": {
+    "value": "ངོ་སྤྲོད།",
     "history": [
       {
         "userId": 301938,
         "timestamp": 1462096162239,
         "oldValue": "",
-        "newValue": "སླ་རུ་གཏོང་བ།",
+        "newValue": "ངོ་སྤྲོད།",
         "explanation": null
+      }
+    ]
+  },
+  "acid-base-solutions.title": {
+    "value": "སྐྱུར་རྫས་དང་བུལ་ཚ་འདྲེས་པའི་བཞུ་ཁུ།",
+    "history": [
+      {
+        "userId": 301938,
+        "timestamp": 1462096162239,
+        "oldValue": "",
+        "newValue": "སྐྱུར་རྫས་དང་ཚྭ་འགྱུར་གྱི་ཞུན་ཁུ།",
+        "explanation": null
+      },
+      {
+        "userId": 204419,
+        "timestamp": 1657868386974,
+        "oldValue": "སྐྱུར་རྫས་དང་ཚྭ་འགྱུར་གྱི་ཞུན་ཁུ།",
+        "newValue": "སྐྱུར་རྫས་དང་བུལ་ཚ་འདྲེས་པའི་བཞུ་ཁུ།"
       }
     ]
   }
