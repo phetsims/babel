@@ -23,32 +23,6 @@
       }
     ]
   },
-  "pattern.0challenge.1max": {
-    "value": "Yarış  {0} - {1}",
-    "history": [
-      {
-        "userId": 661982,
-        "timestamp": 1554930887430,
-        "oldValue": "",
-        "newValue": "Yarış  {1}- {0}",
-        "explanation": null
-      },
-      {
-        "userId": 661982,
-        "timestamp": 1554931018243,
-        "oldValue": "Yarış  {1}- {0}",
-        "newValue": "Yarış  {1} - {0}",
-        "explanation": null
-      },
-      {
-        "userId": 661982,
-        "timestamp": 1554931714322,
-        "oldValue": "Yarış  {1} - {0}",
-        "newValue": "Yarış  {0} - {1}",
-        "explanation": null
-      }
-    ]
-  },
   "check": {
     "value": "Yoxla",
     "history": [
@@ -110,7 +84,7 @@
     ]
   },
   "keepTrying": {
-    "value": "Yenidən cəhd et",
+    "value": "Yenidən Sına",
     "history": [
       {
         "userId": 661982,
@@ -125,6 +99,12 @@
         "oldValue": "Cəht etməyə davam et",
         "newValue": "Yenidən cəhd et",
         "explanation": null
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1659981334731,
+        "oldValue": "Yenidən cəhd et",
+        "newValue": "Yenidən Sına"
       }
     ]
   },
@@ -141,7 +121,7 @@
     ]
   },
   "next": {
-    "value": "Növbəti",
+    "value": "Sonrakı",
     "history": [
       {
         "userId": 661982,
@@ -149,11 +129,17 @@
         "oldValue": "",
         "newValue": "Növbəti",
         "explanation": null
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1659981334731,
+        "oldValue": "Növbəti",
+        "newValue": "Sonrakı"
       }
     ]
   },
   "label.scorePattern": {
-    "value": "Balınız : {0}",
+    "value": "Xalınız: {0}",
     "history": [
       {
         "userId": 661982,
@@ -161,11 +147,17 @@
         "oldValue": "",
         "newValue": "Balınız : {0}",
         "explanation": null
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1659981334731,
+        "oldValue": "Balınız : {0}",
+        "newValue": "Xalınız: {0}"
       }
     ]
   },
   "label.score.max": {
-    "value": "Balınız:  {0} / {1}",
+    "value": "Xalınız:  {0} / {1}",
     "history": [
       {
         "userId": 661982,
@@ -179,6 +171,103 @@
         "timestamp": 1554931018243,
         "oldValue": "Balınız:  {1} / {0}",
         "newValue": "Balınız:  {0} / {1}",
+        "explanation": null
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1659981334731,
+        "oldValue": "Balınız:  {0} / {1}",
+        "newValue": "Xalınız:  {0} / {1}"
+      }
+    ]
+  },
+  "label.time": {
+    "value": "Vaxt: {0}",
+    "history": [
+      {
+        "userId": 661982,
+        "timestamp": 1554930887430,
+        "oldValue": "",
+        "newValue": "Vaxt : {0}",
+        "explanation": null
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1659981334731,
+        "oldValue": "Vaxt : {0}",
+        "newValue": "Vaxt: {0}"
+      }
+    ]
+  },
+  "tryAgain": {
+    "value": "Yenidən Sına",
+    "history": [
+      {
+        "userId": 661982,
+        "timestamp": 1554930887430,
+        "oldValue": "",
+        "newValue": "Yenidən cəht et",
+        "explanation": null
+      },
+      {
+        "userId": 661982,
+        "timestamp": 1554931714322,
+        "oldValue": "Yenidən cəht et",
+        "newValue": "Yenidən cəhd et",
+        "explanation": null
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1659981334731,
+        "oldValue": "Yenidən cəhd et",
+        "newValue": "Yenidən Sına"
+      }
+    ]
+  },
+  "pattern.0minutes.1seconds": {
+    "value": "{0}:{1}",
+    "history": [
+      {
+        "userId": 641432,
+        "timestamp": 1659981334731,
+        "oldValue": "",
+        "newValue": "{0}:{1}"
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 641432,
+        "timestamp": 1659981334731,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}"
+      }
+    ]
+  },
+  "pattern.0challenge.1max": {
+    "value": "Yarış  {0} - {1}",
+    "history": [
+      {
+        "userId": 661982,
+        "timestamp": 1554930887430,
+        "oldValue": "",
+        "newValue": "Yarış  {1}- {0}",
+        "explanation": null
+      },
+      {
+        "userId": 661982,
+        "timestamp": 1554931018243,
+        "oldValue": "Yarış  {1}- {0}",
+        "newValue": "Yarış  {1} - {0}",
+        "explanation": null
+      },
+      {
+        "userId": 661982,
+        "timestamp": 1554931714322,
+        "oldValue": "Yarış  {1} - {0}",
+        "newValue": "Yarış  {0} - {1}",
         "explanation": null
       }
     ]
@@ -215,37 +304,6 @@
         "timestamp": 1554930887430,
         "oldValue": "",
         "newValue": "Yenidən başlat",
-        "explanation": null
-      }
-    ]
-  },
-  "label.time": {
-    "value": "Vaxt : {0}",
-    "history": [
-      {
-        "userId": 661982,
-        "timestamp": 1554930887430,
-        "oldValue": "",
-        "newValue": "Vaxt : {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "tryAgain": {
-    "value": "Yenidən cəhd et",
-    "history": [
-      {
-        "userId": 661982,
-        "timestamp": 1554930887430,
-        "oldValue": "",
-        "newValue": "Yenidən cəht et",
-        "explanation": null
-      },
-      {
-        "userId": 661982,
-        "timestamp": 1554931714322,
-        "oldValue": "Yenidən cəht et",
-        "newValue": "Yenidən cəhd et",
         "explanation": null
       }
     ]
