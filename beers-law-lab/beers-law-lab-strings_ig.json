@@ -1,4 +1,48 @@
 {
+  "drinkMix": {
+    "value": "ihe ọṅụṅụ gwakota",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1659969432998,
+        "oldValue": "",
+        "newValue": "ihe ọṅụṅụ gwakota"
+      }
+    ]
+  },
+  "units.mM": {
+    "value": "mM",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1660723499447,
+        "oldValue": "",
+        "newValue": "mM"
+      }
+    ]
+  },
+  "units.uM": {
+    "value": "µM",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1660723499447,
+        "oldValue": "",
+        "newValue": "µM"
+      }
+    ]
+  },
+  "water": {
+    "value": "Mmiri",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1660723499447,
+        "oldValue": "",
+        "newValue": "Mmiri"
+      }
+    ]
+  },
   "cobaltChloride": {
     "value": "Cobalt(II) chloride",
     "history": [
@@ -21,28 +65,6 @@
       }
     ]
   },
-  "concentration": {
-    "value": "ihe mejupụtara kemịkalụ",
-    "history": [
-      {
-        "userId": 971059,
-        "timestamp": 1659969432998,
-        "oldValue": "",
-        "newValue": "ihe mejupụtara kemịkalụ"
-      }
-    ]
-  },
-  "screen.concentration": {
-    "value": "ihe mejupụtara kemịkalụ",
-    "history": [
-      {
-        "userId": 971059,
-        "timestamp": 1659969432998,
-        "oldValue": "",
-        "newValue": "ihe mejupụtara kemịkalụ"
-      }
-    ]
-  },
   "copperSulfate": {
     "value": "Copper(II) sulfate",
     "history": [
@@ -51,72 +73,6 @@
         "timestamp": 1659969432998,
         "oldValue": "",
         "newValue": "Copper(II) sulfate"
-      }
-    ]
-  },
-  "drinkMix": {
-    "value": "ihe ọṅụṅụ gwakota",
-    "history": [
-      {
-        "userId": 971059,
-        "timestamp": 1659969432998,
-        "oldValue": "",
-        "newValue": "ihe ọṅụṅụ gwakota"
-      }
-    ]
-  },
-  "evaporation": {
-    "value": "kpofuo",
-    "history": [
-      {
-        "userId": 971059,
-        "timestamp": 1659969432998,
-        "oldValue": "",
-        "newValue": "kpofuo"
-      }
-    ]
-  },
-  "units.liters": {
-    "value": "L",
-    "history": [
-      {
-        "userId": 971059,
-        "timestamp": 1659969432998,
-        "oldValue": "",
-        "newValue": "L"
-      }
-    ]
-  },
-  "lots": {
-    "value": "Ọtụtụ",
-    "history": [
-      {
-        "userId": 971059,
-        "timestamp": 1659969432998,
-        "oldValue": "",
-        "newValue": "Ọtụtụ"
-      }
-    ]
-  },
-  "units.milliliters": {
-    "value": "mL",
-    "history": [
-      {
-        "userId": 971059,
-        "timestamp": 1659969432998,
-        "oldValue": "",
-        "newValue": "mL"
-      }
-    ]
-  },
-  "units.molesPerLiter": {
-    "value": "mol/L",
-    "history": [
-      {
-        "userId": 971059,
-        "timestamp": 1659969432998,
-        "oldValue": "",
-        "newValue": "mol/L"
       }
     ]
   },
@@ -131,14 +87,25 @@
       }
     ]
   },
-  "none": {
-    "value": "Ọ dịghị",
+  "pattern.0formula.1name": {
+    "value": "{0}: {1}",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1660723499447,
+        "oldValue": "",
+        "newValue": "{0}: {1}"
+      }
+    ]
+  },
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
     "history": [
       {
         "userId": 971059,
         "timestamp": 1659969432998,
         "oldValue": "",
-        "newValue": "Ọ dịghị"
+        "newValue": "{0} {1}"
       }
     ]
   },
@@ -175,6 +142,215 @@
       }
     ]
   },
+  "absorbance": {
+    "value": "were-na",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1660723499447,
+        "oldValue": "",
+        "newValue": "were-na"
+      }
+    ]
+  },
+  "pattern.0percent": {
+    "value": "{0}%",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1659969432998,
+        "oldValue": "",
+        "newValue": "{0}%"
+      }
+    ]
+  },
+  "transmittance": {
+    "value": "Mbufe",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1660723499447,
+        "oldValue": "",
+        "newValue": "Mbufe"
+      }
+    ]
+  },
+  "units.centimeters": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1660723499447,
+        "oldValue": "",
+        "newValue": "cm"
+      }
+    ]
+  },
+  "concentration": {
+    "value": "ihe mejupụtara kemịkalụ",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1659969432998,
+        "oldValue": "",
+        "newValue": "ihe mejupụtara kemịkalụ"
+      }
+    ]
+  },
+  "pattern.0label": {
+    "value": "{0}:",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1659969432998,
+        "oldValue": "",
+        "newValue": "{0}:"
+      }
+    ]
+  },
+  "solution": {
+    "value": "ngwakọta mejupụtara",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1659969432998,
+        "oldValue": "",
+        "newValue": "ngwakọta mejupụtara"
+      }
+    ]
+  },
+  "preset": {
+    "value": "malitegharịa",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1660723499447,
+        "oldValue": "",
+        "newValue": "malitegharịa"
+      }
+    ]
+  },
+  "units.nm": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1660723499447,
+        "oldValue": "",
+        "newValue": "nm"
+      }
+    ]
+  },
+  "variable": {
+    "value": "agbanwe agbanwe",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1660723499447,
+        "oldValue": "",
+        "newValue": "agbanwe agbanwe"
+      }
+    ]
+  },
+  "wavelength": {
+    "value": "Ogologo ebili mmiri",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1660723499447,
+        "oldValue": "",
+        "newValue": "Ogologo ebili mmiri"
+      }
+    ]
+  },
+  "screen.beersLaw": {
+    "value": "Iwu nke  Beer",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1660723499447,
+        "oldValue": "",
+        "newValue": "Iwu nke  Beer"
+      }
+    ]
+  },
+  "sodiumChloride": {
+    "value": "nnu nkịtị",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1659969432998,
+        "oldValue": "",
+        "newValue": "nnu nkịtị"
+      }
+    ]
+  },
+  "units.liters": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1659969432998,
+        "oldValue": "",
+        "newValue": "L"
+      }
+    ]
+  },
+  "units.milliliters": {
+    "value": "mL",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1659969432998,
+        "oldValue": "",
+        "newValue": "mL"
+      }
+    ]
+  },
+  "units.molesPerLiter": {
+    "value": "mol/L",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1659969432998,
+        "oldValue": "",
+        "newValue": "mol/L"
+      }
+    ]
+  },
+  "evaporation": {
+    "value": "kpofuo",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1659969432998,
+        "oldValue": "",
+        "newValue": "kpofuo"
+      }
+    ]
+  },
+  "lots": {
+    "value": "Ọtụtụ",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1659969432998,
+        "oldValue": "",
+        "newValue": "Ọtụtụ"
+      }
+    ]
+  },
+  "none": {
+    "value": "Ọ dịghị",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1659969432998,
+        "oldValue": "",
+        "newValue": "Ọ dịghị"
+      }
+    ]
+  },
   "removeSolute": {
     "value": "obere ngwakọta",
     "history": [
@@ -197,25 +373,14 @@
       }
     ]
   },
-  "sodiumChloride": {
-    "value": "nnu nkịtị",
+  "pattern.0soluteAmount": {
+    "value": "na-abụghị ihe mgbaze{0}g",
     "history": [
       {
         "userId": 971059,
         "timestamp": 1659969432998,
         "oldValue": "",
-        "newValue": "nnu nkịtị"
-      }
-    ]
-  },
-  "solid": {
-    "value": "Isi ike",
-    "history": [
-      {
-        "userId": 971059,
-        "timestamp": 1659969432998,
-        "oldValue": "",
-        "newValue": "Isi ike"
+        "newValue": "na-abụghị ihe mgbaze{0}g"
       }
     ]
   },
@@ -230,58 +395,36 @@
       }
     ]
   },
-  "pattern.0soluteAmount": {
-    "value": "na-abụghị ihe mgbaze{0}g",
+  "solid": {
+    "value": "Isi ike",
     "history": [
       {
         "userId": 971059,
         "timestamp": 1659969432998,
         "oldValue": "",
-        "newValue": "na-abụghị ihe mgbaze{0}g"
+        "newValue": "Isi ike"
       }
     ]
   },
-  "solution": {
-    "value": "ngwakọta mejupụtara",
+  "screen.concentration": {
+    "value": "ihe mejupụtara kemịkalụ",
     "history": [
       {
         "userId": 971059,
         "timestamp": 1659969432998,
         "oldValue": "",
-        "newValue": "ngwakọta mejupụtara"
+        "newValue": "ihe mejupụtara kemịkalụ"
       }
     ]
   },
-  "pattern.0value.1units": {
-    "value": "{0} {1}",
+  "beers-law-lab.title": {
+    "value": "Ụlọ nyocha iwu Beer",
     "history": [
       {
         "userId": 971059,
-        "timestamp": 1659969432998,
+        "timestamp": 1660723499447,
         "oldValue": "",
-        "newValue": "{0} {1}"
-      }
-    ]
-  },
-  "pattern.0percent": {
-    "value": "{0}%",
-    "history": [
-      {
-        "userId": 971059,
-        "timestamp": 1659969432998,
-        "oldValue": "",
-        "newValue": "{0}%"
-      }
-    ]
-  },
-  "pattern.0label": {
-    "value": "{0}:",
-    "history": [
-      {
-        "userId": 971059,
-        "timestamp": 1659969432998,
-        "oldValue": "",
-        "newValue": "{0}:"
+        "newValue": "Ụlọ nyocha iwu Beer"
       }
     ]
   }
