@@ -1,15 +1,4 @@
 {
-  "keyboardHelpDialog.adjust": {
-    "value": "Prilagodi",
-    "history": [
-      {
-        "userId": 156538,
-        "timestamp": 1650575803054,
-        "oldValue": "",
-        "newValue": "Prilagodi"
-      }
-    ]
-  },
   "keyboardHelpDialog.basicActions": {
     "value": "Osnovne akcije",
     "history": [
@@ -18,28 +7,6 @@
         "timestamp": 1640258583927,
         "oldValue": "",
         "newValue": "Osnovne akcije"
-      }
-    ]
-  },
-  "key.capsLock": {
-    "value": "Velike črke",
-    "history": [
-      {
-        "userId": 156538,
-        "timestamp": 1644478894520,
-        "oldValue": "",
-        "newValue": "Velike črke"
-      }
-    ]
-  },
-  "key.end": {
-    "value": "Konec",
-    "history": [
-      {
-        "userId": 156538,
-        "timestamp": 1640258583927,
-        "oldValue": "",
-        "newValue": "Konec"
       }
     ]
   },
@@ -80,6 +47,17 @@
       }
     ]
   },
+  "speed.fast": {
+    "value": "Hitro",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1616142451607,
+        "oldValue": "",
+        "newValue": "Hitro"
+      }
+    ]
+  },
   "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
     "value": "Primi in spusti {{thing}}",
     "history": [
@@ -104,61 +82,6 @@
       }
     ]
   },
-  "key.home": {
-    "value": "Domov",
-    "history": [
-      {
-        "userId": 156538,
-        "timestamp": 1616143586404,
-        "oldValue": "",
-        "newValue": "Domov"
-      }
-    ]
-  },
-  "keyboardHelpDialog.jumpToMaximumPattern": {
-    "value": "Skoči na {{maximum}}",
-    "history": [
-      {
-        "userId": 156538,
-        "timestamp": 1650575803054,
-        "oldValue": "",
-        "newValue": "Skoči na {{maximum}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.jumpToMinimumPattern": {
-    "value": "Skoči na {{minimum}}",
-    "history": [
-      {
-        "userId": 156538,
-        "timestamp": 1650575803054,
-        "oldValue": "",
-        "newValue": "Skoči na {{minimum}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.maximum": {
-    "value": "Maksimum",
-    "history": [
-      {
-        "userId": 156538,
-        "timestamp": 1650575803054,
-        "oldValue": "",
-        "newValue": "Maksimum"
-      }
-    ]
-  },
-  "keyboardHelpDialog.minimum": {
-    "value": "Minimum",
-    "history": [
-      {
-        "userId": 156538,
-        "timestamp": 1650575803054,
-        "oldValue": "",
-        "newValue": "Minimum"
-      }
-    ]
-  },
   "keyboardHelpDialog.moveBetweenItemsInAGroup": {
     "value": "Premik med predmeti v skupini",
     "history": [
@@ -167,6 +90,17 @@
         "timestamp": 1644478894520,
         "oldValue": "",
         "newValue": "Premik med predmeti v skupini"
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItem": {
+    "value": "Premakni se na naslednji predmet",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1661938055372,
+        "oldValue": "",
+        "newValue": "Premakni se na naslednji predmet"
       }
     ]
   },
@@ -181,6 +115,17 @@
       }
     ]
   },
+  "keyboardHelpDialog.moveToPreviousItem": {
+    "value": "Premakni se na prejšnji predmet",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1661938055372,
+        "oldValue": "",
+        "newValue": "Premakni se na prejšnji predmet"
+      }
+    ]
+  },
   "keyboardHelpDialog.moveToPreviousItemOrGroup": {
     "value": "Premakni se na prejšnji predmet ali skupino",
     "history": [
@@ -192,25 +137,22 @@
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.option": {
-    "value": "možnost",
+  "speed.normal": {
+    "value": "Realno",
     "history": [
       {
-        "userId": 156538,
-        "timestamp": 1650575803054,
+        "userId": 157539,
+        "timestamp": 1538336250954,
         "oldValue": "",
-        "newValue": "možnost"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.options": {
-    "value": "možnosti",
-    "history": [
+        "newValue": "Realna hitrost",
+        "explanation": null
+      },
       {
-        "userId": 156538,
-        "timestamp": 1650575803054,
-        "oldValue": "",
-        "newValue": "možnosti"
+        "userId": 157539,
+        "timestamp": 1556452223754,
+        "oldValue": "Realna hitrost",
+        "newValue": "Realno",
+        "explanation": null
       }
     ]
   },
@@ -279,14 +221,22 @@
       }
     ]
   },
-  "keyboardHelpDialog.slider": {
-    "value": "drsnik",
+  "speed.slow": {
+    "value": "Počasneje",
     "history": [
       {
-        "userId": 156538,
-        "timestamp": 1650575803054,
+        "userId": 157539,
+        "timestamp": 1538336250954,
         "oldValue": "",
-        "newValue": "drsnik"
+        "newValue": "Počasnejša hitrost",
+        "explanation": null
+      },
+      {
+        "userId": 157539,
+        "timestamp": 1556452223754,
+        "oldValue": "Počasnejša hitrost",
+        "newValue": "Počasneje",
+        "explanation": null
       }
     ]
   },
@@ -328,6 +278,127 @@
         "timestamp": 1644478894520,
         "oldValue": "",
         "newValue": "Označi kvadratke"
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjust": {
+    "value": "Prilagodi",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1650575803054,
+        "oldValue": "",
+        "newValue": "Prilagodi"
+      }
+    ]
+  },
+  "key.capsLock": {
+    "value": "Velike črke",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1644478894520,
+        "oldValue": "",
+        "newValue": "Velike črke"
+      }
+    ]
+  },
+  "key.end": {
+    "value": "Konec",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1640258583927,
+        "oldValue": "",
+        "newValue": "Konec"
+      }
+    ]
+  },
+  "key.home": {
+    "value": "Domov",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1616143586404,
+        "oldValue": "",
+        "newValue": "Domov"
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMaximumPattern": {
+    "value": "Skoči na {{maximum}}",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1650575803054,
+        "oldValue": "",
+        "newValue": "Skoči na {{maximum}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMinimumPattern": {
+    "value": "Skoči na {{minimum}}",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1650575803054,
+        "oldValue": "",
+        "newValue": "Skoči na {{minimum}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.maximum": {
+    "value": "Maksimum",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1650575803054,
+        "oldValue": "",
+        "newValue": "Maksimum"
+      }
+    ]
+  },
+  "keyboardHelpDialog.minimum": {
+    "value": "Minimum",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1650575803054,
+        "oldValue": "",
+        "newValue": "Minimum"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.option": {
+    "value": "možnost",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1650575803054,
+        "oldValue": "",
+        "newValue": "možnost"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.options": {
+    "value": "možnosti",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1650575803054,
+        "oldValue": "",
+        "newValue": "možnosti"
+      }
+    ]
+  },
+  "keyboardHelpDialog.slider": {
+    "value": "drsnik",
+    "history": [
+      {
+        "userId": 156538,
+        "timestamp": 1650575803054,
+        "oldValue": "",
+        "newValue": "drsnik"
       }
     ]
   },
@@ -387,55 +458,6 @@
         "timestamp": 1603270034924,
         "oldValue": "",
         "newValue": "WebGL ni omogočen ali ni na voljo. Kliknite za več.",
-        "explanation": null
-      }
-    ]
-  },
-  "speed.fast": {
-    "value": "Hitro",
-    "history": [
-      {
-        "userId": 156538,
-        "timestamp": 1616142451607,
-        "oldValue": "",
-        "newValue": "Hitro"
-      }
-    ]
-  },
-  "speed.normal": {
-    "value": "Realno",
-    "history": [
-      {
-        "userId": 157539,
-        "timestamp": 1538336250954,
-        "oldValue": "",
-        "newValue": "Realna hitrost",
-        "explanation": null
-      },
-      {
-        "userId": 157539,
-        "timestamp": 1556452223754,
-        "oldValue": "Realna hitrost",
-        "newValue": "Realno",
-        "explanation": null
-      }
-    ]
-  },
-  "speed.slow": {
-    "value": "Počasneje",
-    "history": [
-      {
-        "userId": 157539,
-        "timestamp": 1538336250954,
-        "oldValue": "",
-        "newValue": "Počasnejša hitrost",
-        "explanation": null
-      },
-      {
-        "userId": 157539,
-        "timestamp": 1556452223754,
-        "oldValue": "Počasnejša hitrost",
-        "newValue": "Počasneje",
         "explanation": null
       }
     ]
