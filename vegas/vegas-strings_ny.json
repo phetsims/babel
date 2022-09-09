@@ -21,6 +21,23 @@
       }
     ]
   },
+  "pattern.0challenge.1max": {
+    "value": "Ntchito {0} of {1}",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1651559170700,
+        "oldValue": "",
+        "newValue": "Challenge {0} of {1}"
+      },
+      {
+        "userId": 994343,
+        "timestamp": 1662747787816,
+        "oldValue": "Challenge {0} of {1}",
+        "newValue": "Ntchito {0} of {1}"
+      }
+    ]
+  },
   "check": {
     "value": "Onani",
     "history": [
@@ -29,6 +46,23 @@
         "timestamp": 1649577622335,
         "oldValue": "",
         "newValue": "Onani"
+      }
+    ]
+  },
+  "chooseYourLevel": {
+    "value": "Sankhani Gawo Lanu!",
+    "history": [
+      {
+        "userId": 994343,
+        "timestamp": 1649577622335,
+        "oldValue": "",
+        "newValue": "Sankhani Mulingo Wanu!"
+      },
+      {
+        "userId": 994343,
+        "timestamp": 1662747787816,
+        "oldValue": "Sankhani Mulingo Wanu!",
+        "newValue": "Sankhani Gawo Lanu!"
       }
     ]
   },
@@ -61,7 +95,7 @@
     ]
   },
   "good": {
-    "value": "Bwino!",
+    "value": "Wakhoza!",
     "history": [
       {
         "userId": 994343,
@@ -74,17 +108,11 @@
         "timestamp": 1653378020665,
         "oldValue": "Chabwino",
         "newValue": "Wakhoza!"
-      },
-      {
-        "userId": 994343,
-        "timestamp": 1662746929551,
-        "oldValue": "Wakhoza!",
-        "newValue": "Bwino!"
       }
     ]
   },
   "great": {
-    "value": "Wapambana!",
+    "value": "Wakhoza bwino",
     "history": [
       {
         "userId": 994343,
@@ -97,12 +125,6 @@
         "timestamp": 1653378020665,
         "oldValue": "Zabwino!",
         "newValue": "Wakhoza bwino"
-      },
-      {
-        "userId": 994343,
-        "timestamp": 1662746929551,
-        "oldValue": "Wakhoza bwino",
-        "newValue": "Wapambana!"
       }
     ]
   },
@@ -133,26 +155,26 @@
     "history": [
       {
         "userId": 994343,
-        "timestamp": 1662746929551,
+        "timestamp": 1662747787816,
         "oldValue": "",
         "newValue": "Ena"
       }
     ]
   },
-  "label.scorePattern": {
-    "value": "Wapeza: {0}",
+  "score": {
+    "value": "Wapeza:",
     "history": [
       {
         "userId": 994343,
         "timestamp": 1649577622335,
         "oldValue": "",
-        "newValue": "Score: {0}"
+        "newValue": "Score:"
       },
       {
         "userId": 994343,
         "timestamp": 1653378020665,
-        "oldValue": "Score: {0}",
-        "newValue": "Wapeza: {0}"
+        "oldValue": "Score:",
+        "newValue": "Wapeza:"
       }
     ]
   },
@@ -170,6 +192,45 @@
         "timestamp": 1653378020665,
         "oldValue": "Score: {0} out of {1}",
         "newValue": "Wapeza: {0} pa {1}"
+      }
+    ]
+  },
+  "pattern.score.number": {
+    "value": "Wapeza: {{score}}",
+    "history": [
+      {
+        "userId": 994343,
+        "timestamp": 1649577622335,
+        "oldValue": "",
+        "newValue": "Score: {{score}}"
+      },
+      {
+        "userId": 994343,
+        "timestamp": 1653378020665,
+        "oldValue": "Score: {{score}}",
+        "newValue": "Wapeza: {{score}}"
+      }
+    ]
+  },
+  "showAnswer": {
+    "value": "Onetsani Yankho",
+    "history": [
+      {
+        "userId": 994343,
+        "timestamp": 1649577622335,
+        "oldValue": "",
+        "newValue": "Onetsani Yankho"
+      }
+    ]
+  },
+  "startOver": {
+    "value": "Yambani Kachiwiri ",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1651559170700,
+        "oldValue": "",
+        "newValue": "Yambani Kachiwiri "
       }
     ]
   },
@@ -217,81 +278,20 @@
       }
     ]
   },
-  "chooseYourLevel": {
-    "value": "Sankhani Mulingo Wanu!",
+  "label.scorePattern": {
+    "value": "Wapeza: {0}",
     "history": [
       {
         "userId": 994343,
         "timestamp": 1649577622335,
         "oldValue": "",
-        "newValue": "Sankhani Mulingo Wanu!"
-      }
-    ]
-  },
-  "score": {
-    "value": "Wapeza:",
-    "history": [
-      {
-        "userId": 994343,
-        "timestamp": 1649577622335,
-        "oldValue": "",
-        "newValue": "Score:"
+        "newValue": "Score: {0}"
       },
       {
         "userId": 994343,
         "timestamp": 1653378020665,
-        "oldValue": "Score:",
-        "newValue": "Wapeza:"
-      }
-    ]
-  },
-  "pattern.score.number": {
-    "value": "Wapeza: {{score}}",
-    "history": [
-      {
-        "userId": 994343,
-        "timestamp": 1649577622335,
-        "oldValue": "",
-        "newValue": "Score: {{score}}"
-      },
-      {
-        "userId": 994343,
-        "timestamp": 1653378020665,
-        "oldValue": "Score: {{score}}",
-        "newValue": "Wapeza: {{score}}"
-      }
-    ]
-  },
-  "showAnswer": {
-    "value": "Onetsani Yankho",
-    "history": [
-      {
-        "userId": 994343,
-        "timestamp": 1649577622335,
-        "oldValue": "",
-        "newValue": "Onetsani Yankho"
-      }
-    ]
-  },
-  "pattern.0challenge.1max": {
-    "value": "Challenge {0} of {1}",
-    "history": [
-      {
-        "userId": 731360,
-        "timestamp": 1651559170700,
-        "oldValue": "",
-        "newValue": "Challenge {0} of {1}"
-      }
-    ]
-  },
-  "startOver": {
-    "value": "Yambani Kachiwiri ",
-    "history": [
-      {
-        "userId": 731360,
-        "timestamp": 1651559170700,
-        "oldValue": "",
-        "newValue": "Yambani Kachiwiri "
+        "oldValue": "Score: {0}",
+        "newValue": "Wapeza: {0}"
       }
     ]
   }
