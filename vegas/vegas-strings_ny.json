@@ -49,23 +49,6 @@
       }
     ]
   },
-  "chooseYourLevel": {
-    "value": "Sankhani Gawo Lanu!",
-    "history": [
-      {
-        "userId": 994343,
-        "timestamp": 1649577622335,
-        "oldValue": "",
-        "newValue": "Sankhani Mulingo Wanu!"
-      },
-      {
-        "userId": 994343,
-        "timestamp": 1662747787816,
-        "oldValue": "Sankhani Mulingo Wanu!",
-        "newValue": "Sankhani Gawo Lanu!"
-      }
-    ]
-  },
   "continue": {
     "value": "Pitirizani",
     "history": [
@@ -161,20 +144,20 @@
       }
     ]
   },
-  "score": {
-    "value": "Wapeza:",
+  "label.scorePattern": {
+    "value": "Wapeza: {0}",
     "history": [
       {
         "userId": 994343,
         "timestamp": 1649577622335,
         "oldValue": "",
-        "newValue": "Score:"
+        "newValue": "Score: {0}"
       },
       {
         "userId": 994343,
         "timestamp": 1653378020665,
-        "oldValue": "Score:",
-        "newValue": "Wapeza:"
+        "oldValue": "Score: {0}",
+        "newValue": "Wapeza: {0}"
       }
     ]
   },
@@ -195,20 +178,14 @@
       }
     ]
   },
-  "pattern.score.number": {
-    "value": "Wapeza: {{score}}",
+  "selectLevel": {
+    "value": "Sankhani Gawo",
     "history": [
       {
         "userId": 994343,
-        "timestamp": 1649577622335,
+        "timestamp": 1662777576516,
         "oldValue": "",
-        "newValue": "Score: {{score}}"
-      },
-      {
-        "userId": 994343,
-        "timestamp": 1653378020665,
-        "oldValue": "Score: {{score}}",
-        "newValue": "Wapeza: {{score}}"
+        "newValue": "Sankhani Gawo"
       }
     ]
   },
@@ -278,20 +255,54 @@
       }
     ]
   },
-  "label.scorePattern": {
-    "value": "Wapeza: {0}",
+  "chooseYourLevel": {
+    "value": "Sankhani Gawo Lanu!",
     "history": [
       {
         "userId": 994343,
         "timestamp": 1649577622335,
         "oldValue": "",
-        "newValue": "Score: {0}"
+        "newValue": "Sankhani Mulingo Wanu!"
+      },
+      {
+        "userId": 994343,
+        "timestamp": 1662747787816,
+        "oldValue": "Sankhani Mulingo Wanu!",
+        "newValue": "Sankhani Gawo Lanu!"
+      }
+    ]
+  },
+  "score": {
+    "value": "Wapeza:",
+    "history": [
+      {
+        "userId": 994343,
+        "timestamp": 1649577622335,
+        "oldValue": "",
+        "newValue": "Score:"
       },
       {
         "userId": 994343,
         "timestamp": 1653378020665,
-        "oldValue": "Score: {0}",
-        "newValue": "Wapeza: {0}"
+        "oldValue": "Score:",
+        "newValue": "Wapeza:"
+      }
+    ]
+  },
+  "pattern.score.number": {
+    "value": "Wapeza: {{score}}",
+    "history": [
+      {
+        "userId": 994343,
+        "timestamp": 1649577622335,
+        "oldValue": "",
+        "newValue": "Score: {{score}}"
+      },
+      {
+        "userId": 994343,
+        "timestamp": 1653378020665,
+        "oldValue": "Score: {{score}}",
+        "newValue": "Wapeza: {{score}}"
       }
     ]
   }
