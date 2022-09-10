@@ -1,6 +1,6 @@
 {
   "pattern.0yourBest": {
-    "value": "(የአንተ/ቺ ምርጥ፡{0})",
+    "value": "(የአንተ/ቺ ምርጥ፡ {0})",
     "history": [
       {
         "userId": 852474,
@@ -16,9 +16,9 @@
       },
       {
         "userId": 672644,
-        "timestamp": 1662808587561,
+        "timestamp": 1662808706411,
         "oldValue": "የአንተ/ቺ ምርጥ! {0}",
-        "newValue": "(የአንተ/ቺ ምርጥ፡{0})"
+        "newValue": "(የአንተ/ቺ ምርጥ፡ {0})"
       }
     ]
   },
@@ -39,7 +39,7 @@
       },
       {
         "userId": 672644,
-        "timestamp": 1662808587561,
+        "timestamp": 1662808706411,
         "oldValue": "የአንተ/ቺ አዲሱ ምርጥ!",
         "newValue": "(የአንተ/ቺ አዲሱ ምርጥ!)"
       }
@@ -53,23 +53,6 @@
         "timestamp": 1652955697797,
         "oldValue": "",
         "newValue": "{0} of {1}"
-      }
-    ]
-  },
-  "check": {
-    "value": "አረጋግጥ/ጭ ",
-    "history": [
-      {
-        "userId": 133844,
-        "timestamp": 1631709633353,
-        "oldValue": "",
-        "newValue": "አረጋግጥ"
-      },
-      {
-        "userId": 852474,
-        "timestamp": 1652955697797,
-        "oldValue": "አረጋግጥ",
-        "newValue": "አረጋግጥ/ጭ "
       }
     ]
   },
@@ -91,19 +74,13 @@
     ]
   },
   "excellent": {
-    "value": "እጅግ በጣም ጥሩ!",
+    "value": "እጅግ በጣም ጥሩ ነው።",
     "history": [
       {
         "userId": 133844,
         "timestamp": 1631709633353,
         "oldValue": "",
         "newValue": "እጅግ በጣም ጥሩ ነው።"
-      },
-      {
-        "userId": 672644,
-        "timestamp": 1662808587561,
-        "oldValue": "እጅግ በጣም ጥሩ ነው።",
-        "newValue": "እጅግ በጣም ጥሩ!"
       }
     ]
   },
@@ -151,25 +128,20 @@
       }
     ]
   },
-  "next": {
-    "value": "ቀጣይ",
-    "history": [
-      {
-        "userId": 133844,
-        "timestamp": 1631709633353,
-        "oldValue": "",
-        "newValue": "ቀጣይ"
-      }
-    ]
-  },
-  "label.scorePattern": {
-    "value": "ውጤት: {0}",
+  "score": {
+    "value": "ነጥብ፡",
     "history": [
       {
         "userId": 852474,
-        "timestamp": 1652957075670,
+        "timestamp": 1652955697797,
         "oldValue": "",
-        "newValue": "ውጤት: {0}"
+        "newValue": "ነጥብ"
+      },
+      {
+        "userId": 672644,
+        "timestamp": 1662799303214,
+        "oldValue": "ነጥብ",
+        "newValue": "ነጥብ፡"
       }
     ]
   },
@@ -184,14 +156,20 @@
       }
     ]
   },
-  "showAnswer": {
-    "value": "መልሱን አሳይ",
+  "pattern.score.number": {
+    "value": "ነጥብ፡ {{score}}",
     "history": [
       {
-        "userId": 133844,
-        "timestamp": 1631709633353,
+        "userId": 852474,
+        "timestamp": 1652955697797,
         "oldValue": "",
-        "newValue": "መልሱን አሳይ"
+        "newValue": "ነጥብ {{score}}"
+      },
+      {
+        "userId": 672644,
+        "timestamp": 1662799303214,
+        "oldValue": "ነጥብ {{score}}",
+        "newValue": "ነጥብ፡ {{score}}"
       }
     ]
   },
@@ -220,23 +198,6 @@
         "timestamp": 1652957075670,
         "oldValue": "ሰአት  {0}",
         "newValue": "ሰአት፡ {0}"
-      }
-    ]
-  },
-  "tryAgain": {
-    "value": "ሞክር/ሪ",
-    "history": [
-      {
-        "userId": 133844,
-        "timestamp": 1631709633353,
-        "oldValue": "",
-        "newValue": "እንደገና ሞክር"
-      },
-      {
-        "userId": 852474,
-        "timestamp": 1652955697797,
-        "oldValue": "እንደገና ሞክር",
-        "newValue": "ሞክር/ሪ"
       }
     ]
   },
@@ -302,37 +263,14 @@
       }
     ]
   },
-  "score": {
-    "value": "ነጥብ፡",
+  "next": {
+    "value": "ቀጣይ",
     "history": [
       {
-        "userId": 852474,
-        "timestamp": 1652955697797,
+        "userId": 133844,
+        "timestamp": 1631709633353,
         "oldValue": "",
-        "newValue": "ነጥብ"
-      },
-      {
-        "userId": 672644,
-        "timestamp": 1662799303214,
-        "oldValue": "ነጥብ",
-        "newValue": "ነጥብ፡"
-      }
-    ]
-  },
-  "pattern.score.number": {
-    "value": "ነጥብ፡ {{score}}",
-    "history": [
-      {
-        "userId": 852474,
-        "timestamp": 1652955697797,
-        "oldValue": "",
-        "newValue": "ነጥብ {{score}}"
-      },
-      {
-        "userId": 672644,
-        "timestamp": 1662799303214,
-        "oldValue": "ነጥብ {{score}}",
-        "newValue": "ነጥብ፡ {{score}}"
+        "newValue": "ቀጣይ"
       }
     ]
   },
@@ -372,6 +310,62 @@
         "timestamp": 1660407968433,
         "oldValue": "",
         "newValue": "አዲስ ደረጃ"
+      }
+    ]
+  },
+  "check": {
+    "value": "አረጋግጥ/ጭ ",
+    "history": [
+      {
+        "userId": 133844,
+        "timestamp": 1631709633353,
+        "oldValue": "",
+        "newValue": "አረጋግጥ"
+      },
+      {
+        "userId": 852474,
+        "timestamp": 1652955697797,
+        "oldValue": "አረጋግጥ",
+        "newValue": "አረጋግጥ/ጭ "
+      }
+    ]
+  },
+  "label.scorePattern": {
+    "value": "ውጤት: {0}",
+    "history": [
+      {
+        "userId": 852474,
+        "timestamp": 1652957075670,
+        "oldValue": "",
+        "newValue": "ውጤት: {0}"
+      }
+    ]
+  },
+  "tryAgain": {
+    "value": "ሞክር/ሪ",
+    "history": [
+      {
+        "userId": 133844,
+        "timestamp": 1631709633353,
+        "oldValue": "",
+        "newValue": "እንደገና ሞክር"
+      },
+      {
+        "userId": 852474,
+        "timestamp": 1652955697797,
+        "oldValue": "እንደገና ሞክር",
+        "newValue": "ሞክር/ሪ"
+      }
+    ]
+  },
+  "showAnswer": {
+    "value": "መልሱን አሳይ",
+    "history": [
+      {
+        "userId": 133844,
+        "timestamp": 1631709633353,
+        "oldValue": "",
+        "newValue": "መልሱን አሳይ"
       }
     ]
   },
