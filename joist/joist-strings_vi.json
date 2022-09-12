@@ -12,13 +12,19 @@
     ]
   },
   "preferences.tabs.visual.interactiveHighlightsDescription": {
-    "value": "Làm nổi bật dấu của con trỏ khi tương tác",
+    "value": "Add visual highlights for mouse and touch as you interact.",
     "history": [
       {
         "userId": 137535,
         "timestamp": 1629973787038,
         "oldValue": "",
         "newValue": "Làm nổi bật dấu của con trỏ khi tương tác"
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1662947980690,
+        "oldValue": "Làm nổi bật dấu của con trỏ khi tương tác",
+        "newValue": "Add visual highlights for mouse and touch as you interact."
       }
     ]
   },
@@ -104,24 +110,6 @@
       }
     ]
   },
-  "menuItem.enhancedSound": {
-    "value": "Enhanced Sound",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1544768306836,
-        "oldValue": "",
-        "newValue": "Âm thanh tăng cường",
-        "explanation": null
-      },
-      {
-        "userId": 137535,
-        "timestamp": 1650740167744,
-        "oldValue": "Âm thanh tăng cường",
-        "newValue": "Enhanced Sound"
-      }
-    ]
-  },
   "preferences.tabs.audio.sounds.extraSounds.title": {
     "value": "Extra Sounds",
     "history": [
@@ -193,6 +181,17 @@
       }
     ]
   },
+  "preferences.tabs.visual.projectorModeDescription": {
+    "value": "Increase color contrast for better visibility in classrooms.",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1662947980690,
+        "oldValue": "",
+        "newValue": "Increase color contrast for better visibility in classrooms."
+      }
+    ]
+  },
   "preferences.tabs.visual.interactiveHighlights": {
     "value": "Nổi bật tương tác",
     "history": [
@@ -201,18 +200,6 @@
         "timestamp": 1629973787038,
         "oldValue": "",
         "newValue": "Nổi bật tương tác"
-      }
-    ]
-  },
-  "ieErrorPage.ieIsNotSupported": {
-    "value": "Không thể sử dụng Internet Explorer",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1599588660952,
-        "oldValue": "",
-        "newValue": "Không thể sử dụng Internet Explorer",
-        "explanation": null
       }
     ]
   },
@@ -288,30 +275,6 @@
       }
     ]
   },
-  "options.title": {
-    "value": "Tuỳ chọn",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1446176372397,
-        "oldValue": "",
-        "newValue": "Tuỳ chọn",
-        "explanation": null
-      }
-    ]
-  },
-  "menuItem.options": {
-    "value": "Tuỳ chọn...",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1446176372397,
-        "oldValue": "",
-        "newValue": "Tuỳ chọn...",
-        "explanation": null
-      }
-    ]
-  },
   "menuItem.phetWebsite": {
     "value": "PhET Website…",
     "history": [
@@ -320,18 +283,6 @@
         "timestamp": 1446176372397,
         "oldValue": "",
         "newValue": "PhET Website…",
-        "explanation": null
-      }
-    ]
-  },
-  "ieErrorPage.platformError": {
-    "value": "Lỗi Platform",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1599588660952,
-        "oldValue": "",
-        "newValue": "Lỗi Platform",
         "explanation": null
       }
     ]
@@ -370,18 +321,6 @@
       }
     ]
   },
-  "ieErrorPage.useDifferentBrowser": {
-    "value": "Vui lòng sử dụng trình duyệt khác để chạy mô phỏng này.",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1599588660952,
-        "oldValue": "",
-        "newValue": "Vui lòng sử dụng trình duyệt khác để chạy mô phỏng này.",
-        "explanation": null
-      }
-    ]
-  },
   "preferences.title": {
     "value": "Điều chỉnh",
     "history": [
@@ -390,6 +329,18 @@
         "timestamp": 1629973787038,
         "oldValue": "",
         "newValue": "Điều chỉnh"
+      }
+    ]
+  },
+  "projectorMode": {
+    "value": "Chế độ đèn chiếu",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1475157480007,
+        "oldValue": "",
+        "newValue": "Chế độ đèn chiếu",
+        "explanation": null
       }
     ]
   },
@@ -744,6 +695,84 @@
       }
     ]
   },
+  "menuItem.enhancedSound": {
+    "value": "Enhanced Sound",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1544768306836,
+        "oldValue": "",
+        "newValue": "Âm thanh tăng cường",
+        "explanation": null
+      },
+      {
+        "userId": 137535,
+        "timestamp": 1650740167744,
+        "oldValue": "Âm thanh tăng cường",
+        "newValue": "Enhanced Sound"
+      }
+    ]
+  },
+  "ieErrorPage.ieIsNotSupported": {
+    "value": "Không thể sử dụng Internet Explorer",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599588660952,
+        "oldValue": "",
+        "newValue": "Không thể sử dụng Internet Explorer",
+        "explanation": null
+      }
+    ]
+  },
+  "options.title": {
+    "value": "Tuỳ chọn",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372397,
+        "oldValue": "",
+        "newValue": "Tuỳ chọn",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.options": {
+    "value": "Tuỳ chọn...",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1446176372397,
+        "oldValue": "",
+        "newValue": "Tuỳ chọn...",
+        "explanation": null
+      }
+    ]
+  },
+  "ieErrorPage.platformError": {
+    "value": "Lỗi Platform",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599588660952,
+        "oldValue": "",
+        "newValue": "Lỗi Platform",
+        "explanation": null
+      }
+    ]
+  },
+  "ieErrorPage.useDifferentBrowser": {
+    "value": "Vui lòng sử dụng trình duyệt khác để chạy mô phỏng này.",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599588660952,
+        "oldValue": "",
+        "newValue": "Vui lòng sử dụng trình duyệt khác để chạy mô phỏng này.",
+        "explanation": null
+      }
+    ]
+  },
   "menuItem.mailInputEventsLog": {
     "value": "Mail Input Events Log",
     "history": [
@@ -824,18 +853,6 @@
         "timestamp": 1446176372398,
         "oldValue": "",
         "newValue": "Biên dịch",
-        "explanation": null
-      }
-    ]
-  },
-  "projectorMode": {
-    "value": "Chế độ đèn chiếu",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1475157480007,
-        "oldValue": "",
-        "newValue": "Chế độ đèn chiếu",
         "explanation": null
       }
     ]
