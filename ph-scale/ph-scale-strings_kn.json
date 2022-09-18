@@ -48,7 +48,7 @@
     ]
   },
   "choice.chickenSoup": {
-    "value": "ಕೋಳಿ ಸಾರು",
+    "value": "ಕೋಳಿ ಸೂಪ್",
     "history": [
       {
         "userId": 325813,
@@ -56,6 +56,12 @@
         "oldValue": "",
         "newValue": "ಕೋಳಿ ಸಾರು",
         "explanation": null
+      },
+      {
+        "userId": 1085522,
+        "timestamp": 1663477886594,
+        "oldValue": "ಕೋಳಿ ಸಾರು",
+        "newValue": "ಕೋಳಿ ಸೂಪ್"
       }
     ]
   },
@@ -67,18 +73,6 @@
         "timestamp": 1474890449245,
         "oldValue": "",
         "newValue": "ಕಾಫಿ",
-        "explanation": null
-      }
-    ]
-  },
-  "choice.custom": {
-    "value": "ಇಚ್ಛೆಯ",
-    "history": [
-      {
-        "userId": 325813,
-        "timestamp": 1474890449245,
-        "oldValue": "",
-        "newValue": "ಇಚ್ಛೆಯ",
         "explanation": null
       }
     ]
@@ -107,6 +101,30 @@
       }
     ]
   },
+  "units.liters": {
+    "value": "ಲೀ",
+    "history": [
+      {
+        "userId": 325813,
+        "timestamp": 1474890449245,
+        "oldValue": "",
+        "newValue": "ಲೀ",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.macro": {
+    "value": "ದೊಡ್ಡ ಅಥವಾ ಭಾರಿ ಗಾತ್ರದ",
+    "history": [
+      {
+        "userId": 325813,
+        "timestamp": 1474890449245,
+        "oldValue": "",
+        "newValue": "ದೊಡ್ಡ ಅಥವಾ ಭಾರಿ ಗಾತ್ರದ",
+        "explanation": null
+      }
+    ]
+  },
   "choice.milk": {
     "value": "ಹಾಲು",
     "history": [
@@ -119,6 +137,18 @@
       }
     ]
   },
+  "neutral": {
+    "value": "ತಟಸ್ಥ",
+    "history": [
+      {
+        "userId": 325813,
+        "timestamp": 1474890449245,
+        "oldValue": "",
+        "newValue": "ತಟಸ್ಥ",
+        "explanation": null
+      }
+    ]
+  },
   "choice.orangeJuice": {
     "value": "ಕಿತ್ತಳೆ ರಸ",
     "history": [
@@ -127,6 +157,18 @@
         "timestamp": 1474890449245,
         "oldValue": "",
         "newValue": "ಕಿತ್ತಳೆ ರಸ",
+        "explanation": null
+      }
+    ]
+  },
+  "pH": {
+    "value": "pH ನ",
+    "history": [
+      {
+        "userId": 325813,
+        "timestamp": 1474890449245,
+        "oldValue": "",
+        "newValue": "pH ನ",
         "explanation": null
       }
     ]
@@ -156,7 +198,7 @@
     ]
   },
   "choice.vomit": {
-    "value": "ಕಕ್ಕು",
+    "value": "ವಾಂತಿ",
     "history": [
       {
         "userId": 325813,
@@ -164,6 +206,12 @@
         "oldValue": "",
         "newValue": "ಕಕ್ಕು",
         "explanation": null
+      },
+      {
+        "userId": 1085522,
+        "timestamp": 1663477886594,
+        "oldValue": "ಕಕ್ಕು",
+        "newValue": "ವಾಂತಿ"
       }
     ]
   },
@@ -175,6 +223,30 @@
         "timestamp": 1474890449245,
         "oldValue": "",
         "newValue": "ನೀರು",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 325813,
+        "timestamp": 1474890449245,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.custom": {
+    "value": "ಇಚ್ಛೆಯ",
+    "history": [
+      {
+        "userId": 325813,
+        "timestamp": 1474890449245,
+        "oldValue": "",
+        "newValue": "ಇಚ್ಛೆಯ",
         "explanation": null
       }
     ]
@@ -227,18 +299,6 @@
       }
     ]
   },
-  "neutral": {
-    "value": "ತಟಸ್ಥ",
-    "history": [
-      {
-        "userId": 325813,
-        "timestamp": 1474890449245,
-        "oldValue": "",
-        "newValue": "ತಟಸ್ಥ",
-        "explanation": null
-      }
-    ]
-  },
   "offScale": {
     "value": "ಪ್ರಮಾಣದ ಹೊರಗಿನ",
     "history": [
@@ -251,18 +311,6 @@
       }
     ]
   },
-  "pH": {
-    "value": "pH ನ",
-    "history": [
-      {
-        "userId": 325813,
-        "timestamp": 1474890449245,
-        "oldValue": "",
-        "newValue": "pH ನ",
-        "explanation": null
-      }
-    ]
-  },
   "pattern.0name.1pH": {
     "value": "{0} (pH {1})",
     "history": [
@@ -271,18 +319,6 @@
         "timestamp": 1474890449245,
         "oldValue": "",
         "newValue": "{0} (pH {1})",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0value.1units": {
-    "value": "{0} {1}",
-    "history": [
-      {
-        "userId": 325813,
-        "timestamp": 1474890449245,
-        "oldValue": "",
-        "newValue": "{0} {1}",
         "explanation": null
       }
     ]
@@ -323,18 +359,6 @@
       }
     ]
   },
-  "screen.macro": {
-    "value": "ದೊಡ್ಡ ಅಥವಾ ಭಾರಿ ಗಾತ್ರದ",
-    "history": [
-      {
-        "userId": 325813,
-        "timestamp": 1474890449245,
-        "oldValue": "",
-        "newValue": "ದೊಡ್ಡ ಅಥವಾ ಭಾರಿ ಗಾತ್ರದ",
-        "explanation": null
-      }
-    ]
-  },
   "screen.micro": {
     "value": "ಸೂಕ್ಷ್ಮ",
     "history": [
@@ -355,18 +379,6 @@
         "timestamp": 1474890449245,
         "oldValue": "",
         "newValue": "ನನ್ನ ದ್ರವ",
-        "explanation": null
-      }
-    ]
-  },
-  "units.liters": {
-    "value": "ಲೀ",
-    "history": [
-      {
-        "userId": 325813,
-        "timestamp": 1474890449245,
-        "oldValue": "",
-        "newValue": "ಲೀ",
         "explanation": null
       }
     ]
