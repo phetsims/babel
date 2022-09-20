@@ -205,6 +205,17 @@
       }
     ]
   },
+  "ieErrorPage.ieIsNotSupported": {
+    "value": "इंटरनेट एक्सप्लोरर समर्थित नहीं है।",
+    "history": [
+      {
+        "userId": 1085438,
+        "timestamp": 1663713763595,
+        "oldValue": "",
+        "newValue": "इंटरनेट एक्सप्लोरर समर्थित नहीं है।"
+      }
+    ]
+  },
   "queryParametersWarningDialog.invalidQueryParameters": {
     "value": "अमान्य क्वेरी पैरामीटर",
     "history": [
@@ -250,32 +261,6 @@
         "timestamp": 1521250465238,
         "oldValue": "",
         "newValue": "डिजाईन नेतृत्व : {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "menuItem.mailInputEventsLog": {
-    "value": "मेल इनपुट इवेंट लॉग",
-    "history": [
-      {
-        "userId": 339847,
-        "timestamp": 1503233071628,
-        "oldValue": "",
-        "newValue": "इनपुट इवेंट लॉग को मेल करें ",
-        "explanation": null
-      },
-      {
-        "userId": 339847,
-        "timestamp": 1503367759892,
-        "oldValue": "इनपुट इवेंट लॉग को मेल करें ",
-        "newValue": "",
-        "explanation": null
-      },
-      {
-        "userId": 339847,
-        "timestamp": 1521250465238,
-        "oldValue": "",
-        "newValue": "मेल इनपुट इवेंट लॉग",
         "explanation": null
       }
     ]
@@ -395,32 +380,6 @@
       }
     ]
   },
-  "menuItem.outputInputEventsLog": {
-    "value": "आउटपुट इनपुट ईवेंट लॉग",
-    "history": [
-      {
-        "userId": 339847,
-        "timestamp": 1503233071628,
-        "oldValue": "",
-        "newValue": "आउटपुट इनपुट इवेंट लॉग ",
-        "explanation": null
-      },
-      {
-        "userId": 339847,
-        "timestamp": 1503367759892,
-        "oldValue": "आउटपुट इनपुट इवेंट लॉग ",
-        "newValue": "",
-        "explanation": null
-      },
-      {
-        "userId": 339847,
-        "timestamp": 1521250465238,
-        "oldValue": "",
-        "newValue": "आउटपुट इनपुट ईवेंट लॉग",
-        "explanation": null
-      }
-    ]
-  },
   "menuItem.phetWebsite": {
     "value": "PhET संकेतस्थल .......",
     "history": [
@@ -444,6 +403,28 @@
         "oldValue": "",
         "newValue": "PhET संकेतस्थल .......",
         "explanation": null
+      }
+    ]
+  },
+  "ieErrorPage.platformError": {
+    "value": "प्लेटफार्म त्रुटि",
+    "history": [
+      {
+        "userId": 1085438,
+        "timestamp": 1663713763595,
+        "oldValue": "",
+        "newValue": "प्लेटफार्म त्रुटि"
+      }
+    ]
+  },
+  "ieErrorPage.useDifferentBrowser": {
+    "value": "कृपया इस सिम्युलेशन को चलाने के लिए किसी भिन्न ब्राउज़र का उपयोग करें।",
+    "history": [
+      {
+        "userId": 1085438,
+        "timestamp": 1663713763595,
+        "oldValue": "",
+        "newValue": "कृपया इस सिम्युलेशन को चलाने के लिए किसी भिन्न ब्राउज़र का उपयोग करें।"
       }
     ]
   },
@@ -559,32 +540,6 @@
         "timestamp": 1545557938240,
         "oldValue": "",
         "newValue": "ध्वनि रचना :{0}",
-        "explanation": null
-      }
-    ]
-  },
-  "menuItem.submitInputEventsLog": {
-    "value": "इनपुट ईवेंट लॉग सबमिट करें",
-    "history": [
-      {
-        "userId": 339847,
-        "timestamp": 1503233071629,
-        "oldValue": "",
-        "newValue": "इनपुट इवेंट लॉग सबमिट करें ",
-        "explanation": null
-      },
-      {
-        "userId": 339847,
-        "timestamp": 1503367759892,
-        "oldValue": "इनपुट इवेंट लॉग सबमिट करें ",
-        "newValue": "",
-        "explanation": null
-      },
-      {
-        "userId": 339847,
-        "timestamp": 1521250465238,
-        "oldValue": "",
-        "newValue": "इनपुट ईवेंट लॉग सबमिट करें",
         "explanation": null
       }
     ]
@@ -913,6 +868,84 @@
         "timestamp": 1526690627681,
         "oldValue": "",
         "newValue": "{{simName}} — {{screenName}}",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.mailInputEventsLog": {
+    "value": "मेल इनपुट इवेंट लॉग",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1503233071628,
+        "oldValue": "",
+        "newValue": "इनपुट इवेंट लॉग को मेल करें ",
+        "explanation": null
+      },
+      {
+        "userId": 339847,
+        "timestamp": 1503367759892,
+        "oldValue": "इनपुट इवेंट लॉग को मेल करें ",
+        "newValue": "",
+        "explanation": null
+      },
+      {
+        "userId": 339847,
+        "timestamp": 1521250465238,
+        "oldValue": "",
+        "newValue": "मेल इनपुट इवेंट लॉग",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.outputInputEventsLog": {
+    "value": "आउटपुट इनपुट ईवेंट लॉग",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1503233071628,
+        "oldValue": "",
+        "newValue": "आउटपुट इनपुट इवेंट लॉग ",
+        "explanation": null
+      },
+      {
+        "userId": 339847,
+        "timestamp": 1503367759892,
+        "oldValue": "आउटपुट इनपुट इवेंट लॉग ",
+        "newValue": "",
+        "explanation": null
+      },
+      {
+        "userId": 339847,
+        "timestamp": 1521250465238,
+        "oldValue": "",
+        "newValue": "आउटपुट इनपुट ईवेंट लॉग",
+        "explanation": null
+      }
+    ]
+  },
+  "menuItem.submitInputEventsLog": {
+    "value": "इनपुट ईवेंट लॉग सबमिट करें",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1503233071629,
+        "oldValue": "",
+        "newValue": "इनपुट इवेंट लॉग सबमिट करें ",
+        "explanation": null
+      },
+      {
+        "userId": 339847,
+        "timestamp": 1503367759892,
+        "oldValue": "इनपुट इवेंट लॉग सबमिट करें ",
+        "newValue": "",
+        "explanation": null
+      },
+      {
+        "userId": 339847,
+        "timestamp": 1521250465238,
+        "oldValue": "",
+        "newValue": "इनपुट ईवेंट लॉग सबमिट करें",
         "explanation": null
       }
     ]
