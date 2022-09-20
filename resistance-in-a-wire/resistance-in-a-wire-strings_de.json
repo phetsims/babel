@@ -71,18 +71,6 @@
       }
     ]
   },
-  "ohmsSymbol": {
-    "value": "Ω",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1474194987868,
-        "oldValue": "",
-        "newValue": "Ω",
-        "explanation": null
-      }
-    ]
-  },
   "pattern.0label.1value.2units": {
     "value": "{0} = {1}{2}",
     "history": [
@@ -96,7 +84,7 @@
     ]
   },
   "pattern.0resistanceUnits.1lengthUnits": {
-    "value": "{0}\u22C5{1}",
+    "value": "{0}⋅{1}",
     "history": [
       {
         "userId": 272196,
@@ -104,6 +92,12 @@
         "oldValue": "",
         "newValue": "{0}{1}",
         "explanation": null
+      },
+      {
+        "userId": 532304,
+        "timestamp": 1663710798708,
+        "oldValue": "{0}{1}",
+        "newValue": "{0}⋅{1}"
       }
     ]
   },
@@ -119,26 +113,14 @@
       }
     ]
   },
-  "resistance-in-a-wire.title": {
-    "value": "Widerstand in einem Kabel",
+  "resistivity": {
+    "value": "spez. Widerstand",
     "history": [
       {
         "userId": 272196,
         "timestamp": 1474194987868,
         "oldValue": "",
-        "newValue": "Widerstand in einem Kabel",
-        "explanation": null
-      }
-    ]
-  },
-  "resistanceEq": {
-    "value": "Widerstand",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1474194987868,
-        "oldValue": "",
-        "newValue": "Widerstand",
+        "newValue": "spez. Widerstand",
         "explanation": null
       }
     ]
@@ -155,14 +137,38 @@
       }
     ]
   },
-  "resistivity": {
-    "value": "spez. Widerstand",
+  "resistance-in-a-wire.title": {
+    "value": "Widerstand in einem Kabel",
     "history": [
       {
         "userId": 272196,
         "timestamp": 1474194987868,
         "oldValue": "",
-        "newValue": "spez. Widerstand",
+        "newValue": "Widerstand in einem Kabel",
+        "explanation": null
+      }
+    ]
+  },
+  "ohmsSymbol": {
+    "value": "Ω",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1474194987868,
+        "oldValue": "",
+        "newValue": "Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "resistanceEq": {
+    "value": "Widerstand",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1474194987868,
+        "oldValue": "",
+        "newValue": "Widerstand",
         "explanation": null
       }
     ]
