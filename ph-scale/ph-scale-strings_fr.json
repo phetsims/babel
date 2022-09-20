@@ -1,4 +1,16 @@
 {
+  "screen.macro": {
+    "value": "Macro",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "Macro",
+        "explanation": null
+      }
+    ]
+  },
   "acidic": {
     "value": "Acide",
     "history": [
@@ -19,6 +31,30 @@
         "timestamp": 1453832744011,
         "oldValue": "",
         "newValue": "Basique",
+        "explanation": null
+      }
+    ]
+  },
+  "pH": {
+    "value": "pH",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "pH",
+        "explanation": null
+      }
+    ]
+  },
+  "neutral": {
+    "value": "Neutre",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "Neutre",
         "explanation": null
       }
     ]
@@ -67,18 +103,6 @@
         "timestamp": 1453832744011,
         "oldValue": "",
         "newValue": "Café",
-        "explanation": null
-      }
-    ]
-  },
-  "choice.custom": {
-    "value": "Liquide particularisé",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1453832744011,
-        "oldValue": "",
-        "newValue": "Liquide particularisé",
         "explanation": null
       }
     ]
@@ -179,42 +203,6 @@
       }
     ]
   },
-  "neutral": {
-    "value": "Neutre",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1453832744011,
-        "oldValue": "",
-        "newValue": "Neutre",
-        "explanation": null
-      }
-    ]
-  },
-  "pH": {
-    "value": "pH",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1453832744011,
-        "oldValue": "",
-        "newValue": "pH",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0name.1pH": {
-    "value": "{0} (pH {1})",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1453832744011,
-        "oldValue": "",
-        "newValue": "{0} (pH {1})",
-        "explanation": null
-      }
-    ]
-  },
   "pattern.0value.1units": {
     "value": "{0} {1}",
     "history": [
@@ -227,18 +215,6 @@
       }
     ]
   },
-  "screen.macro": {
-    "value": "Macro",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1453832744011,
-        "oldValue": "",
-        "newValue": "Macro",
-        "explanation": null
-      }
-    ]
-  },
   "units.liters": {
     "value": "L",
     "history": [
@@ -247,6 +223,63 @@
         "timestamp": 1453832744011,
         "oldValue": "",
         "newValue": "L",
+        "explanation": null
+      }
+    ]
+  },
+  "logarithmic": {
+    "value": "Logarithmique",
+    "history": [
+      {
+        "userId": 663149,
+        "timestamp": 1663685099408,
+        "oldValue": "",
+        "newValue": "Logarithmique"
+      }
+    ]
+  },
+  "linear": {
+    "value": "Linéaire",
+    "history": [
+      {
+        "userId": 663149,
+        "timestamp": 1663685099408,
+        "oldValue": "",
+        "newValue": "Linéaire"
+      }
+    ]
+  },
+  "ph-scale.title": {
+    "value": "Echelle du pH",
+    "history": [
+      {
+        "userId": 663149,
+        "timestamp": 1663685099408,
+        "oldValue": "",
+        "newValue": "Echelle du pH"
+      }
+    ]
+  },
+  "choice.custom": {
+    "value": "Liquide particularisé",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "Liquide particularisé",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0name.1pH": {
+    "value": "{0} (pH {1})",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453832744011,
+        "oldValue": "",
+        "newValue": "{0} (pH {1})",
         "explanation": null
       }
     ]
