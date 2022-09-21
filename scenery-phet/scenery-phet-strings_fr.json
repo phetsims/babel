@@ -1,15 +1,4 @@
 {
-  "shortCircuit": {
-    "value": "Court circuit !",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1643378253800,
-        "oldValue": "",
-        "newValue": "Court circuit !"
-      }
-    ]
-  },
   "keyboardHelpDialog.hyphen": {
     "value": "-",
     "history": [
@@ -18,17 +7,6 @@
         "timestamp": 1613093244237,
         "oldValue": "",
         "newValue": "-"
-      }
-    ]
-  },
-  "keyboardHelpDialog.adjust": {
-    "value": "Régler",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1639018203646,
-        "oldValue": "",
-        "newValue": "Régler"
       }
     ]
   },
@@ -143,7 +121,7 @@
       }
     ]
   },
-  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
     "value": "Saisir ou relâcher {{thing}}",
     "history": [
       {
@@ -155,7 +133,7 @@
       }
     ]
   },
-  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
     "value": "Saisir ou relâcher {{thing}}",
     "history": [
       {
@@ -176,50 +154,6 @@
         "oldValue": "",
         "newValue": "Début",
         "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.jumpToMaximumPattern": {
-    "value": "Aller au {{maximum}}",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1618738125652,
-        "oldValue": "",
-        "newValue": "Aller au {{maximum}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.jumpToMinimumPattern": {
-    "value": "Aller au {{minimum}}",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1618738125652,
-        "oldValue": "",
-        "newValue": "Aller au {{minimum}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.maximum": {
-    "value": "maximum",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1618738125652,
-        "oldValue": "",
-        "newValue": "maximum"
-      }
-    ]
-  },
-  "keyboardHelpDialog.minimum": {
-    "value": "minimum",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1618738125652,
-        "oldValue": "",
-        "newValue": "minimum"
       }
     ]
   },
@@ -308,7 +242,7 @@
     ]
   },
   "keyboardHelpDialog.pressButtons": {
-    "value": "Appuie sur le bouton",
+    "value": "Appuyer sur le bouton",
     "history": [
       {
         "userId": 147846,
@@ -316,6 +250,12 @@
         "oldValue": "",
         "newValue": "Appuie sur le bouton",
         "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663774713142,
+        "oldValue": "Appuie sur le bouton",
+        "newValue": "Appuyer sur le bouton"
       }
     ]
   },
@@ -328,28 +268,6 @@
         "oldValue": "",
         "newValue": "Maj",
         "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.slider": {
-    "value": "curseur",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1618738125652,
-        "oldValue": "",
-        "newValue": "curseur"
-      }
-    ]
-  },
-  "keyboardHelpDialog.sliderControls": {
-    "value": "Commandes du curseur",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1618738125652,
-        "oldValue": "",
-        "newValue": "Commandes du curseur"
       }
     ]
   },
@@ -401,6 +319,129 @@
       }
     ]
   },
+  "stopwatchValueUnitsPattern": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1612410321321,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}"
+      }
+    ]
+  },
+  "symbol.resistivity": {
+    "value": "ρ",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548937981613,
+        "oldValue": "",
+        "newValue": "ρ",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.ohms": {
+    "value": "Ω",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548937981613,
+        "oldValue": "",
+        "newValue": "Ω",
+        "explanation": null
+      }
+    ]
+  },
+  "shortCircuit": {
+    "value": "Court circuit !",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1643378253800,
+        "oldValue": "",
+        "newValue": "Court circuit !"
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjust": {
+    "value": "Régler",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1639018203646,
+        "oldValue": "",
+        "newValue": "Régler"
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMaximumPattern": {
+    "value": "Aller au {{maximum}}",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1618738125652,
+        "oldValue": "",
+        "newValue": "Aller au {{maximum}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMinimumPattern": {
+    "value": "Aller au {{minimum}}",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1618738125652,
+        "oldValue": "",
+        "newValue": "Aller au {{minimum}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.maximum": {
+    "value": "maximum",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1618738125652,
+        "oldValue": "",
+        "newValue": "maximum"
+      }
+    ]
+  },
+  "keyboardHelpDialog.minimum": {
+    "value": "minimum",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1618738125652,
+        "oldValue": "",
+        "newValue": "minimum"
+      }
+    ]
+  },
+  "keyboardHelpDialog.slider": {
+    "value": "curseur",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1618738125652,
+        "oldValue": "",
+        "newValue": "curseur"
+      }
+    ]
+  },
+  "keyboardHelpDialog.sliderControls": {
+    "value": "Commandes du curseur",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1618738125652,
+        "oldValue": "",
+        "newValue": "Commandes du curseur"
+      }
+    ]
+  },
   "keyboardHelpDialog.verbInLargerStepsPattern": {
     "value": "{{verb}} avec des pas plus grands",
     "history": [
@@ -431,41 +472,6 @@
         "timestamp": 1618738125652,
         "oldValue": "",
         "newValue": "{{verb}} {{slider}}"
-      }
-    ]
-  },
-  "symbol.resistivity": {
-    "value": "ρ",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548937981613,
-        "oldValue": "",
-        "newValue": "ρ",
-        "explanation": null
-      }
-    ]
-  },
-  "symbol.ohms": {
-    "value": "Ω",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548937981613,
-        "oldValue": "",
-        "newValue": "Ω",
-        "explanation": null
-      }
-    ]
-  },
-  "stopwatchValueUnitsPattern": {
-    "value": "{{value}} {{units}}",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1612410321321,
-        "oldValue": "",
-        "newValue": "{{value}} {{units}}"
       }
     ]
   },
