@@ -99,17 +99,6 @@
       }
     ]
   },
-  "speed.fast": {
-    "value": "Rapide",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1612410321321,
-        "oldValue": "",
-        "newValue": "Rapide"
-      }
-    ]
-  },
   "key.fn": {
     "value": "Fn",
     "history": [
@@ -158,7 +147,7 @@
     ]
   },
   "keyboardHelpDialog.moveBetweenItemsInAGroup": {
-    "value": "Déplacement entre items dans un groupe",
+    "value": "Déplacement entre éléments dans un groupe",
     "history": [
       {
         "userId": 147846,
@@ -166,6 +155,12 @@
         "oldValue": "",
         "newValue": "Déplacement entre items dans un groupe",
         "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663780293207,
+        "oldValue": "Déplacement entre items dans un groupe",
+        "newValue": "Déplacement entre éléments dans un groupe"
       }
     ]
   },
@@ -202,18 +197,6 @@
         "timestamp": 1663775630573,
         "oldValue": "Aller à l'item précédent ou au groupe",
         "newValue": "Aller à l'élément précédent ou au groupe précédent"
-      }
-    ]
-  },
-  "speed.normal": {
-    "value": "Normal",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1554147960846,
-        "oldValue": "",
-        "newValue": "Normal",
-        "explanation": null
       }
     ]
   },
@@ -271,6 +254,18 @@
       }
     ]
   },
+  "webglWarning.contextLossReload": {
+    "value": "Recharger",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1468446753732,
+        "oldValue": "",
+        "newValue": "Recharger",
+        "explanation": null
+      }
+    ]
+  },
   "key.shift": {
     "value": "Maj",
     "history": [
@@ -283,14 +278,14 @@
       }
     ]
   },
-  "speed.slow": {
-    "value": "Lent",
+  "webglWarning.contextLossFailure": {
+    "value": "Désolé, une erreur graphique s'est produite",
     "history": [
       {
         "userId": 147846,
-        "timestamp": 1554147960846,
+        "timestamp": 1468446753732,
         "oldValue": "",
-        "newValue": "Lent",
+        "newValue": "Désolé, une erreur graphique s'est produite",
         "explanation": null
       }
     ]
@@ -331,14 +326,15 @@
       }
     ]
   },
-  "stopwatchValueUnitsPattern": {
-    "value": "{{value}} {{units}}",
+  "webglWarning.body": {
+    "value": "WebGL is not enabled or not available. Click to learn more.",
     "history": [
       {
         "userId": 237975,
-        "timestamp": 1612410321321,
+        "timestamp": 1468850892825,
         "oldValue": "",
-        "newValue": "{{value}} {{units}}"
+        "newValue": "WebGL is not enabled or not available. Click to learn more.",
+        "explanation": null
       }
     ]
   },
@@ -363,6 +359,52 @@
         "oldValue": "",
         "newValue": "Ω",
         "explanation": null
+      }
+    ]
+  },
+  "speed.fast": {
+    "value": "Rapide",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1612410321321,
+        "oldValue": "",
+        "newValue": "Rapide"
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "Normal",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1554147960846,
+        "oldValue": "",
+        "newValue": "Normal",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "Lent",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1554147960846,
+        "oldValue": "",
+        "newValue": "Lent",
+        "explanation": null
+      }
+    ]
+  },
+  "stopwatchValueUnitsPattern": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1612410321321,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}"
       }
     ]
   },
@@ -836,42 +878,6 @@
         "timestamp": 1453838907407,
         "oldValue": "",
         "newValue": "nm",
-        "explanation": null
-      }
-    ]
-  },
-  "webglWarning.body": {
-    "value": "WebGL is not enabled or not available. Click to learn more.",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1468850892825,
-        "oldValue": "",
-        "newValue": "WebGL is not enabled or not available. Click to learn more.",
-        "explanation": null
-      }
-    ]
-  },
-  "webglWarning.contextLossFailure": {
-    "value": "Désolé, une erreur graphique s'est produite",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1468446753732,
-        "oldValue": "",
-        "newValue": "Désolé, une erreur graphique s'est produite",
-        "explanation": null
-      }
-    ]
-  },
-  "webglWarning.contextLossReload": {
-    "value": "Recharger",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1468446753732,
-        "oldValue": "",
-        "newValue": "Recharger",
         "explanation": null
       }
     ]
