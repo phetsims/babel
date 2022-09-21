@@ -1,28 +1,4 @@
 {
-  "absorbance": {
-    "value": "Absortion",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1453838907407,
-        "oldValue": "",
-        "newValue": "Absortion",
-        "explanation": null
-      }
-    ]
-  },
-  "beers-law-lab.title": {
-    "value": "Laboratoire Loi de Beer-Lambert ",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1453838907407,
-        "oldValue": "",
-        "newValue": "Laboratoire Loi de Beer-Lambert ",
-        "explanation": null
-      }
-    ]
-  },
   "cobaltChloride": {
     "value": "chlorure de cobalt (II)",
     "history": [
@@ -48,6 +24,18 @@
     ]
   },
   "concentration": {
+    "value": "Concentration",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "Concentration",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.concentration": {
     "value": "Concentration",
     "history": [
       {
@@ -95,26 +83,55 @@
       }
     ]
   },
-  "preset": {
-    "value": "prédéfini",
+  "units.liters": {
+    "value": "L",
     "history": [
       {
         "userId": 237975,
-        "timestamp": 1453838907407,
+        "timestamp": 1453831874180,
         "oldValue": "",
-        "newValue": "prédéfini",
+        "newValue": "L",
         "explanation": null
       }
     ]
   },
   "lots": {
-    "value": "élevée",
+    "value": "importante",
     "history": [
       {
         "userId": 237975,
         "timestamp": 1453831874180,
         "oldValue": "",
         "newValue": "élevée",
+        "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663779737947,
+        "oldValue": "élevée",
+        "newValue": "importante"
+      }
+    ]
+  },
+  "units.milliliters": {
+    "value": "mL",
+    "history": [
+      {
+        "userId": 871615,
+        "timestamp": 1663779737947,
+        "oldValue": "",
+        "newValue": "mL"
+      }
+    ]
+  },
+  "units.molesPerLiter": {
+    "value": "mol/L",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "mol/L",
         "explanation": null
       }
     ]
@@ -139,42 +156,6 @@
         "timestamp": 1453831874180,
         "oldValue": "",
         "newValue": "aucune",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0label": {
-    "value": "{0}:",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1453831874180,
-        "oldValue": "",
-        "newValue": "{0}:",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0value.1units": {
-    "value": "{0} {1}",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1453831874180,
-        "oldValue": "",
-        "newValue": "{0} {1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.parentheses.0text": {
-    "value": "({0})",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1453831874180,
-        "oldValue": "",
-        "newValue": "({0})",
         "explanation": null
       }
     ]
@@ -239,27 +220,14 @@
       }
     ]
   },
-  "screen.beersLaw": {
-    "value": "Loi de Beer-Lambert ",
+  "sodiumChloride": {
+    "value": "Chlorure de sodium",
     "history": [
       {
-        "userId": 237975,
-        "timestamp": 1453838907407,
+        "userId": 871615,
+        "timestamp": 1663779737947,
         "oldValue": "",
-        "newValue": "Loi de Beer-Lambert ",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.concentration": {
-    "value": "Concentration",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1453831874180,
-        "oldValue": "",
-        "newValue": "Concentration",
-        "explanation": null
+        "newValue": "Chlorure de sodium"
       }
     ]
   },
@@ -287,6 +255,17 @@
       }
     ]
   },
+  "pattern.0soluteAmount": {
+    "value": " Masse de soluté : {0} g",
+    "history": [
+      {
+        "userId": 871615,
+        "timestamp": 1663779737947,
+        "oldValue": "",
+        "newValue": " Masse de soluté : {0} g"
+      }
+    ]
+  },
   "solution": {
     "value": "Solution",
     "history": [
@@ -295,6 +274,90 @@
         "timestamp": 1453831874180,
         "oldValue": "",
         "newValue": "Solution",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "{0} {1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0label": {
+    "value": "{0}:",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "{0}:",
+        "explanation": null
+      }
+    ]
+  },
+  "absorbance": {
+    "value": "Absortion",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453838907407,
+        "oldValue": "",
+        "newValue": "Absortion",
+        "explanation": null
+      }
+    ]
+  },
+  "beers-law-lab.title": {
+    "value": "Laboratoire Loi de Beer-Lambert ",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453838907407,
+        "oldValue": "",
+        "newValue": "Laboratoire Loi de Beer-Lambert ",
+        "explanation": null
+      }
+    ]
+  },
+  "preset": {
+    "value": "prédéfini",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453838907407,
+        "oldValue": "",
+        "newValue": "prédéfini",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.parentheses.0text": {
+    "value": "({0})",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453831874180,
+        "oldValue": "",
+        "newValue": "({0})",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.beersLaw": {
+    "value": "Loi de Beer-Lambert ",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1453838907407,
+        "oldValue": "",
+        "newValue": "Loi de Beer-Lambert ",
         "explanation": null
       }
     ]
@@ -319,30 +382,6 @@
         "timestamp": 1453838907407,
         "oldValue": "",
         "newValue": "cm",
-        "explanation": null
-      }
-    ]
-  },
-  "units.liters": {
-    "value": "L",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1453831874180,
-        "oldValue": "",
-        "newValue": "L",
-        "explanation": null
-      }
-    ]
-  },
-  "units.molesPerLiter": {
-    "value": "mol/L",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1453831874180,
-        "oldValue": "",
-        "newValue": "mol/L",
         "explanation": null
       }
     ]
