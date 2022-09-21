@@ -87,7 +87,7 @@
       }
     ]
   },
-  "gravity.custom": {
+  "material.custom": {
     "value": "Personnalisé",
     "history": [
       {
@@ -98,7 +98,7 @@
       }
     ]
   },
-  "material.custom": {
+  "gravity.custom": {
     "value": "Personnalisé",
     "history": [
       {
@@ -121,101 +121,53 @@
     ]
   },
   "densityReadout": {
-    "value": "Densité (Kg/L)",
+    "value": "Masse volumique (kg/L)",
     "history": [
       {
         "userId": 237975,
         "timestamp": 1643135558886,
         "oldValue": "",
         "newValue": "Densité (Kg/L)"
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663780293207,
+        "oldValue": "Densité (Kg/L)",
+        "newValue": "Masse volumique (kg/L)"
       }
     ]
   },
   "densityKgL": {
-    "value": "Densité (Kg/L)",
+    "value": "Masse volumique(kg/L)",
     "history": [
       {
         "userId": 237975,
         "timestamp": 1643135558886,
         "oldValue": "",
         "newValue": "Densité (Kg/L)"
-      }
-    ]
-  },
-  "material.densityP": {
-    "value": "Densité P",
-    "history": [
+      },
       {
-        "userId": 237975,
-        "timestamp": 1643135558886,
-        "oldValue": "",
-        "newValue": "Densité P"
-      }
-    ]
-  },
-  "material.densityQ": {
-    "value": " Densité Q",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1643135558886,
-        "oldValue": "",
-        "newValue": " Densité Q"
-      }
-    ]
-  },
-  "material.densityR": {
-    "value": "Densité R",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1643135558886,
-        "oldValue": "",
-        "newValue": "Densité R"
-      }
-    ]
-  },
-  "material.densityS": {
-    "value": "Densité S",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1643135558886,
-        "oldValue": "",
-        "newValue": "Densité S"
+        "userId": 871615,
+        "timestamp": 1663780293207,
+        "oldValue": "Densité (Kg/L)",
+        "newValue": "Masse volumique(kg/L)"
       }
     ]
   },
   "densityTable": {
-    "value": "Densité de la table",
+    "value": "Masse volumique de la table",
     "history": [
       {
         "userId": 237975,
         "timestamp": 1643135558886,
         "oldValue": "",
         "newValue": "Densité de la table"
-      }
-    ]
-  },
-  "material.densityX": {
-    "value": "Densité X",
-    "history": [
+      },
       {
-        "userId": 237975,
-        "timestamp": 1643135558886,
-        "oldValue": "",
-        "newValue": "Densité X"
-      }
-    ]
-  },
-  "material.densityY": {
-    "value": "Densité Y",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1643135558886,
-        "oldValue": "",
-        "newValue": "Densité Y"
+        "userId": 871615,
+        "timestamp": 1663780293207,
+        "oldValue": "Densité de la table",
+        "newValue": "Masse volumique de la table"
       }
     ]
   },
@@ -395,6 +347,17 @@
       }
     ]
   },
+  "material.platinum": {
+    "value": "Platine",
+    "history": [
+      {
+        "userId": 871615,
+        "timestamp": 1663780293208,
+        "oldValue": "",
+        "newValue": "Platine"
+      }
+    ]
+  },
   "material.pyrite": {
     "value": "Pyrite",
     "history": [
@@ -418,13 +381,19 @@
     ]
   },
   "blockSet.sameDensity": {
-    "value": "Même Densité",
+    "value": "Même Masse Volumique",
     "history": [
       {
         "userId": 237975,
         "timestamp": 1643135558886,
         "oldValue": "",
         "newValue": "Même Densité"
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663780293208,
+        "oldValue": "Même Densité",
+        "newValue": "Même Masse Volumique"
       }
     ]
   },
@@ -528,13 +497,19 @@
     ]
   },
   "material.styrofoam": {
-    "value": "polystyrène",
+    "value": "Polystyrène",
     "history": [
       {
         "userId": 237975,
         "timestamp": 1643135558886,
         "oldValue": "",
         "newValue": "polystyrène"
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663780293208,
+        "oldValue": "polystyrène",
+        "newValue": "Polystyrène"
       }
     ]
   },
@@ -601,6 +576,72 @@
         "timestamp": 1643135558886,
         "oldValue": "",
         "newValue": "{{value}} kg/L"
+      }
+    ]
+  },
+  "material.densityP": {
+    "value": "Densité P",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1643135558886,
+        "oldValue": "",
+        "newValue": "Densité P"
+      }
+    ]
+  },
+  "material.densityQ": {
+    "value": " Densité Q",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1643135558886,
+        "oldValue": "",
+        "newValue": " Densité Q"
+      }
+    ]
+  },
+  "material.densityR": {
+    "value": "Densité R",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1643135558886,
+        "oldValue": "",
+        "newValue": "Densité R"
+      }
+    ]
+  },
+  "material.densityS": {
+    "value": "Densité S",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1643135558886,
+        "oldValue": "",
+        "newValue": "Densité S"
+      }
+    ]
+  },
+  "material.densityX": {
+    "value": "Densité X",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1643135558886,
+        "oldValue": "",
+        "newValue": "Densité X"
+      }
+    ]
+  },
+  "material.densityY": {
+    "value": "Densité Y",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1643135558886,
+        "oldValue": "",
+        "newValue": "Densité Y"
       }
     ]
   }
