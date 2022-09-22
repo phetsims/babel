@@ -24,7 +24,7 @@
     ]
   },
   "atmospheres": {
-    "value": "Atmosphères",
+    "value": "Atmosphère",
     "history": [
       {
         "userId": 147846,
@@ -32,30 +32,12 @@
         "oldValue": "",
         "newValue": "Atmosphères",
         "explanation": null
-      }
-    ]
-  },
-  "densityUnitsEnglish": {
-    "value": "lb/ft<sup>3</sup>",
-    "history": [
+      },
       {
-        "userId": 147846,
-        "timestamp": 1468447326939,
-        "oldValue": "",
-        "newValue": "lb/ft<sup>3</sup>",
-        "explanation": null
-      }
-    ]
-  },
-  "densityUnitsMetric": {
-    "value": "kg/m<sup>3</sup>",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1468447326939,
-        "oldValue": "",
-        "newValue": "kg/m<sup>3</sup>",
-        "explanation": null
+        "userId": 871615,
+        "timestamp": 1663831460794,
+        "oldValue": "Atmosphères",
+        "newValue": "Atmosphère"
       }
     ]
   },
@@ -72,7 +54,7 @@
     ]
   },
   "english": {
-    "value": "Anglais",
+    "value": "Système Impérial",
     "history": [
       {
         "userId": 147846,
@@ -80,6 +62,12 @@
         "oldValue": "",
         "newValue": "Anglais",
         "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663831460794,
+        "oldValue": "Anglais",
+        "newValue": "Système Impérial"
       }
     ]
   },
@@ -120,7 +108,7 @@
     ]
   },
   "fluidDensity": {
-    "value": "Densité du fluide",
+    "value": "Masse volumique du fluide",
     "history": [
       {
         "userId": 147846,
@@ -128,6 +116,12 @@
         "oldValue": "",
         "newValue": "Densité du fluide",
         "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663831460794,
+        "oldValue": "Densité du fluide",
+        "newValue": "Masse volumique du fluide"
       }
     ]
   },
@@ -168,7 +162,7 @@
     ]
   },
   "gravity": {
-    "value": "Gravité",
+    "value": "Pesanteur",
     "history": [
       {
         "userId": 147846,
@@ -176,6 +170,12 @@
         "oldValue": "",
         "newValue": "Gravité",
         "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663831460794,
+        "oldValue": "Gravité",
+        "newValue": "Pesanteur"
       }
     ]
   },
@@ -215,6 +215,18 @@
       }
     ]
   },
+  "densityUnitsMetric": {
+    "value": "kg/m<sup>3</sup>",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1468447326939,
+        "oldValue": "",
+        "newValue": "kg/m<sup>3</sup>",
+        "explanation": null
+      }
+    ]
+  },
   "kPa": {
     "value": "kPa",
     "history": [
@@ -223,6 +235,18 @@
         "timestamp": 1468447326939,
         "oldValue": "",
         "newValue": "kPa",
+        "explanation": null
+      }
+    ]
+  },
+  "densityUnitsEnglish": {
+    "value": "lb/ft<sup>3</sup>",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1468447326939,
+        "oldValue": "",
+        "newValue": "lb/ft<sup>3</sup>",
         "explanation": null
       }
     ]
@@ -263,20 +287,8 @@
       }
     ]
   },
-  "massLabelPattern": {
-    "value": "{0} kg",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1468447326939,
-        "oldValue": "",
-        "newValue": "{0} kg",
-        "explanation": null
-      }
-    ]
-  },
   "metric": {
-    "value": "Métrique",
+    "value": "Système Métrique",
     "history": [
       {
         "userId": 147846,
@@ -284,6 +296,12 @@
         "oldValue": "",
         "newValue": "Métrique",
         "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663831460794,
+        "oldValue": "Métrique",
+        "newValue": "Système Métrique"
       }
     ]
   },
@@ -395,30 +413,6 @@
       }
     ]
   },
-  "readoutFeet": {
-    "value": "{0} ft",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1468447326939,
-        "oldValue": "",
-        "newValue": "{0} ft",
-        "explanation": null
-      }
-    ]
-  },
-  "readoutMeters": {
-    "value": "{0} m",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1468447326939,
-        "oldValue": "",
-        "newValue": "{0} m",
-        "explanation": null
-      }
-    ]
-  },
   "ruler": {
     "value": "Règle",
     "history": [
@@ -455,18 +449,6 @@
       }
     ]
   },
-  "valueWithUnitsPattern": {
-    "value": "{0} {1}",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1468447326939,
-        "oldValue": "",
-        "newValue": "{0} {1}",
-        "explanation": null
-      }
-    ]
-  },
   "water": {
     "value": "eau",
     "history": [
@@ -475,6 +457,54 @@
         "timestamp": 1468447326939,
         "oldValue": "",
         "newValue": "eau",
+        "explanation": null
+      }
+    ]
+  },
+  "readoutFeet": {
+    "value": "{0} ft",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1468447326939,
+        "oldValue": "",
+        "newValue": "{0} ft",
+        "explanation": null
+      }
+    ]
+  },
+  "massLabelPattern": {
+    "value": "{0} kg",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1468447326939,
+        "oldValue": "",
+        "newValue": "{0} kg",
+        "explanation": null
+      }
+    ]
+  },
+  "readoutMeters": {
+    "value": "{0} m",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1468447326939,
+        "oldValue": "",
+        "newValue": "{0} m",
+        "explanation": null
+      }
+    ]
+  },
+  "valueWithUnitsPattern": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1468447326939,
+        "oldValue": "",
+        "newValue": "{0} {1}",
         "explanation": null
       }
     ]
