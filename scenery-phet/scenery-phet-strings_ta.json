@@ -1,15 +1,4 @@
 {
-  "keyboardHelpDialog.adjust": {
-    "value": "சீராக்க",
-    "history": [
-      {
-        "userId": 603471,
-        "timestamp": 1657180493474,
-        "oldValue": "",
-        "newValue": "சீராக்க"
-      }
-    ]
-  },
   "keyboardHelpDialog.basicActions": {
     "value": "அடிப்படைச் செயற்பாடு",
     "history": [
@@ -33,7 +22,7 @@
     ]
   },
   "key.enter": {
-    "value": "அழுத்தவும்",
+    "value": "",
     "history": [
       {
         "userId": 603471,
@@ -41,11 +30,28 @@
         "oldValue": "",
         "newValue": "அழுத்தவும்",
         "explanation": null
+      },
+      {
+        "userId": 1087362,
+        "timestamp": 1663859852393,
+        "oldValue": "அழுத்தவும்",
+        "newValue": ""
+      }
+    ]
+  },
+  "keyboardHelpDialog.exitADialog": {
+    "value": "வெளியேற",
+    "history": [
+      {
+        "userId": 1087362,
+        "timestamp": 1663859852393,
+        "oldValue": "",
+        "newValue": "வெளியேற"
       }
     ]
   },
   "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-    "value": "{{thing}} ஐப் பிடிக்கவும் அல்லது விடவும்",
+    "value": "{{thing}} ஐப் பிடிக்க (அ) விட",
     "history": [
       {
         "userId": 603471,
@@ -53,11 +59,17 @@
         "oldValue": "",
         "newValue": "{{thing}} ஐப் பிடிக்கவும் அல்லது விடவும்",
         "explanation": null
+      },
+      {
+        "userId": 1087362,
+        "timestamp": 1663859852393,
+        "oldValue": "{{thing}} ஐப் பிடிக்கவும் அல்லது விடவும்",
+        "newValue": "{{thing}} ஐப் பிடிக்க (அ) விட"
       }
     ]
   },
   "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-    "value": "{{thing}} ஐப் பிடிக்கவும் அல்லது விடவும்",
+    "value": "{{thing}} ஐப் பிடிக்க (அ) விட",
     "history": [
       {
         "userId": 603471,
@@ -65,6 +77,12 @@
         "oldValue": "",
         "newValue": "{{thing}} ஐப் பிடிக்கவும் அல்லது விடவும்",
         "explanation": null
+      },
+      {
+        "userId": 1087362,
+        "timestamp": 1663859852393,
+        "oldValue": "{{thing}} ஐப் பிடிக்கவும் அல்லது விடவும்",
+        "newValue": "{{thing}} ஐப் பிடிக்க (அ) விட"
       }
     ]
   },
@@ -79,6 +97,147 @@
       }
     ]
   },
+  "keyboardHelpDialog.moveToNextItemOrGroup": {
+    "value": "அடுத்து செல்ல",
+    "history": [
+      {
+        "userId": 1087362,
+        "timestamp": 1663859852393,
+        "oldValue": "",
+        "newValue": "அடுத்து செல்ல"
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+    "value": "முன் செல்ல",
+    "history": [
+      {
+        "userId": 1087362,
+        "timestamp": 1663859852393,
+        "oldValue": "",
+        "newValue": "முன் செல்ல"
+      }
+    ]
+  },
+  "keyboardHelpDialog.or": {
+    "value": "or",
+    "history": [
+      {
+        "userId": 603471,
+        "timestamp": 1545244784857,
+        "oldValue": "",
+        "newValue": "அல்லது",
+        "explanation": null
+      },
+      {
+        "userId": 1087362,
+        "timestamp": 1663859852393,
+        "oldValue": "அல்லது",
+        "newValue": "or"
+      }
+    ]
+  },
+  "key.pageDown": {
+    "value": "",
+    "history": [
+      {
+        "userId": 603471,
+        "timestamp": 1551370439310,
+        "oldValue": "",
+        "newValue": "விசைப்பலகையின் PageDown",
+        "explanation": null
+      },
+      {
+        "userId": 1087362,
+        "timestamp": 1663859852393,
+        "oldValue": "விசைப்பலகையின் PageDown",
+        "newValue": ""
+      }
+    ]
+  },
+  "key.pageUp": {
+    "value": "",
+    "history": [
+      {
+        "userId": 603471,
+        "timestamp": 1551370439310,
+        "oldValue": "",
+        "newValue": "விசைப்பலகையின் PageUp",
+        "explanation": null
+      },
+      {
+        "userId": 1087362,
+        "timestamp": 1663859852393,
+        "oldValue": "விசைப்பலகையின் PageUp",
+        "newValue": ""
+      }
+    ]
+  },
+  "key.shift": {
+    "value": "Shift",
+    "history": [
+      {
+        "userId": 603471,
+        "timestamp": 1551370439310,
+        "oldValue": "",
+        "newValue": "விசைப்பலகையின் Shift",
+        "explanation": null
+      },
+      {
+        "userId": 1087362,
+        "timestamp": 1663859852393,
+        "oldValue": "விசைப்பலகையின் Shift",
+        "newValue": "Shift"
+      }
+    ]
+  },
+  "key.space": {
+    "value": "Space",
+    "history": [
+      {
+        "userId": 603471,
+        "timestamp": 1551370439310,
+        "oldValue": "",
+        "newValue": "விசைப்பலகையின் Space",
+        "explanation": null
+      },
+      {
+        "userId": 1087362,
+        "timestamp": 1663859852393,
+        "oldValue": "விசைப்பலகையின் Space",
+        "newValue": "Space"
+      }
+    ]
+  },
+  "key.tab": {
+    "value": "Tab",
+    "history": [
+      {
+        "userId": 603471,
+        "timestamp": 1551370439310,
+        "oldValue": "",
+        "newValue": "விசைப்பலகையின் Tab",
+        "explanation": null
+      },
+      {
+        "userId": 1087362,
+        "timestamp": 1663859852393,
+        "oldValue": "விசைப்பலகையின் Tab",
+        "newValue": "Tab"
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjust": {
+    "value": "சீராக்க",
+    "history": [
+      {
+        "userId": 603471,
+        "timestamp": 1657180493474,
+        "oldValue": "",
+        "newValue": "சீராக்க"
+      }
+    ]
+  },
   "keyboardHelpDialog.comboBox.option": {
     "value": "விருப்பத்தெரிவு",
     "history": [
@@ -87,78 +246,6 @@
         "timestamp": 1657180493474,
         "oldValue": "",
         "newValue": "விருப்பத்தெரிவு"
-      }
-    ]
-  },
-  "keyboardHelpDialog.or": {
-    "value": "அல்லது",
-    "history": [
-      {
-        "userId": 603471,
-        "timestamp": 1545244784857,
-        "oldValue": "",
-        "newValue": "அல்லது",
-        "explanation": null
-      }
-    ]
-  },
-  "key.pageDown": {
-    "value": "விசைப்பலகையின் PageDown",
-    "history": [
-      {
-        "userId": 603471,
-        "timestamp": 1551370439310,
-        "oldValue": "",
-        "newValue": "விசைப்பலகையின் PageDown",
-        "explanation": null
-      }
-    ]
-  },
-  "key.pageUp": {
-    "value": "விசைப்பலகையின் PageUp",
-    "history": [
-      {
-        "userId": 603471,
-        "timestamp": 1551370439310,
-        "oldValue": "",
-        "newValue": "விசைப்பலகையின் PageUp",
-        "explanation": null
-      }
-    ]
-  },
-  "key.shift": {
-    "value": "விசைப்பலகையின் Shift",
-    "history": [
-      {
-        "userId": 603471,
-        "timestamp": 1551370439310,
-        "oldValue": "",
-        "newValue": "விசைப்பலகையின் Shift",
-        "explanation": null
-      }
-    ]
-  },
-  "key.space": {
-    "value": "விசைப்பலகையின் Space",
-    "history": [
-      {
-        "userId": 603471,
-        "timestamp": 1551370439310,
-        "oldValue": "",
-        "newValue": "விசைப்பலகையின் Space",
-        "explanation": null
-      }
-    ]
-  },
-  "key.tab": {
-    "value": "விசைப்பலகையின் Tab",
-    "history": [
-      {
-        "userId": 603471,
-        "timestamp": 1551370439310,
-        "oldValue": "",
-        "newValue": "விசைப்பலகையின் Tab",
-        "explanation": null
       }
     ]
   },
