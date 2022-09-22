@@ -143,36 +143,6 @@
       }
     ]
   },
-  "ieErrorPage.ieIsNotSupported": {
-    "value": "Internet Explorer wird nicht unterstützt.",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1599640154977,
-        "oldValue": "",
-        "newValue": "Internet Explorer wird nicht unterstützt",
-        "explanation": null
-      },
-      {
-        "userId": 446279,
-        "timestamp": 1614712659528,
-        "oldValue": "Internet Explorer wird nicht unterstützt",
-        "newValue": "Internet Explorer wird nicht unterstützt."
-      }
-    ]
-  },
-  "queryParametersWarningDialog.invalidQueryParameters": {
-    "value": "Unzulässige Eingabewerte",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1583935397799,
-        "oldValue": "",
-        "newValue": "Unzulässige Eingabewerte",
-        "explanation": null
-      }
-    ]
-  },
   "keyboardShortcuts.title": {
     "value": "Tastaturkürzel",
     "history": [
@@ -192,7 +162,7 @@
     ]
   },
   "credits.leadDesign": {
-    "value": "Idee & Design: {0}",
+    "value": "Design: {0}",
     "history": [
       {
         "userId": 272196,
@@ -200,6 +170,12 @@
         "oldValue": "",
         "newValue": "Idee & Design: {0}",
         "explanation": null
+      },
+      {
+        "userId": 1092172,
+        "timestamp": 1663889420855,
+        "oldValue": "Idee & Design: {0}",
+        "newValue": "Design: {0}"
       }
     ]
   },
@@ -239,18 +215,6 @@
       }
     ]
   },
-  "queryParametersWarningDialog.oneOrMoreQueryParameters": {
-    "value": "Ein oder mehrere Eingabewerte sind nicht zulässig:",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1583935397799,
-        "oldValue": "",
-        "newValue": "Ein oder mehrere Eingabewerte sind nicht zulässig:",
-        "explanation": null
-      }
-    ]
-  },
   "options.title": {
     "value": "Optionen",
     "history": [
@@ -287,39 +251,15 @@
       }
     ]
   },
-  "ieErrorPage.platformError": {
-    "value": "Plattformfehler",
+  "projectorMode": {
+    "value": "Projektions Modus",
     "history": [
       {
         "userId": 272196,
-        "timestamp": 1599640154978,
+        "timestamp": 1475616092865,
         "oldValue": "",
-        "newValue": "Plattform Fehler",
+        "newValue": "Projektions Modus",
         "explanation": null
-      },
-      {
-        "userId": 446279,
-        "timestamp": 1614712659528,
-        "oldValue": "Plattform Fehler",
-        "newValue": "Plattformfehler"
-      }
-    ]
-  },
-  "ieErrorPage.useDifferentBrowser": {
-    "value": "Bitte anderen Browser für diese Simulation benutzen.",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1599640154978,
-        "oldValue": "",
-        "newValue": "Benutze einen anderen Browser für diese Simulation.",
-        "explanation": null
-      },
-      {
-        "userId": 446279,
-        "timestamp": 1614712659528,
-        "oldValue": "Benutze einen anderen Browser für diese Simulation.",
-        "newValue": "Bitte anderen Browser für diese Simulation benutzen."
       }
     ]
   },
@@ -422,18 +362,6 @@
         "timestamp": 1454851110266,
         "oldValue": "",
         "newValue": "Dank",
-        "explanation": null
-      }
-    ]
-  },
-  "queryParametersWarningDialog.theSimulationWillStart": {
-    "value": "Die Simulation startet mit Grundeinstellungen für<br>die Eingabewerte.",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1583935397799,
-        "oldValue": "",
-        "newValue": "Die Simulation startet mit Grundeinstellungen für<br>die Eingabewerte.",
         "explanation": null
       }
     ]
@@ -588,6 +516,96 @@
         "timestamp": 1510269411385,
         "oldValue": "",
         "newValue": "{{simName}} — {{screenName}}",
+        "explanation": null
+      }
+    ]
+  },
+  "ieErrorPage.ieIsNotSupported": {
+    "value": "Internet Explorer wird nicht unterstützt.",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1599640154977,
+        "oldValue": "",
+        "newValue": "Internet Explorer wird nicht unterstützt",
+        "explanation": null
+      },
+      {
+        "userId": 446279,
+        "timestamp": 1614712659528,
+        "oldValue": "Internet Explorer wird nicht unterstützt",
+        "newValue": "Internet Explorer wird nicht unterstützt."
+      }
+    ]
+  },
+  "queryParametersWarningDialog.invalidQueryParameters": {
+    "value": "Unzulässige Eingabewerte",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1583935397799,
+        "oldValue": "",
+        "newValue": "Unzulässige Eingabewerte",
+        "explanation": null
+      }
+    ]
+  },
+  "queryParametersWarningDialog.oneOrMoreQueryParameters": {
+    "value": "Ein oder mehrere Eingabewerte sind nicht zulässig:",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1583935397799,
+        "oldValue": "",
+        "newValue": "Ein oder mehrere Eingabewerte sind nicht zulässig:",
+        "explanation": null
+      }
+    ]
+  },
+  "ieErrorPage.platformError": {
+    "value": "Plattformfehler",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1599640154978,
+        "oldValue": "",
+        "newValue": "Plattform Fehler",
+        "explanation": null
+      },
+      {
+        "userId": 446279,
+        "timestamp": 1614712659528,
+        "oldValue": "Plattform Fehler",
+        "newValue": "Plattformfehler"
+      }
+    ]
+  },
+  "ieErrorPage.useDifferentBrowser": {
+    "value": "Bitte anderen Browser für diese Simulation benutzen.",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1599640154978,
+        "oldValue": "",
+        "newValue": "Benutze einen anderen Browser für diese Simulation.",
+        "explanation": null
+      },
+      {
+        "userId": 446279,
+        "timestamp": 1614712659528,
+        "oldValue": "Benutze einen anderen Browser für diese Simulation.",
+        "newValue": "Bitte anderen Browser für diese Simulation benutzen."
+      }
+    ]
+  },
+  "queryParametersWarningDialog.theSimulationWillStart": {
+    "value": "Die Simulation startet mit Grundeinstellungen für<br>die Eingabewerte.",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1583935397799,
+        "oldValue": "",
+        "newValue": "Die Simulation startet mit Grundeinstellungen für<br>die Eingabewerte.",
         "explanation": null
       }
     ]
@@ -816,18 +834,6 @@
         "timestamp": 1473607321076,
         "oldValue": "Maus anzeigen",
         "newValue": "Pointer zeigen",
-        "explanation": null
-      }
-    ]
-  },
-  "projectorMode": {
-    "value": "Projektions Modus",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1475616092865,
-        "oldValue": "",
-        "newValue": "Projektions Modus",
         "explanation": null
       }
     ]
