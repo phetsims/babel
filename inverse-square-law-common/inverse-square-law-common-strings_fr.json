@@ -11,8 +11,19 @@
       }
     ]
   },
+  "decimalNotation": {
+    "value": "Notation décimale",
+    "history": [
+      {
+        "userId": 871615,
+        "timestamp": 1663832010216,
+        "oldValue": "",
+        "newValue": "Notation décimale"
+      }
+    ]
+  },
   "forceOnObjectByOtherObjectPattern": {
-    "value": "Force de {{otherObject}} sur {{thisObject}} ",
+    "value": "Force exercée par {{otherObject}} sur {{thisObject}} ",
     "history": [
       {
         "userId": 147846,
@@ -20,11 +31,17 @@
         "oldValue": "",
         "newValue": "Force de {{otherObject}} sur {{thisObject}} ",
         "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663832010216,
+        "oldValue": "Force de {{otherObject}} sur {{thisObject}} ",
+        "newValue": "Force exercée par {{otherObject}} sur {{thisObject}} "
       }
     ]
   },
   "forceOnObjectByOtherObjectWithUnitsPattern": {
-    "value": "Force de {{otherObject}} sur {{thisObject}} = {{value}} N  ",
+    "value": "Force exercée par {{otherObject}} sur {{thisObject}} = {{value}} N  ",
     "history": [
       {
         "userId": 147846,
@@ -32,6 +49,12 @@
         "oldValue": "",
         "newValue": "Force de {{otherObject}} sur {{thisObject}} = {{value}} N  ",
         "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663832010216,
+        "oldValue": "Force de {{otherObject}} sur {{thisObject}} = {{value}} N  ",
+        "newValue": "Force exercée par {{otherObject}} sur {{thisObject}} = {{value}} N  "
       }
     ]
   },
@@ -53,32 +76,8 @@
       }
     ]
   },
-  "units.picometers": {
-    "value": "pm",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548938838502,
-        "oldValue": "",
-        "newValue": "pm",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern_0value_1units": {
-    "value": "{{value}} {{units}}",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548938838502,
-        "oldValue": "",
-        "newValue": "{{value}} {{units}}",
-        "explanation": null
-      }
-    ]
-  },
   "hidden": {
-    "value": "Caché",
+    "value": "Masqué",
     "history": [
       {
         "userId": 237975,
@@ -86,6 +85,12 @@
         "oldValue": "",
         "newValue": "Caché",
         "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663832010216,
+        "oldValue": "Caché",
+        "newValue": "Masqué"
       }
     ]
   },
@@ -126,13 +131,43 @@
     ]
   },
   "scientificNotation": {
-    "value": "Notation Scientifique",
+    "value": "Notation scientifique",
     "history": [
       {
         "userId": 237975,
         "timestamp": 1584844839885,
         "oldValue": "",
         "newValue": "Notation Scientifique",
+        "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663832010216,
+        "oldValue": "Notation Scientifique",
+        "newValue": "Notation scientifique"
+      }
+    ]
+  },
+  "pattern_0value_1units": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548938838502,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "units.picometers": {
+    "value": "pm",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548938838502,
+        "oldValue": "",
+        "newValue": "pm",
         "explanation": null
       }
     ]
