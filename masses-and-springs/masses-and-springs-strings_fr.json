@@ -1,4 +1,46 @@
 {
+  "questionMark": {
+    "value": "?",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "?",
+        "explanation": null
+      }
+    ]
+  },
+  "acceleration": {
+    "value": "Accélération",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "Acceleration",
+        "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663854100168,
+        "oldValue": "Acceleration",
+        "newValue": "Accélération"
+      }
+    ]
+  },
+  "cm": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "cm",
+        "explanation": null
+      }
+    ]
+  },
   "body.custom": {
     "value": "Personnalisé",
     "history": [
@@ -11,6 +53,78 @@
       }
     ]
   },
+  "damping": {
+    "value": "Amortissement",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "Amortissement",
+        "explanation": null
+      }
+    ]
+  },
+  "dampingEqualsZero": {
+    "value": "Amortissement {{equalsZero}}",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "Amortissement {{equalsZero}}",
+        "explanation": null
+      }
+    ]
+  },
+  "displacement": {
+    "value": "Déplacement",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "Déplacement",
+        "explanation": null
+      }
+    ]
+  },
+  "eTherm": {
+    "value": "E<sub>th</sub>",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "E<sub>therm</sub>",
+        "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663854100168,
+        "oldValue": "E<sub>therm</sub>",
+        "newValue": "E<sub>th</sub>"
+      }
+    ]
+  },
+  "eTot": {
+    "value": "E<sub>tot</sub>",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "E<sub>totale</sub>",
+        "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663854100168,
+        "oldValue": "E<sub>totale</sub>",
+        "newValue": "E<sub>tot</sub>"
+      }
+    ]
+  },
   "body.earth": {
     "value": "Terre",
     "history": [
@@ -19,42 +133,6 @@
         "timestamp": 1539030773178,
         "oldValue": "",
         "newValue": "Terre",
-        "explanation": null
-      }
-    ]
-  },
-  "body.jupiter": {
-    "value": "Jupiter",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "Jupiter",
-        "explanation": null
-      }
-    ]
-  },
-  "body.moon": {
-    "value": "Lune",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "Lune",
-        "explanation": null
-      }
-    ]
-  },
-  "body.planetX": {
-    "value": "Planète X",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "Planète X",
         "explanation": null
       }
     ]
@@ -101,21 +179,15 @@
       }
     ]
   },
-  "eTherm": {
-    "value": "E<sub>th</sub>",
+  "forces": {
+    "value": "Forces",
     "history": [
       {
         "userId": 147846,
         "timestamp": 1539030773178,
         "oldValue": "",
-        "newValue": "E<sub>therm</sub>",
+        "newValue": "Forces",
         "explanation": null
-      },
-      {
-        "userId": 871615,
-        "timestamp": 1663854100168,
-        "oldValue": "E<sub>therm</sub>",
-        "newValue": "E<sub>th</sub>"
       }
     ]
   },
@@ -134,6 +206,48 @@
         "timestamp": 1663854100168,
         "oldValue": "Energie potentielle gravitationnelle",
         "newValue": "Énergie potentielle de pesanteur"
+      }
+    ]
+  },
+  "gravity": {
+    "value": "Pesanteur",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "Gravité",
+        "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663854100168,
+        "oldValue": "Gravité",
+        "newValue": "Pesanteur"
+      }
+    ]
+  },
+  "heightEqualsZero": {
+    "value": "Hauteur = 0 m",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "Hauteur = 0 m",
+        "explanation": null
+      }
+    ]
+  },
+  "body.jupiter": {
+    "value": "Jupiter",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "Jupiter",
+        "explanation": null
       }
     ]
   },
@@ -173,6 +287,145 @@
       }
     ]
   },
+  "large": {
+    "value": "Élevée",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "Grand",
+        "explanation": null
+      },
+      {
+        "userId": 147846,
+        "timestamp": 1554147960846,
+        "oldValue": "Grand",
+        "newValue": "Grande",
+        "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663854646297,
+        "oldValue": "Grande",
+        "newValue": "Élevée"
+      }
+    ]
+  },
+  "lots": {
+    "value": "Beaucoup",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "Beaucoup",
+        "explanation": null
+      }
+    ]
+  },
+  "mass": {
+    "value": "Masse",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "Masse",
+        "explanation": null
+      }
+    ]
+  },
+  "massEquilibrium": {
+    "value": "Position de l'objet à l'équilibre",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "Equilibre de masse",
+        "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663854100168,
+        "oldValue": "Equilibre de masse",
+        "newValue": "Position de l'objet à l'équilibre"
+      }
+    ]
+  },
+  "body.moon": {
+    "value": "Lune",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "Lune",
+        "explanation": null
+      }
+    ]
+  },
+  "movableLine": {
+    "value": "Ligne mobile",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "Ligne mobile",
+        "explanation": null
+      }
+    ]
+  },
+  "naturalLength": {
+    "value": "Longueur au repos",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "Longueur au repos",
+        "explanation": null
+      }
+    ]
+  },
+  "netForce": {
+    "value": "Résultante des forces",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "Force nette",
+        "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663854100168,
+        "oldValue": "Force nette",
+        "newValue": "Résultante des forces"
+      }
+    ]
+  },
+  "none": {
+    "value": "0",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "Aucun",
+        "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663854100168,
+        "oldValue": "Aucun",
+        "newValue": "0"
+      }
+    ]
+  },
   "peElas": {
     "value": "E<sub>P<sub>elas</sub></sub>",
     "history": [
@@ -206,6 +459,109 @@
         "timestamp": 1663854100168,
         "oldValue": "EP<sub>grav</sub>",
         "newValue": "E<sub>P<sub>pes</sub></sub>"
+      }
+    ]
+  },
+  "periodTrace": {
+    "value": "Tracé de la période",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "Tracé de la période",
+        "explanation": null
+      }
+    ]
+  },
+  "body.planetX": {
+    "value": "Planète X",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "Planète X",
+        "explanation": null
+      }
+    ]
+  },
+  "small": {
+    "value": "Faible",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "Petit",
+        "explanation": null
+      },
+      {
+        "userId": 147846,
+        "timestamp": 1554147960846,
+        "oldValue": "Petit",
+        "newValue": "Petite",
+        "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663854646297,
+        "oldValue": "Petite",
+        "newValue": "Faible"
+      }
+    ]
+  },
+  "spring": {
+    "value": "Ressort",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "Ressort",
+        "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663854100168,
+        "oldValue": "Ressort",
+        "newValue": "Force de rappel du ressort"
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663854646297,
+        "oldValue": "Force de rappel du ressort",
+        "newValue": "Ressort"
+      }
+    ]
+  },
+  "springConstantPattern": {
+    "value": "Constante de raideur {{spring}}",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1554147960846,
+        "oldValue": "",
+        "newValue": "Constante de raideur {{spring}}",
+        "explanation": null
+      }
+    ]
+  },
+  "springStrength": {
+    "value": "Force de rappel du ressort {{spring}}",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1554147960846,
+        "oldValue": "",
+        "newValue": "Force du ressort {{spring}}",
+        "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663854646297,
+        "oldValue": "Force du ressort {{spring}}",
+        "newValue": "Force de rappel du ressort {{spring}}"
       }
     ]
   },
@@ -245,141 +601,33 @@
       }
     ]
   },
-  "eTot": {
-    "value": "E<sub>tot</sub>",
+  "velocity": {
+    "value": "Vitesse",
     "history": [
       {
         "userId": 147846,
         "timestamp": 1539030773178,
         "oldValue": "",
-        "newValue": "E<sub>totale</sub>",
+        "newValue": "Vitesse",
+        "explanation": null
+      }
+    ]
+  },
+  "whatIsTheValueOfGravity": {
+    "value": "Quelle est la valeur de la pesanteur ?",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1539030773178,
+        "oldValue": "",
+        "newValue": "Quelle est la valeur de la gravité ?",
         "explanation": null
       },
       {
         "userId": 871615,
-        "timestamp": 1663854100168,
-        "oldValue": "E<sub>totale</sub>",
-        "newValue": "E<sub>tot</sub>"
-      }
-    ]
-  },
-  "massValue": {
-    "value": "{{mass}} g",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "{{mass}} g",
-        "explanation": null
-      }
-    ]
-  },
-  "questionMark": {
-    "value": "?",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "?",
-        "explanation": null
-      }
-    ]
-  },
-  "mass": {
-    "value": "Masse",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "Masse",
-        "explanation": null
-      }
-    ]
-  },
-  "cm": {
-    "value": "cm",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "cm",
-        "explanation": null
-      }
-    ]
-  },
-  "damping": {
-    "value": "Amortissement",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "Amortissement",
-        "explanation": null
-      }
-    ]
-  },
-  "dampingEqualsZero": {
-    "value": "Amortissement {{equalsZero}}",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "Amortissement {{equalsZero}}",
-        "explanation": null
-      }
-    ]
-  },
-  "lots": {
-    "value": "Beaucoup",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "Beaucoup",
-        "explanation": null
-      }
-    ]
-  },
-  "none": {
-    "value": "0",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "Aucun",
-        "explanation": null
-      },
-      {
-        "userId": 871615,
-        "timestamp": 1663854100168,
-        "oldValue": "Aucun",
-        "newValue": "0"
-      }
-    ]
-  },
-  "gravity": {
-    "value": "Pesanteur",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "Gravité",
-        "explanation": null
-      },
-      {
-        "userId": 871615,
-        "timestamp": 1663854100168,
-        "oldValue": "Gravité",
-        "newValue": "Pesanteur"
+        "timestamp": 1663854646297,
+        "oldValue": "Quelle est la valeur de la gravité ?",
+        "newValue": "Quelle est la valeur de la pesanteur ?"
       }
     ]
   },
@@ -395,80 +643,14 @@
       }
     ]
   },
-  "whatIsTheValueOfGravity": {
-    "value": "Quelle est la valeur de la gravité ?",
+  "massValue": {
+    "value": "{{mass}} g",
     "history": [
       {
         "userId": 147846,
         "timestamp": 1539030773178,
         "oldValue": "",
-        "newValue": "Quelle est la valeur de la gravité ?",
-        "explanation": null
-      }
-    ]
-  },
-  "massEquilibrium": {
-    "value": "Position de l'objet à l'équilibre",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "Equilibre de masse",
-        "explanation": null
-      },
-      {
-        "userId": 871615,
-        "timestamp": 1663854100168,
-        "oldValue": "Equilibre de masse",
-        "newValue": "Position de l'objet à l'équilibre"
-      }
-    ]
-  },
-  "movableLine": {
-    "value": "Ligne mobile",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "Ligne mobile",
-        "explanation": null
-      }
-    ]
-  },
-  "displacement": {
-    "value": "Déplacement",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "Déplacement",
-        "explanation": null
-      }
-    ]
-  },
-  "naturalLength": {
-    "value": "Longueur au repos",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "Longueur au repos",
-        "explanation": null
-      }
-    ]
-  },
-  "periodTrace": {
-    "value": "Tracé de la période",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "Tracé de la période",
+        "newValue": "{{mass}} g",
         "explanation": null
       }
     ]
@@ -481,56 +663,6 @@
         "timestamp": 1539030773178,
         "oldValue": "",
         "newValue": "Constante de raideur {{spring}}",
-        "explanation": null
-      }
-    ]
-  },
-  "heightEqualsZero": {
-    "value": "Hauteur = 0 m",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "Hauteur = 0 m",
-        "explanation": null
-      }
-    ]
-  },
-  "large": {
-    "value": "Grande",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "Grand",
-        "explanation": null
-      },
-      {
-        "userId": 147846,
-        "timestamp": 1554147960846,
-        "oldValue": "Grand",
-        "newValue": "Grande",
-        "explanation": null
-      }
-    ]
-  },
-  "small": {
-    "value": "Petite",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "Petit",
-        "explanation": null
-      },
-      {
-        "userId": 147846,
-        "timestamp": 1554147960846,
-        "oldValue": "Petit",
-        "newValue": "Petite",
         "explanation": null
       }
     ]
@@ -643,84 +775,6 @@
       }
     ]
   },
-  "acceleration": {
-    "value": "Accélération",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "Acceleration",
-        "explanation": null
-      },
-      {
-        "userId": 871615,
-        "timestamp": 1663854100168,
-        "oldValue": "Acceleration",
-        "newValue": "Accélération"
-      }
-    ]
-  },
-  "forces": {
-    "value": "Forces",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "Forces",
-        "explanation": null
-      }
-    ]
-  },
-  "netForce": {
-    "value": "Résultante des forces",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "Force nette",
-        "explanation": null
-      },
-      {
-        "userId": 871615,
-        "timestamp": 1663854100168,
-        "oldValue": "Force nette",
-        "newValue": "Résultante des forces"
-      }
-    ]
-  },
-  "spring": {
-    "value": "Force de rappel du ressort",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "Ressort",
-        "explanation": null
-      },
-      {
-        "userId": 871615,
-        "timestamp": 1663854100168,
-        "oldValue": "Ressort",
-        "newValue": "Force de rappel du ressort"
-      }
-    ]
-  },
-  "velocity": {
-    "value": "Vitesse",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1539030773178,
-        "oldValue": "",
-        "newValue": "Vitesse",
-        "explanation": null
-      }
-    ]
-  },
   "screen.lab": {
     "value": "Labo",
     "history": [
@@ -760,30 +814,6 @@
         "timestamp": 1663854100168,
         "oldValue": "Masses et ressorts",
         "newValue": "Masses et Ressorts"
-      }
-    ]
-  },
-  "springStrength": {
-    "value": "Force du ressort {{spring}}",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1554147960846,
-        "oldValue": "",
-        "newValue": "Force du ressort {{spring}}",
-        "explanation": null
-      }
-    ]
-  },
-  "springConstantPattern": {
-    "value": "Constante de raideur {{spring}}",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1554147960846,
-        "oldValue": "",
-        "newValue": "Constante de raideur {{spring}}",
-        "explanation": null
       }
     ]
   }
