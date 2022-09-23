@@ -1,4 +1,48 @@
 {
+  "drinkMix": {
+    "value": "mescla",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1620362855480,
+        "oldValue": "",
+        "newValue": "mescla"
+      }
+    ]
+  },
+  "units.mM": {
+    "value": "mM",
+    "history": [
+      {
+        "userId": 1018435,
+        "timestamp": 1663949119102,
+        "oldValue": "",
+        "newValue": "mM"
+      }
+    ]
+  },
+  "units.uM": {
+    "value": "μM",
+    "history": [
+      {
+        "userId": 1018435,
+        "timestamp": 1663949119102,
+        "oldValue": "",
+        "newValue": "μM"
+      }
+    ]
+  },
+  "water": {
+    "value": "aigua",
+    "history": [
+      {
+        "userId": 1018435,
+        "timestamp": 1663949119102,
+        "oldValue": "",
+        "newValue": "aigua"
+      }
+    ]
+  },
   "cobaltChloride": {
     "value": "clorur de cobalt (II)",
     "history": [
@@ -21,28 +65,6 @@
       }
     ]
   },
-  "screen.concentration": {
-    "value": "Concentració",
-    "history": [
-      {
-        "userId": 936741,
-        "timestamp": 1620362855480,
-        "oldValue": "",
-        "newValue": "Concentració"
-      }
-    ]
-  },
-  "concentration": {
-    "value": "Concentració",
-    "history": [
-      {
-        "userId": 936741,
-        "timestamp": 1620362855480,
-        "oldValue": "",
-        "newValue": "Concentració"
-      }
-    ]
-  },
   "copperSulfate": {
     "value": "sulfat de coure (II)",
     "history": [
@@ -51,72 +73,6 @@
         "timestamp": 1620362855480,
         "oldValue": "",
         "newValue": "sulfat de coure (II)"
-      }
-    ]
-  },
-  "drinkMix": {
-    "value": "mescla",
-    "history": [
-      {
-        "userId": 936741,
-        "timestamp": 1620362855480,
-        "oldValue": "",
-        "newValue": "mescla"
-      }
-    ]
-  },
-  "evaporation": {
-    "value": "Evaporació",
-    "history": [
-      {
-        "userId": 936741,
-        "timestamp": 1620362855480,
-        "oldValue": "",
-        "newValue": "Evaporació"
-      }
-    ]
-  },
-  "units.liters": {
-    "value": "L",
-    "history": [
-      {
-        "userId": 936741,
-        "timestamp": 1620362855480,
-        "oldValue": "",
-        "newValue": "L"
-      }
-    ]
-  },
-  "lots": {
-    "value": "molta",
-    "history": [
-      {
-        "userId": 936741,
-        "timestamp": 1620362855480,
-        "oldValue": "",
-        "newValue": "molta"
-      }
-    ]
-  },
-  "units.milliliters": {
-    "value": "mL",
-    "history": [
-      {
-        "userId": 936741,
-        "timestamp": 1620362855480,
-        "oldValue": "",
-        "newValue": "mL"
-      }
-    ]
-  },
-  "units.molesPerLiter": {
-    "value": "mol/L",
-    "history": [
-      {
-        "userId": 936741,
-        "timestamp": 1620362855480,
-        "oldValue": "",
-        "newValue": "mol/L"
       }
     ]
   },
@@ -131,14 +87,25 @@
       }
     ]
   },
-  "none": {
-    "value": "gens",
+  "pattern.0formula.1name": {
+    "value": "{0}: {1}",
+    "history": [
+      {
+        "userId": 1018435,
+        "timestamp": 1663949119102,
+        "oldValue": "",
+        "newValue": "{0}: {1}"
+      }
+    ]
+  },
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
     "history": [
       {
         "userId": 936741,
         "timestamp": 1620362855480,
         "oldValue": "",
-        "newValue": "gens"
+        "newValue": "{0} {1}"
       }
     ]
   },
@@ -175,6 +142,215 @@
       }
     ]
   },
+  "absorbance": {
+    "value": "Absorbància",
+    "history": [
+      {
+        "userId": 1018435,
+        "timestamp": 1663949119102,
+        "oldValue": "",
+        "newValue": "Absorbància"
+      }
+    ]
+  },
+  "pattern.0percent": {
+    "value": "{0}%",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1620362855480,
+        "oldValue": "",
+        "newValue": "{0}%"
+      }
+    ]
+  },
+  "transmittance": {
+    "value": "Transmitància",
+    "history": [
+      {
+        "userId": 1018435,
+        "timestamp": 1663949119102,
+        "oldValue": "",
+        "newValue": "Transmitància"
+      }
+    ]
+  },
+  "units.centimeters": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 1018435,
+        "timestamp": 1663949119102,
+        "oldValue": "",
+        "newValue": "cm"
+      }
+    ]
+  },
+  "concentration": {
+    "value": "Concentració",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1620362855480,
+        "oldValue": "",
+        "newValue": "Concentració"
+      }
+    ]
+  },
+  "pattern.0label": {
+    "value": "{0}:",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1620362855480,
+        "oldValue": "",
+        "newValue": "{0}:"
+      }
+    ]
+  },
+  "solution": {
+    "value": "Solució",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1620362855480,
+        "oldValue": "",
+        "newValue": "Solució"
+      }
+    ]
+  },
+  "preset": {
+    "value": "preestablert",
+    "history": [
+      {
+        "userId": 1018435,
+        "timestamp": 1663949119102,
+        "oldValue": "",
+        "newValue": "preestablert"
+      }
+    ]
+  },
+  "units.nm": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 1018435,
+        "timestamp": 1663949119102,
+        "oldValue": "",
+        "newValue": "nm"
+      }
+    ]
+  },
+  "variable": {
+    "value": "Variable",
+    "history": [
+      {
+        "userId": 1018435,
+        "timestamp": 1663949119102,
+        "oldValue": "",
+        "newValue": "Variable"
+      }
+    ]
+  },
+  "wavelength": {
+    "value": "longitud d'ona",
+    "history": [
+      {
+        "userId": 1018435,
+        "timestamp": 1663949119102,
+        "oldValue": "",
+        "newValue": "longitud d'ona"
+      }
+    ]
+  },
+  "screen.beersLaw": {
+    "value": "Llei de Beer",
+    "history": [
+      {
+        "userId": 1018435,
+        "timestamp": 1663949119102,
+        "oldValue": "",
+        "newValue": "Llei de Beer"
+      }
+    ]
+  },
+  "sodiumChloride": {
+    "value": "clorur de sodi",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1620362855480,
+        "oldValue": "",
+        "newValue": "clorur de sodi"
+      }
+    ]
+  },
+  "units.liters": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1620362855480,
+        "oldValue": "",
+        "newValue": "L"
+      }
+    ]
+  },
+  "units.milliliters": {
+    "value": "mL",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1620362855480,
+        "oldValue": "",
+        "newValue": "mL"
+      }
+    ]
+  },
+  "units.molesPerLiter": {
+    "value": "mol/L",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1620362855480,
+        "oldValue": "",
+        "newValue": "mol/L"
+      }
+    ]
+  },
+  "evaporation": {
+    "value": "Evaporació",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1620362855480,
+        "oldValue": "",
+        "newValue": "Evaporació"
+      }
+    ]
+  },
+  "lots": {
+    "value": "molta",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1620362855480,
+        "oldValue": "",
+        "newValue": "molta"
+      }
+    ]
+  },
+  "none": {
+    "value": "gens",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1620362855480,
+        "oldValue": "",
+        "newValue": "gens"
+      }
+    ]
+  },
   "removeSolute": {
     "value": "Elimina el solut",
     "history": [
@@ -197,25 +373,14 @@
       }
     ]
   },
-  "sodiumChloride": {
-    "value": "clorur de sodi",
+  "pattern.0soluteAmount": {
+    "value": "Quantitat de solut: {0} g",
     "history": [
       {
         "userId": 936741,
         "timestamp": 1620362855480,
         "oldValue": "",
-        "newValue": "clorur de sodi"
-      }
-    ]
-  },
-  "solid": {
-    "value": "Sòlid",
-    "history": [
-      {
-        "userId": 936741,
-        "timestamp": 1620362855480,
-        "oldValue": "",
-        "newValue": "Sòlid"
+        "newValue": "Quantitat de solut: {0} g"
       }
     ]
   },
@@ -230,58 +395,36 @@
       }
     ]
   },
-  "pattern.0soluteAmount": {
-    "value": "Quantitat de solut: {0} g",
+  "solid": {
+    "value": "Sòlid",
     "history": [
       {
         "userId": 936741,
         "timestamp": 1620362855480,
         "oldValue": "",
-        "newValue": "Quantitat de solut: {0} g"
+        "newValue": "Sòlid"
       }
     ]
   },
-  "solution": {
-    "value": "Solució",
+  "screen.concentration": {
+    "value": "Concentració",
     "history": [
       {
         "userId": 936741,
         "timestamp": 1620362855480,
         "oldValue": "",
-        "newValue": "Solució"
+        "newValue": "Concentració"
       }
     ]
   },
-  "pattern.0value.1units": {
-    "value": "{0} {1}",
+  "beers-law-lab.title": {
+    "value": "Laboratori de la llei de Beer",
     "history": [
       {
-        "userId": 936741,
-        "timestamp": 1620362855480,
+        "userId": 1018435,
+        "timestamp": 1663949119102,
         "oldValue": "",
-        "newValue": "{0} {1}"
-      }
-    ]
-  },
-  "pattern.0percent": {
-    "value": "{0}%",
-    "history": [
-      {
-        "userId": 936741,
-        "timestamp": 1620362855480,
-        "oldValue": "",
-        "newValue": "{0}%"
-      }
-    ]
-  },
-  "pattern.0label": {
-    "value": "{0}:",
-    "history": [
-      {
-        "userId": 936741,
-        "timestamp": 1620362855480,
-        "oldValue": "",
-        "newValue": "{0}:"
+        "newValue": "Laboratori de la llei de Beer"
       }
     ]
   }
