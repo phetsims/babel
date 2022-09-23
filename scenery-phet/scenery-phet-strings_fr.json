@@ -10,6 +10,61 @@
       }
     ]
   },
+  "keyboardHelpDialog.comboBox.popUpListPattern": {
+    "value": "1. Pop up Liste de {{thingPlural}}",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1618738125652,
+        "oldValue": "",
+        "newValue": "1. Pop up Liste de {{thingPlural}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.moveThroughPattern": {
+    "value": "2. Déplacer {{thingPlural}}",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1618738125652,
+        "oldValue": "",
+        "newValue": "2. Déplacer {{thingPlural}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.chooseNewPattern": {
+    "value": "3. Choisir un nouveau {{thingSingular}}",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1618738125652,
+        "oldValue": "",
+        "newValue": "3. Choisir un nouveau {{thingSingular}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+    "value": "4. Fermer la liste sans rien changer",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1618738125652,
+        "oldValue": "",
+        "newValue": "4. Fermer la liste sans rien changer"
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjust": {
+    "value": "Régler",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1639018203646,
+        "oldValue": "",
+        "newValue": "Régler"
+      }
+    ]
+  },
   "key.alt": {
     "value": "Alt",
     "history": [
@@ -105,17 +160,6 @@
       }
     ]
   },
-  "speed.fast": {
-    "value": "Rapide",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1612410321321,
-        "oldValue": "",
-        "newValue": "Rapide"
-      }
-    ]
-  },
   "key.fn": {
     "value": "Fn",
     "history": [
@@ -178,6 +222,50 @@
         "timestamp": 1663923298899,
         "oldValue": "Début",
         "newValue": "Accueil"
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMaximumPattern": {
+    "value": "Aller au {{maximum}}",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1618738125652,
+        "oldValue": "",
+        "newValue": "Aller au {{maximum}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMinimumPattern": {
+    "value": "Aller au {{minimum}}",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1618738125652,
+        "oldValue": "",
+        "newValue": "Aller au {{minimum}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.maximum": {
+    "value": "maximum",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1618738125652,
+        "oldValue": "",
+        "newValue": "maximum"
+      }
+    ]
+  },
+  "keyboardHelpDialog.minimum": {
+    "value": "minimum",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1618738125652,
+        "oldValue": "",
+        "newValue": "minimum"
       }
     ]
   },
@@ -247,15 +335,25 @@
       }
     ]
   },
-  "speed.normal": {
-    "value": "Normal",
+  "keyboardHelpDialog.comboBox.option": {
+    "value": "option",
     "history": [
       {
         "userId": 147846,
-        "timestamp": 1554147960846,
+        "timestamp": 1618738125652,
         "oldValue": "",
-        "newValue": "Normal",
-        "explanation": null
+        "newValue": "option"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.options": {
+    "value": "options",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1618738125652,
+        "oldValue": "",
+        "newValue": "options"
       }
     ]
   },
@@ -295,6 +393,17 @@
       }
     ]
   },
+  "keyboardHelpDialog.comboBox.headingString": {
+    "value": "Menu d'ouverture Pop",
+    "history": [
+      {
+        "userId": 1086112,
+        "timestamp": 1663926768916,
+        "oldValue": "",
+        "newValue": "Menu d'ouverture Pop"
+      }
+    ]
+  },
   "keyboardHelpDialog.pressButtons": {
     "value": "Appuyez sur les touches",
     "history": [
@@ -331,15 +440,25 @@
       }
     ]
   },
-  "speed.slow": {
-    "value": "Lent",
+  "keyboardHelpDialog.slider": {
+    "value": "curseur",
     "history": [
       {
         "userId": 147846,
-        "timestamp": 1554147960846,
+        "timestamp": 1618738125652,
         "oldValue": "",
-        "newValue": "Lent",
-        "explanation": null
+        "newValue": "curseur"
+      }
+    ]
+  },
+  "keyboardHelpDialog.sliderControls": {
+    "value": "Commandes du curseur",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1618738125652,
+        "oldValue": "",
+        "newValue": "Commandes du curseur"
       }
     ]
   },
@@ -390,14 +509,36 @@
       }
     ]
   },
-  "stopwatchValueUnitsPattern": {
-    "value": "{{value}} {{units}}",
+  "keyboardHelpDialog.verbInLargerStepsPattern": {
+    "value": "{{verb}} avec des pas plus grands",
     "history": [
       {
-        "userId": 237975,
-        "timestamp": 1612410321321,
+        "userId": 147846,
+        "timestamp": 1618738125652,
         "oldValue": "",
-        "newValue": "{{value}} {{units}}"
+        "newValue": "{{verb}} avec des pas plus grands"
+      }
+    ]
+  },
+  "keyboardHelpDialog.verbInSmallerStepsPattern": {
+    "value": "{{verb}} avec des pas plus petits",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1618738125652,
+        "oldValue": "",
+        "newValue": "{{verb}} avec des pas plus petits"
+      }
+    ]
+  },
+  "keyboardHelpDialog.verbSliderPattern": {
+    "value": "{{verb}} {{slider}}",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1618738125652,
+        "oldValue": "",
+        "newValue": "{{verb}} {{slider}}"
       }
     ]
   },
@@ -422,6 +563,52 @@
         "oldValue": "",
         "newValue": "Ω",
         "explanation": null
+      }
+    ]
+  },
+  "speed.fast": {
+    "value": "Rapide",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1612410321321,
+        "oldValue": "",
+        "newValue": "Rapide"
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "Normal",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1554147960846,
+        "oldValue": "",
+        "newValue": "Normal",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "Lent",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1554147960846,
+        "oldValue": "",
+        "newValue": "Lent",
+        "explanation": null
+      }
+    ]
+  },
+  "stopwatchValueUnitsPattern": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1612410321321,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}"
       }
     ]
   },
@@ -532,160 +719,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.adjust": {
-    "value": "Régler",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1639018203646,
-        "oldValue": "",
-        "newValue": "Régler"
-      }
-    ]
-  },
-  "keyboardHelpDialog.jumpToMaximumPattern": {
-    "value": "Aller au {{maximum}}",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1618738125652,
-        "oldValue": "",
-        "newValue": "Aller au {{maximum}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.jumpToMinimumPattern": {
-    "value": "Aller au {{minimum}}",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1618738125652,
-        "oldValue": "",
-        "newValue": "Aller au {{minimum}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.maximum": {
-    "value": "maximum",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1618738125652,
-        "oldValue": "",
-        "newValue": "maximum"
-      }
-    ]
-  },
-  "keyboardHelpDialog.minimum": {
-    "value": "minimum",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1618738125652,
-        "oldValue": "",
-        "newValue": "minimum"
-      }
-    ]
-  },
-  "keyboardHelpDialog.slider": {
-    "value": "curseur",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1618738125652,
-        "oldValue": "",
-        "newValue": "curseur"
-      }
-    ]
-  },
-  "keyboardHelpDialog.sliderControls": {
-    "value": "Commandes du curseur",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1618738125652,
-        "oldValue": "",
-        "newValue": "Commandes du curseur"
-      }
-    ]
-  },
-  "keyboardHelpDialog.verbInLargerStepsPattern": {
-    "value": "{{verb}} avec des pas plus grands",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1618738125652,
-        "oldValue": "",
-        "newValue": "{{verb}} avec des pas plus grands"
-      }
-    ]
-  },
-  "keyboardHelpDialog.verbInSmallerStepsPattern": {
-    "value": "{{verb}} avec des pas plus petits",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1618738125652,
-        "oldValue": "",
-        "newValue": "{{verb}} avec des pas plus petits"
-      }
-    ]
-  },
-  "keyboardHelpDialog.verbSliderPattern": {
-    "value": "{{verb}} {{slider}}",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1618738125652,
-        "oldValue": "",
-        "newValue": "{{verb}} {{slider}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.popUpListPattern": {
-    "value": "1. Pop up Liste de {{thingPlural}}",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1618738125652,
-        "oldValue": "",
-        "newValue": "1. Pop up Liste de {{thingPlural}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.moveThroughPattern": {
-    "value": "2. Déplacer {{thingPlural}}",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1618738125652,
-        "oldValue": "",
-        "newValue": "2. Déplacer {{thingPlural}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.chooseNewPattern": {
-    "value": "3. Choisir un nouveau {{thingSingular}}",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1618738125652,
-        "oldValue": "",
-        "newValue": "3. Choisir un nouveau {{thingSingular}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-    "value": "4. Fermer la liste sans rien changer",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1618738125652,
-        "oldValue": "",
-        "newValue": "4. Fermer la liste sans rien changer"
-      }
-    ]
-  },
   "keyboardHelpDialog.comboBox.chooseAThingPattern": {
     "value": "Choisir un {{thingTitle}}",
     "history": [
@@ -749,28 +782,6 @@
         "timestamp": 1618738125652,
         "oldValue": "",
         "newValue": "un"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.option": {
-    "value": "option",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1618738125652,
-        "oldValue": "",
-        "newValue": "option"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.options": {
-    "value": "options",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1618738125652,
-        "oldValue": "",
-        "newValue": "options"
       }
     ]
   },
