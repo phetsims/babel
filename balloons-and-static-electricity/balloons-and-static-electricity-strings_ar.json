@@ -23,22 +23,75 @@
       }
     ]
   },
-  "moveOrJumpGrabbedBalloonHeading": {
-    "value": "نقل أو قفز البالون الممسوك",
+  "jumpCloseToSweaterLabel": {
+    "value": "التقريب من كنزة الصوف",
     "history": [
       {
         "userId": 576246,
         "timestamp": 1533241666915,
         "oldValue": "",
-        "newValue": "نقل أو قفر البالون الممسوك",
+        "newValue": "القفز بالقرب من سترة",
         "explanation": null
       },
       {
+        "userId": 149292,
+        "timestamp": 1663917921483,
+        "oldValue": "القفز بالقرب من سترة",
+        "newValue": "التقريب من كنزة الصوف"
+      }
+    ]
+  },
+  "jumpCloseToWallLabel": {
+    "value": "النقل إلى الجدار",
+    "history": [
+      {
         "userId": 576246,
-        "timestamp": 1533241707628,
-        "oldValue": "نقل أو قفر البالون الممسوك",
-        "newValue": "نقل أو قفز البالون الممسوك",
+        "timestamp": 1533241666915,
+        "oldValue": "",
+        "newValue": "القفزالي الجدار",
         "explanation": null
+      },
+      {
+        "userId": 149292,
+        "timestamp": 1663917921483,
+        "oldValue": "القفزالي الجدار",
+        "newValue": "النقل إلى الجدار"
+      }
+    ]
+  },
+  "jumpNearWallLabel": {
+    "value": "النقل بالقرب من الجدار",
+    "history": [
+      {
+        "userId": 576246,
+        "timestamp": 1533241666915,
+        "oldValue": "",
+        "newValue": "القفز بالقرب من الجدار",
+        "explanation": null
+      },
+      {
+        "userId": 149292,
+        "timestamp": 1663917921483,
+        "oldValue": "القفز بالقرب من الجدار",
+        "newValue": "النقل بالقرب من الجدار"
+      }
+    ]
+  },
+  "jumpToCenterLabel": {
+    "value": "النقل إلى المركز",
+    "history": [
+      {
+        "userId": 576246,
+        "timestamp": 1533241666915,
+        "oldValue": "",
+        "newValue": "القفز الي المركز",
+        "explanation": null
+      },
+      {
+        "userId": 149292,
+        "timestamp": 1663917921483,
+        "oldValue": "القفز الي المركز",
+        "newValue": "النقل إلى المركز"
       }
     ]
   },
@@ -54,8 +107,33 @@
       }
     ]
   },
+  "moveOrJumpGrabbedBalloonHeading": {
+    "value": "تحريك أو نقل البالون الممسوك",
+    "history": [
+      {
+        "userId": 576246,
+        "timestamp": 1533241666915,
+        "oldValue": "",
+        "newValue": "نقل أو قفر البالون الممسوك",
+        "explanation": null
+      },
+      {
+        "userId": 576246,
+        "timestamp": 1533241707628,
+        "oldValue": "نقل أو قفر البالون الممسوك",
+        "newValue": "نقل أو قفز البالون الممسوك",
+        "explanation": null
+      },
+      {
+        "userId": 149292,
+        "timestamp": 1663917921483,
+        "oldValue": "نقل أو قفز البالون الممسوك",
+        "newValue": "تحريك أو نقل البالون الممسوك"
+      }
+    ]
+  },
   "moveSlowerLabel": {
-    "value": "التحرك أبطأ",
+    "value": "التحرك ببطء",
     "history": [
       {
         "userId": 576246,
@@ -63,71 +141,17 @@
         "oldValue": "",
         "newValue": "التحرك أبطأ",
         "explanation": null
-      }
-    ]
-  },
-  "jumpCloseToSweaterLabel": {
-    "value": "القفز بالقرب من سترة",
-    "history": [
+      },
       {
-        "userId": 576246,
-        "timestamp": 1533241666915,
-        "oldValue": "",
-        "newValue": "القفز بالقرب من سترة",
-        "explanation": null
-      }
-    ]
-  },
-  "jumpCloseToWallLabel": {
-    "value": "القفزالي الجدار",
-    "history": [
-      {
-        "userId": 576246,
-        "timestamp": 1533241666915,
-        "oldValue": "",
-        "newValue": "القفزالي الجدار",
-        "explanation": null
-      }
-    ]
-  },
-  "jumpNearWallLabel": {
-    "value": "القفز بالقرب من الجدار",
-    "history": [
-      {
-        "userId": 576246,
-        "timestamp": 1533241666915,
-        "oldValue": "",
-        "newValue": "القفز بالقرب من الجدار",
-        "explanation": null
-      }
-    ]
-  },
-  "jumpToCenterLabel": {
-    "value": "القفز الي المركز",
-    "history": [
-      {
-        "userId": 576246,
-        "timestamp": 1533241666915,
-        "oldValue": "",
-        "newValue": "القفز الي المركز",
-        "explanation": null
-      }
-    ]
-  },
-  "toGrabOrRelease": {
-    "value": "الي <ب>امساك</ب> أو <ب> اطلاق </ب>",
-    "history": [
-      {
-        "userId": 576246,
-        "timestamp": 1533241666915,
-        "oldValue": "",
-        "newValue": "الي <ب>امساك</ب> أو <ب> اطلاق </ب>",
-        "explanation": null
+        "userId": 149292,
+        "timestamp": 1663917921483,
+        "oldValue": "التحرك أبطأ",
+        "newValue": "التحرك ببطء"
       }
     ]
   },
   "addWall": {
-    "value": "أضف الجدار",
+    "value": "إضافة الجدار",
     "history": [
       {
         "userId": 576246,
@@ -135,11 +159,17 @@
         "oldValue": "",
         "newValue": "أضف الجدار",
         "explanation": null
+      },
+      {
+        "userId": 149292,
+        "timestamp": 1663917921483,
+        "oldValue": "أضف الجدار",
+        "newValue": "إضافة الجدار"
       }
     ]
   },
   "BalloonApplet.ShowAllCharges": {
-    "value": "عرض جميع الشحنات",
+    "value": "إظهار جميع الشحنات",
     "history": [
       {
         "userId": 576246,
@@ -147,11 +177,17 @@
         "oldValue": "",
         "newValue": "عرض جميع الشحنات",
         "explanation": null
+      },
+      {
+        "userId": 149292,
+        "timestamp": 1663917921483,
+        "oldValue": "عرض جميع الشحنات",
+        "newValue": "إظهار جميع الشحنات"
       }
     ]
   },
   "BalloonApplet.ShowChargeDifferences": {
-    "value": "عرض الفروق بين الشحنات",
+    "value": "إظهار الفرق في الشحنات",
     "history": [
       {
         "userId": 576246,
@@ -159,11 +195,17 @@
         "oldValue": "",
         "newValue": "عرض الفروق بين الشحنات",
         "explanation": null
+      },
+      {
+        "userId": 149292,
+        "timestamp": 1663917921483,
+        "oldValue": "عرض الفروق بين الشحنات",
+        "newValue": "إظهار الفرق في الشحنات"
       }
     ]
   },
   "BalloonApplet.ShowNoCharges": {
-    "value": "لا تظهر أي شحنات",
+    "value": "إخفاء الشحنات",
     "history": [
       {
         "userId": 576246,
@@ -171,6 +213,12 @@
         "oldValue": "",
         "newValue": "لا تظهر أي شحنات",
         "explanation": null
+      },
+      {
+        "userId": 149292,
+        "timestamp": 1663917921483,
+        "oldValue": "لا تظهر أي شحنات",
+        "newValue": "إخفاء الشحنات"
       }
     ]
   },
@@ -218,6 +266,18 @@
         "timestamp": 1533241666915,
         "oldValue": "",
         "newValue": "البالونات والكهرباء الساكنة",
+        "explanation": null
+      }
+    ]
+  },
+  "toGrabOrRelease": {
+    "value": "الي <ب>امساك</ب> أو <ب> اطلاق </ب>",
+    "history": [
+      {
+        "userId": 576246,
+        "timestamp": 1533241666915,
+        "oldValue": "",
+        "newValue": "الي <ب>امساك</ب> أو <ب> اطلاق </ب>",
         "explanation": null
       }
     ]
