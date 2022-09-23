@@ -1,4 +1,15 @@
 {
+  "keyboardHelpDialog.hyphen": {
+    "value": "-",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1613093244237,
+        "oldValue": "",
+        "newValue": "-"
+      }
+    ]
+  },
   "key.alt": {
     "value": "Alt",
     "history": [
@@ -11,26 +22,49 @@
       }
     ]
   },
-  "cool": {
-    "value": "Refroidir",
+  "keyboardHelpDialog.basicActions": {
+    "value": "Actions de base",
     "history": [
       {
         "userId": 147846,
-        "timestamp": 1483282198123,
+        "timestamp": 1548938838502,
         "oldValue": "",
-        "newValue": "Froid",
+        "newValue": "Actions de base",
+        "explanation": null
+      }
+    ]
+  },
+  "key.capsLock": {
+    "value": "Verrouillage des majuscules",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1613093244237,
+        "oldValue": "",
+        "newValue": "Verrouillage des majuscules"
+      }
+    ]
+  },
+  "key.end": {
+    "value": "Fin",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548938838502,
+        "oldValue": "",
+        "newValue": "fin",
         "explanation": null
       },
       {
-        "userId": 871615,
-        "timestamp": 1663781793213,
-        "oldValue": "Froid",
-        "newValue": "Refroidir"
+        "userId": 237975,
+        "timestamp": 1639012707503,
+        "oldValue": "fin",
+        "newValue": "Fin"
       }
     ]
   },
   "key.enter": {
-    "value": "Entrer",
+    "value": "Saisir",
     "history": [
       {
         "userId": 147846,
@@ -38,6 +72,12 @@
         "oldValue": "",
         "newValue": "Entrer",
         "explanation": null
+      },
+      {
+        "userId": 1086112,
+        "timestamp": 1663923298899,
+        "oldValue": "Entrer",
+        "newValue": "Saisir"
       }
     ]
   },
@@ -53,6 +93,18 @@
       }
     ]
   },
+  "keyboardHelpDialog.exitADialog": {
+    "value": "Quitter la boîte de dialogue",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548938838502,
+        "oldValue": "",
+        "newValue": "Quitter la boîte de dialogue",
+        "explanation": null
+      }
+    ]
+  },
   "speed.fast": {
     "value": "Rapide",
     "history": [
@@ -64,8 +116,19 @@
       }
     ]
   },
+  "key.fn": {
+    "value": "Fn",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1616374277998,
+        "oldValue": "",
+        "newValue": "Fn"
+      }
+    ]
+  },
   "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-    "value": "Saisir ou relâcher {{thing}}",
+    "value": "Attraper ou relâcher {{thing}}",
     "history": [
       {
         "userId": 147846,
@@ -73,11 +136,17 @@
         "oldValue": "",
         "newValue": "Saisir ou relâcher {{thing}}",
         "explanation": null
+      },
+      {
+        "userId": 1086112,
+        "timestamp": 1663923298899,
+        "oldValue": "Saisir ou relâcher {{thing}}",
+        "newValue": "Attraper ou relâcher {{thing}}"
       }
     ]
   },
   "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-    "value": "Saisir ou relâcher {{thing}}",
+    "value": "Attraper ou relâcher {{thing}}",
     "history": [
       {
         "userId": 147846,
@@ -85,48 +154,96 @@
         "oldValue": "",
         "newValue": "Saisir ou relâcher {{thing}}",
         "explanation": null
+      },
+      {
+        "userId": 1086112,
+        "timestamp": 1663923298899,
+        "oldValue": "Saisir ou relâcher {{thing}}",
+        "newValue": "Attraper ou relâcher {{thing}}"
       }
     ]
   },
-  "heat": {
-    "value": "Chauffer",
+  "key.home": {
+    "value": "Accueil",
     "history": [
       {
         "userId": 147846,
-        "timestamp": 1483282198123,
+        "timestamp": 1548938838502,
         "oldValue": "",
-        "newValue": "Chaud",
+        "newValue": "Début",
+        "explanation": null
+      },
+      {
+        "userId": 1086112,
+        "timestamp": 1663923298899,
+        "oldValue": "Début",
+        "newValue": "Accueil"
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+    "value": "Déplacement entre les éléments d'un groupe",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548938838502,
+        "oldValue": "",
+        "newValue": "Déplacement entre items dans un groupe",
         "explanation": null
       },
       {
         "userId": 871615,
-        "timestamp": 1663781793213,
-        "oldValue": "Chaud",
-        "newValue": "Chauffer"
+        "timestamp": 1663780293207,
+        "oldValue": "Déplacement entre items dans un groupe",
+        "newValue": "Déplacement entre éléments dans un groupe"
+      },
+      {
+        "userId": 1086112,
+        "timestamp": 1663923298899,
+        "oldValue": "Déplacement entre éléments dans un groupe",
+        "newValue": "Déplacement entre les éléments d'un groupe"
       }
     ]
   },
-  "key.k": {
-    "value": "K",
+  "keyboardHelpDialog.moveToNextItemOrGroup": {
+    "value": "Aller à l'élément suivant ou au groupe suivant",
     "history": [
       {
         "userId": 147846,
-        "timestamp": 1601216147766,
+        "timestamp": 1548938838502,
         "oldValue": "",
-        "newValue": "K",
+        "newValue": "Aller à l'item suivant ou au groupe",
         "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663775630573,
+        "oldValue": "Aller à l'item suivant ou au groupe",
+        "newValue": "Aller à l'élément suivant ou au groupe suivant"
       }
     ]
   },
-  "key.l": {
-    "value": "L",
+  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+    "value": "Passer à l'élément ou au groupe suivant",
     "history": [
       {
         "userId": 147846,
-        "timestamp": 1601216147766,
+        "timestamp": 1548938838502,
         "oldValue": "",
-        "newValue": "L",
+        "newValue": "Aller à l'item précédent ou au groupe",
         "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663775630573,
+        "oldValue": "Aller à l'item précédent ou au groupe",
+        "newValue": "Aller à l'élément précédent ou au groupe précédent"
+      },
+      {
+        "userId": 1086112,
+        "timestamp": 1663923298899,
+        "oldValue": "Aller à l'élément précédent ou au groupe précédent",
+        "newValue": "Passer à l'élément ou au groupe suivant"
       }
     ]
   },
@@ -178,6 +295,30 @@
       }
     ]
   },
+  "keyboardHelpDialog.pressButtons": {
+    "value": "Appuyez sur les touches",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1548938838502,
+        "oldValue": "",
+        "newValue": "Appuie sur le bouton",
+        "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663774713142,
+        "oldValue": "Appuie sur le bouton",
+        "newValue": "Appuyer sur le bouton"
+      },
+      {
+        "userId": 1086112,
+        "timestamp": 1663923298899,
+        "oldValue": "Appuyer sur le bouton",
+        "newValue": "Appuyez sur les touches"
+      }
+    ]
+  },
   "key.shift": {
     "value": "Maj",
     "history": [
@@ -226,189 +367,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.hyphen": {
-    "value": "-",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1613093244237,
-        "oldValue": "",
-        "newValue": "-"
-      }
-    ]
-  },
-  "keyboardHelpDialog.basicActions": {
-    "value": "Actions de base",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548938838502,
-        "oldValue": "",
-        "newValue": "Actions de base",
-        "explanation": null
-      }
-    ]
-  },
-  "key.capsLock": {
-    "value": "Verrouillage des majuscules",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1613093244237,
-        "oldValue": "",
-        "newValue": "Verrouillage des majuscules"
-      }
-    ]
-  },
-  "key.end": {
-    "value": "Fin",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548938838502,
-        "oldValue": "",
-        "newValue": "fin",
-        "explanation": null
-      },
-      {
-        "userId": 237975,
-        "timestamp": 1639012707503,
-        "oldValue": "fin",
-        "newValue": "Fin"
-      }
-    ]
-  },
-  "keyboardHelpDialog.exitADialog": {
-    "value": "Quitter la boîte de dialogue",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548938838502,
-        "oldValue": "",
-        "newValue": "Quitter la boîte de dialogue",
-        "explanation": null
-      }
-    ]
-  },
-  "key.fn": {
-    "value": "Fn",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1616374277998,
-        "oldValue": "",
-        "newValue": "Fn"
-      }
-    ]
-  },
-  "key.home": {
-    "value": "Début",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548938838502,
-        "oldValue": "",
-        "newValue": "Début",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveBetweenItemsInAGroup": {
-    "value": "Déplacement entre éléments dans un groupe",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548938838502,
-        "oldValue": "",
-        "newValue": "Déplacement entre items dans un groupe",
-        "explanation": null
-      },
-      {
-        "userId": 871615,
-        "timestamp": 1663780293207,
-        "oldValue": "Déplacement entre items dans un groupe",
-        "newValue": "Déplacement entre éléments dans un groupe"
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveToNextItemOrGroup": {
-    "value": "Aller à l'élément suivant ou au groupe suivant",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548938838502,
-        "oldValue": "",
-        "newValue": "Aller à l'item suivant ou au groupe",
-        "explanation": null
-      },
-      {
-        "userId": 871615,
-        "timestamp": 1663775630573,
-        "oldValue": "Aller à l'item suivant ou au groupe",
-        "newValue": "Aller à l'élément suivant ou au groupe suivant"
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
-    "value": "Aller à l'élément précédent ou au groupe précédent",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548938838502,
-        "oldValue": "",
-        "newValue": "Aller à l'item précédent ou au groupe",
-        "explanation": null
-      },
-      {
-        "userId": 871615,
-        "timestamp": 1663775630573,
-        "oldValue": "Aller à l'item précédent ou au groupe",
-        "newValue": "Aller à l'élément précédent ou au groupe précédent"
-      }
-    ]
-  },
-  "keyboardHelpDialog.pressButtons": {
-    "value": "Appuyer sur le bouton",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1548938838502,
-        "oldValue": "",
-        "newValue": "Appuie sur le bouton",
-        "explanation": null
-      },
-      {
-        "userId": 871615,
-        "timestamp": 1663774713142,
-        "oldValue": "Appuie sur le bouton",
-        "newValue": "Appuyer sur le bouton"
-      }
-    ]
-  },
-  "webglWarning.contextLossReload": {
-    "value": "Recharger",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1468446753732,
-        "oldValue": "",
-        "newValue": "Recharger",
-        "explanation": null
-      }
-    ]
-  },
-  "webglWarning.contextLossFailure": {
-    "value": "Désolé, une erreur graphique s'est produite",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1468446753732,
-        "oldValue": "",
-        "newValue": "Désolé, une erreur graphique s'est produite",
-        "explanation": null
-      }
-    ]
-  },
   "keyboardHelpDialog.toggleCheckboxes": {
     "value": "Basculer les cases à cocher",
     "history": [
@@ -421,15 +379,25 @@
       }
     ]
   },
-  "webglWarning.body": {
-    "value": "WebGL is not enabled or not available. Click to learn more.",
+  "measuringTapeReadoutPattern": {
+    "value": "{{distance}} {{units}}",
     "history": [
       {
         "userId": 237975,
-        "timestamp": 1468850892825,
+        "timestamp": 1612410321321,
         "oldValue": "",
-        "newValue": "WebGL is not enabled or not available. Click to learn more.",
-        "explanation": null
+        "newValue": "{{distance}} {{units}}"
+      }
+    ]
+  },
+  "stopwatchValueUnitsPattern": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1612410321321,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}"
       }
     ]
   },
@@ -457,14 +425,99 @@
       }
     ]
   },
-  "stopwatchValueUnitsPattern": {
-    "value": "{{value}} {{units}}",
+  "cool": {
+    "value": "Refroidir",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1483282198123,
+        "oldValue": "",
+        "newValue": "Froid",
+        "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663781793213,
+        "oldValue": "Froid",
+        "newValue": "Refroidir"
+      }
+    ]
+  },
+  "heat": {
+    "value": "Chauffer",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1483282198123,
+        "oldValue": "",
+        "newValue": "Chaud",
+        "explanation": null
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1663781793213,
+        "oldValue": "Chaud",
+        "newValue": "Chauffer"
+      }
+    ]
+  },
+  "key.k": {
+    "value": "K",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1601216147766,
+        "oldValue": "",
+        "newValue": "K",
+        "explanation": null
+      }
+    ]
+  },
+  "key.l": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1601216147766,
+        "oldValue": "",
+        "newValue": "L",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossReload": {
+    "value": "Recharger",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1468446753732,
+        "oldValue": "",
+        "newValue": "Recharger",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.contextLossFailure": {
+    "value": "Désolé, une erreur graphique s'est produite",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1468446753732,
+        "oldValue": "",
+        "newValue": "Désolé, une erreur graphique s'est produite",
+        "explanation": null
+      }
+    ]
+  },
+  "webglWarning.body": {
+    "value": "WebGL is not enabled or not available. Click to learn more.",
     "history": [
       {
         "userId": 237975,
-        "timestamp": 1612410321321,
+        "timestamp": 1468850892825,
         "oldValue": "",
-        "newValue": "{{value}} {{units}}"
+        "newValue": "WebGL is not enabled or not available. Click to learn more.",
+        "explanation": null
       }
     ]
   },
@@ -784,17 +837,6 @@
         "timestamp": 1618738125652,
         "oldValue": "",
         "newValue": "zéro"
-      }
-    ]
-  },
-  "measuringTapeReadoutPattern": {
-    "value": "{{distance}} {{units}}",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1612410321321,
-        "oldValue": "",
-        "newValue": "{{distance}} {{units}}"
       }
     ]
   },
