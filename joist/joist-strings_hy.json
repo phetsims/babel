@@ -1,6 +1,6 @@
 {
   "menuItem.about": {
-    "value": "Մասին",
+    "value": "Նմանակման մասին",
     "history": [
       {
         "userId": 203054,
@@ -13,6 +13,12 @@
         "timestamp": 1613026438250,
         "oldValue": "մասին",
         "newValue": "Մասին"
+      },
+      {
+        "userId": 164237,
+        "timestamp": 1663917641963,
+        "oldValue": "Մասին",
+        "newValue": "Նմանակման մասին"
       }
     ]
   },
@@ -116,28 +122,6 @@
       }
     ]
   },
-  "ieErrorPage.ieIsNotSupported": {
-    "value": "Internet Explorer-ը չի ապահովում:",
-    "history": [
-      {
-        "userId": 203054,
-        "timestamp": 1635670788557,
-        "oldValue": "",
-        "newValue": "Internet Explorer-ը չի ապահովում:"
-      }
-    ]
-  },
-  "queryParametersWarningDialog.invalidQueryParameters": {
-    "value": "Հարցման անվավեր պարամետրեր",
-    "history": [
-      {
-        "userId": 203054,
-        "timestamp": 1635670788557,
-        "oldValue": "",
-        "newValue": "Հարցման անվավեր պարամետրեր"
-      }
-    ]
-  },
   "keyboardShortcuts.title": {
     "value": "Ստեղնաշարի դյուրանցումներ",
     "history": [
@@ -188,17 +172,6 @@
       }
     ]
   },
-  "queryParametersWarningDialog.oneOrMoreQueryParameters": {
-    "value": "Այս պարամետրերից մեկը կամ մի քանիսը ունեն<br>անիրական արժեք(ներ)",
-    "history": [
-      {
-        "userId": 170274,
-        "timestamp": 1643383015726,
-        "oldValue": "",
-        "newValue": "Այս պարամետրերից մեկը կամ մի քանիսը ունեն<br>անիրական արժեք(ներ)"
-      }
-    ]
-  },
   "options.title": {
     "value": "Ընտրանքներ",
     "history": [
@@ -232,28 +205,6 @@
       }
     ]
   },
-  "ieErrorPage.platformError": {
-    "value": "Համակարգի սխալ",
-    "history": [
-      {
-        "userId": 170274,
-        "timestamp": 1643380400580,
-        "oldValue": "",
-        "newValue": "Համակարգի սխալ"
-      }
-    ]
-  },
-  "ieErrorPage.useDifferentBrowser": {
-    "value": "Այս սիմուլյացիան գործարկելու համար խնդրում ենք օգտագործել այլ բռաուզեռ։",
-    "history": [
-      {
-        "userId": 203054,
-        "timestamp": 1635670788557,
-        "oldValue": "",
-        "newValue": "Այս սիմուլյացիան գործարկելու համար խնդրում ենք օգտագործել այլ բռաուզեռ։"
-      }
-    ]
-  },
   "credits.qualityAssurance": {
     "value": "Որակի ապահովումը՝ {0}",
     "history": [
@@ -272,7 +223,7 @@
     ]
   },
   "menuItem.reportAProblem": {
-    "value": "Տեղեկացում խնդրի մասին",
+    "value": "Տեղեկացում պրոբլեմի մասին",
     "history": [
       {
         "userId": 203054,
@@ -285,6 +236,12 @@
         "timestamp": 1613026438251,
         "oldValue": "Տեղեկացում խնդիրի մասին",
         "newValue": "Տեղեկացում խնդրի մասին"
+      },
+      {
+        "userId": 164237,
+        "timestamp": 1663917641963,
+        "oldValue": "Տեղեկացում խնդրի մասին",
+        "newValue": "Տեղեկացում պրոբլեմի մասին"
       }
     ]
   },
@@ -395,13 +352,19 @@
     ]
   },
   "updates.upToDate": {
-    "value": "Այս մոդելավորումը արդիական է",
+    "value": "Այս նմանակումը արդիական է",
     "history": [
       {
         "userId": 203054,
         "timestamp": 1612957921409,
         "oldValue": "",
         "newValue": "Այս մոդելավորումը արդիական է"
+      },
+      {
+        "userId": 164237,
+        "timestamp": 1663917641963,
+        "oldValue": "Այս մոդելավորումը արդիական է",
+        "newValue": "Այս նմանակումը արդիական է"
       }
     ]
   },
@@ -491,6 +454,61 @@
         "timestamp": 1612957921409,
         "oldValue": "",
         "newValue": "{{simName}} — {{screenName}}"
+      }
+    ]
+  },
+  "ieErrorPage.ieIsNotSupported": {
+    "value": "Internet Explorer-ը չի ապահովում:",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1635670788557,
+        "oldValue": "",
+        "newValue": "Internet Explorer-ը չի ապահովում:"
+      }
+    ]
+  },
+  "queryParametersWarningDialog.invalidQueryParameters": {
+    "value": "Հարցման անվավեր պարամետրեր",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1635670788557,
+        "oldValue": "",
+        "newValue": "Հարցման անվավեր պարամետրեր"
+      }
+    ]
+  },
+  "queryParametersWarningDialog.oneOrMoreQueryParameters": {
+    "value": "Այս պարամետրերից մեկը կամ մի քանիսը ունեն<br>անիրական արժեք(ներ)",
+    "history": [
+      {
+        "userId": 170274,
+        "timestamp": 1643383015726,
+        "oldValue": "",
+        "newValue": "Այս պարամետրերից մեկը կամ մի քանիսը ունեն<br>անիրական արժեք(ներ)"
+      }
+    ]
+  },
+  "ieErrorPage.platformError": {
+    "value": "Համակարգի սխալ",
+    "history": [
+      {
+        "userId": 170274,
+        "timestamp": 1643380400580,
+        "oldValue": "",
+        "newValue": "Համակարգի սխալ"
+      }
+    ]
+  },
+  "ieErrorPage.useDifferentBrowser": {
+    "value": "Այս սիմուլյացիան գործարկելու համար խնդրում ենք օգտագործել այլ բռաուզեռ։",
+    "history": [
+      {
+        "userId": 203054,
+        "timestamp": 1635670788557,
+        "oldValue": "",
+        "newValue": "Այս սիմուլյացիան գործարկելու համար խնդրում ենք օգտագործել այլ բռաուզեռ։"
       }
     ]
   },
