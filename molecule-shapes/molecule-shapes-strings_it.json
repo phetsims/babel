@@ -1,4 +1,16 @@
 {
+  "shape.bent": {
+    "value": "Piegata",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1442523326675,
+        "oldValue": "",
+        "newValue": "Piegata",
+        "explanation": null
+      }
+    ]
+  },
   "control.bonding": {
     "value": "Legame",
     "history": [
@@ -12,7 +24,7 @@
     ]
   },
   "control.electronGeometry": {
-    "value": "Geometria orbitale",
+    "value": "Geometria elettronica",
     "history": [
       {
         "userId": 157247,
@@ -20,17 +32,59 @@
         "oldValue": "",
         "newValue": "Geometria orbitale",
         "explanation": null
+      },
+      {
+        "userId": 332542,
+        "timestamp": 1663948448975,
+        "oldValue": "Geometria orbitale",
+        "newValue": "Geometria elettronica"
       }
     ]
   },
-  "control.geometryName": {
-    "value": "Struttura",
+  "geometry.diatomic": {
+    "value": "Lineare",
     "history": [
       {
         "userId": 157247,
-        "timestamp": 1442523326676,
+        "timestamp": 1442523326675,
         "oldValue": "",
-        "newValue": "Struttura",
+        "newValue": "Lineare",
+        "explanation": null
+      }
+    ]
+  },
+  "geometry.linear": {
+    "value": "Lineare",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1442523326675,
+        "oldValue": "",
+        "newValue": "Lineare",
+        "explanation": null
+      }
+    ]
+  },
+  "shape.diatomic": {
+    "value": "Lineare",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1442523326675,
+        "oldValue": "",
+        "newValue": "Lineare",
+        "explanation": null
+      }
+    ]
+  },
+  "shape.linear": {
+    "value": "Lineare",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1442523326675,
+        "oldValue": "",
+        "newValue": "Lineare",
         "explanation": null
       }
     ]
@@ -43,6 +97,18 @@
         "timestamp": 1442523326676,
         "oldValue": "",
         "newValue": "doppietto elettronico spaiato",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.model": {
+    "value": "Modelli molecolari",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1442523326676,
+        "oldValue": "",
+        "newValue": "Modelli molecolari",
         "explanation": null
       }
     ]
@@ -83,6 +149,48 @@
       }
     ]
   },
+  "control.geometryName": {
+    "value": "Nome",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1442523326676,
+        "oldValue": "",
+        "newValue": "Struttura",
+        "explanation": null
+      },
+      {
+        "userId": 332542,
+        "timestamp": 1663948448975,
+        "oldValue": "Struttura",
+        "newValue": "Nome"
+      }
+    ]
+  },
+  "geometry.octahedral": {
+    "value": "Ottaedrica",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1442523326675,
+        "oldValue": "",
+        "newValue": "Ottaedrica",
+        "explanation": null
+      }
+    ]
+  },
+  "shape.octahedral": {
+    "value": "Ottaedrica",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1442523326676,
+        "oldValue": "",
+        "newValue": "Ottaedrica",
+        "explanation": null
+      }
+    ]
+  },
   "control.options": {
     "value": "Opzioni",
     "history": [
@@ -107,6 +215,18 @@
       }
     ]
   },
+  "screen.realMolecules": {
+    "value": "Molecole reali",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1442523326676,
+        "oldValue": "",
+        "newValue": "Molecole reali",
+        "explanation": null
+      }
+    ]
+  },
   "control.removeAll": {
     "value": "Rimuovi tutto",
     "history": [
@@ -115,6 +235,18 @@
         "timestamp": 1442523326676,
         "oldValue": "",
         "newValue": "Rimuovi tutto",
+        "explanation": null
+      }
+    ]
+  },
+  "shape.seesaw": {
+    "value": "sfenoidale",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1442523326676,
+        "oldValue": "",
+        "newValue": "sfenoidale",
         "explanation": null
       }
     ]
@@ -143,102 +275,6 @@
       }
     ]
   },
-  "geometry.diatomic": {
-    "value": "Lineare",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1442523326675,
-        "oldValue": "",
-        "newValue": "Lineare",
-        "explanation": null
-      }
-    ]
-  },
-  "geometry.linear": {
-    "value": "Lineare",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1442523326675,
-        "oldValue": "",
-        "newValue": "Lineare",
-        "explanation": null
-      }
-    ]
-  },
-  "geometry.octahedral": {
-    "value": "Ottaedrica",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1442523326675,
-        "oldValue": "",
-        "newValue": "Ottaedrica",
-        "explanation": null
-      }
-    ]
-  },
-  "geometry.tetrahedral": {
-    "value": "Tetraedrica",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1442523326675,
-        "oldValue": "",
-        "newValue": "Tetraedrica",
-        "explanation": null
-      }
-    ]
-  },
-  "geometry.trigonalBipyramidal": {
-    "value": "Bipiramidale trigonale",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1442523326675,
-        "oldValue": "",
-        "newValue": "Bipiramidale trigonale",
-        "explanation": null
-      }
-    ]
-  },
-  "geometry.trigonalPlanar": {
-    "value": "Trigonale planare",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1442523326675,
-        "oldValue": "",
-        "newValue": "Trigonale planare",
-        "explanation": null
-      }
-    ]
-  },
-  "molecule-shapes.title": {
-    "value": "Modelli molecolari",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1454858821347,
-        "oldValue": "",
-        "newValue": "Modelli molecolari",
-        "explanation": null
-      }
-    ]
-  },
-  "options.projectorColors": {
-    "value": "Modalità proiettore",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1442523326677,
-        "oldValue": "",
-        "newValue": "Modalità proiettore",
-        "explanation": null
-      }
-    ]
-  },
   "options.showOuterLonePairs": {
     "value": "Mostra il doppietto elettronico spaiato più esterno",
     "history": [
@@ -247,90 +283,6 @@
         "timestamp": 1442523326676,
         "oldValue": "",
         "newValue": "Mostra il doppietto elettronico spaiato più esterno",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.model": {
-    "value": "Modelli molecolari",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1442523326676,
-        "oldValue": "",
-        "newValue": "Modelli molecolari",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.realMolecules": {
-    "value": "Molecole reali",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1442523326676,
-        "oldValue": "",
-        "newValue": "Molecole reali",
-        "explanation": null
-      }
-    ]
-  },
-  "shape.bent": {
-    "value": "Piegata",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1442523326675,
-        "oldValue": "",
-        "newValue": "Piegata",
-        "explanation": null
-      }
-    ]
-  },
-  "shape.diatomic": {
-    "value": "Lineare",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1442523326675,
-        "oldValue": "",
-        "newValue": "Lineare",
-        "explanation": null
-      }
-    ]
-  },
-  "shape.linear": {
-    "value": "Lineare",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1442523326675,
-        "oldValue": "",
-        "newValue": "Lineare",
-        "explanation": null
-      }
-    ]
-  },
-  "shape.octahedral": {
-    "value": "Ottaedrica",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1442523326676,
-        "oldValue": "",
-        "newValue": "Ottaedrica",
-        "explanation": null
-      }
-    ]
-  },
-  "shape.seesaw": {
-    "value": "sfenoidale",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1442523326676,
-        "oldValue": "",
-        "newValue": "sfenoidale",
         "explanation": null
       }
     ]
@@ -371,6 +323,18 @@
       }
     ]
   },
+  "geometry.tetrahedral": {
+    "value": "Tetraedrica",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1442523326675,
+        "oldValue": "",
+        "newValue": "Tetraedrica",
+        "explanation": null
+      }
+    ]
+  },
   "shape.tetrahedral": {
     "value": "Tetraedrica",
     "history": [
@@ -383,6 +347,18 @@
       }
     ]
   },
+  "geometry.trigonalBipyramidal": {
+    "value": "Bipiramidale trigonale",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1442523326675,
+        "oldValue": "",
+        "newValue": "Bipiramidale trigonale",
+        "explanation": null
+      }
+    ]
+  },
   "shape.trigonalBipyramidal": {
     "value": "Bipiramidale trigonale",
     "history": [
@@ -391,6 +367,18 @@
         "timestamp": 1442523326676,
         "oldValue": "",
         "newValue": "Bipiramidale trigonale",
+        "explanation": null
+      }
+    ]
+  },
+  "geometry.trigonalPlanar": {
+    "value": "Trigonale planare",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1442523326675,
+        "oldValue": "",
+        "newValue": "Trigonale planare",
         "explanation": null
       }
     ]
@@ -415,6 +403,30 @@
         "timestamp": 1442523326675,
         "oldValue": "",
         "newValue": "Piramidale trigonale",
+        "explanation": null
+      }
+    ]
+  },
+  "molecule-shapes.title": {
+    "value": "Modelli molecolari",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1454858821347,
+        "oldValue": "",
+        "newValue": "Modelli molecolari",
+        "explanation": null
+      }
+    ]
+  },
+  "options.projectorColors": {
+    "value": "Modalità proiettore",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1442523326677,
+        "oldValue": "",
+        "newValue": "Modalità proiettore",
         "explanation": null
       }
     ]
