@@ -66,13 +66,19 @@
     ]
   },
   "matchUsing1Harmonic": {
-    "value": "<b>Level 1</b>: Versuche, die pinke Welenform zu erzeugen, indem du <b>1</b> Oberschwingung benutzt.",
+    "value": "<b>Level 1</b>: Versuche, die pinke Wellenform zu erzeugen, indem du <b>1</b> Oberschwingung benutzt.",
     "history": [
       {
         "userId": 920037,
         "timestamp": 1638806266011,
         "oldValue": "",
         "newValue": "<b>Level 1</b>: Versuche, die pinke Welenform zu erzeugen, indem du <b>1</b> Oberschwingung benutzt."
+      },
+      {
+        "userId": 446279,
+        "timestamp": 1664130129341,
+        "oldValue": "<b>Level 1</b>: Versuche, die pinke Welenform zu erzeugen, indem du <b>1</b> Oberschwingung benutzt.",
+        "newValue": "<b>Level 1</b>: Versuche, die pinke Wellenform zu erzeugen, indem du <b>1</b> Oberschwingung benutzt."
       }
     ]
   },
@@ -88,13 +94,19 @@
     ]
   },
   "matchUsingNOrMoreHarmonics": {
-    "value": "<b>Level {{levelNumber}}</b>: Versuche, die pinke Welenform zu erzeugen, indem du <u><b>{{numberOfHarmonics}} oder mehrere</b></u> Oberschwingungen benutzt.",
+    "value": "<b>Level {{levelNumber}}</b>: Versuche, die pinke Wellenform zu erzeugen, indem du <u><b>{{numberOfHarmonics}} oder mehr</b></u> Oberschwingungen benutzt.",
     "history": [
       {
         "userId": 920037,
         "timestamp": 1638806266011,
         "oldValue": "",
         "newValue": "<b>Level {{levelNumber}}</b>: Versuche, die pinke Welenform zu erzeugen, indem du <u><b>{{numberOfHarmonics}} oder mehrere</b></u> Oberschwingungen benutzt."
+      },
+      {
+        "userId": 446279,
+        "timestamp": 1664130129341,
+        "oldValue": "<b>Level {{levelNumber}}</b>: Versuche, die pinke Welenform zu erzeugen, indem du <u><b>{{numberOfHarmonics}} oder mehrere</b></u> Oberschwingungen benutzt.",
+        "newValue": "<b>Level {{levelNumber}}</b>: Versuche, die pinke Wellenform zu erzeugen, indem du <u><b>{{numberOfHarmonics}} oder mehr</b></u> Oberschwingungen benutzt."
       }
     ]
   },
@@ -132,13 +144,19 @@
     ]
   },
   "amplitudesOfFourierComponents": {
-    "value": "Amplitude der Fourierkomponenten",
+    "value": "Amplituden der Fourierkomponenten",
     "history": [
       {
         "userId": 920037,
         "timestamp": 1638806266011,
         "oldValue": "",
         "newValue": "Amplitude der Fourierkomponenten"
+      },
+      {
+        "userId": 446279,
+        "timestamp": 1664130129341,
+        "oldValue": "Amplitude der Fourierkomponenten",
+        "newValue": "Amplituden der Fourierkomponenten"
       }
     ]
   },
@@ -150,6 +168,39 @@
         "timestamp": 1638806266011,
         "oldValue": "",
         "newValue": "Fourierkomponenten"
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveTool": {
+    "value": "Bewegen",
+    "history": [
+      {
+        "userId": 920037,
+        "timestamp": 1638806266011,
+        "oldValue": "",
+        "newValue": "Bewegen"
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToolSlower": {
+    "value": "Langsamer bewegen",
+    "history": [
+      {
+        "userId": 920037,
+        "timestamp": 1638806266011,
+        "oldValue": "",
+        "newValue": "Langsamer bewegen"
+      }
+    ]
+  },
+  "keyboardHelpDialog.measurementTools": {
+    "value": "Meßintrument",
+    "history": [
+      {
+        "userId": 920037,
+        "timestamp": 1638806266011,
+        "oldValue": "",
+        "newValue": "Meßintrument"
       }
     ]
   },
@@ -318,36 +369,31 @@
       }
     ]
   },
-  "keyboardHelpDialog.moveTool": {
-    "value": "Bewegen",
+  "matchUsingNHarmonics": {
+    "value": "<b>Level {{levelNumber}}</b>: Versuche, die pinke Wellenform zu erzeugen, indem du <b>{{numberOfHarmonics}}</b> Oberschwingungen benutzt.",
     "history": [
       {
         "userId": 920037,
         "timestamp": 1638806266011,
         "oldValue": "",
-        "newValue": "Bewegen"
+        "newValue": "<b>Level {{levelNumber}}</b>: Versuche, die pinke Welenform zu erzeugen, indem du <b>{{numberOfHarmonics}}</b> Oberschwingungen benutzt."
+      },
+      {
+        "userId": 446279,
+        "timestamp": 1664130129342,
+        "oldValue": "<b>Level {{levelNumber}}</b>: Versuche, die pinke Welenform zu erzeugen, indem du <b>{{numberOfHarmonics}}</b> Oberschwingungen benutzt.",
+        "newValue": "<b>Level {{levelNumber}}</b>: Versuche, die pinke Wellenform zu erzeugen, indem du <b>{{numberOfHarmonics}}</b> Oberschwingungen benutzt."
       }
     ]
   },
-  "keyboardHelpDialog.moveToolSlower": {
-    "value": "Langsamer bewegen",
+  "infoNHarmonics": {
+    "value": "<b>Level {{levelNumber}}</b>: {{numberOfHarmonics}} Oberschwingungen ",
     "history": [
       {
         "userId": 920037,
         "timestamp": 1638806266011,
         "oldValue": "",
-        "newValue": "Langsamer bewegen"
-      }
-    ]
-  },
-  "keyboardHelpDialog.measurementTools": {
-    "value": "Meßintrument",
-    "history": [
-      {
-        "userId": 920037,
-        "timestamp": 1638806266011,
-        "oldValue": "",
-        "newValue": "Meßintrument"
+        "newValue": "<b>Level {{levelNumber}}</b>: {{numberOfHarmonics}} Oberschwingungen "
       }
     ]
   },
@@ -472,28 +518,6 @@
       }
     ]
   },
-  "matchUsingNHarmonics": {
-    "value": "<b>Level {{levelNumber}}</b>: Versuche, die pinke Welenform zu erzeugen, indem du <b>{{numberOfHarmonics}}</b> Oberschwingungen benutzt.",
-    "history": [
-      {
-        "userId": 920037,
-        "timestamp": 1638806266011,
-        "oldValue": "",
-        "newValue": "<b>Level {{levelNumber}}</b>: Versuche, die pinke Welenform zu erzeugen, indem du <b>{{numberOfHarmonics}}</b> Oberschwingungen benutzt."
-      }
-    ]
-  },
-  "infoNHarmonics": {
-    "value": "<b>Level {{levelNumber}}</b>: {{numberOfHarmonics}} Oberschwingungen ",
-    "history": [
-      {
-        "userId": 920037,
-        "timestamp": 1638806266011,
-        "oldValue": "",
-        "newValue": "<b>Level {{levelNumber}}</b>: {{numberOfHarmonics}} Oberschwingungen "
-      }
-    ]
-  },
   "checkAnswer": {
     "value": "Antwort checken",
     "history": [
@@ -604,6 +628,17 @@
       }
     ]
   },
+  "amplitude": {
+    "value": "Amplitude",
+    "history": [
+      {
+        "userId": 920037,
+        "timestamp": 1638806266011,
+        "oldValue": "",
+        "newValue": "Amplitude"
+      }
+    ]
+  },
   "spaceSymbol": {
     "value": "Raum ({{symbol}})",
     "history": [
@@ -682,24 +717,36 @@
     ]
   },
   "symbolsDialog.k": {
-    "value": "{{k}} - Raumwellenzahl, in rad/m",
+    "value": "{{k}} - Wellenzahl, in rad/m",
     "history": [
       {
         "userId": 920037,
         "timestamp": 1638806266011,
         "oldValue": "",
         "newValue": "{{k}} - Raumwellenzahl, in rad/m"
+      },
+      {
+        "userId": 446279,
+        "timestamp": 1664130129342,
+        "oldValue": "{{k}} - Raumwellenzahl, in rad/m",
+        "newValue": "{{k}} - Wellenzahl, in rad/m"
       }
     ]
   },
   "symbolsDialog.L": {
-    "value": "{{L}} - Saitenlänge, in m (falls dies ein gezupfte Saite wäre)",
+    "value": "{{L}} - Saitenlänge, in m (falls dies eine gezupfte Saite wäre)",
     "history": [
       {
         "userId": 920037,
         "timestamp": 1638806266011,
         "oldValue": "",
         "newValue": "{{L}} - Saitenlänge, in m (falls dies ein gezupfte Saite wäre)"
+      },
+      {
+        "userId": 446279,
+        "timestamp": 1664130129342,
+        "oldValue": "{{L}} - Saitenlänge, in m (falls dies ein gezupfte Saite wäre)",
+        "newValue": "{{L}} - Saitenlänge, in m (falls dies eine gezupfte Saite wäre)"
       }
     ]
   },
@@ -737,13 +784,19 @@
     ]
   },
   "symbolsDialog.omega": {
-    "value": "{{omega}} - Winkelwellenzahl, in rad/ms",
+    "value": "{{omega}} - Kreisfrequenz, in rad/ms",
     "history": [
       {
         "userId": 920037,
         "timestamp": 1638806266011,
         "oldValue": "",
         "newValue": "{{omega}} - Winkelwellenzahl, in rad/ms"
+      },
+      {
+        "userId": 446279,
+        "timestamp": 1664130129342,
+        "oldValue": "{{omega}} - Winkelwellenzahl, in rad/ms",
+        "newValue": "{{omega}} - Kreisfrequenz, in rad/ms"
       }
     ]
   },
@@ -759,13 +812,19 @@
     ]
   },
   "hidden": {
-    "value": "versteckt",
+    "value": "Versteckt",
     "history": [
       {
         "userId": 920037,
         "timestamp": 1638806266011,
         "oldValue": "",
         "newValue": "versteckt"
+      },
+      {
+        "userId": 446279,
+        "timestamp": 1664130129342,
+        "oldValue": "versteckt",
+        "newValue": "Versteckt"
       }
     ]
   },
@@ -792,46 +851,70 @@
     ]
   },
   "sinusoid": {
-    "value": "Sinuskurve",
+    "value": "Sinus",
     "history": [
       {
         "userId": 920037,
         "timestamp": 1638806266011,
         "oldValue": "",
         "newValue": "Sinuskurve"
+      },
+      {
+        "userId": 446279,
+        "timestamp": 1664130129342,
+        "oldValue": "Sinuskurve",
+        "newValue": "Sinus"
       }
     ]
   },
   "triangle": {
-    "value": "Dreieckskurve",
+    "value": "Dreieck",
     "history": [
       {
         "userId": 920037,
         "timestamp": 1638806266011,
         "oldValue": "",
         "newValue": "Dreieckskurve"
+      },
+      {
+        "userId": 446279,
+        "timestamp": 1664130129342,
+        "oldValue": "Dreieckskurve",
+        "newValue": "Dreieck"
       }
     ]
   },
   "square": {
-    "value": "Rechteckskurve",
+    "value": "Rechteck",
     "history": [
       {
         "userId": 920037,
         "timestamp": 1638806266011,
         "oldValue": "",
         "newValue": "Rechteckskurve"
+      },
+      {
+        "userId": 446279,
+        "timestamp": 1664130129342,
+        "oldValue": "Rechteckskurve",
+        "newValue": "Rechteck"
       }
     ]
   },
   "sawtooth": {
-    "value": "Sägezahnkurve",
+    "value": "Sägezahn",
     "history": [
       {
         "userId": 920037,
         "timestamp": 1638806266011,
         "oldValue": "",
         "newValue": "Sägezahnkurve"
+      },
+      {
+        "userId": 446279,
+        "timestamp": 1664130129342,
+        "oldValue": "Sägezahnkurve",
+        "newValue": "Sägezahn"
       }
     ]
   },
@@ -865,17 +948,6 @@
         "timestamp": 1638806266011,
         "oldValue": "",
         "newValue": "Wellenlänge:"
-      }
-    ]
-  },
-  "amplitude": {
-    "value": "Amplitude",
-    "history": [
-      {
-        "userId": 920037,
-        "timestamp": 1638806266011,
-        "oldValue": "",
-        "newValue": "Amplitude"
       }
     ]
   },
@@ -978,17 +1050,6 @@
       }
     ]
   },
-  "symbolsDialog.sigma": {
-    "value": "{{sigma}} - Standardabweichung des Gaußschen Wellenpaket",
-    "history": [
-      {
-        "userId": 920037,
-        "timestamp": 1638806266011,
-        "oldValue": "",
-        "newValue": "{{sigma}} - Standardabweichung des Gaußschen Wellenpaket"
-      }
-    ]
-  },
   "widthIndicators": {
     "value": "Indikator der Breite",
     "history": [
@@ -997,6 +1058,17 @@
         "timestamp": 1638806266011,
         "oldValue": "",
         "newValue": "Indikator der Breite"
+      }
+    ]
+  },
+  "symbolsDialog.sigma": {
+    "value": "{{sigma}} - Standardabweichung des Gaußschen Wellenpaket",
+    "history": [
+      {
+        "userId": 920037,
+        "timestamp": 1638806266011,
+        "oldValue": "",
+        "newValue": "{{sigma}} - Standardabweichung des Gaußschen Wellenpaket"
       }
     ]
   },
