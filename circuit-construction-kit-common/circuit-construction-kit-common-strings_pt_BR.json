@@ -1,6 +1,17 @@
 {
+  "oneSecond": {
+    "value": "1 s",
+    "history": [
+      {
+        "userId": 937495,
+        "timestamp": 1664138054149,
+        "oldValue": "",
+        "newValue": "1 s"
+      }
+    ]
+  },
   "acSource": {
-    "value": "Tensão AC",
+    "value": "Fonte AC",
     "history": [
       {
         "userId": 143491,
@@ -8,6 +19,12 @@
         "oldValue": "",
         "newValue": "Tensão AC",
         "explanation": null
+      },
+      {
+        "userId": 937495,
+        "timestamp": 1664138054149,
+        "oldValue": "Tensão AC",
+        "newValue": "Fonte AC"
       }
     ]
   },
@@ -232,7 +249,7 @@
     ]
   },
   "dollarBill": {
-    "value": "Dinheiro de Papel",
+    "value": "Cédula de dinheiro",
     "history": [
       {
         "userId": 143491,
@@ -240,6 +257,12 @@
         "oldValue": "",
         "newValue": "Dinheiro de Papel",
         "explanation": null
+      },
+      {
+        "userId": 937495,
+        "timestamp": 1664138054149,
+        "oldValue": "Dinheiro de Papel",
+        "newValue": "Cédula de dinheiro"
       }
     ]
   },
@@ -303,6 +326,28 @@
       }
     ]
   },
+  "iec": {
+    "value": "IEC",
+    "history": [
+      {
+        "userId": 937495,
+        "timestamp": 1664138054149,
+        "oldValue": "",
+        "newValue": "IEC"
+      }
+    ]
+  },
+  "ieee": {
+    "value": "IEEE",
+    "history": [
+      {
+        "userId": 937495,
+        "timestamp": 1664138054149,
+        "oldValue": "",
+        "newValue": "IEEE"
+      }
+    ]
+  },
   "inductance": {
     "value": "Indutância",
     "history": [
@@ -326,7 +371,7 @@
     ]
   },
   "labels": {
-    "value": "Etiquetas",
+    "value": "Rótulos",
     "history": [
       {
         "userId": 143491,
@@ -334,6 +379,12 @@
         "oldValue": "",
         "newValue": "Etiquetas",
         "explanation": null
+      },
+      {
+        "userId": 937495,
+        "timestamp": 1664138054149,
+        "oldValue": "Etiquetas",
+        "newValue": "Rótulos"
       }
     ]
   },
@@ -365,6 +416,17 @@
         "oldValue": "muitos",
         "newValue": "grande",
         "explanation": null
+      }
+    ]
+  },
+  "magnitude": {
+    "value": "Módulo",
+    "history": [
+      {
+        "userId": 937495,
+        "timestamp": 1664138054149,
+        "oldValue": "",
+        "newValue": "Módulo"
       }
     ]
   },
@@ -451,13 +513,19 @@
     ]
   },
   "signed": {
-    "value": "Assinado",
+    "value": "Com sinal",
     "history": [
       {
         "userId": 143491,
         "timestamp": 1639680470216,
         "oldValue": "",
         "newValue": "Assinado"
+      },
+      {
+        "userId": 937495,
+        "timestamp": 1664138054149,
+        "oldValue": "Assinado",
+        "newValue": "Com sinal"
       }
     ]
   },
@@ -645,8 +713,85 @@
       }
     ]
   },
+  "capacitanceUnits": {
+    "value": "{{capacitance}} F",
+    "history": [
+      {
+        "userId": 937495,
+        "timestamp": 1664138054149,
+        "oldValue": "",
+        "newValue": "{{capacitance}} F"
+      }
+    ]
+  },
+  "currentUnits": {
+    "value": "{{current}} A",
+    "history": [
+      {
+        "userId": 937495,
+        "timestamp": 1664138054149,
+        "oldValue": "",
+        "newValue": "{{current}} A"
+      }
+    ]
+  },
+  "frequencyHzValuePattern": {
+    "value": "{{frequency}} Hz",
+    "history": [
+      {
+        "userId": 937495,
+        "timestamp": 1664138054149,
+        "oldValue": "",
+        "newValue": "{{frequency}} Hz"
+      }
+    ]
+  },
+  "inductanceUnits": {
+    "value": "{{inductance}} H",
+    "history": [
+      {
+        "userId": 937495,
+        "timestamp": 1664138054149,
+        "oldValue": "",
+        "newValue": "{{inductance}} H"
+      }
+    ]
+  },
+  "capacitanceFaradsSymbol": {
+    "value": "{{resistance}} F",
+    "history": [
+      {
+        "userId": 937495,
+        "timestamp": 1664138054149,
+        "oldValue": "",
+        "newValue": "{{resistance}} F"
+      }
+    ]
+  },
+  "inductanceHenriesSymbol": {
+    "value": "{{resistance}} H",
+    "history": [
+      {
+        "userId": 937495,
+        "timestamp": 1664138054149,
+        "oldValue": "",
+        "newValue": "{{resistance}} H"
+      }
+    ]
+  },
+  "fuseValue": {
+    "value": "{{resistance}} mΩ<br><span style=\"font-size: 16px;\">≤ {{currentRating}} A</span>",
+    "history": [
+      {
+        "userId": 937495,
+        "timestamp": 1664138054149,
+        "oldValue": "",
+        "newValue": "{{resistance}} mΩ<br><span style=\"font-size: 16px;\">≤ {{currentRating}} A</span>"
+      }
+    ]
+  },
   "resistanceOhmsValuePattern": {
-    "value": "{{resistance}} ohm",
+    "value": "{{resistance}} ohms",
     "history": [
       {
         "userId": 143491,
@@ -654,6 +799,45 @@
         "oldValue": "",
         "newValue": "{{resistance}} ohm",
         "explanation": null
+      },
+      {
+        "userId": 937495,
+        "timestamp": 1664138054149,
+        "oldValue": "{{resistance}} ohm",
+        "newValue": "{{resistance}} ohms"
+      }
+    ]
+  },
+  "resistanceOhmsSymbol": {
+    "value": "{{resistance}} Ω",
+    "history": [
+      {
+        "userId": 937495,
+        "timestamp": 1664138054149,
+        "oldValue": "",
+        "newValue": "{{resistance}} Ω"
+      }
+    ]
+  },
+  "voltageUnits": {
+    "value": "{{voltage}} V",
+    "history": [
+      {
+        "userId": 937495,
+        "timestamp": 1664138054149,
+        "oldValue": "",
+        "newValue": "{{voltage}} V"
+      }
+    ]
+  },
+  "voltageVoltsValuePattern": {
+    "value": "{{voltage}} volts",
+    "history": [
+      {
+        "userId": 937495,
+        "timestamp": 1664138054149,
+        "oldValue": "",
+        "newValue": "{{voltage}} volts"
       }
     ]
   },
