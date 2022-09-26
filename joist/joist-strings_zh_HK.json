@@ -10,6 +10,39 @@
       }
     ]
   },
+  "preferences.tabs.visual.interactiveHighlightsDescription": {
+    "value": "為滑鼠及觸控加上視覺效果",
+    "history": [
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "",
+        "newValue": "為滑鼠及觸控加上視覺效果"
+      }
+    ]
+  },
+  "preferences.tabs.audio.title": {
+    "value": "音效",
+    "history": [
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "",
+        "newValue": "音效"
+      }
+    ]
+  },
+  "preferences.tabs.audio.audioFeatures.title": {
+    "value": "音效功能",
+    "history": [
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "",
+        "newValue": "音效功能"
+      }
+    ]
+  },
   "menuItem.getUpdate": {
     "value": "檢查更新",
     "history": [
@@ -22,35 +55,103 @@
     ]
   },
   "updates.checking": {
-    "value": "正在檢查更新",
+    "value": "檢查更新中",
     "history": [
       {
         "userId": 1091901,
         "timestamp": 1663828936283,
         "oldValue": "",
         "newValue": "正在檢查更新"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "正在檢查更新",
+        "newValue": "檢查更新中"
+      }
+    ]
+  },
+  "credits.contributors": {
+    "value": "撰稿人:  {0}",
+    "history": [
+      {
+        "userId": 1091901,
+        "timestamp": 1663828936283,
+        "oldValue": "",
+        "newValue": "貢獻者:{0}"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "貢獻者:{0}",
+        "newValue": "撰稿人:  {0}"
       }
     ]
   },
   "credits.title": {
-    "value": "出處",
+    "value": "人員名單",
     "history": [
       {
         "userId": 1091901,
         "timestamp": 1663828936283,
         "oldValue": "",
         "newValue": "出處"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "出處",
+        "newValue": "人員名單"
+      }
+    ]
+  },
+  "menuItem.enhancedSound": {
+    "value": "額外聲音",
+    "history": [
+      {
+        "userId": 1091901,
+        "timestamp": 1663828936283,
+        "oldValue": "",
+        "newValue": "額外聲音"
+      }
+    ]
+  },
+  "preferences.tabs.audio.sounds.extraSounds.title": {
+    "value": "額外聲音",
+    "history": [
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "",
+        "newValue": "額外聲音"
       }
     ]
   },
   "menuItem.fullscreen": {
-    "value": "全螢幕",
+    "value": "全營幕",
     "history": [
       {
         "userId": 1091901,
         "timestamp": 1663828936283,
         "oldValue": "",
         "newValue": "全螢幕"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "全螢幕",
+        "newValue": "全營幕"
+      }
+    ]
+  },
+  "preferences.tabs.general.title": {
+    "value": "普遍",
+    "history": [
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "",
+        "newValue": "普遍"
       }
     ]
   },
@@ -66,46 +167,144 @@
     ]
   },
   "credits.graphicArts": {
-    "value": "圖形藝術: {0}",
+    "value": "美術: {0}",
     "history": [
       {
         "userId": 1091901,
         "timestamp": 1663828936283,
         "oldValue": "",
         "newValue": "圖形藝術: {0}"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "圖形藝術: {0}",
+        "newValue": "美術: {0}"
+      }
+    ]
+  },
+  "preferences.tabs.visual.interactiveHighlights": {
+    "value": "互動重點",
+    "history": [
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "",
+        "newValue": "互動重點"
+      }
+    ]
+  },
+  "queryParametersWarningDialog.invalidQueryParameters": {
+    "value": "無效查詢參數",
+    "history": [
+      {
+        "userId": 1091901,
+        "timestamp": 1663830169678,
+        "oldValue": "",
+        "newValue": "無效的查詢參數\r\n\r\n"
+      },
+      {
+        "userId": 1091901,
+        "timestamp": 1663834977342,
+        "oldValue": "無效的查詢參數\r\n\r\n",
+        "newValue": "無效的查詢參數\r\n\n\r\n\n"
+      },
+      {
+        "userId": 1091901,
+        "timestamp": 1663847812234,
+        "oldValue": "無效的查詢參數\r\n\n\r\n\n",
+        "newValue": "無效的查詢參數\r\n\r\n\r\n\r\n"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "無效的查詢參數\r\n\r\n\r\n\r\n",
+        "newValue": "無效查詢參數"
+      }
+    ]
+  },
+  "keyboardShortcuts.title": {
+    "value": "鍵盤快速鍵",
+    "history": [
+      {
+        "userId": 1091901,
+        "timestamp": 1663828936283,
+        "oldValue": "",
+        "newValue": "鍵盤快捷鍵"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "鍵盤快捷鍵",
+        "newValue": "鍵盤快速鍵"
       }
     ]
   },
   "credits.leadDesign": {
-    "value": "主要設計: {0}",
+    "value": "主要設計: {0}",
     "history": [
       {
         "userId": 1091901,
         "timestamp": 1663828936283,
         "oldValue": "",
         "newValue": "主要設計: {0}"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "主要設計: {0}",
+        "newValue": "主要設計: {0}"
       }
     ]
   },
   "updates.outOfDate": {
-    "value": "新版本適用",
+    "value": "新版本可供使用",
     "history": [
       {
         "userId": 1091901,
         "timestamp": 1663828936283,
         "oldValue": "",
         "newValue": "新版本適用"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "新版本適用",
+        "newValue": "新版本可供使用"
       }
     ]
   },
   "updates.noThanks": {
-    "value": "不用了，謝謝",
+    "value": "謝謝,不用了。",
     "history": [
       {
         "userId": 1091901,
         "timestamp": 1663828936283,
         "oldValue": "",
         "newValue": "不用了，謝謝"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "不用了，謝謝",
+        "newValue": "謝謝,不用了。"
+      }
+    ]
+  },
+  "queryParametersWarningDialog.oneOrMoreQueryParameters": {
+    "value": "以下一個或以上查詢參數有<br>無效數值",
+    "history": [
+      {
+        "userId": 1091901,
+        "timestamp": 1663830169678,
+        "oldValue": "",
+        "newValue": "一個或以上的查詢參數 <br>存在無效的數值:"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "一個或以上的查詢參數 <br>存在無效的數值:",
+        "newValue": "以下一個或以上查詢參數有<br>無效數值"
       }
     ]
   },
@@ -121,29 +320,74 @@
     ]
   },
   "menuItem.options": {
-    "value": "選項...",
+    "value": "選項 ...",
     "history": [
       {
         "userId": 1091901,
         "timestamp": 1663828936283,
         "oldValue": "",
         "newValue": "選項..."
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "選項...",
+        "newValue": "選項 ..."
       }
     ]
   },
   "menuItem.phetWebsite": {
-    "value": "PhET網頁...",
+    "value": "PhET 網站 ... ",
     "history": [
       {
         "userId": 1091901,
         "timestamp": 1663828936283,
         "oldValue": "",
         "newValue": "PhET網頁..."
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "PhET網頁...",
+        "newValue": "PhET 網站 ... "
+      }
+    ]
+  },
+  "preferences.tabs.audio.sounds.extraSounds.description": {
+    "value": "如有需要,播放附加聲音。",
+    "history": [
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "",
+        "newValue": "如有需要,播放附加聲音。"
+      }
+    ]
+  },
+  "preferences.tabs.audio.sounds.description": {
+    "value": "在互動時播放聲音和音效。",
+    "history": [
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "",
+        "newValue": "在互動時播放聲音和音效。"
+      }
+    ]
+  },
+  "preferences.title": {
+    "value": "喜好",
+    "history": [
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "",
+        "newValue": "喜好"
       }
     ]
   },
   "credits.qualityAssurance": {
-    "value": "品質保證:{0}",
+    "value": "貨素保証 : {0}",
     "history": [
       {
         "userId": 1091901,
@@ -156,44 +400,96 @@
         "timestamp": 1663848040891,
         "oldValue": "品質管制:{0}",
         "newValue": "品質保證:{0}"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "品質保證:{0}",
+        "newValue": "貨素保証 : {0}"
       }
     ]
   },
   "menuItem.reportAProblem": {
-    "value": "回報問題...",
+    "value": "報告問題 ...",
     "history": [
       {
         "userId": 1091901,
         "timestamp": 1663828936283,
         "oldValue": "",
         "newValue": "回報問題..."
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "回報問題...",
+        "newValue": "報告問題 ..."
       }
     ]
   },
   "menuItem.screenshot": {
-    "value": "截圖",
+    "value": "螢幕截圖",
     "history": [
       {
         "userId": 1091901,
         "timestamp": 1663828936283,
         "oldValue": "",
         "newValue": "截圖"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "截圖",
+        "newValue": "螢幕截圖"
       }
     ]
   },
   "credits.softwareDevelopment": {
-    "value": "軟件開發: {0}",
+    "value": "軟件開發：{0}",
     "history": [
       {
         "userId": 1091901,
         "timestamp": 1663828936283,
         "oldValue": "",
         "newValue": "軟件開發: {0}"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "軟件開發: {0}",
+        "newValue": "軟件開發：{0}"
+      }
+    ]
+  },
+  "credits.soundDesign": {
+    "value": "聲音設計：{0}",
+    "history": [
+      {
+        "userId": 1091901,
+        "timestamp": 1663828936283,
+        "oldValue": "",
+        "newValue": "聲音設計:{0}"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "聲音設計:{0}",
+        "newValue": "聲音設計：{0}"
+      }
+    ]
+  },
+  "preferences.tabs.audio.sounds.title": {
+    "value": "聲音",
+    "history": [
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "",
+        "newValue": "聲音"
       }
     ]
   },
   "credits.team": {
-    "value": "團隊:{0}",
+    "value": "團隊: {0}",
     "history": [
       {
         "userId": 1091901,
@@ -206,83 +502,153 @@
         "timestamp": 1663848040891,
         "oldValue": "隊伍:{0}",
         "newValue": "團隊:{0}"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "團隊:{0}",
+        "newValue": "團隊: {0}"
       }
     ]
   },
   "termsPrivacyAndLicensing": {
-    "value": "私隱權和條款",
+    "value": "條款、隱私和許可",
     "history": [
       {
         "userId": 1091901,
         "timestamp": 1663828936283,
         "oldValue": "",
         "newValue": "私隱權和條款"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "私隱權和條款",
+        "newValue": "條款、隱私和許可"
       }
     ]
   },
   "credits.thanks": {
-    "value": "鳴謝",
+    "value": "謝謝!",
     "history": [
       {
         "userId": 1091901,
         "timestamp": 1663828936283,
         "oldValue": "",
         "newValue": "鳴謝"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "鳴謝",
+        "newValue": "謝謝!"
+      }
+    ]
+  },
+  "queryParametersWarningDialog.theSimulationWillStart": {
+    "value": "模擬器會以預設數值 <br> 開始",
+    "history": [
+      {
+        "userId": 1091901,
+        "timestamp": 1663830169678,
+        "oldValue": "",
+        "newValue": "模擬器會以預設數值 <br> 開始"
       }
     ]
   },
   "updates.newVersionAvailable": {
-    "value": "有一個新版本適用:{0}",
+    "value": "新版本可供使用: {0}",
     "history": [
       {
         "userId": 1091901,
         "timestamp": 1663828936283,
         "oldValue": "",
         "newValue": "有一個新版本適用:{0}"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "有一個新版本適用:{0}",
+        "newValue": "新版本可供使用: {0}"
       }
     ]
   },
   "thirdParty.credits.link": {
-    "value": "第三方出處",
+    "value": "特別鳴謝第三方",
     "history": [
       {
         "userId": 1091901,
         "timestamp": 1663828936283,
         "oldValue": "",
         "newValue": "第三方出處"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "第三方出處",
+        "newValue": "特別鳴謝第三方"
       }
     ]
   },
   "updates.upToDate": {
-    "value": "這個模擬器是最新的",
+    "value": "這個模擬是最新版本。",
     "history": [
       {
         "userId": 1091901,
         "timestamp": 1663828936283,
         "oldValue": "",
         "newValue": "這個模擬器是最新的"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "這個模擬器是最新的",
+        "newValue": "這個模擬是最新版本。"
       }
     ]
   },
-  "credits.translation": {
-    "value": "翻譯",
+  "preferences.tabs.general.moreAccessibility": {
+    "value": "要查找具有包容性特徵的其他模擬，請在模擬過濾器頁面上查找訪問和包含並按包容性特徵進行過濾。",
+    "history": [
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "",
+        "newValue": "要查找具有包容性特徵的其他模擬，請在模擬過濾器頁面上查找訪問和包含並按包容性特徵進行過濾。"
+      }
+    ]
+  },
+  "keyboardShortcuts.toGetStarted": {
+    "value": "開始",
     "history": [
       {
         "userId": 1091901,
         "timestamp": 1663828936283,
         "oldValue": "",
-        "newValue": "翻譯"
+        "newValue": "準備開始"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "準備開始",
+        "newValue": "開始"
       }
     ]
   },
   "translation.credits.link": {
-    "value": "翻譯出處",
+    "value": "翻譯團隊",
     "history": [
       {
         "userId": 1091901,
         "timestamp": 1663828936283,
         "oldValue": "",
         "newValue": "翻譯出處"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "翻譯出處",
+        "newValue": "翻譯團隊"
       }
     ]
   },
@@ -298,24 +664,80 @@
     ]
   },
   "versionPattern": {
-    "value": "版本{0}",
+    "value": "版本 {0}",
     "history": [
       {
         "userId": 1091901,
         "timestamp": 1663828936283,
         "oldValue": "",
         "newValue": "版本{0}"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "版本{0}",
+        "newValue": "版本 {0}"
+      }
+    ]
+  },
+  "preferences.tabs.visual.title": {
+    "value": "視覺",
+    "history": [
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "",
+        "newValue": "視覺"
+      }
+    ]
+  },
+  "preferences.tabs.general.accessibilityIntro": {
+    "value": "我們正在為我們的模擬添加功能，以使其更具包容性。其中一些功能，令具有不同需求和在不同環境中的學習者更能理解或運用所提供的功能。瀏覽此菜單以查看或更改默認演示設置。",
+    "history": [
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "",
+        "newValue": "我們正在為我們的模擬添加功能，以使其更具包容性。其中一些功能，令具有不同需求和在不同環境中的學習者更能理解或運用所提供的功能。瀏覽此菜單以查看或更改默認演示設置。"
       }
     ]
   },
   "updates.yourCurrentVersion": {
-    "value": "你現時的版本是:{0}",
+    "value": "你現時持有版本: {0}.",
     "history": [
       {
         "userId": 1091901,
         "timestamp": 1663828936283,
         "oldValue": "",
         "newValue": "你現時的版本是:{0}"
+      },
+      {
+        "userId": 975083,
+        "timestamp": 1664169761193,
+        "oldValue": "你現時的版本是:{0}",
+        "newValue": "你現時持有版本: {0}."
+      }
+    ]
+  },
+  "simTitleWithScreenNamePattern": {
+    "value": "{{simName}} — {{screenName}}",
+    "history": [
+      {
+        "userId": 1091901,
+        "timestamp": 1663828936283,
+        "oldValue": "",
+        "newValue": "{{simName}} — {{screenName}}"
+      }
+    ]
+  },
+  "credits.translation": {
+    "value": "翻譯",
+    "history": [
+      {
+        "userId": 1091901,
+        "timestamp": 1663828936283,
+        "oldValue": "",
+        "newValue": "翻譯"
       }
     ]
   },
@@ -352,28 +774,6 @@
       }
     ]
   },
-  "credits.contributors": {
-    "value": "貢獻者:{0}",
-    "history": [
-      {
-        "userId": 1091901,
-        "timestamp": 1663828936283,
-        "oldValue": "",
-        "newValue": "貢獻者:{0}"
-      }
-    ]
-  },
-  "menuItem.enhancedSound": {
-    "value": "額外聲音",
-    "history": [
-      {
-        "userId": 1091901,
-        "timestamp": 1663828936283,
-        "oldValue": "",
-        "newValue": "額外聲音"
-      }
-    ]
-  },
   "ieErrorPage.ieIsNotSupported": {
     "value": "不支援Internet Explorer瀏覽器",
     "history": [
@@ -382,51 +782,6 @@
         "timestamp": 1663830169678,
         "oldValue": "",
         "newValue": "不支援Internet Explorer瀏覽器"
-      }
-    ]
-  },
-  "queryParametersWarningDialog.invalidQueryParameters": {
-    "value": "無效的查詢參數\r\n\r\n\r\n\r\n",
-    "history": [
-      {
-        "userId": 1091901,
-        "timestamp": 1663830169678,
-        "oldValue": "",
-        "newValue": "無效的查詢參數\r\n\r\n"
-      },
-      {
-        "userId": 1091901,
-        "timestamp": 1663834977342,
-        "oldValue": "無效的查詢參數\r\n\r\n",
-        "newValue": "無效的查詢參數\r\n\n\r\n\n"
-      },
-      {
-        "userId": 1091901,
-        "timestamp": 1663847812234,
-        "oldValue": "無效的查詢參數\r\n\n\r\n\n",
-        "newValue": "無效的查詢參數\r\n\r\n\r\n\r\n"
-      }
-    ]
-  },
-  "keyboardShortcuts.title": {
-    "value": "鍵盤快捷鍵",
-    "history": [
-      {
-        "userId": 1091901,
-        "timestamp": 1663828936283,
-        "oldValue": "",
-        "newValue": "鍵盤快捷鍵"
-      }
-    ]
-  },
-  "queryParametersWarningDialog.oneOrMoreQueryParameters": {
-    "value": "一個或以上的查詢參數 <br>存在無效的數值:",
-    "history": [
-      {
-        "userId": 1091901,
-        "timestamp": 1663830169678,
-        "oldValue": "",
-        "newValue": "一個或以上的查詢參數 <br>存在無效的數值:"
       }
     ]
   },
@@ -449,50 +804,6 @@
         "timestamp": 1663830169678,
         "oldValue": "",
         "newValue": "請使用另一個瀏覽器去運行這個模擬器"
-      }
-    ]
-  },
-  "credits.soundDesign": {
-    "value": "聲音設計:{0}",
-    "history": [
-      {
-        "userId": 1091901,
-        "timestamp": 1663828936283,
-        "oldValue": "",
-        "newValue": "聲音設計:{0}"
-      }
-    ]
-  },
-  "queryParametersWarningDialog.theSimulationWillStart": {
-    "value": "模擬器會以預設數值 <br> 開始",
-    "history": [
-      {
-        "userId": 1091901,
-        "timestamp": 1663830169678,
-        "oldValue": "",
-        "newValue": "模擬器會以預設數值 <br> 開始"
-      }
-    ]
-  },
-  "keyboardShortcuts.toGetStarted": {
-    "value": "準備開始",
-    "history": [
-      {
-        "userId": 1091901,
-        "timestamp": 1663828936283,
-        "oldValue": "",
-        "newValue": "準備開始"
-      }
-    ]
-  },
-  "simTitleWithScreenNamePattern": {
-    "value": "{{simName}} — {{screenName}}",
-    "history": [
-      {
-        "userId": 1091901,
-        "timestamp": 1663828936283,
-        "oldValue": "",
-        "newValue": "{{simName}} — {{screenName}}"
       }
     ]
   }
