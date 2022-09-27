@@ -153,6 +153,28 @@
       }
     ]
   },
+  "keyboardHelpDialog.moveTool": {
+    "value": "Gerak alat",
+    "history": [
+      {
+        "userId": 275815,
+        "timestamp": 1664266137511,
+        "oldValue": "",
+        "newValue": "Gerak alat"
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToolSlower": {
+    "value": "Gerak lebih perlahan",
+    "history": [
+      {
+        "userId": 275815,
+        "timestamp": 1664266137511,
+        "oldValue": "",
+        "newValue": "Gerak lebih perlahan"
+      }
+    ]
+  },
   "keyboardHelpDialog.measurementTools": {
     "value": "Alat Pengukuran",
     "history": [
@@ -359,6 +381,17 @@
         "timestamp": 1664214224022,
         "oldValue": "",
         "newValue": "{{min}} ke {{max}}"
+      }
+    ]
+  },
+  "enter": {
+    "value": "Masuk",
+    "history": [
+      {
+        "userId": 275815,
+        "timestamp": 1664266137511,
+        "oldValue": "",
+        "newValue": "Masuk"
       }
     ]
   },
@@ -572,13 +605,19 @@
     ]
   },
   "spaceSymbol": {
-    "value": "ruang ({{symbol}})",
+    "value": "jarak (ruang) ({{symbol}})",
     "history": [
       {
         "userId": 275815,
         "timestamp": 1664214224022,
         "oldValue": "",
         "newValue": "ruang ({{symbol}})"
+      },
+      {
+        "userId": 275815,
+        "timestamp": 1664266137511,
+        "oldValue": "ruang ({{symbol}})",
+        "newValue": "jarak (ruang) ({{symbol}})"
       }
     ]
   },
@@ -594,13 +633,19 @@
     ]
   },
   "spaceAndTimeSymbols": {
-    "value": "ruang & masa ({{spaceSymbol}},{{timeSymbol}})",
+    "value": "jarak (ruang) & masa ({{spaceSymbol}},{{timeSymbol}})",
     "history": [
       {
         "userId": 275815,
         "timestamp": 1664214224022,
         "oldValue": "",
         "newValue": "ruang & masa ({{spaceSymbol}},{{timeSymbol}})"
+      },
+      {
+        "userId": 275815,
+        "timestamp": 1664266137511,
+        "oldValue": "ruang & masa ({{spaceSymbol}},{{timeSymbol}})",
+        "newValue": "jarak (ruang) & masa ({{spaceSymbol}},{{timeSymbol}})"
       }
     ]
   },
@@ -648,6 +693,17 @@
       }
     ]
   },
+  "symbolsDialog.k": {
+    "value": "{{k}} - bilangan gelombang (tetapan gelombang), dalam rad/m",
+    "history": [
+      {
+        "userId": 275815,
+        "timestamp": 1664266137511,
+        "oldValue": "",
+        "newValue": "{{k}} - bilangan gelombang (tetapan gelombang), dalam rad/m"
+      }
+    ]
+  },
   "symbolsDialog.L": {
     "value": "{{L}} - panjang tali, dalam m (jika ini adalah tali yang dipetik)",
     "history": [
@@ -682,24 +738,47 @@
     ]
   },
   "symbolsDialog.T": {
-    "value": "{{T}} - ptempoh, idalam ms",
+    "value": "{{T}} - tempoh, dalam ms",
     "history": [
       {
         "userId": 275815,
         "timestamp": 1664214224022,
         "oldValue": "",
         "newValue": "{{T}} - ptempoh, idalam ms"
+      },
+      {
+        "userId": 275815,
+        "timestamp": 1664266137511,
+        "oldValue": "{{T}} - ptempoh, idalam ms",
+        "newValue": "{{T}} - tempoh, dalam ms"
+      }
+    ]
+  },
+  "symbolsDialog.omega": {
+    "value": "{{omega}} - frekuensi sudut (bilangan gelombang sudut), dalam rad/ms",
+    "history": [
+      {
+        "userId": 275815,
+        "timestamp": 1664266137511,
+        "oldValue": "",
+        "newValue": "{{omega}} - frekuensi sudut (bilangan gelombang sudut), dalam rad/ms"
       }
     ]
   },
   "symbolsDialog.x": {
-    "value": "{{x}} - kedudukan di dalam ruang, dalam m",
+    "value": "{{x}} - jarak (kedudukan di dalam ruang), dalam m",
     "history": [
       {
         "userId": 275815,
         "timestamp": 1664214224022,
         "oldValue": "",
         "newValue": "{{x}} - kedudukan di dalam ruang, dalam m"
+      },
+      {
+        "userId": 275815,
+        "timestamp": 1664266137511,
+        "oldValue": "{{x}} - kedudukan di dalam ruang, dalam m",
+        "newValue": "{{x}} - jarak (kedudukan di dalam ruang), dalam m"
       }
     ]
   },
@@ -737,13 +816,19 @@
     ]
   },
   "sinusoid": {
-    "value": "sinusoid",
+    "value": "sinus (sinusoid)",
     "history": [
       {
         "userId": 275815,
         "timestamp": 1664214224022,
         "oldValue": "",
         "newValue": "sinusoid"
+      },
+      {
+        "userId": 275815,
+        "timestamp": 1664266137511,
+        "oldValue": "sinusoid",
+        "newValue": "sinus (sinusoid)"
       }
     ]
   },
