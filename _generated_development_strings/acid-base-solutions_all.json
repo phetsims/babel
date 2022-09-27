@@ -1106,7 +1106,7 @@
       "value": "L"
     },
     "negligible": {
-      "value": "despreciable"
+      "value": "despreciable "
     },
     "concentrationGraph.yAxis": {
       "value": "Concentración en Equilibrio (mol/L)"
@@ -2137,68 +2137,77 @@
     }
   },
   "fr": {
-    "acid": {
-      "value": "Acide"
+    "pattern.0label.1value": {
+      "value": "{0}: {1}"
     },
-    "acid-base-solutions.title": {
-      "value": "Solutions Acido-basiques"
+    "pH": {
+      "value": "pH"
     },
-    "base": {
-      "value": "Base"
+    "pattern.0value.1units": {
+      "value": "{0}{1}"
+    },
+    "liters": {
+      "value": "L"
+    },
+    "pattern.0value.1power": {
+      "value": "{0} x 10<sup>{1}</sup>"
+    },
+    "negligible": {
+      "value": "négligeable"
     },
     "concentrationGraph.yAxis": {
       "value": "Concentration à l'équilibre (mol/L)"
     },
     "graph": {
-      "value": "Graphique"
+      "value": "Représentation graphique"
     },
     "hideViews": {
-      "value": "Cacher les vues"
-    },
-    "initialConcentration": {
-      "value": "Concentration initiale (mol/L)"
-    },
-    "liters": {
-      "value": "L"
+      "value": "Masquer les visualisations"
     },
     "molecules": {
       "value": "Molécules"
     },
-    "negligible": {
-      "value": "négligeable"
-    },
-    "pH": {
-      "value": "pH"
-    },
-    "pHColorKey": {
-      "value": "Echelle de pH"
-    },
-    "pattern.0label.1value": {
-      "value": "{0}: {1}"
-    },
-    "pattern.0value.1power": {
-      "value": "{0} x 10<sup>{1}</sup>"
-    },
-    "pattern.0value.1units": {
-      "value": "{0}{1}"
-    },
-    "screen.introduction": {
-      "value": "Introduction"
-    },
-    "screen.mySolution": {
-      "value": "Ma solution"
+    "solvent": {
+      "value": "Solvant"
     },
     "solution": {
       "value": "Solution"
     },
-    "solvent": {
-      "value": "Solvant"
+    "tools": {
+      "value": "Outils"
+    },
+    "views": {
+      "value": "Visualisation"
+    },
+    "pHColorKey": {
+      "value": "Échelle de pH"
+    },
+    "stronger": {
+      "value": "Plus fort"
+    },
+    "weaker": {
+      "value": "Plus faible"
+    },
+    "acid": {
+      "value": "Acide"
+    },
+    "base": {
+      "value": "Base"
+    },
+    "initialConcentration": {
+      "value": "Concentration initiale (mol/L)"
     },
     "strength": {
-      "value": "Téneur"
+      "value": "Force"
     },
     "strong": {
       "value": "Fort"
+    },
+    "weak": {
+      "value": "Faible"
+    },
+    "screen.mySolution": {
+      "value": "Ma solution"
     },
     "strongAcid": {
       "value": "Acide fort"
@@ -2206,20 +2215,8 @@
     "strongBase": {
       "value": "Base forte"
     },
-    "stronger": {
-      "value": "Plus fort"
-    },
-    "tools": {
-      "value": "Outils"
-    },
-    "views": {
-      "value": "Vues"
-    },
     "water": {
       "value": "Eau"
-    },
-    "weak": {
-      "value": "Faible"
     },
     "weakAcid": {
       "value": "Acide faible"
@@ -2227,8 +2224,11 @@
     "weakBase": {
       "value": "Base faible"
     },
-    "weaker": {
-      "value": "Plus faible"
+    "screen.introduction": {
+      "value": "Introduction"
+    },
+    "acid-base-solutions.title": {
+      "value": "Solutions acido-basiques"
     }
   },
   "ga": {
@@ -2540,18 +2540,122 @@
       "value": "એસિડ-બેઇઝ દ્રાવણો - જીજ્ઞેશ ખુંટ"
     }
   },
-  "hi": {
-    "acid": {
-      "value": "अम्ल "
+  "ha": {
+    "pattern.0label.1value": {
+      "value": "{0}: {1}"
     },
-    "acid-base-solutions.title": {
-      "value": "अम्ल -भस्म विलयन "
+    "pH": {
+      "value": "pH"
     },
-    "base": {
-      "value": "भस्म "
+    "pattern.0value.1units": {
+      "value": "{0}{1}"
+    },
+    "liters": {
+      "value": "L"
+    },
+    "pattern.0value.1power": {
+      "value": "{0} x 10<sup>{1}</sup>"
+    },
+    "negligible": {
+      "value": "wanda bashi da mahimmanci sosai"
     },
     "concentrationGraph.yAxis": {
-      "value": "संतुलित सांद्रता (mol/L)"
+      "value": "daidai"
+    },
+    "graph": {
+      "value": "jadawali"
+    },
+    "hideViews": {
+      "value": "boye "
+    },
+    "molecules": {
+      "value": "kwayoyin halita"
+    },
+    "solvent": {
+      "value": "abu mai narke a ruwa"
+    },
+    "solution": {
+      "value": "abu ruwa ruwa"
+    },
+    "tools": {
+      "value": "kayan aiki"
+    },
+    "views": {
+      "value": "duba"
+    },
+    "pHColorKey": {
+      "value": "launin pH"
+    },
+    "stronger": {
+      "value": "mai karfi"
+    },
+    "weaker": {
+      "value": "mara karfi"
+    },
+    "acid": {
+      "value": "sinadari na ruwa mai dauke da hydrogen"
+    },
+    "base": {
+      "value": "sinadari na ruwa mai dauke da oxygen da kuma hydrogen"
+    },
+    "initialConcentration": {
+      "value": "tattara na farko"
+    },
+    "strength": {
+      "value": "karfi"
+    },
+    "strong": {
+      "value": "mai karfi"
+    },
+    "weak": {
+      "value": "mara karfi"
+    },
+    "screen.mySolution": {
+      "value": "Ruwan narkewa"
+    },
+    "strongAcid": {
+      "value": "acid mai karfi"
+    },
+    "strongBase": {
+      "value": "base mai karfi"
+    },
+    "water": {
+      "value": "ruwa"
+    },
+    "weakAcid": {
+      "value": "acid mara karfi"
+    },
+    "weakBase": {
+      "value": "base mara karfi"
+    },
+    "screen.introduction": {
+      "value": "gabatarwa"
+    },
+    "acid-base-solutions.title": {
+      "value": "ruwan Acid-Base"
+    }
+  },
+  "hi": {
+    "pattern.0label.1value": {
+      "value": "{0}: {1}"
+    },
+    "pH": {
+      "value": "pH"
+    },
+    "pattern.0value.1units": {
+      "value": "{0}{1}"
+    },
+    "liters": {
+      "value": "L"
+    },
+    "pattern.0value.1power": {
+      "value": "{0} x 10<sup>{1}</sup>"
+    },
+    "negligible": {
+      "value": "नगण्य"
+    },
+    "concentrationGraph.yAxis": {
+      "value": "साम्यावस्सांथा सांद्रण (mol/L)"
     },
     "graph": {
       "value": "आलेख "
@@ -2559,59 +2663,14 @@
     "hideViews": {
       "value": "छुपायें "
     },
-    "initialConcentration": {
-      "value": "प्रारंभिक सांद्रता (mol/L)"
-    },
-    "liters": {
-      "value": "L"
-    },
     "molecules": {
       "value": "अणुओं "
-    },
-    "negligible": {
-      "value": "नगण्य"
-    },
-    "pH": {
-      "value": "pH"
-    },
-    "pHColorKey": {
-      "value": "pH रंग सूचक "
-    },
-    "pattern.0label.1value": {
-      "value": "{0}: {1}"
-    },
-    "pattern.0value.1power": {
-      "value": "{0} x 10<sup>{1}</sup>"
-    },
-    "pattern.0value.1units": {
-      "value": "{0}{1}"
-    },
-    "screen.introduction": {
-      "value": "प्रस्तावना "
-    },
-    "screen.mySolution": {
-      "value": "मेरा विलयन "
-    },
-    "solution": {
-      "value": "विलयन "
     },
     "solvent": {
       "value": "विलायक "
     },
-    "strength": {
-      "value": "शक्ति :"
-    },
-    "strong": {
-      "value": "तीव्र "
-    },
-    "strongAcid": {
-      "value": "तीव्र अम्ल "
-    },
-    "strongBase": {
-      "value": "तीव्र भस्म "
-    },
-    "stronger": {
-      "value": "तीव्रता "
+    "solution": {
+      "value": "विलयन "
     },
     "tools": {
       "value": "साधन "
@@ -2619,20 +2678,56 @@
     "views": {
       "value": "देखें "
     },
+    "pHColorKey": {
+      "value": "pH रंग सूचक "
+    },
+    "stronger": {
+      "value": "प्रबल "
+    },
+    "weaker": {
+      "value": "दुर्बल "
+    },
+    "acid": {
+      "value": "अम्ल "
+    },
+    "base": {
+      "value": "क्षार"
+    },
+    "initialConcentration": {
+      "value": "प्रारंभिक सांद्रता (mol/L)"
+    },
+    "strength": {
+      "value": "शक्ति :"
+    },
+    "strong": {
+      "value": "प्रबल "
+    },
+    "weak": {
+      "value": "दुर्बल "
+    },
+    "screen.mySolution": {
+      "value": "मेरा विलयन "
+    },
+    "strongAcid": {
+      "value": "प्रबल अम्ल "
+    },
+    "strongBase": {
+      "value": "प्रबल  क्षार"
+    },
     "water": {
       "value": "शुद्ध पानी "
     },
-    "weak": {
-      "value": "सौम्य "
-    },
     "weakAcid": {
-      "value": "सौम्य अम्ल "
+      "value": "दुर्बल अम्ल "
     },
     "weakBase": {
-      "value": "सौम्य भस्म "
+      "value": "दुर्बल क्षार"
     },
-    "weaker": {
-      "value": "सौम्यता "
+    "screen.introduction": {
+      "value": "प्रस्तावना "
+    },
+    "acid-base-solutions.title": {
+      "value": "अम्ल -क्षार विलयन "
     }
   },
   "hr": {
@@ -3084,29 +3179,98 @@
     }
   },
   "in": {
-    "acid": {
-      "value": "Asam"
+    "pattern.0label.1value": {
+      "value": "{0}: {1}"
     },
-    "weaker": {
-      "value": "pengingat"
+    "pH": {
+      "value": "pH"
+    },
+    "pattern.0value.1units": {
+      "value": "{0}{1}"
+    },
+    "liters": {
+      "value": "L"
+    },
+    "negligible": {
+      "value": "dapat diabaikan"
     },
     "concentrationGraph.yAxis": {
       "value": "Konsentrasi larutan"
     },
-    "acid-base-solutions.title": {
-      "value": "Larutan Asam-Basa"
+    "graph": {
+      "value": "Grafik"
+    },
+    "hideViews": {
+      "value": "Sembunyikan"
+    },
+    "molecules": {
+      "value": "Molekul"
+    },
+    "solvent": {
+      "value": "pelarut"
     },
     "solution": {
       "value": "larutan"
     },
+    "tools": {
+      "value": "Peralatan"
+    },
     "views": {
       "value": "lihat"
     },
-    "viewParticles": {
-      "value": "lihat partikel"
+    "pHColorKey": {
+      "value": "Indikator warna pH"
+    },
+    "stronger": {
+      "value": "lebih kuat"
+    },
+    "weaker": {
+      "value": "lebih lemah"
+    },
+    "acid": {
+      "value": "Asam"
+    },
+    "base": {
+      "value": "Basa"
+    },
+    "initialConcentration": {
+      "value": "Konsentrasi Awal"
+    },
+    "strength": {
+      "value": "Kekuatan"
+    },
+    "strong": {
+      "value": "Kuat"
+    },
+    "weak": {
+      "value": "Lemah"
+    },
+    "screen.mySolution": {
+      "value": "Larutan Saya"
+    },
+    "strongAcid": {
+      "value": "Asam Kuat"
+    },
+    "strongBase": {
+      "value": "Basa Kuat"
+    },
+    "water": {
+      "value": "Air"
     },
     "weakAcid": {
-      "value": "Asam lemah"
+      "value": "Asam Lemah"
+    },
+    "weakBase": {
+      "value": "Basa Lemah"
+    },
+    "screen.introduction": {
+      "value": "Pengenalan"
+    },
+    "acid-base-solutions.title": {
+      "value": "Larutan Asam-Basa"
+    },
+    "viewParticles": {
+      "value": "lihat partikel"
     },
     "pHPaper": {
       "value": "kertas pH"
@@ -3120,83 +3284,32 @@
     "tests": {
       "value": "tes"
     },
-    "strongBase": {
-      "value": "Basa Kuat"
-    },
-    "weak": {
-      "value": "lemah"
-    },
     "molesPerLiter": {
       "value": "mol/L"
-    },
-    "base": {
-      "value": "Basa"
     },
     "testSolution": {
       "value": "pengantar"
     },
-    "liters": {
-      "value": "L"
-    },
     "liquid": {
       "value": "Larutan"
     },
-    "strong": {
-      "value": "kuat"
-    },
     "equilibriumConcentration": {
-      "value": "Konsentrasi \nsetimbang"
-    },
-    "weakBase": {
-      "value": "Basa Lemah"
-    },
-    "negligible": {
-      "value": "dapat diabaikan"
-    },
-    "water": {
-      "value": "Air"
-    },
-    "pattern.0value.1units": {
-      "value": "{0}{1}"
-    },
-    "pHColorKey": {
-      "value": "warna pH"
-    },
-    "pH": {
-      "value": "pH"
+      "value": "Konsentrasi \r\nsetimbang"
     },
     "solutions": {
       "value": "larutan larutan"
     },
-    "strength": {
-      "value": "kuat"
-    },
-    "molecules": {
-      "value": "Molekul"
-    },
     "pattern.0solution.1symbol": {
       "value": "{0} ({1})"
     },
-    "stronger": {
-      "value": "lebih kuat"
-    },
-    "pattern.0label.1value": {
-      "value": "{0}: {1}"
-    },
     "magnifying-glass-prototype.name": {
       "value": "Kaca Pembesar"
-    },
-    "initialConcentration": {
-      "value": "Inisial\nKonsentrasi:"
     },
     "customSolution": {
       "value": "Larutan khusus"
     },
     "conductivity": {
       "value": "Daya hantar Listrik"
-    },
-    "strongAcid": {
-      "value": "Asam Kuat"
     }
   },
   "is": {
@@ -5632,10 +5745,10 @@
       "value": "Chave da cor do pH"
     },
     "stronger": {
-      "value": "forte"
+      "value": "mais forte"
     },
     "weaker": {
-      "value": "fraca"
+      "value": "mais fraca"
     },
     "acid": {
       "value": "Ácido"

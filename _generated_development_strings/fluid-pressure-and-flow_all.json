@@ -558,6 +558,128 @@
       "value": "вода"
     }
   },
+  "bn": {
+    "atm": {
+      "value": "atm"
+    },
+    "atmosphere": {
+      "value": "বায়ুমণ্ডল "
+    },
+    "atmospheres": {
+      "value": "বায়ুমণ্ডল "
+    },
+    "earth": {
+      "value": "পৃথিবী "
+    },
+    "english": {
+      "value": "ইংরেজি "
+    },
+    "fluidA": {
+      "value": "প্রবাহী - A"
+    },
+    "fluidB": {
+      "value": "প্রবাহী - B"
+    },
+    "fluidC": {
+      "value": "প্রবাহী - C"
+    },
+    "fluidDensity": {
+      "value": "প্রবাহী ঘনত্ব "
+    },
+    "ft": {
+      "value": "ft"
+    },
+    "ftPerSPerS": {
+      "value": "ft/s<sup>2</sup>"
+    },
+    "gasoline": {
+      "value": "গ্যাসোলিন "
+    },
+    "gravity": {
+      "value": "অভিকর্ষজ ত্বরণ "
+    },
+    "grid": {
+      "value": "গ্রিড "
+    },
+    "honey": {
+      "value": "মধু "
+    },
+    "jupiter": {
+      "value": "বৃহস্পতি গ্রহ "
+    },
+    "densityUnitsMetric": {
+      "value": "kg/m<sup>3</sup>"
+    },
+    "kPa": {
+      "value": "kPa"
+    },
+    "densityUnitsEnglish": {
+      "value": "lb/ft<sup>3</sup>"
+    },
+    "m": {
+      "value": "m"
+    },
+    "mPerSPerS": {
+      "value": "m/s<sup>2</sup>"
+    },
+    "mars": {
+      "value": "মঙ্গল গ্রহ "
+    },
+    "metric": {
+      "value": "Metric"
+    },
+    "mysteryFluid": {
+      "value": "রহস্যময়  প্রবাহী পদার্থ "
+    },
+    "mysteryPlanet": {
+      "value": "রহস্যময় গ্রহ "
+    },
+    "off": {
+      "value": "Off"
+    },
+    "on": {
+      "value": "On"
+    },
+    "planetA": {
+      "value": "গ্রহ-A"
+    },
+    "planetB": {
+      "value": "গ্রহ-B"
+    },
+    "planetC": {
+      "value": "গ্রহ-C"
+    },
+    "pressure": {
+      "value": "চাপ "
+    },
+    "psi": {
+      "value": "psi(Pounds Per Square Inch)/"
+    },
+    "ruler": {
+      "value": "স্কেল "
+    },
+    "underPressureScreenTitle": {
+      "value": "চাপের মধ্যে "
+    },
+    "units": {
+      "value": "একক "
+    },
+    "water": {
+      "value": "পানি "
+    },
+    "readoutFeet": {
+      "value": "{0} ft"
+    },
+    "massLabelPattern": {
+      "value": "{0} kg"
+    },
+    "readoutMeters": {
+      "value": "{0} m"
+    },
+    "valueWithUnitsPattern": {
+      "value": "{0} {1}"
+    }
+  },
   "bs": {
     "atmosphere": {
       "value": "Atmosfera"
@@ -2118,19 +2240,13 @@
       "value": "Atmosphère"
     },
     "atmospheres": {
-      "value": "Atmosphères"
-    },
-    "densityUnitsEnglish": {
-      "value": "lb/ft<sup>3</sup>"
-    },
-    "densityUnitsMetric": {
-      "value": "kg/m<sup>3</sup>"
+      "value": "Atmosphère"
     },
     "earth": {
       "value": "Terre"
     },
     "english": {
-      "value": "Anglais"
+      "value": "Système Impérial"
     },
     "fluidA": {
       "value": "Fluide A"
@@ -2142,7 +2258,7 @@
       "value": "Fluide C"
     },
     "fluidDensity": {
-      "value": "Densité du fluide"
+      "value": "Masse volumique du fluide"
     },
     "ft": {
       "value": "ft"
@@ -2154,7 +2270,7 @@
       "value": "essence"
     },
     "gravity": {
-      "value": "Gravité"
+      "value": "Pesanteur"
     },
     "grid": {
       "value": "Grille"
@@ -2165,8 +2281,14 @@
     "jupiter": {
       "value": "Jupiter"
     },
+    "densityUnitsMetric": {
+      "value": "kg/m<sup>3</sup>"
+    },
     "kPa": {
       "value": "kPa"
+    },
+    "densityUnitsEnglish": {
+      "value": "lb/ft<sup>3</sup>"
     },
     "m": {
       "value": "m"
@@ -2177,11 +2299,8 @@
     "mars": {
       "value": "Mars"
     },
-    "massLabelPattern": {
-      "value": "{0} kg"
-    },
     "metric": {
-      "value": "Métrique"
+      "value": "Système Métrique"
     },
     "mysteryFluid": {
       "value": "Fluide mystère"
@@ -2210,12 +2329,6 @@
     "psi": {
       "value": "psi"
     },
-    "readoutFeet": {
-      "value": "{0} ft"
-    },
-    "readoutMeters": {
-      "value": "{0} m"
-    },
     "ruler": {
       "value": "Règle"
     },
@@ -2225,11 +2338,20 @@
     "units": {
       "value": "Unités"
     },
-    "valueWithUnitsPattern": {
-      "value": "{0} {1}"
-    },
     "water": {
       "value": "eau"
+    },
+    "readoutFeet": {
+      "value": "{0} ft"
+    },
+    "massLabelPattern": {
+      "value": "{0} kg"
+    },
+    "readoutMeters": {
+      "value": "{0} m"
+    },
+    "valueWithUnitsPattern": {
+      "value": "{0} {1}"
     }
   },
   "ga": {
@@ -3862,6 +3984,128 @@
     },
     "valueWithUnitsPattern": {
       "value": "{0} {1}"
+    }
+  },
+  "ms": {
+    "atm": {
+      "value": "atm"
+    },
+    "atmosphere": {
+      "value": "Atmosfera"
+    },
+    "atmospheres": {
+      "value": "Atmosfera"
+    },
+    "earth": {
+      "value": "Bumi"
+    },
+    "english": {
+      "value": "Inggeris"
+    },
+    "fluidA": {
+      "value": "Bendalir A"
+    },
+    "fluidB": {
+      "value": "Bendalir B"
+    },
+    "fluidC": {
+      "value": "Bendalir C"
+    },
+    "fluidDensity": {
+      "value": "Ketumpatan Bendalir"
+    },
+    "ft": {
+      "value": "ft"
+    },
+    "ftPerSPerS": {
+      "value": "ft/s<sup>2</sup>"
+    },
+    "gasoline": {
+      "value": "petrol"
+    },
+    "gravity": {
+      "value": "Graviti"
+    },
+    "grid": {
+      "value": "Grid"
+    },
+    "honey": {
+      "value": "madu"
+    },
+    "jupiter": {
+      "value": "Musytari"
+    },
+    "densityUnitsMetric": {
+      "value": "kg/m<sup>3</sup>"
+    },
+    "kPa": {
+      "value": "kPa"
+    },
+    "densityUnitsEnglish": {
+      "value": "lb/ft<sup>3</sup>"
+    },
+    "m": {
+      "value": "m"
+    },
+    "mPerSPerS": {
+      "value": "m/s<sup>2</sup>"
+    },
+    "mars": {
+      "value": "Marikh"
+    },
+    "metric": {
+      "value": "Metrik"
+    },
+    "mysteryFluid": {
+      "value": "Bendalir Misteri"
+    },
+    "mysteryPlanet": {
+      "value": "Planet Misteri"
+    },
+    "off": {
+      "value": "Dimatikan"
+    },
+    "on": {
+      "value": "Dihidupkan"
+    },
+    "planetA": {
+      "value": "Planet A"
+    },
+    "planetB": {
+      "value": "Planet B"
+    },
+    "planetC": {
+      "value": "Planet C"
+    },
+    "pressure": {
+      "value": "Tekanan"
+    },
+    "psi": {
+      "value": "psi"
+    },
+    "ruler": {
+      "value": "Pembaris"
+    },
+    "underPressureScreenTitle": {
+      "value": "Dibawah Tekanan"
+    },
+    "units": {
+      "value": "Unit"
+    },
+    "water": {
+      "value": "air"
+    },
+    "readoutFeet": {
+      "value": "{0} ft"
+    },
+    "massLabelPattern": {
+      "value": "{0} kg"
+    },
+    "readoutMeters": {
+      "value": "{0} m"
+    },
+    "valueWithUnitsPattern": {
+      "value": "{0} {1}"
     }
   },
   "nb": {

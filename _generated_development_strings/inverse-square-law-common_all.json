@@ -103,6 +103,44 @@
       "value": "pm"
     }
   },
+  "bn": {
+    "units.centimeters": {
+      "value": "সেন্টিমিটার (cm)"
+    },
+    "decimalNotation": {
+      "value": "ডেসিমাল  নোটেশন "
+    },
+    "forceOnObjectByOtherObjectPattern": {
+      "value": "Force on {{thisObject}} by {{otherObject}}"
+    },
+    "forceOnObjectByOtherObjectWithUnitsPattern": {
+      "value": "Force on {{thisObject}} by {{otherObject}} = {{value}} N"
+    },
+    "forceValues": {
+      "value": "বলের মান "
+    },
+    "hidden": {
+      "value": "লুকানো "
+    },
+    "units.meter": {
+      "value": "মিটার "
+    },
+    "units.meters": {
+      "value": "meters"
+    },
+    "units.newtons": {
+      "value": "নিউটন "
+    },
+    "scientificNotation": {
+      "value": "সায়েন্টিফিক  নোটেশন "
+    },
+    "pattern_0value_1units": {
+      "value": "{{value}} {{units}}"
+    },
+    "units.picometers": {
+      "value": "পিকো মিটার (pm)"
+    }
+  },
   "bs": {
     "forceOnObjectByOtherObjectPattern": {
       "value": "Sila kojom na {{thisObject}} djeluje {{otherObject}}"
@@ -470,17 +508,20 @@
     "units.centimeters": {
       "value": "cm"
     },
+    "decimalNotation": {
+      "value": "Notation décimale"
+    },
     "forceOnObjectByOtherObjectPattern": {
-      "value": "Force de {{otherObject}} sur {{thisObject}} "
+      "value": "Force exercée par {{otherObject}} sur {{thisObject}} "
     },
     "forceOnObjectByOtherObjectWithUnitsPattern": {
-      "value": "Force de {{otherObject}} sur {{thisObject}} = {{value}} N  "
+      "value": "Force exercée par {{otherObject}} sur {{thisObject}} = {{value}} N  "
     },
     "forceValues": {
-      "value": "Valeurs de la force"
+      "value": "Valeurs des forces"
     },
     "hidden": {
-      "value": "Caché"
+      "value": "Masqué"
     },
     "units.meter": {
       "value": "mètre"
@@ -492,7 +533,7 @@
       "value": "newtons"
     },
     "scientificNotation": {
-      "value": "Notation Scientifique"
+      "value": "Notation scientifique"
     },
     "pattern_0value_1units": {
       "value": "{{value}} {{units}}"
@@ -568,6 +609,41 @@
     },
     "pattern_0value_1units": {
       "value": "{{value}} {{units}}"
+    }
+  },
+  "hi": {
+    "units.centimeters": {
+      "value": "cm"
+    },
+    "decimalNotation": {
+      "value": "दशमलव अंकन"
+    },
+    "forceOnObjectByOtherObjectPattern": {
+      "value": "इस {{thisObject}} पर उस {{otherObject}} द्वारा लगाया गया बल"
+    },
+    "forceOnObjectByOtherObjectWithUnitsPattern": {
+      "value": "इस {{thisObject}} पर उस {{otherObject}} द्वारा लगाया गया बल = {{value}} N"
+    },
+    "forceValues": {
+      "value": "बल मान"
+    },
+    "hidden": {
+      "value": "छिपा हुआ"
+    },
+    "units.meter": {
+      "value": "मीटर"
+    },
+    "units.meters": {
+      "value": "मीटर"
+    },
+    "units.newtons": {
+      "value": "न्यूटन"
+    },
+    "scientificNotation": {
+      "value": "वैज्ञानिक संकेतन"
+    },
+    "pattern_0value_1units": {
+      "value": "{{value}} {{units}}"
     }
   },
   "hr": {
@@ -737,6 +813,38 @@
     },
     "units.picometers": {
       "value": "pm"
+    }
+  },
+  "in": {
+    "units.centimeters": {
+      "value": "cm"
+    },
+    "decimalNotation": {
+      "value": "Notasi desimal"
+    },
+    "forceOnObjectByOtherObjectPattern": {
+      "value": "Gaya pada {{thisObject}} oleh {{otherObject}}"
+    },
+    "forceOnObjectByOtherObjectWithUnitsPattern": {
+      "value": "Gaya pada {{thisObject}} oleh {{otherObject}} = {{value}} N"
+    },
+    "forceValues": {
+      "value": "Gaya"
+    },
+    "hidden": {
+      "value": "Tersembunyi"
+    },
+    "units.meter": {
+      "value": "meter"
+    },
+    "units.meters": {
+      "value": "meter"
+    },
+    "units.newtons": {
+      "value": "Newton"
+    },
+    "scientificNotation": {
+      "value": "Notasi Ilmiah"
     }
   },
   "it": {
@@ -1003,6 +1111,20 @@
       "value": "пм"
     }
   },
+  "mr": {
+    "units.centimeters": {
+      "value": "सेमी"
+    },
+    "forceOnObjectByOtherObjectPattern": {
+      "value": "{{otherObject}} चे {{thisObject}} वरील बल "
+    },
+    "forceOnObjectByOtherObjectWithUnitsPattern": {
+      "value": "{{otherObject}} चे {{thisObject}} वरील बल  = {{value}} N"
+    },
+    "forceValues": {
+      "value": "बलाची किंमत "
+    }
+  },
   "ms": {
     "decimalNotation": {
       "value": "Bentuk Perpuluhan"
@@ -1030,6 +1152,11 @@
     },
     "scientificNotation": {
       "value": "Bentuk Saintifik"
+    }
+  },
+  "my": {
+    "forceValues": {
+      "value": "အား တန်ဖိုးများ"
     }
   },
   "nb": {
@@ -1523,8 +1650,29 @@
     }
   },
   "ta": {
+    "decimalNotation": {
+      "value": "தசம எண் முறை"
+    },
+    "forceOnObjectByOtherObjectPattern": {
+      "value": "{{thisObject}} இன் மீது {{otherObject}} செலுத்தும் விசை"
+    },
+    "forceOnObjectByOtherObjectWithUnitsPattern": {
+      "value": "{{thisObject}} இன் மீது {{otherObject}} செலுத்தும் விசை = {{value}} N"
+    },
     "forceValues": {
-      "value": "விசையின் பெறுமானம்"
+      "value": "விசை மதிப்புக்கள்"
+    },
+    "hidden": {
+      "value": "விசைமதிப்புகளை மறைக்க"
+    },
+    "units.meter": {
+      "value": "மீட்டர்"
+    },
+    "units.meters": {
+      "value": "மீட்டர்"
+    },
+    "scientificNotation": {
+      "value": "அறிவியல் முறை"
     }
   },
   "te": {

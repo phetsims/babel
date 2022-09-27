@@ -601,6 +601,95 @@
       "value": "Стойност"
     }
   },
+  "bn": {
+    "joules": {
+      "value": "জুল "
+    },
+    "pattern.0value.1units": {
+      "value": "{0}{1}"
+    },
+    "potentialEnergy": {
+      "value": "বিভব শক্তি "
+    },
+    "displacement": {
+      "value": "সরণ "
+    },
+    "meters": {
+      "value": "মিটার "
+    },
+    "newtons": {
+      "value": "নিউটন "
+    },
+    "displacementColon": {
+      "value": "সরণ "
+    },
+    "newtonsPerMeter": {
+      "value": "নিউটন/মিটার "
+    },
+    "springConstant": {
+      "value": "স্প্রিং ধ্রুবক"
+    },
+    "equilibriumPosition": {
+      "value": "সাম্যবস্থা "
+    },
+    "appliedForce": {
+      "value": "প্রযুক্ত  বল "
+    },
+    "barGraph": {
+      "value": "বার গ্রাফ "
+    },
+    "energyPlot": {
+      "value": "শক্তির প্লট "
+    },
+    "energy": {
+      "value": "শক্তি "
+    },
+    "forcePlot": {
+      "value": "বলের প্লট"
+    },
+    "values": {
+      "value": "Values(মান)"
+    },
+    "appliedForceColon": {
+      "value": "প্রযুক্ত বল "
+    },
+    "appliedForceNumber": {
+      "value": "প্রযুক্ত  বল {0}"
+    },
+    "springConstantNumber": {
+      "value": "স্প্রিং ধ্রুবক {0}"
+    },
+    "springForce": {
+      "value": "স্প্রিং বল "
+    },
+    "intro": {
+      "value": "সূচনা(শুরু)/Start"
+    },
+    "bottomSpring": {
+      "value": "নিচের স্প্রিং "
+    },
+    "topSpring": {
+      "value": "উপরের স্প্রিং "
+    },
+    "leftSpring": {
+      "value": "বাম দিকের স্প্রিং "
+    },
+    "rightSpring": {
+      "value": "ডান দিকের স্প্রিং "
+    },
+    "components": {
+      "value": "অংশসমূহ "
+    },
+    "total": {
+      "value": "মোট "
+    },
+    "systems": {
+      "value": "Spring System (স্প্রিং ব্যবস্থা )"
+    },
+    "hookes-law.title": {
+      "value": "হুকের  সূত্র "
+    }
+  },
   "bo": {
     "appliedForce": {
       "value": "སྤྲོད་ཤུགས།"
@@ -2494,53 +2583,17 @@
     }
   },
   "in": {
-    "appliedForce": {
-      "value": "Gaya yang dikenakan"
-    },
-    "appliedForceColon": {
-      "value": "Gaya yang dikenakan:"
-    },
-    "appliedForceNumber": {
-      "value": "Gaya yang dikenakan {0}:"
-    },
-    "barGraph": {
-      "value": "Grafik Batang"
-    },
-    "bottomSpring": {
-      "value": "Pegas Bawah"
-    },
-    "components": {
-      "value": "Komponen"
-    },
-    "displacement": {
-      "value": "Perpindahan"
-    },
-    "displacementColon": {
-      "value": "Perpindahan:"
-    },
-    "energy": {
-      "value": "Energi"
-    },
-    "energyPlot": {
-      "value": "Pola Energi"
-    },
-    "equilibriumPosition": {
-      "value": "Posisi Setimbang"
-    },
-    "forcePlot": {
-      "value": "Pola Gaya"
-    },
-    "hookes-law.title": {
-      "value": "Hukum Hooke"
-    },
-    "intro": {
-      "value": "Pengantar"
-    },
     "joules": {
       "value": "J"
     },
-    "leftSpring": {
-      "value": "Pegas Kiri"
+    "pattern.0value.1units": {
+      "value": "{0} {1}"
+    },
+    "potentialEnergy": {
+      "value": "Energi Potensial"
+    },
+    "displacement": {
+      "value": "Perpindahan"
     },
     "meters": {
       "value": "m"
@@ -2548,20 +2601,41 @@
     "newtons": {
       "value": "N"
     },
+    "displacementColon": {
+      "value": "Perpindahan:"
+    },
     "newtonsPerMeter": {
       "value": "N/m"
     },
-    "pattern.0value.1units": {
-      "value": "{0} {1}"
-    },
-    "potentialEnergy": {
-      "value": "Energi Potential"
-    },
-    "rightSpring": {
-      "value": "Pegas Kanan"
-    },
     "springConstant": {
       "value": "Konstanta Pegas"
+    },
+    "equilibriumPosition": {
+      "value": "Posisi Setimbang"
+    },
+    "appliedForce": {
+      "value": "Gaya yang dikenakan"
+    },
+    "barGraph": {
+      "value": "Grafik Batang"
+    },
+    "energyPlot": {
+      "value": "Pola Energi"
+    },
+    "energy": {
+      "value": "Energi"
+    },
+    "forcePlot": {
+      "value": "Pola Gaya"
+    },
+    "values": {
+      "value": "Nilai"
+    },
+    "appliedForceColon": {
+      "value": "Gaya yang dikenakan:"
+    },
+    "appliedForceNumber": {
+      "value": "Gaya yang dikenakan {0}:"
     },
     "springConstantNumber": {
       "value": "Konstanta Pegas {0}:"
@@ -2569,17 +2643,32 @@
     "springForce": {
       "value": "Gaya Pegas"
     },
-    "systems": {
-      "value": "Sistem"
+    "intro": {
+      "value": "Pengantar"
+    },
+    "bottomSpring": {
+      "value": "Pegas Bawah"
     },
     "topSpring": {
       "value": "Pegas Atas"
     },
+    "leftSpring": {
+      "value": "Pegas Kiri"
+    },
+    "rightSpring": {
+      "value": "Pegas Kanan"
+    },
+    "components": {
+      "value": "Komponen"
+    },
     "total": {
       "value": "Total"
     },
-    "values": {
-      "value": "Nilai"
+    "systems": {
+      "value": "Sistem"
+    },
+    "hookes-law.title": {
+      "value": "Hukum Hooke"
     }
   },
   "it": {
@@ -2829,6 +2918,92 @@
     },
     "hookes-law.title": {
       "value": "フックの法則"
+    }
+  },
+  "ka": {
+    "joules": {
+      "value": "ჯ"
+    },
+    "potentialEnergy": {
+      "value": "პოტენციური ენერგია"
+    },
+    "displacement": {
+      "value": "გადაადგილება"
+    },
+    "meters": {
+      "value": "მ"
+    },
+    "newtons": {
+      "value": "ნ"
+    },
+    "displacementColon": {
+      "value": "გადაადგილება"
+    },
+    "newtonsPerMeter": {
+      "value": "ნ/მ"
+    },
+    "springConstant": {
+      "value": "ზამბარის სიხისტე"
+    },
+    "equilibriumPosition": {
+      "value": "წონასწორობის მდებარეობა"
+    },
+    "appliedForce": {
+      "value": "მოდებული ძალა"
+    },
+    "barGraph": {
+      "value": "სვეტოვანი დიაგრამა"
+    },
+    "energyPlot": {
+      "value": "ენერგიის გრაფიკი"
+    },
+    "energy": {
+      "value": "ენერგია"
+    },
+    "forcePlot": {
+      "value": "ძალის გრაფიკი"
+    },
+    "values": {
+      "value": "რიცხვითი მნიშვნელობები"
+    },
+    "appliedForceColon": {
+      "value": "მოდებული ძალა"
+    },
+    "appliedForceNumber": {
+      "value": "მოდებული ძალა {0}:"
+    },
+    "springConstantNumber": {
+      "value": "სიხისტე {0}:"
+    },
+    "springForce": {
+      "value": "ზამბარის ძალა"
+    },
+    "intro": {
+      "value": "შესავალი"
+    },
+    "bottomSpring": {
+      "value": "ქვედა ზამბარა"
+    },
+    "topSpring": {
+      "value": "ზედა ზამბარა"
+    },
+    "leftSpring": {
+      "value": "მარცხენა ზამბარა"
+    },
+    "rightSpring": {
+      "value": "მარჯვენა ზამბარა"
+    },
+    "components": {
+      "value": "კომპონენტები"
+    },
+    "total": {
+      "value": "სრული"
+    },
+    "systems": {
+      "value": "სისტემები"
+    },
+    "hookes-law.title": {
+      "value": "ჰუკის კანონი"
     }
   },
   "kk": {

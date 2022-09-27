@@ -214,6 +214,62 @@
       "value": "Този изотоп"
     }
   },
+  "bn": {
+    "neutrons": {
+      "value": "নিউট্রন "
+    },
+    "atomicMass": {
+      "value": "অ্যাটমিক ভর (amu)"
+    },
+    "massNumber": {
+      "value": "ভর সংখ্যা "
+    },
+    "myIsotope": {
+      "value": "আমার  আইসোটোপ "
+    },
+    "otherIsotopesPattern": {
+      "value": "Other<br>{0}<br>Isotopes"
+    },
+    "thisIsotope": {
+      "value": "এই আইসোটোপ "
+    },
+    "trace": {
+      "value": "ট্রেস/পদাঙ্ক "
+    },
+    "abundanceInNature": {
+      "value": "প্রকৃতিতে প্রাচুর্য"
+    },
+    "symbol": {
+      "value": "চিহ্ন "
+    },
+    "isotopes": {
+      "value": "আইসোটোপসমূহ  "
+    },
+    "amu": {
+      "value": "amu"
+    },
+    "averageAtomicMass": {
+      "value": "গড় পারমাণবিক ভর"
+    },
+    "isotopeMixture": {
+      "value": "আইসোটোপ মিশ্রণ:"
+    },
+    "myMix": {
+      "value": "আমার মিশ্রণ"
+    },
+    "naturesMix": {
+      "value": "প্রকৃতির মিশ্রণ"
+    },
+    "percentComposition": {
+      "value": "Percent Composition"
+    },
+    "mixtures": {
+      "value": "মিশ্রণ"
+    },
+    "isotopes-and-atomic-mass.title": {
+      "value": "আইসোটোপ এবং পারমাণবিক ভর"
+    }
+  },
   "bo": {
     "abundanceInNature": {
       "value": "བྱུང་བའི་ཁམས་ནང་འབེལ་ལྷུག་ལྷུག་ཡོད།"
@@ -1029,7 +1085,7 @@
       "value": "Neutrons"
     },
     "atomicMass": {
-      "value": "Masse atomique (amu)"
+      "value": "Unité de masse atomique (u)"
     },
     "massNumber": {
       "value": "Nombre de masse"
@@ -1038,13 +1094,13 @@
       "value": "Mon isotope"
     },
     "otherIsotopesPattern": {
-      "value": "Autres\n{0}\nisotopes"
+      "value": "Autres isotopes <br> de\n{0}\n"
     },
     "thisIsotope": {
-      "value": "Cette isotope"
+      "value": "Cet isotope"
     },
     "trace": {
-      "value": "trace"
+      "value": "Traces"
     },
     "abundanceInNature": {
       "value": "Abondance dans la nature"
@@ -1056,13 +1112,13 @@
       "value": "Isotopes"
     },
     "amu": {
-      "value": "amu"
+      "value": "u"
     },
     "averageAtomicMass": {
       "value": "Masse atomique moyenne"
     },
     "isotopeMixture": {
-      "value": "Mélange d'isotope:"
+      "value": "Mélange d'isotope :"
     },
     "myMix": {
       "value": "Mon mélange"
@@ -1071,13 +1127,13 @@
       "value": "Mélange de la nature"
     },
     "percentComposition": {
-      "value": "Pourcentage de composition"
+      "value": "Composition (pourcentage)"
     },
     "mixtures": {
       "value": "Mélanges"
     },
     "isotopes-and-atomic-mass.title": {
-      "value": "Isotopes et masse atomique"
+      "value": "Isotopes et Masse Atomique"
     }
   },
   "ga": {
@@ -2974,39 +3030,98 @@
       "value": "Denna isotop"
     }
   },
-  "ta": {
+  "sw": {
     "neutrons": {
-      "value": "நியூத்திரன்கள்"
+      "value": "Nutroni"
     },
     "atomicMass": {
-      "value": "அணுத்திணிவு"
+      "value": "Masi atomu"
     },
     "massNumber": {
-      "value": "திணிவெண்"
+      "value": "Namba mass"
     },
     "myIsotope": {
-      "value": "எனது சமதானி "
+      "value": "Isotopu yangu"
     },
     "otherIsotopesPattern": {
-      "value": "வேறு\n{0}\nசமதானி "
+      "value": "Ingine<br>{0}<br>Isotopu"
     },
     "thisIsotope": {
-      "value": " இச் சமதானி "
+      "value": "Isotopu hii"
+    },
+    "trace": {
+      "value": "Katiti (Kiasi kidogo)"
     },
     "abundanceInNature": {
-      "value": "இயற்கையில் ஏராளமாக"
+      "value": "Nyingi kwa asili"
+    },
+    "symbol": {
+      "value": "Alama"
+    },
+    "isotopes": {
+      "value": "Isotopu"
+    },
+    "amu": {
+      "value": "Kipimo cha masi ya atomu"
+    },
+    "averageAtomicMass": {
+      "value": "Wastaani wa Masi atomi"
+    },
+    "isotopeMixture": {
+      "value": "Isotopu mchanganyiko"
+    },
+    "myMix": {
+      "value": "Mchanganyo wangu"
+    },
+    "naturesMix": {
+      "value": "Mchanganyo wa asili"
+    },
+    "percentComposition": {
+      "value": "Asilimia Mchanganyiko"
+    },
+    "mixtures": {
+      "value": "Mchanganyiko"
+    },
+    "isotopes-and-atomic-mass.title": {
+      "value": "Isotopu na Masi atomu"
+    }
+  },
+  "ta": {
+    "neutrons": {
+      "value": "நியூட்ரான்கள்"
+    },
+    "atomicMass": {
+      "value": "அணுநிறை (amu)"
+    },
+    "massNumber": {
+      "value": "நிறை எண்"
+    },
+    "myIsotope": {
+      "value": "எனது ஐசோடோப்பு"
+    },
+    "otherIsotopesPattern": {
+      "value": "வேறு <br>{0}<br> ஐசோடோப்பு"
+    },
+    "thisIsotope": {
+      "value": "இந்த ஐசோடோப்பு"
+    },
+    "trace": {
+      "value": "தடம்"
+    },
+    "abundanceInNature": {
+      "value": "இயற்கையில் நிறைந்துள்ள அளவு"
     },
     "symbol": {
       "value": "குறியீடு"
     },
     "isotopes": {
-      "value": "சமதானிகள்"
+      "value": "ஐசோடோப்புகள்"
     },
     "averageAtomicMass": {
-      "value": "சராசரி அணுத்திணிவு"
+      "value": "சராசரி அணுநிறை"
     },
     "isotopeMixture": {
-      "value": "சமதானிக் கலவை:"
+      "value": "ஐசோடோப்பு கலவை"
     },
     "myMix": {
       "value": "எனது கலவை"
@@ -3021,7 +3136,7 @@
       "value": "கலவை"
     },
     "isotopes-and-atomic-mass.title": {
-      "value": "சமதானிகளும் அணுத்திணிவும்"
+      "value": "ஐசோடோப்புக்களும் அணுநிறையும்"
     }
   },
   "te": {
