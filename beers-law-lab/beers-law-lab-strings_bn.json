@@ -1,4 +1,48 @@
 {
+  "drinkMix": {
+    "value": "মিশ্রণ পান করুন",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664289902006,
+        "oldValue": "",
+        "newValue": "মিশ্রণ পান করুন"
+      }
+    ]
+  },
+  "units.mM": {
+    "value": "mM",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664290271128,
+        "oldValue": "",
+        "newValue": "mM"
+      }
+    ]
+  },
+  "units.uM": {
+    "value": "µM",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664290271128,
+        "oldValue": "",
+        "newValue": "µM"
+      }
+    ]
+  },
+  "water": {
+    "value": "পানি ",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664290271128,
+        "oldValue": "",
+        "newValue": "পানি "
+      }
+    ]
+  },
   "cobaltChloride": {
     "value": "কোবাল্ট (II) ক্লোরাইড",
     "history": [
@@ -21,28 +65,6 @@
       }
     ]
   },
-  "concentration": {
-    "value": "ঘনত্ব ",
-    "history": [
-      {
-        "userId": 652918,
-        "timestamp": 1664289902006,
-        "oldValue": "",
-        "newValue": "ঘনত্ব "
-      }
-    ]
-  },
-  "screen.concentration": {
-    "value": "ঘনত্ব ",
-    "history": [
-      {
-        "userId": 652918,
-        "timestamp": 1664289902006,
-        "oldValue": "",
-        "newValue": "ঘনত্ব "
-      }
-    ]
-  },
   "copperSulfate": {
     "value": "কপার (II) সালফেট",
     "history": [
@@ -51,72 +73,6 @@
         "timestamp": 1664289902006,
         "oldValue": "",
         "newValue": "কপার (II) সালফেট"
-      }
-    ]
-  },
-  "drinkMix": {
-    "value": "মিশ্রণ পান করুন",
-    "history": [
-      {
-        "userId": 652918,
-        "timestamp": 1664289902006,
-        "oldValue": "",
-        "newValue": "মিশ্রণ পান করুন"
-      }
-    ]
-  },
-  "evaporation": {
-    "value": "বাষ্পীভবন",
-    "history": [
-      {
-        "userId": 652918,
-        "timestamp": 1664289902006,
-        "oldValue": "",
-        "newValue": "বাষ্পীভবন"
-      }
-    ]
-  },
-  "units.liters": {
-    "value": "L",
-    "history": [
-      {
-        "userId": 652918,
-        "timestamp": 1664289902006,
-        "oldValue": "",
-        "newValue": "L"
-      }
-    ]
-  },
-  "lots": {
-    "value": "অনেক ",
-    "history": [
-      {
-        "userId": 652918,
-        "timestamp": 1664289902006,
-        "oldValue": "",
-        "newValue": "অনেক "
-      }
-    ]
-  },
-  "units.milliliters": {
-    "value": "mL",
-    "history": [
-      {
-        "userId": 652918,
-        "timestamp": 1664289902006,
-        "oldValue": "",
-        "newValue": "mL"
-      }
-    ]
-  },
-  "units.molesPerLiter": {
-    "value": "mol/L",
-    "history": [
-      {
-        "userId": 652918,
-        "timestamp": 1664289902006,
-        "oldValue": "",
-        "newValue": "mol/L"
       }
     ]
   },
@@ -131,14 +87,25 @@
       }
     ]
   },
-  "none": {
-    "value": "শুন্য ",
+  "pattern.0formula.1name": {
+    "value": "{0}: {1}",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664290271128,
+        "oldValue": "",
+        "newValue": "{0}: {1}"
+      }
+    ]
+  },
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
     "history": [
       {
         "userId": 652918,
         "timestamp": 1664289902006,
         "oldValue": "",
-        "newValue": "শুন্য "
+        "newValue": "{0} {1}"
       }
     ]
   },
@@ -175,6 +142,215 @@
       }
     ]
   },
+  "absorbance": {
+    "value": "শোষণ",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664290271128,
+        "oldValue": "",
+        "newValue": "শোষণ"
+      }
+    ]
+  },
+  "pattern.0percent": {
+    "value": "{0}%",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664289902006,
+        "oldValue": "",
+        "newValue": "{0}%"
+      }
+    ]
+  },
+  "transmittance": {
+    "value": "ট্রান্সমিট্যান্স",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664290271128,
+        "oldValue": "",
+        "newValue": "ট্রান্সমিট্যান্স"
+      }
+    ]
+  },
+  "units.centimeters": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664290271128,
+        "oldValue": "",
+        "newValue": "cm"
+      }
+    ]
+  },
+  "concentration": {
+    "value": "ঘনত্ব ",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664289902006,
+        "oldValue": "",
+        "newValue": "ঘনত্ব "
+      }
+    ]
+  },
+  "pattern.0label": {
+    "value": "{0}:",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664289902006,
+        "oldValue": "",
+        "newValue": "{0}:"
+      }
+    ]
+  },
+  "solution": {
+    "value": "দ্রবণ ",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664289902006,
+        "oldValue": "",
+        "newValue": "দ্রবণ "
+      }
+    ]
+  },
+  "preset": {
+    "value": "পূর্ব নির্ধারিত ",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664290271128,
+        "oldValue": "",
+        "newValue": "পূর্ব নির্ধারিত "
+      }
+    ]
+  },
+  "units.nm": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664290271128,
+        "oldValue": "",
+        "newValue": "nm"
+      }
+    ]
+  },
+  "variable": {
+    "value": "চলক ",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664290271128,
+        "oldValue": "",
+        "newValue": "চলক "
+      }
+    ]
+  },
+  "wavelength": {
+    "value": "তরঙ্গ দৈর্ঘ্য ",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664290271128,
+        "oldValue": "",
+        "newValue": "তরঙ্গ দৈর্ঘ্য "
+      }
+    ]
+  },
+  "screen.beersLaw": {
+    "value": "Beer's Law",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664290271128,
+        "oldValue": "",
+        "newValue": "Beer's Law"
+      }
+    ]
+  },
+  "sodiumChloride": {
+    "value": "সোডিয়াম ক্লোরাইড",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664289902006,
+        "oldValue": "",
+        "newValue": "সোডিয়াম ক্লোরাইড"
+      }
+    ]
+  },
+  "units.liters": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664289902006,
+        "oldValue": "",
+        "newValue": "L"
+      }
+    ]
+  },
+  "units.milliliters": {
+    "value": "mL",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664289902006,
+        "oldValue": "",
+        "newValue": "mL"
+      }
+    ]
+  },
+  "units.molesPerLiter": {
+    "value": "mol/L",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664289902006,
+        "oldValue": "",
+        "newValue": "mol/L"
+      }
+    ]
+  },
+  "evaporation": {
+    "value": "বাষ্পীভবন",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664289902006,
+        "oldValue": "",
+        "newValue": "বাষ্পীভবন"
+      }
+    ]
+  },
+  "lots": {
+    "value": "অনেক ",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664289902006,
+        "oldValue": "",
+        "newValue": "অনেক "
+      }
+    ]
+  },
+  "none": {
+    "value": "শুন্য ",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664289902006,
+        "oldValue": "",
+        "newValue": "শুন্য "
+      }
+    ]
+  },
   "removeSolute": {
     "value": "Remove Solute",
     "history": [
@@ -197,25 +373,14 @@
       }
     ]
   },
-  "sodiumChloride": {
-    "value": "সোডিয়াম ক্লোরাইড",
+  "pattern.0soluteAmount": {
+    "value": "Solute Amount: {0} g",
     "history": [
       {
         "userId": 652918,
         "timestamp": 1664289902006,
         "oldValue": "",
-        "newValue": "সোডিয়াম ক্লোরাইড"
-      }
-    ]
-  },
-  "solid": {
-    "value": "কঠিন ",
-    "history": [
-      {
-        "userId": 652918,
-        "timestamp": 1664289902006,
-        "oldValue": "",
-        "newValue": "কঠিন "
+        "newValue": "Solute Amount: {0} g"
       }
     ]
   },
@@ -230,58 +395,36 @@
       }
     ]
   },
-  "pattern.0soluteAmount": {
-    "value": "Solute Amount: {0} g",
+  "solid": {
+    "value": "কঠিন ",
     "history": [
       {
         "userId": 652918,
         "timestamp": 1664289902006,
         "oldValue": "",
-        "newValue": "Solute Amount: {0} g"
+        "newValue": "কঠিন "
       }
     ]
   },
-  "solution": {
-    "value": "দ্রবণ ",
+  "screen.concentration": {
+    "value": "ঘনত্ব ",
     "history": [
       {
         "userId": 652918,
         "timestamp": 1664289902006,
         "oldValue": "",
-        "newValue": "দ্রবণ "
+        "newValue": "ঘনত্ব "
       }
     ]
   },
-  "pattern.0value.1units": {
-    "value": "{0} {1}",
+  "beers-law-lab.title": {
+    "value": "বিয়ারের সূত্রঃ ল্যাব ",
     "history": [
       {
         "userId": 652918,
-        "timestamp": 1664289902006,
+        "timestamp": 1664290271128,
         "oldValue": "",
-        "newValue": "{0} {1}"
-      }
-    ]
-  },
-  "pattern.0percent": {
-    "value": "{0}%",
-    "history": [
-      {
-        "userId": 652918,
-        "timestamp": 1664289902006,
-        "oldValue": "",
-        "newValue": "{0}%"
-      }
-    ]
-  },
-  "pattern.0label": {
-    "value": "{0}:",
-    "history": [
-      {
-        "userId": 652918,
-        "timestamp": 1664289902006,
-        "oldValue": "",
-        "newValue": "{0}:"
+        "newValue": "বিয়ারের সূত্রঃ ল্যাব "
       }
     ]
   }
