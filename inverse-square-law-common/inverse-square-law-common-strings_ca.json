@@ -1,18 +1,6 @@
 {
-  "units.centimeters": {
-    "value": "cm",
-    "history": [
-      {
-        "userId": 763752,
-        "timestamp": 1586629213284,
-        "oldValue": "",
-        "newValue": "cm",
-        "explanation": null
-      }
-    ]
-  },
   "forceOnObjectByOtherObjectPattern": {
-    "value": "Força de {{thisObject}} sobre {{otherObject}}",
+    "value": "Força de la {{thisObject}} sobre la {{otherObject}}",
     "history": [
       {
         "userId": 763752,
@@ -20,11 +8,17 @@
         "oldValue": "",
         "newValue": "Força de {{thisObject}} sobre {{otherObject}}",
         "explanation": null
+      },
+      {
+        "userId": 1018435,
+        "timestamp": 1664367886327,
+        "oldValue": "Força de {{thisObject}} sobre {{otherObject}}",
+        "newValue": "Força de la {{thisObject}} sobre la {{otherObject}}"
       }
     ]
   },
   "forceOnObjectByOtherObjectWithUnitsPattern": {
-    "value": "Força de {{thisObject}} sobre {{otherObject}} = {{value}} N",
+    "value": "Força de la {{thisObject}} sobre la {{otherObject}} = {{value}} N",
     "history": [
       {
         "userId": 763752,
@@ -32,6 +26,12 @@
         "oldValue": "",
         "newValue": "Força de {{thisObject}} sobre {{otherObject}} = {{value}} N",
         "explanation": null
+      },
+      {
+        "userId": 1018435,
+        "timestamp": 1664367886327,
+        "oldValue": "Força de {{thisObject}} sobre {{otherObject}} = {{value}} N",
+        "newValue": "Força de la {{thisObject}} sobre la {{otherObject}} = {{value}} N"
       }
     ]
   },
@@ -43,6 +43,51 @@
         "timestamp": 1586629213284,
         "oldValue": "",
         "newValue": "Valors de Força",
+        "explanation": null
+      }
+    ]
+  },
+  "units.meter": {
+    "value": "metre (m)",
+    "history": [
+      {
+        "userId": 1018435,
+        "timestamp": 1664367886327,
+        "oldValue": "",
+        "newValue": "metre (m)"
+      }
+    ]
+  },
+  "units.meters": {
+    "value": "metres",
+    "history": [
+      {
+        "userId": 1018435,
+        "timestamp": 1664367886327,
+        "oldValue": "",
+        "newValue": "metres"
+      }
+    ]
+  },
+  "units.newtons": {
+    "value": "newtons",
+    "history": [
+      {
+        "userId": 1018435,
+        "timestamp": 1664367886328,
+        "oldValue": "",
+        "newValue": "newtons"
+      }
+    ]
+  },
+  "units.centimeters": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 763752,
+        "timestamp": 1586629213284,
+        "oldValue": "",
+        "newValue": "cm",
         "explanation": null
       }
     ]
