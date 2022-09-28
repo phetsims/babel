@@ -1473,8 +1473,20 @@
     }
   },
   "fi": {
+    "point.unknown": {
+      "value": "( ?, ? )"
+    },
+    "point.XY": {
+      "value": "({0}, {1})"
+    },
+    "notALine": {
+      "value": "... ei ole suora."
+    },
     "aCorrectEquation": {
       "value": "Oikea yhtälö:"
+    },
+    "symbol.intercept": {
+      "value": "b"
     },
     "chooseYourLevel": {
       "value": "Valitse taso"
@@ -1485,6 +1497,57 @@
     "graphTheLine": {
       "value": "Piirrä suora"
     },
+    "pattern_Level_0": {
+      "value": "Taso {0}"
+    },
+    "screen.lineGame": {
+      "value": "Suorapeli"
+    },
+    "lineToGraph": {
+      "value": "Piirrettävä suora:"
+    },
+    "symbol.slope": {
+      "value": "k"
+    },
+    "makeTheEquation": {
+      "value": "Tee yhtälö"
+    },
+    "putPointsOnLine": {
+      "value": "Aseta pisteet suoralle"
+    },
+    "saveLine": {
+      "value": "Tallenna suora"
+    },
+    "setThePoint": {
+      "value": "Aseta piste"
+    },
+    "setTheSlope": {
+      "value": "Aseta kulmakerroin"
+    },
+    "setTheYIntercept": {
+      "value": "Aseta y-akselin leikkauskohta"
+    },
+    "slope": {
+      "value": "Kulmakerroin"
+    },
+    "screen.slopeIntercept": {
+      "value": "Kulmakerroin-leikkauspiste"
+    },
+    "symbol.x": {
+      "value": "x"
+    },
+    "symbol.y": {
+      "value": "y"
+    },
+    "yourEquation": {
+      "value": "Oma yhtälösi:"
+    },
+    "yourLine": {
+      "value": "Suorasi:"
+    },
+    "slopeUndefined": {
+      "value": "{0} = {1} (kulmakerroin ei ole määritelty)"
+    },
     "graphing-lines.title": {
       "value": "Suorien piirtäminen"
     },
@@ -1494,80 +1557,17 @@
     "hideLines": {
       "value": "Piilota suorat "
     },
-    "lineToGraph": {
-      "value": "Piirrettävä suora:"
-    },
-    "makeTheEquation": {
-      "value": "Tee yhtälö"
-    },
-    "notALine": {
-      "value": "... ei ole suora."
-    },
-    "pattern_Level_0": {
-      "value": "Taso {0}"
-    },
-    "point.XY": {
-      "value": "({0}, {1})"
-    },
-    "point.unknown": {
-      "value": "( ?, ? )"
-    },
-    "putPointsOnLine": {
-      "value": "Aseta pisteet suoralle"
-    },
-    "saveLine": {
-      "value": "Tallenna suora"
-    },
-    "screen.lineGame": {
-      "value": "Suorapeli"
-    },
     "screen.pointSlope": {
       "value": "Piste-kulmakerroin"
     },
     "screen.slope": {
       "value": "Kulmakerroin"
     },
-    "screen.slopeIntercept": {
-      "value": "Kulmakerroin-leikkauspiste"
-    },
-    "setThePoint": {
-      "value": "Aseta piste"
-    },
-    "setTheSlope": {
-      "value": "Aseta kulmakerroin"
-    },
-    "setTheYIntercept": {
-      "value": "Aseta y-askelin leikkauskohta"
-    },
-    "slope": {
-      "value": "Kulmakerroin"
-    },
     "slopeIs": {
       "value": "Kulmakerroin on"
     },
-    "slopeUndefined": {
-      "value": "{0} = {1} (kulmakerroin ei ole määritelty)"
-    },
-    "symbol.intercept": {
-      "value": "b"
-    },
-    "symbol.slope": {
-      "value": "k"
-    },
-    "symbol.x": {
-      "value": "x"
-    },
-    "symbol.y": {
-      "value": "y"
-    },
     "undefined": {
       "value": "ei määritelty"
-    },
-    "yourEquation": {
-      "value": "Oma yhtälösi:"
-    },
-    "yourLine": {
-      "value": "Suorasi:"
     }
   },
   "fr": {
@@ -5719,6 +5719,98 @@
     },
     "yourLine": {
       "value": "你的直线："
+    }
+  },
+  "zh_HK": {
+    "symbol.intercept": {
+      "value": "b"
+    },
+    "symbol.slope": {
+      "value": "m"
+    },
+    "symbol.x": {
+      "value": "x"
+    },
+    "symbol.y": {
+      "value": "y"
+    },
+    "putPointsOnLine": {
+      "value": "根據資料，將點擺放至共線。"
+    },
+    "setThePoint": {
+      "value": "根據資料，設定任意一點使其符合該直線。"
+    },
+    "setTheSlope": {
+      "value": "根據資料，設定符合該直線的斜率。"
+    },
+    "setTheYIntercept": {
+      "value": "根據資料，設定符合該直線的 y 截距。"
+    },
+    "slopeUndefined": {
+      "value": "{0} = {1} (斜率沒有定義)"
+    },
+    "point.unknown": {
+      "value": "( ?, ? )"
+    },
+    "point.XY": {
+      "value": "({0}, {1})"
+    },
+    "lineToGraph": {
+      "value": "所繪畫的直線:"
+    },
+    "notALine": {
+      "value": "... 不是直線。"
+    },
+    "yourLine": {
+      "value": "你的直線"
+    },
+    "graphTheLine": {
+      "value": "繪畫直線"
+    },
+    "aCorrectEquation": {
+      "value": "一正確的方程"
+    },
+    "yourEquation": {
+      "value": "你的方程"
+    },
+    "makeTheEquation": {
+      "value": "設定方程"
+    },
+    "chooseYourLevel": {
+      "value": "選擇你的程度"
+    },
+    "pattern_Level_0": {
+      "value": "程度 {0}"
+    },
+    "screen.lineGame": {
+      "value": "直線遊戲"
+    },
+    "eraseLines": {
+      "value": "删除直線"
+    },
+    "saveLine": {
+      "value": "儲存直線"
+    },
+    "slope": {
+      "value": "斜率"
+    },
+    "screen.pointSlope": {
+      "value": "點斜"
+    },
+    "screen.slopeIntercept": {
+      "value": "斜截"
+    },
+    "slopeIs": {
+      "value": "斜率為"
+    },
+    "undefined": {
+      "value": "無定義"
+    },
+    "screen.slope": {
+      "value": "斜率"
+    },
+    "graphing-lines.title": {
+      "value": "直線圖象繪畫"
     }
   },
   "zh_TW": {

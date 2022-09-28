@@ -4577,41 +4577,32 @@
     "atmospheres": {
       "value": "ატმ"
     },
-    "centerOfMass": {
-      "value": "მასათა ცენტრი"
-    },
-    "data": {
-      "value": "ინფორმაცია"
-    },
-    "screen.diffusion": {
-      "value": "დიფუზია"
-    },
-    "initialTemperatureK": {
-      "value": "საწყისი ტემპერატურა (K)"
-    },
     "kilopascals": {
       "value": "კპა"
-    },
-    "massAMU": {
-      "value": "მასა (მაე)"
-    },
-    "nanometers": {
-      "value": "ნმ"
-    },
-    "numberOfParticles": {
-      "value": "ნაწილაკების რაოდენობა"
-    },
-    "particleFlowRate": {
-      "value": "ნაწილაკების დინების სისწრაფე"
     },
     "pressure": {
       "value": "წნევა"
     },
-    "pressureNoise": {
-      "value": "წნევის ხმაური"
+    "tAvg": {
+      "value": "T<sub>საშ</sub> = {{value}}"
     },
-    "picoseconds": {
-      "value": "პკწმ"
+    "tAvgK": {
+      "value": "T<sub>საშ</sub> = {{value}} K"
+    },
+    "data": {
+      "value": "ინფორმაცია"
+    },
+    "centerOfMass": {
+      "value": "მასათა ცენტრი"
+    },
+    "initialTemperatureK": {
+      "value": "საწყისი ტემპერატურა (K)"
+    },
+    "massAMU": {
+      "value": "მასა (მაე)"
+    },
+    "numberOfParticles": {
+      "value": "ნაწილაკების რაოდენობა"
     },
     "radiusPm": {
       "value": "რადიუსი (პკმ)"
@@ -4622,17 +4613,122 @@
     "resetDivider": {
       "value": "გამყოფი კედლის აღდგენა"
     },
+    "particleFlowRate": {
+      "value": "ნაწილაკების დინების სისწრაფე"
+    },
     "scale": {
       "value": "მასშტაბი"
     },
     "stopwatch": {
       "value": "წამზომი"
     },
-    "tAvg": {
-      "value": "T<sub>საშ</sub> = {{value}}"
+    "nanometers": {
+      "value": "ნმ"
     },
-    "tAvgK": {
-      "value": "T<sub>საშ</sub> = {{value}} K"
+    "picoseconds": {
+      "value": "პკწმ"
+    },
+    "screen.diffusion": {
+      "value": "დიფუზია"
+    },
+    "collisionCounter": {
+      "value": "დაჯახებათა მთვლელი"
+    },
+    "width": {
+      "value": "სიგანე"
+    },
+    "samplePeriod": {
+      "value": "ნიმუშის პერიოდი"
+    },
+    "wallCollisions": {
+      "value": "დაჯახება კედელთან"
+    },
+    "returnLid": {
+      "value": "თავსახურის დაბრუნება"
+    },
+    "oopsMaximumTemperature": {
+      "value": "Oops!<br><br>მიღწეულია მაქსიმალური ტემპერატურა."
+    },
+    "collisions": {
+      "value": "დაჯახებები"
+    },
+    "heavy": {
+      "value": "მძიმე"
+    },
+    "light": {
+      "value": "მსუბუქი"
+    },
+    "particles": {
+      "value": "ნაწილაკები"
+    },
+    "screen.explore": {
+      "value": "გამოკვლევა"
+    },
+    "pressureNoise": {
+      "value": "წნევის ხმაური"
+    },
+    "holdConstant.nothing": {
+      "value": "არაფერი"
+    },
+    "holdConstant.pressureT": {
+      "value": "წნევა ↕T"
+    },
+    "holdConstant.pressureV": {
+      "value": "წნევა ↕V"
+    },
+    "holdConstant.title": {
+      "value": "მუდმივია"
+    },
+    "holdConstant.temperature": {
+      "value": "ტემპერატურა (T)"
+    },
+    "holdConstant.volume": {
+      "value": "მოცულობა (V)"
+    },
+    "oopsPressureEmpty": {
+      "value": "Oops!<br><br>წნევა ვერ იქნება მუდმივი<br>როცა კონტეინერი ცარიელია."
+    },
+    "oopsPressureLarge": {
+      "value": "Oops!<br><br>წნევა ვერ იქნება მუდმივი.<br>მოცულობა ძალიან დიდია."
+    },
+    "oopsPressureSmall": {
+      "value": "Oops!<br><br>წნევა ვერ იქნება მუდმივი.<br>მოცულობა ძალიან პატარაა."
+    },
+    "oopsTemperatureEmpty": {
+      "value": "Oops!<br><br>ტემპერატურა ვერ იქნება მუდმივი<br>როცა კონტეინერი ცარიელია."
+    },
+    "oopsTemperatureOpen": {
+      "value": "Oops!<br><br>ტემპერატურა ვერ იქნება მუდმივი<br>როცა კონტეინერი ღიაა."
+    },
+    "screen.ideal": {
+      "value": "იდეალური"
+    },
+    "averageSpeed": {
+      "value": "საშუალო სიჩქარე"
+    },
+    "metersPerSecond": {
+      "value": "მ/წმ"
+    },
+    "injectionTemperature": {
+      "value": "ნაწილაკების შეყვანის ტემპერატურა"
+    },
+    "matchContainer": {
+      "value": "ემთხვევა კონტეინერს"
+    },
+    "setTo": {
+      "value": "ტოლია"
+    },
+    "kineticEnergy": {
+      "value": "კინეტიკური ენერგია"
+    },
+    "speed": {
+      "value": "სიჩქარე"
+    },
+    "screen.energy": {
+      "value": "ენერგია"
+    },
+    "gas-properties.title": {
+      "value": "აირის თვისებები"
     }
   },
   "kk": {
@@ -7767,41 +7863,32 @@
     "atmospheres": {
       "value": "atm"
     },
-    "centerOfMass": {
-      "value": "bohare ba boima"
-    },
-    "data": {
-      "value": "pokello ea liphuputso"
-    },
-    "screen.diffusion": {
-      "value": "phasollo"
-    },
-    "initialTemperatureK": {
-      "value": "mochiso (K)"
-    },
     "kilopascals": {
       "value": "kPa"
-    },
-    "massAMU": {
-      "value": " boima (AMU)"
-    },
-    "nanometers": {
-      "value": "nm"
-    },
-    "numberOfParticles": {
-      "value": "makumane"
-    },
-    "particleFlowRate": {
-      "value": "ho tsamaea hoa makumane"
     },
     "pressure": {
       "value": "khatello"
     },
-    "pressureNoise": {
-      "value": "khatello e lerata"
+    "tAvg": {
+      "value": "T<sub>avg</sub> = {{value}}"
     },
-    "picoseconds": {
-      "value": "ps"
+    "tAvgK": {
+      "value": "T<sub>avg</sub> = {{value}} K"
+    },
+    "data": {
+      "value": "pokello ea liphuputso"
+    },
+    "centerOfMass": {
+      "value": "bohare ba boima"
+    },
+    "initialTemperatureK": {
+      "value": "mocheso (K)"
+    },
+    "massAMU": {
+      "value": " boima (AMU)"
+    },
+    "numberOfParticles": {
+      "value": "makumane"
     },
     "radiusPm": {
       "value": "bohare ba selikalikoe"
@@ -7812,20 +7899,128 @@
     "resetDivider": {
       "value": "qala searola"
     },
+    "particleFlowRate": {
+      "value": "ho tsamaea hoa makumane"
+    },
     "scale": {
       "value": "sekala"
     },
     "stopwatch": {
       "value": "t'supanako"
     },
-    "tAvg": {
-      "value": "T<sub>avg</sub> = {{value}}"
-    },
-    "tAvgK": {
-      "value": "T<sub>avg</sub> = {{value}} K"
+    "nanometers": {
+      "value": "nm"
     },
     "valueUnits": {
       "value": "{{value}} {{units}}"
+    },
+    "picoseconds": {
+      "value": "ps"
+    },
+    "screen.diffusion": {
+      "value": "phasollo"
+    },
+    "collisionCounter": {
+      "value": "palo ea ho thulana"
+    },
+    "width": {
+      "value": "bolelele"
+    },
+    "samplePeriod": {
+      "value": "mohlala oa nako"
+    },
+    "wallCollisions": {
+      "value": "lebota la thulano"
+    },
+    "degreesCelsius": {
+      "value": "°C"
+    },
+    "kelvin": {
+      "value": "K"
+    },
+    "returnLid": {
+      "value": "khutlisa sekoahelo"
+    },
+    "oopsMaximumTemperature": {
+      "value": "Oops!<br><br>mocheso o holimo-limo o fihletsoe"
+    },
+    "collisions": {
+      "value": "thulano"
+    },
+    "heavy": {
+      "value": "boima"
+    },
+    "light": {
+      "value": "khanya"
+    },
+    "particles": {
+      "value": "makumane"
+    },
+    "screen.explore": {
+      "value": "hlahloba"
+    },
+    "pressureNoise": {
+      "value": "khatello e lerata"
+    },
+    "holdConstant.nothing": {
+      "value": "letho"
+    },
+    "holdConstant.pressureT": {
+      "value": "khatello ↕T"
+    },
+    "holdConstant.pressureV": {
+      "value": "khatello ↕V"
+    },
+    "holdConstant.title": {
+      "value": "t'soara nqa e le 'ngoe"
+    },
+    "holdConstant.temperature": {
+      "value": "mocheso (T)"
+    },
+    "holdConstant.volume": {
+      "value": "boima (V)"
+    },
+    "oopsPressureEmpty": {
+      "value": "Oops!<br><br>khatello e keke ea ema nqa e le 'ngoe <br> ha nkho e t'sela"
+    },
+    "oopsPressureLarge": {
+      "value": "Oops!<br><br>khatello e keke ea ema nqa e le 'ngoe <br>ha boima bo le boholo haholo"
+    },
+    "oopsPressureSmall": {
+      "value": "Oops!<br><br>khatello e keke ea ema nqa e le 'ngoe <br> ha boima bo le bonyane haholo"
+    },
+    "oopsTemperatureEmpty": {
+      "value": "Oops!<br><br>mocheso o keke oa ema nqa e le 'ngoe <br>ha nkho e sa t'sela"
+    },
+    "oopsTemperatureOpen": {
+      "value": "Oops!<br><br>mocheso o keke oa ema nqa ele 'ngoe<br>ha nkho e butsoe "
+    },
+    "screen.ideal": {
+      "value": "e loketseng"
+    },
+    "averageSpeed": {
+      "value": "kakaretso ea lebelo"
+    },
+    "metersPerSecond": {
+      "value": "m/s"
+    },
+    "injectionTemperature": {
+      "value": "kenya mocheso"
+    },
+    "matchContainer": {
+      "value": "bapisa nkho"
+    },
+    "kineticEnergy": {
+      "value": "matla a tsamaeang"
+    },
+    "speed": {
+      "value": "lebelo"
+    },
+    "screen.energy": {
+      "value": "matla"
+    },
+    "gas-properties.title": {
+      "value": "boit'soaro ba moea"
     }
   },
   "sv": {
