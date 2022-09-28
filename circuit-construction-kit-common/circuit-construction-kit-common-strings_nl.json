@@ -1,23 +1,4 @@
 {
-  "questionMark": {
-    "value": "",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1509452376282,
-        "oldValue": "",
-        "newValue": "?",
-        "explanation": null
-      },
-      {
-        "userId": 170730,
-        "timestamp": 1578144947586,
-        "oldValue": "?",
-        "newValue": "",
-        "explanation": null
-      }
-    ]
-  },
   "acSource": {
     "value": "Wisselspanning",
     "history": [
@@ -64,6 +45,17 @@
       }
     ]
   },
+  "ammeterReadout": {
+    "value": "Uitlezing Ampéremeter ",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1664371406071,
+        "oldValue": "",
+        "newValue": "Uitlezing Ampéremeter "
+      }
+    ]
+  },
   "ammeters": {
     "value": "Ampéremeters",
     "history": [
@@ -77,7 +69,7 @@
     ]
   },
   "animationSpeedLimitReached": {
-    "value": "Snelheidslimiet van animatie bereikt! Snelheid van animatie beperkt tot normaal {{percent}}% .",
+    "value": "Snelheidslimiet van animatie bereikt! Snelheid van animatie beperkt tot {{percent}}% normaal .",
     "history": [
       {
         "userId": 170730,
@@ -99,6 +91,12 @@
         "oldValue": "Snelheidslimiet van animatie bereikt! Snelheid van animatie beperkt tot {{percent}}% normaal.",
         "newValue": "Snelheidslimiet van animatie bereikt! Snelheid van animatie beperkt tot normaal {{percent}}% .",
         "explanation": null
+      },
+      {
+        "userId": 148415,
+        "timestamp": 1664371406071,
+        "oldValue": "Snelheidslimiet van animatie bereikt! Snelheid van animatie beperkt tot normaal {{percent}}% .",
+        "newValue": "Snelheidslimiet van animatie bereikt! Snelheid van animatie beperkt tot {{percent}}% normaal ."
       }
     ]
   },
@@ -137,6 +135,17 @@
         "oldValue": "Weerstand Batterij",
         "newValue": "Weerstand batterij",
         "explanation": null
+      }
+    ]
+  },
+  "british": {
+    "value": "Engels",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1664371406071,
+        "oldValue": "",
+        "newValue": "Engels"
       }
     ]
   },
@@ -217,7 +226,7 @@
     ]
   },
   "currentChart": {
-    "value": "Kaart van stroom",
+    "value": "Stroom",
     "history": [
       {
         "userId": 170730,
@@ -225,11 +234,17 @@
         "oldValue": "",
         "newValue": "Kaart van stroom",
         "explanation": null
+      },
+      {
+        "userId": 148415,
+        "timestamp": 1664371406071,
+        "oldValue": "Kaart van stroom",
+        "newValue": "Stroom"
       }
     ]
   },
   "currentRating": {
-    "value": "Grootte van stroom",
+    "value": "Grootte van de stroom",
     "history": [
       {
         "userId": 170730,
@@ -244,6 +259,23 @@
         "oldValue": "Grootte.van stroom",
         "newValue": "Grootte van stroom",
         "explanation": null
+      },
+      {
+        "userId": 148415,
+        "timestamp": 1664371406071,
+        "oldValue": "Grootte van stroom",
+        "newValue": "Grootte van de stroom"
+      }
+    ]
+  },
+  "dataOutOfRange": {
+    "value": "Data buiten het bereik",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1664371406071,
+        "oldValue": "",
+        "newValue": "Data buiten het bereik"
       }
     ]
   },
@@ -298,7 +330,7 @@
     ]
   },
   "eraser": {
-    "value": "Gom",
+    "value": "Gum",
     "history": [
       {
         "userId": 170730,
@@ -306,6 +338,12 @@
         "oldValue": "",
         "newValue": "Gom",
         "explanation": null
+      },
+      {
+        "userId": 148415,
+        "timestamp": 1664371406071,
+        "oldValue": "Gom",
+        "newValue": "Gum"
       }
     ]
   },
@@ -346,13 +384,19 @@
     ]
   },
   "inductance": {
-    "value": "Inductie",
+    "value": "Impedantie",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1614627951944,
         "oldValue": "",
         "newValue": "Inductie"
+      },
+      {
+        "userId": 148415,
+        "timestamp": 1664371406071,
+        "oldValue": "Inductie",
+        "newValue": "Impedantie"
       }
     ]
   },
@@ -368,7 +412,7 @@
     ]
   },
   "labels": {
-    "value": "Labels",
+    "value": "",
     "history": [
       {
         "userId": 170730,
@@ -376,6 +420,12 @@
         "oldValue": "",
         "newValue": "Labels",
         "explanation": null
+      },
+      {
+        "userId": 148415,
+        "timestamp": 1664371406071,
+        "oldValue": "Labels",
+        "newValue": ""
       }
     ]
   },
@@ -414,6 +464,17 @@
         "oldValue": "",
         "newValue": "veel",
         "explanation": null
+      }
+    ]
+  },
+  "magnitude": {
+    "value": "Orde van grootte",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1664371406071,
+        "oldValue": "",
+        "newValue": "Orde van grootte"
       }
     ]
   },
@@ -456,17 +517,6 @@
         "timestamp": 1614627951944,
         "oldValue": "",
         "newValue": "Faseverschuiving"
-      }
-    ]
-  },
-  "realBulb": {
-    "value": "Echte Lamp",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1614627951944,
-        "oldValue": "",
-        "newValue": "Echte Lamp"
       }
     ]
   },
@@ -543,13 +593,19 @@
     ]
   },
   "stopwatch": {
-    "value": "Chronometer",
+    "value": "",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1614627951944,
         "oldValue": "",
         "newValue": "Chronometer"
+      },
+      {
+        "userId": 148415,
+        "timestamp": 1664371406071,
+        "oldValue": "Chronometer",
+        "newValue": ""
       }
     ]
   },
@@ -592,7 +648,7 @@
     ]
   },
   "theSwitchIsClosed": {
-    "value": "De schakelaar is toe.",
+    "value": "De schakelaar is dicht.",
     "history": [
       {
         "userId": 170730,
@@ -600,6 +656,12 @@
         "oldValue": "",
         "newValue": "De schakelaar is toe.",
         "explanation": null
+      },
+      {
+        "userId": 148415,
+        "timestamp": 1664371406071,
+        "oldValue": "De schakelaar is toe.",
+        "newValue": "De schakelaar is dicht."
       }
     ]
   },
@@ -675,7 +737,7 @@
     ]
   },
   "voltageChart": {
-    "value": "Kaart spanning",
+    "value": "Spanning",
     "history": [
       {
         "userId": 170730,
@@ -683,6 +745,12 @@
         "oldValue": "",
         "newValue": "Kaart spanning",
         "explanation": null
+      },
+      {
+        "userId": 148415,
+        "timestamp": 1664371406071,
+        "oldValue": "Kaart spanning",
+        "newValue": "Spanning"
       }
     ]
   },
@@ -737,7 +805,7 @@
     ]
   },
   "resistanceOhmsValuePattern": {
-    "value": "{{resistance}} ohm",
+    "value": "{{resistance}} Ohm",
     "history": [
       {
         "userId": 170730,
@@ -745,6 +813,12 @@
         "oldValue": "",
         "newValue": "{{resistance}} ohm",
         "explanation": null
+      },
+      {
+        "userId": 148415,
+        "timestamp": 1664371406071,
+        "oldValue": "{{resistance}} ohm",
+        "newValue": "{{resistance}} Ohm"
       }
     ]
   },
@@ -757,6 +831,36 @@
         "oldValue": "",
         "newValue": "{{voltage}} volt",
         "explanation": null
+      }
+    ]
+  },
+  "questionMark": {
+    "value": "",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1509452376282,
+        "oldValue": "",
+        "newValue": "?",
+        "explanation": null
+      },
+      {
+        "userId": 170730,
+        "timestamp": 1578144947586,
+        "oldValue": "?",
+        "newValue": "",
+        "explanation": null
+      }
+    ]
+  },
+  "realBulb": {
+    "value": "Echte Lamp",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1614627951944,
+        "oldValue": "",
+        "newValue": "Echte Lamp"
       }
     ]
   },
