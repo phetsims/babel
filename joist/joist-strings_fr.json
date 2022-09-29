@@ -164,42 +164,6 @@
       }
     ]
   },
-  "ieErrorPage.ieIsNotSupported": {
-    "value": "Internet Explorer n'est pas supporté",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1601216147766,
-        "oldValue": "",
-        "newValue": "Internet Explorer n'est pas supporté",
-        "explanation": null
-      }
-    ]
-  },
-  "queryParametersWarningDialog.invalidQueryParameters": {
-    "value": "Paramètres de requête non valides",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1584844839885,
-        "oldValue": "",
-        "newValue": "Paramètres de requête non valides",
-        "explanation": null
-      },
-      {
-        "userId": 1086112,
-        "timestamp": 1663923298899,
-        "oldValue": "Paramètres de requête non valides",
-        "newValue": "Paramètres de requête invalides"
-      },
-      {
-        "userId": 663149,
-        "timestamp": 1663994422257,
-        "oldValue": "Paramètres de requête invalides",
-        "newValue": "Paramètres de requête non valides"
-      }
-    ]
-  },
   "keyboardShortcuts.title": {
     "value": "Raccourcis clavier",
     "history": [
@@ -260,30 +224,6 @@
       }
     ]
   },
-  "queryParametersWarningDialog.oneOrMoreQueryParameters": {
-    "value": "Un ou plusieurs paramètres de requête ont des valeurs non valides:",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1584844839885,
-        "oldValue": "",
-        "newValue": "Un ou plusieurs paramètres de requête ont des valeurs non valides:",
-        "explanation": null
-      },
-      {
-        "userId": 1086112,
-        "timestamp": 1663923298899,
-        "oldValue": "Un ou plusieurs paramètres de requête ont des valeurs non valides:",
-        "newValue": "Un ou plusieurs paramètres de requête ont <br>des valeurs invalides:"
-      },
-      {
-        "userId": 663149,
-        "timestamp": 1663994422257,
-        "oldValue": "Un ou plusieurs paramètres de requête ont <br>des valeurs invalides:",
-        "newValue": "Un ou plusieurs paramètres de requête ont des valeurs non valides:"
-      }
-    ]
-  },
   "options.title": {
     "value": "Options",
     "history": [
@@ -320,45 +260,15 @@
       }
     ]
   },
-  "ieErrorPage.platformError": {
-    "value": "Erreur de plateforme",
+  "projectorMode": {
+    "value": "Mode projecteur",
     "history": [
       {
         "userId": 147846,
-        "timestamp": 1601216147766,
+        "timestamp": 1483279496246,
         "oldValue": "",
-        "newValue": "Erreur de la plateforme",
+        "newValue": "Mode projecteur",
         "explanation": null
-      },
-      {
-        "userId": 663149,
-        "timestamp": 1663994422257,
-        "oldValue": "Erreur de la plateforme",
-        "newValue": "Erreur de plateforme"
-      }
-    ]
-  },
-  "ieErrorPage.useDifferentBrowser": {
-    "value": "Veuillez utiliser un navigateur différent pour lancer cette simulation",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1601216147766,
-        "oldValue": "",
-        "newValue": "Veuillez utiliser un navigateur différent pour lancer cette simulation",
-        "explanation": null
-      },
-      {
-        "userId": 1086112,
-        "timestamp": 1663923298899,
-        "oldValue": "Veuillez utiliser un navigateur différent pour lancer cette simulation",
-        "newValue": "Veuillez utiliser un autre navigateur pour exécuter cette simulation."
-      },
-      {
-        "userId": 663149,
-        "timestamp": 1663994422257,
-        "oldValue": "Veuillez utiliser un autre navigateur pour exécuter cette simulation.",
-        "newValue": "Veuillez utiliser un navigateur différent pour lancer cette simulation"
       }
     ]
   },
@@ -482,18 +392,6 @@
       }
     ]
   },
-  "queryParametersWarningDialog.theSimulationWillStart": {
-    "value": "La simulation commencera avec les valeurs par défaut pour <br> ces paramètres de requête.",
-    "history": [
-      {
-        "userId": 237975,
-        "timestamp": 1584844839885,
-        "oldValue": "",
-        "newValue": "La simulation commencera avec les valeurs par défaut pour <br> ces paramètres de requête.",
-        "explanation": null
-      }
-    ]
-  },
   "updates.newVersionAvailable": {
     "value": "Il y a une nouvelle version disponible: {0}.",
     "history": [
@@ -507,7 +405,7 @@
     ]
   },
   "thirdParty.credits.link": {
-    "value": "Mérites des tierces personnes",
+    "value": "Crédits des tierces personnes",
     "history": [
       {
         "userId": 237975,
@@ -539,6 +437,12 @@
         "timestamp": 1663994422257,
         "oldValue": "Droits de tierce-partie.",
         "newValue": "Mérites des tierces personnes"
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1664431276481,
+        "oldValue": "Mérites des tierces personnes",
+        "newValue": "Crédits des tierces personnes"
       }
     ]
   },
@@ -591,7 +495,7 @@
     ]
   },
   "translation.credits.link": {
-    "value": "Mérites de la traduction",
+    "value": "Traduction réalisée par",
     "history": [
       {
         "userId": 237975,
@@ -617,6 +521,12 @@
         "timestamp": 1663994422257,
         "oldValue": "Droits de traduction",
         "newValue": "Mérites de la traduction"
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1664431276481,
+        "oldValue": "Mérites de la traduction",
+        "newValue": "Traduction réalisée par"
       }
     ]
   },
@@ -664,6 +574,120 @@
         "timestamp": 1510750780873,
         "oldValue": "",
         "newValue": "{{simName}} — {{screenName}}",
+        "explanation": null
+      }
+    ]
+  },
+  "ieErrorPage.ieIsNotSupported": {
+    "value": "Internet Explorer n'est pas supporté",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1601216147766,
+        "oldValue": "",
+        "newValue": "Internet Explorer n'est pas supporté",
+        "explanation": null
+      }
+    ]
+  },
+  "queryParametersWarningDialog.invalidQueryParameters": {
+    "value": "Paramètres de requête non valides",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1584844839885,
+        "oldValue": "",
+        "newValue": "Paramètres de requête non valides",
+        "explanation": null
+      },
+      {
+        "userId": 1086112,
+        "timestamp": 1663923298899,
+        "oldValue": "Paramètres de requête non valides",
+        "newValue": "Paramètres de requête invalides"
+      },
+      {
+        "userId": 663149,
+        "timestamp": 1663994422257,
+        "oldValue": "Paramètres de requête invalides",
+        "newValue": "Paramètres de requête non valides"
+      }
+    ]
+  },
+  "queryParametersWarningDialog.oneOrMoreQueryParameters": {
+    "value": "Un ou plusieurs paramètres de requête ont des valeurs non valides:",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1584844839885,
+        "oldValue": "",
+        "newValue": "Un ou plusieurs paramètres de requête ont des valeurs non valides:",
+        "explanation": null
+      },
+      {
+        "userId": 1086112,
+        "timestamp": 1663923298899,
+        "oldValue": "Un ou plusieurs paramètres de requête ont des valeurs non valides:",
+        "newValue": "Un ou plusieurs paramètres de requête ont <br>des valeurs invalides:"
+      },
+      {
+        "userId": 663149,
+        "timestamp": 1663994422257,
+        "oldValue": "Un ou plusieurs paramètres de requête ont <br>des valeurs invalides:",
+        "newValue": "Un ou plusieurs paramètres de requête ont des valeurs non valides:"
+      }
+    ]
+  },
+  "ieErrorPage.platformError": {
+    "value": "Erreur de plateforme",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1601216147766,
+        "oldValue": "",
+        "newValue": "Erreur de la plateforme",
+        "explanation": null
+      },
+      {
+        "userId": 663149,
+        "timestamp": 1663994422257,
+        "oldValue": "Erreur de la plateforme",
+        "newValue": "Erreur de plateforme"
+      }
+    ]
+  },
+  "ieErrorPage.useDifferentBrowser": {
+    "value": "Veuillez utiliser un navigateur différent pour lancer cette simulation",
+    "history": [
+      {
+        "userId": 147846,
+        "timestamp": 1601216147766,
+        "oldValue": "",
+        "newValue": "Veuillez utiliser un navigateur différent pour lancer cette simulation",
+        "explanation": null
+      },
+      {
+        "userId": 1086112,
+        "timestamp": 1663923298899,
+        "oldValue": "Veuillez utiliser un navigateur différent pour lancer cette simulation",
+        "newValue": "Veuillez utiliser un autre navigateur pour exécuter cette simulation."
+      },
+      {
+        "userId": 663149,
+        "timestamp": 1663994422257,
+        "oldValue": "Veuillez utiliser un autre navigateur pour exécuter cette simulation.",
+        "newValue": "Veuillez utiliser un navigateur différent pour lancer cette simulation"
+      }
+    ]
+  },
+  "queryParametersWarningDialog.theSimulationWillStart": {
+    "value": "La simulation commencera avec les valeurs par défaut pour <br> ces paramètres de requête.",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1584844839885,
+        "oldValue": "",
+        "newValue": "La simulation commencera avec les valeurs par défaut pour <br> ces paramètres de requête.",
         "explanation": null
       }
     ]
@@ -871,18 +895,6 @@
         "timestamp": 1662755354960,
         "oldValue": "",
         "newValue": "Augmentez le contraste des couleurs pour une meilleure visibilité dans les salles de classe."
-      }
-    ]
-  },
-  "projectorMode": {
-    "value": "Mode projecteur",
-    "history": [
-      {
-        "userId": 147846,
-        "timestamp": 1483279496246,
-        "oldValue": "",
-        "newValue": "Mode projecteur",
-        "explanation": null
       }
     ]
   },
