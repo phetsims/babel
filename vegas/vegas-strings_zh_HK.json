@@ -1,4 +1,82 @@
 {
+  "keepGoing": {
+    "value": "繼續努力",
+    "history": [
+      {
+        "userId": 1091901,
+        "timestamp": 1664432682456,
+        "oldValue": "",
+        "newValue": "繼續努力"
+      }
+    ]
+  },
+  "newLevel": {
+    "value": "新關卡",
+    "history": [
+      {
+        "userId": 1091901,
+        "timestamp": 1664432682456,
+        "oldValue": "",
+        "newValue": "新關卡"
+      }
+    ]
+  },
+  "score": {
+    "value": "得分:",
+    "history": [
+      {
+        "userId": 1091901,
+        "timestamp": 1663828936283,
+        "oldValue": "",
+        "newValue": "分數:"
+      },
+      {
+        "userId": 1091901,
+        "timestamp": 1664431080936,
+        "oldValue": "分數:",
+        "newValue": "得分:"
+      }
+    ]
+  },
+  "pattern.score.number": {
+    "value": "得分: {{score}}",
+    "history": [
+      {
+        "userId": 1091901,
+        "timestamp": 1663828936283,
+        "oldValue": "",
+        "newValue": "分數:{{score}}"
+      },
+      {
+        "userId": 1091901,
+        "timestamp": 1664431080936,
+        "oldValue": "分數:{{score}}",
+        "newValue": "得分: {{score}}"
+      }
+    ]
+  },
+  "pattern.0minutes.1seconds": {
+    "value": "{0}:{1}",
+    "history": [
+      {
+        "userId": 1091901,
+        "timestamp": 1663828936283,
+        "oldValue": "",
+        "newValue": "{0}:{1}"
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 1091901,
+        "timestamp": 1663828936283,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}"
+      }
+    ]
+  },
   "pattern.0yourBest": {
     "value": "(你的最佳成績: {0} 分)",
     "history": [
@@ -167,23 +245,6 @@
       }
     ]
   },
-  "score": {
-    "value": "得分:",
-    "history": [
-      {
-        "userId": 1091901,
-        "timestamp": 1663828936283,
-        "oldValue": "",
-        "newValue": "分數:"
-      },
-      {
-        "userId": 1091901,
-        "timestamp": 1664431080936,
-        "oldValue": "分數:",
-        "newValue": "得分:"
-      }
-    ]
-  },
   "label.score.max": {
     "value": "分數:{1}分之中的{0}分",
     "history": [
@@ -192,23 +253,6 @@
         "timestamp": 1663833467660,
         "oldValue": "",
         "newValue": "分數:{1}分之中的{0}分"
-      }
-    ]
-  },
-  "pattern.score.number": {
-    "value": "得分: {{score}}",
-    "history": [
-      {
-        "userId": 1091901,
-        "timestamp": 1663828936283,
-        "oldValue": "",
-        "newValue": "分數:{{score}}"
-      },
-      {
-        "userId": 1091901,
-        "timestamp": 1664431080936,
-        "oldValue": "分數:{{score}}",
-        "newValue": "得分: {{score}}"
       }
     ]
   },
@@ -259,28 +303,6 @@
         "timestamp": 1663833467660,
         "oldValue": "",
         "newValue": "重新嘗試"
-      }
-    ]
-  },
-  "pattern.0minutes.1seconds": {
-    "value": "{0}:{1}",
-    "history": [
-      {
-        "userId": 1091901,
-        "timestamp": 1663828936283,
-        "oldValue": "",
-        "newValue": "{0}:{1}"
-      }
-    ]
-  },
-  "pattern.0hours.1minutes.2seconds": {
-    "value": "{0}:{1}:{2}",
-    "history": [
-      {
-        "userId": 1091901,
-        "timestamp": 1663828936283,
-        "oldValue": "",
-        "newValue": "{0}:{1}:{2}"
       }
     ]
   },
