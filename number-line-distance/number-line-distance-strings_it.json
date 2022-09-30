@@ -1,15 +1,4 @@
 {
-  "screen.explore": {
-    "value": "Esplora",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1629395602661,
-        "oldValue": "",
-        "newValue": "Esplora"
-      }
-    ]
-  },
   "screen.generic": {
     "value": "Generico",
     "history": [
@@ -18,6 +7,17 @@
         "timestamp": 1629395602661,
         "oldValue": "",
         "newValue": "Generico"
+      }
+    ]
+  },
+  "screen.explore": {
+    "value": "Esplora",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1629395602661,
+        "oldValue": "",
+        "newValue": "Esplora"
       }
     ]
   },
@@ -76,6 +76,50 @@
       }
     ]
   },
+  "symbol.x": {
+    "value": "x",
+    "history": [
+      {
+        "userId": 526485,
+        "timestamp": 1664558768640,
+        "oldValue": "",
+        "newValue": "x"
+      }
+    ]
+  },
+  "symbol.y": {
+    "value": "y",
+    "history": [
+      {
+        "userId": 526485,
+        "timestamp": 1664558768640,
+        "oldValue": "",
+        "newValue": "y"
+      }
+    ]
+  },
+  "symbol.east": {
+    "value": "E",
+    "history": [
+      {
+        "userId": 526485,
+        "timestamp": 1664558768640,
+        "oldValue": "",
+        "newValue": "E"
+      }
+    ]
+  },
+  "symbol.west": {
+    "value": "W",
+    "history": [
+      {
+        "userId": 526485,
+        "timestamp": 1664558768640,
+        "oldValue": "",
+        "newValue": "W"
+      }
+    ]
+  },
   "house": {
     "value": "casa",
     "history": [
@@ -131,6 +175,17 @@
       }
     ]
   },
+  "symbol.meters": {
+    "value": "m",
+    "history": [
+      {
+        "userId": 526485,
+        "timestamp": 1664558768640,
+        "oldValue": "",
+        "newValue": "m"
+      }
+    ]
+  },
   "meter": {
     "value": "metro",
     "history": [
@@ -150,6 +205,28 @@
         "timestamp": 1629395602661,
         "oldValue": "",
         "newValue": "metri"
+      }
+    ]
+  },
+  "symbol.A": {
+    "value": "A",
+    "history": [
+      {
+        "userId": 526485,
+        "timestamp": 1664558768640,
+        "oldValue": "",
+        "newValue": "A"
+      }
+    ]
+  },
+  "symbol.B": {
+    "value": "B",
+    "history": [
+      {
+        "userId": 526485,
+        "timestamp": 1664558768640,
+        "oldValue": "",
+        "newValue": "B"
       }
     ]
   },
@@ -183,6 +260,17 @@
         "timestamp": 1629395602661,
         "oldValue": "",
         "newValue": "La posizione {{secondaryPointControllerLabel}} è {{difference}} {{units}} più fredda della posizione {{primaryPointControllerLabel}}."
+      }
+    ]
+  },
+  "symbol.degreesCelsius": {
+    "value": "°C",
+    "history": [
+      {
+        "userId": 526485,
+        "timestamp": 1664558768640,
+        "oldValue": "",
+        "newValue": "°C"
       }
     ]
   },
@@ -231,24 +319,36 @@
     ]
   },
   "elevationSceneAbsoluteDistanceTemplate": {
-    "value": "L'{{secondaryPointControllerLabel}} e il {{primaryPointControllerLabel}} hanno una distanza verticale di {{difference}} {{units}}.",
+    "value": "Il {{secondaryPointControllerLabel}} e l' {{primaryPointControllerLabel}} hanno una distanza verticale di {{difference}} {{units}}.",
     "history": [
       {
         "userId": 157247,
         "timestamp": 1629395602661,
         "oldValue": "",
         "newValue": "L'{{secondaryPointControllerLabel}} e il {{primaryPointControllerLabel}} hanno una distanza verticale di {{difference}} {{units}}."
+      },
+      {
+        "userId": 526485,
+        "timestamp": 1664558768640,
+        "oldValue": "L'{{secondaryPointControllerLabel}} e il {{primaryPointControllerLabel}} hanno una distanza verticale di {{difference}} {{units}}.",
+        "newValue": "Il {{secondaryPointControllerLabel}} e l' {{primaryPointControllerLabel}} hanno una distanza verticale di {{difference}} {{units}}."
       }
     ]
   },
   "elevationSceneDirectedPositiveDistanceTemplate": {
-    "value": "L'{{secondaryPointControllerLabel}} è {{difference}} {{units}} sopra il {{primaryPointControllerLabel}}.",
+    "value": "Il {{secondaryPointControllerLabel}} è {{difference}} {{units}} sopra l' {{primaryPointControllerLabel}}.",
     "history": [
       {
         "userId": 157247,
         "timestamp": 1629395602661,
         "oldValue": "",
         "newValue": "L'{{secondaryPointControllerLabel}} è {{difference}} {{units}} sopra il {{primaryPointControllerLabel}}."
+      },
+      {
+        "userId": 526485,
+        "timestamp": 1664558768640,
+        "oldValue": "L'{{secondaryPointControllerLabel}} è {{difference}} {{units}} sopra il {{primaryPointControllerLabel}}.",
+        "newValue": "Il {{secondaryPointControllerLabel}} è {{difference}} {{units}} sopra l' {{primaryPointControllerLabel}}."
       }
     ]
   },
