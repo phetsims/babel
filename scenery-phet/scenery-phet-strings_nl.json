@@ -16,6 +16,73 @@
       }
     ]
   },
+  "keyboardHelpDialog.comboBox.popUpListPattern": {
+    "value": "1. Pop up lijst van {{thingPlural}}",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1618564093713,
+        "oldValue": "",
+        "newValue": "1. Pop up lijst van {{thingPlural}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.moveThroughPattern": {
+    "value": "2. Beweeg door {{thingPlural}}",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1618564093713,
+        "oldValue": "",
+        "newValue": "2. Beweeg door {{thingPlural}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.chooseNewPattern": {
+    "value": "3. Kies nieuw {{thingSingular}}",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1618564093713,
+        "oldValue": "",
+        "newValue": "3. Kies nieuw {{thingSingular}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+    "value": "4. Kies een lijst zonder te veranderen",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1618564093713,
+        "oldValue": "",
+        "newValue": "4. Kies een lijst zonder veranderen"
+      },
+      {
+        "userId": 148415,
+        "timestamp": 1664536484207,
+        "oldValue": "4. Kies een lijst zonder veranderen",
+        "newValue": "4. Kies een lijst zonder te veranderen"
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjust": {
+    "value": "Verander",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1618564093713,
+        "oldValue": "",
+        "newValue": "Pas aan"
+      },
+      {
+        "userId": 148415,
+        "timestamp": 1664536484207,
+        "oldValue": "Pas aan",
+        "newValue": "Verander"
+      }
+    ]
+  },
   "key.alt": {
     "value": "",
     "history": [
@@ -109,18 +176,6 @@
       }
     ]
   },
-  "speed.fast": {
-    "value": "Snel",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1608716690660,
-        "oldValue": "",
-        "newValue": "Snel",
-        "explanation": null
-      }
-    ]
-  },
   "key.fn": {
     "value": "",
     "history": [
@@ -187,6 +242,50 @@
       }
     ]
   },
+  "keyboardHelpDialog.jumpToMaximumPattern": {
+    "value": "Spring naar {{maximum}}",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1618564093713,
+        "oldValue": "",
+        "newValue": "Spring naar {{maximum}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMinimumPattern": {
+    "value": "Spring naar {{minimum}}",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1618564093713,
+        "oldValue": "",
+        "newValue": "Spring naar {{minimum}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.maximum": {
+    "value": "hoogste",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1618564093713,
+        "oldValue": "",
+        "newValue": "hoogste"
+      }
+    ]
+  },
+  "keyboardHelpDialog.minimum": {
+    "value": "laagste",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1618564093713,
+        "oldValue": "",
+        "newValue": "laagste"
+      }
+    ]
+  },
   "keyboardHelpDialog.moveBetweenItemsInAGroup": {
     "value": "Beweeg tussen voorwerpen in een groep",
     "history": [
@@ -241,15 +340,25 @@
       }
     ]
   },
-  "speed.normal": {
-    "value": "Normaal",
+  "keyboardHelpDialog.comboBox.option": {
+    "value": "optie",
     "history": [
       {
         "userId": 170730,
-        "timestamp": 1537473905275,
+        "timestamp": 1618564093713,
         "oldValue": "",
-        "newValue": "Normaal",
-        "explanation": null
+        "newValue": "optie"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.options": {
+    "value": "opties",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1618564093713,
+        "oldValue": "",
+        "newValue": "opties"
       }
     ]
   },
@@ -313,15 +422,37 @@
       }
     ]
   },
-  "speed.slow": {
-    "value": "Traag",
+  "keyboardHelpDialog.slider": {
+    "value": "schuifregelaar",
     "history": [
       {
         "userId": 170730,
-        "timestamp": 1537473905275,
+        "timestamp": 1618564093713,
         "oldValue": "",
-        "newValue": "Traag",
-        "explanation": null
+        "newValue": "glijder"
+      },
+      {
+        "userId": 148415,
+        "timestamp": 1664536484207,
+        "oldValue": "glijder",
+        "newValue": "schuifregelaar"
+      }
+    ]
+  },
+  "keyboardHelpDialog.sliderControls": {
+    "value": "Schuifregelaars",
+    "history": [
+      {
+        "userId": 170730,
+        "timestamp": 1618564093713,
+        "oldValue": "",
+        "newValue": "Glijder Controles"
+      },
+      {
+        "userId": 148415,
+        "timestamp": 1664536484207,
+        "oldValue": "Glijder Controles",
+        "newValue": "Schuifregelaars"
       }
     ]
   },
@@ -349,58 +480,61 @@
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.popUpListPattern": {
-    "value": "1. Pop up lijst van {{thingPlural}}",
+  "keyboardHelpDialog.verbInLargerStepsPattern": {
+    "value": "{{verb}} in grotere stappen",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1618564093713,
         "oldValue": "",
-        "newValue": "1. Pop up lijst van {{thingPlural}}"
+        "newValue": "{{verb}} in grotere stappen"
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.moveThroughPattern": {
-    "value": "2. Beweeg door {{thingPlural}}",
+  "keyboardHelpDialog.verbInSmallerStepsPattern": {
+    "value": "{{verb}} in kleinere stappen",
     "history": [
       {
         "userId": 170730,
         "timestamp": 1618564093713,
         "oldValue": "",
-        "newValue": "2. Beweeg door {{thingPlural}}"
+        "newValue": "{{verb}} in kleinere stappen"
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.chooseNewPattern": {
-    "value": "3. Kies nieuw {{thingSingular}}",
+  "speed.fast": {
+    "value": "Snel",
     "history": [
       {
         "userId": 170730,
-        "timestamp": 1618564093713,
+        "timestamp": 1608716690660,
         "oldValue": "",
-        "newValue": "3. Kies nieuw {{thingSingular}}"
+        "newValue": "Snel",
+        "explanation": null
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-    "value": "4. Kies een lijst zonder veranderen",
+  "speed.normal": {
+    "value": "Normaal",
     "history": [
       {
         "userId": 170730,
-        "timestamp": 1618564093713,
+        "timestamp": 1537473905275,
         "oldValue": "",
-        "newValue": "4. Kies een lijst zonder veranderen"
+        "newValue": "Normaal",
+        "explanation": null
       }
     ]
   },
-  "keyboardHelpDialog.adjust": {
-    "value": "Pas aan",
+  "speed.slow": {
+    "value": "Traag",
     "history": [
       {
         "userId": 170730,
-        "timestamp": 1618564093713,
+        "timestamp": 1537473905275,
         "oldValue": "",
-        "newValue": "Pas aan"
+        "newValue": "Traag",
+        "explanation": null
       }
     ]
   },
@@ -448,50 +582,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.jumpToMaximumPattern": {
-    "value": "Spring naar {{maximum}}",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1618564093713,
-        "oldValue": "",
-        "newValue": "Spring naar {{maximum}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.jumpToMinimumPattern": {
-    "value": "Spring naar {{minimum}}",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1618564093713,
-        "oldValue": "",
-        "newValue": "Spring naar {{minimum}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.maximum": {
-    "value": "hoogste",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1618564093713,
-        "oldValue": "",
-        "newValue": "hoogste"
-      }
-    ]
-  },
-  "keyboardHelpDialog.minimum": {
-    "value": "laagste",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1618564093713,
-        "oldValue": "",
-        "newValue": "laagste"
-      }
-    ]
-  },
   "nine": {
     "value": "negen",
     "history": [
@@ -514,28 +604,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.option": {
-    "value": "optie",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1618564093713,
-        "oldValue": "",
-        "newValue": "optie"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.options": {
-    "value": "opties",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1618564093713,
-        "oldValue": "",
-        "newValue": "opties"
-      }
-    ]
-  },
   "seven": {
     "value": "zeven",
     "history": [
@@ -555,28 +623,6 @@
         "timestamp": 1618564093713,
         "oldValue": "",
         "newValue": "zes"
-      }
-    ]
-  },
-  "keyboardHelpDialog.slider": {
-    "value": "glijder",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1618564093713,
-        "oldValue": "",
-        "newValue": "glijder"
-      }
-    ]
-  },
-  "keyboardHelpDialog.sliderControls": {
-    "value": "Glijder Controles",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1618564093713,
-        "oldValue": "",
-        "newValue": "Glijder Controles"
       }
     ]
   },
@@ -621,28 +667,6 @@
         "timestamp": 1618564093713,
         "oldValue": "",
         "newValue": "nul"
-      }
-    ]
-  },
-  "keyboardHelpDialog.verbInLargerStepsPattern": {
-    "value": "{{verb}} in grotere stappen",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1618564093713,
-        "oldValue": "",
-        "newValue": "{{verb}} in grotere stappen"
-      }
-    ]
-  },
-  "keyboardHelpDialog.verbInSmallerStepsPattern": {
-    "value": "{{verb}} in kleinere stappen",
-    "history": [
-      {
-        "userId": 170730,
-        "timestamp": 1618564093713,
-        "oldValue": "",
-        "newValue": "{{verb}} in kleinere stappen"
       }
     ]
   },
