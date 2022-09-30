@@ -1,5 +1,8 @@
 {
   "am": {
+    "shortCircuit": {
+      "value": "አጭር ሰርኩይት"
+    },
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
@@ -236,6 +239,9 @@
     }
   },
   "ar": {
+    "keyboardHelpDialog.hyphen": {
+      "value": "-"
+    },
     "keyboardHelpDialog.comboBox.popUpListPattern": {
       "value": "1. قائمة منبثقة من {{thingPlural}}"
     },
@@ -1030,6 +1036,9 @@
     }
   },
   "bn": {
+    "shortCircuit": {
+      "value": "শর্ট সার্কিট "
+    },
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
@@ -1444,6 +1453,21 @@
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
+    "keyboardHelpDialog.comboBox.popUpListPattern": {
+      "value": "Llista emergent de {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.moveThroughPattern": {
+      "value": " Mou a traves de {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.chooseNewPattern": {
+      "value": "Tria un nou {{thingSingular}}"
+    },
+    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+      "value": "Tanca la llista sense canvis"
+    },
+    "keyboardHelpDialog.adjust": {
+      "value": "Ajusta"
+    },
     "key.alt": {
       "value": "Alt"
     },
@@ -1465,9 +1489,6 @@
     "keyboardHelpDialog.exitADialog": {
       "value": "Surt d'un diàleg"
     },
-    "speed.fast": {
-      "value": "ràpida"
-    },
     "key.fn": {
       "value": "Funció multimèdia"
     },
@@ -1480,6 +1501,18 @@
     "key.home": {
       "value": "Inici"
     },
+    "keyboardHelpDialog.jumpToMaximumPattern": {
+      "value": "Salta a {{maximum}}"
+    },
+    "keyboardHelpDialog.jumpToMinimumPattern": {
+      "value": "Salta a {{minimum}}"
+    },
+    "keyboardHelpDialog.maximum": {
+      "value": "Màxim"
+    },
+    "keyboardHelpDialog.minimum": {
+      "value": "Mínim"
+    },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "Mou-te entre els elements d'un grup"
     },
@@ -1489,8 +1522,11 @@
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "Mou-te a l'element o el grup anterior"
     },
-    "speed.normal": {
-      "value": "normal"
+    "keyboardHelpDialog.comboBox.option": {
+      "value": "Opció"
+    },
+    "keyboardHelpDialog.comboBox.options": {
+      "value": "Opcions"
     },
     "keyboardHelpDialog.or": {
       "value": "o"
@@ -1501,14 +1537,20 @@
     "key.pageUp": {
       "value": "Pàgina endavant"
     },
+    "keyboardHelpDialog.comboBox.headingString": {
+      "value": "Menú d'obertura emergent"
+    },
     "keyboardHelpDialog.pressButtons": {
       "value": "Prem els botons"
     },
     "key.shift": {
       "value": "Majúscules."
     },
-    "speed.slow": {
-      "value": "Lenta"
+    "keyboardHelpDialog.slider": {
+      "value": "lliscador"
+    },
+    "keyboardHelpDialog.sliderControls": {
+      "value": "Control del lliscador"
     },
     "key.space": {
       "value": "espai"
@@ -1519,14 +1561,38 @@
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Activa o desactiva la selecció "
     },
+    "measuringTapeReadoutPattern": {
+      "value": "{{distance}} {{units}}"
+    },
+    "keyboardHelpDialog.verbInLargerStepsPattern": {
+      "value": "{{verb}} ien etapes més llargues"
+    },
+    "keyboardHelpDialog.verbInSmallerStepsPattern": {
+      "value": "{{verb}} en etapes curtes"
+    },
+    "keyboardHelpDialog.verbSliderPattern": {
+      "value": "{{verb}} {{slider}}"
+    },
     "symbol.resistivity": {
       "value": "ρ"
     },
     "symbol.ohms": {
       "value": "Ω"
     },
-    "measuringTapeReadoutPattern": {
-      "value": "{{distance}} {{units}}"
+    "rulerCapitalized": {
+      "value": "Regle"
+    },
+    "ruler": {
+      "value": "Regle"
+    },
+    "speed.fast": {
+      "value": "ràpida"
+    },
+    "speed.normal": {
+      "value": "normal"
+    },
+    "speed.slow": {
+      "value": "Lenta"
     },
     "units_nm": {
       "value": " nm"
@@ -3811,17 +3877,17 @@
     }
   },
   "fr": {
-    "keyboardHelpDialog.adjustInLargerSteps": {
-      "value": "Ajuster avec de plus petits incréments"
+    "keyboardHelpDialog.hyphen": {
+      "value": "-"
     },
-    "keyboardHelpDialog.adjustInSmallerSteps": {
-      "value": "Ajuster avec de plus grands incréments"
-    },
-    "keyboardHelpDialog.adjustSlider": {
-      "value": "Ajuster le curseur"
+    "key.alt": {
+      "value": "Alt"
     },
     "keyboardHelpDialog.basicActions": {
       "value": "Actions de base"
+    },
+    "key.capsLock": {
+      "value": "Verrouillage des majuscules"
     },
     "key.end": {
       "value": "Fin"
@@ -3830,10 +3896,16 @@
       "value": "Entrer"
     },
     "key.esc": {
-      "value": "Echap"
+      "value": "Sortir"
     },
     "keyboardHelpDialog.exitADialog": {
       "value": "Quitter la boîte de dialogue"
+    },
+    "speed.fast": {
+      "value": "Rapide"
+    },
+    "key.fn": {
+      "value": "Fn"
     },
     "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
       "value": "Saisir ou relâcher {{thing}}"
@@ -3842,28 +3914,19 @@
       "value": "Saisir ou relâcher {{thing}}"
     },
     "key.home": {
-      "value": "Début"
-    },
-    "keyboardHelpDialog.jumpToMaximum": {
-      "value": "Aller au maximum"
-    },
-    "keyboardHelpDialog.jumpToMinimum": {
-      "value": "Aller au minimum"
+      "value": "Accueil"
     },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
-      "value": "Déplacement entre items dans un groupe"
-    },
-    "keyboardHelpDialog.moveToNextItem": {
-      "value": "Aller à l'item suivant"
+      "value": "Déplacement entre élément dans un groupe"
     },
     "keyboardHelpDialog.moveToNextItemOrGroup": {
-      "value": "Aller à l'item suivant ou au groupe"
-    },
-    "keyboardHelpDialog.moveToPreviousItem": {
-      "value": "Aller à l'item précédent"
+      "value": "Aller à l'élément suivant ou au groupe"
     },
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
-      "value": "Aller à l'item précédent ou au groupe"
+      "value": "Aller à l'élément précédent ou au groupe"
+    },
+    "speed.normal": {
+      "value": "Standard"
     },
     "keyboardHelpDialog.or": {
       "value": "ou"
@@ -3880,8 +3943,8 @@
     "key.shift": {
       "value": "Maj"
     },
-    "keyboardHelpDialog.sliderControls": {
-      "value": "Commandes du curseur"
+    "speed.slow": {
+      "value": "Lent"
     },
     "key.space": {
       "value": "Espace"
@@ -3890,19 +3953,37 @@
       "value": "Tab"
     },
     "keyboardHelpDialog.toggleCheckboxes": {
-      "value": "Basculer les cases à cocher"
+      "value": "Cocher les cases"
     },
-    "keyboardHelpDialog.hyphen": {
-      "value": "-"
+    "symbol.resistivity": {
+      "value": "ρ"
     },
-    "key.alt": {
-      "value": "Alt"
+    "symbol.ohms": {
+      "value": "Ω"
     },
-    "key.capsLock": {
-      "value": "Verrouillage des majuscules"
+    "keyboardHelpDialog.adjustInLargerSteps": {
+      "value": "Ajuster avec de plus petits incréments"
     },
-    "key.fn": {
-      "value": "Fn"
+    "keyboardHelpDialog.adjustInSmallerSteps": {
+      "value": "Ajuster avec de plus grands incréments"
+    },
+    "keyboardHelpDialog.adjustSlider": {
+      "value": "Ajuster le curseur"
+    },
+    "keyboardHelpDialog.jumpToMaximum": {
+      "value": "Aller au maximum"
+    },
+    "keyboardHelpDialog.jumpToMinimum": {
+      "value": "Aller au minimum"
+    },
+    "keyboardHelpDialog.moveToNextItem": {
+      "value": "Aller à l'item suivant"
+    },
+    "keyboardHelpDialog.moveToPreviousItem": {
+      "value": "Aller à l'item précédent"
+    },
+    "keyboardHelpDialog.sliderControls": {
+      "value": "Commandes du curseur"
     },
     "key.toGrabOrRelease": {
       "value": "pour <b> saisir </b> ou <b> relacher </b>"
@@ -3988,26 +4069,11 @@
     "keyboardHelpDialog.verbSliderPattern": {
       "value": "{{verb}} {{slider}}"
     },
-    "symbol.resistivity": {
-      "value": "ρ"
-    },
-    "symbol.ohms": {
-      "value": "Ω"
-    },
     "keyboardHelpDialog.comboBox.headingString": {
       "value": "Menu d'ouverture Pop"
     },
     "measuringTapeReadoutPattern": {
       "value": "{{distance}} {{units}}"
-    },
-    "speed.fast": {
-      "value": "Rapide"
-    },
-    "speed.normal": {
-      "value": "Normal"
-    },
-    "speed.slow": {
-      "value": "Lent"
     },
     "stopwatchValueUnitsPattern": {
       "value": "{{value}} {{units}}"
@@ -4485,6 +4551,12 @@
     }
   },
   "hi": {
+    "units_nm": {
+      "value": "nm"
+    },
+    "WavelengthSlider.pattern_0wavelength_1units": {
+      "value": "{0} {1}"
+    },
     "key.alt": {
       "value": "Alt "
     },
@@ -4709,8 +4781,20 @@
     }
   },
   "hr": {
-    "key.alt": {
-      "value": "Alt"
+    "keyboardHelpDialog.adjustInLargerSteps": {
+      "value": "Prilagodi na veće korake"
+    },
+    "keyboardHelpDialog.adjustInSmallerSteps": {
+      "value": "Prilagodi na manje korake"
+    },
+    "keyboardHelpDialog.adjustSlider": {
+      "value": "Podesi klizač"
+    },
+    "keyboardHelpDialog.basicActions": {
+      "value": "Osnovne akcije"
+    },
+    "key.end": {
+      "value": "Tipka End"
     },
     "key.enter": {
       "value": "Tipka Enter"
@@ -4718,17 +4802,38 @@
     "key.esc": {
       "value": "Tipka Esc"
     },
+    "keyboardHelpDialog.exitADialog": {
+      "value": "napustite dijaloški okvir"
+    },
     "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
       "value": "Uhvati ili oslobodi {{thing}}"
     },
     "keyboardHelpDialog.grabOrReleaseLabelPattern": {
       "value": "Uhvati ili oslobodi {{thing}}"
     },
-    "key.k": {
-      "value": "K"
+    "key.home": {
+      "value": "Tipka Home"
     },
-    "key.l": {
-      "value": "L"
+    "keyboardHelpDialog.jumpToMaximum": {
+      "value": "Maksimiziraj"
+    },
+    "keyboardHelpDialog.jumpToMinimum": {
+      "value": "Minimaliziraj"
+    },
+    "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+      "value": "Premještanje između stavki u grupi"
+    },
+    "keyboardHelpDialog.moveToNextItem": {
+      "value": "Premještanje na slijedeću stavku"
+    },
+    "keyboardHelpDialog.moveToNextItemOrGroup": {
+      "value": "Premještanje na slijedeću stavku u grupi"
+    },
+    "keyboardHelpDialog.moveToPreviousItem": {
+      "value": "Premještanje na prethodnu stavku"
+    },
+    "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+      "value": "Premještanje na prethodnu stavku u grupi"
     },
     "keyboardHelpDialog.or": {
       "value": "ili"
@@ -4739,20 +4844,38 @@
     "key.pageUp": {
       "value": "Tipka Page Up"
     },
-    "webglWarning.contextLossReload": {
-      "value": "Ponovno učitati"
+    "keyboardHelpDialog.pressButtons": {
+      "value": "Stisni  gumb"
     },
     "key.shift": {
       "value": "Tipka Shift"
     },
-    "webglWarning.contextLossFailure": {
-      "value": "Nažalost, došlo je do grafičke pogreške. "
+    "keyboardHelpDialog.sliderControls": {
+      "value": "Kontrola klizača"
     },
     "key.space": {
       "value": "Razmaknica"
     },
     "key.tab": {
       "value": "Pošaljite zapisnik unosa"
+    },
+    "keyboardHelpDialog.toggleCheckboxes": {
+      "value": "Uključite potvrdne okvire"
+    },
+    "key.alt": {
+      "value": "Alt"
+    },
+    "key.k": {
+      "value": "K"
+    },
+    "key.l": {
+      "value": "L"
+    },
+    "webglWarning.contextLossReload": {
+      "value": "Ponovno učitati"
+    },
+    "webglWarning.contextLossFailure": {
+      "value": "Nažalost, došlo je do grafičke pogreške. "
     },
     "webglWarning.body": {
       "value": "WebGL nije omogućen ili je nedostupan. Kliknite kako biste saznali više. "
@@ -4796,9 +4919,6 @@
     "keyboardHelpDialog.adjust": {
       "value": "Prilagodi"
     },
-    "keyboardHelpDialog.basicActions": {
-      "value": "Osnovne akcije"
-    },
     "key.capsLock": {
       "value": "Caps Lock"
     },
@@ -4808,12 +4928,6 @@
     "eight": {
       "value": "osam"
     },
-    "key.end": {
-      "value": "Tipka End"
-    },
-    "keyboardHelpDialog.exitADialog": {
-      "value": "napustite dijaloški okvir"
-    },
     "five": {
       "value": "pet"
     },
@@ -4822,9 +4936,6 @@
     },
     "four": {
       "value": "četiri"
-    },
-    "key.home": {
-      "value": "Tipka Home"
     },
     "keyboardHelpDialog.jumpToMaximumPattern": {
       "value": "Postavi na {{maximum}}"
@@ -4838,15 +4949,6 @@
     "keyboardHelpDialog.minimum": {
       "value": "minimalno"
     },
-    "keyboardHelpDialog.moveBetweenItemsInAGroup": {
-      "value": "Premještanje između stavki u grupi"
-    },
-    "keyboardHelpDialog.moveToNextItemOrGroup": {
-      "value": "Premještanje na slijedeću stavku u grupi"
-    },
-    "keyboardHelpDialog.moveToPreviousItemOrGroup": {
-      "value": "Premještanje na prethodnu stavku u grupi"
-    },
     "nine": {
       "value": "devet"
     },
@@ -4859,9 +4961,6 @@
     "keyboardHelpDialog.comboBox.options": {
       "value": "opcije"
     },
-    "keyboardHelpDialog.pressButtons": {
-      "value": "Stisni  gumb"
-    },
     "seven": {
       "value": "sedam"
     },
@@ -4871,17 +4970,11 @@
     "keyboardHelpDialog.slider": {
       "value": "klizač"
     },
-    "keyboardHelpDialog.sliderControls": {
-      "value": "Kontrola klizača"
-    },
     "ten": {
       "value": "deset"
     },
     "three": {
       "value": "tri"
-    },
-    "keyboardHelpDialog.toggleCheckboxes": {
-      "value": "Uključite potvrdne okvire"
     },
     "two": {
       "value": "dva"
@@ -4906,12 +4999,6 @@
     },
     "comboBoxDisplay.valueUnits": {
       "value": "{{value}} {{units}}"
-    },
-    "keyboardHelpDialog.moveToNextItem": {
-      "value": "Premještanje na slijedeću stavku"
-    },
-    "keyboardHelpDialog.moveToPreviousItem": {
-      "value": "Premještanje na prethodnu stavku"
     },
     "rulerCapitalized": {
       "value": "ravnalo"
@@ -6319,14 +6406,8 @@
     }
   },
   "ka": {
-    "keyboardHelpDialog.hyphen": {
-      "value": "-"
-    },
     "keyboardHelpDialog.basicActions": {
       "value": "ძირითადი მოქმედებები"
-    },
-    "key.end": {
-      "value": "დასრულება"
     },
     "key.enter": {
       "value": "შეყვანა"
@@ -6337,23 +6418,47 @@
     "keyboardHelpDialog.exitADialog": {
       "value": "დიალოგის დახურვა"
     },
-    "speed.fast": {
-      "value": "სწრაფი"
-    },
     "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
       "value": "დაჭერა ან გაშვება {{thing}}"
     },
     "keyboardHelpDialog.grabOrReleaseLabelPattern": {
       "value": "დაჭერა ან გაშვება {{thing}}"
     },
-    "speed.normal": {
-      "value": "ჩვეულებრივი"
+    "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+      "value": "ჯგუფის სხეულებს შორის გადასვლა"
+    },
+    "keyboardHelpDialog.moveToNextItem": {
+      "value": "შემდეგ სხეულზე გადასვლა"
+    },
+    "keyboardHelpDialog.moveToNextItemOrGroup": {
+      "value": "ჯგუფის შემდეგ სხეულზე გადასვლა"
+    },
+    "keyboardHelpDialog.moveToPreviousItem": {
+      "value": "წინა სხეულზე გადასვლა"
+    },
+    "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+      "value": "ჯგუფის წინა სხეულზე გადასვლა"
     },
     "keyboardHelpDialog.or": {
       "value": "ან"
     },
     "keyboardHelpDialog.pressButtons": {
       "value": "ღილაკზე დაჭერა"
+    },
+    "key.toGrabOrRelease": {
+      "value": "<b>დასაჭერად</b> ან <b>გასაშვებად</b>"
+    },
+    "keyboardHelpDialog.hyphen": {
+      "value": "-"
+    },
+    "key.end": {
+      "value": "დასრულება"
+    },
+    "speed.fast": {
+      "value": "სწრაფი"
+    },
+    "speed.normal": {
+      "value": "ჩვეულებრივი"
     },
     "speed.slow": {
       "value": "ნელი"
@@ -8453,10 +8558,10 @@
   },
   "nl": {
     "keyboardHelpDialog.hyphen": {
-      "value": "-"
+      "value": ""
     },
     "key.alt": {
-      "value": "Alt"
+      "value": ""
     },
     "keyboardHelpDialog.basicActions": {
       "value": "Eenvoudige acties"
@@ -8476,8 +8581,11 @@
     "keyboardHelpDialog.exitADialog": {
       "value": "Verlaat dialoog"
     },
+    "speed.fast": {
+      "value": "Snel"
+    },
     "key.fn": {
-      "value": "Fn"
+      "value": ""
     },
     "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
       "value": "Pak of laat {{thing}} vrij"
@@ -8489,13 +8597,16 @@
       "value": "Thuis"
     },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
-      "value": "Beweeg tussen onderwerpen in een groep"
+      "value": "Beweeg tussen voorwerpen in een groep"
     },
     "keyboardHelpDialog.moveToNextItemOrGroup": {
-      "value": "Beweeg naar volgend onderwerp of groep"
+      "value": "Beweeg naar volgend voorwerp of groep"
     },
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
-      "value": "Beweeg naar vorig onderwerp of groep"
+      "value": "Beweeg naar vorig voorwerp of groep"
+    },
+    "speed.normal": {
+      "value": "Normaal"
     },
     "keyboardHelpDialog.or": {
       "value": "of"
@@ -8508,6 +8619,9 @@
     },
     "keyboardHelpDialog.pressButtons": {
       "value": "Druk op knoppen"
+    },
+    "speed.slow": {
+      "value": "Traag"
     },
     "key.space": {
       "value": "Spatie"
@@ -8595,15 +8709,6 @@
     },
     "keyboardHelpDialog.verbInSmallerStepsPattern": {
       "value": "{{verb}} in kleinere stappen"
-    },
-    "speed.fast": {
-      "value": "Snel"
-    },
-    "speed.normal": {
-      "value": "Normaal"
-    },
-    "speed.slow": {
-      "value": "Traag"
     },
     "keyboardHelpDialog.moveToNextItem": {
       "value": "Beweeg naar volgend onderwerp"
@@ -11047,14 +11152,35 @@
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
+    "keyboardHelpDialog.comboBox.popUpListPattern": {
+      "value": "Shfaqni Listën e {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.moveThroughPattern": {
+      "value": "Lëvizni nëpër {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.chooseNewPattern": {
+      "value": "Zgjidhni një {{thingSingular}}"
+    },
+    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+      "value": "Mbyllni listën pa ndryshuar"
+    },
+    "keyboardHelpDialog.adjust": {
+      "value": "Rregulloni"
+    },
     "key.alt": {
       "value": "Alt"
     },
     "keyboardHelpDialog.basicActions": {
-      "value": "Veprimet bazë"
+      "value": "Veprimet Bazë"
     },
     "key.capsLock": {
       "value": "Caps Lock"
+    },
+    "keyboardHelpDialog.comboBox.chooseAThingPattern": {
+      "value": "Zgjidhni një {{thingTitle}}"
+    },
+    "eight": {
+      "value": "tetë"
     },
     "key.end": {
       "value": "End"
@@ -11066,28 +11192,58 @@
       "value": "Esc"
     },
     "keyboardHelpDialog.exitADialog": {
-      "value": "Dil nga dialogu"
+      "value": "Dilni nga dialogu"
+    },
+    "five": {
+      "value": "pesë"
     },
     "key.fn": {
       "value": "Fn"
     },
+    "four": {
+      "value": "katër"
+    },
     "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Merr ose lësho {{thing}}"
+      "value": "Merrni ose Lëshoni {{thing}}"
     },
     "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "Merr ose lësho {{thing}}"
+      "value": "Merrni ose Lëshoni {{thing}}"
     },
     "key.home": {
-      "value": "Home (shtëpi)"
+      "value": "Home"
+    },
+    "keyboardHelpDialog.jumpToMaximumPattern": {
+      "value": "Shkoni në {{maximum}}"
+    },
+    "keyboardHelpDialog.jumpToMinimumPattern": {
+      "value": "Shkoni në {{minimum}}"
+    },
+    "keyboardHelpDialog.maximum": {
+      "value": "maksimumi"
+    },
+    "keyboardHelpDialog.minimum": {
+      "value": "minimumi"
     },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
-      "value": "Lëviz ndërmjet objekteve në grup"
+      "value": "Lëvizni ndërmjet objekteve në grup"
     },
     "keyboardHelpDialog.moveToNextItemOrGroup": {
-      "value": "Lëviz në objektin ose grupin e ardhshëm"
+      "value": "Lëvizni në objektin ose grupin e ardhshëm"
     },
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
-      "value": "Lëviz në objektin ose grupin paraardhës"
+      "value": "Lëvizni në objektin ose grupin paraardhës"
+    },
+    "nine": {
+      "value": "nëntë"
+    },
+    "one": {
+      "value": "një"
+    },
+    "keyboardHelpDialog.comboBox.option": {
+      "value": "mundësi"
+    },
+    "keyboardHelpDialog.comboBox.options": {
+      "value": "mundësitë"
     },
     "keyboardHelpDialog.or": {
       "value": "ose"
@@ -11099,28 +11255,79 @@
       "value": "Pg Up"
     },
     "keyboardHelpDialog.pressButtons": {
-      "value": "shtyp butonat"
+      "value": "Shtypni butonat"
+    },
+    "seven": {
+      "value": "shtatë"
     },
     "key.shift": {
       "value": "Shift"
     },
+    "six": {
+      "value": "gjashtë"
+    },
+    "keyboardHelpDialog.slider": {
+      "value": "rrëshqitës"
+    },
+    "keyboardHelpDialog.sliderControls": {
+      "value": "Kontrolli i Rregulluesit"
+    },
     "key.space": {
-      "value": "Hapësira (Space)"
+      "value": "Space"
     },
     "key.tab": {
       "value": "Tab"
     },
-    "key.toGrabOrRelease": {
-      "value": "ë <b>kapësh</b> ose të <b>lëshosh</b>"
+    "ten": {
+      "value": "dhjetë"
+    },
+    "three": {
+      "value": "tre"
     },
     "keyboardHelpDialog.toggleCheckboxes": {
-      "value": "Ndrysho kutitë e kontrollit"
+      "value": "Ndryshoni kutitë e kontrollit"
+    },
+    "two": {
+      "value": "dy"
+    },
+    "zero": {
+      "value": "zero"
+    },
+    "keyboardHelpDialog.verbInLargerStepsPattern": {
+      "value": "{{verb}} në hapa më të mëdhenj"
+    },
+    "keyboardHelpDialog.verbInSmallerStepsPattern": {
+      "value": "{{verb}} në hapa më të vegjël"
+    },
+    "keyboardHelpDialog.verbSliderPattern": {
+      "value": "{{verb}} {{slider}}"
     },
     "symbol.resistivity": {
       "value": "ρ"
     },
     "symbol.ohms": {
       "value": "Ω"
+    },
+    "keyboardHelpDialog.comboBox.headingString": {
+      "value": "Shfaqni menynë"
+    },
+    "measuringTapeReadoutPattern": {
+      "value": "{{distance}} {{units}}"
+    },
+    "speed.fast": {
+      "value": "Shpejt"
+    },
+    "speed.normal": {
+      "value": "Normale"
+    },
+    "speed.slow": {
+      "value": "Ngadalë"
+    },
+    "stopwatchValueUnitsPattern": {
+      "value": "{{value}} {{units}}"
+    },
+    "key.toGrabOrRelease": {
+      "value": "ë <b>kapësh</b> ose të <b>lëshosh</b>"
     },
     "wavelength": {
       "value": "Gjatësia valore"
@@ -11152,9 +11359,6 @@
     "keyboardHelpDialog.moveToPreviousItem": {
       "value": "Lëviz në objektin paraprak"
     },
-    "keyboardHelpDialog.sliderControls": {
-      "value": "kontrolli i rregulluesit"
-    },
     "webglWarning.contextLossReload": {
       "value": "Ringarko"
     },
@@ -11175,12 +11379,6 @@
     },
     "ruler": {
       "value": "Vizore"
-    },
-    "speed.normal": {
-      "value": "Normale"
-    },
-    "speed.slow": {
-      "value": "Ngadalë"
     },
     "comboBoxDisplay.valueUnits": {
       "value": "{{value}} {{units}}"
@@ -11381,6 +11579,60 @@
     }
   },
   "st": {
+    "webglWarning.contextLossReload": {
+      "value": "t'sela hape"
+    },
+    "cool": {
+      "value": "pholileng"
+    },
+    "key.enter": {
+      "value": "Kenya"
+    },
+    "key.esc": {
+      "value": "Esc"
+    },
+    "speed.fast": {
+      "value": "kapele"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "t'soara kapa tlohela  {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "t'soara kapa tlohela  {{thing}}"
+    },
+    "heat": {
+      "value": "mocheso"
+    },
+    "key.k": {
+      "value": "K"
+    },
+    "key.l": {
+      "value": "L"
+    },
+    "speed.normal": {
+      "value": "tloaelo"
+    },
+    "keyboardHelpDialog.or": {
+      "value": "kapa"
+    },
+    "key.shift": {
+      "value": "Chechisa"
+    },
+    "speed.slow": {
+      "value": "butle"
+    },
+    "key.space": {
+      "value": "Sebaka"
+    },
+    "comboBoxDisplay.valueUnits": {
+      "value": "{{value}} {{units}}"
+    },
+    "symbol.resistivity": {
+      "value": "ρ"
+    },
+    "symbol.ohms": {
+      "value": "Ω"
+    },
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
@@ -11393,23 +11645,11 @@
     "key.end": {
       "value": "Qetello"
     },
-    "key.enter": {
-      "value": "Kenya"
-    },
-    "key.esc": {
-      "value": "Esc"
-    },
     "keyboardHelpDialog.exitADialog": {
       "value": "tsoa puisano"
     },
     "key.fn": {
       "value": "Fn"
-    },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "t'soara kapa tlohela  {{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "t'soara kapa tlohela  {{thing}}"
     },
     "key.home": {
       "value": "Hae"
@@ -11423,35 +11663,11 @@
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "Suthela nthong kapa sehlopha se fetileng "
     },
-    "keyboardHelpDialog.or": {
-      "value": "kapa"
-    },
     "keyboardHelpDialog.pressButtons": {
       "value": "Tobetsa likonopo "
     },
-    "key.shift": {
-      "value": "Chechisa"
-    },
-    "key.space": {
-      "value": "Sebaka"
-    },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Fetolela li-checkbox"
-    },
-    "symbol.resistivity": {
-      "value": "ρ"
-    },
-    "symbol.ohms": {
-      "value": "Ω"
-    },
-    "cool": {
-      "value": "pholileng"
-    },
-    "heat": {
-      "value": "mocheso"
-    },
-    "speed.normal": {
-      "value": "tloaelo"
     },
     "shortCircuit": {
       "value": "sekete e nyane"
@@ -11889,13 +12105,10 @@
       "value": ""
     },
     "key.enter": {
-      "value": "அழுத்தவும்"
+      "value": ""
     },
     "keyboardHelpDialog.exitADialog": {
       "value": "வெளியேற"
-    },
-    "speed.fast": {
-      "value": "வேகம்"
     },
     "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
       "value": "{{thing}} ஐப் பிடிக்க (அ) விட"
@@ -11912,9 +12125,6 @@
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "முன் செல்ல"
     },
-    "speed.normal": {
-      "value": "இயல்பாக"
-    },
     "keyboardHelpDialog.or": {
       "value": "or"
     },
@@ -11927,23 +12137,29 @@
     "key.shift": {
       "value": "Shift"
     },
-    "speed.slow": {
-      "value": "மெதுவாக"
-    },
     "key.space": {
       "value": "Space"
     },
     "key.tab": {
       "value": "Tab"
     },
-    "stopwatchValueUnitsPattern": {
-      "value": "{{value}} {{units}}"
-    },
     "symbol.resistivity": {
       "value": "ρ"
     },
     "symbol.ohms": {
       "value": " Ω"
+    },
+    "speed.fast": {
+      "value": "வேகம்"
+    },
+    "speed.normal": {
+      "value": "இயல்பாக"
+    },
+    "speed.slow": {
+      "value": "மெதுவாக"
+    },
+    "stopwatchValueUnitsPattern": {
+      "value": "{{value}} {{units}}"
     },
     "rulerCapitalized": {
       "value": "அளவுகோல்"
@@ -14253,6 +14469,9 @@
     }
   },
   "zh_HK": {
+    "shortCircuit": {
+      "value": "短路!"
+    },
     "units_nm": {
       "value": "納米"
     },
