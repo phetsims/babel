@@ -2967,6 +2967,9 @@
     "circleDiameter": {
       "value": "Diamètre du trou circulaire"
     },
+    "mmValue": {
+      "value": "{{value}}mm"
+    },
     "squareWidth": {
       "value": "Largeur du carré"
     },
@@ -2993,6 +2996,9 @@
     },
     "width": {
       "value": "Largeur"
+    },
+    "degreesValue": {
+      "value": "{{value}} ˚"
     },
     "rotation": {
       "value": "Rotation"
@@ -3540,113 +3546,197 @@
     }
   },
   "hi": {
-    "femtosecondConversion": {
-      "value": "1 fs = 10<sup>-15</sup> s"
+    "circleDiameter": {
+      "value": "वृत व्यास"
     },
-    "millisecondConversion": {
-      "value": "1 ms = 10<sup>-3</sup> s"
+    "mmValue": {
+      "value": "{{value}} मि.मी."
     },
-    "amplitude": {
-      "value": "आयाम "
+    "squareWidth": {
+      "value": "वर्ग भुजा"
     },
-    "both": {
-      "value": "दोनों "
+    "disorder": {
+      "value": "विकार"
+    },
+    "latticeSpacing": {
+      "value": "जालक अंतराल"
+    },
+    "lots": {
+      "value": "अनेक"
+    },
+    "none": {
+      "value": "कोई नहीं"
+    },
+    "diameter": {
+      "value": "व्यास"
+    },
+    "eccentricity": {
+      "value": "विकेन्द्रता"
+    },
+    "height": {
+      "value": "ऊंचाई"
+    },
+    "width": {
+      "value": "चौड़ाई"
+    },
+    "degreesValue": {
+      "value": "{{value}} ˚"
+    },
+    "rotation": {
+      "value": "आवर्तन"
+    },
+    "screen.diffraction": {
+      "value": "विवर्तन"
+    },
+    "distanceUnits": {
+      "value": "{{distance}} {{units}}"
+    },
+    "timeUnits": {
+      "value": "{{time}} {{units}}"
     },
     "centimetersUnits": {
-      "value": "cm"
-    },
-    "electricField": {
-      "value": "वैद्युत  "
+      "value": "से.मी."
     },
     "electricFieldAtCenter": {
-      "value": "केंद्र पर वैद्युत क्षेत्र  "
+      "value": "केंद्र में विद्युत क्षेत्र"
     },
-    "frequency": {
-      "value": "आवृत्ति "
+    "electricField": {
+      "value": "विद्युत क्षेत्र"
+    },
+    "femtosecondConversion": {
+      "value": "1 फेम्टो सेकण्ड = 10<sup>-15</sup> से."
     },
     "femtosecondsUnits": {
-      "value": "fs"
-    },
-    "graph": {
-      "value": "ग्राफ "
-    },
-    "intensity": {
-      "value": "तीव्रता "
+      "value": "फेम्टो सेकण्ड"
     },
     "lightGenerator": {
-      "value": "प्रकाश जनित्र "
+      "value": "विद्युत जनरेटर"
     },
-    "max": {
-      "value": "अधिकतम "
-    },
-    "min": {
-      "value": "न्यूनतम "
+    "millisecondConversion": {
+      "value": "1 मिली से. = 10<sup>-3</sup> से."
     },
     "millisecondsUnits": {
-      "value": "ms "
+      "value": "मिली से."
     },
     "nanometersUnits": {
-      "value": "nm "
-    },
-    "particles": {
-      "value": "कण "
-    },
-    "playTone": {
-      "value": "टोन बजाएँ "
+      "value": "नेनो से."
     },
     "positionCM": {
-      "value": "स्थिति (cm)"
+      "value": "स्थिति ( से. मी.)"
     },
     "positionNM": {
-      "value": "स्थिति (nm)"
-    },
-    "pressure": {
-      "value": "दबाब "
+      "value": "स्थिति ( नेनो मी.)"
     },
     "pressureAtCenter": {
-      "value": "केंद्र पर दबाब "
+      "value": "केंद्र में दाब"
+    },
+    "pressure": {
+      "value": "दाब"
     },
     "secondsUnits": {
-      "value": "s "
-    },
-    "screenLabel": {
-      "value": "परदा "
-    },
-    "sideView": {
-      "value": " पार्श्व  अवलोकन  "
-    },
-    "soundEffect": {
-      "value": "ध्वनि प्रभाव "
+      "value": "से."
     },
     "soundGenerator": {
-      "value": "ध्वनि जनित्र "
+      "value": "ध्वनि उत्पादक"
     },
-    "time": {
-      "value": "समय "
+    "waterLevelAtCenter": {
+      "value": "केंद्र में जल स्तर"
+    },
+    "waterLevel": {
+      "value": "जल स्तर"
+    },
+    "waterWaveGenerator": {
+      "value": "जल तरंग उत्पादक"
+    },
+    "cmValue": {
+      "value": "{{value}} से. मी."
+    },
+    "nmValue": {
+      "value": "{{value}} नेनो मी."
+    },
+    "separation": {
+      "value": "पृथक्करण"
+    },
+    "intensity": {
+      "value": "तीव्रता"
     },
     "top": {
       "value": "शीर्ष "
     },
+    "normal": {
+      "value": "सामान्य"
+    },
+    "slow": {
+      "value": "मंद"
+    },
+    "sideView": {
+      "value": "एक तरफ से दृश्य"
+    },
     "topView": {
-      "value": "शीर्ष अवलोकन "
+      "value": "शीर्ष से दृश्य"
     },
-    "waterLevel": {
-      "value": "जल का स्तर "
+    "max": {
+      "value": "अधिक"
     },
-    "waterLevelAtCenter": {
-      "value": "केंद्र पर जल का स्तर "
+    "min": {
+      "value": "न्यून"
     },
-    "waterWaveGenerator": {
-      "value": "जल तरंग जनित्र "
+    "amplitude": {
+      "value": "आयाम"
+    },
+    "frequency": {
+      "value": "आवृति"
+    },
+    "both": {
+      "value": "दोनों"
+    },
+    "particles": {
+      "value": "कण"
     },
     "waves": {
-      "value": "तरंग "
+      "value": "तरंगे"
     },
-    "distanceUnits": {
-      "value": "{{distance}} {{units}}"
+    "graph": {
+      "value": "ग्राफ"
     },
-    "timeUnits": {
-      "value": "{{time}} {{units}}"
+    "playTone": {
+      "value": "तान"
+    },
+    "screenLabel": {
+      "value": "स्क्रीन"
+    },
+    "soundEffect": {
+      "value": "ध्वनि प्रभाव"
+    },
+    "time": {
+      "value": "समय"
+    },
+    "screen.interference": {
+      "value": "व्यतिकरण"
+    },
+    "noBarrier": {
+      "value": "अवरोध रहित"
+    },
+    "oneSlit": {
+      "value": "एकल झिरी"
+    },
+    "slitSeparation": {
+      "value": "झिरी पार्थक्य"
+    },
+    "slitWidth": {
+      "value": "झिरी की चौड़ाई"
+    },
+    "twoSlits": {
+      "value": "दो झिरियाँ"
+    },
+    "screen.slits": {
+      "value": "झिरियाँ"
+    },
+    "screen.waves": {
+      "value": "तरंगे"
+    },
+    "wave-interference.title": {
+      "value": "तरंग व्यतिकरण"
     }
   },
   "hr": {

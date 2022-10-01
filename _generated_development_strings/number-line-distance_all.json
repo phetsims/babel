@@ -2109,11 +2109,11 @@
     }
   },
   "it": {
-    "screen.explore": {
-      "value": "Esplora"
-    },
     "screen.generic": {
       "value": "Generico"
+    },
+    "screen.explore": {
+      "value": "Esplora"
     },
     "genericAbsoluteDistanceTemplate": {
       "value": "{{secondaryPointControllerLabel}} e {{primaryPointControllerLabel}} sono distanti {{difference}} {{units}}."
@@ -2130,6 +2130,18 @@
     "units": {
       "value": "unità"
     },
+    "symbol.x": {
+      "value": "x"
+    },
+    "symbol.y": {
+      "value": "y"
+    },
+    "symbol.east": {
+      "value": "E"
+    },
+    "symbol.west": {
+      "value": "W"
+    },
     "house": {
       "value": "casa"
     },
@@ -2145,11 +2157,20 @@
     "distanceSceneDirectedNegativeDistanceTemplate": {
       "value": "La {{secondaryPointControllerLabel}} è {{difference}} {{units}} ad ovest della {{primaryPointControllerLabel}}."
     },
+    "symbol.meters": {
+      "value": "m"
+    },
     "meter": {
       "value": "metro"
     },
     "meters": {
       "value": "metri"
+    },
+    "symbol.A": {
+      "value": "A"
+    },
+    "symbol.B": {
+      "value": "B"
     },
     "temperatureSceneAbsoluteDistanceTemplate": {
       "value": "La differenza di temperatura è {{difference}} {{units}}."
@@ -2159,6 +2180,9 @@
     },
     "temperatureSceneDirectedNegativeDistanceTemplate": {
       "value": "La posizione {{secondaryPointControllerLabel}} è {{difference}} {{units}} più fredda della posizione {{primaryPointControllerLabel}}."
+    },
+    "symbol.degreesCelsius": {
+      "value": "°C"
     },
     "degree": {
       "value": "grado"
@@ -2173,10 +2197,10 @@
       "value": "uccello"
     },
     "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "L'{{secondaryPointControllerLabel}} e il {{primaryPointControllerLabel}} hanno una distanza verticale di {{difference}} {{units}}."
+      "value": "Il {{secondaryPointControllerLabel}} e l' {{primaryPointControllerLabel}} hanno una distanza verticale di {{difference}} {{units}}."
     },
     "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "L'{{secondaryPointControllerLabel}} è {{difference}} {{units}} sopra il {{primaryPointControllerLabel}}."
+      "value": "Il {{secondaryPointControllerLabel}} è {{difference}} {{units}} sopra l' {{primaryPointControllerLabel}}."
     },
     "elevationSceneDirectedNegativeDistanceTemplate": {
       "value": "Il {{secondaryPointControllerLabel}} è {{difference}} {{units}} sotto l'{{primaryPointControllerLabel}}."
@@ -2326,6 +2350,128 @@
     },
     "number-line-distance.title": {
       "value": "ציר המספרים: מרחק"
+    }
+  },
+  "ja": {
+    "screen.generic": {
+      "value": "一般論"
+    },
+    "screen.explore": {
+      "value": "探求"
+    },
+    "genericAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}と{{primaryPointControllerLabel}}は{{difference}} {{units}}離れている。"
+    },
+    "genericDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}は、{{primaryPointControllerLabel}}よりも{{difference}} {{units}}だけ正の方向にある。"
+    },
+    "genericDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}は、{{primaryPointControllerLabel}}よりも{{difference}} {{units}}だけ負の方向にある。"
+    },
+    "unit": {
+      "value": "　"
+    },
+    "units": {
+      "value": "　"
+    },
+    "symbol.x": {
+      "value": "x"
+    },
+    "symbol.y": {
+      "value": "y"
+    },
+    "symbol.east": {
+      "value": "東"
+    },
+    "symbol.west": {
+      "value": "西"
+    },
+    "house": {
+      "value": "家"
+    },
+    "person": {
+      "value": "人"
+    },
+    "distanceSceneAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}と {{primaryPointControllerLabel}}は {{difference}} {{units}} 離れている。"
+    },
+    "distanceSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}は、{{primaryPointControllerLabel}}の{{difference}} {{units}} 東に位置する。"
+    },
+    "distanceSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}は、{{primaryPointControllerLabel}}の{{difference}} {{units}}西に位置する。"
+    },
+    "symbol.meters": {
+      "value": "m"
+    },
+    "meter": {
+      "value": "メートル"
+    },
+    "meters": {
+      "value": "メートル"
+    },
+    "symbol.A": {
+      "value": "A"
+    },
+    "symbol.B": {
+      "value": "B"
+    },
+    "temperatureSceneAbsoluteDistanceTemplate": {
+      "value": "気温の差は{{difference}} {{units}}である。"
+    },
+    "temperatureSceneDirectedPositiveDistanceTemplate": {
+      "value": "地点{{secondaryPointControllerLabel}}は、地点{{primaryPointControllerLabel}}よりも{{difference}} {{units}} 暑い。"
+    },
+    "temperatureSceneDirectedNegativeDistanceTemplate": {
+      "value": "地点{{secondaryPointControllerLabel}}は、地点 {{primaryPointControllerLabel}}よりも {{difference}} {{units}} 寒い。"
+    },
+    "symbol.degreesCelsius": {
+      "value": "°C"
+    },
+    "degree": {
+      "value": "度"
+    },
+    "degrees": {
+      "value": "度"
+    },
+    "fish": {
+      "value": "魚"
+    },
+    "bird": {
+      "value": "鳥"
+    },
+    "elevationSceneAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}と{{primaryPointControllerLabel}}の間の垂直距離は{{difference}} {{units}}である。"
+    },
+    "elevationSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}は {{primaryPointControllerLabel}}の{{difference}} {{units}}上方に位置する。"
+    },
+    "elevationSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}は {{primaryPointControllerLabel}}の{{difference}} {{units}}下方に位置する。"
+    },
+    "pointLabels": {
+      "value": "点のラベル"
+    },
+    "distanceLabels": {
+      "value": "距離のラベル"
+    },
+    "distanceDescription": {
+      "value": "距離の説明"
+    },
+    "tickMarks": {
+      "value": "目盛り"
+    },
+    "absoluteValue": {
+      "value": "絶対値"
+    },
+    "directedDistance": {
+      "value": "有向距離"
+    },
+    "distanceStatement": {
+      "value": "距離の命題"
+    },
+    "number-line-distance.title": {
+      "value": "数直線：距離"
     }
   },
   "mi": {
