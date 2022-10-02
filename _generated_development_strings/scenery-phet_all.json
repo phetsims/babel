@@ -1,19 +1,16 @@
 {
   "am": {
-    "shortCircuit": {
-      "value": "አጭር ሰርኩይት"
+    "keyboardHelpDialog.adjustInLargerSteps": {
+      "value": "በትልልቅ ደረጃዎች አስተካክል"
     },
-    "keyboardHelpDialog.hyphen": {
-      "value": "-"
+    "keyboardHelpDialog.adjustInSmallerSteps": {
+      "value": "በትንንሽ ደረጃዎች አስተካክል"
     },
-    "key.alt": {
-      "value": "ለውጥ"
+    "keyboardHelpDialog.adjustSlider": {
+      "value": "ተንሸራታቹን አስተካክል"
     },
     "keyboardHelpDialog.basicActions": {
       "value": "ዋና ተግባራት"
-    },
-    "key.capsLock": {
-      "value": "ካፕስ ሎክ (ፊደል መቀየርያ)"
     },
     "key.end": {
       "value": "መጨረሻ"
@@ -27,9 +24,6 @@
     "keyboardHelpDialog.exitADialog": {
       "value": "ከውይይት ውጣ/ጭ"
     },
-    "key.fn": {
-      "value": "Fn"
-    },
     "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
       "value": "ያዝ/ዥ ወይም ልቀቅ/ቂ {{thing}}"
     },
@@ -39,11 +33,23 @@
     "key.home": {
       "value": "ቤት"
     },
+    "keyboardHelpDialog.jumpToMaximum": {
+      "value": "ወደ ትልቁ ዝለል"
+    },
+    "keyboardHelpDialog.jumpToMinimum": {
+      "value": "ወደ ትንሹ ዝለል"
+    },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "በቡድን ውስጥ ባሉ ምርጫዎች መካከል ሂድ/ጅ"
     },
+    "keyboardHelpDialog.moveToNextItem": {
+      "value": "ወደሚቀጥለው ምርጫ ሂድ/ጅ"
+    },
     "keyboardHelpDialog.moveToNextItemOrGroup": {
       "value": "ወደሚቀጥለው ምርጫ ወይም ቡድን ሂድ/ጅ"
+    },
+    "keyboardHelpDialog.moveToPreviousItem": {
+      "value": "ወደቀደመው ምርጫ ሂድ/ጅ"
     },
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "ወደቅድሙ ምርጫ ወይም ቡድን ሂድ/ጅ"
@@ -60,14 +66,11 @@
     "keyboardHelpDialog.pressButtons": {
       "value": "ቁልፎቹን ተጫን/ኝ"
     },
-    "webglWarning.contextLossReload": {
-      "value": "እንደገና ጫን/ኝ"
-    },
     "key.shift": {
       "value": "ቀይር"
     },
-    "webglWarning.contextLossFailure": {
-      "value": "ይቅርታ፣ የግራፊክስ ስህተት ተከስቷል። "
+    "keyboardHelpDialog.sliderControls": {
+      "value": "ማንሸራተቻ መቆጣጠርያዎች"
     },
     "key.space": {
       "value": "ቦታ መግፍያ"
@@ -77,6 +80,27 @@
     },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "መምረጫ ሳጥኖች"
+    },
+    "shortCircuit": {
+      "value": "አጭር ሰርኩይት"
+    },
+    "keyboardHelpDialog.hyphen": {
+      "value": "-"
+    },
+    "key.alt": {
+      "value": "ለውጥ"
+    },
+    "key.capsLock": {
+      "value": "ካፕስ ሎክ (ፊደል መቀየርያ)"
+    },
+    "key.fn": {
+      "value": "Fn"
+    },
+    "webglWarning.contextLossReload": {
+      "value": "እንደገና ጫን/ኝ"
+    },
+    "webglWarning.contextLossFailure": {
+      "value": "ይቅርታ፣ የግራፊክስ ስህተት ተከስቷል። "
     },
     "webglWarning.body": {
       "value": "WebGL አልነቃም ወይም አይገኝም። የበለጠ ለማወቅ ጠቅ ያድርጉ።"
@@ -113,12 +137,6 @@
     },
     "webglWarning.ie11StencilBody": {
       "value": "የሚመከሩ የዊንዶውስ ዝመናዎችን በመጫን ኢንተርኔት ኤክስፕሎረርን ያዘምኑ።"
-    },
-    "keyboardHelpDialog.moveToNextItem": {
-      "value": "ወደሚቀጥለው ምርጫ ሂድ/ጅ"
-    },
-    "keyboardHelpDialog.moveToPreviousItem": {
-      "value": "ወደቀደመው ምርጫ ሂድ/ጅ"
     },
     "key.toGrabOrRelease": {
       "value": "ወደ <b>ያዝ/ዥ</b>ወይም <b>ልቀቅ/ቂ</b>"
@@ -182,9 +200,6 @@
     },
     "keyboardHelpDialog.slider": {
       "value": "ማንሸራተቻ"
-    },
-    "keyboardHelpDialog.sliderControls": {
-      "value": "ማንሸራተቻ መቆጣጠርያዎች"
     },
     "ten": {
       "value": "አስር"
@@ -3877,47 +3892,23 @@
     }
   },
   "fr": {
-    "key.enter": {
-      "value": "Entrer"
-    },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Saisir ou relâcher {{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "Saisir ou relâcher {{thing}}"
-    },
-    "keyboardHelpDialog.or": {
-      "value": "ou"
-    },
-    "key.pageDown": {
-      "value": "Pg Bas"
-    },
-    "key.pageUp": {
-      "value": "Pg Haut"
-    },
-    "key.shift": {
-      "value": "Maj"
-    },
-    "key.space": {
-      "value": "Espace"
-    },
-    "key.tab": {
-      "value": "Tab"
-    },
-    "wavelength": {
-      "value": "Longeur d'onde"
-    },
-    "wavelengthNMValuePattern": {
-      "value": "{0} nm"
-    },
-    "symbol.resistivity": {
-      "value": "ρ"
-    },
-    "symbol.ohms": {
-      "value": "Ω"
-    },
     "keyboardHelpDialog.hyphen": {
       "value": "-"
+    },
+    "keyboardHelpDialog.comboBox.popUpListPattern": {
+      "value": "1. Pop up Liste de {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.moveThroughPattern": {
+      "value": "2. Déplacer {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.chooseNewPattern": {
+      "value": "3. Choisir un nouveau {{thingSingular}}"
+    },
+    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+      "value": "4. Fermer la liste sans rien changer"
+    },
+    "keyboardHelpDialog.adjust": {
+      "value": "Régler"
     },
     "key.alt": {
       "value": "Alt"
@@ -3931,20 +3922,38 @@
     "key.end": {
       "value": "Fin"
     },
+    "key.enter": {
+      "value": "Entrer"
+    },
     "key.esc": {
-      "value": "Sortir"
+      "value": "Echap"
     },
     "keyboardHelpDialog.exitADialog": {
       "value": "Quitter la boîte de dialogue"
     },
-    "speed.fast": {
-      "value": "Rapide"
-    },
     "key.fn": {
       "value": "Fn"
     },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "Saisir ou relâcher {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "Saisir ou relâcher {{thing}}"
+    },
     "key.home": {
       "value": "Accueil"
+    },
+    "keyboardHelpDialog.jumpToMaximumPattern": {
+      "value": "Aller au {{maximum}}"
+    },
+    "keyboardHelpDialog.jumpToMinimumPattern": {
+      "value": "Aller au {{minimum}}"
+    },
+    "keyboardHelpDialog.maximum": {
+      "value": "maximum"
+    },
+    "keyboardHelpDialog.minimum": {
+      "value": "minimum"
     },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "Déplacement entre élément dans un groupe"
@@ -3955,17 +3964,77 @@
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "Aller à l'élément précédent ou au groupe"
     },
-    "speed.normal": {
-      "value": "Standard"
+    "keyboardHelpDialog.comboBox.option": {
+      "value": "option"
+    },
+    "keyboardHelpDialog.comboBox.options": {
+      "value": "options"
+    },
+    "keyboardHelpDialog.or": {
+      "value": "ou"
+    },
+    "key.pageDown": {
+      "value": "Pg Bas"
+    },
+    "key.pageUp": {
+      "value": "Pg Haut"
+    },
+    "keyboardHelpDialog.comboBox.headingString": {
+      "value": "Menu d'ouverture Pop"
     },
     "keyboardHelpDialog.pressButtons": {
       "value": "Appuie sur le bouton"
     },
-    "speed.slow": {
-      "value": "Lent"
+    "key.shift": {
+      "value": "Maj"
+    },
+    "keyboardHelpDialog.slider": {
+      "value": "curseur"
+    },
+    "keyboardHelpDialog.sliderControls": {
+      "value": "Commandes du curseur"
+    },
+    "key.space": {
+      "value": "Espace"
+    },
+    "key.tab": {
+      "value": "Tab"
     },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Cocher les cases"
+    },
+    "measuringTapeReadoutPattern": {
+      "value": "{{distance}} {{units}}"
+    },
+    "keyboardHelpDialog.verbInLargerStepsPattern": {
+      "value": "{{verb}} avec des pas plus grands"
+    },
+    "keyboardHelpDialog.verbInSmallerStepsPattern": {
+      "value": "{{verb}} avec des pas plus petits"
+    },
+    "keyboardHelpDialog.verbSliderPattern": {
+      "value": "{{verb}} {{slider}}"
+    },
+    "symbol.resistivity": {
+      "value": "ρ"
+    },
+    "symbol.ohms": {
+      "value": "Ω"
+    },
+    "wavelength": {
+      "value": "Longeur d'onde"
+    },
+    "wavelengthNMValuePattern": {
+      "value": "{0} nm"
+    },
+    "speed.fast": {
+      "value": "Rapide"
+    },
+    "speed.normal": {
+      "value": "Standard"
+    },
+    "speed.slow": {
+      "value": "Lent"
     },
     "keyboardHelpDialog.adjustInLargerSteps": {
       "value": "Ajuster avec de plus petits incréments"
@@ -3988,26 +4057,8 @@
     "keyboardHelpDialog.moveToPreviousItem": {
       "value": "Aller à l'item précédent"
     },
-    "keyboardHelpDialog.sliderControls": {
-      "value": "Commandes du curseur"
-    },
     "key.toGrabOrRelease": {
       "value": "pour <b> saisir </b> ou <b> relacher </b>"
-    },
-    "keyboardHelpDialog.comboBox.popUpListPattern": {
-      "value": "1. Pop up Liste de {{thingPlural}}"
-    },
-    "keyboardHelpDialog.comboBox.moveThroughPattern": {
-      "value": "2. Déplacer {{thingPlural}}"
-    },
-    "keyboardHelpDialog.comboBox.chooseNewPattern": {
-      "value": "3. Choisir un nouveau {{thingSingular}}"
-    },
-    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-      "value": "4. Fermer la liste sans rien changer"
-    },
-    "keyboardHelpDialog.adjust": {
-      "value": "Régler"
     },
     "keyboardHelpDialog.comboBox.chooseAThingPattern": {
       "value": "Choisir un {{thingTitle}}"
@@ -4021,38 +4072,17 @@
     "four": {
       "value": "quatre"
     },
-    "keyboardHelpDialog.jumpToMaximumPattern": {
-      "value": "Aller au {{maximum}}"
-    },
-    "keyboardHelpDialog.jumpToMinimumPattern": {
-      "value": "Aller au {{minimum}}"
-    },
-    "keyboardHelpDialog.maximum": {
-      "value": "maximum"
-    },
-    "keyboardHelpDialog.minimum": {
-      "value": "minimum"
-    },
     "nine": {
       "value": "neuf"
     },
     "one": {
       "value": "un"
     },
-    "keyboardHelpDialog.comboBox.option": {
-      "value": "option"
-    },
-    "keyboardHelpDialog.comboBox.options": {
-      "value": "options"
-    },
     "seven": {
       "value": "sept"
     },
     "six": {
       "value": "six"
-    },
-    "keyboardHelpDialog.slider": {
-      "value": "curseur"
     },
     "ten": {
       "value": "dix"
@@ -4065,21 +4095,6 @@
     },
     "zero": {
       "value": "zéro"
-    },
-    "keyboardHelpDialog.verbInLargerStepsPattern": {
-      "value": "{{verb}} avec des pas plus grands"
-    },
-    "keyboardHelpDialog.verbInSmallerStepsPattern": {
-      "value": "{{verb}} avec des pas plus petits"
-    },
-    "keyboardHelpDialog.verbSliderPattern": {
-      "value": "{{verb}} {{slider}}"
-    },
-    "keyboardHelpDialog.comboBox.headingString": {
-      "value": "Menu d'ouverture Pop"
-    },
-    "measuringTapeReadoutPattern": {
-      "value": "{{distance}} {{units}}"
     },
     "stopwatchValueUnitsPattern": {
       "value": "{{value}} {{units}}"
@@ -5368,47 +5383,23 @@
     }
   },
   "ig": {
-    "key.enter": {
-      "value": "Imetụ aka"
-    },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Jide ma Hapụ {{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "Jide ma Hapụ {{thing}}"
-    },
-    "keyboardHelpDialog.or": {
-      "value": "ma ọ bụ"
-    },
-    "key.pageDown": {
-      "value": "Gaa N'okpuru"
-    },
-    "key.pageUp": {
-      "value": "Gaa N'elu"
-    },
-    "key.shift": {
-      "value": "Segharia"
-    },
-    "key.space": {
-      "value": "Oghere"
-    },
-    "key.tab": {
-      "value": "Imetụ Aka"
-    },
-    "wavelength": {
-      "value": "anya n'etiti etu abụọ nke ife"
-    },
-    "wavelengthNMValuePattern": {
-      "value": "{0} nm"
-    },
-    "symbol.resistivity": {
-      "value": "ρ"
-    },
-    "symbol.ohms": {
-      "value": "Ω"
-    },
     "keyboardHelpDialog.hyphen": {
       "value": "-"
+    },
+    "keyboardHelpDialog.comboBox.popUpListPattern": {
+      "value": "1. gbapụta ndeputa nke {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.moveThroughPattern": {
+      "value": "2. gafere {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.chooseNewPattern": {
+      "value": "3. họrọ ọhụrụ {{thingSingular}}"
+    },
+    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+      "value": "4. ndepụta nso na-agbanweghị"
+    },
+    "keyboardHelpDialog.adjust": {
+      "value": "Dozie"
     },
     "key.alt": {
       "value": "Alt"
@@ -5419,8 +5410,17 @@
     "key.capsLock": {
       "value": "Nnukwu Mkpụrụedemede"
     },
+    "keyboardHelpDialog.comboBox.chooseAThingPattern": {
+      "value": "họrọ nke {{thingTitle}}"
+    },
+    "eight": {
+      "value": "asatọ"
+    },
     "key.end": {
       "value": "Ngwucha"
+    },
+    "key.enter": {
+      "value": "Imetụ aka"
     },
     "key.esc": {
       "value": "Mgbapụ"
@@ -5428,14 +5428,35 @@
     "keyboardHelpDialog.exitADialog": {
       "value": "Pụọ"
     },
-    "speed.fast": {
-      "value": "Ngwa ngwa"
+    "five": {
+      "value": "ise"
     },
     "key.fn": {
       "value": "Fn"
     },
+    "four": {
+      "value": "anọ"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "Jide ma Hapụ {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "Jide ma Hapụ {{thing}}"
+    },
     "key.home": {
       "value": "Ebe obibi"
+    },
+    "keyboardHelpDialog.jumpToMaximumPattern": {
+      "value": "Gaa na {{maximum}}"
+    },
+    "keyboardHelpDialog.jumpToMinimumPattern": {
+      "value": "Gaa na {{minimum}}"
+    },
+    "keyboardHelpDialog.maximum": {
+      "value": "kacha"
+    },
+    "keyboardHelpDialog.minimum": {
+      "value": "kacha nta"
     },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "Bugharịa n'etiti ihe dị n'otu"
@@ -5446,17 +5467,116 @@
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "Gaa na ihe gara aga ma ọ bụ otu"
     },
-    "speed.normal": {
-      "value": "Nkịtị"
+    "nine": {
+      "value": "itoolu"
+    },
+    "one": {
+      "value": "ofu"
+    },
+    "keyboardHelpDialog.comboBox.option": {
+      "value": "nhọrọ"
+    },
+    "keyboardHelpDialog.comboBox.options": {
+      "value": "nhọrọ"
+    },
+    "keyboardHelpDialog.or": {
+      "value": "ma ọ bụ"
+    },
+    "key.pageDown": {
+      "value": "Gaa N'okpuru"
+    },
+    "key.pageUp": {
+      "value": "Gaa N'elu"
     },
     "keyboardHelpDialog.pressButtons": {
       "value": "Pịa bọtịnụ"
     },
-    "speed.slow": {
-      "value": "Nwayọọ Nwayọọ"
+    "seven": {
+      "value": "asaa"
+    },
+    "key.shift": {
+      "value": "Segharia"
+    },
+    "six": {
+      "value": "isii"
+    },
+    "keyboardHelpDialog.slider": {
+      "value": "ihe mmịfe"
+    },
+    "keyboardHelpDialog.sliderControls": {
+      "value": "Njikwa ihe mmịfe"
+    },
+    "key.space": {
+      "value": "Oghere"
+    },
+    "key.tab": {
+      "value": "Imetụ Aka"
+    },
+    "ten": {
+      "value": "iri"
+    },
+    "three": {
+      "value": "atọ"
     },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Tụgharịa akpa"
+    },
+    "two": {
+      "value": "abuo"
+    },
+    "zero": {
+      "value": "efu"
+    },
+    "keyboardHelpDialog.verbInLargerStepsPattern": {
+      "value": "{{verb}} n'ụzọ buru ibu"
+    },
+    "keyboardHelpDialog.verbInSmallerStepsPattern": {
+      "value": "{{verb}} n'obere nzọụkwụ"
+    },
+    "keyboardHelpDialog.verbSliderPattern": {
+      "value": "{{verb}} {{slider}}"
+    },
+    "symbol.resistivity": {
+      "value": "ρ"
+    },
+    "symbol.ohms": {
+      "value": "Ω"
+    },
+    "keyboardHelpDialog.adjustInLargerSteps": {
+      "value": "dozie na ibu nzọụkwụ"
+    },
+    "keyboardHelpDialog.adjustInSmallerSteps": {
+      "value": "dozie n'ime obere nzọụkwụ"
+    },
+    "keyboardHelpDialog.adjustSlider": {
+      "value": "hazie ihe mmịfe"
+    },
+    "keyboardHelpDialog.jumpToMaximum": {
+      "value": "gaa na nke kachasi"
+    },
+    "keyboardHelpDialog.jumpToMinimum": {
+      "value": "gaa na nke kacha nta"
+    },
+    "keyboardHelpDialog.moveToNextItem": {
+      "value": "Gaa na ihe ma ọ bụ otu na-esote"
+    },
+    "keyboardHelpDialog.moveToPreviousItem": {
+      "value": "Gaa na ihe gara aga"
+    },
+    "wavelength": {
+      "value": "anya n'etiti etu abụọ nke ife"
+    },
+    "wavelengthNMValuePattern": {
+      "value": "{0} nm"
+    },
+    "speed.fast": {
+      "value": "Ngwa ngwa"
+    },
+    "speed.normal": {
+      "value": "Nkịtị"
+    },
+    "speed.slow": {
+      "value": "Nwayọọ Nwayọọ"
     },
     "measuringTapeReadoutPattern": {
       "value": "{{distance}} {{units}}"
@@ -5475,12 +5595,6 @@
     },
     "key.l": {
       "value": "L"
-    },
-    "keyboardHelpDialog.moveToNextItem": {
-      "value": "Gaa na ihe ma ọ bụ otu na-esote"
-    },
-    "keyboardHelpDialog.moveToPreviousItem": {
-      "value": "Gaa na ihe gara aga"
     },
     "webglWarning.contextLossReload": {
       "value": "Mee ọzọ"
@@ -5508,36 +5622,6 @@
     },
     "comboBoxDisplay.valueUnits": {
       "value": " {{value}} {{units}}"
-    },
-    "keyboardHelpDialog.adjust": {
-      "value": "Dozie"
-    },
-    "keyboardHelpDialog.jumpToMaximumPattern": {
-      "value": "Gaa na {{maximum}}"
-    },
-    "keyboardHelpDialog.jumpToMinimumPattern": {
-      "value": "Gaa na {{minimum}}"
-    },
-    "keyboardHelpDialog.maximum": {
-      "value": "kacha"
-    },
-    "keyboardHelpDialog.minimum": {
-      "value": "kacha nta"
-    },
-    "keyboardHelpDialog.slider": {
-      "value": "ihe mmịfe"
-    },
-    "keyboardHelpDialog.sliderControls": {
-      "value": "Njikwa ihe mmịfe"
-    },
-    "keyboardHelpDialog.verbInLargerStepsPattern": {
-      "value": "{{verb}} n'ụzọ buru ibu"
-    },
-    "keyboardHelpDialog.verbInSmallerStepsPattern": {
-      "value": "{{verb}} n'obere nzọụkwụ"
-    },
-    "keyboardHelpDialog.verbSliderPattern": {
-      "value": "{{verb}} {{slider}}"
     },
     "webglWarning.title": {
       "value": "Na-agba ọsọ na àgwà eserese dị ala"
@@ -8066,9 +8150,6 @@
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
-    "keyboardHelpDialog.adjust": {
-      "value": "Ubah"
-    },
     "key.alt": {
       "value": "Alt"
     },
@@ -8079,7 +8160,7 @@
       "value": "Huruf Besar"
     },
     "key.end": {
-      "value": "End"
+      "value": "Tamat"
     },
     "key.enter": {
       "value": "Enter"
@@ -8105,18 +8186,6 @@
     "key.home": {
       "value": "Home"
     },
-    "keyboardHelpDialog.jumpToMaximumPattern": {
-      "value": "Lompat ke {{maximum}}"
-    },
-    "keyboardHelpDialog.jumpToMinimumPattern": {
-      "value": "Lompat ke {{minimum}}"
-    },
-    "keyboardHelpDialog.maximum": {
-      "value": "maksimum"
-    },
-    "keyboardHelpDialog.minimum": {
-      "value": "minimum"
-    },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "Bergerak antara item-item di dalam kumpulan"
     },
@@ -8133,10 +8202,10 @@
       "value": "atau"
     },
     "key.pageDown": {
-      "value": "Pg Dn"
+      "value": "Ke Bawah"
     },
     "key.pageUp": {
-      "value": "Pg Up"
+      "value": "Ke Atas"
     },
     "keyboardHelpDialog.pressButtons": {
       "value": "Tekan butang"
@@ -8156,14 +8225,32 @@
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Kotak semak diterbalikkan"
     },
-    "keyboardHelpDialog.verbSliderPattern": {
-      "value": "{{verb}} {{slider}}"
+    "stopwatchValueUnitsPattern": {
+      "value": "{{value}} {{units}}"
     },
     "symbol.resistivity": {
       "value": "ρ"
     },
     "symbol.ohms": {
       "value": "Ω"
+    },
+    "keyboardHelpDialog.adjust": {
+      "value": "Ubah"
+    },
+    "keyboardHelpDialog.jumpToMaximumPattern": {
+      "value": "Lompat ke {{maximum}}"
+    },
+    "keyboardHelpDialog.jumpToMinimumPattern": {
+      "value": "Lompat ke {{minimum}}"
+    },
+    "keyboardHelpDialog.maximum": {
+      "value": "maksimum"
+    },
+    "keyboardHelpDialog.minimum": {
+      "value": "minimum"
+    },
+    "keyboardHelpDialog.verbSliderPattern": {
+      "value": "{{verb}} {{slider}}"
     },
     "key.k": {
       "value": "K"
@@ -8187,9 +8274,6 @@
       "value": "Panas"
     },
     "comboBoxDisplay.valueUnits": {
-      "value": "{{value}} {{units}}"
-    },
-    "stopwatchValueUnitsPattern": {
       "value": "{{value}} {{units}}"
     },
     "wavelength": {

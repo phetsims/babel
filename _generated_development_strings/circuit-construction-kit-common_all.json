@@ -937,9 +937,6 @@
     "ammeter": {
       "value": "অ্যামিটার "
     },
-    "ammeterReadout": {
-      "value": "Ammeter Readout"
-    },
     "ammeters": {
       "value": "অ্যামিটার "
     },
@@ -965,7 +962,7 @@
       "value": "কয়েন "
     },
     "conventional": {
-      "value": "Conventional"
+      "value": "প্রচলিত "
     },
     "current": {
       "value": "তড়িৎ প্রবাহ "
@@ -978,9 +975,6 @@
     },
     "currentRating": {
       "value": "তড়িৎ প্রবাহের রেটিং "
-    },
-    "dataOutOfRange": {
-      "value": "রেঞ্জের বাইরের উপাত্ত "
     },
     "dog": {
       "value": "কুকুর "
@@ -1016,16 +1010,13 @@
       "value": "আবেশক [Inductor]"
     },
     "labels": {
-      "value": "Labels"
+      "value": "লেবেল "
     },
     "lightBulb": {
       "value": "আলোর বাতি (Light Bulb)"
     },
     "lots": {
       "value": "অনেক বেশী "
-    },
-    "magnitude": {
-      "value": "মান "
     },
     "paperClip": {
       "value": "পেপার ক্লিপ "
@@ -1035,6 +1026,9 @@
     },
     "phaseShift": {
       "value": "দশা পরিবর্তন (Phase Shift)"
+    },
+    "realBulb": {
+      "value": "বাল্ব "
     },
     "resistance": {
       "value": "রোধ "
@@ -1047,9 +1041,6 @@
     },
     "showCurrent": {
       "value": "Show Current"
-    },
-    "signed": {
-      "value": "Signed"
     },
     "sourceResistance": {
       "value": "Source Resistance"
@@ -1064,16 +1055,16 @@
       "value": "ap circuit element to edit."
     },
     "theSwitchIsClosed": {
-      "value": "The switch is closed."
+      "value": "সুইচ/চাবি বন্ধ অর্থাৎ সুইচ  ON"
     },
     "theSwitchIsOpen": {
-      "value": "The switch is open."
+      "value": "সুইচ/চাবি খোলা অর্থাৎ সুইচ OFF"
     },
     "time": {
       "value": "সময় "
     },
     "tiny": {
-      "value": "tiny"
+      "value": "অল্প/কম  "
     },
     "values": {
       "value": "মানসমূহ  (Values)"
@@ -1128,6 +1119,18 @@
     },
     "voltageVoltsValuePattern": {
       "value": "{{voltage}} volts"
+    },
+    "ammeterReadout": {
+      "value": "Ammeter Readout"
+    },
+    "dataOutOfRange": {
+      "value": "রেঞ্জের বাইরের উপাত্ত "
+    },
+    "magnitude": {
+      "value": "মান "
+    },
+    "signed": {
+      "value": "Signed"
     }
   },
   "bs": {
@@ -4252,7 +4255,7 @@
       "value": "डॉलर बिल "
     },
     "electrons": {
-      "value": "इलेक्ट्रान"
+      "value": "इलेक्ट्राॅन"
     },
     "eraser": {
       "value": "रबड़ "
@@ -6059,6 +6062,15 @@
     }
   },
   "ja": {
+    "acSource": {
+      "value": "交流電源"
+    },
+    "addRealBulbs": {
+      "value": "現実の電球を追加する"
+    },
+    "advanced": {
+      "value": "発展"
+    },
     "ammeter": {
       "value": "電流計"
     },
@@ -6074,17 +6086,32 @@
     "batteryResistance": {
       "value": "電池の内部抵抗"
     },
+    "capacitance": {
+      "value": "静電容量"
+    },
+    "capacitor": {
+      "value": "コンデンサー"
+    },
     "coin": {
       "value": "硬貨"
     },
     "conventional": {
-      "value": "電流"
+      "value": "慣習的な電流"
     },
     "current": {
       "value": "電流"
     },
+    "currentWithUnits": {
+      "value": "電流（A）"
+    },
+    "currentChart": {
+      "value": "電流グラフ"
+    },
     "currentRating": {
       "value": "電流の大きさ"
+    },
+    "dataOutOfRange": {
+      "value": "データは範囲外です"
     },
     "dog": {
       "value": "犬"
@@ -6103,6 +6130,12 @@
     },
     "hand": {
       "value": "手"
+    },
+    "inductance": {
+      "value": "インダクタンス"
+    },
+    "inductor": {
+      "value": "インダクター"
     },
     "labels": {
       "value": "ラベル"
@@ -6126,7 +6159,13 @@
       "value": "抵抗"
     },
     "showCurrent": {
-      "value": "表示"
+      "value": "電流を表示"
+    },
+    "sourceResistance": {
+      "value": "内部抵抗"
+    },
+    "stopwatch": {
+      "value": "ストップウォッチ"
     },
     "switch": {
       "value": "スイッチ"
@@ -6140,6 +6179,9 @@
     "theSwitchIsOpen": {
       "value": "スイッチを入れる"
     },
+    "time": {
+      "value": "時間"
+    },
     "tiny": {
       "value": "微小"
     },
@@ -6148,6 +6190,12 @@
     },
     "voltage": {
       "value": "電圧"
+    },
+    "voltageWithUnits": {
+      "value": "電圧（V）"
+    },
+    "voltageChart": {
+      "value": "電圧グラフ"
     },
     "voltmeter": {
       "value": "電圧計"
@@ -7598,7 +7646,7 @@
       "value": "Inggeris"
     },
     "capacitance": {
-      "value": "Kapasiti"
+      "value": "Kapasitans"
     },
     "capacitor": {
       "value": "Kapasitor"
