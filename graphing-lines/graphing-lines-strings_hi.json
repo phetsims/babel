@@ -1,4 +1,28 @@
 {
+  "symbol.intercept": {
+    "value": "b",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1521250465238,
+        "oldValue": "",
+        "newValue": "b",
+        "explanation": null
+      }
+    ]
+  },
+  "symbol.slope": {
+    "value": "m",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1521250465238,
+        "oldValue": "",
+        "newValue": "m",
+        "explanation": null
+      }
+    ]
+  },
   "symbol.x": {
     "value": "x",
     "history": [
@@ -72,7 +96,7 @@
     ]
   },
   "slopeUndefined": {
-    "value": "{0} = {1} (अपरिभाषित)",
+    "value": "{0} = {1} (अपरिभाषित ढाल )",
     "history": [
       {
         "userId": 339847,
@@ -80,18 +104,12 @@
         "oldValue": "",
         "newValue": "{0} = {1} (अपरिभाषित)",
         "explanation": null
-      }
-    ]
-  },
-  "symbol.slope": {
-    "value": "m",
-    "history": [
+      },
       {
-        "userId": 339847,
-        "timestamp": 1521250465238,
-        "oldValue": "",
-        "newValue": "m",
-        "explanation": null
+        "userId": 543754,
+        "timestamp": 1664705382305,
+        "oldValue": "{0} = {1} (अपरिभाषित)",
+        "newValue": "{0} = {1} (अपरिभाषित ढाल )"
       }
     ]
   },
@@ -119,20 +137,8 @@
       }
     ]
   },
-  "symbol.intercept": {
-    "value": "b",
-    "history": [
-      {
-        "userId": 339847,
-        "timestamp": 1521250465238,
-        "oldValue": "",
-        "newValue": "b",
-        "explanation": null
-      }
-    ]
-  },
   "lineToGraph": {
-    "value": "रेखा का आलेख ",
+    "value": "आलेखीय रेखा ",
     "history": [
       {
         "userId": 339847,
@@ -140,6 +146,12 @@
         "oldValue": "",
         "newValue": "रेखा का आलेख ",
         "explanation": null
+      },
+      {
+        "userId": 543754,
+        "timestamp": 1664705382305,
+        "oldValue": "रेखा का आलेख ",
+        "newValue": "आलेखीय रेखा "
       }
     ]
   },
@@ -180,7 +192,7 @@
     ]
   },
   "aCorrectEquation": {
-    "value": "सही समीकरण :",
+    "value": "एक सही समीकरण :",
     "history": [
       {
         "userId": 339847,
@@ -188,11 +200,17 @@
         "oldValue": "",
         "newValue": "सही समीकरण :",
         "explanation": null
+      },
+      {
+        "userId": 543754,
+        "timestamp": 1664705382305,
+        "oldValue": "सही समीकरण :",
+        "newValue": "एक सही समीकरण :"
       }
     ]
   },
   "yourEquation": {
-    "value": "आपका समीकरण :",
+    "value": "आपकी समीकरण :",
     "history": [
       {
         "userId": 339847,
@@ -200,11 +218,17 @@
         "oldValue": "",
         "newValue": "आपका समीकरण :",
         "explanation": null
+      },
+      {
+        "userId": 543754,
+        "timestamp": 1664705382305,
+        "oldValue": "आपका समीकरण :",
+        "newValue": "आपकी समीकरण :"
       }
     ]
   },
   "makeTheEquation": {
-    "value": "समीकरण बनाओ",
+    "value": "समीकरण बनाएँ",
     "history": [
       {
         "userId": 339847,
@@ -212,6 +236,12 @@
         "oldValue": "",
         "newValue": "समीकरण बनाओ",
         "explanation": null
+      },
+      {
+        "userId": 543754,
+        "timestamp": 1664705382305,
+        "oldValue": "समीकरण बनाओ",
+        "newValue": "समीकरण बनाएँ"
       }
     ]
   },
@@ -251,18 +281,6 @@
       }
     ]
   },
-  "saveLine": {
-    "value": "रेखाएं सहेंजे ",
-    "history": [
-      {
-        "userId": 339847,
-        "timestamp": 1521250465238,
-        "oldValue": "",
-        "newValue": "रेखाएं सहेंजे ",
-        "explanation": null
-      }
-    ]
-  },
   "eraseLines": {
     "value": "रेखाएं मिटाइए ",
     "history": [
@@ -275,26 +293,14 @@
       }
     ]
   },
-  "hideGrid": {
-    "value": "जाल छुपाओ ",
+  "saveLine": {
+    "value": "रेखाएं सहेंजे ",
     "history": [
       {
         "userId": 339847,
         "timestamp": 1521250465238,
         "oldValue": "",
-        "newValue": "जाल छुपाओ ",
-        "explanation": null
-      }
-    ]
-  },
-  "hideLines": {
-    "value": "रेखाएं छुपाओ ",
-    "history": [
-      {
-        "userId": 339847,
-        "timestamp": 1521250465238,
-        "oldValue": "",
-        "newValue": "रेखाएं छुपाओ ",
+        "newValue": "रेखाएं सहेंजे ",
         "explanation": null
       }
     ]
@@ -379,6 +385,30 @@
         "timestamp": 1523316439174,
         "oldValue": "",
         "newValue": "रेखाओं का आलेख ",
+        "explanation": null
+      }
+    ]
+  },
+  "hideGrid": {
+    "value": "जाल छुपाओ ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1521250465238,
+        "oldValue": "",
+        "newValue": "जाल छुपाओ ",
+        "explanation": null
+      }
+    ]
+  },
+  "hideLines": {
+    "value": "रेखाएं छुपाओ ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1521250465238,
+        "oldValue": "",
+        "newValue": "रेखाएं छुपाओ ",
         "explanation": null
       }
     ]
