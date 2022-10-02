@@ -54,17 +54,6 @@
       }
     ]
   },
-  "ammeterReadout": {
-    "value": "Ammeter Readout",
-    "history": [
-      {
-        "userId": 652918,
-        "timestamp": 1663708322352,
-        "oldValue": "",
-        "newValue": "Ammeter Readout"
-      }
-    ]
-  },
   "ammeters": {
     "value": "অ্যামিটার ",
     "history": [
@@ -160,13 +149,19 @@
     ]
   },
   "conventional": {
-    "value": "Conventional",
+    "value": "প্রচলিত ",
     "history": [
       {
         "userId": 652918,
         "timestamp": 1663708322352,
         "oldValue": "",
         "newValue": "Conventional"
+      },
+      {
+        "userId": 652918,
+        "timestamp": 1664685133016,
+        "oldValue": "Conventional",
+        "newValue": "প্রচলিত "
       }
     ]
   },
@@ -211,17 +206,6 @@
         "timestamp": 1663708322352,
         "oldValue": "",
         "newValue": "তড়িৎ প্রবাহের রেটিং "
-      }
-    ]
-  },
-  "dataOutOfRange": {
-    "value": "রেঞ্জের বাইরের উপাত্ত ",
-    "history": [
-      {
-        "userId": 652918,
-        "timestamp": 1663708322352,
-        "oldValue": "",
-        "newValue": "রেঞ্জের বাইরের উপাত্ত "
       }
     ]
   },
@@ -353,13 +337,19 @@
     ]
   },
   "labels": {
-    "value": "Labels",
+    "value": "লেবেল ",
     "history": [
       {
         "userId": 652918,
         "timestamp": 1663708322352,
         "oldValue": "",
         "newValue": "Labels"
+      },
+      {
+        "userId": 652918,
+        "timestamp": 1664685133016,
+        "oldValue": "Labels",
+        "newValue": "লেবেল "
       }
     ]
   },
@@ -388,17 +378,6 @@
         "timestamp": 1664414927468,
         "oldValue": "lots",
         "newValue": "অনেক বেশী "
-      }
-    ]
-  },
-  "magnitude": {
-    "value": "মান ",
-    "history": [
-      {
-        "userId": 652918,
-        "timestamp": 1663708322352,
-        "oldValue": "",
-        "newValue": "মান "
       }
     ]
   },
@@ -432,6 +411,17 @@
         "timestamp": 1663708322352,
         "oldValue": "",
         "newValue": "দশা পরিবর্তন (Phase Shift)"
+      }
+    ]
+  },
+  "realBulb": {
+    "value": "বাল্ব ",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1664685133016,
+        "oldValue": "",
+        "newValue": "বাল্ব "
       }
     ]
   },
@@ -476,17 +466,6 @@
         "timestamp": 1663708322352,
         "oldValue": "",
         "newValue": "Show Current"
-      }
-    ]
-  },
-  "signed": {
-    "value": "Signed",
-    "history": [
-      {
-        "userId": 652918,
-        "timestamp": 1663708322352,
-        "oldValue": "",
-        "newValue": "Signed"
       }
     ]
   },
@@ -541,24 +520,36 @@
     ]
   },
   "theSwitchIsClosed": {
-    "value": "The switch is closed.",
+    "value": "সুইচ/চাবি বন্ধ অর্থাৎ সুইচ  ON",
     "history": [
       {
         "userId": 652918,
         "timestamp": 1663708322352,
         "oldValue": "",
         "newValue": "The switch is closed."
+      },
+      {
+        "userId": 652918,
+        "timestamp": 1664685133016,
+        "oldValue": "The switch is closed.",
+        "newValue": "সুইচ/চাবি বন্ধ অর্থাৎ সুইচ  ON"
       }
     ]
   },
   "theSwitchIsOpen": {
-    "value": "The switch is open.",
+    "value": "সুইচ/চাবি খোলা অর্থাৎ সুইচ OFF",
     "history": [
       {
         "userId": 652918,
         "timestamp": 1663708322352,
         "oldValue": "",
         "newValue": "The switch is open."
+      },
+      {
+        "userId": 652918,
+        "timestamp": 1664685133016,
+        "oldValue": "The switch is open.",
+        "newValue": "সুইচ/চাবি খোলা অর্থাৎ সুইচ OFF"
       }
     ]
   },
@@ -574,13 +565,19 @@
     ]
   },
   "tiny": {
-    "value": "tiny",
+    "value": "অল্প/কম  ",
     "history": [
       {
         "userId": 652918,
         "timestamp": 1663708322352,
         "oldValue": "",
         "newValue": "tiny"
+      },
+      {
+        "userId": 652918,
+        "timestamp": 1664685133016,
+        "oldValue": "tiny",
+        "newValue": "অল্প/কম  "
       }
     ]
   },
@@ -779,6 +776,50 @@
         "timestamp": 1663708322352,
         "oldValue": "",
         "newValue": "{{voltage}} volts"
+      }
+    ]
+  },
+  "ammeterReadout": {
+    "value": "Ammeter Readout",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1663708322352,
+        "oldValue": "",
+        "newValue": "Ammeter Readout"
+      }
+    ]
+  },
+  "dataOutOfRange": {
+    "value": "রেঞ্জের বাইরের উপাত্ত ",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1663708322352,
+        "oldValue": "",
+        "newValue": "রেঞ্জের বাইরের উপাত্ত "
+      }
+    ]
+  },
+  "magnitude": {
+    "value": "মান ",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1663708322352,
+        "oldValue": "",
+        "newValue": "মান "
+      }
+    ]
+  },
+  "signed": {
+    "value": "Signed",
+    "history": [
+      {
+        "userId": 652918,
+        "timestamp": 1663708322352,
+        "oldValue": "",
+        "newValue": "Signed"
       }
     ]
   }
