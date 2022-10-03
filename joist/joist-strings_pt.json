@@ -24,7 +24,7 @@
     ]
   },
   "updates.checking": {
-    "value": "A procurar atualizações",
+    "value": "A procurar atualizações...",
     "history": [
       {
         "userId": 610145,
@@ -32,6 +32,12 @@
         "oldValue": "",
         "newValue": "A procurar atualizações",
         "explanation": null
+      },
+      {
+        "userId": 156648,
+        "timestamp": 1664802885324,
+        "oldValue": "A procurar atualizações",
+        "newValue": "A procurar atualizações..."
       }
     ]
   },
@@ -104,6 +110,17 @@
         "oldValue": "",
         "newValue": "Grafismo: {0}",
         "explanation": null
+      }
+    ]
+  },
+  "ieErrorPage.ieIsNotSupported": {
+    "value": "Internet Explorer não é suportado.",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1614121898460,
+        "oldValue": "",
+        "newValue": "Internet Explorer não é suportado."
       }
     ]
   },
@@ -215,6 +232,40 @@
       }
     ]
   },
+  "ieErrorPage.platformError": {
+    "value": "Erro de Plataforma",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1614121898460,
+        "oldValue": "",
+        "newValue": "Erro de Plataforma"
+      }
+    ]
+  },
+  "ieErrorPage.useDifferentBrowser": {
+    "value": "Use um navegador diferente por favor",
+    "history": [
+      {
+        "userId": 160498,
+        "timestamp": 1614121898460,
+        "oldValue": "",
+        "newValue": "Use um navegador diferente por favor"
+      }
+    ]
+  },
+  "projectorMode": {
+    "value": "Modo de Projector",
+    "history": [
+      {
+        "userId": 156648,
+        "timestamp": 1571654948539,
+        "oldValue": "",
+        "newValue": "Modo de Projector",
+        "explanation": null
+      }
+    ]
+  },
   "credits.qualityAssurance": {
     "value": "Controlo de Qualidade: {0}",
     "history": [
@@ -307,7 +358,7 @@
     ]
   },
   "credits.thanks": {
-    "value": "Agradecimento",
+    "value": "Agradecimentos",
     "history": [
       {
         "userId": 610145,
@@ -328,11 +379,17 @@
         "timestamp": 1633624986108,
         "oldValue": "Obrigado",
         "newValue": "Agradecimento"
+      },
+      {
+        "userId": 156648,
+        "timestamp": 1664802885324,
+        "oldValue": "Agradecimento",
+        "newValue": "Agradecimentos"
       }
     ]
   },
   "queryParametersWarningDialog.theSimulationWillStart": {
-    "value": "A simulação começará com valores padrão<pt>para estes parâmetros de consulta.",
+    "value": "A simulação começará com valores padrão<br>para estes parâmetros de consulta.",
     "history": [
       {
         "userId": 610145,
@@ -346,6 +403,12 @@
         "timestamp": 1642726987218,
         "oldValue": "A simulação começará com valores padrão<br>para estes parâmetros de consulta.",
         "newValue": "A simulação começará com valores padrão<pt>para estes parâmetros de consulta."
+      },
+      {
+        "userId": 156648,
+        "timestamp": 1664802885324,
+        "oldValue": "A simulação começará com valores padrão<pt>para estes parâmetros de consulta.",
+        "newValue": "A simulação começará com valores padrão<br>para estes parâmetros de consulta."
       }
     ]
   },
@@ -393,18 +456,6 @@
         "timestamp": 1571654372408,
         "oldValue": "",
         "newValue": "para começar",
-        "explanation": null
-      }
-    ]
-  },
-  "credits.translation": {
-    "value": "Tradução",
-    "history": [
-      {
-        "userId": 610145,
-        "timestamp": 1541094277780,
-        "oldValue": "",
-        "newValue": "Tradução",
         "explanation": null
       }
     ]
@@ -465,6 +516,18 @@
         "timestamp": 1541095074587,
         "oldValue": "",
         "newValue": "{{simName}} — {{screenName}}",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.translation": {
+    "value": "Tradução",
+    "history": [
+      {
+        "userId": 610145,
+        "timestamp": 1541094277780,
+        "oldValue": "",
+        "newValue": "Tradução",
         "explanation": null
       }
     ]
@@ -535,28 +598,6 @@
       }
     ]
   },
-  "ieErrorPage.ieIsNotSupported": {
-    "value": "Internet Explorer não é suportado.",
-    "history": [
-      {
-        "userId": 160498,
-        "timestamp": 1614121898460,
-        "oldValue": "",
-        "newValue": "Internet Explorer não é suportado."
-      }
-    ]
-  },
-  "ieErrorPage.platformError": {
-    "value": "Erro de Plataforma",
-    "history": [
-      {
-        "userId": 160498,
-        "timestamp": 1614121898460,
-        "oldValue": "",
-        "newValue": "Erro de Plataforma"
-      }
-    ]
-  },
   "preferences.tabs.audio.sounds.extraSounds.description": {
     "value": "Reproduzir sons adicionais que podem ser úteis para alguns alunos.",
     "history": [
@@ -576,17 +617,6 @@
         "timestamp": 1642619528486,
         "oldValue": "",
         "newValue": "Reproduzir sonorizações e efeitos de som de acordo com a interação."
-      }
-    ]
-  },
-  "ieErrorPage.useDifferentBrowser": {
-    "value": "Use um navegador diferente por favor",
-    "history": [
-      {
-        "userId": 160498,
-        "timestamp": 1614121898460,
-        "oldValue": "",
-        "newValue": "Use um navegador diferente por favor"
       }
     ]
   },
@@ -713,18 +743,6 @@
         "timestamp": 1541094277780,
         "oldValue": "",
         "newValue": "Submeter Registo de Eventos de Input",
-        "explanation": null
-      }
-    ]
-  },
-  "projectorMode": {
-    "value": "Modo de Projector",
-    "history": [
-      {
-        "userId": 156648,
-        "timestamp": 1571654948539,
-        "oldValue": "",
-        "newValue": "Modo de Projector",
         "explanation": null
       }
     ]
