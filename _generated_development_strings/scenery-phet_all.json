@@ -1465,14 +1465,53 @@
     }
   },
   "ca": {
+    "keyboardHelpDialog.hyphen": {
+      "value": "-"
+    },
+    "key.alt": {
+      "value": "Alt"
+    },
+    "keyboardHelpDialog.basicActions": {
+      "value": "Accions bàsiques"
+    },
+    "key.capsLock": {
+      "value": "Majúscules activades"
+    },
+    "key.end": {
+      "value": "Fi"
+    },
     "key.enter": {
       "value": "Accepta"
+    },
+    "key.esc": {
+      "value": "Esc."
+    },
+    "keyboardHelpDialog.exitADialog": {
+      "value": "Surt d'un diàleg"
+    },
+    "speed.fast": {
+      "value": "Ràpida"
+    },
+    "key.fn": {
+      "value": "Funció multimèdia"
     },
     "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
       "value": "Agafa o deixa anar {{thing}}"
     },
     "keyboardHelpDialog.grabOrReleaseLabelPattern": {
       "value": "Agafa o deixa anar {{thing}}"
+    },
+    "key.home": {
+      "value": "Inici"
+    },
+    "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+      "value": "Mou-te entre els elements d'un grup"
+    },
+    "keyboardHelpDialog.moveToNextItemOrGroup": {
+      "value": "Mou-te a l'element o el grup següent"
+    },
+    "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+      "value": "Mou-te a l'element o el grup anterior"
     },
     "speed.normal": {
       "value": "Normal"
@@ -1486,6 +1525,9 @@
     "key.pageUp": {
       "value": "Pàgina endavant"
     },
+    "keyboardHelpDialog.pressButtons": {
+      "value": "Prem els botons"
+    },
     "key.shift": {
       "value": "Majúscules."
     },
@@ -1498,8 +1540,11 @@
     "key.tab": {
       "value": "Tab."
     },
-    "comboBoxDisplay.valueUnits": {
-      "value": "{{value}} {{units}}"
+    "keyboardHelpDialog.toggleCheckboxes": {
+      "value": "Activa o desactiva la selecció "
+    },
+    "measuringTapeReadoutPattern": {
+      "value": "{{distance}} {{units}}"
     },
     "symbol.resistivity": {
       "value": "ρ"
@@ -1507,8 +1552,26 @@
     "symbol.ohms": {
       "value": "Ω"
     },
-    "keyboardHelpDialog.hyphen": {
-      "value": "-"
+    "keyboardHelpDialog.adjustSlider": {
+      "value": "Ajustar control lliscant"
+    },
+    "keyboardHelpDialog.jumpToMaximum": {
+      "value": "Incrementar al màxim"
+    },
+    "keyboardHelpDialog.jumpToMinimum": {
+      "value": "Reduir al mínim"
+    },
+    "keyboardHelpDialog.moveToNextItem": {
+      "value": "Mou-te a l'element següent"
+    },
+    "keyboardHelpDialog.moveToPreviousItem": {
+      "value": "Mou-te a l'element anterior"
+    },
+    "keyboardHelpDialog.sliderControls": {
+      "value": "Control del lliscador"
+    },
+    "comboBoxDisplay.valueUnits": {
+      "value": "{{value}} {{units}}"
     },
     "keyboardHelpDialog.comboBox.popUpListPattern": {
       "value": "Llista emergent de {{thingPlural}}"
@@ -1525,30 +1588,6 @@
     "keyboardHelpDialog.adjust": {
       "value": "Ajusta"
     },
-    "key.alt": {
-      "value": "Alt"
-    },
-    "keyboardHelpDialog.basicActions": {
-      "value": "Accions bàsiques"
-    },
-    "key.capsLock": {
-      "value": "Majúscules activades"
-    },
-    "key.end": {
-      "value": "Fi"
-    },
-    "key.esc": {
-      "value": "Esc."
-    },
-    "keyboardHelpDialog.exitADialog": {
-      "value": "Surt d'un diàleg"
-    },
-    "key.fn": {
-      "value": "Funció multimèdia"
-    },
-    "key.home": {
-      "value": "Inici"
-    },
     "keyboardHelpDialog.jumpToMaximumPattern": {
       "value": "Salta a {{maximum}}"
     },
@@ -1561,15 +1600,6 @@
     "keyboardHelpDialog.minimum": {
       "value": "Mínim"
     },
-    "keyboardHelpDialog.moveBetweenItemsInAGroup": {
-      "value": "Mou-te entre els elements d'un grup"
-    },
-    "keyboardHelpDialog.moveToNextItemOrGroup": {
-      "value": "Mou-te a l'element o el grup següent"
-    },
-    "keyboardHelpDialog.moveToPreviousItemOrGroup": {
-      "value": "Mou-te a l'element o el grup anterior"
-    },
     "keyboardHelpDialog.comboBox.option": {
       "value": "Opció"
     },
@@ -1579,20 +1609,8 @@
     "keyboardHelpDialog.comboBox.headingString": {
       "value": "Menú d'obertura emergent"
     },
-    "keyboardHelpDialog.pressButtons": {
-      "value": "Prem els botons"
-    },
     "keyboardHelpDialog.slider": {
       "value": "lliscador"
-    },
-    "keyboardHelpDialog.sliderControls": {
-      "value": "Control del lliscador"
-    },
-    "keyboardHelpDialog.toggleCheckboxes": {
-      "value": "Activa o desactiva la selecció "
-    },
-    "measuringTapeReadoutPattern": {
-      "value": "{{distance}} {{units}}"
     },
     "keyboardHelpDialog.verbInLargerStepsPattern": {
       "value": "{{verb}} ien etapes més llargues"
@@ -1608,9 +1626,6 @@
     },
     "ruler": {
       "value": "Regle"
-    },
-    "speed.fast": {
-      "value": "ràpida"
     },
     "units_nm": {
       "value": " nm"
@@ -1632,12 +1647,6 @@
     },
     "key.toGrabOrRelease": {
       "value": "per <b>agafar</b> o <b>deixar anar</b>"
-    },
-    "keyboardHelpDialog.moveToNextItem": {
-      "value": "Mou-te a l'element següent"
-    },
-    "keyboardHelpDialog.moveToPreviousItem": {
-      "value": "Mou-te a l'element anterior"
     },
     "webglWarning.contextLossReload": {
       "value": "Recarrega"
@@ -8150,6 +8159,9 @@
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
+    "keyboardHelpDialog.adjust": {
+      "value": "Ubah"
+    },
     "key.alt": {
       "value": "Alt"
     },
@@ -8160,7 +8172,7 @@
       "value": "Huruf Besar"
     },
     "key.end": {
-      "value": "Tamat"
+      "value": "End"
     },
     "key.enter": {
       "value": "Enter"
@@ -8178,13 +8190,25 @@
       "value": "Fn"
     },
     "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Grab or Release {{thing}}"
+      "value": "Genggam atau Lepaskan {{thing}}"
     },
     "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "Grab or release {{thing}}"
+      "value": "Genggam atau lepaskan {{thing}}"
     },
     "key.home": {
       "value": "Home"
+    },
+    "keyboardHelpDialog.jumpToMaximumPattern": {
+      "value": "Lompat ke {{maximum}}"
+    },
+    "keyboardHelpDialog.jumpToMinimumPattern": {
+      "value": "Lompat ke {{minimum}}"
+    },
+    "keyboardHelpDialog.maximum": {
+      "value": "maksimum"
+    },
+    "keyboardHelpDialog.minimum": {
+      "value": "minimum"
     },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "Bergerak antara item-item di dalam kumpulan"
@@ -8202,16 +8226,22 @@
       "value": "atau"
     },
     "key.pageDown": {
-      "value": "Ke Bawah"
+      "value": "Pg Dn"
     },
     "key.pageUp": {
-      "value": "Ke Atas"
+      "value": "Pg Up"
     },
     "keyboardHelpDialog.pressButtons": {
       "value": "Tekan butang"
     },
     "key.shift": {
       "value": "Shift"
+    },
+    "keyboardHelpDialog.slider": {
+      "value": "peluncur"
+    },
+    "keyboardHelpDialog.sliderControls": {
+      "value": "Kawalan Peluncur"
     },
     "speed.slow": {
       "value": "Perlahan"
@@ -8223,10 +8253,16 @@
       "value": "Tab"
     },
     "keyboardHelpDialog.toggleCheckboxes": {
-      "value": "Kotak semak diterbalikkan"
+      "value": "Buka/Tutup Kotak semak "
     },
-    "stopwatchValueUnitsPattern": {
-      "value": "{{value}} {{units}}"
+    "keyboardHelpDialog.verbInLargerStepsPattern": {
+      "value": "{{verb}} dalam langkah yang lebih besar"
+    },
+    "keyboardHelpDialog.verbInSmallerStepsPattern": {
+      "value": "{{verb}} dalam langkah yang lebih kecil"
+    },
+    "keyboardHelpDialog.verbSliderPattern": {
+      "value": "{{verb}} {{slider}}"
     },
     "symbol.resistivity": {
       "value": "ρ"
@@ -8234,23 +8270,8 @@
     "symbol.ohms": {
       "value": "Ω"
     },
-    "keyboardHelpDialog.adjust": {
-      "value": "Ubah"
-    },
-    "keyboardHelpDialog.jumpToMaximumPattern": {
-      "value": "Lompat ke {{maximum}}"
-    },
-    "keyboardHelpDialog.jumpToMinimumPattern": {
-      "value": "Lompat ke {{minimum}}"
-    },
-    "keyboardHelpDialog.maximum": {
-      "value": "maksimum"
-    },
-    "keyboardHelpDialog.minimum": {
-      "value": "minimum"
-    },
-    "keyboardHelpDialog.verbSliderPattern": {
-      "value": "{{verb}} {{slider}}"
+    "stopwatchValueUnitsPattern": {
+      "value": "{{value}} {{units}}"
     },
     "key.k": {
       "value": "K"
@@ -11693,26 +11714,50 @@
     }
   },
   "st": {
-    "webglWarning.contextLossReload": {
-      "value": "t'sela hape"
-    },
-    "cool": {
-      "value": "pholileng"
-    },
     "key.enter": {
       "value": "Kenya"
-    },
-    "key.esc": {
-      "value": "Esc"
-    },
-    "speed.fast": {
-      "value": "kapele"
     },
     "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
       "value": "t'soara kapa tlohela  {{thing}}"
     },
     "keyboardHelpDialog.grabOrReleaseLabelPattern": {
       "value": "t'soara kapa tlohela  {{thing}}"
+    },
+    "keyboardHelpDialog.or": {
+      "value": "kapa"
+    },
+    "key.pageDown": {
+      "value": "Leqephe Tlase"
+    },
+    "key.pageUp": {
+      "value": "Leqephe Holimo"
+    },
+    "key.shift": {
+      "value": "Chechisa"
+    },
+    "key.space": {
+      "value": "Sebaka"
+    },
+    "key.tab": {
+      "value": "Tlanya"
+    },
+    "symbol.resistivity": {
+      "value": "ρ"
+    },
+    "symbol.ohms": {
+      "value": "Ω"
+    },
+    "webglWarning.contextLossReload": {
+      "value": "t'sela hape"
+    },
+    "cool": {
+      "value": "pholileng"
+    },
+    "key.esc": {
+      "value": "Esc"
+    },
+    "speed.fast": {
+      "value": "kapele"
     },
     "heat": {
       "value": "mocheso"
@@ -11726,26 +11771,11 @@
     "speed.normal": {
       "value": "tloaelo"
     },
-    "keyboardHelpDialog.or": {
-      "value": "kapa"
-    },
-    "key.shift": {
-      "value": "Chechisa"
-    },
     "speed.slow": {
       "value": "butle"
     },
-    "key.space": {
-      "value": "Sebaka"
-    },
     "comboBoxDisplay.valueUnits": {
       "value": "{{value}} {{units}}"
-    },
-    "symbol.resistivity": {
-      "value": "ρ"
-    },
-    "symbol.ohms": {
-      "value": "Ω"
     },
     "keyboardHelpDialog.hyphen": {
       "value": "-"

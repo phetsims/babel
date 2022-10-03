@@ -1841,6 +1841,12 @@
     }
   },
   "hi": {
+    "symbol.intercept": {
+      "value": "b"
+    },
+    "symbol.slope": {
+      "value": "m"
+    },
     "symbol.x": {
       "value": "x"
     },
@@ -1860,10 +1866,7 @@
       "value": "Y- अंत:खंड निर्धारित करें "
     },
     "slopeUndefined": {
-      "value": "{0} = {1} (अपरिभाषित)"
-    },
-    "symbol.slope": {
-      "value": "m"
+      "value": "{0} = {1} (अपरिभाषित ढाल )"
     },
     "point.unknown": {
       "value": "( ?, ? )"
@@ -1871,11 +1874,8 @@
     "point.XY": {
       "value": "({0}, {1})"
     },
-    "symbol.intercept": {
-      "value": "b"
-    },
     "lineToGraph": {
-      "value": "रेखा का आलेख "
+      "value": "आलेखीय रेखा "
     },
     "notALine": {
       "value": "......यह रेखा नहीं है |"
@@ -1887,13 +1887,13 @@
       "value": "रेखा का आलेख "
     },
     "aCorrectEquation": {
-      "value": "सही समीकरण :"
+      "value": "एक सही समीकरण :"
     },
     "yourEquation": {
-      "value": "आपका समीकरण :"
+      "value": "आपकी समीकरण :"
     },
     "makeTheEquation": {
-      "value": "समीकरण बनाओ"
+      "value": "समीकरण बनाएँ"
     },
     "chooseYourLevel": {
       "value": "अपना स्तर चुनिए "
@@ -1904,17 +1904,11 @@
     "screen.lineGame": {
       "value": "रेखाओं का  खेल "
     },
-    "saveLine": {
-      "value": "रेखाएं सहेंजे "
-    },
     "eraseLines": {
       "value": "रेखाएं मिटाइए "
     },
-    "hideGrid": {
-      "value": "जाल छुपाओ "
-    },
-    "hideLines": {
-      "value": "रेखाएं छुपाओ "
+    "saveLine": {
+      "value": "रेखाएं सहेंजे "
     },
     "slope": {
       "value": "ढाल "
@@ -1936,6 +1930,12 @@
     },
     "graphing-lines.title": {
       "value": "रेखाओं का आलेख "
+    },
+    "hideGrid": {
+      "value": "जाल छुपाओ "
+    },
+    "hideLines": {
+      "value": "रेखाएं छुपाओ "
     }
   },
   "hr": {
@@ -3217,8 +3217,50 @@
     }
   },
   "ms": {
+    "point.unknown": {
+      "value": "( ?, ? )"
+    },
+    "point.XY": {
+      "value": "({0}, {1})"
+    },
+    "notALine": {
+      "value": "... adalah bukan garisan."
+    },
+    "aCorrectEquation": {
+      "value": "Persamaan yang Betul:"
+    },
+    "symbol.intercept": {
+      "value": "b"
+    },
+    "chooseYourLevel": {
+      "value": "Pilih Tahap Anda!"
+    },
+    "eraseLines": {
+      "value": "Padamkan Garisan"
+    },
+    "graphTheLine": {
+      "value": "Lakarkan Graf"
+    },
+    "pattern_Level_0": {
+      "value": "Tahap {0}"
+    },
+    "screen.lineGame": {
+      "value": "Permainan Lakaran Garisan"
+    },
+    "lineToGraph": {
+      "value": "Garisan untuk dilakar:"
+    },
+    "symbol.slope": {
+      "value": "m"
+    },
+    "makeTheEquation": {
+      "value": "Hasilkan Persamaan"
+    },
     "putPointsOnLine": {
       "value": "Plotkan Titik pada Garisan"
+    },
+    "saveLine": {
+      "value": "Simpankan Garisan"
     },
     "setThePoint": {
       "value": "Tetapkan Titik"
@@ -3229,53 +3271,29 @@
     "setTheYIntercept": {
       "value": "Tetapkan Pintasan-Y"
     },
-    "slopeUndefined": {
-      "value": "{0} = {1} (kecerunan tidak dikenal pasti)"
+    "slope": {
+      "value": "Kecerunan"
     },
-    "lineToGraph": {
-      "value": "Garisan untuk dilakar:"
+    "screen.slopeIntercept": {
+      "value": "Pintasan-Cerun"
     },
-    "notALine": {
-      "value": "... adalah bukan garisan."
+    "symbol.x": {
+      "value": "x"
     },
-    "yourLine": {
-      "value": "Garisan Anda:"
-    },
-    "graphTheLine": {
-      "value": "Lakarkan Graf"
-    },
-    "aCorrectEquation": {
-      "value": "Persamaan yang Betul:"
+    "symbol.y": {
+      "value": "y"
     },
     "yourEquation": {
       "value": "Persamaan Anda:"
     },
-    "makeTheEquation": {
-      "value": "Hasilkan Persamaan"
+    "yourLine": {
+      "value": "Garisan Anda:"
     },
-    "chooseYourLevel": {
-      "value": "Pilih Tahap Anda!"
-    },
-    "pattern_Level_0": {
-      "value": "Tahap {0}"
-    },
-    "screen.lineGame": {
-      "value": "Rekreasi"
-    },
-    "eraseLines": {
-      "value": "Padamkan Garisan"
-    },
-    "saveLine": {
-      "value": "Simpankan Garisan"
-    },
-    "slope": {
-      "value": "Kecerunan"
+    "slopeUndefined": {
+      "value": "{0} = {1} (kecerunan tidak dikenal pasti)"
     },
     "screen.pointSlope": {
       "value": "Titik-Cerun"
-    },
-    "screen.slopeIntercept": {
-      "value": "Pintasan-Cerun"
     },
     "slopeIs": {
       "value": "Kecerunannya adalah"
