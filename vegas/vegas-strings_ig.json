@@ -40,7 +40,7 @@
     ]
   },
   "pattern.0challenge.1max": {
-    "value": "Ọrụ {0}nke{1}",
+    "value": "Ọrụ {0} nke {1}",
     "history": [
       {
         "userId": 971059,
@@ -83,6 +83,12 @@
         "timestamp": 1664879155152,
         "oldValue": "Ọrụ {0} nke\r\n\n\r\n\n                             {1}",
         "newValue": "Ọrụ {0}nke{1}"
+      },
+      {
+        "userId": 971059,
+        "timestamp": 1664879462348,
+        "oldValue": "Ọrụ {0}nke{1}",
+        "newValue": "Ọrụ {0} nke {1}"
       }
     ]
   },
@@ -100,17 +106,6 @@
         "timestamp": 1662795446399,
         "oldValue": "gosi",
         "newValue": "Gosi"
-      }
-    ]
-  },
-  "chooseYourLevel": {
-    "value": "Họrọ Ọkwa Gị!",
-    "history": [
-      {
-        "userId": 971059,
-        "timestamp": 1655901568679,
-        "oldValue": "",
-        "newValue": "Họrọ Ọkwa Gị!"
       }
     ]
   },
@@ -239,14 +234,14 @@
       }
     ]
   },
-  "score": {
-    "value": "ụgwọ ọrụ",
+  "label.scorePattern": {
+    "value": "Akara: {0}",
     "history": [
       {
         "userId": 971059,
-        "timestamp": 1649724145418,
+        "timestamp": 1649309470951,
         "oldValue": "",
-        "newValue": "ụgwọ ọrụ"
+        "newValue": "Akara: {0}"
       }
     ]
   },
@@ -273,20 +268,14 @@
       }
     ]
   },
-  "pattern.score.number": {
-    "value": "Ụgwọ ọrụ: {{score}}",
+  "selectLevel": {
+    "value": "Họrọ Ọkwa",
     "history": [
       {
         "userId": 971059,
-        "timestamp": 1649724145418,
+        "timestamp": 1660648229758,
         "oldValue": "",
-        "newValue": "ụgwọ ọrụ: {{score}}"
-      },
-      {
-        "userId": 971059,
-        "timestamp": 1662795779871,
-        "oldValue": "ụgwọ ọrụ: {{score}}",
-        "newValue": "Ụgwọ ọrụ: {{score}}"
+        "newValue": "Họrọ Ọkwa"
       }
     ]
   },
@@ -336,13 +325,19 @@
     ]
   },
   "tryAgain": {
-    "value": "nwaa ọzọ",
+    "value": "Nwaa Ọzọ",
     "history": [
       {
         "userId": 971059,
         "timestamp": 1649724145418,
         "oldValue": "",
         "newValue": "nwaa ọzọ"
+      },
+      {
+        "userId": 971059,
+        "timestamp": 1664879462349,
+        "oldValue": "nwaa ọzọ",
+        "newValue": "Nwaa Ọzọ"
       }
     ]
   },
@@ -368,6 +363,45 @@
       }
     ]
   },
+  "chooseYourLevel": {
+    "value": "Họrọ Ọkwa Gị!",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1655901568679,
+        "oldValue": "",
+        "newValue": "Họrọ Ọkwa Gị!"
+      }
+    ]
+  },
+  "score": {
+    "value": "ụgwọ ọrụ",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1649724145418,
+        "oldValue": "",
+        "newValue": "ụgwọ ọrụ"
+      }
+    ]
+  },
+  "pattern.score.number": {
+    "value": "Ụgwọ ọrụ: {{score}}",
+    "history": [
+      {
+        "userId": 971059,
+        "timestamp": 1649724145418,
+        "oldValue": "",
+        "newValue": "ụgwọ ọrụ: {{score}}"
+      },
+      {
+        "userId": 971059,
+        "timestamp": 1662795779871,
+        "oldValue": "ụgwọ ọrụ: {{score}}",
+        "newValue": "Ụgwọ ọrụ: {{score}}"
+      }
+    ]
+  },
   "done": {
     "value": "Zuru-ezu",
     "history": [
@@ -387,28 +421,6 @@
         "timestamp": 1655901568679,
         "oldValue": "",
         "newValue": "Mezue ọkwa niile!"
-      }
-    ]
-  },
-  "label.scorePattern": {
-    "value": "Akara: {0}",
-    "history": [
-      {
-        "userId": 971059,
-        "timestamp": 1649309470951,
-        "oldValue": "",
-        "newValue": "Akara: {0}"
-      }
-    ]
-  },
-  "selectLevel": {
-    "value": "Họrọ Ọkwa",
-    "history": [
-      {
-        "userId": 971059,
-        "timestamp": 1660648229758,
-        "oldValue": "",
-        "newValue": "Họrọ Ọkwa"
       }
     ]
   },
