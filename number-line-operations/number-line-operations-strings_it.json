@@ -65,6 +65,17 @@
       }
     ]
   },
+  "netWorthWithCurrencyPattern": {
+    "value": "{{netWorthString}} ({{currencyUnits}})",
+    "history": [
+      {
+        "userId": 526485,
+        "timestamp": 1664985524087,
+        "oldValue": "",
+        "newValue": "{{netWorthString}} ({{currencyUnits}})"
+      }
+    ]
+  },
   "netWorth": {
     "value": "Patrimonio netto",
     "history": [
@@ -120,6 +131,17 @@
       }
     ]
   },
+  "addRemoveZeroCurrencyPattern": {
+    "value": "{{addOrRemove}} {{currencyUnits}}0",
+    "history": [
+      {
+        "userId": 526485,
+        "timestamp": 1664985524087,
+        "oldValue": "",
+        "newValue": "{{addOrRemove}} {{currencyUnits}}0"
+      }
+    ]
+  },
   "addRemoveAssetDebtPattern": {
     "value": "{{addOrRemove}} {{assetOrDebt}} di {{currencyUnits}}{{value}}",
     "history": [
@@ -153,6 +175,28 @@
       }
     ]
   },
+  "addRemoveZeroPattern": {
+    "value": "{{addOrRemove}} 0",
+    "history": [
+      {
+        "userId": 526485,
+        "timestamp": 1664985524087,
+        "oldValue": "",
+        "newValue": "{{addOrRemove}} 0"
+      }
+    ]
+  },
+  "addRemovePositiveNegativePattern": {
+    "value": "{{addOrRemove}} {{positiveOrNegative}} {{value}}",
+    "history": [
+      {
+        "userId": 526485,
+        "timestamp": 1664985524087,
+        "oldValue": "",
+        "newValue": "{{addOrRemove}} {{positiveOrNegative}} {{value}}"
+      }
+    ]
+  },
   "positive": {
     "value": "positivo",
     "history": [
@@ -183,6 +227,39 @@
         "timestamp": 1612551426503,
         "oldValue": "",
         "newValue": "Totale"
+      }
+    ]
+  },
+  "totalCurrencyPattern": {
+    "value": "{{totalString}} = {{sign}}{{currencyUnits}}{{totalValue}}",
+    "history": [
+      {
+        "userId": 526485,
+        "timestamp": 1664985524087,
+        "oldValue": "",
+        "newValue": "{{totalString}} = {{sign}}{{currencyUnits}}{{totalValue}}"
+      }
+    ]
+  },
+  "totalValuePattern": {
+    "value": "{{totalString}} = {{totalValue}}",
+    "history": [
+      {
+        "userId": 526485,
+        "timestamp": 1664985524087,
+        "oldValue": "",
+        "newValue": "{{totalString}} = {{totalValue}}"
+      }
+    ]
+  },
+  "currencyValuePattern": {
+    "value": "{{sign}}{{currencyUnits}}{{value}}",
+    "history": [
+      {
+        "userId": 526485,
+        "timestamp": 1664985524087,
+        "oldValue": "",
+        "newValue": "{{sign}}{{currencyUnits}}{{value}}"
       }
     ]
   },
