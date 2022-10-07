@@ -3375,29 +3375,20 @@
     }
   },
   "ha": {
-    "questionMark": {
-      "value": "Alamar tambaya"
-    },
-    "acceleration": {
-      "value": "Ujila"
-    },
-    "cm": {
-      "value": "Santi mita"
-    },
     "body.custom": {
       "value": "Na al’ada"
     },
-    "damping": {
-      "value": "Rage saurin kai-da-komo (saboda wucewar lokaci)"
-    },
-    "dampingEqualsZero": {
-      "value": "Rage saurin kai-da-komo (saboda wucewar lokaci){{equalsZero}}"
-    },
-    "displacement": {
-      "value": "Turewa (zakuɗa)"
-    },
     "body.earth": {
       "value": "Duniyar ƙasa "
+    },
+    "body.jupiter": {
+      "value": "Duniyar Jopita "
+    },
+    "body.moon": {
+      "value": "Wata "
+    },
+    "body.planetX": {
+      "value": "Duniya mai harafin X"
     },
     "elasticPotentialEnergy": {
       "value": "Attakkar da ke cikin abinda ake iya miƙewa ko matsewa "
@@ -3408,20 +3399,8 @@
     "energyLegend": {
       "value": "Taswirar kuzari "
     },
-    "forces": {
-      "value": "Ƙarfi"
-    },
     "gravitationalPotentialEnergy": {
-      "value": "Attakkar da kega Abubuwa biyu Manya-manya idan suna kusa da juna "
-    },
-    "gravity": {
-      "value": "Nauyin iska (Maganaɗisun da ke jawo abu zuwa ban kasa)"
-    },
-    "heightEqualsZero": {
-      "value": "Tsawo "
-    },
-    "body.jupiter": {
-      "value": "Duniyar Jopita "
+      "value": "Attakkar dake tsakanin abubuwa biyu "
     },
     "ke": {
       "value": "Haruffan K da E"
@@ -3429,53 +3408,11 @@
     "kineticEnergy": {
       "value": "Attakkar dake ga abu idan yana tafiya "
     },
-    "large": {
-      "value": "Babba"
-    },
-    "lots": {
-      "value": "Dayawa"
-    },
-    "mass": {
-      "value": "Nauyi "
-    },
-    "massEquilibrium": {
-      "value": "Inda nauyi ya Daidaita "
-    },
-    "body.moon": {
-      "value": "Wata "
-    },
-    "movableLine": {
-      "value": "Layin da ake iya gusarwa "
-    },
-    "naturalLength": {
-      "value": "Tsawo na asali "
-    },
-    "netForce": {
-      "value": "Jimlar ƙarfi"
-    },
-    "none": {
-      "value": "Ba ko ɗaya ba "
-    },
     "peElas": {
       "value": "Haruffan P da E"
     },
     "peGrav": {
       "value": "Haruffan P da E"
-    },
-    "periodTrace": {
-      "value": "Layi mai nuna lokaci "
-    },
-    "body.planetX": {
-      "value": "Duniya mai harafin X"
-    },
-    "small": {
-      "value": "Ƙarami"
-    },
-    "spring": {
-      "value": "Sifirin (Abinda ake iya miƙewa da matsewa)"
-    },
-    "springStrength": {
-      "value": "Karfin dake ga sifirin {{spring}}"
     },
     "thermalEnergy": {
       "value": "Attakkar zafi "
@@ -3483,17 +3420,119 @@
     "totalEnergy": {
       "value": "Jimlar Attakka"
     },
-    "velocity": {
-      "value": "Sauri"
+    "eTot": {
+      "value": "E<sub>total</sub>"
     },
-    "whatIsTheValueOfGravity": {
-      "value": "Minene ƙimar nauyin iska?"
+    "massValue": {
+      "value": "{{mass}} harafin g"
+    },
+    "questionMark": {
+      "value": "Alamar tambaya"
+    },
+    "mass": {
+      "value": "Nauyi "
+    },
+    "cm": {
+      "value": "Santi mita"
+    },
+    "damping": {
+      "value": "Rage saurin kai-da-komo (saboda wucewar lokaci)"
+    },
+    "dampingEqualsZero": {
+      "value": "Rage saurin kai-da-komo (saboda wucewar lokaci){{equalsZero}}"
+    },
+    "lots": {
+      "value": "Dayawa"
+    },
+    "none": {
+      "value": "Ba ko ɗaya ba "
+    },
+    "gravity": {
+      "value": "Nauyin iska"
     },
     "gravityValue": {
       "value": "{{gravity}}"
     },
-    "massValue": {
-      "value": "{{mass}} harafin g"
+    "whatIsTheValueOfGravity": {
+      "value": "Minene ƙimar nauyin iska?"
+    },
+    "massEquilibrium": {
+      "value": "Inda nauyi ya Daidaita "
+    },
+    "movableLine": {
+      "value": "Layin da ake iya gusarwa "
+    },
+    "displacement": {
+      "value": "Turewa (zakuɗa)"
+    },
+    "naturalLength": {
+      "value": "Tsawo na asali "
+    },
+    "periodTrace": {
+      "value": "Layi mai nuna lokaci "
+    },
+    "springConstant": {
+      "value": "Lambar sifirin {{spring}}"
+    },
+    "heightEqualsZero": {
+      "value": "Tsawo "
+    },
+    "large": {
+      "value": "Babba"
+    },
+    "small": {
+      "value": "Ƙarami"
+    },
+    "screen.energy": {
+      "value": "Kuzari/Attakka"
+    },
+    "thickness": {
+      "value": "Kauri"
+    },
+    "equilibriumPosition": {
+      "value": "Daidaita"
+    },
+    "constantParameter": {
+      "value": "Abinda bai canzawa"
+    },
+    "length": {
+      "value": "Tsawon sifirin {{spring}}"
+    },
+    "long": {
+      "value": "Dogo"
+    },
+    "short": {
+      "value": "Gajere"
+    },
+    "screen.intro": {
+      "value": "Gabatarwa"
+    },
+    "acceleration": {
+      "value": "Ujila"
+    },
+    "forces": {
+      "value": "Ƙarfi"
+    },
+    "netForce": {
+      "value": "Jimlar ƙarfi"
+    },
+    "spring": {
+      "value": "Sifirin (Abinda ake iya miƙewa da matsewa)"
+    },
+    "velocity": {
+      "value": "Sauri"
+    },
+    "screen.lab": {
+      "value": "Dakin bincike"
+    },
+    "screen.vectors": {
+      "value": "Hamili"
+    },
+    "masses-and-springs.title": {
+      "value": "Nauyayyaki da sifirin-sifirin"
+    },
+    "springStrength": {
+      "value": "Karfin dake ga sifirin {{spring}}"
     }
   },
   "hi": {

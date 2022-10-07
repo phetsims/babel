@@ -1991,6 +1991,9 @@
     "negatives": {
       "value": "Negativi"
     },
+    "netWorthWithCurrencyPattern": {
+      "value": "{{netWorthString}} ({{currencyUnits}})"
+    },
     "netWorth": {
       "value": "Patrimonio netto"
     },
@@ -2006,6 +2009,9 @@
     "remove": {
       "value": "togli"
     },
+    "addRemoveZeroCurrencyPattern": {
+      "value": "{{addOrRemove}} {{currencyUnits}}0"
+    },
     "addRemoveAssetDebtPattern": {
       "value": "{{addOrRemove}} {{assetOrDebt}} di {{currencyUnits}}{{value}}"
     },
@@ -2015,6 +2021,12 @@
     "debt": {
       "value": "debito"
     },
+    "addRemoveZeroPattern": {
+      "value": "{{addOrRemove}} 0"
+    },
+    "addRemovePositiveNegativePattern": {
+      "value": "{{addOrRemove}} {{positiveOrNegative}} {{value}}"
+    },
     "positive": {
       "value": "positivo"
     },
@@ -2023,6 +2035,15 @@
     },
     "total": {
       "value": "Totale"
+    },
+    "totalCurrencyPattern": {
+      "value": "{{totalString}} = {{sign}}{{currencyUnits}}{{totalValue}}"
+    },
+    "totalValuePattern": {
+      "value": "{{totalString}} = {{totalValue}}"
+    },
+    "currencyValuePattern": {
+      "value": "{{sign}}{{currencyUnits}}{{value}}"
     },
     "screen.generic": {
       "value": "Generico"
@@ -3672,6 +3693,116 @@
     },
     "simplify": {
       "value": "Поједностављено"
+    }
+  },
+  "sv": {
+    "screen.chips": {
+      "value": "spelpjäsar"
+    },
+    "operationDescriptions": {
+      "value": "operation"
+    },
+    "operationLabels": {
+      "value": "operations etiketter"
+    },
+    "tickMarks": {
+      "value": "stegindelning"
+    },
+    "positives": {
+      "value": "positiva"
+    },
+    "negatives": {
+      "value": "negativa"
+    },
+    "netWorthWithCurrencyPattern": {
+      "value": "{{netWorthString}} ({{currencyUnits}})"
+    },
+    "netWorth": {
+      "value": "netto förmögenhet"
+    },
+    "currencyUnits": {
+      "value": "kr"
+    },
+    "operationOffScale": {
+      "value": "operation utanför stegindelning"
+    },
+    "add": {
+      "value": "lägg till"
+    },
+    "remove": {
+      "value": "ta bort"
+    },
+    "addRemoveZeroCurrencyPattern": {
+      "value": "{{addOrRemove}} {{currencyUnits}}0"
+    },
+    "addRemoveAssetDebtPattern": {
+      "value": "{{addOrRemove}} {{assetOrDebt}} of {{currencyUnits}}{{value}}"
+    },
+    "asset": {
+      "value": "tillgång"
+    },
+    "debt": {
+      "value": "skuld"
+    },
+    "addRemoveZeroPattern": {
+      "value": "{{addOrRemove}} 0"
+    },
+    "addRemovePositiveNegativePattern": {
+      "value": "{{addOrRemove}} {{positiveOrNegative}} {{value}}"
+    },
+    "positive": {
+      "value": "positiv"
+    },
+    "negative": {
+      "value": "negativ"
+    },
+    "total": {
+      "value": "total"
+    },
+    "totalCurrencyPattern": {
+      "value": "{{totalString}} = {{sign}}{{currencyUnits}}{{totalValue}}"
+    },
+    "totalValuePattern": {
+      "value": "{{totalString}} = {{totalValue}}"
+    },
+    "currencyValuePattern": {
+      "value": "{{sign}}{{currencyUnits}}{{value}}"
+    },
+    "screen.generic": {
+      "value": "allmänt"
+    },
+    "pointLabels": {
+      "value": "punkt etiketter"
+    },
+    "numericalExpression": {
+      "value": "numerika uttryck"
+    },
+    "screen.netWorth": {
+      "value": "Förmegenhet"
+    },
+    "loan": {
+      "value": "lån"
+    },
+    "assets": {
+      "value": "tillgång"
+    },
+    "debts": {
+      "value": "skuld"
+    },
+    "number-line-operations.title": {
+      "value": "tallinje"
+    },
+    "screen.operations": {
+      "value": "operation"
+    },
+    "initialNetWorth": {
+      "value": "förmögenhet i början"
+    },
+    "initialNetWorthWithBreak": {
+      "value": "förmögenhet i början"
+    },
+    "simplify": {
+      "value": "förenkla"
     }
   },
   "sw": {

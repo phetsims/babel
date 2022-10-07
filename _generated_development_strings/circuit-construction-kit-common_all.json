@@ -1292,14 +1292,20 @@
     "oneSecond": {
       "value": "1 s"
     },
-    "questionMark": {
-      "value": "?"
-    },
     "acSource": {
-      "value": "Voltatge corrent altern"
+      "value": "Voltatge CA"
+    },
+    "addRealBulbs": {
+      "value": "Afegiu Bombetes"
+    },
+    "advanced": {
+      "value": "Avançat"
     },
     "ammeter": {
       "value": "Amperímetre"
+    },
+    "ammeterReadout": {
+      "value": "Lector d'Amperímetres"
     },
     "ammeters": {
       "value": "Amperímetres"
@@ -1311,7 +1317,16 @@
       "value": "Bateria"
     },
     "batteryResistance": {
-      "value": "Resistència de la bateria"
+      "value": "Resistència de la Bateria"
+    },
+    "british": {
+      "value": "Britànic"
+    },
+    "capacitance": {
+      "value": "Capacitància"
+    },
+    "capacitor": {
+      "value": "Condensador"
     },
     "coin": {
       "value": "Moneda"
@@ -1322,17 +1337,23 @@
     "current": {
       "value": "Intensitat"
     },
+    "currentWithUnits": {
+      "value": "Intensitat (A)"
+    },
     "currentChart": {
-      "value": "Gràfic d'intensitat"
+      "value": "Gràfic d'Intensitat"
     },
     "currentRating": {
-      "value": "Màxim d'intensitat de corrent"
+      "value": "Màxim d'Intensitat de Corrent"
+    },
+    "dataOutOfRange": {
+      "value": "Dades fora d'interval"
     },
     "dog": {
       "value": "Gos"
     },
     "dollarBill": {
-      "value": "Bitllet d'un dòlar"
+      "value": "Bitllet d'un Dòlar"
     },
     "electrons": {
       "value": "Electrons"
@@ -1349,6 +1370,18 @@
     "hand": {
       "value": "Mà"
     },
+    "iec": {
+      "value": "IEC"
+    },
+    "ieee": {
+      "value": "IEEE"
+    },
+    "inductance": {
+      "value": "inductància"
+    },
+    "inductor": {
+      "value": "Inductor"
+    },
     "labels": {
       "value": "Etiquetes"
     },
@@ -1356,13 +1389,19 @@
       "value": "Bombeta"
     },
     "lots": {
-      "value": "molt"
+      "value": "molta"
+    },
+    "magnitude": {
+      "value": "Magnitud"
     },
     "paperClip": {
-      "value": "Clip de paper"
+      "value": "Clip de Paper"
     },
     "pencil": {
       "value": "Llapis"
+    },
+    "phaseShift": {
+      "value": "Canvi de Fase"
     },
     "resistance": {
       "value": "Resistència"
@@ -1370,8 +1409,20 @@
     "resistor": {
       "value": "Resistència"
     },
+    "schematicStandard": {
+      "value": "Estàndard d'Esquema"
+    },
     "showCurrent": {
       "value": "Mostra corrent"
+    },
+    "signed": {
+      "value": "Signat"
+    },
+    "sourceResistance": {
+      "value": "Font de Resistència"
+    },
+    "stopwatch": {
+      "value": "Cronòmetre"
     },
     "switch": {
       "value": "Interruptor"
@@ -1389,7 +1440,7 @@
       "value": "Temps"
     },
     "tiny": {
-      "value": "poc"
+      "value": "poca"
     },
     "values": {
       "value": "Valors"
@@ -1397,8 +1448,11 @@
     "voltage": {
       "value": "Voltatge"
     },
+    "voltageWithUnits": {
+      "value": "Voltatge (V)"
+    },
     "voltageChart": {
-      "value": "Gràfic de voltatge"
+      "value": "Gràfic de Voltatge"
     },
     "voltmeter": {
       "value": "Voltímetre"
@@ -1407,13 +1461,25 @@
       "value": "Conductor"
     },
     "wireResistivity": {
-      "value": "Resistivitat del cable"
+      "value": "Resistivitat del Cable"
+    },
+    "capacitanceUnits": {
+      "value": "{{capacitance}} F"
     },
     "currentUnits": {
       "value": "{{current}} A"
     },
     "frequencyHzValuePattern": {
       "value": "{{frequency}} Hz"
+    },
+    "inductanceUnits": {
+      "value": "{{inductance}} H"
+    },
+    "capacitanceFaradsSymbol": {
+      "value": "{{resistance}} F"
+    },
+    "inductanceHenriesSymbol": {
+      "value": "{{resistance}} H"
     },
     "fuseValue": {
       "value": "{{resistance}} mΩ<br><span style=\"font-size: 16px;\">≤ {{currentRating}} A</span>"
@@ -1429,6 +1495,9 @@
     },
     "voltageVoltsValuePattern": {
       "value": "{{voltage}} volts"
+    },
+    "questionMark": {
+      "value": "?"
     }
   },
   "cs": {
@@ -3395,17 +3464,26 @@
     }
   },
   "fi": {
-    "questionMark": {
-      "value": "?"
+    "acSource": {
+      "value": "Vaihtojännite"
+    },
+    "addRealBulbs": {
+      "value": "Lisää lamppu"
+    },
+    "advanced": {
+      "value": "Lisävalinnat"
     },
     "ammeter": {
       "value": "Virtamittari"
+    },
+    "ammeterReadout": {
+      "value": "Virtamittarin lukema"
     },
     "ammeters": {
       "value": "Virtamittarit"
     },
     "animationSpeedLimitReached": {
-      "value": "Animaation nopeusrajoitus saavutettu! Simulaation nopeus laskettu {{percent}}%:iin normaalista."
+      "value": "Animaation maksiminopeus saavutettu! Simulaation nopeus laskettu {{percent}}%:iin normaalista."
     },
     "battery": {
       "value": "Paristo"
@@ -3413,14 +3491,32 @@
     "batteryResistance": {
       "value": "Pariston resistanssi"
     },
+    "british": {
+      "value": "Englantilainen"
+    },
+    "capacitance": {
+      "value": "Kapasitanssi"
+    },
+    "capacitor": {
+      "value": "Kondensaattori"
+    },
     "coin": {
       "value": "Kolikko"
     },
     "conventional": {
-      "value": "Tavanomainen"
+      "value": "Perinteinen"
     },
     "current": {
       "value": "Virta"
+    },
+    "currentWithUnits": {
+      "value": "Sähkövirta"
+    },
+    "currentChart": {
+      "value": "Virran kuvaaja"
+    },
+    "dataOutOfRange": {
+      "value": "Liian suuri arvo"
     },
     "dog": {
       "value": "Koira"
@@ -3434,8 +3530,20 @@
     "eraser": {
       "value": "Pyyhekumi"
     },
+    "frequency": {
+      "value": "Taajuus"
+    },
+    "fuse": {
+      "value": "Sulake"
+    },
     "hand": {
       "value": "Käsi"
+    },
+    "inductance": {
+      "value": "Induktanssi"
+    },
+    "inductor": {
+      "value": "Käämi"
     },
     "labels": {
       "value": "Nimet"
@@ -3446,11 +3554,17 @@
     "lots": {
       "value": "paljon"
     },
+    "magnitude": {
+      "value": "Suuruus"
+    },
     "paperClip": {
       "value": "Paperiliitin"
     },
     "pencil": {
       "value": "Kynä"
+    },
+    "phaseShift": {
+      "value": "Vaihe-ero"
     },
     "resistance": {
       "value": "Resistanssi"
@@ -3458,20 +3572,35 @@
     "resistor": {
       "value": "Vastus"
     },
+    "schematicStandard": {
+      "value": "Standardi"
+    },
     "showCurrent": {
       "value": "Näytä virta"
+    },
+    "signed": {
+      "value": "Etumerkillinen"
+    },
+    "sourceResistance": {
+      "value": "Jännitelähteen resistanssi"
+    },
+    "stopwatch": {
+      "value": "Sekuntikello"
     },
     "switch": {
       "value": "Kytkin"
     },
     "tapCircuitElementToEdit": {
-      "value": "Muokkaa elementtiä napauttamalla."
+      "value": "Muokkaa virtapiirin komponenttia napauttamalla."
     },
     "theSwitchIsClosed": {
       "value": "Kytkin on suljettu."
     },
     "theSwitchIsOpen": {
       "value": "Kytkin on avoin."
+    },
+    "time": {
+      "value": "Aika"
     },
     "tiny": {
       "value": "pieni"
@@ -3481,6 +3610,12 @@
     },
     "voltage": {
       "value": "Jännite"
+    },
+    "voltageWithUnits": {
+      "value": "Jännite (V)"
+    },
+    "voltageChart": {
+      "value": "Jännitteen kuvaaja"
     },
     "voltmeter": {
       "value": "Jännitemittari"
@@ -3494,9 +3629,6 @@
     "currentUnits": {
       "value": "{{current}} A"
     },
-    "resistanceOhms": {
-      "value": "{{resistance}} ohmia"
-    },
     "resistanceOhmsValuePattern": {
       "value": "{{resistance}} ohmia"
     },
@@ -3508,6 +3640,12 @@
     },
     "voltageVoltsValuePattern": {
       "value": "{{voltage}} volttia"
+    },
+    "questionMark": {
+      "value": "?"
+    },
+    "resistanceOhms": {
+      "value": "{{resistance}} ohmia"
     }
   },
   "fo": {
@@ -5108,7 +5246,7 @@
       "value": "Tinye Bọlbụ Ọkụ"
     },
     "advanced": {
-      "value": "Nke dị elu"
+      "value": "Nke Dị Elu"
     },
     "ammeter": {
       "value": "Ammeter"
@@ -5123,13 +5261,13 @@
       "value": "Batrị"
     },
     "batteryResistance": {
-      "value": "Nguzogide batrị"
+      "value": "Nguzogide Batrị"
     },
     "british": {
-      "value": "Onye ocha"
+      "value": "Onye Ocha"
     },
     "capacitance": {
-      "value": "Ike echekwara"
+      "value": "Ike Echekwara"
     },
     "capacitor": {
       "value": "Ụlọ Ahịa Ike"
@@ -5165,7 +5303,7 @@
       "value": "Nchicha"
     },
     "frequency": {
-      "value": "Kwa nke abụọ ije"
+      "value": "Kwa Nke Abụọ Ije"
     },
     "fuse": {
       "value": "Bee ngwá Ọrụ Dị Ugbu "
@@ -5186,16 +5324,16 @@
       "value": "Na-emegide Ọkụ Eletrik Ngwá ọrụ"
     },
     "labels": {
-      "value": "Akara aha"
+      "value": "Akara Aha"
     },
     "lightBulb": {
-      "value": "Ọkụ bọlbụ"
+      "value": "Ọkụ Bọlbụ"
     },
     "lots": {
       "value": "Otutu"
     },
     "paperClip": {
-      "value": "Mkpa akwụkwọ"
+      "value": "Mkpa Akwụkwọ"
     },
     "pencil": {
       "value": "Pensụl"
@@ -5225,7 +5363,7 @@
       "value": "Ngụ Oge"
     },
     "switch": {
-      "value": "Gbanyụọ ma Gbanyụọ"
+      "value": "Gbanyụọ Ma Gbanyụọ"
     },
     "tapCircuitElementToEdit": {
       "value": "Kpatụ ihe sekit iji dezie."
@@ -8480,6 +8618,9 @@
     "ammeter": {
       "value": "Amita"
     },
+    "ammeterReadout": {
+      "value": "Werengani Amita"
+    },
     "ammeters": {
       "value": "Ma Amita"
     },
@@ -8490,7 +8631,7 @@
       "value": "Batire"
     },
     "batteryResistance": {
-      "value": "Kutsutsana kwa mu Batire"
+      "value": "Resitance ya Batire"
     },
     "british": {
       "value": "British"
@@ -8519,6 +8660,9 @@
     "currentRating": {
       "value": "Mlingo wa Kalenti"
     },
+    "dataOutOfRange": {
+      "value": "Uthenga suli mu mndandanda "
+    },
     "dog": {
       "value": "Galu"
     },
@@ -8526,7 +8670,7 @@
       "value": "Ndalama"
     },
     "electrons": {
-      "value": "Elekitironi"
+      "value": "Ma Elekitironi"
     },
     "eraser": {
       "value": "Chofufutira"
@@ -8561,6 +8705,9 @@
     "lots": {
       "value": "zambiri"
     },
+    "magnitude": {
+      "value": "Kukula"
+    },
     "paperClip": {
       "value": "Kopanira mapepala"
     },
@@ -8570,11 +8717,8 @@
     "phaseShift": {
       "value": "Phase Shift"
     },
-    "realBulb": {
-      "value": "Babu Lenileni"
-    },
     "resistance": {
-      "value": "Kutsutsana"
+      "value": "Resistance"
     },
     "resistor": {
       "value": "Resistor"
@@ -8585,8 +8729,11 @@
     "showCurrent": {
       "value": "Wonetsa Kalenti"
     },
+    "signed": {
+      "value": "Anasaina"
+    },
     "sourceResistance": {
-      "value": "Gwero la Kutsutsana"
+      "value": "Gwero la Resistance"
     },
     "stopwatch": {
       "value": "Wotchi yoyimitsa"
@@ -8663,17 +8810,8 @@
     "voltageVoltsValuePattern": {
       "value": "{{voltage}} volts"
     },
-    "ammeterReadout": {
-      "value": "Werengani Amita"
-    },
-    "dataOutOfRange": {
-      "value": "Uthenga suli mu mndandanda "
-    },
-    "magnitude": {
-      "value": "Kukula"
-    },
-    "signed": {
-      "value": "Anasaina"
+    "realBulb": {
+      "value": "Babu Lenileni"
     }
   },
   "om": {

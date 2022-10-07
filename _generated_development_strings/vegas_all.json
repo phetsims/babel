@@ -2737,38 +2737,17 @@
     }
   },
   "ig": {
-    "chooseYourLevel": {
-      "value": "Họrọ Ọkwa Gị!"
-    },
-    "done": {
-      "value": "Zuru-ezu"
-    },
-    "next": {
-      "value": "Ọzọ"
-    },
-    "score": {
-      "value": "ụgwọ ọrụ"
-    },
-    "pattern.score.number": {
-      "value": "Ụgwọ ọrụ: {{score}}"
-    },
-    "youCompletedAllLevels": {
-      "value": "Mezue ọkwa niile!"
-    },
-    "pattern.0minutes.1seconds": {
-      "value": "{0}:{1}"
-    },
-    "pattern.0hours.1minutes.2seconds": {
-      "value": "{0}:{1}:{2}"
-    },
     "pattern.0yourBest": {
-      "value": "(Nke kacha Mma: {0})"
+      "value": "(Nke Kacha Mma: {0})"
     },
     "yourNewBest": {
       "value": "(Kacha Mma Gị)"
     },
     "pattern.0challenge.1max": {
-      "value": "Ọrụ {0} nke\r\n\r\n                             {1}"
+      "value": "Ọrụ {0} nke {1}"
+    },
+    "check": {
+      "value": "Gosi"
     },
     "continue": {
       "value": "Gaa-n'ihu"
@@ -2783,13 +2762,25 @@
       "value": "Oke!"
     },
     "keepTrying": {
-      "value": "Nọgide na-Agbalị"
+      "value": "Nọgide Na-Agbalị"
     },
     "label.level": {
       "value": "Amangiri:{0}"
     },
+    "next": {
+      "value": "Ọzọ"
+    },
+    "label.scorePattern": {
+      "value": "Akara: {0}"
+    },
     "label.score.max": {
       "value": "Ụgwọ ọrụ: {0} si {1}"
+    },
+    "selectLevel": {
+      "value": "Họrọ Ọkwa"
+    },
+    "showAnswer": {
+      "value": "Hụ Azịza"
     },
     "startOver": {
       "value": "Malite"
@@ -2797,20 +2788,29 @@
     "label.time": {
       "value": "Oge: {0}"
     },
-    "check": {
-      "value": "Gosi"
-    },
-    "showAnswer": {
-      "value": "Hụ Azịza"
-    },
     "tryAgain": {
-      "value": "nwaa ọzọ"
+      "value": "Nwaa Ọzọ"
     },
-    "label.scorePattern": {
-      "value": "Akara: {0}"
+    "pattern.0minutes.1seconds": {
+      "value": "{0}:{1}"
     },
-    "selectLevel": {
-      "value": "Họrọ Ọkwa"
+    "pattern.0hours.1minutes.2seconds": {
+      "value": "{0}:{1}:{2}"
+    },
+    "chooseYourLevel": {
+      "value": "Họrọ Ọkwa Gị!"
+    },
+    "score": {
+      "value": "ụgwọ ọrụ"
+    },
+    "pattern.score.number": {
+      "value": "Ụgwọ ọrụ: {{score}}"
+    },
+    "done": {
+      "value": "Zuru-ezu"
+    },
+    "youCompletedAllLevels": {
+      "value": "Mezue ọkwa niile!"
     },
     "keepGoing": {
       "value": "Gaa N'ihu"
@@ -5881,32 +5881,11 @@
     }
   },
   "sw": {
-    "keepGoing": {
-      "value": "Endelea"
-    },
-    "newLevel": {
-      "value": "Kiwango Kipya"
-    },
-    "score": {
-      "value": "Alama:"
-    },
-    "pattern.score.number": {
-      "value": "Alama: {{score}}"
-    },
-    "pattern.0minutes.1seconds": {
-      "value": "{0}:{1}"
-    },
-    "pattern.0hours.1minutes.2seconds": {
-      "value": "{0}:{1}:{2}"
-    },
     "pattern.0yourBest": {
       "value": "(Matokeo yako ya bora: {0})"
     },
     "yourNewBest": {
       "value": "(Matokeo yako ya bora mpya!)"
-    },
-    "pattern.0challenge.1max": {
-      "value": "Changamoto {0} ya {1}"
     },
     "check": {
       "value": "Checki"
@@ -5932,17 +5911,20 @@
     "label.level": {
       "value": "Kiwango: {0}"
     },
-    "next": {
-      "value": "Ijayo"
+    "score": {
+      "value": "Alama:"
+    },
+    "label.scorePattern": {
+      "value": "Alama: {0}"
     },
     "label.score.max": {
-      "value": "Matokeo: {0} toka {1}"
+      "value": "Alama: {0} toka {1}"
+    },
+    "pattern.score.number": {
+      "value": "Alama: {{score}}"
     },
     "showAnswer": {
       "value": "Onyesha Jibu"
-    },
-    "startOver": {
-      "value": "Anza Upya"
     },
     "label.time": {
       "value": "Muda: {0}"
@@ -5950,8 +5932,32 @@
     "tryAgain": {
       "value": "Jaribu Tena"
     },
-    "label.scorePattern": {
-      "value": "Matokeo: {0}"
+    "pattern.0minutes.1seconds": {
+      "value": "{0}:{1}"
+    },
+    "pattern.0hours.1minutes.2seconds": {
+      "value": "{0}:{1}:{2}"
+    },
+    "done": {
+      "value": "Imefanyika"
+    },
+    "next": {
+      "value": "Ijayo"
+    },
+    "youCompletedAllLevels": {
+      "value": "Umemaliza levo zote"
+    },
+    "keepGoing": {
+      "value": "Endelea"
+    },
+    "newLevel": {
+      "value": "Kiwango Kipya"
+    },
+    "pattern.0challenge.1max": {
+      "value": "Changamoto {0} ya {1}"
+    },
+    "startOver": {
+      "value": "Anza Upya"
     },
     "selectLevel": {
       "value": "chagua kiwango"

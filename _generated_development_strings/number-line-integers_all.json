@@ -2839,20 +2839,17 @@
     "comparisonStatement": {
       "value": "Confronto di situazione"
     },
-    "absoluteValue": {
-      "value": "Valore assoluto"
+    "screen.explore": {
+      "value": "Esplora"
     },
-    "labels": {
-      "value": "Etichette"
+    "thermometerALabel": {
+      "value": "A"
     },
-    "tickMarks": {
-      "value": "Tacche"
+    "thermometerBLabel": {
+      "value": "B"
     },
-    "opposite": {
-      "value": "Opposto"
-    },
-    "screen.generic": {
-      "value": "Generico"
+    "thermometerCLabel": {
+      "value": "C"
     },
     "currencyUnits": {
       "value": "€"
@@ -2863,8 +2860,8 @@
     "debtAmount": {
       "value": "debito di €{{value}}"
     },
-    "numberLine": {
-      "value": "Retta orientata"
+    "moneyAmount": {
+      "value": "{{currencyUnit}}{{value}}"
     },
     "balance": {
       "value": "Saldo"
@@ -2877,6 +2874,9 @@
     },
     "seaLevel": {
       "value": "livello del mare"
+    },
+    "elevationAmount": {
+      "value": "{{value}} m"
     },
     "elevation": {
       "value": "Altezza"
@@ -2917,11 +2917,35 @@
     "december": {
       "value": "Dicembre"
     },
+    "absoluteValue": {
+      "value": "Valore assoluto"
+    },
+    "labels": {
+      "value": "Etichette"
+    },
+    "numberLine": {
+      "value": "Retta orientata"
+    },
     "negativeTemperatureAmount": {
       "value": "{{value}}° sotto 0"
     },
     "positiveTemperatureAmount": {
       "value": "{{value}}° sopra 0"
+    },
+    "zeroTemperatureAmount": {
+      "value": "{{value}}°"
+    },
+    "temperatureAmountCelsius": {
+      "value": "{{value}}° C"
+    },
+    "temperatureAmountFahrenheit": {
+      "value": "{{value}}° F"
+    },
+    "temperatureLabelCelsius": {
+      "value": "°C"
+    },
+    "temperatureLabelFahrenheit": {
+      "value": "°F"
     },
     "temperatureMapCaption": {
       "value": "Temperatura media mensile all'altezza di 2 metri nel 2018 <br> Generata utilizzando le informazioni del Servizio di Cambiamento Climatico Copernicus (2019)"
@@ -2929,8 +2953,14 @@
     "temperature": {
       "value": "Temperatura"
     },
-    "screen.explore": {
-      "value": "Esplora"
+    "screen.generic": {
+      "value": "Generico"
+    },
+    "tickMarks": {
+      "value": "Tacche"
+    },
+    "opposite": {
+      "value": "Opposto"
     },
     "number-line-integers.title": {
       "value": "Retta orientata: numeri interi"
