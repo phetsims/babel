@@ -1,95 +1,4 @@
 {
-  "chooseYourLevel": {
-    "value": "Tria el nivell!",
-    "history": [
-      {
-        "userId": 936741,
-        "timestamp": 1620807834477,
-        "oldValue": "",
-        "newValue": "Tria el nivell!"
-      }
-    ]
-  },
-  "done": {
-    "value": "Fet",
-    "history": [
-      {
-        "userId": 1094568,
-        "timestamp": 1664865810922,
-        "oldValue": "",
-        "newValue": "Fet"
-      }
-    ]
-  },
-  "next": {
-    "value": "Següent",
-    "history": [
-      {
-        "userId": 639116,
-        "timestamp": 1570349115249,
-        "oldValue": "",
-        "newValue": "Següent",
-        "explanation": null
-      }
-    ]
-  },
-  "score": {
-    "value": "Puntuació:",
-    "history": [
-      {
-        "userId": 936741,
-        "timestamp": 1620807834477,
-        "oldValue": "",
-        "newValue": "Puntuació:"
-      }
-    ]
-  },
-  "pattern.score.number": {
-    "value": "Puntuació {{score}}",
-    "history": [
-      {
-        "userId": 936741,
-        "timestamp": 1620807834477,
-        "oldValue": "",
-        "newValue": "Puntuació {{score}}"
-      }
-    ]
-  },
-  "youCompletedAllLevels": {
-    "value": "Has completat tots els nivells!",
-    "history": [
-      {
-        "userId": 1094568,
-        "timestamp": 1664865810922,
-        "oldValue": "",
-        "newValue": "Has completat tots els nivells!"
-      }
-    ]
-  },
-  "pattern.0minutes.1seconds": {
-    "value": "{0}:{1}",
-    "history": [
-      {
-        "userId": 639116,
-        "timestamp": 1570349115249,
-        "oldValue": "",
-        "newValue": "{0}:{1}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0hours.1minutes.2seconds": {
-    "value": "{0}:{1}:{2}",
-    "history": [
-      {
-        "userId": 639116,
-        "timestamp": 1570349115249,
-        "oldValue": "",
-        "newValue": "{0}:{1}:{2}",
-        "explanation": null
-      }
-    ]
-  },
   "pattern.0yourBest": {
     "value": " (El teu millor: {0})",
     "history": [
@@ -114,6 +23,18 @@
       }
     ]
   },
+  "pattern.0challenge.1max": {
+    "value": "Resultats {0} de {1}",
+    "history": [
+      {
+        "userId": 639116,
+        "timestamp": 1570349115248,
+        "oldValue": "",
+        "newValue": "Resultats {0} de {1}",
+        "explanation": null
+      }
+    ]
+  },
   "check": {
     "value": "Comprova-ho",
     "history": [
@@ -129,6 +50,23 @@
         "timestamp": 1619848694583,
         "oldValue": "Comprova",
         "newValue": "Comprova-ho"
+      }
+    ]
+  },
+  "chooseYourLevel": {
+    "value": "Tria el Teu Nivell!",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1620807834477,
+        "oldValue": "",
+        "newValue": "Tria el nivell!"
+      },
+      {
+        "userId": 1094568,
+        "timestamp": 1665255262333,
+        "oldValue": "Tria el nivell!",
+        "newValue": "Tria el Teu Nivell!"
       }
     ]
   },
@@ -204,15 +142,26 @@
       }
     ]
   },
-  "label.scorePattern": {
-    "value": "Puntuació: {0}",
+  "next": {
+    "value": "Següent",
     "history": [
       {
         "userId": 639116,
         "timestamp": 1570349115249,
         "oldValue": "",
-        "newValue": "Puntuació: {0}",
+        "newValue": "Següent",
         "explanation": null
+      }
+    ]
+  },
+  "score": {
+    "value": "Puntuació:",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1620807834477,
+        "oldValue": "",
+        "newValue": "Puntuació:"
       }
     ]
   },
@@ -228,6 +177,17 @@
       }
     ]
   },
+  "pattern.score.number": {
+    "value": "Puntuació {{score}}",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1620807834477,
+        "oldValue": "",
+        "newValue": "Puntuació {{score}}"
+      }
+    ]
+  },
   "showAnswer": {
     "value": "Mostra la resposta",
     "history": [
@@ -237,6 +197,24 @@
         "oldValue": "",
         "newValue": "Mostra la resposta",
         "explanation": null
+      }
+    ]
+  },
+  "startOver": {
+    "value": "Torna a començar",
+    "history": [
+      {
+        "userId": 639116,
+        "timestamp": 1570349115249,
+        "oldValue": "",
+        "newValue": "Tornar a començar",
+        "explanation": null
+      },
+      {
+        "userId": 936741,
+        "timestamp": 1620109813316,
+        "oldValue": "Tornar a començar",
+        "newValue": "Torna a començar"
       }
     ]
   },
@@ -264,14 +242,60 @@
       }
     ]
   },
-  "pattern.0challenge.1max": {
-    "value": "Resultats {0} de {1}",
+  "pattern.0minutes.1seconds": {
+    "value": "{0}:{1}",
     "history": [
       {
         "userId": 639116,
-        "timestamp": 1570349115248,
+        "timestamp": 1570349115249,
         "oldValue": "",
-        "newValue": "Resultats {0} de {1}",
+        "newValue": "{0}:{1}",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 639116,
+        "timestamp": 1570349115249,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}",
+        "explanation": null
+      }
+    ]
+  },
+  "done": {
+    "value": "Fet",
+    "history": [
+      {
+        "userId": 1094568,
+        "timestamp": 1664865810922,
+        "oldValue": "",
+        "newValue": "Fet"
+      }
+    ]
+  },
+  "youCompletedAllLevels": {
+    "value": "Has completat tots els nivells!",
+    "history": [
+      {
+        "userId": 1094568,
+        "timestamp": 1664865810922,
+        "oldValue": "",
+        "newValue": "Has completat tots els nivells!"
+      }
+    ]
+  },
+  "label.scorePattern": {
+    "value": "Puntuació: {0}",
+    "history": [
+      {
+        "userId": 639116,
+        "timestamp": 1570349115249,
+        "oldValue": "",
+        "newValue": "Puntuació: {0}",
         "explanation": null
       }
     ]
@@ -284,24 +308,6 @@
         "timestamp": 1620109813316,
         "oldValue": "",
         "newValue": "Selecciona el nivell"
-      }
-    ]
-  },
-  "startOver": {
-    "value": "Torna a començar",
-    "history": [
-      {
-        "userId": 639116,
-        "timestamp": 1570349115249,
-        "oldValue": "",
-        "newValue": "Tornar a començar",
-        "explanation": null
-      },
-      {
-        "userId": 936741,
-        "timestamp": 1620109813316,
-        "oldValue": "Tornar a començar",
-        "newValue": "Torna a començar"
       }
     ]
   }
