@@ -10,6 +10,39 @@
       }
     ]
   },
+  "keyboardHelpDialog.comboBox.popUpListPattern": {
+    "value": "Pop up list of {{thingPlural}}",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1665306998019,
+        "oldValue": "",
+        "newValue": "Pop up list of {{thingPlural}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.moveThroughPattern": {
+    "value": "Move through {{thingPlural}}",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1665306998019,
+        "oldValue": "",
+        "newValue": "Move through {{thingPlural}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.chooseNewPattern": {
+    "value": "Choose new {{thingSingular}}",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1665306998019,
+        "oldValue": "",
+        "newValue": "Choose new {{thingSingular}}"
+      }
+    ]
+  },
   "key.alt": {
     "value": "Alt",
     "history": [
@@ -93,17 +126,6 @@
       }
     ]
   },
-  "speed.fast": {
-    "value": "Da sauri",
-    "history": [
-      {
-        "userId": 945049,
-        "timestamp": 1658634349945,
-        "oldValue": "",
-        "newValue": "Da sauri"
-      }
-    ]
-  },
   "key.fn": {
     "value": "Harufan Fn",
     "history": [
@@ -178,6 +200,50 @@
       }
     ]
   },
+  "keyboardHelpDialog.jumpToMaximumPattern": {
+    "value": "Tuma zuwa mafi yawa {{maximum}}",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1665306998019,
+        "oldValue": "",
+        "newValue": "Tuma zuwa mafi yawa {{maximum}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMinimumPattern": {
+    "value": "Tuma zuwa mafi ƙaramci {{minimum}}",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1665306998019,
+        "oldValue": "",
+        "newValue": "Tuma zuwa mafi ƙaramci {{minimum}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.maximum": {
+    "value": "mafi yawa",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1665306998019,
+        "oldValue": "",
+        "newValue": "mafi yawa"
+      }
+    ]
+  },
+  "keyboardHelpDialog.minimum": {
+    "value": "mafi ƙaramci",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1665306998019,
+        "oldValue": "",
+        "newValue": "mafi ƙaramci"
+      }
+    ]
+  },
   "keyboardHelpDialog.moveBetweenItemsInAGroup": {
     "value": "Matsa zuwa a cikin gungun",
     "history": [
@@ -211,14 +277,25 @@
       }
     ]
   },
-  "speed.normal": {
-    "value": "Na al'ada",
+  "keyboardHelpDialog.comboBox.option": {
+    "value": "zaɓi",
     "history": [
       {
         "userId": 945049,
-        "timestamp": 1650447174382,
+        "timestamp": 1665306998019,
         "oldValue": "",
-        "newValue": "Na al'ada"
+        "newValue": "zaɓi"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.options": {
+    "value": "zaɓi da ban-da ban",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1665306998019,
+        "oldValue": "",
+        "newValue": "zaɓi da ban-da ban"
       }
     ]
   },
@@ -283,14 +360,14 @@
       }
     ]
   },
-  "speed.slow": {
-    "value": "Sannu-sannu ",
+  "keyboardHelpDialog.slider": {
+    "value": "abin zamiya",
     "history": [
       {
         "userId": 945049,
-        "timestamp": 1658634349945,
+        "timestamp": 1665306998019,
         "oldValue": "",
-        "newValue": "Sannu-sannu "
+        "newValue": "abin zamiya"
       }
     ]
   },
@@ -339,14 +416,47 @@
       }
     ]
   },
-  "stopwatchValueUnitsPattern": {
-    "value": "{{value}}{{units}}",
+  "measuringTapeReadoutPattern": {
+    "value": "{{distance}}{{units}}",
     "history": [
       {
         "userId": 945049,
-        "timestamp": 1665114391982,
+        "timestamp": 1665305101742,
         "oldValue": "",
-        "newValue": "{{value}}{{units}}"
+        "newValue": "{{distance}}{{units}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.verbInLargerStepsPattern": {
+    "value": "{{verb}} in larger steps",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1665306998019,
+        "oldValue": "",
+        "newValue": "{{verb}} in larger steps"
+      }
+    ]
+  },
+  "keyboardHelpDialog.verbInSmallerStepsPattern": {
+    "value": "{{verb}} in smaller steps",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1665306998019,
+        "oldValue": "",
+        "newValue": "{{verb}} in smaller steps"
+      }
+    ]
+  },
+  "keyboardHelpDialog.verbSliderPattern": {
+    "value": "{{verb}}{{slider}}",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1665306998019,
+        "oldValue": "",
+        "newValue": "{{verb}}{{slider}}"
       }
     ]
   },
@@ -372,6 +482,50 @@
       }
     ]
   },
+  "speed.fast": {
+    "value": "Da sauri",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1658634349945,
+        "oldValue": "",
+        "newValue": "Da sauri"
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "Na al'ada",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1650447174382,
+        "oldValue": "",
+        "newValue": "Na al'ada"
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "Sannu-sannu ",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1658634349945,
+        "oldValue": "",
+        "newValue": "Sannu-sannu "
+      }
+    ]
+  },
+  "stopwatchValueUnitsPattern": {
+    "value": "{{value}}{{units}}",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1665114391982,
+        "oldValue": "",
+        "newValue": "{{value}}{{units}}"
+      }
+    ]
+  },
   "key.k": {
     "value": "Harafin K",
     "history": [
@@ -391,17 +545,6 @@
         "timestamp": 1659619061172,
         "oldValue": "",
         "newValue": "Harafin L"
-      }
-    ]
-  },
-  "measuringTapeReadoutPattern": {
-    "value": "{{distance}}{{units}}",
-    "history": [
-      {
-        "userId": 945049,
-        "timestamp": 1665305101742,
-        "oldValue": "",
-        "newValue": "{{distance}}{{units}}"
       }
     ]
   },
