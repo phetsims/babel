@@ -23,6 +23,17 @@
       }
     ]
   },
+  "pattern.0challenge.1max": {
+    "value": "თავსატეხი {0}  {1}-დან",
+    "history": [
+      {
+        "userId": 610972,
+        "timestamp": 1665307463260,
+        "oldValue": "",
+        "newValue": "თავსატეხი {0}  {1}-დან"
+      }
+    ]
+  },
   "check": {
     "value": "შეამოწმე",
     "history": [
@@ -119,14 +130,14 @@
       }
     ]
   },
-  "score": {
-    "value": "ქულა :",
+  "label.scorePattern": {
+    "value": "ქულა: {0}",
     "history": [
       {
         "userId": 381343,
-        "timestamp": 1557258651858,
+        "timestamp": 1506072705684,
         "oldValue": "",
-        "newValue": "ქულა :",
+        "newValue": "ქულა: {0}",
         "explanation": null
       }
     ]
@@ -139,18 +150,6 @@
         "timestamp": 1506072705684,
         "oldValue": "",
         "newValue": "ქულა: {1}-დან {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.score.number": {
-    "value": "ქულა : {{score}}",
-    "history": [
-      {
-        "userId": 381343,
-        "timestamp": 1557258651858,
-        "oldValue": "",
-        "newValue": "ქულა : {{score}}",
         "explanation": null
       }
     ]
@@ -227,14 +226,26 @@
       }
     ]
   },
-  "label.scorePattern": {
-    "value": "ქულა: {0}",
+  "score": {
+    "value": "ქულა :",
     "history": [
       {
         "userId": 381343,
-        "timestamp": 1506072705684,
+        "timestamp": 1557258651858,
         "oldValue": "",
-        "newValue": "ქულა: {0}",
+        "newValue": "ქულა :",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.score.number": {
+    "value": "ქულა : {{score}}",
+    "history": [
+      {
+        "userId": 381343,
+        "timestamp": 1557258651858,
+        "oldValue": "",
+        "newValue": "ქულა : {{score}}",
         "explanation": null
       }
     ]
