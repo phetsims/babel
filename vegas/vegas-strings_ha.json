@@ -43,17 +43,6 @@
       }
     ]
   },
-  "chooseYourLevel": {
-    "value": "zabi lebur naka",
-    "history": [
-      {
-        "userId": 882134,
-        "timestamp": 1664224849301,
-        "oldValue": "",
-        "newValue": "zabi lebur naka"
-      }
-    ]
-  },
   "continue": {
     "value": "Ci gaba",
     "history": [
@@ -88,7 +77,7 @@
     ]
   },
   "great": {
-    "value": "yayi kyau",
+    "value": "yayi kyau!",
     "history": [
       {
         "userId": 945049,
@@ -101,6 +90,12 @@
         "timestamp": 1660924832300,
         "oldValue": "yayi",
         "newValue": "yayi kyau"
+      },
+      {
+        "userId": 945049,
+        "timestamp": 1665302528469,
+        "oldValue": "yayi kyau",
+        "newValue": "yayi kyau!"
       }
     ]
   },
@@ -116,13 +111,19 @@
     ]
   },
   "label.level": {
-    "value": "Mataki {0}",
+    "value": "Mataki: {0}",
     "history": [
       {
         "userId": 945049,
         "timestamp": 1660230517345,
         "oldValue": "",
         "newValue": "Mataki {0}"
+      },
+      {
+        "userId": 945049,
+        "timestamp": 1665302528469,
+        "oldValue": "Mataki {0}",
+        "newValue": "Mataki: {0}"
       }
     ]
   },
@@ -137,14 +138,20 @@
       }
     ]
   },
-  "score": {
-    "value": "maki",
+  "label.scorePattern": {
+    "value": "Maki: {0}",
     "history": [
       {
-        "userId": 882134,
-        "timestamp": 1664224849302,
+        "userId": 945049,
+        "timestamp": 1660230517345,
         "oldValue": "",
-        "newValue": "maki"
+        "newValue": "Maki {0}"
+      },
+      {
+        "userId": 945049,
+        "timestamp": 1665302528469,
+        "oldValue": "Maki {0}",
+        "newValue": "Maki: {0}"
       }
     ]
   },
@@ -159,14 +166,14 @@
       }
     ]
   },
-  "pattern.score.number": {
-    "value": "Maki:  {{score}}",
+  "selectLevel": {
+    "value": "Zaɓi mataki",
     "history": [
       {
-        "userId": 882134,
-        "timestamp": 1664224849302,
+        "userId": 945049,
+        "timestamp": 1660230517345,
         "oldValue": "",
-        "newValue": "Maki:  {{score}}"
+        "newValue": "Zaɓi mataki"
       }
     ]
   },
@@ -236,25 +243,36 @@
       }
     ]
   },
-  "label.scorePattern": {
-    "value": "Maki {0}",
+  "chooseYourLevel": {
+    "value": "zabi lebur naka",
     "history": [
       {
-        "userId": 945049,
-        "timestamp": 1660230517345,
+        "userId": 882134,
+        "timestamp": 1664224849301,
         "oldValue": "",
-        "newValue": "Maki {0}"
+        "newValue": "zabi lebur naka"
       }
     ]
   },
-  "selectLevel": {
-    "value": "Zaɓi mataki",
+  "score": {
+    "value": "maki",
     "history": [
       {
-        "userId": 945049,
-        "timestamp": 1660230517345,
+        "userId": 882134,
+        "timestamp": 1664224849302,
         "oldValue": "",
-        "newValue": "Zaɓi mataki"
+        "newValue": "maki"
+      }
+    ]
+  },
+  "pattern.score.number": {
+    "value": "Maki:  {{score}}",
+    "history": [
+      {
+        "userId": 882134,
+        "timestamp": 1664224849302,
+        "oldValue": "",
+        "newValue": "Maki:  {{score}}"
       }
     ]
   }
