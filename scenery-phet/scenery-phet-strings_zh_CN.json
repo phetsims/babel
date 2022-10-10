@@ -1,4 +1,70 @@
 {
+  "keyboardHelpDialog.hyphen": {
+    "value": "-",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665427309118,
+        "oldValue": "",
+        "newValue": "-"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.popUpListPattern": {
+    "value": "1.{{thingPlural}}的弹出清单",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665427309118,
+        "oldValue": "",
+        "newValue": "1.{{thingPlural}}的弹出清单"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.moveThroughPattern": {
+    "value": "2.在{{thingPlural}}清单中移动",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665427309118,
+        "oldValue": "",
+        "newValue": "2.在{{thingPlural}}清单中移动"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.chooseNewPattern": {
+    "value": "3.选择新的{{thingSingular}}",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665427309118,
+        "oldValue": "",
+        "newValue": "3.选择新的{{thingSingular}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+    "value": "4.关闭清单不做改变",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665427309118,
+        "oldValue": "",
+        "newValue": "4.关闭清单不做改变"
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjust": {
+    "value": "调整",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665427309118,
+        "oldValue": "",
+        "newValue": "调整"
+      }
+    ]
+  },
   "key.alt": {
     "value": "Alt",
     "history": [
@@ -7,6 +73,41 @@
         "timestamp": 1604052841829,
         "oldValue": "",
         "newValue": "Alt",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.basicActions": {
+    "value": "基本操作",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1563852783289,
+        "oldValue": "",
+        "newValue": "基本操作",
+        "explanation": null
+      }
+    ]
+  },
+  "key.capsLock": {
+    "value": "大写锁定",
+    "history": [
+      {
+        "userId": 143772,
+        "timestamp": 1653375796544,
+        "oldValue": "",
+        "newValue": "大写锁定"
+      }
+    ]
+  },
+  "key.end": {
+    "value": "End",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1563852783289,
+        "oldValue": "",
+        "newValue": "End",
         "explanation": null
       }
     ]
@@ -55,14 +156,26 @@
       }
     ]
   },
-  "speed.fast": {
-    "value": "快",
+  "keyboardHelpDialog.exitADialog": {
+    "value": "退出对话",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1563852783289,
+        "oldValue": "",
+        "newValue": "退出对话",
+        "explanation": null
+      }
+    ]
+  },
+  "key.fn": {
+    "value": "Fn",
     "history": [
       {
         "userId": 271405,
-        "timestamp": 1665009880516,
+        "timestamp": 1665427309118,
         "oldValue": "",
-        "newValue": "快"
+        "newValue": "Fn"
       }
     ]
   },
@@ -90,39 +203,117 @@
       }
     ]
   },
-  "key.k": {
-    "value": "K",
+  "key.home": {
+    "value": "Home",
     "history": [
       {
         "userId": 685789,
-        "timestamp": 1604052841829,
+        "timestamp": 1563852783289,
         "oldValue": "",
-        "newValue": "K",
+        "newValue": "Home",
         "explanation": null
       }
     ]
   },
-  "key.l": {
-    "value": "L",
+  "keyboardHelpDialog.jumpToMaximumPattern": {
+    "value": "跳到{{maximum}}",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665427309118,
+        "oldValue": "",
+        "newValue": "跳到{{maximum}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMinimumPattern": {
+    "value": "跳到{{minimum}}",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665427309118,
+        "oldValue": "",
+        "newValue": "跳到{{minimum}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.maximum": {
+    "value": "最大值",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665427309118,
+        "oldValue": "",
+        "newValue": "最大值"
+      }
+    ]
+  },
+  "keyboardHelpDialog.minimum": {
+    "value": "最小值",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665427309118,
+        "oldValue": "",
+        "newValue": "最小值"
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+    "value": "移到组内物体",
     "history": [
       {
         "userId": 685789,
-        "timestamp": 1604052841829,
+        "timestamp": 1563852783289,
         "oldValue": "",
-        "newValue": "L",
+        "newValue": "移到组内物体",
         "explanation": null
       }
     ]
   },
-  "speed.normal": {
-    "value": "正常",
+  "keyboardHelpDialog.moveToNextItemOrGroup": {
+    "value": "下一个物体或组合",
     "history": [
       {
-        "userId": 293040,
-        "timestamp": 1540971604256,
+        "userId": 685789,
+        "timestamp": 1563852783289,
         "oldValue": "",
-        "newValue": "正常",
+        "newValue": "下一个物体或组合",
         "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+    "value": "上一个物体或组合",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1563852783289,
+        "oldValue": "",
+        "newValue": "上一个物体或组合",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.option": {
+    "value": "选项",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665427309119,
+        "oldValue": "",
+        "newValue": "选项"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.options": {
+    "value": "选项",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665427309119,
+        "oldValue": "",
+        "newValue": "选项"
       }
     ]
   },
@@ -204,6 +395,18 @@
       }
     ]
   },
+  "keyboardHelpDialog.pressButtons": {
+    "value": "按下按钮",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1563852783289,
+        "oldValue": "",
+        "newValue": "按下按钮",
+        "explanation": null
+      }
+    ]
+  },
   "key.shift": {
     "value": "Shift",
     "history": [
@@ -233,18 +436,6 @@
         "timestamp": 1604051980929,
         "oldValue": "移动",
         "newValue": "Shift",
-        "explanation": null
-      }
-    ]
-  },
-  "speed.slow": {
-    "value": "慢速",
-    "history": [
-      {
-        "userId": 293040,
-        "timestamp": 1540971604256,
-        "oldValue": "",
-        "newValue": "慢速",
         "explanation": null
       }
     ]
@@ -315,6 +506,18 @@
       }
     ]
   },
+  "keyboardHelpDialog.toggleCheckboxes": {
+    "value": "勾选框",
+    "history": [
+      {
+        "userId": 685789,
+        "timestamp": 1573111198401,
+        "oldValue": "",
+        "newValue": "勾选框",
+        "explanation": null
+      }
+    ]
+  },
   "measuringTapeReadoutPattern": {
     "value": "{{distance}} {{units}}",
     "history": [
@@ -323,17 +526,6 @@
         "timestamp": 1665009880516,
         "oldValue": "",
         "newValue": "{{distance}} {{units}}"
-      }
-    ]
-  },
-  "stopwatchValueUnitsPattern": {
-    "value": "{{value}} {{units}}",
-    "history": [
-      {
-        "userId": 271405,
-        "timestamp": 1665009880516,
-        "oldValue": "",
-        "newValue": "{{value}} {{units}}"
       }
     ]
   },
@@ -367,122 +559,73 @@
       }
     ]
   },
-  "keyboardHelpDialog.basicActions": {
-    "value": "基本操作",
+  "speed.fast": {
+    "value": "快",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665009880516,
+        "oldValue": "",
+        "newValue": "快"
+      }
+    ]
+  },
+  "key.k": {
+    "value": "K",
     "history": [
       {
         "userId": 685789,
-        "timestamp": 1563852783289,
+        "timestamp": 1604052841829,
         "oldValue": "",
-        "newValue": "基本操作",
+        "newValue": "K",
         "explanation": null
       }
     ]
   },
-  "key.capsLock": {
-    "value": "大写锁定",
-    "history": [
-      {
-        "userId": 143772,
-        "timestamp": 1653375796544,
-        "oldValue": "",
-        "newValue": "大写锁定"
-      }
-    ]
-  },
-  "key.end": {
-    "value": "End",
+  "key.l": {
+    "value": "L",
     "history": [
       {
         "userId": 685789,
-        "timestamp": 1563852783289,
+        "timestamp": 1604052841829,
         "oldValue": "",
-        "newValue": "End",
+        "newValue": "L",
         "explanation": null
       }
     ]
   },
-  "keyboardHelpDialog.exitADialog": {
-    "value": "退出对话",
+  "speed.normal": {
+    "value": "正常",
     "history": [
       {
-        "userId": 685789,
-        "timestamp": 1563852783289,
+        "userId": 293040,
+        "timestamp": 1540971604256,
         "oldValue": "",
-        "newValue": "退出对话",
+        "newValue": "正常",
         "explanation": null
       }
     ]
   },
-  "key.home": {
-    "value": "Home",
+  "speed.slow": {
+    "value": "慢速",
     "history": [
       {
-        "userId": 685789,
-        "timestamp": 1563852783289,
+        "userId": 293040,
+        "timestamp": 1540971604256,
         "oldValue": "",
-        "newValue": "Home",
+        "newValue": "慢速",
         "explanation": null
       }
     ]
   },
-  "keyboardHelpDialog.moveBetweenItemsInAGroup": {
-    "value": "移到组内物体",
+  "stopwatchValueUnitsPattern": {
+    "value": "{{value}} {{units}}",
     "history": [
       {
-        "userId": 685789,
-        "timestamp": 1563852783289,
+        "userId": 271405,
+        "timestamp": 1665009880516,
         "oldValue": "",
-        "newValue": "移到组内物体",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveToNextItemOrGroup": {
-    "value": "下一个物体或组合",
-    "history": [
-      {
-        "userId": 685789,
-        "timestamp": 1563852783289,
-        "oldValue": "",
-        "newValue": "下一个物体或组合",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveToPreviousItemOrGroup": {
-    "value": "上一个物体或组合",
-    "history": [
-      {
-        "userId": 685789,
-        "timestamp": 1563852783289,
-        "oldValue": "",
-        "newValue": "上一个物体或组合",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.pressButtons": {
-    "value": "按下按钮",
-    "history": [
-      {
-        "userId": 685789,
-        "timestamp": 1563852783289,
-        "oldValue": "",
-        "newValue": "按下按钮",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.toggleCheckboxes": {
-    "value": "勾选框",
-    "history": [
-      {
-        "userId": 685789,
-        "timestamp": 1573111198401,
-        "oldValue": "",
-        "newValue": "勾选框",
-        "explanation": null
+        "newValue": "{{value}} {{units}}"
       }
     ]
   },
