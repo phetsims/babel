@@ -1465,6 +1465,39 @@
     }
   },
   "ca": {
+    "key.enter": {
+      "value": "Accepta"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "Agafa o Deixa Anar {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "Agafa o deixa anar {{thing}}"
+    },
+    "keyboardHelpDialog.or": {
+      "value": "o"
+    },
+    "key.pageDown": {
+      "value": "Pàgina Enrere"
+    },
+    "key.pageUp": {
+      "value": "Pàgina Endavant"
+    },
+    "key.shift": {
+      "value": "Majúscules"
+    },
+    "key.space": {
+      "value": "Espai"
+    },
+    "key.tab": {
+      "value": "Tab."
+    },
+    "symbol.resistivity": {
+      "value": "ρ"
+    },
+    "symbol.ohms": {
+      "value": "Ω"
+    },
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
@@ -1480,9 +1513,6 @@
     "key.end": {
       "value": "Fi"
     },
-    "key.enter": {
-      "value": "Accepta"
-    },
     "key.esc": {
       "value": "Esc."
     },
@@ -1494,12 +1524,6 @@
     },
     "key.fn": {
       "value": "Funció multimèdia"
-    },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Agafa o Deixa Anar {{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "Agafa o deixa anar {{thing}}"
     },
     "key.home": {
       "value": "Inici"
@@ -1516,41 +1540,17 @@
     "speed.normal": {
       "value": "Normal"
     },
-    "keyboardHelpDialog.or": {
-      "value": "o"
-    },
-    "key.pageDown": {
-      "value": "Pàgina Enrere"
-    },
-    "key.pageUp": {
-      "value": "Pàgina Endavant"
-    },
     "keyboardHelpDialog.pressButtons": {
       "value": "Prem els botons"
     },
-    "key.shift": {
-      "value": "Majúscules."
-    },
     "speed.slow": {
       "value": "Lenta"
-    },
-    "key.space": {
-      "value": "Espai"
-    },
-    "key.tab": {
-      "value": "Tab."
     },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Activa o desactiva la selecció "
     },
     "stopwatchValueUnitsPattern": {
       "value": "{{value}} {{units}}"
-    },
-    "symbol.resistivity": {
-      "value": "ρ"
-    },
-    "symbol.ohms": {
-      "value": "Ω"
     },
     "measuringTapeReadoutPattern": {
       "value": "{{distance}} {{units}}"
@@ -4471,11 +4471,26 @@
     }
   },
   "ha": {
+    "keyboardHelpDialog.or": {
+      "value": "Ko kuma"
+    },
+    "key.pageDown": {
+      "value": "Zuwa Ƙasan shafi"
+    },
+    "key.pageUp": {
+      "value": "Zuwa saman shafi"
+    },
+    "key.shift": {
+      "value": "Madannin shift"
+    },
+    "key.tab": {
+      "value": "Tab (a jikin kibod)"
+    },
     "keyboardHelpDialog.hyphen": {
       "value": "Gajeren layi dake tsanin kalmomi guda biyu"
     },
     "key.alt": {
-      "value": "Alt (a jikin kibod)"
+      "value": "Alt"
     },
     "keyboardHelpDialog.basicActions": {
       "value": "Matakan da aka san dasu"
@@ -4502,10 +4517,10 @@
       "value": "Harufan Fn"
     },
     "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Kama ko ka saki {{thing}}"
+      "value": "Grab or Release {{thing}}"
     },
     "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "Kama ko ka saki {{thing}}"
+      "value": "Grab or Release {{thing}}"
     },
     "key.home": {
       "value": "Gida"
@@ -4522,29 +4537,14 @@
     "speed.normal": {
       "value": "Na al'ada"
     },
-    "keyboardHelpDialog.or": {
-      "value": "Ko kuma"
-    },
-    "key.pageDown": {
-      "value": "Zuwa Ƙasan shafi"
-    },
-    "key.pageUp": {
-      "value": "Zuwa saman shafi"
-    },
     "keyboardHelpDialog.pressButtons": {
       "value": "Danna madannai"
-    },
-    "key.shift": {
-      "value": "Madannin shift"
     },
     "speed.slow": {
       "value": "Sannu-sannu "
     },
     "key.space": {
       "value": "Sarari"
-    },
-    "key.tab": {
-      "value": "Tab (a jikin kibod)"
     },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Juyawar wuraren cikawa na kan manhaja"
@@ -4558,6 +4558,15 @@
     "symbol.ohms": {
       "value": "Ω"
     },
+    "key.k": {
+      "value": "Harafin K"
+    },
+    "key.l": {
+      "value": "Harafin L"
+    },
+    "measuringTapeReadoutPattern": {
+      "value": "{{distance}}{{units}}"
+    },
     "keyboardHelpDialog.moveToNextItem": {
       "value": "Matsa zuwa ga abu na gaba"
     },
@@ -4566,12 +4575,6 @@
     },
     "key.toGrabOrRelease": {
       "value": "zuwa <b>Riƙe</b> or <b>saki</b>"
-    },
-    "key.k": {
-      "value": "Harafin K"
-    },
-    "key.l": {
-      "value": "Harafin L"
     },
     "webglWarning.contextLossReload": {
       "value": "Sake saukewa"
@@ -6523,23 +6526,47 @@
     }
   },
   "ka": {
-    "keyboardHelpDialog.basicActions": {
-      "value": "ძირითადი მოქმედებები"
-    },
     "key.enter": {
       "value": "შეყვანა"
     },
     "key.esc": {
       "value": "გამოსვლა"
     },
-    "keyboardHelpDialog.exitADialog": {
-      "value": "დიალოგის დახურვა"
+    "speed.fast": {
+      "value": "სწრაფი"
     },
     "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
       "value": "დაჭერა ან გაშვება {{thing}}"
     },
     "keyboardHelpDialog.grabOrReleaseLabelPattern": {
       "value": "დაჭერა ან გაშვება {{thing}}"
+    },
+    "speed.normal": {
+      "value": "ჩვეულებრივი"
+    },
+    "keyboardHelpDialog.or": {
+      "value": "ან"
+    },
+    "speed.slow": {
+      "value": "ნელი"
+    },
+    "measuringTapeReadoutPattern": {
+      "value": "{{distance}} {{units}}"
+    },
+    "stopwatchValueUnitsPattern": {
+      "value": "{{value}} {{units}}"
+    },
+    "symbol.resistivity": {
+      "value": "ρ"
+    },
+    "symbol.ohms": {
+      "value": "ომი"
+    },
+    "keyboardHelpDialog.basicActions": {
+      "value": "ძირითადი მოქმედებები"
+    },
+    "keyboardHelpDialog.exitADialog": {
+      "value": "დიალოგის დახურვა"
     },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "ჯგუფის სხეულებს შორის გადასვლა"
@@ -6556,9 +6583,6 @@
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "ჯგუფის წინა სხეულზე გადასვლა"
     },
-    "keyboardHelpDialog.or": {
-      "value": "ან"
-    },
     "keyboardHelpDialog.pressButtons": {
       "value": "ღილაკზე დაჭერა"
     },
@@ -6570,21 +6594,6 @@
     },
     "key.end": {
       "value": "დასრულება"
-    },
-    "speed.fast": {
-      "value": "სწრაფი"
-    },
-    "speed.normal": {
-      "value": "ჩვეულებრივი"
-    },
-    "speed.slow": {
-      "value": "ნელი"
-    },
-    "symbol.resistivity": {
-      "value": "ρ"
-    },
-    "symbol.ohms": {
-      "value": "ომი"
     },
     "webglWarning.contextLossReload": {
       "value": "გადატვირთვა"
@@ -14536,14 +14545,50 @@
     }
   },
   "wo": {
+    "keyboardHelpDialog.hyphen": {
+      "value": "-"
+    },
+    "key.alt": {
+      "value": "Alt"
+    },
+    "keyboardHelpDialog.basicActions": {
+      "value": "Jëf Yi Suufe"
+    },
+    "key.capsLock": {
+      "value": "Caps Lock"
+    },
+    "key.end": {
+      "value": "End"
+    },
     "key.enter": {
       "value": "Enter"
+    },
+    "key.esc": {
+      "value": "Esc"
+    },
+    "keyboardHelpDialog.exitADialog": {
+      "value": "genë"
+    },
+    "key.fn": {
+      "value": "Fn"
     },
     "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
       "value": "Bayi {{thing}}"
     },
     "keyboardHelpDialog.grabOrReleaseLabelPattern": {
       "value": "Bayi {{thing}}"
+    },
+    "key.home": {
+      "value": "Keur"
+    },
+    "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+      "value": "Dox Ci digente ñari Mbir Si Benn Mbooloo"
+    },
+    "keyboardHelpDialog.moveToNextItemOrGroup": {
+      "value": "Dem Si Benen Mbir Ci Mbooloo Mi"
+    },
+    "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+      "value": "Dem Ci Mbir Mi Jalë wala Mbooloo"
     },
     "keyboardHelpDialog.or": {
       "value": "Wala"
@@ -14554,6 +14599,9 @@
     "key.pageUp": {
       "value": "Yeek Xët "
     },
+    "keyboardHelpDialog.pressButtons": {
+      "value": "Bësal  Butonbi"
+    },
     "key.shift": {
       "value": "Shift"
     },
@@ -14562,6 +14610,9 @@
     },
     "key.tab": {
       "value": "Tab"
+    },
+    "keyboardHelpDialog.toggleCheckboxes": {
+      "value": "Tëbël Ci Yenen Kër "
     },
     "symbol.resistivity": {
       "value": "ρ"

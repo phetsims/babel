@@ -957,68 +957,17 @@
     }
   },
   "ca": {
-    "body.custom": {
-      "value": "Personalització"
-    },
-    "body.earth": {
-      "value": "Terra"
-    },
-    "body.jupiter": {
-      "value": "Júpiter"
-    },
-    "body.moon": {
-      "value": "Lluna"
-    },
-    "body.planetX": {
-      "value": "Planeta X"
-    },
-    "elasticPotentialEnergy": {
-      "value": "Energia potencial elàstica"
-    },
-    "energyGraph": {
-      "value": "Gràfic d'energia"
-    },
-    "energyLegend": {
-      "value": "llegenda d'energies"
-    },
-    "eTherm": {
-      "value": "Energia tèrmica<sub>term</sub>"
-    },
-    "gravitationalPotentialEnergy": {
-      "value": "Energia potencial gravitatòria"
-    },
-    "ke": {
-      "value": "EC"
-    },
-    "kineticEnergy": {
-      "value": "Energia cinètica"
-    },
-    "peElas": {
-      "value": "Energia potencial elàstica<sub>elas</sub>"
-    },
-    "peGrav": {
-      "value": "Energia potencial gravitatòria<sub>grav</sub>"
-    },
-    "thermalEnergy": {
-      "value": "Energia tèrmica"
-    },
-    "totalEnergy": {
-      "value": "Energia total"
-    },
-    "eTot": {
-      "value": "Eergia mecànica<sub>total</sub>"
-    },
-    "massValue": {
-      "value": "{{mass}} g"
-    },
     "questionMark": {
       "value": "?"
     },
-    "mass": {
-      "value": "Massa"
+    "acceleration": {
+      "value": "Acceleració"
     },
     "cm": {
       "value": "cm"
+    },
+    "body.custom": {
+      "value": "Personalitzar"
     },
     "damping": {
       "value": "Amortiment"
@@ -1026,47 +975,119 @@
     "dampingEqualsZero": {
       "value": "Amortiment{{equalsZero}}"
     },
-    "lots": {
-      "value": "molt"
+    "displacement": {
+      "value": "Desplaçament"
     },
-    "none": {
-      "value": "Cap"
+    "eTherm": {
+      "value": "Energia tèrmica<sub>term</sub>"
+    },
+    "eTot": {
+      "value": "Eergia mecànica<sub>total</sub>"
+    },
+    "body.earth": {
+      "value": "la Terra"
+    },
+    "elasticPotentialEnergy": {
+      "value": "Energia Potencial Elàstica"
+    },
+    "energyGraph": {
+      "value": "Gràfic d'energia"
+    },
+    "energyLegend": {
+      "value": "Llegenda d'Energies"
+    },
+    "forces": {
+      "value": "Forces"
+    },
+    "gravitationalPotentialEnergy": {
+      "value": "Energia Potencial Gravitatòria"
     },
     "gravity": {
       "value": "Gravetat"
     },
-    "gravityValue": {
-      "value": " {{gravity}}m/s<sup>2</sup>"
+    "heightEqualsZero": {
+      "value": "Alçada = 0 m"
+    },
+    "body.jupiter": {
+      "value": "Júpiter"
+    },
+    "ke": {
+      "value": "EC"
+    },
+    "kineticEnergy": {
+      "value": "Energia Cinètica"
+    },
+    "large": {
+      "value": "Molta"
+    },
+    "lots": {
+      "value": "Molta"
+    },
+    "mass": {
+      "value": "Massa"
+    },
+    "massEquilibrium": {
+      "value": "Equilibri de Masses"
+    },
+    "body.moon": {
+      "value": "la Lluna"
+    },
+    "movableLine": {
+      "value": "Línia Ajustable"
+    },
+    "naturalLength": {
+      "value": "Longitud de la molla sense estirar"
+    },
+    "netForce": {
+      "value": "Força Resultant"
+    },
+    "none": {
+      "value": "Cap"
+    },
+    "peElas": {
+      "value": "Energia potencial elàstica<sub>elas</sub>"
+    },
+    "peGrav": {
+      "value": "Energia potencial gravitatòria<sub>grav</sub>"
+    },
+    "periodTrace": {
+      "value": "Traça del Període"
+    },
+    "body.planetX": {
+      "value": "Planeta X"
+    },
+    "small": {
+      "value": "Poca"
+    },
+    "spring": {
+      "value": "Molla"
+    },
+    "springConstantPattern": {
+      "value": "Constant de la Molla {{spring}}"
+    },
+    "springStrength": {
+      "value": "Força de la Molla {{spring}}"
+    },
+    "thermalEnergy": {
+      "value": "Energia tèrmica"
+    },
+    "totalEnergy": {
+      "value": "Energia total"
+    },
+    "velocity": {
+      "value": "Velocitat"
     },
     "whatIsTheValueOfGravity": {
       "value": "Quin és el valor de la gravetat?"
     },
-    "massEquilibrium": {
-      "value": "Equilibri de masses"
+    "gravityValue": {
+      "value": " {{gravity}}m/s<sup>2</sup>"
     },
-    "movableLine": {
-      "value": "línia ajustable"
-    },
-    "displacement": {
-      "value": "desplaçament"
-    },
-    "naturalLength": {
-      "value": "longitud de la molla sense estirar"
-    },
-    "periodTrace": {
-      "value": "Traça del període"
+    "massValue": {
+      "value": "{{mass}} g"
     },
     "springConstant": {
       "value": "Constant de la molla  {{spring}}"
-    },
-    "heightEqualsZero": {
-      "value": "alçada=0 m"
-    },
-    "large": {
-      "value": "gran"
-    },
-    "small": {
-      "value": "Petit"
     },
     "screen.energy": {
       "value": "Energia"
@@ -1091,21 +1112,6 @@
     },
     "screen.intro": {
       "value": "Intro"
-    },
-    "acceleration": {
-      "value": "Acceleració"
-    },
-    "forces": {
-      "value": "Forces"
-    },
-    "netForce": {
-      "value": "Força resultant"
-    },
-    "spring": {
-      "value": "Molla"
-    },
-    "velocity": {
-      "value": "velocitat"
     },
     "screen.lab": {
       "value": "Laboratori"
@@ -3399,6 +3405,9 @@
     "energyLegend": {
       "value": "Taswirar kuzari "
     },
+    "eTherm": {
+      "value": "E<sub>therm</sub>"
+    },
     "gravitationalPotentialEnergy": {
       "value": "Attakkar dake tsakanin abubuwa biyu "
     },
@@ -3409,10 +3418,10 @@
       "value": "Attakkar dake ga abu idan yana tafiya "
     },
     "peElas": {
-      "value": "Haruffan P da E"
+      "value": "PE<sub>elas</sub>"
     },
     "peGrav": {
-      "value": "Haruffan P da E"
+      "value": "PE<sub>grav</sub>"
     },
     "thermalEnergy": {
       "value": "Attakkar zafi "
@@ -3424,7 +3433,7 @@
       "value": "E<sub>total</sub>"
     },
     "massValue": {
-      "value": "{{mass}} harafin g"
+      "value": "{{mass}} g"
     },
     "questionMark": {
       "value": "Alamar tambaya"
@@ -3436,10 +3445,10 @@
       "value": "Santi mita"
     },
     "damping": {
-      "value": "Rage saurin kai-da-komo (saboda wucewar lokaci)"
+      "value": "Rage saurin kai-da-komo"
     },
     "dampingEqualsZero": {
-      "value": "Rage saurin kai-da-komo (saboda wucewar lokaci){{equalsZero}}"
+      "value": "Damping {{equalsZero}}"
     },
     "lots": {
       "value": "Dayawa"
@@ -3451,7 +3460,7 @@
       "value": "Nauyin iska"
     },
     "gravityValue": {
-      "value": "{{gravity}}"
+      "value": "{{gravity}}m/s<sup>2</sup>"
     },
     "whatIsTheValueOfGravity": {
       "value": "Minene ƙimar nauyin iska?"
@@ -3472,10 +3481,10 @@
       "value": "Layi mai nuna lokaci "
     },
     "springConstant": {
-      "value": "Lambar sifirin {{spring}}"
+      "value": "Spring Constant {{spring}}"
     },
     "heightEqualsZero": {
-      "value": "Tsawo "
+      "value": "Tsawo = 0"
     },
     "large": {
       "value": "Babba"
@@ -3496,7 +3505,7 @@
       "value": "Abinda bai canzawa"
     },
     "length": {
-      "value": "Tsawon sifirin {{spring}}"
+      "value": "Spring Length {{spring}}"
     },
     "long": {
       "value": "Dogo"
@@ -3531,8 +3540,11 @@
     "masses-and-springs.title": {
       "value": "Nauyayyaki da sifirin-sifirin"
     },
+    "springConstantPattern": {
+      "value": "Spring Constant {{spring}}"
+    },
     "springStrength": {
-      "value": "Karfin dake ga sifirin {{spring}}"
+      "value": "Spring Strength {{spring}}"
     }
   },
   "hi": {
