@@ -1,4 +1,15 @@
 {
+  "keyboardHelpDialog.hyphen": {
+    "value": "-",
+    "history": [
+      {
+        "userId": 937495,
+        "timestamp": 1664134822850,
+        "oldValue": "",
+        "newValue": "-"
+      }
+    ]
+  },
   "key.alt": {
     "value": "Alt",
     "history": [
@@ -22,8 +33,63 @@
       }
     ]
   },
+  "key.capsLock": {
+    "value": "Caps Lock",
+    "history": [
+      {
+        "userId": 1060507,
+        "timestamp": 1663688434679,
+        "oldValue": "",
+        "newValue": "Caixa alta"
+      },
+      {
+        "userId": 937495,
+        "timestamp": 1664138054149,
+        "oldValue": "Caixa alta",
+        "newValue": "Caps Lock"
+      }
+    ]
+  },
+  "key.end": {
+    "value": "End",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1546255665161,
+        "oldValue": "",
+        "newValue": "Fim",
+        "explanation": null
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1572311205551,
+        "oldValue": "Fim",
+        "newValue": "",
+        "explanation": null
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1573149420161,
+        "oldValue": "",
+        "newValue": "Fim",
+        "explanation": null
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1617729392915,
+        "oldValue": "Fim",
+        "newValue": ""
+      },
+      {
+        "userId": 1060507,
+        "timestamp": 1663688434679,
+        "oldValue": "",
+        "newValue": "End"
+      }
+    ]
+  },
   "key.enter": {
-    "value": "Inserir ",
+    "value": "Enter",
     "history": [
       {
         "userId": 143491,
@@ -37,11 +103,17 @@
         "timestamp": 1665020083202,
         "oldValue": "Enter",
         "newValue": "Inserir "
+      },
+      {
+        "userId": 456212,
+        "timestamp": 1665492871781,
+        "oldValue": "Inserir ",
+        "newValue": "Enter"
       }
     ]
   },
   "key.esc": {
-    "value": "Sair ",
+    "value": "Esc",
     "history": [
       {
         "userId": 1060507,
@@ -54,6 +126,12 @@
         "timestamp": 1665020083202,
         "oldValue": "Esc",
         "newValue": "Sair "
+      },
+      {
+        "userId": 456212,
+        "timestamp": 1665492871781,
+        "oldValue": "Sair ",
+        "newValue": "Esc"
       }
     ]
   },
@@ -69,15 +147,14 @@
       }
     ]
   },
-  "speed.fast": {
-    "value": "Rápido",
+  "key.fn": {
+    "value": "Fn",
     "history": [
       {
         "userId": 143491,
-        "timestamp": 1605263847111,
+        "timestamp": 1647896013647,
         "oldValue": "",
-        "newValue": "Rápido",
-        "explanation": null
+        "newValue": "Fn"
       }
     ]
   },
@@ -105,6 +182,44 @@
       }
     ]
   },
+  "key.home": {
+    "value": "Home",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1546255665162,
+        "oldValue": "",
+        "newValue": "Início",
+        "explanation": null
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1572311205551,
+        "oldValue": "Início",
+        "newValue": "",
+        "explanation": null
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1573149420161,
+        "oldValue": "",
+        "newValue": "Início",
+        "explanation": null
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1617729392915,
+        "oldValue": "Início",
+        "newValue": ""
+      },
+      {
+        "userId": 937495,
+        "timestamp": 1664134822850,
+        "oldValue": "",
+        "newValue": "Home"
+      }
+    ]
+  },
   "keyboardHelpDialog.moveBetweenItemsInAGroup": {
     "value": "Mover entre itens de um grupo",
     "history": [
@@ -113,18 +228,6 @@
         "timestamp": 1546255665162,
         "oldValue": "",
         "newValue": "Mover entre itens de um grupo",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveToNextItem": {
-    "value": "Mover para o próximo item",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1546255665162,
-        "oldValue": "",
-        "newValue": "Mover para o próximo item",
         "explanation": null
       }
     ]
@@ -153,18 +256,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.moveToPreviousItem": {
-    "value": "Mover para o item anterior",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1546255665162,
-        "oldValue": "",
-        "newValue": "Mover para o item anterior",
-        "explanation": null
-      }
-    ]
-  },
   "keyboardHelpDialog.moveToPreviousItemOrGroup": {
     "value": "Mover para item ou grupo anterior",
     "history": [
@@ -186,18 +277,6 @@
         "timestamp": 1665020083202,
         "oldValue": "Ir para item ou grupo anterior",
         "newValue": "Mover para item ou grupo anterior"
-      }
-    ]
-  },
-  "speed.normal": {
-    "value": "Normal",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1537981823675,
-        "oldValue": "",
-        "newValue": "Normal",
-        "explanation": null
       }
     ]
   },
@@ -276,18 +355,6 @@
       }
     ]
   },
-  "speed.slow": {
-    "value": "Lento",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1537981823675,
-        "oldValue": "",
-        "newValue": "Lento",
-        "explanation": null
-      }
-    ]
-  },
   "key.space": {
     "value": "Espaço ",
     "history": [
@@ -313,7 +380,7 @@
     ]
   },
   "key.tab": {
-    "value": "Aba ",
+    "value": "Tab",
     "history": [
       {
         "userId": 143491,
@@ -326,6 +393,12 @@
         "timestamp": 1665020083202,
         "oldValue": "Tab",
         "newValue": "Aba "
+      },
+      {
+        "userId": 456212,
+        "timestamp": 1665492871781,
+        "oldValue": "Aba ",
+        "newValue": "Tab"
       }
     ]
   },
@@ -338,132 +411,6 @@
         "oldValue": "",
         "newValue": "Alternar caixas de seleção",
         "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.hyphen": {
-    "value": "-",
-    "history": [
-      {
-        "userId": 937495,
-        "timestamp": 1664134822850,
-        "oldValue": "",
-        "newValue": "-"
-      }
-    ]
-  },
-  "key.capsLock": {
-    "value": "Caps Lock",
-    "history": [
-      {
-        "userId": 1060507,
-        "timestamp": 1663688434679,
-        "oldValue": "",
-        "newValue": "Caixa alta"
-      },
-      {
-        "userId": 937495,
-        "timestamp": 1664138054149,
-        "oldValue": "Caixa alta",
-        "newValue": "Caps Lock"
-      }
-    ]
-  },
-  "key.end": {
-    "value": "End",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1546255665161,
-        "oldValue": "",
-        "newValue": "Fim",
-        "explanation": null
-      },
-      {
-        "userId": 143491,
-        "timestamp": 1572311205551,
-        "oldValue": "Fim",
-        "newValue": "",
-        "explanation": null
-      },
-      {
-        "userId": 143491,
-        "timestamp": 1573149420161,
-        "oldValue": "",
-        "newValue": "Fim",
-        "explanation": null
-      },
-      {
-        "userId": 143491,
-        "timestamp": 1617729392915,
-        "oldValue": "Fim",
-        "newValue": ""
-      },
-      {
-        "userId": 1060507,
-        "timestamp": 1663688434679,
-        "oldValue": "",
-        "newValue": "End"
-      }
-    ]
-  },
-  "key.fn": {
-    "value": "Fn",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1647896013647,
-        "oldValue": "",
-        "newValue": "Fn"
-      }
-    ]
-  },
-  "key.home": {
-    "value": "Home",
-    "history": [
-      {
-        "userId": 143491,
-        "timestamp": 1546255665162,
-        "oldValue": "",
-        "newValue": "Início",
-        "explanation": null
-      },
-      {
-        "userId": 143491,
-        "timestamp": 1572311205551,
-        "oldValue": "Início",
-        "newValue": "",
-        "explanation": null
-      },
-      {
-        "userId": 143491,
-        "timestamp": 1573149420161,
-        "oldValue": "",
-        "newValue": "Início",
-        "explanation": null
-      },
-      {
-        "userId": 143491,
-        "timestamp": 1617729392915,
-        "oldValue": "Início",
-        "newValue": ""
-      },
-      {
-        "userId": 937495,
-        "timestamp": 1664134822850,
-        "oldValue": "",
-        "newValue": "Home"
-      }
-    ]
-  },
-  "stopwatchValueUnitsPattern": {
-    "value": "{{value}} {{units}}",
-    "history": [
-      {
-        "userId": 937495,
-        "timestamp": 1664138054149,
-        "oldValue": "",
-        "newValue": "{{value}} {{units}}"
       }
     ]
   },
@@ -486,6 +433,77 @@
         "timestamp": 1664134822850,
         "oldValue": "",
         "newValue": "Ω"
+      }
+    ]
+  },
+  "speed.fast": {
+    "value": "Rápido",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1605263847111,
+        "oldValue": "",
+        "newValue": "Rápido",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItem": {
+    "value": "Mover para o próximo item",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1546255665162,
+        "oldValue": "",
+        "newValue": "Mover para o próximo item",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItem": {
+    "value": "Mover para o item anterior",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1546255665162,
+        "oldValue": "",
+        "newValue": "Mover para o item anterior",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "Normal",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1537981823675,
+        "oldValue": "",
+        "newValue": "Normal",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "Lento",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1537981823675,
+        "oldValue": "",
+        "newValue": "Lento",
+        "explanation": null
+      }
+    ]
+  },
+  "stopwatchValueUnitsPattern": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 937495,
+        "timestamp": 1664138054149,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}"
       }
     ]
   },
