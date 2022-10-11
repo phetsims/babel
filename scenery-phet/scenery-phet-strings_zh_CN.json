@@ -10,61 +10,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.popUpListPattern": {
-    "value": "1.{{thingPlural}}的弹出清单",
-    "history": [
-      {
-        "userId": 271405,
-        "timestamp": 1665427309118,
-        "oldValue": "",
-        "newValue": "1.{{thingPlural}}的弹出清单"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.moveThroughPattern": {
-    "value": "2.在{{thingPlural}}清单中移动",
-    "history": [
-      {
-        "userId": 271405,
-        "timestamp": 1665427309118,
-        "oldValue": "",
-        "newValue": "2.在{{thingPlural}}清单中移动"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.chooseNewPattern": {
-    "value": "3.选择新的{{thingSingular}}",
-    "history": [
-      {
-        "userId": 271405,
-        "timestamp": 1665427309118,
-        "oldValue": "",
-        "newValue": "3.选择新的{{thingSingular}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-    "value": "4.关闭清单不做改变",
-    "history": [
-      {
-        "userId": 271405,
-        "timestamp": 1665427309118,
-        "oldValue": "",
-        "newValue": "4.关闭清单不做改变"
-      }
-    ]
-  },
-  "keyboardHelpDialog.adjust": {
-    "value": "调整",
-    "history": [
-      {
-        "userId": 271405,
-        "timestamp": 1665427309118,
-        "oldValue": "",
-        "newValue": "调整"
-      }
-    ]
-  },
   "key.alt": {
     "value": "Alt",
     "history": [
@@ -113,7 +58,7 @@
     ]
   },
   "key.enter": {
-    "value": "Enter输入",
+    "value": "输入",
     "history": [
       {
         "userId": 293040,
@@ -141,6 +86,12 @@
         "timestamp": 1665009880516,
         "oldValue": "输入",
         "newValue": "Enter输入"
+      },
+      {
+        "userId": 1073265,
+        "timestamp": 1665469502870,
+        "oldValue": "Enter输入",
+        "newValue": "输入"
       }
     ]
   },
@@ -215,50 +166,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.jumpToMaximumPattern": {
-    "value": "跳到{{maximum}}",
-    "history": [
-      {
-        "userId": 271405,
-        "timestamp": 1665427309118,
-        "oldValue": "",
-        "newValue": "跳到{{maximum}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.jumpToMinimumPattern": {
-    "value": "跳到{{minimum}}",
-    "history": [
-      {
-        "userId": 271405,
-        "timestamp": 1665427309118,
-        "oldValue": "",
-        "newValue": "跳到{{minimum}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.maximum": {
-    "value": "最大值",
-    "history": [
-      {
-        "userId": 271405,
-        "timestamp": 1665427309118,
-        "oldValue": "",
-        "newValue": "最大值"
-      }
-    ]
-  },
-  "keyboardHelpDialog.minimum": {
-    "value": "最小值",
-    "history": [
-      {
-        "userId": 271405,
-        "timestamp": 1665427309118,
-        "oldValue": "",
-        "newValue": "最小值"
-      }
-    ]
-  },
   "keyboardHelpDialog.moveBetweenItemsInAGroup": {
     "value": "移到组内物体",
     "history": [
@@ -292,28 +199,6 @@
         "oldValue": "",
         "newValue": "上一个物体或组合",
         "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.option": {
-    "value": "选项",
-    "history": [
-      {
-        "userId": 271405,
-        "timestamp": 1665427309119,
-        "oldValue": "",
-        "newValue": "选项"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.options": {
-    "value": "选项",
-    "history": [
-      {
-        "userId": 271405,
-        "timestamp": 1665427309119,
-        "oldValue": "",
-        "newValue": "选项"
       }
     ]
   },
@@ -518,17 +403,6 @@
       }
     ]
   },
-  "measuringTapeReadoutPattern": {
-    "value": "{{distance}} {{units}}",
-    "history": [
-      {
-        "userId": 271405,
-        "timestamp": 1665009880516,
-        "oldValue": "",
-        "newValue": "{{distance}} {{units}}"
-      }
-    ]
-  },
   "symbol.resistivity": {
     "value": "ρ",
     "history": [
@@ -556,6 +430,138 @@
         "timestamp": 1619366317281,
         "oldValue": "Ω",
         "newValue": "Ω"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.popUpListPattern": {
+    "value": "1.{{thingPlural}}的弹出清单",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665427309118,
+        "oldValue": "",
+        "newValue": "1.{{thingPlural}}的弹出清单"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.moveThroughPattern": {
+    "value": "2.在{{thingPlural}}清单中移动",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665427309118,
+        "oldValue": "",
+        "newValue": "2.在{{thingPlural}}清单中移动"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.chooseNewPattern": {
+    "value": "3.选择新的{{thingSingular}}",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665427309118,
+        "oldValue": "",
+        "newValue": "3.选择新的{{thingSingular}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+    "value": "4.关闭清单不做改变",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665427309118,
+        "oldValue": "",
+        "newValue": "4.关闭清单不做改变"
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjust": {
+    "value": "调整",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665427309118,
+        "oldValue": "",
+        "newValue": "调整"
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMaximumPattern": {
+    "value": "跳到{{maximum}}",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665427309118,
+        "oldValue": "",
+        "newValue": "跳到{{maximum}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMinimumPattern": {
+    "value": "跳到{{minimum}}",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665427309118,
+        "oldValue": "",
+        "newValue": "跳到{{minimum}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.maximum": {
+    "value": "最大值",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665427309118,
+        "oldValue": "",
+        "newValue": "最大值"
+      }
+    ]
+  },
+  "keyboardHelpDialog.minimum": {
+    "value": "最小值",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665427309118,
+        "oldValue": "",
+        "newValue": "最小值"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.option": {
+    "value": "选项",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665427309119,
+        "oldValue": "",
+        "newValue": "选项"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.options": {
+    "value": "选项",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665427309119,
+        "oldValue": "",
+        "newValue": "选项"
+      }
+    ]
+  },
+  "measuringTapeReadoutPattern": {
+    "value": "{{distance}} {{units}}",
+    "history": [
+      {
+        "userId": 271405,
+        "timestamp": 1665009880516,
+        "oldValue": "",
+        "newValue": "{{distance}} {{units}}"
       }
     ]
   },
