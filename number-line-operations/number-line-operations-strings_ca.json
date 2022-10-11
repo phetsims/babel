@@ -88,13 +88,19 @@
     ]
   },
   "currencyUnits": {
-    "value": "€",
+    "value": "$",
     "history": [
       {
         "userId": 1094568,
         "timestamp": 1665472377903,
         "oldValue": "",
         "newValue": "€"
+      },
+      {
+        "userId": 1094568,
+        "timestamp": 1665517992870,
+        "oldValue": "€",
+        "newValue": "$"
       }
     ]
   },
@@ -143,13 +149,19 @@
     ]
   },
   "addRemoveAssetDebtPattern": {
-    "value": "{{addOrRemove}} {{assetOrDebt}} de {{value}}{{currencyUnits}}",
+    "value": "{{addOrRemove}} {{assetOrDebt}} of {{currencyUnits}}{{value}}",
     "history": [
       {
         "userId": 1094568,
         "timestamp": 1665472377903,
         "oldValue": "",
         "newValue": "{{addOrRemove}} {{assetOrDebt}} de {{value}}{{currencyUnits}}"
+      },
+      {
+        "userId": 1094568,
+        "timestamp": 1665517992870,
+        "oldValue": "{{addOrRemove}} {{assetOrDebt}} de {{value}}{{currencyUnits}}",
+        "newValue": "{{addOrRemove}} {{assetOrDebt}} of {{currencyUnits}}{{value}}"
       }
     ]
   },
@@ -187,13 +199,19 @@
     ]
   },
   "addRemovePositiveNegativePattern": {
-    "value": "{{addOrRemove}} {{value}} {{positiveOrNegative}}",
+    "value": "{{addOrRemove}} {{positiveOrNegative}} {{value}}",
     "history": [
       {
         "userId": 1094568,
         "timestamp": 1665472377903,
         "oldValue": "",
         "newValue": "{{addOrRemove}} {{value}} {{positiveOrNegative}}"
+      },
+      {
+        "userId": 1094568,
+        "timestamp": 1665517992870,
+        "oldValue": "{{addOrRemove}} {{value}} {{positiveOrNegative}}",
+        "newValue": "{{addOrRemove}} {{positiveOrNegative}} {{value}}"
       }
     ]
   },
@@ -231,13 +249,19 @@
     ]
   },
   "totalCurrencyPattern": {
-    "value": "{{totalString}} = {{sign}}{{totalValue}}{{currencyUnits}}",
+    "value": "{{totalString}} = {{sign}}{{currencyUnits}}{{totalValue}}",
     "history": [
       {
         "userId": 1094568,
         "timestamp": 1665472377903,
         "oldValue": "",
         "newValue": "{{totalString}} = {{sign}}{{totalValue}}{{currencyUnits}}"
+      },
+      {
+        "userId": 1094568,
+        "timestamp": 1665517992870,
+        "oldValue": "{{totalString}} = {{sign}}{{totalValue}}{{currencyUnits}}",
+        "newValue": "{{totalString}} = {{sign}}{{currencyUnits}}{{totalValue}}"
       }
     ]
   },
