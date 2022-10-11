@@ -1465,41 +1465,23 @@
     }
   },
   "ca": {
-    "key.enter": {
-      "value": "Accepta"
-    },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Agafa o Deixa Anar {{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "Agafa o deixa anar {{thing}}"
-    },
-    "keyboardHelpDialog.or": {
-      "value": "o"
-    },
-    "key.pageDown": {
-      "value": "Pàgina Enrere"
-    },
-    "key.pageUp": {
-      "value": "Pàgina Endavant"
-    },
-    "key.shift": {
-      "value": "Majúscules"
-    },
-    "key.space": {
-      "value": "Espai"
-    },
-    "key.tab": {
-      "value": "Tab."
-    },
-    "symbol.resistivity": {
-      "value": "ρ"
-    },
-    "symbol.ohms": {
-      "value": "Ω"
-    },
     "keyboardHelpDialog.hyphen": {
       "value": "-"
+    },
+    "keyboardHelpDialog.comboBox.popUpListPattern": {
+      "value": "Llista emergent de {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.moveThroughPattern": {
+      "value": " Mou a traves de {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.chooseNewPattern": {
+      "value": "Tria un nou {{thingSingular}}"
+    },
+    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+      "value": "Tanca la llista sense canvis"
+    },
+    "keyboardHelpDialog.adjust": {
+      "value": "Ajusta"
     },
     "key.alt": {
       "value": "Alt"
@@ -1510,8 +1492,14 @@
     "key.capsLock": {
       "value": "Majúscules activades"
     },
+    "eight": {
+      "value": "vuit"
+    },
     "key.end": {
       "value": "Fi"
+    },
+    "key.enter": {
+      "value": "Accepta"
     },
     "key.esc": {
       "value": "Esc."
@@ -1519,14 +1507,35 @@
     "keyboardHelpDialog.exitADialog": {
       "value": "Surt d'un diàleg"
     },
-    "speed.fast": {
-      "value": "Ràpida"
+    "five": {
+      "value": "cinc"
     },
     "key.fn": {
       "value": "Funció multimèdia"
     },
+    "four": {
+      "value": "quatre"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "Agafa o Deixa Anar {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "Agafa o deixa anar {{thing}}"
+    },
     "key.home": {
       "value": "Inici"
+    },
+    "keyboardHelpDialog.jumpToMaximumPattern": {
+      "value": "Salta a {{maximum}}"
+    },
+    "keyboardHelpDialog.jumpToMinimumPattern": {
+      "value": "Salta a {{minimum}}"
+    },
+    "keyboardHelpDialog.maximum": {
+      "value": "Màxim"
+    },
+    "keyboardHelpDialog.minimum": {
+      "value": "Mínim"
     },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "Mou-te entre els elements d'un grup"
@@ -1537,17 +1546,89 @@
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "Mou-te a l'element o el grup anterior"
     },
-    "speed.normal": {
-      "value": "Normal"
+    "nine": {
+      "value": "nou"
+    },
+    "one": {
+      "value": "un"
+    },
+    "keyboardHelpDialog.comboBox.option": {
+      "value": "Opció"
+    },
+    "keyboardHelpDialog.comboBox.options": {
+      "value": "Opcions"
+    },
+    "keyboardHelpDialog.or": {
+      "value": "o"
+    },
+    "key.pageDown": {
+      "value": "Pàgina Enrere"
+    },
+    "key.pageUp": {
+      "value": "Pàgina Endavant"
     },
     "keyboardHelpDialog.pressButtons": {
       "value": "Prem els botons"
     },
-    "speed.slow": {
-      "value": "Lenta"
+    "seven": {
+      "value": "set"
+    },
+    "key.shift": {
+      "value": "Majúscules"
+    },
+    "six": {
+      "value": "sis"
+    },
+    "keyboardHelpDialog.slider": {
+      "value": "lliscador"
+    },
+    "keyboardHelpDialog.sliderControls": {
+      "value": "Control del lliscador"
+    },
+    "key.space": {
+      "value": "Espai"
+    },
+    "key.tab": {
+      "value": "Tab."
+    },
+    "ten": {
+      "value": "deu"
+    },
+    "three": {
+      "value": "tres"
     },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Activa o desactiva la selecció "
+    },
+    "two": {
+      "value": "dos"
+    },
+    "zero": {
+      "value": "zero"
+    },
+    "keyboardHelpDialog.verbInLargerStepsPattern": {
+      "value": "{{verb}} ien etapes més llargues"
+    },
+    "keyboardHelpDialog.verbInSmallerStepsPattern": {
+      "value": "{{verb}} en etapes curtes"
+    },
+    "keyboardHelpDialog.verbSliderPattern": {
+      "value": "{{verb}} {{slider}}"
+    },
+    "symbol.resistivity": {
+      "value": "ρ"
+    },
+    "symbol.ohms": {
+      "value": "Ω"
+    },
+    "speed.fast": {
+      "value": "Ràpida"
+    },
+    "speed.normal": {
+      "value": "Normal"
+    },
+    "speed.slow": {
+      "value": "Lenta"
     },
     "stopwatchValueUnitsPattern": {
       "value": "{{value}} {{units}}"
@@ -1570,59 +1651,11 @@
     "keyboardHelpDialog.moveToPreviousItem": {
       "value": "Mou-te a l'element anterior"
     },
-    "keyboardHelpDialog.sliderControls": {
-      "value": "Control del lliscador"
-    },
     "comboBoxDisplay.valueUnits": {
       "value": "{{value}} {{units}}"
     },
-    "keyboardHelpDialog.comboBox.popUpListPattern": {
-      "value": "Llista emergent de {{thingPlural}}"
-    },
-    "keyboardHelpDialog.comboBox.moveThroughPattern": {
-      "value": " Mou a traves de {{thingPlural}}"
-    },
-    "keyboardHelpDialog.comboBox.chooseNewPattern": {
-      "value": "Tria un nou {{thingSingular}}"
-    },
-    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-      "value": "Tanca la llista sense canvis"
-    },
-    "keyboardHelpDialog.adjust": {
-      "value": "Ajusta"
-    },
-    "keyboardHelpDialog.jumpToMaximumPattern": {
-      "value": "Salta a {{maximum}}"
-    },
-    "keyboardHelpDialog.jumpToMinimumPattern": {
-      "value": "Salta a {{minimum}}"
-    },
-    "keyboardHelpDialog.maximum": {
-      "value": "Màxim"
-    },
-    "keyboardHelpDialog.minimum": {
-      "value": "Mínim"
-    },
-    "keyboardHelpDialog.comboBox.option": {
-      "value": "Opció"
-    },
-    "keyboardHelpDialog.comboBox.options": {
-      "value": "Opcions"
-    },
     "keyboardHelpDialog.comboBox.headingString": {
       "value": "Menú d'obertura emergent"
-    },
-    "keyboardHelpDialog.slider": {
-      "value": "lliscador"
-    },
-    "keyboardHelpDialog.verbInLargerStepsPattern": {
-      "value": "{{verb}} ien etapes més llargues"
-    },
-    "keyboardHelpDialog.verbInSmallerStepsPattern": {
-      "value": "{{verb}} en etapes curtes"
-    },
-    "keyboardHelpDialog.verbSliderPattern": {
-      "value": "{{verb}} {{slider}}"
     },
     "rulerCapitalized": {
       "value": "Regle"
@@ -4471,32 +4504,17 @@
     }
   },
   "ha": {
-    "keyboardHelpDialog.or": {
-      "value": "Ko kuma"
+    "keyboardHelpDialog.adjustInLargerSteps": {
+      "value": "Dadaita a tazara doguwa"
     },
-    "key.pageDown": {
-      "value": "Zuwa Ƙasan shafi"
+    "keyboardHelpDialog.adjustInSmallerSteps": {
+      "value": "Dadaita a tazara mai gajera"
     },
-    "key.pageUp": {
-      "value": "Zuwa saman shafi"
-    },
-    "key.shift": {
-      "value": "Madannin shift"
-    },
-    "key.tab": {
-      "value": "Tab (a jikin kibod)"
-    },
-    "keyboardHelpDialog.hyphen": {
-      "value": "Gajeren layi dake tsanin kalmomi guda biyu"
-    },
-    "key.alt": {
-      "value": "Alt"
+    "keyboardHelpDialog.adjustSlider": {
+      "value": "Dadaita abin darjewa"
     },
     "keyboardHelpDialog.basicActions": {
       "value": "Matakan da aka san dasu"
-    },
-    "key.capsLock": {
-      "value": "Makullin alƙalumma"
     },
     "key.end": {
       "value": "Ƙarshe"
@@ -4510,47 +4528,59 @@
     "keyboardHelpDialog.exitADialog": {
       "value": "Fita daga zance"
     },
-    "speed.fast": {
-      "value": "Da sauri"
-    },
-    "key.fn": {
-      "value": "Harufan Fn"
-    },
     "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Grab or Release {{thing}}"
+      "value": "Kama ko ka saki  {{thing}}"
     },
     "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "Grab or Release {{thing}}"
+      "value": "Kama ko ka saki {{thing}}"
     },
     "key.home": {
       "value": "Gida"
     },
+    "keyboardHelpDialog.jumpToMaximum": {
+      "value": "Tuma zuwa mafi yawa"
+    },
+    "keyboardHelpDialog.jumpToMinimum": {
+      "value": "Tuma zuwa mafi ƙaranta"
+    },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "Matsa zuwa a cikin gungun"
+    },
+    "keyboardHelpDialog.moveToNextItem": {
+      "value": "Matsa zuwa ga abu na gaba"
     },
     "keyboardHelpDialog.moveToNextItemOrGroup": {
       "value": "Matsa zuwa ga abu na gaba ko zuma ga gungu"
     },
+    "keyboardHelpDialog.moveToPreviousItem": {
+      "value": "Koma inda ka baro"
+    },
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "Matsa zuwa inda ka baro gungu inda ka baro"
     },
-    "speed.normal": {
-      "value": "Na al'ada"
+    "keyboardHelpDialog.or": {
+      "value": "ko kuma"
+    },
+    "key.pageDown": {
+      "value": "Zuwa Ƙasan shafi"
+    },
+    "key.pageUp": {
+      "value": "Zuwa saman shafi"
     },
     "keyboardHelpDialog.pressButtons": {
       "value": "Danna madannai"
     },
-    "speed.slow": {
-      "value": "Sannu-sannu "
+    "key.shift": {
+      "value": "Madannin shift"
+    },
+    "keyboardHelpDialog.sliderControls": {
+      "value": "Abin sarrafa abin darjewa"
     },
     "key.space": {
       "value": "Sarari"
     },
-    "keyboardHelpDialog.toggleCheckboxes": {
-      "value": "Juyawar wuraren cikawa na kan manhaja"
-    },
-    "stopwatchValueUnitsPattern": {
-      "value": "{{value}}{{units}}"
+    "key.tab": {
+      "value": "Tab (a jikin kibod)"
     },
     "symbol.resistivity": {
       "value": "ρ"
@@ -4558,20 +4588,86 @@
     "symbol.ohms": {
       "value": "Ω"
     },
+    "keyboardHelpDialog.hyphen": {
+      "value": "Gajeren layi dake tsanin kalmomi guda biyu"
+    },
+    "key.alt": {
+      "value": "Alt"
+    },
+    "key.capsLock": {
+      "value": "Makullin alƙalumma"
+    },
+    "speed.fast": {
+      "value": "Da sauri"
+    },
+    "key.fn": {
+      "value": "Harufan Fn"
+    },
+    "speed.normal": {
+      "value": "Na al'ada"
+    },
+    "speed.slow": {
+      "value": "Sannu-sannu "
+    },
+    "keyboardHelpDialog.toggleCheckboxes": {
+      "value": "Juyawar wuraren cikawa na kan manhaja"
+    },
+    "keyboardHelpDialog.comboBox.popUpListPattern": {
+      "value": "Jerin {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.moveThroughPattern": {
+      "value": "Yi tafiya cikin {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.chooseNewPattern": {
+      "value": "Zaɓi sabo {{thingSingular}}"
+    },
+    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+      "value": "Zaɓi sabon jeri batare da canzawa ba"
+    },
+    "keyboardHelpDialog.adjust": {
+      "value": "Daidaita"
+    },
+    "keyboardHelpDialog.jumpToMaximumPattern": {
+      "value": "Tuma zuwa {{maximum}}"
+    },
+    "keyboardHelpDialog.jumpToMinimumPattern": {
+      "value": "Tuma zuwa {{minimum}}"
+    },
+    "keyboardHelpDialog.maximum": {
+      "value": "mafi yawa"
+    },
+    "keyboardHelpDialog.minimum": {
+      "value": "mafi zama ƙarami  "
+    },
+    "keyboardHelpDialog.comboBox.option": {
+      "value": "zaɓi"
+    },
+    "keyboardHelpDialog.comboBox.options": {
+      "value": "zaɓi da ban-da ban"
+    },
+    "keyboardHelpDialog.slider": {
+      "value": "abin darjewa"
+    },
+    "measuringTapeReadoutPattern": {
+      "value": "{{distance}}{{units}}"
+    },
+    "keyboardHelpDialog.verbInLargerStepsPattern": {
+      "value": "{{verb}} a Tamara mai yawa"
+    },
+    "keyboardHelpDialog.verbInSmallerStepsPattern": {
+      "value": "{{verb}} a ƙaramar tazara"
+    },
+    "keyboardHelpDialog.verbSliderPattern": {
+      "value": "{{verb}}{{slider}}"
+    },
+    "stopwatchValueUnitsPattern": {
+      "value": "{{value}}{{units}}"
+    },
     "key.k": {
       "value": "Harafin K"
     },
     "key.l": {
       "value": "Harafin L"
-    },
-    "measuringTapeReadoutPattern": {
-      "value": "{{distance}}{{units}}"
-    },
-    "keyboardHelpDialog.moveToNextItem": {
-      "value": "Matsa zuwa ga abu na gaba"
-    },
-    "keyboardHelpDialog.moveToPreviousItem": {
-      "value": "Koma inda ka baro"
     },
     "key.toGrabOrRelease": {
       "value": "zuwa <b>Riƙe</b> or <b>saki</b>"
@@ -8195,6 +8291,39 @@
     }
   },
   "ms": {
+    "key.enter": {
+      "value": "Enter"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "Genggam atau Lepaskan {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "Genggam atau lepaskan {{thing}}"
+    },
+    "keyboardHelpDialog.or": {
+      "value": "atau"
+    },
+    "key.pageDown": {
+      "value": "Pg Dn"
+    },
+    "key.pageUp": {
+      "value": "Pg Up"
+    },
+    "webglWarning.title": {
+      "value": "Berjalan dengan kualiti grafik yang rendah"
+    },
+    "key.shift": {
+      "value": "Shift"
+    },
+    "webglWarning.contextLossFailure": {
+      "value": "Maaf, ralat grafik telah berlaku."
+    },
+    "key.space": {
+      "value": "Space"
+    },
+    "key.tab": {
+      "value": "Tab"
+    },
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
@@ -8213,9 +8342,6 @@
     "key.end": {
       "value": "End"
     },
-    "key.enter": {
-      "value": "Enter"
-    },
     "key.esc": {
       "value": "Esc"
     },
@@ -8227,12 +8353,6 @@
     },
     "key.fn": {
       "value": "Fn"
-    },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Genggam atau Lepaskan {{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "Genggam atau lepaskan {{thing}}"
     },
     "key.home": {
       "value": "Home"
@@ -8261,20 +8381,8 @@
     "speed.normal": {
       "value": "Normal"
     },
-    "keyboardHelpDialog.or": {
-      "value": "atau"
-    },
-    "key.pageDown": {
-      "value": "Pg Dn"
-    },
-    "key.pageUp": {
-      "value": "Pg Up"
-    },
     "keyboardHelpDialog.pressButtons": {
       "value": "Tekan butang"
-    },
-    "key.shift": {
-      "value": "Shift"
     },
     "keyboardHelpDialog.slider": {
       "value": "peluncur"
@@ -8284,12 +8392,6 @@
     },
     "speed.slow": {
       "value": "Perlahan"
-    },
-    "key.space": {
-      "value": "Space"
-    },
-    "key.tab": {
-      "value": "Tab"
     },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Buka/Tutup Kotak semak "
@@ -14714,65 +14816,11 @@
     }
   },
   "zh_CN": {
+    "keyboardHelpDialog.hyphen": {
+      "value": "-"
+    },
     "key.alt": {
       "value": "Alt"
-    },
-    "key.enter": {
-      "value": "Enter输入"
-    },
-    "key.esc": {
-      "value": "Esc"
-    },
-    "speed.fast": {
-      "value": "快"
-    },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "获取或者释放{{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "获取或者释放{{thing}}"
-    },
-    "key.k": {
-      "value": "K"
-    },
-    "key.l": {
-      "value": "L"
-    },
-    "speed.normal": {
-      "value": "正常"
-    },
-    "keyboardHelpDialog.or": {
-      "value": "或者"
-    },
-    "key.pageDown": {
-      "value": "Pg Dn"
-    },
-    "key.pageUp": {
-      "value": "Pg Up"
-    },
-    "key.shift": {
-      "value": "Shift"
-    },
-    "speed.slow": {
-      "value": "慢速"
-    },
-    "key.space": {
-      "value": "空格"
-    },
-    "key.tab": {
-      "value": "Tab"
-    },
-    "measuringTapeReadoutPattern": {
-      "value": "{{distance}} {{units}}"
-    },
-    "stopwatchValueUnitsPattern": {
-      "value": "{{value}} {{units}}"
-    },
-    "symbol.resistivity": {
-      "value": "ρ"
-    },
-    "symbol.ohms": {
-      "value": "Ω"
     },
     "keyboardHelpDialog.basicActions": {
       "value": "基本操作"
@@ -14783,8 +14831,23 @@
     "key.end": {
       "value": "End"
     },
+    "key.enter": {
+      "value": "输入"
+    },
+    "key.esc": {
+      "value": "Esc"
+    },
     "keyboardHelpDialog.exitADialog": {
       "value": "退出对话"
+    },
+    "key.fn": {
+      "value": "Fn"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "获取或者释放{{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "获取或者释放{{thing}}"
     },
     "key.home": {
       "value": "Home"
@@ -14798,11 +14861,89 @@
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "上一个物体或组合"
     },
+    "keyboardHelpDialog.or": {
+      "value": "或者"
+    },
+    "key.pageDown": {
+      "value": "Pg Dn"
+    },
+    "key.pageUp": {
+      "value": "Pg Up"
+    },
     "keyboardHelpDialog.pressButtons": {
       "value": "按下按钮"
     },
+    "key.shift": {
+      "value": "Shift"
+    },
+    "key.space": {
+      "value": "空格"
+    },
+    "key.tab": {
+      "value": "Tab"
+    },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "勾选框"
+    },
+    "symbol.resistivity": {
+      "value": "ρ"
+    },
+    "symbol.ohms": {
+      "value": "Ω"
+    },
+    "keyboardHelpDialog.comboBox.popUpListPattern": {
+      "value": "1.{{thingPlural}}的弹出清单"
+    },
+    "keyboardHelpDialog.comboBox.moveThroughPattern": {
+      "value": "2.在{{thingPlural}}清单中移动"
+    },
+    "keyboardHelpDialog.comboBox.chooseNewPattern": {
+      "value": "3.选择新的{{thingSingular}}"
+    },
+    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+      "value": "4.关闭清单不做改变"
+    },
+    "keyboardHelpDialog.adjust": {
+      "value": "调整"
+    },
+    "keyboardHelpDialog.jumpToMaximumPattern": {
+      "value": "跳到{{maximum}}"
+    },
+    "keyboardHelpDialog.jumpToMinimumPattern": {
+      "value": "跳到{{minimum}}"
+    },
+    "keyboardHelpDialog.maximum": {
+      "value": "最大值"
+    },
+    "keyboardHelpDialog.minimum": {
+      "value": "最小值"
+    },
+    "keyboardHelpDialog.comboBox.option": {
+      "value": "选项"
+    },
+    "keyboardHelpDialog.comboBox.options": {
+      "value": "选项"
+    },
+    "measuringTapeReadoutPattern": {
+      "value": "{{distance}} {{units}}"
+    },
+    "speed.fast": {
+      "value": "快"
+    },
+    "key.k": {
+      "value": "K"
+    },
+    "key.l": {
+      "value": "L"
+    },
+    "speed.normal": {
+      "value": "正常"
+    },
+    "speed.slow": {
+      "value": "慢速"
+    },
+    "stopwatchValueUnitsPattern": {
+      "value": "{{value}} {{units}}"
     },
     "webglWarning.contextLossReload": {
       "value": "重新加载"
