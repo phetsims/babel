@@ -453,7 +453,7 @@
       "value": "Valor Net"
     },
     "currencyUnits": {
-      "value": "€"
+      "value": "$"
     },
     "operationOffScale": {
       "value": "operació fora d'escala"
@@ -468,7 +468,7 @@
       "value": "{{addOrRemove}} {{currencyUnits}}0"
     },
     "addRemoveAssetDebtPattern": {
-      "value": "{{addOrRemove}} {{assetOrDebt}} de {{value}}{{currencyUnits}}"
+      "value": "{{addOrRemove}} {{assetOrDebt}} of {{currencyUnits}}{{value}}"
     },
     "asset": {
       "value": "actiu"
@@ -480,7 +480,7 @@
       "value": "{{addOrRemove}} 0"
     },
     "addRemovePositiveNegativePattern": {
-      "value": "{{addOrRemove}} {{value}} {{positiveOrNegative}}"
+      "value": "{{addOrRemove}} {{positiveOrNegative}} {{value}}"
     },
     "positive": {
       "value": "positiu"
@@ -492,7 +492,7 @@
       "value": "Total"
     },
     "totalCurrencyPattern": {
-      "value": "{{totalString}} = {{sign}}{{totalValue}}{{currencyUnits}}"
+      "value": "{{totalString}} = {{sign}}{{currencyUnits}}{{totalValue}}"
     },
     "totalValuePattern": {
       "value": "{{totalString}} = {{totalValue}}"
@@ -4748,6 +4748,116 @@
     },
     "simplify": {
       "value": "Mu rọ̀run"
+    }
+  },
+  "zh_CN": {
+    "screen.chips": {
+      "value": "数字筹码"
+    },
+    "operationDescriptions": {
+      "value": "运算说明"
+    },
+    "operationLabels": {
+      "value": "符号语言"
+    },
+    "tickMarks": {
+      "value": "单位长度"
+    },
+    "positives": {
+      "value": "正数"
+    },
+    "negatives": {
+      "value": "负数"
+    },
+    "netWorthWithCurrencyPattern": {
+      "value": "{{netWorthString}}{{currencyUnits}}"
+    },
+    "netWorth": {
+      "value": "净资产"
+    },
+    "currencyUnits": {
+      "value": "$"
+    },
+    "operationOffScale": {
+      "value": "超出运算范围"
+    },
+    "add": {
+      "value": "增加"
+    },
+    "remove": {
+      "value": "减少"
+    },
+    "addRemoveZeroCurrencyPattern": {
+      "value": "{{addOrRemove}} 0 {{currencyUnits}}"
+    },
+    "addRemoveAssetDebtPattern": {
+      "value": "{{addOrRemove}} {{currencyUnits}}{{value}} {{assetOrDebt}}"
+    },
+    "asset": {
+      "value": "资产"
+    },
+    "debt": {
+      "value": "负债"
+    },
+    "addRemoveZeroPattern": {
+      "value": "{{addOrRemove}} 0"
+    },
+    "addRemovePositiveNegativePattern": {
+      "value": "{{addOrRemove}}{{positiveOrNegative}} {{value}}"
+    },
+    "positive": {
+      "value": "正"
+    },
+    "negative": {
+      "value": "负"
+    },
+    "total": {
+      "value": "总和"
+    },
+    "totalCurrencyPattern": {
+      "value": "{{totalString}} = {{sign}}{{currencyUnits}}{{totalValue}}"
+    },
+    "totalValuePattern": {
+      "value": "{{totalString}} = {{totalValue}}"
+    },
+    "currencyValuePattern": {
+      "value": "{{sign}}{{currencyUnits}}{{value}}"
+    },
+    "screen.generic": {
+      "value": "抽象模型"
+    },
+    "pointLabels": {
+      "value": "点所对应的数"
+    },
+    "numericalExpression": {
+      "value": "数值"
+    },
+    "screen.netWorth": {
+      "value": "净资产"
+    },
+    "loan": {
+      "value": "贷款"
+    },
+    "assets": {
+      "value": "资产"
+    },
+    "debts": {
+      "value": "负债"
+    },
+    "number-line-operations.title": {
+      "value": "数轴：运算"
+    },
+    "screen.operations": {
+      "value": "净资产计算"
+    },
+    "initialNetWorth": {
+      "value": "初始净资产"
+    },
+    "initialNetWorthWithBreak": {
+      "value": "初始<br>净资产"
+    },
+    "simplify": {
+      "value": "化简"
     }
   },
   "zh_HK": {

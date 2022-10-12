@@ -4883,7 +4883,7 @@
   },
   "ha": {
     "menuItem.about": {
-      "value": "Kusa ga"
+      "value": "Kusa ga..."
     },
     "menuItem.getUpdate": {
       "value": "Bincika sababbin bayanai..."
@@ -4982,7 +4982,7 @@
       "value": "Sigar dake hannunka a yanzu: {0}."
     },
     "simTitleWithScreenNamePattern": {
-      "value": "{{simName}} Sauyawar halitta dai-dai da yanayin {{screenName}}"
+      "value": "{{simName}} — {{screenName}}"
     },
     "preferences.tabs.audio.title": {
       "value": "Na saurare"
@@ -10627,96 +10627,6 @@
     "menuItem.about": {
       "value": "Sobre..."
     },
-    "menuItem.getUpdate": {
-      "value": "Conferir atualizações..."
-    },
-    "updates.checking": {
-      "value": "Procurando atualizações..."
-    },
-    "credits.title": {
-      "value": "Créditos"
-    },
-    "menuItem.fullscreen": {
-      "value": "Tela Cheia"
-    },
-    "updates.getUpdate": {
-      "value": "Atualizar..."
-    },
-    "credits.graphicArts": {
-      "value": "Artes Gráficas: {0}"
-    },
-    "credits.leadDesign": {
-      "value": "Equipe de Projeto: {0}"
-    },
-    "updates.outOfDate": {
-      "value": "Nova versão disponível"
-    },
-    "updates.noThanks": {
-      "value": "Não, obrigado"
-    },
-    "options.title": {
-      "value": "Opções"
-    },
-    "menuItem.options": {
-      "value": "Opções..."
-    },
-    "menuItem.phetWebsite": {
-      "value": "Portal PhET…"
-    },
-    "credits.qualityAssurance": {
-      "value": "Garantia de Qualidade: {0}"
-    },
-    "menuItem.reportAProblem": {
-      "value": "Informar problema..."
-    },
-    "menuItem.screenshot": {
-      "value": "Captura de tela"
-    },
-    "credits.softwareDevelopment": {
-      "value": "Desenvolvimento de Software: {0}"
-    },
-    "credits.team": {
-      "value": "Equipe: {0}"
-    },
-    "termsPrivacyAndLicensing": {
-      "value": "Termos, Privacidade & Licenciamento"
-    },
-    "credits.thanks": {
-      "value": "Obrigado"
-    },
-    "updates.newVersionAvailable": {
-      "value": "Há uma nova versão disponível: {0}."
-    },
-    "thirdParty.credits.link": {
-      "value": "Créditos de Terceiros"
-    },
-    "updates.upToDate": {
-      "value": "Esta simulação está atualizada."
-    },
-    "credits.translation": {
-      "value": "Tradutores"
-    },
-    "translation.credits.link": {
-      "value": "Traduzido por"
-    },
-    "updates.offline": {
-      "value": "Não foi possível verificar atualizações."
-    },
-    "versionPattern": {
-      "value": "versão {0}"
-    },
-    "updates.yourCurrentVersion": {
-      "value": "Sua versão atual é: {0}."
-    },
-    "done": {
-      "value": "Feito"
-    },
-    "title.settings": {
-      "value": "Configurações"
-    },
-    "showPointers": {
-      "value": "Mostrar Ponteiros"
-    },
     "preferences.tabs.visual.interactiveHighlightsDescription": {
       "value": "Adicione destaques visuais para mouse e toque conforme você interage. "
     },
@@ -10726,8 +10636,17 @@
     "preferences.tabs.audio.audioFeatures.title": {
       "value": "Recursos de Áudio"
     },
+    "menuItem.getUpdate": {
+      "value": "Conferir atualizações..."
+    },
+    "updates.checking": {
+      "value": "Procurando atualizações..."
+    },
     "credits.contributors": {
       "value": "Colaboradores: {0}"
+    },
+    "credits.title": {
+      "value": "Créditos"
     },
     "menuItem.enhancedSound": {
       "value": "Som Aprimorado"
@@ -10735,8 +10654,17 @@
     "preferences.tabs.audio.sounds.extraSounds.title": {
       "value": "Sons Extras"
     },
+    "menuItem.fullscreen": {
+      "value": "Tela Cheia"
+    },
     "preferences.tabs.general.title": {
       "value": "Geral"
+    },
+    "updates.getUpdate": {
+      "value": "Atualizar..."
+    },
+    "credits.graphicArts": {
+      "value": "Artes Gráficas: {0}"
     },
     "preferences.tabs.input.title": {
       "value": "Input"
@@ -10753,17 +10681,35 @@
     "keyboardShortcuts.title": {
       "value": "Teclas de Atalho"
     },
+    "credits.leadDesign": {
+      "value": "Equipe de Projeto: {0}"
+    },
+    "updates.outOfDate": {
+      "value": "Nova versão disponível"
+    },
+    "updates.noThanks": {
+      "value": "Não, obrigado"
+    },
     "queryParametersWarningDialog.oneOrMoreQueryParameters": {
       "value": "Um ou mais parâmetros de consulta têm<br>valores inválidos:"
+    },
+    "options.title": {
+      "value": "Opções"
+    },
+    "menuItem.options": {
+      "value": "Opções..."
+    },
+    "menuItem.phetWebsite": {
+      "value": "Portal PhET…"
     },
     "ieErrorPage.platformError": {
       "value": "Erro na Plataforma"
     },
     "preferences.tabs.audio.sounds.extraSounds.description": {
-      "value": "Toque sons extras que podem ser úteis para alguns alunos. "
+      "value": "Tocar sons adicionais que podem ser úteis para alguns alunos. "
     },
     "preferences.tabs.audio.sounds.description": {
-      "value": "Toque sonificações e efeitos sonoros enquanto você interage. "
+      "value": "Habilitar efeitos sonoros enquanto você interage. "
     },
     "ieErrorPage.useDifferentBrowser": {
       "value": "Favor usar um navegador diferente para executar esta simulação."
@@ -10771,14 +10717,44 @@
     "preferences.title": {
       "value": "Preferências"
     },
+    "credits.qualityAssurance": {
+      "value": "Garantia de Qualidade: {0}"
+    },
+    "menuItem.reportAProblem": {
+      "value": "Informar problema..."
+    },
+    "menuItem.screenshot": {
+      "value": "Captura de tela"
+    },
+    "credits.softwareDevelopment": {
+      "value": "Desenvolvimento de Software: {0}"
+    },
     "credits.soundDesign": {
       "value": "Design de Som: {0}"
     },
     "preferences.tabs.audio.sounds.title": {
       "value": "Sons"
     },
+    "credits.team": {
+      "value": "Equipe: {0}"
+    },
+    "termsPrivacyAndLicensing": {
+      "value": "Termos, Privacidade & Licenciamento"
+    },
+    "credits.thanks": {
+      "value": "Obrigado"
+    },
     "queryParametersWarningDialog.theSimulationWillStart": {
       "value": "A simulação iniciará com valores padrão para esses<br>parâmetros de consulta."
+    },
+    "updates.newVersionAvailable": {
+      "value": "Há uma nova versão disponível: {0}."
+    },
+    "thirdParty.credits.link": {
+      "value": "Créditos de Terceiros"
+    },
+    "updates.upToDate": {
+      "value": "Esta simulação está atualizada."
     },
     "preferences.tabs.general.moreAccessibility": {
       "value": "Para encontrar outras simulações com recursos de acessibilidade, vá para a página de filtro de simulação no portal do PhET e filtre por recurso de acessibilidade. "
@@ -10786,14 +10762,38 @@
     "keyboardShortcuts.toGetStarted": {
       "value": "para iniciar"
     },
+    "translation.credits.link": {
+      "value": "Traduzido por"
+    },
+    "updates.offline": {
+      "value": "Não foi possível verificar atualizações."
+    },
+    "versionPattern": {
+      "value": "versão {0}"
+    },
     "preferences.tabs.visual.title": {
       "value": "Visual"
     },
     "preferences.tabs.general.accessibilityIntro": {
-      "value": "Estamos adicionando recursos às nossas simulações para torná-las mais inclusivas. Alguns desses recursos oferecem acessibilidade para alunos com diversas necessidades e em diversos ambientes. Explore as guias neste menu para revisar ou alterar as configurações."
+      "value": "Estamos adicionando recursos às nossas simulações para torná-las mais inclusivas. Alguns desses recursos oferecem acessibilidade para alunos com diversas necessidades e em diversos ambientes. Explore as guias neste menu para revisar ou alterar as configur"
+    },
+    "updates.yourCurrentVersion": {
+      "value": "Sua versão atual é: {0}."
     },
     "simTitleWithScreenNamePattern": {
       "value": "{{simName}} — {{screenName}}"
+    },
+    "credits.translation": {
+      "value": "Tradutores"
+    },
+    "done": {
+      "value": "Feito"
+    },
+    "title.settings": {
+      "value": "Configurações"
+    },
+    "showPointers": {
+      "value": "Mostrar Ponteiros"
     },
     "preferences.tabs.visual.projectorModeDescription": {
       "value": "Aumente o contraste de cores para melhor visibilidade em sala de aula."
@@ -12754,7 +12754,7 @@
       "value": "PhET Mtandao."
     },
     "ieErrorPage.platformError": {
-      "value": "Kosa la Jukwaa"
+      "value": "Kosa la Programu"
     },
     "ieErrorPage.useDifferentBrowser": {
       "value": "Tafadhali tumia kivinjari tofauti kuendesha mwigo huu."
