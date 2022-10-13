@@ -1,4 +1,26 @@
 {
+  "drinkMix": {
+    "value": "Motsoako oa terenki",
+    "history": [
+      {
+        "userId": 455476,
+        "timestamp": 1665046298940,
+        "oldValue": "",
+        "newValue": "Motsoako oa terenki"
+      }
+    ]
+  },
+  "water": {
+    "value": "Metsi",
+    "history": [
+      {
+        "userId": 1036340,
+        "timestamp": 1665647643373,
+        "oldValue": "",
+        "newValue": "Metsi"
+      }
+    ]
+  },
   "cobaltChloride": {
     "value": "Cobalt (II) Chloride",
     "history": [
@@ -21,28 +43,6 @@
       }
     ]
   },
-  "concentration": {
-    "value": "Boemo ba ho loea (concentration) ",
-    "history": [
-      {
-        "userId": 455476,
-        "timestamp": 1665046298940,
-        "oldValue": "",
-        "newValue": "Boemo ba ho loea (concentration) "
-      }
-    ]
-  },
-  "screen.concentration": {
-    "value": "Boemo ba ho loea (concentration)",
-    "history": [
-      {
-        "userId": 455476,
-        "timestamp": 1665046298940,
-        "oldValue": "",
-        "newValue": "Boemo ba ho loea (concentration)"
-      }
-    ]
-  },
   "copperSulfate": {
     "value": "Copper(II) sulfate",
     "history": [
@@ -51,72 +51,6 @@
         "timestamp": 1665046298940,
         "oldValue": "",
         "newValue": "Copper(II) sulfate"
-      }
-    ]
-  },
-  "drinkMix": {
-    "value": "Motsoako oa terenki",
-    "history": [
-      {
-        "userId": 455476,
-        "timestamp": 1665046298940,
-        "oldValue": "",
-        "newValue": "Motsoako oa terenki"
-      }
-    ]
-  },
-  "evaporation": {
-    "value": "Ho moeafala hoa mokelikeli (Evaporation)",
-    "history": [
-      {
-        "userId": 455476,
-        "timestamp": 1665046298940,
-        "oldValue": "",
-        "newValue": "Ho moeafala hoa mokelikeli (Evaporation)"
-      }
-    ]
-  },
-  "units.liters": {
-    "value": "L",
-    "history": [
-      {
-        "userId": 455476,
-        "timestamp": 1665046298940,
-        "oldValue": "",
-        "newValue": "L"
-      }
-    ]
-  },
-  "lots": {
-    "value": "lots",
-    "history": [
-      {
-        "userId": 455476,
-        "timestamp": 1665046298940,
-        "oldValue": "",
-        "newValue": "lots"
-      }
-    ]
-  },
-  "units.milliliters": {
-    "value": "mL",
-    "history": [
-      {
-        "userId": 455476,
-        "timestamp": 1665046298940,
-        "oldValue": "",
-        "newValue": "mL"
-      }
-    ]
-  },
-  "units.molesPerLiter": {
-    "value": "mol/L",
-    "history": [
-      {
-        "userId": 455476,
-        "timestamp": 1665046298940,
-        "oldValue": "",
-        "newValue": "mol/L"
       }
     ]
   },
@@ -131,14 +65,25 @@
       }
     ]
   },
-  "none": {
-    "value": "Ha ho letho",
+  "pattern.0formula.1name": {
+    "value": "{0}: {1}",
+    "history": [
+      {
+        "userId": 1036340,
+        "timestamp": 1665647643374,
+        "oldValue": "",
+        "newValue": "{0}: {1}"
+      }
+    ]
+  },
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
     "history": [
       {
         "userId": 455476,
         "timestamp": 1665046298940,
         "oldValue": "",
-        "newValue": "Ha ho letho"
+        "newValue": "{0} {1}"
       }
     ]
   },
@@ -175,6 +120,204 @@
       }
     ]
   },
+  "absorbance": {
+    "value": "Ho monya",
+    "history": [
+      {
+        "userId": 1036340,
+        "timestamp": 1665647643374,
+        "oldValue": "",
+        "newValue": "Ho monya"
+      }
+    ]
+  },
+  "pattern.0percent": {
+    "value": "{0}%",
+    "history": [
+      {
+        "userId": 455476,
+        "timestamp": 1665046298940,
+        "oldValue": "",
+        "newValue": "{0}%"
+      }
+    ]
+  },
+  "transmittance": {
+    "value": "Ho fitisitsana",
+    "history": [
+      {
+        "userId": 1036340,
+        "timestamp": 1665647643374,
+        "oldValue": "",
+        "newValue": "Ho fitisitsana"
+      }
+    ]
+  },
+  "units.centimeters": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 1036340,
+        "timestamp": 1665647643374,
+        "oldValue": "",
+        "newValue": "cm"
+      }
+    ]
+  },
+  "concentration": {
+    "value": "Boemo ba ho loea (concentration) ",
+    "history": [
+      {
+        "userId": 455476,
+        "timestamp": 1665046298940,
+        "oldValue": "",
+        "newValue": "Boemo ba ho loea (concentration) "
+      }
+    ]
+  },
+  "pattern.0label": {
+    "value": "{0}:",
+    "history": [
+      {
+        "userId": 455476,
+        "timestamp": 1665046298940,
+        "oldValue": "",
+        "newValue": "{0}:"
+      }
+    ]
+  },
+  "solution": {
+    "value": "Motsoako oa mokelikeli",
+    "history": [
+      {
+        "userId": 455476,
+        "timestamp": 1665046298940,
+        "oldValue": "",
+        "newValue": "Motsoako oa mokelikeli"
+      }
+    ]
+  },
+  "preset": {
+    "value": "Hona joale",
+    "history": [
+      {
+        "userId": 1036340,
+        "timestamp": 1665647643374,
+        "oldValue": "",
+        "newValue": "Hona joale"
+      }
+    ]
+  },
+  "units.nm": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 1036340,
+        "timestamp": 1665647643374,
+        "oldValue": "",
+        "newValue": "nm"
+      }
+    ]
+  },
+  "wavelength": {
+    "value": "Bolelele ba leqhubu",
+    "history": [
+      {
+        "userId": 1036340,
+        "timestamp": 1665647643374,
+        "oldValue": "",
+        "newValue": "Bolelele ba leqhubu"
+      }
+    ]
+  },
+  "screen.beersLaw": {
+    "value": "Molao oa joala",
+    "history": [
+      {
+        "userId": 1036340,
+        "timestamp": 1665647643374,
+        "oldValue": "",
+        "newValue": "Molao oa joala"
+      }
+    ]
+  },
+  "sodiumChloride": {
+    "value": "Sodium chloride",
+    "history": [
+      {
+        "userId": 455476,
+        "timestamp": 1665046298940,
+        "oldValue": "",
+        "newValue": "Sodium chloride"
+      }
+    ]
+  },
+  "units.liters": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 455476,
+        "timestamp": 1665046298940,
+        "oldValue": "",
+        "newValue": "L"
+      }
+    ]
+  },
+  "units.milliliters": {
+    "value": "mL",
+    "history": [
+      {
+        "userId": 455476,
+        "timestamp": 1665046298940,
+        "oldValue": "",
+        "newValue": "mL"
+      }
+    ]
+  },
+  "units.molesPerLiter": {
+    "value": "mol/L",
+    "history": [
+      {
+        "userId": 455476,
+        "timestamp": 1665046298940,
+        "oldValue": "",
+        "newValue": "mol/L"
+      }
+    ]
+  },
+  "evaporation": {
+    "value": "Ho moeafala hoa mokelikeli (Evaporation)",
+    "history": [
+      {
+        "userId": 455476,
+        "timestamp": 1665046298940,
+        "oldValue": "",
+        "newValue": "Ho moeafala hoa mokelikeli (Evaporation)"
+      }
+    ]
+  },
+  "lots": {
+    "value": "lots",
+    "history": [
+      {
+        "userId": 455476,
+        "timestamp": 1665046298940,
+        "oldValue": "",
+        "newValue": "lots"
+      }
+    ]
+  },
+  "none": {
+    "value": "Ha ho letho",
+    "history": [
+      {
+        "userId": 455476,
+        "timestamp": 1665046298940,
+        "oldValue": "",
+        "newValue": "Ha ho letho"
+      }
+    ]
+  },
   "removeSolute": {
     "value": "Tlosa se ts'ets'oeng ka hara mokelikeli",
     "history": [
@@ -197,25 +340,14 @@
       }
     ]
   },
-  "sodiumChloride": {
-    "value": "Sodium chloride",
+  "pattern.0soluteAmount": {
+    "value": "Ho ts'etsoe ntho e kae: {0} g",
     "history": [
       {
         "userId": 455476,
         "timestamp": 1665046298940,
         "oldValue": "",
-        "newValue": "Sodium chloride"
-      }
-    ]
-  },
-  "solid": {
-    "value": "Ntho e thata/ soliti",
-    "history": [
-      {
-        "userId": 455476,
-        "timestamp": 1665046298940,
-        "oldValue": "",
-        "newValue": "Ntho e thata/ soliti"
+        "newValue": "Ho ts'etsoe ntho e kae: {0} g"
       }
     ]
   },
@@ -230,58 +362,36 @@
       }
     ]
   },
-  "pattern.0soluteAmount": {
-    "value": "Ho ts'etsoe ntho e kae: {0} g",
+  "solid": {
+    "value": "Ntho e thata/ soliti",
     "history": [
       {
         "userId": 455476,
         "timestamp": 1665046298940,
         "oldValue": "",
-        "newValue": "Ho ts'etsoe ntho e kae: {0} g"
+        "newValue": "Ntho e thata/ soliti"
       }
     ]
   },
-  "solution": {
-    "value": "Motsoako oa mokelikeli",
+  "screen.concentration": {
+    "value": "Boemo ba ho loea (concentration)",
     "history": [
       {
         "userId": 455476,
         "timestamp": 1665046298940,
         "oldValue": "",
-        "newValue": "Motsoako oa mokelikeli"
+        "newValue": "Boemo ba ho loea (concentration)"
       }
     ]
   },
-  "pattern.0value.1units": {
-    "value": "{0} {1}",
+  "beers-law-lab.title": {
+    "value": "Molao oa joala ka lebong",
     "history": [
       {
-        "userId": 455476,
-        "timestamp": 1665046298940,
+        "userId": 1036340,
+        "timestamp": 1665647643374,
         "oldValue": "",
-        "newValue": "{0} {1}"
-      }
-    ]
-  },
-  "pattern.0percent": {
-    "value": "{0}%",
-    "history": [
-      {
-        "userId": 455476,
-        "timestamp": 1665046298940,
-        "oldValue": "",
-        "newValue": "{0}%"
-      }
-    ]
-  },
-  "pattern.0label": {
-    "value": "{0}:",
-    "history": [
-      {
-        "userId": 455476,
-        "timestamp": 1665046298940,
-        "oldValue": "",
-        "newValue": "{0}:"
+        "newValue": "Molao oa joala ka lebong"
       }
     ]
   }
