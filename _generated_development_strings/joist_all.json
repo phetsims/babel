@@ -560,23 +560,44 @@
     "menuItem.about": {
       "value": "حول"
     },
+    "preferences.tabs.visual.interactiveHighlightsDescription": {
+      "value": "أضف تمييزات مرئية للماوس والمس أثناء التفاعل."
+    },
+    "preferences.tabs.audio.title": {
+      "value": "صوت"
+    },
+    "preferences.tabs.audio.audioFeatures.title": {
+      "value": "خصائص الصوت"
+    },
     "menuItem.getUpdate": {
       "value": "البحث عن تحديث"
     },
     "updates.checking": {
       "value": "يبحث عن تحديث"
     },
+    "credits.contributors": {
+      "value": "المشاركون: {0}"
+    },
     "credits.title": {
       "value": "الاعتمادات"
     },
     "menuItem.enhancedSound": {
-      "value": "صوت محسن"
+      "value": "صوت اضافي"
+    },
+    "preferences.tabs.audio.sounds.extraSounds.title": {
+      "value": "أصوات اضافية "
     },
     "menuItem.fullscreen": {
       "value": "شاشة كاملة"
     },
+    "preferences.tabs.general.title": {
+      "value": "عام"
+    },
     "updates.getUpdate": {
       "value": "احصل على التحديث"
+    },
+    "preferences.tabs.input.title": {
+      "value": "ادخال"
     },
     "keyboardShortcuts.title": {
       "value": "اختصارات لوحة المفاتيح"
@@ -596,11 +617,32 @@
     "menuItem.phetWebsite": {
       "value": " موقع PhET الالكتروني"
     },
+    "preferences.tabs.audio.sounds.extraSounds.description": {
+      "value": "قم بتشغيل صوت إضافي هذا قد يكون مفيدًا لبعض المتعلمين."
+    },
+    "preferences.tabs.audio.sounds.description": {
+      "value": "الرجاء استخدام متصفح مختلف لتشغيل هذه المحاكاة."
+    },
+    "ieErrorPage.useDifferentBrowser": {
+      "value": "رجاءا استخدم "
+    },
+    "preferences.title": {
+      "value": "التفضيلات"
+    },
+    "credits.qualityAssurance": {
+      "value": "ضمان الجودة: {0}"
+    },
     "menuItem.reportAProblem": {
       "value": "الابلاغ عن مشكلة"
     },
     "menuItem.screenshot": {
       "value": "لقطة الشاشة"
+    },
+    "preferences.tabs.audio.sounds.title": {
+      "value": "أصوات"
+    },
+    "credits.team": {
+      "value": "الفريق: {0}"
     },
     "termsPrivacyAndLicensing": {
       "value": "الشروط ، الخصوصية ، الترخيص"
@@ -617,14 +659,17 @@
     "keyboardShortcuts.toGetStarted": {
       "value": "للبدء"
     },
-    "credits.translation": {
-      "value": "الترجمة"
-    },
     "translation.credits.link": {
-      "value": "شكرللترجمة"
+      "value": "شكر للترجمة"
     },
     "updates.offline": {
       "value": "غير قادر على البحث عن تحديث"
+    },
+    "preferences.tabs.general.accessibilityIntro": {
+      "value": "نحن نضيف ميزات إلى نماذج المحاكاة لجعلها أكثر شمولاً. تدعم بعض هذه الميزات إمكانية الوصول للمتعلمين ذوي الاحتياجات المتنوعة وفي بيئات متنوعة. استكشف هذه القائمة لمراجعة إعدادات العرض التقديمي الافتراضية أو تغييرها."
+    },
+    "credits.translation": {
+      "value": "الترجمة"
     },
     "menuItem.mailInputEventsLog": {
       "value": "سجل احداث البريد"
@@ -5052,6 +5097,15 @@
     "menuItem.about": {
       "value": "के बारे में ....."
     },
+    "preferences.tabs.visual.interactiveHighlightsDescription": {
+      "value": "पारस्परिक क्रिया (interaction) के लिए माउस और स्पर्श (touch) के स्थान विशेष पहचान के साथ जोड़ो"
+    },
+    "preferences.tabs.audio.title": {
+      "value": "ध्वनी"
+    },
+    "preferences.tabs.audio.audioFeatures.title": {
+      "value": "ध्वनी विशेषताएँ"
+    },
     "menuItem.getUpdate": {
       "value": "अद्यतन के लिए जांचे ......."
     },
@@ -5067,14 +5121,26 @@
     "menuItem.enhancedSound": {
       "value": "अतिरिक्त ध्वनि"
     },
+    "preferences.tabs.audio.sounds.extraSounds.title": {
+      "value": "अतिरिक्त ध्वनियाँ"
+    },
     "menuItem.fullscreen": {
       "value": "पूर्ण स्क्रीन "
+    },
+    "preferences.tabs.general.title": {
+      "value": "सामान्य"
     },
     "updates.getUpdate": {
       "value": "अद्यतन प्राप्त करें ........"
     },
     "credits.graphicArts": {
-      "value": "ग्राफिक कलाएं {0}"
+      "value": "ललित कलाएं {0}"
+    },
+    "preferences.tabs.input.title": {
+      "value": "लगाई गई शक्ति का परिमाण"
+    },
+    "preferences.tabs.visual.interactiveHighlights": {
+      "value": "मुख्य आकर्षक पारस्परिक क्रियाएँ "
     },
     "ieErrorPage.ieIsNotSupported": {
       "value": "इंटरनेट एक्सप्लोरर समर्थित नहीं है।"
@@ -5104,13 +5170,22 @@
       "value": "विकल्प ......"
     },
     "menuItem.phetWebsite": {
-      "value": "PhET वेबसाइट…"
+      "value": "PhET संकेतस्थल ......."
     },
     "ieErrorPage.platformError": {
       "value": "मंच त्रुटि"
     },
+    "preferences.tabs.audio.sounds.extraSounds.description": {
+      "value": "अतिरिक्त ध्वनि बजाएं जो कुछ शिक्षार्थियों के लिए सहायक हो सकती है।"
+    },
+    "preferences.tabs.audio.sounds.description": {
+      "value": "पारस्परिक क्रिया या बातचीत के समय ध्वनि और ध्वनि प्रभाव चलाएं।"
+    },
     "ieErrorPage.useDifferentBrowser": {
       "value": "कृपया इस सिम्युलेशन को चलाने के लिए किसी अन्य ब्राउज़र का प्रयोग करें।"
+    },
+    "preferences.title": {
+      "value": "पसंद"
     },
     "credits.qualityAssurance": {
       "value": "गुणवत्ता आश्वासन : {0}"
@@ -5126,6 +5201,9 @@
     },
     "credits.soundDesign": {
       "value": "ध्वनि रचना :{0}"
+    },
+    "preferences.tabs.audio.sounds.title": {
+      "value": "ध्वनियाँ"
     },
     "credits.team": {
       "value": "दल : {0}"
@@ -5148,11 +5226,11 @@
     "updates.upToDate": {
       "value": "यह सिमुलेशन अद्यतित है "
     },
+    "preferences.tabs.general.moreAccessibility": {
+      "value": "समावेशी सुविधाओं के साथ अन्य सिम्युलेशन खोजने के लिए,सिम्युलेशन फ़िल्टर पेज पर एक्सेस और समावेशन की तलाश करें और समावेशी सुविधा द्वारा फ़िल्टर करें।"
+    },
     "keyboardShortcuts.toGetStarted": {
       "value": "आरंभ करना"
-    },
-    "credits.translation": {
-      "value": "भाषांतर "
     },
     "translation.credits.link": {
       "value": "भाषांतर का श्रेय "
@@ -5163,53 +5241,20 @@
     "versionPattern": {
       "value": "संस्करण {0}"
     },
-    "updates.yourCurrentVersion": {
-      "value": "आपका वर्तमान संस्करण : {0}"
-    },
-    "simTitleWithScreenNamePattern": {
-      "value": "{{simName}} — {{screenName}}"
-    },
-    "preferences.tabs.visual.interactiveHighlightsDescription": {
-      "value": "पारस्परिक क्रिया (interaction) के लिए माउस और स्पर्श (touch) के स्थान विशेष पहचान के साथ जोड़ो"
-    },
-    "preferences.tabs.audio.title": {
-      "value": "ध्वनी"
-    },
-    "preferences.tabs.audio.audioFeatures.title": {
-      "value": "ध्वनी विशेषताएँ"
-    },
-    "preferences.tabs.audio.sounds.extraSounds.title": {
-      "value": "अतिरिक्त ध्वनियाँ"
-    },
-    "preferences.tabs.general.title": {
-      "value": "सामान्य"
-    },
-    "preferences.tabs.visual.interactiveHighlights": {
-      "value": "मुख्य आकर्षक पारस्परिक क्रियाएँ "
-    },
-    "preferences.tabs.audio.sounds.extraSounds.description": {
-      "value": "अतिरिक्त ध्वनि बजाएं जो कुछ शिक्षार्थियों के लिए सहायक हो सकती है।"
-    },
-    "preferences.tabs.audio.sounds.description": {
-      "value": "पारस्परिक क्रिया या बातचीत के समय ध्वनि और ध्वनि प्रभाव चलाएं।"
-    },
-    "preferences.title": {
-      "value": "पसंद"
-    },
-    "preferences.tabs.audio.sounds.title": {
-      "value": "ध्वनियाँ"
-    },
-    "preferences.tabs.general.moreAccessibility": {
-      "value": "समावेशी सुविधाओं के साथ अन्य सिम्युलेशन खोजने के लिए,सिम्युलेशन फ़िल्टर पेज पर एक्सेस और समावेशन की तलाश करें और समावेशी सुविधा द्वारा फ़िल्टर करें।"
-    },
     "preferences.tabs.visual.title": {
       "value": "दृश्य"
     },
     "preferences.tabs.general.accessibilityIntro": {
       "value": "हम अपने सिमुलेशन को और अधिक समावेशी बनाने के लिए सुविधाओं को जोड़ रहे हैं। इनमें से कुछ विशेषताएं विविध आवश्यकताओं वाले और विविध वातावरण में शिक्षार्थियों के लिए पहुंच में सहयोग करती हैं। सामान्य प्रस्तुतिकरण सेटिंग की समीक्षा करने या बदलने के लिए मेनू दे"
     },
-    "preferences.tabs.input.title": {
-      "value": "लगाई गई शक्ति का परिमाण"
+    "updates.yourCurrentVersion": {
+      "value": "आपका वर्तमान संस्करण : {0}"
+    },
+    "simTitleWithScreenNamePattern": {
+      "value": "{{simName}} — {{screenName}}"
+    },
+    "credits.translation": {
+      "value": "भाषांतर "
     },
     "projectorMode": {
       "value": "प्रोजेक्टर मोड "
@@ -5911,6 +5956,15 @@
     "menuItem.about": {
       "value": "Banyere..."
     },
+    "preferences.tabs.visual.interactiveHighlightsDescription": {
+      "value": "Tinye ihe ngosi anya maka òké na aka ka ị na-emekọrịta ihe."
+    },
+    "preferences.tabs.audio.title": {
+      "value": "Ọdịyo"
+    },
+    "preferences.tabs.audio.audioFeatures.title": {
+      "value": "Njirimara Ọdịyo"
+    },
     "menuItem.getUpdate": {
       "value": "Mmelite..."
     },
@@ -5923,14 +5977,29 @@
     "credits.title": {
       "value": "Onyinye "
     },
+    "preferences.tabs.audio.sounds.extraSounds.title": {
+      "value": "Nnukwu Ụda"
+    },
     "menuItem.fullscreen": {
       "value": "Ihuenyo zuru oke"
+    },
+    "preferences.tabs.general.title": {
+      "value": "Izugbe"
     },
     "updates.getUpdate": {
       "value": "Nweta Mmelite…"
     },
     "credits.graphicArts": {
       "value": "Eserese:{0}"
+    },
+    "preferences.tabs.visual.projectorModeDescription": {
+      "value": "Mụbaa ọdịiche agba maka nhụsianya ka mma na klaasị"
+    },
+    "preferences.tabs.visual.interactiveHighlights": {
+      "value": "Isi Ihe Mmekọrịta"
+    },
+    "queryParametersWarningDialog.invalidQueryParameters": {
+      "value": "Enwere Ajụjụ"
     },
     "keyboardShortcuts.title": {
       "value": "Azịza Ahụigodo"
@@ -5944,14 +6013,23 @@
     "updates.noThanks": {
       "value": "Mba Daalụ"
     },
-    "options.title": {
-      "value": "Nhọrọ"
-    },
-    "menuItem.options": {
-      "value": "Nhọrọ..."
+    "queryParametersWarningDialog.oneOrMoreQueryParameters": {
+      "value": "Nọmba ezighi ezi"
     },
     "menuItem.phetWebsite": {
       "value": "PhET Webụsaịtị..."
+    },
+    "preferences.tabs.audio.sounds.extraSounds.description": {
+      "value": "Kpọọ ụda agbakwunyere nke nwere ike ịbara ụfọdụ ndị mmụta aka."
+    },
+    "preferences.tabs.audio.sounds.description": {
+      "value": "Kpọọ na-ada ụda na mmetụta ụda ka ị na-emekọrịta ihe."
+    },
+    "preferences.title": {
+      "value": "Mmasị"
+    },
+    "projectorMode": {
+      "value": "lee ntụziaka"
     },
     "credits.qualityAssurance": {
       "value": "Ntụkwasị Obi Ịdị Mma: {0}"
@@ -5965,6 +6043,12 @@
     "credits.softwareDevelopment": {
       "value": "Mmepe Ngwanrọ: {0}"
     },
+    "credits.soundDesign": {
+      "value": "Ebe Olu: {0}"
+    },
+    "preferences.tabs.audio.sounds.title": {
+      "value": "Na-Ada Ụda"
+    },
     "credits.team": {
       "value": "Ụlọ Ọrụ:{0}"
     },
@@ -5973,6 +6057,9 @@
     },
     "credits.thanks": {
       "value": "Daalụ"
+    },
+    "queryParametersWarningDialog.theSimulationWillStart": {
+      "value": "Ihe ngosi ga-amalite na ụkpụrụ ndabara maka<br>paramita ajụjụ ndị ahụ."
     },
     "updates.newVersionAvailable": {
       "value": "Enwere ụdị ọhụrụ dị: {0}."
@@ -5983,8 +6070,11 @@
     "updates.upToDate": {
       "value": "Ịme anwansị bụ ihe ọhụrụ."
     },
-    "credits.translation": {
-      "value": "Ntụgharị"
+    "preferences.tabs.general.moreAccessibility": {
+      "value": "Ka ịchọta ịme anwansị ndị ọzọ nwere njirimara nsonye, chọọ Access na nsonye na ibe nzacha ịme anwansị wee nzacha site na njirimara nsonye."
+    },
+    "keyboardShortcuts.toGetStarted": {
+      "value": "ọhụrụ"
     },
     "translation.credits.link": {
       "value": "Ntụgharị Uru"
@@ -5995,80 +6085,41 @@
     "versionPattern": {
       "value": "ụdị {0}"
     },
-    "updates.yourCurrentVersion": {
-      "value": "Mbipute ugbua nke gi bu: {0}."
-    },
-    "preferences.tabs.visual.interactiveHighlightsDescription": {
-      "value": "Tinye ihe ngosi anya maka òké na aka ka ị na-emekọrịta ihe."
-    },
-    "preferences.tabs.audio.title": {
-      "value": "Ọdịyo"
-    },
-    "preferences.tabs.audio.audioFeatures.title": {
-      "value": "Njirimara Ọdịyo"
-    },
-    "menuItem.enhancedSound": {
-      "value": "Nnukwu Ụda"
-    },
-    "preferences.tabs.audio.sounds.extraSounds.title": {
-      "value": "Nnukwu Ụda"
-    },
-    "preferences.tabs.general.title": {
-      "value": "Izugbe"
-    },
-    "preferences.tabs.input.title": {
-      "value": "Ntinye                             "
-    },
-    "preferences.tabs.visual.interactiveHighlights": {
-      "value": "Isi Ihe Mmekọrịta"
-    },
-    "ieErrorPage.ieIsNotSupported": {
-      "value": "Enweghị Njikọ"
-    },
-    "queryParametersWarningDialog.invalidQueryParameters": {
-      "value": "Enwere Ajụjụ"
-    },
-    "queryParametersWarningDialog.oneOrMoreQueryParameters": {
-      "value": "Nọmba ezighi ezi"
-    },
-    "ieErrorPage.platformError": {
-      "value": "Njehie"
-    },
-    "preferences.tabs.audio.sounds.extraSounds.description": {
-      "value": "Kpọọ ụda agbakwunyere nke nwere ike ịbara ụfọdụ ndị mmụta aka."
-    },
-    "preferences.tabs.audio.sounds.description": {
-      "value": "Kpọọ na-ada ụda na mmetụta ụda ka ị na-emekọrịta ihe."
-    },
-    "ieErrorPage.useDifferentBrowser": {
-      "value": "Njehie"
-    },
-    "preferences.title": {
-      "value": "Mmasị"
-    },
-    "credits.soundDesign": {
-      "value": "Ebe Olu: {0}"
-    },
-    "preferences.tabs.audio.sounds.title": {
-      "value": "Na-Ada Ụda"
-    },
-    "queryParametersWarningDialog.theSimulationWillStart": {
-      "value": "Ihe ngosi ga-amalite na ụkpụrụ ndabara maka<br>paramita ajụjụ ndị ahụ."
-    },
-    "preferences.tabs.general.moreAccessibility": {
-      "value": "Ka ịchọta ịme anwansị ndị ọzọ nwere njirimara nsonye, chọọ Access na nsonye na ibe nzacha ịme anwansị wee nzacha site na njirimara nsonye."
-    },
-    "keyboardShortcuts.toGetStarted": {
-      "value": "ọhụrụ"
-    },
     "preferences.tabs.visual.title": {
       "value": "Anya"
     },
     "preferences.tabs.general.accessibilityIntro": {
       "value": "Chọgharịa taabụ dị na menu a ka ịlele ma ọ bụ gbanwee ntọala ngosi ndabara"
     },
+    "updates.yourCurrentVersion": {
+      "value": "Mbipute ugbua nke gi bu: {0}."
+    },
     "simTitleWithScreenNamePattern": {
       "value": "{{simName}} — {{screenName}}"
+    },
+    "options.title": {
+      "value": "Nhọrọ"
+    },
+    "menuItem.options": {
+      "value": "Nhọrọ..."
+    },
+    "credits.translation": {
+      "value": "Ntụgharị"
+    },
+    "menuItem.enhancedSound": {
+      "value": "Nnukwu Ụda"
+    },
+    "preferences.tabs.input.title": {
+      "value": "Ntinye                             "
+    },
+    "ieErrorPage.ieIsNotSupported": {
+      "value": "Enweghị Njikọ"
+    },
+    "ieErrorPage.platformError": {
+      "value": "Njehie"
+    },
+    "ieErrorPage.useDifferentBrowser": {
+      "value": "Njehie"
     },
     "done": {
       "value": "Emechara"
@@ -6078,9 +6129,6 @@
     },
     "showPointers": {
       "value": "Gosi Ntụnye"
-    },
-    "projectorMode": {
-      "value": "lee ntụziaka"
     }
   },
   "in": {
@@ -12699,6 +12747,15 @@
     "menuItem.about": {
       "value": "Kuhusu..."
     },
+    "preferences.tabs.visual.interactiveHighlightsDescription": {
+      "value": "Ongeza mambo muhimu ya kuona kwa kipanya na mguso unapoingiliana."
+    },
+    "preferences.tabs.audio.title": {
+      "value": "sauti"
+    },
+    "preferences.tabs.audio.audioFeatures.title": {
+      "value": "Vipengele vya Sauti"
+    },
     "menuItem.getUpdate": {
       "value": "Tazama taarifa mpya"
     },
@@ -12714,14 +12771,26 @@
     "menuItem.enhancedSound": {
       "value": "Sauti za ziada"
     },
+    "preferences.tabs.audio.sounds.extraSounds.title": {
+      "value": "Sauti za ziada"
+    },
     "menuItem.fullscreen": {
       "value": "Skrini Nzima"
+    },
+    "preferences.tabs.general.title": {
+      "value": "Ujumla"
     },
     "updates.getUpdate": {
       "value": "Pata Kisasisho..."
     },
     "credits.graphicArts": {
       "value": "Mchoro: {0}"
+    },
+    "preferences.tabs.input.title": {
+      "value": "Ingiza"
+    },
+    "preferences.tabs.visual.interactiveHighlights": {
+      "value": "Mambo Muhimu Yanayoingiliana"
     },
     "ieErrorPage.ieIsNotSupported": {
       "value": "Haiwezekani kwa Internet Explorer"
@@ -12756,8 +12825,17 @@
     "ieErrorPage.platformError": {
       "value": "Kosa la Programu"
     },
+    "preferences.tabs.audio.sounds.extraSounds.description": {
+      "value": "Cheza sauti ya ziada inayoweza kuwasaidia baadhi ya wanafunzi"
+    },
+    "preferences.tabs.audio.sounds.description": {
+      "value": "Cheza uimbaji na athari za sauti unapowasiliana."
+    },
     "ieErrorPage.useDifferentBrowser": {
       "value": "Tafadhali tumia kivinjari tofauti kuendesha mwigo huu."
+    },
+    "preferences.title": {
+      "value": "Mapendeleo"
     },
     "credits.qualityAssurance": {
       "value": "Udhibiti Ubora: {0}"
@@ -12773,6 +12851,9 @@
     },
     "credits.soundDesign": {
       "value": "Muundo wa sauti {0}"
+    },
+    "preferences.tabs.audio.sounds.title": {
+      "value": "Sauti"
     },
     "credits.team": {
       "value": "Timu: {0}"
@@ -12795,11 +12876,11 @@
     "updates.upToDate": {
       "value": "Onyesho hiyo ni toleo mpya."
     },
+    "preferences.tabs.general.moreAccessibility": {
+      "value": "Ili kupata miigo mingine iliyo na vipengele vinavyojumlisha, tafuta Ufikiaji na Ujumuisho kwenye ukurasa wa kichujio cha uigaji na uchuje kwa kipengele cha kujumuisha."
+    },
     "keyboardShortcuts.toGetStarted": {
       "value": "Kuanza "
-    },
-    "credits.translation": {
-      "value": "Tafsiri"
     },
     "translation.credits.link": {
       "value": "Muamana wa kutafsiri"
@@ -12810,62 +12891,35 @@
     "versionPattern": {
       "value": "Toleo {0}"
     },
-    "updates.yourCurrentVersion": {
-      "value": "Toleo lako la sasa ni {0}."
-    },
-    "simTitleWithScreenNamePattern": {
-      "value": "{{simName}} — {{screenName}}"
-    },
-    "preferences.tabs.visual.interactiveHighlightsDescription": {
-      "value": "Ongeza mambo muhimu ya kuona kwa kipanya na mguso unapoingiliana."
-    },
-    "preferences.tabs.audio.title": {
-      "value": "sauti"
-    },
-    "preferences.tabs.audio.audioFeatures.title": {
-      "value": "Vipengele vya Sauti"
-    },
-    "preferences.tabs.audio.sounds.extraSounds.title": {
-      "value": "Sauti za ziada"
-    },
-    "preferences.tabs.general.title": {
-      "value": "Ujumla"
-    },
-    "preferences.tabs.visual.projectorModeDescription": {
-      "value": "Ongeza Utofauti wa rangi kwaajili ya kuonekana vizuri darasani"
-    },
-    "preferences.tabs.visual.interactiveHighlights": {
-      "value": "Mambo Muhimu Yanayoingiliana"
-    },
-    "preferences.tabs.audio.sounds.extraSounds.description": {
-      "value": "Cheza sauti ya ziada inayoweza kuwasaidia baadhi ya wanafunzi"
-    },
-    "preferences.tabs.audio.sounds.description": {
-      "value": "Cheza uimbaji na athari za sauti unapowasiliana."
-    },
-    "preferences.title": {
-      "value": "Mapendeleo"
-    },
-    "projectorMode": {
-      "value": "Hali ya projekta"
-    },
-    "preferences.tabs.audio.sounds.title": {
-      "value": "Sauti"
-    },
-    "preferences.tabs.general.moreAccessibility": {
-      "value": "Ili kupata miigo mingine iliyo na vipengele vinavyojumlisha, tafuta Ufikiaji na Ujumuisho kwenye ukurasa wa kichujio cha uigaji na uchuje kwa kipengele cha kujumuisha."
-    },
     "preferences.tabs.visual.title": {
       "value": "Kuona"
     },
     "preferences.tabs.general.accessibilityIntro": {
       "value": "Tunaongeza vipengele kwenye uigaji wetu ili kuzifanya zijumuishe zaidi. Baadhi ya vipengele hivi huauni ufikivu kwa wanafunzi wenye mahitaji mbalimbali na ndani ya mazingira mbalimbali. Chunguza vichupo katika menyu hii ili kukagua au kubadilisha mipangil"
     },
+    "updates.yourCurrentVersion": {
+      "value": "Toleo lako la sasa ni {0}."
+    },
+    "simTitleWithScreenNamePattern": {
+      "value": "{{simName}} — {{screenName}}"
+    },
+    "done": {
+      "value": "Imefanyika"
+    },
     "title.settings": {
       "value": "Mipangilio"
     },
     "showPointers": {
       "value": "Onyesha Pointers"
+    },
+    "credits.translation": {
+      "value": "Tafsiri"
+    },
+    "preferences.tabs.visual.projectorModeDescription": {
+      "value": "Ongeza Utofauti wa rangi kwaajili ya kuonekana vizuri darasani"
+    },
+    "projectorMode": {
+      "value": "Hali ya projekta"
     },
     "adaptedFrom": {
       "value": "ilichukuliwa\r\nkutoka"
@@ -13791,6 +13845,173 @@
     },
     "showPointers": {
       "value": "Görkezgiçleri görkez"
+    }
+  },
+  "tl": {
+    "menuItem.about": {
+      "value": "Tungkol"
+    },
+    "menuItem.getUpdate": {
+      "value": "Suriin para sa mga Update..."
+    },
+    "updates.checking": {
+      "value": "Suriin para sa mga update..."
+    },
+    "credits.contributors": {
+      "value": "Mga kontribyutor: {0}"
+    },
+    "credits.title": {
+      "value": "Pagkilala"
+    },
+    "menuItem.enhancedSound": {
+      "value": "Dagdag na tunog"
+    },
+    "menuItem.fullscreen": {
+      "value": "Buong Screen"
+    },
+    "updates.getUpdate": {
+      "value": "Kumuha ng Update"
+    },
+    "credits.graphicArts": {
+      "value": "Grapik na Art:{0}"
+    },
+    "keyboardShortcuts.title": {
+      "value": "Keyboard Shortcuts"
+    },
+    "credits.leadDesign": {
+      "value": "Disenyo ng Lead: {0}"
+    },
+    "updates.outOfDate": {
+      "value": "Available ang bagong bersyon"
+    },
+    "updates.noThanks": {
+      "value": "Hindi, salamat"
+    },
+    "options.title": {
+      "value": "Pagpipilian"
+    },
+    "menuItem.options": {
+      "value": "Mga Pagpipilian..."
+    },
+    "menuItem.phetWebsite": {
+      "value": "Phet Website"
+    },
+    "projectorMode": {
+      "value": "Projector mode"
+    },
+    "credits.qualityAssurance": {
+      "value": "Tiyak na kalidad: {0}"
+    },
+    "menuItem.reportAProblem": {
+      "value": "Mag-ulat ng Problema"
+    },
+    "menuItem.screenshot": {
+      "value": "Screenshot"
+    },
+    "credits.softwareDevelopment": {
+      "value": "Software Development: {0}"
+    },
+    "credits.soundDesign": {
+      "value": "Disenyo ng Tunog: {0}"
+    },
+    "credits.team": {
+      "value": "Pangkat: {0}"
+    },
+    "termsPrivacyAndLicensing": {
+      "value": "Mga Tuntunin, Privacy at Paglilisensya"
+    },
+    "credits.thanks": {
+      "value": "Salamat"
+    },
+    "updates.newVersionAvailable": {
+      "value": "Mayroong bagong bersyon na magagamit: {0}."
+    },
+    "thirdParty.credits.link": {
+      "value": "Mga Credit ng Third-party"
+    },
+    "updates.upToDate": {
+      "value": "Ang simulasyon ito ay up to date."
+    },
+    "keyboardShortcuts.toGetStarted": {
+      "value": "Upang magsimula"
+    },
+    "credits.translation": {
+      "value": "Pagsasalin"
+    },
+    "translation.credits.link": {
+      "value": "Mga kredito sa pagsasalin"
+    },
+    "updates.offline": {
+      "value": "Hindi masuri ang mga update."
+    },
+    "versionPattern": {
+      "value": "bersyon {0}"
+    },
+    "updates.yourCurrentVersion": {
+      "value": "ang aming kasalukuyang bersyon ay: {0}."
+    },
+    "simTitleWithScreenNamePattern": {
+      "value": "{{simName}} — {{screenName}}"
+    },
+    "preferences.tabs.visual.interactiveHighlightsDescription": {
+      "value": "Magdagdag ng mga visual na highlight para sa mouse at pagpindot habang nakikipag-ugnayan ka."
+    },
+    "preferences.tabs.audio.title": {
+      "value": "Audio"
+    },
+    "preferences.tabs.audio.audioFeatures.title": {
+      "value": "Mga katangian ng Audio"
+    },
+    "preferences.tabs.audio.sounds.extraSounds.title": {
+      "value": "Dagdag na mga tunog"
+    },
+    "preferences.tabs.general.title": {
+      "value": "General"
+    },
+    "preferences.tabs.input.title": {
+      "value": "Input"
+    },
+    "preferences.tabs.visual.interactiveHighlights": {
+      "value": "Mga Interactive na Highlight"
+    },
+    "ieErrorPage.ieIsNotSupported": {
+      "value": "Hindi suportado ang Internet Explorer."
+    },
+    "queryParametersWarningDialog.invalidQueryParameters": {
+      "value": "Di-wastong pagsusuri ng limitasyon"
+    },
+    "queryParametersWarningDialog.oneOrMoreQueryParameters": {
+      "value": "Isa o higit pa sa mga parameter ng query na ito ay may<br>mga di-wastong halaga:"
+    },
+    "ieErrorPage.platformError": {
+      "value": "Error sa platform"
+    },
+    "preferences.tabs.audio.sounds.extraSounds.description": {
+      "value": "Magpatugtog ng karagdagang tunog na maaaring makatulong sa ilang mag-aaral."
+    },
+    "preferences.tabs.audio.sounds.description": {
+      "value": "Magpatugtog ng mga kanta at sound effect habang nakikipag-ugnayan ka."
+    },
+    "ieErrorPage.useDifferentBrowser": {
+      "value": "Mangyaring gumamit ng ibang browser upang patakbuhin ang simulation na ito"
+    },
+    "preferences.title": {
+      "value": "Mga Kagustuhan"
+    },
+    "preferences.tabs.audio.sounds.title": {
+      "value": "Mga Tunog"
+    },
+    "queryParametersWarningDialog.theSimulationWillStart": {
+      "value": "Magsisimula ang simulasyon sa mga default na value para sa<br>mga limitasyon na katanungan."
+    },
+    "preferences.tabs.general.moreAccessibility": {
+      "value": "Upang makahanap ng iba pang mga simulasyon na may kasamang mga tampok, hanapin ang Access at Pagsasama sa pahina ng filter ng simulation at i-filter ayon sa tampok na kasama."
+    },
+    "preferences.tabs.visual.title": {
+      "value": "biswal"
+    },
+    "preferences.tabs.general.accessibilityIntro": {
+      "value": "Nagdaragdag kami ng mga feature sa aming mga simulasyon para gawing mas inklusibo ang mga ito. Sinusuportahan ng ilan sa mga feature na ito ang accessibility para sa mga mag-aaral na may magkakaibang pangangailangan at sa loob ng magkakaibang kapaligiran. I-explore ang menu na ito para suriin o baguhin ang mga default na setting ng presentation."
     }
   },
   "tn": {
@@ -15410,6 +15631,9 @@
     "credits.graphicArts": {
       "value": "美工设计: {0}"
     },
+    "preferences.tabs.input.title": {
+      "value": "输入"
+    },
     "preferences.tabs.visual.interactiveHighlights": {
       "value": "互动"
     },
@@ -15449,6 +15673,9 @@
     "ieErrorPage.useDifferentBrowser": {
       "value": "请使用另一个浏览器来运行本模拟应用"
     },
+    "preferences.title": {
+      "value": "参数设定"
+    },
     "credits.qualityAssurance": {
       "value": "品质保证: {0}"
     },
@@ -15463,6 +15690,9 @@
     },
     "credits.soundDesign": {
       "value": "声音设计：{0}"
+    },
+    "preferences.tabs.audio.sounds.title": {
+      "value": "声音"
     },
     "credits.team": {
       "value": "团队: {0}"
@@ -15496,6 +15726,9 @@
     },
     "versionPattern": {
       "value": "版本 {0}"
+    },
+    "preferences.tabs.visual.title": {
+      "value": "视觉"
     },
     "updates.yourCurrentVersion": {
       "value": "当前版本: {0}"
