@@ -175,8 +175,27 @@
       }
     ]
   },
+  "credits.contributors": {
+    "value": "Katkıda bulunanlar: {0}",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1556607334431,
+        "oldValue": "",
+        "newValue": "Katkıda bulunanlar: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 707975,
+        "timestamp": 1572978625853,
+        "oldValue": "Katkıda bulunanlar: {0}",
+        "newValue": "Katkıda bulunanlar: {0}",
+        "explanation": null
+      }
+    ]
+  },
   "credits.title": {
-    "value": "Katkıda Bulunanlar",
+    "value": "Tanıtma Yazıları",
     "history": [
       {
         "userId": 354576,
@@ -190,17 +209,24 @@
         "timestamp": 1666038436616,
         "oldValue": "Tanıtım",
         "newValue": "Katkıda Bulunanlar"
+      },
+      {
+        "userId": 551787,
+        "timestamp": 1666042219354,
+        "oldValue": "Katkıda Bulunanlar",
+        "newValue": "Tanıtma Yazıları"
       }
     ]
   },
-  "done": {
-    "value": "Bitti",
+  "menuItem.enhancedSound": {
+    "value": "Gelişmiş Ses",
     "history": [
       {
-        "userId": 613972,
-        "timestamp": 1645863205144,
+        "userId": 707975,
+        "timestamp": 1573071478274,
         "oldValue": "",
-        "newValue": "Bitti"
+        "newValue": "Gelişmiş Ses",
+        "explanation": null
       }
     ]
   },
@@ -257,7 +283,7 @@
     ]
   },
   "credits.graphicArts": {
-    "value": "Ekran Kartı: {0}",
+    "value": "Grafik Sanatı: {0}",
     "history": [
       {
         "userId": 354576,
@@ -299,6 +325,48 @@
         "timestamp": 1608644628037,
         "oldValue": "Grafikler: {0}",
         "newValue": "Ekran Kartı: {0}",
+        "explanation": null
+      },
+      {
+        "userId": 551787,
+        "timestamp": 1666042219354,
+        "oldValue": "Ekran Kartı: {0}",
+        "newValue": "Grafik Sanatı: {0}"
+      }
+    ]
+  },
+  "ieErrorPage.ieIsNotSupported": {
+    "value": "Internet tarayıcınız desteklenmiyor.",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1606511957163,
+        "oldValue": "",
+        "newValue": "Internet tarayıcınız desteklenmiyor.",
+        "explanation": null
+      }
+    ]
+  },
+  "queryParametersWarningDialog.invalidQueryParameters": {
+    "value": "Geçersiz Sorgu Parametreleri",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1606511957163,
+        "oldValue": "",
+        "newValue": "Geçersiz Sorgu Parametreleri",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.title": {
+    "value": "Klavye Kısayolları",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1556607334431,
+        "oldValue": "",
+        "newValue": "Klavye Kısayolları",
         "explanation": null
       }
     ]
@@ -409,6 +477,18 @@
       }
     ]
   },
+  "queryParametersWarningDialog.oneOrMoreQueryParameters": {
+    "value": "Bir yada daha çok sorgu parametresi <br>geçersiz:",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1606511957163,
+        "oldValue": "",
+        "newValue": "Bir yada daha çok sorgu parametresi <br>geçersiz:",
+        "explanation": null
+      }
+    ]
+  },
   "options.title": {
     "value": "Ayarlar",
     "history": [
@@ -511,7 +591,7 @@
     ]
   },
   "menuItem.phetWebsite": {
-    "value": "PhET Anasayfa ...",
+    "value": "Phet İnternet Sayfası ...",
     "history": [
       {
         "userId": 354576,
@@ -539,6 +619,36 @@
         "timestamp": 1666037793012,
         "oldValue": "Phet Anasayfa ...",
         "newValue": "PhET Anasayfa ..."
+      },
+      {
+        "userId": 551787,
+        "timestamp": 1666042219354,
+        "oldValue": "PhET Anasayfa ...",
+        "newValue": "Phet İnternet Sayfası ..."
+      }
+    ]
+  },
+  "ieErrorPage.platformError": {
+    "value": "Platform Hatası ",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1606511957163,
+        "oldValue": "",
+        "newValue": "Platform Hatası ",
+        "explanation": null
+      }
+    ]
+  },
+  "ieErrorPage.useDifferentBrowser": {
+    "value": "Lütfen bu simülasyonu kullanabilmek için farklı bir tarayıcı kullanınız.",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1606511957163,
+        "oldValue": "",
+        "newValue": "Lütfen bu simülasyonu kullanabilmek için farklı bir tarayıcı kullanınız.",
+        "explanation": null
       }
     ]
   },
@@ -655,44 +765,6 @@
       }
     ]
   },
-  "title.settings": {
-    "value": "Ayarlar",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1481895116375,
-        "oldValue": "",
-        "newValue": "Ayarlar",
-        "explanation": null
-      },
-      {
-        "userId": 707975,
-        "timestamp": 1573845961051,
-        "oldValue": "Ayarlar",
-        "newValue": "custom",
-        "explanation": null
-      },
-      {
-        "userId": 354576,
-        "timestamp": 1578490475247,
-        "oldValue": "custom",
-        "newValue": "Ayarlar",
-        "explanation": null
-      }
-    ]
-  },
-  "showPointers": {
-    "value": "İşaretçiyi göster",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1481895116375,
-        "oldValue": "",
-        "newValue": "İşaretçiyi göster",
-        "explanation": null
-      }
-    ]
-  },
   "credits.softwareDevelopment": {
     "value": "Yazılım Geliştirme: {0}",
     "history": [
@@ -736,6 +808,18 @@
         "timestamp": 1608644628037,
         "oldValue": "Yazılım Geliştirme: {0}",
         "newValue": "Yazılım Geliştirme: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "credits.soundDesign": {
+    "value": "Ses Tasarımı: {0}",
+    "history": [
+      {
+        "userId": 707975,
+        "timestamp": 1573071478274,
+        "oldValue": "",
+        "newValue": "Ses Tasarımı: {0}",
         "explanation": null
       }
     ]
@@ -859,6 +943,18 @@
       }
     ]
   },
+  "queryParametersWarningDialog.theSimulationWillStart": {
+    "value": "Bu simülasyon mevcut sorgu parametreleri için <br>varsayılan değerlerle başlayacak.",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1606511957163,
+        "oldValue": "",
+        "newValue": "Bu simülasyon mevcut sorgu parametreleri için <br>varsayılan değerlerle başlayacak.",
+        "explanation": null
+      }
+    ]
+  },
   "updates.newVersionAvailable": {
     "value": "Yeni sürüm mevcut: {0}",
     "history": [
@@ -919,13 +1015,38 @@
     ]
   },
   "updates.upToDate": {
-    "value": "Simülasyon güncel",
+    "value": "Bu simülasyon günceldir.",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1481895116375,
         "oldValue": "",
         "newValue": "Simülasyon güncel",
+        "explanation": null
+      },
+      {
+        "userId": 551787,
+        "timestamp": 1666042219354,
+        "oldValue": "Simülasyon güncel",
+        "newValue": "Bu simülasyon günceldir."
+      }
+    ]
+  },
+  "keyboardShortcuts.toGetStarted": {
+    "value": "Başlamak için",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1556607334431,
+        "oldValue": "",
+        "newValue": "başlamak için",
+        "explanation": null
+      },
+      {
+        "userId": 613972,
+        "timestamp": 1579679061023,
+        "oldValue": "başlamak için",
+        "newValue": "Başlamak için",
         "explanation": null
       }
     ]
@@ -943,7 +1064,7 @@
     ]
   },
   "translation.credits.link": {
-    "value": "Çeviriye Katkıda Bulunanlar",
+    "value": "Çeviri tanıtımı",
     "history": [
       {
         "userId": 354576,
@@ -957,6 +1078,12 @@
         "timestamp": 1666038436616,
         "oldValue": "Çeviri tanıtımı",
         "newValue": "Çeviriye Katkıda Bulunanlar"
+      },
+      {
+        "userId": 551787,
+        "timestamp": 1666042219354,
+        "oldValue": "Çeviriye Katkıda Bulunanlar",
+        "newValue": "Çeviri tanıtımı"
       }
     ]
   },
@@ -1073,6 +1200,66 @@
       }
     ]
   },
+  "simTitleWithScreenNamePattern": {
+    "value": "{{simName}} — {{screenName}}",
+    "history": [
+      {
+        "userId": 1015320,
+        "timestamp": 1666037793013,
+        "oldValue": "",
+        "newValue": "{{simName}} — {{screenName}}"
+      }
+    ]
+  },
+  "done": {
+    "value": "Bitti",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1645863205144,
+        "oldValue": "",
+        "newValue": "Bitti"
+      }
+    ]
+  },
+  "title.settings": {
+    "value": "Ayarlar",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1481895116375,
+        "oldValue": "",
+        "newValue": "Ayarlar",
+        "explanation": null
+      },
+      {
+        "userId": 707975,
+        "timestamp": 1573845961051,
+        "oldValue": "Ayarlar",
+        "newValue": "custom",
+        "explanation": null
+      },
+      {
+        "userId": 354576,
+        "timestamp": 1578490475247,
+        "oldValue": "custom",
+        "newValue": "Ayarlar",
+        "explanation": null
+      }
+    ]
+  },
+  "showPointers": {
+    "value": "İşaretçiyi göster",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1481895116375,
+        "oldValue": "",
+        "newValue": "İşaretçiyi göster",
+        "explanation": null
+      }
+    ]
+  },
   "preferences.tabs.visual.interactiveHighlightsDescription": {
     "value": "Fare ve dokunmayla etkileşimde bulunulan yerlere görsel vurgu ekle.",
     "history": [
@@ -1103,37 +1290,6 @@
         "timestamp": 1643124281720,
         "oldValue": "",
         "newValue": "Ses Özellikleri"
-      }
-    ]
-  },
-  "credits.contributors": {
-    "value": "Katkıda bulunanlar: {0}",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1556607334431,
-        "oldValue": "",
-        "newValue": "Katkıda bulunanlar: {0}",
-        "explanation": null
-      },
-      {
-        "userId": 707975,
-        "timestamp": 1572978625853,
-        "oldValue": "Katkıda bulunanlar: {0}",
-        "newValue": "Katkıda bulunanlar: {0}",
-        "explanation": null
-      }
-    ]
-  },
-  "menuItem.enhancedSound": {
-    "value": "Gelişmiş Ses",
-    "history": [
-      {
-        "userId": 707975,
-        "timestamp": 1573071478274,
-        "oldValue": "",
-        "newValue": "Gelişmiş Ses",
-        "explanation": null
       }
     ]
   },
@@ -1170,66 +1326,6 @@
       }
     ]
   },
-  "ieErrorPage.ieIsNotSupported": {
-    "value": "Internet tarayıcınız desteklenmiyor.",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1606511957163,
-        "oldValue": "",
-        "newValue": "Internet tarayıcınız desteklenmiyor.",
-        "explanation": null
-      }
-    ]
-  },
-  "queryParametersWarningDialog.invalidQueryParameters": {
-    "value": "Geçersiz Sorgu Parametreleri",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1606511957163,
-        "oldValue": "",
-        "newValue": "Geçersiz Sorgu Parametreleri",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardShortcuts.title": {
-    "value": "Klavye Kısayolları",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1556607334431,
-        "oldValue": "",
-        "newValue": "Klavye Kısayolları",
-        "explanation": null
-      }
-    ]
-  },
-  "queryParametersWarningDialog.oneOrMoreQueryParameters": {
-    "value": "Bir yada daha çok sorgu parametresi <br>geçersiz:",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1606511957163,
-        "oldValue": "",
-        "newValue": "Bir yada daha çok sorgu parametresi <br>geçersiz:",
-        "explanation": null
-      }
-    ]
-  },
-  "ieErrorPage.platformError": {
-    "value": "Platform Hatası ",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1606511957163,
-        "oldValue": "",
-        "newValue": "Platform Hatası ",
-        "explanation": null
-      }
-    ]
-  },
   "preferences.tabs.audio.sounds.extraSounds.description": {
     "value": "Bazı öğrenenlere yardımcı olabilmek için ek sesler çal.",
     "history": [
@@ -1252,18 +1348,6 @@
       }
     ]
   },
-  "ieErrorPage.useDifferentBrowser": {
-    "value": "Lütfen bu simülasyonu kullanabilmek için farklı bir tarayıcı kullanınız.",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1606511957163,
-        "oldValue": "",
-        "newValue": "Lütfen bu simülasyonu kullanabilmek için farklı bir tarayıcı kullanınız.",
-        "explanation": null
-      }
-    ]
-  },
   "preferences.title": {
     "value": "Tercihler",
     "history": [
@@ -1272,18 +1356,6 @@
         "timestamp": 1643124281720,
         "oldValue": "",
         "newValue": "Tercihler"
-      }
-    ]
-  },
-  "credits.soundDesign": {
-    "value": "Ses Tasarımı: {0}",
-    "history": [
-      {
-        "userId": 707975,
-        "timestamp": 1573071478274,
-        "oldValue": "",
-        "newValue": "Ses Tasarımı: {0}",
-        "explanation": null
       }
     ]
   },
@@ -1298,18 +1370,6 @@
       }
     ]
   },
-  "queryParametersWarningDialog.theSimulationWillStart": {
-    "value": "Bu simülasyon mevcut sorgu parametreleri için <br>varsayılan değerlerle başlayacak.",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1606511957163,
-        "oldValue": "",
-        "newValue": "Bu simülasyon mevcut sorgu parametreleri için <br>varsayılan değerlerle başlayacak.",
-        "explanation": null
-      }
-    ]
-  },
   "preferences.tabs.general.moreAccessibility": {
     "value": "Diğer kapsayıcı özelliğe sahip simülasyonları bulabilmek için simülasyon filtreleme sayfasındaki Erişilebilirlik ve Kapsayıcılık kısmına bakın ve kapsayıcılık özelliklerine göre filtreleyin.",
     "history": [
@@ -1318,25 +1378,6 @@
         "timestamp": 1666037793013,
         "oldValue": "",
         "newValue": "Diğer kapsayıcı özelliğe sahip simülasyonları bulabilmek için simülasyon filtreleme sayfasındaki Erişilebilirlik ve Kapsayıcılık kısmına bakın ve kapsayıcılık özelliklerine göre filtreleyin."
-      }
-    ]
-  },
-  "keyboardShortcuts.toGetStarted": {
-    "value": "Başlamak için",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1556607334431,
-        "oldValue": "",
-        "newValue": "başlamak için",
-        "explanation": null
-      },
-      {
-        "userId": 613972,
-        "timestamp": 1579679061023,
-        "oldValue": "başlamak için",
-        "newValue": "Başlamak için",
-        "explanation": null
       }
     ]
   },
@@ -1365,17 +1406,6 @@
         "timestamp": 1643124281721,
         "oldValue": "Simülasyonlarımızı daha kapsayıcı hale getirmek için özellikler ekliyoruz. Bu özelliklerden bazıları, farklı ihtiyaçları olan ve farklı ortamlarda bulunan öğrenciler için erişilebilirliği destekler. Varsayılan sunum ayarlarını gözden geçirmek veya değiştirmek için bu menüdeki sekmeleri keşfedin. ",
         "newValue": "Simülasyonlarımızı daha kapsayıcı hale getirmek için özellikler ekliyoruz. Bu özelliklerden bazıları, farklı ihtiyaçları olan ve farklı ortamlarda bulunan öğrenciler için erişilebilirliği destekler. Varsayılan sunum ayarlarını gözden geçirmek veya değişti"
-      }
-    ]
-  },
-  "simTitleWithScreenNamePattern": {
-    "value": "{{simName}} — {{screenName}}",
-    "history": [
-      {
-        "userId": 1015320,
-        "timestamp": 1666037793013,
-        "oldValue": "",
-        "newValue": "{{simName}} — {{screenName}}"
       }
     ]
   },
