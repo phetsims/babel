@@ -5421,74 +5421,101 @@
     }
   },
   "pt_BR": {
-    "acceleration": {
-      "value": "Aceleração"
-    },
     "custom": {
       "value": "Meu Astro"
     },
     "earth": {
       "value": "Terra"
     },
-    "energyGraph": {
-      "value": "Gráfico de Energia"
-    },
-    "energyLegend": {
-      "value": "Legenda"
-    },
-    "friction": {
-      "value": "Atrito"
-    },
-    "gravity": {
-      "value": "Gravidade"
-    },
     "jupiter": {
       "value": "Júpiter"
-    },
-    "legend.kineticEnergy": {
-      "value": "Energia Cinética"
-    },
-    "legend.kineticEnergyAbbreviation": {
-      "value": "Ec"
-    },
-    "legend.potentialEnergy": {
-      "value": "Energia Potencial"
-    },
-    "legend.potentialEnergyAbbreviation": {
-      "value": "Ep"
-    },
-    "legend.thermalEnergy": {
-      "value": "EnergiaTérmica"
-    },
-    "legend.thermalEnergyAbbreviation": {
-      "value": "E<sub>térm</sub>"
-    },
-    "legend.totalEnergy": {
-      "value": "Energia Total"
-    },
-    "length": {
-      "value": "Comprimento {{pendulumNumber}}"
-    },
-    "lots": {
-      "value": "Máx"
-    },
-    "mass": {
-      "value": "Massa {{pendulumNumber}}"
     },
     "moon": {
       "value": "Lua"
     },
-    "none": {
-      "value": "Zero"
+    "planetX": {
+      "value": "Planeta X"
     },
-    "pendulum-lab.title": {
-      "value": "Laboratório do Pêndulo"
+    "legend.kineticEnergyAbbreviation": {
+      "value": "Ec"
+    },
+    "legend.potentialEnergyAbbreviation": {
+      "value": "Ep"
+    },
+    "legend.thermalEnergyAbbreviation": {
+      "value": "E<sub>térm</sub>"
+    },
+    "legend.totalEnergyAbbreviation": {
+      "value": "E<sub>total</sub>"
+    },
+    "energyLegend": {
+      "value": "Legenda da Energia "
+    },
+    "legend.kineticEnergy": {
+      "value": "Energia Cinética"
+    },
+    "legend.potentialEnergy": {
+      "value": "Energia Potencial"
+    },
+    "legend.thermalEnergy": {
+      "value": "Energia Térmica"
+    },
+    "legend.totalEnergy": {
+      "value": "Energia Total"
+    },
+    "energyGraph": {
+      "value": "Gráfico de Energia"
     },
     "pendulumMassPattern": {
       "value": "Massa {{pendulumNumber}}"
     },
-    "period": {
-      "value": "Período"
+    "friction": {
+      "value": "Atrito"
+    },
+    "lots": {
+      "value": "Máximo"
+    },
+    "none": {
+      "value": "Zero"
+    },
+    "gravitationalAccelerationPattern": {
+      "value": "{{gravity}} m/s<sup>2</sup>"
+    },
+    "whatIsTheValueOfGravity": {
+      "value": "Qual o valor da gravidade?"
+    },
+    "gravity": {
+      "value": "Gravidade"
+    },
+    "length": {
+      "value": "Comprimento {{pendulumNumber}}"
+    },
+    "mass": {
+      "value": "Massa {{pendulumNumber}}"
+    },
+    "metersPattern": {
+      "value": "{{meters}} m"
+    },
+    "kilogramsPattern": {
+      "value": "{{kilograms}} kg"
+    },
+    "rulerUnits": {
+      "value": "cm"
+    },
+    "normal": {
+      "value": "Normal"
+    },
+    "slowMotion": {
+      "value": "Lento"
+    },
+    "degreesPattern": {
+      "value": "{{degrees}}°"
+    },
+    "ruler": {
+      "value": "Régua"
+    },
+    "stopwatch": {
+      "value": "Cronômetro"
     },
     "periodTimer": {
       "value": "Medir Período"
@@ -5496,26 +5523,29 @@
     "periodTrace": {
       "value": "Traçar Período"
     },
-    "planetX": {
-      "value": "Planeta X"
-    },
-    "ruler": {
-      "value": "Régua"
-    },
     "screen.energy": {
       "value": "Energia"
     },
-    "slowMotion": {
-      "value": "Lento"
+    "screen.intro": {
+      "value": "Intro"
     },
-    "stopwatch": {
-      "value": "Cronômetro"
+    "acceleration": {
+      "value": "Aceleração"
     },
     "velocity": {
       "value": "Velocidade"
     },
-    "whatIsTheValueOfGravity": {
-      "value": "Qual o valor da gravidade?"
+    "secondsPattern": {
+      "value": "{{seconds}} s"
+    },
+    "period": {
+      "value": "Período"
+    },
+    "screen.lab": {
+      "value": "Lab "
+    },
+    "pendulum-lab.title": {
+      "value": "Laboratório do Pêndulo"
     }
   },
   "ro": {
@@ -6484,13 +6514,13 @@
       "value": "E<sub>Jumla</sub>"
     },
     "energyLegend": {
-      "value": "Hadithi ya Nishati"
+      "value": "Kielelezo cha Nishati"
     },
     "legend.kineticEnergy": {
-      "value": "Nishati ya Kinetic"
+      "value": "Nishati Mwendo"
     },
     "legend.potentialEnergy": {
-      "value": "Nishati Inayowezekana"
+      "value": "Nishati Tuli"
     },
     "legend.thermalEnergy": {
       "value": "Nishati ya joto"
@@ -6502,7 +6532,7 @@
       "value": "Grafu ya Nishati"
     },
     "pendulumMassPattern": {
-      "value": "Molekuli {{pendulumNumber}}"
+      "value": "Tungamo/masi {{pendulumNumber}}"
     },
     "friction": {
       "value": "Msuguano"
@@ -6526,7 +6556,7 @@
       "value": "urefu {{pendulumNumber}}"
     },
     "mass": {
-      "value": "Molekuli {{pendulumNumber}}"
+      "value": "Tungamo/masi {{pendulumNumber}}"
     },
     "metersPattern": {
       "value": "{{meters}} m"
@@ -6535,7 +6565,7 @@
       "value": "{{kilograms}} kg"
     },
     "rulerUnits": {
-      "value": "cm"
+      "value": "sm"
     },
     "normal": {
       "value": "Kawaida"
@@ -6565,22 +6595,22 @@
       "value": "Utangulizi"
     },
     "acceleration": {
-      "value": "Mchapuko"
+      "value": "Mchepuko"
     },
     "velocity": {
-      "value": "Kasi"
+      "value": "Mendokasi melekeo"
     },
     "secondsPattern": {
       "value": "{{seconds}} s"
     },
     "period": {
-      "value": "Muda"
+      "value": "Kipindi"
     },
     "screen.lab": {
       "value": "Maabara"
     },
     "pendulum-lab.title": {
-      "value": "Maabara ya Pendulum"
+      "value": "Maabara ya Penduli"
     }
   },
   "te": {

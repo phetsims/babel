@@ -5582,41 +5582,62 @@
     }
   },
   "ku": {
-    "amplitude": {
-      "value": "فراوانی"
+    "circleDiameter": {
+      "value": "تیرەی بازنە"
     },
-    "both": {
-      "value": "شەپۆل و تەنۆلکە پێکەوە"
+    "mmValue": {
+      "value": "مم {{value}}"
+    },
+    "squareWidth": {
+      "value": "پانی چوارگۆشە"
+    },
+    "disorder": {
+      "value": "ناڕێکی"
+    },
+    "latticeSpacing": {
+      "value": "دووری نێوان بازنەکان"
+    },
+    "lots": {
+      "value": "هەمووی"
+    },
+    "none": {
+      "value": "هیچ"
+    },
+    "diameter": {
+      "value": "تیرە"
+    },
+    "eccentricity": {
+      "value": "ڕێژەی هێلکەیی"
+    },
+    "height": {
+      "value": "بەرزی"
+    },
+    "width": {
+      "value": "پانی"
+    },
+    "degreesValue": {
+      "value": "{{value}} ˚"
+    },
+    "rotation": {
+      "value": "خولانەوە"
+    },
+    "screen.diffraction": {
+      "value": "پەرشبوونەوە"
     },
     "centimetersUnits": {
       "value": "سم"
     },
-    "electricField": {
-      "value": "بواری کارەبا"
-    },
     "electricFieldAtCenter": {
       "value": "بواری کارەبە لە چەقدا"
     },
-    "frequency": {
-      "value": "لەرەلەر"
+    "electricField": {
+      "value": "بواری کارەبا"
     },
     "femtosecondsUnits": {
       "value": "فێمتۆ چرکە"
     },
-    "graph": {
-      "value": "هێڵکاری"
-    },
-    "intensity": {
-      "value": "تین"
-    },
     "lightGenerator": {
       "value": "ڕووناکی وەبەرهێن"
-    },
-    "max": {
-      "value": "بەرزترین ئاست"
-    },
-    "min": {
-      "value": "نزمترین ئاست"
     },
     "millisecondsUnits": {
       "value": "میلیچرکە"
@@ -5624,59 +5645,122 @@
     "nanometersUnits": {
       "value": "نانۆمەتر"
     },
-    "particles": {
-      "value": "تەنۆلکە"
-    },
-    "playTone": {
-      "value": "دەنگ"
-    },
     "positionCM": {
       "value": "دووری (سم)"
     },
     "positionNM": {
       "value": "دووری (نانۆمەتر)"
     },
-    "pressure": {
-      "value": "پەستان"
-    },
     "pressureAtCenter": {
       "value": "پاستان لە چەقدا"
+    },
+    "pressure": {
+      "value": "پەستان"
     },
     "secondsUnits": {
       "value": "چرکە"
     },
-    "screenLabel": {
-      "value": "شاشە"
-    },
-    "sideView": {
-      "value": "ڕوانین لە تەنیشتەوە"
-    },
-    "soundEffect": {
-      "value": "دەنگ"
-    },
     "soundGenerator": {
       "value": "وەبەرهێنەری دەنگ"
-    },
-    "time": {
-      "value": "کات"
-    },
-    "top": {
-      "value": "لەسەر"
-    },
-    "topView": {
-      "value": "ڕوانین لە سەرەوە"
-    },
-    "waterLevel": {
-      "value": "ئاستی ئاو"
     },
     "waterLevelAtCenter": {
       "value": "ئاستی ئاو لە سەنتەردا"
     },
+    "waterLevel": {
+      "value": "ئاستی ئاو"
+    },
     "waterWaveGenerator": {
       "value": "وەبەرهێنەری شەپۆلی ئاو "
     },
+    "cmValue": {
+      "value": "سم {{value}}"
+    },
+    "nmValue": {
+      "value": "نانۆمەتر {{value}}"
+    },
+    "separation": {
+      "value": "دورری نێوانیان"
+    },
+    "intensity": {
+      "value": "تین"
+    },
+    "top": {
+      "value": "لەسەر"
+    },
+    "normal": {
+      "value": "ئاسایی"
+    },
+    "slow": {
+      "value": "خاو"
+    },
+    "sideView": {
+      "value": "ڕوانین لە تەنیشتەوە"
+    },
+    "topView": {
+      "value": "ڕوانین لە سەرەوە"
+    },
+    "max": {
+      "value": "بەرزترین ئاست"
+    },
+    "min": {
+      "value": "نزمترین ئاست"
+    },
+    "amplitude": {
+      "value": "فراوانی"
+    },
+    "frequency": {
+      "value": "لەرەلەر"
+    },
+    "both": {
+      "value": "شەپۆل و تەنۆلکە پێکەوە"
+    },
+    "particles": {
+      "value": "تەنۆلکە"
+    },
     "waves": {
       "value": "شەپۆل"
+    },
+    "graph": {
+      "value": "هێڵکاری"
+    },
+    "playTone": {
+      "value": "دەنگ"
+    },
+    "screenLabel": {
+      "value": "شاشە"
+    },
+    "soundEffect": {
+      "value": "دەنگ"
+    },
+    "time": {
+      "value": "کات"
+    },
+    "screen.interference": {
+      "value": "بەیەکداچوون"
+    },
+    "noBarrier": {
+      "value": "بێ بەربەست"
+    },
+    "oneSlit": {
+      "value": "یەک درزەک"
+    },
+    "slitSeparation": {
+      "value": "دووری نێوان درزەک"
+    },
+    "slitWidth": {
+      "value": "پانی درزەک"
+    },
+    "twoSlits": {
+      "value": "دوو درزەک"
+    },
+    "screen.slits": {
+      "value": "درزەکەکان"
+    },
+    "screen.waves": {
+      "value": "شەپۆلەکان"
+    },
+    "wave-interference.title": {
+      "value": "بەیەکداچوونی شەپۆل"
     }
   },
   "lv": {
@@ -9636,6 +9720,114 @@
     }
   },
   "tr": {
+    "femtosecondConversion": {
+      "value": "1 fs = 10<sup>-15</sup> s"
+    },
+    "millisecondConversion": {
+      "value": "1 ms = 10<sup>-3</sup> s"
+    },
+    "amplitude": {
+      "value": "Genlik"
+    },
+    "both": {
+      "value": "Her ikisi de"
+    },
+    "centimetersUnits": {
+      "value": "cm"
+    },
+    "electricField": {
+      "value": "Elektrik Alan"
+    },
+    "electricFieldAtCenter": {
+      "value": "Merkezdeki Elektrik Alan"
+    },
+    "frequency": {
+      "value": "Frekans"
+    },
+    "femtosecondsUnits": {
+      "value": "fs"
+    },
+    "graph": {
+      "value": "Grafik"
+    },
+    "intensity": {
+      "value": "Yoğunluk"
+    },
+    "lightGenerator": {
+      "value": "Işık Kaynağı"
+    },
+    "max": {
+      "value": "max"
+    },
+    "min": {
+      "value": "min"
+    },
+    "millisecondsUnits": {
+      "value": "ms"
+    },
+    "nanometersUnits": {
+      "value": "nm"
+    },
+    "particles": {
+      "value": "Parçacıklar"
+    },
+    "playTone": {
+      "value": "Tonu çal"
+    },
+    "positionCM": {
+      "value": "Konum (cm)"
+    },
+    "positionNM": {
+      "value": "Konum (nm)"
+    },
+    "pressure": {
+      "value": "Basınç"
+    },
+    "pressureAtCenter": {
+      "value": "Merkezdeki Basınç"
+    },
+    "secondsUnits": {
+      "value": "s"
+    },
+    "screenLabel": {
+      "value": "Ekran"
+    },
+    "sideView": {
+      "value": "Yandan Görünüm"
+    },
+    "soundEffect": {
+      "value": "Ses Efekti"
+    },
+    "soundGenerator": {
+      "value": "Ses Kaynağı"
+    },
+    "time": {
+      "value": "Zaman"
+    },
+    "top": {
+      "value": "Üst"
+    },
+    "topView": {
+      "value": "Üstten Görünüm"
+    },
+    "waterLevel": {
+      "value": "Su Seviyesi"
+    },
+    "waterLevelAtCenter": {
+      "value": "Merkezdeki Su Seviyesi"
+    },
+    "waterWaveGenerator": {
+      "value": "Su Dalgası Kaynağı"
+    },
+    "waves": {
+      "value": "Dalgalar"
+    },
+    "distanceUnits": {
+      "value": "{{distance}} {{units}}"
+    },
+    "timeUnits": {
+      "value": "{{time}} {{units}}"
+    },
     "circleDiameter": {
       "value": "Daire Çapı"
     },
@@ -9672,89 +9864,14 @@
     "screen.diffraction": {
       "value": "Kırınım"
     },
-    "electricFieldAtCenter": {
-      "value": "Merkezdeki Elektrik Alan"
-    },
-    "electricField": {
-      "value": "Elektrik Alan"
-    },
-    "lightGenerator": {
-      "value": "Işık Kaynağı"
-    },
-    "positionCM": {
-      "value": "Konum (cm)"
-    },
-    "positionNM": {
-      "value": "Konum (nm)"
-    },
-    "pressureAtCenter": {
-      "value": "Merkezdeki Basınç"
-    },
-    "pressure": {
-      "value": "Basınç"
-    },
-    "soundGenerator": {
-      "value": "Ses Kaynağı"
-    },
-    "waterLevelAtCenter": {
-      "value": "Merkezdeki Su Seviyesi"
-    },
-    "waterLevel": {
-      "value": "Su Seviyesi"
-    },
-    "waterWaveGenerator": {
-      "value": "Su Dalgası Kaynağı"
-    },
     "separation": {
       "value": "Kaynakların Uzaklığı"
-    },
-    "intensity": {
-      "value": "Yoğunluk"
-    },
-    "top": {
-      "value": "Üst"
     },
     "normal": {
       "value": "Normal"
     },
     "slow": {
       "value": "Yavaş"
-    },
-    "sideView": {
-      "value": "Yandan Görünüm"
-    },
-    "topView": {
-      "value": "Üstten Görünüm"
-    },
-    "amplitude": {
-      "value": "Genlik"
-    },
-    "frequency": {
-      "value": "Frekans"
-    },
-    "both": {
-      "value": "Her ikisi de"
-    },
-    "particles": {
-      "value": "Parçacıklar"
-    },
-    "waves": {
-      "value": "Dalgalar"
-    },
-    "graph": {
-      "value": "Grafik"
-    },
-    "playTone": {
-      "value": "Tonu çal"
-    },
-    "screenLabel": {
-      "value": "Ekran"
-    },
-    "soundEffect": {
-      "value": "Ses Efekti"
-    },
-    "time": {
-      "value": "Zaman"
     },
     "screen.interference": {
       "value": "Girişim"
