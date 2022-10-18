@@ -244,13 +244,19 @@
     ]
   },
   "formaldehyde": {
-    "value": "metanal",
+    "value": "formaldeído ",
     "history": [
       {
         "userId": 143491,
         "timestamp": 1643463790726,
         "oldValue": "",
         "newValue": "metanal"
+      },
+      {
+        "userId": 801820,
+        "timestamp": 1666098612561,
+        "oldValue": "metanal",
+        "newValue": "formaldeído "
       }
     ]
   },
@@ -489,6 +495,17 @@
       }
     ]
   },
+  "moleculeNamePattern": {
+    "value": "{{display}}",
+    "history": [
+      {
+        "userId": 801820,
+        "timestamp": 1666098612561,
+        "oldValue": "",
+        "newValue": "{{display}}"
+      }
+    ]
+  },
   "collectionMultipleQuantityEmpty": {
     "value": "Você tem: (nada)",
     "history": [
@@ -525,6 +542,17 @@
       }
     ]
   },
+  "collectionSinglePattern": {
+    "value": "{{general}} ({{display}})",
+    "history": [
+      {
+        "userId": 801820,
+        "timestamp": 1666098612561,
+        "oldValue": "",
+        "newValue": "{{general}} ({{display}})"
+      }
+    ]
+  },
   "warning": {
     "value": "A renderização 3D da molécula requer WebGL. \nWebGL não está habilitado ou não está disponível. Clique para saber mais.",
     "history": [
@@ -534,6 +562,17 @@
         "oldValue": "",
         "newValue": "A renderização 3D da molécula requer WebGL. \nWebGL não está habilitado ou não está disponível. Clique para saber mais.",
         "explanation": null
+      }
+    ]
+  },
+  "threeD": {
+    "value": "3D",
+    "history": [
+      {
+        "userId": 801820,
+        "timestamp": 1666098612561,
+        "oldValue": "",
+        "newValue": "3D"
       }
     ]
   },
