@@ -1,36 +1,48 @@
 {
-  "allIons": {
-    "value": "Ions Zote",
+  "concentrationReadoutPattern.0label.1value.2units": {
+    "value": "{0} [{1} {2}]",
     "history": [
       {
         "userId": 276062,
         "timestamp": 1457885956639,
         "oldValue": "",
-        "newValue": "Ions Zote",
+        "newValue": "{0} [{1} {2}]",
         "explanation": null
       }
     ]
   },
-  "charges": {
-    "value": "Mashtaka",
+  "potassiumChemicalSymbol": {
+    "value": "K+",
     "history": [
       {
         "userId": 276062,
         "timestamp": 1457885956639,
         "oldValue": "",
-        "newValue": "Mashtaka",
+        "newValue": "K+",
         "explanation": null
       }
     ]
   },
-  "chartClear": {
-    "value": "Wazi",
+  "sodiumChemicalSymbol": {
+    "value": "Na+",
     "history": [
       {
         "userId": 276062,
         "timestamp": 1457885956639,
         "oldValue": "",
-        "newValue": "Wazi",
+        "newValue": "Na+",
+        "explanation": null
+      }
+    ]
+  },
+  "units.mM": {
+    "value": "mM",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1457885956639,
+        "oldValue": "",
+        "newValue": "mM",
         "explanation": null
       }
     ]
@@ -43,6 +55,18 @@
         "timestamp": 1457885956639,
         "oldValue": "",
         "newValue": "Uwezo Utando vs Muda",
+        "explanation": null
+      }
+    ]
+  },
+  "chartClear": {
+    "value": "Wazi",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1457885956639,
+        "oldValue": "",
+        "newValue": "Wazi",
         "explanation": null
       }
     ]
@@ -71,44 +95,8 @@
       }
     ]
   },
-  "concentrationReadoutPattern.0label.1value.2units": {
-    "value": "{0} [{1} {2}]",
-    "history": [
-      {
-        "userId": 276062,
-        "timestamp": 1457885956639,
-        "oldValue": "",
-        "newValue": "{0} [{1} {2}]",
-        "explanation": null
-      }
-    ]
-  },
-  "concentrations": {
-    "value": "Kikolezo",
-    "history": [
-      {
-        "userId": 276062,
-        "timestamp": 1457885956639,
-        "oldValue": "",
-        "newValue": "Kikolezo",
-        "explanation": null
-      }
-    ]
-  },
-  "fastForward": {
-    "value": "Kufunga Mbele",
-    "history": [
-      {
-        "userId": 276062,
-        "timestamp": 1457885956639,
-        "oldValue": "",
-        "newValue": "Kufunga Mbele",
-        "explanation": null
-      }
-    ]
-  },
   "legend": {
-    "value": "Legend",
+    "value": "Kielelezo",
     "history": [
       {
         "userId": 276062,
@@ -116,59 +104,35 @@
         "oldValue": "",
         "newValue": "Legend",
         "explanation": null
+      },
+      {
+        "userId": 1085625,
+        "timestamp": 1666075390711,
+        "oldValue": "Legend",
+        "newValue": "Kielelezo"
       }
     ]
   },
-  "neuron.title": {
-    "value": "Neuron",
+  "sodiumIon": {
+    "value": "Ioni ya Sodiamu (Na+)",
     "history": [
       {
         "userId": 276062,
         "timestamp": 1457885956639,
         "oldValue": "",
-        "newValue": "Neuron",
+        "newValue": "Ion Sodiamu (Na+)",
         "explanation": null
-      }
-    ]
-  },
-  "normal": {
-    "value": "Kawaida",
-    "history": [
+      },
       {
-        "userId": 276062,
-        "timestamp": 1457885956639,
-        "oldValue": "",
-        "newValue": "Kawaida",
-        "explanation": null
-      }
-    ]
-  },
-  "potassiumChemicalSymbol": {
-    "value": "K+",
-    "history": [
-      {
-        "userId": 276062,
-        "timestamp": 1457885956639,
-        "oldValue": "",
-        "newValue": "K+",
-        "explanation": null
-      }
-    ]
-  },
-  "potassiumGatedChannel": {
-    "value": "Potassium Gated Channel",
-    "history": [
-      {
-        "userId": 276062,
-        "timestamp": 1457885956639,
-        "oldValue": "",
-        "newValue": "Potassium Gated Channel",
-        "explanation": null
+        "userId": 1085625,
+        "timestamp": 1666075390711,
+        "oldValue": "Ion Sodiamu (Na+)",
+        "newValue": "Ioni ya Sodiamu (Na+)"
       }
     ]
   },
   "potassiumIon": {
-    "value": "Ion Potasiamu (K+)",
+    "value": "Ioni ya Potasiamu (K+)",
     "history": [
       {
         "userId": 276062,
@@ -176,11 +140,71 @@
         "oldValue": "",
         "newValue": "Ion Potasiamu (K+)",
         "explanation": null
+      },
+      {
+        "userId": 1085625,
+        "timestamp": 1666075390711,
+        "oldValue": "Ion Potasiamu (K+)",
+        "newValue": "Ioni ya Potasiamu (K+)"
+      }
+    ]
+  },
+  "sodiumGatedChannel": {
+    "value": "Mfereji wa Sodiamu Uliozibwa",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1457885956639,
+        "oldValue": "",
+        "newValue": "Sodium Gated Channel",
+        "explanation": null
+      },
+      {
+        "userId": 1085625,
+        "timestamp": 1666075390711,
+        "oldValue": "Sodium Gated Channel",
+        "newValue": "Mfereji wa Sodiamu Uliozibwa"
+      }
+    ]
+  },
+  "potassiumGatedChannel": {
+    "value": "Mfereji wa Potasiamu Uliozibwa",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1457885956639,
+        "oldValue": "",
+        "newValue": "Potassium Gated Channel",
+        "explanation": null
+      },
+      {
+        "userId": 1085625,
+        "timestamp": 1666075390711,
+        "oldValue": "Potassium Gated Channel",
+        "newValue": "Mfereji wa Potasiamu Uliozibwa"
+      }
+    ]
+  },
+  "sodiumLeakChannel": {
+    "value": "Mfereji wa kuvujisha Sodiamu",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1457885956639,
+        "oldValue": "",
+        "newValue": "Sodium Leak Channel",
+        "explanation": null
+      },
+      {
+        "userId": 1085625,
+        "timestamp": 1666075390711,
+        "oldValue": "Sodium Leak Channel",
+        "newValue": "Mfereji wa kuvujisha Sodiamu"
       }
     ]
   },
   "potassiumLeakChannel": {
-    "value": "Potassium Leak Channel",
+    "value": "Mfereji wa kuvujisha Potasiamu",
     "history": [
       {
         "userId": 276062,
@@ -188,6 +212,48 @@
         "oldValue": "",
         "newValue": "Potassium Leak Channel",
         "explanation": null
+      },
+      {
+        "userId": 1085625,
+        "timestamp": 1666075390711,
+        "oldValue": "Potassium Leak Channel",
+        "newValue": "Mfereji wa kuvujisha Potasiamu"
+      }
+    ]
+  },
+  "showLegend": {
+    "value": "Onesha",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1457885956639,
+        "oldValue": "",
+        "newValue": "Onyesha",
+        "explanation": null
+      },
+      {
+        "userId": 1085625,
+        "timestamp": 1666075390711,
+        "oldValue": "Onyesha",
+        "newValue": "Onesha"
+      }
+    ]
+  },
+  "allIons": {
+    "value": "Ioni Zote",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1457885956639,
+        "oldValue": "",
+        "newValue": "Ions Zote",
+        "explanation": null
+      },
+      {
+        "userId": 1085625,
+        "timestamp": 1666075390711,
+        "oldValue": "Ions Zote",
+        "newValue": "Ioni Zote"
       }
     ]
   },
@@ -203,20 +269,74 @@
       }
     ]
   },
-  "showLegend": {
-    "value": "Onyesha",
+  "charges": {
+    "value": "Chaji",
     "history": [
       {
         "userId": 276062,
         "timestamp": 1457885956639,
         "oldValue": "",
-        "newValue": "Onyesha",
+        "newValue": "Mashtaka",
+        "explanation": null
+      },
+      {
+        "userId": 1085625,
+        "timestamp": 1666075390711,
+        "oldValue": "Mashtaka",
+        "newValue": "Chaji"
+      }
+    ]
+  },
+  "concentrations": {
+    "value": "Ukolezi",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1457885956639,
+        "oldValue": "",
+        "newValue": "Kikolezo",
+        "explanation": null
+      },
+      {
+        "userId": 1085625,
+        "timestamp": 1666075390711,
+        "oldValue": "Kikolezo",
+        "newValue": "Ukolezi"
+      }
+    ]
+  },
+  "fastForward": {
+    "value": "Mbele Haraka",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1457885956639,
+        "oldValue": "",
+        "newValue": "Kufunga Mbele",
+        "explanation": null
+      },
+      {
+        "userId": 1085625,
+        "timestamp": 1666075390711,
+        "oldValue": "Kufunga Mbele",
+        "newValue": "Mbele Haraka"
+      }
+    ]
+  },
+  "normal": {
+    "value": "Kawaida",
+    "history": [
+      {
+        "userId": 276062,
+        "timestamp": 1457885956639,
+        "oldValue": "",
+        "newValue": "Kawaida",
         "explanation": null
       }
     ]
   },
   "slowMotion": {
-    "value": "Mwendo wa Taratibu",
+    "value": "Mwendo wa Polepole",
     "history": [
       {
         "userId": 276062,
@@ -224,59 +344,17 @@
         "oldValue": "",
         "newValue": "Mwendo wa Taratibu",
         "explanation": null
-      }
-    ]
-  },
-  "sodiumChemicalSymbol": {
-    "value": "Na+",
-    "history": [
+      },
       {
-        "userId": 276062,
-        "timestamp": 1457885956639,
-        "oldValue": "",
-        "newValue": "Na+",
-        "explanation": null
-      }
-    ]
-  },
-  "sodiumGatedChannel": {
-    "value": "Sodium Gated Channel",
-    "history": [
-      {
-        "userId": 276062,
-        "timestamp": 1457885956639,
-        "oldValue": "",
-        "newValue": "Sodium Gated Channel",
-        "explanation": null
-      }
-    ]
-  },
-  "sodiumIon": {
-    "value": "Ion Sodiamu (Na+)",
-    "history": [
-      {
-        "userId": 276062,
-        "timestamp": 1457885956639,
-        "oldValue": "",
-        "newValue": "Ion Sodiamu (Na+)",
-        "explanation": null
-      }
-    ]
-  },
-  "sodiumLeakChannel": {
-    "value": "Sodium Leak Channel",
-    "history": [
-      {
-        "userId": 276062,
-        "timestamp": 1457885956639,
-        "oldValue": "",
-        "newValue": "Sodium Leak Channel",
-        "explanation": null
+        "userId": 1085625,
+        "timestamp": 1666075390711,
+        "oldValue": "Mwendo wa Taratibu",
+        "newValue": "Mwendo wa Polepole"
       }
     ]
   },
   "stimulateNeuron": {
-    "value": "Chechemua\nNeuron",
+    "value": "Changamsha\nNuroni",
     "history": [
       {
         "userId": 276062,
@@ -284,18 +362,30 @@
         "oldValue": "",
         "newValue": "Chechemua\nNeuron",
         "explanation": null
+      },
+      {
+        "userId": 1085625,
+        "timestamp": 1666075390711,
+        "oldValue": "Chechemua\nNeuron",
+        "newValue": "Changamsha\nNuroni"
       }
     ]
   },
-  "units.mM": {
-    "value": "mM",
+  "neuron.title": {
+    "value": "Nuroni",
     "history": [
       {
         "userId": 276062,
         "timestamp": 1457885956639,
         "oldValue": "",
-        "newValue": "mM",
+        "newValue": "Neuron",
         "explanation": null
+      },
+      {
+        "userId": 1085625,
+        "timestamp": 1666075390711,
+        "oldValue": "Neuron",
+        "newValue": "Nuroni"
       }
     ]
   }
