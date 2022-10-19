@@ -4763,6 +4763,15 @@
     "menuItem.about": {
       "value": "ના વિષે..."
     },
+    "preferences.tabs.visual.interactiveHighlightsDescription": {
+      "value": "આપના માઉસ અને ટચની પ્રતિક્રિયા હાઈલાઈટ કરો "
+    },
+    "preferences.tabs.audio.title": {
+      "value": "ધ્વની "
+    },
+    "preferences.tabs.audio.audioFeatures.title": {
+      "value": "ધ્વની ફીચર્સ "
+    },
     "menuItem.getUpdate": {
       "value": "અપડેટ ચેક કરો..."
     },
@@ -4778,14 +4787,32 @@
     "menuItem.enhancedSound": {
       "value": "વધારે અવાજ"
     },
+    "preferences.tabs.audio.sounds.extraSounds.title": {
+      "value": "વધારાનો અવાજ "
+    },
     "menuItem.fullscreen": {
-      "value": "આખી સ્ક્રીન "
+      "value": "ફૂલ સ્ક્રીન "
+    },
+    "preferences.tabs.general.title": {
+      "value": "સામાન્ય "
     },
     "updates.getUpdate": {
-      "value": "અદ્યતન કરો..."
+      "value": "અપડેટ કરો..."
     },
     "credits.graphicArts": {
       "value": "ચિત્રણ : {0}"
+    },
+    "preferences.tabs.input.title": {
+      "value": "ઈનપુટ"
+    },
+    "preferences.tabs.visual.interactiveHighlights": {
+      "value": "ઇંટ્રેક્ટિવ હાઈલાઈટ્સ"
+    },
+    "ieErrorPage.ieIsNotSupported": {
+      "value": "Internet Explorer ચલાવી શકતું નથી."
+    },
+    "queryParametersWarningDialog.invalidQueryParameters": {
+      "value": "પ્રશ્નોના પરિમાણો યોગ્ય નથી."
     },
     "keyboardShortcuts.title": {
       "value": "કીબોર્ડનાં શોર્ટકટ "
@@ -4797,7 +4824,10 @@
       "value": "નવું સંસ્કરણ ઉપલબ્ધ છે"
     },
     "updates.noThanks": {
-      "value": "આભારની જરૂર નથી."
+      "value": "ના, આભાર."
+    },
+    "queryParametersWarningDialog.oneOrMoreQueryParameters": {
+      "value": "એક અથવા વધુ પરિમાણોની <br>કિંમત યોગ્ય નથી."
     },
     "options.title": {
       "value": "વિકલ્પો"
@@ -4807,6 +4837,21 @@
     },
     "menuItem.phetWebsite": {
       "value": "PhET  વેબસાઈટ"
+    },
+    "ieErrorPage.platformError": {
+      "value": "પ્લેટફોર્મ એરર"
+    },
+    "preferences.tabs.audio.sounds.extraSounds.description": {
+      "value": "વધારાના અવાજ ચાલુ કરો  જે કેટલાક શીખનારાઓ માટે મદદરૂપ થઈ શકે."
+    },
+    "preferences.tabs.audio.sounds.description": {
+      "value": "જ્યારે તમે ક્રિયાપ્રતિક્રિયા કરો છો ત્યારે સોનિફિકેશન અને સાઉન્ડ ઇફેક્ટ્સ વગાડો."
+    },
+    "ieErrorPage.useDifferentBrowser": {
+      "value": "આ સિમ્યુલેશન ચલાવવા માટે કૃપા કરીને કોઈ અલગ બ્રાઉઝરનો ઉપયોગ કરો."
+    },
+    "preferences.title": {
+      "value": "પ્રાથમિકતા "
     },
     "credits.qualityAssurance": {
       "value": "ગુણવત્તાની ખાતરી: {0}"
@@ -4823,6 +4868,9 @@
     "credits.soundDesign": {
       "value": "ધ્વનિ ડિઝાઇન: {0}"
     },
+    "preferences.tabs.audio.sounds.title": {
+      "value": "ધ્વની "
+    },
     "credits.team": {
       "value": "ટીમ: {0}"
     },
@@ -4831,6 +4879,9 @@
     },
     "credits.thanks": {
       "value": "આભાર "
+    },
+    "queryParametersWarningDialog.theSimulationWillStart": {
+      "value": "આ સિમ્યુલેશન પ્રશ્નોના પરિમાણોની<br>મૂળભૂત કિંમતો સાથે ચાલુ થશે."
     },
     "updates.newVersionAvailable": {
       "value": "નવું સંસ્કરણ ઉપલબ્ધ છે: {0}."
@@ -4841,11 +4892,11 @@
     "updates.upToDate": {
       "value": "આ સિમ્યુલેશન અદ્યતન છે."
     },
+    "preferences.tabs.general.moreAccessibility": {
+      "value": "સમાવિષ્ટ સુવિધાઓ સાથે અન્ય સિમ્યુલેશન શોધવા માટે, સિમ્યુલેશન ફિલ્ટર પૃષ્ઠ પર ઍક્સેસ અને સમાવેશ માટે જુઓ અને સમાવિષ્ટ સુવિધા દ્વારા ફિલ્ટર કરો."
+    },
     "keyboardShortcuts.toGetStarted": {
       "value": "પ્રારંભ કરવા માટે"
-    },
-    "credits.translation": {
-      "value": "ભાષાંતર "
     },
     "translation.credits.link": {
       "value": "ભાષાંતર કરનાર "
@@ -4854,64 +4905,22 @@
       "value": "અપડેટ ચેક કરી શકતા નથી "
     },
     "versionPattern": {
-      "value": "આવૃત્તિ {0}"
+      "value": "સંસ્કરણ {0}"
+    },
+    "preferences.tabs.visual.title": {
+      "value": "વિઝ્યુઅલ"
+    },
+    "preferences.tabs.general.accessibilityIntro": {
+      "value": "અમે અમારા સિમ્યુલેશનમાં વિશેષતાઓ ઉમેરી રહ્યા છીએ જેથી કરીને તેને વધુ સમાવિષ્ટ બનાવી શકાય. આમાંની કેટલીક વિશેષતાઓ વિવિધ જરૂરિયાતો ધરાવતા અને વિવિધ વાતાવરણમાં શીખનારાઓ માટે સુલભતાને સમર્થન આપે છે. ડિફૉલ્ટ પ્રસ્તુતિ સેટિંગ્સની સમીક્ષા કરવા અથવા બદલવા માટે આ મેનૂ જોવો."
     },
     "updates.yourCurrentVersion": {
-      "value": "આપની હાલની આવૃત્તિ છે: {0}."
+      "value": "આપનું હાલનું સંસ્કરણ : {0} છે."
     },
     "simTitleWithScreenNamePattern": {
       "value": "{{simName}} — {{screenName}}"
     },
-    "preferences.tabs.visual.interactiveHighlightsDescription": {
-      "value": "આપના માઉસ અને ટચની પ્રતિક્રિયા હાઈલાઈટ કરો "
-    },
-    "preferences.tabs.audio.title": {
-      "value": "ધ્વની "
-    },
-    "preferences.tabs.audio.audioFeatures.title": {
-      "value": "ધ્વની વિવિધતા "
-    },
-    "preferences.tabs.audio.sounds.extraSounds.title": {
-      "value": "વધારાનો અવાજ "
-    },
-    "preferences.tabs.general.title": {
-      "value": "સામાન્ય "
-    },
-    "ieErrorPage.ieIsNotSupported": {
-      "value": "Internet Explorer ચલાવી શકતું નથી."
-    },
-    "queryParametersWarningDialog.invalidQueryParameters": {
-      "value": "પ્રશ્નોના પરિમાણો યોગ્ય નથી."
-    },
-    "queryParametersWarningDialog.oneOrMoreQueryParameters": {
-      "value": "એક અથવા વધુ પરિમાણોની <br>કિંમત યોગ્ય નથી."
-    },
-    "preferences.tabs.audio.sounds.extraSounds.description": {
-      "value": "વધારાના અવાજ ચાલુ કરો  જે કેટલાક શીખનારાઓ માટે મદદરૂપ થઈ શકે."
-    },
-    "preferences.tabs.audio.sounds.description": {
-      "value": "જ્યારે તમે ક્રિયાપ્રતિક્રિયા કરો છો ત્યારે સોનિફિકેશન અને સાઉન્ડ ઇફેક્ટ્સ વગાડો."
-    },
-    "ieErrorPage.useDifferentBrowser": {
-      "value": "આ સિમ્યુલેશન ચલાવવા માટે કૃપા કરીને કોઈ અલગ બ્રાઉઝરનો ઉપયોગ કરો."
-    },
-    "preferences.title": {
-      "value": "પ્રાથમિકતા "
-    },
-    "preferences.tabs.audio.sounds.title": {
-      "value": "ધ્વની "
-    },
-    "queryParametersWarningDialog.theSimulationWillStart": {
-      "value": "આ સિમ્યુલેશન પ્રશ્નોના પરિમાણોની<br>મૂળભૂત કિંમતો સાથે ચાલુ થશે."
-    },
-    "preferences.tabs.general.moreAccessibility": {
-      "value": "સમાવિષ્ટ સુવિધાઓ સાથે અન્ય સિમ્યુલેશન શોધવા માટે, સિમ્યુલેશન ફિલ્ટર પૃષ્ઠ પર ઍક્સેસ અને સમાવેશ માટે જુઓ અને સમાવિષ્ટ સુવિધા દ્વારા ફિલ્ટર કરો."
-    },
-    "preferences.tabs.visual.title": {
-      "value": "દ્રશ્ય"
-    },
-    "preferences.tabs.general.accessibilityIntro": {
-      "value": "અમે અમારા સિમ્યુલેશનમાં વિશેષતાઓ ઉમેરી રહ્યા છીએ જેથી કરીને તેને વધુ સમાવિષ્ટ બનાવી શકાય. આમાંની કેટલીક વિશેષતાઓ વિવિધ જરૂરિયાતો ધરાવતા અને વિવિધ વાતાવરણમાં શીખનારાઓ માટે સુલભતાને સમર્થન આપે છે. ડિફૉલ્ટ પ્રસ્તુતિ સેટિંગ્સની સમીક્ષા કરવા અથવા બદલવા માટે આ "
+    "credits.translation": {
+      "value": "ભાષાંતર "
     },
     "done": {
       "value": "પૂર્ણ "
@@ -7595,6 +7604,12 @@
     "menuItem.about": {
       "value": "لەبارەی"
     },
+    "preferences.tabs.audio.title": {
+      "value": "دەنگ"
+    },
+    "preferences.tabs.audio.audioFeatures.title": {
+      "value": "سەفەتەکانی دەنگ"
+    },
     "menuItem.getUpdate": {
       "value": "گەڕان بۆ نوێکردنەوە"
     },
@@ -7607,8 +7622,14 @@
     "menuItem.enhancedSound": {
       "value": "دەنگی زیاتر"
     },
+    "preferences.tabs.audio.sounds.extraSounds.title": {
+      "value": "دەنگی زیاتر"
+    },
     "menuItem.fullscreen": {
       "value": "پڕ شاشە "
+    },
+    "preferences.tabs.general.title": {
+      "value": "گشتی"
     },
     "updates.getUpdate": {
       "value": "نوێکردنەوە وەدەست بخە"
@@ -7652,14 +7673,14 @@
     "keyboardShortcuts.toGetStarted": {
       "value": "بۆ ئەوەی دەست پێ بکەیت"
     },
-    "credits.translation": {
-      "value": "وەرگێڕان"
-    },
     "translation.credits.link": {
       "value": "ئاماژەدان بە وەرگێڕەکان "
     },
     "updates.offline": {
       "value": "گەڕان بۆ وەشانی نوێ سەرکەوتوو نەبوو"
+    },
+    "credits.translation": {
+      "value": "وەرگێڕان"
     }
   },
   "ku_TR": {
@@ -10708,6 +10729,96 @@
     "menuItem.about": {
       "value": "Sobre..."
     },
+    "menuItem.getUpdate": {
+      "value": "Conferir atualizações..."
+    },
+    "updates.checking": {
+      "value": "Procurando atualizações..."
+    },
+    "credits.title": {
+      "value": "Créditos"
+    },
+    "done": {
+      "value": "Feito"
+    },
+    "menuItem.fullscreen": {
+      "value": "Tela Cheia"
+    },
+    "updates.getUpdate": {
+      "value": "Atualizar..."
+    },
+    "credits.graphicArts": {
+      "value": "Artes Gráficas: {0}"
+    },
+    "credits.leadDesign": {
+      "value": "Equipe de Projeto: {0}"
+    },
+    "updates.outOfDate": {
+      "value": "Nova versão disponível"
+    },
+    "updates.noThanks": {
+      "value": "Não, obrigado"
+    },
+    "options.title": {
+      "value": "Opções"
+    },
+    "menuItem.options": {
+      "value": "Opções..."
+    },
+    "menuItem.phetWebsite": {
+      "value": "Portal PhET…"
+    },
+    "credits.qualityAssurance": {
+      "value": "Garantia de Qualidade: {0}"
+    },
+    "menuItem.reportAProblem": {
+      "value": "Informar problema..."
+    },
+    "menuItem.screenshot": {
+      "value": "Captura de tela"
+    },
+    "title.settings": {
+      "value": "Configurações"
+    },
+    "showPointers": {
+      "value": "Mostrar Ponteiros"
+    },
+    "credits.softwareDevelopment": {
+      "value": "Desenvolvimento de Software: {0}"
+    },
+    "credits.team": {
+      "value": "Equipe: {0}"
+    },
+    "termsPrivacyAndLicensing": {
+      "value": "Termos, Privacidade & Licenciamento"
+    },
+    "credits.thanks": {
+      "value": "Obrigado"
+    },
+    "updates.newVersionAvailable": {
+      "value": "Há uma nova versão disponível: {0}."
+    },
+    "thirdParty.credits.link": {
+      "value": "Créditos de Terceiros"
+    },
+    "updates.upToDate": {
+      "value": "Esta simulação está atualizada."
+    },
+    "credits.translation": {
+      "value": "Tradução"
+    },
+    "translation.credits.link": {
+      "value": "Traduzido por"
+    },
+    "updates.offline": {
+      "value": "Não foi possível verificar atualizações."
+    },
+    "versionPattern": {
+      "value": "versão {0}"
+    },
+    "updates.yourCurrentVersion": {
+      "value": "Sua versão atual é: {0}."
+    },
     "preferences.tabs.visual.interactiveHighlightsDescription": {
       "value": "Adicione destaques visuais para mouse e toque conforme você interage. "
     },
@@ -10717,17 +10828,8 @@
     "preferences.tabs.audio.audioFeatures.title": {
       "value": "Recursos de Áudio"
     },
-    "menuItem.getUpdate": {
-      "value": "Conferir atualizações..."
-    },
-    "updates.checking": {
-      "value": "Procurando atualizações..."
-    },
     "credits.contributors": {
       "value": "Colaboradores: {0}"
-    },
-    "credits.title": {
-      "value": "Créditos"
     },
     "menuItem.enhancedSound": {
       "value": "Som Aprimorado"
@@ -10735,17 +10837,8 @@
     "preferences.tabs.audio.sounds.extraSounds.title": {
       "value": "Sons Extras"
     },
-    "menuItem.fullscreen": {
-      "value": "Tela Cheia"
-    },
     "preferences.tabs.general.title": {
       "value": "Geral"
-    },
-    "updates.getUpdate": {
-      "value": "Atualizar..."
-    },
-    "credits.graphicArts": {
-      "value": "Artes Gráficas: {0}"
     },
     "preferences.tabs.input.title": {
       "value": "input/Entrada"
@@ -10762,26 +10855,8 @@
     "keyboardShortcuts.title": {
       "value": "Teclas de Atalho"
     },
-    "credits.leadDesign": {
-      "value": "Equipe de Projeto: {0}"
-    },
-    "updates.outOfDate": {
-      "value": "Nova versão disponível"
-    },
-    "updates.noThanks": {
-      "value": "Não, obrigado"
-    },
     "queryParametersWarningDialog.oneOrMoreQueryParameters": {
       "value": "Um ou mais parâmetros de consulta têm<br>valores inválidos:"
-    },
-    "options.title": {
-      "value": "Opções"
-    },
-    "menuItem.options": {
-      "value": "Opções..."
-    },
-    "menuItem.phetWebsite": {
-      "value": "Portal PhET…"
     },
     "ieErrorPage.platformError": {
       "value": "Erro na Plataforma"
@@ -10798,44 +10873,14 @@
     "preferences.title": {
       "value": "Preferências"
     },
-    "credits.qualityAssurance": {
-      "value": "Garantia de Qualidade: {0}"
-    },
-    "menuItem.reportAProblem": {
-      "value": "Informar problema..."
-    },
-    "menuItem.screenshot": {
-      "value": "Captura de tela"
-    },
-    "credits.softwareDevelopment": {
-      "value": "Desenvolvimento de Software: {0}"
-    },
     "credits.soundDesign": {
       "value": "Design de Som: {0}"
     },
     "preferences.tabs.audio.sounds.title": {
       "value": "Sons"
     },
-    "credits.team": {
-      "value": "Equipe: {0}"
-    },
-    "termsPrivacyAndLicensing": {
-      "value": "Termos, Privacidade & Licenciamento"
-    },
-    "credits.thanks": {
-      "value": "Obrigado"
-    },
     "queryParametersWarningDialog.theSimulationWillStart": {
       "value": "A simulação iniciará com valores padrão para esses<br>parâmetros de consulta."
-    },
-    "updates.newVersionAvailable": {
-      "value": "Há uma nova versão disponível: {0}."
-    },
-    "thirdParty.credits.link": {
-      "value": "Créditos de Terceiros"
-    },
-    "updates.upToDate": {
-      "value": "Esta simulação está atualizada."
     },
     "preferences.tabs.general.moreAccessibility": {
       "value": "Para encontrar outras simulações com recursos de acessibilidade, vá para a página de filtro de simulação no portal do PhET e filtre por recurso de acessibilidade. "
@@ -10843,38 +10888,14 @@
     "keyboardShortcuts.toGetStarted": {
       "value": "para iniciar"
     },
-    "translation.credits.link": {
-      "value": "Traduzido por"
-    },
-    "updates.offline": {
-      "value": "Não foi possível verificar atualizações."
-    },
-    "versionPattern": {
-      "value": "versão {0}"
-    },
     "preferences.tabs.visual.title": {
       "value": "Visual"
     },
     "preferences.tabs.general.accessibilityIntro": {
       "value": "Estamos adicionando recursos às nossas simulações para torná-las mais inclusivas. Alguns desses recursos oferecem acessibilidade para alunos com diversas necessidades e em diversos ambientes. Explore as guias neste menu para revisar ou alterar as configur"
     },
-    "updates.yourCurrentVersion": {
-      "value": "Sua versão atual é: {0}."
-    },
     "simTitleWithScreenNamePattern": {
       "value": "{{simName}} — {{screenName}}"
-    },
-    "credits.translation": {
-      "value": "Tradutores"
-    },
-    "done": {
-      "value": "Feito"
-    },
-    "title.settings": {
-      "value": "Configurações"
-    },
-    "showPointers": {
-      "value": "Mostrar Ponteiros"
     },
     "preferences.tabs.visual.projectorModeDescription": {
       "value": "Aumente o contraste de cores para melhor visibilidade em sala de aula."
@@ -12592,6 +12613,15 @@
     "menuItem.about": {
       "value": "Om..."
     },
+    "preferences.tabs.visual.interactiveHighlightsDescription": {
+      "value": "Visa markering när du använder mus eller pekfunktion."
+    },
+    "preferences.tabs.audio.title": {
+      "value": "Ljud"
+    },
+    "preferences.tabs.audio.audioFeatures.title": {
+      "value": "Ljudfunktioner"
+    },
     "menuItem.getUpdate": {
       "value": "Kontrollera uppdateringar..."
     },
@@ -12602,13 +12632,19 @@
       "value": "Bidragsgivare: {0} "
     },
     "credits.title": {
-      "value": "Credits"
+      "value": "Eftertexter"
     },
     "menuItem.enhancedSound": {
       "value": "Förbättrat ljud"
     },
+    "preferences.tabs.audio.sounds.extraSounds.title": {
+      "value": "Extra ljud"
+    },
     "menuItem.fullscreen": {
       "value": "Helskärm"
+    },
+    "preferences.tabs.general.title": {
+      "value": "Allmän"
     },
     "updates.getUpdate": {
       "value": "Hämta uppdatering..."
@@ -12649,8 +12685,17 @@
     "ieErrorPage.platformError": {
       "value": "Fel Webbläsare"
     },
+    "preferences.tabs.audio.sounds.extraSounds.description": {
+      "value": "Spela upp ytterligare ljud som kan vara till hjälp för vissa elever."
+    },
+    "preferences.tabs.audio.sounds.description": {
+      "value": "Spela upp ljud och ljudeffekter"
+    },
     "ieErrorPage.useDifferentBrowser": {
       "value": "Använd en annan webbläsare för att köra denna simulering."
+    },
+    "preferences.title": {
+      "value": "Inställningar"
     },
     "credits.qualityAssurance": {
       "value": "Kvalitetskontroll: {0}"
@@ -12666,6 +12711,9 @@
     },
     "credits.soundDesign": {
       "value": "Ljudskapare: {0}"
+    },
+    "preferences.tabs.audio.sounds.title": {
+      "value": "Ljud"
     },
     "credits.team": {
       "value": "Team: {0}"
@@ -12688,11 +12736,11 @@
     "updates.upToDate": {
       "value": "Denna simulering är uppdaterad"
     },
+    "preferences.tabs.general.moreAccessibility": {
+      "value": "För att hitta andra simuleringar med inkluderande funktioner, leta efter Access och Inclusion på simuleringsfiltersidan och filtrera efter inkluderande funktion."
+    },
     "keyboardShortcuts.toGetStarted": {
       "value": "för att komma igång"
-    },
-    "credits.translation": {
-      "value": "Översättning"
     },
     "translation.credits.link": {
       "value": "Översättning, Credits"
@@ -12703,11 +12751,20 @@
     "versionPattern": {
       "value": "version {0}"
     },
+    "preferences.tabs.visual.title": {
+      "value": "Synligt"
+    },
+    "preferences.tabs.general.accessibilityIntro": {
+      "value": "Vi lägger till funktioner i våra simuleringar för att göra dem mer inkluderande. Vissa av dessa funktioner stöder tillgänglighet för elever med olika behov och inom olika miljöer. Utforska flikarna i den här menyn för att granska eller ändra standardinstä"
+    },
     "updates.yourCurrentVersion": {
       "value": "Din nuvarande version är: {0}."
     },
     "simTitleWithScreenNamePattern": {
       "value": "{{simName}} — {{screenName}}"
+    },
+    "credits.translation": {
+      "value": "Översättning"
     },
     "done": {
       "value": "Klar"
@@ -12717,42 +12774,6 @@
     },
     "showPointers": {
       "value": "Visa markörer"
-    },
-    "preferences.tabs.visual.interactiveHighlightsDescription": {
-      "value": "Visa markering när du använder mus eller pekfunktion."
-    },
-    "preferences.tabs.audio.title": {
-      "value": "Ljud"
-    },
-    "preferences.tabs.audio.audioFeatures.title": {
-      "value": "Ljudfunktioner"
-    },
-    "preferences.tabs.audio.sounds.extraSounds.title": {
-      "value": "Extra ljud"
-    },
-    "preferences.tabs.general.title": {
-      "value": "Allmän"
-    },
-    "preferences.tabs.audio.sounds.extraSounds.description": {
-      "value": "Spela upp ytterligare ljud som kan vara till hjälp för vissa elever."
-    },
-    "preferences.tabs.audio.sounds.description": {
-      "value": "Spela upp ljud och ljudeffekter"
-    },
-    "preferences.title": {
-      "value": "Inställningar"
-    },
-    "preferences.tabs.audio.sounds.title": {
-      "value": "Ljud"
-    },
-    "preferences.tabs.general.moreAccessibility": {
-      "value": "För att hitta andra simuleringar med inkluderande funktioner, leta efter Access och Inclusion på simuleringsfiltersidan och filtrera efter inkluderande funktion."
-    },
-    "preferences.tabs.visual.title": {
-      "value": "Synligt"
-    },
-    "preferences.tabs.general.accessibilityIntro": {
-      "value": "Vi lägger till funktioner i våra simuleringar för att göra dem mer inkluderande. Vissa av dessa funktioner stöder tillgänglighet för elever med olika behov och inom olika miljöer. Utforska flikarna i den här menyn för att granska eller ändra standardinstä"
     },
     "menuItem.mailInputEventsLog": {
       "value": "Mail Input Events Log"
@@ -14219,10 +14240,10 @@
   },
   "tr": {
     "menuItem.about": {
-      "value": "Hakkında ..."
+      "value": "Hakkında..."
     },
     "preferences.tabs.visual.interactiveHighlightsDescription": {
-      "value": "Fare ve dokunmayla etkileşimde bulunulan yerlere görsel vurgu ekle."
+      "value": "Etkileşim sırasında fare ve dokunma için görsel vurgular ekleyin."
     },
     "preferences.tabs.audio.title": {
       "value": "Ses"
@@ -14231,43 +14252,37 @@
       "value": "Ses Özellikleri"
     },
     "menuItem.getUpdate": {
-      "value": "Güncellemeler için tıklayınız ..."
+      "value": "Güncellemeler için Tıklayınız..."
     },
     "updates.checking": {
-      "value": "Güncellemeler kontrol ediliyor ..."
+      "value": "Güncellemeler kontrol ediliyor..."
     },
     "credits.contributors": {
       "value": "Katkıda bulunanlar: {0}"
     },
     "credits.title": {
-      "value": "Katkıda Bulunanlar"
-    },
-    "menuItem.enhancedSound": {
-      "value": "Gelişmiş Ses"
+      "value": "Jenerik"
     },
     "preferences.tabs.audio.sounds.extraSounds.title": {
-      "value": "Extra Ses"
+      "value": "Ek Sesler"
     },
     "menuItem.fullscreen": {
-      "value": "Tam ekran"
+      "value": "Tam Ekran"
     },
     "preferences.tabs.general.title": {
       "value": "Genel"
     },
     "updates.getUpdate": {
-      "value": "Güncelle ..."
+      "value": "Güncelleme Al..."
     },
     "credits.graphicArts": {
       "value": "Ekran Kartı: {0}"
     },
-    "preferences.tabs.input.title": {
-      "value": "Girdi"
+    "preferences.tabs.visual.projectorModeDescription": {
+      "value": "Sınıflarda daha iyi görünüm için renk kontrastını arttır"
     },
     "preferences.tabs.visual.interactiveHighlights": {
-      "value": "Simülasyonda öne çıkanlar."
-    },
-    "ieErrorPage.ieIsNotSupported": {
-      "value": "Internet tarayıcınız desteklenmiyor."
+      "value": "Simülasyonda Öne Çıkanlar"
     },
     "queryParametersWarningDialog.invalidQueryParameters": {
       "value": "Geçersiz Sorgu Parametreleri"
@@ -14276,49 +14291,40 @@
       "value": "Klavye Kısayolları"
     },
     "credits.leadDesign": {
-      "value": "Ana dizayn: {0}"
+      "value": "Ana Dizayn: {0}"
     },
     "updates.outOfDate": {
       "value": "Yeni versiyon mevcut"
     },
     "updates.noThanks": {
-      "value": "Hayır, teşekkürler"
+      "value": "Hayır Teşekkürler"
     },
     "queryParametersWarningDialog.oneOrMoreQueryParameters": {
-      "value": "Bir yada daha çok sorgu parametresi <br>geçersiz:"
-    },
-    "options.title": {
-      "value": "Ayarlar"
-    },
-    "menuItem.options": {
-      "value": "Ayarlar ..."
+      "value": "Bir ya da daha fazla sorgu parametresi <br>geçersiz değerlere sahip:"
     },
     "menuItem.phetWebsite": {
-      "value": "PhET Anasayfa ..."
-    },
-    "ieErrorPage.platformError": {
-      "value": "Platform Hatası "
+      "value": "PhET Websitesi..."
     },
     "preferences.tabs.audio.sounds.extraSounds.description": {
-      "value": "Bazı öğrenenlere yardımcı olabilmek için ek sesler çal."
+      "value": "Bazı öğrenciler için yararlı olabilecek ek sesi çalın."
     },
     "preferences.tabs.audio.sounds.description": {
-      "value": "Etkileşimde bulundukça sonifikasyonları ve ses efektlerini çal"
-    },
-    "ieErrorPage.useDifferentBrowser": {
-      "value": "Lütfen bu simülasyonu kullanabilmek için farklı bir tarayıcı kullanınız."
+      "value": "Etkileşim kurarken sonifikasyonları ve ses efektlerini çalın."
     },
     "preferences.title": {
-      "value": "Tercihler"
+      "value": "Seçenekler"
+    },
+    "projectorMode": {
+      "value": "Projektör Modu"
     },
     "credits.qualityAssurance": {
       "value": "Kalite Garantisi: {0}"
     },
     "menuItem.reportAProblem": {
-      "value": "Sorun Bildir"
+      "value": "Sorun Bildir..."
     },
     "menuItem.screenshot": {
-      "value": "Ekran Görüntüsü"
+      "value": "Ekran görüntüsü"
     },
     "credits.softwareDevelopment": {
       "value": "Yazılım Geliştirme: {0}"
@@ -14327,7 +14333,7 @@
       "value": "Ses Tasarımı: {0}"
     },
     "preferences.tabs.audio.sounds.title": {
-      "value": "Ses"
+      "value": "Sesler"
     },
     "credits.team": {
       "value": "Takım: {0}"
@@ -14342,28 +14348,28 @@
       "value": "Bu simülasyon mevcut sorgu parametreleri için <br>varsayılan değerlerle başlayacak."
     },
     "updates.newVersionAvailable": {
-      "value": "Yeni sürüm mevcut: {0}"
+      "value": "Yeni bir sürüm mevcut: {0}"
     },
     "thirdParty.credits.link": {
-      "value": "Üçüncü taraf tanıtımı"
+      "value": "Üçüncü Taraf Jeneriği"
     },
     "updates.upToDate": {
-      "value": "Simülasyon güncel"
+      "value": "Bu simülasyon güncel. "
     },
     "preferences.tabs.general.moreAccessibility": {
-      "value": "Diğer kapsayıcı özelliğe sahip simülasyonları bulabilmek için simülasyon filtreleme sayfasındaki Erişilebilirlik ve Kapsayıcılık kısmına bakın ve kapsayıcılık özelliklerine göre filtreleyin."
+      "value": "Kapsayıcı özelliklere sahip diğer simülasyonları bulmak için, simülasyon filtresi sayfasında Erişim ve Dahil Etme'yi arayın ve kapsayıcı özelliğe göre filtreleyin."
     },
     "keyboardShortcuts.toGetStarted": {
-      "value": "Başlamak için"
+      "value": "başlamak için"
     },
     "translation.credits.link": {
-      "value": "Çeviriye Katkıda Bulunanlar"
+      "value": "Çeviri Jeneriği"
     },
     "updates.offline": {
       "value": "Güncellemeler kontrol edilemiyor."
     },
     "versionPattern": {
-      "value": "Sürüm {0}"
+      "value": "sürüm {0}"
     },
     "preferences.tabs.visual.title": {
       "value": "Görsel"
@@ -14372,10 +14378,31 @@
       "value": "Simülasyonlarımızı daha kapsayıcı hale getirmek için özellikler ekliyoruz. Bu özelliklerden bazıları, farklı ihtiyaçları olan ve farklı ortamlarda bulunan öğrenciler için erişilebilirliği destekler. Varsayılan sunum ayarlarını gözden geçirmek veya değişti"
     },
     "updates.yourCurrentVersion": {
-      "value": "Kullandığınız versiyon: {0}"
+      "value": "Mevcut kullandığınız versiyon: {0}"
     },
     "simTitleWithScreenNamePattern": {
       "value": "{{simName}} — {{screenName}}"
+    },
+    "menuItem.enhancedSound": {
+      "value": "Gelişmiş Ses"
+    },
+    "ieErrorPage.ieIsNotSupported": {
+      "value": "Internet tarayıcınız desteklenmiyor."
+    },
+    "options.title": {
+      "value": "Ayarlar"
+    },
+    "menuItem.options": {
+      "value": "Ayarlar ..."
+    },
+    "ieErrorPage.platformError": {
+      "value": "Platform Hatası "
+    },
+    "ieErrorPage.useDifferentBrowser": {
+      "value": "Lütfen bu simülasyonu kullanabilmek için farklı bir tarayıcı kullanınız."
+    },
+    "preferences.tabs.input.title": {
+      "value": "Girdi"
     },
     "done": {
       "value": "Bitti"
@@ -14388,9 +14415,6 @@
     },
     "credits.translation": {
       "value": "Çeviri"
-    },
-    "projectorMode": {
-      "value": "Projektör Modu"
     },
     "adaptedFrom": {
       "value": "adapte edilmiştir"
