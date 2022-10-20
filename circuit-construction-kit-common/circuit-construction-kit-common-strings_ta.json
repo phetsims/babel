@@ -28,7 +28,7 @@
     ]
   },
   "addRealBulbs": {
-    "value": "மின்விளக்கு சேர்கவும்",
+    "value": "மின்விளக்கு சேர்க்கவும்",
     "history": [
       {
         "userId": 764408,
@@ -41,6 +41,12 @@
         "timestamp": 1664276259309,
         "oldValue": "மின்குமிழ் (bulb) சேர்கவும்",
         "newValue": "மின்விளக்கு சேர்கவும்"
+      },
+      {
+        "userId": 1087362,
+        "timestamp": 1666273395503,
+        "oldValue": "மின்விளக்கு சேர்கவும்",
+        "newValue": "மின்விளக்கு சேர்க்கவும்"
       }
     ]
   },
@@ -70,23 +76,6 @@
         "timestamp": 1664276259309,
         "oldValue": "அம்பியர்மானி",
         "newValue": "அம்மீட்டர்"
-      }
-    ]
-  },
-  "ammeterReadout": {
-    "value": "அம்மீட்டர் வாசிப்பு",
-    "history": [
-      {
-        "userId": 764408,
-        "timestamp": 1664018901037,
-        "oldValue": "",
-        "newValue": "அம்பியர்மானி வாசிப்பு"
-      },
-      {
-        "userId": 764408,
-        "timestamp": 1664276259309,
-        "oldValue": "அம்பியர்மானி வாசிப்பு",
-        "newValue": "அம்மீட்டர் வாசிப்பு"
       }
     ]
   },
@@ -290,17 +279,6 @@
       }
     ]
   },
-  "dataOutOfRange": {
-    "value": "எல்லைக்கு வெளியே தகவல்கள்",
-    "history": [
-      {
-        "userId": 764408,
-        "timestamp": 1664018901037,
-        "oldValue": "",
-        "newValue": "எல்லைக்கு வெளியே தகவல்கள்"
-      }
-    ]
-  },
   "dog": {
     "value": "நாய்",
     "history": [
@@ -501,17 +479,6 @@
       }
     ]
   },
-  "magnitude": {
-    "value": "அளவு",
-    "history": [
-      {
-        "userId": 764408,
-        "timestamp": 1664018901037,
-        "oldValue": "",
-        "newValue": "அளவு"
-      }
-    ]
-  },
   "paperClip": {
     "value": "பேப்பர் கிளிப்",
     "history": [
@@ -613,17 +580,6 @@
       }
     ]
   },
-  "signed": {
-    "value": "Signed",
-    "history": [
-      {
-        "userId": 764408,
-        "timestamp": 1664018901038,
-        "oldValue": "",
-        "newValue": "Signed"
-      }
-    ]
-  },
   "sourceResistance": {
     "value": "மின்கல மின்தடை",
     "history": [
@@ -647,7 +603,7 @@
     ]
   },
   "switch": {
-    "value": "ஆளி (சுவிச்)",
+    "value": "சாவி",
     "history": [
       {
         "userId": 603471,
@@ -655,22 +611,34 @@
         "oldValue": "",
         "newValue": "ஆளி (சுவிச்)",
         "explanation": null
+      },
+      {
+        "userId": 1087362,
+        "timestamp": 1666273395503,
+        "oldValue": "ஆளி (சுவிச்)",
+        "newValue": "சாவி"
       }
     ]
   },
   "tapCircuitElementToEdit": {
-    "value": "எடிட் செய்ய மின்னோட்ட உறுப்புகளை தட்டவும்",
+    "value": "எடிட் செய்ய சுற்றில் உள்ள  உறுப்புகளை தட்டவும்",
     "history": [
       {
         "userId": 764408,
         "timestamp": 1664018901038,
         "oldValue": "",
         "newValue": "எடிட் செய்ய மின்னோட்ட உறுப்புகளை தட்டவும்"
+      },
+      {
+        "userId": 1087362,
+        "timestamp": 1666273395503,
+        "oldValue": "எடிட் செய்ய மின்னோட்ட உறுப்புகளை தட்டவும்",
+        "newValue": "எடிட் செய்ய சுற்றில் உள்ள  உறுப்புகளை தட்டவும்"
       }
     ]
   },
   "theSwitchIsClosed": {
-    "value": "ஆளி மூடப்பட்டுள்ளது",
+    "value": "சாவி மூடப்பட்டது",
     "history": [
       {
         "userId": 603471,
@@ -678,11 +646,17 @@
         "oldValue": "",
         "newValue": "ஆளி மூடப்பட்டுள்ளது",
         "explanation": null
+      },
+      {
+        "userId": 1087362,
+        "timestamp": 1666273395503,
+        "oldValue": "ஆளி மூடப்பட்டுள்ளது",
+        "newValue": "சாவி மூடப்பட்டது"
       }
     ]
   },
   "theSwitchIsOpen": {
-    "value": "ஆளி திறக்கப்பட்டுள்ளது",
+    "value": "சாவி திறக்கப்பட்டது",
     "history": [
       {
         "userId": 603471,
@@ -690,6 +664,12 @@
         "oldValue": "",
         "newValue": "ஆளி திறக்கப்பட்டுள்ளது",
         "explanation": null
+      },
+      {
+        "userId": 1087362,
+        "timestamp": 1666273395503,
+        "oldValue": "ஆளி திறக்கப்பட்டுள்ளது",
+        "newValue": "சாவி திறக்கப்பட்டது"
       }
     ]
   },
@@ -818,7 +798,7 @@
     ]
   },
   "wire": {
-    "value": "கம்பி",
+    "value": "மின்கம்பி",
     "history": [
       {
         "userId": 603471,
@@ -826,11 +806,17 @@
         "oldValue": "",
         "newValue": "கம்பி",
         "explanation": null
+      },
+      {
+        "userId": 1087362,
+        "timestamp": 1666273395503,
+        "oldValue": "கம்பி",
+        "newValue": "மின்கம்பி"
       }
     ]
   },
   "wireResistivity": {
-    "value": "கம்பியின் தடை",
+    "value": "கம்பியின் மின்தடை",
     "history": [
       {
         "userId": 603471,
@@ -838,6 +824,12 @@
         "oldValue": "",
         "newValue": "கம்பியின் தடை",
         "explanation": null
+      },
+      {
+        "userId": 1087362,
+        "timestamp": 1666273395503,
+        "oldValue": "கம்பியின் தடை",
+        "newValue": "கம்பியின் மின்தடை"
       }
     ]
   },
@@ -853,7 +845,7 @@
     ]
   },
   "currentUnits": {
-    "value": "{{current}} அம்பியரில்",
+    "value": "{{current}} A",
     "history": [
       {
         "userId": 603471,
@@ -873,6 +865,12 @@
         "timestamp": 1664242870330,
         "oldValue": "{{current}} A",
         "newValue": "{{current}} அம்பியரில்"
+      },
+      {
+        "userId": 1087362,
+        "timestamp": 1666273395503,
+        "oldValue": "{{current}} அம்பியரில்",
+        "newValue": "{{current}} A"
       }
     ]
   },
@@ -932,7 +930,7 @@
     ]
   },
   "resistanceOhmsValuePattern": {
-    "value": "{{resistance}} ஓமில்",
+    "value": "",
     "history": [
       {
         "userId": 603471,
@@ -940,6 +938,12 @@
         "oldValue": "",
         "newValue": "{{resistance}} ஓமில்",
         "explanation": null
+      },
+      {
+        "userId": 1087362,
+        "timestamp": 1666273395503,
+        "oldValue": "{{resistance}} ஓமில்",
+        "newValue": ""
       }
     ]
   },
@@ -976,6 +980,56 @@
         "oldValue": "",
         "newValue": " {{voltage}} வோல்ட்",
         "explanation": null
+      }
+    ]
+  },
+  "ammeterReadout": {
+    "value": "அம்மீட்டர் வாசிப்பு",
+    "history": [
+      {
+        "userId": 764408,
+        "timestamp": 1664018901037,
+        "oldValue": "",
+        "newValue": "அம்பியர்மானி வாசிப்பு"
+      },
+      {
+        "userId": 764408,
+        "timestamp": 1664276259309,
+        "oldValue": "அம்பியர்மானி வாசிப்பு",
+        "newValue": "அம்மீட்டர் வாசிப்பு"
+      }
+    ]
+  },
+  "dataOutOfRange": {
+    "value": "எல்லைக்கு வெளியே தகவல்கள்",
+    "history": [
+      {
+        "userId": 764408,
+        "timestamp": 1664018901037,
+        "oldValue": "",
+        "newValue": "எல்லைக்கு வெளியே தகவல்கள்"
+      }
+    ]
+  },
+  "magnitude": {
+    "value": "அளவு",
+    "history": [
+      {
+        "userId": 764408,
+        "timestamp": 1664018901037,
+        "oldValue": "",
+        "newValue": "அளவு"
+      }
+    ]
+  },
+  "signed": {
+    "value": "Signed",
+    "history": [
+      {
+        "userId": 764408,
+        "timestamp": 1664018901038,
+        "oldValue": "",
+        "newValue": "Signed"
       }
     ]
   },
