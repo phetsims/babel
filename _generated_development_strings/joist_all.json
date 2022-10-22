@@ -6344,8 +6344,14 @@
     "menuItem.about": {
       "value": "Um…"
     },
+    "preferences.tabs.visual.interactiveHighlightsDescription": {
+      "value": "Skerpa sýn"
+    },
     "preferences.tabs.audio.title": {
       "value": "Hljóð"
+    },
+    "preferences.tabs.audio.audioFeatures.title": {
+      "value": "Eiginleikar hljóðs"
     },
     "menuItem.getUpdate": {
       "value": "Kanna með uppfærslur…"
@@ -6358,9 +6364,6 @@
     },
     "credits.title": {
       "value": "Höfundar"
-    },
-    "menuItem.enhancedSound": {
-      "value": "Betra hljóð"
     },
     "preferences.tabs.audio.sounds.extraSounds.title": {
       "value": "Auka hljóð"
@@ -6377,8 +6380,11 @@
     "credits.graphicArts": {
       "value": "Grafík: {0}"
     },
-    "ieErrorPage.ieIsNotSupported": {
-      "value": "Internet Explorer er ekki studdur"
+    "preferences.tabs.visual.projectorModeDescription": {
+      "value": "Auka skerpu fyrir bætt útlit"
+    },
+    "preferences.tabs.visual.interactiveHighlights": {
+      "value": "Einkenna gagnvirkni"
     },
     "queryParametersWarningDialog.invalidQueryParameters": {
       "value": "Ógildar færibreytur í fyrirspurn"
@@ -6398,26 +6404,20 @@
     "queryParametersWarningDialog.oneOrMoreQueryParameters": {
       "value": "Ein eða fleiri af færibreytum<br>hafa ekki leyfð gildi"
     },
-    "options.title": {
-      "value": "Valkostir"
-    },
-    "menuItem.options": {
-      "value": "Valkostir…"
-    },
     "menuItem.phetWebsite": {
       "value": "Heimasíða PhET…"
-    },
-    "ieErrorPage.platformError": {
-      "value": "Verkvangur villa"
     },
     "preferences.tabs.audio.sounds.extraSounds.description": {
       "value": "Spila auka hljóð sem gætu verið sumum nemendum hjálpleg."
     },
-    "ieErrorPage.useDifferentBrowser": {
-      "value": "Vinsamlegast notaðu annan vafra til að keyra þessa sýndatilraun"
+    "preferences.tabs.audio.sounds.description": {
+      "value": "Spila hljóð og hljóðbrellur"
     },
     "preferences.title": {
       "value": "Valkostir"
+    },
+    "projectorMode": {
+      "value": "Skjávarpahamur"
     },
     "credits.qualityAssurance": {
       "value": "Gæðaeftirlit: {0}"
@@ -6426,7 +6426,7 @@
       "value": "Tilkynna vandamál…"
     },
     "menuItem.screenshot": {
-      "value": "Taka skjáskot"
+      "value": "Skjámynd"
     },
     "credits.softwareDevelopment": {
       "value": "Hugbúnaðarþróun: {0}"
@@ -6458,6 +6458,9 @@
     "updates.upToDate": {
       "value": "Nýjasta útgáfa sýndartilraunar"
     },
+    "preferences.tabs.general.moreAccessibility": {
+      "value": "Til að finna svipuð sýndarlíkön með  svipuðuðum eiginleikum skaltu leita að Aðgangur og innifalinn á hermunasíusíðunni og sía eftir eiginleikum innifalinn."
+    },
     "keyboardShortcuts.toGetStarted": {
       "value": "til að byrja"
     },
@@ -6465,16 +6468,40 @@
       "value": "Þýðendur"
     },
     "updates.offline": {
-      "value": "Get ekki leitað uppfærslu."
+      "value": "Get ekki leitað að uppfærslu."
     },
     "versionPattern": {
       "value": "útgáfa {0}"
+    },
+    "preferences.tabs.visual.title": {
+      "value": "Sýnilegt"
+    },
+    "preferences.tabs.general.accessibilityIntro": {
+      "value": "Verið er að bæta við eiginleikum við frumgerðina. Sumir þessara eiginleika styðja aðgengi fyrir nemendur með fjölbreyttar þarfir og í fjölbreyttu umhverfi. Skoðaðu þessa valmynd til að skoða eða breyta sjálfgefnum stillingum."
     },
     "updates.yourCurrentVersion": {
       "value": "Þetta er útgáfa: {0}"
     },
     "simTitleWithScreenNamePattern": {
       "value": "{{simName}} — {{screenName}}"
+    },
+    "menuItem.enhancedSound": {
+      "value": "Betra hljóð"
+    },
+    "ieErrorPage.ieIsNotSupported": {
+      "value": "Internet Explorer er ekki studdur"
+    },
+    "options.title": {
+      "value": "Valkostir"
+    },
+    "menuItem.options": {
+      "value": "Valkostir…"
+    },
+    "ieErrorPage.platformError": {
+      "value": "Verkvangur villa"
+    },
+    "ieErrorPage.useDifferentBrowser": {
+      "value": "Vinsamlegast notaðu annan vafra til að keyra þessa sýndatilraun"
     },
     "menuItem.mailInputEventsLog": {
       "value": "Mail Input Events Log"
@@ -6496,9 +6523,6 @@
     },
     "showPointers": {
       "value": "Sýna ábendingar"
-    },
-    "projectorMode": {
-      "value": "Skjávarpahamur"
     }
   },
   "it": {
