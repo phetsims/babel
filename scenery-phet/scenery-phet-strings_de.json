@@ -35,7 +35,7 @@
     ]
   },
   "key.capsLock": {
-    "value": "Caps Lock",
+    "value": "Sperre",
     "history": [
       {
         "userId": 272196,
@@ -48,6 +48,12 @@
         "timestamp": 1663888053791,
         "oldValue": "Sperre",
         "newValue": "Caps Lock"
+      },
+      {
+        "userId": 532304,
+        "timestamp": 1666617571905,
+        "oldValue": "Caps Lock",
+        "newValue": "Sperre"
       }
     ]
   },
@@ -96,24 +102,6 @@
         "oldValue": "",
         "newValue": "Dialog verlassen",
         "explanation": null
-      }
-    ]
-  },
-  "speed.fast": {
-    "value": "Schnell",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1608642384651,
-        "oldValue": "",
-        "newValue": "schnell",
-        "explanation": null
-      },
-      {
-        "userId": 446279,
-        "timestamp": 1614712659528,
-        "oldValue": "schnell",
-        "newValue": "Schnell"
       }
     ]
   },
@@ -218,18 +206,6 @@
       }
     ]
   },
-  "speed.normal": {
-    "value": "Normal",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1538479148885,
-        "oldValue": "",
-        "newValue": "Normal",
-        "explanation": null
-      }
-    ]
-  },
   "keyboardHelpDialog.or": {
     "value": "oder",
     "history": [
@@ -243,7 +219,7 @@
     ]
   },
   "key.pageDown": {
-    "value": "Seite nach unten",
+    "value": "Bild ab/nach unten",
     "history": [
       {
         "userId": 272196,
@@ -263,11 +239,17 @@
         "timestamp": 1663888053791,
         "oldValue": "Bild ab/nach unten",
         "newValue": "Seite nach unten"
+      },
+      {
+        "userId": 532304,
+        "timestamp": 1666617571905,
+        "oldValue": "Seite nach unten",
+        "newValue": "Bild ab/nach unten"
       }
     ]
   },
   "key.pageUp": {
-    "value": "Seite nach oben",
+    "value": "Bild auf/nach oben",
     "history": [
       {
         "userId": 272196,
@@ -287,6 +269,12 @@
         "timestamp": 1663888053791,
         "oldValue": "Bild auf/nach oben",
         "newValue": "Seite nach oben"
+      },
+      {
+        "userId": 532304,
+        "timestamp": 1666617571905,
+        "oldValue": "Seite nach oben",
+        "newValue": "Bild auf/nach oben"
       }
     ]
   },
@@ -310,18 +298,6 @@
         "timestamp": 1546288317104,
         "oldValue": "",
         "newValue": "Shift",
-        "explanation": null
-      }
-    ]
-  },
-  "speed.slow": {
-    "value": "Langsam",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1538479148885,
-        "oldValue": "",
-        "newValue": "Langsam",
         "explanation": null
       }
     ]
@@ -380,18 +356,6 @@
       }
     ]
   },
-  "stopwatchValueUnitsPattern": {
-    "value": "{{value}} {{units}}",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1608642384651,
-        "oldValue": "",
-        "newValue": "{{value}} {{units}}",
-        "explanation": null
-      }
-    ]
-  },
   "symbol.resistivity": {
     "value": "ρ",
     "history": [
@@ -419,6 +383,60 @@
         "timestamp": 1614712659529,
         "oldValue": "Ω",
         "newValue": "Ω"
+      }
+    ]
+  },
+  "speed.fast": {
+    "value": "Schnell",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1608642384651,
+        "oldValue": "",
+        "newValue": "schnell",
+        "explanation": null
+      },
+      {
+        "userId": 446279,
+        "timestamp": 1614712659528,
+        "oldValue": "schnell",
+        "newValue": "Schnell"
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "Normal",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1538479148885,
+        "oldValue": "",
+        "newValue": "Normal",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "Langsam",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1538479148885,
+        "oldValue": "",
+        "newValue": "Langsam",
+        "explanation": null
+      }
+    ]
+  },
+  "stopwatchValueUnitsPattern": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1608642384651,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}",
+        "explanation": null
       }
     ]
   },
