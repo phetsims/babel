@@ -4787,9 +4787,6 @@
     "credits.title": {
       "value": "શ્રેય"
     },
-    "menuItem.enhancedSound": {
-      "value": "વધારે અવાજ"
-    },
     "preferences.tabs.audio.sounds.extraSounds.title": {
       "value": "વધારાનો અવાજ "
     },
@@ -4805,14 +4802,11 @@
     "credits.graphicArts": {
       "value": "ચિત્રણ : {0}"
     },
-    "preferences.tabs.input.title": {
-      "value": "ઈનપુટ"
+    "preferences.tabs.visual.projectorModeDescription": {
+      "value": "ક્લાસરૂમ માં વધુ સારી રીતે જોવા કલર કોન્ટ્રાસ્ટ વધારો"
     },
     "preferences.tabs.visual.interactiveHighlights": {
       "value": "ઇંટ્રેક્ટિવ હાઈલાઈટ્સ"
-    },
-    "ieErrorPage.ieIsNotSupported": {
-      "value": "Internet Explorer ચલાવી શકતું નથી."
     },
     "queryParametersWarningDialog.invalidQueryParameters": {
       "value": "પ્રશ્નોના પરિમાણો યોગ્ય નથી."
@@ -4832,17 +4826,8 @@
     "queryParametersWarningDialog.oneOrMoreQueryParameters": {
       "value": "એક અથવા વધુ પરિમાણોની <br>કિંમત યોગ્ય નથી."
     },
-    "options.title": {
-      "value": "વિકલ્પો"
-    },
-    "menuItem.options": {
-      "value": "વિકલ્પો..."
-    },
     "menuItem.phetWebsite": {
       "value": "PhET  વેબસાઈટ"
-    },
-    "ieErrorPage.platformError": {
-      "value": "પ્લેટફોર્મ એરર"
     },
     "preferences.tabs.audio.sounds.extraSounds.description": {
       "value": "વધારાના અવાજ ચાલુ કરો  જે કેટલાક શીખનારાઓ માટે મદદરૂપ થઈ શકે."
@@ -4850,11 +4835,11 @@
     "preferences.tabs.audio.sounds.description": {
       "value": "જ્યારે તમે ક્રિયાપ્રતિક્રિયા કરો છો ત્યારે સોનિફિકેશન અને સાઉન્ડ ઇફેક્ટ્સ વગાડો."
     },
-    "ieErrorPage.useDifferentBrowser": {
-      "value": "આ સિમ્યુલેશન ચલાવવા માટે કૃપા કરીને કોઈ અલગ બ્રાઉઝરનો ઉપયોગ કરો."
-    },
     "preferences.title": {
       "value": "પ્રાથમિકતા "
+    },
+    "projectorMode": {
+      "value": "પ્રોજેક્ટર મોડ"
     },
     "credits.qualityAssurance": {
       "value": "ગુણવત્તાની ખાતરી: {0}"
@@ -4914,13 +4899,34 @@
       "value": "વિઝ્યુઅલ"
     },
     "preferences.tabs.general.accessibilityIntro": {
-      "value": "અમે અમારા સિમ્યુલેશનમાં વિશેષતાઓ ઉમેરી રહ્યા છીએ જેથી કરીને તેને વધુ સમાવિષ્ટ બનાવી શકાય. આમાંની કેટલીક વિશેષતાઓ વિવિધ જરૂરિયાતો ધરાવતા અને વિવિધ વાતાવરણમાં શીખનારાઓ માટે સુલભતાને સમર્થન આપે છે. ડિફૉલ્ટ પ્રસ્તુતિ સેટિંગ્સની સમીક્ષા કરવા અથવા બદલવા માટે આ મેનૂ જોવો."
+      "value": "અમે અમારા સિમ્યુલેશનમાં વિશેષતાઓ ઉમેરી રહ્યા છીએ જેથી કરીને તેને વધુ સમાવિષ્ટ બનાવી શકાય. આમાંની કેટલીક વિશેષતાઓ વિવિધ જરૂરિયાતો ધરાવતા અને વિવિધ વાતાવરણમાં શીખનારાઓ માટે સુલભતાને સમર્થન આપે છે. ડિફૉલ્ટ પ્રસ્તુતિ સેટિંગ્સની સમીક્ષા કરવા અથવા બદલવા માટે આ "
     },
     "updates.yourCurrentVersion": {
       "value": "આપનું હાલનું સંસ્કરણ : {0} છે."
     },
     "simTitleWithScreenNamePattern": {
       "value": "{{simName}} — {{screenName}}"
+    },
+    "menuItem.enhancedSound": {
+      "value": "વધારે અવાજ"
+    },
+    "preferences.tabs.input.title": {
+      "value": "ઈનપુટ"
+    },
+    "ieErrorPage.ieIsNotSupported": {
+      "value": "Internet Explorer ચલાવી શકતું નથી."
+    },
+    "options.title": {
+      "value": "વિકલ્પો"
+    },
+    "menuItem.options": {
+      "value": "વિકલ્પો..."
+    },
+    "ieErrorPage.platformError": {
+      "value": "પ્લેટફોર્મ એરર"
+    },
+    "ieErrorPage.useDifferentBrowser": {
+      "value": "આ સિમ્યુલેશન ચલાવવા માટે કૃપા કરીને કોઈ અલગ બ્રાઉઝરનો ઉપયોગ કરો."
     },
     "credits.translation": {
       "value": "ભાષાંતર "
@@ -4942,9 +4948,6 @@
     },
     "menuItem.submitInputEventsLog": {
       "value": "ઇનપુટ ઇવેન્ટ્સ લૉગ મોકલો"
-    },
-    "projectorMode": {
-      "value": "પ્રોજેક્ટર મોડ"
     }
   },
   "ha": {
@@ -7667,12 +7670,6 @@
     "menuItem.about": {
       "value": "لەبارەی"
     },
-    "preferences.tabs.audio.title": {
-      "value": "دەنگ"
-    },
-    "preferences.tabs.audio.audioFeatures.title": {
-      "value": "سەفەتەکانی دەنگ"
-    },
     "menuItem.getUpdate": {
       "value": "گەڕان بۆ نوێکردنەوە"
     },
@@ -7682,17 +7679,11 @@
     "credits.title": {
       "value": "ئەماژەکردنەکان "
     },
-    "menuItem.enhancedSound": {
-      "value": "دەنگی زیاتر"
-    },
-    "preferences.tabs.audio.sounds.extraSounds.title": {
-      "value": "دەنگی زیاتر"
+    "done": {
+      "value": "جێبەجێکرا "
     },
     "menuItem.fullscreen": {
       "value": "پڕ شاشە "
-    },
-    "preferences.tabs.general.title": {
-      "value": "گشتی"
     },
     "updates.getUpdate": {
       "value": "نوێکردنەوە وەدەست بخە"
@@ -7712,14 +7703,17 @@
     "menuItem.phetWebsite": {
       "value": "پاڵپەڕی فێت"
     },
-    "ieErrorPage.platformError": {
-      "value": "هەڵەی پلاتفۆرم"
-    },
     "menuItem.reportAProblem": {
       "value": "گوزارشتکردن لە گرفت"
     },
     "menuItem.screenshot": {
       "value": "وێنەگرتنی شاشە"
+    },
+    "title.settings": {
+      "value": "گۆڕانکاریەکان"
+    },
+    "credits.team": {
+      "value": "گروپ:{0}"
     },
     "termsPrivacyAndLicensing": {
       "value": "مرج، تایبەتمەندی،ڕێپێدان"
@@ -7733,8 +7727,8 @@
     "updates.upToDate": {
       "value": "وەشانی هاوتاسازەکە نوێیە"
     },
-    "keyboardShortcuts.toGetStarted": {
-      "value": "بۆ ئەوەی دەست پێ بکەیت"
+    "credits.translation": {
+      "value": "وەرگێڕان"
     },
     "translation.credits.link": {
       "value": "ئاماژەدان بە وەرگێڕەکان "
@@ -7742,8 +7736,26 @@
     "updates.offline": {
       "value": "گەڕان بۆ وەشانی نوێ سەرکەوتوو نەبوو"
     },
-    "credits.translation": {
-      "value": "وەرگێڕان"
+    "preferences.tabs.audio.title": {
+      "value": "دەنگ"
+    },
+    "preferences.tabs.audio.audioFeatures.title": {
+      "value": "سەفەتەکانی دەنگ"
+    },
+    "menuItem.enhancedSound": {
+      "value": "دەنگی زیاتر"
+    },
+    "preferences.tabs.audio.sounds.extraSounds.title": {
+      "value": "دەنگی زیاتر"
+    },
+    "preferences.tabs.general.title": {
+      "value": "گشتی"
+    },
+    "ieErrorPage.platformError": {
+      "value": "هەڵەی پلاتفۆرم"
+    },
+    "keyboardShortcuts.toGetStarted": {
+      "value": "بۆ ئەوەی دەست پێ بکەیت"
     }
   },
   "ku_TR": {
