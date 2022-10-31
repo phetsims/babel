@@ -7181,9 +7181,6 @@
     }
   },
   "ku": {
-    "units_nm": {
-      "value": "نانۆمەتر"
-    },
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
@@ -7205,11 +7202,17 @@
     "keyboardHelpDialog.exitADialog": {
       "value": "چوونە دەرەوە لە بژاردە"
     },
+    "speed.fast": {
+      "value": "خيرا"
+    },
     "key.fn": {
       "value": "کلیلی دووەم فەنکشن - واتا ئێف ئێن"
     },
     "key.home": {
       "value": "سەرەتا"
+    },
+    "speed.normal": {
+      "value": "خێرایی ئاسای "
     },
     "keyboardHelpDialog.or": {
       "value": "یان"
@@ -7223,14 +7226,11 @@
     "keyboardHelpDialog.pressButtons": {
       "value": "کلیک لەسەر ئەم خاڵە بکە"
     },
-    "rulerCapitalized": {
-      "value": "ڕاستە"
-    },
-    "ruler": {
-      "value": "ڕاستە"
-    },
     "key.shift": {
       "value": "کلیی شیفت"
+    },
+    "speed.slow": {
+      "value": "خێرایی خاو"
     },
     "key.space": {
       "value": "بۆشایی"
@@ -7238,20 +7238,23 @@
     "key.tab": {
       "value": "کلیلی تاب"
     },
+    "stopwatchValueUnitsPattern": {
+      "value": "{{value}} {{units}}"
+    },
     "symbol.resistivity": {
       "value": "ρ"
     },
     "symbol.ohms": {
       "value": "Ω"
     },
-    "speed.fast": {
-      "value": "خيرا"
+    "units_nm": {
+      "value": "نانۆمەتر"
     },
-    "speed.normal": {
-      "value": "خێرایی ئاسای "
+    "rulerCapitalized": {
+      "value": "ڕاستە"
     },
-    "speed.slow": {
-      "value": "خێرایی خاو"
+    "ruler": {
+      "value": "ڕاستە"
     }
   },
   "ku_TR": {
@@ -10176,21 +10179,6 @@
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
-    "keyboardHelpDialog.comboBox.popUpListPattern": {
-      "value": "Lista pop up de {{thingPlural}}"
-    },
-    "keyboardHelpDialog.comboBox.moveThroughPattern": {
-      "value": "Mover através {{thingPlural}}"
-    },
-    "keyboardHelpDialog.comboBox.chooseNewPattern": {
-      "value": "Escolha novo {{thingSingular}}"
-    },
-    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-      "value": "Fechar lista sem alterar"
-    },
-    "keyboardHelpDialog.adjust": {
-      "value": "Ajustar"
-    },
     "key.alt": {
       "value": "Alt"
     },
@@ -10222,19 +10210,7 @@
       "value": "Agarrar ou libertar {{thing}}"
     },
     "key.home": {
-      "value": "Home"
-    },
-    "keyboardHelpDialog.jumpToMaximumPattern": {
-      "value": "Ir para {{maximum}}"
-    },
-    "keyboardHelpDialog.jumpToMinimumPattern": {
-      "value": "Ir para {{minimum}}"
-    },
-    "keyboardHelpDialog.maximum": {
-      "value": "máximo"
-    },
-    "keyboardHelpDialog.minimum": {
-      "value": "mínimo"
+      "value": "Iniciar"
     },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "Mover entre itens num grupo"
@@ -10245,12 +10221,6 @@
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "Mover para o grupo anterior"
     },
-    "keyboardHelpDialog.comboBox.option": {
-      "value": "Opção"
-    },
-    "keyboardHelpDialog.comboBox.options": {
-      "value": "Opções"
-    },
     "keyboardHelpDialog.or": {
       "value": "ou"
     },
@@ -10260,20 +10230,11 @@
     "key.pageUp": {
       "value": "Pg Up"
     },
-    "keyboardHelpDialog.comboBox.headingString": {
-      "value": "Abrir menu pop"
-    },
     "keyboardHelpDialog.pressButtons": {
       "value": "Pressionar botões"
     },
     "key.shift": {
       "value": "Shift"
-    },
-    "keyboardHelpDialog.slider": {
-      "value": "deslizador"
-    },
-    "keyboardHelpDialog.sliderControls": {
-      "value": "Controlos do Deslizador"
     },
     "key.space": {
       "value": "Espaço"
@@ -10287,6 +10248,54 @@
     "measuringTapeReadoutPattern": {
       "value": "{{distance}} {{units}}"
     },
+    "symbol.resistivity": {
+      "value": "ρ"
+    },
+    "symbol.ohms": {
+      "value": "Ω"
+    },
+    "keyboardHelpDialog.comboBox.popUpListPattern": {
+      "value": "Lista pop up de {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.moveThroughPattern": {
+      "value": "Mover através {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.chooseNewPattern": {
+      "value": "Escolha novo {{thingSingular}}"
+    },
+    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+      "value": "Fechar lista sem alterar"
+    },
+    "keyboardHelpDialog.adjust": {
+      "value": "Ajustar"
+    },
+    "keyboardHelpDialog.jumpToMaximumPattern": {
+      "value": "Ir para {{maximum}}"
+    },
+    "keyboardHelpDialog.jumpToMinimumPattern": {
+      "value": "Ir para {{minimum}}"
+    },
+    "keyboardHelpDialog.maximum": {
+      "value": "máximo"
+    },
+    "keyboardHelpDialog.minimum": {
+      "value": "mínimo"
+    },
+    "keyboardHelpDialog.comboBox.option": {
+      "value": "Opção"
+    },
+    "keyboardHelpDialog.comboBox.options": {
+      "value": "Opções"
+    },
+    "keyboardHelpDialog.comboBox.headingString": {
+      "value": "Abrir menu pop"
+    },
+    "keyboardHelpDialog.slider": {
+      "value": "deslizador"
+    },
+    "keyboardHelpDialog.sliderControls": {
+      "value": "Controlos do Deslizador"
+    },
     "keyboardHelpDialog.verbInLargerStepsPattern": {
       "value": "{{verb}} em passos maiores"
     },
@@ -10295,12 +10304,6 @@
     },
     "keyboardHelpDialog.verbSliderPattern": {
       "value": "{{verb}} {{slider}}"
-    },
-    "symbol.resistivity": {
-      "value": "ρ"
-    },
-    "symbol.ohms": {
-      "value": "Ω"
     },
     "keyboardHelpDialog.adjustInLargerSteps": {
       "value": "Ajuste em etapas maiores"
