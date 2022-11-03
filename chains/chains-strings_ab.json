@@ -24,7 +24,7 @@
     ]
   },
   "namedPlaceholdersString": {
-    "value": "wow",
+    "value": "{{name}} is motor-vating at {{speed}} km/hr",
     "history": [
       {
         "userId": 123456,
@@ -32,17 +32,31 @@
         "oldValue": "",
         "newValue": "wow",
         "explanation": null
+      },
+      {
+        "userId": 654321,
+        "timestamp": 1667511526140,
+        "oldValue": "wow",
+        "newValue": "{{name}} is motor-vating at {{speed}} km/hr",
+        "explanation": null
       }
     ]
   },
   "patternString": {
-    "value": "new",
+    "value": "{0}: {1} {2} a-choo!",
     "history": [
       {
         "userId": 123456,
         "timestamp": 1654729098875,
         "oldValue": "",
         "newValue": "new",
+        "explanation": null
+      },
+      {
+        "userId": 654321,
+        "timestamp": 1667511526140,
+        "oldValue": "new",
+        "newValue": "{0}: {1} {2} a-choo!",
         "explanation": null
       }
     ]
