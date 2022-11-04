@@ -7203,17 +7203,26 @@
     }
   },
   "sw": {
-    "acid": {
-      "value": "Asidi"
+    "pattern.0label.1value": {
+      "value": "{0}: {1}"
     },
-    "acid-base-solutions.title": {
-      "value": "Asidi-Base Ufumbuzi"
+    "pH": {
+      "value": "pH"
     },
-    "base": {
-      "value": "Base"
+    "pattern.0value.1units": {
+      "value": "{0}{1}"
+    },
+    "liters": {
+      "value": "L"
+    },
+    "pattern.0value.1power": {
+      "value": "{0} x 10<sup>{1}</sup>"
+    },
+    "negligible": {
+      "value": "sio na maana"
     },
     "concentrationGraph.yAxis": {
-      "value": "Msawazisho Makini (mol/L)"
+      "value": "Msawazisho Ukolezi (mol/L)"
     },
     "graph": {
       "value": "Grafu"
@@ -7221,59 +7230,14 @@
     "hideViews": {
       "value": "Ficha Maoni"
     },
-    "initialConcentration": {
-      "value": "Msawazisho wa Mwanzo (mol/L):"
-    },
-    "liters": {
-      "value": "L"
-    },
     "molecules": {
       "value": "Molekuli"
     },
-    "negligible": {
-      "value": "sio na maana"
-    },
-    "pH": {
-      "value": "pH"
-    },
-    "pHColorKey": {
-      "value": "pH Rangi"
-    },
-    "pattern.0label.1value": {
-      "value": "{0}: {1}"
-    },
-    "pattern.0value.1power": {
-      "value": "{0} x 10<sup>{1}</sup>"
-    },
-    "pattern.0value.1units": {
-      "value": "{0}{1}"
-    },
-    "screen.introduction": {
-      "value": "Utangulizi"
-    },
-    "screen.mySolution": {
-      "value": "Ufumbuzi Yangu"
+    "solvent": {
+      "value": "Kimumunyishaji"
     },
     "solution": {
-      "value": "Ufumbuzi"
-    },
-    "solvent": {
-      "value": "Kutengenezea"
-    },
-    "strength": {
-      "value": "Nguvu:"
-    },
-    "strong": {
-      "value": "nguvu"
-    },
-    "strongAcid": {
-      "value": "Asidi kali"
-    },
-    "strongBase": {
-      "value": "Base kali"
-    },
-    "stronger": {
-      "value": "enye nguvu"
+      "value": "Mmumunyo"
     },
     "tools": {
       "value": "Vifaa"
@@ -7281,11 +7245,44 @@
     "views": {
       "value": "Maoni"
     },
-    "water": {
-      "value": "Maji"
+    "pHColorKey": {
+      "value": "pH Rangi"
+    },
+    "stronger": {
+      "value": "enye nguvu"
+    },
+    "weaker": {
+      "value": "dhaifu"
+    },
+    "acid": {
+      "value": "Asidi"
+    },
+    "base": {
+      "value": "Base"
+    },
+    "initialConcentration": {
+      "value": "Msawazisho wa Mwanzo (mol/L):"
+    },
+    "strength": {
+      "value": "Nguvu:"
+    },
+    "strong": {
+      "value": "nguvu"
     },
     "weak": {
       "value": "dhaifu"
+    },
+    "screen.mySolution": {
+      "value": "Ufumbuzi Yangu"
+    },
+    "strongAcid": {
+      "value": "Asidi kali"
+    },
+    "strongBase": {
+      "value": "Base kali"
+    },
+    "water": {
+      "value": "Maji"
     },
     "weakAcid": {
       "value": "Asidi Dhaifu"
@@ -7293,8 +7290,11 @@
     "weakBase": {
       "value": "Base Dhaifu"
     },
-    "weaker": {
-      "value": "dhaifu"
+    "screen.introduction": {
+      "value": "Utangulizi"
+    },
+    "acid-base-solutions.title": {
+      "value": "Asidi-Base Mmumunyo"
     }
   },
   "ta": {

@@ -166,13 +166,22 @@
       "value": "M<sub>Jupiter</sub>"
     },
     "units.kg": {
-      "value": "10<sup>27</sup> kg"
+      "value": "10<sup>28</sup> kg"
+    },
+    "units.years": {
+      "value": "years"
     },
     "pattern.labelParenthesesUnits": {
       "value": "{{label}} ({{units}})"
     },
+    "pattern.labelUnits": {
+      "value": "{{value}} {{units}}"
+    },
     "pattern.velocityValueUnits": {
       "value": "|v| = {{value}} {{units}}"
+    },
+    "pattern.rangeWithUnits": {
+      "value": "{{min}} to {{max}} {{units}}"
     }
   }
 }
