@@ -168,6 +168,12 @@
     "units.years": {
       "value": "years"
     },
+    "unitsInfo.title": {
+      "value": "Units Info"
+    },
+    "unitsInfo.content": {
+      "value": "The units used in this simulation are:<br><br>Distance: AU (astronomical units)<br>Mass: 10<sup>28</sup>kg<br>Velocity: km/s<br>Time: years<br><br>1 AU = 1.496 x 10<sup>11</sup> m<br>1 km/s = 1000 m/s<br>1 year = 365.25 days<br><br>The mass values range from 10<sup>28</sup> kg to 3x10<sup>30</sup> kg. Which means, roughly, from 10 Jupiter masses to 1.5 Solar masses. Keep in mind that usual mass values for planets, comets and asteroids are much smaller than this (about a million times lower)."
+    },
     "pattern.labelParenthesesUnits": {
       "value": "{{label}} ({{units}})"
     },
@@ -179,6 +185,9 @@
     },
     "pattern.rangeWithUnits": {
       "value": "{{min}} to {{max}} {{units}}"
+    },
+    "pattern.rangeWithExponentialUnits": {
+      "value": "{{min}} to {{max}} × {{units}}"
     }
   }
 }
