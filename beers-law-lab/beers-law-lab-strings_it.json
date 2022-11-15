@@ -23,7 +23,7 @@
       }
     ]
   },
-  "screen.concentration": {
+  "concentration": {
     "value": "Concentrazione",
     "history": [
       {
@@ -35,7 +35,7 @@
       }
     ]
   },
-  "concentration": {
+  "screen.concentration": {
     "value": "Concentrazione",
     "history": [
       {
@@ -84,7 +84,7 @@
     ]
   },
   "units.liters": {
-    "value": "l",
+    "value": "L",
     "history": [
       {
         "userId": 157247,
@@ -92,6 +92,12 @@
         "oldValue": "",
         "newValue": "l",
         "explanation": null
+      },
+      {
+        "userId": 332542,
+        "timestamp": 1668524038254,
+        "oldValue": "l",
+        "newValue": "L"
       }
     ]
   },
@@ -111,6 +117,17 @@
         "oldValue": "molto",
         "newValue": "massima",
         "explanation": null
+      }
+    ]
+  },
+  "units.milliliters": {
+    "value": "mL",
+    "history": [
+      {
+        "userId": 332542,
+        "timestamp": 1668524038254,
+        "oldValue": "",
+        "newValue": "mL"
       }
     ]
   },
@@ -274,6 +291,39 @@
         "oldValue": "",
         "newValue": "Soluzione",
         "explanation": null
+      }
+    ]
+  },
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 332542,
+        "timestamp": 1668524038254,
+        "oldValue": "",
+        "newValue": "{0} {1}"
+      }
+    ]
+  },
+  "pattern.0percent": {
+    "value": "{0}%",
+    "history": [
+      {
+        "userId": 332542,
+        "timestamp": 1668524038254,
+        "oldValue": "",
+        "newValue": "{0}%"
+      }
+    ]
+  },
+  "pattern.0label": {
+    "value": "{0}:",
+    "history": [
+      {
+        "userId": 332542,
+        "timestamp": 1668524038254,
+        "oldValue": "",
+        "newValue": "{0}:"
       }
     ]
   },
