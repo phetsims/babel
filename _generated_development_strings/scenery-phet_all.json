@@ -2211,6 +2211,9 @@
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
+    "keyboardHelpDialog.adjust": {
+      "value": "Einstellen"
+    },
     "key.alt": {
       "value": "Alt"
     },
@@ -2244,6 +2247,18 @@
     "key.home": {
       "value": "Zurück"
     },
+    "keyboardHelpDialog.jumpToMaximumPattern": {
+      "value": "Springe nach {{maximum}}"
+    },
+    "keyboardHelpDialog.jumpToMinimumPattern": {
+      "value": "Springe nach {{minimum}}"
+    },
+    "keyboardHelpDialog.maximum": {
+      "value": "Maximum"
+    },
+    "keyboardHelpDialog.minimum": {
+      "value": "Minimum"
+    },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "Zwischen Elementen einer Gruppe wechseln"
     },
@@ -2257,10 +2272,10 @@
       "value": "oder"
     },
     "key.pageDown": {
-      "value": "Bild ab/nach unten"
+      "value": "Pg Down"
     },
     "key.pageUp": {
-      "value": "Bild auf/nach oben"
+      "value": "Pg Up"
     },
     "keyboardHelpDialog.pressButtons": {
       "value": "Knopf drücken"
@@ -2268,8 +2283,14 @@
     "key.shift": {
       "value": "Shift"
     },
+    "keyboardHelpDialog.slider": {
+      "value": "Schieberegler"
+    },
+    "keyboardHelpDialog.sliderControls": {
+      "value": "Einstellungen des Schiebereglers"
+    },
     "key.space": {
-      "value": "Leertaste"
+      "value": "Leerschlag"
     },
     "key.tab": {
       "value": "Tabulator"
@@ -2279,6 +2300,15 @@
     },
     "measuringTapeReadoutPattern": {
       "value": "{{distance}} {{units}}"
+    },
+    "keyboardHelpDialog.verbInLargerStepsPattern": {
+      "value": "{{verb}} in größeren Schritten"
+    },
+    "keyboardHelpDialog.verbInSmallerStepsPattern": {
+      "value": "{{verb}} in kleineren Schritten"
+    },
+    "keyboardHelpDialog.verbSliderPattern": {
+      "value": "{{verb}} {{slider}}"
     },
     "symbol.resistivity": {
       "value": "ρ"
@@ -2304,9 +2334,6 @@
     "keyboardHelpDialog.moveToPreviousItem": {
       "value": "zurück zum letzten Element"
     },
-    "keyboardHelpDialog.sliderControls": {
-      "value": "Einstellungen des Schiebereglers"
-    },
     "keyboardHelpDialog.comboBox.popUpListPattern": {
       "value": "1. Popup-Liste von {{thingPlural}}"
     },
@@ -2319,9 +2346,6 @@
     "keyboardHelpDialog.comboBox.closeWithoutChanging": {
       "value": "4. Schließe die Liste, ohne sie zu ändern"
     },
-    "keyboardHelpDialog.adjust": {
-      "value": "Einstellen"
-    },
     "keyboardHelpDialog.comboBox.chooseAThingPattern": {
       "value": "Choose ein {{thingTitle}}"
     },
@@ -2333,18 +2357,6 @@
     },
     "four": {
       "value": "vier"
-    },
-    "keyboardHelpDialog.jumpToMaximumPattern": {
-      "value": "Springe nach {{maximum}}"
-    },
-    "keyboardHelpDialog.jumpToMinimumPattern": {
-      "value": "Springe nach {{minimum}}"
-    },
-    "keyboardHelpDialog.maximum": {
-      "value": "Maximum"
-    },
-    "keyboardHelpDialog.minimum": {
-      "value": "Minimum"
     },
     "nine": {
       "value": "neun"
@@ -2364,9 +2376,6 @@
     "six": {
       "value": "sechs"
     },
-    "keyboardHelpDialog.slider": {
-      "value": "Schieberegler"
-    },
     "ten": {
       "value": "zehn"
     },
@@ -2378,15 +2387,6 @@
     },
     "zero": {
       "value": "null"
-    },
-    "keyboardHelpDialog.verbInLargerStepsPattern": {
-      "value": "{{verb}} in größeren Schritten"
-    },
-    "keyboardHelpDialog.verbInSmallerStepsPattern": {
-      "value": "{{verb}} in kleineren Schritten"
-    },
-    "keyboardHelpDialog.verbSliderPattern": {
-      "value": "{{verb}} {{slider}}"
     },
     "key.k": {
       "value": "K"
@@ -4737,6 +4737,57 @@
     }
   },
   "hi": {
+    "keyboardHelpDialog.basicActions": {
+      "value": "बुनियादी क्रियाएँ"
+    },
+    "key.end": {
+      "value": "End"
+    },
+    "key.esc": {
+      "value": "Esc"
+    },
+    "keyboardHelpDialog.exitADialog": {
+      "value": "बाहर निकले "
+    },
+    "key.home": {
+      "value": "गृह"
+    },
+    "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+      "value": "एक समूह की वस्तुओं के बीच हिलाएं"
+    },
+    "keyboardHelpDialog.moveToNextItem": {
+      "value": "अगली वस्तु  पर जाएँ "
+    },
+    "keyboardHelpDialog.moveToNextItemOrGroup": {
+      "value": "अगली वस्तु या समूह पर जाएँ "
+    },
+    "keyboardHelpDialog.moveToPreviousItem": {
+      "value": "पिछली वस्तु पर जाएँ "
+    },
+    "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+      "value": "पिछली वस्तु या समूह पर जाएँ "
+    },
+    "keyboardHelpDialog.or": {
+      "value": "या "
+    },
+    "key.pageDown": {
+      "value": "पेज  नीचे "
+    },
+    "key.pageUp": {
+      "value": "पेज  ऊपर "
+    },
+    "keyboardHelpDialog.pressButtons": {
+      "value": "कुंजी दबाएं"
+    },
+    "key.shift": {
+      "value": "शिफ्ट "
+    },
+    "key.space": {
+      "value": "अंतराल"
+    },
+    "key.tab": {
+      "value": "टैब "
+    },
     "units_nm": {
       "value": "nm"
     },
@@ -4751,9 +4802,6 @@
     },
     "key.enter": {
       "value": "Enter"
-    },
-    "key.esc": {
-      "value": "Esc"
     },
     "speed.fast": {
       "value": "तेज़"
@@ -4776,26 +4824,8 @@
     "speed.normal": {
       "value": "सामान्य "
     },
-    "keyboardHelpDialog.or": {
-      "value": "या "
-    },
-    "key.pageDown": {
-      "value": "पेज  नीचे "
-    },
-    "key.pageUp": {
-      "value": "पेज  ऊपर "
-    },
-    "key.shift": {
-      "value": "शिफ्ट "
-    },
     "speed.slow": {
       "value": "धीमा "
-    },
-    "key.space": {
-      "value": "अंतराल"
-    },
-    "key.tab": {
-      "value": "टैब "
     },
     "comboBoxDisplay.valueUnits": {
       "value": "{{value}} {{units}}"
@@ -4809,35 +4839,11 @@
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
-    "keyboardHelpDialog.basicActions": {
-      "value": "बुनियादी क्रियाएँ"
-    },
     "key.capsLock": {
       "value": "कैप्स लॉक"
     },
-    "key.end": {
-      "value": "End"
-    },
-    "keyboardHelpDialog.exitADialog": {
-      "value": "बाहर निकले "
-    },
     "key.fn": {
       "value": "फंक्शन"
-    },
-    "key.home": {
-      "value": "गृह"
-    },
-    "keyboardHelpDialog.moveBetweenItemsInAGroup": {
-      "value": "एक समूह की वस्तुओं के मध्य हिलाएं"
-    },
-    "keyboardHelpDialog.moveToNextItemOrGroup": {
-      "value": "अगले वस्तु या समूह पर जाएँ "
-    },
-    "keyboardHelpDialog.moveToPreviousItemOrGroup": {
-      "value": "पिछली वस्तु या समूह पर जाएँ "
-    },
-    "keyboardHelpDialog.pressButtons": {
-      "value": "कुंजी दबाएं"
     },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "चेकबॉक्स टॉगल करें"
@@ -4955,12 +4961,6 @@
     },
     "keyboardHelpDialog.generalNavigation": {
       "value": "सामान्य नेविगेशन"
-    },
-    "keyboardHelpDialog.moveToNextItem": {
-      "value": "अगले वस्तु  पर जाएँ "
-    },
-    "keyboardHelpDialog.moveToPreviousItem": {
-      "value": "पिछले वस्तु पर जाएँ "
     },
     "shortCircuit": {
       "value": "शार्ट सर्किट !"
