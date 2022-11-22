@@ -4304,6 +4304,9 @@
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
+    "keyboardHelpDialog.adjust": {
+      "value": "ગોઠવો"
+    },
     "key.alt": {
       "value": "Alt"
     },
@@ -4337,6 +4340,18 @@
     "key.home": {
       "value": "શરૂઆત"
     },
+    "keyboardHelpDialog.jumpToMaximumPattern": {
+      "value": "{{maximum}} પર જાઓ"
+    },
+    "keyboardHelpDialog.jumpToMinimumPattern": {
+      "value": "{{minimum}} પર જાઓ"
+    },
+    "keyboardHelpDialog.maximum": {
+      "value": "વધુ માં વધુ"
+    },
+    "keyboardHelpDialog.minimum": {
+      "value": "ઓછા માં ઓછું"
+    },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "ગ્રુપની અન્ય વસ્તુઓ પર જાઓ"
     },
@@ -4361,6 +4376,12 @@
     "key.shift": {
       "value": "Shift"
     },
+    "keyboardHelpDialog.slider": {
+      "value": "સ્લાઇડર"
+    },
+    "keyboardHelpDialog.sliderControls": {
+      "value": "સ્લાઇડર કંટ્રોલ્સ"
+    },
     "key.space": {
       "value": "Space"
     },
@@ -4372,6 +4393,15 @@
     },
     "measuringTapeReadoutPattern": {
       "value": "{{distance}} {{units}}"
+    },
+    "keyboardHelpDialog.verbInLargerStepsPattern": {
+      "value": "{{verb}} મોટા પગલામાં"
+    },
+    "keyboardHelpDialog.verbInSmallerStepsPattern": {
+      "value": "{{verb}} નાના પગલામાં"
+    },
+    "keyboardHelpDialog.verbSliderPattern": {
+      "value": "{{verb}} {{slider}}"
     },
     "symbol.resistivity": {
       "value": "ρ"
@@ -4400,9 +4430,6 @@
     "keyboardHelpDialog.moveToPreviousItem": {
       "value": "પાછલી વસ્તુ પર જાઓ"
     },
-    "keyboardHelpDialog.sliderControls": {
-      "value": "સ્લાઇડર કંટ્રોલ્સ"
-    },
     "keyboardHelpDialog.comboBox.popUpListPattern": {
       "value": "1. {{thingPlural}} માંથી પસંદ કરો"
     },
@@ -4415,9 +4442,6 @@
     "keyboardHelpDialog.comboBox.closeWithoutChanging": {
       "value": "4. બદલ્યા વિના યાદી બંધ કરો"
     },
-    "keyboardHelpDialog.adjust": {
-      "value": "ગોઠવો"
-    },
     "keyboardHelpDialog.comboBox.chooseAThingPattern": {
       "value": "એક {{thingTitle}} પસંદ કરો"
     },
@@ -4429,18 +4453,6 @@
     },
     "four": {
       "value": "ચાર"
-    },
-    "keyboardHelpDialog.jumpToMaximumPattern": {
-      "value": "{{maximum}} પર જાઓ"
-    },
-    "keyboardHelpDialog.jumpToMinimumPattern": {
-      "value": "{{minimum}} પર જાઓ"
-    },
-    "keyboardHelpDialog.maximum": {
-      "value": "વધુ માં વધુ"
-    },
-    "keyboardHelpDialog.minimum": {
-      "value": "ઓછા માં ઓછું"
     },
     "nine": {
       "value": "નવ"
@@ -4460,9 +4472,6 @@
     "six": {
       "value": "છ"
     },
-    "keyboardHelpDialog.slider": {
-      "value": "સ્લાઇડર"
-    },
     "ten": {
       "value": "દસ"
     },
@@ -4474,12 +4483,6 @@
     },
     "zero": {
       "value": "શૂન્ય"
-    },
-    "keyboardHelpDialog.verbInLargerStepsPattern": {
-      "value": "{{verb}} મોટા પગલામાં"
-    },
-    "keyboardHelpDialog.verbInSmallerStepsPattern": {
-      "value": "{{verb}} નાના પગલામાં"
     },
     "rulerCapitalized": {
       "value": "માપપટી"
@@ -7588,6 +7591,24 @@
     }
   },
   "lt": {
+    "keyboardHelpDialog.comboBox.popUpListPattern": {
+      "value": "1. Iškelti {{thingPlural}} sąrašą"
+    },
+    "keyboardHelpDialog.comboBox.moveThroughPattern": {
+      "value": " 2. Judėti per {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.chooseNewPattern": {
+      "value": "3. Pasirinkti naują {{thingSingular}}"
+    },
+    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+      "value": "4. Pasirinkti sąrašą be pakeitimų"
+    },
+    "keyboardHelpDialog.adjust": {
+      "value": "Reguliuoti"
+    },
+    "key.alt": {
+      "value": "Alt"
+    },
     "keyboardHelpDialog.basicActions": {
       "value": "Pagr. veiksmai"
     },
@@ -7606,20 +7627,32 @@
     "keyboardHelpDialog.grabOrReleaseLabelPattern": {
       "value": "Griebti arba paleisti {{thing}}"
     },
+    "keyboardHelpDialog.jumpToMaximumPattern": {
+      "value": "Šokti į {{maximum}}"
+    },
+    "keyboardHelpDialog.jumpToMinimumPattern": {
+      "value": "Šokti į {{minimum}}"
+    },
+    "keyboardHelpDialog.maximum": {
+      "value": "didžiausias"
+    },
+    "keyboardHelpDialog.minimum": {
+      "value": "mažiausias"
+    },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "Eiti į grupės elementus"
-    },
-    "keyboardHelpDialog.moveToNextItem": {
-      "value": "Eiti į kitą elementą"
     },
     "keyboardHelpDialog.moveToNextItemOrGroup": {
       "value": "Eiti į kitą elementą ar grupę"
     },
-    "keyboardHelpDialog.moveToPreviousItem": {
-      "value": "Grįžti į buvusį elementą"
-    },
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "Grįžti į buvusį elementą ar grupę"
+    },
+    "keyboardHelpDialog.comboBox.option": {
+      "value": "pasirinkimas"
+    },
+    "keyboardHelpDialog.comboBox.options": {
+      "value": "pasirinkimai"
     },
     "keyboardHelpDialog.or": {
       "value": "arba"
@@ -7630,17 +7663,20 @@
     "key.pageUp": {
       "value": "Pg Up"
     },
+    "keyboardHelpDialog.comboBox.headingString": {
+      "value": "Iškelti meniu"
+    },
     "keyboardHelpDialog.pressButtons": {
       "value": "Paspauskite mygtukus"
     },
-    "rulerCapitalized": {
-      "value": "Liniuotė"
-    },
-    "ruler": {
-      "value": "liniuotė"
-    },
     "key.shift": {
       "value": "Shift"
+    },
+    "keyboardHelpDialog.slider": {
+      "value": "slankiklis"
+    },
+    "keyboardHelpDialog.sliderControls": {
+      "value": "Slankiklio valdymas"
     },
     "key.space": {
       "value": "Tarpas"
@@ -7648,11 +7684,14 @@
     "key.tab": {
       "value": "Tab"
     },
-    "key.toGrabOrRelease": {
-      "value": "<b>sugriebti</b> arba <b>paleisti</b>"
-    },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Perjungti žymimuosius langelius"
+    },
+    "keyboardHelpDialog.verbInLargerStepsPattern": {
+      "value": "{{verb}} didesniais žingsniais"
+    },
+    "keyboardHelpDialog.verbInSmallerStepsPattern": {
+      "value": "{{verb}} mažesniais žingsniais"
     },
     "symbol.resistivity": {
       "value": ""
@@ -7660,8 +7699,20 @@
     "symbol.ohms": {
       "value": ""
     },
-    "key.alt": {
-      "value": "Alt"
+    "keyboardHelpDialog.moveToNextItem": {
+      "value": "Eiti į kitą elementą"
+    },
+    "keyboardHelpDialog.moveToPreviousItem": {
+      "value": "Grįžti į buvusį elementą"
+    },
+    "rulerCapitalized": {
+      "value": "Liniuotė"
+    },
+    "ruler": {
+      "value": "liniuotė"
+    },
+    "key.toGrabOrRelease": {
+      "value": "<b>sugriebti</b> arba <b>paleisti</b>"
     },
     "speed.normal": {
       "value": "Normalus"
@@ -7716,9 +7767,6 @@
     },
     "keyboardHelpDialog.jumpToMinimum": {
       "value": "Šokti į mažiausią"
-    },
-    "keyboardHelpDialog.sliderControls": {
-      "value": "Slankiklio valdymas"
     },
     "keyboardHelpDialog.generalNavigation": {
       "value": "Pagrindinė navigacija"
