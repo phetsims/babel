@@ -1,4 +1,48 @@
 {
+  "drinkMix": {
+    "value": "Imvange y'ibinyobwa",
+    "history": [
+      {
+        "userId": 230437,
+        "timestamp": 1669465750449,
+        "oldValue": "",
+        "newValue": "Imvange y'ibinyobwa"
+      }
+    ]
+  },
+  "units.mM": {
+    "value": "mM",
+    "history": [
+      {
+        "userId": 230437,
+        "timestamp": 1669466448604,
+        "oldValue": "",
+        "newValue": "mM"
+      }
+    ]
+  },
+  "units.uM": {
+    "value": "µM",
+    "history": [
+      {
+        "userId": 230437,
+        "timestamp": 1669466448604,
+        "oldValue": "",
+        "newValue": "µM"
+      }
+    ]
+  },
+  "water": {
+    "value": "amazi",
+    "history": [
+      {
+        "userId": 230437,
+        "timestamp": 1669466448604,
+        "oldValue": "",
+        "newValue": "amazi"
+      }
+    ]
+  },
   "cobaltChloride": {
     "value": "Kororide ya KobalitI(II) ",
     "history": [
@@ -21,28 +65,6 @@
       }
     ]
   },
-  "concentration": {
-    "value": "Ubukana mu mvange",
-    "history": [
-      {
-        "userId": 230437,
-        "timestamp": 1669465750449,
-        "oldValue": "",
-        "newValue": "Ubukana mu mvange"
-      }
-    ]
-  },
-  "screen.concentration": {
-    "value": "Ubukana mu mvange",
-    "history": [
-      {
-        "userId": 230437,
-        "timestamp": 1669465750449,
-        "oldValue": "",
-        "newValue": "Ubukana mu mvange"
-      }
-    ]
-  },
   "copperSulfate": {
     "value": "Umuringa(II) sulfate",
     "history": [
@@ -51,72 +73,6 @@
         "timestamp": 1669465750449,
         "oldValue": "",
         "newValue": "Umuringa(II) sulfate"
-      }
-    ]
-  },
-  "drinkMix": {
-    "value": "Imvange y'ibinyobwa",
-    "history": [
-      {
-        "userId": 230437,
-        "timestamp": 1669465750449,
-        "oldValue": "",
-        "newValue": "Imvange y'ibinyobwa"
-      }
-    ]
-  },
-  "evaporation": {
-    "value": "Igisukika guhinduka umwuka",
-    "history": [
-      {
-        "userId": 230437,
-        "timestamp": 1669465750449,
-        "oldValue": "",
-        "newValue": "Igisukika guhinduka umwuka"
-      }
-    ]
-  },
-  "units.liters": {
-    "value": "L",
-    "history": [
-      {
-        "userId": 230437,
-        "timestamp": 1669465750449,
-        "oldValue": "",
-        "newValue": "L"
-      }
-    ]
-  },
-  "lots": {
-    "value": "byinshi",
-    "history": [
-      {
-        "userId": 230437,
-        "timestamp": 1669465750449,
-        "oldValue": "",
-        "newValue": "byinshi"
-      }
-    ]
-  },
-  "units.milliliters": {
-    "value": "mL",
-    "history": [
-      {
-        "userId": 230437,
-        "timestamp": 1669465750449,
-        "oldValue": "",
-        "newValue": "mL"
-      }
-    ]
-  },
-  "units.molesPerLiter": {
-    "value": "mol/L",
-    "history": [
-      {
-        "userId": 230437,
-        "timestamp": 1669465750449,
-        "oldValue": "",
-        "newValue": "mol/L"
       }
     ]
   },
@@ -131,14 +87,25 @@
       }
     ]
   },
-  "none": {
-    "value": "Nta na kimwe",
+  "pattern.0formula.1name": {
+    "value": "{0}: {1}",
+    "history": [
+      {
+        "userId": 230437,
+        "timestamp": 1669466448604,
+        "oldValue": "",
+        "newValue": "{0}: {1}"
+      }
+    ]
+  },
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
     "history": [
       {
         "userId": 230437,
         "timestamp": 1669465750449,
         "oldValue": "",
-        "newValue": "Nta na kimwe"
+        "newValue": "{0} {1}"
       }
     ]
   },
@@ -175,6 +142,215 @@
       }
     ]
   },
+  "absorbance": {
+    "value": "Ukwakira urumuri",
+    "history": [
+      {
+        "userId": 230437,
+        "timestamp": 1669466448604,
+        "oldValue": "",
+        "newValue": "Ukwakira urumuri"
+      }
+    ]
+  },
+  "pattern.0percent": {
+    "value": "{0}%",
+    "history": [
+      {
+        "userId": 230437,
+        "timestamp": 1669465750449,
+        "oldValue": "",
+        "newValue": "{0}%"
+      }
+    ]
+  },
+  "transmittance": {
+    "value": "Ugutanga urumuri",
+    "history": [
+      {
+        "userId": 230437,
+        "timestamp": 1669466448604,
+        "oldValue": "",
+        "newValue": "Ugutanga urumuri"
+      }
+    ]
+  },
+  "units.centimeters": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 230437,
+        "timestamp": 1669466448604,
+        "oldValue": "",
+        "newValue": "cm"
+      }
+    ]
+  },
+  "concentration": {
+    "value": "Ubukana mu mvange",
+    "history": [
+      {
+        "userId": 230437,
+        "timestamp": 1669465750449,
+        "oldValue": "",
+        "newValue": "Ubukana mu mvange"
+      }
+    ]
+  },
+  "pattern.0label": {
+    "value": "{0}",
+    "history": [
+      {
+        "userId": 230437,
+        "timestamp": 1669465750449,
+        "oldValue": "",
+        "newValue": "{0}"
+      }
+    ]
+  },
+  "solution": {
+    "value": "Imvange",
+    "history": [
+      {
+        "userId": 230437,
+        "timestamp": 1669465750449,
+        "oldValue": "",
+        "newValue": "Imvange"
+      }
+    ]
+  },
+  "preset": {
+    "value": "Gutegura mbere",
+    "history": [
+      {
+        "userId": 230437,
+        "timestamp": 1669466448604,
+        "oldValue": "",
+        "newValue": "Gutegura mbere"
+      }
+    ]
+  },
+  "units.nm": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 230437,
+        "timestamp": 1669466448604,
+        "oldValue": "",
+        "newValue": "nm"
+      }
+    ]
+  },
+  "variable": {
+    "value": "gihindagurika",
+    "history": [
+      {
+        "userId": 230437,
+        "timestamp": 1669466448604,
+        "oldValue": "",
+        "newValue": "gihindagurika"
+      }
+    ]
+  },
+  "wavelength": {
+    "value": "Uburebure bwa onde",
+    "history": [
+      {
+        "userId": 230437,
+        "timestamp": 1669466448604,
+        "oldValue": "",
+        "newValue": "Uburebure bwa onde"
+      }
+    ]
+  },
+  "screen.beersLaw": {
+    "value": "Itegeko rya Beer",
+    "history": [
+      {
+        "userId": 230437,
+        "timestamp": 1669466448604,
+        "oldValue": "",
+        "newValue": "Itegeko rya Beer"
+      }
+    ]
+  },
+  "sodiumChloride": {
+    "value": "Kolorure ya sodiyumu",
+    "history": [
+      {
+        "userId": 230437,
+        "timestamp": 1669465750449,
+        "oldValue": "",
+        "newValue": "Kolorure ya sodiyumu"
+      }
+    ]
+  },
+  "units.liters": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 230437,
+        "timestamp": 1669465750449,
+        "oldValue": "",
+        "newValue": "L"
+      }
+    ]
+  },
+  "units.milliliters": {
+    "value": "mL",
+    "history": [
+      {
+        "userId": 230437,
+        "timestamp": 1669465750449,
+        "oldValue": "",
+        "newValue": "mL"
+      }
+    ]
+  },
+  "units.molesPerLiter": {
+    "value": "mol/L",
+    "history": [
+      {
+        "userId": 230437,
+        "timestamp": 1669465750449,
+        "oldValue": "",
+        "newValue": "mol/L"
+      }
+    ]
+  },
+  "evaporation": {
+    "value": "Igisukika guhinduka umwuka",
+    "history": [
+      {
+        "userId": 230437,
+        "timestamp": 1669465750449,
+        "oldValue": "",
+        "newValue": "Igisukika guhinduka umwuka"
+      }
+    ]
+  },
+  "lots": {
+    "value": "byinshi",
+    "history": [
+      {
+        "userId": 230437,
+        "timestamp": 1669465750449,
+        "oldValue": "",
+        "newValue": "byinshi"
+      }
+    ]
+  },
+  "none": {
+    "value": "Nta na kimwe",
+    "history": [
+      {
+        "userId": 230437,
+        "timestamp": 1669465750449,
+        "oldValue": "",
+        "newValue": "Nta na kimwe"
+      }
+    ]
+  },
   "removeSolute": {
     "value": "Kuramo ikivangwa",
     "history": [
@@ -197,25 +373,14 @@
       }
     ]
   },
-  "sodiumChloride": {
-    "value": "Kolorure ya sodiyumu",
+  "pattern.0soluteAmount": {
+    "value": "Ikivangwa: {0} g",
     "history": [
       {
         "userId": 230437,
         "timestamp": 1669465750449,
         "oldValue": "",
-        "newValue": "Kolorure ya sodiyumu"
-      }
-    ]
-  },
-  "solid": {
-    "value": "Ikintu gifatika",
-    "history": [
-      {
-        "userId": 230437,
-        "timestamp": 1669465750449,
-        "oldValue": "",
-        "newValue": "Ikintu gifatika"
+        "newValue": "Ikivangwa: {0} g"
       }
     ]
   },
@@ -230,58 +395,36 @@
       }
     ]
   },
-  "pattern.0soluteAmount": {
-    "value": "Ikivangwa: {0} g",
+  "solid": {
+    "value": "Ikintu gifatika",
     "history": [
       {
         "userId": 230437,
         "timestamp": 1669465750449,
         "oldValue": "",
-        "newValue": "Ikivangwa: {0} g"
+        "newValue": "Ikintu gifatika"
       }
     ]
   },
-  "solution": {
-    "value": "Imvange",
+  "screen.concentration": {
+    "value": "Ubukana mu mvange",
     "history": [
       {
         "userId": 230437,
         "timestamp": 1669465750449,
         "oldValue": "",
-        "newValue": "Imvange"
+        "newValue": "Ubukana mu mvange"
       }
     ]
   },
-  "pattern.0value.1units": {
-    "value": "{0} {1}",
+  "beers-law-lab.title": {
+    "value": "Laboratwari y'Itegeko  rya Beer",
     "history": [
       {
         "userId": 230437,
-        "timestamp": 1669465750449,
+        "timestamp": 1669466448604,
         "oldValue": "",
-        "newValue": "{0} {1}"
-      }
-    ]
-  },
-  "pattern.0percent": {
-    "value": "{0}%",
-    "history": [
-      {
-        "userId": 230437,
-        "timestamp": 1669465750449,
-        "oldValue": "",
-        "newValue": "{0}%"
-      }
-    ]
-  },
-  "pattern.0label": {
-    "value": "{0}",
-    "history": [
-      {
-        "userId": 230437,
-        "timestamp": 1669465750449,
-        "oldValue": "",
-        "newValue": "{0}"
+        "newValue": "Laboratwari y'Itegeko  rya Beer"
       }
     ]
   }
