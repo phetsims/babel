@@ -717,17 +717,14 @@
     }
   },
   "ar_SA": {
-    "keyboardHelpDialog.basicActions": {
-      "value": "الاجراءات الرئيسية "
-    },
-    "key.end": {
-      "value": "النهاية"
-    },
     "key.enter": {
       "value": "ادخل"
     },
-    "keyboardHelpDialog.exitADialog": {
-      "value": "الخروج من المحادثة"
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "Grab or Release {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "Grab or release {{thing}}"
     },
     "keyboardHelpDialog.or": {
       "value": "أو"
@@ -738,12 +735,6 @@
     "key.pageUp": {
       "value": "للأسفل"
     },
-    "keyboardHelpDialog.pressButtons": {
-      "value": "اضغط على المفاتيح"
-    },
-    "webglWarning.contextLossReload": {
-      "value": "اعادة تحميل"
-    },
     "key.shift": {
       "value": "shift"
     },
@@ -752,6 +743,21 @@
     },
     "key.tab": {
       "value": "انقر"
+    },
+    "keyboardHelpDialog.basicActions": {
+      "value": "الاجراءات الرئيسية "
+    },
+    "key.end": {
+      "value": "النهاية"
+    },
+    "keyboardHelpDialog.exitADialog": {
+      "value": "الخروج من المحادثة"
+    },
+    "keyboardHelpDialog.pressButtons": {
+      "value": "اضغط على المفاتيح"
+    },
+    "webglWarning.contextLossReload": {
+      "value": "اعادة تحميل"
     },
     "symbol.resistivity": {
       "value": "ρ"
@@ -11255,6 +11261,9 @@
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
+    "keyboardHelpDialog.adjust": {
+      "value": "Kujyanisha"
+    },
     "key.alt": {
       "value": "Alt"
     },
@@ -11276,6 +11285,9 @@
     "keyboardHelpDialog.exitADialog": {
       "value": "Kurekeraho ikiganiro"
     },
+    "speed.fast": {
+      "value": "Byihuta"
+    },
     "key.fn": {
       "value": "Fn"
     },
@@ -11288,6 +11300,18 @@
     "key.home": {
       "value": "Ahabanza"
     },
+    "keyboardHelpDialog.jumpToMaximumPattern": {
+      "value": "Jya kuri {{maximum}}"
+    },
+    "keyboardHelpDialog.jumpToMinimumPattern": {
+      "value": "Jya kuri  {{minimum}}"
+    },
+    "keyboardHelpDialog.maximum": {
+      "value": "Kinini cyane"
+    },
+    "keyboardHelpDialog.minimum": {
+      "value": "Gito cyane"
+    },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "Imura hagati y'ibintu mu matsinda"
     },
@@ -11296,6 +11320,9 @@
     },
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "Imura ku bintu byabanjirije cyangwa itsinda"
+    },
+    "speed.normal": {
+      "value": "Bisanzwe"
     },
     "keyboardHelpDialog.or": {
       "value": "cyangwa"
@@ -11312,6 +11339,15 @@
     "key.shift": {
       "value": "Shift"
     },
+    "keyboardHelpDialog.slider": {
+      "value": "paji"
+    },
+    "keyboardHelpDialog.sliderControls": {
+      "value": "Kugenzura paji"
+    },
+    "speed.slow": {
+      "value": "Buhoro"
+    },
     "key.space": {
       "value": "Umwanya"
     },
@@ -11321,20 +11357,20 @@
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Kuzuza utudirishya"
     },
+    "keyboardHelpDialog.verbInLargerStepsPattern": {
+      "value": "{{verb}} mu ntera nini"
+    },
+    "keyboardHelpDialog.verbInSmallerStepsPattern": {
+      "value": "{{verb}} mu ntera nto"
+    },
+    "keyboardHelpDialog.verbSliderPattern": {
+      "value": "{{verb}} {{slider}}"
+    },
     "symbol.resistivity": {
       "value": "ρ"
     },
     "symbol.ohms": {
       "value": "Ω"
-    },
-    "speed.fast": {
-      "value": "Byihuta"
-    },
-    "speed.normal": {
-      "value": "Bisanzwe"
-    },
-    "speed.slow": {
-      "value": "Buhoro"
     },
     "stopwatchValueUnitsPattern": {
       "value": "{{value}} {{units}}"
@@ -11351,21 +11387,6 @@
     "keyboardHelpDialog.comboBox.closeWithoutChanging": {
       "value": "4. Funga urutonde nta cyo uhinduye"
     },
-    "keyboardHelpDialog.adjust": {
-      "value": "Kujyanisha"
-    },
-    "keyboardHelpDialog.jumpToMaximumPattern": {
-      "value": "Jya kuri {{maximum}}"
-    },
-    "keyboardHelpDialog.jumpToMinimumPattern": {
-      "value": "Jya kuri  {{minimum}}"
-    },
-    "keyboardHelpDialog.maximum": {
-      "value": "Kinini cyane"
-    },
-    "keyboardHelpDialog.minimum": {
-      "value": "Gito cyane"
-    },
     "keyboardHelpDialog.comboBox.option": {
       "value": "Amahitamo"
     },
@@ -11375,23 +11396,8 @@
     "keyboardHelpDialog.comboBox.headingString": {
       "value": "menu ya pop open"
     },
-    "keyboardHelpDialog.slider": {
-      "value": "paji"
-    },
-    "keyboardHelpDialog.sliderControls": {
-      "value": "Kugenzura paji"
-    },
     "measuringTapeReadoutPattern": {
       "value": "{{distance}} {{units}}"
-    },
-    "keyboardHelpDialog.verbInLargerStepsPattern": {
-      "value": "{{verb}} in larger steps"
-    },
-    "keyboardHelpDialog.verbInSmallerStepsPattern": {
-      "value": "{{verb}} in smaller steps"
-    },
-    "keyboardHelpDialog.verbSliderPattern": {
-      "value": "{{verb}} {{slider}}"
     },
     "keyboardHelpDialog.adjustInLargerSteps": {
       "value": "Hindura ukoresheje inzira ndende"
