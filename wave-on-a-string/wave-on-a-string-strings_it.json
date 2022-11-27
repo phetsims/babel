@@ -1,12 +1,54 @@
 {
-  "amplitude": {
-    "value": "Ampiezza",
+  "rulers": {
+    "value": "Righelli",
     "history": [
       {
         "userId": 157247,
         "timestamp": 1457030649046,
         "oldValue": "",
-        "newValue": "Ampiezza",
+        "newValue": "Righelli",
+        "explanation": null
+      }
+    ]
+  },
+  "timer": {
+    "value": "Cronometro",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1457030649046,
+        "oldValue": "",
+        "newValue": "Timer",
+        "explanation": null
+      },
+      {
+        "userId": 1008323,
+        "timestamp": 1669565371574,
+        "oldValue": "Timer",
+        "newValue": "Cronometro"
+      }
+    ]
+  },
+  "referenceLine": {
+    "value": "Linea di riferimento",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1457030649046,
+        "oldValue": "",
+        "newValue": "Linea di riferimento",
+        "explanation": null
+      }
+    ]
+  },
+  "tension": {
+    "value": "Tensione",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1457030649046,
+        "oldValue": "",
+        "newValue": "Tensione",
         "explanation": null
       }
     ]
@@ -23,38 +65,14 @@
       }
     ]
   },
-  "fixedEnd": {
-    "value": "Estremità fissa",
+  "low": {
+    "value": "bassa",
     "history": [
       {
         "userId": 157247,
         "timestamp": 1457030649046,
         "oldValue": "",
-        "newValue": "Estremità fissa",
-        "explanation": null
-      }
-    ]
-  },
-  "frequency": {
-    "value": "Frequenza",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1457030649046,
-        "oldValue": "",
-        "newValue": "Frequenza",
-        "explanation": null
-      }
-    ]
-  },
-  "hideHelp": {
-    "value": "Nascondi Aiuto",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1457030649046,
-        "oldValue": "",
-        "newValue": "Nascondi Aiuto",
+        "newValue": "bassa",
         "explanation": null
       }
     ]
@@ -71,14 +89,14 @@
       }
     ]
   },
-  "looseEnd": {
-    "value": "Estremità libera",
+  "none": {
+    "value": "nullo",
     "history": [
       {
         "userId": 157247,
         "timestamp": 1457030649046,
         "oldValue": "",
-        "newValue": "Estremità libera",
+        "newValue": "nullo",
         "explanation": null
       }
     ]
@@ -95,14 +113,74 @@
       }
     ]
   },
-  "low": {
-    "value": "bassa",
+  "frequency": {
+    "value": "Frequenza",
     "history": [
       {
         "userId": 157247,
         "timestamp": 1457030649046,
         "oldValue": "",
-        "newValue": "bassa",
+        "newValue": "Frequenza",
+        "explanation": null
+      }
+    ]
+  },
+  "pulseWidth": {
+    "value": "Durata impulso",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1457030649046,
+        "oldValue": "",
+        "newValue": "Durata impulso",
+        "explanation": null
+      }
+    ]
+  },
+  "amplitude": {
+    "value": "Ampiezza",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1457030649046,
+        "oldValue": "",
+        "newValue": "Ampiezza",
+        "explanation": null
+      }
+    ]
+  },
+  "restart": {
+    "value": "Riavvia",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1457030649046,
+        "oldValue": "",
+        "newValue": "Riavvia",
+        "explanation": null
+      }
+    ]
+  },
+  "speedSlow": {
+    "value": "Rallenta",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1457030649046,
+        "oldValue": "",
+        "newValue": "Rallenta",
+        "explanation": null
+      }
+    ]
+  },
+  "speedNormal": {
+    "value": "Normale",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1457030649046,
+        "oldValue": "",
+        "newValue": "Normale",
         "explanation": null
       }
     ]
@@ -119,6 +197,54 @@
       }
     ]
   },
+  "oscillate": {
+    "value": "Oscillazione",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1457030649046,
+        "oldValue": "",
+        "newValue": "Oscillazione",
+        "explanation": null
+      }
+    ]
+  },
+  "pulse": {
+    "value": "Impulso",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1457030649046,
+        "oldValue": "",
+        "newValue": "Impulso",
+        "explanation": null
+      }
+    ]
+  },
+  "fixedEnd": {
+    "value": "Estremità fissa",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1457030649046,
+        "oldValue": "",
+        "newValue": "Estremità fissa",
+        "explanation": null
+      }
+    ]
+  },
+  "looseEnd": {
+    "value": "Estremità libera",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1457030649046,
+        "oldValue": "",
+        "newValue": "Estremità libera",
+        "explanation": null
+      }
+    ]
+  },
   "noEnd": {
     "value": "Corda infinita",
     "history": [
@@ -131,26 +257,32 @@
       }
     ]
   },
-  "none": {
-    "value": "nullo",
+  "wave-on-a-string.title": {
+    "value": "Onde su una corda",
     "history": [
       {
         "userId": 157247,
         "timestamp": 1457030649046,
         "oldValue": "",
-        "newValue": "nullo",
+        "newValue": "Onde sulla corda",
         "explanation": null
+      },
+      {
+        "userId": 1008323,
+        "timestamp": 1669565371574,
+        "oldValue": "Onde sulla corda",
+        "newValue": "Onde su una corda"
       }
     ]
   },
-  "oscillate": {
-    "value": "Oscillazione",
+  "hideHelp": {
+    "value": "Nascondi Aiuto",
     "history": [
       {
         "userId": 157247,
         "timestamp": 1457030649046,
         "oldValue": "",
-        "newValue": "Oscillazione",
+        "newValue": "Nascondi Aiuto",
         "explanation": null
       }
     ]
@@ -179,18 +311,6 @@
       }
     ]
   },
-  "pulse": {
-    "value": "Impulso",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1457030649046,
-        "oldValue": "",
-        "newValue": "Impulso",
-        "explanation": null
-      }
-    ]
-  },
   "pulse2": {
     "value": "Impulso",
     "history": [
@@ -203,18 +323,6 @@
       }
     ]
   },
-  "pulseWidth": {
-    "value": "Durata impulso",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1457030649046,
-        "oldValue": "",
-        "newValue": "Durata impulso",
-        "explanation": null
-      }
-    ]
-  },
   "refLineHelp": {
     "value": "linea di riferimento mobile",
     "history": [
@@ -223,18 +331,6 @@
         "timestamp": 1457030649046,
         "oldValue": "",
         "newValue": "linea di riferimento mobile",
-        "explanation": null
-      }
-    ]
-  },
-  "referenceLine": {
-    "value": "Linea di riferimento",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1457030649046,
-        "oldValue": "",
-        "newValue": "Linea di riferimento",
         "explanation": null
       }
     ]
@@ -263,18 +359,6 @@
       }
     ]
   },
-  "restart": {
-    "value": "Riavvia",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1457030649046,
-        "oldValue": "",
-        "newValue": "Riavvia",
-        "explanation": null
-      }
-    ]
-  },
   "rulerHelp": {
     "value": "righello mobile",
     "history": [
@@ -287,18 +371,6 @@
       }
     ]
   },
-  "rulers": {
-    "value": "Righelli",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1457030649046,
-        "oldValue": "",
-        "newValue": "Righelli",
-        "explanation": null
-      }
-    ]
-  },
   "showHelp": {
     "value": "Mostra Aiuto",
     "history": [
@@ -307,30 +379,6 @@
         "timestamp": 1457030649046,
         "oldValue": "",
         "newValue": "Mostra Aiuto",
-        "explanation": null
-      }
-    ]
-  },
-  "speedNormal": {
-    "value": "Normale",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1457030649046,
-        "oldValue": "",
-        "newValue": "Normale",
-        "explanation": null
-      }
-    ]
-  },
-  "speedSlow": {
-    "value": "Rallenta",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1457030649046,
-        "oldValue": "",
-        "newValue": "Rallenta",
         "explanation": null
       }
     ]
@@ -359,30 +407,6 @@
       }
     ]
   },
-  "tension": {
-    "value": "Tensione",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1457030649046,
-        "oldValue": "",
-        "newValue": "Tensione",
-        "explanation": null
-      }
-    ]
-  },
-  "timer": {
-    "value": "Timer",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1457030649046,
-        "oldValue": "",
-        "newValue": "Timer",
-        "explanation": null
-      }
-    ]
-  },
   "timerHelp": {
     "value": "timer mobile",
     "history": [
@@ -391,18 +415,6 @@
         "timestamp": 1457030649046,
         "oldValue": "",
         "newValue": "timer mobile",
-        "explanation": null
-      }
-    ]
-  },
-  "wave-on-a-string.title": {
-    "value": "Onde sulla corda",
-    "history": [
-      {
-        "userId": 157247,
-        "timestamp": 1457030649046,
-        "oldValue": "",
-        "newValue": "Onde sulla corda",
         "explanation": null
       }
     ]
