@@ -1,23 +1,34 @@
 {
-  "keyboardHelpDialog.hyphen": {
-    "value": "-",
+  "keyboardHelpDialog.adjustInLargerSteps": {
+    "value": "Ajustar en intervals més grans",
     "history": [
       {
-        "userId": 936741,
-        "timestamp": 1650562709957,
+        "userId": 1094568,
+        "timestamp": 1669657047352,
         "oldValue": "",
-        "newValue": "-"
+        "newValue": "Ajustar en intervals més grans"
       }
     ]
   },
-  "key.alt": {
-    "value": "Alt",
+  "keyboardHelpDialog.adjustInSmallerSteps": {
+    "value": "Ajustar en intervals més petits",
     "history": [
       {
-        "userId": 936741,
-        "timestamp": 1650562709957,
+        "userId": 1094568,
+        "timestamp": 1669657047352,
         "oldValue": "",
-        "newValue": "Alt"
+        "newValue": "Ajustar en intervals més petits"
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustSlider": {
+    "value": "Ajustar control lliscant",
+    "history": [
+      {
+        "userId": 1094568,
+        "timestamp": 1664737548377,
+        "oldValue": "",
+        "newValue": "Ajustar control lliscant"
       }
     ]
   },
@@ -48,23 +59,6 @@
         "timestamp": 1669651424950,
         "oldValue": "Accions Bàsiques",
         "newValue": "Accions bàsiques"
-      }
-    ]
-  },
-  "key.capsLock": {
-    "value": "Majúscules activades",
-    "history": [
-      {
-        "userId": 936741,
-        "timestamp": 1650562709957,
-        "oldValue": "",
-        "newValue": "Maj. activades"
-      },
-      {
-        "userId": 800168,
-        "timestamp": 1659525889150,
-        "oldValue": "Maj. activades",
-        "newValue": "Majúscules activades"
       }
     ]
   },
@@ -146,23 +140,6 @@
       }
     ]
   },
-  "key.fn": {
-    "value": "Funció multimèdia",
-    "history": [
-      {
-        "userId": 936741,
-        "timestamp": 1620800821159,
-        "oldValue": "",
-        "newValue": "Fn"
-      },
-      {
-        "userId": 800168,
-        "timestamp": 1659525889150,
-        "oldValue": "Fn",
-        "newValue": "Funció multimèdia"
-      }
-    ]
-  },
   "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
     "value": "Agafa o deixa anar {{thing}}",
     "history": [
@@ -223,6 +200,28 @@
       }
     ]
   },
+  "keyboardHelpDialog.jumpToMaximum": {
+    "value": "Incrementar al màxim",
+    "history": [
+      {
+        "userId": 1094568,
+        "timestamp": 1664737548377,
+        "oldValue": "",
+        "newValue": "Incrementar al màxim"
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMinimum": {
+    "value": "Reduir al mínim",
+    "history": [
+      {
+        "userId": 1094568,
+        "timestamp": 1664737548377,
+        "oldValue": "",
+        "newValue": "Reduir al mínim"
+      }
+    ]
+  },
   "keyboardHelpDialog.moveBetweenItemsInAGroup": {
     "value": "Mou-te entre els elements d'un grup",
     "history": [
@@ -238,6 +237,24 @@
         "timestamp": 1620385241137,
         "oldValue": "Moure's entre elements d'un grup",
         "newValue": "Mou-te entre els elements d'un grup"
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToNextItem": {
+    "value": "Mou-te a l'element següent",
+    "history": [
+      {
+        "userId": 763752,
+        "timestamp": 1586629213284,
+        "oldValue": "",
+        "newValue": "Moure al següent element",
+        "explanation": null
+      },
+      {
+        "userId": 936741,
+        "timestamp": 1620385241137,
+        "oldValue": "Moure al següent element",
+        "newValue": "Mou-te a l'element següent"
       }
     ]
   },
@@ -262,6 +279,24 @@
         "timestamp": 1620385241137,
         "oldValue": "Moure a l'element o grup següent",
         "newValue": "Mou-te a l'element o el grup següent"
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToPreviousItem": {
+    "value": "Mou-te a l'element anterior",
+    "history": [
+      {
+        "userId": 763752,
+        "timestamp": 1586629213284,
+        "oldValue": "",
+        "newValue": "Moure a l'element anterior",
+        "explanation": null
+      },
+      {
+        "userId": 936741,
+        "timestamp": 1620385241137,
+        "oldValue": "Moure a l'element anterior",
+        "newValue": "Mou-te a l'element anterior"
       }
     ]
   },
@@ -391,6 +426,17 @@
       }
     ]
   },
+  "keyboardHelpDialog.sliderControls": {
+    "value": "Control del lliscador",
+    "history": [
+      {
+        "userId": 1018435,
+        "timestamp": 1664466534595,
+        "oldValue": "",
+        "newValue": "Control del lliscador"
+      }
+    ]
+  },
   "key.space": {
     "value": "Espai",
     "history": [
@@ -441,6 +487,62 @@
         "timestamp": 1619809353547,
         "oldValue": "",
         "newValue": "Activa o desactiva la selecció "
+      }
+    ]
+  },
+  "keyboardHelpDialog.hyphen": {
+    "value": "-",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1650562709957,
+        "oldValue": "",
+        "newValue": "-"
+      }
+    ]
+  },
+  "key.alt": {
+    "value": "Alt",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1650562709957,
+        "oldValue": "",
+        "newValue": "Alt"
+      }
+    ]
+  },
+  "key.capsLock": {
+    "value": "Majúscules activades",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1650562709957,
+        "oldValue": "",
+        "newValue": "Maj. activades"
+      },
+      {
+        "userId": 800168,
+        "timestamp": 1659525889150,
+        "oldValue": "Maj. activades",
+        "newValue": "Majúscules activades"
+      }
+    ]
+  },
+  "key.fn": {
+    "value": "Funció multimèdia",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1620800821159,
+        "oldValue": "",
+        "newValue": "Fn"
+      },
+      {
+        "userId": 800168,
+        "timestamp": 1659525889150,
+        "oldValue": "Fn",
+        "newValue": "Funció multimèdia"
       }
     ]
   },
@@ -582,17 +684,6 @@
         "timestamp": 1664466534595,
         "oldValue": "",
         "newValue": "lliscador"
-      }
-    ]
-  },
-  "keyboardHelpDialog.sliderControls": {
-    "value": "Control del lliscador",
-    "history": [
-      {
-        "userId": 1018435,
-        "timestamp": 1664466534595,
-        "oldValue": "",
-        "newValue": "Control del lliscador"
       }
     ]
   },
@@ -922,75 +1013,6 @@
         "timestamp": 1664991674681,
         "oldValue": "",
         "newValue": "{{value}} {{units}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.adjustSlider": {
-    "value": "Ajustar control lliscant",
-    "history": [
-      {
-        "userId": 1094568,
-        "timestamp": 1664737548377,
-        "oldValue": "",
-        "newValue": "Ajustar control lliscant"
-      }
-    ]
-  },
-  "keyboardHelpDialog.jumpToMaximum": {
-    "value": "Incrementar al màxim",
-    "history": [
-      {
-        "userId": 1094568,
-        "timestamp": 1664737548377,
-        "oldValue": "",
-        "newValue": "Incrementar al màxim"
-      }
-    ]
-  },
-  "keyboardHelpDialog.jumpToMinimum": {
-    "value": "Reduir al mínim",
-    "history": [
-      {
-        "userId": 1094568,
-        "timestamp": 1664737548377,
-        "oldValue": "",
-        "newValue": "Reduir al mínim"
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveToNextItem": {
-    "value": "Mou-te a l'element següent",
-    "history": [
-      {
-        "userId": 763752,
-        "timestamp": 1586629213284,
-        "oldValue": "",
-        "newValue": "Moure al següent element",
-        "explanation": null
-      },
-      {
-        "userId": 936741,
-        "timestamp": 1620385241137,
-        "oldValue": "Moure al següent element",
-        "newValue": "Mou-te a l'element següent"
-      }
-    ]
-  },
-  "keyboardHelpDialog.moveToPreviousItem": {
-    "value": "Mou-te a l'element anterior",
-    "history": [
-      {
-        "userId": 763752,
-        "timestamp": 1586629213284,
-        "oldValue": "",
-        "newValue": "Moure a l'element anterior",
-        "explanation": null
-      },
-      {
-        "userId": 936741,
-        "timestamp": 1620385241137,
-        "oldValue": "Moure a l'element anterior",
-        "newValue": "Mou-te a l'element anterior"
       }
     ]
   },
