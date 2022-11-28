@@ -10,20 +10,47 @@
       }
     ]
   },
-  "centerOfMass": {
-    "value": "Centre de massa",
+  "kilopascals": {
+    "value": "kPa",
     "history": [
       {
         "userId": 1094568,
         "timestamp": 1664552921960,
         "oldValue": "",
-        "newValue": "Centre de Massa"
-      },
+        "newValue": "kPa"
+      }
+    ]
+  },
+  "pressure": {
+    "value": "Pressió",
+    "history": [
       {
         "userId": 1094568,
-        "timestamp": 1669651872187,
-        "oldValue": "Centre de Massa",
-        "newValue": "Centre de massa"
+        "timestamp": 1664552921960,
+        "oldValue": "",
+        "newValue": "Pressió"
+      }
+    ]
+  },
+  "tAvg": {
+    "value": "T<sub>mit</sub> = {{value}}",
+    "history": [
+      {
+        "userId": 1094568,
+        "timestamp": 1664552921960,
+        "oldValue": "",
+        "newValue": "T<sub>mit</sub> = {{value}}"
+      }
+    ]
+  },
+  "tAvgK": {
+    "value": "T<sub>mit</sub> = {{value}} K",
+    "history": [
+      {
+        "userId": 1094568,
+        "timestamp": 1664552921960,
+        "oldValue": "",
+        "newValue": "T<sub>mit</sub> = {{value}} K"
       }
     ]
   },
@@ -38,14 +65,20 @@
       }
     ]
   },
-  "screen.diffusion": {
-    "value": "Difusió",
+  "centerOfMass": {
+    "value": "Centre de massa",
     "history": [
       {
         "userId": 1094568,
         "timestamp": 1664552921960,
         "oldValue": "",
-        "newValue": "Difusió"
+        "newValue": "Centre de Massa"
+      },
+      {
+        "userId": 1094568,
+        "timestamp": 1669651872187,
+        "oldValue": "Centre de Massa",
+        "newValue": "Centre de massa"
       }
     ]
   },
@@ -66,17 +99,6 @@
       }
     ]
   },
-  "kilopascals": {
-    "value": "kPa",
-    "history": [
-      {
-        "userId": 1094568,
-        "timestamp": 1664552921960,
-        "oldValue": "",
-        "newValue": "kPa"
-      }
-    ]
-  },
   "massAMU": {
     "value": "Massa (UMA)",
     "history": [
@@ -85,17 +107,6 @@
         "timestamp": 1664552921960,
         "oldValue": "",
         "newValue": "Massa (UMA)"
-      }
-    ]
-  },
-  "nanometers": {
-    "value": "nm",
-    "history": [
-      {
-        "userId": 1094568,
-        "timestamp": 1664552921960,
-        "oldValue": "",
-        "newValue": "nm"
       }
     ]
   },
@@ -113,62 +124,6 @@
         "timestamp": 1669651872187,
         "oldValue": "Nombre de Partícules",
         "newValue": "Nombre de partícules"
-      }
-    ]
-  },
-  "particleFlowRate": {
-    "value": "Flux de partícules",
-    "history": [
-      {
-        "userId": 1094568,
-        "timestamp": 1664552921960,
-        "oldValue": "",
-        "newValue": "Flux de Partícules"
-      },
-      {
-        "userId": 1094568,
-        "timestamp": 1669651872187,
-        "oldValue": "Flux de Partícules",
-        "newValue": "Flux de partícules"
-      }
-    ]
-  },
-  "pressure": {
-    "value": "Pressió",
-    "history": [
-      {
-        "userId": 1094568,
-        "timestamp": 1664552921960,
-        "oldValue": "",
-        "newValue": "Pressió"
-      }
-    ]
-  },
-  "pressureNoise": {
-    "value": "Soroll de pressió",
-    "history": [
-      {
-        "userId": 1094568,
-        "timestamp": 1664552921960,
-        "oldValue": "",
-        "newValue": "Soroll de Pressió"
-      },
-      {
-        "userId": 1094568,
-        "timestamp": 1669651872187,
-        "oldValue": "Soroll de Pressió",
-        "newValue": "Soroll de pressió"
-      }
-    ]
-  },
-  "picoseconds": {
-    "value": "ps",
-    "history": [
-      {
-        "userId": 1094568,
-        "timestamp": 1664552921960,
-        "oldValue": "",
-        "newValue": "ps"
       }
     ]
   },
@@ -217,6 +172,23 @@
       }
     ]
   },
+  "particleFlowRate": {
+    "value": "Flux de partícules",
+    "history": [
+      {
+        "userId": 1094568,
+        "timestamp": 1664552921960,
+        "oldValue": "",
+        "newValue": "Flux de Partícules"
+      },
+      {
+        "userId": 1094568,
+        "timestamp": 1669651872187,
+        "oldValue": "Flux de Partícules",
+        "newValue": "Flux de partícules"
+      }
+    ]
+  },
   "scale": {
     "value": "Escala",
     "history": [
@@ -239,25 +211,14 @@
       }
     ]
   },
-  "tAvg": {
-    "value": "T<sub>mit</sub> = {{value}}",
+  "nanometers": {
+    "value": "nm",
     "history": [
       {
         "userId": 1094568,
         "timestamp": 1664552921960,
         "oldValue": "",
-        "newValue": "T<sub>mit</sub> = {{value}}"
-      }
-    ]
-  },
-  "tAvgK": {
-    "value": "T<sub>mit</sub> = {{value}} K",
-    "history": [
-      {
-        "userId": 1094568,
-        "timestamp": 1664552921960,
-        "oldValue": "",
-        "newValue": "T<sub>mit</sub> = {{value}} K"
+        "newValue": "nm"
       }
     ]
   },
@@ -272,14 +233,42 @@
       }
     ]
   },
+  "picoseconds": {
+    "value": "ps",
+    "history": [
+      {
+        "userId": 1094568,
+        "timestamp": 1664552921960,
+        "oldValue": "",
+        "newValue": "ps"
+      }
+    ]
+  },
+  "screen.diffusion": {
+    "value": "Difusió",
+    "history": [
+      {
+        "userId": 1094568,
+        "timestamp": 1664552921960,
+        "oldValue": "",
+        "newValue": "Difusió"
+      }
+    ]
+  },
   "collisionCounter": {
-    "value": "Comptador de Col·lissions",
+    "value": "Comptador de col·lissions",
     "history": [
       {
         "userId": 1094568,
         "timestamp": 1664992740985,
         "oldValue": "",
         "newValue": "Comptador de Col·lissions"
+      },
+      {
+        "userId": 1094568,
+        "timestamp": 1669653971512,
+        "oldValue": "Comptador de Col·lissions",
+        "newValue": "Comptador de col·lissions"
       }
     ]
   },
@@ -295,24 +284,36 @@
     ]
   },
   "samplePeriod": {
-    "value": "Període de Mostreig",
+    "value": "Període de mostreig",
     "history": [
       {
         "userId": 1094568,
         "timestamp": 1664992740985,
         "oldValue": "",
         "newValue": "Període de Mostreig"
+      },
+      {
+        "userId": 1094568,
+        "timestamp": 1669653971512,
+        "oldValue": "Període de Mostreig",
+        "newValue": "Període de mostreig"
       }
     ]
   },
   "wallCollisions": {
-    "value": "Col·lissions a la Paret",
+    "value": "Col·lissions a la paret",
     "history": [
       {
         "userId": 1094568,
         "timestamp": 1664992740985,
         "oldValue": "",
         "newValue": "Col·lissions a la Paret"
+      },
+      {
+        "userId": 1094568,
+        "timestamp": 1669653971512,
+        "oldValue": "Col·lissions a la Paret",
+        "newValue": "Col·lissions a la paret"
       }
     ]
   },
@@ -339,13 +340,19 @@
     ]
   },
   "returnLid": {
-    "value": "Tapar de Nou",
+    "value": "Tapar de nou",
     "history": [
       {
         "userId": 1094568,
         "timestamp": 1664992740985,
         "oldValue": "",
         "newValue": "Tapar de Nou"
+      },
+      {
+        "userId": 1094568,
+        "timestamp": 1669653971512,
+        "oldValue": "Tapar de Nou",
+        "newValue": "Tapar de nou"
       }
     ]
   },
@@ -415,6 +422,23 @@
       }
     ]
   },
+  "pressureNoise": {
+    "value": "Soroll de pressió",
+    "history": [
+      {
+        "userId": 1094568,
+        "timestamp": 1664552921960,
+        "oldValue": "",
+        "newValue": "Soroll de Pressió"
+      },
+      {
+        "userId": 1094568,
+        "timestamp": 1669651872187,
+        "oldValue": "Soroll de Pressió",
+        "newValue": "Soroll de pressió"
+      }
+    ]
+  },
   "holdConstant.nothing": {
     "value": "Res",
     "history": [
@@ -449,13 +473,19 @@
     ]
   },
   "holdConstant.title": {
-    "value": "Mantenir Constant",
+    "value": "Mantenir constant",
     "history": [
       {
         "userId": 1094568,
         "timestamp": 1664992740985,
         "oldValue": "",
         "newValue": "Mantenir Constant"
+      },
+      {
+        "userId": 1094568,
+        "timestamp": 1669653971512,
+        "oldValue": "Mantenir Constant",
+        "newValue": "Mantenir constant"
       }
     ]
   },
@@ -548,13 +578,19 @@
     ]
   },
   "averageSpeed": {
-    "value": "Velocitat Mitjana",
+    "value": "Velocitat mitjana",
     "history": [
       {
         "userId": 1094568,
         "timestamp": 1664993058499,
         "oldValue": "",
         "newValue": "Velocitat Mitjana"
+      },
+      {
+        "userId": 1094568,
+        "timestamp": 1669653971512,
+        "oldValue": "Velocitat Mitjana",
+        "newValue": "Velocitat mitjana"
       }
     ]
   },
@@ -570,24 +606,36 @@
     ]
   },
   "injectionTemperature": {
-    "value": "Temperatura d'Injecció",
+    "value": "Temperatura d'injecció",
     "history": [
       {
         "userId": 1094568,
         "timestamp": 1664993058499,
         "oldValue": "",
         "newValue": "Temperatura d'Injecció"
+      },
+      {
+        "userId": 1094568,
+        "timestamp": 1669653971512,
+        "oldValue": "Temperatura d'Injecció",
+        "newValue": "Temperatura d'injecció"
       }
     ]
   },
   "matchContainer": {
-    "value": "Coincidir amb el Contenidor",
+    "value": "Coincidir amb el contenidor",
     "history": [
       {
         "userId": 1094568,
         "timestamp": 1664993058499,
         "oldValue": "",
         "newValue": "Coincidir amb el Contenidor"
+      },
+      {
+        "userId": 1094568,
+        "timestamp": 1669653971512,
+        "oldValue": "Coincidir amb el Contenidor",
+        "newValue": "Coincidir amb el contenidor"
       }
     ]
   },
@@ -603,13 +651,19 @@
     ]
   },
   "kineticEnergy": {
-    "value": "Energia Cinètica",
+    "value": "Energia cinètica",
     "history": [
       {
         "userId": 1094568,
         "timestamp": 1664993058499,
         "oldValue": "",
         "newValue": "Energia Cinètica"
+      },
+      {
+        "userId": 1094568,
+        "timestamp": 1669653971512,
+        "oldValue": "Energia Cinètica",
+        "newValue": "Energia cinètica"
       }
     ]
   },
@@ -636,13 +690,19 @@
     ]
   },
   "gas-properties.title": {
-    "value": "Propietats dels Gasos",
+    "value": "Propietats dels gasos",
     "history": [
       {
         "userId": 1094568,
         "timestamp": 1664993058499,
         "oldValue": "",
         "newValue": "Propietats dels Gasos"
+      },
+      {
+        "userId": 1094568,
+        "timestamp": 1669653971512,
+        "oldValue": "Propietats dels Gasos",
+        "newValue": "Propietats dels gasos"
       }
     ]
   }
