@@ -1492,39 +1492,6 @@
     }
   },
   "ca": {
-    "key.enter": {
-      "value": "Accepta"
-    },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Agafa o deixa anar {{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "Agafa o deixa anar {{thing}}"
-    },
-    "keyboardHelpDialog.or": {
-      "value": "o"
-    },
-    "key.pageDown": {
-      "value": "Pàgina Enrere"
-    },
-    "key.pageUp": {
-      "value": "Pàgina Endavant"
-    },
-    "key.shift": {
-      "value": "Majúscules"
-    },
-    "key.space": {
-      "value": "Espai"
-    },
-    "key.tab": {
-      "value": "Tab."
-    },
-    "symbol.resistivity": {
-      "value": "ρ"
-    },
-    "symbol.ohms": {
-      "value": "Ω"
-    },
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
@@ -1535,7 +1502,7 @@
       "value": "Alt"
     },
     "keyboardHelpDialog.basicActions": {
-      "value": "Accions Bàsiques"
+      "value": "Accions bàsiques"
     },
     "key.capsLock": {
       "value": "Majúscules activades"
@@ -1543,17 +1510,23 @@
     "key.end": {
       "value": "Fi"
     },
+    "key.enter": {
+      "value": "Accepta"
+    },
     "key.esc": {
       "value": "Esc."
     },
     "keyboardHelpDialog.exitADialog": {
       "value": "Surt d'un diàleg"
     },
-    "speed.fast": {
-      "value": "Ràpida"
-    },
     "key.fn": {
       "value": "Funció multimèdia"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "Agafa o deixa anar {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "Agafa o deixa anar {{thing}}"
     },
     "key.home": {
       "value": "Inici"
@@ -1565,10 +1538,10 @@
       "value": "Salta a {{minimum}}"
     },
     "keyboardHelpDialog.maximum": {
-      "value": "Màxim"
+      "value": "màxim"
     },
     "keyboardHelpDialog.minimum": {
-      "value": "Mínim"
+      "value": "mínim"
     },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "Mou-te entre els elements d'un grup"
@@ -1579,11 +1552,20 @@
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "Mou-te a l'element o el grup anterior"
     },
-    "speed.normal": {
-      "value": "Normal"
+    "keyboardHelpDialog.or": {
+      "value": "o"
+    },
+    "key.pageDown": {
+      "value": "Pàgina enrere"
+    },
+    "key.pageUp": {
+      "value": "Pàgina endavant"
     },
     "keyboardHelpDialog.pressButtons": {
       "value": "Prem els botons"
+    },
+    "key.shift": {
+      "value": "Majúscules"
     },
     "keyboardHelpDialog.slider": {
       "value": "lliscador"
@@ -1591,11 +1573,17 @@
     "keyboardHelpDialog.sliderControls": {
       "value": "Control del lliscador"
     },
-    "speed.slow": {
-      "value": "Lenta"
+    "key.space": {
+      "value": "Espai"
+    },
+    "key.tab": {
+      "value": "Tab"
     },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Activa o desactiva la selecció "
+    },
+    "measuringTapeReadoutPattern": {
+      "value": "{{distance}} {{units}}"
     },
     "keyboardHelpDialog.verbInLargerStepsPattern": {
       "value": "{{verb}} en etapes més llargues"
@@ -1606,32 +1594,20 @@
     "keyboardHelpDialog.verbSliderPattern": {
       "value": "{{verb}} {{slider}}"
     },
-    "cool": {
-      "value": "Refreda"
-    },
-    "heat": {
-      "value": "Escalfa"
-    },
-    "key.k": {
-      "value": "K"
-    },
-    "key.l": {
-      "value": "L"
-    },
-    "comboBoxDisplay.valueUnits": {
-      "value": "{{value}} {{units}}"
-    },
     "keyboardHelpDialog.comboBox.popUpListPattern": {
       "value": "Llista emergent de {{thingPlural}}"
     },
     "keyboardHelpDialog.comboBox.moveThroughPattern": {
-      "value": " Mou a traves de {{thingPlural}}"
+      "value": "Mou a traves de {{thingPlural}}"
     },
     "keyboardHelpDialog.comboBox.chooseNewPattern": {
       "value": "Tria un nou {{thingSingular}}"
     },
     "keyboardHelpDialog.comboBox.closeWithoutChanging": {
       "value": "Tanca la llista sense canvis"
+    },
+    "keyboardHelpDialog.comboBox.chooseAThingPattern": {
+      "value": "Triar un {{thingTitle}}"
     },
     "eight": {
       "value": "vuit"
@@ -1672,11 +1648,17 @@
     "zero": {
       "value": "zero"
     },
-    "stopwatchValueUnitsPattern": {
-      "value": "{{value}} {{units}}"
+    "symbol.resistivity": {
+      "value": "ρ"
     },
-    "measuringTapeReadoutPattern": {
-      "value": "{{distance}} {{units}}"
+    "symbol.ohms": {
+      "value": "Ω"
+    },
+    "keyboardHelpDialog.adjustInLargerSteps": {
+      "value": "Ajustar en intervals més grans"
+    },
+    "keyboardHelpDialog.adjustInSmallerSteps": {
+      "value": "Ajustar en intervals més petits"
     },
     "keyboardHelpDialog.adjustSlider": {
       "value": "Ajustar control lliscant"
@@ -1692,6 +1674,33 @@
     },
     "keyboardHelpDialog.moveToPreviousItem": {
       "value": "Mou-te a l'element anterior"
+    },
+    "speed.fast": {
+      "value": "Ràpida"
+    },
+    "speed.normal": {
+      "value": "Normal"
+    },
+    "speed.slow": {
+      "value": "Lenta"
+    },
+    "cool": {
+      "value": "Refreda"
+    },
+    "heat": {
+      "value": "Escalfa"
+    },
+    "key.k": {
+      "value": "K"
+    },
+    "key.l": {
+      "value": "L"
+    },
+    "comboBoxDisplay.valueUnits": {
+      "value": "{{value}} {{units}}"
+    },
+    "stopwatchValueUnitsPattern": {
+      "value": "{{value}} {{units}}"
     },
     "keyboardHelpDialog.comboBox.headingString": {
       "value": "Menú d'obertura emergent"
@@ -7012,11 +7021,11 @@
     "key.tab": {
       "value": "ಟ್ಯಾಬ್ "
     },
-    "key.toGrabOrRelease": {
-      "value": "to <b>ಹಿಡಿ</b> ಅಥವಾ <b>ಬಿಡು</b>"
-    },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "ಚೆಕ್‍ಬಾಕ್ಸ್ ಬದಲಾಯಿಸಿ "
+    },
+    "measuringTapeReadoutPattern": {
+      "value": "{{distance}} {{units}}"
     },
     "symbol.resistivity": {
       "value": "ρ"
@@ -7024,23 +7033,32 @@
     "symbol.ohms": {
       "value": "Ω"
     },
-    "speed.fast": {
-      "value": "ವೇಗ"
-    },
     "key.k": {
       "value": "K"
     },
     "key.l": {
       "value": "L"
     },
+    "webglWarning.contextLossReload": {
+      "value": "ಮರುಪ್ರಯತ್ನಿಸಿ"
+    },
+    "webglWarning.contextLossFailure": {
+      "value": "ಕ್ಷಮಿಸಿ, ಗ್ರ್ಯಾಫಿಕ್ ದೋಷ ಸಂಭವಿಸಿದೆ"
+    },
+    "webglWarning.body": {
+      "value": "WebGLಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿಲ್ಲ ಅಥವಾ ಲಭ್ಯವಿಲ್ಲ.   ಹೆಚ್ಚು ತಿಳಿಯಲು ಕ್ಲಿಕ್\r\n\r\n  ಮಾಡಿ.\r\n\r\n  \r\n\r\n \r\n\r\n"
+    },
+    "key.toGrabOrRelease": {
+      "value": "to <b>ಹಿಡಿ</b> ಅಥವಾ <b>ಬಿಡು</b>"
+    },
+    "speed.fast": {
+      "value": "ವೇಗ"
+    },
     "speed.normal": {
       "value": "ಸಹಜ"
     },
     "speed.slow": {
       "value": "ನಿಧಾನ"
-    },
-    "measuringTapeReadoutPattern": {
-      "value": "{{distance}} {{units}}"
     },
     "stopwatchValueUnitsPattern": {
       "value": "{{value}} {{units}}"
@@ -7053,15 +7071,6 @@
     },
     "units_nm": {
       "value": "ಎನ್. ಮೀ"
-    },
-    "webglWarning.body": {
-      "value": "WebGLಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿಲ್ಲ ಅಥವಾ ಲಭ್ಯವಿಲ್ಲ.   ಹೆಚ್ಚು ತಿಳಿಯಲು ಕ್ಲಿಕ್\r\n  ಮಾಡಿ.\r\n  \r\n \r\n"
-    },
-    "webglWarning.contextLossFailure": {
-      "value": "ಕ್ಷಮಿಸಿ, ಗ್ರ್ಯಾಫಿಕ್ ದೋಷ ಸಂಭವಿಸಿದೆ"
-    },
-    "webglWarning.contextLossReload": {
-      "value": "ಮರುಪ್ರಯತ್ನಿಸಿ"
     },
     "webglWarning.ie11StencilBody": {
       "value": "ವಿಂಡೋಸ್ ಅಪ್ಡೇಟ್ ತೇಪೆಗಳೊಂದಿಗೆ ಇಂಟರ್ನೆಟ್ ಎಕ್ಸ್ಪ್ಲೋರರ್ ನ್ನು ಆಧುನೀಕರಿಸಿ"
@@ -8445,17 +8454,14 @@
     }
   },
   "mr": {
-    "keyboardHelpDialog.adjustInLargerSteps": {
-      "value": "मोठ्या टप्प्याने बदला "
-    },
-    "keyboardHelpDialog.adjustInSmallerSteps": {
-      "value": "लहान टप्प्याने बदला "
-    },
-    "keyboardHelpDialog.adjustSlider": {
-      "value": "स्लाइडर "
+    "key.alt": {
+      "value": "Alt की"
     },
     "keyboardHelpDialog.basicActions": {
       "value": "मूळ कृती "
+    },
+    "key.capsLock": {
+      "value": "कॅप्स लॉक"
     },
     "key.end": {
       "value": "समाप्त"
@@ -8478,18 +8484,6 @@
     "key.home": {
       "value": "होम"
     },
-    "keyboardHelpDialog.jumpToMaximum": {
-      "value": "सर्वात मोठा "
-    },
-    "keyboardHelpDialog.jumpToMinimum": {
-      "value": "सर्वात लहान "
-    },
-    "keyboardHelpDialog.moveToNextItem": {
-      "value": "पुढ्च्या गोष्टीवर जा"
-    },
-    "keyboardHelpDialog.moveToPreviousItem": {
-      "value": "मागच्या गोष्टीवर जा"
-    },
     "keyboardHelpDialog.or": {
       "value": "किंवा"
     },
@@ -8502,11 +8496,14 @@
     "keyboardHelpDialog.pressButtons": {
       "value": "बटण दाबा "
     },
+    "webglWarning.contextLossReload": {
+      "value": "पुन्हा सुरु करा"
+    },
     "key.shift": {
       "value": "बदला"
     },
-    "keyboardHelpDialog.sliderControls": {
-      "value": "सरकत्या पट्टीचे नियंत्रण"
+    "webglWarning.contextLossFailure": {
+      "value": "ग्राफीक त्रूटी उत्पन"
     },
     "key.space": {
       "value": "स्पेस बार "
@@ -8514,14 +8511,38 @@
     "key.tab": {
       "value": "टॅब"
     },
+    "webglWarning.body": {
+      "value": "WebGL सक्षम नाही किंवा उपलब्ध नाही. आधिक जाणून घेण्यासाठी क्लिक करा"
+    },
     "symbol.resistivity": {
       "value": "ρ"
     },
     "symbol.ohms": {
       "value": " Ω"
     },
-    "key.alt": {
-      "value": "Alt की"
+    "keyboardHelpDialog.adjustInLargerSteps": {
+      "value": "मोठ्या टप्प्याने बदला "
+    },
+    "keyboardHelpDialog.adjustInSmallerSteps": {
+      "value": "लहान टप्प्याने बदला "
+    },
+    "keyboardHelpDialog.adjustSlider": {
+      "value": "स्लाइडर "
+    },
+    "keyboardHelpDialog.jumpToMaximum": {
+      "value": "सर्वात मोठा "
+    },
+    "keyboardHelpDialog.jumpToMinimum": {
+      "value": "सर्वात लहान "
+    },
+    "keyboardHelpDialog.moveToNextItem": {
+      "value": "पुढ्च्या गोष्टीवर जा"
+    },
+    "keyboardHelpDialog.moveToPreviousItem": {
+      "value": "मागच्या गोष्टीवर जा"
+    },
+    "keyboardHelpDialog.sliderControls": {
+      "value": "सरकत्या पट्टीचे नियंत्रण"
     },
     "cool": {
       "value": "थंड"
@@ -8543,15 +8564,6 @@
     },
     "speed.slow": {
       "value": "संथ "
-    },
-    "webglWarning.contextLossReload": {
-      "value": "पुन्हा सुरु करा"
-    },
-    "webglWarning.contextLossFailure": {
-      "value": "ग्राफीक त्रूटी उत्पन"
-    },
-    "webglWarning.body": {
-      "value": "WebGL सक्षम नाही किंवा उपलब्ध नाही. आधिक जाणून घेण्यासाठी क्लिक करा"
     },
     "keyboardHelpDialog.generalNavigation": {
       "value": "सामान्य मार्गदर्शन"
@@ -11312,29 +11324,29 @@
     "key.tab": {
       "value": "Tab"
     },
-    "units_nm": {
-      "value": "nm"
+    "comboBoxDisplay.valueUnits": {
+      "value": "{{value}} {{units}}"
     },
-    "WavelengthSlider.pattern_0wavelength_1units": {
-      "value": "{0} {1}"
+    "symbol.resistivity": {
+      "value": "ρ"
     },
-    "webglWarning.contextLossReload": {
-      "value": "Ongera usubiremo"
-    },
-    "webglWarning.title": {
-      "value": "Gukoresha ibishushanyo bifite ubuziranenge buri hasi"
-    },
-    "webglWarning.contextLossFailure": {
-      "value": "Ihangane, habaye ikosa ry'ishusho"
-    },
-    "webglWarning.ie11StencilBody": {
-      "value": "Kuvugurura Internet Explorer mugushyiraho ibyifuzo bya Windows bishya."
-    },
-    "webglWarning.body": {
-      "value": "WebGL ntabwo ishoboye cyangwa ntishobora kuboneka. Kanda kugirango wige byinshi."
+    "symbol.ohms": {
+      "value": "Ω"
     },
     "keyboardHelpDialog.hyphen": {
       "value": "-"
+    },
+    "keyboardHelpDialog.comboBox.popUpListPattern": {
+      "value": "1. Urutonde rwa Pop up rwa {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.moveThroughPattern": {
+      "value": "2. Nyuza kuri {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.chooseNewPattern": {
+      "value": "3. Hitamo  {{thingSingular}} nshya"
+    },
+    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+      "value": "4. Funga urutonde nta cyo uhinduye"
     },
     "keyboardHelpDialog.adjust": {
       "value": "Kujyanisha"
@@ -11345,14 +11357,26 @@
     "key.capsLock": {
       "value": "Caps Lock"
     },
+    "keyboardHelpDialog.comboBox.chooseAThingPattern": {
+      "value": "Guhitamo {{thingTitle}}"
+    },
+    "eight": {
+      "value": "umunani"
+    },
     "key.end": {
       "value": "Iherezo"
     },
     "keyboardHelpDialog.exitADialog": {
       "value": "Kurekeraho ikiganiro"
     },
+    "five": {
+      "value": "gatanu"
+    },
     "key.fn": {
       "value": "Fn"
+    },
+    "four": {
+      "value": "kane"
     },
     "key.home": {
       "value": "Ahabanza"
@@ -11378,8 +11402,26 @@
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "Imura ku bintu byabanjirije cyangwa itsinda"
     },
+    "nine": {
+      "value": "icyenda"
+    },
+    "one": {
+      "value": "rimwe"
+    },
+    "keyboardHelpDialog.comboBox.option": {
+      "value": "Amahitamo"
+    },
+    "keyboardHelpDialog.comboBox.options": {
+      "value": "Amahitamo"
+    },
     "keyboardHelpDialog.pressButtons": {
       "value": "Kanda izi buto"
+    },
+    "seven": {
+      "value": "karindwi"
+    },
+    "six": {
+      "value": "gatandatu"
     },
     "keyboardHelpDialog.slider": {
       "value": "paji"
@@ -11387,8 +11429,20 @@
     "keyboardHelpDialog.sliderControls": {
       "value": "Kugenzura paji"
     },
+    "ten": {
+      "value": "icumi"
+    },
+    "three": {
+      "value": "gatatu"
+    },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Kuzuza utudirishya"
+    },
+    "two": {
+      "value": "kabiri"
+    },
+    "zero": {
+      "value": "zeru"
     },
     "keyboardHelpDialog.verbInLargerStepsPattern": {
       "value": "{{verb}} mu ntera nini"
@@ -11399,32 +11453,29 @@
     "keyboardHelpDialog.verbSliderPattern": {
       "value": "{{verb}} {{slider}}"
     },
-    "symbol.resistivity": {
-      "value": "ρ"
+    "units_nm": {
+      "value": "nm"
     },
-    "symbol.ohms": {
-      "value": "Ω"
+    "WavelengthSlider.pattern_0wavelength_1units": {
+      "value": "{0} {1}"
+    },
+    "webglWarning.contextLossReload": {
+      "value": "Ongera usubiremo"
+    },
+    "webglWarning.title": {
+      "value": "Gukoresha ibishushanyo bifite ubuziranenge buri hasi"
+    },
+    "webglWarning.contextLossFailure": {
+      "value": "Ihangane, habaye ikosa ry'ishusho"
+    },
+    "webglWarning.ie11StencilBody": {
+      "value": "Kuvugurura Internet Explorer mugushyiraho ibyifuzo bya Windows bishya."
+    },
+    "webglWarning.body": {
+      "value": "WebGL ntabwo ishoboye cyangwa ntishobora kuboneka. Kanda kugirango wige byinshi."
     },
     "stopwatchValueUnitsPattern": {
       "value": "{{value}} {{units}}"
-    },
-    "keyboardHelpDialog.comboBox.popUpListPattern": {
-      "value": "1. Urutonde rwa Pop up rwa {{thingPlural}}"
-    },
-    "keyboardHelpDialog.comboBox.moveThroughPattern": {
-      "value": "2. Nyuza kuri {{thingPlural}}"
-    },
-    "keyboardHelpDialog.comboBox.chooseNewPattern": {
-      "value": "3. Hitamo  {{thingSingular}} nshya"
-    },
-    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-      "value": "4. Funga urutonde nta cyo uhinduye"
-    },
-    "keyboardHelpDialog.comboBox.option": {
-      "value": "Amahitamo"
-    },
-    "keyboardHelpDialog.comboBox.options": {
-      "value": "Amahitamo"
     },
     "keyboardHelpDialog.comboBox.headingString": {
       "value": "menu ya pop open"
