@@ -5265,6 +5265,71 @@
       "value": "기체의 성질"
     }
   },
+  "lg": {
+    "atmospheres": {
+      "value": "atm"
+    },
+    "centerOfMass": {
+      "value": "Amakaati go buzito"
+    },
+    "data": {
+      "value": "Data"
+    },
+    "screen.diffusion": {
+      "value": "Okusaasaana"
+    },
+    "initialTemperatureK": {
+      "value": "Ebugumu erisooka"
+    },
+    "kilopascals": {
+      "value": "Kpa"
+    },
+    "massAMU": {
+      "value": "Obuzito(AMU)"
+    },
+    "nanometers": {
+      "value": "nm"
+    },
+    "numberOfParticles": {
+      "value": "Obuji bya Obutundutundu"
+    },
+    "particleFlowRate": {
+      "value": "Omuwendo gw’okukulukuta kw’obutundutundu"
+    },
+    "pressure": {
+      "value": "Puleesa"
+    },
+    "pressureNoise": {
+      "value": "Okulekaana Kwa puleesa"
+    },
+    "picoseconds": {
+      "value": "ps"
+    },
+    "radiusPm": {
+      "value": "Radius"
+    },
+    "removeDivider": {
+      "value": "Ggyawo okaugabanya"
+    },
+    "resetDivider": {
+      "value": "Ddamu okugabanya"
+    },
+    "scale": {
+      "value": "Sikeelo"
+    },
+    "stopwatch": {
+      "value": "Essaawa y’okuyimirira"
+    },
+    "tAvg": {
+      "value": "T<sub>avg</sub> = {{value}}"
+    },
+    "tAvgK": {
+      "value": "T<sub>avg</sub> = {{value}} K"
+    },
+    "valueUnits": {
+      "value": "{{value}} {{units}}"
+    }
+  },
   "lo": {
     "atmospheres": {
       "value": "ຫົວໜ່ວຍບັນຍາກາດ (atm)"
@@ -5808,8 +5873,62 @@
     }
   },
   "mr": {
+    "pressure": {
+      "value": "दाब "
+    },
+    "data": {
+      "value": "माहिती"
+    },
+    "centerOfMass": {
+      "value": "वस्तुमानाचे केंद्र"
+    },
+    "initialTemperatureK": {
+      "value": "सुरुवातीचे तापमान (K)"
+    },
+    "massAMU": {
+      "value": "वस्तुमान (AMU)"
+    },
+    "numberOfParticles": {
+      "value": "कणांची संख्या"
+    },
+    "radiusPm": {
+      "value": "त्रिज्या (pm)"
+    },
+    "removeDivider": {
+      "value": "दुभाजक काढा"
+    },
+    "resetDivider": {
+      "value": "दुभाजक पहिल्यासारखा करा"
+    },
+    "particleFlowRate": {
+      "value": "कणांची गती"
+    },
+    "scale": {
+      "value": "पट्टी"
+    },
+    "stopwatch": {
+      "value": "घडयाळ"
+    },
+    "screen.diffusion": {
+      "value": "प्रसार"
+    },
     "collisionCounter": {
       "value": "टक्कर मोजक"
+    },
+    "width": {
+      "value": "रुंदी"
+    },
+    "samplePeriod": {
+      "value": "लागणारा वेळ "
+    },
+    "wallCollisions": {
+      "value": "भिंतीसोबत टक्करी "
+    },
+    "returnLid": {
+      "value": "झाकण परत लावा"
+    },
+    "oopsMaximumTemperature": {
+      "value": "अरेरे !<br><br>सर्वाधिक तापमान"
     },
     "collisions": {
       "value": "टक्करी"
@@ -5817,20 +5936,35 @@
     "heavy": {
       "value": "जड"
     },
-    "holdConstant.title": {
-      "value": "समान ठेवले"
-    },
-    "screen.ideal": {
-      "value": "आदर्श"
-    },
     "light": {
       "value": "हलके "
+    },
+    "particles": {
+      "value": "कण"
+    },
+    "screen.explore": {
+      "value": "शोधा "
+    },
+    "pressureNoise": {
+      "value": "दाब कोलाहल"
     },
     "holdConstant.nothing": {
       "value": "काही च नाही"
     },
-    "oopsMaximumTemperature": {
-      "value": "अरेरे !<br><br>सर्वाधिक तापमान"
+    "holdConstant.pressureT": {
+      "value": "दाब ↕T"
+    },
+    "holdConstant.pressureV": {
+      "value": "दाब ↕V"
+    },
+    "holdConstant.title": {
+      "value": "समान ठेवले"
+    },
+    "holdConstant.temperature": {
+      "value": " तापमान (T)"
+    },
+    "holdConstant.volume": {
+      "value": "घनफळ (V)"
     },
     "oopsPressureEmpty": {
       "value": "अरेरे !<br><br>दबाव स्थिर ठेवता येत नाही<br> कंटेनर रिकामा आहे."
@@ -5847,41 +5981,32 @@
     "oopsTemperatureOpen": {
       "value": "अरेरे !<br><br>तापमान दबाव स्थिर ठेवता येत नाही<br> कंटेनर उघडा आहे."
     },
-    "particles": {
-      "value": "कण"
+    "screen.ideal": {
+      "value": "आदर्श"
     },
-    "pressure": {
-      "value": "दाब "
+    "averageSpeed": {
+      "value": "सरासरी वेग"
     },
-    "pressureNoise": {
-      "value": "दाब कोलाहल"
+    "injectionTemperature": {
+      "value": "कणांचे आत जाताना चे तापमान"
     },
-    "holdConstant.pressureT": {
-      "value": "दाब ↕T"
+    "matchContainer": {
+      "value": "कंटेनर एवढे "
     },
-    "holdConstant.pressureV": {
-      "value": "दाब ↕V"
+    "setTo": {
+      "value": "ठरवा "
     },
-    "returnLid": {
-      "value": "झाकण परत लावा"
+    "kineticEnergy": {
+      "value": "गतीज ऊर्जा"
     },
-    "samplePeriod": {
-      "value": "लागणारा वेळ "
+    "speed": {
+      "value": "वेग"
     },
-    "stopwatch": {
-      "value": "घडयाळ"
+    "screen.energy": {
+      "value": "ऊर्जा"
     },
-    "holdConstant.temperature": {
-      "value": " तापमान (T)"
-    },
-    "holdConstant.volume": {
-      "value": "घनफळ (V)"
-    },
-    "wallCollisions": {
-      "value": "भिंतीसोबत टक्करी "
-    },
-    "width": {
-      "value": "रुंदी"
+    "gas-properties.title": {
+      "value": "वायूंचे गुणधर्म"
     }
   },
   "ms": {

@@ -717,8 +717,20 @@
     }
   },
   "ar_SA": {
+    "keyboardHelpDialog.hyphen": {
+      "value": "-"
+    },
+    "keyboardHelpDialog.basicActions": {
+      "value": "الاجراءات الرئيسية "
+    },
+    "key.end": {
+      "value": "النهاية"
+    },
     "key.enter": {
       "value": "ادخل"
+    },
+    "keyboardHelpDialog.exitADialog": {
+      "value": "الخروج من المحادثة"
     },
     "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
       "value": "Grab or Release {{thing}}"
@@ -735,6 +747,9 @@
     "key.pageUp": {
       "value": "للأسفل"
     },
+    "keyboardHelpDialog.pressButtons": {
+      "value": "اضغط على المفاتيح"
+    },
     "key.shift": {
       "value": "shift"
     },
@@ -744,26 +759,14 @@
     "key.tab": {
       "value": "انقر"
     },
-    "keyboardHelpDialog.basicActions": {
-      "value": "الاجراءات الرئيسية "
-    },
-    "key.end": {
-      "value": "النهاية"
-    },
-    "keyboardHelpDialog.exitADialog": {
-      "value": "الخروج من المحادثة"
-    },
-    "keyboardHelpDialog.pressButtons": {
-      "value": "اضغط على المفاتيح"
-    },
-    "webglWarning.contextLossReload": {
-      "value": "اعادة تحميل"
-    },
     "symbol.resistivity": {
       "value": "ρ"
     },
     "symbol.ohms": {
       "value": "Ω"
+    },
+    "webglWarning.contextLossReload": {
+      "value": "اعادة تحميل"
     },
     "cool": {
       "value": "التبريد"
@@ -7368,17 +7371,8 @@
     }
   },
   "lg": {
-    "keyboardHelpDialog.hyphen": {
-      "value": "-"
-    },
-    "key.alt": {
-      "value": "Epeesa lya Alt "
-    },
     "keyboardHelpDialog.basicActions": {
       "value": "Ebikolwa Ebikulu"
-    },
-    "key.capsLock": {
-      "value": "Epeesa lya Caps Lock "
     },
     "key.end": {
       "value": "Epeesa lya End"
@@ -7392,12 +7386,6 @@
     "keyboardHelpDialog.exitADialog": {
       "value": "Galawo okwogerezeganya"
     },
-    "speed.fast": {
-      "value": "Magumagu"
-    },
-    "key.fn": {
-      "value": "Epeesa lya Fn"
-    },
     "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
       "value": "Kwata oba leeka {{thing}}"
     },
@@ -7410,14 +7398,17 @@
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "Genda wakati w’ebintu ebiri mu kibinja"
     },
+    "keyboardHelpDialog.moveToNextItem": {
+      "value": "Genda kukidako"
+    },
     "keyboardHelpDialog.moveToNextItemOrGroup": {
       "value": "Genda kukintu ekidako oba ekibinja"
     },
+    "keyboardHelpDialog.moveToPreviousItem": {
+      "value": "Genda kukivudeko"
+    },
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "Genda kukintu oba ekibinja kyewavudeko"
-    },
-    "speed.normal": {
-      "value": "Supidi yabulijo"
     },
     "keyboardHelpDialog.or": {
       "value": "Oba"
@@ -7431,11 +7422,14 @@
     "keyboardHelpDialog.pressButtons": {
       "value": "Nyiga amapeesa "
     },
+    "rulerCapitalized": {
+      "value": "Ruula"
+    },
+    "ruler": {
+      "value": "Ruula"
+    },
     "key.shift": {
       "value": "Epeesa lya shifuti"
-    },
-    "speed.slow": {
-      "value": "Mpolampola"
     },
     "key.space": {
       "value": "Epeesa lya space "
@@ -7443,17 +7437,62 @@
     "key.tab": {
       "value": "Epeesa lya tab"
     },
+    "key.toGrabOrRelease": {
+      "value": "to <b>Grab</b> or <b>Release</b>"
+    },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Juzamu mububokisi bwebamakinga"
-    },
-    "stopwatchValueUnitsPattern": {
-      "value": "{{value}} {{units}}"
     },
     "symbol.resistivity": {
       "value": "ρ"
     },
     "symbol.ohms": {
       "value": "Ω"
+    },
+    "key.alt": {
+      "value": "Epeesa lya Alt "
+    },
+    "cool": {
+      "value": "Okunnyogoga"
+    },
+    "speed.fast": {
+      "value": "Magumagu"
+    },
+    "heat": {
+      "value": "ebugumu"
+    },
+    "key.k": {
+      "value": "K"
+    },
+    "key.l": {
+      "value": "L"
+    },
+    "speed.normal": {
+      "value": "Supidi yabulijo"
+    },
+    "speed.slow": {
+      "value": "Mpolampola"
+    },
+    "measuringTapeReadoutPattern": {
+      "value": "{{distance}} {{units}}"
+    },
+    "stopwatchValueUnitsPattern": {
+      "value": "{{value}} {{units}}"
+    },
+    "keyboardHelpDialog.hyphen": {
+      "value": "-"
+    },
+    "key.capsLock": {
+      "value": "Epeesa lya Caps Lock "
+    },
+    "key.fn": {
+      "value": "Epeesa lya Fn"
+    },
+    "webglWarning.contextLossReload": {
+      "value": "Tekamu ebirala"
+    },
+    "webglWarning.contextLossFailure": {
+      "value": "Sorry, a graphics error has occurred."
     },
     "units_nm": {
       "value": "nm"
@@ -9226,17 +9265,17 @@
     }
   },
   "ne": {
-    "keyboardHelpDialog.adjustInLargerSteps": {
-      "value": "ठूलो चरणहरूमा समायोजन गर्नुहोस्"
+    "keyboardHelpDialog.hyphen": {
+      "value": "-"
     },
-    "keyboardHelpDialog.adjustInSmallerSteps": {
-      "value": "स-साना चरणहरूमा समायोजन गर्नुहोस्"
-    },
-    "keyboardHelpDialog.adjustSlider": {
-      "value": "स्लाइडर समायोजन गर्नुहोस्"
+    "key.alt": {
+      "value": "Alt "
     },
     "keyboardHelpDialog.basicActions": {
       "value": "आधारभूत क्रियाहरू"
+    },
+    "key.capsLock": {
+      "value": "कैप्स लॉक"
     },
     "key.end": {
       "value": "अन्त्य कुञ्जी ( End key)"
@@ -9250,6 +9289,12 @@
     "keyboardHelpDialog.exitADialog": {
       "value": "यस बाट बाहिर निस्कनुहोस् "
     },
+    "speed.fast": {
+      "value": "छिटो"
+    },
+    "key.fn": {
+      "value": "फंक्शन Fn"
+    },
     "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
       "value": "समात्नुहोस् वा रिलीज गर्नुहोस् {{thing}}"
     },
@@ -9259,26 +9304,17 @@
     "key.home": {
       "value": "गृह (Home Key)"
     },
-    "keyboardHelpDialog.jumpToMaximum": {
-      "value": "अधिकतममा जानुहोस्"
-    },
-    "keyboardHelpDialog.jumpToMinimum": {
-      "value": "न्यूनतममा जानुहोस्"
-    },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "समूहमा भएको विकल्पहरू बीचमा सार्नुहोस्"
-    },
-    "keyboardHelpDialog.moveToNextItem": {
-      "value": "पछिल्लो मा जानुहोस्"
     },
     "keyboardHelpDialog.moveToNextItemOrGroup": {
       "value": "पछिल्लो वस्तु वा समूह मा जानुहोस्"
     },
-    "keyboardHelpDialog.moveToPreviousItem": {
-      "value": "अघिल्लो मा जानुहोस्"
-    },
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "अघिल्लो वस्तु वा समूहमा जानुहोस्"
+    },
+    "speed.normal": {
+      "value": "सामान्य"
     },
     "keyboardHelpDialog.or": {
       "value": "वा"
@@ -9295,8 +9331,8 @@
     "key.shift": {
       "value": "सिफ्ट"
     },
-    "keyboardHelpDialog.sliderControls": {
-      "value": "स्लाइडर नियन्त्रण"
+    "speed.slow": {
+      "value": "बिस्तारै"
     },
     "key.space": {
       "value": "स्पेस"
@@ -9307,11 +9343,41 @@
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "चेकबक्सहरू टॉगल गर्नुहोस्"
     },
+    "measuringTapeReadoutPattern": {
+      "value": "{{distance}} {{units}}"
+    },
+    "stopwatchValueUnitsPattern": {
+      "value": "{{value}} {{units}}"
+    },
     "symbol.resistivity": {
       "value": "ρ"
     },
     "symbol.ohms": {
       "value": "Ω"
+    },
+    "keyboardHelpDialog.adjustInLargerSteps": {
+      "value": "ठूलो चरणहरूमा समायोजन गर्नुहोस्"
+    },
+    "keyboardHelpDialog.adjustInSmallerSteps": {
+      "value": "स-साना चरणहरूमा समायोजन गर्नुहोस्"
+    },
+    "keyboardHelpDialog.adjustSlider": {
+      "value": "स्लाइडर समायोजन गर्नुहोस्"
+    },
+    "keyboardHelpDialog.jumpToMaximum": {
+      "value": "अधिकतममा जानुहोस्"
+    },
+    "keyboardHelpDialog.jumpToMinimum": {
+      "value": "न्यूनतममा जानुहोस्"
+    },
+    "keyboardHelpDialog.moveToNextItem": {
+      "value": "पछिल्लो मा जानुहोस्"
+    },
+    "keyboardHelpDialog.moveToPreviousItem": {
+      "value": "अघिल्लो मा जानुहोस्"
+    },
+    "keyboardHelpDialog.sliderControls": {
+      "value": "स्लाइडर नियन्त्रण"
     }
   },
   "nl": {
@@ -15923,12 +15989,6 @@
     "key.capsLock": {
       "value": "大寫鎖定"
     },
-    "keyboardHelpDialog.comboBox.chooseAThingPattern": {
-      "value": "選擇一個{{thingTitle}}"
-    },
-    "eight": {
-      "value": "八"
-    },
     "key.end": {
       "value": "End 鍵"
     },
@@ -15941,14 +16001,8 @@
     "keyboardHelpDialog.exitADialog": {
       "value": "離開對話框"
     },
-    "five": {
-      "value": "五"
-    },
     "key.fn": {
       "value": "Fn 鍵"
-    },
-    "four": {
-      "value": "四"
     },
     "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
       "value": "抓或放 {{thing}}"
@@ -15980,12 +16034,6 @@
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "移動到前一個項目或群組"
     },
-    "nine": {
-      "value": "九"
-    },
-    "one": {
-      "value": "一"
-    },
     "keyboardHelpDialog.comboBox.option": {
       "value": "選項"
     },
@@ -16001,17 +16049,14 @@
     "key.pageUp": {
       "value": "Page Up 鍵"
     },
+    "keyboardHelpDialog.comboBox.headingString": {
+      "value": "彈出式選單"
+    },
     "keyboardHelpDialog.pressButtons": {
       "value": "按下按鍵"
     },
-    "seven": {
-      "value": "七"
-    },
     "key.shift": {
       "value": "Shift 鍵"
-    },
-    "six": {
-      "value": "六"
     },
     "keyboardHelpDialog.slider": {
       "value": "滑動器"
@@ -16025,20 +16070,11 @@
     "key.tab": {
       "value": "Tab 鍵"
     },
-    "ten": {
-      "value": "十"
-    },
-    "three": {
-      "value": "三"
-    },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "切換勾選盒"
     },
-    "two": {
-      "value": "二"
-    },
-    "zero": {
-      "value": "零"
+    "measuringTapeReadoutPattern": {
+      "value": "{{distance}} {{units}}"
     },
     "keyboardHelpDialog.verbInLargerStepsPattern": {
       "value": "以較大幅度{{verb}}"
@@ -16055,6 +16091,42 @@
     "symbol.ohms": {
       "value": "Ω"
     },
+    "keyboardHelpDialog.comboBox.chooseAThingPattern": {
+      "value": "選擇一個{{thingTitle}}"
+    },
+    "eight": {
+      "value": "八"
+    },
+    "five": {
+      "value": "五"
+    },
+    "four": {
+      "value": "四"
+    },
+    "nine": {
+      "value": "九"
+    },
+    "one": {
+      "value": "一"
+    },
+    "seven": {
+      "value": "七"
+    },
+    "six": {
+      "value": "六"
+    },
+    "ten": {
+      "value": "十"
+    },
+    "three": {
+      "value": "三"
+    },
+    "two": {
+      "value": "二"
+    },
+    "zero": {
+      "value": "零"
+    },
     "speed.fast": {
       "value": "快"
     },
@@ -16069,9 +16141,6 @@
     },
     "speed.slow": {
       "value": "慢"
-    },
-    "measuringTapeReadoutPattern": {
-      "value": "{{distance}} {{units}}"
     },
     "stopwatchValueUnitsPattern": {
       "value": "{{value}} {{units}}"

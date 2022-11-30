@@ -159,19 +159,52 @@
   },
   "ar": {
     "decay": {
-      "value": "انحلال "
+      "value": "التحلل الاشعاعي"
     },
     "symbol": {
-      "value": "رمز"
+      "value": "الرمز الكيميائي"
     },
     "electronCloud": {
-      "value": "السحابة الالكترونية"
+      "value": "السحابة الإليكترونية "
     },
     "stable": {
       "value": "مستقر"
     },
     "unstable": {
       "value": "غير مستقر"
+    },
+    "alphaDecay": {
+      "value": "تحلل α "
+    },
+    "betaMinusDecay": {
+      "value": "انحلال بيتا-<sup>-</sup> "
+    },
+    "betaPlusDecay": {
+      "value": "إنبعاث بروتون"
+    },
+    "protonEmission": {
+      "value": "إنبعاث بروتون"
+    },
+    "neutronEmission": {
+      "value": "إنبعاث نيوترون"
+    },
+    "lessStable": {
+      "value": "اقل استقرارا"
+    },
+    "moreStable": {
+      "value": "اكثر استقرارا"
+    },
+    "availableDecays": {
+      "value": "التحللات الاشعاعية المتاحة"
+    },
+    "availableDecaysInfoPanelText": {
+      "value": "قد توجد تحللات أخرى، لكن التحللات المستخدمة هي الأكثر شيوعا. في حال عدم وجود تحلل إشعاعي معروف، لا يتم عرض اي تحلل متاح"
+    },
+    "protons": {
+      "value": "بروتونات"
+    },
+    "neutronsUppercase": {
+      "value": "نيوترونات"
     },
     "neutronsLowercase": {
       "value": "نيوترونات"
@@ -183,40 +216,7 @@
       "value": "نيوترون"
     },
     "clusterOfNeutronsPattern": {
-      "value": " تكتل من {{neutronNumber}} نيوترون"
-    },
-    "alphaDecay": {
-      "value": "انحلال الفا"
-    },
-    "betaMinusDecay": {
-      "value": "انحلال بيتا-<sup>-</sup> "
-    },
-    "betaPlusDecay": {
-      "value": "انحلال بيتا+<sup>-</sup> "
-    },
-    "protonEmission": {
-      "value": "انبعاث بروتوني"
-    },
-    "neutronEmission": {
-      "value": "انبعاث نيوتروني"
-    },
-    "lessStable": {
-      "value": "اقل استقرار"
-    },
-    "moreStable": {
-      "value": "اكثر استقرار"
-    },
-    "availableDecays": {
-      "value": "الانحلالات النووية الممكنة"
-    },
-    "availableDecaysInfoPanelText": {
-      "value": "الانحلالات الانبعاثية الممكنة تظهر هنا - قد يكون هناك انحلالات انبعاثية اخرى غير المذكورة . في حال عدم وجود انحلالات انبعاثية ممكنة فلا شئ سيفعل هنا"
-    },
-    "protons": {
-      "value": "بروتونات"
-    },
-    "neutronsUppercase": {
-      "value": "نيوترونات"
+      "value": "مجموعة من {{neutronNumber}} نيوترون"
     },
     "proton": {
       "value": "بروتون"
@@ -231,7 +231,7 @@
       "value": "بوزيترون"
     },
     "halfLifeColon": {
-      "value": "عمر النصف"
+      "value": "العمر النصفي"
     },
     "unknown": {
       "value": "غير معروف"
@@ -240,7 +240,7 @@
       "value": "s"
     },
     "seconds": {
-      "value": "ثواني"
+      "value": "الثواني"
     },
     "A": {
       "value": "<span style=\"font-family: monospace;\"><b>A</b></span>"
@@ -273,28 +273,28 @@
       "value": "<span style=\"font-family: monospace;\"><b>J</b></span>"
     },
     "halfLifeTimescale": {
-      "value": "التدرج الزمني لعمر النصف"
+      "value": "الجدول الزمني للعمر النصفي"
     },
     "protonsColon": {
-      "value": "البروتونات :"
+      "value": "بروتونات"
     },
     "neutronsColon": {
-      "value": "النيوترونات:"
+      "value": "نيوترونات"
     },
     "timeForLightToCrossANucleus": {
-      "value": "الزمن اللازم للضوء ليعبر النواة"
+      "value": "الزمن اللازم للضوء لعبور نواة"
     },
     "timeForLightToCrossAnAtom": {
-      "value": "الزمن  اللازم للضوء ليعبر الذرة "
+      "value": "الزمن اللازم للضوء لعبور ذرة"
     },
     "timeForLightToCrossOneThousandAtoms": {
-      "value": "الزمن الازم للضوء ليعبر الف ذرة"
+      "value": "الزمن اللازم للضوء لعبور 1000 ذرة"
     },
     "timeForSoundToTravelOneMillimeter": {
-      "value": "الزمن اللازم للضوء ليعبر ميللي متر واحد"
+      "value": "الزمن اللازم للصوت للانتقال 1mm"
     },
     "aBlinkOfAnEye": {
-      "value": "غمضة عين"
+      "value": "طرفة عين "
     },
     "oneMinute": {
       "value": "دقيقة واحدة"
@@ -309,10 +309,138 @@
       "value": "عمر الكون"
     },
     "lifetimeOfLongestLivedStars": {
-      "value": "عمر اكبر نجم معمر"
+      "value": "العمر الزمني لأطول النجوم عمرا"
     },
     "build-a-nucleus.title": {
-      "value": "كيف تبنى النواة الذرية"
+      "value": "بناء نواة"
+    }
+  },
+  "ar_SA": {
+    "decay": {
+      "value": "التحلل الاشعاعي"
+    },
+    "symbol": {
+      "value": "الرمز الكيميائي"
+    },
+    "electronCloud": {
+      "value": "السحابة الإليكترونية "
+    },
+    "stable": {
+      "value": "مستقر"
+    },
+    "unstable": {
+      "value": "غير مستقر"
+    },
+    "alphaDecay": {
+      "value": "تحلل α "
+    },
+    "betaMinusDecay": {
+      "value": "انحلال بيتا-<sup>-</sup> "
+    },
+    "betaPlusDecay": {
+      "value": "إنبعاث بروتون"
+    },
+    "protonEmission": {
+      "value": "إنبعاث بروتون"
+    },
+    "neutronEmission": {
+      "value": "إنبعاث نيوترون"
+    },
+    "lessStable": {
+      "value": "اقل استقرارا"
+    },
+    "moreStable": {
+      "value": "اكثر استقرارا"
+    },
+    "availableDecays": {
+      "value": "التحللات الاشعاعية المتاحة"
+    },
+    "availableDecaysInfoPanelText": {
+      "value": "قد توجد تحللات أخرى، لكن التحللات المستخدمة هي الأكثر شيوعا. في حال عدم وجود تحلل إشعاعي معروف، لا يتم عرض اي تحلل متاح"
+    },
+    "protons": {
+      "value": "بروتونات"
+    },
+    "neutronsUppercase": {
+      "value": "نيوترونات"
+    },
+    "neutronsLowercase": {
+      "value": "نيوترونات"
+    },
+    "doesNotForm": {
+      "value": "لا يتكون"
+    },
+    "neutronLowercase": {
+      "value": "نيوترون"
+    },
+    "clusterOfNeutronsPattern": {
+      "value": "مجموعة من {{neutronNumber}} نيوترون"
+    },
+    "proton": {
+      "value": "بروتون"
+    },
+    "neutronUppercase": {
+      "value": "نيوترون"
+    },
+    "electron": {
+      "value": "الكترون"
+    },
+    "positron": {
+      "value": "بوزيترون"
+    },
+    "halfLifeColon": {
+      "value": "العمر النصفي"
+    },
+    "unknown": {
+      "value": "غير معروف"
+    },
+    "s": {
+      "value": "s"
+    },
+    "seconds": {
+      "value": "الثواني"
+    },
+    "halfLifeTimescale": {
+      "value": "الجدول الزمني للعمر النصفي"
+    },
+    "protonsColon": {
+      "value": "بروتونات"
+    },
+    "neutronsColon": {
+      "value": "نيوترونات"
+    },
+    "timeForLightToCrossANucleus": {
+      "value": "الزمن اللازم للضوء لعبور نواة"
+    },
+    "timeForLightToCrossAnAtom": {
+      "value": "الزمن اللازم للضوء لعبور ذرة"
+    },
+    "timeForLightToCrossOneThousandAtoms": {
+      "value": "الزمن اللازم للضوء لعبور 1000 ذرة"
+    },
+    "timeForSoundToTravelOneMillimeter": {
+      "value": "الزمن اللازم للصوت للانتقال 1mm"
+    },
+    "aBlinkOfAnEye": {
+      "value": "طرفة عين "
+    },
+    "oneMinute": {
+      "value": "دقيقة واحدة"
+    },
+    "oneYear": {
+      "value": "سنة واحدة"
+    },
+    "averageHumanLifespan": {
+      "value": "متوسط عمر الانسان"
+    },
+    "ageOfTheUniverse": {
+      "value": "عمر الكون"
+    },
+    "lifetimeOfLongestLivedStars": {
+      "value": "العمر الزمني لأطول النجوم عمرا"
+    },
+    "build-a-nucleus.title": {
+      "value": "بناء نواة"
     }
   },
   "bn": {
@@ -6413,6 +6541,164 @@
     },
     "build-a-nucleus.title": {
       "value": "Kọ Nucleus"
+    }
+  },
+  "zh_TW": {
+    "decay": {
+      "value": "衰變"
+    },
+    "symbol": {
+      "value": "符號"
+    },
+    "electronCloud": {
+      "value": "電子雲"
+    },
+    "stable": {
+      "value": "穩定"
+    },
+    "unstable": {
+      "value": "不穩定"
+    },
+    "alphaDecay": {
+      "value": "α 衰變"
+    },
+    "betaMinusDecay": {
+      "value": "β<sup>-</sup> 衰變"
+    },
+    "betaPlusDecay": {
+      "value": "β<sup>+</sup> 衰變"
+    },
+    "protonEmission": {
+      "value": "質子放射性"
+    },
+    "neutronEmission": {
+      "value": "中子放射性"
+    },
+    "lessStable": {
+      "value": "較不穩定"
+    },
+    "moreStable": {
+      "value": "較穩定"
+    },
+    "availableDecays": {
+      "value": "可用的衰變"
+    },
+    "availableDecaysInfoPanelText": {
+      "value": "雖然還有一些其他的衰變，「可用的衰變」顯示的是最常見的。如果沒有任何已知的衰變，則不會顯示。"
+    },
+    "protons": {
+      "value": "質子"
+    },
+    "neutronsUppercase": {
+      "value": "中子"
+    },
+    "neutronsLowercase": {
+      "value": "中子"
+    },
+    "doesNotForm": {
+      "value": "未形成"
+    },
+    "neutronLowercase": {
+      "value": "中子"
+    },
+    "clusterOfNeutronsPattern": {
+      "value": "{{neutronNumber}} 個中子形成的叢集"
+    },
+    "proton": {
+      "value": "質子"
+    },
+    "neutronUppercase": {
+      "value": "中子"
+    },
+    "electron": {
+      "value": "電子"
+    },
+    "positron": {
+      "value": "正電子"
+    },
+    "halfLifeColon": {
+      "value": "半衰期："
+    },
+    "unknown": {
+      "value": "未知"
+    },
+    "s": {
+      "value": "秒"
+    },
+    "seconds": {
+      "value": "秒"
+    },
+    "A": {
+      "value": "<span style=\"font-family: monospace;\"><b>A</b></span>"
+    },
+    "B": {
+      "value": "<span style=\"font-family: monospace;\"><b>B</b></span>"
+    },
+    "C": {
+      "value": "<span style=\"font-family: monospace;\"><b>C</b></span>"
+    },
+    "D": {
+      "value": "<span style=\"font-family: monospace;\"><b>D</b></span>"
+    },
+    "E": {
+      "value": "<span style=\"font-family: monospace;\"><b>E</b></span>"
+    },
+    "F": {
+      "value": "<span style=\"font-family: monospace;\"><b>F</b></span>"
+    },
+    "G": {
+      "value": "<span style=\"font-family: monospace;\"><b>G</b></span>"
+    },
+    "H": {
+      "value": "<span style=\"font-family: monospace;\"><b>H</b></span>"
+    },
+    "I": {
+      "value": "<span style=\"font-family: monospace;\"><b>I</b></span>"
+    },
+    "J": {
+      "value": "<span style=\"font-family: monospace;\"><b>J</b></span>"
+    },
+    "halfLifeTimescale": {
+      "value": "半衰期時間表"
+    },
+    "protonsColon": {
+      "value": "質子："
+    },
+    "neutronsColon": {
+      "value": "中子："
+    },
+    "timeForLightToCrossANucleus": {
+      "value": "- 光通過原子核的時間"
+    },
+    "timeForLightToCrossAnAtom": {
+      "value": "- 光通過原子的時間"
+    },
+    "timeForLightToCrossOneThousandAtoms": {
+      "value": "- 光通過 1000 個原子的時間"
+    },
+    "timeForSoundToTravelOneMillimeter": {
+      "value": "- 聲音前進 1 毫米的時間"
+    },
+    "aBlinkOfAnEye": {
+      "value": "- 眨眼的時間"
+    },
+    "oneMinute": {
+      "value": "- 一分鐘"
+    },
+    "oneYear": {
+      "value": "- 一年"
+    },
+    "averageHumanLifespan": {
+      "value": "- 人類平均壽命"
+    },
+    "ageOfTheUniverse": {
+      "value": "- 宇宙的壽命"
+    },
+    "lifetimeOfLongestLivedStars": {
+      "value": "- 存在最久的星體的壽命"
+    },
+    "build-a-nucleus.title": {
+      "value": "Build a Nucleus_建立原子核"
     }
   },
   "en": {
