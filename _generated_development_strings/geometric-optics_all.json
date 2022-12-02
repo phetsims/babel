@@ -1497,134 +1497,47 @@
     }
   },
   "da": {
-    "screen.lens": {
-      "value": "Linse"
-    },
-    "screen.mirror": {
-      "value": "Spejl"
-    },
-    "keyboardHelpDialog.chooseAnObject": {
-      "value": "Vælg et objekt"
-    },
-    "keyboardHelpDialog.object": {
-      "value": "Objekt"
-    },
-    "keyboardHelpDialog.objects": {
-      "value": "Objekter"
-    },
-    "keyboardHelpDialog.move": {
-      "value": "Flyt"
-    },
-    "keyboardHelpDialog.moveSlower": {
-      "value": "Flyt langsommere"
-    },
-    "keyboardHelpDialog.moveDraggableItems": {
-      "value": "Flyt holdte ting"
-    },
-    "keyboardHelpDialog.rulerAndMarkerControls": {
-      "value": "Lineal og marker kontroller"
-    },
-    "keyboardHelpDialog.removeFromToolbox": {
-      "value": "Flyt fra værktøjskasse"
-    },
-    "keyboardHelpDialog.returnToToolbox": {
-      "value": "Returner til værktøjskasse"
-    },
-    "keyboardHelpDialog.jumpToPoint": {
-      "value": "Hop til point, <br>cyklusser venstre-til-højre<br>gennem interessante punkter"
-    },
-    "focalLengthControl": {
-      "value": "Brændvidde længdekontrol:"
-    },
-    "checkbox.add2FPointsCheckbox": {
-      "value": "Tilføj “F2 points” checkboks til kontrolpanel"
-    },
-    "radioButton.direct": {
-      "value": "direkte (ved brug af brændvidde længde slider)"
-    },
-    "radioButton.indirect": {
-      "value": "indirekte (beregnet fra andre optiske parametre)"
-    },
-    "arrow": {
-      "value": "Pil"
-    },
-    "pencil": {
-      "value": "Blyant"
-    },
-    "penguin": {
-      "value": "Pingvin"
-    },
-    "star": {
-      "value": "Stjerne"
-    },
-    "light": {
-      "value": "Lys"
-    },
-    "centimeters": {
-      "value": "cm"
-    },
-    "label.projectionScreen": {
-      "value": "Skærm"
-    },
-    "checkbox.focalPoints": {
-      "value": "Brændpunkter"
+    "label.twoF": {
+      "value": "2F"
     },
     "checkbox.twoFPoints": {
       "value": "2F point"
     },
-    "checkbox.virtualImage": {
-      "value": "Virtuelt billede"
+    "checkbox.add2FPointsCheckbox": {
+      "value": "Tilføj “2F points” tjekboks til kontrolpanel"
     },
-    "checkbox.labels": {
-      "value": "Benævnelser"
+    "arrow": {
+      "value": "Pil"
     },
-    "checkbox.secondPoint": {
-      "value": "Andet punkt"
+    "keyboardHelpDialog.chooseAnObject": {
+      "value": "Vælg et objekt"
     },
-    "checkbox.guides": {
-      "value": "Guider"
+    "centimeters": {
+      "value": "cm"
     },
-    "rays": {
-      "value": "Stråler"
+    "label.concaveLens": {
+      "value": "Konkav<br>linse"
     },
-    "label.opticalAxis": {
-      "value": "Optisk akse"
+    "label.concaveMirror": {
+      "value": "Konkavt<br>spejl"
+    },
+    "label.convexLens": {
+      "value": "Konveks<br>linse"
+    },
+    "label.convexMirror": {
+      "value": "Konvekst<br>spejl"
+    },
+    "diameter": {
+      "value": "Diameter"
+    },
+    "radioButton.direct": {
+      "value": "direkte (ved brug af brændvidde længde slider)"
     },
     "label.F": {
       "value": "F"
     },
-    "label.twoF": {
-      "value": "2F"
-    },
-    "label.object": {
-      "value": "Objekt"
-    },
-    "label.objectN": {
-      "value": "Objekt {{objectNumber}}"
-    },
-    "label.realImageN": {
-      "value": "Rigtigt<br>billede {{imageNumber}}"
-    },
-    "label.virtualImageN": {
-      "value": "Virtuelt<br>billede {{imageNumber}}"
-    },
-    "label.realImage": {
-      "value": "Rigtigt<br>billede"
-    },
-    "label.virtualImage": {
-      "value": "Virtuelt<br>billede"
-    },
-    "radioButton.marginal": {
-      "value": "Fuld bredde"
-    },
-    "radioButton.principal": {
-      "value": "Delvis"
-    },
-    "radioButton.many": {
-      "value": "Mange"
-    },
-    "radioButton.none": {
-      "value": "Ingen"
+    "label.flatMirror": {
+      "value": "Plant<br>spejl"
     },
     "focalLengthPositive": {
       "value": "Brændvidde længde"
@@ -1632,8 +1545,77 @@
     "focalLengthNegative": {
       "value": "Brændvidde længde (-)"
     },
-    "valueCentimetersPattern": {
-      "value": "{{value}} cm"
+    "focalLengthControl": {
+      "value": "Brændvidde længdekontrol:"
+    },
+    "checkbox.focalPoints": {
+      "value": "Brændpunkter (F)"
+    },
+    "checkbox.guides": {
+      "value": "Guider"
+    },
+    "indexOfRefraction": {
+      "value": "Brydningsindeks"
+    },
+    "radioButton.indirect": {
+      "value": "indirekte (beregnet fra andre optiske parametre)"
+    },
+    "keyboardHelpDialog.jumpToPoint": {
+      "value": "Hop til point, <br>cyklusser venstre-til-højre<br>gennem interessante punkter"
+    },
+    "checkbox.labels": {
+      "value": "Benævnelser"
+    },
+    "screen.lens": {
+      "value": "Linse"
+    },
+    "light": {
+      "value": "Lys"
+    },
+    "radioButton.many": {
+      "value": "Mange"
+    },
+    "radioButton.marginal": {
+      "value": "Fuld bredde"
+    },
+    "screen.mirror": {
+      "value": "Spejl"
+    },
+    "keyboardHelpDialog.move": {
+      "value": "Flyt"
+    },
+    "keyboardHelpDialog.moveDraggableItems": {
+      "value": "Flyt holdte ting"
+    },
+    "keyboardHelpDialog.moveSlower": {
+      "value": "Flyt langsommere"
+    },
+    "radioButton.none": {
+      "value": "Ingen"
+    },
+    "keyboardHelpDialog.object": {
+      "value": "Objekt"
+    },
+    "label.object": {
+      "value": "Objekt"
+    },
+    "label.objectN": {
+      "value": "Objekt {{objectNumber}}"
+    },
+    "keyboardHelpDialog.objects": {
+      "value": "Objekter"
+    },
+    "label.opticalAxis": {
+      "value": "Optisk akse"
+    },
+    "pencil": {
+      "value": "Blyant"
+    },
+    "penguin": {
+      "value": "Pingvin"
+    },
+    "radioButton.principal": {
+      "value": "Delvis"
     },
     "radiusOfCurvaturePositive": {
       "value": "Krumningsradius"
@@ -1641,26 +1623,44 @@
     "radiusOfCurvatureNegative": {
       "value": "Radius af krumning (-)"
     },
-    "diameter": {
-      "value": "Diameter"
+    "rays": {
+      "value": "Stråler"
     },
-    "indexOfRefraction": {
-      "value": "Brydningsindeks"
+    "label.realImage": {
+      "value": "Rigtigt<br>billede"
     },
-    "label.convexLens": {
-      "value": "Konveks<br>linse"
+    "label.realImageN": {
+      "value": "Rigtigt<br>billede {{imageNumber}}"
     },
-    "label.concaveLens": {
-      "value": "Konkav<br>linse"
+    "keyboardHelpDialog.removeFromToolbox": {
+      "value": "Flyt fra værktøjskasse"
     },
-    "label.convexMirror": {
-      "value": "Konvekst<br>spejl"
+    "keyboardHelpDialog.returnToToolbox": {
+      "value": "Returner til værktøjskasse"
     },
-    "label.concaveMirror": {
-      "value": "Konkavt<br>spejl"
+    "keyboardHelpDialog.rulerAndMarkerControls": {
+      "value": "Lineal og marker kontroller"
     },
-    "label.flatMirror": {
-      "value": "Plant<br>spejl"
+    "label.projectionScreen": {
+      "value": "Skærm"
+    },
+    "checkbox.secondPoint": {
+      "value": "Andet punkt"
+    },
+    "star": {
+      "value": "Stjerne"
+    },
+    "checkbox.virtualImage": {
+      "value": "Virtuelt billede"
+    },
+    "label.virtualImage": {
+      "value": "Virtuelt<br>billede"
+    },
+    "label.virtualImageN": {
+      "value": "Virtuelt<br>billede {{imageNumber}}"
+    },
+    "valueCentimetersPattern": {
+      "value": "{{value}} cm"
     },
     "geometric-optics.title": {
       "value": "Geometrisk optik"
@@ -5930,119 +5930,38 @@
     }
   },
   "pt_BR": {
-    "screen.lens": {
-      "value": "Lente"
-    },
-    "screen.mirror": {
-      "value": "Espelho"
-    },
-    "keyboardHelpDialog.chooseAnObject": {
-      "value": "Escolha um objeto"
-    },
-    "keyboardHelpDialog.object": {
-      "value": "Objeto"
-    },
-    "keyboardHelpDialog.objects": {
-      "value": "Objetos"
-    },
-    "keyboardHelpDialog.move": {
-      "value": "Mover"
-    },
-    "keyboardHelpDialog.moveSlower": {
-      "value": "Mover devagar"
-    },
-    "keyboardHelpDialog.moveDraggableItems": {
-      "value": "Mover Itens Arrastáveis"
-    },
-    "keyboardHelpDialog.rulerAndMarkerControls": {
-      "value": "Controles de Régua e Marcador"
-    },
-    "keyboardHelpDialog.removeFromToolbox": {
-      "value": "Remover da caixa de ferramentas"
-    },
-    "keyboardHelpDialog.returnToToolbox": {
-      "value": "Devolver para a caixa de ferramentas"
-    },
-    "keyboardHelpDialog.jumpToPoint": {
-      "value": "Ir para o ponto,<br>circula da esquerda para a direita<br>por pontos interessantes"
-    },
-    "focalLengthControl": {
-      "value": "Controle da Distância Focal:"
+    "checkbox.twoFPoints": {
+      "value": "Pontos 2F"
     },
     "checkbox.add2FPointsCheckbox": {
       "value": "Adicionar caixa de seleção \"Pontos 2F\" aos painéis de controle"
     },
-    "radioButton.direct": {
-      "value": "direto (usando o controle deslizante de Distância Focal)"
-    },
-    "radioButton.indirect": {
-      "value": "indireto (calculado a partir de outros parâmetros ópticos)"
-    },
     "arrow": {
       "value": "Seta"
     },
-    "pencil": {
-      "value": "Lápis"
+    "keyboardHelpDialog.chooseAnObject": {
+      "value": "Escolha um objeto"
     },
-    "penguin": {
-      "value": "Pinguim"
+    "label.concaveLens": {
+      "value": "Lente<br>Côncava"
     },
-    "star": {
-      "value": "Estrela"
+    "label.concaveMirror": {
+      "value": "Espelho<br>Côncavo"
     },
-    "light": {
-      "value": "Abajur"
+    "label.convexLens": {
+      "value": "Lente<br>Convexa"
     },
-    "label.projectionScreen": {
-      "value": "Anteparo"
+    "label.convexMirror": {
+      "value": "Espelho<br>Convexo"
     },
-    "checkbox.focalPoints": {
-      "value": "Pontos Focais"
+    "diameter": {
+      "value": "Diâmetro"
     },
-    "checkbox.twoFPoints": {
-      "value": "Pontos 2F"
+    "radioButton.direct": {
+      "value": "direto (com o controle deslizante de Distância Focal)"
     },
-    "checkbox.virtualImage": {
-      "value": "Imagem Virtual"
-    },
-    "checkbox.labels": {
-      "value": "Rótulos"
-    },
-    "checkbox.secondPoint": {
-      "value": "Outro Ponto/Seta"
-    },
-    "checkbox.guides": {
-      "value": "Guias"
-    },
-    "rays": {
-      "value": "Raios"
-    },
-    "label.opticalAxis": {
-      "value": "Eixo Óptico"
-    },
-    "label.object": {
-      "value": "Objeto"
-    },
-    "label.objectN": {
-      "value": "Objeto {{objectNumber}}"
-    },
-    "label.realImageN": {
-      "value": "Imagem<br>Real {{imageNumber}}"
-    },
-    "label.virtualImageN": {
-      "value": "Imagem<br>Virtual {{imageNumber}}"
-    },
-    "label.realImage": {
-      "value": "Imagem Real"
-    },
-    "label.virtualImage": {
-      "value": "Imagem<br>Virtual"
-    },
-    "radioButton.many": {
-      "value": "Muitos"
-    },
-    "radioButton.none": {
-      "value": "Nenhum"
+    "label.flatMirror": {
+      "value": "Espelho<br>Plano"
     },
     "focalLengthPositive": {
       "value": "Distância Focal"
@@ -6050,32 +5969,113 @@
     "focalLengthNegative": {
       "value": "Distância Focal (−)"
     },
+    "focalLengthControl": {
+      "value": "Controle da Distância Focal:"
+    },
+    "checkbox.focalPoints": {
+      "value": "Pontos Focais"
+    },
+    "checkbox.guides": {
+      "value": "Guias"
+    },
+    "indexOfRefraction": {
+      "value": "Índice de Refração"
+    },
+    "radioButton.indirect": {
+      "value": "indireto (calculado a partir de outros parâmetros ópticos)"
+    },
+    "keyboardHelpDialog.jumpToPoint": {
+      "value": "Ir para o ponto,<br>circula da esquerda para a direita<br>por pontos interessantes"
+    },
+    "checkbox.labels": {
+      "value": "Rótulos"
+    },
+    "screen.lens": {
+      "value": "Lente"
+    },
+    "light": {
+      "value": "Abajur"
+    },
+    "radioButton.many": {
+      "value": "Muitos"
+    },
+    "screen.mirror": {
+      "value": "Espelho"
+    },
+    "keyboardHelpDialog.move": {
+      "value": "Mover"
+    },
+    "keyboardHelpDialog.moveDraggableItems": {
+      "value": "Mover Itens Arrastáveis"
+    },
+    "keyboardHelpDialog.moveSlower": {
+      "value": "Mover devagar"
+    },
+    "radioButton.none": {
+      "value": "Nenhum"
+    },
+    "keyboardHelpDialog.object": {
+      "value": "Objeto"
+    },
+    "label.object": {
+      "value": "Objeto"
+    },
+    "label.objectN": {
+      "value": "Objeto {{objectNumber}}"
+    },
+    "keyboardHelpDialog.objects": {
+      "value": "Objetos"
+    },
+    "label.opticalAxis": {
+      "value": "Eixo Óptico"
+    },
+    "pencil": {
+      "value": "Lápis"
+    },
+    "penguin": {
+      "value": "Pinguim"
+    },
     "radiusOfCurvaturePositive": {
       "value": "Raio da Curvatura"
     },
     "radiusOfCurvatureNegative": {
       "value": "Raio da Curvatura (−)"
     },
-    "diameter": {
-      "value": "Diâmetro"
+    "rays": {
+      "value": "Raios"
     },
-    "indexOfRefraction": {
-      "value": "Índice de Refração"
+    "label.realImage": {
+      "value": "Imagem Real"
     },
-    "label.convexLens": {
-      "value": "Lente<br>Convexa"
+    "label.realImageN": {
+      "value": "Imagem<br>Real {{imageNumber}}"
     },
-    "label.concaveLens": {
-      "value": "Lente<br>Côncava"
+    "keyboardHelpDialog.removeFromToolbox": {
+      "value": "Remover da caixa de ferramentas"
     },
-    "label.convexMirror": {
-      "value": "Espelho<br>Convexo"
+    "keyboardHelpDialog.returnToToolbox": {
+      "value": "Devolver para a caixa de ferramentas"
     },
-    "label.concaveMirror": {
-      "value": "Espelho<br>Côncavo"
+    "keyboardHelpDialog.rulerAndMarkerControls": {
+      "value": "Controles de Régua e Marcador"
     },
-    "label.flatMirror": {
-      "value": "Espelho<br>Plano"
+    "label.projectionScreen": {
+      "value": "Anteparo"
+    },
+    "checkbox.secondPoint": {
+      "value": "Outro Ponto/Seta"
+    },
+    "star": {
+      "value": "Estrela"
+    },
+    "checkbox.virtualImage": {
+      "value": "Imagem Virtual"
+    },
+    "label.virtualImage": {
+      "value": "Imagem<br>Virtual"
+    },
+    "label.virtualImageN": {
+      "value": "Imagem<br>Virtual {{imageNumber}}"
     },
     "geometric-optics.title": {
       "value": "Óptica Geométrica"
@@ -6088,134 +6088,47 @@
     }
   },
   "ro": {
-    "screen.lens": {
-      "value": "Lentilă"
-    },
-    "screen.mirror": {
-      "value": "Oglindă"
-    },
-    "keyboardHelpDialog.chooseAnObject": {
-      "value": "Alege un obiect"
-    },
-    "keyboardHelpDialog.object": {
-      "value": "Obiect"
-    },
-    "keyboardHelpDialog.objects": {
-      "value": "Obiecte"
-    },
-    "keyboardHelpDialog.move": {
-      "value": "Mișcă"
-    },
-    "keyboardHelpDialog.moveSlower": {
-      "value": "Mișcă mai încet"
-    },
-    "keyboardHelpDialog.moveDraggableItems": {
-      "value": "Mișcă obiecte mobile"
-    },
-    "keyboardHelpDialog.rulerAndMarkerControls": {
-      "value": "Setări riglă și markere"
-    },
-    "keyboardHelpDialog.removeFromToolbox": {
-      "value": "Elimină din unelte"
-    },
-    "keyboardHelpDialog.returnToToolbox": {
-      "value": "Adaugă la unelte"
-    },
-    "keyboardHelpDialog.jumpToPoint": {
-      "value": "Mergi la un punct,<br>parcurge stânga-dreapta<br>prin punctele de interes"
-    },
-    "focalLengthControl": {
-      "value": "Controlul distanței focale:"
-    },
-    "checkbox.add2FPointsCheckbox": {
-      "value": "Adaugă bifa \"puncte 2F\" pe panourile de control"
-    },
-    "radioButton.direct": {
-      "value": "direct (folosind cursorul distanței focale)"
-    },
-    "radioButton.indirect": {
-      "value": "indirect (calculată din alți parametri optici)"
-    },
-    "arrow": {
-      "value": "Săgeată"
-    },
-    "pencil": {
-      "value": "Creion"
-    },
-    "penguin": {
-      "value": "Pinguin"
-    },
-    "star": {
-      "value": "Stea"
-    },
-    "light": {
-      "value": "Lumină"
-    },
-    "centimeters": {
-      "value": "cm"
-    },
-    "label.projectionScreen": {
-      "value": "Ecran"
-    },
-    "checkbox.focalPoints": {
-      "value": "Focare principale (F)"
+    "label.twoF": {
+      "value": "2F"
     },
     "checkbox.twoFPoints": {
       "value": "Puncte 2F"
     },
-    "checkbox.virtualImage": {
-      "value": "Imagine virtuală"
+    "checkbox.add2FPointsCheckbox": {
+      "value": "Adaugă bifa \"puncte 2F\" pe panourile de control"
     },
-    "checkbox.labels": {
-      "value": "Etichete"
+    "arrow": {
+      "value": "Săgeată"
     },
-    "checkbox.secondPoint": {
-      "value": "Al doilea punct"
+    "keyboardHelpDialog.chooseAnObject": {
+      "value": "Alege un obiect"
     },
-    "checkbox.guides": {
-      "value": "Ghiduri"
+    "centimeters": {
+      "value": "cm"
     },
-    "rays": {
-      "value": "Raze"
+    "label.concaveLens": {
+      "value": "Lentilă<br>concavă"
     },
-    "label.opticalAxis": {
-      "value": "Axe optice"
+    "label.concaveMirror": {
+      "value": "Oglindă<br>concavă"
+    },
+    "label.convexLens": {
+      "value": "Lentilă<br>convexă"
+    },
+    "label.convexMirror": {
+      "value": "Oglindă<br>convexă"
+    },
+    "diameter": {
+      "value": "Diametrul"
+    },
+    "radioButton.direct": {
+      "value": "direct (folosind cursorul distanței focale)"
     },
     "label.F": {
       "value": "F"
     },
-    "label.twoF": {
-      "value": "2F"
-    },
-    "label.object": {
-      "value": "Obiect"
-    },
-    "label.objectN": {
-      "value": "Obiectul {{objectNumber}}"
-    },
-    "label.realImageN": {
-      "value": "Imaginea<br>reală {{imageNumber}}"
-    },
-    "label.virtualImageN": {
-      "value": "Imaginea<br>virtuală {{imageNumber}}"
-    },
-    "label.realImage": {
-      "value": "Imagine<br>reală"
-    },
-    "label.virtualImage": {
-      "value": "Imagine<br>virtuală"
-    },
-    "radioButton.marginal": {
-      "value": "Periferice"
-    },
-    "radioButton.principal": {
-      "value": "Principale"
-    },
-    "radioButton.many": {
-      "value": "Mai multe"
-    },
-    "radioButton.none": {
-      "value": "Niciuna"
+    "label.flatMirror": {
+      "value": "Oglindă<br>plană"
     },
     "focalLengthPositive": {
       "value": "Distanța focală"
@@ -6223,8 +6136,77 @@
     "focalLengthNegative": {
       "value": "Distanța focală (-)"
     },
-    "valueCentimetersPattern": {
-      "value": "{{value}} cm"
+    "focalLengthControl": {
+      "value": "Controlul distanței focale:"
+    },
+    "checkbox.focalPoints": {
+      "value": "Focare principale (F)"
+    },
+    "checkbox.guides": {
+      "value": "Ghiduri"
+    },
+    "indexOfRefraction": {
+      "value": "Indicele de refracție"
+    },
+    "radioButton.indirect": {
+      "value": "indirect (calculată din alți parametri optici)"
+    },
+    "keyboardHelpDialog.jumpToPoint": {
+      "value": "Mergi la un punct,<br>parcurge stânga-dreapta<br>prin punctele de interes"
+    },
+    "checkbox.labels": {
+      "value": "Etichete"
+    },
+    "screen.lens": {
+      "value": "Lentilă"
+    },
+    "light": {
+      "value": "Lumină"
+    },
+    "radioButton.many": {
+      "value": "Mai multe"
+    },
+    "radioButton.marginal": {
+      "value": "Periferice"
+    },
+    "screen.mirror": {
+      "value": "Oglindă"
+    },
+    "keyboardHelpDialog.move": {
+      "value": "Mișcă"
+    },
+    "keyboardHelpDialog.moveDraggableItems": {
+      "value": "Mișcă obiecte mobile"
+    },
+    "keyboardHelpDialog.moveSlower": {
+      "value": "Mișcă mai încet"
+    },
+    "radioButton.none": {
+      "value": "Niciuna"
+    },
+    "keyboardHelpDialog.object": {
+      "value": "Obiect"
+    },
+    "label.object": {
+      "value": "Obiect"
+    },
+    "label.objectN": {
+      "value": "Obiectul {{objectNumber}}"
+    },
+    "keyboardHelpDialog.objects": {
+      "value": "Obiecte"
+    },
+    "label.opticalAxis": {
+      "value": "Axă optică"
+    },
+    "pencil": {
+      "value": "Creion"
+    },
+    "penguin": {
+      "value": "Pinguin"
+    },
+    "radioButton.principal": {
+      "value": "Principale"
     },
     "radiusOfCurvaturePositive": {
       "value": "Raza de curbură"
@@ -6232,26 +6214,44 @@
     "radiusOfCurvatureNegative": {
       "value": "Raza de curbură (-)"
     },
-    "diameter": {
-      "value": "Diametrul"
+    "rays": {
+      "value": "Raze"
     },
-    "indexOfRefraction": {
-      "value": "Indicele de refracție"
+    "label.realImage": {
+      "value": "Imagine<br>reală"
     },
-    "label.convexLens": {
-      "value": "Lentilă<br>convexă"
+    "label.realImageN": {
+      "value": "Imaginea<br>reală {{imageNumber}}"
     },
-    "label.concaveLens": {
-      "value": "Lentilă<br>concavă"
+    "keyboardHelpDialog.removeFromToolbox": {
+      "value": "Elimină din unelte"
     },
-    "label.convexMirror": {
-      "value": "Oglindă<br>convexă"
+    "keyboardHelpDialog.returnToToolbox": {
+      "value": "Adaugă la unelte"
     },
-    "label.concaveMirror": {
-      "value": "Oglindă<br>concavă"
+    "keyboardHelpDialog.rulerAndMarkerControls": {
+      "value": "Setări riglă și markere"
     },
-    "label.flatMirror": {
-      "value": "Oglindă<br>plană"
+    "label.projectionScreen": {
+      "value": "Ecran"
+    },
+    "checkbox.secondPoint": {
+      "value": "Al doilea punct"
+    },
+    "star": {
+      "value": "Stea"
+    },
+    "checkbox.virtualImage": {
+      "value": "Imagine virtuală"
+    },
+    "label.virtualImage": {
+      "value": "Imagine<br>virtuală"
+    },
+    "label.virtualImageN": {
+      "value": "Imaginea<br>virtuală {{imageNumber}}"
+    },
+    "valueCentimetersPattern": {
+      "value": "{{value}} cm"
     },
     "geometric-optics.title": {
       "value": "Optică geometrică"
