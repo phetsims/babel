@@ -6390,6 +6390,21 @@
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
+    "keyboardHelpDialog.comboBox.popUpListPattern": {
+      "value": "1. רשימה נפתחת של {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.moveThroughPattern": {
+      "value": "2. הזזה דרך {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.chooseNewPattern": {
+      "value": "3. בחירה חדשה {{thingSingular}}"
+    },
+    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+      "value": "4. סגירת רשימה ללא שינויים"
+    },
+    "keyboardHelpDialog.adjust": {
+      "value": "התאם"
+    },
     "key.alt": {
       "value": "Alt"
     },
@@ -6414,14 +6429,20 @@
     "key.fn": {
       "value": "Fn"
     },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "החזק או שחרר {{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "החזק או שחרר {{thing}}"
-    },
     "key.home": {
       "value": "Home"
+    },
+    "keyboardHelpDialog.jumpToMaximumPattern": {
+      "value": "קפיצה ל{{maximum}}"
+    },
+    "keyboardHelpDialog.jumpToMinimumPattern": {
+      "value": "קפיצה ל{{minimum}}"
+    },
+    "keyboardHelpDialog.maximum": {
+      "value": "מקסימום"
+    },
+    "keyboardHelpDialog.minimum": {
+      "value": "מינימום"
     },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "עבור בין החפצים בקבוצה"
@@ -6432,6 +6453,12 @@
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "עבור לחפץ הקודם או לקבוצה הקודמת"
     },
+    "keyboardHelpDialog.comboBox.option": {
+      "value": "אפשרות"
+    },
+    "keyboardHelpDialog.comboBox.options": {
+      "value": "אפשרויות"
+    },
     "keyboardHelpDialog.or": {
       "value": "או"
     },
@@ -6441,11 +6468,20 @@
     "key.pageUp": {
       "value": "Pg Up"
     },
+    "keyboardHelpDialog.comboBox.headingString": {
+      "value": "פתח תפריט בחלון קופץ"
+    },
     "keyboardHelpDialog.pressButtons": {
       "value": "מקשי הפעלה"
     },
     "key.shift": {
       "value": ""
+    },
+    "keyboardHelpDialog.slider": {
+      "value": "שקופית"
+    },
+    "keyboardHelpDialog.sliderControls": {
+      "value": "בקרים"
     },
     "key.space": {
       "value": "רווח"
@@ -6455,6 +6491,18 @@
     },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "בחירה בתיבות סימון"
+    },
+    "keyboardHelpDialog.verbInLargerStepsPattern": {
+      "value": "{{verb}} בצעדים גדולים יותר"
+    },
+    "keyboardHelpDialog.verbInSmallerStepsPattern": {
+      "value": "{{verb}} בצעדים קטנים יותר"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "החזק או שחרר {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "החזק או שחרר {{thing}}"
     },
     "symbol.resistivity": {
       "value": "ρ"
@@ -6495,45 +6543,6 @@
     "webglWarning.body": {
       "value": "WebGL לא מאופשר או זמין. לחצו ללמוד עוד"
     },
-    "keyboardHelpDialog.adjust": {
-      "value": "התאם"
-    },
-    "keyboardHelpDialog.jumpToMaximumPattern": {
-      "value": "קפיצה ל{{maximum}}"
-    },
-    "keyboardHelpDialog.jumpToMinimumPattern": {
-      "value": "קפיצה ל{{minimum}}"
-    },
-    "keyboardHelpDialog.maximum": {
-      "value": "מקסימום"
-    },
-    "keyboardHelpDialog.minimum": {
-      "value": "מינימום"
-    },
-    "keyboardHelpDialog.slider": {
-      "value": "שקופית"
-    },
-    "keyboardHelpDialog.sliderControls": {
-      "value": "שקופית בקרים"
-    },
-    "keyboardHelpDialog.verbInLargerStepsPattern": {
-      "value": "{{verb}} בצעדים גדולים יותר"
-    },
-    "keyboardHelpDialog.verbInSmallerStepsPattern": {
-      "value": "{{verb}} בצעדים קטנים יותר"
-    },
-    "keyboardHelpDialog.comboBox.popUpListPattern": {
-      "value": "1. רשימה נפתחת של {{thingPlural}}"
-    },
-    "keyboardHelpDialog.comboBox.moveThroughPattern": {
-      "value": "2. הזזה דרך {{thingPlural}}"
-    },
-    "keyboardHelpDialog.comboBox.chooseNewPattern": {
-      "value": "3. בחירה חדשה {{thingSingular}}"
-    },
-    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-      "value": "4. סגירת רשימה ללא שינויים"
-    },
     "keyboardHelpDialog.comboBox.chooseAThingPattern": {
       "value": "בחירה {{thingTitle}}"
     },
@@ -6551,12 +6560,6 @@
     },
     "one": {
       "value": "אחת"
-    },
-    "keyboardHelpDialog.comboBox.option": {
-      "value": "אפשרות"
-    },
-    "keyboardHelpDialog.comboBox.options": {
-      "value": "אפשרויות"
     },
     "seven": {
       "value": "שבע"
@@ -13594,12 +13597,6 @@
     "keyboardHelpDialog.exitADialog": {
       "value": "ออกจากกล่องข้อความ"
     },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "เลือก หรือ ปล่อย {{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "เลือก หรือ ปล่อย {{thing}}"
-    },
     "key.home": {
       "value": "โฮม"
     },
@@ -13624,6 +13621,12 @@
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "ไปยังตัวเลือกหรือกลุ่มที่แล้ว"
     },
+    "keyboardHelpDialog.comboBox.option": {
+      "value": "ตัวเลือก"
+    },
+    "keyboardHelpDialog.comboBox.options": {
+      "value": "ตัวเลือก"
+    },
     "keyboardHelpDialog.or": {
       "value": "หรือ"
     },
@@ -13632,6 +13635,9 @@
     },
     "key.pageUp": {
       "value": "เลื่อนหน้าขึ้น"
+    },
+    "keyboardHelpDialog.comboBox.headingString": {
+      "value": "เมนูป๊อปอัพ"
     },
     "keyboardHelpDialog.pressButtons": {
       "value": "กดปุ่ม"
@@ -13659,6 +13665,12 @@
     },
     "keyboardHelpDialog.verbInSmallerStepsPattern": {
       "value": "{{verb}} การเพิ่มค่าแคบลง"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "เลือก หรือ ปล่อย {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "เลือก หรือ ปล่อย {{thing}}"
     },
     "symbol.resistivity": {
       "value": "ρ"
@@ -15167,7 +15179,7 @@
       "value": "Alt"
     },
     "keyboardHelpDialog.basicActions": {
-      "value": "Basic Actions"
+      "value": "Thao tác cơ bản"
     },
     "key.capsLock": {
       "value": "Caps Lock"
@@ -15186,12 +15198,6 @@
     },
     "key.fn": {
       "value": "Fn"
-    },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Giữ hay buông {{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "Giữ hay buông {{thing}}"
     },
     "key.home": {
       "value": "Home"
@@ -15232,6 +15238,9 @@
     "key.pageUp": {
       "value": "Pg Up"
     },
+    "keyboardHelpDialog.comboBox.headingString": {
+      "value": "Pop open menu"
+    },
     "keyboardHelpDialog.pressButtons": {
       "value": "Bấm phím"
     },
@@ -15264,6 +15273,12 @@
     },
     "keyboardHelpDialog.verbSliderPattern": {
       "value": "{{verb}} {{slider}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "Giữ hay buông {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "Giữ hay buông {{thing}}"
     },
     "symbol.resistivity": {
       "value": "ρ"
