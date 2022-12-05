@@ -1673,92 +1673,47 @@
     }
   },
   "de": {
-    "screen.lens": {
-      "value": "Linse"
+    "label.twoF": {
+      "value": "2F"
     },
-    "screen.mirror": {
-      "value": "Spiegel"
+    "checkbox.twoFPoints": {
+      "value": "2F-Punkte"
     },
-    "keyboardHelpDialog.chooseAnObject": {
-      "value": "Wähle ein Objekt"
-    },
-    "keyboardHelpDialog.object": {
-      "value": "Objekt"
-    },
-    "keyboardHelpDialog.objects": {
-      "value": "Objekte"
+    "checkbox.add2FPointsCheckbox": {
+      "value": "Füge \"2F-Punkte\"-Checkbox hinzu"
     },
     "arrow": {
       "value": "Pfeil"
     },
-    "pencil": {
-      "value": "Stift"
-    },
-    "penguin": {
-      "value": "Pinguin"
-    },
-    "star": {
-      "value": "Stern"
-    },
-    "light": {
-      "value": "Licht"
+    "keyboardHelpDialog.chooseAnObject": {
+      "value": "Wähle ein Objekt"
     },
     "centimeters": {
       "value": "cm"
     },
-    "label.projectionScreen": {
-      "value": "Schirm"
+    "label.concaveLens": {
+      "value": "Konkave<br>Linse"
     },
-    "checkbox.focalPoints": {
-      "value": "Brennpunkte"
+    "label.concaveMirror": {
+      "value": "Konkaver<br>Spiegel"
     },
-    "checkbox.virtualImage": {
-      "value": "Virtuelles Bild "
+    "label.convexLens": {
+      "value": "Konvexe<br>Linse"
     },
-    "checkbox.labels": {
-      "value": "Beschriftungen"
+    "label.convexMirror": {
+      "value": "Konvexer<br>Spiegel"
     },
-    "checkbox.secondPoint": {
-      "value": "Zweiter Punkt"
+    "diameter": {
+      "value": "Durchmesser"
     },
-    "checkbox.guides": {
-      "value": "Richtwerte"
+    "radioButton.direct": {
+      "value": "direkt (benutze Schieber für die Fokuslänge)"
     },
-    "rays": {
-      "value": "Strahlen"
+    "label.F": {
+      "value": "F"
     },
-    "label.opticalAxis": {
-      "value": "Optische Achse"
-    },
-    "label.object": {
-      "value": "Objekt"
-    },
-    "label.objectN": {
-      "value": "Objekt {{objectNumber}}"
-    },
-    "label.realImageN": {
-      "value": "Reales<br>Bild {{imageNumber}}"
-    },
-    "label.virtualImageN": {
-      "value": "Virtuelles<br>Bild {{imageNumber}}"
-    },
-    "label.realImage": {
-      "value": "Reales<br>Bild"
-    },
-    "label.virtualImage": {
-      "value": "Virtuelles<br>Bild"
-    },
-    "radioButton.marginal": {
-      "value": "Randstrahlen"
-    },
-    "radioButton.principal": {
-      "value": "Konstruktionsstrahlen"
-    },
-    "radioButton.many": {
-      "value": "Viele"
-    },
-    "radioButton.none": {
-      "value": "Keine"
+    "label.flatMirror": {
+      "value": "Ebener<br>Spiegel"
     },
     "focalLengthPositive": {
       "value": "Brennweite"
@@ -1766,8 +1721,77 @@
     "focalLengthNegative": {
       "value": "Brennweite (−)"
     },
-    "valueCentimetersPattern": {
-      "value": "{{value}} cm"
+    "focalLengthControl": {
+      "value": "Einstellung der Fokuslänge"
+    },
+    "checkbox.focalPoints": {
+      "value": "Brennpunkte"
+    },
+    "checkbox.guides": {
+      "value": "Richtwerte"
+    },
+    "indexOfRefraction": {
+      "value": "Brechungsindex"
+    },
+    "radioButton.indirect": {
+      "value": "indirekt (berechnet aus den anderen optischen Parametern)"
+    },
+    "keyboardHelpDialog.jumpToPoint": {
+      "value": "Springe,<br>von links nach rechts<br>durch interessante Punkte"
+    },
+    "checkbox.labels": {
+      "value": "Beschriftungen"
+    },
+    "screen.lens": {
+      "value": "Linse"
+    },
+    "light": {
+      "value": "Licht"
+    },
+    "radioButton.many": {
+      "value": "Viele"
+    },
+    "radioButton.marginal": {
+      "value": "Randstrahlen"
+    },
+    "screen.mirror": {
+      "value": "Spiegel"
+    },
+    "keyboardHelpDialog.move": {
+      "value": "Bewege"
+    },
+    "keyboardHelpDialog.moveDraggableItems": {
+      "value": "Bewege greifbare Objekte"
+    },
+    "keyboardHelpDialog.moveSlower": {
+      "value": "Langsam bewegen"
+    },
+    "radioButton.none": {
+      "value": "Keine"
+    },
+    "keyboardHelpDialog.object": {
+      "value": "Objekt"
+    },
+    "label.object": {
+      "value": "Objekt"
+    },
+    "label.objectN": {
+      "value": "Objekt {{objectNumber}}"
+    },
+    "keyboardHelpDialog.objects": {
+      "value": "Objekte"
+    },
+    "label.opticalAxis": {
+      "value": "Optische Achse"
+    },
+    "pencil": {
+      "value": "Stift"
+    },
+    "penguin": {
+      "value": "Pinguin"
+    },
+    "radioButton.principal": {
+      "value": "Konstruktionsstrahlen"
     },
     "radiusOfCurvaturePositive": {
       "value": "Krümmungsradius"
@@ -1775,26 +1799,44 @@
     "radiusOfCurvatureNegative": {
       "value": "Krümmungsradius (−)"
     },
-    "diameter": {
-      "value": "Durchmesser"
+    "rays": {
+      "value": "Strahlen"
     },
-    "indexOfRefraction": {
-      "value": "Brechungsindex"
+    "label.realImage": {
+      "value": "Reales<br>Bild"
     },
-    "label.convexLens": {
-      "value": "Konvexe<br>Linse"
+    "label.realImageN": {
+      "value": "Reales<br>Bild {{imageNumber}}"
     },
-    "label.concaveLens": {
-      "value": "Konkave<br>Linse"
+    "keyboardHelpDialog.removeFromToolbox": {
+      "value": "Entferne von Werkzeugkasten"
     },
-    "label.convexMirror": {
-      "value": "Konvexer<br>Spiegel"
+    "keyboardHelpDialog.returnToToolbox": {
+      "value": "Zurücklegen in den Werkzeugkasten"
     },
-    "label.concaveMirror": {
-      "value": "Konkaver<br>Spiegel"
+    "keyboardHelpDialog.rulerAndMarkerControls": {
+      "value": "Einstellungen für Lineal und Markierung"
     },
-    "label.flatMirror": {
-      "value": "Ebener<br>Spiegel"
+    "label.projectionScreen": {
+      "value": "Schirm"
+    },
+    "checkbox.secondPoint": {
+      "value": "Zweiter Punkt"
+    },
+    "star": {
+      "value": "Stern"
+    },
+    "checkbox.virtualImage": {
+      "value": "Virtuelles Bild "
+    },
+    "label.virtualImage": {
+      "value": "Virtuelles<br>Bild"
+    },
+    "label.virtualImageN": {
+      "value": "Virtuelles<br>Bild {{imageNumber}}"
+    },
+    "valueCentimetersPattern": {
+      "value": "{{value}} cm"
     },
     "geometric-optics.title": {
       "value": "Geometrische Optik"
@@ -3211,134 +3253,47 @@
     }
   },
   "ha": {
-    "screen.lens": {
-      "value": "Manzara"
+    "label.twoF": {
+      "value": "2F"
     },
-    "screen.mirror": {
-      "value": "Madubi "
-    },
-    "keyboardHelpDialog.chooseAnObject": {
-      "value": "Zaɓi wani abu "
-    },
-    "keyboardHelpDialog.object": {
-      "value": "Wani abu "
-    },
-    "keyboardHelpDialog.objects": {
-      "value": "Wasu Abubuwa "
-    },
-    "keyboardHelpDialog.move": {
-      "value": "Matsa"
-    },
-    "keyboardHelpDialog.moveSlower": {
-      "value": "Matsa sannu-sannu "
-    },
-    "keyboardHelpDialog.moveDraggableItems": {
-      "value": "Matsarda Abubuwa de karfi"
-    },
-    "keyboardHelpDialog.rulerAndMarkerControls": {
-      "value": "Abinda zai sarrafadda da rula da alkalamin yin shaida "
-    },
-    "keyboardHelpDialog.removeFromToolbox": {
-      "value": "Cire daga cikin akwatin kayayyaki "
-    },
-    "keyboardHelpDialog.returnToToolbox": {
-      "value": "Mayar cikin akwatin kayayyaki "
-    },
-    "keyboardHelpDialog.jumpToPoint": {
-      "value": "Tuma zuwa wani wuri<br>da'irori hagu Uwa dama<br> ta hanyar wuraren da ake ra'ayi"
-    },
-    "focalLengthControl": {
-      "value": "Focal Length control:"
+    "checkbox.twoFPoints": {
+      "value": "Wuraren 2F"
     },
     "checkbox.add2FPointsCheckbox": {
       "value": "Add \"2F Points\" checkbox to control panels"
     },
-    "radioButton.direct": {
-      "value": "Kai tsaye "
-    },
-    "radioButton.indirect": {
-      "value": "Kaikaice "
-    },
     "arrow": {
       "value": "Mashi "
     },
-    "pencil": {
-      "value": "Fensil "
-    },
-    "penguin": {
-      "value": "Ƙaton tsuntsu da ake samu a inda kankara take "
-    },
-    "star": {
-      "value": "Tarmamuwa "
-    },
-    "light": {
-      "value": "Haske "
+    "keyboardHelpDialog.chooseAnObject": {
+      "value": "Zaɓi wani abu "
     },
     "centimeters": {
       "value": "cm"
     },
-    "label.projectionScreen": {
-      "value": "Allo"
+    "label.concaveLens": {
+      "value": "Manzara mai watse haske "
     },
-    "checkbox.focalPoints": {
-      "value": "Focal Points (F)"
+    "label.concaveMirror": {
+      "value": "Madubi mai watse haske "
     },
-    "checkbox.twoFPoints": {
-      "value": "Wurin 2F"
+    "label.convexLens": {
+      "value": "Manzara mai haɗa haske wuri ɗaya "
     },
-    "checkbox.virtualImage": {
-      "value": "Hoto na kama-da-wane"
+    "label.convexMirror": {
+      "value": "Madubi mai haɗa haske wuri ɗaya "
     },
-    "checkbox.labels": {
-      "value": "Laƙabi "
+    "diameter": {
+      "value": "Marabin da’ira "
     },
-    "checkbox.secondPoint": {
-      "value": "Matsayi na biyu "
-    },
-    "checkbox.guides": {
-      "value": "Jagorori "
-    },
-    "rays": {
-      "value": "Haske "
-    },
-    "label.opticalAxis": {
-      "value": "Optical Axis"
+    "radioButton.direct": {
+      "value": "Kai tsaye "
     },
     "label.F": {
       "value": "Harafin F"
     },
-    "label.twoF": {
-      "value": "2F"
-    },
-    "label.object": {
-      "value": "Wani abu "
-    },
-    "label.objectN": {
-      "value": "Wani abu {{objectNumber}}"
-    },
-    "label.realImageN": {
-      "value": "Hoto na ainafi Wani abu {{imageNumber}}"
-    },
-    "label.virtualImageN": {
-      "value": "Hoto na Kama-da-wane{{imageNumber}}"
-    },
-    "label.realImage": {
-      "value": "Hoto na hakika "
-    },
-    "label.virtualImage": {
-      "value": "Hoto na kama-da-wane"
-    },
-    "radioButton.marginal": {
-      "value": "Gefe "
-    },
-    "radioButton.principal": {
-      "value": "Na gaba"
-    },
-    "radioButton.many": {
-      "value": "Da yawa "
-    },
-    "radioButton.none": {
-      "value": "Ba ko ɗaya ba "
+    "label.flatMirror": {
+      "value": "Madubi (mai Lebur)"
     },
     "focalLengthPositive": {
       "value": "Focal Length"
@@ -3346,8 +3301,77 @@
     "focalLengthNegative": {
       "value": "Focal Length (-)"
     },
-    "valueCentimetersPattern": {
-      "value": "{{value}} cm"
+    "focalLengthControl": {
+      "value": "Focal Length control:"
+    },
+    "checkbox.focalPoints": {
+      "value": "Focal Points (F)"
+    },
+    "checkbox.guides": {
+      "value": "Jagorori "
+    },
+    "indexOfRefraction": {
+      "value": "Lambar da ke nuna lanƙwasawar da haske kanyi idan ya ratsa abubuwa biyu "
+    },
+    "radioButton.indirect": {
+      "value": "Kaikaice "
+    },
+    "keyboardHelpDialog.jumpToPoint": {
+      "value": "Tuma zuwa wani wuri<br>da'irori hagu Uwa dama<br> ta hanyar wuraren da ake ra'ayi"
+    },
+    "checkbox.labels": {
+      "value": "Laƙabi "
+    },
+    "screen.lens": {
+      "value": "Manzara"
+    },
+    "light": {
+      "value": "Haske "
+    },
+    "radioButton.many": {
+      "value": "Da yawa "
+    },
+    "radioButton.marginal": {
+      "value": "Gefe "
+    },
+    "screen.mirror": {
+      "value": "Madubi "
+    },
+    "keyboardHelpDialog.move": {
+      "value": "Matsa"
+    },
+    "keyboardHelpDialog.moveDraggableItems": {
+      "value": "Matsarda Abubuwa de karfi"
+    },
+    "keyboardHelpDialog.moveSlower": {
+      "value": "Matsa sannu-sannu "
+    },
+    "radioButton.none": {
+      "value": "Ba ko ɗaya ba "
+    },
+    "keyboardHelpDialog.object": {
+      "value": "Wani abu "
+    },
+    "label.object": {
+      "value": "Wani abu "
+    },
+    "label.objectN": {
+      "value": "Wani abu {{objectNumber}}"
+    },
+    "keyboardHelpDialog.objects": {
+      "value": "Wasu Abubuwa "
+    },
+    "label.opticalAxis": {
+      "value": "Optical Axis"
+    },
+    "pencil": {
+      "value": "Fensil "
+    },
+    "penguin": {
+      "value": "Ƙaton tsuntsu da ake samu a inda kankara take "
+    },
+    "radioButton.principal": {
+      "value": "Na gaba"
     },
     "radiusOfCurvaturePositive": {
       "value": "Da'irar lanƙwashewa"
@@ -3355,26 +3379,44 @@
     "radiusOfCurvatureNegative": {
       "value": "Da'irar lanƙwashewa mai alamar ɗebewa"
     },
-    "diameter": {
-      "value": "Marabin da’ira "
+    "rays": {
+      "value": "Haske "
     },
-    "indexOfRefraction": {
-      "value": "Lambar da ke nuna lanƙwasawar da haske kanyi idan ya ratsa abubuwa biyu "
+    "label.realImage": {
+      "value": "Hoto na hakika "
     },
-    "label.convexLens": {
-      "value": "Gilashi mai hada haske wuri ɗaya "
+    "label.realImageN": {
+      "value": "Hoto na ainafi Wani abu {{imageNumber}}"
     },
-    "label.concaveLens": {
-      "value": "Gilashi mai watse haske "
+    "keyboardHelpDialog.removeFromToolbox": {
+      "value": "Cire daga cikin akwatin kayayyaki "
     },
-    "label.convexMirror": {
-      "value": "Madubi mai haɗa haske wuri ɗaya "
+    "keyboardHelpDialog.returnToToolbox": {
+      "value": "Mayar cikin akwatin kayayyaki "
     },
-    "label.concaveMirror": {
-      "value": "Madubi mai watse haske "
+    "keyboardHelpDialog.rulerAndMarkerControls": {
+      "value": "Abinda zai sarrafadda da rula da alkalamin yin shaida "
     },
-    "label.flatMirror": {
-      "value": "Madubi (mai Lebur)"
+    "label.projectionScreen": {
+      "value": "Allo"
+    },
+    "checkbox.secondPoint": {
+      "value": "Matsayi na biyu "
+    },
+    "star": {
+      "value": "Tarmamuwa "
+    },
+    "checkbox.virtualImage": {
+      "value": "Hoto na kama-da-wane"
+    },
+    "label.virtualImage": {
+      "value": "Hoto na kama-da-wane"
+    },
+    "label.virtualImageN": {
+      "value": "Hoto na Kama-da-wane{{imageNumber}}"
+    },
+    "valueCentimetersPattern": {
+      "value": "{{value}} cm"
     },
     "geometric-optics.title": {
       "value": "Fahimtar haske ta hanyar zana layukka "
@@ -5036,6 +5078,176 @@
     },
     "valueCentimetersPattern": {
       "value": "{{value}} cm"
+    }
+  },
+  "mn": {
+    "screen.lens": {
+      "value": "Линз"
+    },
+    "screen.mirror": {
+      "value": "Толь"
+    },
+    "keyboardHelpDialog.chooseAnObject": {
+      "value": "Биеийг сонго"
+    },
+    "keyboardHelpDialog.object": {
+      "value": "Бие"
+    },
+    "keyboardHelpDialog.objects": {
+      "value": "Биес"
+    },
+    "keyboardHelpDialog.move": {
+      "value": "Хөдөл"
+    },
+    "keyboardHelpDialog.moveSlower": {
+      "value": "Удаан хөдөл"
+    },
+    "keyboardHelpDialog.moveDraggableItems": {
+      "value": "Чирээд хөдөл"
+    },
+    "keyboardHelpDialog.rulerAndMarkerControls": {
+      "value": "Жолоодох ба тэмдэглэх"
+    },
+    "keyboardHelpDialog.removeFromToolbox": {
+      "value": "Багажаас хасах"
+    },
+    "keyboardHelpDialog.returnToToolbox": {
+      "value": "Багажид авчрах"
+    },
+    "keyboardHelpDialog.jumpToPoint": {
+      "value": "Цэгийг өөрчил,<br>зүүнээс баруун тийш<br>сонирхсон цэгүүдэд"
+    },
+    "focalLengthControl": {
+      "value": "Фокусын зайг хяна:"
+    },
+    "checkbox.add2FPointsCheckbox": {
+      "value": " Хянах самбарт \"2F цэг\" нэм"
+    },
+    "radioButton.direct": {
+      "value": "шууд (фокусын зай гулсагчаар өөрчил)"
+    },
+    "radioButton.indirect": {
+      "value": "шууд бус (бусад оптик параметрүүдээс тооцоолсон)"
+    },
+    "arrow": {
+      "value": "Сум"
+    },
+    "pencil": {
+      "value": "Харандаа"
+    },
+    "penguin": {
+      "value": "Пенгвин"
+    },
+    "star": {
+      "value": "Од"
+    },
+    "light": {
+      "value": "Гэрэл"
+    },
+    "centimeters": {
+      "value": "см"
+    },
+    "label.projectionScreen": {
+      "value": "Дэлгэц"
+    },
+    "checkbox.focalPoints": {
+      "value": "Фокусын цэг (F)"
+    },
+    "checkbox.twoFPoints": {
+      "value": "2F цэг"
+    },
+    "checkbox.virtualImage": {
+      "value": "Виртуал Дүрс"
+    },
+    "checkbox.labels": {
+      "value": "Түвшин"
+    },
+    "checkbox.secondPoint": {
+      "value": "Хоёрдахь Цэг"
+    },
+    "checkbox.guides": {
+      "value": "Хөтөч"
+    },
+    "rays": {
+      "value": "Цацраг"
+    },
+    "label.opticalAxis": {
+      "value": "Оптик тэнхлэг"
+    },
+    "label.F": {
+      "value": "F"
+    },
+    "label.twoF": {
+      "value": "2F"
+    },
+    "label.object": {
+      "value": "Бие"
+    },
+    "label.objectN": {
+      "value": "Бие {{objectNumber}}"
+    },
+    "label.realImageN": {
+      "value": "Бодит<br>Дүрс {{imageNumber}}"
+    },
+    "label.virtualImageN": {
+      "value": "Виртуал<br>Дүрс {{imageNumber}}"
+    },
+    "label.realImage": {
+      "value": "Бодит<br>Дүрс"
+    },
+    "label.virtualImage": {
+      "value": "Виртуал<br>Дүрс"
+    },
+    "radioButton.marginal": {
+      "value": "Гадагш"
+    },
+    "radioButton.principal": {
+      "value": "Зарчим"
+    },
+    "radioButton.many": {
+      "value": "Олон"
+    },
+    "radioButton.none": {
+      "value": "Үгүй"
+    },
+    "focalLengthPositive": {
+      "value": "Фокусын зай"
+    },
+    "focalLengthNegative": {
+      "value": "Фокусын зай (-)"
+    },
+    "valueCentimetersPattern": {
+      "value": "{{value}} см"
+    },
+    "radiusOfCurvaturePositive": {
+      "value": "Мурилтын радиус"
+    },
+    "radiusOfCurvatureNegative": {
+      "value": "Мурилтын радиус (-)"
+    },
+    "diameter": {
+      "value": "Диаметр"
+    },
+    "indexOfRefraction": {
+      "value": "Хугарлын илтгэгч"
+    },
+    "label.convexLens": {
+      "value": "Гүдгэр<br>Линз"
+    },
+    "label.concaveLens": {
+      "value": "Хүнхэр<br>Линз"
+    },
+    "label.convexMirror": {
+      "value": "Гүдгэр<br>Толь"
+    },
+    "label.concaveMirror": {
+      "value": "Хүнхэр<br>Толь"
+    },
+    "label.flatMirror": {
+      "value": "Хавтгай<br>Толь"
+    },
+    "geometric-optics.title": {
+      "value": "Геометр Оптик"
     }
   },
   "ms": {

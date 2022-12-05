@@ -2229,6 +2229,18 @@
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
+    "keyboardHelpDialog.comboBox.popUpListPattern": {
+      "value": "1. Popup-Liste von {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.moveThroughPattern": {
+      "value": "2. Bewege durch {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.chooseNewPattern": {
+      "value": "3. Wähle neu {{thingSingular}}"
+    },
+    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+      "value": "4. Schließe die Liste, ohne sie zu ändern"
+    },
     "keyboardHelpDialog.adjust": {
       "value": "Einstellen"
     },
@@ -2256,20 +2268,14 @@
     "key.fn": {
       "value": "Fn"
     },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Greife oder setze {{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": " Greife oder setze {{thing}}"
-    },
     "key.home": {
       "value": "Zurück"
     },
     "keyboardHelpDialog.jumpToMaximumPattern": {
-      "value": "Springe nach {{maximum}}"
+      "value": "Springe zum {{maximum}}"
     },
     "keyboardHelpDialog.jumpToMinimumPattern": {
-      "value": "Springe nach {{minimum}}"
+      "value": "Springe zum {{minimum}}"
     },
     "keyboardHelpDialog.maximum": {
       "value": "Maximum"
@@ -2286,6 +2292,12 @@
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "Zum letzten Element oder letzter Gruppe wechseln"
     },
+    "keyboardHelpDialog.comboBox.option": {
+      "value": "Option"
+    },
+    "keyboardHelpDialog.comboBox.options": {
+      "value": "Optionen"
+    },
     "keyboardHelpDialog.or": {
       "value": "oder"
     },
@@ -2294,6 +2306,9 @@
     },
     "key.pageUp": {
       "value": "Pg Up"
+    },
+    "keyboardHelpDialog.comboBox.headingString": {
+      "value": "Öffne Menü"
     },
     "keyboardHelpDialog.pressButtons": {
       "value": "Knopf drücken"
@@ -2308,7 +2323,7 @@
       "value": "Einstellungen des Schiebereglers"
     },
     "key.space": {
-      "value": "Leerschlag"
+      "value": "Leertaste"
     },
     "key.tab": {
       "value": "Tabulator"
@@ -2327,6 +2342,12 @@
     },
     "keyboardHelpDialog.verbSliderPattern": {
       "value": "{{verb}} {{slider}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "Greife oder setze {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": " Greife oder setze {{thing}}"
     },
     "symbol.resistivity": {
       "value": "ρ"
@@ -2352,18 +2373,6 @@
     "keyboardHelpDialog.moveToPreviousItem": {
       "value": "zurück zum letzten Element"
     },
-    "keyboardHelpDialog.comboBox.popUpListPattern": {
-      "value": "1. Popup-Liste von {{thingPlural}}"
-    },
-    "keyboardHelpDialog.comboBox.moveThroughPattern": {
-      "value": "2. Bewege durch {{thingPlural}}"
-    },
-    "keyboardHelpDialog.comboBox.chooseNewPattern": {
-      "value": "3. Wähle neu {{thingSingular}}"
-    },
-    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-      "value": "4. Schließe die Liste, ohne sie zu ändern"
-    },
     "keyboardHelpDialog.comboBox.chooseAThingPattern": {
       "value": "Choose ein {{thingTitle}}"
     },
@@ -2381,12 +2390,6 @@
     },
     "one": {
       "value": "eins"
-    },
-    "keyboardHelpDialog.comboBox.option": {
-      "value": "Option"
-    },
-    "keyboardHelpDialog.comboBox.options": {
-      "value": "Optionen"
     },
     "seven": {
       "value": "sieben"
@@ -3867,6 +3870,9 @@
     "keyboardHelpDialog.basicActions": {
       "value": "Perustoiminnot"
     },
+    "key.capsLock": {
+      "value": "Aakkoslukko"
+    },
     "key.end": {
       "value": "Loppu"
     },
@@ -3926,6 +3932,9 @@
     },
     "key.space": {
       "value": "Välilyönti"
+    },
+    "key.tab": {
+      "value": "Sarkain"
     },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Liiku valintojen välillä"
@@ -8308,54 +8317,6 @@
     }
   },
   "mn": {
-    "keyboardHelpDialog.basicActions": {
-      "value": "Үндсэн Үйлдлүүд"
-    },
-    "keyboardHelpDialog.exitADialog": {
-      "value": "Диалогоос гарах"
-    },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Авах ба Орхих {{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "Авах ба орхих {{thing}}"
-    },
-    "key.home": {
-      "value": ""
-    },
-    "keyboardHelpDialog.moveBetweenItemsInAGroup": {
-      "value": "Бүлэг доторх дүрс хооронд шилжих"
-    },
-    "keyboardHelpDialog.moveToNextItemOrGroup": {
-      "value": "Дараагийн дүрс эсвэл бүлэгт шилжих"
-    },
-    "keyboardHelpDialog.moveToPreviousItemOrGroup": {
-      "value": "Өмнөх дүрс эсвэл бүлэгт шилжих"
-    },
-    "keyboardHelpDialog.or": {
-      "value": "эсвэл"
-    },
-    "key.pageDown": {
-      "value": "Дэлгэц доош"
-    },
-    "key.pageUp": {
-      "value": "Дэлгэц дээш"
-    },
-    "keyboardHelpDialog.pressButtons": {
-      "value": "Товч дар"
-    },
-    "webglWarning.contextLossReload": {
-      "value": "Дахих"
-    },
-    "webglWarning.contextLossFailure": {
-      "value": "Уучлаарай, Дэлгэцийн алдаа"
-    },
-    "keyboardHelpDialog.toggleCheckboxes": {
-      "value": "Сонголт хийх"
-    },
-    "webglWarning.body": {
-      "value": "WebGL нь боломжгүй. Нэмж суралцахыг товш."
-    },
     "keyboardHelpDialog.comboBox.popUpListPattern": {
       "value": "1. {{thingPlural}} дээш гарах жагсаалт"
     },
@@ -8371,17 +8332,20 @@
     "keyboardHelpDialog.adjust": {
       "value": "Тохируулах"
     },
-    "keyboardHelpDialog.comboBox.chooseAThingPattern": {
-      "value": "{{thingTitle}} сонго"
+    "keyboardHelpDialog.basicActions": {
+      "value": "Үндсэн Үйлдлүүд"
     },
-    "eight": {
-      "value": "найм"
+    "keyboardHelpDialog.exitADialog": {
+      "value": "Диалогоос гарах"
     },
-    "five": {
-      "value": "тав"
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "Авах ба Орхих {{thing}}"
     },
-    "four": {
-      "value": "дөрөв"
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "Авах ба орхих {{thing}}"
+    },
+    "key.home": {
+      "value": ""
     },
     "keyboardHelpDialog.jumpToMaximumPattern": {
       "value": "{{maximum}} руу үсрэх"
@@ -8395,11 +8359,14 @@
     "keyboardHelpDialog.minimum": {
       "value": "хамгийн бага"
     },
-    "nine": {
-      "value": "ес"
+    "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+      "value": "Бүлэг доторх дүрс хооронд шилжих"
     },
-    "one": {
-      "value": "нэг"
+    "keyboardHelpDialog.moveToNextItemOrGroup": {
+      "value": "Дараагийн дүрс эсвэл бүлэгт шилжих"
+    },
+    "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+      "value": "Өмнөх дүрс эсвэл бүлэгт шилжих"
     },
     "keyboardHelpDialog.comboBox.option": {
       "value": "сонголт"
@@ -8407,17 +8374,68 @@
     "keyboardHelpDialog.comboBox.options": {
       "value": "сонголтууд"
     },
-    "seven": {
-      "value": "долоо"
+    "keyboardHelpDialog.or": {
+      "value": "эсвэл"
     },
-    "six": {
-      "value": "зургаа"
+    "key.pageDown": {
+      "value": "Дэлгэц доош"
+    },
+    "key.pageUp": {
+      "value": "Дэлгэц дээш"
+    },
+    "keyboardHelpDialog.comboBox.headingString": {
+      "value": "Цэсийг нээх"
+    },
+    "keyboardHelpDialog.pressButtons": {
+      "value": "Товч дар"
     },
     "keyboardHelpDialog.slider": {
       "value": "гулсагч"
     },
     "keyboardHelpDialog.sliderControls": {
       "value": "Гулсагчийн хяналтын самбар"
+    },
+    "keyboardHelpDialog.toggleCheckboxes": {
+      "value": "Сонголт хийх"
+    },
+    "keyboardHelpDialog.verbInLargerStepsPattern": {
+      "value": "{{verb}} илүү том алхам"
+    },
+    "keyboardHelpDialog.verbInSmallerStepsPattern": {
+      "value": "{{verb}} дутуу жижиг алхам"
+    },
+    "webglWarning.contextLossReload": {
+      "value": "Дахих"
+    },
+    "webglWarning.contextLossFailure": {
+      "value": "Уучлаарай, Дэлгэцийн алдаа"
+    },
+    "webglWarning.body": {
+      "value": "WebGL нь боломжгүй. Нэмж суралцахыг товш."
+    },
+    "keyboardHelpDialog.comboBox.chooseAThingPattern": {
+      "value": "{{thingTitle}} сонго"
+    },
+    "eight": {
+      "value": "найм"
+    },
+    "five": {
+      "value": "тав"
+    },
+    "four": {
+      "value": "дөрөв"
+    },
+    "nine": {
+      "value": "ес"
+    },
+    "one": {
+      "value": "нэг"
+    },
+    "seven": {
+      "value": "долоо"
+    },
+    "six": {
+      "value": "зургаа"
     },
     "ten": {
       "value": "арав"
@@ -8430,12 +8448,6 @@
     },
     "zero": {
       "value": "тэг"
-    },
-    "keyboardHelpDialog.verbInLargerStepsPattern": {
-      "value": "{{verb}} илүү том алхам"
-    },
-    "keyboardHelpDialog.verbInSmallerStepsPattern": {
-      "value": "{{verb}} дутуу жижиг алхам"
     },
     "speed.fast": {
       "value": "Түргэн"
