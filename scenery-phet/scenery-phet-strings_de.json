@@ -10,6 +10,50 @@
       }
     ]
   },
+  "keyboardHelpDialog.comboBox.popUpListPattern": {
+    "value": "1. Popup-Liste von {{thingPlural}}",
+    "history": [
+      {
+        "userId": 920037,
+        "timestamp": 1618328881561,
+        "oldValue": "",
+        "newValue": "1. Popup-Liste von {{thingPlural}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.moveThroughPattern": {
+    "value": "2. Bewege durch {{thingPlural}}",
+    "history": [
+      {
+        "userId": 920037,
+        "timestamp": 1618328881561,
+        "oldValue": "",
+        "newValue": "2. Bewege durch {{thingPlural}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.chooseNewPattern": {
+    "value": "3. Wähle neu {{thingSingular}}",
+    "history": [
+      {
+        "userId": 920037,
+        "timestamp": 1618328881561,
+        "oldValue": "",
+        "newValue": "3. Wähle neu {{thingSingular}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+    "value": "4. Schließe die Liste, ohne sie zu ändern",
+    "history": [
+      {
+        "userId": 920037,
+        "timestamp": 1618328881561,
+        "oldValue": "",
+        "newValue": "4. Schließe die Liste, ohne sie zu ändern"
+      }
+    ]
+  },
   "keyboardHelpDialog.adjust": {
     "value": "Einstellen",
     "history": [
@@ -127,30 +171,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-    "value": "Greife oder setze {{thing}}",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1546442150442,
-        "oldValue": "",
-        "newValue": "Greife oder setze {{thing}}",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-    "value": " Greife oder setze {{thing}}",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1546442150442,
-        "oldValue": "",
-        "newValue": " Greife oder setze {{thing}}",
-        "explanation": null
-      }
-    ]
-  },
   "key.home": {
     "value": "Zurück",
     "history": [
@@ -164,24 +184,36 @@
     ]
   },
   "keyboardHelpDialog.jumpToMaximumPattern": {
-    "value": "Springe nach {{maximum}}",
+    "value": "Springe zum {{maximum}}",
     "history": [
       {
         "userId": 920037,
         "timestamp": 1618328881561,
         "oldValue": "",
         "newValue": "Springe nach {{maximum}}"
+      },
+      {
+        "userId": 920037,
+        "timestamp": 1670230025005,
+        "oldValue": "Springe nach {{maximum}}",
+        "newValue": "Springe zum {{maximum}}"
       }
     ]
   },
   "keyboardHelpDialog.jumpToMinimumPattern": {
-    "value": "Springe nach {{minimum}}",
+    "value": "Springe zum {{minimum}}",
     "history": [
       {
         "userId": 920037,
         "timestamp": 1618328881561,
         "oldValue": "",
         "newValue": "Springe nach {{minimum}}"
+      },
+      {
+        "userId": 920037,
+        "timestamp": 1670230025005,
+        "oldValue": "Springe nach {{minimum}}",
+        "newValue": "Springe zum {{minimum}}"
       }
     ]
   },
@@ -258,6 +290,28 @@
         "timestamp": 1614712659528,
         "oldValue": "letztes Element oder Gruppe",
         "newValue": "Zum letzten Element oder letzter Gruppe wechseln"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.option": {
+    "value": "Option",
+    "history": [
+      {
+        "userId": 920037,
+        "timestamp": 1618328881561,
+        "oldValue": "",
+        "newValue": "Option"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.options": {
+    "value": "Optionen",
+    "history": [
+      {
+        "userId": 920037,
+        "timestamp": 1618328881561,
+        "oldValue": "",
+        "newValue": "Optionen"
       }
     ]
   },
@@ -345,6 +399,17 @@
       }
     ]
   },
+  "keyboardHelpDialog.comboBox.headingString": {
+    "value": "Öffne Menü",
+    "history": [
+      {
+        "userId": 920037,
+        "timestamp": 1670230025005,
+        "oldValue": "",
+        "newValue": "Öffne Menü"
+      }
+    ]
+  },
   "keyboardHelpDialog.pressButtons": {
     "value": "Knopf drücken",
     "history": [
@@ -392,7 +457,7 @@
     ]
   },
   "key.space": {
-    "value": "Leerschlag",
+    "value": "Leertaste",
     "history": [
       {
         "userId": 272196,
@@ -412,6 +477,12 @@
         "timestamp": 1668844606777,
         "oldValue": "Leertaste",
         "newValue": "Leerschlag"
+      },
+      {
+        "userId": 920037,
+        "timestamp": 1670230025005,
+        "oldValue": "Leerschlag",
+        "newValue": "Leertaste"
       }
     ]
   },
@@ -481,6 +552,30 @@
         "timestamp": 1618328881561,
         "oldValue": "",
         "newValue": "{{verb}} {{slider}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "Greife oder setze {{thing}}",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1546442150442,
+        "oldValue": "",
+        "newValue": "Greife oder setze {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": " Greife oder setze {{thing}}",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1546442150442,
+        "oldValue": "",
+        "newValue": " Greife oder setze {{thing}}",
+        "explanation": null
       }
     ]
   },
@@ -592,50 +687,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.popUpListPattern": {
-    "value": "1. Popup-Liste von {{thingPlural}}",
-    "history": [
-      {
-        "userId": 920037,
-        "timestamp": 1618328881561,
-        "oldValue": "",
-        "newValue": "1. Popup-Liste von {{thingPlural}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.moveThroughPattern": {
-    "value": "2. Bewege durch {{thingPlural}}",
-    "history": [
-      {
-        "userId": 920037,
-        "timestamp": 1618328881561,
-        "oldValue": "",
-        "newValue": "2. Bewege durch {{thingPlural}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.chooseNewPattern": {
-    "value": "3. Wähle neu {{thingSingular}}",
-    "history": [
-      {
-        "userId": 920037,
-        "timestamp": 1618328881561,
-        "oldValue": "",
-        "newValue": "3. Wähle neu {{thingSingular}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-    "value": "4. Schließe die Liste, ohne sie zu ändern",
-    "history": [
-      {
-        "userId": 920037,
-        "timestamp": 1618328881561,
-        "oldValue": "",
-        "newValue": "4. Schließe die Liste, ohne sie zu ändern"
-      }
-    ]
-  },
   "keyboardHelpDialog.comboBox.chooseAThingPattern": {
     "value": "Choose ein {{thingTitle}}",
     "history": [
@@ -699,28 +750,6 @@
         "timestamp": 1618328881561,
         "oldValue": "",
         "newValue": "eins"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.option": {
-    "value": "Option",
-    "history": [
-      {
-        "userId": 920037,
-        "timestamp": 1618328881561,
-        "oldValue": "",
-        "newValue": "Option"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.options": {
-    "value": "Optionen",
-    "history": [
-      {
-        "userId": 920037,
-        "timestamp": 1618328881561,
-        "oldValue": "",
-        "newValue": "Optionen"
       }
     ]
   },
