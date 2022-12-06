@@ -4189,6 +4189,15 @@
     "menuItem.about": {
       "value": "دربارۀ"
     },
+    "preferences.tabs.visual.interactiveHighlightsDescription": {
+      "value": "اضافه کردن هایلایت برای نشانگر موس و لمس "
+    },
+    "preferences.tabs.audio.title": {
+      "value": "صدا"
+    },
+    "preferences.tabs.audio.audioFeatures.title": {
+      "value": "جلوه های صوتی"
+    },
     "menuItem.getUpdate": {
       "value": "بررسی  به‌ روزرسانی‌ها…"
     },
@@ -4201,8 +4210,8 @@
     "credits.title": {
       "value": "فهرست نام مشارکت کنندگان"
     },
-    "menuItem.enhancedSound": {
-      "value": "صدای تقویت شده"
+    "preferences.tabs.audio.sounds.extraSounds.title": {
+      "value": "صداهای ویژه"
     },
     "menuItem.fullscreen": {
       "value": "تمام صفحه"
@@ -4213,11 +4222,26 @@
     "credits.graphicArts": {
       "value": "{0} :هنرهای گرافیکی"
     },
+    "preferences.tabs.visual.projectorModeDescription": {
+      "value": "افزایش تضاد رنگ برای نمایش بهتر در کلاس"
+    },
+    "preferences.tabs.input.title": {
+      "value": "ورودی"
+    },
+    "preferences.tabs.visual.interactiveHighlights": {
+      "value": "نکات تعاملی"
+    },
+    "queryParametersWarningDialog.invalidQueryParameters": {
+      "value": "پارامترهای درخواست نامعتبر است"
+    },
     "keyboardShortcuts.title": {
       "value": "میانبرهای صفحه کلید"
     },
     "credits.leadDesign": {
       "value": "{0} :طراح ارشد"
+    },
+    "preferences.tabs.localization.title": {
+      "value": "زبان"
     },
     "updates.outOfDate": {
       "value": "نسخه جدید موجود است"
@@ -4225,14 +4249,23 @@
     "updates.noThanks": {
       "value": "نه متشکرم"
     },
-    "options.title": {
-      "value": "گزینه‌ها"
+    "queryParametersWarningDialog.oneOrMoreQueryParameters": {
+      "value": "یک یا تعداد بیشتری از این پارامترهای درخواست  <br>مقادیر نامعتبر دارند:"
     },
-    "menuItem.options": {
-      "value": "گزینه‌ها..."
+    "preferences.tabs.overview.title": {
+      "value": "نمای کلی"
     },
     "menuItem.phetWebsite": {
       "value": "سایت اینترنتی PhET..."
+    },
+    "preferences.tabs.audio.sounds.extraSounds.description": {
+      "value": "صوت های بیشتری که ممکن است برای فراگیران مفید باشد را پخش کنید."
+    },
+    "preferences.tabs.audio.sounds.description": {
+      "value": "پخش اصوات غیرگفتاری و جلوه های صوتی در حین کار."
+    },
+    "preferences.title": {
+      "value": "ترجیحات"
     },
     "projectorMode": {
       "value": "حالت پروژکتور"
@@ -4246,11 +4279,17 @@
     "menuItem.screenshot": {
       "value": "عکس از صفحه"
     },
+    "preferences.tabs.simulation.title": {
+      "value": "شبیه سازی"
+    },
     "credits.softwareDevelopment": {
       "value": "{0} :توسعه نرم افزار"
     },
     "credits.soundDesign": {
       "value": " {0} : طراحی صوت"
+    },
+    "preferences.tabs.audio.sounds.title": {
+      "value": "صداها"
     },
     "credits.team": {
       "value": "تیم: {0} "
@@ -4261,6 +4300,9 @@
     "credits.thanks": {
       "value": "با تشکر از"
     },
+    "queryParametersWarningDialog.theSimulationWillStart": {
+      "value": "شبیه سازی به طور پیش فرض برای پارامترهای درخواستی شروع خواهد شد."
+    },
     "updates.newVersionAvailable": {
       "value": "{0} :یک نسخۀ جدید وجود دارد."
     },
@@ -4270,11 +4312,11 @@
     "updates.upToDate": {
       "value": "این شبیه سازی بروز است."
     },
+    "preferences.tabs.general.moreAccessibility": {
+      "value": "برای یافتن سایر شبیه سازی ها با خصوصیت های جامع، در صفحه فیلتر شبیه سازی به دنبال  Access and Inclusion بگردید و نتایج را بر حسب ویژگی مد نظر فیلتر کنید."
+    },
     "keyboardShortcuts.toGetStarted": {
       "value": "برای شروع"
-    },
-    "credits.translation": {
-      "value": "ترجمه"
     },
     "translation.credits.link": {
       "value": "نام مشارکت کنندگان در ترجمه"
@@ -4285,68 +4327,47 @@
     "versionPattern": {
       "value": "نسخۀ {0}"
     },
+    "preferences.tabs.visual.title": {
+      "value": "تصویری"
+    },
+    "preferences.tabs.audio.voicing.description": {
+      "value": "محتوای صوتی و هایلات هنگام تعامل."
+    },
+    "preferences.tabs.audio.voicing.titleEnglishOnly": {
+      "value": "صداگذاری"
+    },
+    "preferences.tabs.general.accessibilityIntro": {
+      "value": "برای جامع تر کردن شبیه سازی هایمان ویژگی های جدیدی به آنها اضافه میکنیم. برخی از این خصوصیت ها برای فراگیرانی با نیازهای متفاوت و در محیط های گوناگون دسترسپذیری بیشتر ارائه میدهد. برای ملاحظه یا تغییر تنظیمات پیشفرض برگه های این منو را بررسی کنید."
+    },
     "updates.yourCurrentVersion": {
       "value": "نسخه فعلی شما: {0} است."
     },
     "simTitleWithScreenNamePattern": {
-      "value": ""
+      "value": "{{simName}} — {{screenName}}"
     },
-    "preferences.tabs.visual.interactiveHighlightsDescription": {
-      "value": "اضافه کردن هایلایت برای نشانگر موس و لمس "
+    "menuItem.enhancedSound": {
+      "value": "صدای تقویت شده"
     },
-    "preferences.tabs.audio.title": {
-      "value": "صدا"
+    "options.title": {
+      "value": "گزینه‌ها"
     },
-    "preferences.tabs.audio.audioFeatures.title": {
-      "value": "ویژگی های صوتی"
+    "menuItem.options": {
+      "value": "گزینه‌ها..."
     },
-    "preferences.tabs.audio.sounds.extraSounds.title": {
-      "value": "صداهای ویژه"
+    "credits.translation": {
+      "value": "ترجمه"
     },
     "preferences.tabs.general.title": {
       "value": "عمومی"
     },
-    "preferences.tabs.visual.interactiveHighlights": {
-      "value": "نکات تعاملی"
-    },
     "ieErrorPage.ieIsNotSupported": {
       "value": "اینترنت اکسپلورر پشتیبانی نمی شود"
-    },
-    "queryParametersWarningDialog.invalidQueryParameters": {
-      "value": "پارامترهای پرسش نامعتبر است"
-    },
-    "queryParametersWarningDialog.oneOrMoreQueryParameters": {
-      "value": "یک یا تعداد بیشتری از این پارامترهای درخواست  <br>مقادیر نامعتبر دارند:"
     },
     "ieErrorPage.platformError": {
       "value": "خطای پلتفرم"
     },
-    "preferences.tabs.audio.sounds.extraSounds.description": {
-      "value": "صوت های بیشتری که ممکن است برای فراگیران مفید باشد را پخش کنید."
-    },
-    "preferences.tabs.audio.sounds.description": {
-      "value": "پخش اصوات غیرگفتاری و جلوه های صوتی در حین کار."
-    },
     "ieErrorPage.useDifferentBrowser": {
       "value": "لطفاً از مرورگر دیگری برای اجرای این شبیه سازی استفاده کنید"
-    },
-    "preferences.title": {
-      "value": "تنظیمات"
-    },
-    "preferences.tabs.audio.sounds.title": {
-      "value": "صداها"
-    },
-    "queryParametersWarningDialog.theSimulationWillStart": {
-      "value": "شبیه سازی به طور پیش فرض برای پارامترهای درخواستی شروع خواهد شد."
-    },
-    "preferences.tabs.general.moreAccessibility": {
-      "value": "برای یافتن سایر شبیه سازی ها با خصوصیت های جامع، در صفحه فیلتر شبیه سازی به دنبال  Access and Inclusion بگردید و نتایج را بر حسب ویژگی مد نظر فیلتر کنید."
-    },
-    "preferences.tabs.visual.title": {
-      "value": "تصویری"
-    },
-    "preferences.tabs.general.accessibilityIntro": {
-      "value": "برای جامع تر کردن شبیه سازی هایمان ویژگی های جدیدی به آنها اضافه میکنیم. برخی از این خصوصیت ها برای فراگیرانی با نیازهای متفاوت و در محیط های گوناگون دسترسپذیری بیشتر ارائه میدهد. برای ملاحظه یا تغییر تنظیمات پیشفرض برگه های این منو را بررسی کنید."
     },
     "menuItem.mailInputEventsLog": {
       "value": "ایمیل رخدادنامۀ رویدادهای ورودی "
@@ -6593,9 +6614,6 @@
     "menuItem.fullscreen": {
       "value": "Fylla skjá"
     },
-    "preferences.tabs.general.title": {
-      "value": "Almennt"
-    },
     "updates.getUpdate": {
       "value": "Sækja uppfærslu…"
     },
@@ -6604,6 +6622,9 @@
     },
     "preferences.tabs.visual.projectorModeDescription": {
       "value": "Auka skerpu fyrir bætt útlit"
+    },
+    "preferences.tabs.input.title": {
+      "value": "Inntak"
     },
     "preferences.tabs.visual.interactiveHighlights": {
       "value": "Einkenna gagnvirkni"
@@ -6617,6 +6638,9 @@
     "credits.leadDesign": {
       "value": "Hönnunarstjórn: {0}"
     },
+    "preferences.tabs.localization.title": {
+      "value": "Staðsetning"
+    },
     "updates.outOfDate": {
       "value": "Ný útgáfa fáanleg"
     },
@@ -6625,6 +6649,9 @@
     },
     "queryParametersWarningDialog.oneOrMoreQueryParameters": {
       "value": "Ein eða fleiri af færibreytum<br>hafa ekki leyfð gildi"
+    },
+    "preferences.tabs.overview.title": {
+      "value": "Yfirlit"
     },
     "menuItem.phetWebsite": {
       "value": "Heimasíða PhET…"
@@ -6649,6 +6676,9 @@
     },
     "menuItem.screenshot": {
       "value": "Skjámynd"
+    },
+    "preferences.tabs.simulation.title": {
+      "value": "Herma"
     },
     "credits.softwareDevelopment": {
       "value": "Hugbúnaðarþróun: {0}"
@@ -6698,6 +6728,12 @@
     "preferences.tabs.visual.title": {
       "value": "Sýnilegt"
     },
+    "preferences.tabs.audio.voicing.description": {
+      "value": "Hljóð og lýsingar þegar þú velur"
+    },
+    "preferences.tabs.audio.voicing.titleEnglishOnly": {
+      "value": "Hljóð (aðeins enska)"
+    },
     "preferences.tabs.general.accessibilityIntro": {
       "value": "Verið er að bæta við eiginleikum við frumgerðina. Sumir þessara eiginleika styðja aðgengi fyrir nemendur með fjölbreyttar þarfir og í fjölbreyttu umhverfi. Skoðaðu þessa valmynd til að skoða eða breyta sjálfgefnum stillingum."
     },
@@ -6706,6 +6742,9 @@
     },
     "simTitleWithScreenNamePattern": {
       "value": "{{simName}} — {{screenName}}"
+    },
+    "preferences.tabs.general.title": {
+      "value": "Almennt"
     },
     "menuItem.enhancedSound": {
       "value": "Betra hljóð"
@@ -13998,125 +14037,8 @@
     "menuItem.about": {
       "value": "Дар бораи…"
     },
-    "menuItem.getUpdate": {
-      "value": "Навсозиро санҷед…"
-    },
-    "updates.checking": {
-      "value": "Санҷиши навсозиҳо…"
-    },
-    "credits.contributors": {
-      "value": "Саҳмгузорон: {0}"
-    },
-    "credits.title": {
-      "value": "Кредитҳо"
-    },
-    "menuItem.enhancedSound": {
-      "value": "Овози мукаммал"
-    },
-    "menuItem.fullscreen": {
-      "value": "Экрани пурра"
-    },
-    "updates.getUpdate": {
-      "value": "Навсозӣ гиред…"
-    },
-    "credits.graphicArts": {
-      "value": "Санъати графикӣ: {0}"
-    },
-    "ieErrorPage.ieIsNotSupported": {
-      "value": "Бо Internet Explorer истифода намешавад."
-    },
-    "queryParametersWarningDialog.invalidQueryParameters": {
-      "value": "Параметрҳои дархости нодуруст"
-    },
-    "keyboardShortcuts.title": {
-      "value": "Ёридиҳандаҳои клавиатура"
-    },
-    "credits.leadDesign": {
-      "value": "Тарҳрезии пешбар: {0}"
-    },
-    "updates.outOfDate": {
-      "value": "Версияи нав дастрас аст"
-    },
-    "updates.noThanks": {
-      "value": "Не, ташаккур"
-    },
-    "queryParametersWarningDialog.oneOrMoreQueryParameters": {
-      "value": "Як ё якчанд аз ин параметрҳои дархост дорои арзишҳои беэътибор доранд:"
-    },
-    "options.title": {
-      "value": "Вариантҳо"
-    },
-    "menuItem.options": {
-      "value": "Вариантҳо..."
-    },
-    "menuItem.phetWebsite": {
-      "value": "Сомонаи PhET ..."
-    },
-    "ieErrorPage.platformError": {
-      "value": "Хатогии платформа"
-    },
-    "ieErrorPage.useDifferentBrowser": {
-      "value": "Лутфан барои иҷро кардани ин моделиронӣ браузери дигарро истифода баред."
-    },
-    "credits.qualityAssurance": {
-      "value": "Санҷиши сифатнокӣ: {0}"
-    },
-    "menuItem.reportAProblem": {
-      "value": "Гузориш оид ба иштибоҳ ..."
-    },
-    "menuItem.screenshot": {
-      "value": "Сохтани скриншот"
-    },
-    "credits.softwareDevelopment": {
-      "value": "Таҳияи барнома: {0}"
-    },
-    "credits.soundDesign": {
-      "value": "Танзими овоз: {0}"
-    },
-    "credits.team": {
-      "value": "Команда:  {0}"
-    },
-    "termsPrivacyAndLicensing": {
-      "value": "Шартҳо, махфият ва иҷозатномадиҳӣ"
-    },
-    "credits.thanks": {
-      "value": "Сипосгузорӣ"
-    },
-    "queryParametersWarningDialog.theSimulationWillStart": {
-      "value": "Моделсозӣ бо арзишҳои пешфарз барои<br>ин параметрҳои дархост оғоз мешавад."
-    },
-    "updates.newVersionAvailable": {
-      "value": "Версияи нав дастрас аст: {0}"
-    },
-    "thirdParty.credits.link": {
-      "value": "Таҳиягарони беруна"
-    },
-    "updates.upToDate": {
-      "value": "Навсозӣ ҳатмӣ нест"
-    },
-    "keyboardShortcuts.toGetStarted": {
-      "value": "барои оғоз кардан"
-    },
-    "credits.translation": {
-      "value": "Тарҷума"
-    },
-    "translation.credits.link": {
-      "value": "Барномаро тарҷума карданд"
-    },
-    "updates.offline": {
-      "value": "Тафтиши мавҷудияти версияи нав ғайриимкон аст."
-    },
-    "versionPattern": {
-      "value": "версия {0}"
-    },
-    "updates.yourCurrentVersion": {
-      "value": "Версияи ҷорӣ: {0}."
-    },
-    "simTitleWithScreenNamePattern": {
-      "value": "{{simName}} — {{screenName}}"
-    },
     "preferences.tabs.visual.interactiveHighlightsDescription": {
-      "value": "Ҳангоми муошират барои мушак аломатҳои визуалиро илова кунед."
+      "value": "Муошират барои мушак аломатҳои визуалиро илова кунед."
     },
     "preferences.tabs.audio.title": {
       "value": "Аудио"
@@ -14124,35 +14046,173 @@
     "preferences.tabs.audio.audioFeatures.title": {
       "value": "Хусусиятҳои садо"
     },
-    "preferences.tabs.audio.sounds.extraSounds.title": {
-      "value": "Овозҳои иловагӣ"
+    "menuItem.getUpdate": {
+      "value": "Навсозиро санҷед…"
     },
-    "preferences.tabs.general.title": {
-      "value": "Умумӣ"
+    "updates.checking": {
+      "value": "Санҷиши навсозиҳо…"
+    },
+    "credits.contributors": {
+      "value": "Саҳмгузорон: {0}"
+    },
+    "credits.title": {
+      "value": "кредитҳо"
+    },
+    "preferences.tabs.audio.sounds.extraSounds.title": {
+      "value": "Овозҳои парвоз"
+    },
+    "menuItem.fullscreen": {
+      "value": "Экрани пурра"
+    },
+    "updates.getUpdate": {
+      "value": "Нав дастрас…"
+    },
+    "credits.graphicArts": {
+      "value": "Санъати графикӣ: {0}"
+    },
+    "preferences.tabs.visual.projectorModeDescription": {
+      "value": "Барои дидани синфхонаҳо контрасти рангоранг зиёд кунед."
+    },
+    "preferences.tabs.input.title": {
+      "value": "Вуруд"
     },
     "preferences.tabs.visual.interactiveHighlights": {
       "value": "Нишонаҳои интерактивӣ"
     },
+    "queryParametersWarningDialog.invalidQueryParameters": {
+      "value": "Параметрҳои дархости"
+    },
+    "keyboardShortcuts.title": {
+      "value": "Ёри ширкатҳои клавиатура"
+    },
+    "credits.leadDesign": {
+      "value": "Тарҳрезии пешбар: {0}"
+    },
+    "preferences.tabs.localization.title": {
+      "value": "Маҳаллии"
+    },
+    "updates.outOfDate": {
+      "value": "Версия нав дар аст"
+    },
+    "updates.noThanks": {
+      "value": "Не, ташаккур"
+    },
+    "queryParametersWarningDialog.oneOrMoreQueryParameters": {
+      "value": "Як ё якчанд аз ин параметрҳои дархостҳо дорои дастгоҳҳои беэътибор доранд:"
+    },
+    "menuItem.phetWebsite": {
+      "value": "Сомонаи PhET ..."
+    },
     "preferences.tabs.audio.sounds.extraSounds.description": {
-      "value": "Овози иловагиеро пахш кунед, ки метавонад барои баъзе донишомӯзон муфид бошад."
+      "value": "Овози иловагиеро пахш кунед, ки барои шумо донишҷўёнро пахш кунед."
     },
     "preferences.tabs.audio.sounds.description": {
-      "value": "Ҳангоми муошират садоҳо ва эффектҳои садоиро бозӣ кунед."
+      "value": "иштироки садоҳо ва эффектҳои садоиро бозӣ кунед."
     },
     "preferences.title": {
       "value": "Афзалиятҳо"
     },
+    "projectorMode": {
+      "value": "Режими проектор"
+    },
+    "credits.qualityAssurance": {
+      "value": "Санҷиши сифатнокӣ: {0}"
+    },
+    "menuItem.reportAProblem": {
+      "value": "Гузориш оид ба масъала..."
+    },
+    "menuItem.screenshot": {
+      "value": "Сохтани скриншот"
+    },
+    "preferences.tabs.simulation.title": {
+      "value": "Симулятсия"
+    },
+    "credits.softwareDevelopment": {
+      "value": "агентии барнома: {0}"
+    },
+    "credits.soundDesign": {
+      "value": "Танзими овоз: {0}"
+    },
     "preferences.tabs.audio.sounds.title": {
-      "value": "Садоҳо"
+      "value": "Садохо"
+    },
+    "credits.team": {
+      "value": "Команда: {0}"
+    },
+    "termsPrivacyAndLicensing": {
+      "value": "Шартҳо, махфият ва қайдҳо"
+    },
+    "credits.thanks": {
+      "value": "Сипоси таъин"
+    },
+    "queryParametersWarningDialog.theSimulationWillStart": {
+      "value": "Модел барои идоракунии бо ёрии пешфарз>ин параметрҳои дархост оғоз мешавад."
+    },
+    "updates.newVersionAvailable": {
+      "value": "Версияи нав ҷойгир аст: {0}"
+    },
+    "thirdParty.credits.link": {
+      "value": "интихобкунандагон доданна"
+    },
+    "updates.upToDate": {
+      "value": "Навсозии ҳатмӣ нест"
     },
     "preferences.tabs.general.moreAccessibility": {
-      "value": "Барои пайдо кардани моделиронии дигар бо хусусиятҳои фарогир, дар саҳифаи филтри моделиронӣ Дастрасӣ ва дохилкуниро ҷустуҷӯ кунед ва аз рӯи хусусияти фарогир филтр кунед."
+      "value": "Барои пайдо кардани моделиронии дигар бо худ фарогир, дар саҳифаи филтри модели Дастӣ ва дохил кардани моделиҳоро дар ва аз рӯи шумо филтр кунед."
+    },
+    "keyboardShortcuts.toGetStarted": {
+      "value": "барои кардан"
+    },
+    "translation.credits.link": {
+      "value": "Барномаро тартиб доданд"
+    },
+    "updates.offline": {
+      "value": "Тафтишияти версияи навимкон аст."
+    },
+    "versionPattern": {
+      "value": "версияи {0}"
     },
     "preferences.tabs.visual.title": {
       "value": "Визуалӣ"
     },
+    "preferences.tabs.audio.voicing.description": {
+      "value": "муҳаррики муошират бо садо ва қувваро дастгирӣ кунед."
+    },
+    "preferences.tabs.audio.voicing.titleEnglishOnly": {
+      "value": "Овоз додан (танҳо бо забони англисӣ)"
+    },
     "preferences.tabs.general.accessibilityIntro": {
-      "value": "Мо ба симулятсияҳои худ хусусиятҳо илова мекунем, то онҳоро фарогиртар созем. Баъзе аз ин хусусиятҳо дастрасиро барои донишҷӯёни дорои ниёзҳои гуногун ва дар муҳити гуногун дастгирӣ мекунанд. Варақаҳои ин менюро омӯзед, то танзимоти пешфарзро аз назар гузаронед ё тағир диҳед."
+      "value": "Мо ба симулятсияҳои худ фаромӯш мекунем, то онро иҷро кунед. аз ин ҳисобҳо барои сохтори дорои ниёзҳои гуногун ва дар дигар дигаргуниҳо. Варақаҳои ин менюро омӯхтаед, то танзимоти пешфарзро аз назар гузаронидаед ё кардаед."
+    },
+    "updates.yourCurrentVersion": {
+      "value": "Версия: {0}."
+    },
+    "simTitleWithScreenNamePattern": {
+      "value": "{{simName}} — {{screenName}}"
+    },
+    "menuItem.enhancedSound": {
+      "value": "Овози мукаммал"
+    },
+    "ieErrorPage.ieIsNotSupported": {
+      "value": "Бо Internet Explorer истифода намешавад."
+    },
+    "options.title": {
+      "value": "Вариантҳо"
+    },
+    "menuItem.options": {
+      "value": "Вариантҳо..."
+    },
+    "ieErrorPage.platformError": {
+      "value": "Хатогии платформа"
+    },
+    "ieErrorPage.useDifferentBrowser": {
+      "value": "Лутфан барои иҷро кардани ин моделиронӣ браузери дигарро истифода баред."
+    },
+    "credits.translation": {
+      "value": "Тарҷума"
+    },
+    "preferences.tabs.general.title": {
+      "value": "Умумӣ"
     },
     "done": {
       "value": "Иҷро шуд"
@@ -14162,9 +14222,6 @@
     },
     "showPointers": {
       "value": "Нишондодҳоро нишон диҳед"
-    },
-    "projectorMode": {
-      "value": "Режими проектор"
     },
     "menuItem.mailInputEventsLog": {
       "value": "Ба почта фиристонидани логи воқеъаҳо"

@@ -3712,41 +3712,23 @@
     }
   },
   "fa": {
-    "key.enter": {
-      "value": "ورود (Enter)"
-    },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "{{thing}} را بکش یا رها کن"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "{{thing}} را بکش یا رها کن"
-    },
-    "keyboardHelpDialog.or": {
-      "value": "یا"
-    },
-    "key.pageDown": {
-      "value": "Pg Dn"
-    },
-    "key.pageUp": {
-      "value": "Pg Up"
-    },
-    "key.shift": {
-      "value": "Shift"
-    },
-    "key.space": {
-      "value": "دکمۀ Space"
-    },
-    "key.tab": {
-      "value": "دکمۀ Tab کیبورد"
-    },
-    "symbol.resistivity": {
-      "value": "مقاومت ρ"
-    },
-    "symbol.ohms": {
-      "value": "اهم Ω"
-    },
     "keyboardHelpDialog.hyphen": {
       "value": "-"
+    },
+    "keyboardHelpDialog.comboBox.popUpListPattern": {
+      "value": "۱. لیست {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.moveThroughPattern": {
+      "value": "۲. حرکت در {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.chooseNewPattern": {
+      "value": "۳. انتخاب {{thingSingular}} جدید"
+    },
+    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+      "value": "۴. بستن لیست بدون تغییر"
+    },
+    "keyboardHelpDialog.adjust": {
+      "value": "تنظیم"
     },
     "key.alt": {
       "value": "Alt"
@@ -3760,6 +3742,9 @@
     "key.end": {
       "value": "End"
     },
+    "key.enter": {
+      "value": "Enter"
+    },
     "key.esc": {
       "value": "Esc"
     },
@@ -3770,31 +3755,7 @@
       "value": "Fn"
     },
     "key.home": {
-      "value": "دکمۀ Home"
-    },
-    "keyboardHelpDialog.moveBetweenItemsInAGroup": {
-      "value": "جابجا شدن بین آیتم های یک گروه"
-    },
-    "keyboardHelpDialog.moveToNextItemOrGroup": {
-      "value": "جابجا شدن به آیتم یا گروه بعدی"
-    },
-    "keyboardHelpDialog.moveToPreviousItemOrGroup": {
-      "value": "جابجا شدن به آیتم یا گروه قبلی"
-    },
-    "keyboardHelpDialog.pressButtons": {
-      "value": "دکمه ها را فشار دهید"
-    },
-    "keyboardHelpDialog.toggleCheckboxes": {
-      "value": "تغییر کادرهای انتخاب"
-    },
-    "measuringTapeReadoutPattern": {
-      "value": "{{distance}} {{units}}"
-    },
-    "keyboardHelpDialog.adjust": {
-      "value": "تنظیم"
-    },
-    "speed.fast": {
-      "value": "سریع"
+      "value": "Home"
     },
     "keyboardHelpDialog.jumpToMaximumPattern": {
       "value": "پرش به {{maximum}}"
@@ -3808,8 +3769,38 @@
     "keyboardHelpDialog.minimum": {
       "value": "کمینه"
     },
-    "speed.normal": {
-      "value": "سرعت نرمال"
+    "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+      "value": "جابجا شدن بین آیتم های یک گروه"
+    },
+    "keyboardHelpDialog.moveToNextItemOrGroup": {
+      "value": "جابجا شدن به آیتم یا گروه بعدی"
+    },
+    "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+      "value": "جابجا شدن به آیتم یا گروه قبلی"
+    },
+    "keyboardHelpDialog.comboBox.option": {
+      "value": "گزینه"
+    },
+    "keyboardHelpDialog.comboBox.options": {
+      "value": "گزینه ها"
+    },
+    "keyboardHelpDialog.or": {
+      "value": "یا"
+    },
+    "key.pageDown": {
+      "value": "Pg Dn"
+    },
+    "key.pageUp": {
+      "value": "Pg Up"
+    },
+    "keyboardHelpDialog.comboBox.headingString": {
+      "value": "بازکردن منو"
+    },
+    "keyboardHelpDialog.pressButtons": {
+      "value": "دکمه ها را فشار دهید"
+    },
+    "key.shift": {
+      "value": "Shift"
     },
     "keyboardHelpDialog.slider": {
       "value": "ورق زن"
@@ -3817,8 +3808,17 @@
     "keyboardHelpDialog.sliderControls": {
       "value": "کنترل ورق زن"
     },
-    "speed.slow": {
-      "value": "سرعت آهسته"
+    "key.space": {
+      "value": "Space"
+    },
+    "key.tab": {
+      "value": "Tab"
+    },
+    "keyboardHelpDialog.toggleCheckboxes": {
+      "value": "تغییر کادرهای انتخاب"
+    },
+    "measuringTapeReadoutPattern": {
+      "value": "{{distance}} {{units}}"
     },
     "keyboardHelpDialog.verbInLargerStepsPattern": {
       "value": "{{verb}} در قدم های طولانی تر"
@@ -3828,6 +3828,27 @@
     },
     "keyboardHelpDialog.verbSliderPattern": {
       "value": "{{verb}} {{slider}}"
+    },
+    "speed.fast": {
+      "value": "سریع"
+    },
+    "speed.normal": {
+      "value": "سرعت نرمال"
+    },
+    "speed.slow": {
+      "value": "سرعت آهسته"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "{{thing}} را بکش یا رها کن"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "{{thing}} را بکش یا رها کن"
+    },
+    "symbol.resistivity": {
+      "value": "مقاومت ρ"
+    },
+    "symbol.ohms": {
+      "value": "اهم Ω"
     },
     "webglWarning.contextLossReload": {
       "value": "بارگذاری مجدد"
@@ -6008,12 +6029,6 @@
     "key.fn": {
       "value": "Fn takki"
     },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Grípa eða sleppa {{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "Grípa eða sleppa {{thing}}"
-    },
     "key.home": {
       "value": "Heim"
     },
@@ -6055,6 +6070,15 @@
     },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Breyta vali"
+    },
+    "measuringTapeReadoutPattern": {
+      "value": "{{distance}} {{units}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "Grípa eða sleppa {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "Grípa eða sleppa {{thing}}"
     },
     "stopwatchValueUnitsPattern": {
       "value": "{{value}} {{units}}"
@@ -13457,20 +13481,47 @@
     }
   },
   "tg": {
-    "cool": {
-      "value": "Хунукӣ"
+    "keyboardHelpDialog.hyphen": {
+      "value": "-"
+    },
+    "key.alt": {
+      "value": "Alt"
+    },
+    "keyboardHelpDialog.basicActions": {
+      "value": "Амалҳо ҳастанд"
+    },
+    "key.capsLock": {
+      "value": "Ҳарфҳои калон даргирон"
+    },
+    "key.end": {
+      "value": "Охир"
     },
     "key.enter": {
       "value": "Ворид кунед"
     },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "{{thing}}-ро гиред ё озод кунед"
+    "key.esc": {
+      "value": "Фарор"
     },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "{{thing}}-ро гиред ё озод кунед"
+    "keyboardHelpDialog.exitADialog": {
+      "value": "Аз муколама баромадан"
     },
-    "heat": {
-      "value": "Гармӣ"
+    "speed.fast": {
+      "value": "Тез"
+    },
+    "key.fn": {
+      "value": "Фн"
+    },
+    "key.home": {
+      "value": "Асосӣ"
+    },
+    "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+      "value": "Гузариш дар байни ъуъбориҳо"
+    },
+    "keyboardHelpDialog.moveToNextItemOrGroup": {
+      "value": "Ба сохт ё оянда гузаред"
+    },
+    "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+      "value": "Гузариш ба худ ё худ қаблӣ"
     },
     "speed.normal": {
       "value": "Муқаррарӣ"
@@ -13484,6 +13535,9 @@
     "key.pageUp": {
       "value": "Ба боло"
     },
+    "keyboardHelpDialog.pressButtons": {
+      "value": "Тугмаҳоро пахш кунед"
+    },
     "key.shift": {
       "value": "Шифт"
     },
@@ -13494,58 +13548,31 @@
       "value": "Пробел"
     },
     "key.tab": {
-      "value": "Tab"
+      "value": "Таб"
+    },
+    "keyboardHelpDialog.toggleCheckboxes": {
+      "value": "Гузаронидани куттихои кайд"
+    },
+    "measuringTapeReadoutPattern": {
+      "value": "{{масофа}} {{адад}}"
+    },
+    "cool": {
+      "value": "Хунукӣ"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "{{thing}}-ро гиред ё озод кунед"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "{{thing}}-ро гиред ё озод кунед"
+    },
+    "heat": {
+      "value": "Гармӣ"
     },
     "symbol.resistivity": {
       "value": "ρ"
     },
     "symbol.ohms": {
       "value": "Ом (Ом)"
-    },
-    "keyboardHelpDialog.hyphen": {
-      "value": "-"
-    },
-    "key.alt": {
-      "value": "Alt"
-    },
-    "keyboardHelpDialog.basicActions": {
-      "value": "Амалҳои асосӣ"
-    },
-    "key.capsLock": {
-      "value": "Caps Lock"
-    },
-    "key.end": {
-      "value": "Охир"
-    },
-    "key.esc": {
-      "value": "Esc"
-    },
-    "keyboardHelpDialog.exitADialog": {
-      "value": "Аз муколама баромадан"
-    },
-    "speed.fast": {
-      "value": "Fast"
-    },
-    "key.fn": {
-      "value": "Fn"
-    },
-    "key.home": {
-      "value": "Асосӣ"
-    },
-    "keyboardHelpDialog.moveBetweenItemsInAGroup": {
-      "value": "Гузариш дар байни ҷузъҳои гурӯҳ"
-    },
-    "keyboardHelpDialog.moveToNextItemOrGroup": {
-      "value": "Ба ҷузъ ё гурӯҳи оянда гузаред"
-    },
-    "keyboardHelpDialog.moveToPreviousItemOrGroup": {
-      "value": "Гузариш ба ашё ё гурӯҳи қаблӣ"
-    },
-    "keyboardHelpDialog.pressButtons": {
-      "value": "Тугмаҳоро пахш кунед"
-    },
-    "keyboardHelpDialog.toggleCheckboxes": {
-      "value": "Гузаронидани қуттиҳои қайд"
     },
     "stopwatchValueUnitsPattern": {
       "value": "{{value}} {{units}}"
