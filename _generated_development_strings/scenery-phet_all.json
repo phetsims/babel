@@ -9626,12 +9626,6 @@
     }
   },
   "nn": {
-    "webglWarning.contextLossReload": {
-      "value": "Last på nytt"
-    },
-    "webglWarning.contextLossFailure": {
-      "value": "Beklagar, grafikkfeil"
-    },
     "key.alt": {
       "value": "Alt"
     },
@@ -9641,23 +9635,23 @@
     "key.esc": {
       "value": "Esc"
     },
-    "speed.fast": {
-      "value": "Rask"
-    },
     "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
       "value": "Dra eller slepp {{thing}}"
     },
     "keyboardHelpDialog.grabOrReleaseLabelPattern": {
       "value": "Dra eller slepp {{thing}}"
     },
-    "key.k": {
-      "value": "K"
+    "key.home": {
+      "value": "Heim"
     },
-    "key.l": {
-      "value": "L"
+    "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+      "value": "Flytt mellom tema i ei gruppe"
     },
-    "speed.normal": {
-      "value": "Normal"
+    "keyboardHelpDialog.moveToNextItemOrGroup": {
+      "value": "Flytt til neste oppgåve eller gruppe"
+    },
+    "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+      "value": "Flytt til førre oppgåve eller gruppe"
     },
     "keyboardHelpDialog.or": {
       "value": "eller"
@@ -9668,11 +9662,11 @@
     "key.pageUp": {
       "value": "Page Up"
     },
+    "keyboardHelpDialog.pressButtons": {
+      "value": "Trukk på knappen"
+    },
     "key.shift": {
       "value": "Shift"
-    },
-    "speed.slow": {
-      "value": "Sakte"
     },
     "key.space": {
       "value": "Mellomrom"
@@ -9680,17 +9674,44 @@
     "key.tab": {
       "value": "Tabulator"
     },
-    "measuringTapeReadoutPattern": {
-      "value": "{{distance}} {{units}}"
+    "key.toGrabOrRelease": {
+      "value": "for <b> å ta</b> eller <b>løse ut</b>"
     },
-    "stopwatchValueUnitsPattern": {
-      "value": "{{value}} {{units}}"
+    "keyboardHelpDialog.toggleCheckboxes": {
+      "value": "Veksle mellom sjekkboksar"
     },
     "symbol.resistivity": {
       "value": "ρ"
     },
     "symbol.ohms": {
       "value": "Ω"
+    },
+    "webglWarning.contextLossReload": {
+      "value": "Last på nytt"
+    },
+    "webglWarning.contextLossFailure": {
+      "value": "Beklagar, grafikkfeil"
+    },
+    "speed.fast": {
+      "value": "Rask"
+    },
+    "key.k": {
+      "value": "K"
+    },
+    "key.l": {
+      "value": "L"
+    },
+    "speed.normal": {
+      "value": "Normal"
+    },
+    "speed.slow": {
+      "value": "Sakte"
+    },
+    "measuringTapeReadoutPattern": {
+      "value": "{{distance}} {{units}}"
+    },
+    "stopwatchValueUnitsPattern": {
+      "value": "{{value}} {{units}}"
     },
     "shortCircuit": {
       "value": "Kortslutting"
@@ -12395,6 +12416,18 @@
     }
   },
   "sr": {
+    "keyboardHelpDialog.comboBox.popUpListPattern": {
+      "value": "Искачућа листа {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.moveThroughPattern": {
+      "value": "Кретање кроз {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.chooseNewPattern": {
+      "value": "Изаберите ново  {{thingSingular}}"
+    },
+    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+      "value": "Затворите листу без промене"
+    },
     "keyboardHelpDialog.adjust": {
       "value": "Подеси"
     },
@@ -12412,15 +12445,6 @@
     },
     "keyboardHelpDialog.exitADialog": {
       "value": "Изађите из дијалога"
-    },
-    "speed.fast": {
-      "value": "Брзо"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "Ухвати или пусти {{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Ухвати или пусти {{thing}}"
     },
     "key.home": {
       "value": "Почетак"
@@ -12446,20 +12470,26 @@
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "Вратите се на претходну ставку или групу"
     },
-    "speed.normal": {
-      "value": "Нормално"
+    "keyboardHelpDialog.comboBox.option": {
+      "value": "опција"
+    },
+    "keyboardHelpDialog.comboBox.options": {
+      "value": "опције"
     },
     "keyboardHelpDialog.or": {
       "value": "или"
     },
+    "keyboardHelpDialog.comboBox.headingString": {
+      "value": "Искачући мени"
+    },
     "keyboardHelpDialog.pressButtons": {
       "value": "Притисни тастере"
     },
+    "keyboardHelpDialog.slider": {
+      "value": "клизач"
+    },
     "keyboardHelpDialog.sliderControls": {
       "value": "Клизач контроле"
-    },
-    "speed.slow": {
-      "value": "Споро"
     },
     "key.space": {
       "value": "Размак"
@@ -12467,17 +12497,20 @@
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Промените чекирања"
     },
-    "keyboardHelpDialog.comboBox.popUpListPattern": {
-      "value": "Искачућа листа {{thingPlural}}"
+    "speed.fast": {
+      "value": "Брзо"
     },
-    "keyboardHelpDialog.comboBox.moveThroughPattern": {
-      "value": "Кретање кроз {{thingPlural}}"
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "Ухвати или пусти {{thing}}"
     },
-    "keyboardHelpDialog.comboBox.chooseNewPattern": {
-      "value": "Изаберите ново  {{thingSingular}}"
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "Ухвати или пусти {{thing}}"
     },
-    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-      "value": "Затворите листу без промене"
+    "speed.normal": {
+      "value": "Нормално"
+    },
+    "speed.slow": {
+      "value": "Споро"
     },
     "eight": {
       "value": "осам"
