@@ -10,17 +10,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.adjust": {
-    "value": "Adjust",
-    "history": [
-      {
-        "userId": 789806,
-        "timestamp": 1657474917165,
-        "oldValue": "",
-        "newValue": "Adjust"
-      }
-    ]
-  },
   "key.alt": {
     "value": "Alt",
     "history": [
@@ -118,7 +107,7 @@
     ]
   },
   "speed.fast": {
-    "value": "త్వర త్వరగా",
+    "value": "త్వరితం",
     "history": [
       {
         "userId": 789806,
@@ -131,6 +120,12 @@
         "timestamp": 1651256674697,
         "oldValue": "Fast",
         "newValue": "త్వర త్వరగా"
+      },
+      {
+        "userId": 789806,
+        "timestamp": 1670530467046,
+        "oldValue": "త్వర త్వరగా",
+        "newValue": "త్వరితం"
       }
     ]
   },
@@ -145,30 +140,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-    "value": "Grab or Release {{thing}}",
-    "history": [
-      {
-        "userId": 789806,
-        "timestamp": 1593451393605,
-        "oldValue": "",
-        "newValue": "Grab or Release {{thing}}",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-    "value": "Grab or release {{thing}}",
-    "history": [
-      {
-        "userId": 789806,
-        "timestamp": 1593451393605,
-        "oldValue": "",
-        "newValue": "Grab or release {{thing}}",
-        "explanation": null
-      }
-    ]
-  },
   "key.home": {
     "value": "Home",
     "history": [
@@ -178,62 +149,6 @@
         "oldValue": "",
         "newValue": "Home",
         "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.jumpToMaximumPattern": {
-    "value": "Jump to {{maximum}}",
-    "history": [
-      {
-        "userId": 789806,
-        "timestamp": 1657474917165,
-        "oldValue": "",
-        "newValue": "Jump to {{maximum}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.jumpToMinimumPattern": {
-    "value": "Jump to {{minimum}}",
-    "history": [
-      {
-        "userId": 789806,
-        "timestamp": 1657474917165,
-        "oldValue": "",
-        "newValue": "Jump to {{minimum}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.maximum": {
-    "value": "maximum",
-    "history": [
-      {
-        "userId": 789806,
-        "timestamp": 1657474917165,
-        "oldValue": "",
-        "newValue": "గరిష్టం"
-      },
-      {
-        "userId": 789806,
-        "timestamp": 1657646140887,
-        "oldValue": "గరిష్టం",
-        "newValue": "maximum"
-      }
-    ]
-  },
-  "keyboardHelpDialog.minimum": {
-    "value": "minimum",
-    "history": [
-      {
-        "userId": 789806,
-        "timestamp": 1657474917165,
-        "oldValue": "",
-        "newValue": "కనిష్టం"
-      },
-      {
-        "userId": 789806,
-        "timestamp": 1657646140887,
-        "oldValue": "కనిష్టం",
-        "newValue": "minimum"
       }
     ]
   },
@@ -392,29 +307,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.slider": {
-    "value": "slider",
-    "history": [
-      {
-        "userId": 789806,
-        "timestamp": 1657474917165,
-        "oldValue": "",
-        "newValue": "slider"
-      }
-    ]
-  },
-  "keyboardHelpDialog.sliderControls": {
-    "value": "స్లైడర్ నియంత్రణలు",
-    "history": [
-      {
-        "userId": 789806,
-        "timestamp": 1596719121628,
-        "oldValue": "",
-        "newValue": "స్లైడర్ నియంత్రణలు",
-        "explanation": null
-      }
-    ]
-  },
   "speed.slow": {
     "value": "నిదానం",
     "history": [
@@ -473,6 +365,131 @@
         "timestamp": 1596719121628,
         "oldValue": "",
         "newValue": "Toggle checkboxes",
+        "explanation": null
+      }
+    ]
+  },
+  "measuringTapeReadoutPattern": {
+    "value": "{{distance}} {{units}}",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1657474917165,
+        "oldValue": "",
+        "newValue": "{{distance}} {{units}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjust": {
+    "value": "Adjust",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1657474917165,
+        "oldValue": "",
+        "newValue": "Adjust"
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "Grab or Release {{thing}}",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1593451393605,
+        "oldValue": "",
+        "newValue": "Grab or Release {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "Grab or release {{thing}}",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1593451393605,
+        "oldValue": "",
+        "newValue": "Grab or release {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMaximumPattern": {
+    "value": "Jump to {{maximum}}",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1657474917165,
+        "oldValue": "",
+        "newValue": "Jump to {{maximum}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToMinimumPattern": {
+    "value": "Jump to {{minimum}}",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1657474917165,
+        "oldValue": "",
+        "newValue": "Jump to {{minimum}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.maximum": {
+    "value": "maximum",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1657474917165,
+        "oldValue": "",
+        "newValue": "గరిష్టం"
+      },
+      {
+        "userId": 789806,
+        "timestamp": 1657646140887,
+        "oldValue": "గరిష్టం",
+        "newValue": "maximum"
+      }
+    ]
+  },
+  "keyboardHelpDialog.minimum": {
+    "value": "minimum",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1657474917165,
+        "oldValue": "",
+        "newValue": "కనిష్టం"
+      },
+      {
+        "userId": 789806,
+        "timestamp": 1657646140887,
+        "oldValue": "కనిష్టం",
+        "newValue": "minimum"
+      }
+    ]
+  },
+  "keyboardHelpDialog.slider": {
+    "value": "slider",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1657474917165,
+        "oldValue": "",
+        "newValue": "slider"
+      }
+    ]
+  },
+  "keyboardHelpDialog.sliderControls": {
+    "value": "స్లైడర్ నియంత్రణలు",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1596719121628,
+        "oldValue": "",
+        "newValue": "స్లైడర్ నియంత్రణలు",
         "explanation": null
       }
     ]
@@ -752,17 +769,6 @@
         "timestamp": 1657474917165,
         "oldValue": "",
         "newValue": "Pop open menu"
-      }
-    ]
-  },
-  "measuringTapeReadoutPattern": {
-    "value": "{{distance}} {{units}}",
-    "history": [
-      {
-        "userId": 789806,
-        "timestamp": 1657474917165,
-        "oldValue": "",
-        "newValue": "{{distance}} {{units}}"
       }
     ]
   },
