@@ -829,10 +829,10 @@
       "value": "Hipérbolas "
     },
     "mode.slingshot": {
-      "value": "Resortera Gravitacional "
+      "value": "Resortera "
     },
     "mode.doubleSlingshot": {
-      "value": "Doble Resortera Gravitacional "
+      "value": "Doble Resortera"
     },
     "mode.binaryStarPlanet": {
       "value": "Estrella Binaria y Planeta"
@@ -1704,34 +1704,34 @@
       "value": "Laboratorij"
     },
     "followCenterOfMass": {
-      "value": "Slijedi centar mase"
+      "value": "Slijedite centar mase"
     },
     "dataPanel.bodies": {
       "value": "Tijela"
     },
     "unitsInfo.content": {
-      "value": "<b>1.</b> au je astronomska jedinica (astronomical unit), jedinica za duljinu u astronomiji koja je jednaka srednjoj udaljenosti između Zemlje i Sunca, približno150 milijuna kilometara.<br><br><b>2.</b> Vrijednosti masa u ovoj simulaciji imaju raspon od 1 Jupiterove mase do 1,5 Sunčeve mase. Iako planeti, kometi i asteroidi imaju puno manje mase od gore navedenih, svi astronomski objekti, pokazuju slično ponašanje pod utjecajem snažnog gravitacijskog polja."
+      "value": "<b>Napomena 1:</b> AU označava astronomsku jedinicu, što je prosječna udaljenost od Sunca do Zemlje, otprilike 150 milijuna km.<br><br><b>Napomena 2:</b> Vrijednosti mase u ovoj simulaciji raspona je od 1 Jupiterove mase do 1,5 Sunčeve mase. Iako  planeti"
     },
     "unitsInfo.title": {
-      "value": "Napomene o mjernim jedinicama"
+      "value": "Napomene o jedinicama"
     },
     "dataPanel.moreData": {
       "value": "Više podataka"
     },
     "mode.sunAndPlanet": {
-      "value": "Sunce i planet"
+      "value": "Sunce i Planeta"
     },
     "mode.sunPlanetAndMoon": {
-      "value": "Sunce, planet i mjesec"
+      "value": "Sunce, Planeta i Mjesec"
     },
     "mode.sunPlanetAndComet": {
-      "value": "Sunce, planet i komet"
+      "value": "Sunce, Planeta i Kometa "
     },
     "mode.trojanAsteroids": {
-      "value": "Trojanci"
+      "value": "Trojanski asteroidi"
     },
     "mode.ellipses": {
-      "value": "Elipse"
+      "value": "Elipse "
     },
     "mode.hyperbolic": {
       "value": "Hiperbole"
@@ -1746,43 +1746,58 @@
       "value": "Binarne zvijezde, planet"
     },
     "mode.fourStarBallet": {
-      "value": "Ples četiri zvijezde"
+      "value": "Balet četiri zvijezde"
     },
     "mode.doubleDouble": {
-      "value": "Dvostruki binarni sustav"
+      "value": "Dvostruko Dvostruko"
     },
     "mode.custom": {
-      "value": "Prilagođeno"
+      "value": "Prilagođen"
     },
     "V": {
-      "value": "v"
+      "value": "V"
+    },
+    "pattern.labelUnits": {
+      "value": "{{value}} {{units}}"
     },
     "units.years": {
-      "value": "godina"
+      "value": "godine "
     },
     "clear": {
-      "value": "Poništi"
+      "value": "Čisto"
+    },
+    "pattern.labelParenthesesUnits": {
+      "value": "{{label}} ({{units}})"
     },
     "mass": {
-      "value": "Masa"
+      "value": "Masa "
     },
     "dataPanel.Mass": {
       "value": "Masa"
     },
+    "units.kg": {
+      "value": "10<sup>28</sup> kg"
+    },
     "dataPanel.Position": {
-      "value": "Pozicija"
+      "value": "Položaj"
     },
     "units.AU": {
-      "value": "au"
+      "value": "AU"
     },
     "dataPanel.Velocity": {
-      "value": "Brzina"
+      "value": "Brzina "
+    },
+    "units.kms": {
+      "value": "km/s"
+    },
+    "pattern.velocityValueUnits": {
+      "value": "|v| = {{value}} {{units}}"
     },
     "grid": {
       "value": "Mreža"
     },
     "measuringTape": {
-      "value": "Mjerna vrpca"
+      "value": "Traka za mjerenje"
     },
     "values": {
       "value": "Vrijednosti"
@@ -1791,13 +1806,13 @@
       "value": "Gravitacijska sila"
     },
     "velocity": {
-      "value": "Brzina"
+      "value": "brzina"
     },
     "path": {
-      "value": "Putanja"
+      "value": "putanja "
     },
     "centerOfMass": {
-      "value": "Centar mase"
+      "value": "centar mase "
     },
     "dataPanel.X": {
       "value": "x"
@@ -1806,13 +1821,16 @@
       "value": "y"
     },
     "dataPanel.Vx": {
-      "value": "v<sub>x</sub>"
+      "value": "V<sub>x</sub>"
     },
     "dataPanel.Vy": {
-      "value": "v<sub>y</sub>"
+      "value": "V<sub>y</sub>"
+    },
+    "pattern.range": {
+      "value": "{{min}} to {{max}}"
     },
     "my-solar-system.title": {
-      "value": "Moj Sunčev sustav"
+      "value": "Moj sunčev sustav "
     }
   },
   "is": {
@@ -2559,6 +2577,110 @@
       "value": "Moja slnečná sústava"
     }
   },
+  "sl": {
+    "screen.intro": {
+      "value": "Uvod"
+    },
+    "screen.lab": {
+      "value": "Laboratorij"
+    },
+    "followCenterOfMass": {
+      "value": "Sledi težišču"
+    },
+    "dataPanel.bodies": {
+      "value": "Telesa"
+    },
+    "unitsInfo.content": {
+      "value": "<b>Opomba 1:</b> AU označuje astronomsko enoto, ki je povprečna razdalja med Soncem in Zemljo, približno 150 milijonov km.<br><br><b>Opomba 2:</b> Vrednosti mas v tej simulaciji so od 1 Jupitrove mase do 1.5 Sončeve mase. Čeprav imajo planeti, kometi in asteroidi precej manjše mase, se vsa nebesna telesa v močnem gravitacijskem polju obnašajo enako."
+    },
+    "unitsInfo.title": {
+      "value": "Opombe o enotah"
+    },
+    "dataPanel.moreData": {
+      "value": "Več podatkov"
+    },
+    "mode.sunAndPlanet": {
+      "value": "Sonce in planet"
+    },
+    "mode.sunPlanetAndMoon": {
+      "value": "Sonce, planet in luna"
+    },
+    "mode.sunPlanetAndComet": {
+      "value": "Sonce, planet in komet"
+    },
+    "mode.trojanAsteroids": {
+      "value": "Trojanci (asteroidi)"
+    },
+    "mode.ellipses": {
+      "value": "Elipse"
+    },
+    "mode.hyperbolic": {
+      "value": "Hiperbola"
+    },
+    "mode.slingshot": {
+      "value": "Frača"
+    },
+    "mode.doubleSlingshot": {
+      "value": "Dvojna frača"
+    },
+    "mode.binaryStarPlanet": {
+      "value": "Dvojna zvezda, planet"
+    },
+    "mode.fourStarBallet": {
+      "value": "Balet štirih zvezd"
+    },
+    "mode.doubleDouble": {
+      "value": "Sistem 4 zvezd"
+    },
+    "mode.custom": {
+      "value": "Poljubno"
+    },
+    "units.years": {
+      "value": "leta"
+    },
+    "clear": {
+      "value": "Izbriši"
+    },
+    "mass": {
+      "value": "Masa"
+    },
+    "dataPanel.Mass": {
+      "value": "Masa"
+    },
+    "dataPanel.Position": {
+      "value": "Položaj"
+    },
+    "dataPanel.Velocity": {
+      "value": "Hitrost"
+    },
+    "grid": {
+      "value": "Mreža"
+    },
+    "measuringTape": {
+      "value": "Merilni trak"
+    },
+    "values": {
+      "value": "Vrednosti"
+    },
+    "gravityForce": {
+      "value": "Gravitacijska sila"
+    },
+    "velocity": {
+      "value": "Hitrost"
+    },
+    "path": {
+      "value": "Pot"
+    },
+    "centerOfMass": {
+      "value": "Center mase"
+    },
+    "pattern.range": {
+      "value": "{{min}} do {{max}}"
+    },
+    "my-solar-system.title": {
+      "value": "Moj sončni sistem"
+    }
+  },
   "sr": {
     "screen.intro": {
       "value": "Увод"
@@ -2661,6 +2783,143 @@
     },
     "my-solar-system.title": {
       "value": "Мој Соларни систем"
+    }
+  },
+  "te": {
+    "screen.intro": {
+      "value": "పరిచయం"
+    },
+    "screen.lab": {
+      "value": "ప్రయోగశాల"
+    },
+    "followCenterOfMass": {
+      "value": "ద్రవ్యరాశి కేంద్రాన్ని అనుసరించు"
+    },
+    "dataPanel.bodies": {
+      "value": "వస్తువులు"
+    },
+    "unitsInfo.content": {
+      "value": "<b>Note 1:</b> AU అంటే  Astronomical Unit. ఒక AU, సూర్యుడి నుండి భూమికి గల సరాసరి దూరం. ఇది దాదాపు 150 మిలియన్ కిలోమీటర్లు.<br><br><b>Note 2:</b>  ఈ సిమ్యులేషన్ లోని ద్రవ్యరాశి విలువలు 1 గురు గ్రహ ద్రవ్యరాశి నుండి 1.5 సౌర ద్రవ్యరాశి వరకు వ్యాపించి ఉంటాయి."
+    },
+    "unitsInfo.title": {
+      "value": "ప్రమాణాల గమనికలు"
+    },
+    "dataPanel.moreData": {
+      "value": "మరింత సమాచారం"
+    },
+    "mode.sunAndPlanet": {
+      "value": "సూర్యుడు , గ్రహం"
+    },
+    "mode.sunPlanetAndMoon": {
+      "value": "సూర్యుడు, గ్రహం , చంద్రుడు"
+    },
+    "mode.sunPlanetAndComet": {
+      "value": "సూర్యుడు, గ్రహం , తోక చుక్క"
+    },
+    "mode.trojanAsteroids": {
+      "value": "ట్రోజన్ గ్రహ శకలాలు "
+    },
+    "mode.ellipses": {
+      "value": "దీర్ఘ వృత్తాలు"
+    },
+    "mode.hyperbolic": {
+      "value": "అతి పరావలయం"
+    },
+    "mode.slingshot": {
+      "value": "Slingshot "
+    },
+    "mode.doubleSlingshot": {
+      "value": "Double Slingshot"
+    },
+    "mode.binaryStarPlanet": {
+      "value": "యుగ్మ నక్షత్రం, గ్రహం"
+    },
+    "mode.fourStarBallet": {
+      "value": "చతుర్ నక్షత్ర విన్యాసం"
+    },
+    "mode.doubleDouble": {
+      "value": "యుగళ, యుగళ "
+    },
+    "mode.custom": {
+      "value": "నీ ఇష్టానుసారం"
+    },
+    "V": {
+      "value": "V "
+    },
+    "pattern.labelUnits": {
+      "value": "{{value}} {{units}}"
+    },
+    "units.years": {
+      "value": "సంవత్సరాలు "
+    },
+    "clear": {
+      "value": "తుడిచెయ్యి"
+    },
+    "pattern.labelParenthesesUnits": {
+      "value": "{{label}} ({{units}})"
+    },
+    "mass": {
+      "value": "ద్రవ్యరాశి "
+    },
+    "dataPanel.Mass": {
+      "value": "ద్రవ్యరాశి"
+    },
+    "units.kg": {
+      "value": "10<sup>28</sup> kg"
+    },
+    "dataPanel.Position": {
+      "value": "స్థానం"
+    },
+    "units.AU": {
+      "value": "AU"
+    },
+    "dataPanel.Velocity": {
+      "value": "వేగం"
+    },
+    "units.kms": {
+      "value": "km/s"
+    },
+    "pattern.velocityValueUnits": {
+      "value": "|v| = {{value}} {{units}}"
+    },
+    "grid": {
+      "value": "గ్రిడ్"
+    },
+    "measuringTape": {
+      "value": "కొలిచే టేప్"
+    },
+    "values": {
+      "value": "విలువలు"
+    },
+    "gravityForce": {
+      "value": "గురుత్వ బలం"
+    },
+    "velocity": {
+      "value": "వేగం"
+    },
+    "path": {
+      "value": "పథం "
+    },
+    "centerOfMass": {
+      "value": "ద్రవ్యరాశి కేంద్రం "
+    },
+    "dataPanel.X": {
+      "value": "x"
+    },
+    "dataPanel.Y": {
+      "value": "y"
+    },
+    "dataPanel.Vx": {
+      "value": "V<sub>x</sub>"
+    },
+    "dataPanel.Vy": {
+      "value": "V<sub>y</sub>"
+    },
+    "pattern.range": {
+      "value": "{{min}} to {{max}}"
+    },
+    "my-solar-system.title": {
+      "value": "నా సౌర వ్యవస్థ"
     }
   },
   "tg": {
@@ -2805,7 +3064,7 @@
       "value": "ดวงอาทิตย์และดาวเคราะห์"
     },
     "mode.sunPlanetAndMoon": {
-      "value": "ดวงอาทิตย์ ดาวเคราะห์และดาวบริวาร"
+      "value": "ดวงอาทิตย์ ดาวเคราะห์และบริวาร"
     },
     "mode.sunPlanetAndComet": {
       "value": "ดวงอาทิตย์ ดาวเคราะห์และดาวหาง"
