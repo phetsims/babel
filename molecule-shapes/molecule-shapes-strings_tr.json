@@ -1,6 +1,126 @@
 {
+  "options.showOuterLonePairs": {
+    "value": "Dış Katmandaki Yalnız Çiftleri Göster",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1579971522124,
+        "oldValue": "",
+        "newValue": "Dıştaki Bağ Yapmayan Çiftleri Göster",
+        "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670683454580,
+        "oldValue": "Dıştaki Bağ Yapmayan Çiftleri Göster",
+        "newValue": "Dış Katmandaki Yalnız Çiftleri Göster"
+      }
+    ]
+  },
+  "geometry.diatomic": {
+    "value": "Doğrusal",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1579971522124,
+        "oldValue": "",
+        "newValue": "Düzlem",
+        "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670683454580,
+        "oldValue": "Düzlem",
+        "newValue": "Doğrusal"
+      }
+    ]
+  },
+  "geometry.linear": {
+    "value": "Doğrusal",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1579971522124,
+        "oldValue": "",
+        "newValue": "Doğrusal",
+        "explanation": null
+      }
+    ]
+  },
+  "geometry.octahedral": {
+    "value": "Düzgün Sekizyüzlü",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1579971522124,
+        "oldValue": "",
+        "newValue": "Düzgün Sekiz Yüzlü",
+        "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670683454580,
+        "oldValue": "Düzgün Sekiz Yüzlü",
+        "newValue": "Düzgün Sekizyüzlü"
+      }
+    ]
+  },
+  "geometry.tetrahedral": {
+    "value": "Düzgün Dörtyüzlü",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1579971522124,
+        "oldValue": "",
+        "newValue": "Düzgün Dörty Yüzlü",
+        "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670683454580,
+        "oldValue": "Düzgün Dörty Yüzlü",
+        "newValue": "Düzgün Dörtyüzlü"
+      }
+    ]
+  },
+  "geometry.trigonalBipyramidal": {
+    "value": "Üçgen Bipiramidal",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1579971522124,
+        "oldValue": "",
+        "newValue": "Üçgen Çift Piramit",
+        "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670683454580,
+        "oldValue": "Üçgen Çift Piramit",
+        "newValue": "Üçgen Bipiramidal"
+      }
+    ]
+  },
+  "geometry.trigonalPlanar": {
+    "value": "Düzlemel Üçgen",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1579971522124,
+        "oldValue": "",
+        "newValue": "Düzlem Üçgen",
+        "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670683454580,
+        "oldValue": "Düzlem Üçgen",
+        "newValue": "Düzlemel Üçgen"
+      }
+    ]
+  },
   "shape.bent": {
-    "value": "Açısal",
+    "value": "Eğik",
     "history": [
       {
         "userId": 354576,
@@ -8,29 +128,23 @@
         "oldValue": "",
         "newValue": "Açısal",
         "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670683454580,
+        "oldValue": "Açısal",
+        "newValue": "Eğik"
       }
     ]
   },
-  "control.bonding": {
-    "value": "Bağ",
+  "shape.diatomic": {
+    "value": "Doğrusal",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1579971522124,
         "oldValue": "",
-        "newValue": "Bağ",
-        "explanation": null
-      }
-    ]
-  },
-  "control.electronGeometry": {
-    "value": "Elektron Geometrisi",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1579971522124,
-        "oldValue": "",
-        "newValue": "Elektron Geometrisi",
+        "newValue": "Doğrusal",
         "explanation": null
       }
     ]
@@ -47,98 +161,176 @@
       }
     ]
   },
-  "geometry.diatomic": {
-    "value": "Düzlem",
+  "shape.octahedral": {
+    "value": "Düzgün Sekizyüzlü",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1579971522124,
         "oldValue": "",
-        "newValue": "Düzlem",
+        "newValue": "Düzgün Sekiz Yüzlü",
         "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670683454580,
+        "oldValue": "Düzgün Sekiz Yüzlü",
+        "newValue": "Düzgün Sekizyüzlü"
       }
     ]
   },
-  "shape.diatomic": {
-    "value": "Doğrusal",
+  "shape.seesaw": {
+    "value": "Tahteveralli",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1579971522124,
         "oldValue": "",
-        "newValue": "Doğrusal",
+        "newValue": "Tahteveralli - Bozulmuş Dört Yüzlü",
         "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670683454580,
+        "oldValue": "Tahteveralli - Bozulmuş Dört Yüzlü",
+        "newValue": "Tahteveralli"
       }
     ]
   },
-  "geometry.linear": {
-    "value": "Doğrusal",
+  "shape.squarePlanar": {
+    "value": "Kare Düzlemsel",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1579971522124,
         "oldValue": "",
-        "newValue": "Doğrusal",
+        "newValue": "Kare Düzlem",
         "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670683454580,
+        "oldValue": "Kare Düzlem",
+        "newValue": "Kare Düzlemsel"
       }
     ]
   },
-  "control.lonePair": {
-    "value": "Bağ Yapmayan Çift",
+  "shape.squarePyramidal": {
+    "value": "Kare Piramidal",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1579971522124,
         "oldValue": "",
-        "newValue": "Bağ Yapmayan Çift",
+        "newValue": "Kare Piramit",
         "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670683454580,
+        "oldValue": "Kare Piramit",
+        "newValue": "Kare Piramidal"
       }
     ]
   },
-  "screen.model": {
-    "value": "Molekül Şekilleri",
+  "shape.tetrahedral": {
+    "value": "Düzgün Dörtyüzlü",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1579971522124,
         "oldValue": "",
-        "newValue": "Molekül Şekilleri",
+        "newValue": "Düzgün Dört Yüzlü",
         "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670683454580,
+        "oldValue": "Düzgün Dört Yüzlü",
+        "newValue": "Düzgün Dörtyüzlü"
       }
     ]
   },
-  "control.modelView": {
-    "value": "Modeli",
+  "shape.trigonalBipyramidal": {
+    "value": "Üçgen Bipiramidal",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1579971522124,
         "oldValue": "",
-        "newValue": "Modeli",
+        "newValue": "Üçgen Çift Piramit",
         "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670683454580,
+        "oldValue": "Üçgen Çift Piramit",
+        "newValue": "Üçgen Bipiramidal"
       }
     ]
   },
-  "control.molecule": {
-    "value": "Molekül",
+  "shape.trigonalPlanar": {
+    "value": "Düzlemsel Üçgen",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1579971522124,
         "oldValue": "",
-        "newValue": "Molekül",
+        "newValue": "Düzlem Üçgen",
         "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670683454580,
+        "oldValue": "Düzlem Üçgen",
+        "newValue": "Düzlemsel Üçgen"
       }
     ]
   },
-  "control.moleculeGeometry": {
-    "value": "Molekül Geometrisi",
+  "shape.trigonalPyramidal": {
+    "value": "Üçgen Piramidal",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1579971522124,
         "oldValue": "",
-        "newValue": "Molekül Geometrisi",
+        "newValue": "Üçgen Piramit",
+        "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670683454580,
+        "oldValue": "Üçgen Piramit",
+        "newValue": "Üçgen Piramidal"
+      }
+    ]
+  },
+  "shape.tShaped": {
+    "value": "T Şekillli",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1579971522124,
+        "oldValue": "",
+        "newValue": "T Şekli",
+        "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670683454580,
+        "oldValue": "T Şekli",
+        "newValue": "T Şekillli"
+      }
+    ]
+  },
+  "control.electronGeometry": {
+    "value": "Elektron Geometrisi",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1579971522124,
+        "oldValue": "",
+        "newValue": "Elektron Geometrisi",
         "explanation": null
       }
     ]
@@ -155,86 +347,14 @@
       }
     ]
   },
-  "shape.octahedral": {
-    "value": "Düzgün Sekiz Yüzlü",
+  "control.moleculeGeometry": {
+    "value": "Molekül Geometrisi",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1579971522124,
         "oldValue": "",
-        "newValue": "Düzgün Sekiz Yüzlü",
-        "explanation": null
-      }
-    ]
-  },
-  "geometry.octahedral": {
-    "value": "Düzgün Sekiz Yüzlü",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1579971522124,
-        "oldValue": "",
-        "newValue": "Düzgün Sekiz Yüzlü",
-        "explanation": null
-      }
-    ]
-  },
-  "control.options": {
-    "value": "Seçenekler",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1579971522124,
-        "oldValue": "",
-        "newValue": "Seçenekler",
-        "explanation": null
-      }
-    ]
-  },
-  "control.realView": {
-    "value": "Aslı",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1579971522124,
-        "oldValue": "",
-        "newValue": "Aslı",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.realMolecules": {
-    "value": "Moleküller",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1579971522124,
-        "oldValue": "",
-        "newValue": "Moleküller",
-        "explanation": null
-      }
-    ]
-  },
-  "control.removeAll": {
-    "value": "Tüm Bağları Kaldır",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1579971522124,
-        "oldValue": "",
-        "newValue": "Tüm Bağları Kaldır",
-        "explanation": null
-      }
-    ]
-  },
-  "shape.seesaw": {
-    "value": "Tahteveralli - Bozulmuş Dört Yüzlü",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1579971522124,
-        "oldValue": "",
-        "newValue": "Tahteveralli - Bozulmuş Dört Yüzlü",
+        "newValue": "Molekül Geometrisi",
         "explanation": null
       }
     ]
@@ -252,7 +372,7 @@
     ]
   },
   "control.showLonePairs": {
-    "value": "Bağ Yapmayan Çiftleri Göster",
+    "value": "Yalnız Çiftleri Göster",
     "history": [
       {
         "userId": 354576,
@@ -260,137 +380,161 @@
         "oldValue": "",
         "newValue": "Bağ Yapmayan Çiftleri Göster",
         "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670683454580,
+        "oldValue": "Bağ Yapmayan Çiftleri Göster",
+        "newValue": "Yalnız Çiftleri Göster"
       }
     ]
   },
-  "options.showOuterLonePairs": {
-    "value": "Dıştaki Bağ Yapmayan Çiftleri Göster",
+  "control.bonding": {
+    "value": "Bağ",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1579971522124,
         "oldValue": "",
-        "newValue": "Dıştaki Bağ Yapmayan Çiftleri Göster",
+        "newValue": "Bağ",
         "explanation": null
       }
     ]
   },
-  "shape.squarePlanar": {
-    "value": "Kare Düzlem",
+  "control.lonePair": {
+    "value": "Yalnız Çift",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1579971522124,
         "oldValue": "",
-        "newValue": "Kare Düzlem",
+        "newValue": "Bağ Yapmayan Çift",
+        "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670683454580,
+        "oldValue": "Bağ Yapmayan Çift",
+        "newValue": "Yalnız Çift"
+      }
+    ]
+  },
+  "control.options": {
+    "value": "Seçenekler",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1579971522124,
+        "oldValue": "",
+        "newValue": "Seçenekler",
         "explanation": null
       }
     ]
   },
-  "shape.squarePyramidal": {
-    "value": "Kare Piramit",
+  "control.removeAll": {
+    "value": "Tüm Bağları Kaldır",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1579971522124,
         "oldValue": "",
-        "newValue": "Kare Piramit",
+        "newValue": "Tüm Bağları Kaldır",
         "explanation": null
       }
     ]
   },
-  "shape.tShaped": {
-    "value": "T Şekli",
+  "screen.model": {
+    "value": "Model",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1579971522124,
         "oldValue": "",
-        "newValue": "T Şekli",
+        "newValue": "Molekül Şekilleri",
+        "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670683454580,
+        "oldValue": "Molekül Şekilleri",
+        "newValue": "Model"
+      }
+    ]
+  },
+  "control.modelView": {
+    "value": "Model",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1579971522124,
+        "oldValue": "",
+        "newValue": "Modeli",
+        "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670683454580,
+        "oldValue": "Modeli",
+        "newValue": "Model"
+      }
+    ]
+  },
+  "control.molecule": {
+    "value": "Molekül",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1579971522124,
+        "oldValue": "",
+        "newValue": "Molekül",
         "explanation": null
       }
     ]
   },
-  "shape.tetrahedral": {
-    "value": "Düzgün Dört Yüzlü",
+  "control.realView": {
+    "value": "Gerçek",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1579971522124,
         "oldValue": "",
-        "newValue": "Düzgün Dört Yüzlü",
+        "newValue": "Aslı",
         "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670683454580,
+        "oldValue": "Aslı",
+        "newValue": "Gerçek"
       }
     ]
   },
-  "geometry.tetrahedral": {
-    "value": "Düzgün Dörty Yüzlü",
+  "screen.realMolecules": {
+    "value": "Gerçek Moleküller",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1579971522124,
         "oldValue": "",
-        "newValue": "Düzgün Dörty Yüzlü",
+        "newValue": "Moleküller",
         "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670683454580,
+        "oldValue": "Moleküller",
+        "newValue": "Gerçek Moleküller"
       }
     ]
   },
-  "geometry.trigonalBipyramidal": {
-    "value": "Üçgen Çift Piramit",
+  "molecule-shapes.title": {
+    "value": "Molekül Şekilleri",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1579971522124,
         "oldValue": "",
-        "newValue": "Üçgen Çift Piramit",
-        "explanation": null
-      }
-    ]
-  },
-  "shape.trigonalBipyramidal": {
-    "value": "Üçgen Çift Piramit",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1579971522124,
-        "oldValue": "",
-        "newValue": "Üçgen Çift Piramit",
-        "explanation": null
-      }
-    ]
-  },
-  "shape.trigonalPlanar": {
-    "value": "Düzlem Üçgen",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1579971522124,
-        "oldValue": "",
-        "newValue": "Düzlem Üçgen",
-        "explanation": null
-      }
-    ]
-  },
-  "geometry.trigonalPlanar": {
-    "value": "Düzlem Üçgen",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1579971522124,
-        "oldValue": "",
-        "newValue": "Düzlem Üçgen",
-        "explanation": null
-      }
-    ]
-  },
-  "shape.trigonalPyramidal": {
-    "value": "Üçgen Piramit",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1579971522124,
-        "oldValue": "",
-        "newValue": "Üçgen Piramit",
+        "newValue": "Molekül Şekilleri",
         "explanation": null
       }
     ]
@@ -427,18 +571,6 @@
         "timestamp": 1579971522124,
         "oldValue": "",
         "newValue": "{0}°",
-        "explanation": null
-      }
-    ]
-  },
-  "molecule-shapes.title": {
-    "value": "Molekül Şekilleri",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1579971522124,
-        "oldValue": "",
-        "newValue": "Molekül Şekilleri",
         "explanation": null
       }
     ]
