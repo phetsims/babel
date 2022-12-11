@@ -1,6 +1,6 @@
 {
   "cobaltChloride": {
-    "value": "Kobalt klorit",
+    "value": "Kobalt(II) klorür",
     "history": [
       {
         "userId": 354576,
@@ -8,17 +8,41 @@
         "oldValue": "",
         "newValue": "Kobalt klorit",
         "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670756569207,
+        "oldValue": "Kobalt klorit",
+        "newValue": "Kobalt(II) klorür"
       }
     ]
   },
   "cobaltIINitrate": {
-    "value": "Kobalt (ll) nitrat",
+    "value": "Kobalt(ll) nitrat",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1483678009626,
         "oldValue": "",
         "newValue": "Kobalt (ll) nitrat",
+        "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670756569207,
+        "oldValue": "Kobalt (ll) nitrat",
+        "newValue": "Kobalt(ll) nitrat"
+      }
+    ]
+  },
+  "concentration": {
+    "value": "Derişim",
+    "history": [
+      {
+        "userId": 354576,
+        "timestamp": 1483678009626,
+        "oldValue": "",
+        "newValue": "Derişim",
         "explanation": null
       }
     ]
@@ -35,20 +59,8 @@
       }
     ]
   },
-  "concentration": {
-    "value": "Derişim",
-    "history": [
-      {
-        "userId": 354576,
-        "timestamp": 1483678009626,
-        "oldValue": "",
-        "newValue": "Derişim",
-        "explanation": null
-      }
-    ]
-  },
   "copperSulfate": {
-    "value": "Bakır sülfat",
+    "value": "Bakır(II) sülfat",
     "history": [
       {
         "userId": 354576,
@@ -56,11 +68,17 @@
         "oldValue": "",
         "newValue": "Bakır sülfat",
         "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670756569207,
+        "oldValue": "Bakır sülfat",
+        "newValue": "Bakır(II) sülfat"
       }
     ]
   },
   "drinkMix": {
-    "value": "Sıvı karışımı",
+    "value": "İçecek karışımı",
     "history": [
       {
         "userId": 354576,
@@ -75,6 +93,12 @@
         "oldValue": "Karışık sıvılar",
         "newValue": "Sıvı karışımı",
         "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670756569207,
+        "oldValue": "Sıvı karışımı",
+        "newValue": "İçecek karışımı"
       }
     ]
   },
@@ -91,7 +115,7 @@
     ]
   },
   "units.liters": {
-    "value": "lt",
+    "value": "L",
     "history": [
       {
         "userId": 354576,
@@ -99,6 +123,12 @@
         "oldValue": "",
         "newValue": "lt",
         "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670756569207,
+        "oldValue": "lt",
+        "newValue": "L"
       }
     ]
   },
@@ -115,7 +145,7 @@
     ]
   },
   "units.milliliters": {
-    "value": "mlt",
+    "value": "mL",
     "history": [
       {
         "userId": 354576,
@@ -123,11 +153,17 @@
         "oldValue": "",
         "newValue": "mlt",
         "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670756569207,
+        "oldValue": "mlt",
+        "newValue": "mL"
       }
     ]
   },
   "units.molesPerLiter": {
-    "value": "mol/lt",
+    "value": "mol/L",
     "history": [
       {
         "userId": 354576,
@@ -135,11 +171,17 @@
         "oldValue": "",
         "newValue": "mol/lt",
         "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670756569207,
+        "oldValue": "mol/lt",
+        "newValue": "mol/L"
       }
     ]
   },
   "nickelIIChloride": {
-    "value": "Nikel (ıı) clorit",
+    "value": "Nikel(II) klorür",
     "history": [
       {
         "userId": 354576,
@@ -147,6 +189,12 @@
         "oldValue": "",
         "newValue": "Nikel (ıı) clorit",
         "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670756569207,
+        "oldValue": "Nikel (ıı) clorit",
+        "newValue": "Nikel(II) klorür"
       }
     ]
   },
@@ -230,7 +278,7 @@
     ]
   },
   "sodiumChloride": {
-    "value": "Sodyum klorit",
+    "value": "Sodyum klorür",
     "history": [
       {
         "userId": 354576,
@@ -238,6 +286,12 @@
         "oldValue": "",
         "newValue": "Sodyum klorit",
         "explanation": null
+      },
+      {
+        "userId": 838368,
+        "timestamp": 1670756569207,
+        "oldValue": "Sodyum klorit",
+        "newValue": "Sodyum klorür"
       }
     ]
   },
@@ -286,6 +340,39 @@
         "oldValue": "",
         "newValue": "Çözelti",
         "explanation": null
+      }
+    ]
+  },
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
+    "history": [
+      {
+        "userId": 838368,
+        "timestamp": 1670756569207,
+        "oldValue": "",
+        "newValue": "{0} {1}"
+      }
+    ]
+  },
+  "pattern.0percent": {
+    "value": "{0}%",
+    "history": [
+      {
+        "userId": 838368,
+        "timestamp": 1670756569207,
+        "oldValue": "",
+        "newValue": "{0}%"
+      }
+    ]
+  },
+  "pattern.0label": {
+    "value": "{0}:",
+    "history": [
+      {
+        "userId": 838368,
+        "timestamp": 1670756569207,
+        "oldValue": "",
+        "newValue": "{0}:"
       }
     ]
   },
