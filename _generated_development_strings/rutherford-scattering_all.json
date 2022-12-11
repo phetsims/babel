@@ -630,65 +630,83 @@
     }
   },
   "cs": {
-    "plumPuddingAtom": {
-      "value": "Atom švestkového pudinku"
+    "options.projectorMode": {
+      "value": "Mód projektoru"
     },
-    "numberOfProtons": {
-      "value": "Protonové číslo"
-    },
-    "rutherford-scattering.title": {
-      "value": "Rutherfordův rozptyl"
-    },
-    "maxEnergy": {
-      "value": "max"
-    },
-    "neutron": {
-      "value": "neutron"
+    "alphaParticleProperties": {
+      "value": "Vlastnosti alfa částic "
     },
     "energy": {
       "value": "Energie:"
     },
+    "maxEnergy": {
+      "value": "max"
+    },
     "minEnergy": {
       "value": "min"
     },
-    "alphaParticle": {
-      "value": "Alfa částice"
-    },
-    "numberOfNeutrons": {
-      "value": "Neutronové číslo"
-    },
     "showTraces": {
-      "value": "Zobrazit trasy"
+      "value": "Zobrazit dráhy"
     },
     "legend": {
       "value": "Legenda"
     },
-    "rutherfordAtom": {
-      "value": "Rutherfordův Atom"
-    },
-    "proton": {
-      "value": "proton"
-    },
-    "turnOnTheGun": {
-      "value": "Zapnout pistoly"
-    },
-    "pattern.0nuclearScale": {
-      "value": "{0} fm (jaderná stupnice)"
-    },
-    "atomProperties": {
-      "value": "Vlastnosti atomu"
+    "alphaParticle": {
+      "value": "alfa částice"
     },
     "electron": {
       "value": "elektron"
     },
-    "translation.credits": {
-      "value": "Matěj Picka"
+    "neutron": {
+      "value": "neutron"
     },
-    "alphaParticleProperties": {
-      "value": "Vlastnosto částic alfa"
+    "positiveCharge": {
+      "value": "kladný náboj"
+    },
+    "proton": {
+      "value": "proton"
+    },
+    "alphaParticles": {
+      "value": "alfa částice"
     },
     "pattern.0atomicScale": {
       "value": "{0} pm (atomová stupnice)"
+    },
+    "plumPuddingAtom": {
+      "value": "Atom švestkového pudinku"
+    },
+    "alphaParticleTrace": {
+      "value": "Dráha alfa částic"
+    },
+    "electronEnergyLevel": {
+      "value": "Energetická hladina elektronu"
+    },
+    "nucleus": {
+      "value": "Jádro"
+    },
+    "numberOfNeutrons": {
+      "value": "Neutronové číslo"
+    },
+    "numberOfProtons": {
+      "value": "Protonové číslo"
+    },
+    "pattern.0nuclearScale": {
+      "value": "{0} fm (jaderná stupnice)"
+    },
+    "rutherfordAtom": {
+      "value": "Rutherfordův atom"
+    },
+    "rutherford-scattering.title": {
+      "value": "Rutherfordův rozptyl"
+    },
+    "turnOnTheGun": {
+      "value": "Zapnout pistoly"
+    },
+    "atomProperties": {
+      "value": "Vlastnosti atomu"
+    },
+    "translation.credits": {
+      "value": "Matěj Picka"
     }
   },
   "cy": {
@@ -5018,32 +5036,20 @@
     }
   },
   "tr": {
-    "plumPuddingAtom": {
-      "value": "Plum Pudding atom modeli"
+    "options.projectorMode": {
+      "value": "Projektör Modu"
     },
-    "numberOfProtons": {
-      "value": "Proton sayısı"
-    },
-    "rutherford-scattering.title": {
-      "value": "Rutherford Saçılması"
-    },
-    "maxEnergy": {
-      "value": "mak"
-    },
-    "neutron": {
-      "value": "nötron"
+    "alphaParticleProperties": {
+      "value": "Alfa Taneciği"
     },
     "energy": {
       "value": "Enerji"
     },
+    "maxEnergy": {
+      "value": "mak"
+    },
     "minEnergy": {
       "value": "min"
-    },
-    "alphaParticle": {
-      "value": "Alfa Taneciği"
-    },
-    "numberOfNeutrons": {
-      "value": "Nötron sayısı"
     },
     "showTraces": {
       "value": "Tanecik izlerini göster"
@@ -5051,14 +5057,59 @@
     "legend": {
       "value": "Gösterimler"
     },
-    "int.minControlPanelWidth": {
-      "value": "250"
+    "alphaParticle": {
+      "value": "Alfa Taneciği"
     },
-    "rutherfordAtom": {
-      "value": "Rutherford Atom modeli"
+    "electron": {
+      "value": "Elektron"
+    },
+    "neutron": {
+      "value": "Nötron"
+    },
+    "positiveCharge": {
+      "value": "Pozitif Yük"
     },
     "proton": {
-      "value": "proton"
+      "value": "Proton"
+    },
+    "alphaParticles": {
+      "value": "Alfa Tanecikleri"
+    },
+    "pattern.0atomicScale": {
+      "value": "{0} m (atomik ölçek)"
+    },
+    "plumPuddingAtom": {
+      "value": "Üzümlü Kek Atom Modeli"
+    },
+    "alphaParticleTrace": {
+      "value": "Alfa Tanecik İzi"
+    },
+    "electronEnergyLevel": {
+      "value": "Elektron Enerji Seviyesi"
+    },
+    "nucleus": {
+      "value": "Çekirdek"
+    },
+    "atom": {
+      "value": "Atom"
+    },
+    "numberOfNeutrons": {
+      "value": "Nötron sayısı"
+    },
+    "numberOfProtons": {
+      "value": "Proton sayısı"
+    },
+    "pattern.0nuclearScale": {
+      "value": "{0} m (çekirdek ölçeği)"
+    },
+    "rutherfordAtom": {
+      "value": "Rutherford Atom Modeli"
+    },
+    "rutherford-scattering.title": {
+      "value": "Rutherford Saçılması"
+    },
+    "int.minControlPanelWidth": {
+      "value": "250"
     },
     "turnOnTheGun": {
       "value": "Sialhı ateşle"
@@ -5066,14 +5117,8 @@
     "atomProperties": {
       "value": "Atom özellikleri"
     },
-    "electron": {
-      "value": "elektron"
-    },
     "translation.credits": {
       "value": "Yusuf Ülkü"
-    },
-    "alphaParticleProperties": {
-      "value": "Alfa Tanecik Özellikleri"
     }
   },
   "tw": {

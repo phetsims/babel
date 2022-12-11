@@ -5135,6 +5135,12 @@
     }
   },
   "iw": {
+    "electronOverlap": {
+      "value": "(חפיפת אלקטרונים)"
+    },
+    "vanderwaals": {
+      "value": "(ואן דר ואלס)"
+    },
     "adjustableAttraction": {
       "value": "משיכה מותאמת"
     },
@@ -5147,8 +5153,23 @@
     "Atoms": {
       "value": "אטומים"
     },
+    "attractive": {
+      "value": "משיכה"
+    },
     "customAttraction": {
       "value": "התאמה אישית של משיכה"
+    },
+    "distanceBetweenAtoms": {
+      "value": "מרחק בין אטומים"
+    },
+    "distanceBetweenMolecules": {
+      "value": "מרחק בין מולקולות"
+    },
+    "forces": {
+      "value": "כוחות"
+    },
+    "hideForces": {
+      "value": "הסתר כוחות"
     },
     "interactionStrength": {
       "value": "עוצמת האינטראקציה (ε)"
@@ -5160,7 +5181,7 @@
       "value": "תנועה"
     },
     "neon": {
-      "value": "נאון"
+      "value": "ניאון"
     },
     "oxygen": {
       "value": "חמצן"
@@ -5168,50 +5189,29 @@
     "pinned": {
       "value": "קבוע"
     },
+    "potentialEnergy": {
+      "value": "אנרגיה פוטנציאלית"
+    },
+    "repulsive": {
+      "value": "דחייה"
+    },
+    "returnAtom": {
+      "value": "החזר אטום"
+    },
     "small": {
       "value": "קטן"
     },
     "strong": {
       "value": "חזק"
     },
-    "weak": {
-      "value": "חלש"
-    },
-    "attractive": {
-      "value": "משיכה"
-    },
-    "electronOverlap": {
-      "value": "(חפיפת אלקטרונים)"
-    },
-    "forces": {
-      "value": "כוחות"
-    },
-    "hideForces": {
-      "value": "הסתר כוחות"
-    },
-    "repulsive": {
-      "value": "דחייה"
-    },
     "totalForce": {
       "value": "כוח כולל"
     },
-    "vanderwaals": {
-      "value": "(ואן דר ואלס)"
-    },
-    "distanceBetweenAtoms": {
-      "value": "מרחק בין אטומים"
-    },
-    "distanceBetweenMolecules": {
-      "value": "מרחק בין מולקולות"
-    },
-    "potentialEnergy": {
-      "value": "אנרגיה פוטנציאלית"
+    "weak": {
+      "value": "חלש"
     },
     "normal": {
       "value": "רגיל"
-    },
-    "returnAtom": {
-      "value": "החזר אטום"
     },
     "slowMotion": {
       "value": "הילוך איטי"
@@ -11320,100 +11320,10 @@
   },
   "tr": {
     "adjustableAttraction": {
-      "value": "Ayarlanabilir Çekim gücü"
+      "value": "Ayarlanabilir Çekim Gücü"
     },
     "argon": {
       "value": "Argon"
-    },
-    "pressureUnitsInAtm": {
-      "value": "atm"
-    },
-    "AtomsAndMolecules": {
-      "value": "Atomlar ve Moleküller"
-    },
-    "criticalPoint": {
-      "value": "kritik<br>hal "
-    },
-    "distanceBetweenAtoms": {
-      "value": "Atomlar Arası Mesafe"
-    },
-    "distanceBetweenMolecules": {
-      "value": "Moleküller Arası Mesafe"
-    },
-    "gas": {
-      "value": "gaz"
-    },
-    "Gas": {
-      "value": "Gaz"
-    },
-    "interactionPotential": {
-      "value": "Etkileşim Potansiyeli"
-    },
-    "interactionStrengthWithSymbol": {
-      "value": "Etkileşim Sağlamlığı (ε)"
-    },
-    "kelvinUnits": {
-      "value": "K"
-    },
-    "Liquid": {
-      "value": "Sıvı"
-    },
-    "liquid": {
-      "value": "sıvı"
-    },
-    "neon": {
-      "value": "Neon"
-    },
-    "pressureOverload": {
-      "value": "AŞIRI YÜK"
-    },
-    "diatomicOxygen": {
-      "value": "Oksijen"
-    },
-    "phaseChanges": {
-      "value": "Hal Değişimleri"
-    },
-    "phaseDiagram": {
-      "value": "Hal Şeması"
-    },
-    "potentialEnergy": {
-      "value": "Potansiyel Enerji"
-    },
-    "pressure": {
-      "value": "Basınç"
-    },
-    "returnLid": {
-      "value": "Kapağı yerine koy"
-    },
-    "Solid": {
-      "value": "Katı"
-    },
-    "solid": {
-      "value": "katı"
-    },
-    "states": {
-      "value": "Haller"
-    },
-    "strong": {
-      "value": "güçlü"
-    },
-    "temperature": {
-      "value": "Sıcaklık"
-    },
-    "triplePoint": {
-      "value": "üçlü<br>hal"
-    },
-    "water": {
-      "value": "Su"
-    },
-    "weak": {
-      "value": "zayıf"
-    },
-    "epsilon": {
-      "value": "ε"
-    },
-    "sigma": {
-      "value": "σ"
     },
     "atomDiameter": {
       "value": "Atom Çapı (σ)"
@@ -11422,7 +11332,7 @@
       "value": "Atomlar"
     },
     "customAttraction": {
-      "value": "Ayarla"
+      "value": "Çekim Gücünü Özelleştir"
     },
     "interactionStrength": {
       "value": "Etkileşim Gücü (ε)"
@@ -11433,6 +11343,9 @@
     "moving": {
       "value": "Hareketli"
     },
+    "neon": {
+      "value": "Neon"
+    },
     "oxygen": {
       "value": "Oksijen"
     },
@@ -11442,8 +11355,17 @@
     "small": {
       "value": "küçük"
     },
+    "strong": {
+      "value": "güçlü"
+    },
+    "weak": {
+      "value": "zayıf"
+    },
+    "returnAtom": {
+      "value": "Atomu Geri Getir"
+    },
     "attractive": {
-      "value": "Çekici"
+      "value": "Çekim"
     },
     "electronOverlap": {
       "value": "(elektron çakışması)"
@@ -11455,7 +11377,7 @@
       "value": "Kuvvetleri Gizle"
     },
     "repulsive": {
-      "value": "İtici"
+      "value": "İtim"
     },
     "totalForce": {
       "value": "Toplam Kuvvet"
@@ -11463,20 +11385,101 @@
     "vanderwaals": {
       "value": "(van der Waals)"
     },
-    "normal": {
-      "value": "Normal"
+    "celsiusUnits": {
+      "value": "℃"
     },
-    "returnAtom": {
-      "value": "Atomu Geri Getir"
+    "kelvinUnits": {
+      "value": "K"
     },
-    "slowMotion": {
-      "value": "Yavaş Çekim"
+    "pressureOverload": {
+      "value": "AŞIRI YÜK"
+    },
+    "pressure": {
+      "value": "Basınç"
+    },
+    "pressureUnitsInAtm": {
+      "value": "atm"
+    },
+    "distanceBetweenAtoms": {
+      "value": "Atomlar Arası Mesafe"
+    },
+    "distanceBetweenMolecules": {
+      "value": "Moleküller Arası Mesafe"
+    },
+    "epsilon": {
+      "value": "ε"
+    },
+    "potentialEnergy": {
+      "value": "Potansiyel Enerji"
+    },
+    "sigma": {
+      "value": "σ"
+    },
+    "phaseChanges": {
+      "value": "Hal Değişimleri"
+    },
+    "interactionPotential": {
+      "value": "Etkileşim Potansiyeli"
+    },
+    "AtomsAndMolecules": {
+      "value": "Atomlar ve Moleküller"
+    },
+    "diatomicOxygen": {
+      "value": "Oksijen"
+    },
+    "interactionStrengthWithSymbol": {
+      "value": "Etkileşim Sağlamlığı (ε)"
+    },
+    "water": {
+      "value": "Su"
+    },
+    "returnLid": {
+      "value": "Kapağı Yerine Koy"
+    },
+    "criticalPoint": {
+      "value": "kritik<br>hal "
+    },
+    "gas": {
+      "value": "gaz"
+    },
+    "liquid": {
+      "value": "sıvı"
+    },
+    "solid": {
+      "value": "katı"
+    },
+    "temperature": {
+      "value": "Sıcaklık"
+    },
+    "triplePoint": {
+      "value": "üçlü<br>hal"
+    },
+    "phaseDiagram": {
+      "value": "Hal Şeması"
     },
     "interaction": {
       "value": "Etkileşim"
     },
     "states-of-matter.title": {
       "value": "Maddenin Halleri"
+    },
+    "states": {
+      "value": "Haller"
+    },
+    "Gas": {
+      "value": "Gaz"
+    },
+    "Liquid": {
+      "value": "Sıvı"
+    },
+    "Solid": {
+      "value": "Katı"
+    },
+    "normal": {
+      "value": "Normal"
+    },
+    "slowMotion": {
+      "value": "Yavaş Çekim"
     },
     "projectorMode": {
       "value": "Projektör Modu"

@@ -966,7 +966,7 @@
       "value": "Аўтары: {0}"
     },
     "credits.title": {
-      "value": "Пацверджанні"
+      "value": "Над праграмай працавалі"
     },
     "menuItem.enhancedSound": {
       "value": "Палепшаны гук"
@@ -1000,6 +1000,9 @@
     },
     "menuItem.phetWebsite": {
       "value": "Сайт PhET"
+    },
+    "projectorMode": {
+      "value": "Рэжым праектара"
     },
     "credits.qualityAssurance": {
       "value": "Тэсціраванне: {0}"
@@ -1051,9 +1054,6 @@
     },
     "updates.yourCurrentVersion": {
       "value": "Ваша бягучая версія: {0}."
-    },
-    "projectorMode": {
-      "value": "Рэжым праектара"
     },
     "preferences.tabs.visual.interactiveHighlightsDescription": {
       "value": "Дадавайце візуальныя моманты для мышы і дотыку падчас узаемадзеяння."
@@ -2041,17 +2041,11 @@
     "credits.title": {
       "value": "Zásluhy"
     },
-    "menuItem.enhancedSound": {
-      "value": "Vylepšený zvuk"
-    },
     "preferences.tabs.audio.sounds.extraSounds.title": {
       "value": "Další zvuky"
     },
     "menuItem.fullscreen": {
       "value": "Celá obrazovka"
-    },
-    "preferences.tabs.general.title": {
-      "value": "Obecně"
     },
     "updates.getUpdate": {
       "value": "Získat aktualizaci…"
@@ -2059,11 +2053,14 @@
     "credits.graphicArts": {
       "value": "Grafika: {0}"
     },
+    "preferences.tabs.visual.projectorModeDescription": {
+      "value": "Zvýšení barevného kontrastu pro lepší viditelnost v učebnách."
+    },
+    "preferences.tabs.input.title": {
+      "value": "Vstup"
+    },
     "preferences.tabs.visual.interactiveHighlights": {
       "value": "Interaktivní zvýraznění"
-    },
-    "ieErrorPage.ieIsNotSupported": {
-      "value": "Aplikace Internet Explorer není podporována."
     },
     "queryParametersWarningDialog.invalidQueryParameters": {
       "value": "Chybné parametry dotazu"
@@ -2074,6 +2071,9 @@
     "credits.leadDesign": {
       "value": "Design: {0}"
     },
+    "preferences.tabs.localization.title": {
+      "value": "Lokalizace"
+    },
     "updates.outOfDate": {
       "value": "Je dostupná nová verze"
     },
@@ -2083,17 +2083,11 @@
     "queryParametersWarningDialog.oneOrMoreQueryParameters": {
       "value": "Jeden nebo více těchto parametrů dotazu má<br>neplatné hodnoty:"
     },
-    "options.title": {
-      "value": "Možnosti"
-    },
-    "menuItem.options": {
-      "value": "Možnosti..."
+    "preferences.tabs.overview.title": {
+      "value": "Přehled"
     },
     "menuItem.phetWebsite": {
       "value": "PhET web…"
-    },
-    "ieErrorPage.platformError": {
-      "value": "Chyba platformy"
     },
     "preferences.tabs.audio.sounds.extraSounds.description": {
       "value": "Přehrajte další zvuk, který může být pro některé studenty užitečný."
@@ -2101,11 +2095,11 @@
     "preferences.tabs.audio.sounds.description": {
       "value": "Při interakci přehrávejte zvuky a zvukové efekty."
     },
-    "ieErrorPage.useDifferentBrowser": {
-      "value": "Pro spuštění této simulace použijte jiný prohlížeč."
-    },
     "preferences.title": {
       "value": "Předvolby"
+    },
+    "projectorMode": {
+      "value": "Mód projektoru"
     },
     "credits.qualityAssurance": {
       "value": "Zajištění kvality: {0}"
@@ -2115,6 +2109,9 @@
     },
     "menuItem.screenshot": {
       "value": "Náhled obrazovky"
+    },
+    "preferences.tabs.simulation.title": {
+      "value": "Simulace"
     },
     "credits.softwareDevelopment": {
       "value": "Vývoj software: {0}"
@@ -2164,11 +2161,38 @@
     "preferences.tabs.visual.title": {
       "value": "Vizuál"
     },
+    "preferences.tabs.audio.voicing.description": {
+      "value": "Převyprávění a zvýraznění obsahu při interakci."
+    },
+    "preferences.tabs.audio.voicing.titleEnglishOnly": {
+      "value": "Převyprávění (pouze anglicky)"
+    },
     "preferences.tabs.general.accessibilityIntro": {
       "value": "Do našich simulací přidáváme funkce, aby byly inkluzivnější. Některé z těchto funkcí podporují dostupnost pro studenty s různými potřebami a v různých prostředích. Prozkoumejte karty v této nabídce a zkontrolujte nebo změňte výchozí nastavení prezentace."
     },
     "updates.yourCurrentVersion": {
       "value": "Vaše současná verze je: {0}."
+    },
+    "menuItem.enhancedSound": {
+      "value": "Vylepšený zvuk"
+    },
+    "preferences.tabs.general.title": {
+      "value": "Obecně"
+    },
+    "ieErrorPage.ieIsNotSupported": {
+      "value": "Aplikace Internet Explorer není podporována."
+    },
+    "options.title": {
+      "value": "Možnosti"
+    },
+    "menuItem.options": {
+      "value": "Možnosti..."
+    },
+    "ieErrorPage.platformError": {
+      "value": "Chyba platformy"
+    },
+    "ieErrorPage.useDifferentBrowser": {
+      "value": "Pro spuštění této simulace použijte jiný prohlížeč."
     },
     "menuItem.mailInputEventsLog": {
       "value": "Mailuj log vstupních událostí"
@@ -2181,9 +2205,6 @@
     },
     "credits.translation": {
       "value": "Překlad"
-    },
-    "projectorMode": {
-      "value": "Mód projektoru"
     },
     "done": {
       "value": "Hotovo"
@@ -5728,8 +5749,14 @@
     "menuItem.about": {
       "value": "Apwopo"
     },
+    "preferences.tabs.visual.interactiveHighlightsDescription": {
+      "value": "Ajoute pwen fò visyèl pou souri a ak  touche a pandan w'ap entèraji."
+    },
     "preferences.tabs.audio.title": {
-      "value": "S"
+      "value": "Audyo"
+    },
+    "preferences.tabs.audio.audioFeatures.title": {
+      "value": "Fonksyonalite odyo"
     },
     "menuItem.getUpdate": {
       "value": "Chaché Mizajou"
@@ -5738,7 +5765,7 @@
       "value": "Chaché Mizajou"
     },
     "credits.contributors": {
-      "value": "Contributé : {0}"
+      "value": "Contribution : {0}"
     },
     "credits.title": {
       "value": "Kredi"
@@ -5746,26 +5773,35 @@
     "menuItem.enhancedSound": {
       "value": "Fils Améliore"
     },
+    "preferences.tabs.audio.sounds.extraSounds.title": {
+      "value": "Son siplemantè"
+    },
     "menuItem.fullscreen": {
-      "value": "Grand ekran"
+      "value": "Grand ékran"
+    },
+    "preferences.tabs.general.title": {
+      "value": "Jeneral"
     },
     "updates.getUpdate": {
       "value": "Pran Mizajou"
     },
     "credits.graphicArts": {
-      "value": "Grafik Atizay : {0}"
+      "value": "Grafik Atizay : {0}"
+    },
+    "preferences.tabs.visual.interactiveHighlights": {
+      "value": "Fè sayan ki entèraji"
     },
     "ieErrorPage.ieIsNotSupported": {
-      "value": "Internet Explorer pa sipote."
+      "value": "Internet Explorer par sipote."
     },
     "queryParametersWarningDialog.invalidQueryParameters": {
       "value": "Paramèt rechèch ki pa valab"
     },
     "keyboardShortcuts.title": {
-      "value": "Rakoussi klavye"
+      "value": "Rakousi klavye"
     },
     "credits.leadDesign": {
-      "value": ""
+      "value": "Konsepsyon pwensipal : {0}"
     },
     "updates.outOfDate": {
       "value": "Nouvo vèsyon disponib"
@@ -5788,11 +5824,20 @@
     "ieErrorPage.platformError": {
       "value": "Erè Platfòm "
     },
+    "preferences.tabs.audio.sounds.extraSounds.description": {
+      "value": "Jwe yon son anplis ki ka itil pou kèk aprenan."
+    },
+    "preferences.tabs.audio.sounds.description": {
+      "value": "Jwe sonifikasyon ak efè sonò pandan w'ap entèraji."
+    },
     "ieErrorPage.useDifferentBrowser": {
       "value": "Tanpri itilize yon navigatè diferan pou jwe similasyon sa a."
     },
+    "preferences.title": {
+      "value": "Rerans"
+    },
     "credits.qualityAssurance": {
-      "value": "Kalite des Asiras : {0}"
+      "value": "Kalite Asirans : {0}"
     },
     "menuItem.reportAProblem": {
       "value": "Rapòte yon Pwoblèm"
@@ -5801,13 +5846,16 @@
       "value": "Kapti ekran"
     },
     "credits.softwareDevelopment": {
-      "value": "Développeur Lojisyèl : {0}"
+      "value": "Devlopè Lojisyèl : {0}"
     },
     "credits.soundDesign": {
-      "value": "Conception fils : {0}"
+      "value": "Konsepsyon sonò : {0}"
+    },
+    "preferences.tabs.audio.sounds.title": {
+      "value": "Son"
     },
     "credits.team": {
-      "value": "Ékip : {0}"
+      "value": "Ekip : {0}"
     },
     "termsPrivacyAndLicensing": {
       "value": "Kondisyon, Konfidansyalite ak Lisans"
@@ -5827,6 +5875,9 @@
     "updates.upToDate": {
       "value": "Similasyon sa ajou"
     },
+    "preferences.tabs.general.moreAccessibility": {
+      "value": " Pou trouve lòt similation ak fonksyonalite inklisiv, chèche aksè ak enklizyon sou  paj filt similasyon an epi filtre pa fonksyonalite enklisiv"
+    },
     "keyboardShortcuts.toGetStarted": {
       "value": "Pou kòmanse"
     },
@@ -5839,11 +5890,17 @@
     "versionPattern": {
       "value": "vèsyon {0}"
     },
+    "preferences.tabs.visual.title": {
+      "value": "Vizyèl"
+    },
+    "preferences.tabs.general.accessibilityIntro": {
+      "value": "aksesiblite"
+    },
     "updates.yourCurrentVersion": {
-      "value": "Vèsyon kounye a se : {0}."
+      "value": "Vèsyon kounye a se : {0}."
     },
     "simTitleWithScreenNamePattern": {
-      "value": "{{simName}} — {{screenName}}"
+      "value": "{{simName}} — {{screenName}}"
     },
     "done": {
       "value": "Fini"
@@ -7114,7 +7171,7 @@
       "value": "צוות: {0}"
     },
     "termsPrivacyAndLicensing": {
-      "value": "תנאים, הגדרות פרטיות ורשיונות"
+      "value": "תנאים, הגדרות פרטיות ורישיונות"
     },
     "credits.thanks": {
       "value": "תודות"
@@ -15088,17 +15145,17 @@
     "menuItem.fullscreen": {
       "value": "Tam Ekran"
     },
-    "preferences.tabs.general.title": {
-      "value": "Genel"
-    },
     "updates.getUpdate": {
-      "value": "Güncelleme Al..."
+      "value": "Güncellemeleri Al..."
     },
     "credits.graphicArts": {
       "value": "Ekran Kartı: {0}"
     },
     "preferences.tabs.visual.projectorModeDescription": {
-      "value": "Sınıflarda daha iyi görünüm için renk kontrastını arttır"
+      "value": "Sınıflarda daha iyi görünüm için renk kontrastını arttır."
+    },
+    "preferences.tabs.input.title": {
+      "value": "Girdi"
     },
     "preferences.tabs.visual.interactiveHighlights": {
       "value": "Simülasyonda Öne Çıkanlar"
@@ -15120,6 +15177,9 @@
     },
     "queryParametersWarningDialog.oneOrMoreQueryParameters": {
       "value": "Bir ya da daha fazla sorgu parametresi <br>geçersiz değerlere sahip:"
+    },
+    "preferences.tabs.overview.title": {
+      "value": "Genel Bakış"
     },
     "menuItem.phetWebsite": {
       "value": "PhET Websitesi..."
@@ -15144,6 +15204,9 @@
     },
     "menuItem.screenshot": {
       "value": "Ekran görüntüsü"
+    },
+    "preferences.tabs.simulation.title": {
+      "value": "Simülasyon"
     },
     "credits.softwareDevelopment": {
       "value": "Yazılım Geliştirme: {0}"
@@ -15194,7 +15257,7 @@
       "value": "Görsel"
     },
     "preferences.tabs.general.accessibilityIntro": {
-      "value": "Simülasyonlarımızı daha kapsayıcı hale getirmek için özellikler ekliyoruz. Bu özelliklerden bazıları, farklı ihtiyaçları olan ve farklı ortamlarda bulunan öğrenciler için erişilebilirliği destekler. Varsayılan sunum ayarlarını gözden geçirmek veya değişti"
+      "value": "Simülasyonlarımızı daha kapsayıcı hale getirmek için özellikler ekliyoruz. Bu özelliklerden bazıları, farklı ihtiyaçları olan ve farklı ortamlarda bulunan öğrenciler için erişilebilirliği destekler. Varsayılan sunum ayarlarını gözden geçirmek veya değiştirmek için bu menüyü inceleyin."
     },
     "updates.yourCurrentVersion": {
       "value": "Mevcut kullandığınız versiyon: {0}"
@@ -15205,14 +15268,17 @@
     "menuItem.enhancedSound": {
       "value": "Gelişmiş Ses"
     },
+    "preferences.tabs.general.title": {
+      "value": "Genel"
+    },
     "ieErrorPage.ieIsNotSupported": {
-      "value": "Internet tarayıcınız desteklenmiyor."
+      "value": "İnternet tarayıcınız desteklenmiyor."
     },
     "options.title": {
       "value": "Ayarlar"
     },
     "menuItem.options": {
-      "value": "Ayarlar ..."
+      "value": "Ayarlar..."
     },
     "ieErrorPage.platformError": {
       "value": "Platform Hatası "
@@ -15220,8 +15286,8 @@
     "ieErrorPage.useDifferentBrowser": {
       "value": "Lütfen bu simülasyonu kullanabilmek için farklı bir tarayıcı kullanınız."
     },
-    "preferences.tabs.input.title": {
-      "value": "Girdi"
+    "credits.translation": {
+      "value": "Çeviri"
     },
     "done": {
       "value": "Bitti"
@@ -15231,9 +15297,6 @@
     },
     "showPointers": {
       "value": "İşaretçiyi göster"
-    },
-    "credits.translation": {
-      "value": "Çeviri"
     },
     "adaptedFrom": {
       "value": "adapte edilmiştir"

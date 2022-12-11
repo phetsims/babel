@@ -9719,6 +9719,9 @@
     "atmospheres": {
       "value": "atm"
     },
+    "kilopascals": {
+      "value": "kPa"
+    },
     "pressure": {
       "value": "Basınç"
     },
@@ -9729,7 +9732,7 @@
       "value": "T<sub>ort</sub> = {{value}} K"
     },
     "data": {
-      "value": "Bilgi"
+      "value": "Veri"
     },
     "centerOfMass": {
       "value": "Ağırlık Merkezi"
@@ -9750,7 +9753,7 @@
       "value": "Ara Bölmeyi Kaldır"
     },
     "resetDivider": {
-      "value": "Ara Bölmeyi Koy"
+      "value": "Ara Bölmeyi Sıfırla"
     },
     "particleFlowRate": {
       "value": "Tanecik Akış Oranı"
@@ -9762,10 +9765,13 @@
       "value": "Kronometre"
     },
     "nanometers": {
-      "value": "nanomt"
+      "value": "nm"
+    },
+    "valueUnits": {
+      "value": "{{value}} {{units}}"
     },
     "picoseconds": {
-      "value": "picosaniye"
+      "value": "ps"
     },
     "screen.diffusion": {
       "value": "Difüzyon "
@@ -9780,16 +9786,22 @@
       "value": "Örnek Periyot"
     },
     "wallCollisions": {
-      "value": "Kap Duvarına Çarpma"
+      "value": "Kabın Çeperi ile Çarpışmalar"
+    },
+    "degreesCelsius": {
+      "value": "°C"
+    },
+    "kelvin": {
+      "value": "K"
     },
     "returnLid": {
-      "value": "Kapağı yerine koy"
+      "value": "Kapağı Yerine Koy"
     },
     "oopsMaximumTemperature": {
-      "value": "Oops!<br><br>Maksimum sıcaklığa ulaşıldı."
+      "value": "Dikkat!<br><br>Maksimum sıcaklığa ulaşıldı."
     },
     "collisions": {
-      "value": "Çarpışma"
+      "value": "Çarpışmalar"
     },
     "heavy": {
       "value": "Ağır"
@@ -9798,7 +9810,7 @@
       "value": "Hafif"
     },
     "particles": {
-      "value": "Parçacıklar"
+      "value": "Tanecikler"
     },
     "screen.explore": {
       "value": "Keşfet"
@@ -9807,7 +9819,7 @@
       "value": "Basınç Gürültüsü"
     },
     "holdConstant.nothing": {
-      "value": "Boş"
+      "value": "Hiçbiri"
     },
     "holdConstant.pressureT": {
       "value": "Basınç ↕T"
@@ -9825,19 +9837,19 @@
       "value": "Hacim (V)"
     },
     "oopsPressureEmpty": {
-      "value": "Oops!<br><br>Kap boşken<br>basınç sabit tutulamaz."
+      "value": "Dikkat!<br><br>Kap boşken<br>basınç sabit tutulamaz."
     },
     "oopsPressureLarge": {
-      "value": "Oops!<br><br>Kabın hacmi çok büyük olacağından<br>basınç sabit tutulamaz."
+      "value": "Dikkat!<br><br>Kabın hacmi çok büyük olacağından<br>basınç sabit tutulamaz."
     },
     "oopsPressureSmall": {
-      "value": "Oops!<br><br>Kabın hacmi çok küçük olacağından<br>basınç sabit tutulamaz."
+      "value": "Dikkat!<br><br>Kabın hacmi çok küçük olacağından<br>basınç sabit tutulamaz."
     },
     "oopsTemperatureEmpty": {
-      "value": "Oops!<br><br>Kap boşken<br>sıcaklık sabit tutulamaz."
+      "value": "Dikkat!<br><br>Kap boşken<br>sıcaklık sabit tutulamaz."
     },
     "oopsTemperatureOpen": {
-      "value": "Oops!<br><br>Kap açıkken<br>sıcaklık sabit tutulamaz."
+      "value": "Dikkat!<br><br>Kap açıkken<br>sıcaklık sabit tutulamaz."
     },
     "screen.ideal": {
       "value": "İdeal"
@@ -9845,20 +9857,23 @@
     "averageSpeed": {
       "value": "Ortalama Hız"
     },
+    "metersPerSecond": {
+      "value": "m/s"
+    },
     "injectionTemperature": {
       "value": "Püskürtme Sıcaklığı"
     },
     "matchContainer": {
-      "value": "Kap ile aynı"
+      "value": "Kap ile Eşleştir"
     },
     "setTo": {
-      "value": "Ayarla: "
+      "value": "Şuna ayarla: "
     },
     "kineticEnergy": {
       "value": "Kinetik Enerji"
     },
     "speed": {
-      "value": "Hız"
+      "value": "Sürat"
     },
     "screen.energy": {
       "value": "Enerji"
