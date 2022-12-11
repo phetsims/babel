@@ -65,6 +65,39 @@
       }
     ]
   },
+  "balanceAmount": {
+    "value": "tekanyo ea ${{value}}",
+    "history": [
+      {
+        "userId": 1036340,
+        "timestamp": 1670774049168,
+        "oldValue": "",
+        "newValue": "tekanyo ea ${{value}}"
+      }
+    ]
+  },
+  "debtAmount": {
+    "value": "mokoloto oa ${{value}}",
+    "history": [
+      {
+        "userId": 1036340,
+        "timestamp": 1670774049168,
+        "oldValue": "",
+        "newValue": "mokoloto oa ${{value}}"
+      }
+    ]
+  },
+  "moneyAmount": {
+    "value": "{{currencyUnit}}{{value}}",
+    "history": [
+      {
+        "userId": 1036340,
+        "timestamp": 1670774049168,
+        "oldValue": "",
+        "newValue": "{{currencyUnit}}{{value}}"
+      }
+    ]
+  },
   "balance": {
     "value": "Ho leka-lekanya ",
     "history": [
@@ -76,25 +109,70 @@
       }
     ]
   },
+  "amountAboveSeaLevel": {
+    "value": "{{value}} m ka holimo ho  bophahamo ba leoatle",
+    "history": [
+      {
+        "userId": 1036340,
+        "timestamp": 1670774049168,
+        "oldValue": "",
+        "newValue": "{{value}} m ka holimo ho  bophahamo ba leoatle"
+      }
+    ]
+  },
+  "amountBelowSeaLevel": {
+    "value": "{{value}} m ka tlase ho bophahamoba leoatle",
+    "history": [
+      {
+        "userId": 1036340,
+        "timestamp": 1670774049168,
+        "oldValue": "",
+        "newValue": "{{value}} m ka tlase ho bophahamoba leoatle"
+      }
+    ]
+  },
   "seaLevel": {
-    "value": "bophahamo ba leoatle ",
+    "value": "bophahamo ba leoatle",
     "history": [
       {
         "userId": 1047969,
         "timestamp": 1662633164204,
         "oldValue": "",
         "newValue": "bophahamo ba leoatle "
+      },
+      {
+        "userId": 1036340,
+        "timestamp": 1670774049168,
+        "oldValue": "bophahamo ba leoatle ",
+        "newValue": "bophahamo ba leoatle"
+      }
+    ]
+  },
+  "elevationAmount": {
+    "value": "{{value}} m",
+    "history": [
+      {
+        "userId": 1036340,
+        "timestamp": 1670774049168,
+        "oldValue": "",
+        "newValue": "{{value}} m"
       }
     ]
   },
   "elevation": {
-    "value": "Phahamiso ",
+    "value": "bophahamo",
     "history": [
       {
         "userId": 1047969,
         "timestamp": 1662633164204,
         "oldValue": "",
         "newValue": "Phahamiso "
+      },
+      {
+        "userId": 1036340,
+        "timestamp": 1670774049168,
+        "oldValue": "Phahamiso ",
+        "newValue": "bophahamo"
       }
     ]
   },
@@ -260,6 +338,61 @@
         "timestamp": 1662633164204,
         "oldValue": "",
         "newValue": "Mola oa Nomoro "
+      }
+    ]
+  },
+  "negativeTemperatureAmount": {
+    "value": "{{value}}° ka tlaase ho 0",
+    "history": [
+      {
+        "userId": 1036340,
+        "timestamp": 1670774049168,
+        "oldValue": "",
+        "newValue": "{{value}}° ka tlaase ho 0"
+      }
+    ]
+  },
+  "positiveTemperatureAmount": {
+    "value": "{{value}}°  Ka holimo ho 0",
+    "history": [
+      {
+        "userId": 1036340,
+        "timestamp": 1670774049168,
+        "oldValue": "",
+        "newValue": "{{value}}°  Ka holimo ho 0"
+      }
+    ]
+  },
+  "zeroTemperatureAmount": {
+    "value": "{{value}}° ",
+    "history": [
+      {
+        "userId": 1036340,
+        "timestamp": 1670774049168,
+        "oldValue": "",
+        "newValue": "{{value}}° "
+      }
+    ]
+  },
+  "temperatureAmountCelsius": {
+    "value": "{{value}}° C",
+    "history": [
+      {
+        "userId": 1036340,
+        "timestamp": 1670774049168,
+        "oldValue": "",
+        "newValue": "{{value}}° C"
+      }
+    ]
+  },
+  "temperatureAmountFahrenheit": {
+    "value": "{{value}}° F",
+    "history": [
+      {
+        "userId": 1036340,
+        "timestamp": 1670774049168,
+        "oldValue": "",
+        "newValue": "{{value}}° F"
       }
     ]
   },
