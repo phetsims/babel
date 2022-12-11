@@ -1,6 +1,42 @@
 {
+  "screen.macro": {
+    "value": "बृहत्",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1503149141856,
+        "oldValue": "",
+        "newValue": "बृहत्",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.micro": {
+    "value": "सूक्ष्म ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1503149141856,
+        "oldValue": "",
+        "newValue": "सूक्ष्म ",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.mySolution": {
+    "value": "मेरा विलयन ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1503149141856,
+        "oldValue": "",
+        "newValue": "मेरा विलयन ",
+        "explanation": null
+      }
+    ]
+  },
   "acidic": {
-    "value": "अम्ल ",
+    "value": "अम्लीय",
     "history": [
       {
         "userId": 339847,
@@ -8,17 +44,53 @@
         "oldValue": "",
         "newValue": "अम्ल ",
         "explanation": null
+      },
+      {
+        "userId": 543754,
+        "timestamp": 1670777933765,
+        "oldValue": "अम्ल ",
+        "newValue": "अम्लीय"
       }
     ]
   },
   "basic": {
-    "value": "भस्म ",
+    "value": "क्षारीय",
     "history": [
       {
         "userId": 339847,
         "timestamp": 1503149141856,
         "oldValue": "",
         "newValue": "भस्म ",
+        "explanation": null
+      },
+      {
+        "userId": 543754,
+        "timestamp": 1670777933766,
+        "oldValue": "भस्म ",
+        "newValue": "क्षारीय"
+      }
+    ]
+  },
+  "pH": {
+    "value": "pH ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1503149141856,
+        "oldValue": "",
+        "newValue": "pH ",
+        "explanation": null
+      }
+    ]
+  },
+  "neutral": {
+    "value": "उदासीन ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1503149141856,
+        "oldValue": "",
+        "newValue": "उदासीन ",
         "explanation": null
       }
     ]
@@ -71,20 +143,8 @@
       }
     ]
   },
-  "choice.custom": {
-    "value": "कस्टम ",
-    "history": [
-      {
-        "userId": 339847,
-        "timestamp": 1503149141856,
-        "oldValue": "",
-        "newValue": "कस्टम ",
-        "explanation": null
-      }
-    ]
-  },
   "choice.drainCleaner": {
-    "value": "नाली सफाई का द्रव ",
+    "value": "नाली स्वच्छक",
     "history": [
       {
         "userId": 339847,
@@ -92,6 +152,12 @@
         "oldValue": "",
         "newValue": "नाली सफाई का द्रव ",
         "explanation": null
+      },
+      {
+        "userId": 543754,
+        "timestamp": 1670777933766,
+        "oldValue": "नाली सफाई का द्रव ",
+        "newValue": "नाली स्वच्छक"
       }
     ]
   },
@@ -132,7 +198,7 @@
     ]
   },
   "choice.soda": {
-    "value": "कोल्ड्रिंक ",
+    "value": "सोडा-पानी",
     "history": [
       {
         "userId": 339847,
@@ -140,6 +206,12 @@
         "oldValue": "",
         "newValue": "कोल्ड्रिंक ",
         "explanation": null
+      },
+      {
+        "userId": 543754,
+        "timestamp": 1670777933766,
+        "oldValue": "कोल्ड्रिंक ",
+        "newValue": "सोडा-पानी"
       }
     ]
   },
@@ -179,38 +251,44 @@
       }
     ]
   },
-  "concentration": {
-    "value": "सांद्रता ",
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
     "history": [
       {
         "userId": 339847,
         "timestamp": 1503149141856,
         "oldValue": "",
-        "newValue": "सांद्रता ",
+        "newValue": "{0} {1}",
         "explanation": null
       }
     ]
   },
-  "linear": {
-    "value": "रेखिक ",
+  "units.liters": {
+    "value": "ली.",
     "history": [
       {
         "userId": 339847,
         "timestamp": 1503149141856,
         "oldValue": "",
-        "newValue": "रेखिक ",
+        "newValue": "ली",
         "explanation": null
+      },
+      {
+        "userId": 543754,
+        "timestamp": 1670777933766,
+        "oldValue": "ली",
+        "newValue": "ली."
       }
     ]
   },
-  "logarithmic": {
-    "value": "लघुगणक ",
+  "ratio": {
+    "value": "अनुपात ",
     "history": [
       {
         "userId": 339847,
         "timestamp": 1503149141856,
         "oldValue": "",
-        "newValue": "लघुगणक ",
+        "newValue": "अनुपात ",
         "explanation": null
       }
     ]
@@ -227,14 +305,26 @@
       }
     ]
   },
-  "neutral": {
-    "value": "उदासीन ",
+  "logarithmic": {
+    "value": "लघुगणक ",
     "history": [
       {
         "userId": 339847,
         "timestamp": 1503149141856,
         "oldValue": "",
-        "newValue": "उदासीन ",
+        "newValue": "लघुगणक ",
+        "explanation": null
+      }
+    ]
+  },
+  "linear": {
+    "value": "रेखिक ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1503149141856,
+        "oldValue": "",
+        "newValue": "रेखिक ",
         "explanation": null
       }
     ]
@@ -251,39 +341,33 @@
       }
     ]
   },
-  "pH": {
-    "value": "pH ",
+  "concentration": {
+    "value": "सांद्रता ",
     "history": [
       {
         "userId": 339847,
         "timestamp": 1503149141856,
         "oldValue": "",
-        "newValue": "pH ",
+        "newValue": "सांद्रता ",
         "explanation": null
       }
     ]
   },
-  "pattern.0value.1units": {
-    "value": "{0} {1}",
+  "units.molesPerLiter": {
+    "value": "मोल/ली.",
     "history": [
       {
         "userId": 339847,
         "timestamp": 1503149141856,
         "oldValue": "",
-        "newValue": "{0} {1}",
+        "newValue": "मोल/ली",
         "explanation": null
-      }
-    ]
-  },
-  "ph-scale.title": {
-    "value": "pH माप ",
-    "history": [
+      },
       {
-        "userId": 339847,
-        "timestamp": 1503149141856,
-        "oldValue": "",
-        "newValue": "pH माप ",
-        "explanation": null
+        "userId": 543754,
+        "timestamp": 1670777933766,
+        "oldValue": "मोल/ली",
+        "newValue": "मोल/ली."
       }
     ]
   },
@@ -295,66 +379,6 @@
         "timestamp": 1503149141856,
         "oldValue": "",
         "newValue": "मात्रा ",
-        "explanation": null
-      }
-    ]
-  },
-  "ratio": {
-    "value": "अनुपात ",
-    "history": [
-      {
-        "userId": 339847,
-        "timestamp": 1503149141856,
-        "oldValue": "",
-        "newValue": "अनुपात ",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.macro": {
-    "value": "बृहत्",
-    "history": [
-      {
-        "userId": 339847,
-        "timestamp": 1503149141856,
-        "oldValue": "",
-        "newValue": "बृहत्",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.micro": {
-    "value": "सूक्ष्म ",
-    "history": [
-      {
-        "userId": 339847,
-        "timestamp": 1503149141856,
-        "oldValue": "",
-        "newValue": "सूक्ष्म ",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.mySolution": {
-    "value": "मेरा विलयन ",
-    "history": [
-      {
-        "userId": 339847,
-        "timestamp": 1503149141856,
-        "oldValue": "",
-        "newValue": "मेरा विलयन ",
-        "explanation": null
-      }
-    ]
-  },
-  "units.liters": {
-    "value": "ली",
-    "history": [
-      {
-        "userId": 339847,
-        "timestamp": 1503149141856,
-        "oldValue": "",
-        "newValue": "ली",
         "explanation": null
       }
     ]
@@ -371,14 +395,26 @@
       }
     ]
   },
-  "units.molesPerLiter": {
-    "value": "मोल/ली",
+  "ph-scale.title": {
+    "value": "pH माप ",
     "history": [
       {
         "userId": 339847,
         "timestamp": 1503149141856,
         "oldValue": "",
-        "newValue": "मोल/ली",
+        "newValue": "pH माप ",
+        "explanation": null
+      }
+    ]
+  },
+  "choice.custom": {
+    "value": "कस्टम ",
+    "history": [
+      {
+        "userId": 339847,
+        "timestamp": 1503149141856,
+        "oldValue": "",
+        "newValue": "कस्टम ",
         "explanation": null
       }
     ]
