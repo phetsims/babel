@@ -12625,17 +12625,32 @@
     }
   },
   "st": {
-    "keyboardHelpDialog.adjustInLargerSteps": {
-      "value": "fetola mehato e meholoanyane"
+    "keyboardHelpDialog.hyphen": {
+      "value": "-"
     },
-    "keyboardHelpDialog.adjustInSmallerSteps": {
-      "value": "fetola mehato e khut'soanyane"
+    "keyboardHelpDialog.comboBox.popUpListPattern": {
+      "value": "kenya lenane la{{thingPlural}}"
     },
-    "keyboardHelpDialog.adjustSlider": {
-      "value": "fetola sethellisa"
+    "keyboardHelpDialog.comboBox.moveThroughPattern": {
+      "value": "tsamaea ka hare {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.chooseNewPattern": {
+      "value": "khetha e ncha {{thingSingular}}"
+    },
+    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+      "value": "koala lenane u fetola"
+    },
+    "keyboardHelpDialog.adjust": {
+      "value": "eketsa"
     },
     "keyboardHelpDialog.basicActions": {
       "value": "Liketso tsa Motheo "
+    },
+    "key.capsLock": {
+      "value": "Senotlolo sa litlhaku tse kholo "
+    },
+    "eight": {
+      "value": "robeli"
     },
     "key.end": {
       "value": "Qetello"
@@ -12649,6 +12664,15 @@
     "keyboardHelpDialog.exitADialog": {
       "value": "tsoa puisano"
     },
+    "five": {
+      "value": "hlano"
+    },
+    "key.fn": {
+      "value": "Fn"
+    },
+    "four": {
+      "value": "'ne"
+    },
     "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
       "value": "t'soara kapa tlohela  {{thing}}"
     },
@@ -12658,26 +12682,38 @@
     "key.home": {
       "value": "Hae"
     },
-    "keyboardHelpDialog.jumpToMaximum": {
-      "value": "ho qhoma ho felletseng"
+    "keyboardHelpDialog.jumpToMaximumPattern": {
+      "value": "qhomela ho  {{maximum}}"
     },
-    "keyboardHelpDialog.jumpToMinimum": {
-      "value": "ho qhoma ho sa fellang"
+    "keyboardHelpDialog.jumpToMinimumPattern": {
+      "value": "qhomela ho {{minimum}}"
+    },
+    "keyboardHelpDialog.maximum": {
+      "value": "e felletseng"
+    },
+    "keyboardHelpDialog.minimum": {
+      "value": "e sa fellang"
     },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "Tsamaisa pakeng tsa dintho ka sehlopha "
     },
-    "keyboardHelpDialog.moveToNextItem": {
-      "value": "Suthela nthong e latelang "
-    },
     "keyboardHelpDialog.moveToNextItemOrGroup": {
       "value": "E-ea ho ntho kapa sehlopha se latelang "
     },
-    "keyboardHelpDialog.moveToPreviousItem": {
-      "value": "Suthela nthong e fetileng "
-    },
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "Suthela nthong kapa sehlopha se fetileng "
+    },
+    "nine": {
+      "value": "robong"
+    },
+    "one": {
+      "value": "'ngoe"
+    },
+    "keyboardHelpDialog.comboBox.option": {
+      "value": "khetho"
+    },
+    "keyboardHelpDialog.comboBox.options": {
+      "value": "likhetho"
     },
     "keyboardHelpDialog.or": {
       "value": "kapa"
@@ -12691,8 +12727,17 @@
     "keyboardHelpDialog.pressButtons": {
       "value": "Tobetsa likonopo "
     },
+    "seven": {
+      "value": "supa"
+    },
     "key.shift": {
       "value": "Chechisa"
+    },
+    "six": {
+      "value": "t'selela"
+    },
+    "keyboardHelpDialog.slider": {
+      "value": "sethellisa"
     },
     "keyboardHelpDialog.sliderControls": {
       "value": "laola sethellisa"
@@ -12703,23 +12748,59 @@
     "key.tab": {
       "value": "Tlanya"
     },
+    "ten": {
+      "value": "leshome"
+    },
+    "three": {
+      "value": "tharo"
+    },
+    "keyboardHelpDialog.toggleCheckboxes": {
+      "value": "Fetolela li-checkbox"
+    },
+    "two": {
+      "value": "peli"
+    },
+    "zero": {
+      "value": "noto"
+    },
+    "keyboardHelpDialog.verbInLargerStepsPattern": {
+      "value": "{{verb}} mehato e meholo"
+    },
+    "keyboardHelpDialog.verbInSmallerStepsPattern": {
+      "value": "{{verb}} mehato e menyane"
+    },
+    "keyboardHelpDialog.verbSliderPattern": {
+      "value": "{{verb}} {{slider}}"
+    },
     "symbol.resistivity": {
       "value": "ρ"
     },
     "symbol.ohms": {
       "value": "Ω"
     },
-    "keyboardHelpDialog.hyphen": {
-      "value": "-"
+    "keyboardHelpDialog.adjustInLargerSteps": {
+      "value": "fetola mehato e meholoanyane"
     },
-    "key.capsLock": {
-      "value": "Senotlolo sa litlhaku tse kholo "
+    "keyboardHelpDialog.adjustInSmallerSteps": {
+      "value": "fetola mehato e khut'soanyane"
+    },
+    "keyboardHelpDialog.adjustSlider": {
+      "value": "fetola sethellisa"
+    },
+    "keyboardHelpDialog.jumpToMaximum": {
+      "value": "ho qhoma ho felletseng"
+    },
+    "keyboardHelpDialog.jumpToMinimum": {
+      "value": "ho qhoma ho sa fellang"
+    },
+    "keyboardHelpDialog.moveToNextItem": {
+      "value": "Suthela nthong e latelang "
+    },
+    "keyboardHelpDialog.moveToPreviousItem": {
+      "value": "Suthela nthong e fetileng "
     },
     "speed.fast": {
       "value": "kapele"
-    },
-    "key.fn": {
-      "value": "Fn"
     },
     "speed.normal": {
       "value": "tloaelo"
@@ -12727,23 +12808,11 @@
     "speed.slow": {
       "value": "butle"
     },
-    "keyboardHelpDialog.toggleCheckboxes": {
-      "value": "Fetolela li-checkbox"
-    },
     "measuringTapeReadoutPattern": {
       "value": "{{distance}} {{units}}"
     },
     "stopwatchValueUnitsPattern": {
       "value": "{{value}} {{units}}"
-    },
-    "keyboardHelpDialog.adjust": {
-      "value": "eketsa"
-    },
-    "keyboardHelpDialog.jumpToMaximumPattern": {
-      "value": "qhomela ho  {{maximum}}"
-    },
-    "keyboardHelpDialog.jumpToMinimumPattern": {
-      "value": "qhomela ho {{minimum}}"
     },
     "units_nm": {
       "value": "nm"
