@@ -21,6 +21,39 @@
       }
     ]
   },
+  "genericAbsoluteDistanceTemplate": {
+    "value": "{{secondaryPointControllerLabel}} ve {{primaryPointControllerLabel}} birbirlerinden {{difference}} {{units}} uzaklar.",
+    "history": [
+      {
+        "userId": 1015320,
+        "timestamp": 1671211774408,
+        "oldValue": "",
+        "newValue": "{{secondaryPointControllerLabel}} ve {{primaryPointControllerLabel}} birbirlerinden {{difference}} {{units}} uzaklar."
+      }
+    ]
+  },
+  "genericDirectedPositiveDistanceTemplate": {
+    "value": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}}den {{difference}} {{units}} daha pozitif.",
+    "history": [
+      {
+        "userId": 1015320,
+        "timestamp": 1671211774408,
+        "oldValue": "",
+        "newValue": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}}den {{difference}} {{units}} daha pozitif."
+      }
+    ]
+  },
+  "genericDirectedNegativeDistanceTemplate": {
+    "value": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}}den {{difference}} {{units}} daha negatif.",
+    "history": [
+      {
+        "userId": 1015320,
+        "timestamp": 1671211774408,
+        "oldValue": "",
+        "newValue": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}}den {{difference}} {{units}} daha negatif."
+      }
+    ]
+  },
   "unit": {
     "value": "birim",
     "history": [
@@ -109,6 +142,39 @@
       }
     ]
   },
+  "distanceSceneAbsoluteDistanceTemplate": {
+    "value": "{{secondaryPointControllerLabel}} ve {{primaryPointControllerLabel}} birbirlerinden {{difference}} {{units}} uzaklar.",
+    "history": [
+      {
+        "userId": 1015320,
+        "timestamp": 1671211774409,
+        "oldValue": "",
+        "newValue": "{{secondaryPointControllerLabel}} ve {{primaryPointControllerLabel}} birbirlerinden {{difference}} {{units}} uzaklar."
+      }
+    ]
+  },
+  "distanceSceneDirectedPositiveDistanceTemplate": {
+    "value": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}}'nın  {{difference}} {{units}} doğusunda.",
+    "history": [
+      {
+        "userId": 1015320,
+        "timestamp": 1671211774409,
+        "oldValue": "",
+        "newValue": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}}'nın  {{difference}} {{units}} doğusunda."
+      }
+    ]
+  },
+  "distanceSceneDirectedNegativeDistanceTemplate": {
+    "value": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}}'nın  {{difference}} {{units}} batısında.",
+    "history": [
+      {
+        "userId": 1015320,
+        "timestamp": 1671211774409,
+        "oldValue": "",
+        "newValue": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}}'nın  {{difference}} {{units}} batısında."
+      }
+    ]
+  },
   "symbol.meters": {
     "value": "m",
     "history": [
@@ -164,6 +230,39 @@
       }
     ]
   },
+  "temperatureSceneAbsoluteDistanceTemplate": {
+    "value": "Sıcaklık farkı {{difference}} {{units}}.",
+    "history": [
+      {
+        "userId": 1015320,
+        "timestamp": 1671211774409,
+        "oldValue": "",
+        "newValue": "Sıcaklık farkı {{difference}} {{units}}."
+      }
+    ]
+  },
+  "temperatureSceneDirectedPositiveDistanceTemplate": {
+    "value": "Konum {{secondaryPointControllerLabel}} konum {{primaryPointControllerLabel}}'den  {{difference}} {{units}} daha sıcak.",
+    "history": [
+      {
+        "userId": 1015320,
+        "timestamp": 1671211774409,
+        "oldValue": "",
+        "newValue": "Konum {{secondaryPointControllerLabel}} konum {{primaryPointControllerLabel}}'den  {{difference}} {{units}} daha sıcak."
+      }
+    ]
+  },
+  "temperatureSceneDirectedNegativeDistanceTemplate": {
+    "value": "Konum {{secondaryPointControllerLabel}} konum {{primaryPointControllerLabel}}'den  {{difference}} {{units}} daha soğuk.",
+    "history": [
+      {
+        "userId": 1015320,
+        "timestamp": 1671211774409,
+        "oldValue": "",
+        "newValue": "Konum {{secondaryPointControllerLabel}} konum {{primaryPointControllerLabel}}'den  {{difference}} {{units}} daha soğuk."
+      }
+    ]
+  },
   "symbol.degreesCelsius": {
     "value": "°C",
     "history": [
@@ -216,6 +315,39 @@
         "timestamp": 1631460729333,
         "oldValue": "",
         "newValue": "kuş"
+      }
+    ]
+  },
+  "elevationSceneAbsoluteDistanceTemplate": {
+    "value": "{{secondaryPointControllerLabel}} ve {{primaryPointControllerLabel}} birbirlerinden {{difference}} {{units}} dikey uzaklıktadır.",
+    "history": [
+      {
+        "userId": 1015320,
+        "timestamp": 1671211774409,
+        "oldValue": "",
+        "newValue": "{{secondaryPointControllerLabel}} ve {{primaryPointControllerLabel}} birbirlerinden {{difference}} {{units}} dikey uzaklıktadır."
+      }
+    ]
+  },
+  "elevationSceneDirectedPositiveDistanceTemplate": {
+    "value": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}} {{difference}} {{units}} yukarısındadır.",
+    "history": [
+      {
+        "userId": 1015320,
+        "timestamp": 1671211774409,
+        "oldValue": "",
+        "newValue": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}} {{difference}} {{units}} yukarısındadır."
+      }
+    ]
+  },
+  "elevationSceneDirectedNegativeDistanceTemplate": {
+    "value": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}} {{difference}} {{units}} aşağısındadır.",
+    "history": [
+      {
+        "userId": 1015320,
+        "timestamp": 1671211774409,
+        "oldValue": "",
+        "newValue": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}} {{difference}} {{units}} aşağısındadır."
       }
     ]
   },
