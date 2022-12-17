@@ -4881,6 +4881,15 @@
     "screen.generic": {
       "value": "Genel"
     },
+    "genericAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} ve {{primaryPointControllerLabel}} birbirlerinden {{difference}} {{units}} uzaklar."
+    },
+    "genericDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}}den {{difference}} {{units}} daha pozitif."
+    },
+    "genericDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}}den {{difference}} {{units}} daha negatif."
+    },
     "unit": {
       "value": "birim"
     },
@@ -4905,6 +4914,15 @@
     "person": {
       "value": "birey"
     },
+    "distanceSceneAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} ve {{primaryPointControllerLabel}} birbirlerinden {{difference}} {{units}} uzaklar."
+    },
+    "distanceSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}}'nın  {{difference}} {{units}} doğusunda."
+    },
+    "distanceSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}}'nın  {{difference}} {{units}} batısında."
+    },
     "symbol.meters": {
       "value": "m"
     },
@@ -4920,6 +4938,15 @@
     "symbol.B": {
       "value": "B"
     },
+    "temperatureSceneAbsoluteDistanceTemplate": {
+      "value": "Sıcaklık farkı {{difference}} {{units}}."
+    },
+    "temperatureSceneDirectedPositiveDistanceTemplate": {
+      "value": "Konum {{secondaryPointControllerLabel}} konum {{primaryPointControllerLabel}}'den  {{difference}} {{units}} daha sıcak."
+    },
+    "temperatureSceneDirectedNegativeDistanceTemplate": {
+      "value": "Konum {{secondaryPointControllerLabel}} konum {{primaryPointControllerLabel}}'den  {{difference}} {{units}} daha soğuk."
+    },
     "symbol.degreesCelsius": {
       "value": "°C"
     },
@@ -4934,6 +4961,15 @@
     },
     "bird": {
       "value": "kuş"
+    },
+    "elevationSceneAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} ve {{primaryPointControllerLabel}} birbirlerinden {{difference}} {{units}} dikey uzaklıktadır."
+    },
+    "elevationSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}} {{difference}} {{units}} yukarısındadır."
+    },
+    "elevationSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}} {{difference}} {{units}} aşağısındadır."
     },
     "pointLabels": {
       "value": "Puan Etiketleri"
@@ -4957,7 +4993,7 @@
       "value": "Mesafe Bildirimi"
     },
     "number-line-distance.title": {
-      "value": "Sayı Doğrusu: Mesafe Hesaplama"
+      "value": "Sayı Doğrusu: Mesafe"
     }
   },
   "tw": {
