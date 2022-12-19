@@ -1,18 +1,79 @@
 {
-  "amplitude": {
-    "value": "அலைவீச்சு",
+  "rulers": {
+    "value": "அடிமட்டம்",
     "history": [
       {
         "userId": 190960,
         "timestamp": 1464320213825,
         "oldValue": "",
-        "newValue": "அலைவீச்சு",
+        "newValue": "வரைகோல்கள்",
+        "explanation": null
+      },
+      {
+        "userId": 603471,
+        "timestamp": 1671463720832,
+        "oldValue": "வரைகோல்கள்",
+        "newValue": "அடிமட்டம்"
+      }
+    ]
+  },
+  "timer": {
+    "value": "கடிகாரம்",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1464320213825,
+        "oldValue": "",
+        "newValue": "காலக்கணிப்பி",
+        "explanation": null
+      },
+      {
+        "userId": 603471,
+        "timestamp": 1671463720832,
+        "oldValue": "காலக்கணிப்பி",
+        "newValue": "கடிகாரம்"
+      }
+    ]
+  },
+  "referenceLine": {
+    "value": "மேற்கோள் கோடு",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1464320213825,
+        "oldValue": "",
+        "newValue": "மேற்கோள் வரி",
+        "explanation": null
+      },
+      {
+        "userId": 190960,
+        "timestamp": 1465978746917,
+        "oldValue": "மேற்கோள் வரி",
+        "newValue": "மேற்கோள் கோடு",
         "explanation": null
       }
     ]
   },
+  "tension": {
+    "value": "இழுவை",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1464320213825,
+        "oldValue": "",
+        "newValue": "பதற்றம்",
+        "explanation": null
+      },
+      {
+        "userId": 603471,
+        "timestamp": 1671463720832,
+        "oldValue": "பதற்றம்",
+        "newValue": "இழுவை"
+      }
+    ]
+  },
   "damping": {
-    "value": "ஒடுக்கல்",
+    "value": "ஒடுக்கல் (Damping)",
     "history": [
       {
         "userId": 190960,
@@ -20,17 +81,59 @@
         "oldValue": "",
         "newValue": "ஒடுக்கல்",
         "explanation": null
+      },
+      {
+        "userId": 603471,
+        "timestamp": 1671463720832,
+        "oldValue": "ஒடுக்கல்",
+        "newValue": "ஒடுக்கல் (Damping)"
       }
     ]
   },
-  "fixedEnd": {
-    "value": "நிலையான முடிவு",
+  "low": {
+    "value": "குறைவு",
     "history": [
       {
         "userId": 190960,
         "timestamp": 1464320213825,
         "oldValue": "",
-        "newValue": "நிலையான முடிவு",
+        "newValue": "குறைவு",
+        "explanation": null
+      }
+    ]
+  },
+  "high": {
+    "value": "உயர்வு",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1464320213825,
+        "oldValue": "",
+        "newValue": "உயர்வு",
+        "explanation": null
+      }
+    ]
+  },
+  "none": {
+    "value": "ஒன்றுமில்லை",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1464320213825,
+        "oldValue": "",
+        "newValue": "ஒன்றுமில்லை",
+        "explanation": null
+      }
+    ]
+  },
+  "lots": {
+    "value": "நிறைய",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1464320213825,
+        "oldValue": "",
+        "newValue": "நிறைய",
         "explanation": null
       }
     ]
@@ -54,50 +157,68 @@
       }
     ]
   },
-  "high": {
-    "value": "உயர்வு",
+  "pulseWidth": {
+    "value": "துடிப்பு அகலம்",
     "history": [
       {
         "userId": 190960,
         "timestamp": 1464320213825,
         "oldValue": "",
-        "newValue": "உயர்வு",
+        "newValue": "துடிப்பு அகலம்",
         "explanation": null
       }
     ]
   },
-  "looseEnd": {
-    "value": "தளர்வான முடிவு",
+  "amplitude": {
+    "value": "வீச்சம்",
     "history": [
       {
         "userId": 190960,
         "timestamp": 1464320213825,
         "oldValue": "",
-        "newValue": "தளர்வான முடிவு",
+        "newValue": "அலைவீச்சு",
+        "explanation": null
+      },
+      {
+        "userId": 603471,
+        "timestamp": 1671463720832,
+        "oldValue": "அலைவீச்சு",
+        "newValue": "வீச்சம்"
+      }
+    ]
+  },
+  "restart": {
+    "value": "மீள ஆரம்பி",
+    "history": [
+      {
+        "userId": 190960,
+        "timestamp": 1464320213825,
+        "oldValue": "",
+        "newValue": "மீள ஆரம்பி",
         "explanation": null
       }
     ]
   },
-  "lots": {
-    "value": "நிறைய",
+  "speedSlow": {
+    "value": "மெதுவான இயக்கம்",
     "history": [
       {
         "userId": 190960,
         "timestamp": 1464320213825,
         "oldValue": "",
-        "newValue": "நிறைய",
+        "newValue": "மெதுவான இயக்கம்",
         "explanation": null
       }
     ]
   },
-  "low": {
-    "value": "குறைவு",
+  "speedNormal": {
+    "value": "வழமை",
     "history": [
       {
         "userId": 190960,
         "timestamp": 1464320213825,
         "oldValue": "",
-        "newValue": "குறைவு",
+        "newValue": "வழமை",
         "explanation": null
       }
     ]
@@ -110,30 +231,6 @@
         "timestamp": 1464320213825,
         "oldValue": "",
         "newValue": "ஆளியக்கு",
-        "explanation": null
-      }
-    ]
-  },
-  "noEnd": {
-    "value": "முடிவு இல்லை",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1464320213825,
-        "oldValue": "",
-        "newValue": "முடிவு இல்லை",
-        "explanation": null
-      }
-    ]
-  },
-  "none": {
-    "value": "ஒன்றுமில்லை",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1464320213825,
-        "oldValue": "",
-        "newValue": "ஒன்றுமில்லை",
         "explanation": null
       }
     ]
@@ -162,111 +259,56 @@
       }
     ]
   },
-  "pulseWidth": {
-    "value": "துடிப்பு அகலம்",
+  "fixedEnd": {
+    "value": "நிலையான அந்தம்",
     "history": [
       {
         "userId": 190960,
         "timestamp": 1464320213825,
         "oldValue": "",
-        "newValue": "துடிப்பு அகலம்",
-        "explanation": null
-      }
-    ]
-  },
-  "referenceLine": {
-    "value": "மேற்கோள் கோடு",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1464320213825,
-        "oldValue": "",
-        "newValue": "மேற்கோள் வரி",
+        "newValue": "நிலையான முடிவு",
         "explanation": null
       },
       {
-        "userId": 190960,
-        "timestamp": 1465978746917,
-        "oldValue": "மேற்கோள் வரி",
-        "newValue": "மேற்கோள் கோடு",
-        "explanation": null
+        "userId": 603471,
+        "timestamp": 1671463720832,
+        "oldValue": "நிலையான முடிவு",
+        "newValue": "நிலையான அந்தம்"
       }
     ]
   },
-  "restart": {
-    "value": "மீள ஆரம்பி",
+  "looseEnd": {
+    "value": "தளர்வான அந்தம்",
     "history": [
       {
         "userId": 190960,
         "timestamp": 1464320213825,
         "oldValue": "",
-        "newValue": "மீள ஆரம்பி",
+        "newValue": "தளர்வான முடிவு",
         "explanation": null
+      },
+      {
+        "userId": 603471,
+        "timestamp": 1671463720832,
+        "oldValue": "தளர்வான முடிவு",
+        "newValue": "தளர்வான அந்தம்"
       }
     ]
   },
-  "rulers": {
-    "value": "வரைகோல்கள்",
+  "noEnd": {
+    "value": "முடிவு இல்லை",
     "history": [
       {
         "userId": 190960,
         "timestamp": 1464320213825,
         "oldValue": "",
-        "newValue": "வரைகோல்கள்",
-        "explanation": null
-      }
-    ]
-  },
-  "speedNormal": {
-    "value": "வழமை",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1464320213825,
-        "oldValue": "",
-        "newValue": "வழமை",
-        "explanation": null
-      }
-    ]
-  },
-  "speedSlow": {
-    "value": "மெதுவான இயக்கம்",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1464320213825,
-        "oldValue": "",
-        "newValue": "மெதுவான இயக்கம்",
-        "explanation": null
-      }
-    ]
-  },
-  "tension": {
-    "value": "பதற்றம்",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1464320213825,
-        "oldValue": "",
-        "newValue": "பதற்றம்",
-        "explanation": null
-      }
-    ]
-  },
-  "timer": {
-    "value": "காலக்கணிப்பி",
-    "history": [
-      {
-        "userId": 190960,
-        "timestamp": 1464320213825,
-        "oldValue": "",
-        "newValue": "காலக்கணிப்பி",
+        "newValue": "முடிவு இல்லை",
         "explanation": null
       }
     ]
   },
   "wave-on-a-string.title": {
-    "value": "ஒரு சரம் மீது அலை",
+    "value": "இழையில் அலை",
     "history": [
       {
         "userId": 190960,
@@ -274,6 +316,12 @@
         "oldValue": "",
         "newValue": "ஒரு சரம் மீது அலை",
         "explanation": null
+      },
+      {
+        "userId": 603471,
+        "timestamp": 1671463720832,
+        "oldValue": "ஒரு சரம் மீது அலை",
+        "newValue": "இழையில் அலை"
       }
     ]
   }
