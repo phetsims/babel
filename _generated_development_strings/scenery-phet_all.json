@@ -1504,6 +1504,21 @@
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
+    "keyboardHelpDialog.comboBox.popUpListPattern": {
+      "value": "Llista emergent de {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.moveThroughPattern": {
+      "value": "Mou a traves de {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.chooseNewPattern": {
+      "value": "Tria un nou {{thingSingular}}"
+    },
+    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+      "value": "Tanca la llista sense canvis"
+    },
+    "keyboardHelpDialog.adjust": {
+      "value": "Ajusta"
+    },
     "key.alt": {
       "value": "Alt"
     },
@@ -1525,65 +1540,11 @@
     "keyboardHelpDialog.exitADialog": {
       "value": "Surt d'un diàleg"
     },
-    "speed.fast": {
-      "value": "Ràpid"
-    },
     "key.fn": {
       "value": "Funció multimèdia"
     },
     "key.home": {
       "value": "Inici"
-    },
-    "keyboardHelpDialog.moveBetweenItemsInAGroup": {
-      "value": "Mou-te entre els elements d'un grup"
-    },
-    "keyboardHelpDialog.moveToNextItemOrGroup": {
-      "value": "Mou-te a l'element o el grup següent"
-    },
-    "keyboardHelpDialog.moveToPreviousItemOrGroup": {
-      "value": "Mou-te a l'element o el grup anterior"
-    },
-    "speed.normal": {
-      "value": "Normal"
-    },
-    "keyboardHelpDialog.or": {
-      "value": "o"
-    },
-    "key.pageDown": {
-      "value": "Pàgina Enrere"
-    },
-    "key.pageUp": {
-      "value": "Pàgina Endavant"
-    },
-    "keyboardHelpDialog.pressButtons": {
-      "value": "Prem els botons"
-    },
-    "key.shift": {
-      "value": "Majúscules"
-    },
-    "speed.slow": {
-      "value": "Lent"
-    },
-    "key.space": {
-      "value": "Espai"
-    },
-    "key.tab": {
-      "value": "Tab."
-    },
-    "keyboardHelpDialog.toggleCheckboxes": {
-      "value": "Activa o desactiva la selecció "
-    },
-    "measuringTapeReadoutPattern": {
-      "value": "{{distance}} {{units}}"
-    },
-    "keyboardHelpDialog.adjust": {
-      "value": "Ajusta"
-    },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Agafa o deixa anar {{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "Agafa o deixa anar {{thing}}"
     },
     "keyboardHelpDialog.jumpToMaximumPattern": {
       "value": "Salta a {{maximum}}"
@@ -1597,11 +1558,56 @@
     "keyboardHelpDialog.minimum": {
       "value": "mínim"
     },
+    "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+      "value": "Mou-te entre els elements d'un grup"
+    },
+    "keyboardHelpDialog.moveToNextItemOrGroup": {
+      "value": "Mou-te a l'element o el grup següent"
+    },
+    "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+      "value": "Mou-te a l'element o el grup anterior"
+    },
+    "keyboardHelpDialog.comboBox.option": {
+      "value": "Opció"
+    },
+    "keyboardHelpDialog.comboBox.options": {
+      "value": "Opcions"
+    },
+    "keyboardHelpDialog.or": {
+      "value": "o"
+    },
+    "key.pageDown": {
+      "value": "Pàgina enrere"
+    },
+    "key.pageUp": {
+      "value": "Pàgina endavant"
+    },
+    "keyboardHelpDialog.comboBox.headingString": {
+      "value": "Menú d'obertura emergent"
+    },
+    "keyboardHelpDialog.pressButtons": {
+      "value": "Prem els botons"
+    },
+    "key.shift": {
+      "value": "Majúscules"
+    },
     "keyboardHelpDialog.slider": {
       "value": "lliscador"
     },
     "keyboardHelpDialog.sliderControls": {
       "value": "Control del lliscador"
+    },
+    "key.space": {
+      "value": "Espai"
+    },
+    "key.tab": {
+      "value": "Tab."
+    },
+    "keyboardHelpDialog.toggleCheckboxes": {
+      "value": "Activa o desactiva la selecció "
+    },
+    "measuringTapeReadoutPattern": {
+      "value": "{{distance}} {{units}}"
     },
     "keyboardHelpDialog.verbInLargerStepsPattern": {
       "value": "{{verb}} en etapes més llargues"
@@ -1612,17 +1618,20 @@
     "keyboardHelpDialog.verbSliderPattern": {
       "value": "{{verb}} {{slider}}"
     },
-    "keyboardHelpDialog.comboBox.popUpListPattern": {
-      "value": "Llista emergent de {{thingPlural}}"
+    "speed.fast": {
+      "value": "Ràpid"
     },
-    "keyboardHelpDialog.comboBox.moveThroughPattern": {
-      "value": "Mou a traves de {{thingPlural}}"
+    "speed.normal": {
+      "value": "Normal"
     },
-    "keyboardHelpDialog.comboBox.chooseNewPattern": {
-      "value": "Tria un nou {{thingSingular}}"
+    "speed.slow": {
+      "value": "Lent"
     },
-    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-      "value": "Tanca la llista sense canvis"
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "Agafa o deixa anar {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "Agafa o deixa anar {{thing}}"
     },
     "keyboardHelpDialog.comboBox.chooseAThingPattern": {
       "value": "Triar un {{thingTitle}}"
@@ -1641,12 +1650,6 @@
     },
     "one": {
       "value": "un"
-    },
-    "keyboardHelpDialog.comboBox.option": {
-      "value": "Opció"
-    },
-    "keyboardHelpDialog.comboBox.options": {
-      "value": "Opcions"
     },
     "seven": {
       "value": "set"
@@ -1710,9 +1713,6 @@
     },
     "stopwatchValueUnitsPattern": {
       "value": "{{value}} {{units}}"
-    },
-    "keyboardHelpDialog.comboBox.headingString": {
-      "value": "Menú d'obertura emergent"
     },
     "rulerCapitalized": {
       "value": "Regle"
