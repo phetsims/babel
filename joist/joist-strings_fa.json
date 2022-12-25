@@ -89,6 +89,18 @@
       }
     ]
   },
+  "credits.contributors": {
+    "value": "{0} :مشارکت کنندگان",
+    "history": [
+      {
+        "userId": 641432,
+        "timestamp": 1577167832391,
+        "oldValue": "",
+        "newValue": "{0} :مشارکت کنندگان",
+        "explanation": null
+      }
+    ]
+  },
   "credits.title": {
     "value": "فهرست نام مشارکت کنندگان",
     "history": [
@@ -108,15 +120,21 @@
       }
     ]
   },
-  "done": {
-    "value": "انجام داده شده",
+  "menuItem.enhancedSound": {
+    "value": "تقویت صدا",
     "history": [
       {
-        "userId": 641432,
-        "timestamp": 1577166765848,
+        "userId": 333721,
+        "timestamp": 1576081275308,
         "oldValue": "",
-        "newValue": "انجام داده شده",
+        "newValue": "صدای تقویت شده",
         "explanation": null
+      },
+      {
+        "userId": 157252,
+        "timestamp": 1671979059865,
+        "oldValue": "صدای تقویت شده",
+        "newValue": "تقویت صدا"
       }
     ]
   },
@@ -173,6 +191,25 @@
         "timestamp": 1577165767554,
         "oldValue": "گرافیک: {0}",
         "newValue": "{0} :هنرهای گرافیکی",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardShortcuts.title": {
+    "value": "میانبرهای صفحه کلید",
+    "history": [
+      {
+        "userId": 449508,
+        "timestamp": 1505146533819,
+        "oldValue": "",
+        "newValue": "میانبرهای کیبورد",
+        "explanation": null
+      },
+      {
+        "userId": 879918,
+        "timestamp": 1608041429514,
+        "oldValue": "میانبرهای کیبورد",
+        "newValue": "میانبرهای صفحه کلید",
         "explanation": null
       }
     ]
@@ -382,30 +419,6 @@
       }
     ]
   },
-  "title.settings": {
-    "value": "تنظیمات",
-    "history": [
-      {
-        "userId": 241525,
-        "timestamp": 1447397089147,
-        "oldValue": "",
-        "newValue": "تنظیمات",
-        "explanation": null
-      }
-    ]
-  },
-  "showPointers": {
-    "value": "نمایش اشاره گرها",
-    "history": [
-      {
-        "userId": 241525,
-        "timestamp": 1447397089147,
-        "oldValue": "",
-        "newValue": "نمایش اشاره گرها",
-        "explanation": null
-      }
-    ]
-  },
   "credits.softwareDevelopment": {
     "value": "{0} :توسعه نرم افزار",
     "history": [
@@ -428,6 +441,18 @@
         "timestamp": 1660043700981,
         "oldValue": "{0} :گسترش نرم افزار",
         "newValue": "{0} :توسعه نرم افزار"
+      }
+    ]
+  },
+  "credits.soundDesign": {
+    "value": " {0} : طراحی صوت",
+    "history": [
+      {
+        "userId": 641432,
+        "timestamp": 1577167832391,
+        "oldValue": "",
+        "newValue": " {0} : طراحی صوت",
+        "explanation": null
       }
     ]
   },
@@ -550,6 +575,18 @@
       }
     ]
   },
+  "keyboardShortcuts.toGetStarted": {
+    "value": "برای شروع",
+    "history": [
+      {
+        "userId": 333721,
+        "timestamp": 1576254656351,
+        "oldValue": "",
+        "newValue": "برای شروع",
+        "explanation": null
+      }
+    ]
+  },
   "credits.translation": {
     "value": "ترجمه",
     "history": [
@@ -658,6 +695,66 @@
       }
     ]
   },
+  "simTitleWithScreenNamePattern": {
+    "value": "{{simName}} — {{screenName}}",
+    "history": [
+      {
+        "userId": 241525,
+        "timestamp": 1562968067532,
+        "oldValue": "",
+        "newValue": "{{screenName}} — {{simName}}",
+        "explanation": null
+      },
+      {
+        "userId": 1085395,
+        "timestamp": 1663944043329,
+        "oldValue": "{{screenName}} — {{simName}}",
+        "newValue": ""
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1670306735537,
+        "oldValue": "",
+        "newValue": "{{simName}} — {{screenName}}"
+      }
+    ]
+  },
+  "done": {
+    "value": "انجام داده شده",
+    "history": [
+      {
+        "userId": 641432,
+        "timestamp": 1577166765848,
+        "oldValue": "",
+        "newValue": "انجام داده شده",
+        "explanation": null
+      }
+    ]
+  },
+  "title.settings": {
+    "value": "تنظیمات",
+    "history": [
+      {
+        "userId": 241525,
+        "timestamp": 1447397089147,
+        "oldValue": "",
+        "newValue": "تنظیمات",
+        "explanation": null
+      }
+    ]
+  },
+  "showPointers": {
+    "value": "نمایش اشاره گرها",
+    "history": [
+      {
+        "userId": 241525,
+        "timestamp": 1447397089147,
+        "oldValue": "",
+        "newValue": "نمایش اشاره گرها",
+        "explanation": null
+      }
+    ]
+  },
   "preferences.tabs.visual.interactiveHighlightsDescription": {
     "value": "اضافه کردن هایلایت برای نشانگر موس و لمس ",
     "history": [
@@ -694,18 +791,6 @@
         "timestamp": 1670306735537,
         "oldValue": "ویژگی های صوتی",
         "newValue": "جلوه های صوتی"
-      }
-    ]
-  },
-  "credits.contributors": {
-    "value": "{0} :مشارکت کنندگان",
-    "history": [
-      {
-        "userId": 641432,
-        "timestamp": 1577167832391,
-        "oldValue": "",
-        "newValue": "{0} :مشارکت کنندگان",
-        "explanation": null
       }
     ]
   },
@@ -767,25 +852,6 @@
         "timestamp": 1670306735537,
         "oldValue": "پارامترهای پرسش نامعتبر است",
         "newValue": "پارامترهای درخواست نامعتبر است"
-      }
-    ]
-  },
-  "keyboardShortcuts.title": {
-    "value": "میانبرهای صفحه کلید",
-    "history": [
-      {
-        "userId": 449508,
-        "timestamp": 1505146533819,
-        "oldValue": "",
-        "newValue": "میانبرهای کیبورد",
-        "explanation": null
-      },
-      {
-        "userId": 879918,
-        "timestamp": 1608041429514,
-        "oldValue": "میانبرهای کیبورد",
-        "newValue": "میانبرهای صفحه کلید",
-        "explanation": null
       }
     ]
   },
@@ -884,18 +950,6 @@
       }
     ]
   },
-  "credits.soundDesign": {
-    "value": " {0} : طراحی صوت",
-    "history": [
-      {
-        "userId": 641432,
-        "timestamp": 1577167832391,
-        "oldValue": "",
-        "newValue": " {0} : طراحی صوت",
-        "explanation": null
-      }
-    ]
-  },
   "preferences.tabs.audio.sounds.title": {
     "value": "صداها",
     "history": [
@@ -926,18 +980,6 @@
         "timestamp": 1660058250799,
         "oldValue": "",
         "newValue": "برای یافتن سایر شبیه سازی ها با خصوصیت های جامع، در صفحه فیلتر شبیه سازی به دنبال  Access and Inclusion بگردید و نتایج را بر حسب ویژگی مد نظر فیلتر کنید."
-      }
-    ]
-  },
-  "keyboardShortcuts.toGetStarted": {
-    "value": "برای شروع",
-    "history": [
-      {
-        "userId": 333721,
-        "timestamp": 1576254656351,
-        "oldValue": "",
-        "newValue": "برای شروع",
-        "explanation": null
       }
     ]
   },
@@ -982,42 +1024,6 @@
         "timestamp": 1660058250799,
         "oldValue": "",
         "newValue": "برای جامع تر کردن شبیه سازی هایمان ویژگی های جدیدی به آنها اضافه میکنیم. برخی از این خصوصیت ها برای فراگیرانی با نیازهای متفاوت و در محیط های گوناگون دسترسپذیری بیشتر ارائه میدهد. برای ملاحظه یا تغییر تنظیمات پیشفرض برگه های این منو را بررسی کنید."
-      }
-    ]
-  },
-  "simTitleWithScreenNamePattern": {
-    "value": "{{simName}} — {{screenName}}",
-    "history": [
-      {
-        "userId": 241525,
-        "timestamp": 1562968067532,
-        "oldValue": "",
-        "newValue": "{{screenName}} — {{simName}}",
-        "explanation": null
-      },
-      {
-        "userId": 1085395,
-        "timestamp": 1663944043329,
-        "oldValue": "{{screenName}} — {{simName}}",
-        "newValue": ""
-      },
-      {
-        "userId": 641432,
-        "timestamp": 1670306735537,
-        "oldValue": "",
-        "newValue": "{{simName}} — {{screenName}}"
-      }
-    ]
-  },
-  "menuItem.enhancedSound": {
-    "value": "صدای تقویت شده",
-    "history": [
-      {
-        "userId": 333721,
-        "timestamp": 1576081275308,
-        "oldValue": "",
-        "newValue": "صدای تقویت شده",
-        "explanation": null
       }
     ]
   },
