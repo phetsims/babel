@@ -1,4 +1,48 @@
 {
+  "drinkMix": {
+    "value": "Imwani osakaniza",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1672115284575,
+        "oldValue": "",
+        "newValue": "Imwani osakaniza"
+      }
+    ]
+  },
+  "units.mM": {
+    "value": "mM",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1672117209140,
+        "oldValue": "",
+        "newValue": "mM"
+      }
+    ]
+  },
+  "units.uM": {
+    "value": "µM",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1672117209140,
+        "oldValue": "",
+        "newValue": "µM"
+      }
+    ]
+  },
+  "water": {
+    "value": "Madzi",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1672117209140,
+        "oldValue": "",
+        "newValue": "Madzi"
+      }
+    ]
+  },
   "cobaltChloride": {
     "value": "Cobalt(II) chloride",
     "history": [
@@ -21,28 +65,6 @@
       }
     ]
   },
-  "concentration": {
-    "value": "Concentration",
-    "history": [
-      {
-        "userId": 731360,
-        "timestamp": 1672115284575,
-        "oldValue": "",
-        "newValue": "Concentration"
-      }
-    ]
-  },
-  "screen.concentration": {
-    "value": "Concentration",
-    "history": [
-      {
-        "userId": 731360,
-        "timestamp": 1672115284575,
-        "oldValue": "",
-        "newValue": "Concentration"
-      }
-    ]
-  },
   "copperSulfate": {
     "value": "Copper(II) sulfate",
     "history": [
@@ -51,72 +73,6 @@
         "timestamp": 1672115284575,
         "oldValue": "",
         "newValue": "Copper(II) sulfate"
-      }
-    ]
-  },
-  "drinkMix": {
-    "value": "Imwani osakaniza",
-    "history": [
-      {
-        "userId": 731360,
-        "timestamp": 1672115284575,
-        "oldValue": "",
-        "newValue": "Imwani osakaniza"
-      }
-    ]
-  },
-  "evaporation": {
-    "value": "Evaporation",
-    "history": [
-      {
-        "userId": 731360,
-        "timestamp": 1672115284575,
-        "oldValue": "",
-        "newValue": "Evaporation"
-      }
-    ]
-  },
-  "units.liters": {
-    "value": "L",
-    "history": [
-      {
-        "userId": 731360,
-        "timestamp": 1672115284575,
-        "oldValue": "",
-        "newValue": "L"
-      }
-    ]
-  },
-  "lots": {
-    "value": "zambiri",
-    "history": [
-      {
-        "userId": 731360,
-        "timestamp": 1672115284575,
-        "oldValue": "",
-        "newValue": "zambiri"
-      }
-    ]
-  },
-  "units.milliliters": {
-    "value": "mL",
-    "history": [
-      {
-        "userId": 731360,
-        "timestamp": 1672115284575,
-        "oldValue": "",
-        "newValue": "mL"
-      }
-    ]
-  },
-  "units.molesPerLiter": {
-    "value": "mol/L",
-    "history": [
-      {
-        "userId": 731360,
-        "timestamp": 1672115284575,
-        "oldValue": "",
-        "newValue": "mol/L"
       }
     ]
   },
@@ -131,14 +87,25 @@
       }
     ]
   },
-  "none": {
-    "value": "palibe",
+  "pattern.0formula.1name": {
+    "value": "{0}: {1}",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1672117209140,
+        "oldValue": "",
+        "newValue": "{0}: {1}"
+      }
+    ]
+  },
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
     "history": [
       {
         "userId": 731360,
         "timestamp": 1672115284575,
         "oldValue": "",
-        "newValue": "palibe"
+        "newValue": "{0} {1}"
       }
     ]
   },
@@ -175,6 +142,215 @@
       }
     ]
   },
+  "absorbance": {
+    "value": "Absorbance",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1672117209140,
+        "oldValue": "",
+        "newValue": "Absorbance"
+      }
+    ]
+  },
+  "pattern.0percent": {
+    "value": "{0}%",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1672115284575,
+        "oldValue": "",
+        "newValue": "{0}%"
+      }
+    ]
+  },
+  "transmittance": {
+    "value": "Transmittance",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1672117209140,
+        "oldValue": "",
+        "newValue": "Transmittance"
+      }
+    ]
+  },
+  "units.centimeters": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1672117209140,
+        "oldValue": "",
+        "newValue": "cm"
+      }
+    ]
+  },
+  "concentration": {
+    "value": "Concentration",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1672115284575,
+        "oldValue": "",
+        "newValue": "Concentration"
+      }
+    ]
+  },
+  "pattern.0label": {
+    "value": "{0}:",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1672115284575,
+        "oldValue": "",
+        "newValue": "{0}:"
+      }
+    ]
+  },
+  "solution": {
+    "value": "Solution",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1672115284575,
+        "oldValue": "",
+        "newValue": "Solution"
+      }
+    ]
+  },
+  "preset": {
+    "value": "konzekerani",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1672117209140,
+        "oldValue": "",
+        "newValue": "konzekerani"
+      }
+    ]
+  },
+  "units.nm": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1672117209140,
+        "oldValue": "",
+        "newValue": "nm"
+      }
+    ]
+  },
+  "variable": {
+    "value": "kusintha",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1672117209140,
+        "oldValue": "",
+        "newValue": "kusintha"
+      }
+    ]
+  },
+  "wavelength": {
+    "value": "Wavelength",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1672117209140,
+        "oldValue": "",
+        "newValue": "Wavelength"
+      }
+    ]
+  },
+  "screen.beersLaw": {
+    "value": "Lamulo la Mowa",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1672117209140,
+        "oldValue": "",
+        "newValue": "Lamulo la Mowa"
+      }
+    ]
+  },
+  "sodiumChloride": {
+    "value": "Sodium chloride",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1672115284575,
+        "oldValue": "",
+        "newValue": "Sodium chloride"
+      }
+    ]
+  },
+  "units.liters": {
+    "value": "L",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1672115284575,
+        "oldValue": "",
+        "newValue": "L"
+      }
+    ]
+  },
+  "units.milliliters": {
+    "value": "mL",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1672115284575,
+        "oldValue": "",
+        "newValue": "mL"
+      }
+    ]
+  },
+  "units.molesPerLiter": {
+    "value": "mol/L",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1672115284575,
+        "oldValue": "",
+        "newValue": "mol/L"
+      }
+    ]
+  },
+  "evaporation": {
+    "value": "Evaporation",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1672115284575,
+        "oldValue": "",
+        "newValue": "Evaporation"
+      }
+    ]
+  },
+  "lots": {
+    "value": "zambiri",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1672115284575,
+        "oldValue": "",
+        "newValue": "zambiri"
+      }
+    ]
+  },
+  "none": {
+    "value": "palibe",
+    "history": [
+      {
+        "userId": 731360,
+        "timestamp": 1672115284575,
+        "oldValue": "",
+        "newValue": "palibe"
+      }
+    ]
+  },
   "removeSolute": {
     "value": "Chotsani Solute",
     "history": [
@@ -197,25 +373,14 @@
       }
     ]
   },
-  "sodiumChloride": {
-    "value": "Sodium chloride",
+  "pattern.0soluteAmount": {
+    "value": "kuchuluka kwa solute: {0} g",
     "history": [
       {
         "userId": 731360,
         "timestamp": 1672115284575,
         "oldValue": "",
-        "newValue": "Sodium chloride"
-      }
-    ]
-  },
-  "solid": {
-    "value": "Zolimba",
-    "history": [
-      {
-        "userId": 731360,
-        "timestamp": 1672115284575,
-        "oldValue": "",
-        "newValue": "Zolimba"
+        "newValue": "kuchuluka kwa solute: {0} g"
       }
     ]
   },
@@ -230,58 +395,36 @@
       }
     ]
   },
-  "pattern.0soluteAmount": {
-    "value": "kuchuluka kwa solute: {0} g",
+  "solid": {
+    "value": "Zolimba",
     "history": [
       {
         "userId": 731360,
         "timestamp": 1672115284575,
         "oldValue": "",
-        "newValue": "kuchuluka kwa solute: {0} g"
+        "newValue": "Zolimba"
       }
     ]
   },
-  "solution": {
-    "value": "Solution",
+  "screen.concentration": {
+    "value": "Concentration",
     "history": [
       {
         "userId": 731360,
         "timestamp": 1672115284575,
         "oldValue": "",
-        "newValue": "Solution"
+        "newValue": "Concentration"
       }
     ]
   },
-  "pattern.0value.1units": {
-    "value": "{0} {1}",
+  "beers-law-lab.title": {
+    "value": "Lamulo la Mowa",
     "history": [
       {
         "userId": 731360,
-        "timestamp": 1672115284575,
+        "timestamp": 1672117209140,
         "oldValue": "",
-        "newValue": "{0} {1}"
-      }
-    ]
-  },
-  "pattern.0percent": {
-    "value": "{0}%",
-    "history": [
-      {
-        "userId": 731360,
-        "timestamp": 1672115284575,
-        "oldValue": "",
-        "newValue": "{0}%"
-      }
-    ]
-  },
-  "pattern.0label": {
-    "value": "{0}:",
-    "history": [
-      {
-        "userId": 731360,
-        "timestamp": 1672115284575,
-        "oldValue": "",
-        "newValue": "{0}:"
+        "newValue": "Lamulo la Mowa"
       }
     ]
   }
