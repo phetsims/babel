@@ -11,14 +11,50 @@
       }
     ]
   },
-  "centerOfMass": {
-    "value": "Centrul de masă",
+  "kilopascals": {
+    "value": "kPa",
     "history": [
       {
         "userId": 726466,
         "timestamp": 1601317946899,
         "oldValue": "",
-        "newValue": "Centrul de masă",
+        "newValue": "kPa",
+        "explanation": null
+      }
+    ]
+  },
+  "pressure": {
+    "value": "Presiune",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "Presiune",
+        "explanation": null
+      }
+    ]
+  },
+  "tAvg": {
+    "value": "T<sub>med</sub> = {{value}}",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "T<sub>med</sub> = {{value}}",
+        "explanation": null
+      }
+    ]
+  },
+  "tAvgK": {
+    "value": "T<sub>med</sub> = {{value}} K",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "T<sub>med</sub> = {{value}} K",
         "explanation": null
       }
     ]
@@ -35,14 +71,14 @@
       }
     ]
   },
-  "screen.diffusion": {
-    "value": "Difuzie",
+  "centerOfMass": {
+    "value": "Centrul de masă",
     "history": [
       {
         "userId": 726466,
         "timestamp": 1601317946899,
         "oldValue": "",
-        "newValue": "Difuzie",
+        "newValue": "Centrul de masă",
         "explanation": null
       }
     ]
@@ -65,18 +101,6 @@
       }
     ]
   },
-  "kilopascals": {
-    "value": "kPa",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1601317946899,
-        "oldValue": "",
-        "newValue": "kPa",
-        "explanation": null
-      }
-    ]
-  },
   "massAMU": {
     "value": "Masa atomică (u.a.m)",
     "history": [
@@ -89,18 +113,6 @@
       }
     ]
   },
-  "nanometers": {
-    "value": "nm",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1601317946899,
-        "oldValue": "",
-        "newValue": "nm",
-        "explanation": null
-      }
-    ]
-  },
   "numberOfParticles": {
     "value": "Numărul de particule",
     "history": [
@@ -109,54 +121,6 @@
         "timestamp": 1601317946899,
         "oldValue": "",
         "newValue": "Numărul de particule",
-        "explanation": null
-      }
-    ]
-  },
-  "particleFlowRate": {
-    "value": "Debitul particulelor",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1601317946899,
-        "oldValue": "",
-        "newValue": "Debitul particulelor",
-        "explanation": null
-      }
-    ]
-  },
-  "pressure": {
-    "value": "Presiune",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1601317946899,
-        "oldValue": "",
-        "newValue": "Presiune",
-        "explanation": null
-      }
-    ]
-  },
-  "pressureNoise": {
-    "value": "Zgomot de presiune",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1601317946899,
-        "oldValue": "",
-        "newValue": "Zgomot de presiune",
-        "explanation": null
-      }
-    ]
-  },
-  "picoseconds": {
-    "value": "ps",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1601317946899,
-        "oldValue": "",
-        "newValue": "ps",
         "explanation": null
       }
     ]
@@ -197,6 +161,18 @@
       }
     ]
   },
+  "particleFlowRate": {
+    "value": "Debitul particulelor",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "Debitul particulelor",
+        "explanation": null
+      }
+    ]
+  },
   "scale": {
     "value": "Scara",
     "history": [
@@ -221,26 +197,14 @@
       }
     ]
   },
-  "tAvg": {
-    "value": "T<sub>med</sub> = {{value}}",
+  "nanometers": {
+    "value": "nm",
     "history": [
       {
         "userId": 726466,
         "timestamp": 1601317946899,
         "oldValue": "",
-        "newValue": "T<sub>med</sub> = {{value}}",
-        "explanation": null
-      }
-    ]
-  },
-  "tAvgK": {
-    "value": "T<sub>med</sub> = {{value}} K",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1601317946899,
-        "oldValue": "",
-        "newValue": "T<sub>med</sub> = {{value}} K",
+        "newValue": "nm",
         "explanation": null
       }
     ]
@@ -253,6 +217,30 @@
         "timestamp": 1601317946899,
         "oldValue": "",
         "newValue": "{{value}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "picoseconds": {
+    "value": "ps",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "ps",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.diffusion": {
+    "value": "Difuzie",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "Difuzie",
         "explanation": null
       }
     ]
@@ -272,6 +260,118 @@
         "timestamp": 1608299207877,
         "oldValue": "Numărul de ciocniri",
         "newValue": "Contor ciocniri",
+        "explanation": null
+      }
+    ]
+  },
+  "width": {
+    "value": "Lățime",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1602176223287,
+        "oldValue": "",
+        "newValue": "Lățime",
+        "explanation": null
+      }
+    ]
+  },
+  "samplePeriod": {
+    "value": "Durata măsurării",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1602176223287,
+        "oldValue": "",
+        "newValue": "Perioada de probă",
+        "explanation": null
+      },
+      {
+        "userId": 726466,
+        "timestamp": 1602177466045,
+        "oldValue": "Perioada de probă",
+        "newValue": "Perioada de referință",
+        "explanation": null
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1608299207877,
+        "oldValue": "Perioada de referință",
+        "newValue": "Durata măsurării",
+        "explanation": null
+      }
+    ]
+  },
+  "wallCollisions": {
+    "value": "Ciocniri cu peretele",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1602176223287,
+        "oldValue": "",
+        "newValue": "Ciocnirea de perete",
+        "explanation": null
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1608299207877,
+        "oldValue": "Ciocnirea de perete",
+        "newValue": "Ciocniri cu peretele",
+        "explanation": null
+      }
+    ]
+  },
+  "degreesCelsius": {
+    "value": "°C",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1602176223287,
+        "oldValue": "",
+        "newValue": "°C",
+        "explanation": null
+      }
+    ]
+  },
+  "kelvin": {
+    "value": "K",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1602176223287,
+        "oldValue": "",
+        "newValue": "K",
+        "explanation": null
+      }
+    ]
+  },
+  "returnLid": {
+    "value": "Închide vasul",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1602176223287,
+        "oldValue": "",
+        "newValue": "Întoarceți capacul",
+        "explanation": null
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1608299207877,
+        "oldValue": "Întoarceți capacul",
+        "newValue": "Închide vasul",
+        "explanation": null
+      }
+    ]
+  },
+  "oopsMaximumTemperature": {
+    "value": "Hopa!<br><br>Temperatura maximă atinsă.",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1602176223287,
+        "oldValue": "",
+        "newValue": "Hopa!<br><br>Temperatura maximă atinsă.",
         "explanation": null
       }
     ]
@@ -300,49 +400,6 @@
       }
     ]
   },
-  "holdConstant.title": {
-    "value": "Mențineți constant",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1602176223287,
-        "oldValue": "",
-        "newValue": "Mențineți constant",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.ideal": {
-    "value": "Gaz ideal",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1602176223287,
-        "oldValue": "",
-        "newValue": "Ideal",
-        "explanation": null
-      },
-      {
-        "userId": 726466,
-        "timestamp": 1602177466045,
-        "oldValue": "Ideal",
-        "newValue": "Gaz ideal",
-        "explanation": null
-      }
-    ]
-  },
-  "kelvin": {
-    "value": "K",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1602176223287,
-        "oldValue": "",
-        "newValue": "K",
-        "explanation": null
-      }
-    ]
-  },
   "light": {
     "value": "Ușoare",
     "history": [
@@ -351,6 +408,48 @@
         "timestamp": 1602176223287,
         "oldValue": "",
         "newValue": "Ușoare",
+        "explanation": null
+      }
+    ]
+  },
+  "particles": {
+    "value": "Particule",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1602176223287,
+        "oldValue": "",
+        "newValue": "Particule",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.explore": {
+    "value": "Explorare",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1602176223287,
+        "oldValue": "",
+        "newValue": "Studiere",
+        "explanation": null
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1672335438718,
+        "oldValue": "Studiere",
+        "newValue": "Explorare"
+      }
+    ]
+  },
+  "pressureNoise": {
+    "value": "Zgomot de presiune",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1601317946899,
+        "oldValue": "",
+        "newValue": "Zgomot de presiune",
         "explanation": null
       }
     ]
@@ -367,14 +466,69 @@
       }
     ]
   },
-  "oopsMaximumTemperature": {
-    "value": "Hopa!<br><br>Temperatura maximă atinsă.",
+  "holdConstant.pressureT": {
+    "value": "Presiune ↕T",
     "history": [
       {
         "userId": 726466,
         "timestamp": 1602176223287,
         "oldValue": "",
-        "newValue": "Hopa!<br><br>Temperatura maximă atinsă.",
+        "newValue": "Presiune ↕T",
+        "explanation": null
+      }
+    ]
+  },
+  "holdConstant.pressureV": {
+    "value": "Presiune ↕V",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1602176223287,
+        "oldValue": "",
+        "newValue": "Pressure ↕V",
+        "explanation": null
+      },
+      {
+        "userId": 726466,
+        "timestamp": 1602177466045,
+        "oldValue": "Pressure ↕V",
+        "newValue": "Presiune ↕V",
+        "explanation": null
+      }
+    ]
+  },
+  "holdConstant.title": {
+    "value": "Mențineți constant",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1602176223287,
+        "oldValue": "",
+        "newValue": "Mențineți constant",
+        "explanation": null
+      }
+    ]
+  },
+  "holdConstant.temperature": {
+    "value": "Temperatura (T)",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1602176223287,
+        "oldValue": "",
+        "newValue": "Temperatura (T)",
+        "explanation": null
+      }
+    ]
+  },
+  "holdConstant.volume": {
+    "value": "Volumul (V)",
+    "history": [
+      {
+        "userId": 726466,
+        "timestamp": 1602176223287,
+        "oldValue": "",
+        "newValue": "Volumul (V)",
         "explanation": null
       }
     ]
@@ -453,169 +607,21 @@
       }
     ]
   },
-  "particles": {
-    "value": "Particule",
+  "screen.ideal": {
+    "value": "Gaz ideal",
     "history": [
       {
         "userId": 726466,
         "timestamp": 1602176223287,
         "oldValue": "",
-        "newValue": "Particule",
-        "explanation": null
-      }
-    ]
-  },
-  "holdConstant.pressureT": {
-    "value": "Presiune ↕T",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1602176223287,
-        "oldValue": "",
-        "newValue": "Presiune ↕T",
-        "explanation": null
-      }
-    ]
-  },
-  "holdConstant.pressureV": {
-    "value": "Presiune ↕V",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1602176223287,
-        "oldValue": "",
-        "newValue": "Pressure ↕V",
+        "newValue": "Ideal",
         "explanation": null
       },
       {
         "userId": 726466,
         "timestamp": 1602177466045,
-        "oldValue": "Pressure ↕V",
-        "newValue": "Presiune ↕V",
-        "explanation": null
-      }
-    ]
-  },
-  "returnLid": {
-    "value": "Închide vasul",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1602176223287,
-        "oldValue": "",
-        "newValue": "Întoarceți capacul",
-        "explanation": null
-      },
-      {
-        "userId": 183155,
-        "timestamp": 1608299207877,
-        "oldValue": "Întoarceți capacul",
-        "newValue": "Închide vasul",
-        "explanation": null
-      }
-    ]
-  },
-  "samplePeriod": {
-    "value": "Durata măsurării",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1602176223287,
-        "oldValue": "",
-        "newValue": "Perioada de probă",
-        "explanation": null
-      },
-      {
-        "userId": 726466,
-        "timestamp": 1602177466045,
-        "oldValue": "Perioada de probă",
-        "newValue": "Perioada de referință",
-        "explanation": null
-      },
-      {
-        "userId": 183155,
-        "timestamp": 1608299207877,
-        "oldValue": "Perioada de referință",
-        "newValue": "Durata măsurării",
-        "explanation": null
-      }
-    ]
-  },
-  "holdConstant.temperature": {
-    "value": "Temperatura (T)",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1602176223287,
-        "oldValue": "",
-        "newValue": "Temperatura (T)",
-        "explanation": null
-      }
-    ]
-  },
-  "holdConstant.volume": {
-    "value": "Volumul (V)",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1602176223287,
-        "oldValue": "",
-        "newValue": "Volumul (V)",
-        "explanation": null
-      }
-    ]
-  },
-  "wallCollisions": {
-    "value": "Ciocniri cu peretele",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1602176223287,
-        "oldValue": "",
-        "newValue": "Ciocnirea de perete",
-        "explanation": null
-      },
-      {
-        "userId": 183155,
-        "timestamp": 1608299207877,
-        "oldValue": "Ciocnirea de perete",
-        "newValue": "Ciocniri cu peretele",
-        "explanation": null
-      }
-    ]
-  },
-  "width": {
-    "value": "Lățime",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1602176223287,
-        "oldValue": "",
-        "newValue": "Lățime",
-        "explanation": null
-      }
-    ]
-  },
-  "degreesCelsius": {
-    "value": "°C",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1602176223287,
-        "oldValue": "",
-        "newValue": "°C",
-        "explanation": null
-      }
-    ]
-  },
-  "screen.explore": {
-    "value": "Studiere",
-    "history": [
-      {
-        "userId": 726466,
-        "timestamp": 1602176223287,
-        "oldValue": "",
-        "newValue": "Studiere",
+        "oldValue": "Ideal",
+        "newValue": "Gaz ideal",
         "explanation": null
       }
     ]
@@ -645,7 +651,7 @@
     ]
   },
   "injectionTemperature": {
-    "value": "Temperatura injectată",
+    "value": "Temperatura gaz pompat",
     "history": [
       {
         "userId": 726466,
@@ -653,11 +659,17 @@
         "oldValue": "",
         "newValue": "Temperatura injectată",
         "explanation": null
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1672335438718,
+        "oldValue": "Temperatura injectată",
+        "newValue": "Temperatura gaz pompat"
       }
     ]
   },
   "matchContainer": {
-    "value": "Egală cu conteinerul",
+    "value": "Egală cu containerul",
     "history": [
       {
         "userId": 726466,
@@ -665,6 +677,12 @@
         "oldValue": "",
         "newValue": "Egală cu conteinerul",
         "explanation": null
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1672335438718,
+        "oldValue": "Egală cu conteinerul",
+        "newValue": "Egală cu containerul"
       }
     ]
   },
