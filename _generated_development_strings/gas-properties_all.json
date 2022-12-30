@@ -7344,41 +7344,32 @@
     "atmospheres": {
       "value": "atm"
     },
-    "centerOfMass": {
-      "value": "Centrul de masă"
-    },
-    "data": {
-      "value": "Date"
-    },
-    "screen.diffusion": {
-      "value": "Difuzie"
-    },
-    "initialTemperatureK": {
-      "value": "Temperatura inițială (K)"
-    },
     "kilopascals": {
       "value": "kPa"
-    },
-    "massAMU": {
-      "value": "Masa atomică (u.a.m)"
-    },
-    "nanometers": {
-      "value": "nm"
-    },
-    "numberOfParticles": {
-      "value": "Numărul de particule"
-    },
-    "particleFlowRate": {
-      "value": "Debitul particulelor"
     },
     "pressure": {
       "value": "Presiune"
     },
-    "pressureNoise": {
-      "value": "Zgomot de presiune"
+    "tAvg": {
+      "value": "T<sub>med</sub> = {{value}}"
     },
-    "picoseconds": {
-      "value": "ps"
+    "tAvgK": {
+      "value": "T<sub>med</sub> = {{value}} K"
+    },
+    "data": {
+      "value": "Date"
+    },
+    "centerOfMass": {
+      "value": "Centrul de masă"
+    },
+    "initialTemperatureK": {
+      "value": "Temperatura inițială (K)"
+    },
+    "massAMU": {
+      "value": "Masa atomică (u.a.m)"
+    },
+    "numberOfParticles": {
+      "value": "Numărul de particule"
     },
     "radiusPm": {
       "value": "Raza (pm)"
@@ -7389,23 +7380,50 @@
     "resetDivider": {
       "value": "Resetează divizorul"
     },
+    "particleFlowRate": {
+      "value": "Debitul particulelor"
+    },
     "scale": {
       "value": "Scara"
     },
     "stopwatch": {
       "value": "Cronometru"
     },
-    "tAvg": {
-      "value": "T<sub>med</sub> = {{value}}"
-    },
-    "tAvgK": {
-      "value": "T<sub>med</sub> = {{value}} K"
+    "nanometers": {
+      "value": "nm"
     },
     "valueUnits": {
       "value": "{{value}} {{units}}"
     },
+    "picoseconds": {
+      "value": "ps"
+    },
+    "screen.diffusion": {
+      "value": "Difuzie"
+    },
     "collisionCounter": {
       "value": "Contor ciocniri"
+    },
+    "width": {
+      "value": "Lățime"
+    },
+    "samplePeriod": {
+      "value": "Durata măsurării"
+    },
+    "wallCollisions": {
+      "value": "Ciocniri cu peretele"
+    },
+    "degreesCelsius": {
+      "value": "°C"
+    },
+    "kelvin": {
+      "value": "K"
+    },
+    "returnLid": {
+      "value": "Închide vasul"
+    },
+    "oopsMaximumTemperature": {
+      "value": "Hopa!<br><br>Temperatura maximă atinsă."
     },
     "collisions": {
       "value": "Ciocniri"
@@ -7413,23 +7431,35 @@
     "heavy": {
       "value": "Grele"
     },
-    "holdConstant.title": {
-      "value": "Mențineți constant"
-    },
-    "screen.ideal": {
-      "value": "Gaz ideal"
-    },
-    "kelvin": {
-      "value": "K"
-    },
     "light": {
       "value": "Ușoare"
+    },
+    "particles": {
+      "value": "Particule"
+    },
+    "screen.explore": {
+      "value": "Explorare"
+    },
+    "pressureNoise": {
+      "value": "Zgomot de presiune"
     },
     "holdConstant.nothing": {
       "value": "Nimic"
     },
-    "oopsMaximumTemperature": {
-      "value": "Hopa!<br><br>Temperatura maximă atinsă."
+    "holdConstant.pressureT": {
+      "value": "Presiune ↕T"
+    },
+    "holdConstant.pressureV": {
+      "value": "Presiune ↕V"
+    },
+    "holdConstant.title": {
+      "value": "Mențineți constant"
+    },
+    "holdConstant.temperature": {
+      "value": "Temperatura (T)"
+    },
+    "holdConstant.volume": {
+      "value": "Volumul (V)"
     },
     "oopsPressureEmpty": {
       "value": "Hopa! <br> <br> Presiunea nu poate fi menținută constantă <br> atunci când containerul este gol."
@@ -7446,38 +7476,8 @@
     "oopsTemperatureOpen": {
       "value": "Hopa! <br> <br> Temperatura nu poate fi menținută constantă <br> atunci când containerul este deschis."
     },
-    "particles": {
-      "value": "Particule"
-    },
-    "holdConstant.pressureT": {
-      "value": "Presiune ↕T"
-    },
-    "holdConstant.pressureV": {
-      "value": "Presiune ↕V"
-    },
-    "returnLid": {
-      "value": "Închide vasul"
-    },
-    "samplePeriod": {
-      "value": "Durata măsurării"
-    },
-    "holdConstant.temperature": {
-      "value": "Temperatura (T)"
-    },
-    "holdConstant.volume": {
-      "value": "Volumul (V)"
-    },
-    "wallCollisions": {
-      "value": "Ciocniri cu peretele"
-    },
-    "width": {
-      "value": "Lățime"
-    },
-    "degreesCelsius": {
-      "value": "°C"
-    },
-    "screen.explore": {
-      "value": "Studiere"
+    "screen.ideal": {
+      "value": "Gaz ideal"
     },
     "averageSpeed": {
       "value": "Viteza medie"
@@ -7486,10 +7486,10 @@
       "value": "m/s"
     },
     "injectionTemperature": {
-      "value": "Temperatura injectată"
+      "value": "Temperatura gaz pompat"
     },
     "matchContainer": {
-      "value": "Egală cu conteinerul"
+      "value": "Egală cu containerul"
     },
     "setTo": {
       "value": "Setează:"
