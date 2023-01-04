@@ -7357,44 +7357,8 @@
     }
   },
   "sl": {
-    "screen.lens": {
-      "value": "Leče"
-    },
-    "screen.mirror": {
-      "value": "Zrcalo"
-    },
-    "keyboardHelpDialog.chooseAnObject": {
-      "value": "Izberi predmet"
-    },
-    "keyboardHelpDialog.object": {
-      "value": "Predmet"
-    },
-    "keyboardHelpDialog.objects": {
-      "value": "Predmeti"
-    },
-    "keyboardHelpDialog.move": {
-      "value": "Premakni"
-    },
-    "keyboardHelpDialog.moveSlower": {
-      "value": "Premakni počasneje"
-    },
-    "keyboardHelpDialog.moveDraggableItems": {
-      "value": "Premakni gibljive predmete"
-    },
-    "keyboardHelpDialog.rulerAndMarkerControls": {
-      "value": "Krmilniki ravnila in oznak"
-    },
-    "keyboardHelpDialog.removeFromToolbox": {
-      "value": "Odstrani iz orodjarne"
-    },
-    "keyboardHelpDialog.returnToToolbox": {
-      "value": "Vrni v orodjarno"
-    },
-    "keyboardHelpDialog.jumpToPoint": {
-      "value": "Skooči na točko,<br>premakni od leve proti desni<br>čez zanimive točke"
-    },
-    "focalLengthControl": {
-      "value": "Goriščna razdalja:"
+    "checkbox.twoFPoints": {
+      "value": "2F točka"
     },
     "checkbox.add2FPointsCheckbox": {
       "value": "Dodaj kvadratek \"Točke 2F\" v nadzorne plošče"
@@ -7402,74 +7366,29 @@
     "arrow": {
       "value": "Puščica"
     },
-    "pencil": {
-      "value": "Svinčnik"
+    "keyboardHelpDialog.chooseAnObject": {
+      "value": "Izberi predmet"
     },
-    "penguin": {
-      "value": "Pingvin"
+    "label.concaveLens": {
+      "value": "Razpršilne<br>leče"
     },
-    "star": {
-      "value": "Zvezda"
+    "label.concaveMirror": {
+      "value": "Zbiralno<br>zrcalo"
     },
-    "light": {
-      "value": "Svetloba"
+    "label.convexLens": {
+      "value": "Zbiralne<br>leče"
     },
-    "label.projectionScreen": {
-      "value": "Zaslon"
+    "label.convexMirror": {
+      "value": "Razpršilno<br>zrcalo"
     },
-    "checkbox.focalPoints": {
-      "value": "Gorišča (F)"
+    "diameter": {
+      "value": "Premer"
     },
-    "checkbox.twoFPoints": {
-      "value": "2F točka"
+    "radioButton.direct": {
+      "value": "Nastavitev s pomočjo drsnika za goriščno razdaljo"
     },
-    "checkbox.virtualImage": {
-      "value": "Navidezna slika"
-    },
-    "checkbox.labels": {
-      "value": "Oznake"
-    },
-    "checkbox.secondPoint": {
-      "value": "Druga točka"
-    },
-    "checkbox.guides": {
-      "value": "Vodila"
-    },
-    "rays": {
-      "value": "Žarki"
-    },
-    "label.opticalAxis": {
-      "value": "Optična os"
-    },
-    "label.object": {
-      "value": "Predmet"
-    },
-    "label.objectN": {
-      "value": "Predmet {{objectNumber}}"
-    },
-    "label.realImageN": {
-      "value": "Realna<br>slika {{imageNumber}}"
-    },
-    "label.virtualImageN": {
-      "value": "Navidezna<br>slika {{imageNumber}}"
-    },
-    "label.realImage": {
-      "value": "Realna<br>slika"
-    },
-    "label.virtualImage": {
-      "value": "Navidezna<br>slika"
-    },
-    "radioButton.marginal": {
-      "value": "Robni"
-    },
-    "radioButton.principal": {
-      "value": "Glavni"
-    },
-    "radioButton.many": {
-      "value": "Mnogo"
-    },
-    "radioButton.none": {
-      "value": "Nič"
+    "label.flatMirror": {
+      "value": "Ravno<br>zrcalo"
     },
     "focalLengthPositive": {
       "value": "Goriščna razdalja"
@@ -7477,32 +7396,119 @@
     "focalLengthNegative": {
       "value": "Goriščna razdalja (-)"
     },
+    "focalLengthControl": {
+      "value": "Goriščna razdalja:"
+    },
+    "checkbox.focalPoints": {
+      "value": "Gorišča (F)"
+    },
+    "checkbox.guides": {
+      "value": "Vodila"
+    },
+    "indexOfRefraction": {
+      "value": "Lomni količnik"
+    },
+    "radioButton.indirect": {
+      "value": "Izračunana iz drugih optičnih parametrov"
+    },
+    "keyboardHelpDialog.jumpToPoint": {
+      "value": "Skooči na točko,<br>premakni od leve proti desni<br>čez zanimive točke"
+    },
+    "checkbox.labels": {
+      "value": "Oznake"
+    },
+    "screen.lens": {
+      "value": "Leče"
+    },
+    "light": {
+      "value": "Svetloba"
+    },
+    "radioButton.many": {
+      "value": "Mnogo"
+    },
+    "radioButton.marginal": {
+      "value": "Robni"
+    },
+    "screen.mirror": {
+      "value": "Zrcalo"
+    },
+    "keyboardHelpDialog.move": {
+      "value": "Premakni"
+    },
+    "keyboardHelpDialog.moveDraggableItems": {
+      "value": "Premakni gibljive predmete"
+    },
+    "keyboardHelpDialog.moveSlower": {
+      "value": "Premakni počasneje"
+    },
+    "radioButton.none": {
+      "value": "Nič"
+    },
+    "keyboardHelpDialog.object": {
+      "value": "Predmet"
+    },
+    "label.object": {
+      "value": "Predmet"
+    },
+    "label.objectN": {
+      "value": "Predmet {{objectNumber}}"
+    },
+    "keyboardHelpDialog.objects": {
+      "value": "Predmeti"
+    },
+    "label.opticalAxis": {
+      "value": "Optična os"
+    },
+    "pencil": {
+      "value": "Svinčnik"
+    },
+    "penguin": {
+      "value": "Pingvin"
+    },
+    "radioButton.principal": {
+      "value": "Glavni"
+    },
     "radiusOfCurvaturePositive": {
       "value": "Radij ukrivljenosti"
     },
     "radiusOfCurvatureNegative": {
       "value": "Radij ukrivljenosti (-)"
     },
-    "diameter": {
-      "value": "Premer"
+    "rays": {
+      "value": "Žarki"
     },
-    "indexOfRefraction": {
-      "value": "Lomni količnik"
+    "label.realImage": {
+      "value": "Realna<br>slika"
     },
-    "label.convexLens": {
-      "value": "Zbiralne<br>leče"
+    "label.realImageN": {
+      "value": "Realna<br>slika {{imageNumber}}"
     },
-    "label.concaveLens": {
-      "value": "Razpršilne<br>leče"
+    "keyboardHelpDialog.removeFromToolbox": {
+      "value": "Odstrani iz orodjarne"
     },
-    "label.convexMirror": {
-      "value": "Razpršilno<br>zrcalo"
+    "keyboardHelpDialog.returnToToolbox": {
+      "value": "Vrni v orodjarno"
     },
-    "label.concaveMirror": {
-      "value": "Zbiralno<br>zrcalo"
+    "keyboardHelpDialog.rulerAndMarkerControls": {
+      "value": "Krmilniki ravnila in oznak"
     },
-    "label.flatMirror": {
-      "value": "Ravno<br>zrcalo"
+    "label.projectionScreen": {
+      "value": "Zaslon"
+    },
+    "checkbox.secondPoint": {
+      "value": "Druga točka"
+    },
+    "star": {
+      "value": "Zvezda"
+    },
+    "checkbox.virtualImage": {
+      "value": "Navidezna slika"
+    },
+    "label.virtualImage": {
+      "value": "Navidezna<br>slika"
+    },
+    "label.virtualImageN": {
+      "value": "Navidezna<br>slika {{imageNumber}}"
     },
     "geometric-optics.title": {
       "value": "Geometrijska optika"
