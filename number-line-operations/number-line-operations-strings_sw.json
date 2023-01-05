@@ -1,12 +1,57 @@
 {
   "screen.chips": {
-    "value": "chips",
+    "value": "Visahani",
     "history": [
       {
         "userId": 688388,
         "timestamp": 1658692304226,
         "oldValue": "",
         "newValue": "chips"
+      },
+      {
+        "userId": 1085729,
+        "timestamp": 1672934366013,
+        "oldValue": "chips",
+        "newValue": "Visahani"
+      }
+    ]
+  },
+  "screen.generic": {
+    "value": "Kawaida",
+    "history": [
+      {
+        "userId": 688388,
+        "timestamp": 1658692304226,
+        "oldValue": "",
+        "newValue": "Kawaida"
+      }
+    ]
+  },
+  "screen.netWorth": {
+    "value": "Thamani",
+    "history": [
+      {
+        "userId": 688388,
+        "timestamp": 1658692304226,
+        "oldValue": "",
+        "newValue": "Thamani"
+      }
+    ]
+  },
+  "screen.operations": {
+    "value": "Matendo",
+    "history": [
+      {
+        "userId": 688388,
+        "timestamp": 1658692304226,
+        "oldValue": "",
+        "newValue": "Oparesheni"
+      },
+      {
+        "userId": 1085625,
+        "timestamp": 1665660511003,
+        "oldValue": "Oparesheni",
+        "newValue": "Matendo"
       }
     ]
   },
@@ -77,25 +122,31 @@
       }
     ]
   },
-  "netWorthWithCurrencyPattern": {
-    "value": "{{netWorthString}} ({{currencyUnits}})",
+  "pointLabels": {
+    "value": "Lebo za Pointi",
     "history": [
       {
         "userId": 688388,
         "timestamp": 1658692304226,
         "oldValue": "",
-        "newValue": "{{netWorthString}} ({{currencyUnits}})"
+        "newValue": "Lebo za Pointi"
       }
     ]
   },
-  "netWorth": {
-    "value": "Thamani",
+  "numericalExpression": {
+    "value": "Mtajo wa Namba",
     "history": [
       {
         "userId": 688388,
         "timestamp": 1658692304226,
         "oldValue": "",
-        "newValue": "Thamani"
+        "newValue": "Usemi wa Nambari"
+      },
+      {
+        "userId": 1085625,
+        "timestamp": 1665660511003,
+        "oldValue": "Usemi wa Nambari",
+        "newValue": "Mtajo wa Namba"
       }
     ]
   },
@@ -110,130 +161,59 @@
       }
     ]
   },
-  "operationOffScale": {
-    "value": "Matendo nje ya kiwango",
+  "netWorth": {
+    "value": "faida",
     "history": [
       {
         "userId": 688388,
         "timestamp": 1658692304226,
         "oldValue": "",
-        "newValue": "operesheni nje ya kiwango"
+        "newValue": "Thamani"
       },
       {
-        "userId": 1085625,
-        "timestamp": 1665660511003,
-        "oldValue": "operesheni nje ya kiwango",
-        "newValue": "Matendo nje ya kiwango"
+        "userId": 1085729,
+        "timestamp": 1672934366013,
+        "oldValue": "Thamani",
+        "newValue": "faida"
       }
     ]
   },
-  "add": {
-    "value": "ongeza",
+  "assets": {
+    "value": "Mali",
     "history": [
       {
         "userId": 688388,
         "timestamp": 1658692304226,
         "oldValue": "",
-        "newValue": "ongeza"
+        "newValue": "Mali"
       }
     ]
   },
-  "remove": {
-    "value": "ondoa",
+  "debts": {
+    "value": "Madeni",
     "history": [
       {
         "userId": 688388,
         "timestamp": 1658692304226,
         "oldValue": "",
-        "newValue": "ondoa"
+        "newValue": "Deni"
+      },
+      {
+        "userId": 1085729,
+        "timestamp": 1672934366013,
+        "oldValue": "Deni",
+        "newValue": "Madeni"
       }
     ]
   },
-  "addRemoveZeroCurrencyPattern": {
-    "value": "{{addOrRemove}} {{currencyUnits}}0",
+  "netWorthWithCurrencyPattern": {
+    "value": "{{netWorthString}} ({{currencyUnits}})",
     "history": [
       {
         "userId": 688388,
         "timestamp": 1658692304226,
         "oldValue": "",
-        "newValue": "{{addOrRemove}} {{currencyUnits}}0"
-      }
-    ]
-  },
-  "addRemoveAssetDebtPattern": {
-    "value": "{{addOrRemove}} {{assetOrDebt}} of {{currencyUnits}}{{value}}",
-    "history": [
-      {
-        "userId": 688388,
-        "timestamp": 1658692304226,
-        "oldValue": "",
-        "newValue": "{{addOrRemove}} {{assetOrDebt}} of {{currencyUnits}}{{value}}"
-      }
-    ]
-  },
-  "asset": {
-    "value": "mali",
-    "history": [
-      {
-        "userId": 688388,
-        "timestamp": 1658692304226,
-        "oldValue": "",
-        "newValue": "mali"
-      }
-    ]
-  },
-  "debt": {
-    "value": "deni",
-    "history": [
-      {
-        "userId": 688388,
-        "timestamp": 1658692304226,
-        "oldValue": "",
-        "newValue": "deni"
-      }
-    ]
-  },
-  "addRemoveZeroPattern": {
-    "value": "{{addOrRemove}} 0",
-    "history": [
-      {
-        "userId": 688388,
-        "timestamp": 1658692304226,
-        "oldValue": "",
-        "newValue": "{{addOrRemove}} 0"
-      }
-    ]
-  },
-  "addRemovePositiveNegativePattern": {
-    "value": "{{addOrRemove}} {{positiveOrNegative}} {{value}}",
-    "history": [
-      {
-        "userId": 688388,
-        "timestamp": 1658692304226,
-        "oldValue": "",
-        "newValue": "{{addOrRemove}} {{positiveOrNegative}} {{value}}"
-      }
-    ]
-  },
-  "positive": {
-    "value": "chanya",
-    "history": [
-      {
-        "userId": 688388,
-        "timestamp": 1658692304226,
-        "oldValue": "",
-        "newValue": "chanya"
-      }
-    ]
-  },
-  "negative": {
-    "value": "hasi",
-    "history": [
-      {
-        "userId": 688388,
-        "timestamp": 1658692304226,
-        "oldValue": "",
-        "newValue": "hasi"
+        "newValue": "{{netWorthString}} ({{currencyUnits}})"
       }
     ]
   },
@@ -281,53 +261,14 @@
       }
     ]
   },
-  "screen.generic": {
-    "value": "Kawaida",
+  "simplify": {
+    "value": "Rahisisha",
     "history": [
       {
         "userId": 688388,
         "timestamp": 1658692304226,
         "oldValue": "",
-        "newValue": "Kawaida"
-      }
-    ]
-  },
-  "pointLabels": {
-    "value": "Lebo za Pointi",
-    "history": [
-      {
-        "userId": 688388,
-        "timestamp": 1658692304226,
-        "oldValue": "",
-        "newValue": "Lebo za Pointi"
-      }
-    ]
-  },
-  "numericalExpression": {
-    "value": "Mtajo wa Namba",
-    "history": [
-      {
-        "userId": 688388,
-        "timestamp": 1658692304226,
-        "oldValue": "",
-        "newValue": "Usemi wa Nambari"
-      },
-      {
-        "userId": 1085625,
-        "timestamp": 1665660511003,
-        "oldValue": "Usemi wa Nambari",
-        "newValue": "Mtajo wa Namba"
-      }
-    ]
-  },
-  "screen.netWorth": {
-    "value": "Thamani",
-    "history": [
-      {
-        "userId": 688388,
-        "timestamp": 1658692304226,
-        "oldValue": "",
-        "newValue": "Thamani"
+        "newValue": "Rahisisha"
       }
     ]
   },
@@ -342,25 +283,170 @@
       }
     ]
   },
-  "assets": {
-    "value": "Mali",
+  "addRemoveZeroCurrencyPattern": {
+    "value": "{{addOrRemove}} {{currencyUnits}}0",
     "history": [
       {
         "userId": 688388,
         "timestamp": 1658692304226,
         "oldValue": "",
-        "newValue": "Mali"
+        "newValue": "{{addOrRemove}} {{currencyUnits}}0"
       }
     ]
   },
-  "debts": {
-    "value": "Deni",
+  "add": {
+    "value": "ongeza",
     "history": [
       {
         "userId": 688388,
         "timestamp": 1658692304226,
         "oldValue": "",
-        "newValue": "Deni"
+        "newValue": "ongeza"
+      }
+    ]
+  },
+  "remove": {
+    "value": "ondoa",
+    "history": [
+      {
+        "userId": 688388,
+        "timestamp": 1658692304226,
+        "oldValue": "",
+        "newValue": "ondoa"
+      }
+    ]
+  },
+  "addRemoveAssetDebtPattern": {
+    "value": "{{addOrRemove}} {{assetOrDebt}} of {{currencyUnits}}{{value}}",
+    "history": [
+      {
+        "userId": 688388,
+        "timestamp": 1658692304226,
+        "oldValue": "",
+        "newValue": "{{addOrRemove}} {{assetOrDebt}} of {{currencyUnits}}{{value}}"
+      }
+    ]
+  },
+  "asset": {
+    "value": "mali",
+    "history": [
+      {
+        "userId": 688388,
+        "timestamp": 1658692304226,
+        "oldValue": "",
+        "newValue": "mali"
+      }
+    ]
+  },
+  "debt": {
+    "value": "deni",
+    "history": [
+      {
+        "userId": 688388,
+        "timestamp": 1658692304226,
+        "oldValue": "",
+        "newValue": "deni"
+      }
+    ]
+  },
+  "initialNetWorth": {
+    "value": "Faida ya Awali",
+    "history": [
+      {
+        "userId": 688388,
+        "timestamp": 1658692304226,
+        "oldValue": "",
+        "newValue": "Thamani ya Awali"
+      },
+      {
+        "userId": 1085729,
+        "timestamp": 1672934366013,
+        "oldValue": "Thamani ya Awali",
+        "newValue": "Faida ya Awali"
+      }
+    ]
+  },
+  "initialNetWorthWithBreak": {
+    "value": "Faida<br>ya Awali",
+    "history": [
+      {
+        "userId": 688388,
+        "timestamp": 1658692304226,
+        "oldValue": "",
+        "newValue": "Thamani<br>ya Awali"
+      },
+      {
+        "userId": 1085729,
+        "timestamp": 1672934366013,
+        "oldValue": "Thamani<br>ya Awali",
+        "newValue": "Faida<br>ya Awali"
+      }
+    ]
+  },
+  "operationOffScale": {
+    "value": "Matendo nje ya skeli",
+    "history": [
+      {
+        "userId": 688388,
+        "timestamp": 1658692304226,
+        "oldValue": "",
+        "newValue": "operesheni nje ya kiwango"
+      },
+      {
+        "userId": 1085625,
+        "timestamp": 1665660511003,
+        "oldValue": "operesheni nje ya kiwango",
+        "newValue": "Matendo nje ya kiwango"
+      },
+      {
+        "userId": 1085729,
+        "timestamp": 1672934366013,
+        "oldValue": "Matendo nje ya kiwango",
+        "newValue": "Matendo nje ya skeli"
+      }
+    ]
+  },
+  "addRemoveZeroPattern": {
+    "value": "{{addOrRemove}} 0",
+    "history": [
+      {
+        "userId": 688388,
+        "timestamp": 1658692304226,
+        "oldValue": "",
+        "newValue": "{{addOrRemove}} 0"
+      }
+    ]
+  },
+  "addRemovePositiveNegativePattern": {
+    "value": "{{addOrRemove}} {{positiveOrNegative}} {{value}}",
+    "history": [
+      {
+        "userId": 688388,
+        "timestamp": 1658692304226,
+        "oldValue": "",
+        "newValue": "{{addOrRemove}} {{positiveOrNegative}} {{value}}"
+      }
+    ]
+  },
+  "positive": {
+    "value": "chanya",
+    "history": [
+      {
+        "userId": 688388,
+        "timestamp": 1658692304226,
+        "oldValue": "",
+        "newValue": "chanya"
+      }
+    ]
+  },
+  "negative": {
+    "value": "hasi",
+    "history": [
+      {
+        "userId": 688388,
+        "timestamp": 1658692304226,
+        "oldValue": "",
+        "newValue": "hasi"
       }
     ]
   },
@@ -378,56 +464,6 @@
         "timestamp": 1665660511003,
         "oldValue": "Mstari wa Nambari: Oparesheni",
         "newValue": "Mstari wa Namba: Matendo"
-      }
-    ]
-  },
-  "screen.operations": {
-    "value": "Matendo",
-    "history": [
-      {
-        "userId": 688388,
-        "timestamp": 1658692304226,
-        "oldValue": "",
-        "newValue": "Oparesheni"
-      },
-      {
-        "userId": 1085625,
-        "timestamp": 1665660511003,
-        "oldValue": "Oparesheni",
-        "newValue": "Matendo"
-      }
-    ]
-  },
-  "initialNetWorth": {
-    "value": "Thamani ya Awali",
-    "history": [
-      {
-        "userId": 688388,
-        "timestamp": 1658692304226,
-        "oldValue": "",
-        "newValue": "Thamani ya Awali"
-      }
-    ]
-  },
-  "initialNetWorthWithBreak": {
-    "value": "Thamani<br>ya Awali",
-    "history": [
-      {
-        "userId": 688388,
-        "timestamp": 1658692304226,
-        "oldValue": "",
-        "newValue": "Thamani<br>ya Awali"
-      }
-    ]
-  },
-  "simplify": {
-    "value": "Rahisisha",
-    "history": [
-      {
-        "userId": 688388,
-        "timestamp": 1658692304226,
-        "oldValue": "",
-        "newValue": "Rahisisha"
       }
     ]
   }
