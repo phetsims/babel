@@ -1,36 +1,12 @@
 {
-  "angleUnit": {
-    "value": "Grad",
+  "electricField": {
+    "value": "Elektrisches Feld",
     "history": [
       {
         "userId": 272196,
         "timestamp": 1474223643503,
         "oldValue": "",
-        "newValue": "Grad",
-        "explanation": null
-      }
-    ]
-  },
-  "centimeterUnit": {
-    "value": "cm",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1474223643503,
-        "oldValue": "",
-        "newValue": "cm",
-        "explanation": null
-      }
-    ]
-  },
-  "charges-and-fields.title": {
-    "value": "Ladungen und Felder",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1474223643503,
-        "oldValue": "",
-        "newValue": "Ladungen und Felder",
+        "newValue": "Elektrisches Feld",
         "explanation": null
       }
     ]
@@ -47,39 +23,21 @@
       }
     ]
   },
-  "eFieldUnit": {
-    "value": "V/m",
+  "voltage": {
+    "value": "Potenzial",
     "history": [
       {
         "userId": 272196,
         "timestamp": 1474223643503,
         "oldValue": "",
-        "newValue": "V/m",
+        "newValue": "Spannung",
         "explanation": null
-      }
-    ]
-  },
-  "electricField": {
-    "value": "Elektrisches Feld",
-    "history": [
+      },
       {
-        "userId": 272196,
-        "timestamp": 1474223643503,
-        "oldValue": "",
-        "newValue": "Elektrisches Feld",
-        "explanation": null
-      }
-    ]
-  },
-  "equipotential": {
-    "value": "Äquipotential",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1474223643503,
-        "oldValue": "",
-        "newValue": "Äquipotential",
-        "explanation": null
+        "userId": 446279,
+        "timestamp": 1673432730134,
+        "oldValue": "Spannung",
+        "newValue": "Potenzial"
       }
     ]
   },
@@ -95,6 +53,30 @@
       }
     ]
   },
+  "values": {
+    "value": "Werte",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1474223643503,
+        "oldValue": "",
+        "newValue": "Werte",
+        "explanation": null
+      }
+    ]
+  },
+  "voltageUnit": {
+    "value": "V",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1474223643503,
+        "oldValue": "",
+        "newValue": "V",
+        "explanation": null
+      }
+    ]
+  },
   "minusOneNanoC": {
     "value": "-1 nC",
     "history": [
@@ -103,42 +85,6 @@
         "timestamp": 1474223643503,
         "oldValue": "",
         "newValue": "-1 nC",
-        "explanation": null
-      }
-    ]
-  },
-  "oneMeter": {
-    "value": "1 Meter",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1474223643503,
-        "oldValue": "",
-        "newValue": "1 Meter",
-        "explanation": null
-      }
-    ]
-  },
-  "options.projectorColors": {
-    "value": "Projektor Modus",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1474223643503,
-        "oldValue": "",
-        "newValue": "Projektor Modus",
-        "explanation": null
-      }
-    ]
-  },
-  "pattern.0value.1units": {
-    "value": "{0} {1}",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1474223643503,
-        "oldValue": "",
-        "newValue": "{0} {1}",
         "explanation": null
       }
     ]
@@ -167,38 +113,104 @@
       }
     ]
   },
-  "values": {
-    "value": "Werte",
+  "pattern.0value.1units": {
+    "value": "{0} {1}",
     "history": [
       {
         "userId": 272196,
         "timestamp": 1474223643503,
         "oldValue": "",
-        "newValue": "Werte",
+        "newValue": "{0} {1}",
         "explanation": null
       }
     ]
   },
-  "voltage": {
-    "value": "Spannung",
+  "eFieldUnit": {
+    "value": "V/m",
     "history": [
       {
         "userId": 272196,
         "timestamp": 1474223643503,
         "oldValue": "",
-        "newValue": "Spannung",
+        "newValue": "V/m",
         "explanation": null
       }
     ]
   },
-  "voltageUnit": {
-    "value": "V",
+  "angleUnit": {
+    "value": "Grad",
     "history": [
       {
         "userId": 272196,
         "timestamp": 1474223643503,
         "oldValue": "",
-        "newValue": "V",
+        "newValue": "Grad",
+        "explanation": null
+      }
+    ]
+  },
+  "equipotential": {
+    "value": "Äquipotenzial",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1474223643503,
+        "oldValue": "",
+        "newValue": "Äquipotential",
+        "explanation": null
+      },
+      {
+        "userId": 446279,
+        "timestamp": 1673432730134,
+        "oldValue": "Äquipotential",
+        "newValue": "Äquipotenzial"
+      }
+    ]
+  },
+  "centimeterUnit": {
+    "value": "cm",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1474223643503,
+        "oldValue": "",
+        "newValue": "cm",
+        "explanation": null
+      }
+    ]
+  },
+  "oneMeter": {
+    "value": "1 Meter",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1474223643503,
+        "oldValue": "",
+        "newValue": "1 Meter",
+        "explanation": null
+      }
+    ]
+  },
+  "charges-and-fields.title": {
+    "value": "Ladungen und Felder",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1474223643503,
+        "oldValue": "",
+        "newValue": "Ladungen und Felder",
+        "explanation": null
+      }
+    ]
+  },
+  "options.projectorColors": {
+    "value": "Projektor Modus",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1474223643503,
+        "oldValue": "",
+        "newValue": "Projektor Modus",
         "explanation": null
       }
     ]
