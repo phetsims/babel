@@ -2964,47 +2964,68 @@
     }
   },
   "fi": {
-    "femtosecondConversion": {
-      "value": "1 fs = 10<sup>-15</sup> s"
+    "circleDiameter": {
+      "value": "Ympyrän halkaisija"
     },
-    "millisecondConversion": {
-      "value": "1 ms = 10<sup>-3</sup> s"
+    "squareWidth": {
+      "value": "Neliö leveys"
     },
-    "amplitude": {
-      "value": "Amplitudi"
+    "disorder": {
+      "value": "Epäjärjestys"
     },
-    "both": {
-      "value": "Molemmat"
+    "latticeSpacing": {
+      "value": "Tasojen välimatka"
+    },
+    "lots": {
+      "value": "Paljon"
+    },
+    "none": {
+      "value": "Ei yhtään"
+    },
+    "diameter": {
+      "value": "Halkaisija"
+    },
+    "eccentricity": {
+      "value": "Eksentrisyys"
+    },
+    "height": {
+      "value": "Korkeus"
+    },
+    "width": {
+      "value": "Leveys"
+    },
+    "rotation": {
+      "value": "Kiertymä"
+    },
+    "screen.diffraction": {
+      "value": "Diffraktio"
+    },
+    "distanceUnits": {
+      "value": ""
+    },
+    "timeUnits": {
+      "value": ""
     },
     "centimetersUnits": {
       "value": "cm"
     },
-    "electricField": {
-      "value": "Sähkökenttä"
-    },
     "electricFieldAtCenter": {
       "value": "Sähkökenttä keskipisteessä"
     },
-    "frequency": {
-      "value": "Taajuus"
+    "electricField": {
+      "value": "Sähkökenttä"
+    },
+    "femtosecondConversion": {
+      "value": "1 fs = 10<sup>-15</sup> s"
     },
     "femtosecondsUnits": {
       "value": "fs"
     },
-    "graph": {
-      "value": "Kuvaaja"
-    },
-    "intensity": {
-      "value": "Intensiteetti"
-    },
     "lightGenerator": {
       "value": "Valonlähde"
     },
-    "max": {
-      "value": "max"
-    },
-    "min": {
-      "value": "min"
+    "millisecondConversion": {
+      "value": "1 ms = 10<sup>-3</sup> s"
     },
     "millisecondsUnits": {
       "value": "ms"
@@ -3012,65 +3033,116 @@
     "nanometersUnits": {
       "value": "nm"
     },
-    "particles": {
-      "value": "Väliaine"
-    },
-    "playTone": {
-      "value": "Soita ääni"
-    },
     "positionCM": {
       "value": "Etäisyys (cm)"
     },
     "positionNM": {
       "value": "Etäisyys (nm)"
     },
-    "pressure": {
-      "value": "Paine"
-    },
     "pressureAtCenter": {
       "value": "Paine keskipisteessä"
+    },
+    "pressure": {
+      "value": "Paine"
     },
     "secondsUnits": {
       "value": "s"
     },
-    "screenLabel": {
-      "value": "Varjostin"
-    },
-    "sideView": {
-      "value": "Näkymä sivulta"
-    },
-    "soundEffect": {
-      "value": "Ääniefekti"
-    },
     "soundGenerator": {
       "value": "Äänigeneraattori"
-    },
-    "time": {
-      "value": "Aika"
-    },
-    "top": {
-      "value": "Ylös"
-    },
-    "topView": {
-      "value": "Näkymä päältä"
-    },
-    "waterLevel": {
-      "value": "Veden pinta"
     },
     "waterLevelAtCenter": {
       "value": "Pinnan korkeus"
     },
+    "waterLevel": {
+      "value": "Veden pinta"
+    },
     "waterWaveGenerator": {
       "value": "Aaltolähde"
+    },
+    "separation": {
+      "value": "Välimatka"
+    },
+    "intensity": {
+      "value": "Intensiteetti"
+    },
+    "top": {
+      "value": "Ylös"
+    },
+    "normal": {
+      "value": "Normaali"
+    },
+    "slow": {
+      "value": "Hidas"
+    },
+    "sideView": {
+      "value": "Näkymä sivulta"
+    },
+    "topView": {
+      "value": "Näkymä päältä"
+    },
+    "max": {
+      "value": "max"
+    },
+    "min": {
+      "value": "min"
+    },
+    "amplitude": {
+      "value": "Amplitudi"
+    },
+    "frequency": {
+      "value": "Taajuus"
+    },
+    "both": {
+      "value": "Molemmat"
+    },
+    "particles": {
+      "value": "Väliaine"
     },
     "waves": {
       "value": "Aallot"
     },
-    "distanceUnits": {
-      "value": "{{distance}} {{units}}"
+    "graph": {
+      "value": "Kuvaaja"
     },
-    "timeUnits": {
-      "value": "{{time}} {{units}}"
+    "playTone": {
+      "value": "Soita ääni"
+    },
+    "screenLabel": {
+      "value": "Varjostin"
+    },
+    "soundEffect": {
+      "value": "Ääniefekti"
+    },
+    "time": {
+      "value": "Aika"
+    },
+    "screen.interference": {
+      "value": "Interferenssi"
+    },
+    "noBarrier": {
+      "value": "Ei estettä"
+    },
+    "oneSlit": {
+      "value": "Yksi rako"
+    },
+    "slitSeparation": {
+      "value": "Rakojen välimatka"
+    },
+    "slitWidth": {
+      "value": "Raon leveys"
+    },
+    "twoSlits": {
+      "value": "Kaksi rakoa"
+    },
+    "screen.slits": {
+      "value": "Raot"
+    },
+    "screen.waves": {
+      "value": "Aallot"
+    },
+    "wave-interference.title": {
+      "value": "Aaltojen interferenssi"
     }
   },
   "fr": {
