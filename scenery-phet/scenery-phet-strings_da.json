@@ -10,56 +10,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.popUpListPattern": {
-    "value": "1. Pop-up liste af {{thingPlural}}",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1617691035861,
-        "oldValue": "",
-        "newValue": "1. Pop-up liste bort {{thingPlural}}"
-      },
-      {
-        "userId": 130982,
-        "timestamp": 1638545820768,
-        "oldValue": "1. Pop-up liste bort {{thingPlural}}",
-        "newValue": "1. Pop-up liste af {{thingPlural}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.moveThroughPattern": {
-    "value": "2. Flyt gennem {{thingPlural}}",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1617691035861,
-        "oldValue": "",
-        "newValue": "2. Flyt gennem {{thingPlural}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.chooseNewPattern": {
-    "value": "3. Vælg ny {{thingSingular}}",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1617691035861,
-        "oldValue": "",
-        "newValue": "3. Vælg ny {{thingSingular}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-    "value": "4. Vælg liste uden ændring",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1617691035861,
-        "oldValue": "",
-        "newValue": "4. Vælg liste uden ændring"
-      }
-    ]
-  },
   "keyboardHelpDialog.adjust": {
     "value": "Indstil",
     "history": [
@@ -154,6 +104,18 @@
       }
     ]
   },
+  "speed.fast": {
+    "value": "Hurtig",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1604257575714,
+        "oldValue": "",
+        "newValue": "Hurtig",
+        "explanation": null
+      }
+    ]
+  },
   "key.fn": {
     "value": "fn",
     "history": [
@@ -168,44 +130,6 @@
         "timestamp": 1612532618510,
         "oldValue": "Fn",
         "newValue": "fn"
-      }
-    ]
-  },
-  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-    "value": "Tag fat eller slip {{thing}}",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1544253198285,
-        "oldValue": "",
-        "newValue": "Tag fat eller løsne {{thing}}",
-        "explanation": null
-      },
-      {
-        "userId": 130982,
-        "timestamp": 1544338437588,
-        "oldValue": "Tag fat eller løsne {{thing}}",
-        "newValue": "Tag fat eller slip {{thing}}",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-    "value": "Tag fat eller slip {{thing}}",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1544253198285,
-        "oldValue": "",
-        "newValue": "Tag fat eller løsne {{thing}}",
-        "explanation": null
-      },
-      {
-        "userId": 130982,
-        "timestamp": 1544338437588,
-        "oldValue": "Tag fat eller løsne {{thing}}",
-        "newValue": "Tag fat eller slip {{thing}}",
-        "explanation": null
       }
     ]
   },
@@ -301,25 +225,26 @@
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.option": {
-    "value": "mulighed",
+  "speed.normal": {
+    "value": "Normal",
     "history": [
       {
         "userId": 130982,
-        "timestamp": 1617691035861,
+        "timestamp": 1537424158530,
         "oldValue": "",
-        "newValue": "mulighed"
+        "newValue": "Normal",
+        "explanation": null
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.options": {
-    "value": "muligheder",
+  "key.option": {
+    "value": "Mulighed",
     "history": [
       {
         "userId": 130982,
-        "timestamp": 1617691035862,
+        "timestamp": 1675320585684,
         "oldValue": "",
-        "newValue": "muligheder"
+        "newValue": "Mulighed"
       }
     ]
   },
@@ -332,6 +257,17 @@
         "oldValue": "",
         "newValue": "eller",
         "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.timingControls.pauseOrPlayAction": {
+    "value": "Pause eller afspil handling",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1675320585684,
+        "oldValue": "",
+        "newValue": "Pause eller afspil handling"
       }
     ]
   },
@@ -356,17 +292,6 @@
         "oldValue": "",
         "newValue": "Side op",
         "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.headingString": {
-    "value": "Pop åben menu",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1654849682683,
-        "oldValue": "",
-        "newValue": "Pop åben menu"
       }
     ]
   },
@@ -417,6 +342,18 @@
       }
     ]
   },
+  "speed.slow": {
+    "value": "Langsom",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1537424158530,
+        "oldValue": "",
+        "newValue": "Langsom",
+        "explanation": null
+      }
+    ]
+  },
   "key.space": {
     "value": "Mellemrum",
     "history": [
@@ -438,6 +375,17 @@
         "oldValue": "",
         "newValue": "Tab",
         "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.timingControls.timingControls": {
+    "value": "Timing knapper",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1675320585684,
+        "oldValue": "",
+        "newValue": "Timing knapper"
       }
     ]
   },
@@ -495,6 +443,127 @@
         "timestamp": 1617691035862,
         "oldValue": "",
         "newValue": "{{verb}} {{slider}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.popUpListPattern": {
+    "value": "1. Pop-up liste af {{thingPlural}}",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1617691035861,
+        "oldValue": "",
+        "newValue": "1. Pop-up liste bort {{thingPlural}}"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1638545820768,
+        "oldValue": "1. Pop-up liste bort {{thingPlural}}",
+        "newValue": "1. Pop-up liste af {{thingPlural}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.moveThroughPattern": {
+    "value": "2. Flyt gennem {{thingPlural}}",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1617691035861,
+        "oldValue": "",
+        "newValue": "2. Flyt gennem {{thingPlural}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.chooseNewPattern": {
+    "value": "3. Vælg ny {{thingSingular}}",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1617691035861,
+        "oldValue": "",
+        "newValue": "3. Vælg ny {{thingSingular}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+    "value": "4. Vælg liste uden ændring",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1617691035861,
+        "oldValue": "",
+        "newValue": "4. Vælg liste uden ændring"
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "Tag fat eller slip {{thing}}",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1544253198285,
+        "oldValue": "",
+        "newValue": "Tag fat eller løsne {{thing}}",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1544338437588,
+        "oldValue": "Tag fat eller løsne {{thing}}",
+        "newValue": "Tag fat eller slip {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "Tag fat eller slip {{thing}}",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1544253198285,
+        "oldValue": "",
+        "newValue": "Tag fat eller løsne {{thing}}",
+        "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1544338437588,
+        "oldValue": "Tag fat eller løsne {{thing}}",
+        "newValue": "Tag fat eller slip {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.option": {
+    "value": "mulighed",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1617691035861,
+        "oldValue": "",
+        "newValue": "mulighed"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.options": {
+    "value": "muligheder",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1617691035862,
+        "oldValue": "",
+        "newValue": "muligheder"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.headingString": {
+    "value": "Pop åben menu",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1654849682683,
+        "oldValue": "",
+        "newValue": "Pop åben menu"
       }
     ]
   },
@@ -706,18 +775,6 @@
       }
     ]
   },
-  "speed.fast": {
-    "value": "Hurtig",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1604257575714,
-        "oldValue": "",
-        "newValue": "Hurtig",
-        "explanation": null
-      }
-    ]
-  },
   "key.k": {
     "value": "K",
     "history": [
@@ -738,30 +795,6 @@
         "timestamp": 1599585255911,
         "oldValue": "",
         "newValue": "L",
-        "explanation": null
-      }
-    ]
-  },
-  "speed.normal": {
-    "value": "Normal",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1537424158530,
-        "oldValue": "",
-        "newValue": "Normal",
-        "explanation": null
-      }
-    ]
-  },
-  "speed.slow": {
-    "value": "Langsom",
-    "history": [
-      {
-        "userId": 130982,
-        "timestamp": 1537424158530,
-        "oldValue": "",
-        "newValue": "Langsom",
         "explanation": null
       }
     ]
