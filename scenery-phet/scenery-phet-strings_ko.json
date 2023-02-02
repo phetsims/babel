@@ -1,4 +1,48 @@
 {
+  "keyboardHelpDialog.comboBox.popUpListPattern": {
+    "value": "튀어나오는 {{thingPlural}} 목록",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1675331020724,
+        "oldValue": "",
+        "newValue": "튀어나오는 {{thingPlural}} 목록"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.moveThroughPattern": {
+    "value": "{{thingPlural}}를 통해 이동",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1675331020724,
+        "oldValue": "",
+        "newValue": "{{thingPlural}}를 통해 이동"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.chooseNewPattern": {
+    "value": "새로운 {{thingSingular}} 선택",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1675331020724,
+        "oldValue": "",
+        "newValue": "새로운 {{thingSingular}} 선택"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+    "value": "목록을변경없이 닫기 ",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1675331020724,
+        "oldValue": "",
+        "newValue": "목록을변경없이 닫기 "
+      }
+    ]
+  },
   "keyboardHelpDialog.adjust": {
     "value": "조절",
     "history": [
@@ -90,17 +134,6 @@
         "oldValue": "",
         "newValue": "대화 종료",
         "explanation": null
-      }
-    ]
-  },
-  "speed.fast": {
-    "value": "빠름",
-    "history": [
-      {
-        "userId": 154927,
-        "timestamp": 1675327236333,
-        "oldValue": "",
-        "newValue": "빠름"
       }
     ]
   },
@@ -196,26 +229,25 @@
       }
     ]
   },
-  "speed.normal": {
-    "value": "정규 속도",
+  "keyboardHelpDialog.comboBox.option": {
+    "value": "옵션",
     "history": [
       {
         "userId": 154927,
-        "timestamp": 1549006919797,
+        "timestamp": 1675331020725,
         "oldValue": "",
-        "newValue": "정규 속도",
-        "explanation": null
+        "newValue": "옵션"
       }
     ]
   },
-  "key.option": {
-    "value": "선택적",
+  "keyboardHelpDialog.comboBox.options": {
+    "value": "옵션",
     "history": [
       {
         "userId": 154927,
-        "timestamp": 1675327236333,
+        "timestamp": 1675331020725,
         "oldValue": "",
-        "newValue": "선택적"
+        "newValue": "옵션"
       }
     ]
   },
@@ -228,17 +260,6 @@
         "oldValue": "",
         "newValue": "또는",
         "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.timingControls.pauseOrPlayAction": {
-    "value": "정지 또는 시작 활동",
-    "history": [
-      {
-        "userId": 154927,
-        "timestamp": 1675327236333,
-        "oldValue": "",
-        "newValue": "정지 또는 시작 활동"
       }
     ]
   },
@@ -263,6 +284,17 @@
         "oldValue": "",
         "newValue": "앞 페이지로",
         "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.headingString": {
+    "value": "튀어나오는 메뉴",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1675331020725,
+        "oldValue": "",
+        "newValue": "튀어나오는 메뉴"
       }
     ]
   },
@@ -312,18 +344,6 @@
       }
     ]
   },
-  "speed.slow": {
-    "value": "저속",
-    "history": [
-      {
-        "userId": 154927,
-        "timestamp": 1549006919797,
-        "oldValue": "",
-        "newValue": "저속",
-        "explanation": null
-      }
-    ]
-  },
   "key.space": {
     "value": "스페이스 키",
     "history": [
@@ -348,17 +368,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.timingControls.timingControls": {
-    "value": "시간 조절",
-    "history": [
-      {
-        "userId": 154927,
-        "timestamp": 1675327236334,
-        "oldValue": "",
-        "newValue": "시간 조절"
-      }
-    ]
-  },
   "keyboardHelpDialog.toggleCheckboxes": {
     "value": "토글 체크상자",
     "history": [
@@ -368,6 +377,74 @@
         "oldValue": "",
         "newValue": "토글 체크상자",
         "explanation": null
+      }
+    ]
+  },
+  "speed.fast": {
+    "value": "빠름",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1675327236333,
+        "oldValue": "",
+        "newValue": "빠름"
+      }
+    ]
+  },
+  "speed.normal": {
+    "value": "정규 속도",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1549006919797,
+        "oldValue": "",
+        "newValue": "정규 속도",
+        "explanation": null
+      }
+    ]
+  },
+  "key.option": {
+    "value": "선택적",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1675327236333,
+        "oldValue": "",
+        "newValue": "선택적"
+      }
+    ]
+  },
+  "keyboardHelpDialog.timingControls.pauseOrPlayAction": {
+    "value": "정지 또는 시작 활동",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1675327236333,
+        "oldValue": "",
+        "newValue": "정지 또는 시작 활동"
+      }
+    ]
+  },
+  "speed.slow": {
+    "value": "저속",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1549006919797,
+        "oldValue": "",
+        "newValue": "저속",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.timingControls.timingControls": {
+    "value": "시간 조절",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1675327236334,
+        "oldValue": "",
+        "newValue": "시간 조절"
       }
     ]
   },
