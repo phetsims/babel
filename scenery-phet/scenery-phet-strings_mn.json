@@ -1,48 +1,4 @@
 {
-  "keyboardHelpDialog.comboBox.popUpListPattern": {
-    "value": "1. {{thingPlural}} дээш гарах жагсаалт",
-    "history": [
-      {
-        "userId": 348103,
-        "timestamp": 1638001059573,
-        "oldValue": "",
-        "newValue": "1. {{thingPlural}} дээш гарах жагсаалт"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.moveThroughPattern": {
-    "value": "2. {{thingPlural}} дотор шилж",
-    "history": [
-      {
-        "userId": 348103,
-        "timestamp": 1638001059573,
-        "oldValue": "",
-        "newValue": "2. {{thingPlural}} дотор шилж"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.chooseNewPattern": {
-    "value": "3. Шинэ {{thingSingular}} сонго",
-    "history": [
-      {
-        "userId": 348103,
-        "timestamp": 1638001059573,
-        "oldValue": "",
-        "newValue": "3. Шинэ {{thingSingular}} сонго"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-    "value": "4. Жагсаалтыг өөрчлөхгүйгээр хаах",
-    "history": [
-      {
-        "userId": 348103,
-        "timestamp": 1638001059573,
-        "oldValue": "",
-        "newValue": "4. Жагсаалтыг өөрчлөхгүйгээр хаах"
-      }
-    ]
-  },
   "keyboardHelpDialog.adjust": {
     "value": "Тохируулах",
     "history": [
@@ -55,7 +11,7 @@
     ]
   },
   "keyboardHelpDialog.basicActions": {
-    "value": "Үндсэн Үйлдлүүд",
+    "value": "Үндсэн үйлдлүүд",
     "history": [
       {
         "userId": 348103,
@@ -63,6 +19,12 @@
         "oldValue": "",
         "newValue": "Үндсэн Үйлдлүүд",
         "explanation": null
+      },
+      {
+        "userId": 578876,
+        "timestamp": 1675331311901,
+        "oldValue": "Үндсэн Үйлдлүүд",
+        "newValue": "Үндсэн үйлдлүүд"
       }
     ]
   },
@@ -78,27 +40,14 @@
       }
     ]
   },
-  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-    "value": "Авах ба Орхих {{thing}}",
+  "speed.fast": {
+    "value": "Түргэн",
     "history": [
       {
         "userId": 348103,
-        "timestamp": 1549445296825,
+        "timestamp": 1637926656394,
         "oldValue": "",
-        "newValue": "Авах ба Орхих {{thing}}",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-    "value": "Авах ба орхих {{thing}}",
-    "history": [
-      {
-        "userId": 348103,
-        "timestamp": 1549445296825,
-        "oldValue": "",
-        "newValue": "Авах ба орхих {{thing}}",
-        "explanation": null
+        "newValue": "Түргэн"
       }
     ]
   },
@@ -132,13 +81,19 @@
     ]
   },
   "keyboardHelpDialog.jumpToMinimumPattern": {
-    "value": "{{minimum}} уруу үсрэх",
+    "value": "{{minimum}} руу үсрэх",
     "history": [
       {
         "userId": 348103,
         "timestamp": 1637926656394,
         "oldValue": "",
         "newValue": "{{minimum}} уруу үсрэх"
+      },
+      {
+        "userId": 578876,
+        "timestamp": 1675331311901,
+        "oldValue": "{{minimum}} уруу үсрэх",
+        "newValue": "{{minimum}} руу үсрэх"
       }
     ]
   },
@@ -200,25 +155,15 @@
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.option": {
-    "value": "сонголт",
+  "speed.normal": {
+    "value": "Хэвийн",
     "history": [
       {
         "userId": 348103,
-        "timestamp": 1638001059573,
+        "timestamp": 1549552419762,
         "oldValue": "",
-        "newValue": "сонголт"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.options": {
-    "value": "сонголтууд",
-    "history": [
-      {
-        "userId": 348103,
-        "timestamp": 1638001059573,
-        "oldValue": "",
-        "newValue": "сонголтууд"
+        "newValue": "Хэвийн",
+        "explanation": null
       }
     ]
   },
@@ -258,17 +203,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.headingString": {
-    "value": "Цэсийг нээх",
-    "history": [
-      {
-        "userId": 348103,
-        "timestamp": 1670158389314,
-        "oldValue": "",
-        "newValue": "Цэсийг нээх"
-      }
-    ]
-  },
   "keyboardHelpDialog.pressButtons": {
     "value": "Товч дар",
     "history": [
@@ -304,6 +238,29 @@
       }
     ]
   },
+  "speed.slow": {
+    "value": "Удаан",
+    "history": [
+      {
+        "userId": 348103,
+        "timestamp": 1549552419763,
+        "oldValue": "",
+        "newValue": "Удаан",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.timingControls.timingControls": {
+    "value": "Хугацааны тохируулга",
+    "history": [
+      {
+        "userId": 578876,
+        "timestamp": 1675331311901,
+        "oldValue": "",
+        "newValue": "Хугацааны тохируулга"
+      }
+    ]
+  },
   "keyboardHelpDialog.toggleCheckboxes": {
     "value": "Сонголт хийх",
     "history": [
@@ -334,6 +291,107 @@
         "timestamp": 1637926656394,
         "oldValue": "",
         "newValue": "{{verb}} дутуу жижиг алхам"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.popUpListPattern": {
+    "value": "1. {{thingPlural}} дээш гарах жагсаалт",
+    "history": [
+      {
+        "userId": 348103,
+        "timestamp": 1638001059573,
+        "oldValue": "",
+        "newValue": "1. {{thingPlural}} дээш гарах жагсаалт"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.moveThroughPattern": {
+    "value": "2. {{thingPlural}} дотор шилж",
+    "history": [
+      {
+        "userId": 348103,
+        "timestamp": 1638001059573,
+        "oldValue": "",
+        "newValue": "2. {{thingPlural}} дотор шилж"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.chooseNewPattern": {
+    "value": "3. Шинэ {{thingSingular}} сонго",
+    "history": [
+      {
+        "userId": 348103,
+        "timestamp": 1638001059573,
+        "oldValue": "",
+        "newValue": "3. Шинэ {{thingSingular}} сонго"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+    "value": "4. Жагсаалтыг өөрчлөхгүйгээр хаах",
+    "history": [
+      {
+        "userId": 348103,
+        "timestamp": 1638001059573,
+        "oldValue": "",
+        "newValue": "4. Жагсаалтыг өөрчлөхгүйгээр хаах"
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "Авах ба Орхих {{thing}}",
+    "history": [
+      {
+        "userId": 348103,
+        "timestamp": 1549445296825,
+        "oldValue": "",
+        "newValue": "Авах ба Орхих {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "Авах ба орхих {{thing}}",
+    "history": [
+      {
+        "userId": 348103,
+        "timestamp": 1549445296825,
+        "oldValue": "",
+        "newValue": "Авах ба орхих {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.option": {
+    "value": "сонголт",
+    "history": [
+      {
+        "userId": 348103,
+        "timestamp": 1638001059573,
+        "oldValue": "",
+        "newValue": "сонголт"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.options": {
+    "value": "сонголтууд",
+    "history": [
+      {
+        "userId": 348103,
+        "timestamp": 1638001059573,
+        "oldValue": "",
+        "newValue": "сонголтууд"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.headingString": {
+    "value": "Цэсийг нээх",
+    "history": [
+      {
+        "userId": 348103,
+        "timestamp": 1670158389314,
+        "oldValue": "",
+        "newValue": "Цэсийг нээх"
       }
     ]
   },
@@ -502,41 +560,6 @@
         "timestamp": 1638001059573,
         "oldValue": "",
         "newValue": "тэг"
-      }
-    ]
-  },
-  "speed.fast": {
-    "value": "Түргэн",
-    "history": [
-      {
-        "userId": 348103,
-        "timestamp": 1637926656394,
-        "oldValue": "",
-        "newValue": "Түргэн"
-      }
-    ]
-  },
-  "speed.normal": {
-    "value": "Хэвийн",
-    "history": [
-      {
-        "userId": 348103,
-        "timestamp": 1549552419762,
-        "oldValue": "",
-        "newValue": "Хэвийн",
-        "explanation": null
-      }
-    ]
-  },
-  "speed.slow": {
-    "value": "Удаан",
-    "history": [
-      {
-        "userId": 348103,
-        "timestamp": 1549552419763,
-        "oldValue": "",
-        "newValue": "Удаан",
-        "explanation": null
       }
     ]
   },
