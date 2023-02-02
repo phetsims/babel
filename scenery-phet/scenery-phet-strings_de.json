@@ -10,50 +10,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.popUpListPattern": {
-    "value": "1. Popup-Liste von {{thingPlural}}",
-    "history": [
-      {
-        "userId": 920037,
-        "timestamp": 1618328881561,
-        "oldValue": "",
-        "newValue": "1. Popup-Liste von {{thingPlural}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.moveThroughPattern": {
-    "value": "2. Bewege durch {{thingPlural}}",
-    "history": [
-      {
-        "userId": 920037,
-        "timestamp": 1618328881561,
-        "oldValue": "",
-        "newValue": "2. Bewege durch {{thingPlural}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.chooseNewPattern": {
-    "value": "3. Wähle neu {{thingSingular}}",
-    "history": [
-      {
-        "userId": 920037,
-        "timestamp": 1618328881561,
-        "oldValue": "",
-        "newValue": "3. Wähle neu {{thingSingular}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-    "value": "4. Schließe die Liste, ohne sie zu ändern",
-    "history": [
-      {
-        "userId": 920037,
-        "timestamp": 1618328881561,
-        "oldValue": "",
-        "newValue": "4. Schließe die Liste, ohne sie zu ändern"
-      }
-    ]
-  },
   "keyboardHelpDialog.adjust": {
     "value": "Einstellen",
     "history": [
@@ -157,6 +113,24 @@
         "oldValue": "",
         "newValue": "Dialog verlassen",
         "explanation": null
+      }
+    ]
+  },
+  "speed.fast": {
+    "value": "Schnell",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1608642384651,
+        "oldValue": "",
+        "newValue": "schnell",
+        "explanation": null
+      },
+      {
+        "userId": 446279,
+        "timestamp": 1614712659528,
+        "oldValue": "schnell",
+        "newValue": "Schnell"
       }
     ]
   },
@@ -293,25 +267,26 @@
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.option": {
-    "value": "Option",
+  "speed.normal": {
+    "value": "Normal",
     "history": [
       {
-        "userId": 920037,
-        "timestamp": 1618328881561,
+        "userId": 272196,
+        "timestamp": 1538479148885,
         "oldValue": "",
-        "newValue": "Option"
+        "newValue": "Normal",
+        "explanation": null
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.options": {
-    "value": "Optionen",
+  "key.option": {
+    "value": "Option",
     "history": [
       {
-        "userId": 920037,
-        "timestamp": 1618328881561,
+        "userId": 1092172,
+        "timestamp": 1675336702602,
         "oldValue": "",
-        "newValue": "Optionen"
+        "newValue": "Option"
       }
     ]
   },
@@ -324,6 +299,17 @@
         "oldValue": "",
         "newValue": "oder",
         "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.timingControls.pauseOrPlayAction": {
+    "value": "Pause oder Start",
+    "history": [
+      {
+        "userId": 1092172,
+        "timestamp": 1675336702602,
+        "oldValue": "",
+        "newValue": "Pause oder Start"
       }
     ]
   },
@@ -399,17 +385,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.headingString": {
-    "value": "Öffne Menü",
-    "history": [
-      {
-        "userId": 920037,
-        "timestamp": 1670230025005,
-        "oldValue": "",
-        "newValue": "Öffne Menü"
-      }
-    ]
-  },
   "keyboardHelpDialog.pressButtons": {
     "value": "Knopf drücken",
     "history": [
@@ -456,6 +431,18 @@
       }
     ]
   },
+  "speed.slow": {
+    "value": "Langsam",
+    "history": [
+      {
+        "userId": 272196,
+        "timestamp": 1538479148885,
+        "oldValue": "",
+        "newValue": "Langsam",
+        "explanation": null
+      }
+    ]
+  },
   "key.space": {
     "value": "Leertaste",
     "history": [
@@ -495,6 +482,17 @@
         "oldValue": "",
         "newValue": "Tabulator",
         "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.timingControls.timingControls": {
+    "value": "Zeitsteuerung",
+    "history": [
+      {
+        "userId": 1092172,
+        "timestamp": 1675336702602,
+        "oldValue": "",
+        "newValue": "Zeitsteuerung"
       }
     ]
   },
@@ -555,6 +553,83 @@
       }
     ]
   },
+  "keyboardHelpDialog.comboBox.popUpListPattern": {
+    "value": "1. Popup-Liste von {{thingPlural}}",
+    "history": [
+      {
+        "userId": 920037,
+        "timestamp": 1618328881561,
+        "oldValue": "",
+        "newValue": "1. Popup-Liste von {{thingPlural}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.moveThroughPattern": {
+    "value": "2. Bewege durch {{thingPlural}}",
+    "history": [
+      {
+        "userId": 920037,
+        "timestamp": 1618328881561,
+        "oldValue": "",
+        "newValue": "2. Bewege durch {{thingPlural}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.chooseNewPattern": {
+    "value": "3. Wähle neu {{thingSingular}}",
+    "history": [
+      {
+        "userId": 920037,
+        "timestamp": 1618328881561,
+        "oldValue": "",
+        "newValue": "3. Wähle neu {{thingSingular}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+    "value": "4. Schließe die Liste, ohne sie zu ändern",
+    "history": [
+      {
+        "userId": 920037,
+        "timestamp": 1618328881561,
+        "oldValue": "",
+        "newValue": "4. Schließe die Liste, ohne sie zu ändern"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.option": {
+    "value": "Option",
+    "history": [
+      {
+        "userId": 920037,
+        "timestamp": 1618328881561,
+        "oldValue": "",
+        "newValue": "Option"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.options": {
+    "value": "Optionen",
+    "history": [
+      {
+        "userId": 920037,
+        "timestamp": 1618328881561,
+        "oldValue": "",
+        "newValue": "Optionen"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.headingString": {
+    "value": "Öffne Menü",
+    "history": [
+      {
+        "userId": 920037,
+        "timestamp": 1670230025005,
+        "oldValue": "",
+        "newValue": "Öffne Menü"
+      }
+    ]
+  },
   "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
     "value": "Greife oder setze {{thing}}",
     "history": [
@@ -606,48 +681,6 @@
         "timestamp": 1614712659529,
         "oldValue": "Ω",
         "newValue": "Ω"
-      }
-    ]
-  },
-  "speed.fast": {
-    "value": "Schnell",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1608642384651,
-        "oldValue": "",
-        "newValue": "schnell",
-        "explanation": null
-      },
-      {
-        "userId": 446279,
-        "timestamp": 1614712659528,
-        "oldValue": "schnell",
-        "newValue": "Schnell"
-      }
-    ]
-  },
-  "speed.normal": {
-    "value": "Normal",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1538479148885,
-        "oldValue": "",
-        "newValue": "Normal",
-        "explanation": null
-      }
-    ]
-  },
-  "speed.slow": {
-    "value": "Langsam",
-    "history": [
-      {
-        "userId": 272196,
-        "timestamp": 1538479148885,
-        "oldValue": "",
-        "newValue": "Langsam",
-        "explanation": null
       }
     ]
   },
