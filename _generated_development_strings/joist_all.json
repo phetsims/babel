@@ -2432,7 +2432,7 @@
       "value": "Input"
     },
     "preferences.tabs.visual.interactiveHighlights": {
-      "value": "Interaktivet highlight"
+      "value": "Interaktive highlight"
     },
     "queryParametersWarningDialog.invalidQueryParameters": {
       "value": "Ugyldige spørgeparametre"
@@ -7919,6 +7919,15 @@
     "menuItem.about": {
       "value": "개요"
     },
+    "preferences.tabs.visual.interactiveHighlightsDescription": {
+      "value": "마우스의 시각적 하이라이트를 추가하고 상호작용할 때 터치할 것"
+    },
+    "preferences.tabs.audio.title": {
+      "value": "오디오"
+    },
+    "preferences.tabs.audio.audioFeatures.title": {
+      "value": "오디오 특성"
+    },
     "menuItem.getUpdate": {
       "value": "업데이트 확인"
     },
@@ -7931,8 +7940,8 @@
     "credits.title": {
       "value": "크레디트"
     },
-    "menuItem.enhancedSound": {
-      "value": "강화된 소리"
+    "preferences.tabs.audio.sounds.extraSounds.title": {
+      "value": "추가 소리"
     },
     "menuItem.fullscreen": {
       "value": "전체 화면"
@@ -7943,8 +7952,14 @@
     "credits.graphicArts": {
       "value": "그래픽 아트: {0}"
     },
-    "ieErrorPage.ieIsNotSupported": {
-      "value": "인터넷익스플로러가 지원되지 아니함"
+    "preferences.tabs.visual.projectorModeDescription": {
+      "value": "학급에서 더 잘 보이도록 색 대비를 증가시킬 것"
+    },
+    "preferences.tabs.input.title": {
+      "value": "투입"
+    },
+    "preferences.tabs.visual.interactiveHighlights": {
+      "value": "상호작용 하이라이트"
     },
     "queryParametersWarningDialog.invalidQueryParameters": {
       "value": "유효하지 않은 질문 변수"
@@ -7955,8 +7970,8 @@
     "credits.leadDesign": {
       "value": "선임 디자인: {0}"
     },
-    "menuItem.mailInputEventsLog": {
-      "value": "메일 입력 이벤트 입장 "
+    "preferences.tabs.localization.title": {
+      "value": "지역화"
     },
     "updates.outOfDate": {
       "value": "새로운 버전 사용 가능"
@@ -7967,23 +7982,23 @@
     "queryParametersWarningDialog.oneOrMoreQueryParameters": {
       "value": "1개 이상의 질문 변수가 유효하지 않은 값을 가짐"
     },
-    "options.title": {
-      "value": "선택"
-    },
-    "menuItem.options": {
-      "value": "선택"
-    },
-    "menuItem.outputInputEventsLog": {
-      "value": "출력 입력 이벤트 로그"
+    "preferences.tabs.overview.title": {
+      "value": "오버뷰"
     },
     "menuItem.phetWebsite": {
       "value": "PhET 웹사이트"
     },
-    "ieErrorPage.platformError": {
-      "value": "플렛폼 오류"
+    "preferences.tabs.audio.sounds.extraSounds.description": {
+      "value": "일부 사용자를 위해 추가 음향을 사용"
     },
-    "ieErrorPage.useDifferentBrowser": {
-      "value": "이 시뮬레이션 실행을 위해 다른 브라우져를 사용하세요"
+    "preferences.tabs.audio.sounds.description": {
+      "value": "상호작용할 때 음향화와 음향 효과를 사용"
+    },
+    "preferences.title": {
+      "value": "선호도"
+    },
+    "projectorMode": {
+      "value": "프로젝터 모드"
     },
     "credits.qualityAssurance": {
       "value": "질 보장: {0}"
@@ -7994,14 +8009,17 @@
     "menuItem.screenshot": {
       "value": "스크린 사진"
     },
+    "preferences.tabs.simulation.title": {
+      "value": "시뮬레이션"
+    },
     "credits.softwareDevelopment": {
       "value": "소프트웨어 개발: {0}"
     },
     "credits.soundDesign": {
       "value": "소리 설계: {0}"
     },
-    "menuItem.submitInputEventsLog": {
-      "value": "입력 이벤트 로그 제출"
+    "preferences.tabs.audio.sounds.title": {
+      "value": "소리"
     },
     "credits.team": {
       "value": "팀: {0} "
@@ -8024,11 +8042,11 @@
     "updates.upToDate": {
       "value": "이 시물레이션은 최신판입니다."
     },
+    "preferences.tabs.general.moreAccessibility": {
+      "value": "특성이 내포된 다른 시뮬레이션을 찾기 위해서 시뮬레이션 필터 페이지와 포함된 특성의 필터를 찾아볼 것 "
+    },
     "keyboardShortcuts.toGetStarted": {
       "value": "시작하기"
-    },
-    "credits.translation": {
-      "value": "번역"
     },
     "translation.credits.link": {
       "value": "번역: 이화국 교수(whakuklee@gmail.com"
@@ -8039,14 +8057,53 @@
     "versionPattern": {
       "value": "버전 {0}"
     },
+    "preferences.tabs.visual.title": {
+      "value": "시각적"
+    },
+    "preferences.tabs.audio.voicing.description": {
+      "value": "상호작용시 음성과 하이라이트 내용"
+    },
+    "preferences.tabs.audio.voicing.titleEnglishOnly": {
+      "value": "음성화(영어만 가능)"
+    },
+    "preferences.tabs.general.accessibilityIntro": {
+      "value": "우리는 다양한 특성을 시뮬레이션에 추가하고 있습니다. 이러한 메뉴를 디폴트 프리센테이션을 세팅하기 위해 탐색해보세요."
+    },
     "updates.yourCurrentVersion": {
       "value": "현재의 버전은 {0} 입니다."
     },
     "simTitleWithScreenNamePattern": {
       "value": "{{simName}} — {{screenName}}"
     },
-    "projectorMode": {
-      "value": "프로젝터 모드"
+    "menuItem.enhancedSound": {
+      "value": "강화된 소리"
+    },
+    "ieErrorPage.ieIsNotSupported": {
+      "value": "인터넷익스플로러가 지원되지 아니함"
+    },
+    "menuItem.mailInputEventsLog": {
+      "value": "메일 입력 이벤트 입장 "
+    },
+    "options.title": {
+      "value": "선택"
+    },
+    "menuItem.options": {
+      "value": "선택"
+    },
+    "menuItem.outputInputEventsLog": {
+      "value": "출력 입력 이벤트 로그"
+    },
+    "ieErrorPage.platformError": {
+      "value": "플렛폼 오류"
+    },
+    "ieErrorPage.useDifferentBrowser": {
+      "value": "이 시뮬레이션 실행을 위해 다른 브라우져를 사용하세요"
+    },
+    "menuItem.submitInputEventsLog": {
+      "value": "입력 이벤트 로그 제출"
+    },
+    "credits.translation": {
+      "value": "번역"
     },
     "done": {
       "value": "완료"
@@ -9198,13 +9255,13 @@
       "value": "Тухай..."
     },
     "preferences.tabs.visual.interactiveHighlightsDescription": {
-      "value": "Онцолсон хэсэгт хулганы заагчаар товшно уу."
+      "value": "Онцолсон хэсэгт хулганы заагчаар товшино уу."
     },
     "preferences.tabs.audio.title": {
-      "value": "Аудио"
+      "value": "Дуу"
     },
     "preferences.tabs.audio.audioFeatures.title": {
-      "value": "Аудио онцлог"
+      "value": "Дууны тохиргоо"
     },
     "menuItem.getUpdate": {
       "value": "Шинэчлэлтийг шалгах..."
@@ -9218,17 +9275,11 @@
     "credits.title": {
       "value": "Нэрс"
     },
-    "menuItem.enhancedSound": {
-      "value": "Дууг Сайжруулах"
-    },
     "preferences.tabs.audio.sounds.extraSounds.title": {
       "value": "Нэмэлт дуу"
     },
     "menuItem.fullscreen": {
       "value": "Бүтэн дэлгэц"
-    },
-    "preferences.tabs.general.title": {
-      "value": "Ерөнхий"
     },
     "updates.getUpdate": {
       "value": "Шинэчлэх..."
@@ -9236,11 +9287,14 @@
     "credits.graphicArts": {
       "value": "График дизайн: {0}"
     },
-    "preferences.tabs.visual.interactiveHighlights": {
-      "value": "Интерактивийн Онцлог"
+    "preferences.tabs.visual.projectorModeDescription": {
+      "value": "Танхимд тод харагдуулахын тулд өнгөний ялгааг нэмэгдүүлээрэй."
     },
-    "ieErrorPage.ieIsNotSupported": {
-      "value": "Интернет Хөтөч дэмжихгүй байна"
+    "preferences.tabs.input.title": {
+      "value": "Оролт"
+    },
+    "preferences.tabs.visual.interactiveHighlights": {
+      "value": "Интерактивийн онцлог"
     },
     "queryParametersWarningDialog.invalidQueryParameters": {
       "value": "Тохирохгүй асуулга"
@@ -9251,6 +9305,9 @@
     "credits.leadDesign": {
       "value": "Дизайны удирдагч: {0}"
     },
+    "preferences.tabs.localization.title": {
+      "value": "Хэсэгчлэх"
+    },
     "updates.outOfDate": {
       "value": "Шинэ хувилбар ашиглах"
     },
@@ -9260,17 +9317,11 @@
     "queryParametersWarningDialog.oneOrMoreQueryParameters": {
       "value": "Эдгээр асуулгаас нэг буюу хэд хэдэн утга<br>буруу байна:"
     },
-    "options.title": {
-      "value": "Сонголтууд"
-    },
-    "menuItem.options": {
-      "value": "Сонголтууд..."
+    "preferences.tabs.overview.title": {
+      "value": "Давхар харах"
     },
     "menuItem.phetWebsite": {
       "value": "PhET Веб сайт"
-    },
-    "ieErrorPage.platformError": {
-      "value": "Платформын Алдаа"
     },
     "preferences.tabs.audio.sounds.extraSounds.description": {
       "value": "Зарим суралцагчдад туслахын тулд нэмэлт дууг тоглуулаарай."
@@ -9278,11 +9329,11 @@
     "preferences.tabs.audio.sounds.description": {
       "value": "Харьцаж байхдаа sonifications болон дууны эффектүүдийг тоглуулаарай."
     },
-    "ieErrorPage.useDifferentBrowser": {
-      "value": "Өөр хөтөч дээр симуляцийг ажиллуулна уу."
-    },
     "preferences.title": {
       "value": "Сонголтууд"
+    },
+    "projectorMode": {
+      "value": "Проекторын горим"
     },
     "credits.qualityAssurance": {
       "value": "Чанарын баталгаа: {0}"
@@ -9291,7 +9342,10 @@
       "value": "Асуудлыг мэдээлэх..."
     },
     "menuItem.screenshot": {
-      "value": "Дэлгэцийн зураг ав"
+      "value": "Дэлгэцийн зураг"
+    },
+    "preferences.tabs.simulation.title": {
+      "value": "Загварчлал"
     },
     "credits.softwareDevelopment": {
       "value": "Программ хангамж хөгжүүлэгчид: {0}"
@@ -9341,35 +9395,38 @@
     "preferences.tabs.visual.title": {
       "value": "Үзүүлэх"
     },
+    "preferences.tabs.audio.voicing.description": {
+      "value": "Яриагаар тодруулах боломжтой"
+    },
+    "preferences.tabs.audio.voicing.titleEnglishOnly": {
+      "value": "Яриа нь зөвхөн Англи"
+    },
     "preferences.tabs.general.accessibilityIntro": {
       "value": "Бид загварчлалуудаа илүү ойлгомжтой болгохын тулд үйлдлүүдийг нэмж байна. Тэдгээр нь янз бүрийн хэрэгцээтэй, өөр өөр орчинд суралцагчдад ойлгомжтой болгохыг дэмжинэ. Үзүүлэнгийн өгөгдмөл тохиргоог харах эсвэл өөрчлөхийн тулд энэ цэсийн тайлбарыг уншаарай."
     },
     "updates.yourCurrentVersion": {
       "value": "Таны ашиглаж буй хувилбар бол: {0}."
     },
-    "preferences.tabs.visual.projectorModeDescription": {
-      "value": "Танхимд тод харагдуулахын тулд өнгөний ялгааг нэмэгдүүлээрэй."
+    "menuItem.enhancedSound": {
+      "value": "Дууг Сайжруулах"
     },
-    "preferences.tabs.input.title": {
-      "value": "Оролт"
+    "preferences.tabs.general.title": {
+      "value": "Ерөнхий"
     },
-    "preferences.tabs.localization.title": {
-      "value": "Хэсэгчлэх"
+    "ieErrorPage.ieIsNotSupported": {
+      "value": "Интернет Хөтөч дэмжихгүй байна"
     },
-    "preferences.tabs.overview.title": {
-      "value": "Давхар харах"
+    "options.title": {
+      "value": "Сонголтууд"
     },
-    "projectorMode": {
-      "value": "Проектор төлөв"
+    "menuItem.options": {
+      "value": "Сонголтууд..."
     },
-    "preferences.tabs.simulation.title": {
-      "value": "Загварчлал"
+    "ieErrorPage.platformError": {
+      "value": "Платформын Алдаа"
     },
-    "preferences.tabs.audio.voicing.description": {
-      "value": "Яриагаар тодруулах боломжтой"
-    },
-    "preferences.tabs.audio.voicing.titleEnglishOnly": {
-      "value": "Яриа нь зөвхөн Англи"
+    "ieErrorPage.useDifferentBrowser": {
+      "value": "Өөр хөтөч дээр симуляцийг ажиллуулна уу."
     },
     "credits.translation": {
       "value": "Орчуулга"
@@ -11532,15 +11589,6 @@
     "menuItem.about": {
       "value": "Sobre..."
     },
-    "preferences.tabs.visual.interactiveHighlightsDescription": {
-      "value": "Adicione destaques visuais para mouse e toque conforme você interage. "
-    },
-    "preferences.tabs.audio.title": {
-      "value": "Áudio"
-    },
-    "preferences.tabs.audio.audioFeatures.title": {
-      "value": "Recursos de Áudio"
-    },
     "menuItem.getUpdate": {
       "value": "Conferir atualizações..."
     },
@@ -11553,9 +11601,6 @@
     "credits.title": {
       "value": "Créditos"
     },
-    "preferences.tabs.audio.sounds.extraSounds.title": {
-      "value": "Sons Extras"
-    },
     "menuItem.fullscreen": {
       "value": "Tela Cheia"
     },
@@ -11564,6 +11609,84 @@
     },
     "credits.graphicArts": {
       "value": "Artes Gráficas: {0}"
+    },
+    "keyboardShortcuts.title": {
+      "value": "Teclas de Atalho"
+    },
+    "credits.leadDesign": {
+      "value": "Construção do chumbo: {0}"
+    },
+    "updates.outOfDate": {
+      "value": "Nova versão disponível"
+    },
+    "updates.noThanks": {
+      "value": "Não, obrigado"
+    },
+    "options.title": {
+      "value": "Opções"
+    },
+    "menuItem.options": {
+      "value": "Opções..."
+    },
+    "menuItem.phetWebsite": {
+      "value": "Portal PhET…"
+    },
+    "credits.qualityAssurance": {
+      "value": "Garantia de Qualidade: {0}"
+    },
+    "menuItem.reportAProblem": {
+      "value": "Informar problema..."
+    },
+    "menuItem.screenshot": {
+      "value": "Captura de tela"
+    },
+    "credits.softwareDevelopment": {
+      "value": "Desenvolvimento de Software: {0}"
+    },
+    "credits.team": {
+      "value": "Equipe: {0}"
+    },
+    "termsPrivacyAndLicensing": {
+      "value": "Termos, Privacidade & Licenciamento"
+    },
+    "credits.thanks": {
+      "value": "Obrigado"
+    },
+    "updates.newVersionAvailable": {
+      "value": "Há uma nova versão disponível: {0}."
+    },
+    "thirdParty.credits.link": {
+      "value": "Créditos de Terceiros"
+    },
+    "updates.upToDate": {
+      "value": "Esta simulação está atualizada."
+    },
+    "credits.translation": {
+      "value": "Tradução"
+    },
+    "translation.credits.link": {
+      "value": "Traduzido por"
+    },
+    "updates.offline": {
+      "value": "Não foi possível verificar atualizações."
+    },
+    "versionPattern": {
+      "value": "versão {0}"
+    },
+    "updates.yourCurrentVersion": {
+      "value": "Sua versão atual é: {0}."
+    },
+    "preferences.tabs.visual.interactiveHighlightsDescription": {
+      "value": "Adicione destaques visuais para mouse e toque conforme você interage. "
+    },
+    "preferences.tabs.audio.title": {
+      "value": "Áudio"
+    },
+    "preferences.tabs.audio.audioFeatures.title": {
+      "value": "Recursos de Áudio"
+    },
+    "preferences.tabs.audio.sounds.extraSounds.title": {
+      "value": "Sons Extras"
     },
     "preferences.tabs.visual.projectorModeDescription": {
       "value": "Aumente o contraste de cores para melhor visibilidade em sala de aula."
@@ -11577,29 +11700,14 @@
     "queryParametersWarningDialog.invalidQueryParameters": {
       "value": "Parâmetros de Consulta Inválidos"
     },
-    "keyboardShortcuts.title": {
-      "value": "Teclas de Atalho"
-    },
-    "credits.leadDesign": {
-      "value": "Equipe de Projeto: {0}"
-    },
     "preferences.tabs.localization.title": {
       "value": "Localização"
-    },
-    "updates.outOfDate": {
-      "value": "Nova versão disponível"
-    },
-    "updates.noThanks": {
-      "value": "Não, obrigado"
     },
     "queryParametersWarningDialog.oneOrMoreQueryParameters": {
       "value": "Um ou mais parâmetros de consulta têm<br>valores inválidos:"
     },
     "preferences.tabs.overview.title": {
       "value": "Visão Geral"
-    },
-    "menuItem.phetWebsite": {
-      "value": "Portal PhET…"
     },
     "preferences.tabs.audio.sounds.extraSounds.description": {
       "value": "Tocar sons adicionais que podem ser úteis para alguns alunos. "
@@ -11613,20 +11721,8 @@
     "projectorMode": {
       "value": "Modo Projetor"
     },
-    "credits.qualityAssurance": {
-      "value": "Garantia de Qualidade: {0}"
-    },
-    "menuItem.reportAProblem": {
-      "value": "Informar problema..."
-    },
-    "menuItem.screenshot": {
-      "value": "Captura de tela"
-    },
     "preferences.tabs.simulation.title": {
       "value": "Simulação"
-    },
-    "credits.softwareDevelopment": {
-      "value": "Desenvolvimento de Software: {0}"
     },
     "credits.soundDesign": {
       "value": "Design de Som: {0}"
@@ -11634,41 +11730,14 @@
     "preferences.tabs.audio.sounds.title": {
       "value": "Sons"
     },
-    "credits.team": {
-      "value": "Equipe: {0}"
-    },
-    "termsPrivacyAndLicensing": {
-      "value": "Termos, Privacidade & Licenciamento"
-    },
-    "credits.thanks": {
-      "value": "Obrigado"
-    },
     "queryParametersWarningDialog.theSimulationWillStart": {
       "value": "A simulação iniciará com valores padrão para esses<br>parâmetros de consulta."
-    },
-    "updates.newVersionAvailable": {
-      "value": "Há uma nova versão disponível: {0}."
-    },
-    "thirdParty.credits.link": {
-      "value": "Créditos de Terceiros"
-    },
-    "updates.upToDate": {
-      "value": "Esta simulação está atualizada."
     },
     "preferences.tabs.general.moreAccessibility": {
       "value": "Procure outras simulações com acessibilidade! Na página das simulações no Portal do PhET, olhe em Acessibilidade & Inclusão e filtre por Recursos Inclusivos."
     },
     "keyboardShortcuts.toGetStarted": {
       "value": "para iniciar"
-    },
-    "translation.credits.link": {
-      "value": "Traduzido por"
-    },
-    "updates.offline": {
-      "value": "Não foi possível verificar atualizações."
-    },
-    "versionPattern": {
-      "value": "versão {0}"
     },
     "preferences.tabs.visual.title": {
       "value": "Visual"
@@ -11682,9 +11751,6 @@
     "preferences.tabs.general.accessibilityIntro": {
       "value": "Estamos adicionando recursos às nossas simulações para torná-las mais inclusivas. Alguns deles oferecem acessibilidade para estudantes com diversas necessidades e em diversos ambientes. Explore as guias neste menu para revisar ou alterar as configurações."
     },
-    "updates.yourCurrentVersion": {
-      "value": "Sua versão atual é: {0}."
-    },
     "simTitleWithScreenNamePattern": {
       "value": "{{simName}} — {{screenName}}"
     },
@@ -11696,12 +11762,6 @@
     },
     "ieErrorPage.ieIsNotSupported": {
       "value": "O Internet Explorer não é compatível."
-    },
-    "options.title": {
-      "value": "Opções"
-    },
-    "menuItem.options": {
-      "value": "Opções..."
     },
     "ieErrorPage.platformError": {
       "value": "Erro na Plataforma"
@@ -11717,9 +11777,6 @@
     },
     "showPointers": {
       "value": "Mostrar Ponteiros"
-    },
-    "credits.translation": {
-      "value": "Tradução"
     },
     "menuItem.mailInputEventsLog": {
       "value": "Registro de eventos de entrada de e-mail"
@@ -13411,6 +13468,9 @@
     "credits.leadDesign": {
       "value": "Boqapi  ba pele: {0}"
     },
+    "preferences.tabs.localization.title": {
+      "value": "Localization"
+    },
     "updates.outOfDate": {
       "value": "Sehlahisoa sa morao sea fumaneha"
     },
@@ -13479,6 +13539,9 @@
     },
     "updates.upToDate": {
       "value": "Simulation ena e ntse ele nakong"
+    },
+    "preferences.tabs.general.moreAccessibility": {
+      "value": "Ho fumana mekhoa e meng e kenyelelitsoeng ka simulation, batlana le Tokollo le ho Kenyelletsa holuma leqephe le sefang la simulation ebe u sefa ka mokhoa o kenyeletsang."
     },
     "keyboardShortcuts.toGetStarted": {
       "value": "ho qala"

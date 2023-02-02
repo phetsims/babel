@@ -1978,18 +1978,6 @@
     "keyboardHelpDialog.hyphen": {
       "value": "- "
     },
-    "keyboardHelpDialog.comboBox.popUpListPattern": {
-      "value": "1. Pop-up liste af {{thingPlural}}"
-    },
-    "keyboardHelpDialog.comboBox.moveThroughPattern": {
-      "value": "2. Flyt gennem {{thingPlural}}"
-    },
-    "keyboardHelpDialog.comboBox.chooseNewPattern": {
-      "value": "3. Vælg ny {{thingSingular}}"
-    },
-    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-      "value": "4. Vælg liste uden ændring"
-    },
     "keyboardHelpDialog.adjust": {
       "value": "Indstil"
     },
@@ -2014,14 +2002,11 @@
     "keyboardHelpDialog.exitADialog": {
       "value": "Slut en dialog"
     },
+    "speed.fast": {
+      "value": "Hurtig"
+    },
     "key.fn": {
       "value": "fn"
-    },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Tag fat eller slip {{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "Tag fat eller slip {{thing}}"
     },
     "key.home": {
       "value": "Tilbage"
@@ -2047,23 +2032,23 @@
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "Flyt til tidligere emne eller gruppe"
     },
-    "keyboardHelpDialog.comboBox.option": {
-      "value": "mulighed"
+    "speed.normal": {
+      "value": "Normal"
     },
-    "keyboardHelpDialog.comboBox.options": {
-      "value": "muligheder"
+    "key.option": {
+      "value": "Mulighed"
     },
     "keyboardHelpDialog.or": {
       "value": "eller"
+    },
+    "keyboardHelpDialog.timingControls.pauseOrPlayAction": {
+      "value": "Pause eller afspil handling"
     },
     "key.pageDown": {
       "value": "Side ned"
     },
     "key.pageUp": {
       "value": "Side op"
-    },
-    "keyboardHelpDialog.comboBox.headingString": {
-      "value": "Pop åben menu"
     },
     "keyboardHelpDialog.pressButtons": {
       "value": "Tryk knapper"
@@ -2077,11 +2062,17 @@
     "keyboardHelpDialog.sliderControls": {
       "value": "Skydeknapper"
     },
+    "speed.slow": {
+      "value": "Langsom"
+    },
     "key.space": {
       "value": "Mellemrum"
     },
     "key.tab": {
       "value": "Tab"
+    },
+    "keyboardHelpDialog.timingControls.timingControls": {
+      "value": "Timing knapper"
     },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Skift afkrydsningsfelter"
@@ -2097,6 +2088,33 @@
     },
     "keyboardHelpDialog.verbSliderPattern": {
       "value": "{{verb}} {{slider}}"
+    },
+    "keyboardHelpDialog.comboBox.popUpListPattern": {
+      "value": "1. Pop-up liste af {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.moveThroughPattern": {
+      "value": "2. Flyt gennem {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.chooseNewPattern": {
+      "value": "3. Vælg ny {{thingSingular}}"
+    },
+    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+      "value": "4. Vælg liste uden ændring"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "Tag fat eller slip {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "Tag fat eller slip {{thing}}"
+    },
+    "keyboardHelpDialog.comboBox.option": {
+      "value": "mulighed"
+    },
+    "keyboardHelpDialog.comboBox.options": {
+      "value": "muligheder"
+    },
+    "keyboardHelpDialog.comboBox.headingString": {
+      "value": "Pop åben menu"
     },
     "symbol.resistivity": {
       "value": "ρ"
@@ -2146,20 +2164,11 @@
     "wavelengthNMValuePattern": {
       "value": "{0} nm"
     },
-    "speed.fast": {
-      "value": "Hurtig"
-    },
     "key.k": {
       "value": "K"
     },
     "key.l": {
       "value": "L"
-    },
-    "speed.normal": {
-      "value": "Normal"
-    },
-    "speed.slow": {
-      "value": "Langsom"
     },
     "stopwatchValueUnitsPattern": {
       "value": "{{value}}{{units}}"
@@ -2719,6 +2728,9 @@
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
+    "keyboardHelpDialog.adjust": {
+      "value": "Ajustar "
+    },
     "key.alt": {
       "value": "Alt"
     },
@@ -2740,17 +2752,26 @@
     "keyboardHelpDialog.exitADialog": {
       "value": "Salir "
     },
+    "speed.fast": {
+      "value": "Rápido "
+    },
     "key.fn": {
       "value": "Fn"
     },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Agarra o Suelta {{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "Agarra o suelta {{thing}}"
-    },
     "key.home": {
       "value": "Inicio"
+    },
+    "keyboardHelpDialog.jumpToMaximumPattern": {
+      "value": "Ir hasta {{maximum}}"
+    },
+    "keyboardHelpDialog.jumpToMinimumPattern": {
+      "value": "Ir hasta {{minimum}}"
+    },
+    "keyboardHelpDialog.maximum": {
+      "value": "máximo "
+    },
+    "keyboardHelpDialog.minimum": {
+      "value": "mínimo"
     },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "mover entre los elementos del grupo"
@@ -2761,8 +2782,17 @@
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "mover al elemento o grupo anterior "
     },
+    "speed.normal": {
+      "value": "Normal"
+    },
+    "key.option": {
+      "value": "Opción"
+    },
     "keyboardHelpDialog.or": {
       "value": "o"
+    },
+    "keyboardHelpDialog.timingControls.pauseOrPlayAction": {
+      "value": "Pausar o reproducir la acción"
     },
     "key.pageDown": {
       "value": "Pg abajo"
@@ -2776,17 +2806,44 @@
     "key.shift": {
       "value": "Shift"
     },
+    "keyboardHelpDialog.slider": {
+      "value": "deslizador"
+    },
+    "keyboardHelpDialog.sliderControls": {
+      "value": "Controles del Deslizador "
+    },
+    "speed.slow": {
+      "value": "Lento"
+    },
     "key.space": {
       "value": "Espacio"
     },
     "key.tab": {
       "value": "Tab"
     },
+    "keyboardHelpDialog.timingControls.timingControls": {
+      "value": "Controles de tiempo"
+    },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Alternar casillas de verificación"
     },
     "measuringTapeReadoutPattern": {
       "value": "{{distance}} {{units}}"
+    },
+    "keyboardHelpDialog.verbInLargerStepsPattern": {
+      "value": " {{verb}} en pasos grandes"
+    },
+    "keyboardHelpDialog.verbInSmallerStepsPattern": {
+      "value": " {{verb}} en pasos pequeños"
+    },
+    "keyboardHelpDialog.verbSliderPattern": {
+      "value": "{{verb}} {{slider}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "Agarra o Suelta {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "Agarra o suelta {{thing}}"
     },
     "symbol.resistivity": {
       "value": "ρ"
@@ -2806,21 +2863,6 @@
     "keyboardHelpDialog.comboBox.closeWithoutChanging": {
       "value": "4. Cerrar la lista sin hacer cambios "
     },
-    "keyboardHelpDialog.adjust": {
-      "value": "Ajustar "
-    },
-    "keyboardHelpDialog.jumpToMaximumPattern": {
-      "value": "Ir hasta {{maximum}}"
-    },
-    "keyboardHelpDialog.jumpToMinimumPattern": {
-      "value": "Ir hasta {{minimum}}"
-    },
-    "keyboardHelpDialog.maximum": {
-      "value": "máximo "
-    },
-    "keyboardHelpDialog.minimum": {
-      "value": "mínimo"
-    },
     "keyboardHelpDialog.comboBox.option": {
       "value": "opción"
     },
@@ -2829,30 +2871,6 @@
     },
     "keyboardHelpDialog.comboBox.headingString": {
       "value": "Abrir menú emergente"
-    },
-    "keyboardHelpDialog.slider": {
-      "value": "deslizador"
-    },
-    "keyboardHelpDialog.sliderControls": {
-      "value": "Controles del Deslizador "
-    },
-    "keyboardHelpDialog.verbInLargerStepsPattern": {
-      "value": " {{verb}} en pasos grandes"
-    },
-    "keyboardHelpDialog.verbInSmallerStepsPattern": {
-      "value": " {{verb}} en pasos pequeños"
-    },
-    "keyboardHelpDialog.verbSliderPattern": {
-      "value": "{{verb}} {{slider}}"
-    },
-    "speed.fast": {
-      "value": "Rápido "
-    },
-    "speed.normal": {
-      "value": "Normal"
-    },
-    "speed.slow": {
-      "value": "Lento"
     },
     "keyboardHelpDialog.comboBox.chooseAThingPattern": {
       "value": "Escoger {{thingTitle}}"
@@ -3467,18 +3485,6 @@
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
-    "keyboardHelpDialog.comboBox.popUpListPattern": {
-      "value": "1. Aldiko zerrenda {{thingPlural}}"
-    },
-    "keyboardHelpDialog.comboBox.moveThroughPattern": {
-      "value": "2. Mugitu {{thingPlural}}"
-    },
-    "keyboardHelpDialog.comboBox.chooseNewPattern": {
-      "value": "3. Aukeratu berria {{thingSingular}}"
-    },
-    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-      "value": "4. Itxi zerrenda aldatu gabe"
-    },
     "keyboardHelpDialog.adjust": {
       "value": "Egokitu"
     },
@@ -3503,14 +3509,11 @@
     "keyboardHelpDialog.exitADialog": {
       "value": "Irten azalpen-lehiotik"
     },
+    "speed.fast": {
+      "value": "Azkar"
+    },
     "key.fn": {
       "value": "Fn"
-    },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Heldu edo Askatu {{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "Heldu edo askatu {{thing}}"
     },
     "key.home": {
       "value": "Hasiera"
@@ -3536,23 +3539,23 @@
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "Mugitu aurreko elementura edo taldera"
     },
-    "keyboardHelpDialog.comboBox.option": {
-      "value": "aukera"
+    "speed.normal": {
+      "value": "Normal"
     },
-    "keyboardHelpDialog.comboBox.options": {
-      "value": "aukerak"
+    "key.option": {
+      "value": "Aukera"
     },
     "keyboardHelpDialog.or": {
       "value": "edo"
+    },
+    "keyboardHelpDialog.timingControls.pauseOrPlayAction": {
+      "value": "Eten edo erreproduzitu ekintza"
     },
     "key.pageDown": {
       "value": "Pg Down"
     },
     "key.pageUp": {
       "value": "Pg Up"
-    },
-    "keyboardHelpDialog.comboBox.headingString": {
-      "value": "Ireki menua"
     },
     "keyboardHelpDialog.pressButtons": {
       "value": "Sakatu botoiak"
@@ -3566,11 +3569,17 @@
     "keyboardHelpDialog.sliderControls": {
       "value": "Erreguladore-kontrolak"
     },
+    "speed.slow": {
+      "value": "Mantso"
+    },
     "key.space": {
       "value": "Space"
     },
     "key.tab": {
       "value": "Tab"
+    },
+    "keyboardHelpDialog.timingControls.timingControls": {
+      "value": "Denboraren kontrolak"
     },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Aktibatu/desaktibatu laukitxoak"
@@ -3586,6 +3595,33 @@
     },
     "keyboardHelpDialog.verbSliderPattern": {
       "value": "{{verb}} {{slider}}"
+    },
+    "keyboardHelpDialog.comboBox.popUpListPattern": {
+      "value": "1. Aldiko zerrenda {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.moveThroughPattern": {
+      "value": "2. Mugitu {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.chooseNewPattern": {
+      "value": "3. Aukeratu berria {{thingSingular}}"
+    },
+    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+      "value": "4. Itxi zerrenda aldatu gabe"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "Heldu edo Askatu {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "Heldu edo askatu {{thing}}"
+    },
+    "keyboardHelpDialog.comboBox.option": {
+      "value": "aukera"
+    },
+    "keyboardHelpDialog.comboBox.options": {
+      "value": "aukerak"
+    },
+    "keyboardHelpDialog.comboBox.headingString": {
+      "value": "Ireki menua"
     },
     "symbol.resistivity": {
       "value": "ρ"
@@ -3629,20 +3665,11 @@
     "zero": {
       "value": "zero"
     },
-    "speed.fast": {
-      "value": "Azkar"
-    },
     "key.k": {
       "value": "K"
     },
     "key.l": {
       "value": "L"
-    },
-    "speed.normal": {
-      "value": "Normal"
-    },
-    "speed.slow": {
-      "value": "Mantso"
     },
     "stopwatchValueUnitsPattern": {
       "value": "{{value}} {{units}}"
@@ -7161,14 +7188,122 @@
     }
   },
   "ko": {
+    "keyboardHelpDialog.comboBox.popUpListPattern": {
+      "value": "튀어나오는 {{thingPlural}} 목록"
+    },
+    "keyboardHelpDialog.comboBox.moveThroughPattern": {
+      "value": "{{thingPlural}}를 통해 이동"
+    },
+    "keyboardHelpDialog.comboBox.chooseNewPattern": {
+      "value": "새로운 {{thingSingular}} 선택"
+    },
+    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+      "value": "목록을변경없이 닫기 "
+    },
+    "keyboardHelpDialog.adjust": {
+      "value": "조절"
+    },
     "key.alt": {
       "value": "Alt 키"
+    },
+    "keyboardHelpDialog.basicActions": {
+      "value": "기본 동작"
+    },
+    "key.capsLock": {
+      "value": "캪 잠그기"
+    },
+    "key.end": {
+      "value": "끝"
     },
     "key.enter": {
       "value": "입력"
     },
     "key.esc": {
       "value": "Esc 키"
+    },
+    "keyboardHelpDialog.exitADialog": {
+      "value": "대화 종료"
+    },
+    "key.home": {
+      "value": "홈"
+    },
+    "keyboardHelpDialog.jumpToMaximumPattern": {
+      "value": "{{maximum}}으로 점프"
+    },
+    "keyboardHelpDialog.jumpToMinimumPattern": {
+      "value": "{{minimum}}으로 점프"
+    },
+    "keyboardHelpDialog.maximum": {
+      "value": "최대"
+    },
+    "keyboardHelpDialog.minimum": {
+      "value": "최소"
+    },
+    "keyboardHelpDialog.moveBetweenItemsInAGroup": {
+      "value": "그룹내 항목간 이동"
+    },
+    "keyboardHelpDialog.moveToNextItemOrGroup": {
+      "value": "다음 항목이나 그룹으로 이동"
+    },
+    "keyboardHelpDialog.moveToPreviousItemOrGroup": {
+      "value": "이전 항목이나 그룹으로 이동"
+    },
+    "keyboardHelpDialog.comboBox.option": {
+      "value": "옵션"
+    },
+    "keyboardHelpDialog.comboBox.options": {
+      "value": "옵션"
+    },
+    "keyboardHelpDialog.or": {
+      "value": "또는"
+    },
+    "key.pageDown": {
+      "value": "다음 페이지로"
+    },
+    "key.pageUp": {
+      "value": "앞 페이지로"
+    },
+    "keyboardHelpDialog.comboBox.headingString": {
+      "value": "튀어나오는 메뉴"
+    },
+    "keyboardHelpDialog.pressButtons": {
+      "value": "버튼 누름"
+    },
+    "key.shift": {
+      "value": "시프트 키"
+    },
+    "keyboardHelpDialog.slider": {
+      "value": "슬라이더"
+    },
+    "keyboardHelpDialog.sliderControls": {
+      "value": "슬라이더 조정"
+    },
+    "key.space": {
+      "value": "스페이스 키"
+    },
+    "key.tab": {
+      "value": "탭 키"
+    },
+    "keyboardHelpDialog.toggleCheckboxes": {
+      "value": "토글 체크상자"
+    },
+    "speed.fast": {
+      "value": "빠름"
+    },
+    "speed.normal": {
+      "value": "정규 속도"
+    },
+    "key.option": {
+      "value": "선택적"
+    },
+    "keyboardHelpDialog.timingControls.pauseOrPlayAction": {
+      "value": "정지 또는 시작 활동"
+    },
+    "speed.slow": {
+      "value": "저속"
+    },
+    "keyboardHelpDialog.timingControls.timingControls": {
+      "value": "시간 조절"
     },
     "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
       "value": " {{thing}}을 잡거나 놓으시오."
@@ -7182,59 +7317,17 @@
     "key.l": {
       "value": "L"
     },
-    "keyboardHelpDialog.or": {
-      "value": "또는"
-    },
-    "key.pageDown": {
-      "value": "다음 페이지로"
-    },
-    "key.pageUp": {
-      "value": "앞 페이지로"
-    },
-    "key.shift": {
-      "value": "시프트 키"
-    },
-    "key.space": {
-      "value": "스페이스 키"
-    },
-    "key.tab": {
-      "value": "탭 키"
-    },
     "symbol.resistivity": {
       "value": "ρ"
     },
     "symbol.ohms": {
       "value": "Ω"
     },
-    "keyboardHelpDialog.basicActions": {
-      "value": "기본 동작"
-    },
-    "key.end": {
-      "value": "끝"
-    },
-    "keyboardHelpDialog.exitADialog": {
-      "value": "대화 종료"
-    },
-    "key.home": {
-      "value": "홈"
-    },
-    "keyboardHelpDialog.moveBetweenItemsInAGroup": {
-      "value": "그룹내 항목간 이동"
-    },
     "keyboardHelpDialog.moveToNextItem": {
       "value": "다음 항목으로 이동"
     },
-    "keyboardHelpDialog.moveToNextItemOrGroup": {
-      "value": "다음 항목이나 그룹으로 이동"
-    },
     "keyboardHelpDialog.moveToPreviousItem": {
       "value": "이전 항목으로 이동"
-    },
-    "keyboardHelpDialog.moveToPreviousItemOrGroup": {
-      "value": "이전 항목이나 그룹으로 이동"
-    },
-    "keyboardHelpDialog.pressButtons": {
-      "value": "버튼 누름"
     },
     "rulerCapitalized": {
       "value": "자"
@@ -7244,15 +7337,6 @@
     },
     "key.toGrabOrRelease": {
       "value": "<b> 잡기</b> 또는 <b> 놓기로 </b>"
-    },
-    "keyboardHelpDialog.toggleCheckboxes": {
-      "value": "토글 체크상자"
-    },
-    "speed.normal": {
-      "value": "정규 속도"
-    },
-    "speed.slow": {
-      "value": "저속"
     },
     "cool": {
       "value": "시원한"
@@ -8503,32 +8587,17 @@
     }
   },
   "mn": {
-    "keyboardHelpDialog.comboBox.popUpListPattern": {
-      "value": "1. {{thingPlural}} дээш гарах жагсаалт"
-    },
-    "keyboardHelpDialog.comboBox.moveThroughPattern": {
-      "value": "2. {{thingPlural}} дотор шилж"
-    },
-    "keyboardHelpDialog.comboBox.chooseNewPattern": {
-      "value": "3. Шинэ {{thingSingular}} сонго"
-    },
-    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-      "value": "4. Жагсаалтыг өөрчлөхгүйгээр хаах"
-    },
     "keyboardHelpDialog.adjust": {
       "value": "Тохируулах"
     },
     "keyboardHelpDialog.basicActions": {
-      "value": "Үндсэн Үйлдлүүд"
+      "value": "Үндсэн үйлдлүүд"
     },
     "keyboardHelpDialog.exitADialog": {
       "value": "Диалогоос гарах"
     },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Авах ба Орхих {{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "Авах ба орхих {{thing}}"
+    "speed.fast": {
+      "value": "Түргэн"
     },
     "key.home": {
       "value": ""
@@ -8537,7 +8606,7 @@
       "value": "{{maximum}} руу үсрэх"
     },
     "keyboardHelpDialog.jumpToMinimumPattern": {
-      "value": "{{minimum}} уруу үсрэх"
+      "value": "{{minimum}} руу үсрэх"
     },
     "keyboardHelpDialog.maximum": {
       "value": "хамгийн их"
@@ -8554,11 +8623,8 @@
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "Өмнөх дүрс эсвэл бүлэгт шилжих"
     },
-    "keyboardHelpDialog.comboBox.option": {
-      "value": "сонголт"
-    },
-    "keyboardHelpDialog.comboBox.options": {
-      "value": "сонголтууд"
+    "speed.normal": {
+      "value": "Хэвийн"
     },
     "keyboardHelpDialog.or": {
       "value": "эсвэл"
@@ -8569,9 +8635,6 @@
     "key.pageUp": {
       "value": "Дэлгэц дээш"
     },
-    "keyboardHelpDialog.comboBox.headingString": {
-      "value": "Цэсийг нээх"
-    },
     "keyboardHelpDialog.pressButtons": {
       "value": "Товч дар"
     },
@@ -8581,6 +8644,12 @@
     "keyboardHelpDialog.sliderControls": {
       "value": "Гулсагчийн хяналтын самбар"
     },
+    "speed.slow": {
+      "value": "Удаан"
+    },
+    "keyboardHelpDialog.timingControls.timingControls": {
+      "value": "Хугацааны тохируулга"
+    },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Сонголт хийх"
     },
@@ -8589,6 +8658,33 @@
     },
     "keyboardHelpDialog.verbInSmallerStepsPattern": {
       "value": "{{verb}} дутуу жижиг алхам"
+    },
+    "keyboardHelpDialog.comboBox.popUpListPattern": {
+      "value": "1. {{thingPlural}} дээш гарах жагсаалт"
+    },
+    "keyboardHelpDialog.comboBox.moveThroughPattern": {
+      "value": "2. {{thingPlural}} дотор шилж"
+    },
+    "keyboardHelpDialog.comboBox.chooseNewPattern": {
+      "value": "3. Шинэ {{thingSingular}} сонго"
+    },
+    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+      "value": "4. Жагсаалтыг өөрчлөхгүйгээр хаах"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "Авах ба Орхих {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "Авах ба орхих {{thing}}"
+    },
+    "keyboardHelpDialog.comboBox.option": {
+      "value": "сонголт"
+    },
+    "keyboardHelpDialog.comboBox.options": {
+      "value": "сонголтууд"
+    },
+    "keyboardHelpDialog.comboBox.headingString": {
+      "value": "Цэсийг нээх"
     },
     "webglWarning.contextLossReload": {
       "value": "Дахих"
@@ -8634,15 +8730,6 @@
     },
     "zero": {
       "value": "тэг"
-    },
-    "speed.fast": {
-      "value": "Түргэн"
-    },
-    "speed.normal": {
-      "value": "Хэвийн"
-    },
-    "speed.slow": {
-      "value": "Удаан"
     },
     "keyboardHelpDialog.moveToNextItem": {
       "value": "Дараагийн дүрсэд шилжих"
@@ -10435,18 +10522,6 @@
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
-    "keyboardHelpDialog.comboBox.popUpListPattern": {
-      "value": "1. Wyskakująca lista: {{thingPlural}}"
-    },
-    "keyboardHelpDialog.comboBox.moveThroughPattern": {
-      "value": "2. Przejdź przez {{thingPlural}}"
-    },
-    "keyboardHelpDialog.comboBox.chooseNewPattern": {
-      "value": "3. Wybierz nowy {{thingSingular}}"
-    },
-    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-      "value": "4. Zamknij listę bez zmiany"
-    },
     "keyboardHelpDialog.adjust": {
       "value": "Ustaw"
     },
@@ -10471,14 +10546,11 @@
     "keyboardHelpDialog.exitADialog": {
       "value": "Zamknij okno dialogowe"
     },
+    "speed.fast": {
+      "value": "Szybko"
+    },
     "key.fn": {
       "value": "Fn"
-    },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Chwyć lub uwolnij {{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "Chwyć lub uwolnij {{thing}}"
     },
     "key.home": {
       "value": "Home"
@@ -10504,14 +10576,17 @@
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "Przejdź do poprzedniej pozycji lub grupy"
     },
-    "keyboardHelpDialog.comboBox.option": {
-      "value": "opcję"
+    "speed.normal": {
+      "value": "Normalnie"
     },
-    "keyboardHelpDialog.comboBox.options": {
-      "value": "opcje"
+    "key.option": {
+      "value": "Opcja"
     },
     "keyboardHelpDialog.or": {
       "value": "lub"
+    },
+    "keyboardHelpDialog.timingControls.pauseOrPlayAction": {
+      "value": "Pauza lub odtwarzanie akcji"
     },
     "key.pageDown": {
       "value": "Pg Dn"
@@ -10531,11 +10606,17 @@
     "keyboardHelpDialog.sliderControls": {
       "value": "Sterowanie suwakiem"
     },
+    "speed.slow": {
+      "value": "Wolno"
+    },
     "key.space": {
       "value": "Spacja"
     },
     "key.tab": {
       "value": "Tab"
+    },
+    "keyboardHelpDialog.timingControls.timingControls": {
+      "value": "Kontrola czasu"
     },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Przełącz pola wyboru"
@@ -10549,20 +10630,35 @@
     "keyboardHelpDialog.verbSliderPattern": {
       "value": "{{verb}} {{slider}}"
     },
+    "keyboardHelpDialog.comboBox.popUpListPattern": {
+      "value": "1. Wyskakująca lista: {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.moveThroughPattern": {
+      "value": "2. Przejdź przez {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.chooseNewPattern": {
+      "value": "3. Wybierz nowy {{thingSingular}}"
+    },
+    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+      "value": "4. Zamknij listę bez zmiany"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "Chwyć lub uwolnij {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "Chwyć lub uwolnij {{thing}}"
+    },
+    "keyboardHelpDialog.comboBox.option": {
+      "value": "opcję"
+    },
+    "keyboardHelpDialog.comboBox.options": {
+      "value": "opcje"
+    },
     "symbol.resistivity": {
       "value": "ρ"
     },
     "symbol.ohms": {
       "value": "Ω"
-    },
-    "speed.fast": {
-      "value": "Szybko"
-    },
-    "speed.normal": {
-      "value": "Normalnie"
-    },
-    "speed.slow": {
-      "value": "Wolno"
     },
     "keyboardHelpDialog.comboBox.chooseAThingPattern": {
       "value": "Wybierz {{thingTitle}}"
@@ -10880,17 +10976,20 @@
     }
   },
   "pt_BR": {
-    "keyboardHelpDialog.adjustInLargerSteps": {
-      "value": "Ajuste em etapas maiores"
+    "keyboardHelpDialog.hyphen": {
+      "value": "-"
     },
-    "keyboardHelpDialog.adjustInSmallerSteps": {
-      "value": "Ajuste em etapas menores"
+    "keyboardHelpDialog.adjust": {
+      "value": "Ajustar"
     },
-    "keyboardHelpDialog.adjustSlider": {
-      "value": "Ajustar controle deslizante"
+    "key.alt": {
+      "value": "Alt"
     },
     "keyboardHelpDialog.basicActions": {
       "value": "Ações Básicas"
+    },
+    "key.capsLock": {
+      "value": "Caps Lock"
     },
     "key.end": {
       "value": "End"
@@ -10904,38 +11003,47 @@
     "keyboardHelpDialog.exitADialog": {
       "value": "Sair do diálogo"
     },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Pegue ou Solte {{thing}}"
+    "speed.fast": {
+      "value": "Rápido"
     },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "Pegue ou solte {{thing}}"
+    "key.fn": {
+      "value": "Fn"
     },
     "key.home": {
       "value": "Home"
     },
-    "keyboardHelpDialog.jumpToMaximum": {
-      "value": "Pular para o máximo"
+    "keyboardHelpDialog.jumpToMaximumPattern": {
+      "value": " Saltar até {{maximum}}"
     },
-    "keyboardHelpDialog.jumpToMinimum": {
-      "value": "Pular para o mínimo "
+    "keyboardHelpDialog.jumpToMinimumPattern": {
+      "value": " Saltar até {{minimum}}"
+    },
+    "keyboardHelpDialog.maximum": {
+      "value": "máximo"
+    },
+    "keyboardHelpDialog.minimum": {
+      "value": "mínimo"
     },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "Mover entre itens de um grupo"
     },
-    "keyboardHelpDialog.moveToNextItem": {
-      "value": "Mover para o próximo item"
-    },
     "keyboardHelpDialog.moveToNextItemOrGroup": {
       "value": "Mover para o próximo item ou grupo"
-    },
-    "keyboardHelpDialog.moveToPreviousItem": {
-      "value": "Mover para o item anterior"
     },
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "Mover para item ou grupo anterior"
     },
+    "speed.normal": {
+      "value": "Normal"
+    },
+    "key.option": {
+      "value": "Opção "
+    },
     "keyboardHelpDialog.or": {
       "value": "ou"
+    },
+    "keyboardHelpDialog.timingControls.pauseOrPlayAction": {
+      "value": "Pausa ou continua"
     },
     "key.pageDown": {
       "value": "Pg Dn/Descer página "
@@ -10949,8 +11057,14 @@
     "key.shift": {
       "value": "Shift"
     },
+    "keyboardHelpDialog.slider": {
+      "value": "deslizar"
+    },
     "keyboardHelpDialog.sliderControls": {
       "value": "Controle Deslizante"
+    },
+    "speed.slow": {
+      "value": "Lento"
     },
     "key.space": {
       "value": "Espaço "
@@ -10958,8 +11072,44 @@
     "key.tab": {
       "value": "Tab"
     },
+    "keyboardHelpDialog.timingControls.timingControls": {
+      "value": "Controles de tempo"
+    },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Alternar caixas de seleção"
+    },
+    "keyboardHelpDialog.verbInLargerStepsPattern": {
+      "value": "{{verb}} bastante"
+    },
+    "keyboardHelpDialog.verbInSmallerStepsPattern": {
+      "value": "{{verb}} aos poucos"
+    },
+    "keyboardHelpDialog.adjustInLargerSteps": {
+      "value": "Ajuste em etapas maiores"
+    },
+    "keyboardHelpDialog.adjustInSmallerSteps": {
+      "value": "Ajuste em etapas menores"
+    },
+    "keyboardHelpDialog.adjustSlider": {
+      "value": "Ajustar controle deslizante"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "Pegue ou Solte {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "Pegue ou solte {{thing}}"
+    },
+    "keyboardHelpDialog.jumpToMaximum": {
+      "value": "Pular para o máximo"
+    },
+    "keyboardHelpDialog.jumpToMinimum": {
+      "value": "Pular para o mínimo "
+    },
+    "keyboardHelpDialog.moveToNextItem": {
+      "value": "Mover para o próximo item"
+    },
+    "keyboardHelpDialog.moveToPreviousItem": {
+      "value": "Mover para o item anterior"
     },
     "symbol.resistivity": {
       "value": "ρ"
@@ -10967,14 +11117,8 @@
     "symbol.ohms": {
       "value": "Ω"
     },
-    "key.alt": {
-      "value": "Alt"
-    },
     "cool": {
       "value": "Esfriar"
-    },
-    "speed.fast": {
-      "value": "Rápido"
     },
     "heat": {
       "value": "Aquecer"
@@ -10985,23 +11129,8 @@
     "key.l": {
       "value": "L"
     },
-    "speed.normal": {
-      "value": "Normal"
-    },
-    "speed.slow": {
-      "value": "Lento"
-    },
     "comboBoxDisplay.valueUnits": {
       "value": "{{value}} {{units}}"
-    },
-    "keyboardHelpDialog.hyphen": {
-      "value": "-"
-    },
-    "key.capsLock": {
-      "value": "Caps Lock"
-    },
-    "key.fn": {
-      "value": "Fn"
     },
     "stopwatchValueUnitsPattern": {
       "value": "{{value}} {{units}}"
@@ -11021,21 +11150,6 @@
     "keyboardHelpDialog.comboBox.closeWithoutChanging": {
       "value": "4. Fechar lista sem alterar"
     },
-    "keyboardHelpDialog.adjust": {
-      "value": "Ajustar"
-    },
-    "keyboardHelpDialog.jumpToMaximumPattern": {
-      "value": " Saltar até {{maximum}}"
-    },
-    "keyboardHelpDialog.jumpToMinimumPattern": {
-      "value": " Saltar até {{minimum}}"
-    },
-    "keyboardHelpDialog.maximum": {
-      "value": "máximo"
-    },
-    "keyboardHelpDialog.minimum": {
-      "value": "mínimo"
-    },
     "keyboardHelpDialog.comboBox.option": {
       "value": "opção"
     },
@@ -11044,15 +11158,6 @@
     },
     "keyboardHelpDialog.comboBox.headingString": {
       "value": "Abrir menu pop"
-    },
-    "keyboardHelpDialog.slider": {
-      "value": "deslizar"
-    },
-    "keyboardHelpDialog.verbInLargerStepsPattern": {
-      "value": "{{verb}} bastante"
-    },
-    "keyboardHelpDialog.verbInSmallerStepsPattern": {
-      "value": "{{verb}} aos poucos"
     },
     "webglWarning.contextLossReload": {
       "value": "Recarregar"
@@ -12802,6 +12907,9 @@
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
+    "keyboardHelpDialog.adjust": {
+      "value": "eketsa"
+    },
     "key.alt": {
       "value": "Alt"
     },
@@ -12829,14 +12937,20 @@
     "key.fn": {
       "value": "Fn"
     },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "t'soara kapa tlohela  {{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "t'soara kapa tlohela  {{thing}}"
-    },
     "key.home": {
       "value": "Hae"
+    },
+    "keyboardHelpDialog.jumpToMaximumPattern": {
+      "value": "qhomela ho  {{maximum}}"
+    },
+    "keyboardHelpDialog.jumpToMinimumPattern": {
+      "value": "qhomela ho {{minimum}}"
+    },
+    "keyboardHelpDialog.maximum": {
+      "value": "e felletseng"
+    },
+    "keyboardHelpDialog.minimum": {
+      "value": "e sa fellang"
     },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "Tsamaisa pakeng tsa dintho ka sehlopha "
@@ -12850,8 +12964,14 @@
     "speed.normal": {
       "value": "tloaelo"
     },
+    "key.option": {
+      "value": "Likhetho "
+    },
     "keyboardHelpDialog.or": {
       "value": "kapa"
+    },
+    "keyboardHelpDialog.timingControls.pauseOrPlayAction": {
+      "value": "Ketso ea ho Emisa ha nakoana kapa ho bapala"
     },
     "key.pageDown": {
       "value": "Leqephe Tlase"
@@ -12865,6 +12985,12 @@
     "key.shift": {
       "value": "Chechisa"
     },
+    "keyboardHelpDialog.slider": {
+      "value": "sethellisa"
+    },
+    "keyboardHelpDialog.sliderControls": {
+      "value": "laola sethellisa"
+    },
     "speed.slow": {
       "value": "butle"
     },
@@ -12874,8 +13000,29 @@
     "key.tab": {
       "value": "Tlanya"
     },
+    "keyboardHelpDialog.timingControls.timingControls": {
+      "value": "Tse laolang nako"
+    },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Fetolela li-checkbox"
+    },
+    "measuringTapeReadoutPattern": {
+      "value": "{{distance}} {{units}}"
+    },
+    "keyboardHelpDialog.verbInLargerStepsPattern": {
+      "value": "{{verb}} mehato e meholo"
+    },
+    "keyboardHelpDialog.verbInSmallerStepsPattern": {
+      "value": "{{verb}} mehato e menyane"
+    },
+    "keyboardHelpDialog.verbSliderPattern": {
+      "value": "{{verb}} {{slider}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "t'soara kapa tlohela  {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "t'soara kapa tlohela  {{thing}}"
     },
     "stopwatchValueUnitsPattern": {
       "value": "{{value}} {{units}}"
@@ -12904,9 +13051,6 @@
     "keyboardHelpDialog.comboBox.closeWithoutChanging": {
       "value": "koala lenane u fetola"
     },
-    "keyboardHelpDialog.adjust": {
-      "value": "eketsa"
-    },
     "eight": {
       "value": "robeli"
     },
@@ -12915,18 +13059,6 @@
     },
     "four": {
       "value": "'ne"
-    },
-    "keyboardHelpDialog.jumpToMaximumPattern": {
-      "value": "qhomela ho  {{maximum}}"
-    },
-    "keyboardHelpDialog.jumpToMinimumPattern": {
-      "value": "qhomela ho {{minimum}}"
-    },
-    "keyboardHelpDialog.maximum": {
-      "value": "e felletseng"
-    },
-    "keyboardHelpDialog.minimum": {
-      "value": "e sa fellang"
     },
     "nine": {
       "value": "robong"
@@ -12946,12 +13078,6 @@
     "six": {
       "value": "t'selela"
     },
-    "keyboardHelpDialog.slider": {
-      "value": "sethellisa"
-    },
-    "keyboardHelpDialog.sliderControls": {
-      "value": "laola sethellisa"
-    },
     "ten": {
       "value": "leshome"
     },
@@ -12963,15 +13089,6 @@
     },
     "zero": {
       "value": "noto"
-    },
-    "keyboardHelpDialog.verbInLargerStepsPattern": {
-      "value": "{{verb}} mehato e meholo"
-    },
-    "keyboardHelpDialog.verbInSmallerStepsPattern": {
-      "value": "{{verb}} mehato e menyane"
-    },
-    "keyboardHelpDialog.verbSliderPattern": {
-      "value": "{{verb}} {{slider}}"
     },
     "keyboardHelpDialog.adjustInLargerSteps": {
       "value": "fetola mehato e meholoanyane"
@@ -12993,9 +13110,6 @@
     },
     "keyboardHelpDialog.moveToPreviousItem": {
       "value": "Suthela nthong e fetileng "
-    },
-    "measuringTapeReadoutPattern": {
-      "value": "{{distance}} {{units}}"
     },
     "units_nm": {
       "value": "nm"
@@ -16382,18 +16496,6 @@
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
-    "keyboardHelpDialog.comboBox.popUpListPattern": {
-      "value": "1. {{thingPlural}}的彈出式清單"
-    },
-    "keyboardHelpDialog.comboBox.moveThroughPattern": {
-      "value": "2. 在 {{thingPlural}}清單中移動"
-    },
-    "keyboardHelpDialog.comboBox.chooseNewPattern": {
-      "value": "3. 選擇新的{{thingSingular}}"
-    },
-    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-      "value": "4. 不儲存改變直接關閉視窗"
-    },
     "keyboardHelpDialog.adjust": {
       "value": "調整"
     },
@@ -16418,14 +16520,11 @@
     "keyboardHelpDialog.exitADialog": {
       "value": "離開對話框"
     },
+    "speed.fast": {
+      "value": "快"
+    },
     "key.fn": {
       "value": "Fn 鍵"
-    },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "抓或放 {{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "抓或放 {{thing}}"
     },
     "key.home": {
       "value": "Home 鍵"
@@ -16451,23 +16550,23 @@
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "移動到前一個項目或群組"
     },
-    "keyboardHelpDialog.comboBox.option": {
-      "value": "選項"
+    "speed.normal": {
+      "value": "正常"
     },
-    "keyboardHelpDialog.comboBox.options": {
+    "key.option": {
       "value": "選項"
     },
     "keyboardHelpDialog.or": {
       "value": "或"
+    },
+    "keyboardHelpDialog.timingControls.pauseOrPlayAction": {
+      "value": "暫停或播放"
     },
     "key.pageDown": {
       "value": "Page Down 鍵"
     },
     "key.pageUp": {
       "value": "Page Up 鍵"
-    },
-    "keyboardHelpDialog.comboBox.headingString": {
-      "value": "彈出式選單"
     },
     "keyboardHelpDialog.pressButtons": {
       "value": "按下按鍵"
@@ -16481,11 +16580,17 @@
     "keyboardHelpDialog.sliderControls": {
       "value": "滑動器控制"
     },
+    "speed.slow": {
+      "value": "慢"
+    },
     "key.space": {
       "value": "空白鍵"
     },
     "key.tab": {
       "value": "Tab 鍵"
+    },
+    "keyboardHelpDialog.timingControls.timingControls": {
+      "value": "時效控制"
     },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "切換勾選盒"
@@ -16501,6 +16606,33 @@
     },
     "keyboardHelpDialog.verbSliderPattern": {
       "value": "{{verb}} {{slider}}"
+    },
+    "keyboardHelpDialog.comboBox.popUpListPattern": {
+      "value": "1. {{thingPlural}}的彈出式清單"
+    },
+    "keyboardHelpDialog.comboBox.moveThroughPattern": {
+      "value": "2. 在 {{thingPlural}}清單中移動"
+    },
+    "keyboardHelpDialog.comboBox.chooseNewPattern": {
+      "value": "3. 選擇新的{{thingSingular}}"
+    },
+    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+      "value": "4. 不儲存改變直接關閉視窗"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "抓或放 {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "抓或放 {{thing}}"
+    },
+    "keyboardHelpDialog.comboBox.option": {
+      "value": "選項"
+    },
+    "keyboardHelpDialog.comboBox.options": {
+      "value": "選項"
+    },
+    "keyboardHelpDialog.comboBox.headingString": {
+      "value": "彈出式選單"
     },
     "symbol.resistivity": {
       "value": "ρ"
@@ -16544,20 +16676,11 @@
     "zero": {
       "value": "零"
     },
-    "speed.fast": {
-      "value": "快"
-    },
     "key.k": {
       "value": "K"
     },
     "key.l": {
       "value": "L"
-    },
-    "speed.normal": {
-      "value": "正常"
-    },
-    "speed.slow": {
-      "value": "慢"
     },
     "stopwatchValueUnitsPattern": {
       "value": "{{value}} {{units}}"
