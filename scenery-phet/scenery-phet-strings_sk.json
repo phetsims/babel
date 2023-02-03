@@ -10,56 +10,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.popUpListPattern": {
-    "value": "Vyskakovací zoznam {{thingPlural}}",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1619953055967,
-        "oldValue": "",
-        "newValue": "Vyskakovací zoznam {{thingPlural}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.moveThroughPattern": {
-    "value": "Presun na {{thingPlural}}",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1619953055967,
-        "oldValue": "",
-        "newValue": "Presun na {{thingPlural}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.chooseNewPattern": {
-    "value": "Vybrať nový {{thingSingular}}",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1619953055967,
-        "oldValue": "",
-        "newValue": "Vybrať nové {{thingSingular}}"
-      },
-      {
-        "userId": 134140,
-        "timestamp": 1650379574890,
-        "oldValue": "Vybrať nové {{thingSingular}}",
-        "newValue": "Vybrať nový {{thingSingular}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-    "value": "Zatvoriť zoznam bez zmeny",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1619953055967,
-        "oldValue": "",
-        "newValue": "Zatvoriť zoznam bez zmeny"
-      }
-    ]
-  },
   "keyboardHelpDialog.adjust": {
     "value": "Upraviť",
     "history": [
@@ -153,27 +103,14 @@
       }
     ]
   },
-  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-    "value": "Chytenie alebo uvoľnenie {{thing}}",
+  "speed.fast": {
+    "value": "Rýchlo ",
     "history": [
       {
         "userId": 134140,
-        "timestamp": 1608469310542,
+        "timestamp": 1642972669431,
         "oldValue": "",
-        "newValue": "Chytenie alebo uvoľnenie {{thing}}",
-        "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-    "value": "Chyťte alebo uvoľnite {{thing}}",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1608469310542,
-        "oldValue": "",
-        "newValue": "Chyťte alebo uvoľnite {{thing}}",
-        "explanation": null
+        "newValue": "Rýchlo "
       }
     ]
   },
@@ -268,25 +205,26 @@
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.option": {
-    "value": "možnosť",
+  "speed.normal": {
+    "value": "Normálne",
     "history": [
       {
         "userId": 134140,
-        "timestamp": 1619953055967,
+        "timestamp": 1546535263326,
         "oldValue": "",
-        "newValue": "možnosť"
+        "newValue": "Normálne",
+        "explanation": null
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.options": {
-    "value": "možnosti",
+  "key.option": {
+    "value": "Možnosť",
     "history": [
       {
         "userId": 134140,
-        "timestamp": 1619953055967,
+        "timestamp": 1675454719338,
         "oldValue": "",
-        "newValue": "možnosti"
+        "newValue": "Možnosť"
       }
     ]
   },
@@ -299,6 +237,17 @@
         "oldValue": "",
         "newValue": "alebo",
         "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.timingControls.pauseOrPlayAction": {
+    "value": "Pozastaviť alebo prehrať akciu",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1675454719338,
+        "oldValue": "",
+        "newValue": "Pozastaviť alebo prehrať akciu"
       }
     ]
   },
@@ -372,6 +321,18 @@
       }
     ]
   },
+  "speed.slow": {
+    "value": "Spomalene",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1546535263326,
+        "oldValue": "",
+        "newValue": "Spomalene",
+        "explanation": null
+      }
+    ]
+  },
   "key.space": {
     "value": "Medzera",
     "history": [
@@ -393,6 +354,17 @@
         "oldValue": "",
         "newValue": "Tab",
         "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.timingControls.timingControls": {
+    "value": "Ovládanie časovania",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1675454719338,
+        "oldValue": "",
+        "newValue": "Ovládanie časovania"
       }
     ]
   },
@@ -452,6 +424,102 @@
       }
     ]
   },
+  "keyboardHelpDialog.comboBox.popUpListPattern": {
+    "value": "Vyskakovací zoznam {{thingPlural}}",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1619953055967,
+        "oldValue": "",
+        "newValue": "Vyskakovací zoznam {{thingPlural}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.moveThroughPattern": {
+    "value": "Presun na {{thingPlural}}",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1619953055967,
+        "oldValue": "",
+        "newValue": "Presun na {{thingPlural}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.chooseNewPattern": {
+    "value": "Vybrať nový {{thingSingular}}",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1619953055967,
+        "oldValue": "",
+        "newValue": "Vybrať nové {{thingSingular}}"
+      },
+      {
+        "userId": 134140,
+        "timestamp": 1650379574890,
+        "oldValue": "Vybrať nové {{thingSingular}}",
+        "newValue": "Vybrať nový {{thingSingular}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+    "value": "Zatvoriť zoznam bez zmeny",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1619953055967,
+        "oldValue": "",
+        "newValue": "Zatvoriť zoznam bez zmeny"
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+    "value": "Chytenie alebo uvoľnenie {{thing}}",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1608469310542,
+        "oldValue": "",
+        "newValue": "Chytenie alebo uvoľnenie {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+    "value": "Chyťte alebo uvoľnite {{thing}}",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1608469310542,
+        "oldValue": "",
+        "newValue": "Chyťte alebo uvoľnite {{thing}}",
+        "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.option": {
+    "value": "možnosť",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1619953055967,
+        "oldValue": "",
+        "newValue": "možnosť"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.options": {
+    "value": "možnosti",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1619953055967,
+        "oldValue": "",
+        "newValue": "možnosti"
+      }
+    ]
+  },
   "symbol.resistivity": {
     "value": "ρ",
     "history": [
@@ -472,41 +540,6 @@
         "timestamp": 1548921242165,
         "oldValue": "",
         "newValue": " Ω",
-        "explanation": null
-      }
-    ]
-  },
-  "speed.fast": {
-    "value": "Rýchlo ",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1642972669431,
-        "oldValue": "",
-        "newValue": "Rýchlo "
-      }
-    ]
-  },
-  "speed.normal": {
-    "value": "Normálne",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1546535263326,
-        "oldValue": "",
-        "newValue": "Normálne",
-        "explanation": null
-      }
-    ]
-  },
-  "speed.slow": {
-    "value": "Spomalene",
-    "history": [
-      {
-        "userId": 134140,
-        "timestamp": 1546535263326,
-        "oldValue": "",
-        "newValue": "Spomalene",
         "explanation": null
       }
     ]
