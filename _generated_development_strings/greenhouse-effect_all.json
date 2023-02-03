@@ -95,17 +95,59 @@
     }
   },
   "ar": {
+    "screen.layerModel": {
+      "value": "نموذج الطبقات"
+    },
+    "screen.photons": {
+      "value": "فوتونات"
+    },
     "screen.waves": {
       "value": "موجات"
+    },
+    "sliderAndFluxMeterControls": {
+      "value": "لوحة التحكم بالتدفق"
+    },
+    "morePhotons": {
+      "value": "فوتونات أكثر"
+    },
+    "infrared": {
+      "value": "أمواج تحت الحمراء"
+    },
+    "absorbingLayers": {
+      "value": "طبقات امتصاص"
+    },
+    "infraredAbsorbance": {
+      "value": "امتصاص الأمواج تحت الحمراء"
+    },
+    "sunlight": {
+      "value": "ضوء الشمس"
+    },
+    "solarIntensity": {
+      "value": "شدة ضوء الشمس"
+    },
+    "ourSun": {
+      "value": "شمسنا"
+    },
+    "surfaceAlbedo": {
+      "value": "انعكاس الضوء عن السطح"
+    },
+    "temperatureUnits": {
+      "value": "وحدة الحرارة"
+    },
+    "temperature.units.kelvin": {
+      "value": "K"
+    },
+    "temperature.units.celsius": {
+      "value": "℃"
+    },
+    "temperature.units.fahrenheit": {
+      "value": "℉"
     },
     "concentrationPanel.lots": {
       "value": "تركيز عالي"
     },
     "concentrationPanel.none": {
       "value": "تركيز صفر"
-    },
-    "concentrationPanel.waterConcentrationPattern": {
-      "value": "H<sub>2</sub>O: {{value}}% الرطوبة النسبية"
     },
     "concentrationPanel.carbonDioxideConcentrationPattern": {
       "value": "CO<sub>2</sub>: {{value}} ppm"
@@ -122,29 +164,23 @@
     "concentrationPanel.iceAge": {
       "value": "العصر الجليدي"
     },
-    "energyLegend.title": {
-      "value": "الطاقة"
-    },
-    "energyLegend.sunlight": {
-      "value": "ضوء الشمس"
-    },
-    "energyLegend.infrared": {
-      "value": "الأشعة تحت الحمراء "
+    "surfaceThermometer": {
+      "value": "مقياس الحرارة السطحي"
     },
     "cloud": {
       "value": "سحابة"
     },
-    "surfaceThermometer": {
-      "value": "الثيرمومتر السطحي"
+    "energyLegend.title": {
+      "value": "الطاقة"
     },
     "showSurfaceTemperature": {
       "value": "إظهار درجة حرارة السطح"
     },
-    "startSunlight": {
-      "value": "ابدأ ضوء الشمس "
-    },
     "temperature.units.valueUnitsPattern": {
       "value": "{{value}} {{units}}"
+    },
+    "startSunlight": {
+      "value": "ابدأ ضوء الشمس "
     },
     "energyBalancePanel.title": {
       "value": "توازن الطاقة"
@@ -161,12 +197,6 @@
     "energyBalancePanel.net": {
       "value": "المحصلة"
     },
-    "fluxMeter.sunlight": {
-      "value": "ضوء الشمس"
-    },
-    "fluxMeter.infrared": {
-      "value": "الأشعة تحت الحمراء"
-    },
     "fluxMeter.energyFlux": {
       "value": "تدفق الطاقة"
     },
@@ -176,17 +206,23 @@
     "fluxMeter.title": {
       "value": "مقياس التدفق "
     },
-    "temperature.units.kelvin": {
-      "value": "K"
-    },
-    "temperature.units.celsius": {
-      "value": "℃"
-    },
-    "temperature.units.fahrenheit": {
-      "value": "℉"
-    },
     "greenhouse-effect.title": {
       "value": "ظاهرة البيت الزجاجي "
+    },
+    "concentrationPanel.waterConcentrationPattern": {
+      "value": "H<sub>2</sub>O: {{value}}% الرطوبة النسبية"
+    },
+    "energyLegend.sunlight": {
+      "value": "ضوء الشمس"
+    },
+    "energyLegend.infrared": {
+      "value": "الأشعة تحت الحمراء "
+    },
+    "fluxMeter.sunlight": {
+      "value": "ضوء الشمس"
+    },
+    "fluxMeter.infrared": {
+      "value": "الأشعة تحت الحمراء"
     }
   },
   "ar_MA": {
@@ -549,17 +585,62 @@
     }
   },
   "ca": {
+    "screen.layerModel": {
+      "value": "Model de Capes"
+    },
+    "screen.photons": {
+      "value": "Fotons"
+    },
     "screen.waves": {
       "value": "Ones"
+    },
+    "sliderAndFluxMeterControls": {
+      "value": "Controls del selector lliscant i del flux"
+    },
+    "morePhotons": {
+      "value": "Més Fotons"
+    },
+    "infrared": {
+      "value": "Infraroig"
+    },
+    "absorbingLayers": {
+      "value": "Capes d'Absorció"
+    },
+    "infraredAbsorbance": {
+      "value": "Absorbància Infraroja"
+    },
+    "valuePercentPattern": {
+      "value": "{{value}}%"
+    },
+    "sunlight": {
+      "value": "Llum Solar"
+    },
+    "solarIntensity": {
+      "value": "Intensitat Solar"
+    },
+    "ourSun": {
+      "value": "El nostre Sol"
+    },
+    "surfaceAlbedo": {
+      "value": "Superfície d'Albedo"
+    },
+    "temperatureUnits": {
+      "value": "Unitats de Temperatura"
+    },
+    "temperature.units.kelvin": {
+      "value": "K"
+    },
+    "temperature.units.celsius": {
+      "value": "℃"
+    },
+    "temperature.units.fahrenheit": {
+      "value": "℉"
     },
     "concentrationPanel.lots": {
       "value": "Molts"
     },
     "concentrationPanel.none": {
       "value": "Cap"
-    },
-    "concentrationPanel.waterConcentrationPattern": {
-      "value": "H<sub>2</sub>O: {{value}}% Humitat relativa"
     },
     "concentrationPanel.carbonDioxideConcentrationPattern": {
       "value": "CO<sub>2</sub>: {{value}} ppm"
@@ -576,29 +657,23 @@
     "concentrationPanel.iceAge": {
       "value": "Període glacial."
     },
-    "energyLegend.title": {
-      "value": "Energia"
-    },
-    "energyLegend.sunlight": {
-      "value": "Llum solar"
-    },
-    "energyLegend.infrared": {
-      "value": "Infraroig"
+    "surfaceThermometer": {
+      "value": "Termòmetre de la superfície"
     },
     "cloud": {
       "value": "Núvol"
     },
-    "surfaceThermometer": {
-      "value": "Termòmetre de la superfície"
+    "energyLegend.title": {
+      "value": "Energia"
     },
     "showSurfaceTemperature": {
       "value": "Mostra la temperatura de la superfície"
     },
-    "startSunlight": {
-      "value": "Inicia la llum solar"
-    },
     "temperature.units.valueUnitsPattern": {
       "value": "{{value}} {{units}}"
+    },
+    "startSunlight": {
+      "value": "Inicia la llum solar"
     },
     "energyBalancePanel.title": {
       "value": "Balanç d'energia"
@@ -613,34 +688,34 @@
       "value": "Exterior"
     },
     "energyBalancePanel.net": {
-      "value": "xarxa"
+      "value": "Xarxa"
+    },
+    "fluxMeter.energyFlux": {
+      "value": "Flux d'energia"
+    },
+    "energyBalance": {
+      "value": "Balanç d'energia"
+    },
+    "fluxMeter.title": {
+      "value": "Mesurador de flux"
+    },
+    "greenhouse-effect.title": {
+      "value": "Efecte hivernacle"
+    },
+    "concentrationPanel.waterConcentrationPattern": {
+      "value": "H<sub>2</sub>O: {{value}}% Humitat relativa"
+    },
+    "energyLegend.sunlight": {
+      "value": "Llum solar"
+    },
+    "energyLegend.infrared": {
+      "value": "Infraroig"
     },
     "fluxMeter.sunlight": {
       "value": "Llum solar"
     },
     "fluxMeter.infrared": {
       "value": "radiació Infraroja"
-    },
-    "fluxMeter.energyFlux": {
-      "value": "Balanç d'energia"
-    },
-    "energyBalance": {
-      "value": "Balan d'energia"
-    },
-    "fluxMeter.title": {
-      "value": "Mesurador de flux"
-    },
-    "temperature.units.kelvin": {
-      "value": "K"
-    },
-    "temperature.units.celsius": {
-      "value": "℃"
-    },
-    "temperature.units.fahrenheit": {
-      "value": "℉"
-    },
-    "greenhouse-effect.title": {
-      "value": "Efecte hivernacle"
     }
   },
   "cs": {
@@ -852,17 +927,62 @@
     }
   },
   "de": {
+    "screen.layerModel": {
+      "value": "Schichtenmodell"
+    },
+    "screen.photons": {
+      "value": "Photonen"
+    },
     "screen.waves": {
       "value": "Wellen"
+    },
+    "sliderAndFluxMeterControls": {
+      "value": "Schieberegler und Flussmesser"
+    },
+    "morePhotons": {
+      "value": "Mehr Photonen"
+    },
+    "infrared": {
+      "value": "Infrarot"
+    },
+    "absorbingLayers": {
+      "value": "Absorbierende Schichten"
+    },
+    "infraredAbsorbance": {
+      "value": "Infrarot-Absorptionsvermögen"
+    },
+    "valuePercentPattern": {
+      "value": "{{value}}%"
+    },
+    "sunlight": {
+      "value": "Sonnenlicht"
+    },
+    "solarIntensity": {
+      "value": "Sonnenintensität"
+    },
+    "ourSun": {
+      "value": "Unsere Sonne"
+    },
+    "surfaceAlbedo": {
+      "value": "Albedo der Oberfläche"
+    },
+    "temperatureUnits": {
+      "value": "Temperatureinheit"
+    },
+    "temperature.units.kelvin": {
+      "value": "K"
+    },
+    "temperature.units.celsius": {
+      "value": "°C"
+    },
+    "temperature.units.fahrenheit": {
+      "value": "°F"
     },
     "concentrationPanel.lots": {
       "value": "hoch"
     },
     "concentrationPanel.none": {
       "value": "niedrig"
-    },
-    "concentrationPanel.waterConcentrationPattern": {
-      "value": "H<sub>2</sub>O: {{value}}% relative Luftfeuchte"
     },
     "concentrationPanel.carbonDioxideConcentrationPattern": {
       "value": "CO<sub>2</sub>: {{value}} ppm"
@@ -879,29 +999,23 @@
     "concentrationPanel.iceAge": {
       "value": "Eiszeit"
     },
-    "energyLegend.title": {
-      "value": "Energie"
-    },
-    "energyLegend.sunlight": {
-      "value": "Sonnenlicht"
-    },
-    "energyLegend.infrared": {
-      "value": "Infrarot"
+    "surfaceThermometer": {
+      "value": "Oberflächentemperatur"
     },
     "cloud": {
       "value": "Wolke"
     },
-    "surfaceThermometer": {
-      "value": "Oberflächentemperatur"
+    "energyLegend.title": {
+      "value": "Energie"
     },
     "showSurfaceTemperature": {
       "value": "Oberflächentemperatur anzeigen"
     },
-    "startSunlight": {
-      "value": "Sonnenlicht starten"
-    },
     "temperature.units.valueUnitsPattern": {
       "value": "{{value}} {{units}}"
+    },
+    "startSunlight": {
+      "value": "Sonnenlicht starten"
     },
     "energyBalancePanel.title": {
       "value": "Energieausgleich"
@@ -918,12 +1032,6 @@
     "energyBalancePanel.net": {
       "value": "Netto"
     },
-    "fluxMeter.sunlight": {
-      "value": "Sonnenlicht"
-    },
-    "fluxMeter.infrared": {
-      "value": "Infrarot"
-    },
     "fluxMeter.energyFlux": {
       "value": "Energiefluss"
     },
@@ -933,17 +1041,23 @@
     "fluxMeter.title": {
       "value": "Flussmesser"
     },
-    "temperature.units.kelvin": {
-      "value": "K"
-    },
-    "temperature.units.celsius": {
-      "value": "°C"
-    },
-    "temperature.units.fahrenheit": {
-      "value": "°F"
-    },
     "greenhouse-effect.title": {
       "value": "Treibhauseffekt"
+    },
+    "concentrationPanel.waterConcentrationPattern": {
+      "value": "H<sub>2</sub>O: {{value}}% relative Luftfeuchte"
+    },
+    "energyLegend.sunlight": {
+      "value": "Sonnenlicht"
+    },
+    "energyLegend.infrared": {
+      "value": "Infrarot"
+    },
+    "fluxMeter.sunlight": {
+      "value": "Sonnenlicht"
+    },
+    "fluxMeter.infrared": {
+      "value": "Infrarot"
     }
   },
   "el": {
@@ -966,7 +1080,7 @@
       "value": "Υπέρυθρες"
     },
     "absorbingLayers": {
-      "value": "Στρώσεις απορρόφησης"
+      "value": "Στρώματα απορρόφησης"
     },
     "infraredAbsorbance": {
       "value": "Απορρόφηση υπερύθρων"
@@ -981,10 +1095,10 @@
       "value": "Ένταση ηλιακής ακτινοβολίας"
     },
     "ourSun": {
-      "value": "Ήλιος"
+      "value": "Ο Ήλιος μας"
     },
     "surfaceAlbedo": {
-      "value": "Επιφάνεια Albedo"
+      "value": "Albedo επιφανείας"
     },
     "temperatureUnits": {
       "value": "Μονάδες Θερμοκρασίας"
@@ -1720,8 +1834,56 @@
     }
   },
   "gu": {
+    "screen.layerModel": {
+      "value": "લેયર મોડેલ"
+    },
+    "screen.photons": {
+      "value": "ફોટોન"
+    },
     "screen.waves": {
       "value": "તરંગો"
+    },
+    "sliderAndFluxMeterControls": {
+      "value": "સ્લાઇડર અને ફલક્સ મીટર કંટ્રોલ"
+    },
+    "morePhotons": {
+      "value": "વધારે ફોટોન"
+    },
+    "infrared": {
+      "value": "ઇન્ફ્રારેડ"
+    },
+    "absorbingLayers": {
+      "value": "શોષતા લેયર"
+    },
+    "infraredAbsorbance": {
+      "value": "ઇન્ફ્રારેડ એબસોરબન્સ"
+    },
+    "valuePercentPattern": {
+      "value": "{{value}}%"
+    },
+    "sunlight": {
+      "value": "સૂર્યપ્રકાશ"
+    },
+    "solarIntensity": {
+      "value": "સોલર તીવ્રતા"
+    },
+    "ourSun": {
+      "value": "આપણો સુર્ય"
+    },
+    "surfaceAlbedo": {
+      "value": "સરફેસ અલબેડો"
+    },
+    "temperatureUnits": {
+      "value": "તાપમાનના એકમો"
+    },
+    "temperature.units.kelvin": {
+      "value": "K"
+    },
+    "temperature.units.celsius": {
+      "value": "℃"
+    },
+    "temperature.units.fahrenheit": {
+      "value": "℉"
     },
     "concentrationPanel.lots": {
       "value": "ઘણું"
@@ -1729,8 +1891,14 @@
     "concentrationPanel.none": {
       "value": "કંઈ નહીં"
     },
-    "concentrationPanel.waterConcentrationPattern": {
-      "value": "H<sub>2</sub>O: {{value}}% સંબંધિત ભેજ"
+    "concentrationPanel.carbonDioxideConcentrationPattern": {
+      "value": "CO<sub>2</sub>: {{value}} ppm"
+    },
+    "concentrationPanel.methaneConcentrationPattern": {
+      "value": "CH<sub>4</sub>: {{value}} ppb"
+    },
+    "concentrationPanel.nitrousOxideConcentrationPattern": {
+      "value": "N<sub>2</sub>O: {{value}} ppb"
     },
     "concentrationPanel.greenhouseGasConcentration": {
       "value": "ગ્રીનહાઉસ ગેસ સાંદ્રતા"
@@ -1738,23 +1906,20 @@
     "concentrationPanel.iceAge": {
       "value": "બરફ યુગ"
     },
-    "energyLegend.title": {
-      "value": "ઉર્ઝા"
-    },
-    "energyLegend.sunlight": {
-      "value": "સૂર્ય પ્રકાશ"
-    },
-    "energyLegend.infrared": {
-      "value": "પારરકત"
+    "surfaceThermometer": {
+      "value": "થર્મોમીટર"
     },
     "cloud": {
       "value": "વાદળ"
     },
-    "surfaceThermometer": {
-      "value": "થર્મોમીટર"
+    "energyLegend.title": {
+      "value": "ઉર્ઝા"
     },
     "showSurfaceTemperature": {
       "value": "સપાટીની ગરમી બતાવો"
+    },
+    "temperature.units.valueUnitsPattern": {
+      "value": "{{value}} {{units}}"
     },
     "startSunlight": {
       "value": "સૂર્ય પ્રકાશ ચાલુ કરો"
@@ -1774,31 +1939,91 @@
     "energyBalancePanel.net": {
       "value": "કુલ"
     },
+    "fluxMeter.energyFlux": {
+      "value": "ઉર્જા ફલક્સ"
+    },
+    "energyBalance": {
+      "value": "ઉર્ઝા સંતુલન"
+    },
+    "fluxMeter.title": {
+      "value": "ફલક્સ મીટર"
+    },
+    "greenhouse-effect.title": {
+      "value": "ગ્રીન હાઉસ ઈફેક્ટ - જીજ્ઞેશ ખુંટ"
+    },
+    "concentrationPanel.waterConcentrationPattern": {
+      "value": "H<sub>2</sub>O: {{value}}% સંબંધિત ભેજ"
+    },
+    "energyLegend.sunlight": {
+      "value": "સૂર્ય પ્રકાશ"
+    },
+    "energyLegend.infrared": {
+      "value": "પારરકત"
+    },
     "fluxMeter.sunlight": {
       "value": "સૂર્ય પ્રકાશ"
     },
     "fluxMeter.infrared": {
       "value": "પારરકત"
-    },
-    "energyBalance": {
-      "value": "ઉર્ઝા સંતુલન"
-    },
-    "greenhouse-effect.title": {
-      "value": "ગ્રીન હાઉસ ઈફેક્ટ - જીજ્ઞેશ ખુંટ"
     }
   },
   "ha": {
+    "screen.layerModel": {
+      "value": "Samfurin shimfiɗa"
+    },
+    "screen.photons": {
+      "value": "Ƙwarorin haske"
+    },
     "screen.waves": {
       "value": "Taguwowi"
+    },
+    "sliderAndFluxMeterControls": {
+      "value": "Abin darjewa da Fuluks"
+    },
+    "morePhotons": {
+      "value": "Ƙarin Ƙwarorin haske"
+    },
+    "infrared": {
+      "value": "Hasken infira red"
+    },
+    "absorbingLayers": {
+      "value": "Shimfiɗa mai \"sha\""
+    },
+    "infraredAbsorbance": {
+      "value": "Shan Hasken infira red"
+    },
+    "valuePercentPattern": {
+      "value": "{{value}}%"
+    },
+    "sunlight": {
+      "value": "Hasken rana"
+    },
+    "solarIntensity": {
+      "value": "Tsananin Hasken rana"
+    },
+    "ourSun": {
+      "value": "Ranar mu"
+    },
+    "surfaceAlbedo": {
+      "value": "Juzu'in yawan hasken da saman wani abu ke iya mayarwa"
+    },
+    "temperatureUnits": {
+      "value": "Ma'aunin yawan zafi ko sanyi"
+    },
+    "temperature.units.kelvin": {
+      "value": " K (na awon zafi)"
+    },
+    "temperature.units.celsius": {
+      "value": "℃"
+    },
+    "temperature.units.fahrenheit": {
+      "value": "℉"
     },
     "concentrationPanel.lots": {
       "value": "Da yawa "
     },
     "concentrationPanel.none": {
       "value": "Ba ko ɗaya ba"
-    },
-    "concentrationPanel.waterConcentrationPattern": {
-      "value": "H<sub>2</sub>O:{{value}}%Yawan laima"
     },
     "concentrationPanel.carbonDioxideConcentrationPattern": {
       "value": "CO<sub>2</sub>:{{value}}ppm"
@@ -1815,29 +2040,23 @@
     "concentrationPanel.iceAge": {
       "value": "Shekarun da duniya take ƙanƙara "
     },
-    "energyLegend.title": {
-      "value": "Kuzari "
-    },
-    "energyLegend.sunlight": {
-      "value": "Hasken rana "
-    },
-    "energyLegend.infrared": {
-      "value": "Haske na infira red"
+    "surfaceThermometer": {
+      "value": "Na’urar auna zafi a saman abu"
     },
     "cloud": {
       "value": "Girgije (kamar hayaki)"
     },
-    "surfaceThermometer": {
-      "value": "Na’urar auna zafi a saman abu"
+    "energyLegend.title": {
+      "value": "Kuzari "
     },
     "showSurfaceTemperature": {
       "value": "Nuna yawan zafin abu a fuskarsa"
     },
-    "startSunlight": {
-      "value": "Kunna hasken rana "
-    },
     "temperature.units.valueUnitsPattern": {
       "value": "{{value}} {{units}}"
+    },
+    "startSunlight": {
+      "value": "Kunna hasken rana "
     },
     "energyBalancePanel.title": {
       "value": "Daidaitawar kuzari"
@@ -1854,12 +2073,6 @@
     "energyBalancePanel.net": {
       "value": "Duka (na yawan abu)"
     },
-    "fluxMeter.sunlight": {
-      "value": "Hasken rana "
-    },
-    "fluxMeter.infrared": {
-      "value": "Haske na infira red"
-    },
     "fluxMeter.energyFlux": {
       "value": "Juzu'in kuzari"
     },
@@ -1869,17 +2082,23 @@
     "fluxMeter.title": {
       "value": "Na'urar auna juzu'in kuzari"
     },
-    "temperature.units.kelvin": {
-      "value": " K (na awon zafi)"
-    },
-    "temperature.units.celsius": {
-      "value": "℃"
-    },
-    "temperature.units.fahrenheit": {
-      "value": "℉"
-    },
     "greenhouse-effect.title": {
       "value": "Illar ɗumamar yanayi "
+    },
+    "concentrationPanel.waterConcentrationPattern": {
+      "value": "H<sub>2</sub>O:{{value}}%Yawan laima"
+    },
+    "energyLegend.sunlight": {
+      "value": "Hasken rana "
+    },
+    "energyLegend.infrared": {
+      "value": "Haske na infira red"
+    },
+    "fluxMeter.sunlight": {
+      "value": "Hasken rana "
+    },
+    "fluxMeter.infrared": {
+      "value": "Haske na infira red"
     }
   },
   "hr": {
@@ -2263,17 +2482,59 @@
     }
   },
   "it": {
+    "screen.layerModel": {
+      "value": "Modello a strati"
+    },
+    "screen.photons": {
+      "value": "Fotoni"
+    },
     "screen.waves": {
       "value": "Onde"
+    },
+    "sliderAndFluxMeterControls": {
+      "value": "Controlli del cursore e del misuratore di flusso"
+    },
+    "morePhotons": {
+      "value": "Più fotoni"
+    },
+    "infrared": {
+      "value": "Infrarosso"
+    },
+    "absorbingLayers": {
+      "value": "Livelli di assorbimento"
+    },
+    "infraredAbsorbance": {
+      "value": "Assorbanza nell'infrarosso"
+    },
+    "sunlight": {
+      "value": "Luce solare"
+    },
+    "solarIntensity": {
+      "value": "Intensità solare"
+    },
+    "ourSun": {
+      "value": "Il nostro Sole"
+    },
+    "surfaceAlbedo": {
+      "value": "Albedo superficiale"
+    },
+    "temperatureUnits": {
+      "value": "Unità di misura temperatura"
+    },
+    "temperature.units.kelvin": {
+      "value": "K"
+    },
+    "temperature.units.celsius": {
+      "value": "°C"
+    },
+    "temperature.units.fahrenheit": {
+      "value": "°F"
     },
     "concentrationPanel.lots": {
       "value": "Alte"
     },
     "concentrationPanel.none": {
       "value": "Nessuno"
-    },
-    "concentrationPanel.waterConcentrationPattern": {
-      "value": "H<sub>2</sub>O: {{value}}% umidità relativa"
     },
     "concentrationPanel.carbonDioxideConcentrationPattern": {
       "value": "CO<sub>2</sub>: {{value}} ppm"
@@ -2290,20 +2551,14 @@
     "concentrationPanel.iceAge": {
       "value": "Era glaciale"
     },
-    "energyLegend.title": {
-      "value": "Energia"
-    },
-    "energyLegend.sunlight": {
-      "value": "Luce solare"
-    },
-    "energyLegend.infrared": {
-      "value": "Infrarosso"
+    "surfaceThermometer": {
+      "value": "Termometro di superficie"
     },
     "cloud": {
       "value": "Nuvola"
     },
-    "surfaceThermometer": {
-      "value": "Termometro di superficie"
+    "energyLegend.title": {
+      "value": "Energia"
     },
     "showSurfaceTemperature": {
       "value": "Mostra la temperatura superficiale"
@@ -2326,12 +2581,6 @@
     "energyBalancePanel.net": {
       "value": "netto"
     },
-    "fluxMeter.sunlight": {
-      "value": "Luce solare"
-    },
-    "fluxMeter.infrared": {
-      "value": "Infrarosso"
-    },
     "fluxMeter.energyFlux": {
       "value": "Flusso energetico"
     },
@@ -2341,17 +2590,23 @@
     "fluxMeter.title": {
       "value": "Piranometro"
     },
-    "temperature.units.kelvin": {
-      "value": "K"
-    },
-    "temperature.units.celsius": {
-      "value": "°C"
-    },
-    "temperature.units.fahrenheit": {
-      "value": "°F"
-    },
     "greenhouse-effect.title": {
       "value": "Effetto serra"
+    },
+    "concentrationPanel.waterConcentrationPattern": {
+      "value": "H<sub>2</sub>O: {{value}}% umidità relativa"
+    },
+    "energyLegend.sunlight": {
+      "value": "Luce solare"
+    },
+    "energyLegend.infrared": {
+      "value": "Infrarosso"
+    },
+    "fluxMeter.sunlight": {
+      "value": "Luce solare"
+    },
+    "fluxMeter.infrared": {
+      "value": "Infrarosso"
     }
   },
   "iw": {
@@ -3009,10 +3264,10 @@
       "value": "CO<sub>2</sub>: {{value}} ppm"
     },
     "concentrationPanel.methaneConcentrationPattern": {
-      "value": "CO<sub>4</sub>: {{value}} ppb"
+      "value": "CH<sub>4</sub>: {{value}} ppb"
     },
     "concentrationPanel.nitrousOxideConcentrationPattern": {
-      "value": "CO<sub>2</sub>O: {{value}} ppb"
+      "value": "N<sub>2</sub>O: {{value}} ppb"
     },
     "concentrationPanel.greenhouseGasConcentration": {
       "value": "Koncentrazzjoni ta' Gass Serra "
