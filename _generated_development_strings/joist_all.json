@@ -6002,14 +6002,11 @@
     "credits.title": {
       "value": "Közreműködők"
     },
-    "menuItem.enhancedSound": {
-      "value": "Javított hang"
+    "preferences.tabs.audio.sounds.extraSounds.title": {
+      "value": "Extra hangok"
     },
     "menuItem.fullscreen": {
       "value": "Teljes képernyő"
-    },
-    "preferences.tabs.general.title": {
-      "value": "Általános"
     },
     "updates.getUpdate": {
       "value": "Frissítés betöltése"
@@ -6017,8 +6014,8 @@
     "credits.graphicArts": {
       "value": "Grafika: {0}"
     },
-    "ieErrorPage.ieIsNotSupported": {
-      "value": "Internet Explorer nem használható."
+    "preferences.tabs.visual.projectorModeDescription": {
+      "value": "Tanteremben növelje a színkontrasztot a jobb láthatóság végett."
     },
     "queryParametersWarningDialog.invalidQueryParameters": {
       "value": "Érvénytelen paraméterek"
@@ -6038,17 +6035,8 @@
     "queryParametersWarningDialog.oneOrMoreQueryParameters": {
       "value": "Egy vagy több paraméter értéke érvénytelen:"
     },
-    "options.title": {
-      "value": "Opciók"
-    },
-    "menuItem.options": {
-      "value": "Opciók..."
-    },
     "menuItem.phetWebsite": {
       "value": "A PhET oldalára"
-    },
-    "ieErrorPage.platformError": {
-      "value": "Platform hiba"
     },
     "preferences.tabs.audio.sounds.extraSounds.description": {
       "value": "Még egy hang lejátszása, hátha segít valakinek"
@@ -6056,11 +6044,11 @@
     "preferences.tabs.audio.sounds.description": {
       "value": "Hangeffektusok lejátszása interakció közben"
     },
-    "ieErrorPage.useDifferentBrowser": {
-      "value": "Használjon más böngészőt ehhez a szimulációhoz."
-    },
     "preferences.title": {
       "value": "Preferenciák"
+    },
+    "projectorMode": {
+      "value": "Vetítő mód"
     },
     "credits.qualityAssurance": {
       "value": "Minőségbiztosítás: {0}"
@@ -6070,6 +6058,9 @@
     },
     "menuItem.screenshot": {
       "value": "Képernyőfelvétel"
+    },
+    "preferences.tabs.simulation.title": {
+      "value": "Szimuláció"
     },
     "credits.softwareDevelopment": {
       "value": "Szoftverfejlesztés: {0}"
@@ -6101,6 +6092,9 @@
     "updates.upToDate": {
       "value": "Ez a szimuláció naprakész."
     },
+    "preferences.tabs.general.moreAccessibility": {
+      "value": "További, befogadó funkciókkal rendelkező szimulációkért keresse meg a Hozzáférés & befogadás elemet a szimulációs szűrő oldalon, és\r\nszűrjön befogadó funkció szerint."
+    },
     "keyboardShortcuts.toGetStarted": {
       "value": "Indítás"
     },
@@ -6113,11 +6107,38 @@
     "versionPattern": {
       "value": "Verzió: {0}"
     },
+    "preferences.tabs.visual.title": {
+      "value": "Vizuális"
+    },
+    "preferences.tabs.general.accessibilityIntro": {
+      "value": "Szimulációinkat\r\nkülönböző befogadó funkciókkal egészítjük ki a jobb hozzáférhetőség végett. E funkciók a\r\nspeciális szükségletű tanulókat segítik különböző környezetekben. Ebben a\r\nmenüben áttekintheti és módosíthatja az alapértelmezett prezentációs\r\nbeállításokat."
+    },
     "updates.yourCurrentVersion": {
       "value": "Az ön jelenlegi verziója: {0}."
     },
     "simTitleWithScreenNamePattern": {
       "value": "{{simName}} — {{screenName}}"
+    },
+    "menuItem.enhancedSound": {
+      "value": "Javított hang"
+    },
+    "preferences.tabs.general.title": {
+      "value": "Általános"
+    },
+    "ieErrorPage.ieIsNotSupported": {
+      "value": "Internet Explorer nem használható."
+    },
+    "options.title": {
+      "value": "Opciók"
+    },
+    "menuItem.options": {
+      "value": "Opciók..."
+    },
+    "ieErrorPage.platformError": {
+      "value": "Platform hiba"
+    },
+    "ieErrorPage.useDifferentBrowser": {
+      "value": "Használjon más böngészőt ehhez a szimulációhoz."
     },
     "menuItem.mailInputEventsLog": {
       "value": "Input eseménynapló emailben"
@@ -6130,9 +6151,6 @@
     },
     "credits.translation": {
       "value": "Fordítás"
-    },
-    "projectorMode": {
-      "value": "Vetítő mód"
     },
     "adaptedFrom": {
       "value": "adaptálás\r\nalapja"
@@ -12666,7 +12684,7 @@
       "value": "O simulácii"
     },
     "preferences.tabs.visual.interactiveHighlightsDescription": {
-      "value": "\r\n\n\r\n\nZvýrazniť oblasť reagujúcu na stlačenie tlačidla myši.\r\n\n\r\n\n"
+      "value": "\r\n\n\n\n\n\r\n\n\n\n\nZvýrazniť oblasť reagujúcu na stlačenie tlačidla myši.\r\n\n\n\n\n\r\n\n\n\n\n"
     },
     "preferences.tabs.audio.title": {
       "value": "Zvuk"
@@ -12686,6 +12704,12 @@
     "credits.title": {
       "value": "Zásluhy"
     },
+    "menuItem.enhancedSound": {
+      "value": "Extra zvuk"
+    },
+    "preferences.tabs.audio.sounds.extraSounds.title": {
+      "value": "Extra zvuky"
+    },
     "menuItem.fullscreen": {
       "value": "Celá obrazovka"
     },
@@ -12695,11 +12719,17 @@
     "credits.graphicArts": {
       "value": "Grafika: {0}"
     },
-    "preferences.tabs.visual.projectorModeDescription": {
-      "value": "\r\n\r\nZvýšený farebný kontrast pre lepšiu\r\nviditeľnosť v triede.\r\n\r\n"
+    "preferences.tabs.input.title": {
+      "value": "Vstup"
     },
     "preferences.tabs.visual.interactiveHighlights": {
       "value": "Interaktívne zvýraznenia"
+    },
+    "ieErrorPage.ieIsNotSupported": {
+      "value": "Internet Explorer nie je podporovaný. "
+    },
+    "queryParametersWarningDialog.invalidQueryParameters": {
+      "value": "Neplatné zadané parametre"
     },
     "keyboardShortcuts.title": {
       "value": "Klávesové skratky"
@@ -12716,20 +12746,29 @@
     "queryParametersWarningDialog.oneOrMoreQueryParameters": {
       "value": "Jeden alebo viacero z týchto parametrov má<br>neplatné hodnoty:"
     },
-    "preferences.tabs.overview.title": {
-      "value": "Prehľad"
+    "options.title": {
+      "value": "Možnosti"
+    },
+    "menuItem.options": {
+      "value": "Možnosti..."
     },
     "menuItem.phetWebsite": {
       "value": "Stránka PhET..."
     },
+    "ieErrorPage.platformError": {
+      "value": "Chyba platformy "
+    },
+    "preferences.tabs.audio.sounds.extraSounds.description": {
+      "value": "Prehrať dodatočný zvuk, ktorý môže byť pre niektorých študentov užitočný."
+    },
     "preferences.tabs.audio.sounds.description": {
       "value": "Pri interakcii prehrávať sonifikácie  a zvukové efekty."
     },
+    "ieErrorPage.useDifferentBrowser": {
+      "value": "Na spustenie tejto simulácie použite iný prehliadač."
+    },
     "preferences.title": {
       "value": "Predvoľby "
-    },
-    "projectorMode": {
-      "value": "Režim projektora"
     },
     "credits.qualityAssurance": {
       "value": "Potvrdenie kvality: {0}"
@@ -12739,9 +12778,6 @@
     },
     "menuItem.screenshot": {
       "value": "Odfoť obrazovku"
-    },
-    "preferences.tabs.simulation.title": {
-      "value": "Simulácia"
     },
     "credits.softwareDevelopment": {
       "value": "Vývoj softvéru: {0}"
@@ -12771,7 +12807,7 @@
       "value": "Táto simulácia je aktuálna"
     },
     "preferences.tabs.general.moreAccessibility": {
-      "value": "\r\n\n\r\n\nAk chcete nájsť ďalšie simulácie s inkluzívnymi funkciami, tak na stránke vyberte položku „Prístupnosť“ a zadajte podmienky filtrovania podľa požadovaných funkcií.\r\n\n\r\n\n"
+      "value": "\r\n\n\n\n\n\r\n\n\n\n\nAk chcete nájsť ďalšie simulácie s inkluzívnymi funkciami, tak na stránke vyberte položku „Prístupnosť“ a zadajte podmienky filtrovania podľa požadovaných funkcií.\r\n\n\n\n\n\r\n\n\n\n\n"
     },
     "keyboardShortcuts.toGetStarted": {
       "value": "začať"
@@ -12789,7 +12825,7 @@
       "value": "Zobrazenie"
     },
     "preferences.tabs.general.accessibilityIntro": {
-      "value": "\r\n\n\r\n\nDo našich simulácií pridávame funkcie,\r\n\naby boli široko využiteľné. Niektoré z týchto funkcií podporujú dostupnosť pre študentov s rôznymi potrebami a v rôznych prostrediach. Preskúmajte túto ponuku a skontrolujte alebo zmeňte predvolené nastavenia prezentácie.\r\n\n\r\n\n"
+      "value": "\r\n\n\n\n\n\r\n\n\n\n\nDo našich simulácií pridávame funkcie,\r\n\n\n\n\naby boli široko využiteľné. Niektoré z týchto funkcií podporujú dostupnosť pre študentov s rôznymi potrebami a v rôznych prostrediach. Preskúmajte túto ponuku a skontrolujte alebo zmeňte predvolené nastavenia prezentácie.\r\n\n\n\n\n\r\n\n\n\n\n"
     },
     "updates.yourCurrentVersion": {
       "value": "Vaša súčasná verzia je: {0}"
@@ -12797,20 +12833,20 @@
     "simTitleWithScreenNamePattern": {
       "value": "{{simName}} — {{screenName}}"
     },
-    "ieErrorPage.ieIsNotSupported": {
-      "value": "Internet Explorer nie je podporovaný. "
+    "preferences.tabs.visual.projectorModeDescription": {
+      "value": "\r\n\r\n\r\n\r\n\r\n\r\nZvýšený farebný kontrast pre lepšiu\r\n\r\n\r\nviditeľnosť v triede.\r\n\r\n\r\n\r\n\r\n\r\n"
     },
-    "options.title": {
-      "value": "Možnosti"
+    "projectorMode": {
+      "value": "Režim projektora"
     },
-    "menuItem.options": {
-      "value": "Možnosti..."
+    "preferences.tabs.localization.title": {
+      "value": "Lokalizácia"
     },
-    "ieErrorPage.platformError": {
-      "value": "Chyba platformy "
+    "preferences.tabs.overview.title": {
+      "value": "Prehľad"
     },
-    "ieErrorPage.useDifferentBrowser": {
-      "value": "Na spustenie tejto simulácie použite iný prehliadač."
+    "preferences.tabs.simulation.title": {
+      "value": "Simulácia"
     },
     "menuItem.mailInputEventsLog": {
       "value": "Odoslať záznam udalostí vstupu"

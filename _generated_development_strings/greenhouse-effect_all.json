@@ -2387,17 +2387,53 @@
     }
   },
   "is": {
+    "screen.layerModel": {
+      "value": "Laga líkan"
+    },
+    "screen.photons": {
+      "value": "Ljóseindir"
+    },
     "screen.waves": {
       "value": "Bylgjur"
+    },
+    "morePhotons": {
+      "value": "Fleiri ljóseindir"
+    },
+    "infrared": {
+      "value": "Innrauð geislun"
+    },
+    "absorbingLayers": {
+      "value": "Gleypni lög"
+    },
+    "infraredAbsorbance": {
+      "value": "Gleypni innrauðrar geislunar"
+    },
+    "sunlight": {
+      "value": "Sólarljós"
+    },
+    "ourSun": {
+      "value": "Sólin okkar"
+    },
+    "surfaceAlbedo": {
+      "value": "Endurvarp yfirborðs"
+    },
+    "temperatureUnits": {
+      "value": "Einingar hitastigs"
+    },
+    "temperature.units.kelvin": {
+      "value": "K"
+    },
+    "temperature.units.celsius": {
+      "value": "°C"
+    },
+    "temperature.units.fahrenheit": {
+      "value": "°F"
     },
     "concentrationPanel.lots": {
       "value": "Mjög þétt"
     },
     "concentrationPanel.none": {
       "value": "Engin"
-    },
-    "concentrationPanel.waterConcentrationPattern": {
-      "value": "H<sub>2</sub>O: {{value}}% hlutfallslegur raki"
     },
     "concentrationPanel.carbonDioxideConcentrationPattern": {
       "value": "CO<sub>2</sub>: {{value}} ppm"
@@ -2414,29 +2450,23 @@
     "concentrationPanel.iceAge": {
       "value": "Ísöld"
     },
-    "energyLegend.title": {
-      "value": "Orka"
-    },
-    "energyLegend.sunlight": {
-      "value": "Sólarljós"
-    },
-    "energyLegend.infrared": {
-      "value": "Innrautt ljós"
-    },
     "surfaceThermometer": {
       "value": "Yfirborðshiti"
     },
     "cloud": {
       "value": "Ský"
     },
+    "energyLegend.title": {
+      "value": "Orka"
+    },
     "showSurfaceTemperature": {
       "value": "Yfirborðshitastig"
     },
-    "startSunlight": {
-      "value": "Sólarljós"
-    },
     "temperature.units.valueUnitsPattern": {
       "value": "{{value}} {{units}}"
+    },
+    "startSunlight": {
+      "value": "Sólarljós"
     },
     "energyBalancePanel.title": {
       "value": "Orkujafnvægi"
@@ -2453,12 +2483,6 @@
     "energyBalancePanel.net": {
       "value": "Heildar"
     },
-    "fluxMeter.sunlight": {
-      "value": "Sólarljós"
-    },
-    "fluxMeter.infrared": {
-      "value": "Innrautt"
-    },
     "fluxMeter.energyFlux": {
       "value": "Orkuflæði"
     },
@@ -2468,17 +2492,23 @@
     "fluxMeter.title": {
       "value": "Flæðimælir"
     },
-    "temperature.units.kelvin": {
-      "value": "K"
-    },
-    "temperature.units.celsius": {
-      "value": "°C"
-    },
-    "temperature.units.fahrenheit": {
-      "value": "°F"
-    },
     "greenhouse-effect.title": {
       "value": "Gróðurhúsaáhrif"
+    },
+    "concentrationPanel.waterConcentrationPattern": {
+      "value": "H<sub>2</sub>O: {{value}}% hlutfallslegur raki"
+    },
+    "energyLegend.sunlight": {
+      "value": "Sólarljós"
+    },
+    "energyLegend.infrared": {
+      "value": "Innrautt ljós"
+    },
+    "fluxMeter.sunlight": {
+      "value": "Sólarljós"
+    },
+    "fluxMeter.infrared": {
+      "value": "Innrautt"
     }
   },
   "it": {
@@ -3766,7 +3796,7 @@
       "value": "Alta"
     },
     "concentrationPanel.none": {
-      "value": "Baixa"
+      "value": "Nula"
     },
     "concentrationPanel.greenhouseGasConcentration": {
       "value": "Concentração de Gás de Efeito Estufa"
@@ -4023,17 +4053,62 @@
     }
   },
   "sk": {
+    "screen.layerModel": {
+      "value": "Model s vrstvami"
+    },
+    "screen.photons": {
+      "value": "Fotóny"
+    },
     "screen.waves": {
       "value": "Vlny"
+    },
+    "sliderAndFluxMeterControls": {
+      "value": "Ovládanie posuvníka a meracieho prístroja"
+    },
+    "morePhotons": {
+      "value": "Viac fotónov"
+    },
+    "infrared": {
+      "value": "Infračervené žiarenie"
+    },
+    "absorbingLayers": {
+      "value": "Absorpčné vrstvy"
+    },
+    "infraredAbsorbance": {
+      "value": "Absorpcia žiarenia"
+    },
+    "valuePercentPattern": {
+      "value": "{{value}}%"
+    },
+    "sunlight": {
+      "value": "Svetelné žiarenie"
+    },
+    "solarIntensity": {
+      "value": "Intenzita svetla"
+    },
+    "ourSun": {
+      "value": "Naše slnko"
+    },
+    "surfaceAlbedo": {
+      "value": "Odrážavosť povrchu"
+    },
+    "temperatureUnits": {
+      "value": "Jednotky teploty"
+    },
+    "temperature.units.kelvin": {
+      "value": " K"
+    },
+    "temperature.units.celsius": {
+      "value": "℃"
+    },
+    "temperature.units.fahrenheit": {
+      "value": "℉"
     },
     "concentrationPanel.lots": {
       "value": "Veľká"
     },
     "concentrationPanel.none": {
       "value": "Žiadna"
-    },
-    "concentrationPanel.waterConcentrationPattern": {
-      "value": "H<sub>2</sub>O: {{value}}% relatívna vlhkosť"
     },
     "concentrationPanel.carbonDioxideConcentrationPattern": {
       "value": "CO<sub>2</sub>: {{value}} ppm"
@@ -4050,29 +4125,23 @@
     "concentrationPanel.iceAge": {
       "value": "Doba ľadová"
     },
-    "energyLegend.title": {
-      "value": "Energia"
-    },
-    "energyLegend.sunlight": {
-      "value": "Slnečné svetlo"
-    },
-    "energyLegend.infrared": {
-      "value": "Infračervené žiarenie"
+    "surfaceThermometer": {
+      "value": "Povrchový teplomer"
     },
     "cloud": {
       "value": "Oblak"
     },
-    "surfaceThermometer": {
-      "value": "Povrchový teplomer"
+    "energyLegend.title": {
+      "value": "Žiarenie"
     },
     "showSurfaceTemperature": {
       "value": "Zobraziť povrchovú teplotu"
     },
-    "startSunlight": {
-      "value": "Začiatok žiarenia"
-    },
     "temperature.units.valueUnitsPattern": {
       "value": "{{value}} {{units}}"
+    },
+    "startSunlight": {
+      "value": "Začiatok žiarenia"
     },
     "energyBalancePanel.title": {
       "value": "Energetická bilancia"
@@ -4089,29 +4158,32 @@
     "energyBalancePanel.net": {
       "value": "zachytená"
     },
-    "fluxMeter.sunlight": {
-      "value": "Slnečné svetlo"
-    },
-    "fluxMeter.infrared": {
-      "value": "Infračervené žiarenie"
-    },
     "fluxMeter.energyFlux": {
       "value": "Energetický tok"
     },
     "energyBalance": {
       "value": "Energetická bilancia"
     },
-    "temperature.units.kelvin": {
-      "value": " K"
-    },
-    "temperature.units.celsius": {
-      "value": "℃"
-    },
-    "temperature.units.fahrenheit": {
-      "value": "℉"
+    "fluxMeter.title": {
+      "value": "Merací prístroj"
     },
     "greenhouse-effect.title": {
       "value": "Skleníkový efekt"
+    },
+    "concentrationPanel.waterConcentrationPattern": {
+      "value": "H<sub>2</sub>O: {{value}}% relatívna vlhkosť"
+    },
+    "energyLegend.sunlight": {
+      "value": "Slnečné svetlo"
+    },
+    "energyLegend.infrared": {
+      "value": "Infračervené žiarenie"
+    },
+    "fluxMeter.sunlight": {
+      "value": "Slnečné svetlo"
+    },
+    "fluxMeter.infrared": {
+      "value": "Infračervené žiarenie"
     }
   },
   "sl": {

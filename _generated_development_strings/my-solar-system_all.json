@@ -2068,6 +2068,113 @@
       "value": "Moj sunčev sustav "
     }
   },
+  "hu": {
+    "screen.intro": {
+      "value": "Bevezetés"
+    },
+    "screen.lab": {
+      "value": "Labor"
+    },
+    "followCenterOfMass": {
+      "value": "Figyeld a tömegközéppontot"
+    },
+    "dataPanel.bodies": {
+      "value": "Testek"
+    },
+    "unitsInfo.content": {
+      "value": "<b>(1):</b> CsE a csillagászati\r\negységet jelenti, mely a Nap-Föld távolság átlagértéke, azaz kb. 150 millió\r\nkm.<br><br><b> (2):</b> A szimulációban szereplő\r\ntömegek 1 Jupiter-tömegtől 1,5 Nap-tömegig változnak. A bolygók, üstökösök\r\nés kisbolygók tömege sokkal kisebb ennél, de erős gravitációs térben az összes\r\ncsillagászati objektum kb. egyformán viselkedik."
+    },
+    "unitsInfo.title": {
+      "value": "Az egységekről"
+    },
+    "dataPanel.moreData": {
+      "value": "Több adat"
+    },
+    "mode.sunAndPlanet": {
+      "value": "Nap és bolygó"
+    },
+    "mode.sunPlanetAndMoon": {
+      "value": "Nap, bolygó és hold"
+    },
+    "mode.sunPlanetAndComet": {
+      "value": "Nap, bolygó és üstökös"
+    },
+    "mode.trojanAsteroids": {
+      "value": "Trójai kisbolygók"
+    },
+    "mode.ellipses": {
+      "value": "Ellipszisek"
+    },
+    "mode.hyperbolic": {
+      "value": "Hiperbolák"
+    },
+    "mode.slingshot": {
+      "value": "Hintamanőver"
+    },
+    "mode.doubleSlingshot": {
+      "value": "Dupla hintamanőver"
+    },
+    "mode.binaryStarPlanet": {
+      "value": "Kettőscsillag, bolygó"
+    },
+    "mode.fourStarBallet": {
+      "value": "Négycsillagos balett"
+    },
+    "mode.doubleDouble": {
+      "value": "Kettős kettős"
+    },
+    "mode.custom": {
+      "value": "Saját rendszered"
+    },
+    "units.years": {
+      "value": "év"
+    },
+    "clear": {
+      "value": "Törlés"
+    },
+    "mass": {
+      "value": "Tömeg"
+    },
+    "dataPanel.Mass": {
+      "value": "Tömeg"
+    },
+    "dataPanel.Position": {
+      "value": "Helyzet"
+    },
+    "units.AU": {
+      "value": "CsE"
+    },
+    "dataPanel.Velocity": {
+      "value": "Sebesség"
+    },
+    "grid": {
+      "value": "Rács"
+    },
+    "measuringTape": {
+      "value": "Mérőszalag"
+    },
+    "values": {
+      "value": "Értékek"
+    },
+    "gravityForce": {
+      "value": "Gravitáció"
+    },
+    "velocity": {
+      "value": "Sebesség"
+    },
+    "path": {
+      "value": "Nyomvonal"
+    },
+    "centerOfMass": {
+      "value": "Tömegközéppont"
+    },
+    "pattern.range": {
+      "value": "{{min}} – {{max}}"
+    },
+    "my-solar-system.title": {
+      "value": "Az én Napredszerem"
+    }
+  },
   "ig": {
     "screen.intro": {
       "value": "Mmalite okwu"
@@ -4947,8 +5054,11 @@
     "values": {
       "value": "Values"
     },
+    "speed": {
+      "value": "Speed (km/s)"
+    },
     "starMass": {
-      "value": "Star's Mass"
+      "value": "Star Mass"
     },
     "ourSun": {
       "value": "Our Sun"
@@ -5002,19 +5112,25 @@
       "value": "Graph (a vs T)"
     },
     "graph.a": {
-      "value": "Semimajor Axis (a)"
+      "value": "Semi-major Axis (a)"
     },
     "graph.t": {
       "value": "Period (T)"
     },
-    "semimajorAxis": {
-      "value": "Semimajor Axis"
+    "semiMajorAxis": {
+      "value": "Semi-major Axis"
     },
     "period": {
       "value": "Period"
     },
-    "semimajorAxisSymbol": {
+    "semiMajorAxisSymbol": {
       "value": "a"
+    },
+    "semiMinorAxisSymbol": {
+      "value": "b"
+    },
+    "focalDistanceSymbol": {
+      "value": "c"
     },
     "periodSymbol": {
       "value": "T"
@@ -5090,6 +5206,9 @@
     },
     "pattern.textValueUnits": {
       "value": "{{text}} {{value}} {{units}}"
+    },
+    "pattern.textEqualsValueUnits": {
+      "value": "{{text}} = {{value}} {{units}}"
     },
     "pattern.rangeWithUnits": {
       "value": "{{min}} to {{max}} {{units}}"

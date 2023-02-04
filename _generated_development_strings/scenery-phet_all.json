@@ -5481,11 +5481,8 @@
     "keyboardHelpDialog.exitADialog": {
       "value": "Kilépés a párbeszédből"
     },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Megragad / elenged: {{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "Megragad / elenged: {{thing}}"
+    "speed.fast": {
+      "value": "Gyors"
     },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "Mozgás a csoporton belül"
@@ -5496,17 +5493,17 @@
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "Mozgás az előző tételre vagy csoportra"
     },
+    "speed.normal": {
+      "value": "Normális"
+    },
     "keyboardHelpDialog.or": {
       "value": "vagy"
     },
     "keyboardHelpDialog.pressButtons": {
       "value": "Nyomd a gombokat"
     },
-    "webglWarning.contextLossReload": {
-      "value": "Újratöltés"
-    },
-    "webglWarning.contextLossFailure": {
-      "value": "Elnézést, grafikai hiba adódott"
+    "speed.slow": {
+      "value": "Lassú"
     },
     "key.space": {
       "value": "Szóköz"
@@ -5516,6 +5513,18 @@
     },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Jelölőnégyzet ki/be"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "Megragad / elenged: {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "Megragad / elenged: {{thing}}"
+    },
+    "webglWarning.contextLossReload": {
+      "value": "Újratöltés"
+    },
+    "webglWarning.contextLossFailure": {
+      "value": "Elnézést, grafikai hiba adódott"
     },
     "webglWarning.body": {
       "value": "A WebGL nincs engedélyezve vagy nem elérhető. Bővebb részletekért kattintson ide."
@@ -5534,12 +5543,6 @@
     },
     "key.toGrabOrRelease": {
       "value": "<b>Megfog</b> vagy <b>Elenged</b>"
-    },
-    "speed.normal": {
-      "value": "Normális"
-    },
-    "speed.slow": {
-      "value": "Lassú"
     },
     "cool": {
       "value": "Hűt"
@@ -12110,18 +12113,6 @@
     "keyboardHelpDialog.hyphen": {
       "value": " -"
     },
-    "keyboardHelpDialog.comboBox.popUpListPattern": {
-      "value": "Vyskakovací zoznam {{thingPlural}}"
-    },
-    "keyboardHelpDialog.comboBox.moveThroughPattern": {
-      "value": "Presun na {{thingPlural}}"
-    },
-    "keyboardHelpDialog.comboBox.chooseNewPattern": {
-      "value": "Vybrať nový {{thingSingular}}"
-    },
-    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-      "value": "Zatvoriť zoznam bez zmeny"
-    },
     "keyboardHelpDialog.adjust": {
       "value": "Upraviť"
     },
@@ -12146,11 +12137,8 @@
     "keyboardHelpDialog.exitADialog": {
       "value": "Koniec dialógu"
     },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Chytenie alebo uvoľnenie {{thing}}"
-    },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "Chyťte alebo uvoľnite {{thing}}"
+    "speed.fast": {
+      "value": "Rýchlo "
     },
     "key.home": {
       "value": "Home"
@@ -12176,14 +12164,17 @@
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "Posun na predchádzajúcu položku alebo skupinu"
     },
-    "keyboardHelpDialog.comboBox.option": {
-      "value": "možnosť"
+    "speed.normal": {
+      "value": "Normálne"
     },
-    "keyboardHelpDialog.comboBox.options": {
-      "value": "možnosti"
+    "key.option": {
+      "value": "Možnosť"
     },
     "keyboardHelpDialog.or": {
       "value": "alebo"
+    },
+    "keyboardHelpDialog.timingControls.pauseOrPlayAction": {
+      "value": "Pozastaviť alebo prehrať akciu"
     },
     "key.pageDown": {
       "value": "Pg Dn"
@@ -12203,11 +12194,17 @@
     "keyboardHelpDialog.sliderControls": {
       "value": "Ovládanie posúvača"
     },
+    "speed.slow": {
+      "value": "Spomalene"
+    },
     "key.space": {
       "value": "Medzera"
     },
     "key.tab": {
       "value": "Tab"
+    },
+    "keyboardHelpDialog.timingControls.timingControls": {
+      "value": "Ovládanie časovania"
     },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "Prepnutie začiarkavacieho políčka "
@@ -12224,20 +12221,35 @@
     "keyboardHelpDialog.verbSliderPattern": {
       "value": "{{verb}} {{slider}}"
     },
+    "keyboardHelpDialog.comboBox.popUpListPattern": {
+      "value": "Vyskakovací zoznam {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.moveThroughPattern": {
+      "value": "Presun na {{thingPlural}}"
+    },
+    "keyboardHelpDialog.comboBox.chooseNewPattern": {
+      "value": "Vybrať nový {{thingSingular}}"
+    },
+    "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+      "value": "Zatvoriť zoznam bez zmeny"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "Chytenie alebo uvoľnenie {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "Chyťte alebo uvoľnite {{thing}}"
+    },
+    "keyboardHelpDialog.comboBox.option": {
+      "value": "možnosť"
+    },
+    "keyboardHelpDialog.comboBox.options": {
+      "value": "možnosti"
+    },
     "symbol.resistivity": {
       "value": "ρ"
     },
     "symbol.ohms": {
       "value": " Ω"
-    },
-    "speed.fast": {
-      "value": "Rýchlo "
-    },
-    "speed.normal": {
-      "value": "Normálne"
-    },
-    "speed.slow": {
-      "value": "Spomalene"
     },
     "stopwatchValueUnitsPattern": {
       "value": "{{value}} {{units}}"
