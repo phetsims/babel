@@ -2640,8 +2640,56 @@
     }
   },
   "iw": {
+    "screen.layerModel": {
+      "value": "מודל שכבות בליעה"
+    },
+    "screen.photons": {
+      "value": "פוטונים"
+    },
     "screen.waves": {
       "value": "גלים"
+    },
+    "sliderAndFluxMeterControls": {
+      "value": "בקרות מד שטף"
+    },
+    "morePhotons": {
+      "value": "יותר פוטונים"
+    },
+    "infrared": {
+      "value": "קרינת תת אדום"
+    },
+    "absorbingLayers": {
+      "value": "שכבות בליעה"
+    },
+    "infraredAbsorbance": {
+      "value": "בליעת תת אדום"
+    },
+    "valuePercentPattern": {
+      "value": "{{value}}%"
+    },
+    "sunlight": {
+      "value": "אור השמש"
+    },
+    "solarIntensity": {
+      "value": "עוצמת הארה של השמש"
+    },
+    "ourSun": {
+      "value": "השמש שלנו"
+    },
+    "surfaceAlbedo": {
+      "value": "משטח אלבדו"
+    },
+    "temperatureUnits": {
+      "value": "יחידות טמפרטורה"
+    },
+    "temperature.units.kelvin": {
+      "value": "מעלות קלווין"
+    },
+    "temperature.units.celsius": {
+      "value": "מעלות צלזיוס"
+    },
+    "temperature.units.fahrenheit": {
+      "value": "מעלות פרנהייט"
     },
     "concentrationPanel.lots": {
       "value": "הרבה"
@@ -2649,29 +2697,20 @@
     "concentrationPanel.none": {
       "value": "ללא"
     },
-    "concentrationPanel.waterConcentrationPattern": {
-      "value": "H<sub>2</sub>O: {{value}}% לחות יחסית"
-    },
     "concentrationPanel.greenhouseGasConcentration": {
       "value": "ריכוז גז החממה"
     },
     "concentrationPanel.iceAge": {
       "value": "עידן הקרח"
     },
-    "energyLegend.title": {
-      "value": "אנרגיה"
-    },
-    "energyLegend.sunlight": {
-      "value": "אור שמש"
-    },
-    "energyLegend.infrared": {
-      "value": "אינפרא  אדום"
+    "surfaceThermometer": {
+      "value": "מד חום פני השטח"
     },
     "cloud": {
       "value": "ענן"
     },
-    "surfaceThermometer": {
-      "value": "מד חום פני השטח"
+    "energyLegend.title": {
+      "value": "אנרגיה"
     },
     "showSurfaceTemperature": {
       "value": "הראה טמפרטורת פני השטח"
@@ -2694,12 +2733,6 @@
     "energyBalancePanel.net": {
       "value": "נטו"
     },
-    "fluxMeter.sunlight": {
-      "value": "אור שמש"
-    },
-    "fluxMeter.infrared": {
-      "value": "אינפרא אדום"
-    },
     "fluxMeter.energyFlux": {
       "value": "החזרת אנרגיה"
     },
@@ -2711,6 +2744,21 @@
     },
     "greenhouse-effect.title": {
       "value": "אפקט החממה"
+    },
+    "concentrationPanel.waterConcentrationPattern": {
+      "value": "H<sub>2</sub>O: {{value}}% לחות יחסית"
+    },
+    "energyLegend.sunlight": {
+      "value": "אור שמש"
+    },
+    "energyLegend.infrared": {
+      "value": "אינפרא  אדום"
+    },
+    "fluxMeter.sunlight": {
+      "value": "אור שמש"
+    },
+    "fluxMeter.infrared": {
+      "value": "אינפרא אדום"
     }
   },
   "ja": {
@@ -3863,17 +3911,62 @@
     }
   },
   "ro": {
+    "screen.layerModel": {
+      "value": "Modelul de strat"
+    },
+    "screen.photons": {
+      "value": "Fotoni"
+    },
     "screen.waves": {
       "value": "Unde"
+    },
+    "sliderAndFluxMeterControls": {
+      "value": "Comenzile cursorului și ale fluxmetrului"
+    },
+    "morePhotons": {
+      "value": "Mai mulți fotoni"
+    },
+    "infrared": {
+      "value": "Infraroșu"
+    },
+    "absorbingLayers": {
+      "value": "Straturi absorbante"
+    },
+    "infraredAbsorbance": {
+      "value": "Absorbanța în infraroșu"
+    },
+    "valuePercentPattern": {
+      "value": "{{value}}%"
+    },
+    "sunlight": {
+      "value": "Lumina solară"
+    },
+    "solarIntensity": {
+      "value": "Intensitatea solară"
+    },
+    "ourSun": {
+      "value": "Soarele"
+    },
+    "surfaceAlbedo": {
+      "value": "Albedoul suprafeței"
+    },
+    "temperatureUnits": {
+      "value": "Unitați de măsură pentru temperatură"
+    },
+    "temperature.units.kelvin": {
+      "value": "K"
+    },
+    "temperature.units.celsius": {
+      "value": "℃"
+    },
+    "temperature.units.fahrenheit": {
+      "value": "℉"
     },
     "concentrationPanel.lots": {
       "value": "mare"
     },
     "concentrationPanel.none": {
       "value": "zero"
-    },
-    "concentrationPanel.waterConcentrationPattern": {
-      "value": "H<sub>2</sub>O: {{value}}% umiditate relativă"
     },
     "concentrationPanel.carbonDioxideConcentrationPattern": {
       "value": "CO<sub>2</sub>: {{value}} ppm"
@@ -3890,29 +3983,23 @@
     "concentrationPanel.iceAge": {
       "value": "Era glaciară"
     },
-    "energyLegend.title": {
-      "value": "Energie"
-    },
-    "energyLegend.sunlight": {
-      "value": "Lumina solară"
-    },
-    "energyLegend.infrared": {
-      "value": "Infraroșu"
+    "surfaceThermometer": {
+      "value": "Termometru la suprafață"
     },
     "cloud": {
       "value": "Nori"
     },
-    "surfaceThermometer": {
-      "value": "Termometru la suprafață"
+    "energyLegend.title": {
+      "value": "Energie"
     },
     "showSurfaceTemperature": {
       "value": "Prezintă temperatura la suprafață"
     },
-    "startSunlight": {
-      "value": "Pornește lumina solară"
-    },
     "temperature.units.valueUnitsPattern": {
       "value": "{{value}} {{units}}"
+    },
+    "startSunlight": {
+      "value": "Pornește lumina solară"
     },
     "energyBalancePanel.title": {
       "value": "Bilanț energetic"
@@ -3929,12 +4016,6 @@
     "energyBalancePanel.net": {
       "value": "Total"
     },
-    "fluxMeter.sunlight": {
-      "value": "Lumina solară"
-    },
-    "fluxMeter.infrared": {
-      "value": "Infraroșu"
-    },
     "fluxMeter.energyFlux": {
       "value": "Flux energetic"
     },
@@ -3944,17 +4025,23 @@
     "fluxMeter.title": {
       "value": "Fluxmetru"
     },
-    "temperature.units.kelvin": {
-      "value": "K"
-    },
-    "temperature.units.celsius": {
-      "value": "℃"
-    },
-    "temperature.units.fahrenheit": {
-      "value": "℉"
-    },
     "greenhouse-effect.title": {
       "value": "Efectul de seră"
+    },
+    "concentrationPanel.waterConcentrationPattern": {
+      "value": "H<sub>2</sub>O: {{value}}% umiditate relativă"
+    },
+    "energyLegend.sunlight": {
+      "value": "Lumina solară"
+    },
+    "energyLegend.infrared": {
+      "value": "Infraroșu"
+    },
+    "fluxMeter.sunlight": {
+      "value": "Lumina solară"
+    },
+    "fluxMeter.infrared": {
+      "value": "Infraroșu"
     }
   },
   "rw": {

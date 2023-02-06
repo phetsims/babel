@@ -6528,6 +6528,9 @@
     "keyboardHelpDialog.hyphen": {
       "value": "-"
     },
+    "keyboardHelpDialog.adjust": {
+      "value": "התאם"
+    },
     "key.alt": {
       "value": "Alt"
     },
@@ -6558,6 +6561,18 @@
     "key.home": {
       "value": "Home"
     },
+    "keyboardHelpDialog.jumpToMaximumPattern": {
+      "value": "קפיצה ל{{maximum}}"
+    },
+    "keyboardHelpDialog.jumpToMinimumPattern": {
+      "value": "קפיצה ל{{minimum}}"
+    },
+    "keyboardHelpDialog.maximum": {
+      "value": "מקסימום"
+    },
+    "keyboardHelpDialog.minimum": {
+      "value": "מינימום"
+    },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "עבור בין החפצים בקבוצה"
     },
@@ -6585,6 +6600,12 @@
     "key.shift": {
       "value": "מקש Shift"
     },
+    "keyboardHelpDialog.slider": {
+      "value": "שקופית"
+    },
+    "keyboardHelpDialog.sliderControls": {
+      "value": "בקרים"
+    },
     "speed.slow": {
       "value": "איטי"
     },
@@ -6594,8 +6615,17 @@
     "key.tab": {
       "value": "מקש Tab"
     },
+    "keyboardHelpDialog.timingControls.timingControls": {
+      "value": "בקרות הזמן"
+    },
     "keyboardHelpDialog.toggleCheckboxes": {
       "value": "בחירה בתיבות סימון"
+    },
+    "keyboardHelpDialog.verbInLargerStepsPattern": {
+      "value": "{{verb}} בצעדים גדולים יותר"
+    },
+    "keyboardHelpDialog.verbInSmallerStepsPattern": {
+      "value": "{{verb}} בצעדים קטנים יותר"
     },
     "keyboardHelpDialog.comboBox.popUpListPattern": {
       "value": "1. רשימה נפתחת של {{thingPlural}}"
@@ -6609,21 +6639,6 @@
     "keyboardHelpDialog.comboBox.closeWithoutChanging": {
       "value": "4. סגירת רשימה ללא שינויים"
     },
-    "keyboardHelpDialog.adjust": {
-      "value": "התאם"
-    },
-    "keyboardHelpDialog.jumpToMaximumPattern": {
-      "value": "קפיצה ל{{maximum}}"
-    },
-    "keyboardHelpDialog.jumpToMinimumPattern": {
-      "value": "קפיצה ל{{minimum}}"
-    },
-    "keyboardHelpDialog.maximum": {
-      "value": "מקסימום"
-    },
-    "keyboardHelpDialog.minimum": {
-      "value": "מינימום"
-    },
     "keyboardHelpDialog.comboBox.option": {
       "value": "אפשרות"
     },
@@ -6632,18 +6647,6 @@
     },
     "keyboardHelpDialog.comboBox.headingString": {
       "value": "פתח תפריט בחלון קופץ"
-    },
-    "keyboardHelpDialog.slider": {
-      "value": "שקופית"
-    },
-    "keyboardHelpDialog.sliderControls": {
-      "value": "בקרים"
-    },
-    "keyboardHelpDialog.verbInLargerStepsPattern": {
-      "value": "{{verb}} בצעדים גדולים יותר"
-    },
-    "keyboardHelpDialog.verbInSmallerStepsPattern": {
-      "value": "{{verb}} בצעדים קטנים יותר"
     },
     "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
       "value": "החזק או שחרר {{thing}}"
@@ -11305,17 +11308,20 @@
     }
   },
   "ro": {
-    "keyboardHelpDialog.adjustInLargerSteps": {
-      "value": "Reglaj în pași mari"
+    "keyboardHelpDialog.hyphen": {
+      "value": "-"
     },
-    "keyboardHelpDialog.adjustInSmallerSteps": {
-      "value": "Reglaj în pași mici"
+    "keyboardHelpDialog.adjust": {
+      "value": "Reglaje"
     },
-    "keyboardHelpDialog.adjustSlider": {
-      "value": "Reglaj cursor"
+    "key.alt": {
+      "value": "Alt"
     },
     "keyboardHelpDialog.basicActions": {
       "value": "Acțiuni principale"
+    },
+    "key.capsLock": {
+      "value": "Caps Lock"
     },
     "key.end": {
       "value": "End"
@@ -11329,38 +11335,44 @@
     "keyboardHelpDialog.exitADialog": {
       "value": "Ieși din fereastră"
     },
-    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
-      "value": "Ia sau lasă {{thing}}"
+    "speed.fast": {
+      "value": "Repede"
     },
-    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
-      "value": "Ia sau lasă {{thing}}"
+    "key.fn": {
+      "value": "Fn"
     },
     "key.home": {
       "value": "Home"
     },
-    "keyboardHelpDialog.jumpToMaximum": {
-      "value": "Sari la maxim"
+    "keyboardHelpDialog.jumpToMaximumPattern": {
+      "value": "Mergi la {{maximum}}"
     },
-    "keyboardHelpDialog.jumpToMinimum": {
-      "value": "Sari la minim"
+    "keyboardHelpDialog.jumpToMinimumPattern": {
+      "value": "Mergi la {{minimum}}"
+    },
+    "keyboardHelpDialog.maximum": {
+      "value": "maxim"
+    },
+    "keyboardHelpDialog.minimum": {
+      "value": "minim"
     },
     "keyboardHelpDialog.moveBetweenItemsInAGroup": {
       "value": "Deplasare între elementele unui grup"
     },
-    "keyboardHelpDialog.moveToNextItem": {
-      "value": "Mergi la elementul următor"
-    },
     "keyboardHelpDialog.moveToNextItemOrGroup": {
       "value": "Mergi la următorul element sau grup"
-    },
-    "keyboardHelpDialog.moveToPreviousItem": {
-      "value": "Mergi la elementul anterior"
     },
     "keyboardHelpDialog.moveToPreviousItemOrGroup": {
       "value": "Mergi la elementul sau grupul anterior"
     },
+    "speed.normal": {
+      "value": "Normal"
+    },
     "keyboardHelpDialog.or": {
       "value": "sau"
+    },
+    "keyboardHelpDialog.timingControls.pauseOrPlayAction": {
+      "value": "Pauză sau redare acțiune"
     },
     "key.pageDown": {
       "value": "Pg Dn"
@@ -11374,8 +11386,14 @@
     "key.shift": {
       "value": "Shift"
     },
+    "keyboardHelpDialog.slider": {
+      "value": "glisor"
+    },
     "keyboardHelpDialog.sliderControls": {
       "value": "Controale cursor"
+    },
+    "speed.slow": {
+      "value": "Lent"
     },
     "key.space": {
       "value": "Space"
@@ -11383,11 +11401,50 @@
     "key.tab": {
       "value": "Tab"
     },
-    "keyboardHelpDialog.toggleCheckboxes": {
-      "value": "Casete de/selectate"
+    "keyboardHelpDialog.timingControls.timingControls": {
+      "value": "Control redare"
     },
-    "keyboardHelpDialog.hyphen": {
-      "value": "-"
+    "keyboardHelpDialog.toggleCheckboxes": {
+      "value": "Comutare casete de selectare"
+    },
+    "measuringTapeReadoutPattern": {
+      "value": "{{distance}} {{units}}"
+    },
+    "keyboardHelpDialog.verbInLargerStepsPattern": {
+      "value": "{{verb}} în pași mai mari"
+    },
+    "keyboardHelpDialog.verbInSmallerStepsPattern": {
+      "value": "{{verb}} în pași mai mici"
+    },
+    "keyboardHelpDialog.verbSliderPattern": {
+      "value": "{{verb}} {{slider}}"
+    },
+    "keyboardHelpDialog.adjustInLargerSteps": {
+      "value": "Reglaj în pași mari"
+    },
+    "keyboardHelpDialog.adjustInSmallerSteps": {
+      "value": "Reglaj în pași mici"
+    },
+    "keyboardHelpDialog.adjustSlider": {
+      "value": "Reglaj cursor"
+    },
+    "keyboardHelpDialog.grabOrReleaseHeadingPattern": {
+      "value": "Ia sau lasă {{thing}}"
+    },
+    "keyboardHelpDialog.grabOrReleaseLabelPattern": {
+      "value": "Ia sau lasă {{thing}}"
+    },
+    "keyboardHelpDialog.jumpToMaximum": {
+      "value": "Sari la maxim"
+    },
+    "keyboardHelpDialog.jumpToMinimum": {
+      "value": "Sari la minim"
+    },
+    "keyboardHelpDialog.moveToNextItem": {
+      "value": "Mergi la elementul următor"
+    },
+    "keyboardHelpDialog.moveToPreviousItem": {
+      "value": "Mergi la elementul anterior"
     },
     "keyboardHelpDialog.comboBox.popUpListPattern": {
       "value": "1. Lista pop-up cu {{thingPlural}}"
@@ -11401,15 +11458,6 @@
     "keyboardHelpDialog.comboBox.closeWithoutChanging": {
       "value": "4. Închide lista fără o modifica"
     },
-    "keyboardHelpDialog.adjust": {
-      "value": "Reglaje"
-    },
-    "key.alt": {
-      "value": "Alt"
-    },
-    "key.capsLock": {
-      "value": "Caps Lock"
-    },
     "keyboardHelpDialog.comboBox.chooseAThingPattern": {
       "value": "alege un {{thingTitle}}"
     },
@@ -11419,23 +11467,8 @@
     "five": {
       "value": "cinci"
     },
-    "key.fn": {
-      "value": "Fn"
-    },
     "four": {
       "value": "patru"
-    },
-    "keyboardHelpDialog.jumpToMaximumPattern": {
-      "value": "Mergi la {{maximum}}"
-    },
-    "keyboardHelpDialog.jumpToMinimumPattern": {
-      "value": "Mergi la {{minimum}}"
-    },
-    "keyboardHelpDialog.maximum": {
-      "value": "maxim"
-    },
-    "keyboardHelpDialog.minimum": {
-      "value": "minim"
     },
     "nine": {
       "value": "nouă"
@@ -11455,9 +11488,6 @@
     "six": {
       "value": "șase"
     },
-    "keyboardHelpDialog.slider": {
-      "value": "glisor"
-    },
     "ten": {
       "value": "zece"
     },
@@ -11470,15 +11500,6 @@
     "zero": {
       "value": "zero"
     },
-    "keyboardHelpDialog.verbInLargerStepsPattern": {
-      "value": "{{verb}} în pași mai mari"
-    },
-    "keyboardHelpDialog.verbInSmallerStepsPattern": {
-      "value": "{{verb}} în pași mai mici"
-    },
-    "keyboardHelpDialog.verbSliderPattern": {
-      "value": "{{verb}} {{slider}}"
-    },
     "symbol.resistivity": {
       "value": "ρ"
     },
@@ -11487,18 +11508,6 @@
     },
     "keyboardHelpDialog.comboBox.headingString": {
       "value": "Expandează meniul"
-    },
-    "measuringTapeReadoutPattern": {
-      "value": "{{distance}} {{units}}"
-    },
-    "speed.fast": {
-      "value": "Repede"
-    },
-    "speed.normal": {
-      "value": "Normal"
-    },
-    "speed.slow": {
-      "value": "Lent"
     },
     "webglWarning.contextLossReload": {
       "value": "Reînoiește"
