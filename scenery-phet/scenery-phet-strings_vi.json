@@ -10,50 +10,6 @@
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.popUpListPattern": {
-    "value": "1. Danh sách của {{thingPlural}}",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1618334068004,
-        "oldValue": "",
-        "newValue": "1. Danh sách của {{thingPlural}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.moveThroughPattern": {
-    "value": "2. Di chuyển qua {{thingPlural}}",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1618334068004,
-        "oldValue": "",
-        "newValue": "2. Di chuyển qua {{thingPlural}}"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.chooseNewPattern": {
-    "value": "3. Chọn {{thingSingular}} mới",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1618334068004,
-        "oldValue": "",
-        "newValue": "3. Chọn {{thingSingular}} mới"
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-    "value": "4. Đóng danh sách và không thay đổi gì",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1618334068004,
-        "oldValue": "",
-        "newValue": "4. Đóng danh sách và không thay đổi gì"
-      }
-    ]
-  },
   "keyboardHelpDialog.adjust": {
     "value": "Điều chỉnh",
     "history": [
@@ -170,6 +126,18 @@
         "timestamp": 1546274172683,
         "oldValue": "",
         "newValue": "Thoát khỏi dialog",
+        "explanation": null
+      }
+    ]
+  },
+  "speed.fast": {
+    "value": "Nhanh",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1599899075616,
+        "oldValue": "",
+        "newValue": "Nhanh",
         "explanation": null
       }
     ]
@@ -298,25 +266,26 @@
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.option": {
-    "value": "tuỳ chọn",
+  "speed.normal": {
+    "value": "Bình thường",
     "history": [
       {
         "userId": 137535,
-        "timestamp": 1618334068005,
+        "timestamp": 1538195277016,
         "oldValue": "",
-        "newValue": "tuỳ chọn"
+        "newValue": "Bình thường",
+        "explanation": null
       }
     ]
   },
-  "keyboardHelpDialog.comboBox.options": {
-    "value": "tuỳ chọn",
+  "key.option": {
+    "value": "Tuỳ chọn",
     "history": [
       {
         "userId": 137535,
-        "timestamp": 1618334068005,
+        "timestamp": 1675736673673,
         "oldValue": "",
-        "newValue": "tuỳ chọn"
+        "newValue": "Tuỳ chọn"
       }
     ]
   },
@@ -329,6 +298,17 @@
         "oldValue": "",
         "newValue": "hay",
         "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.timingControls.pauseOrPlayAction": {
+    "value": "Ngừng hay chạy tiếp",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1675736673673,
+        "oldValue": "",
+        "newValue": "Ngừng hay chạy tiếp"
       }
     ]
   },
@@ -353,17 +333,6 @@
         "oldValue": "",
         "newValue": "Pg Up",
         "explanation": null
-      }
-    ]
-  },
-  "keyboardHelpDialog.comboBox.headingString": {
-    "value": "Pop open menu",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1670137721060,
-        "oldValue": "",
-        "newValue": "Pop open menu"
       }
     ]
   },
@@ -414,6 +383,18 @@
       }
     ]
   },
+  "speed.slow": {
+    "value": "Chậm",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1538195277016,
+        "oldValue": "",
+        "newValue": "Chậm",
+        "explanation": null
+      }
+    ]
+  },
   "key.space": {
     "value": "Space",
     "history": [
@@ -435,6 +416,17 @@
         "oldValue": "",
         "newValue": "Tab",
         "explanation": null
+      }
+    ]
+  },
+  "keyboardHelpDialog.timingControls.timingControls": {
+    "value": "Chỉnh thời gian",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1675736673673,
+        "oldValue": "",
+        "newValue": "Chỉnh thời gian"
       }
     ]
   },
@@ -492,6 +484,83 @@
         "timestamp": 1618334068005,
         "oldValue": "",
         "newValue": "{{verb}} {{slider}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.popUpListPattern": {
+    "value": "1. Danh sách của {{thingPlural}}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1618334068004,
+        "oldValue": "",
+        "newValue": "1. Danh sách của {{thingPlural}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.moveThroughPattern": {
+    "value": "2. Di chuyển qua {{thingPlural}}",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1618334068004,
+        "oldValue": "",
+        "newValue": "2. Di chuyển qua {{thingPlural}}"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.chooseNewPattern": {
+    "value": "3. Chọn {{thingSingular}} mới",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1618334068004,
+        "oldValue": "",
+        "newValue": "3. Chọn {{thingSingular}} mới"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.closeWithoutChanging": {
+    "value": "4. Đóng danh sách và không thay đổi gì",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1618334068004,
+        "oldValue": "",
+        "newValue": "4. Đóng danh sách và không thay đổi gì"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.option": {
+    "value": "tuỳ chọn",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1618334068005,
+        "oldValue": "",
+        "newValue": "tuỳ chọn"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.options": {
+    "value": "tuỳ chọn",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1618334068005,
+        "oldValue": "",
+        "newValue": "tuỳ chọn"
+      }
+    ]
+  },
+  "keyboardHelpDialog.comboBox.headingString": {
+    "value": "Pop open menu",
+    "history": [
+      {
+        "userId": 137535,
+        "timestamp": 1670137721060,
+        "oldValue": "",
+        "newValue": "Pop open menu"
       }
     ]
   },
@@ -689,18 +758,6 @@
       }
     ]
   },
-  "speed.fast": {
-    "value": "Nhanh",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1599899075616,
-        "oldValue": "",
-        "newValue": "Nhanh",
-        "explanation": null
-      }
-    ]
-  },
   "key.k": {
     "value": "K",
     "history": [
@@ -721,30 +778,6 @@
         "timestamp": 1599588660952,
         "oldValue": "",
         "newValue": "L",
-        "explanation": null
-      }
-    ]
-  },
-  "speed.normal": {
-    "value": "Bình thường",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1538195277016,
-        "oldValue": "",
-        "newValue": "Bình thường",
-        "explanation": null
-      }
-    ]
-  },
-  "speed.slow": {
-    "value": "Chậm",
-    "history": [
-      {
-        "userId": 137535,
-        "timestamp": 1538195277016,
-        "oldValue": "",
-        "newValue": "Chậm",
         "explanation": null
       }
     ]
