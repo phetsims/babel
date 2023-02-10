@@ -61,18 +61,24 @@
     ]
   },
   "legend.kineticEnergyAbbreviation": {
-    "value": "Kuzarin abu idan yana tafiya",
+    "value": "KE",
     "history": [
       {
         "userId": 945049,
         "timestamp": 1650448883242,
         "oldValue": "",
         "newValue": "Kuzarin abu idan yana tafiya"
+      },
+      {
+        "userId": 945049,
+        "timestamp": 1676037765888,
+        "oldValue": "Kuzarin abu idan yana tafiya",
+        "newValue": "KE"
       }
     ]
   },
   "legend.potentialEnergyAbbreviation": {
-    "value": "Kuzarin abu idan yana saman Ƙasa",
+    "value": "PE",
     "history": [
       {
         "userId": 945049,
@@ -85,17 +91,29 @@
         "timestamp": 1652096202523,
         "oldValue": "Kuzarin abu idan yana saman kasa",
         "newValue": "Kuzarin abu idan yana saman Ƙasa"
+      },
+      {
+        "userId": 945049,
+        "timestamp": 1676037765888,
+        "oldValue": "Kuzarin abu idan yana saman Ƙasa",
+        "newValue": "PE"
       }
     ]
   },
   "legend.thermalEnergyAbbreviation": {
-    "value": "Alamar Kuzarin Zafi ",
+    "value": "E",
     "history": [
       {
         "userId": 945049,
         "timestamp": 1650448883242,
         "oldValue": "",
         "newValue": "Alamar Kuzarin Zafi "
+      },
+      {
+        "userId": 945049,
+        "timestamp": 1676037765888,
+        "oldValue": "Alamar Kuzarin Zafi ",
+        "newValue": "E"
       }
     ]
   },
@@ -107,6 +125,17 @@
         "timestamp": 1650448883242,
         "oldValue": "",
         "newValue": "Alamar Jimlar Kuzarin Zafi"
+      }
+    ]
+  },
+  "energyLegend": {
+    "value": "Layin bayanın attaka/kuzari",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1676037765888,
+        "oldValue": "",
+        "newValue": "Layin bayanın attaka/kuzari"
       }
     ]
   },
@@ -171,6 +200,17 @@
       }
     ]
   },
+  "pendulumMassPattern": {
+    "value": "Nauyi {{pendulumNumber}}",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1676037765888,
+        "oldValue": "",
+        "newValue": "Nauyi {{pendulumNumber}}"
+      }
+    ]
+  },
   "friction": {
     "value": "Zozawa da ƙarfi",
     "history": [
@@ -210,8 +250,19 @@
       }
     ]
   },
+  "gravitationalAccelerationPattern": {
+    "value": "{{gravity}}m/s<sup>2</sup>",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1676037765888,
+        "oldValue": "",
+        "newValue": "{{gravity}}m/s<sup>2</sup>"
+      }
+    ]
+  },
   "whatIsTheValueOfGravity": {
-    "value": "Mi ne ne Ƙimar maganaɗisun da ke jawo abu zuwa ƙasa?",
+    "value": "Mi ne ne Ƙimar nauyin iska?",
     "history": [
       {
         "userId": 945049,
@@ -224,11 +275,17 @@
         "timestamp": 1652096202523,
         "oldValue": "Mi ne ne Kimar maganadisun da ke jawo abu zuwa kasa?",
         "newValue": "Mi ne ne Ƙimar maganaɗisun da ke jawo abu zuwa ƙasa?"
+      },
+      {
+        "userId": 945049,
+        "timestamp": 1676037765888,
+        "oldValue": "Mi ne ne Ƙimar maganaɗisun da ke jawo abu zuwa ƙasa?",
+        "newValue": "Mi ne ne Ƙimar nauyin iska?"
       }
     ]
   },
   "gravity": {
-    "value": "Maganaɗisun da ke jawo abu zuwa ƙasa",
+    "value": "Nauyin iska",
     "history": [
       {
         "userId": 945049,
@@ -241,17 +298,73 @@
         "timestamp": 1652096202523,
         "oldValue": "Maganadisun da ke jawo abu zuwa kasa",
         "newValue": "Maganaɗisun da ke jawo abu zuwa ƙasa"
+      },
+      {
+        "userId": 945049,
+        "timestamp": 1676037765888,
+        "oldValue": "Maganaɗisun da ke jawo abu zuwa ƙasa",
+        "newValue": "Nauyin iska"
+      }
+    ]
+  },
+  "length": {
+    "value": "Tsawo {{pendulumNumber}}",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1676037765888,
+        "oldValue": "",
+        "newValue": "Tsawo {{pendulumNumber}}"
+      }
+    ]
+  },
+  "mass": {
+    "value": "Nauyi {{pendulumNumber}}",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1676037765888,
+        "oldValue": "",
+        "newValue": "Nauyi {{pendulumNumber}}"
+      }
+    ]
+  },
+  "metersPattern": {
+    "value": "{{meters}} m",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1676037765888,
+        "oldValue": "",
+        "newValue": "{{meters}} m"
+      }
+    ]
+  },
+  "kilogramsPattern": {
+    "value": "{{kilograms}} kg",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1676037765888,
+        "oldValue": "",
+        "newValue": "{{kilograms}} kg"
       }
     ]
   },
   "rulerUnits": {
-    "value": "Sati mita",
+    "value": "Santi mita",
     "history": [
       {
         "userId": 945049,
         "timestamp": 1650448883242,
         "oldValue": "",
         "newValue": "Sati mita"
+      },
+      {
+        "userId": 945049,
+        "timestamp": 1676037765888,
+        "oldValue": "Sati mita",
+        "newValue": "Santi mita"
       }
     ]
   },
@@ -274,6 +387,17 @@
         "timestamp": 1650448883242,
         "oldValue": "",
         "newValue": "Da sannu"
+      }
+    ]
+  },
+  "degreesPattern": {
+    "value": "{{degrees}}°",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1676037765888,
+        "oldValue": "",
+        "newValue": "{{degrees}}°"
       }
     ]
   },
@@ -333,7 +457,7 @@
     ]
   },
   "acceleration": {
-    "value": "Ƙarin gudu",
+    "value": "Ujila",
     "history": [
       {
         "userId": 945049,
@@ -346,11 +470,17 @@
         "timestamp": 1652096202523,
         "oldValue": "Karin gudu",
         "newValue": "Ƙarin gudu"
+      },
+      {
+        "userId": 945049,
+        "timestamp": 1676037765888,
+        "oldValue": "Ƙarin gudu",
+        "newValue": "Ujila"
       }
     ]
   },
   "velocity": {
-    "value": "Ƙarin gudu da chanza alƙibla",
+    "value": "Sauri",
     "history": [
       {
         "userId": 945049,
@@ -363,6 +493,23 @@
         "timestamp": 1652096202523,
         "oldValue": "Karin gudu da chanza alkibla",
         "newValue": "Ƙarin gudu da chanza alƙibla"
+      },
+      {
+        "userId": 945049,
+        "timestamp": 1676037765888,
+        "oldValue": "Ƙarin gudu da chanza alƙibla",
+        "newValue": "Sauri"
+      }
+    ]
+  },
+  "secondsPattern": {
+    "value": "{{seconds}} s",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1676037765888,
+        "oldValue": "",
+        "newValue": "{{seconds}} s"
       }
     ]
   },
@@ -395,13 +542,19 @@
     ]
   },
   "pendulum-lab.title": {
-    "value": "Dakin binciken kimiyya",
+    "value": "Dakin binciken kimiyya na gwaiwa",
     "history": [
       {
         "userId": 945049,
         "timestamp": 1650448883242,
         "oldValue": "",
         "newValue": "Dakin binciken kimiyya"
+      },
+      {
+        "userId": 945049,
+        "timestamp": 1676037765888,
+        "oldValue": "Dakin binciken kimiyya",
+        "newValue": "Dakin binciken kimiyya na gwaiwa"
       }
     ]
   }
