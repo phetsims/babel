@@ -1,12 +1,18 @@
 {
   "pattern.0yourBest": {
-    "value": "(باشترین: {0} )",
+    "value": "(باشترین هەوڵی تۆ: {0} )",
     "history": [
       {
         "userId": 837035,
         "timestamp": 1667112475282,
         "oldValue": "",
         "newValue": "(باشترین: {0} )"
+      },
+      {
+        "userId": 837035,
+        "timestamp": 1676746172996,
+        "oldValue": "(باشترین: {0} )",
+        "newValue": "(باشترین هەوڵی تۆ: {0} )"
       }
     ]
   },
@@ -43,6 +49,17 @@
       }
     ]
   },
+  "chooseYourLevel": {
+    "value": "ئاستەکەت هەڵبژێرە",
+    "history": [
+      {
+        "userId": 837035,
+        "timestamp": 1676746172996,
+        "oldValue": "",
+        "newValue": "ئاستەکەت هەڵبژێرە"
+      }
+    ]
+  },
   "continue": {
     "value": "بەردەوام بە",
     "history": [
@@ -73,6 +90,17 @@
         "timestamp": 1667110018642,
         "oldValue": "",
         "newValue": "باشە"
+      }
+    ]
+  },
+  "great": {
+    "value": "دەست خۆش",
+    "history": [
+      {
+        "userId": 837035,
+        "timestamp": 1676746172996,
+        "oldValue": "",
+        "newValue": "دەست خۆش"
       }
     ]
   },
@@ -115,14 +143,14 @@
       }
     ]
   },
-  "label.scorePattern": {
-    "value": "خاڵی بەدەست هاتوو:{0}",
+  "score": {
+    "value": "خاڵی بەدەست هاتوو",
     "history": [
       {
         "userId": 837035,
-        "timestamp": 1667110018642,
+        "timestamp": 1676746172996,
         "oldValue": "",
-        "newValue": "خاڵی بەدەست هاتوو:{0}"
+        "newValue": "خاڵی بەدەست هاتوو"
       }
     ]
   },
@@ -137,14 +165,14 @@
       }
     ]
   },
-  "selectLevel": {
-    "value": "ئاست هەڵبژێرە",
+  "pattern.score.number": {
+    "value": " {{score}}خاڵی بەدەست هاتوو ",
     "history": [
       {
         "userId": 837035,
-        "timestamp": 1667112475282,
+        "timestamp": 1676746172996,
         "oldValue": "",
-        "newValue": "ئاست هەڵبژێرە"
+        "newValue": " {{score}}خاڵی بەدەست هاتوو "
       }
     ]
   },
@@ -189,6 +217,50 @@
         "timestamp": 1667112475282,
         "oldValue": "",
         "newValue": "هەوڵ بدەرەوە"
+      }
+    ]
+  },
+  "pattern.0minutes.1seconds": {
+    "value": "{0}:{1}",
+    "history": [
+      {
+        "userId": 837035,
+        "timestamp": 1676746172996,
+        "oldValue": "",
+        "newValue": "{0}:{1}"
+      }
+    ]
+  },
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
+    "history": [
+      {
+        "userId": 837035,
+        "timestamp": 1676746172996,
+        "oldValue": "",
+        "newValue": "{0}:{1}:{2}"
+      }
+    ]
+  },
+  "label.scorePattern": {
+    "value": "خاڵی بەدەست هاتوو:{0}",
+    "history": [
+      {
+        "userId": 837035,
+        "timestamp": 1667110018642,
+        "oldValue": "",
+        "newValue": "خاڵی بەدەست هاتوو:{0}"
+      }
+    ]
+  },
+  "selectLevel": {
+    "value": "ئاست هەڵبژێرە",
+    "history": [
+      {
+        "userId": 837035,
+        "timestamp": 1667112475282,
+        "oldValue": "",
+        "newValue": "ئاست هەڵبژێرە"
       }
     ]
   }
