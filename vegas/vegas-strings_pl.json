@@ -23,38 +23,82 @@
       }
     ]
   },
-  "label.scorePattern": {
-    "value": "Wynik: {0}",
+  "pattern.score.number": {
+    "value": "Wynik: {{score}}",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1677133880770,
+        "oldValue": "",
+        "newValue": "Wynik: {{score}}"
+      }
+    ]
+  },
+  "score": {
+    "value": "Wynik:",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1677133880770,
+        "oldValue": "",
+        "newValue": "Wynik:"
+      }
+    ]
+  },
+  "label.level": {
+    "value": "Poziom: {0}",
     "history": [
       {
         "userId": 196556,
         "timestamp": 1451115179530,
         "oldValue": "",
-        "newValue": "Wynik: {0}",
+        "newValue": "Poziom: {0}",
         "explanation": null
       }
     ]
   },
-  "label.time": {
-    "value": "Czas: {0}",
+  "pattern.0challenge.1max": {
+    "value": "Próba {0} z {1}",
     "history": [
       {
         "userId": 196556,
-        "timestamp": 1451115179530,
+        "timestamp": 1677133880770,
         "oldValue": "",
-        "newValue": "Czas: {0}",
+        "newValue": "Próba {0} z {1}"
+      }
+    ]
+  },
+  "startOver": {
+    "value": "Zacznij od nowa",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1677133880770,
+        "oldValue": "",
+        "newValue": "Zacznij od nowa"
+      }
+    ]
+  },
+  "continue": {
+    "value": "Kontynuuj",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1451115179529,
+        "oldValue": "",
+        "newValue": "Kontynuuj",
         "explanation": null
       }
     ]
   },
-  "keepTrying": {
-    "value": "Próbuj dalej",
+  "excellent": {
+    "value": "Doskonale!",
     "history": [
       {
         "userId": 196556,
         "timestamp": 1451115179530,
         "oldValue": "",
-        "newValue": "Próbuj dalej",
+        "newValue": "Doskonale!",
         "explanation": null
       }
     ]
@@ -83,14 +127,14 @@
       }
     ]
   },
-  "excellent": {
-    "value": "Doskonale!",
+  "keepTrying": {
+    "value": "Próbuj dalej",
     "history": [
       {
         "userId": 196556,
         "timestamp": 1451115179530,
         "oldValue": "",
-        "newValue": "Doskonale!",
+        "newValue": "Próbuj dalej",
         "explanation": null
       }
     ]
@@ -107,14 +151,14 @@
       }
     ]
   },
-  "yourNewBest": {
-    "value": "(Twój nowy rekord!)",
+  "label.time": {
+    "value": "Czas: {0}",
     "history": [
       {
         "userId": 196556,
-        "timestamp": 1451115179529,
+        "timestamp": 1451115179530,
         "oldValue": "",
-        "newValue": "(Twój nowy rekord!)",
+        "newValue": "Czas: {0}",
         "explanation": null
       }
     ]
@@ -131,26 +175,14 @@
       }
     ]
   },
-  "continue": {
-    "value": "Kontynuuj",
+  "yourNewBest": {
+    "value": "(Twój nowy rekord!)",
     "history": [
       {
         "userId": 196556,
         "timestamp": 1451115179529,
         "oldValue": "",
-        "newValue": "Kontynuuj",
-        "explanation": null
-      }
-    ]
-  },
-  "label.level": {
-    "value": "Poziom: {0}",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1451115179530,
-        "oldValue": "",
-        "newValue": "Poziom: {0}",
+        "newValue": "(Twój nowy rekord!)",
         "explanation": null
       }
     ]
@@ -166,6 +198,17 @@
       }
     ]
   },
+  "chooseYourLevel": {
+    "value": "Wybierz poziom!",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1677133880770,
+        "oldValue": "",
+        "newValue": "Wybierz poziom!"
+      }
+    ]
+  },
   "next": {
     "value": "Następny",
     "history": [
@@ -174,6 +217,17 @@
         "timestamp": 1677084204337,
         "oldValue": "",
         "newValue": "Następny"
+      }
+    ]
+  },
+  "showAnswer": {
+    "value": "Pokaż odpowiedź",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1677133880770,
+        "oldValue": "",
+        "newValue": "Pokaż odpowiedź"
       }
     ]
   },
