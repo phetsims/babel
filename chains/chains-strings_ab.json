@@ -1,68 +1,4 @@
 {
-  "htmlString": {
-    "value": "I am seeing <i>red</i> because of all of these <b>bold</b> bugs.",
-    "history": [
-      {
-        "userId": 123456,
-        "timestamp": 1654729098875,
-        "oldValue": "",
-        "newValue": "hi",
-        "explanation": null
-      },
-      {
-        "userId": 654321,
-        "timestamp": 1667581850835,
-        "oldValue": "hi",
-        "newValue": "I am seeing <i>red</i> because of all of these <b>bold</b> bugs.",
-        "explanation": null
-      }
-    ]
-  },
-  "multilineString": {
-    "value": "gimme a delicious breakfast",
-    "history": [
-      {
-        "userId": 123456,
-        "timestamp": 1654729098875,
-        "oldValue": "",
-        "newValue": "hi",
-        "explanation": null
-      },
-      {
-        "userId": 654321,
-        "timestamp": 1667582540000,
-        "oldValue": "hi",
-        "newValue": "gimme a breakfast",
-        "explanation": null
-      },
-      {
-        "userId": 654321,
-        "timestamp": 1667583337016,
-        "oldValue": "gimme a breakfast",
-        "newValue": "gimme a delicious breakfast",
-        "explanation": null
-      }
-    ]
-  },
-  "namedPlaceholdersString": {
-    "value": "{{name}} is motor-vating at {{speed}} km/hr",
-    "history": [
-      {
-        "userId": 123456,
-        "timestamp": 1654729098875,
-        "oldValue": "",
-        "newValue": "wow",
-        "explanation": null
-      },
-      {
-        "userId": 654321,
-        "timestamp": 1667511526140,
-        "oldValue": "wow",
-        "newValue": "{{name}} is motor-vating at {{speed}} km/hr",
-        "explanation": null
-      }
-    ]
-  },
   "patternString": {
     "value": "{0}: {1} {2} a-choo!",
     "history": [
@@ -78,6 +14,39 @@
         "timestamp": 1667511526140,
         "oldValue": "new",
         "newValue": "{0}: {1} {2} a-choo!",
+        "explanation": null
+      }
+    ]
+  },
+  "size": {
+    "value": "374 test",
+    "history": [
+      {
+        "userId": 123456,
+        "timestamp": 1654729098875,
+        "oldValue": "",
+        "newValue": "such",
+        "explanation": null
+      },
+      {
+        "userId": 654321,
+        "timestamp": 1667511864082,
+        "oldValue": "such",
+        "newValue": "Hi, JB!",
+        "explanation": null
+      },
+      {
+        "userId": 654321,
+        "timestamp": 1667602930985,
+        "oldValue": "Hi, JB!",
+        "newValue": "Well hello LM!",
+        "explanation": null
+      },
+      {
+        "userId": 136803,
+        "timestamp": 1677186296713,
+        "oldValue": "Well hello LM!",
+        "newValue": "374 test",
         "explanation": null
       }
     ]
@@ -122,28 +91,66 @@
       }
     ]
   },
-  "size": {
-    "value": "Well hello LM!",
+  "multilineString": {
+    "value": "gimme a delicious breakfast",
     "history": [
       {
         "userId": 123456,
         "timestamp": 1654729098875,
         "oldValue": "",
-        "newValue": "such",
+        "newValue": "hi",
         "explanation": null
       },
       {
         "userId": 654321,
-        "timestamp": 1667511864082,
-        "oldValue": "such",
-        "newValue": "Hi, JB!",
+        "timestamp": 1667582540000,
+        "oldValue": "hi",
+        "newValue": "gimme a breakfast",
         "explanation": null
       },
       {
         "userId": 654321,
-        "timestamp": 1667602930985,
-        "oldValue": "Hi, JB!",
-        "newValue": "Well hello LM!",
+        "timestamp": 1667583337016,
+        "oldValue": "gimme a breakfast",
+        "newValue": "gimme a delicious breakfast",
+        "explanation": null
+      }
+    ]
+  },
+  "htmlString": {
+    "value": "I am seeing <i>red</i> because of all of these <b>bold</b> bugs.",
+    "history": [
+      {
+        "userId": 123456,
+        "timestamp": 1654729098875,
+        "oldValue": "",
+        "newValue": "hi",
+        "explanation": null
+      },
+      {
+        "userId": 654321,
+        "timestamp": 1667581850835,
+        "oldValue": "hi",
+        "newValue": "I am seeing <i>red</i> because of all of these <b>bold</b> bugs.",
+        "explanation": null
+      }
+    ]
+  },
+  "namedPlaceholdersString": {
+    "value": "{{name}} is motor-vating at {{speed}} km/hr",
+    "history": [
+      {
+        "userId": 123456,
+        "timestamp": 1654729098875,
+        "oldValue": "",
+        "newValue": "wow",
+        "explanation": null
+      },
+      {
+        "userId": 654321,
+        "timestamp": 1667511526140,
+        "oldValue": "wow",
+        "newValue": "{{name}} is motor-vating at {{speed}} km/hr",
         "explanation": null
       }
     ]
