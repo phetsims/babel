@@ -1,12 +1,78 @@
 {
-  "pattern.0hours.1minutes.2seconds": {
-    "value": "{0}:{1}:{2}",
+  "chooseYourLevel": {
+    "value": "Wybierz poziom!",
     "history": [
       {
         "userId": 196556,
-        "timestamp": 1548848084798,
+        "timestamp": 1618139936199,
         "oldValue": "",
-        "newValue": "{0}:{1}:{2}",
+        "newValue": "Wybierz poziom!"
+      }
+    ]
+  },
+  "done": {
+    "value": "Gotowe",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1548846698006,
+        "oldValue": "",
+        "newValue": "Gotowe",
+        "explanation": null
+      }
+    ]
+  },
+  "next": {
+    "value": "Następny",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1455322603065,
+        "oldValue": "",
+        "newValue": "Następne",
+        "explanation": null
+      },
+      {
+        "userId": 196556,
+        "timestamp": 1677880892126,
+        "oldValue": "Następne",
+        "newValue": "Następny",
+        "explanation": "Changed by a script. Part of https://github.com/phetsims/rosetta/issues/380."
+      }
+    ]
+  },
+  "score": {
+    "value": "Wynik:",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1524689240893,
+        "oldValue": "",
+        "newValue": "Wynik:",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.score.number": {
+    "value": "Wynik: {{score}}",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1524689240893,
+        "oldValue": "",
+        "newValue": "Wynik: {{score}}",
+        "explanation": null
+      }
+    ]
+  },
+  "youCompletedAllLevels": {
+    "value": "Ukończyłeś wszystkie poziomy!",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1548846698007,
+        "oldValue": "",
+        "newValue": "Ukończyłeś wszystkie poziomy!",
         "explanation": null
       }
     ]
@@ -23,135 +89,39 @@
       }
     ]
   },
-  "pattern.score.number": {
-    "value": "Wynik: {{score}}",
+  "pattern.0hours.1minutes.2seconds": {
+    "value": "{0}:{1}:{2}",
     "history": [
       {
         "userId": 196556,
-        "timestamp": 1677508353817,
+        "timestamp": 1548848084798,
         "oldValue": "",
-        "newValue": "Wynik: {{score}}"
+        "newValue": "{0}:{1}:{2}",
+        "explanation": null
       }
     ]
   },
-  "score": {
-    "value": "Wynik:",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1677508353817,
-        "oldValue": "",
-        "newValue": "Wynik:"
-      }
-    ]
-  },
-  "label.level": {
-    "value": "Poziom: {0}",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1677309527998,
-        "oldValue": "",
-        "newValue": "Poziom: {0}"
-      }
-    ]
-  },
-  "pattern.0challenge.1max": {
-    "value": "Zadanie {0} z {1}",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1677508353817,
-        "oldValue": "",
-        "newValue": "Zadanie {0} z {1}"
-      }
-    ]
-  },
-  "startOver": {
-    "value": "Zacznij od nowa",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1677508353817,
-        "oldValue": "",
-        "newValue": "Zacznij od nowa"
-      }
-    ]
-  },
-  "continue": {
+  "keepGoing": {
     "value": "Kontynuuj",
     "history": [
       {
         "userId": 196556,
-        "timestamp": 1677309527998,
+        "timestamp": 1532192420080,
         "oldValue": "",
-        "newValue": "Kontynuuj"
+        "newValue": "Kontynuuj",
+        "explanation": null
       }
     ]
   },
-  "excellent": {
-    "value": "Doskonale!",
+  "newLevel": {
+    "value": "Nowy poziom",
     "history": [
       {
         "userId": 196556,
-        "timestamp": 1677309527998,
+        "timestamp": 1532192420080,
         "oldValue": "",
-        "newValue": "Doskonale!"
-      }
-    ]
-  },
-  "good": {
-    "value": "Dobrze!",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1677309527998,
-        "oldValue": "",
-        "newValue": "Dobrze!"
-      }
-    ]
-  },
-  "great": {
-    "value": "Świetnie!",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1677309527998,
-        "oldValue": "",
-        "newValue": "Świetnie!"
-      }
-    ]
-  },
-  "keepTrying": {
-    "value": "Próbuj dalej",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1677309527998,
-        "oldValue": "",
-        "newValue": "Próbuj dalej"
-      }
-    ]
-  },
-  "label.score.max": {
-    "value": "Wynik: {0} z {1}",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1677309527998,
-        "oldValue": "",
-        "newValue": "Wynik: {0} z {1}"
-      }
-    ]
-  },
-  "label.time": {
-    "value": "Czas: {0}",
-    "history": [
-      {
-        "userId": 196556,
-        "timestamp": 1677309527998,
-        "oldValue": "",
-        "newValue": "Czas: {0}"
+        "newValue": "Nowy poziom",
+        "explanation": null
       }
     ]
   },
@@ -160,9 +130,17 @@
     "history": [
       {
         "userId": 196556,
-        "timestamp": 1677309527998,
+        "timestamp": 1451115179529,
         "oldValue": "",
-        "newValue": "(Twój rekord: {0})"
+        "newValue": "(Twój rekord: {0})",
+        "explanation": null
+      },
+      {
+        "userId": 196556,
+        "timestamp": 1677880892126,
+        "oldValue": "(Twój rekord: {0})",
+        "newValue": "(Twój rekord: {0})",
+        "explanation": "Changed by a script. Part of https://github.com/phetsims/rosetta/issues/380."
       }
     ]
   },
@@ -171,9 +149,29 @@
     "history": [
       {
         "userId": 196556,
-        "timestamp": 1677309527998,
+        "timestamp": 1451115179529,
         "oldValue": "",
-        "newValue": "(Twój nowy rekord!)"
+        "newValue": "(Twój nowy rekord!)",
+        "explanation": null
+      }
+    ]
+  },
+  "pattern.0challenge.1max": {
+    "value": "Zadanie {0} z {1}",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1451122370814,
+        "oldValue": "",
+        "newValue": "Zadanie {0} z {1}",
+        "explanation": null
+      },
+      {
+        "userId": 196556,
+        "timestamp": 1677880892126,
+        "oldValue": "Zadanie {0} z {1}",
+        "newValue": "Zadanie {0} z {1}",
+        "explanation": "Changed by a script. Part of https://github.com/phetsims/rosetta/issues/380."
       }
     ]
   },
@@ -182,31 +180,101 @@
     "history": [
       {
         "userId": 196556,
-        "timestamp": 1677309527998,
+        "timestamp": 1455322603065,
         "oldValue": "",
-        "newValue": "Sprawdź"
+        "newValue": "Sprawdź",
+        "explanation": null
       }
     ]
   },
-  "chooseYourLevel": {
-    "value": "Wybierz poziom!",
+  "continue": {
+    "value": "Kontynuuj",
     "history": [
       {
         "userId": 196556,
-        "timestamp": 1677508353817,
+        "timestamp": 1451115179529,
         "oldValue": "",
-        "newValue": "Wybierz poziom!"
+        "newValue": "Kontynuuj",
+        "explanation": null
       }
     ]
   },
-  "next": {
-    "value": "Następny",
+  "excellent": {
+    "value": "Doskonale!",
     "history": [
       {
         "userId": 196556,
-        "timestamp": 1677084204337,
+        "timestamp": 1451115179530,
         "oldValue": "",
-        "newValue": "Następny"
+        "newValue": "Doskonale!",
+        "explanation": null
+      }
+    ]
+  },
+  "good": {
+    "value": "Dobrze!",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1451115179530,
+        "oldValue": "",
+        "newValue": "Dobrze!",
+        "explanation": null
+      }
+    ]
+  },
+  "great": {
+    "value": "Świetnie!",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1451115179530,
+        "oldValue": "",
+        "newValue": "Świetnie !",
+        "explanation": null
+      },
+      {
+        "userId": 196556,
+        "timestamp": 1677880892126,
+        "oldValue": "Świetnie !",
+        "newValue": "Świetnie!",
+        "explanation": "Changed by a script. Part of https://github.com/phetsims/rosetta/issues/380."
+      }
+    ]
+  },
+  "keepTrying": {
+    "value": "Próbuj dalej",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1451115179530,
+        "oldValue": "",
+        "newValue": "Próbuj dalej",
+        "explanation": null
+      }
+    ]
+  },
+  "label.level": {
+    "value": "Poziom: {0}",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1451115179530,
+        "oldValue": "",
+        "newValue": "Poziom: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "label.score.max": {
+    "value": "Wynik: {0} z {1}",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1451115179530,
+        "oldValue": "",
+        "newValue": "Wynik: {0} z {1}",
+        "explanation": null
       }
     ]
   },
@@ -215,9 +283,34 @@
     "history": [
       {
         "userId": 196556,
-        "timestamp": 1677508353817,
+        "timestamp": 1455322603065,
         "oldValue": "",
-        "newValue": "Pokaż odpowiedź"
+        "newValue": "Pokaż odpowiedź",
+        "explanation": null
+      }
+    ]
+  },
+  "startOver": {
+    "value": "Zacznij od nowa",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1455322603065,
+        "oldValue": "",
+        "newValue": "Zacznij od nowa",
+        "explanation": null
+      }
+    ]
+  },
+  "label.time": {
+    "value": "Czas: {0}",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1451115179530,
+        "oldValue": "",
+        "newValue": "Czas: {0}",
+        "explanation": null
       }
     ]
   },
@@ -226,9 +319,34 @@
     "history": [
       {
         "userId": 196556,
-        "timestamp": 1677309527998,
+        "timestamp": 1455322603065,
         "oldValue": "",
-        "newValue": "Spróbuj ponownie"
+        "newValue": "Spróbuj ponownie",
+        "explanation": null
+      }
+    ]
+  },
+  "label.scorePattern": {
+    "value": "Wynik: {0}",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1451115179530,
+        "oldValue": "",
+        "newValue": "Wynik: {0}",
+        "explanation": null
+      }
+    ]
+  },
+  "selectLevel": {
+    "value": "Wybierz poziom",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1461008530632,
+        "oldValue": "",
+        "newValue": "Wybierz poziom",
+        "explanation": null
       }
     ]
   }
