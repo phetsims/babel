@@ -12,7 +12,7 @@
     ]
   },
   "forceOnObjectByOtherObjectPattern": {
-    "value": "{{thisObject}}-ə {{otherObject}} tərəfindən  təsir edən qüvvə  ",
+    "value": "{{thisObject}}yə {{otherObject}} tərəfindən təsir edən qüvvə  ",
     "history": [
       {
         "userId": 661982,
@@ -20,11 +20,17 @@
         "oldValue": "",
         "newValue": "{{thisObject}}-ə {{otherObject}} tərəfindən  təsir edən qüvvə  ",
         "explanation": null
+      },
+      {
+        "userId": 1120507,
+        "timestamp": 1671910437404,
+        "oldValue": "{{thisObject}}-ə {{otherObject}} tərəfindən  təsir edən qüvvə  ",
+        "newValue": "{{thisObject}}yə {{otherObject}} tərəfindən təsir edən qüvvə  "
       }
     ]
   },
   "forceOnObjectByOtherObjectWithUnitsPattern": {
-    "value": "{{thisObject}}-ə {{otherObject}} tərəfindən  təsir edən qüvvə ={{value}} N   ",
+    "value": "{{thisObject}}yə {{otherObject}} tərəfindən təsir edən qüvvə = {{value}} N   ",
     "history": [
       {
         "userId": 661982,
@@ -32,6 +38,12 @@
         "oldValue": "",
         "newValue": "{{thisObject}}-ə {{otherObject}} tərəfindən  təsir edən qüvvə ={{value}} N   ",
         "explanation": null
+      },
+      {
+        "userId": 1120507,
+        "timestamp": 1671910437404,
+        "oldValue": "{{thisObject}}-ə {{otherObject}} tərəfindən  təsir edən qüvvə ={{value}} N   ",
+        "newValue": "{{thisObject}}yə {{otherObject}} tərəfindən təsir edən qüvvə = {{value}} N   "
       }
     ]
   },
@@ -56,6 +68,83 @@
         "oldValue": "",
         "newValue": "pm",
         "explanation": null
+      }
+    ]
+  },
+  "hidden": {
+    "value": "Gizli",
+    "history": [
+      {
+        "userId": 1120507,
+        "timestamp": 1671353951136,
+        "oldValue": "",
+        "newValue": "Gizli"
+      }
+    ]
+  },
+  "units.meter": {
+    "value": "metr",
+    "history": [
+      {
+        "userId": 1120507,
+        "timestamp": 1671910437408,
+        "oldValue": "",
+        "newValue": "metr"
+      }
+    ]
+  },
+  "units.newtons": {
+    "value": "nyutonlar",
+    "history": [
+      {
+        "userId": 1120507,
+        "timestamp": 1671910437409,
+        "oldValue": "",
+        "newValue": "nyutonlar"
+      }
+    ]
+  },
+  "pattern_0value_1units": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 1120507,
+        "timestamp": 1671353951150,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}"
+      }
+    ]
+  },
+  "units.meters": {
+    "value": "metrlər",
+    "history": [
+      {
+        "userId": 1120507,
+        "timestamp": 1671910437408,
+        "oldValue": "",
+        "newValue": "metrlər"
+      }
+    ]
+  },
+  "decimalNotation": {
+    "value": "Onluq dəyər",
+    "history": [
+      {
+        "userId": 1120507,
+        "timestamp": 1671353951131,
+        "oldValue": "",
+        "newValue": "Onluq dəyər"
+      }
+    ]
+  },
+  "scientificNotation": {
+    "value": "Elmi dəyər",
+    "history": [
+      {
+        "userId": 1120507,
+        "timestamp": 1671353951144,
+        "oldValue": "",
+        "newValue": "Elmi dəyər"
       }
     ]
   }
