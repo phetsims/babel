@@ -42,7 +42,7 @@
     ]
   },
   "animationSpeedLimitReached": {
-    "value": "Animasiya sürəti limitə çatdı! Simulyasiya sürəti normal sürətin {{percent}}% -nə  çatdı.",
+    "value": "Animasiya sürəti limitə çatdı! Cari animasiya sürəti normal {{percent}}%-ə endirildi.",
     "history": [
       {
         "userId": 661982,
@@ -56,6 +56,13 @@
         "timestamp": 1671467745372,
         "oldValue": "Animasiya sürəti limitə çatdı! Simulyasiya sürəti normal sərətin {{percent}}% -inə  çatdı.",
         "newValue": "Animasiya sürəti limitə çatdı! Simulyasiya sürəti normal sürətin {{percent}}% -nə  çatdı."
+      },
+      {
+        "userId": 1120507,
+        "timestamp": 1680441793900,
+        "oldValue": "Animasiya sürəti limitə çatdı! Simulyasiya sürəti normal sürətin {{percent}}% -nə  çatdı.",
+        "newValue": "Animasiya sürəti limitə çatdı! Cari animasiya sürəti normal {{percent}}%-ə endirildi.",
+        "explanation": null
       }
     ]
   },
@@ -210,13 +217,20 @@
     ]
   },
   "lots": {
-    "value": "Çox",
+    "value": "çox",
     "history": [
       {
         "userId": 661982,
         "timestamp": 1555279084162,
         "oldValue": "",
         "newValue": "Çox",
+        "explanation": null
+      },
+      {
+        "userId": 1120507,
+        "timestamp": 1680441793900,
+        "oldValue": "Çox",
+        "newValue": "çox",
         "explanation": null
       }
     ]
@@ -234,7 +248,7 @@
     ]
   },
   "pencil": {
-    "value": "Karaşdaş",
+    "value": "Karandaş",
     "history": [
       {
         "userId": 661982,
@@ -248,6 +262,13 @@
         "timestamp": 1671467745390,
         "oldValue": "Qələm",
         "newValue": "Karaşdaş"
+      },
+      {
+        "userId": 1120507,
+        "timestamp": 1680441793900,
+        "oldValue": "Karaşdaş",
+        "newValue": "Karandaş",
+        "explanation": null
       }
     ]
   },
@@ -264,13 +285,20 @@
     ]
   },
   "resistor": {
-    "value": "Resistor",
+    "value": "Rezistor",
     "history": [
       {
         "userId": 661982,
         "timestamp": 1555279084162,
         "oldValue": "",
         "newValue": "Resistor",
+        "explanation": null
+      },
+      {
+        "userId": 1120507,
+        "timestamp": 1680441793900,
+        "oldValue": "Resistor",
+        "newValue": "Rezistor",
         "explanation": null
       }
     ]
@@ -312,7 +340,7 @@
     ]
   },
   "theSwitchIsClosed": {
-    "value": "Açar qapalıdır",
+    "value": "Açar qapalıdır.",
     "history": [
       {
         "userId": 661982,
@@ -320,11 +348,18 @@
         "oldValue": "",
         "newValue": "Açar qapalıdır",
         "explanation": null
+      },
+      {
+        "userId": 1120507,
+        "timestamp": 1680441793900,
+        "oldValue": "Açar qapalıdır",
+        "newValue": "Açar qapalıdır.",
+        "explanation": null
       }
     ]
   },
   "theSwitchIsOpen": {
-    "value": "Açar açıqdır",
+    "value": "Açar açıqdır.",
     "history": [
       {
         "userId": 661982,
@@ -332,17 +367,31 @@
         "oldValue": "",
         "newValue": "Açar açıqdır",
         "explanation": null
+      },
+      {
+        "userId": 1120507,
+        "timestamp": 1680441793900,
+        "oldValue": "Açar açıqdır",
+        "newValue": "Açar açıqdır.",
+        "explanation": null
       }
     ]
   },
   "tiny": {
-    "value": "Kiçik",
+    "value": "kiçik",
     "history": [
       {
         "userId": 661982,
         "timestamp": 1555279084162,
         "oldValue": "",
         "newValue": "Kiçik",
+        "explanation": null
+      },
+      {
+        "userId": 1120507,
+        "timestamp": 1680441793900,
+        "oldValue": "Kiçik",
+        "newValue": "kiçik",
         "explanation": null
       }
     ]
@@ -816,13 +865,20 @@
     ]
   },
   "fuseValue": {
-    "value": "\"{{resistance}} mΩ<br><span style=\"\"font-size: 16px;\"\">≤ {{currentRating}} A</span>\"",
+    "value": "{{resistance}} mΩ<br><span style=\"font-size: 16px;\">≤ {{currentRating}} A</span>",
     "history": [
       {
         "userId": 1120507,
         "timestamp": 1671467745407,
         "oldValue": "",
         "newValue": "\"{{resistance}} mΩ<br><span style=\"\"font-size: 16px;\"\">≤ {{currentRating}} A</span>\""
+      },
+      {
+        "userId": 1120507,
+        "timestamp": 1680441793900,
+        "oldValue": "\"{{resistance}} mΩ<br><span style=\"\"font-size: 16px;\"\">≤ {{currentRating}} A</span>\"",
+        "newValue": "{{resistance}} mΩ<br><span style=\"font-size: 16px;\">≤ {{currentRating}} A</span>",
+        "explanation": null
       }
     ]
   },
