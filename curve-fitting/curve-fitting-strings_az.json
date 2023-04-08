@@ -1,12 +1,19 @@
 {
   "pointCoordinatesPattern": {
-    "value": "\"({{xCoordinate}}",
+    "value": "({{xCoordinate}}, {{yCoordinate}})",
     "history": [
       {
         "userId": 1127852,
         "timestamp": null,
         "oldValue": "",
         "newValue": "\"({{xCoordinate}}"
+      },
+      {
+        "userId": 1120507,
+        "timestamp": 1680938205048,
+        "oldValue": "\"({{xCoordinate}}",
+        "newValue": "({{xCoordinate}}, {{yCoordinate}})",
+        "explanation": null
       }
     ]
   },
@@ -176,13 +183,20 @@
     ]
   },
   "fEqualsNumberOfParametersPattern": {
-    "value": "\"{{fSymbol}} = uyğun parametrlərin sayı (məsələn",
+    "value": "{{fSymbol}} = uyğun parametrlərin sayı (e.g. {{fSymbol}} = 4, kubik uyğunluq üçün)",
     "history": [
       {
         "userId": 1127852,
         "timestamp": 986108400000,
         "oldValue": "",
         "newValue": "\"{{fSymbol}} = uyğun parametrlərin sayı (məsələn"
+      },
+      {
+        "userId": 1120507,
+        "timestamp": 1680938205048,
+        "oldValue": "\"{{fSymbol}} = uyğun parametrlərin sayı (məsələn",
+        "newValue": "{{fSymbol}} = uyğun parametrlərin sayı (e.g. {{fSymbol}} = 4, kubik uyğunluq üçün)",
+        "explanation": null
       }
     ]
   },
@@ -231,24 +245,38 @@
     ]
   },
   "theReducedChiSquaredStatisticIs": {
-    "value": "Azaldılmış ki-kvadrat statistikası:",
+    "value": "Azaldılmış xi-kvadrat statistikası:",
     "history": [
       {
         "userId": 1127852,
         "timestamp": 1674226785637,
         "oldValue": "",
         "newValue": "Azaldılmış ki-kvadrat statistikası:"
+      },
+      {
+        "userId": 1120507,
+        "timestamp": 1680938205048,
+        "oldValue": "Azaldılmış ki-kvadrat statistikası:",
+        "newValue": "Azaldılmış xi-kvadrat statistikası:",
+        "explanation": null
       }
     ]
   },
   "deviations": {
-    "value": "Sapmalar",
+    "value": "Yayınmalar",
     "history": [
       {
         "userId": 1127852,
         "timestamp": 1674226785637,
         "oldValue": "",
         "newValue": "Sapmalar"
+      },
+      {
+        "userId": 1120507,
+        "timestamp": 1680938205048,
+        "oldValue": "Sapmalar",
+        "newValue": "Yayınmalar",
+        "explanation": null
       }
     ]
   },
