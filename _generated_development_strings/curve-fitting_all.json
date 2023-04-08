@@ -250,7 +250,7 @@
   },
   "az": {
     "pointCoordinatesPattern": {
-      "value": "\"({{xCoordinate}}"
+      "value": "({{xCoordinate}}, {{yCoordinate}})"
     },
     "deltaEqualsPattern": {
       "value": "Δ<sub>{{y}}</sub> = {{deltaValue}}"
@@ -298,7 +298,7 @@
       "value": "Qiymətlər"
     },
     "fEqualsNumberOfParametersPattern": {
-      "value": "\"{{fSymbol}} = uyğun parametrlərin sayı (məsələn"
+      "value": "{{fSymbol}} = uyğun parametrlərin sayı (e.g. {{fSymbol}} = 4, kubik uyğunluq üçün)"
     },
     "nEqualsNumberOfDataPointsPattern": {
       "value": "{{nSymbol}} = nöqtələrin sayı"
@@ -313,10 +313,10 @@
       "value": "N"
     },
     "theReducedChiSquaredStatisticIs": {
-      "value": "Azaldılmış ki-kvadrat statistikası:"
+      "value": "Azaldılmış xi-kvadrat statistikası:"
     },
     "deviations": {
-      "value": "Sapmalar"
+      "value": "Yayınmalar"
     },
     "rSymbol": {
       "value": "r"
