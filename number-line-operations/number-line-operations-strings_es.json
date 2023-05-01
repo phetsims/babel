@@ -17,35 +17,56 @@
     ]
   },
   "operationDescriptions": {
-    "value": "Descripción de las Operaciones ",
+    "value": "Descripción de las Operaciones",
     "history": [
       {
         "userId": 282036,
         "timestamp": 1613012970994,
         "oldValue": "",
         "newValue": "Descripción de las Operaciones "
+      },
+      {
+        "userId": 964963,
+        "timestamp": 1682971358376,
+        "oldValue": "Descripción de las Operaciones ",
+        "newValue": "Descripción de las Operaciones",
+        "explanation": null
       }
     ]
   },
   "operationLabels": {
-    "value": "Etiqueta de la Operación ",
+    "value": "Etiqueta de la Operación",
     "history": [
       {
         "userId": 282036,
         "timestamp": 1613012970994,
         "oldValue": "",
         "newValue": "Etiqueta de la Operación "
+      },
+      {
+        "userId": 964963,
+        "timestamp": 1682971358376,
+        "oldValue": "Etiqueta de la Operación ",
+        "newValue": "Etiqueta de la Operación",
+        "explanation": null
       }
     ]
   },
   "tickMarks": {
-    "value": "Marcas ",
+    "value": "Marcas",
     "history": [
       {
         "userId": 282036,
         "timestamp": 1613012970994,
         "oldValue": "",
         "newValue": "Marcas "
+      },
+      {
+        "userId": 964963,
+        "timestamp": 1682971358376,
+        "oldValue": "Marcas ",
+        "newValue": "Marcas",
+        "explanation": null
       }
     ]
   },
@@ -310,6 +331,94 @@
         "timestamp": 1613012970995,
         "oldValue": "",
         "newValue": "Simplificar"
+      }
+    ]
+  },
+  "currencyUnits": {
+    "value": "$",
+    "history": [
+      {
+        "userId": 964963,
+        "timestamp": 1682971358376,
+        "oldValue": "",
+        "newValue": "$"
+      }
+    ]
+  },
+  "currencyValuePattern": {
+    "value": "{{sign}}{{currencyUnits}}{{value}}",
+    "history": [
+      {
+        "userId": 964963,
+        "timestamp": 1682971358376,
+        "oldValue": "",
+        "newValue": "{{sign}}{{currencyUnits}}{{value}}"
+      }
+    ]
+  },
+  "netWorthWithCurrencyPattern": {
+    "value": "{{netWorthString}} ({{currencyUnits}})",
+    "history": [
+      {
+        "userId": 964963,
+        "timestamp": 1682971358376,
+        "oldValue": "",
+        "newValue": "{{netWorthString}} ({{currencyUnits}})"
+      }
+    ]
+  },
+  "totalCurrencyPattern": {
+    "value": "{{totalString}} = {{sign}}{{currencyUnits}}{{totalValue}}",
+    "history": [
+      {
+        "userId": 964963,
+        "timestamp": 1682971358376,
+        "oldValue": "",
+        "newValue": "{{totalString}} = {{sign}}{{currencyUnits}}{{totalValue}}"
+      }
+    ]
+  },
+  "totalValuePattern": {
+    "value": "{{totalString}} = {{totalValue}}",
+    "history": [
+      {
+        "userId": 964963,
+        "timestamp": 1682971358376,
+        "oldValue": "",
+        "newValue": "{{totalString}} = {{totalValue}}"
+      }
+    ]
+  },
+  "addRemoveZeroCurrencyPattern": {
+    "value": "{{addOrRemove}} {{currencyUnits}}0",
+    "history": [
+      {
+        "userId": 964963,
+        "timestamp": 1682971358376,
+        "oldValue": "",
+        "newValue": "{{addOrRemove}} {{currencyUnits}}0"
+      }
+    ]
+  },
+  "addRemoveZeroPattern": {
+    "value": "{{addOrRemove}} 0",
+    "history": [
+      {
+        "userId": 964963,
+        "timestamp": 1682971358376,
+        "oldValue": "",
+        "newValue": "{{addOrRemove}} 0"
+      }
+    ]
+  },
+  "addRemovePositiveNegativePattern": {
+    "value": "{{addOrRemove}} {{positiveOrNegative}} {{value}}",
+    "history": [
+      {
+        "userId": 964963,
+        "timestamp": 1682971358376,
+        "oldValue": "",
+        "newValue": "{{addOrRemove}} {{positiveOrNegative}} {{value}}"
       }
     ]
   }
