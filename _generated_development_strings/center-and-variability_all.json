@@ -2606,6 +2606,15 @@
     "rangeDescription": {
       "value": "Range is the distance between the maximum and minimum data points."
     },
+    "iqrDescription": {
+      "value": "IQR is the middle 50% of the data = Q3 - Q1"
+    },
+    "iqrDistances": {
+      "value": "Distances:"
+    },
+    "iqrCalculationPattern": {
+      "value": "IQR = {{q3}} - {{q1}} = {{iqr}} meters"
+    },
     "madDescription": {
       "value": "MAD is the average distance each data point is from the mean."
     },
@@ -2620,12 +2629,6 @@
     },
     "rangeCalculationResultPattern": {
       "value": "Range = {{range}} meters"
-    },
-    "iqrDistances": {
-      "value": "Distances:"
-    },
-    "iqrCalculationPattern": {
-      "value": "IQR = {{q3}} - {{q1}} = {{iqr}} meters"
     },
     "needAtLeastOneKick": {
       "value": "Need at least one kick"
