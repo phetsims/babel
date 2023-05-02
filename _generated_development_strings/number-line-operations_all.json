@@ -1178,13 +1178,13 @@
       "value": "Fichas"
     },
     "operationDescriptions": {
-      "value": "Descripción de las Operaciones "
+      "value": "Descripción de las Operaciones"
     },
     "operationLabels": {
-      "value": "Etiqueta de la Operación "
+      "value": "Etiqueta de la Operación"
     },
     "tickMarks": {
-      "value": "Marcas "
+      "value": "Marcas"
     },
     "positives": {
       "value": "Positivos"
@@ -1257,6 +1257,30 @@
     },
     "simplify": {
       "value": "Simplificar"
+    },
+    "currencyUnits": {
+      "value": "$"
+    },
+    "currencyValuePattern": {
+      "value": "{{sign}}{{currencyUnits}}{{value}}"
+    },
+    "netWorthWithCurrencyPattern": {
+      "value": "{{netWorthString}} ({{currencyUnits}})"
+    },
+    "totalCurrencyPattern": {
+      "value": "{{totalString}} = {{sign}}{{currencyUnits}}{{totalValue}}"
+    },
+    "totalValuePattern": {
+      "value": "{{totalString}} = {{totalValue}}"
+    },
+    "addRemoveZeroCurrencyPattern": {
+      "value": "{{addOrRemove}} {{currencyUnits}}0"
+    },
+    "addRemoveZeroPattern": {
+      "value": "{{addOrRemove}} 0"
+    },
+    "addRemovePositiveNegativePattern": {
+      "value": "{{addOrRemove}} {{positiveOrNegative}} {{value}}"
     }
   },
   "es_PE": {
