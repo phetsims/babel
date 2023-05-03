@@ -804,7 +804,7 @@
     ]
   },
   "updates.offline": {
-    "value": "Не може да се обнови",
+    "value": "Неуспешна проверка за обновления.\n\nНе може да се обнови",
     "history": [
       {
         "userId": 374709,
@@ -965,6 +965,13 @@
         "timestamp": 1683033550530,
         "oldValue": "\n\nНе може да се обнови",
         "newValue": "Не може да се обнови",
+        "explanation": null
+      },
+      {
+        "userId": 1145192,
+        "timestamp": 1683141307741,
+        "oldValue": "Не може да се обнови",
+        "newValue": "Неуспешна проверка за обновления.\n\nНе може да се обнови",
         "explanation": null
       }
     ]
@@ -1217,13 +1224,30 @@
     ]
   },
   "simTitleWithScreenNamePattern": {
-    "value": "{{simName}} — {{screenName}}",
+    "value": "",
     "history": [
       {
         "userId": null,
         "timestamp": 1683033550530,
         "oldValue": "",
         "newValue": "{{simName}} — {{screenName}}"
+      },
+      {
+        "userId": 1145192,
+        "timestamp": 1683141307741,
+        "oldValue": "{{simName}} — {{screenName}}",
+        "newValue": ""
+      }
+    ]
+  },
+  "credits.soundDesign": {
+    "value": "Аудио режисьор: {0}",
+    "history": [
+      {
+        "userId": 1145192,
+        "timestamp": 1683141307741,
+        "oldValue": "",
+        "newValue": "Аудио режисьор: {0}"
       }
     ]
   }
