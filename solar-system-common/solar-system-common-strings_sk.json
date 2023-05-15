@@ -66,13 +66,20 @@
     ]
   },
   "pattern.velocityValueUnits": {
-    "value": "v = {{value}} {{units}}",
+    "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
     "history": [
       {
         "userId": 134140,
         "timestamp": 1670365141523,
         "oldValue": "",
         "newValue": "v = {{value}} {{units}}"
+      },
+      {
+        "userId": 134140,
+        "timestamp": 1684187143261,
+        "oldValue": "v = {{value}} {{units}}",
+        "newValue": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
+        "explanation": null
       }
     ]
   },
@@ -128,6 +135,39 @@
         "timestamp": 1670365141523,
         "oldValue": "",
         "newValue": "Trajektória"
+      }
+    ]
+  },
+  "offscaleMessage": {
+    "value": "Niektoré vektory sily sú príliš malé na zobrazenie.",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1684187143261,
+        "oldValue": "",
+        "newValue": "Niektoré vektory sily sú príliš malé na zobrazenie."
+      }
+    ]
+  },
+  "zoom": {
+    "value": "Lupa:",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1684187143261,
+        "oldValue": "",
+        "newValue": "Lupa:"
+      }
+    ]
+  },
+  "speed": {
+    "value": "Rýchlosť (km/s)",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1684187143261,
+        "oldValue": "",
+        "newValue": "Rýchlosť (km/s)"
       }
     ]
   }
