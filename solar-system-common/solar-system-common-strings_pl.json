@@ -55,13 +55,20 @@
     ]
   },
   "pattern.velocityValueUnits": {
-    "value": "|v| = {{value}} {{units}}",
+    "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
     "history": [
       {
         "userId": 196556,
         "timestamp": 1670316713977,
         "oldValue": "",
         "newValue": "|v| = {{value}} {{units}}"
+      },
+      {
+        "userId": 196556,
+        "timestamp": 1684246876849,
+        "oldValue": "|v| = {{value}} {{units}}",
+        "newValue": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
+        "explanation": null
       }
     ]
   },
@@ -128,6 +135,39 @@
         "timestamp": 1678466705737,
         "oldValue": "",
         "newValue": "{{value}} {{units}}"
+      }
+    ]
+  },
+  "offscaleMessage": {
+    "value": "Niektóre wektory siły są zbyt małe, aby je wyświetlić.",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1684246876849,
+        "oldValue": "",
+        "newValue": "Niektóre wektory siły są zbyt małe, aby je wyświetlić."
+      }
+    ]
+  },
+  "zoom": {
+    "value": "Zoom:",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1684246876849,
+        "oldValue": "",
+        "newValue": "Zoom:"
+      }
+    ]
+  },
+  "speed": {
+    "value": "Szybkość (km/s)",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1684246876849,
+        "oldValue": "",
+        "newValue": "Szybkość (km/s)"
       }
     ]
   }
