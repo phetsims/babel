@@ -33,13 +33,20 @@
     ]
   },
   "clear": {
-    "value": "Netejar",
+    "value": "Neteja",
     "history": [
       {
         "userId": 505044,
         "timestamp": 1670787392530,
         "oldValue": "",
         "newValue": "Netejar"
+      },
+      {
+        "userId": 936741,
+        "timestamp": 1684213829751,
+        "oldValue": "Netejar",
+        "newValue": "Neteja",
+        "explanation": null
       }
     ]
   },
@@ -66,13 +73,20 @@
     ]
   },
   "pattern.velocityValueUnits": {
-    "value": "|v| = {{value}} {{units}}",
+    "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
     "history": [
       {
         "userId": 505044,
         "timestamp": 1670787392530,
         "oldValue": "",
         "newValue": "|v| = {{value}} {{units}}"
+      },
+      {
+        "userId": 936741,
+        "timestamp": 1684213829751,
+        "oldValue": "|v| = {{value}} {{units}}",
+        "newValue": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
+        "explanation": null
       }
     ]
   },
@@ -88,24 +102,38 @@
     ]
   },
   "measuringTape": {
-    "value": "Cinta Mètrica",
+    "value": "Cinta mètrica",
     "history": [
       {
         "userId": 505044,
         "timestamp": 1670787392530,
         "oldValue": "",
         "newValue": "Cinta Mètrica"
+      },
+      {
+        "userId": 936741,
+        "timestamp": 1684213829751,
+        "oldValue": "Cinta Mètrica",
+        "newValue": "Cinta mètrica",
+        "explanation": null
       }
     ]
   },
   "gravityForce": {
-    "value": "Força Gravitatòria",
+    "value": "Força gravitatòria",
     "history": [
       {
         "userId": 505044,
         "timestamp": 1670787392530,
         "oldValue": "",
         "newValue": "Força Gravitatòria"
+      },
+      {
+        "userId": 936741,
+        "timestamp": 1684213829751,
+        "oldValue": "Força Gravitatòria",
+        "newValue": "Força gravitatòria",
+        "explanation": null
       }
     ]
   },
@@ -128,6 +156,39 @@
         "timestamp": 1670787392530,
         "oldValue": "",
         "newValue": "Trajectòria"
+      }
+    ]
+  },
+  "offscaleMessage": {
+    "value": "Alguns vectors de força són massa petits per mostrar-se.",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1684213829751,
+        "oldValue": "",
+        "newValue": "Alguns vectors de força són massa petits per mostrar-se."
+      }
+    ]
+  },
+  "zoom": {
+    "value": "Zoom:",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1684213829751,
+        "oldValue": "",
+        "newValue": "Zoom:"
+      }
+    ]
+  },
+  "speed": {
+    "value": "Velocitat (km/s)",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1684213829751,
+        "oldValue": "",
+        "newValue": "Velocitat (km/s)"
       }
     ]
   }
