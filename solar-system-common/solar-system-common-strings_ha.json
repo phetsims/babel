@@ -66,13 +66,20 @@
     ]
   },
   "pattern.velocityValueUnits": {
-    "value": "|v| = {{value}}{{units}}",
+    "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
     "history": [
       {
         "userId": 945049,
         "timestamp": 1670316368292,
         "oldValue": "",
         "newValue": "|v| = {{value}}{{units}}"
+      },
+      {
+        "userId": 945049,
+        "timestamp": 1684250007284,
+        "oldValue": "|v| = {{value}}{{units}}",
+        "newValue": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
+        "explanation": null
       }
     ]
   },
@@ -128,6 +135,39 @@
         "timestamp": 1670316368292,
         "oldValue": "",
         "newValue": "Hanya"
+      }
+    ]
+  },
+  "offscaleMessage": {
+    "value": "Wasu hotonan ba”a iya ganinsu saboda zamansu Ƙanƙana",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1684250007284,
+        "oldValue": "",
+        "newValue": "Wasu hotonan ba”a iya ganinsu saboda zamansu Ƙanƙana"
+      }
+    ]
+  },
+  "zoom": {
+    "value": "Ƙara girma",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1684250007284,
+        "oldValue": "",
+        "newValue": "Ƙara girma"
+      }
+    ]
+  },
+  "speed": {
+    "value": "Gudu",
+    "history": [
+      {
+        "userId": 945049,
+        "timestamp": 1684250007284,
+        "oldValue": "",
+        "newValue": "Gudu"
       }
     ]
   }
