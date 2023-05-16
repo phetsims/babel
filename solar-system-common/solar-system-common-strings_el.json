@@ -66,13 +66,20 @@
     ]
   },
   "pattern.velocityValueUnits": {
-    "value": "|v| = {{value}} {{units}}",
+    "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
     "history": [
       {
         "userId": 146870,
         "timestamp": 1670306940061,
         "oldValue": "",
         "newValue": "|v| = {{value}} {{units}}"
+      },
+      {
+        "userId": 146870,
+        "timestamp": 1684214336724,
+        "oldValue": "|v| = {{value}} {{units}}",
+        "newValue": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
+        "explanation": null
       }
     ]
   },
@@ -128,6 +135,39 @@
         "timestamp": 1670306940061,
         "oldValue": "",
         "newValue": "Τροχιά"
+      }
+    ]
+  },
+  "offscaleMessage": {
+    "value": "Ορισμένα διανύσματα δύναμης είναι πολύ μικρά για να εμφανιστούν.",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1684214336724,
+        "oldValue": "",
+        "newValue": "Ορισμένα διανύσματα δύναμης είναι πολύ μικρά για να εμφανιστούν."
+      }
+    ]
+  },
+  "zoom": {
+    "value": "Εστίαση:",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1684214336724,
+        "oldValue": "",
+        "newValue": "Εστίαση:"
+      }
+    ]
+  },
+  "speed": {
+    "value": "Ταχύτητα (km/s)",
+    "history": [
+      {
+        "userId": 146870,
+        "timestamp": 1684214336724,
+        "oldValue": "",
+        "newValue": "Ταχύτητα (km/s)"
       }
     ]
   }
