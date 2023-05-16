@@ -133,13 +133,53 @@
     ]
   },
   "pattern.velocityValueUnits": {
-    "value": "|v| = {{value}} {{units}}",
+    "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
     "history": [
       {
         "userId": null,
         "timestamp": 1681967726858,
         "oldValue": "",
         "newValue": "|v| = {{value}} {{units}}"
+      },
+      {
+        "userId": 871615,
+        "timestamp": 1684265056108,
+        "oldValue": "|v| = {{value}} {{units}}",
+        "newValue": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
+        "explanation": null
+      }
+    ]
+  },
+  "offscaleMessage": {
+    "value": "Certains vecteurs force sont trop petits pour être affichés",
+    "history": [
+      {
+        "userId": 871615,
+        "timestamp": 1684265056108,
+        "oldValue": "",
+        "newValue": "Certains vecteurs force sont trop petits pour être affichés"
+      }
+    ]
+  },
+  "zoom": {
+    "value": "Zoom:",
+    "history": [
+      {
+        "userId": 871615,
+        "timestamp": 1684265056108,
+        "oldValue": "",
+        "newValue": "Zoom:"
+      }
+    ]
+  },
+  "speed": {
+    "value": "Vitesse (km/s)",
+    "history": [
+      {
+        "userId": 871615,
+        "timestamp": 1684265056108,
+        "oldValue": "",
+        "newValue": "Vitesse (km/s)"
       }
     ]
   }
