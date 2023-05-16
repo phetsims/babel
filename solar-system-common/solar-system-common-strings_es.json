@@ -126,13 +126,20 @@
     ]
   },
   "pattern.labelUnits": {
-    "value": "pattern.labelUnits",
+    "value": "{{value}} {{units}}",
     "history": [
       {
         "userId": 964963,
         "timestamp": 1682974048276,
         "oldValue": "",
         "newValue": "pattern.labelUnits"
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1684270111081,
+        "oldValue": "pattern.labelUnits",
+        "newValue": "{{value}} {{units}}",
+        "explanation": null
       }
     ]
   },
@@ -148,13 +155,20 @@
     ]
   },
   "pattern.velocityValueUnits": {
-    "value": "pattern.velocityValueUnits",
+    "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
     "history": [
       {
         "userId": 964963,
         "timestamp": 1682974048276,
         "oldValue": "",
         "newValue": "pattern.velocityValueUnits"
+      },
+      {
+        "userId": 282036,
+        "timestamp": 1684270111081,
+        "oldValue": "pattern.velocityValueUnits",
+        "newValue": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
+        "explanation": null
       }
     ]
   }
