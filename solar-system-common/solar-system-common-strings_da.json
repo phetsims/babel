@@ -66,13 +66,20 @@
     ]
   },
   "pattern.velocityValueUnits": {
-    "value": "|v| = {{value}} {{units}}",
+    "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1670291837925,
         "oldValue": "",
         "newValue": "|v| = {{value}} {{units}}"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1684203349069,
+        "oldValue": "|v| = {{value}} {{units}}",
+        "newValue": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
+        "explanation": null
       }
     ]
   },
@@ -128,6 +135,39 @@
         "timestamp": 1670291837926,
         "oldValue": "",
         "newValue": "Bane"
+      }
+    ]
+  },
+  "offscaleMessage": {
+    "value": "Nogle kraftvektorer er for små til at blive vist.",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1684203349069,
+        "oldValue": "",
+        "newValue": "Nogle kraftvektorer er for små til at blive vist."
+      }
+    ]
+  },
+  "zoom": {
+    "value": "Zoom:",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1684203349069,
+        "oldValue": "",
+        "newValue": "Zoom:"
+      }
+    ]
+  },
+  "speed": {
+    "value": "Fart (km/s)",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1684203349069,
+        "oldValue": "",
+        "newValue": "Fart (km/s)"
       }
     ]
   }
