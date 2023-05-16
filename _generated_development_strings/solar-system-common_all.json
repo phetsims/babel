@@ -150,7 +150,7 @@
       "value": "anys"
     },
     "clear": {
-      "value": "Netejar"
+      "value": "Neteja"
     },
     "units.AU": {
       "value": "UA"
@@ -159,22 +159,31 @@
       "value": "km/s"
     },
     "pattern.velocityValueUnits": {
-      "value": "|v| = {{value}} {{units}}"
+      "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}"
     },
     "grid": {
       "value": "Graella"
     },
     "measuringTape": {
-      "value": "Cinta Mètrica"
+      "value": "Cinta mètrica"
     },
     "gravityForce": {
-      "value": "Força Gravitatòria"
+      "value": "Força gravitatòria"
     },
     "velocity": {
       "value": "Velocitat"
     },
     "path": {
       "value": "Trajectòria"
+    },
+    "offscaleMessage": {
+      "value": "Alguns vectors de força són massa petits per mostrar-se."
+    },
+    "zoom": {
+      "value": "Zoom:"
+    },
+    "speed": {
+      "value": "Velocitat (km/s)"
     }
   },
   "cs": {
@@ -220,7 +229,7 @@
       "value": "km/s"
     },
     "pattern.velocityValueUnits": {
-      "value": "|v| = {{value}} {{units}}"
+      "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}"
     },
     "grid": {
       "value": "Tern"
@@ -236,6 +245,15 @@
     },
     "path": {
       "value": "Bane"
+    },
+    "offscaleMessage": {
+      "value": "Nogle kraftvektorer er for små til at blive vist."
+    },
+    "zoom": {
+      "value": "Zoom:"
+    },
+    "speed": {
+      "value": "Fart (km/s)"
     }
   },
   "de": {
@@ -296,7 +314,7 @@
       "value": "χμ./σ."
     },
     "pattern.velocityValueUnits": {
-      "value": "|v| = {{value}} {{units}}"
+      "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}"
     },
     "grid": {
       "value": "Πλέγμα"
@@ -312,6 +330,15 @@
     },
     "path": {
       "value": "Τροχιά"
+    },
+    "offscaleMessage": {
+      "value": "Ορισμένα διανύσματα δύναμης είναι πολύ μικρά για να εμφανιστούν."
+    },
+    "zoom": {
+      "value": "Εστίαση:"
+    },
+    "speed": {
+      "value": "Ταχύτητα (km/s)"
     }
   },
   "es": {
@@ -410,7 +437,7 @@
       "value": "km/s"
     },
     "pattern.velocityValueUnits": {
-      "value": "|v| = {{value}} {{units}}"
+      "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}"
     },
     "grid": {
       "value": "Sarea"
@@ -426,6 +453,15 @@
     },
     "path": {
       "value": "Bidea"
+    },
+    "offscaleMessage": {
+      "value": "Indar-bektore batzuk txikiegiak dira bistaratzeko."
+    },
+    "zoom": {
+      "value": "Zoom:"
+    },
+    "speed": {
+      "value": "Abiadura (km/s)"
     }
   },
   "fa": {
@@ -1049,10 +1085,22 @@
       "value": "Força Gravitacional"
     },
     "velocity": {
-      "value": "Velocidade"
+      "value": "Vetor Velocidade"
     },
     "path": {
       "value": "Caminho"
+    },
+    "offscaleMessage": {
+      "value": "Alguns vetores de força são muito pequenos para serem exibidos."
+    },
+    "units.kms": {
+      "value": "km/s"
+    },
+    "V": {
+      "value": "V"
+    },
+    "speed": {
+      "value": "Valor da Velocidade (km/s)"
     }
   },
   "ro": {
@@ -1113,7 +1161,7 @@
       "value": "km/s"
     },
     "pattern.velocityValueUnits": {
-      "value": "v = {{value}} {{units}}"
+      "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}"
     },
     "grid": {
       "value": "Mriežka"
@@ -1129,6 +1177,15 @@
     },
     "path": {
       "value": "Trajektória"
+    },
+    "offscaleMessage": {
+      "value": "Niektoré vektory sily sú príliš malé na zobrazenie."
+    },
+    "zoom": {
+      "value": "Lupa:"
+    },
+    "speed": {
+      "value": "Rýchlosť (km/s)"
     }
   },
   "sl": {
@@ -1189,10 +1246,16 @@
       "value": "сила гравитације"
     },
     "velocity": {
-      "value": "брзина"
+      "value": "вектор брзине"
     },
     "path": {
       "value": "путања"
+    },
+    "offscaleMessage": {
+      "value": "Неки вектори силе су премали за приказ."
+    },
+    "speed": {
+      "value": "брзина (km/s)"
     }
   },
   "st": {
@@ -1430,7 +1493,7 @@
       "value": "km/s"
     },
     "pattern.velocityValueUnits": {
-      "value": "|v| = {{value}} {{units}}"
+      "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}"
     },
     "grid": {
       "value": "Lưới"
@@ -1446,6 +1509,15 @@
     },
     "path": {
       "value": "Quỹ đạo"
+    },
+    "offscaleMessage": {
+      "value": "Lực quá lớn nên không thể hiển thị"
+    },
+    "zoom": {
+      "value": "Zoom:"
+    },
+    "speed": {
+      "value": "Tốc độ (km/s)"
     }
   },
   "zh_TW": {
