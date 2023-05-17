@@ -370,13 +370,22 @@
       "value": "V"
     },
     "pattern.labelUnits": {
-      "value": "pattern.labelUnits"
+      "value": "{{value}} {{units}}"
     },
     "units.kms": {
-      "value": "units.kms"
+      "value": "km/s"
     },
     "pattern.velocityValueUnits": {
-      "value": "pattern.velocityValueUnits"
+      "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}"
+    },
+    "offscaleMessage": {
+      "value": "Algunos vectores de fuerza son demasiado pequeños para mostrarlos."
+    },
+    "zoom": {
+      "value": "Zoom:"
+    },
+    "speed": {
+      "value": "Rapidez (km/s)"
     }
   },
   "es_PE": {
@@ -537,7 +546,16 @@
       "value": "{{value}} {{units}}"
     },
     "pattern.velocityValueUnits": {
-      "value": "|v| = {{value}} {{units}}"
+      "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}"
+    },
+    "offscaleMessage": {
+      "value": "Certains vecteurs force sont trop petits pour être affichés"
+    },
+    "zoom": {
+      "value": "Zoom:"
+    },
+    "speed": {
+      "value": "Vitesse (km/s)"
     }
   },
   "gu": {
@@ -598,7 +616,7 @@
       "value": "km/s"
     },
     "pattern.velocityValueUnits": {
-      "value": "|v| = {{value}}{{units}}"
+      "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}"
     },
     "grid": {
       "value": "Layukka masu gida-gida"
@@ -614,6 +632,15 @@
     },
     "path": {
       "value": "Hanya"
+    },
+    "offscaleMessage": {
+      "value": "Wasu hotonan ba”a iya ganinsu saboda zamansu Ƙanƙana"
+    },
+    "zoom": {
+      "value": "Ƙara girma"
+    },
+    "speed": {
+      "value": "Gudu"
     }
   },
   "hr": {
@@ -817,7 +844,7 @@
       "value": "יחידות אסטרונומיות"
     },
     "units.kms": {
-      "value": "קילומטרים לשניה"
+      "value": "קילומטרים לשנייה"
     },
     "grid": {
       "value": "רשת"
@@ -833,6 +860,21 @@
     },
     "path": {
       "value": "מסלול"
+    },
+    "offscaleMessage": {
+      "value": "חלק מווקטורים יכולים להיות קטנים מדי להצגה"
+    },
+    "zoom": {
+      "value": "התקרבות/התרחקות"
+    },
+    "pattern.labelUnits": {
+      "value": "{{value}} {{units}}"
+    },
+    "pattern.velocityValueUnits": {
+      "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}"
+    },
+    "speed": {
+      "value": "מהירות (ק\"מ לשנייה)"
     }
   },
   "ko": {
@@ -1044,7 +1086,7 @@
       "value": "km/s"
     },
     "pattern.velocityValueUnits": {
-      "value": "|v| = {{value}} {{units}}"
+      "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}"
     },
     "grid": {
       "value": "siatka"
@@ -1063,6 +1105,15 @@
     },
     "pattern.labelUnits": {
       "value": "{{value}} {{units}}"
+    },
+    "offscaleMessage": {
+      "value": "Niektóre wektory siły są zbyt małe, aby je wyświetlić."
+    },
+    "zoom": {
+      "value": "Zoom:"
+    },
+    "speed": {
+      "value": "Szybkość (km/s)"
     }
   },
   "pt_BR": {
@@ -1101,6 +1152,15 @@
     },
     "speed": {
       "value": "Valor da Velocidade (km/s)"
+    },
+    "zoom": {
+      "value": "Ampliar:"
+    },
+    "pattern.labelUnits": {
+      "value": "{{value}} {{units}}"
+    },
+    "pattern.velocityValueUnits": {
+      "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}"
     }
   },
   "ro": {
