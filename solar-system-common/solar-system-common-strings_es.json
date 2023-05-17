@@ -144,13 +144,20 @@
     ]
   },
   "units.kms": {
-    "value": "units.kms",
+    "value": "km/s",
     "history": [
       {
         "userId": 964963,
         "timestamp": 1682974048276,
         "oldValue": "",
         "newValue": "units.kms"
+      },
+      {
+        "userId": 964963,
+        "timestamp": 1684305362477,
+        "oldValue": "units.kms",
+        "newValue": "km/s",
+        "explanation": null
       }
     ]
   },
@@ -169,6 +176,39 @@
         "oldValue": "pattern.velocityValueUnits",
         "newValue": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
         "explanation": null
+      }
+    ]
+  },
+  "offscaleMessage": {
+    "value": "Algunos vectores de fuerza son demasiado pequeños para mostrarlos.",
+    "history": [
+      {
+        "userId": 964963,
+        "timestamp": 1684305362477,
+        "oldValue": "",
+        "newValue": "Algunos vectores de fuerza son demasiado pequeños para mostrarlos."
+      }
+    ]
+  },
+  "zoom": {
+    "value": "Zoom:",
+    "history": [
+      {
+        "userId": 964963,
+        "timestamp": 1684305362477,
+        "oldValue": "",
+        "newValue": "Zoom:"
+      }
+    ]
+  },
+  "speed": {
+    "value": "Rapidez (km/s)",
+    "history": [
+      {
+        "userId": 964963,
+        "timestamp": 1684305362477,
+        "oldValue": "",
+        "newValue": "Rapidez (km/s)"
       }
     ]
   }
