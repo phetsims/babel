@@ -257,6 +257,113 @@
       "value": "Mənim Günəş Sistemim"
     }
   },
+  "bg": {
+    "screen.lab": {
+      "value": "Лаборатория"
+    },
+    "screen.intro": {
+      "value": "Въведение"
+    },
+    "followCenterOfMass": {
+      "value": "Следвай центъра на масите"
+    },
+    "dataPanel.bodies": {
+      "value": "Тела"
+    },
+    "dataPanel.moreData": {
+      "value": "Повече информация"
+    },
+    "unitsInfo.content": {
+      "value": "<b>Астрономическа единица (АЕ)</b> е средното разстояние между Слънцето и Земята. <b>1АЕ = 150 000 000km</b>"
+    },
+    "unitsInfo.content2": {
+      "value": "Масите на телата в симулацията варират между 1 Юпитерова маса и 1,5 Слънчеви маси.  Всички астрономически обекти проявяват едакво поведение в силни гравитационни полета, включително и малките планети, комети и астероиди."
+    },
+    "unitsInfo.content3": {
+      "value": "Поради огромният обхват от стойности в симулацията, векторите на гравитационните сили понякога могат да бъдат изобразени прекалено малки или прекалено големи. Можете да скалирате тези вектори като промените мащаба на симулацията."
+    },
+    "unitsInfo.title": {
+      "value": "Информация за величините"
+    },
+    "returnBodies": {
+      "value": "Върнете телата"
+    },
+    "pattern.labelParenthesesUnits": {
+      "value": "{{label}} ({{units}})"
+    },
+    "mass": {
+      "value": "Маса"
+    },
+    "dataPanel.mass": {
+      "value": "Маса"
+    },
+    "units.kg": {
+      "value": "10<sup>28</sup> kg"
+    },
+    "dataPanel.position": {
+      "value": "Позиция"
+    },
+    "dataPanel.velocity": {
+      "value": "Скорост"
+    },
+    "mode.sunAndPlanet": {
+      "value": "Слънце, Планета"
+    },
+    "mode.sunPlanetAndMoon": {
+      "value": "Слънце, Планета, Луна"
+    },
+    "mode.sunPlanetAndComet": {
+      "value": "Слънце, Планета, Комета"
+    },
+    "mode.trojanAsteroids": {
+      "value": "Троянски астероиди"
+    },
+    "mode.ellipses": {
+      "value": "Елипси"
+    },
+    "mode.hyperbolic": {
+      "value": "Хиперболи"
+    },
+    "mode.slingshot": {
+      "value": "Ефект на прашката"
+    },
+    "mode.doubleSlingshot": {
+      "value": "Двойна прашка"
+    },
+    "mode.binaryStarPlanet": {
+      "value": "Двойна звезда, Планета"
+    },
+    "mode.fourStarBallet": {
+      "value": "Четворна звездна система"
+    },
+    "mode.doubleDouble": {
+      "value": "Двойна от двойни"
+    },
+    "mode.custom": {
+      "value": "По избор"
+    },
+    "centerOfMass": {
+      "value": "Център на масите"
+    },
+    "dataPanel.X": {
+      "value": "x"
+    },
+    "dataPanel.Y": {
+      "value": "y"
+    },
+    "dataPanel.Vx": {
+      "value": "V<sub>x</sub>"
+    },
+    "dataPanel.Vy": {
+      "value": "V<sub>y</sub>"
+    },
+    "pattern.range": {
+      "value": "{{min}} to {{max}}"
+    },
+    "my-solar-system.title": {
+      "value": "Моята звездна система"
+    }
+  },
   "bs": {
     "screen.intro": {
       "value": "Uvod"
@@ -1592,19 +1699,19 @@
       "value": "Više podataka"
     },
     "mode.sunAndPlanet": {
-      "value": "Sunce i Planeta"
+      "value": "Sunce, Planet"
     },
     "mode.sunPlanetAndMoon": {
-      "value": "Sunce, Planeta i Mjesec"
+      "value": "Sunce, Planet i Mjesec"
     },
     "mode.sunPlanetAndComet": {
-      "value": "Sunce, Planeta i Kometa "
+      "value": "Sunce, Planet i Komet"
     },
     "mode.trojanAsteroids": {
       "value": "Trojanski asteroidi"
     },
     "mode.ellipses": {
-      "value": "Elipse "
+      "value": "Elipse"
     },
     "mode.hyperbolic": {
       "value": "Hiperbole"
@@ -1631,13 +1738,13 @@
       "value": "{{label}} ({{units}})"
     },
     "mass": {
-      "value": "Masa "
+      "value": "Masa"
     },
     "units.kg": {
       "value": "10<sup>28</sup> kg"
     },
     "centerOfMass": {
-      "value": "centar mase "
+      "value": "centar mase"
     },
     "dataPanel.X": {
       "value": "x"
@@ -1655,7 +1762,28 @@
       "value": "{{min}} to {{max}}"
     },
     "my-solar-system.title": {
-      "value": "Moj sunčev sustav "
+      "value": "Moj sunčev sustav"
+    },
+    "unitsInfo.content": {
+      "value": "<b>Napomena 1:</b> Astronomska jedinica (AU) iznosi oko 150 milijuna kilometara. To je prosječna udaljenost između Sunca i Zemlje."
+    },
+    "unitsInfo.content2": {
+      "value": "<b>Napomena 2:</b> Vrijednosti mase u ovoj simulaciji kreću se od 1 Jupiterove mase do 1,5 Sunčeve mase. Svi astronomski objekti pokazuju slično ponašanje pod jakim gravitacijskim poljem, uključujući manje planete, komete i asteroide."
+    },
+    "unitsInfo.content3": {
+      "value": "<b>Napomena 3:</b> Zbog velikog raspona vrijednosti u simulaciji, vektori gravitacijske sile ponekad mogu biti premali ili preveliki za prikaz. Vektori sile gravitacije mogu se mijenjati pomoću kontrole zuma."
+    },
+    "returnBodies": {
+      "value": "Return Bodies"
+    },
+    "dataPanel.mass": {
+      "value": "Masa"
+    },
+    "dataPanel.position": {
+      "value": "Pozicija"
+    },
+    "dataPanel.velocity": {
+      "value": "Brzina"
     }
   },
   "hu": {
