@@ -28,7 +28,7 @@
     ]
   },
   "units.years": {
-    "value": "godine ",
+    "value": "godine",
     "history": [
       {
         "userId": 641452,
@@ -41,6 +41,13 @@
         "timestamp": 1670576099081,
         "oldValue": "godina",
         "newValue": "godine "
+      },
+      {
+        "userId": 169574,
+        "timestamp": 1684477971046,
+        "oldValue": "godine ",
+        "newValue": "godine",
+        "explanation": null
       }
     ]
   },
@@ -90,13 +97,20 @@
     ]
   },
   "pattern.velocityValueUnits": {
-    "value": "|v| = {{value}} {{units}}",
+    "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
     "history": [
       {
         "userId": 710277,
         "timestamp": 1670576099081,
         "oldValue": "",
         "newValue": "|v| = {{value}} {{units}}"
+      },
+      {
+        "userId": 169574,
+        "timestamp": 1684477971046,
+        "oldValue": "|v| = {{value}} {{units}}",
+        "newValue": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
+        "explanation": null
       }
     ]
   },
@@ -157,7 +171,7 @@
     ]
   },
   "path": {
-    "value": "putanja ",
+    "value": "putanja",
     "history": [
       {
         "userId": 641452,
@@ -170,6 +184,46 @@
         "timestamp": 1670576099081,
         "oldValue": "Putanja",
         "newValue": "putanja "
+      },
+      {
+        "userId": 169574,
+        "timestamp": 1684477971046,
+        "oldValue": "putanja ",
+        "newValue": "putanja",
+        "explanation": null
+      }
+    ]
+  },
+  "offscaleMessage": {
+    "value": "Neki vektori sile premali su za prikaz.",
+    "history": [
+      {
+        "userId": 169574,
+        "timestamp": 1684477971046,
+        "oldValue": "",
+        "newValue": "Neki vektori sile premali su za prikaz."
+      }
+    ]
+  },
+  "zoom": {
+    "value": "Zoom:",
+    "history": [
+      {
+        "userId": 169574,
+        "timestamp": 1684477971046,
+        "oldValue": "",
+        "newValue": "Zoom:"
+      }
+    ]
+  },
+  "speed": {
+    "value": "Brzina(km/h)",
+    "history": [
+      {
+        "userId": 169574,
+        "timestamp": 1684477971046,
+        "oldValue": "",
+        "newValue": "Brzina(km/h)"
       }
     ]
   }
