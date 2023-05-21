@@ -66,13 +66,20 @@
     ]
   },
   "pattern.velocityValueUnits": {
-    "value": "|v| = {{value}} {{units}}",
+    "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
     "history": [
       {
         "userId": 183155,
         "timestamp": 1670307679910,
         "oldValue": "",
         "newValue": "|v| = {{value}} {{units}}"
+      },
+      {
+        "userId": 954258,
+        "timestamp": 1684688417283,
+        "oldValue": "|v| = {{value}} {{units}}",
+        "newValue": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
+        "explanation": null
       }
     ]
   },
@@ -128,6 +135,39 @@
         "timestamp": 1670307679910,
         "oldValue": "",
         "newValue": "Traiectorie"
+      }
+    ]
+  },
+  "offscaleMessage": {
+    "value": "O parte din vectorii forțelor sunt prea mici pentru a fi afișați",
+    "history": [
+      {
+        "userId": 954258,
+        "timestamp": 1684688417283,
+        "oldValue": "",
+        "newValue": "O parte din vectorii forțelor sunt prea mici pentru a fi afișați"
+      }
+    ]
+  },
+  "zoom": {
+    "value": "Zoom:",
+    "history": [
+      {
+        "userId": 954258,
+        "timestamp": 1684688417283,
+        "oldValue": "",
+        "newValue": "Zoom:"
+      }
+    ]
+  },
+  "speed": {
+    "value": "Viteza (km/s)",
+    "history": [
+      {
+        "userId": 954258,
+        "timestamp": 1684688417283,
+        "oldValue": "",
+        "newValue": "Viteza (km/s)"
       }
     ]
   }
