@@ -1,6 +1,6 @@
 {
   "key.enter": {
-    "value": "Enter",
+    "value": "Въведи",
     "history": [
       {
         "userId": 1070013,
@@ -27,6 +27,13 @@
         "timestamp": 1684419964002,
         "oldValue": "Въведи",
         "newValue": "Enter",
+        "explanation": null
+      },
+      {
+        "userId": 1145192,
+        "timestamp": 1684753385752,
+        "oldValue": "Enter",
+        "newValue": "Въведи",
         "explanation": null
       }
     ]
@@ -294,7 +301,7 @@
     ]
   },
   "keyboardHelpDialog.moveToNextItemOrGroup": {
-    "value": "Отиди на следващ обект",
+    "value": "Преминаване към следващия елемент или група",
     "history": [
       {
         "userId": null,
@@ -308,11 +315,18 @@
         "oldValue": "Отиди на следващия обект",
         "newValue": "Отиди на следващ обект",
         "explanation": null
+      },
+      {
+        "userId": 1145192,
+        "timestamp": 1684753385752,
+        "oldValue": "Отиди на следващ обект",
+        "newValue": "Преминаване към следващия елемент или група",
+        "explanation": null
       }
     ]
   },
   "keyboardHelpDialog.moveToPreviousItemOrGroup": {
-    "value": "Отиди на предходен обект",
+    "value": "Преминаване към предишен елемент или група",
     "history": [
       {
         "userId": null,
@@ -326,17 +340,31 @@
         "oldValue": "Отиди на предишния обект",
         "newValue": "Отиди на предходен обект",
         "explanation": null
+      },
+      {
+        "userId": 1145192,
+        "timestamp": 1684753385752,
+        "oldValue": "Отиди на предходен обект",
+        "newValue": "Преминаване към предишен елемент или група",
+        "explanation": null
       }
     ]
   },
   "keyboardHelpDialog.moveBetweenItemsInAGroup": {
-    "value": "Движи се между обектите",
+    "value": "Придвижване между елементи в група",
     "history": [
       {
         "userId": null,
         "timestamp": 1684413789427,
         "oldValue": "",
         "newValue": "Движи се между обектите"
+      },
+      {
+        "userId": 1145192,
+        "timestamp": 1684753385752,
+        "oldValue": "Движи се между обектите",
+        "newValue": "Придвижване между елементи в група",
+        "explanation": null
       }
     ]
   },
@@ -377,7 +405,7 @@
     ]
   },
   "keyboardHelpDialog.toggleCheckboxes": {
-    "value": "Маркирай квадратчето",
+    "value": "Превключете квадратчетата за отметка",
     "history": [
       {
         "userId": null,
@@ -390,6 +418,13 @@
         "timestamp": 1684415052205,
         "oldValue": "Маркирай кутийката",
         "newValue": "Маркирай квадратчето",
+        "explanation": null
+      },
+      {
+        "userId": 1145192,
+        "timestamp": 1684753385752,
+        "oldValue": "Маркирай квадратчето",
+        "newValue": "Превключете квадратчетата за отметка",
         "explanation": null
       }
     ]
@@ -746,7 +781,7 @@
     ]
   },
   "speed.normal": {
-    "value": "Средно",
+    "value": "Стандартно",
     "history": [
       {
         "userId": null,
@@ -759,6 +794,13 @@
         "timestamp": 1684415052205,
         "oldValue": "Нормално",
         "newValue": "Средно",
+        "explanation": null
+      },
+      {
+        "userId": 1145192,
+        "timestamp": 1684753385752,
+        "oldValue": "Средно",
+        "newValue": "Стандартно",
         "explanation": null
       }
     ]
@@ -870,6 +912,17 @@
         "timestamp": 1684753196913,
         "oldValue": "",
         "newValue": "-"
+      }
+    ]
+  },
+  "stopwatchValueUnitsPattern": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 1145192,
+        "timestamp": 1684753385752,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}"
       }
     ]
   }
