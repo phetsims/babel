@@ -3074,10 +3074,10 @@
       "value": "Πυκνότητα"
     },
     "densityReadout": {
-      "value": "Πυκνότητα (κ./λ.)"
+      "value": "Πυκνότητα (kg/L)"
     },
     "densityKgL": {
-      "value": "Πυκνότητα (κ./λ.)"
+      "value": "Πυκνότητα (kg/L)"
     },
     "material.densityP": {
       "value": "Πυκνότητα P"
@@ -3209,19 +3209,58 @@
       "value": "Ξύλο"
     },
     "kilogramsPattern": {
-      "value": "{{kilograms}} κ."
+      "value": "{{kilograms}} kg"
     },
     "litersPattern": {
-      "value": "{{liters}} λ."
+      "value": "{{liters}} L"
     },
     "newtonsPattern": {
       "value": "{{newtons}} N"
     },
     "kilogramsPerLiterPattern": {
-      "value": "{{value}} κ./λ."
+      "value": "{{value}} kg/L"
     },
     "blocks": {
       "value": "Υλικά"
+    },
+    "densityReadoutDecimetersCubed": {
+      "value": "Πυκνότητα (kg/dm<sup>3</sup>)"
+    },
+    "volumeUnits": {
+      "value": "Μονάδες όγκου:"
+    },
+    "liters": {
+      "value": "L"
+    },
+    "decimetersCubed": {
+      "value": "dm<sup>3</sup>"
+    },
+    "decimetersCubedPattern": {
+      "value": "{{decimetersCubed}} dm<sup>3</sup>"
+    },
+    "kilogramsPerDecimeterCubedPattern": {
+      "value": "{{value}} kg/dm<sup>3</sup>"
+    },
+    "material.densityA": {
+      "value": "Πυκνότητα Α"
+    },
+    "material.densityB": {
+      "value": "Πυκνότητα B"
+    },
+    "material.densityC": {
+      "value": "Πυκνότητα C"
+    },
+    "material.densityD": {
+      "value": "Πυκνότητα D"
+    },
+    "material.densityE": {
+      "value": "Πυκνότητα E"
+    },
+    "material.densityF": {
+      "value": "Πυκνότητα F"
+    },
+    "densityKgdm3": {
+      "value": "Πυκνότητα (kg/dm<sup>3</sup>)"
     }
   },
   "es": {
@@ -4472,7 +4511,7 @@
       "value": "Masse"
     },
     "material.name": {
-      "value": "Matériel"
+      "value": "Matériau"
     },
     "material.mercury": {
       "value": "Mercure"
@@ -4635,6 +4674,36 @@
     },
     "massLabel.d": {
       "value": "D"
+    },
+    "densityReadoutDecimetersCubed": {
+      "value": "Masse volumique (kg/dm<sup>3</sup>)"
+    },
+    "volumeUnits": {
+      "value": "Unités de volume"
+    },
+    "liters": {
+      "value": "L"
+    },
+    "material.densityA": {
+      "value": "Masse volumique A"
+    },
+    "material.densityB": {
+      "value": "Masse volumique B"
+    },
+    "material.densityC": {
+      "value": "Masse volumique C"
+    },
+    "material.densityD": {
+      "value": "Masse volumique D"
+    },
+    "material.densityE": {
+      "value": "Masse volumique E"
+    },
+    "material.densityF": {
+      "value": "Masse volumique F"
+    },
+    "densityKgdm3": {
+      "value": "Masse volumique (kg/dm<sup>3</sup>)"
     }
   },
   "gu": {
@@ -6367,6 +6436,45 @@
     },
     "massLabel.e": {
       "value": "E"
+    },
+    "densityReadoutDecimetersCubed": {
+      "value": "Densità (kg/dm<sup>3</sup>)"
+    },
+    "volumeUnits": {
+      "value": "Unità di volume:"
+    },
+    "liters": {
+      "value": "L"
+    },
+    "decimetersCubed": {
+      "value": "dm<sup>3</sup>"
+    },
+    "decimetersCubedPattern": {
+      "value": "{{decimetersCubed}} dm<sup>3</sup>"
+    },
+    "kilogramsPerDecimeterCubedPattern": {
+      "value": "{{value}} kg/dm<sup>3</sup>"
+    },
+    "material.densityA": {
+      "value": "Densità A"
+    },
+    "material.densityB": {
+      "value": "Densità B"
+    },
+    "material.densityC": {
+      "value": "Densità C"
+    },
+    "material.densityD": {
+      "value": "Densità D"
+    },
+    "material.densityE": {
+      "value": "Densità E"
+    },
+    "material.densityF": {
+      "value": "Densità F"
+    },
+    "densityKgdm3": {
+      "value": "Densità (kg/dm<sup>3</sup>)"
     }
   },
   "iw": {
@@ -6910,6 +7018,272 @@
     },
     "kilogramsPerLiterPattern": {
       "value": "{{value}} კგ/ლ"
+    }
+  },
+  "kn": {
+    "blockSet.sameMass": {
+      "value": "ಒಂದೇ ದೃವ್ಯರಾಶಿ"
+    },
+    "blockSet.sameVolume": {
+      "value": "ಒಂದೇ ಗಾತ್ರ"
+    },
+    "blockSet.sameDensity": {
+      "value": "ಒಂದೇ ಸಾಂದ್ರತೆ"
+    },
+    "blocks": {
+      "value": "Blocks"
+    },
+    "mass": {
+      "value": "ರಾಶಿ"
+    },
+    "kilogramsPattern": {
+      "value": "{{kilograms}} kg"
+    },
+    "volume": {
+      "value": "ಗಾತ್ರ"
+    },
+    "density": {
+      "value": "ಸಾಂದ್ರತೆ"
+    },
+    "densityReadout": {
+      "value": "ಸಾಂದ್ರತೆ (kg/L)"
+    },
+    "densityReadoutDecimetersCubed": {
+      "value": "ಸಾಂದ್ರತೆ (kg/dm<sup>3</sup>)"
+    },
+    "blockSet.set1": {
+      "value": "ಸೆಟ್ 1"
+    },
+    "blockSet.set2": {
+      "value": "ಸೆಟ್ 2"
+    },
+    "blockSet.set3": {
+      "value": "ಸೆಟ್ 3"
+    },
+    "blockSet.random": {
+      "value": "ಅನಿರ್ಧಿಷ್ಟ"
+    },
+    "densityTable": {
+      "value": "ಸಾಂದ್ರತೆ ಪಟ್ಟಿ"
+    },
+    "volumeUnits": {
+      "value": "ಗಾತ್ರ ಮಾನ"
+    },
+    "liters": {
+      "value": "ಲೀ"
+    },
+    "decimetersCubed": {
+      "value": "dm<sup>3</sup>"
+    },
+    "litersPattern": {
+      "value": "{{liters}} L"
+    },
+    "decimetersCubedPattern": {
+      "value": "{{decimetersCubed}} dm<sup>3</sup>"
+    },
+    "kilogramsPerLiterPattern": {
+      "value": "{{value}} kg/L"
+    },
+    "kilogramsPerDecimeterCubedPattern": {
+      "value": "{{value}} kg/dm<sup>3</sup>"
+    },
+    "massLabel.1a": {
+      "value": "1A"
+    },
+    "massLabel.1b": {
+      "value": "1B"
+    },
+    "massLabel.1c": {
+      "value": "1C"
+    },
+    "massLabel.1d": {
+      "value": "1D"
+    },
+    "massLabel.1e": {
+      "value": "1E"
+    },
+    "massLabel.2a": {
+      "value": "2A"
+    },
+    "massLabel.2b": {
+      "value": "2B"
+    },
+    "massLabel.2c": {
+      "value": "2C"
+    },
+    "massLabel.2d": {
+      "value": "2D"
+    },
+    "massLabel.2e": {
+      "value": "2E"
+    },
+    "massLabel.3a": {
+      "value": "3A"
+    },
+    "massLabel.3b": {
+      "value": "3B"
+    },
+    "massLabel.3c": {
+      "value": "3C"
+    },
+    "massLabel.3d": {
+      "value": "3D"
+    },
+    "massLabel.3e": {
+      "value": "3E"
+    },
+    "massLabel.a": {
+      "value": "A"
+    },
+    "massLabel.b": {
+      "value": "B"
+    },
+    "massLabel.c": {
+      "value": "C"
+    },
+    "massLabel.d": {
+      "value": "D"
+    },
+    "massLabel.e": {
+      "value": "E"
+    },
+    "newtonsPattern": {
+      "value": "{{newtons}} N"
+    },
+    "massLabel.primary": {
+      "value": "A"
+    },
+    "massLabel.secondary": {
+      "value": "B"
+    },
+    "material.custom": {
+      "value": "Custom"
+    },
+    "material.aluminum": {
+      "value": "ಅಲ್ಯುಮಿನಿಯಂ"
+    },
+    "material.apple": {
+      "value": "ಸೇಬು"
+    },
+    "material.brick": {
+      "value": "ಇಟ್ಟಿಗೆ"
+    },
+    "material.cement": {
+      "value": "ಸಿಮೆಂಟ್"
+    },
+    "material.copper": {
+      "value": "ತಾಮ್ರ"
+    },
+    "material.diamond": {
+      "value": "ವಜ್ರ"
+    },
+    "material.glass": {
+      "value": "ಗಾಜು"
+    },
+    "material.gold": {
+      "value": "ಚಿನ್ನ"
+    },
+    "material.human": {
+      "value": "ಮಾನವ"
+    },
+    "material.ice": {
+      "value": "ಮಂಜುಗಡ್ಡೆ"
+    },
+    "material.lead": {
+      "value": "ಸೀಸ"
+    },
+    "material.platinum": {
+      "value": "ಪ್ಲಾಟಿನಂ"
+    },
+    "material.pyrite": {
+      "value": "ಪೈರೈಟ್"
+    },
+    "material.silver": {
+      "value": "ಬೆಳ್ಳಿ"
+    },
+    "material.steel": {
+      "value": "ಉಕ್ಕು"
+    },
+    "material.styrofoam": {
+      "value": "ಸ್ಟಿರೋಫೋಮ್"
+    },
+    "material.tantalum": {
+      "value": "ಟಾಂಟಲಂ"
+    },
+    "material.titanium": {
+      "value": "ಟೈಟಾನಿಯಮ್"
+    },
+    "material.wood": {
+      "value": "ಮರ"
+    },
+    "material.air": {
+      "value": "ಗಾಳಿ"
+    },
+    "material.densityA": {
+      "value": "ಸಾಂದ್ರತೆ A"
+    },
+    "material.densityB": {
+      "value": "ಸಾಂದ್ರತೆ B"
+    },
+    "material.densityC": {
+      "value": "ಸಾಂದ್ರತೆ C"
+    },
+    "material.densityD": {
+      "value": "ಸಾಂದ್ರತೆ D"
+    },
+    "material.densityE": {
+      "value": "ಸಾಂದ್ರತೆ E"
+    },
+    "material.densityF": {
+      "value": "ಸಾಂದ್ರತೆ F"
+    },
+    "material.gasoline": {
+      "value": "ಪೆಟ್ರೋಲ್"
+    },
+    "material.honey": {
+      "value": "ಜೇನು"
+    },
+    "material.mercury": {
+      "value": "Mercury"
+    },
+    "material.oil": {
+      "value": "ಎಣ್ಣೆ"
+    },
+    "material.sand": {
+      "value": "ಮರಳು"
+    },
+    "material.seawater": {
+      "value": "ಸಮುದ್ರದ ನೀರು"
+    },
+    "material.water": {
+      "value": "ನೀರು"
+    },
+    "average": {
+      "value": "ಸರಾಸರಿ"
+    },
+    "material.name": {
+      "value": "Material"
+    },
+    "densityKgL": {
+      "value": "ಸಾಂದ್ರತೆ (kg/L)"
+    },
+    "densityKgdm3": {
+      "value": "ಸಾಂದ್ರತೆ (kg/dm<sup>3</sup>)"
+    },
+    "gravity.custom": {
+      "value": "Custom"
+    },
+    "gravity.earth": {
+      "value": "ಭೂಮಿ"
+    },
+    "gravity.jupiter": {
+      "value": "ಗುರು ಗ್ರಹ"
+    },
+    "gravity.moon": {
+      "value": "ಚಂದ್ರ"
+    },
+    "gravity.planetX": {
+      "value": "ಗ್ರಹ X"
     }
   },
   "ko": {
@@ -9253,6 +9627,45 @@
     },
     "massLabel.e": {
       "value": "E"
+    },
+    "densityReadoutDecimetersCubed": {
+      "value": "Gęstość (kg/dm<sup>3</sup>)"
+    },
+    "volumeUnits": {
+      "value": "Jednostki objętości:"
+    },
+    "liters": {
+      "value": "l"
+    },
+    "decimetersCubed": {
+      "value": "dm<sup>3</sup>"
+    },
+    "decimetersCubedPattern": {
+      "value": "{{decimetersCubed}} dm<sup>3</sup>"
+    },
+    "kilogramsPerDecimeterCubedPattern": {
+      "value": "{{value}} kg/dm<sup>3</sup>"
+    },
+    "material.densityA": {
+      "value": "Gęstość A"
+    },
+    "material.densityB": {
+      "value": "Gęstość B"
+    },
+    "material.densityC": {
+      "value": "Gęstość C"
+    },
+    "material.densityD": {
+      "value": "Gęstość D"
+    },
+    "material.densityE": {
+      "value": "Gęstość E"
+    },
+    "material.densityF": {
+      "value": "Gęstość F"
+    },
+    "densityKgdm3": {
+      "value": "Gęstość (kg/dm<sup>3</sup>)"
     }
   },
   "pt": {
@@ -9891,7 +10304,7 @@
       "value": "Miere"
     },
     "material.human": {
-      "value": "Om "
+      "value": "Om"
     },
     "material.ice": {
       "value": "Gheață"
@@ -9988,6 +10401,45 @@
     },
     "kilogramsPerLiterPattern": {
       "value": "{{value}} kg/l"
+    },
+    "densityReadoutDecimetersCubed": {
+      "value": "Densitate (kg/dm<sup>3</sup>)"
+    },
+    "volumeUnits": {
+      "value": "Unități de volum:"
+    },
+    "liters": {
+      "value": "L"
+    },
+    "decimetersCubed": {
+      "value": "dm<sup>3</sup>"
+    },
+    "decimetersCubedPattern": {
+      "value": "{{decimetersCubed}} dm<sup>3</sup>"
+    },
+    "kilogramsPerDecimeterCubedPattern": {
+      "value": "{{value}} kg/dm<sup>3</sup>"
+    },
+    "material.densityA": {
+      "value": "Densitate A"
+    },
+    "material.densityB": {
+      "value": "Densitate B"
+    },
+    "material.densityC": {
+      "value": "Densitate C"
+    },
+    "material.densityD": {
+      "value": "Densitate D"
+    },
+    "material.densityE": {
+      "value": "Densitate E"
+    },
+    "material.densityF": {
+      "value": "Densitate F"
+    },
+    "densityKgdm3": {
+      "value": "Densitate (kg/dm<sup>3</sup>)"
     }
   },
   "ru": {
