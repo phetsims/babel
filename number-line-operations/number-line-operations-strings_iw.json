@@ -295,5 +295,104 @@
         "newValue": "פישוט"
       }
     ]
+  },
+  "currencyUnits": {
+    "value": "$",
+    "history": [
+      {
+        "userId": null,
+        "timestamp": 1686394024744,
+        "oldValue": "",
+        "newValue": "$"
+      }
+    ]
+  },
+  "netWorthWithCurrencyPattern": {
+    "value": "{{netWorthString}} ({{currencyUnits}})",
+    "history": [
+      {
+        "userId": null,
+        "timestamp": 1686394024744,
+        "oldValue": "",
+        "newValue": "{{netWorthString}} ({{currencyUnits}})"
+      }
+    ]
+  },
+  "totalCurrencyPattern": {
+    "value": "{{totalString}} = {{sign}}{{currencyUnits}}{{totalValue}}",
+    "history": [
+      {
+        "userId": null,
+        "timestamp": 1686394024744,
+        "oldValue": "",
+        "newValue": "{{totalString}} = {{sign}}{{currencyUnits}}{{totalValue}}"
+      }
+    ]
+  },
+  "totalValuePattern": {
+    "value": "{{totalString}} = {{totalValue}}",
+    "history": [
+      {
+        "userId": null,
+        "timestamp": 1686394024744,
+        "oldValue": "",
+        "newValue": "{{totalString}} = {{totalValue}}"
+      }
+    ]
+  },
+  "currencyValuePattern": {
+    "value": "{{sign}}{{currencyUnits}}{{value}}",
+    "history": [
+      {
+        "userId": null,
+        "timestamp": 1686394024744,
+        "oldValue": "",
+        "newValue": "{{sign}}{{currencyUnits}}{{value}}"
+      }
+    ]
+  },
+  "addRemoveZeroCurrencyPattern": {
+    "value": "{{addOrRemove}} {{currencyUnits}}0",
+    "history": [
+      {
+        "userId": null,
+        "timestamp": 1686394024744,
+        "oldValue": "",
+        "newValue": "{{addOrRemove}} {{currencyUnits}}0"
+      }
+    ]
+  },
+  "addRemoveAssetDebtPattern": {
+    "value": "{{addOrRemove}} {{assetOrDebt}} of {{currencyUnits}}{{value}}",
+    "history": [
+      {
+        "userId": null,
+        "timestamp": 1686394024744,
+        "oldValue": "",
+        "newValue": "{{addOrRemove}} {{assetOrDebt}} of {{currencyUnits}}{{value}}"
+      }
+    ]
+  },
+  "addRemoveZeroPattern": {
+    "value": "{{addOrRemove}} 0",
+    "history": [
+      {
+        "userId": null,
+        "timestamp": 1686394024744,
+        "oldValue": "",
+        "newValue": "{{addOrRemove}} 0"
+      }
+    ]
+  },
+  "addRemovePositiveNegativePattern": {
+    "value": "{{addOrRemove}} {{positiveOrNegative}} {{value}}",
+    "history": [
+      {
+        "userId": null,
+        "timestamp": 1686394024744,
+        "oldValue": "",
+        "newValue": "{{addOrRemove}} {{positiveOrNegative}} {{value}}"
+      }
+    ]
   }
 }
