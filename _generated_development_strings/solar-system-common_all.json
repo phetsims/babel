@@ -1662,7 +1662,7 @@
       "value": "km/s"
     },
     "pattern.velocityValueUnits": {
-      "value": "|v| = {{value}} {{units}}"
+      "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}"
     },
     "grid": {
       "value": "格線"
@@ -1678,6 +1678,15 @@
     },
     "path": {
       "value": "路徑"
+    },
+    "offscaleMessage": {
+      "value": "有些力的向量過小以至於無法顯示。"
+    },
+    "zoom": {
+      "value": "縮放："
+    },
+    "speed": {
+      "value": "速度（公里/秒）"
     }
   },
   "en": {
