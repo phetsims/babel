@@ -66,13 +66,20 @@
     ]
   },
   "pattern.velocityValueUnits": {
-    "value": "|v| = {{value}} {{units}}",
+    "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
     "history": [
       {
         "userId": 184096,
         "timestamp": 1670290356640,
         "oldValue": "",
         "newValue": "|v| = {{value}} {{units}}"
+      },
+      {
+        "userId": 184096,
+        "timestamp": 1687317348888,
+        "oldValue": "|v| = {{value}} {{units}}",
+        "newValue": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
+        "explanation": null
       }
     ]
   },
@@ -128,6 +135,39 @@
         "timestamp": 1670290356640,
         "oldValue": "",
         "newValue": "路徑"
+      }
+    ]
+  },
+  "offscaleMessage": {
+    "value": "有些力的向量過小以至於無法顯示。",
+    "history": [
+      {
+        "userId": 184096,
+        "timestamp": 1687317348888,
+        "oldValue": "",
+        "newValue": "有些力的向量過小以至於無法顯示。"
+      }
+    ]
+  },
+  "zoom": {
+    "value": "縮放：",
+    "history": [
+      {
+        "userId": 184096,
+        "timestamp": 1687317348888,
+        "oldValue": "",
+        "newValue": "縮放："
+      }
+    ]
+  },
+  "speed": {
+    "value": "速度（公里/秒）",
+    "history": [
+      {
+        "userId": 184096,
+        "timestamp": 1687317348888,
+        "oldValue": "",
+        "newValue": "速度（公里/秒）"
       }
     ]
   }
