@@ -2776,20 +2776,29 @@
     "sortData": {
       "value": "Sort Data"
     },
-    "meanEqualsValuePattern": {
-      "value": "Mean = {{value}}"
+    "meanEqualsValueMPattern": {
+      "value": "Mean = {{value}} m"
+    },
+    "meanEqualsValueMetersPattern": {
+      "value": "Mean = {{value}} meters"
     },
     "medianEqualsValuePattern": {
       "value": "Median = {{value}}"
     },
-    "iqrEqualsValuePattern": {
-      "value": "IQR = {{value}}"
+    "medianEqualsValueMPattern": {
+      "value": "Median = {{value}} m"
     },
-    "rangeEqualsValuePattern": {
-      "value": "Range = {{value}}"
+    "medianEqualsValueMetersPattern": {
+      "value": "Median = {{value}} meters"
     },
-    "madEqualsValuePattern": {
-      "value": "MAD = {{value}}"
+    "iqrEqualsValueMPattern": {
+      "value": "IQR = {{value}} m"
+    },
+    "rangeEqualsValueMPattern": {
+      "value": "Range = {{value}} m"
+    },
+    "madEqualsValueMPattern": {
+      "value": "MAD = {{value}} m"
     },
     "plotType": {
       "value": "Plot Type"
@@ -2864,7 +2873,7 @@
       "value": "<strong>Interquartile range (IQR)</strong> is the middle 50% of the data."
     },
     "dataValues": {
-      "value": "Data Values:"
+      "value": "Data Values (in meters):"
     },
     "iqrCalculationPattern1": {
       "value": "IQR = {{q3}} – {{q1}}"
