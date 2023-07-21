@@ -2774,7 +2774,10 @@
       "value": "Sort Data"
     },
     "meanEqualsValueMPattern": {
-      "value": "Mean = {{value}}"
+      "value": "Mean = {{value}} m"
+    },
+    "meanUnknownValue": {
+      "value": "Mean = ?"
     },
     "meanEqualsValueMetersPattern": {
       "value": "Mean = {{value}} meters"
@@ -2782,17 +2785,32 @@
     "medianEqualsValuePattern": {
       "value": "Median = {{value}}"
     },
+    "medianEqualsValueMPattern": {
+      "value": "Median = {{value}} m"
+    },
+    "medianUnknownValue": {
+      "value": "Median = ?"
+    },
     "medianEqualsValueMetersPattern": {
       "value": "Median = {{value}} {{units}}"
     },
-    "iqrEqualsValuePattern": {
-      "value": "IQR = {{value}}"
+    "iqrEqualsValueMPattern": {
+      "value": "IQR = {{value}} m"
     },
-    "rangeEqualsValuePattern": {
-      "value": "Range = {{value}}"
+    "iqrUnknownValue": {
+      "value": "IQR = ?"
     },
-    "madEqualsValuePattern": {
-      "value": "MAD = {{value}}"
+    "rangeEqualsValueMPattern": {
+      "value": "Range = {{value}} m"
+    },
+    "rangeUnknownValue": {
+      "value": "Range = ?"
+    },
+    "madEqualsValueMPattern": {
+      "value": "MAD = {{value}} m"
+    },
+    "madUnknownValue": {
+      "value": "MAD = ?"
     },
     "plotType": {
       "value": "Plot Type"
@@ -2919,9 +2937,6 @@
     },
     "pointer": {
       "value": "Pointer"
-    },
-    "metersAbbreviation": {
-      "value": "m"
     }
   }
 }
