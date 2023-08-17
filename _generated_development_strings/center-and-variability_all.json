@@ -2776,7 +2776,7 @@
     "meanEqualsValueMPattern": {
       "value": "Mean = {{value}} m"
     },
-    "meanUnknownValue": {
+    "meanEqualsUnknown": {
       "value": "Mean = ?"
     },
     "meanEqualsValueMetersPattern": {
@@ -2788,28 +2788,28 @@
     "medianEqualsValueMPattern": {
       "value": "Median = {{value}} m"
     },
-    "medianUnknownValue": {
+    "medianEqualsUnknown": {
       "value": "Median = ?"
     },
-    "medianEqualsValueMetersPattern": {
+    "medianEqualsValueUnitsPattern": {
       "value": "Median = {{value}} {{units}}"
     },
     "iqrEqualsValueMPattern": {
       "value": "IQR = {{value}} m"
     },
-    "iqrUnknownValue": {
+    "iqrEqualsUnknown": {
       "value": "IQR = ?"
     },
     "rangeEqualsValueMPattern": {
       "value": "Range = {{value}} m"
     },
-    "rangeUnknownValue": {
+    "rangeEqualsUnknown": {
       "value": "Range = ?"
     },
     "madEqualsValueMPattern": {
       "value": "MAD = {{value}} m"
     },
-    "madUnknownValue": {
+    "madEqualsUnknown": {
       "value": "MAD = ?"
     },
     "plotType": {
@@ -2884,13 +2884,13 @@
     "iqrDescription": {
       "value": "<strong>Interquartile range (IQR)</strong> is the middle 50% of the data."
     },
-    "dataValues": {
+    "dataValuesInMeters": {
       "value": "Data Values (in meters):"
     },
-    "iqrCalculationPattern1": {
+    "iqrEqualsQ3MinusQ3Pattern": {
       "value": "IQR = {{q3}} – {{q1}}"
     },
-    "iqrCalculationPattern2": {
+    "iqrEqualsIQRUnitsPattern": {
       "value": "IQR = {{iqr}} {{units}}"
     },
     "meters": {
@@ -2905,13 +2905,13 @@
     "madEquals": {
       "value": "MAD ="
     },
-    "madCalculationResultPattern": {
+    "madEqualsMADMetersPattern": {
       "value": "MAD = {{mad}} meters"
     },
-    "rangeCalculationPattern": {
+    "rangeEqualsMaxMinusMinPattern": {
       "value": "Range = {{max}} – {{min}}"
     },
-    "rangeCalculationResultPattern": {
+    "rangeEqualsRangeUnitsPattern": {
       "value": "Range = {{range}} {{units}}"
     },
     "needAtLeastOneKick": {
@@ -2932,7 +2932,7 @@
     "outliersDescription": {
       "value": "Shows outliers on the boxplot as markings rather than being included in the whisker."
     },
-    "kicksPattern": {
+    "valueKicksPattern": {
       "value": "{{value}} Kicks"
     },
     "pointer": {
