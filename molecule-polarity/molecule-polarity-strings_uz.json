@@ -364,7 +364,7 @@
     ]
   },
   "bondDipoles": {
-    "value": "\r\n  Bog‘larning\r\n  dipol holatlari",
+    "value": "Dipol bog‘lanishlar\n  Bog‘larning\n  dipol holatlari",
     "history": [
       {
         "userId": 641649,
@@ -383,11 +383,18 @@
         "timestamp": 1617803000540,
         "oldValue": "Bog‘ dipol",
         "newValue": "\r\n  Bog‘larning\r\n  dipol holatlari"
+      },
+      {
+        "userId": 11141169,
+        "timestamp": 1694783795375,
+        "oldValue": "\r\n  Bog‘larning\r\n  dipol holatlari",
+        "newValue": "Dipol bog‘lanishlar\n  Bog‘larning\n  dipol holatlari",
+        "explanation": null
       }
     ]
   },
   "molecularDipole": {
-    "value": "\r\n  Molekulaning\r\n  dipol holati",
+    "value": "Molekulyar dipol\n  Molekulaning\n  dipol holati",
     "history": [
       {
         "userId": 641649,
@@ -400,6 +407,13 @@
         "timestamp": 1617803000540,
         "oldValue": "Molekulyar dipol",
         "newValue": "\r\n  Molekulaning\r\n  dipol holati"
+      },
+      {
+        "userId": 11141169,
+        "timestamp": 1694783795375,
+        "oldValue": "\r\n  Molekulaning\r\n  dipol holati",
+        "newValue": "Molekulyar dipol\n  Molekulaning\n  dipol holati",
+        "explanation": null
       }
     ]
   },
@@ -459,7 +473,7 @@
     ]
   },
   "underDevelopment.line2": {
-    "value": "\r\n  Agar\r\n  devaysingizga Java o‘rnatilgan bo‘lsa, darsning Java versiyasini bu yerda\r\n  ishlatishingiz mumkin",
+    "value": "Agar qurilmangiz Java bilan ishlayotgan bo‘lsa, quyidagi manzilda Java versiyasidan foydalanishingiz mumkin",
     "history": [
       {
         "userId": 641649,
@@ -472,6 +486,13 @@
         "timestamp": 1617803000540,
         "oldValue": "Agar sizning devaysingiz Java ishlatsa, Java versiyasini bu yerda ishlatishingiz mumkin",
         "newValue": "\r\n  Agar\r\n  devaysingizga Java o‘rnatilgan bo‘lsa, darsning Java versiyasini bu yerda\r\n  ishlatishingiz mumkin"
+      },
+      {
+        "userId": 11141169,
+        "timestamp": 1694783795375,
+        "oldValue": "\r\n  Agar\r\n  devaysingizga Java o‘rnatilgan bo‘lsa, darsning Java versiyasini bu yerda\r\n  ishlatishingiz mumkin",
+        "newValue": "Agar qurilmangiz Java bilan ishlayotgan bo‘lsa, quyidagi manzilda Java versiyasidan foydalanishingiz mumkin",
+        "explanation": null
       }
     ]
   },
@@ -531,7 +552,7 @@
     ]
   },
   "off": {
-    "value": "\r\n  o‘chirish",
+    "value": "o‘chirish\n  o‘chirish",
     "history": [
       {
         "userId": 641649,
@@ -550,11 +571,18 @@
         "timestamp": 1617803000540,
         "oldValue": "o‘chiq",
         "newValue": "\r\n  o‘chirish"
+      },
+      {
+        "userId": 11141169,
+        "timestamp": 1694783795375,
+        "oldValue": "\r\n  o‘chirish",
+        "newValue": "o‘chirish\n  o‘chirish",
+        "explanation": null
       }
     ]
   },
   "on": {
-    "value": "\r\n  yoqish",
+    "value": "yoqish\n  yoqish",
     "history": [
       {
         "userId": 641649,
@@ -567,6 +595,13 @@
         "timestamp": 1617803000540,
         "oldValue": "yoqiq",
         "newValue": "\r\n  yoqish"
+      },
+      {
+        "userId": 11141169,
+        "timestamp": 1694783795375,
+        "oldValue": "\r\n  yoqish",
+        "newValue": "yoqish\n  yoqish",
+        "explanation": null
       }
     ]
   },
@@ -644,7 +679,7 @@
     ]
   },
   "bondDipole": {
-    "value": "\r\n  Bog‘ning\r\n  dipol holati",
+    "value": "Dipol bog‘lanish",
     "history": [
       {
         "userId": 641649,
@@ -663,6 +698,13 @@
         "timestamp": 1617803000540,
         "oldValue": "Bog‘ dipol",
         "newValue": "\r\n  Bog‘ning\r\n  dipol holati"
+      },
+      {
+        "userId": 11141169,
+        "timestamp": 1694783795375,
+        "oldValue": "\r\n  Bog‘ning\r\n  dipol holati",
+        "newValue": "Dipol bog‘lanish",
+        "explanation": null
       }
     ]
   },
@@ -685,6 +727,39 @@
         "timestamp": 1615275188681,
         "oldValue": "",
         "newValue": "Molekulaning qutbliligi"
+      }
+    ]
+  },
+  "pattern.dipoleDirection": {
+    "value": "{{from}} → {{to}}",
+    "history": [
+      {
+        "userId": 11141169,
+        "timestamp": 1694783795375,
+        "oldValue": "",
+        "newValue": "{{from}} → {{to}}"
+      }
+    ]
+  },
+  "pattern.symbolName": {
+    "value": "{{symbol}} ({{name}})",
+    "history": [
+      {
+        "userId": 11141169,
+        "timestamp": 1694783795375,
+        "oldValue": "",
+        "newValue": "{{symbol}} ({{name}})"
+      }
+    ]
+  },
+  "pattern.atomName": {
+    "value": "{{name}} Atomi",
+    "history": [
+      {
+        "userId": 11141169,
+        "timestamp": 1694783795375,
+        "oldValue": "",
+        "newValue": "{{name}} Atomi"
       }
     ]
   }
