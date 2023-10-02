@@ -165,13 +165,20 @@
     ]
   },
   "temperature.units.fahrenheit": {
-    "value": "°F",
+    "value": "℉",
     "history": [
       {
         "userId": 332542,
         "timestamp": 1663943139723,
         "oldValue": "",
         "newValue": "°F"
+      },
+      {
+        "userId": 157247,
+        "timestamp": 1696258345460,
+        "oldValue": "°F",
+        "newValue": "℉",
+        "explanation": null
       }
     ]
   },
@@ -470,6 +477,28 @@
         "timestamp": 1647336457462,
         "oldValue": "",
         "newValue": "Infrarosso"
+      }
+    ]
+  },
+  "valuePercentPattern": {
+    "value": "{{value}}%",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1696258345460,
+        "oldValue": "",
+        "newValue": "{{value}}%"
+      }
+    ]
+  },
+  "temperature.units.valueUnitsPattern": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1696258345460,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}"
       }
     ]
   }
