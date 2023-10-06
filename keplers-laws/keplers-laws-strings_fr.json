@@ -451,13 +451,20 @@
     ]
   },
   "areaUnits": {
-    "value": "Aire (AU<sup>2</sup>)",
+    "value": "Aire (UA<sup>2</sup>)",
     "history": [
       {
         "userId": 244628,
         "timestamp": 1696466577943,
         "oldValue": "",
         "newValue": "Aire (AU<sup>2</sup>)"
+      },
+      {
+        "userId": 237975,
+        "timestamp": 1696618798978,
+        "oldValue": "Aire (AU<sup>2</sup>)",
+        "newValue": "Aire (UA<sup>2</sup>)",
+        "explanation": null
       }
     ]
   },
@@ -689,6 +696,17 @@
         "timestamp": 1696466577943,
         "oldValue": "",
         "newValue": "Lois de Kepler"
+      }
+    ]
+  },
+  "pattern.valueUnits": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 237975,
+        "timestamp": 1696618798978,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}"
       }
     ]
   }
