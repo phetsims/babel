@@ -85,7 +85,7 @@
       "value": "Halley"
     },
     "foci": {
-      "value": "Foci"
+      "value": "Fokus"
     },
     "axes": {
       "value": "Akser"
@@ -106,7 +106,7 @@
       "value": "Periode (T)"
     },
     "targetOrbit": {
-      "value": "Mål-kredsløb"
+      "value": "Mål-kredsløb:"
     },
     "sweptArea": {
       "value": "Berørt areal"
@@ -136,7 +136,7 @@
       "value": "Vores sol"
     },
     "graph.title": {
-      "value": "{{period}} vs {{axis}} Graf"
+      "value": "{{period}} vs {{axis}} graf"
     },
     "symbol.T": {
       "value": "T"
@@ -157,7 +157,7 @@
       "value": "Flere kredsløbsdata"
     },
     "infoDialog.planetsPositionVector": {
-      "value": "<b>En planets positionsvektor (|r| og θ<sub>r</sub>):</b> vektorstørrelse |r| er lig med distancen mellem stjernen og planeten. Vektorretningen (θ<sub>r</sub>) er beskrevet med respekt for horisonten."
+      "value": "<b>En planets positionsvektor (|r| og θ<sub>r</sub>):</b> Vektorstørrelsen |r| er lig med distancen mellem stjernen og planeten. Vektorretningen (θ<sub>r</sub>) er beskrevet i forhold til det vandrette."
     },
     "infoDialog.orbitalData": {
       "value": "Kredsløbsdata"
@@ -166,10 +166,31 @@
       "value": "Keplers love"
     },
     "keyboardHelpDialog.chooseATargetOribit": {
-      "value": "Vælg en mål-kredsløb"
+      "value": "Vælg et mål-kredsløb"
     },
     "keyboardHelpDialog.targetOrbits": {
       "value": "mål-kredsløb"
+    },
+    "string": {
+      "value": "String"
+    },
+    "graph.a": {
+      "value": "Halve storakse (a)"
+    },
+    "infoDialog.planetsVelocityVector": {
+      "value": "<b>En planets hastighedsvektor (|v| og θ<sub>v</sub>):</b> Vektorstørrelsen |v| er lig\nmed hastigheden af en planet. Vektorretningen (θ<sub>v</sub>) er beskrevet i forhold til det vandrette."
+    },
+    "infoDialog.angleBetweenVectors": {
+      "value": "<b>Vinkel mellem vektorerne  r og v (θ<sub>rv</sub>)."
+    },
+    "infoDialog.semiMajorAxis": {
+      "value": "<b>Halve storakse (a):</b> Repræsenterer halvdelen af den længste diameter af det elliptiske kredsløb."
+    },
+    "infoDialog.semiMinorAxis": {
+      "value": "<b>Halve lilleakse (b):</b> Repræsenterer halvdelen af den korteste diameter af det elliptiske kredsløb."
+    },
+    "infoDialog.focalDistance": {
+      "value": "<b>Brændvidde (c):</b> Repræsenterer distancen mellem centrum af ellipsen og et af fokuspunkterne."
     }
   },
   "de": {
@@ -228,7 +249,7 @@
       "value": "Warnung: {{message}}"
     },
     "warning.theBodyWillCrashIntoTheSun": {
-      "value": "Der Körper wird in die Sonne abstürzen."
+      "value": "Der Körper wird in die Sonne stürzen."
     },
     "warning.theBodyWillEscapeTheSystem": {
       "value": "Der Körper wird dem System entkommen."
@@ -285,7 +306,7 @@
       "value": "Periapsis"
     },
     "graph.a": {
-      "value": "Haupthalbachse (a)"
+      "value": "Große Halbachse (a)"
     },
     "graph.t": {
       "value": "Periode (T)"
@@ -345,7 +366,7 @@
       "value": "<b>Planetenpositionsvektor (|r| und θ<sub>r</sub>):</b> die Vektorgröße |r| ist gleich dem Abstand zwischen dem Stern und dem Planeten. Die Vektorrichtung (θ<sub>r</sub>) wird in Bezug auf die Horizontale gemessen."
     },
     "infoDialog.planetsVelocityVector": {
-      "value": "<b>Planetengeschwindigkeitsvektor (|v| und θ<sub>v</sub>):</b> die Vektorgröße |v| ist gleich der Geschwindigkeit des Planeten. Die Vektorrichtung (θ<sub>v</sub>) wird in Bezug auf die Horizontale gemessen."
+      "value": "<b>Planetengeschwindigkeitsvektor (|v| und θ<sub>v</sub>):</b> die Vektorgröße |v| ist gleich der Bahngeschwindigkeit des Planeten. Die Vektorrichtung (θ<sub>v</sub>) wird in Bezug auf die Horizontale gemessen."
     },
     "infoDialog.angleBetweenVectors": {
       "value": "<b>Winkel zwischen den Vektoren r und v (θ<sub>rv</sub>)."
@@ -560,6 +581,200 @@
       "value": "Νόμοι του Kepler"
     }
   },
+  "es": {
+    "screen.firstLaw": {
+      "value": "Primera Ley"
+    },
+    "screen.secondLaw": {
+      "value": "Segunda Ley"
+    },
+    "screen.thirdLaw": {
+      "value": "Tercera Ley"
+    },
+    "screen.allLaws": {
+      "value": "Todas las Leyes"
+    },
+    "preferences.moreOrbitalData.title": {
+      "value": "Más Elementos Orbitales"
+    },
+    "preferences.moreOrbitalData.description": {
+      "value": "Muestra información sobre la posición del planeta y los vectores de velocidad en las pantallas Primera y Segunda Ley."
+    },
+    "pattern.valueUnits": {
+      "value": "{{value}} {{units}}"
+    },
+    "units.years": {
+      "value": "años"
+    },
+    "keyboardHelpDialog.chooseATargetOribit": {
+      "value": "Elige una Órbita Objetivo"
+    },
+    "keyboardHelpDialog.targetOrbit": {
+      "value": "órbita objetivo"
+    },
+    "keyboardHelpDialog.targetOrbits": {
+      "value": "órbitas objetivo"
+    },
+    "alwaysCircular": {
+      "value": "Siempre Circular"
+    },
+    "stopwatch": {
+      "value": "Cronómetro"
+    },
+    "symbol.a": {
+      "value": "a"
+    },
+    "symbol.b": {
+      "value": "b"
+    },
+    "symbol.c": {
+      "value": "c"
+    },
+    "symbol.R": {
+      "value": "R"
+    },
+    "pattern.warningMessage": {
+      "value": "Advertencia: {{message}}"
+    },
+    "warning.theBodyWillCrashIntoTheSun": {
+      "value": "El cuerpo chocará contra el Sol."
+    },
+    "warning.theBodyWillEscapeTheSystem": {
+      "value": "El cuerpo escapará del sistema."
+    },
+    "period": {
+      "value": "Período"
+    },
+    "none": {
+      "value": "Ninguna"
+    },
+    "orbit.mercury": {
+      "value": "Mercurio"
+    },
+    "orbit.venus": {
+      "value": "Venus"
+    },
+    "orbit.earth": {
+      "value": "Tierra"
+    },
+    "orbit.mars": {
+      "value": "Marte"
+    },
+    "orbit.jupiter": {
+      "value": "Júpiter"
+    },
+    "orbit.eris": {
+      "value": "Eris"
+    },
+    "orbit.nereid": {
+      "value": "Nereida"
+    },
+    "orbit.halley": {
+      "value": "Halley"
+    },
+    "foci": {
+      "value": "Focos"
+    },
+    "string": {
+      "value": "Cadena"
+    },
+    "axes": {
+      "value": "Ejes"
+    },
+    "semiaxes": {
+      "value": "Semiejes"
+    },
+    "eccentricity": {
+      "value": "Excentricidad"
+    },
+    "apoapsis": {
+      "value": "Apoápsis"
+    },
+    "periapsis": {
+      "value": "Periapsis"
+    },
+    "graph.a": {
+      "value": "Semieje Mayor (a)"
+    },
+    "graph.t": {
+      "value": "Período (T)"
+    },
+    "targetOrbit": {
+      "value": "Órbita Objetivo"
+    },
+    "sweptArea": {
+      "value": "Área Barrida"
+    },
+    "periodDivision": {
+      "value": "Divisiones por Período"
+    },
+    "areaUnits": {
+      "value": "Área (UA<sup>2</sup>)"
+    },
+    "areaValues": {
+      "value": "Valores de Área"
+    },
+    "timeValues": {
+      "value": "Valores de Tiempo"
+    },
+    "units.AU": {
+      "value": "UA"
+    },
+    "units.kms": {
+      "value": "km/s"
+    },
+    "starMass": {
+      "value": "Masa Estelar"
+    },
+    "ourSun": {
+      "value": "Nuestro Sol"
+    },
+    "graph.title": {
+      "value": "{{period}} vs {{axis}} Gráfica"
+    },
+    "symbol.T": {
+      "value": "T"
+    },
+    "undefined": {
+      "value": "indefinido"
+    },
+    "symbol.d": {
+      "value": "d"
+    },
+    "symbol.r": {
+      "value": "r"
+    },
+    "symbol.v": {
+      "value": "v"
+    },
+    "infoDialog.moreOrbitalData": {
+      "value": "Más Elementos Orbitales"
+    },
+    "infoDialog.planetsPositionVector": {
+      "value": "<b>Vector de posición del planeta (|r| y θ<sub>r</sub>):</b> la magnitud del vector |r| es igual a la distancia entre la estrella y el planeta. La dirección del vector (θ<sub>r</sub>) se mide con respecto a la horizontal."
+    },
+    "infoDialog.planetsVelocityVector": {
+      "value": "<b>Vector velocidad del planeta (|v| y θ<sub>v</sub>):</b> la magnitud del vector |v| es igual a la rapidez del planeta. La dirección del vector (θ<sub>v</sub>) se mide con respecto a la horizontal."
+    },
+    "infoDialog.angleBetweenVectors": {
+      "value": "<b>Ángulo entre los vectores r y v (θ<sub>rv</sub>)."
+    },
+    "infoDialog.orbitalData": {
+      "value": "Elementos Orbitales"
+    },
+    "infoDialog.semiMajorAxis": {
+      "value": "<b>Semieje mayor (a):</b> representa la mitad del diámetro más largo de la órbita elíptica."
+    },
+    "infoDialog.semiMinorAxis": {
+      "value": "<b>Semieje menor (b):</b> representa la mitad del diámetro más corto de la órbita elíptica."
+    },
+    "infoDialog.focalDistance": {
+      "value": "<b>Distancia focal (c):</b> representa la distancia entre el centro de la elipse y uno de los focos."
+    },
+    "keplers-laws.title": {
+      "value": "Leyes de Kepler"
+    }
+  },
   "fr": {
     "screen.firstLaw": {
       "value": "Première loi"
@@ -685,7 +900,7 @@
       "value": "Divisions de période"
     },
     "areaUnits": {
-      "value": "Aire (AU<sup>2</sup>)"
+      "value": "Aire (UA<sup>2</sup>)"
     },
     "areaValues": {
       "value": "Valeurs des aires"
@@ -694,7 +909,7 @@
       "value": "Valeurs temporelles"
     },
     "units.AU": {
-      "value": "AU"
+      "value": "UA"
     },
     "units.kms": {
       "value": "km/s"
@@ -749,6 +964,9 @@
     },
     "keplers-laws.title": {
       "value": "Lois de Kepler"
+    },
+    "pattern.valueUnits": {
+      "value": "{{value}} {{units}}"
     }
   },
   "gu": {
@@ -943,6 +1161,200 @@
     },
     "keplers-laws.title": {
       "value": "કેપ્લરના નિયમો"
+    }
+  },
+  "hr": {
+    "screen.firstLaw": {
+      "value": "Prvi zakon"
+    },
+    "screen.secondLaw": {
+      "value": "Drugi zakon"
+    },
+    "screen.thirdLaw": {
+      "value": "Treći zakon"
+    },
+    "screen.allLaws": {
+      "value": "Svi zakoni"
+    },
+    "preferences.moreOrbitalData.title": {
+      "value": "Više orbitalnih podataka"
+    },
+    "preferences.moreOrbitalData.description": {
+      "value": "Prikaži poziciju i brzinu planeta u prozoru prvog i drugog Keplerovog zakona."
+    },
+    "pattern.valueUnits": {
+      "value": "{{value}} {{units}}"
+    },
+    "units.years": {
+      "value": "godina"
+    },
+    "keyboardHelpDialog.chooseATargetOribit": {
+      "value": "Izaberite ciljanu orbitu"
+    },
+    "keyboardHelpDialog.targetOrbit": {
+      "value": "ciljana orbita"
+    },
+    "keyboardHelpDialog.targetOrbits": {
+      "value": "ciljane orbite"
+    },
+    "alwaysCircular": {
+      "value": "Uvijek kružna"
+    },
+    "stopwatch": {
+      "value": "Štoperica"
+    },
+    "symbol.a": {
+      "value": "a"
+    },
+    "symbol.b": {
+      "value": "b"
+    },
+    "symbol.c": {
+      "value": "c"
+    },
+    "symbol.R": {
+      "value": "R"
+    },
+    "pattern.warningMessage": {
+      "value": "Upozorenje: {{message}}"
+    },
+    "warning.theBodyWillCrashIntoTheSun": {
+      "value": "Tijelo će pasti na Sunce."
+    },
+    "warning.theBodyWillEscapeTheSystem": {
+      "value": "Tijelo će napustiti sustav."
+    },
+    "period": {
+      "value": "Period"
+    },
+    "none": {
+      "value": "Ništa"
+    },
+    "orbit.mercury": {
+      "value": "Merkur"
+    },
+    "orbit.venus": {
+      "value": "Venera"
+    },
+    "orbit.earth": {
+      "value": "Zemlja"
+    },
+    "orbit.mars": {
+      "value": "Mars"
+    },
+    "orbit.jupiter": {
+      "value": "Jupiter"
+    },
+    "orbit.eris": {
+      "value": "Eris"
+    },
+    "orbit.nereid": {
+      "value": "Nereid"
+    },
+    "orbit.halley": {
+      "value": "Halley"
+    },
+    "foci": {
+      "value": "žarišta"
+    },
+    "string": {
+      "value": "2a"
+    },
+    "axes": {
+      "value": "Osi"
+    },
+    "semiaxes": {
+      "value": "Poluosi"
+    },
+    "eccentricity": {
+      "value": "Ekscentricitet"
+    },
+    "apoapsis": {
+      "value": "Afel"
+    },
+    "periapsis": {
+      "value": "Perihel"
+    },
+    "graph.a": {
+      "value": "Velika poluos (a)"
+    },
+    "graph.t": {
+      "value": "Period (T)"
+    },
+    "targetOrbit": {
+      "value": "Ciljana orbita:"
+    },
+    "sweptArea": {
+      "value": "Prebrisana površina"
+    },
+    "periodDivision": {
+      "value": "Podjela perioda"
+    },
+    "areaUnits": {
+      "value": "Površina (AU<sup>2</sup>)"
+    },
+    "areaValues": {
+      "value": "Iznosi površine"
+    },
+    "timeValues": {
+      "value": "Iznosi vremena"
+    },
+    "units.AU": {
+      "value": "AU"
+    },
+    "units.kms": {
+      "value": "km/s"
+    },
+    "starMass": {
+      "value": "Masa zvijezde"
+    },
+    "ourSun": {
+      "value": "Sunce"
+    },
+    "graph.title": {
+      "value": "Graf {{period}} (u ovisnosti o){{axis}}"
+    },
+    "symbol.T": {
+      "value": "T"
+    },
+    "undefined": {
+      "value": "nedefinirano"
+    },
+    "symbol.d": {
+      "value": "d"
+    },
+    "symbol.r": {
+      "value": "r"
+    },
+    "symbol.v": {
+      "value": "v"
+    },
+    "infoDialog.moreOrbitalData": {
+      "value": "Više orbitalnih podataka"
+    },
+    "infoDialog.planetsPositionVector": {
+      "value": "<b>Vektor položaja planeta (|r| and θ<sub>r</sub>):</b> iznos vektora |r| jednak je udaljenosti između zvijezde i planeta. Smjer vektora (θ<sub>r</sub>) određen je u odnosu na horizontalu."
+    },
+    "infoDialog.planetsVelocityVector": {
+      "value": "<b>Vektor brzine planeta (|v| and θ<sub>v</sub>):</b> iznos vektor |v| jednak je brzini planeta. Smjer vektora (θ<sub>v</sub>) određen je u odnosu na horizontalu."
+    },
+    "infoDialog.angleBetweenVectors": {
+      "value": "<b>Kut između bektora r i v (θ<sub>rv</sub>)."
+    },
+    "infoDialog.orbitalData": {
+      "value": "Orbitalni podaci"
+    },
+    "infoDialog.semiMajorAxis": {
+      "value": "<b>Velika poluos axis (a):</b> jednaka je polovici najvećeg promjera eliptične orbite."
+    },
+    "infoDialog.semiMinorAxis": {
+      "value": "<b>Mala poluos (b):</b> jednaka je polovici najmanjeg promjera eliptične orbite."
+    },
+    "infoDialog.focalDistance": {
+      "value": "<b>Žarišna daljina (c):</b> jednaka je udaljenosti između središta elipse i jednog žarišta."
+    },
+    "keplers-laws.title": {
+      "value": "Keplerovi zakoni"
     }
   },
   "it": {
