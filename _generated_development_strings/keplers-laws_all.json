@@ -753,7 +753,7 @@
       "value": "Περισσότερα Τροχιακά Δεδομένα"
     },
     "preferences.moreOrbitalData.description": {
-      "value": "Εμφάνιση πληροφοριών σχετικά με τα διανύσματα θέσης και ταχύτητας του πλανήτη στον Πρώτο και το Δεύτερο Νόμο."
+      "value": "Εμφάνιση πληροφοριών σχετικά με τη θέση και τα διανύσματα ταχύτητας του πλανήτη στις οθόνες Πρώτου και Δεύτερου Νόμου."
     },
     "pattern.valueUnits": {
       "value": "{{value}} {{units}}"
@@ -762,16 +762,16 @@
       "value": "έτη"
     },
     "keyboardHelpDialog.chooseATargetOribit": {
-      "value": "Επιλέξτε μία"
+      "value": "Επιλέξτε μια τροχιά στόχου"
     },
     "keyboardHelpDialog.targetOrbit": {
-      "value": "Στόχευση τροχιάς"
+      "value": "τροχιά στόχου"
     },
     "keyboardHelpDialog.targetOrbits": {
-      "value": "τροχιές στόχευσης"
+      "value": "τροχιές στόχου"
     },
     "alwaysCircular": {
-      "value": "Πάντοτε Κυκλική"
+      "value": "Πάντοτε κυκλική"
     },
     "stopwatch": {
       "value": "Χρονόμετρο"
@@ -825,10 +825,10 @@
       "value": "Νηρηίδα"
     },
     "orbit.halley": {
-      "value": "Halley"
+      "value": "Χάλεϊ"
     },
     "foci": {
-      "value": "Εστίες"
+      "value": "Εστιάσεις"
     },
     "string": {
       "value": "Χορδή"
@@ -849,7 +849,7 @@
       "value": "Περίαψη"
     },
     "graph.a": {
-      "value": "Ημι-κύριος Άξονας"
+      "value": "Ημι-κύριος Άξονας (a)"
     },
     "graph.t": {
       "value": "Περίοδος (Τ)"
@@ -1510,6 +1510,200 @@
     },
     "keplers-laws.title": {
       "value": "કેપ્લરના નિયમો"
+    }
+  },
+  "hi": {
+    "screen.firstLaw": {
+      "value": "पहला नियम"
+    },
+    "screen.secondLaw": {
+      "value": "दूसरा नियम"
+    },
+    "screen.thirdLaw": {
+      "value": "तीसरा नियम"
+    },
+    "screen.allLaws": {
+      "value": "सभी नियम"
+    },
+    "preferences.moreOrbitalData.title": {
+      "value": "कक्षा के बारे में कुछ जानकारियाँ"
+    },
+    "preferences.moreOrbitalData.description": {
+      "value": "पहले और दूसरे नियम वाली स्क्रीन पर गृह (planet) की स्थिति व गति को दिखाएँ"
+    },
+    "pattern.valueUnits": {
+      "value": "{{value}} {{units}}"
+    },
+    "units.years": {
+      "value": "वर्ष"
+    },
+    "keyboardHelpDialog.chooseATargetOribit": {
+      "value": "एक कक्षा चुने"
+    },
+    "keyboardHelpDialog.targetOrbit": {
+      "value": "लक्ष्य कक्षा"
+    },
+    "keyboardHelpDialog.targetOrbits": {
+      "value": "लक्ष्य कक्षाएँ"
+    },
+    "alwaysCircular": {
+      "value": "हमेशा वृताकार"
+    },
+    "stopwatch": {
+      "value": "घड़ी"
+    },
+    "symbol.a": {
+      "value": "a"
+    },
+    "symbol.b": {
+      "value": "b"
+    },
+    "symbol.c": {
+      "value": "c"
+    },
+    "symbol.R": {
+      "value": "R"
+    },
+    "pattern.warningMessage": {
+      "value": "चेतावनी: {{message}}"
+    },
+    "warning.theBodyWillCrashIntoTheSun": {
+      "value": "ग्रह सूर्य से टकरा जाएगा"
+    },
+    "warning.theBodyWillEscapeTheSystem": {
+      "value": "ग्रह अपनी कक्षा को छोड़कर निकल जाएगा"
+    },
+    "period": {
+      "value": "अंतराल"
+    },
+    "none": {
+      "value": "कोई नहीं"
+    },
+    "orbit.mercury": {
+      "value": "बुद्ध"
+    },
+    "orbit.venus": {
+      "value": "शुक्र"
+    },
+    "orbit.earth": {
+      "value": "पृथ्वी"
+    },
+    "orbit.mars": {
+      "value": "मंगल"
+    },
+    "orbit.jupiter": {
+      "value": "ब्रहस्पति"
+    },
+    "orbit.eris": {
+      "value": "एरीस"
+    },
+    "orbit.nereid": {
+      "value": "Nereid (नेरीड)"
+    },
+    "orbit.halley": {
+      "value": "Halley (हेली)"
+    },
+    "foci": {
+      "value": "Foci (फोकस)"
+    },
+    "string": {
+      "value": "String"
+    },
+    "axes": {
+      "value": "अक्ष (Axes)"
+    },
+    "semiaxes": {
+      "value": "अर्धअक्ष"
+    },
+    "eccentricity": {
+      "value": "उत्केन्द्रता (eccentricity)"
+    },
+    "apoapsis": {
+      "value": "एपोप्सिस"
+    },
+    "periapsis": {
+      "value": "पेरीएप्सिस"
+    },
+    "graph.a": {
+      "value": "अर्ध दीर्घ अक्ष"
+    },
+    "graph.t": {
+      "value": "आवर्तकाल (time period)"
+    },
+    "targetOrbit": {
+      "value": "कक्षा"
+    },
+    "sweptArea": {
+      "value": "क्षेत्रफ़ल"
+    },
+    "periodDivision": {
+      "value": "आवर्तकाल"
+    },
+    "areaUnits": {
+      "value": "क्षेत्रफ़ल (AU<sup>2</sup>)"
+    },
+    "areaValues": {
+      "value": "क्षेत्रफ़ल के मान"
+    },
+    "timeValues": {
+      "value": "समय के मान"
+    },
+    "units.AU": {
+      "value": "AU"
+    },
+    "units.kms": {
+      "value": "km/s"
+    },
+    "starMass": {
+      "value": "तारे का द्रव्यमान"
+    },
+    "ourSun": {
+      "value": "हमारा सूर्य"
+    },
+    "graph.title": {
+      "value": "{{period}} vs {{axis}} Graph"
+    },
+    "symbol.T": {
+      "value": "T"
+    },
+    "undefined": {
+      "value": "अपरिभाषित"
+    },
+    "symbol.d": {
+      "value": "d"
+    },
+    "symbol.r": {
+      "value": "r"
+    },
+    "symbol.v": {
+      "value": "v"
+    },
+    "infoDialog.moreOrbitalData": {
+      "value": "कक्षा के बारे में अधिक जानकारी"
+    },
+    "infoDialog.planetsPositionVector": {
+      "value": "<b> गृह का position vector  (|r| and θ<sub>r</sub>):</b> |r| का मान तारे व ग्रह के बीच की दूरी के बराबर है तथा इसकी दिशा क्षैतिज रेखा (horizontal) से नापी गई है।"
+    },
+    "infoDialog.planetsVelocityVector": {
+      "value": "<b> गृह का वेग vector  (|v| and θ<sub>v</sub>):</b> |v| का मान ग्रह की गति के बराबर है तथा इसकी दिशा क्षैतिज रेखा (horizontal) से नापी गई है।"
+    },
+    "infoDialog.angleBetweenVectors": {
+      "value": "<b> position और velocity vectors के बीच का कोण (θ<sub>rv</sub>)"
+    },
+    "infoDialog.orbitalData": {
+      "value": "कक्ष की जानकारी"
+    },
+    "infoDialog.semiMajorAxis": {
+      "value": "<b>अर्द्ध दीर्घ अक्ष (a) : </b> यह दीर्घवृत्त के सबसे बड़े व्यास का अर्द्ध भाग होता है।"
+    },
+    "infoDialog.semiMinorAxis": {
+      "value": "<b>अर्द्ध लघु अक्ष (b) : </b> य़ह दीर्घवृत्त के सबसे छोटे व्यास का अर्द्ध भाग होता है।"
+    },
+    "infoDialog.focalDistance": {
+      "value": "<b>फोकल दूरी (c):</b>"
+    },
+    "keplers-laws.title": {
+      "value": "केप्लर के नियम"
     }
   },
   "hr": {
@@ -3554,6 +3748,149 @@
     },
     "keplers-laws.title": {
       "value": "กฎเคปเลอร์"
+    }
+  },
+  "uz": {
+    "screen.firstLaw": {
+      "value": "Birinchi Qonun"
+    },
+    "screen.secondLaw": {
+      "value": "Ikkinchi Qonun"
+    },
+    "screen.thirdLaw": {
+      "value": "Uchinchi Qonun"
+    },
+    "screen.allLaws": {
+      "value": "Barcha Qonunlar"
+    },
+    "preferences.moreOrbitalData.title": {
+      "value": "Ko‘proq Orbital Maʼlumotlar"
+    },
+    "preferences.moreOrbitalData.description": {
+      "value": "Birinchi va ikkinchi qonun ekranlarida sayyoraning joylashuvi va tezligi vektorlari haqidagi maʼlumotlarni ko‘rsatish."
+    },
+    "pattern.valueUnits": {
+      "value": "{{value}} {{units}}"
+    },
+    "units.years": {
+      "value": "yillar"
+    },
+    "symbol.a": {
+      "value": "a"
+    },
+    "symbol.b": {
+      "value": "b"
+    },
+    "symbol.c": {
+      "value": "c"
+    },
+    "symbol.R": {
+      "value": "R"
+    },
+    "pattern.warningMessage": {
+      "value": "Ogohlantirish: {{message}}"
+    },
+    "warning.theBodyWillCrashIntoTheSun": {
+      "value": "Tana quyoshga qulab tushadi."
+    },
+    "warning.theBodyWillEscapeTheSystem": {
+      "value": "Jism tizimdan qochib ketadi."
+    },
+    "period": {
+      "value": "Davr"
+    },
+    "none": {
+      "value": "Hech narsa"
+    },
+    "orbit.mercury": {
+      "value": "Merkuriy"
+    },
+    "orbit.venus": {
+      "value": "Venera"
+    },
+    "orbit.earth": {
+      "value": "Yer"
+    },
+    "orbit.mars": {
+      "value": "Mars"
+    },
+    "orbit.jupiter": {
+      "value": "Yupiter"
+    },
+    "orbit.eris": {
+      "value": "Eris"
+    },
+    "orbit.nereid": {
+      "value": "Nereid"
+    },
+    "orbit.halley": {
+      "value": "Halley"
+    },
+    "graph.t": {
+      "value": "Davr(T)"
+    },
+    "starMass": {
+      "value": "Yulduz Massasi"
+    },
+    "ourSun": {
+      "value": "Bizning Quyosh"
+    },
+    "symbol.d": {
+      "value": "d"
+    },
+    "symbol.T": {
+      "value": "T"
+    },
+    "symbol.r": {
+      "value": "r"
+    },
+    "symbol.v": {
+      "value": "v"
+    },
+    "graph.title": {
+      "value": "{{period}} vs {{axis}} Grafik"
+    },
+    "undefined": {
+      "value": "aniqlanmagan"
+    },
+    "keyboardHelpDialog.chooseATargetOribit": {
+      "value": "Maqsad Orbitasini Tanlash"
+    },
+    "keyboardHelpDialog.targetOrbit": {
+      "value": "maqsad orbitasi"
+    },
+    "keyboardHelpDialog.targetOrbits": {
+      "value": "maqsad orbitalari"
+    },
+    "alwaysCircular": {
+      "value": "Har doim doiraviy"
+    },
+    "stopwatch": {
+      "value": "Sekundomer"
+    },
+    "sweptArea": {
+      "value": "Tozalangan Hudud"
+    },
+    "periodDivision": {
+      "value": "Davr bo‘limlari"
+    },
+    "areaUnits": {
+      "value": "Hudud (AU<sup>2</sup>)"
+    },
+    "areaValues": {
+      "value": "Hudud Qiymatlari"
+    },
+    "timeValues": {
+      "value": "Vaqt Qiymatlari"
+    },
+    "units.AU": {
+      "value": "AB"
+    },
+    "units.kms": {
+      "value": "km/s"
+    },
+    "foci": {
+      "value": "Fokus"
     }
   },
   "vi": {
