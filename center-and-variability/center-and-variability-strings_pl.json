@@ -388,13 +388,20 @@
     ]
   },
   "pointer": {
-    "value": "Znacznik",
+    "value": "Wskaźnik",
     "history": [
       {
         "userId": 196556,
         "timestamp": 1699032183946,
         "oldValue": "",
         "newValue": "Znacznik"
+      },
+      {
+        "userId": 196556,
+        "timestamp": 1699036547176,
+        "oldValue": "Znacznik",
+        "newValue": "Wskaźnik",
+        "explanation": null
       }
     ]
   },
@@ -553,13 +560,20 @@
     ]
   },
   "meanAbsoluteDeviationMAD": {
-    "value": "Medianowe odchylenie bezwzględne (MAD)",
+    "value": "Średnie odchylenie bezwzględne (MAD)",
     "history": [
       {
         "userId": 196556,
         "timestamp": 1699032183946,
         "oldValue": "",
         "newValue": "Medianowe odchylenie bezwzględne (MAD)"
+      },
+      {
+        "userId": 196556,
+        "timestamp": 1699036547176,
+        "oldValue": "Medianowe odchylenie bezwzględne (MAD)",
+        "newValue": "Średnie odchylenie bezwzględne (MAD)",
+        "explanation": null
       }
     ]
   },
@@ -674,13 +688,20 @@
     ]
   },
   "kickValuePattern": {
-    "value": "Kopnięcie {{value}}",
+    "value": "Kopnięć: {{value}}",
     "history": [
       {
         "userId": 196556,
         "timestamp": 1699032183946,
         "oldValue": "",
         "newValue": "Kopnięcie {{value}}"
+      },
+      {
+        "userId": 196556,
+        "timestamp": 1699036547176,
+        "oldValue": "Kopnięcie {{value}}",
+        "newValue": "Kopnięć: {{value}}",
+        "explanation": null
       }
     ]
   },
@@ -817,13 +838,20 @@
     ]
   },
   "medianEqualsValuePattern": {
-    "value": "Median = {{value}}",
+    "value": "Mediana = {{value}}",
     "history": [
       {
         "userId": 196556,
         "timestamp": 1699032183946,
         "oldValue": "",
         "newValue": "Median = {{value}}"
+      },
+      {
+        "userId": 196556,
+        "timestamp": 1699036547176,
+        "oldValue": "Median = {{value}}",
+        "newValue": "Mediana = {{value}}",
+        "explanation": null
       }
     ]
   },
@@ -901,6 +929,149 @@
         "timestamp": 1699032183946,
         "oldValue": "",
         "newValue": "Q3"
+      }
+    ]
+  },
+  "maxKicks": {
+    "value": "Maksymalna liczba kopnięć",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1699036547176,
+        "oldValue": "",
+        "newValue": "Maksymalna liczba kopnięć"
+      }
+    ]
+  },
+  "maxKicksDescription": {
+    "value": "Określa maksymalną liczbę rzutów dozwolonych na wszystkich ekranach. Maksymalna liczba rzutów na ekranie Mediana wynosi 15.",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1699036547176,
+        "oldValue": "",
+        "newValue": "Określa maksymalną liczbę rzutów dozwolonych na wszystkich ekranach. Maksymalna liczba rzutów na ekranie Mediana wynosi 15."
+      }
+    ]
+  },
+  "valueKicksPattern": {
+    "value": "Liczba kopnięć: {{value}}",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1699036547176,
+        "oldValue": "",
+        "newValue": "Liczba kopnięć: {{value}}"
+      }
+    ]
+  },
+  "intervalTool": {
+    "value": "Narzędzie interwału",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1699036547176,
+        "oldValue": "",
+        "newValue": "Narzędzie interwału"
+      }
+    ]
+  },
+  "keyboardHelpDialog.medianScreen.movePredictMedian": {
+    "value": "Przesuń przewidywaną medianę",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1699036547176,
+        "oldValue": "",
+        "newValue": "Przesuń przewidywaną medianę"
+      }
+    ]
+  },
+  "keyboardHelpDialog.move": {
+    "value": "Przesuń",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1699036547176,
+        "oldValue": "",
+        "newValue": "Przesuń"
+      }
+    ]
+  },
+  "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanOrMedian": {
+    "value": "Przesuń przewidywaną medianę lub średnią",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1699036547176,
+        "oldValue": "",
+        "newValue": "Przesuń przewidywaną medianę lub średnią"
+      }
+    ]
+  },
+  "keyboardHelpDialog.meanAndMedianScreen.movePredictionPointer": {
+    "value": "Przesuń wskaźnik prognozy",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1699036547176,
+        "oldValue": "",
+        "newValue": "Przesuń wskaźnik prognozy"
+      }
+    ]
+  },
+  "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanInSmallerSteps": {
+    "value": "Przesuń mniejszymi krokami",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1699036547176,
+        "oldValue": "",
+        "newValue": "Przesuń mniejszymi krokami"
+      }
+    ]
+  },
+  "keyboardHelpDialog.variabilityScreen.movePointerIntervalHandleOrIntervalBlock": {
+    "value": "Przesuń wskaźnik, uchwyty interwałów lub blok interwałów",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1699036547176,
+        "oldValue": "",
+        "newValue": "Przesuń wskaźnik, uchwyty interwałów lub blok interwałów"
+      }
+    ]
+  },
+  "meter": {
+    "value": "m",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1699036547176,
+        "oldValue": "",
+        "newValue": "m"
+      }
+    ]
+  },
+  "meters": {
+    "value": "m",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1699036547176,
+        "oldValue": "",
+        "newValue": "m"
+      }
+    ]
+  },
+  "meanEqualsValueMetersPattern": {
+    "value": "Średnia = {{value}} m",
+    "history": [
+      {
+        "userId": 196556,
+        "timestamp": 1699036547176,
+        "oldValue": "",
+        "newValue": "Średnia = {{value}} m"
       }
     ]
   }
