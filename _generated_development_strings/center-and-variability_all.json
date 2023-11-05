@@ -819,10 +819,10 @@
       "value": "Γράφημα σημείου"
     },
     "medianQuestion": {
-      "value": "Ποια είναι η τυπική απόσταση που διανύει η μπάλα μετά από κάθε κτύπημα;"
+      "value": "Ποια είναι η τυπική απόσταση που διανύει η μπάλα μετά από κάθε λάκτισμα;"
     },
     "meanAndMedianQuestion": {
-      "value": "Πώς επηρεάζεται ο μέσος όρος και ο διάμεσος από κάθε κτύπημα της μπάλας"
+      "value": "Πώς επηρεάζεται ο μέσος όρος και ο διάμεσος από κάθε λάκτισμα της μπάλας"
     },
     "distanceInMeters": {
       "value": "Απόσταση (σε μέτρα)"
@@ -859,6 +859,231 @@
     },
     "center-and-variability.title": {
       "value": "Κέντρο και μεταβλητότητα"
+    },
+    "screen.variability": {
+      "value": "Μεταβλητότητα"
+    },
+    "maxKicks": {
+      "value": "Μέγιστος αριθμός λακτισμάτων"
+    },
+    "maxKicksDescription": {
+      "value": "Καθορίζει τον μέγιστο επιτρεπόμενο αριθμό λακτισμάτων για όλες τις οθόνες. Ο μέγιστος αριθμός λακτισμάτων στην οθόνη του Διάμεσου είναι 15."
+    },
+    "outliers": {
+      "value": "Ακραίες τιμές"
+    },
+    "outliersDescription": {
+      "value": "Εμφανίζει τις ακραίες τιμές στο παραλληλόγραμμο τιμών ως σημάδια αντί να περιλαμβάνονται στη γραμμή."
+    },
+    "keyboardHelpDialog.medianScreen.grabOrReleaseBallOrCard": {
+      "value": "Πιάστε ή Ελευθερώστε Μπάλα ή Κάρτα"
+    },
+    "keyboardHelpDialog.medianScreen.moveGrabbedBallOrCardTitle": {
+      "value": "Μετακινήστε τη Μπάλα ή την Κάρτα που πιάσατε"
+    },
+    "keyboardHelpDialog.medianScreen.moveGrabbedBallOrCard": {
+      "value": "Μετακινήστε τη μπάλα ή την κάρτα που πιάσατε"
+    },
+    "keyboardHelpDialog.medianScreen.jumpToStartOfCardsOrNumberLine": {
+      "value": "Μεταπήδηση στην αρχή των καρτών ή της αριθμoγραμμής"
+    },
+    "keyboardHelpDialog.medianScreen.jumpToEndOfCardsOrNumberLine": {
+      "value": "Μεταπήδηση στο τέλος των καρτών ή της αριθμoγραμμής"
+    },
+    "keyboardHelpDialog.grabOrReleaseBall": {
+      "value": "Πιάστε ή Ελευθερώστε τη Μπάλα"
+    },
+    "keyboardHelpDialog.moveGrabbedBallTitle": {
+      "value": "Μετακινήστε τη Μπάλα που Πιάσατε"
+    },
+    "keyboardHelpDialog.moveGrabbedBall": {
+      "value": "Μετακινήστε τη μπάλα που πιάσατε"
+    },
+    "keyboardHelpDialog.jumpToStartOfNumberLine": {
+      "value": "Μεταπήδηση στην έναρξη της αριθμογραμμής"
+    },
+    "keyboardHelpDialog.jumpToEndOfNumberLine": {
+      "value": "Μεταπήδηση στο τέλος  της αριθμογραμμής"
+    },
+    "variabilityQuestion": {
+      "value": "Πόσο διασκορπισμένες είναι οι αποστάσεις των λακτισμάτων;"
+    },
+    "valueKicksPattern": {
+      "value": "{{value}} Kicks"
+    },
+    "distanceInMetersAccordionBoxTitle": {
+      "value": "Απόσταση (σε μέτρα)"
+    },
+    "intervalTool": {
+      "value": "Εργαλείο μεσοδιαστήματος"
+    },
+    "pointer": {
+      "value": "Δείκτης"
+    },
+    "keyboardHelpDialog.grabOrRelease": {
+      "value": "Πιάσε ή ελευθέρωσε"
+    },
+    "keyboardHelpDialog.moveInLargerSteps": {
+      "value": "Μετακίνηση σε μεγαλύτερα βήματα"
+    },
+    "keyboardHelpDialog.jumpBallToTickMark": {
+      "value": "Μεταπήδηση μπάλας στο σημάδι"
+    },
+    "keyboardHelpDialog.medianScreen.movePredictMedian": {
+      "value": "Μετακίνηση Πρόβλεψης Διάμεσου"
+    },
+    "keyboardHelpDialog.move": {
+      "value": "Μετακίνηση"
+    },
+    "keyboardHelpDialog.medianScreen.predictMedian": {
+      "value": "πρόβλεψη διάμεσου"
+    },
+    "keyboardHelpDialog.endOfNumberLine": {
+      "value": "τέλος αριθμογραμμής"
+    },
+    "keyboardHelpDialog.startOfNumberLine": {
+      "value": "αρχή αριθμογραμμής"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanOrMedian": {
+      "value": "Μετακίνηση Πρόβλεψης Μέσου Όρου ή Διάμεσου"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.movePredictionPointer": {
+      "value": "Μετακίνηση δείκτη πρόβλεψης"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanInSmallerSteps": {
+      "value": "Μετακίνηση πρόβλεψης μέσου όρου σε μικρότερα βήματα"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.moveInLargerSteps": {
+      "value": "Μετακίνηση πρόβλεψης σε μεγαλύτερα βήματα"
+    },
+    "medianEqualsValueMPattern": {
+      "value": "Median = {{value}} m"
+    },
+    "medianEqualsUnknown": {
+      "value": "Διάμεσος = ?"
+    },
+    "meanEqualsValueMPattern": {
+      "value": "Mean = {{value}} m"
+    },
+    "meanEqualsUnknown": {
+      "value": "Μέσος όρος = ?"
+    },
+    "keyboardHelpDialog.variabilityScreen.movePointerIntervalHandleOrIntervalBlock": {
+      "value": "Μετακίνηση Δείκτη, Χειριστηρίων Μεσοδιαστήματος, ή Πλαισίου Μεσοδιαστήματος"
+    },
+    "keyboardHelpDialog.variabilityScreen.object": {
+      "value": "αντικείκμενο"
+    },
+    "range": {
+      "value": "Εύρος"
+    },
+    "interquartileRangeIQR": {
+      "value": "Διατεταρτημοριακό Εύρος (IQR)"
+    },
+    "meanAbsoluteDeviationMAD": {
+      "value": "Μέση Απόλυτη Απόκλιση (MAD)"
+    },
+    "iqr": {
+      "value": "IQR"
+    },
+    "mad": {
+      "value": "MAD"
+    },
+    "rangeEqualsValueMPattern": {
+      "value": "Range = {{value}} m"
+    },
+    "iqrEqualsValueMPattern": {
+      "value": "IQR = {{value}} m"
+    },
+    "madEqualsValueMPattern": {
+      "value": "MAD = {{value}} m"
+    },
+    "rangeEqualsUnknown": {
+      "value": "Εύρος = ?"
+    },
+    "iqrEqualsUnknown": {
+      "value": "IQR = ?"
+    },
+    "madEqualsUnknown": {
+      "value": "MAD = ?"
+    },
+    "medianDescription": {
+      "value": "Ο <strong>Διάμεσος</strong> είναι ο αριθμός που χωρίζει ένα ταξινομημένο σύνολο δεδομένων στη μέση."
+    },
+    "needAtLeastOneKick": {
+      "value": "Απαιτείται τουλάχιστον ένα λάκτισμα"
+    },
+    "kickValuePattern": {
+      "value": "Kick {{value}}"
+    },
+    "medianEqualsValueUnitsPattern": {
+      "value": "edian = {{value}} {{units}}"
+    },
+    "meter": {
+      "value": "μέτρο"
+    },
+    "meters": {
+      "value": "μέτρα"
+    },
+    "meanDescription": {
+      "value": "Ο <strong>Μέσος Όρος</strong> είναι ο μέσος όρος όλων των τιμών σε οποιοδήποτε σύνολο δεδομένων."
+    },
+    "meanEquals": {
+      "value": "Μέσος όρος"
+    },
+    "meanEqualsValueMetersPattern": {
+      "value": "Mean = {{value}} meters"
+    },
+    "rangeDescription": {
+      "value": "Το <strong>Εύρος</strong> είναι η απόσταση μεταξύ του ελάχιστου και του μέγιστου σημείου δεδομένων."
+    },
+    "rangeEqualsMaxMinusMinPattern": {
+      "value": "Range = {{max}} – {{min}}"
+    },
+    "rangeEqualsRangeUnitsPattern": {
+      "value": "Range = {{range}} {{units}}"
+    },
+    "iqrDescription": {
+      "value": "Το <strong>Εύρος διατεταρτημορίων (IQR)</strong>είναι το μεσαίο 50% των δεδομένων."
+    },
+    "iqrEqualsQ3MinusQ3Pattern": {
+      "value": "IQR = {{q3}} – {{q1}}"
+    },
+    "iqrEqualsIQRUnitsPattern": {
+      "value": "IQR = {{iqr}} {{units}}"
+    },
+    "madDescription": {
+      "value": "Η <strong>Μέση απόλυτη απόκλιση (MAD)</strong> είναι η μέση απόσταση από κάθε σημείο δεδομένων έως τον μέσο όρο."
+    },
+    "madEquals": {
+      "value": "MAD ="
+    },
+    "madEqualsMADMetersPattern": {
+      "value": "MAD = {{mad}} meters"
+    },
+    "medianEqualsValuePattern": {
+      "value": "Διάμεσος = {{value}}"
+    },
+    "dataValuesInMeters": {
+      "value": "Τιμές δεδομένων (σε μέτρα):"
+    },
+    "distanceInMetersChartLabel": {
+      "value": "Απόσταση (σε μέτρα):"
+    },
+    "needAtLeastFiveKicks": {
+      "value": "Απαιτούνται το ελάχιστο πέντε λακτίσματα"
+    },
+    "min": {
+      "value": "ελάχιστο"
+    },
+    "max": {
+      "value": "μέγιστο"
+    },
+    "q1": {
+      "value": "Q1"
+    },
+    "q3": {
+      "value": "Q3"
     }
   },
   "es": {
@@ -1403,10 +1628,10 @@
       "value": "tipo di traccia"
     },
     "linePlot": {
-      "value": "traccia una linea"
+      "value": "Traccia una linea"
     },
     "dotPlot": {
-      "value": "traccia un punto"
+      "value": "Traccia un punto"
     },
     "medianQuestion": {
       "value": "Qual è la distanza tipica dei tiri?"
@@ -1449,6 +1674,231 @@
     },
     "center-and-variability.title": {
       "value": "Centro e variabilità"
+    },
+    "screen.variability": {
+      "value": "Variabilità"
+    },
+    "maxKicks": {
+      "value": "Massimo tiri"
+    },
+    "maxKicksDescription": {
+      "value": "Determina il numero massimo di tiri consentiti per tutti gli schermi. Il numero massimo di calci sullo schermo della Mediana è 15."
+    },
+    "outliers": {
+      "value": "Valori anomali"
+    },
+    "outliersDescription": {
+      "value": "Mostra i valori anomali sul diagramma a quartili come contrassegni anziché essere inclusi negli estremi."
+    },
+    "keyboardHelpDialog.medianScreen.grabOrReleaseBallOrCard": {
+      "value": "Afferra o rilascia la palla o la carta"
+    },
+    "keyboardHelpDialog.medianScreen.moveGrabbedBallOrCardTitle": {
+      "value": "Muovi la palla o la carta afferrate"
+    },
+    "keyboardHelpDialog.medianScreen.moveGrabbedBallOrCard": {
+      "value": "Muovi la palla o la carta afferrate"
+    },
+    "keyboardHelpDialog.medianScreen.jumpToStartOfCardsOrNumberLine": {
+      "value": "Vai all'inizio delle carte o alla linea dei numeri"
+    },
+    "keyboardHelpDialog.medianScreen.jumpToEndOfCardsOrNumberLine": {
+      "value": "Vai alla fine delle carte o della linea dei numeri"
+    },
+    "keyboardHelpDialog.grabOrReleaseBall": {
+      "value": "Affera la palla o lasciala"
+    },
+    "keyboardHelpDialog.moveGrabbedBallTitle": {
+      "value": "Muovi la palla afferrata"
+    },
+    "keyboardHelpDialog.moveGrabbedBall": {
+      "value": "Muovi la palla afferrata"
+    },
+    "keyboardHelpDialog.jumpToStartOfNumberLine": {
+      "value": "Vai all'inizio della linea dei numeri"
+    },
+    "keyboardHelpDialog.jumpToEndOfNumberLine": {
+      "value": "Vai alla fine della linea dei numeri"
+    },
+    "variabilityQuestion": {
+      "value": "Quanto variano le distanze dei tiri?"
+    },
+    "valueKicksPattern": {
+      "value": "{{value}} tiri"
+    },
+    "distanceInMetersAccordionBoxTitle": {
+      "value": "Distanza (in metri)"
+    },
+    "intervalTool": {
+      "value": "Strumento intervallo"
+    },
+    "pointer": {
+      "value": "Puntatore"
+    },
+    "keyboardHelpDialog.grabOrRelease": {
+      "value": "Afferra o lascia"
+    },
+    "keyboardHelpDialog.moveInLargerSteps": {
+      "value": "Muovi a passi più grandi"
+    },
+    "keyboardHelpDialog.jumpBallToTickMark": {
+      "value": "Muovi la palla per mettere un segno"
+    },
+    "keyboardHelpDialog.medianScreen.movePredictMedian": {
+      "value": "Muovi la Mediana prevista"
+    },
+    "keyboardHelpDialog.move": {
+      "value": "Muovi"
+    },
+    "keyboardHelpDialog.medianScreen.predictMedian": {
+      "value": "Prevedi la mediana"
+    },
+    "keyboardHelpDialog.endOfNumberLine": {
+      "value": "Fine della linea dei numeri"
+    },
+    "keyboardHelpDialog.startOfNumberLine": {
+      "value": "Inizio della linea dei numeri"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanOrMedian": {
+      "value": "Muovi la media o la mediana prevista"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.movePredictionPointer": {
+      "value": "Muovi il puntatore della previsione"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanInSmallerSteps": {
+      "value": "Muovi la media prevista a piccoli passi"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.moveInLargerSteps": {
+      "value": "Muovi a passi più ampi"
+    },
+    "medianEqualsValueMPattern": {
+      "value": "Mediana = {{value}} m"
+    },
+    "medianEqualsUnknown": {
+      "value": "Mediana = ?"
+    },
+    "meanEqualsValueMPattern": {
+      "value": "Media = {{value}} m"
+    },
+    "meanEqualsUnknown": {
+      "value": "Media = ?"
+    },
+    "keyboardHelpDialog.variabilityScreen.movePointerIntervalHandleOrIntervalBlock": {
+      "value": "Sposta il puntatore, le maniglie dell'intervallo o il blocco ddell'intervallo"
+    },
+    "keyboardHelpDialog.variabilityScreen.object": {
+      "value": "oggetto"
+    },
+    "range": {
+      "value": "Intervallo"
+    },
+    "interquartileRangeIQR": {
+      "value": "Range Interquartile  (IQR)"
+    },
+    "meanAbsoluteDeviationMAD": {
+      "value": "Deviazione media assoluta (DMA)"
+    },
+    "iqr": {
+      "value": "IQR"
+    },
+    "mad": {
+      "value": "DMA"
+    },
+    "rangeEqualsValueMPattern": {
+      "value": "Range = {{value}} m"
+    },
+    "iqrEqualsValueMPattern": {
+      "value": "IQR = {{value}} m"
+    },
+    "madEqualsValueMPattern": {
+      "value": "DMA = {{value}} m"
+    },
+    "rangeEqualsUnknown": {
+      "value": "Range = ?"
+    },
+    "iqrEqualsUnknown": {
+      "value": "IQR = ?"
+    },
+    "madEqualsUnknown": {
+      "value": "DMA = ?"
+    },
+    "medianDescription": {
+      "value": "<strong>Mediana</strong> è il numero che divide a metà un gruppo di dati ordinato."
+    },
+    "needAtLeastOneKick": {
+      "value": "Serve almeno un tiro"
+    },
+    "kickValuePattern": {
+      "value": "tiro {{value}}"
+    },
+    "medianEqualsValueUnitsPattern": {
+      "value": "Mediana = {{value}} {{units}}"
+    },
+    "meter": {
+      "value": "metro"
+    },
+    "meters": {
+      "value": "metri"
+    },
+    "meanDescription": {
+      "value": "<strong>Media</strong> è la media di tutti i valori in certo gruppo di dati."
+    },
+    "meanEquals": {
+      "value": "Media ="
+    },
+    "meanEqualsValueMetersPattern": {
+      "value": "Media = {{value}} metri"
+    },
+    "rangeDescription": {
+      "value": "L'<strong>Range</strong> è la distanza tra i punti dati minimo e massimo."
+    },
+    "rangeEqualsMaxMinusMinPattern": {
+      "value": "Range = {{max}} – {{min}}"
+    },
+    "rangeEqualsRangeUnitsPattern": {
+      "value": "Range = {{range}} {{units}}"
+    },
+    "iqrDescription": {
+      "value": "L'<strong>intervallo interquartile (IQR)</strong> è il 50% centrale dei dati."
+    },
+    "iqrEqualsQ3MinusQ3Pattern": {
+      "value": "IQR = {{q3}} – {{q1}}"
+    },
+    "iqrEqualsIQRUnitsPattern": {
+      "value": "IQR = {{iqr}} {{units}}"
+    },
+    "madDescription": {
+      "value": "La <strong>Deviazione media assoluta  (DMA)</strong> è la distanza media tra ciascun punto dati e la media."
+    },
+    "madEquals": {
+      "value": "DMA"
+    },
+    "madEqualsMADMetersPattern": {
+      "value": "DMA = {{mad}} metri"
+    },
+    "medianEqualsValuePattern": {
+      "value": "Mediana = {{value}}"
+    },
+    "dataValuesInMeters": {
+      "value": "Valori dei dati (in metri):"
+    },
+    "distanceInMetersChartLabel": {
+      "value": "Distanza (in metri)"
+    },
+    "needAtLeastFiveKicks": {
+      "value": "Servono almeno cinque tiri"
+    },
+    "min": {
+      "value": "min"
+    },
+    "max": {
+      "value": "max"
+    },
+    "q1": {
+      "value": "Q1"
+    },
+    "q3": {
+      "value": "Q3"
     }
   },
   "iw": {
