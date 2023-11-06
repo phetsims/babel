@@ -608,7 +608,7 @@
       "value": "Flyt forudsigelsesmarkør"
     },
     "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanInSmallerSteps": {
-      "value": "Flyt forudsagt gennemsnit i mindre trin"
+      "value": "Flyt forudsagt gennemsnit i mindre skridt"
     },
     "keyboardHelpDialog.meanAndMedianScreen.moveInLargerSteps": {
       "value": "Flyt i større skridt"
@@ -665,13 +665,13 @@
       "value": "MAD = ?"
     },
     "medianDescription": {
-      "value": "<strong>Median</strong> er det tal, der deler det sorterede datasæt i halve."
+      "value": "<strong>Medianen</strong> er det tal, der deler det sorterede datasæt i halve."
     },
     "needAtLeastOneKick": {
       "value": "Skal bruge mindst et spark"
     },
     "kickValuePattern": {
-      "value": "Spark {{value}}"
+      "value": "spark {{value}}"
     },
     "medianEqualsValueUnitsPattern": {
       "value": "Median = {{value}} {{units}}"
@@ -683,7 +683,7 @@
       "value": "meter"
     },
     "meanDescription": {
-      "value": "<strong>Gennemsnit</strong> er gennemsnittet af alle værdier i ethvert datasæt."
+      "value": "<strong>Gennemsnittet</strong> er gennemsnittet af alle værdier i ethvert datasæt."
     },
     "meanEquals": {
       "value": "Gennemsnit ="
@@ -692,7 +692,7 @@
       "value": "Gennemsnit = {{value}} meter"
     },
     "rangeDescription": {
-      "value": "<strong>Variationsbredde</strong> er afstanden mellem mindste og største dataværdier."
+      "value": "<strong>Variationsbredden</strong> er afstanden mellem mindste og største dataværdier."
     },
     "rangeEqualsMaxMinusMinPattern": {
       "value": "Variationsbredde = {{max}} – {{min}}"
@@ -3874,6 +3874,150 @@
     },
     "maxKicksDescription": {
       "value": "Barcha ekranlar uchun ruxsat etilgan maksimal zarbalar sonini aniqlaydi. Mediana ekranidagi maksimal zarbalar soni 15 ta."
+    },
+    "outliers": {
+      "value": "Chegaradan tashqaridagi qiymat"
+    },
+    "keyboardHelpDialog.medianScreen.grabOrReleaseBallOrCard": {
+      "value": "Kartochka yoki to‘pni tanlash yoki tanlovni bekor qilish"
+    },
+    "keyboardHelpDialog.medianScreen.moveGrabbedBallOrCardTitle": {
+      "value": "Tanlangan kartochka yoki to‘pni ko‘chirish"
+    },
+    "keyboardHelpDialog.medianScreen.moveGrabbedBallOrCard": {
+      "value": "Tanlangan karta yoki to‘pni ko‘chirish"
+    },
+    "keyboardHelpDialog.medianScreen.jumpToStartOfCardsOrNumberLine": {
+      "value": "Kartochkalar yoki raqamlar qatorining boshlanishiga o‘ting"
+    },
+    "keyboardHelpDialog.medianScreen.jumpToEndOfCardsOrNumberLine": {
+      "value": "Kartochkalar yoki raqamlar qatorining oxiriga o‘ting"
+    },
+    "keyboardHelpDialog.grabOrReleaseBall": {
+      "value": "To‘pni tanlash yoki tanlovni bekor qilish"
+    },
+    "keyboardHelpDialog.moveGrabbedBallTitle": {
+      "value": "Tanlangan to‘pni ko‘chirish"
+    },
+    "keyboardHelpDialog.moveGrabbedBall": {
+      "value": "Tanlangan to‘pni ko‘chirish"
+    },
+    "keyboardHelpDialog.jumpToStartOfNumberLine": {
+      "value": "Raqamlar qatorining boshlanishiga o‘ting"
+    },
+    "keyboardHelpDialog.jumpToEndOfNumberLine": {
+      "value": "Raqamlar qatorining oxiriga o‘ting"
+    },
+    "variabilityQuestion": {
+      "value": "Zarba masofalari qanday tarqalgan?"
+    },
+    "valueKicksPattern": {
+      "value": "{{value}} zarba"
+    },
+    "distanceInMetersAccordionBoxTitle": {
+      "value": "Masofa (metrda)"
+    },
+    "intervalTool": {
+      "value": "Oraliq masofa o‘lchagich"
+    },
+    "pointer": {
+      "value": "Ko‘rsatgich"
+    },
+    "keyboardHelpDialog.grabOrRelease": {
+      "value": "Tanlash yoki tanlovni bekor qilish"
+    },
+    "keyboardHelpDialog.moveInLargerSteps": {
+      "value": "Kattaroq qadamlarda ko‘chirish"
+    },
+    "keyboardHelpDialog.jumpBallToTickMark": {
+      "value": "To‘pni belgiga sakratish"
+    },
+    "keyboardHelpDialog.medianScreen.movePredictMedian": {
+      "value": "Taxminiy medianani ko‘chirish"
+    },
+    "keyboardHelpDialog.move": {
+      "value": "Ko‘chirish"
+    },
+    "keyboardHelpDialog.medianScreen.predictMedian": {
+      "value": "medianani taxmin qilish"
+    },
+    "keyboardHelpDialog.endOfNumberLine": {
+      "value": "raqamlar qatorining oxiri"
+    },
+    "keyboardHelpDialog.startOfNumberLine": {
+      "value": "raqamlar qatorining boshi"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanOrMedian": {
+      "value": "Taxminiy o‘rta qiymat yoki medianani ko‘chirish"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.movePredictionPointer": {
+      "value": "Taxminiy ko‘rsatgichni ko‘chirish"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanInSmallerSteps": {
+      "value": "Taxminiy o‘rta qiymatni kichikroq qadamlarda ko‘chirish"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.moveInLargerSteps": {
+      "value": "Kattaroq qadamlarda ko‘chirish"
+    },
+    "medianEqualsValueMPattern": {
+      "value": "Mediana = {{value}} m"
+    },
+    "medianEqualsUnknown": {
+      "value": "Mediana = ?"
+    },
+    "meanEqualsValueMPattern": {
+      "value": "O‘rta qiymat = {{value}} m"
+    },
+    "meanEqualsUnknown": {
+      "value": "O‘rta qiymat = ?"
+    },
+    "keyboardHelpDialog.variabilityScreen.movePointerIntervalHandleOrIntervalBlock": {
+      "value": "Ko‘rsatgich, oraliq tutqichlarini yoki oraliq blokini ko‘chirish"
+    },
+    "keyboardHelpDialog.variabilityScreen.object": {
+      "value": "buyum"
+    },
+    "range": {
+      "value": "Chegara"
+    },
+    "rangeEqualsValueMPattern": {
+      "value": "Chegara = {{value}} m"
+    },
+    "rangeEqualsUnknown": {
+      "value": "Chegara = ?"
+    },
+    "needAtLeastOneKick": {
+      "value": "Kamida bitta zarba zarur"
+    },
+    "kickValuePattern": {
+      "value": "{{value}} zarba"
+    },
+    "medianEqualsValueUnitsPattern": {
+      "value": "Mediana = {{value}} {{units}}"
+    },
+    "meter": {
+      "value": "metr"
+    },
+    "meters": {
+      "value": "metr"
+    },
+    "meanEquals": {
+      "value": "O‘rta qiymat ="
+    },
+    "meanEqualsValueMetersPattern": {
+      "value": "O‘rta qiymat = {{value}} metr"
+    },
+    "medianEqualsValuePattern": {
+      "value": "Mediana = {{value}}"
+    },
+    "distanceInMetersChartLabel": {
+      "value": "Masofa (metrda)"
+    },
+    "min": {
+      "value": "minimal"
+    },
+    "max": {
+      "value": "maksimal"
     }
   },
   "yo": {
