@@ -4140,10 +4140,10 @@
   },
   "zu": {
     "screen.median": {
-      "value": "Median"
+      "value": "okuphakathi"
     },
     "screen.meanAndMedian": {
-      "value": "Mean & Median"
+      "value": "i-Mean & i-median"
     },
     "plotType": {
       "value": "uhlobo lwesakhiwo"
@@ -4155,10 +4155,10 @@
       "value": "isakhiwo samachashazi"
     },
     "meanAndMedianQuestion": {
-      "value": "ukukhahlela ngakunye kuyithinta kanjani i-median ne-median."
+      "value": "ukukhahlela ngakunye kuyithinta kanjani i-median ne-median?"
     },
     "medianQuestion": {
-      "value": "liyini ibanga elijwayelekile lokukhahlela?"
+      "value": "liyini ibanga  elijwayelekile lokukhahlela?"
     },
     "distanceInMeters": {
       "value": "ibinga (ngamamitha)"
@@ -4195,6 +4195,231 @@
     },
     "center-and-variability.title": {
       "value": "isikhungo nokuhlukahluka"
+    },
+    "screen.variability": {
+      "value": "ukuhlukahluka"
+    },
+    "maxKicks": {
+      "value": "ukukhahlela"
+    },
+    "maxKicksDescription": {
+      "value": "thola inani eliphezulu lokukhahlela elivunyelwe kuzo zonke izikrini.inombolo ephezulu yokukhahlela esikrinini i-median ngu-15."
+    },
+    "outliers": {
+      "value": "abangaphandle"
+    },
+    "outliersDescription": {
+      "value": "khombisa izinto ezingaphandle ku-boxplot njengomaka kunokuba zifakwe kuntshebe."
+    },
+    "keyboardHelpDialog.medianScreen.grabOrReleaseBallOrCard": {
+      "value": "bamba noma ukhulule ibhola noma ikhadi"
+    },
+    "keyboardHelpDialog.medianScreen.moveGrabbedBallOrCardTitle": {
+      "value": "hambisa ibhola elibanjwe noma ikhadi"
+    },
+    "keyboardHelpDialog.medianScreen.moveGrabbedBallOrCard": {
+      "value": "hambisa ibhola elibanjwe noma ikhadi"
+    },
+    "keyboardHelpDialog.medianScreen.jumpToStartOfCardsOrNumberLine": {
+      "value": "gxumela ekuqaleni kwamakhadi noma umugqa wezinombolo"
+    },
+    "keyboardHelpDialog.medianScreen.jumpToEndOfCardsOrNumberLine": {
+      "value": "gxuma uye ekupheleni kwamakhadi noma umugqa wezinombolo"
+    },
+    "keyboardHelpDialog.grabOrReleaseBall": {
+      "value": "bamba noma khulula ibhola"
+    },
+    "keyboardHelpDialog.moveGrabbedBallTitle": {
+      "value": "hambisa ibhola elibanjwe"
+    },
+    "keyboardHelpDialog.moveGrabbedBall": {
+      "value": "hambisa ibhola elibanjwe"
+    },
+    "keyboardHelpDialog.jumpToStartOfNumberLine": {
+      "value": "gxumela ekuqaleni komugqa wezinombolo"
+    },
+    "keyboardHelpDialog.jumpToEndOfNumberLine": {
+      "value": "gxuma uye ekupheleni komugqa wezinombolo"
+    },
+    "variabilityQuestion": {
+      "value": "indlela yokusabalalisa kukhona amabanga kick?"
+    },
+    "valueKicksPattern": {
+      "value": "{{value}} Kicks"
+    },
+    "distanceInMetersAccordionBoxTitle": {
+      "value": "ibanga (ngamamitha)"
+    },
+    "intervalTool": {
+      "value": "ithulusi lesikhawu"
+    },
+    "pointer": {
+      "value": "isikhombi"
+    },
+    "keyboardHelpDialog.grabOrRelease": {
+      "value": "bamba noma khulula"
+    },
+    "keyboardHelpDialog.moveInLargerSteps": {
+      "value": "hamba ngezinyathelo ezinkulu"
+    },
+    "keyboardHelpDialog.jumpBallToTickMark": {
+      "value": "qxuma ibhola ukuze ubeke uphawu"
+    },
+    "keyboardHelpDialog.medianScreen.movePredictMedian": {
+      "value": "hambisa ukubikezela i-mexdian"
+    },
+    "keyboardHelpDialog.move": {
+      "value": "hambisa"
+    },
+    "keyboardHelpDialog.medianScreen.predictMedian": {
+      "value": "bikezela i-median"
+    },
+    "keyboardHelpDialog.endOfNumberLine": {
+      "value": "ukupkela komugqa wezinombolo"
+    },
+    "keyboardHelpDialog.startOfNumberLine": {
+      "value": "ukuqala komugqa wezinombolo"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanOrMedian": {
+      "value": "hambisa ukubikezela i-mean noma i-median"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.movePredictionPointer": {
+      "value": "hambisa isikhombandlela sokubikezela"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanInSmallerSteps": {
+      "value": "hambisa bikezela i-mean ngezinyathelo ezincane"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.moveInLargerSteps": {
+      "value": "hamba ngezinyathelo ezinkulu"
+    },
+    "medianEqualsValueMPattern": {
+      "value": "Median = {{value}} m"
+    },
+    "medianEqualsUnknown": {
+      "value": "i-median = ?"
+    },
+    "meanEqualsValueMPattern": {
+      "value": "Mean = {{value}} m"
+    },
+    "meanEqualsUnknown": {
+      "value": "i-mean = ?"
+    },
+    "keyboardHelpDialog.variabilityScreen.movePointerIntervalHandleOrIntervalBlock": {
+      "value": "hambisa isikhombi, noma ibhulokhi yesikhawu"
+    },
+    "keyboardHelpDialog.variabilityScreen.object": {
+      "value": "into"
+    },
+    "range": {
+      "value": "ububanzi"
+    },
+    "interquartileRangeIQR": {
+      "value": "Interquartile Range (IQR)"
+    },
+    "meanAbsoluteDeviationMAD": {
+      "value": "Mean Absolute Deviation (MAD)"
+    },
+    "iqr": {
+      "value": "IQR"
+    },
+    "mad": {
+      "value": "MAD"
+    },
+    "rangeEqualsValueMPattern": {
+      "value": "Range = {{value}} m"
+    },
+    "iqrEqualsValueMPattern": {
+      "value": "IQR = {{value}} m"
+    },
+    "madEqualsValueMPattern": {
+      "value": "MAD = {{value}} m"
+    },
+    "rangeEqualsUnknown": {
+      "value": "Range = ?"
+    },
+    "iqrEqualsUnknown": {
+      "value": "IQR = ?"
+    },
+    "madEqualsUnknown": {
+      "value": "MAD = ?"
+    },
+    "medianDescription": {
+      "value": "<eqinile>i-median>/eqinile>imombolo ehlukanisa idatha ehlungiwe esethwe phakathi."
+    },
+    "needAtLeastOneKick": {
+      "value": "kudingeka okungenani ukukhahlela okukodwa"
+    },
+    "kickValuePattern": {
+      "value": "Kick {{value}}"
+    },
+    "medianEqualsValueUnitsPattern": {
+      "value": "Median = {{value}} {{units}}"
+    },
+    "meter": {
+      "value": "imitha"
+    },
+    "meters": {
+      "value": "amamitha"
+    },
+    "meanDescription": {
+      "value": "<eqinile>ububansi</eqinile>isilinganiso sawo wonke amanani kunoma iyiphi isethi yedatha."
+    },
+    "meanEquals": {
+      "value": "i-mean="
+    },
+    "meanEqualsValueMetersPattern": {
+      "value": "Mean = {{value}} meters"
+    },
+    "rangeDescription": {
+      "value": "<eqinile>isilinganiso>/eqinile>yibanga eliphakathi kwamaphoyinti edatha amancane nephezulu."
+    },
+    "rangeEqualsMaxMinusMinPattern": {
+      "value": "Range = {{max}} – {{min}}"
+    },
+    "rangeEqualsRangeUnitsPattern": {
+      "value": "Range = {{range}} {{units}}"
+    },
+    "iqrDescription": {
+      "value": "<eqinile>iterquartile range (IQR) </eqinile>iphakathi kuka-50% wedatha."
+    },
+    "iqrEqualsQ3MinusQ3Pattern": {
+      "value": "IQR = {{q3}} – {{q1}}"
+    },
+    "iqrEqualsIQRUnitsPattern": {
+      "value": "IQR = {{iqr}} {{units}}"
+    },
+    "madDescription": {
+      "value": "<eqinile>Mean absolute deviation (MAD) </eqinile>yibanga elimaphakathi ukusuka endaweni ngayinye yedatha ukuya i-mean."
+    },
+    "madEquals": {
+      "value": "MAD ="
+    },
+    "madEqualsMADMetersPattern": {
+      "value": "MAD = {{mad}} meters"
+    },
+    "medianEqualsValuePattern": {
+      "value": "Median = {{value}}"
+    },
+    "dataValuesInMeters": {
+      "value": "amanani edatha (ngamamitha)"
+    },
+    "distanceInMetersChartLabel": {
+      "value": "ibanga (ngamamitha)"
+    },
+    "needAtLeastFiveKicks": {
+      "value": "badinga okungenani ukukhahlelwa okuhlanu"
+    },
+    "min": {
+      "value": "ubuncane"
+    },
+    "max": {
+      "value": "ubuningi"
+    },
+    "q1": {
+      "value": "Q1"
+    },
+    "q3": {
+      "value": "Q3"
     }
   },
   "en": {
