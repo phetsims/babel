@@ -132,13 +132,20 @@
     ]
   },
   "temperatureUnits": {
-    "value": "Unità di misura temperatura",
+    "value": "Unità di misura della temperatura",
     "history": [
       {
         "userId": 157247,
         "timestamp": 1675408400534,
         "oldValue": "",
         "newValue": "Unità di misura temperatura"
+      },
+      {
+        "userId": 1008323,
+        "timestamp": 1701505235590,
+        "oldValue": "Unità di misura temperatura",
+        "newValue": "Unità di misura della temperatura",
+        "explanation": null
       }
     ]
   },
@@ -266,13 +273,20 @@
     ]
   },
   "surfaceThermometer": {
-    "value": "Termometro di superficie",
+    "value": "Termometro sulla superficie",
     "history": [
       {
         "userId": 157247,
         "timestamp": 1647336457462,
         "oldValue": "",
         "newValue": "Termometro di superficie"
+      },
+      {
+        "userId": 1008323,
+        "timestamp": 1701505235590,
+        "oldValue": "Termometro di superficie",
+        "newValue": "Termometro sulla superficie",
+        "explanation": null
       }
     ]
   },
@@ -499,6 +513,17 @@
         "timestamp": 1696258345460,
         "oldValue": "",
         "newValue": "{{value}} {{units}}"
+      }
+    ]
+  },
+  "defaultTemperatureUnits": {
+    "value": "Inizializzazione unità di temperatura",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1701505235590,
+        "oldValue": "",
+        "newValue": "Inizializzazione unità di temperatura"
       }
     ]
   }
