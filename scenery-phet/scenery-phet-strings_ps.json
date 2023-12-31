@@ -149,7 +149,7 @@
     ]
   },
   "speed.normal": {
-    "value": "نورمال",
+    "value": "عادي حرکت",
     "history": [
       {
         "userId": 11191855,
@@ -163,11 +163,18 @@
         "oldValue": "نورمال سرعت",
         "newValue": "نورمال",
         "explanation": null
+      },
+      {
+        "userId": 11192058,
+        "timestamp": 1704013605963,
+        "oldValue": "نورمال",
+        "newValue": "عادي حرکت",
+        "explanation": null
       }
     ]
   },
   "speed.slow": {
-    "value": "ورو",
+    "value": "ورو حرکت",
     "history": [
       {
         "userId": 11191855,
@@ -180,6 +187,13 @@
         "timestamp": 1702470977077,
         "oldValue": "ورو سرعت",
         "newValue": "ورو",
+        "explanation": null
+      },
+      {
+        "userId": 11192058,
+        "timestamp": 1704013605963,
+        "oldValue": "ورو",
+        "newValue": "ورو حرکت",
         "explanation": null
       }
     ]
@@ -972,13 +986,19 @@
     ]
   },
   "stopwatchValueUnitsPattern": {
-    "value": "{{value}} {{units}}",
+    "value": "",
     "history": [
       {
         "userId": 11192058,
         "timestamp": 1702470977077,
         "oldValue": "",
         "newValue": "{{value}} {{units}}"
+      },
+      {
+        "userId": 11192058,
+        "timestamp": 1704013605963,
+        "oldValue": "{{value}} {{units}}",
+        "newValue": ""
       }
     ]
   },
