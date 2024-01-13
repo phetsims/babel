@@ -176,13 +176,20 @@
     ]
   },
   "symbol.meters": {
-    "value": "מ'",
+    "value": "m",
     "history": [
       {
         "userId": 775981,
         "timestamp": 1630172507308,
         "oldValue": "",
         "newValue": "מ'"
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1705158045149,
+        "oldValue": "מ'",
+        "newValue": "m",
+        "explanation": null
       }
     ]
   },
@@ -209,24 +216,38 @@
     ]
   },
   "symbol.A": {
-    "value": "א",
+    "value": "A",
     "history": [
       {
         "userId": 775981,
         "timestamp": 1630172507308,
         "oldValue": "",
         "newValue": "א"
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1705158045149,
+        "oldValue": "א",
+        "newValue": "A",
+        "explanation": null
       }
     ]
   },
   "symbol.B": {
-    "value": "ב",
+    "value": "B",
     "history": [
       {
         "userId": 775981,
         "timestamp": 1630172507308,
         "oldValue": "",
         "newValue": "ב"
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1705158045149,
+        "oldValue": "ב",
+        "newValue": "B",
+        "explanation": null
       }
     ]
   },
@@ -242,24 +263,38 @@
     ]
   },
   "temperatureSceneDirectedPositiveDistanceTemplate": {
-    "value": "המיקום של {{secondaryPointControllerLabel}} הוא {{difference}} {{units}} גבוהה יותר מאשר של {{primaryPointControllerLabel}}.",
+    "value": "המיקום של {{secondaryPointControllerLabel}} הוא {{difference}} {{units}} חם יותר מאשר {{primaryPointControllerLabel}}.",
     "history": [
       {
         "userId": 775981,
         "timestamp": 1630172507308,
         "oldValue": "",
         "newValue": "המיקום של {{secondaryPointControllerLabel}} הוא {{difference}} {{units}} גבוהה יותר מאשר של {{primaryPointControllerLabel}}."
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1705158045149,
+        "oldValue": "המיקום של {{secondaryPointControllerLabel}} הוא {{difference}} {{units}} גבוהה יותר מאשר של {{primaryPointControllerLabel}}.",
+        "newValue": "המיקום של {{secondaryPointControllerLabel}} הוא {{difference}} {{units}} חם יותר מאשר {{primaryPointControllerLabel}}.",
+        "explanation": null
       }
     ]
   },
   "temperatureSceneDirectedNegativeDistanceTemplate": {
-    "value": "המיקום של {{secondaryPointControllerLabel}} הוא {{difference}} {{units}} נמוך יותר מאשר של {{primaryPointControllerLabel}}.",
+    "value": "המיקום של {{secondaryPointControllerLabel}} הוא {{difference}} {{units}} קר יותר מאשר {{primaryPointControllerLabel}}.",
     "history": [
       {
         "userId": 775981,
         "timestamp": 1630172507308,
         "oldValue": "",
         "newValue": "המיקום של {{secondaryPointControllerLabel}} הוא {{difference}} {{units}} נמוך יותר מאשר של {{primaryPointControllerLabel}}."
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1705158045149,
+        "oldValue": "המיקום של {{secondaryPointControllerLabel}} הוא {{difference}} {{units}} נמוך יותר מאשר של {{primaryPointControllerLabel}}.",
+        "newValue": "המיקום של {{secondaryPointControllerLabel}} הוא {{difference}} {{units}} קר יותר מאשר {{primaryPointControllerLabel}}.",
+        "explanation": null
       }
     ]
   },
@@ -352,24 +387,38 @@
     ]
   },
   "pointLabels": {
-    "value": "ערכי מקום הנקודה",
+    "value": "ערכי הנקודות",
     "history": [
       {
         "userId": 775981,
         "timestamp": 1630172507308,
         "oldValue": "",
         "newValue": "ערכי מקום הנקודה"
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1705158045149,
+        "oldValue": "ערכי מקום הנקודה",
+        "newValue": "ערכי הנקודות",
+        "explanation": null
       }
     ]
   },
   "distanceLabels": {
-    "value": "ערכי המרחק",
+    "value": "ערך המרחק",
     "history": [
       {
         "userId": 775981,
         "timestamp": 1630172507308,
         "oldValue": "",
         "newValue": "ערכי המרחק"
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1705158045149,
+        "oldValue": "ערכי המרחק",
+        "newValue": "ערך המרחק",
+        "explanation": null
       }
     ]
   },
@@ -385,13 +434,20 @@
     ]
   },
   "tickMarks": {
-    "value": "קנה מידה",
+    "value": "שנתות",
     "history": [
       {
         "userId": 775981,
         "timestamp": 1630172507308,
         "oldValue": "",
         "newValue": "קנה מידה"
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1705158045149,
+        "oldValue": "קנה מידה",
+        "newValue": "שנתות",
+        "explanation": null
       }
     ]
   },
@@ -407,13 +463,20 @@
     ]
   },
   "directedDistance": {
-    "value": "העתק (מרחק מכוון)",
+    "value": "מרחק ישיר",
     "history": [
       {
         "userId": 775981,
         "timestamp": 1630172507308,
         "oldValue": "",
         "newValue": "העתק (מרחק מכוון)"
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1705158045149,
+        "oldValue": "העתק (מרחק מכוון)",
+        "newValue": "מרחק ישיר",
+        "explanation": null
       }
     ]
   },
@@ -436,6 +499,61 @@
         "timestamp": 1630172507308,
         "oldValue": "",
         "newValue": "ציר המספרים: מרחק"
+      }
+    ]
+  },
+  "displacement": {
+    "value": "העתק",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1705158045149,
+        "oldValue": "",
+        "newValue": "העתק"
+      }
+    ]
+  },
+  "terminology": {
+    "value": "מינוח",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1705158045149,
+        "oldValue": "",
+        "newValue": "מינוח"
+      }
+    ]
+  },
+  "terminologyControlDescription": {
+    "value": "בחר את המושג שישמש לתיאור ההבדל בין שני מספרים שלמים.",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1705158045149,
+        "oldValue": "",
+        "newValue": "בחר את המושג שישמש לתיאור ההבדל בין שני מספרים שלמים."
+      }
+    ]
+  },
+  "mathSymbolPattern": {
+    "value": "<span style='font-family: \"Times New Roman\", Times, serif;font-style: italic'>{{symbol}}</span>",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1705158045149,
+        "oldValue": "",
+        "newValue": "<span style='font-family: \"Times New Roman\", Times, serif;font-style: italic'>{{symbol}}</span>"
+      }
+    ]
+  },
+  "variableSubscriptPattern": {
+    "value": "{{variable}}<sub style='font-style:normal'>{{subscript}}</sub>",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1705158045149,
+        "oldValue": "",
+        "newValue": "{{variable}}<sub style='font-style:normal'>{{subscript}}</sub>"
       }
     ]
   }
