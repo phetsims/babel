@@ -468,13 +468,20 @@
     ]
   },
   "keyboardHelpDialog.moveInLargerSteps": {
-    "value": "Flyt til større skridt",
+    "value": "Flyt i større trin",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1699048327156,
         "oldValue": "",
         "newValue": "Flyt til større skridt"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1705416904618,
+        "oldValue": "Flyt til større skridt",
+        "newValue": "Flyt i større trin",
+        "explanation": null
       }
     ]
   },
@@ -581,7 +588,7 @@
     ]
   },
   "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanInSmallerSteps": {
-    "value": "Flyt forudsagt gennemsnit i mindre skridt",
+    "value": "Flyt forudsagt gennemsnit i mindre trin",
     "history": [
       {
         "userId": 130982,
@@ -602,17 +609,31 @@
         "oldValue": "Flyt forudsagt gennemsnit i mindre trin",
         "newValue": "Flyt forudsagt gennemsnit i mindre skridt",
         "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1705416904618,
+        "oldValue": "Flyt forudsagt gennemsnit i mindre skridt",
+        "newValue": "Flyt forudsagt gennemsnit i mindre trin",
+        "explanation": null
       }
     ]
   },
   "keyboardHelpDialog.meanAndMedianScreen.moveInLargerSteps": {
-    "value": "Flyt i større skridt",
+    "value": "Flyt i større trin",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1699048327156,
         "oldValue": "",
         "newValue": "Flyt i større skridt"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1705416904618,
+        "oldValue": "Flyt i større skridt",
+        "newValue": "Flyt i større trin",
+        "explanation": null
       }
     ]
   },
@@ -708,7 +729,7 @@
     ]
   },
   "interquartileRangeIQR": {
-    "value": "Kvartilbredde (IQR)",
+    "value": "Den interkvartile afstand (DIA)",
     "history": [
       {
         "userId": 130982,
@@ -722,39 +743,67 @@
         "oldValue": "Interkvartilområdet (IQR)",
         "newValue": "Kvartilbredde (IQR)",
         "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1705416904618,
+        "oldValue": "Kvartilbredde (IQR)",
+        "newValue": "Den interkvartile afstand (DIA)",
+        "explanation": null
       }
     ]
   },
   "meanAbsoluteDeviationMAD": {
-    "value": "Gennemsnitlig absolut afvigelse (MAD)",
+    "value": "Gennemsnitlig numerisk afvigelse (GNA)",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1699048327156,
         "oldValue": "",
         "newValue": "Gennemsnitlig absolut afvigelse (MAD)"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1705416904618,
+        "oldValue": "Gennemsnitlig absolut afvigelse (MAD)",
+        "newValue": "Gennemsnitlig numerisk afvigelse (GNA)",
+        "explanation": null
       }
     ]
   },
   "iqr": {
-    "value": "IQR",
+    "value": "DIA",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1699048327156,
         "oldValue": "",
         "newValue": "IQR"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1705416904618,
+        "oldValue": "IQR",
+        "newValue": "DIA",
+        "explanation": null
       }
     ]
   },
   "mad": {
-    "value": "MAD",
+    "value": "GNA",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1699048327156,
         "oldValue": "",
         "newValue": "MAD"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1705416904618,
+        "oldValue": "MAD",
+        "newValue": "GNA",
+        "explanation": null
       }
     ]
   },
@@ -770,24 +819,38 @@
     ]
   },
   "iqrEqualsValueMPattern": {
-    "value": "IQR = {{value}} m",
+    "value": "DIA = {{value}} m",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1699048327156,
         "oldValue": "",
         "newValue": "IQR = {{value}} m"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1705416904618,
+        "oldValue": "IQR = {{value}} m",
+        "newValue": "DIA = {{value}} m",
+        "explanation": null
       }
     ]
   },
   "madEqualsValueMPattern": {
-    "value": "MAD = {{value}} m",
+    "value": "GNA = {{value}} m",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1699048327156,
         "oldValue": "",
         "newValue": "MAD = {{value}} m"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1705416904618,
+        "oldValue": "MAD = {{value}} m",
+        "newValue": "GNA = {{value}} m",
+        "explanation": null
       }
     ]
   },
@@ -810,24 +873,38 @@
     ]
   },
   "iqrEqualsUnknown": {
-    "value": "IQR = ?",
+    "value": "DIA = ?",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1699048327156,
         "oldValue": "",
         "newValue": "IQR = ?"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1705416904618,
+        "oldValue": "IQR = ?",
+        "newValue": "DIA = ?",
+        "explanation": null
       }
     ]
   },
   "madEqualsUnknown": {
-    "value": "MAD = ?",
+    "value": "GNA = ?",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1699048327156,
         "oldValue": "",
         "newValue": "MAD = ?"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1705416904618,
+        "oldValue": "MAD = ?",
+        "newValue": "GNA = ?",
+        "explanation": null
       }
     ]
   },
@@ -1041,7 +1118,7 @@
     ]
   },
   "iqrDescription": {
-    "value": "<strong>Kvartilbredden (IQR)</strong> er de midterste 50% af dataene.",
+    "value": "<strong>Kvartilbredden (DIA)</strong> er de midterste 50% af dataene.",
     "history": [
       {
         "userId": 130982,
@@ -1062,33 +1139,54 @@
         "oldValue": "<strong>Interkvartilområdet (IQR)</strong> er de midterste 50% af dataene.",
         "newValue": "<strong>Kvartilbredden (IQR)</strong> er de midterste 50% af dataene.",
         "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1705416904618,
+        "oldValue": "<strong>Kvartilbredden (IQR)</strong> er de midterste 50% af dataene.",
+        "newValue": "<strong>Kvartilbredden (DIA)</strong> er de midterste 50% af dataene.",
+        "explanation": null
       }
     ]
   },
   "iqrEqualsQ3MinusQ3Pattern": {
-    "value": "IQR = {{q3}} – {{q1}}",
+    "value": "DIA = {{q3}} – {{q1}}",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1699048327156,
         "oldValue": "",
         "newValue": "IQR = {{q3}} – {{q1}}"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1705416904618,
+        "oldValue": "IQR = {{q3}} – {{q1}}",
+        "newValue": "DIA = {{q3}} – {{q1}}",
+        "explanation": null
       }
     ]
   },
   "iqrEqualsIQRUnitsPattern": {
-    "value": "IQR = {{iqr}} {{units}}",
+    "value": "DIA = {{iqr}} {{units}}",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1699048327156,
         "oldValue": "",
         "newValue": "IQR = {{iqr}} {{units}}"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1705416904618,
+        "oldValue": "IQR = {{iqr}} {{units}}",
+        "newValue": "DIA = {{iqr}} {{units}}",
+        "explanation": null
       }
     ]
   },
   "madDescription": {
-    "value": "<strong>Gennemsnitlig absolut afvigelse (MAD)</strong> er den gennemsnitlige distance fra hvert datapunkt til gennemsnittet.",
+    "value": "<strong>Gennemsnitlig numerisk afvigelse (GNA)</strong> er den gennemsnitlige distance fra hvert datapunkt til gennemsnittet.",
     "history": [
       {
         "userId": 130982,
@@ -1102,28 +1200,49 @@
         "oldValue": "<strong>Gennemsnitlig absolut afvigelse(MAD)</strong> er den gennemsnitlige distance fra hvert datapunkt til gennemsnittet.",
         "newValue": "<strong>Gennemsnitlig absolut afvigelse (MAD)</strong> er den gennemsnitlige distance fra hvert datapunkt til gennemsnittet.",
         "explanation": null
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1705416904618,
+        "oldValue": "<strong>Gennemsnitlig absolut afvigelse (MAD)</strong> er den gennemsnitlige distance fra hvert datapunkt til gennemsnittet.",
+        "newValue": "<strong>Gennemsnitlig numerisk afvigelse (GNA)</strong> er den gennemsnitlige distance fra hvert datapunkt til gennemsnittet.",
+        "explanation": null
       }
     ]
   },
   "madEquals": {
-    "value": "MAD =",
+    "value": "GNA =",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1699048327156,
         "oldValue": "",
         "newValue": "MAD ="
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1705416904618,
+        "oldValue": "MAD =",
+        "newValue": "GNA =",
+        "explanation": null
       }
     ]
   },
   "madEqualsMADMetersPattern": {
-    "value": "MAD = {{mad}} meter",
+    "value": "GNA = {{mad}} meter",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1699048327156,
         "oldValue": "",
         "newValue": "MAD = {{mad}} meter"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1705416904618,
+        "oldValue": "MAD = {{mad}} meter",
+        "newValue": "GNA = {{mad}} meter",
+        "explanation": null
       }
     ]
   },
