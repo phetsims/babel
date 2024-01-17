@@ -853,7 +853,7 @@
       "value": "Grib eller slip"
     },
     "keyboardHelpDialog.moveInLargerSteps": {
-      "value": "Flyt til større skridt"
+      "value": "Flyt i større trin"
     },
     "keyboardHelpDialog.jumpBallToTickMark": {
       "value": "Flyt bold til mærke"
@@ -880,10 +880,10 @@
       "value": "Flyt forudsigelsesmarkør"
     },
     "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanInSmallerSteps": {
-      "value": "Flyt forudsagt gennemsnit i mindre skridt"
+      "value": "Flyt forudsagt gennemsnit i mindre trin"
     },
     "keyboardHelpDialog.meanAndMedianScreen.moveInLargerSteps": {
-      "value": "Flyt i større skridt"
+      "value": "Flyt i større trin"
     },
     "medianEqualsValueMPattern": {
       "value": "Median = {{value}} m"
@@ -907,34 +907,34 @@
       "value": "Variationsbredde"
     },
     "interquartileRangeIQR": {
-      "value": "Kvartilbredde (IQR)"
+      "value": "Den interkvartile afstand (DIA)"
     },
     "meanAbsoluteDeviationMAD": {
-      "value": "Gennemsnitlig absolut afvigelse (MAD)"
+      "value": "Gennemsnitlig numerisk afvigelse (GNA)"
     },
     "iqr": {
-      "value": "IQR"
+      "value": "DIA"
     },
     "mad": {
-      "value": "MAD"
+      "value": "GNA"
     },
     "rangeEqualsValueMPattern": {
       "value": "Afvigelse = {{value}} m"
     },
     "iqrEqualsValueMPattern": {
-      "value": "IQR = {{value}} m"
+      "value": "DIA = {{value}} m"
     },
     "madEqualsValueMPattern": {
-      "value": "MAD = {{value}} m"
+      "value": "GNA = {{value}} m"
     },
     "rangeEqualsUnknown": {
       "value": "Variationsbredde = ?"
     },
     "iqrEqualsUnknown": {
-      "value": "IQR = ?"
+      "value": "DIA = ?"
     },
     "madEqualsUnknown": {
-      "value": "MAD = ?"
+      "value": "GNA = ?"
     },
     "medianDescription": {
       "value": "<strong>Medianen</strong> er det tal, der deler det sorterede datasæt i halve."
@@ -973,22 +973,22 @@
       "value": "Variationsbredde = {{range}} {{units}}"
     },
     "iqrDescription": {
-      "value": "<strong>Kvartilbredden (IQR)</strong> er de midterste 50% af dataene."
+      "value": "<strong>Kvartilbredden (DIA)</strong> er de midterste 50% af dataene."
     },
     "iqrEqualsQ3MinusQ3Pattern": {
-      "value": "IQR = {{q3}} – {{q1}}"
+      "value": "DIA = {{q3}} – {{q1}}"
     },
     "iqrEqualsIQRUnitsPattern": {
-      "value": "IQR = {{iqr}} {{units}}"
+      "value": "DIA = {{iqr}} {{units}}"
     },
     "madDescription": {
-      "value": "<strong>Gennemsnitlig absolut afvigelse (MAD)</strong> er den gennemsnitlige distance fra hvert datapunkt til gennemsnittet."
+      "value": "<strong>Gennemsnitlig numerisk afvigelse (GNA)</strong> er den gennemsnitlige distance fra hvert datapunkt til gennemsnittet."
     },
     "madEquals": {
-      "value": "MAD ="
+      "value": "GNA ="
     },
     "madEqualsMADMetersPattern": {
-      "value": "MAD = {{mad}} meter"
+      "value": "GNA = {{mad}} meter"
     },
     "medianEqualsValuePattern": {
       "value": "Median = {{value}}"
@@ -5037,7 +5037,7 @@
       "value": "Pular para o fim da linha numérica"
     },
     "variabilityQuestion": {
-      "value": "Quão espalhadas estão as distâncias do chute?"
+      "value": "Quão espalhadas estão as distâncias dos chutes?"
     },
     "valueKicksPattern": {
       "value": "{{value}} chutes"
@@ -5139,7 +5139,7 @@
       "value": "DMA = ?"
     },
     "medianDescription": {
-      "value": "<strong>Mediana</strong> é o número que divide ao meio um conjunto classificado de dados."
+      "value": "<strong>Mediana</strong> é o número que divide ao meio um conjunto de dados ordenados."
     },
     "needAtLeastOneKick": {
       "value": "É necessário ao menos um chute"
