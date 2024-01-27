@@ -165,13 +165,20 @@
     ]
   },
   "distanceSceneDirectedNegativeDistanceTemplate": {
-    "value": "La {{secondaryPointControllerLabel}} è {{difference}} {{units}} ad ovest della {{primaryPointControllerLabel}}.",
+    "value": "La {{secondaryPointControllerLabel}} è {{difference}} {{units}}ad ovest della {{primaryPointControllerLabel}}.",
     "history": [
       {
         "userId": 157247,
         "timestamp": 1629395602661,
         "oldValue": "",
         "newValue": "La {{secondaryPointControllerLabel}} è {{difference}} {{units}} ad ovest della {{primaryPointControllerLabel}}."
+      },
+      {
+        "userId": 157247,
+        "timestamp": 1706345526856,
+        "oldValue": "La {{secondaryPointControllerLabel}} è {{difference}} {{units}} ad ovest della {{primaryPointControllerLabel}}.",
+        "newValue": "La {{secondaryPointControllerLabel}} è {{difference}} {{units}}ad ovest della {{primaryPointControllerLabel}}.",
+        "explanation": null
       }
     ]
   },
@@ -448,6 +455,61 @@
         "timestamp": 1629395602661,
         "oldValue": "",
         "newValue": "Linea dei numeri: distanza"
+      }
+    ]
+  },
+  "displacement": {
+    "value": "Spostamento",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1706345526856,
+        "oldValue": "",
+        "newValue": "Spostamento"
+      }
+    ]
+  },
+  "terminology": {
+    "value": "Terminologia",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1706345526856,
+        "oldValue": "",
+        "newValue": "Terminologia"
+      }
+    ]
+  },
+  "terminologyControlDescription": {
+    "value": "Scegli la terminologia da utilizzar per descrivere la differenza tra due numeri interi.",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1706345526856,
+        "oldValue": "",
+        "newValue": "Scegli la terminologia da utilizzar per descrivere la differenza tra due numeri interi."
+      }
+    ]
+  },
+  "mathSymbolPattern": {
+    "value": "<span style='font-family: \"Times New Roman\", Times, serif;font-style: italic'>{{symbol}}</span>",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1706345526856,
+        "oldValue": "",
+        "newValue": "<span style='font-family: \"Times New Roman\", Times, serif;font-style: italic'>{{symbol}}</span>"
+      }
+    ]
+  },
+  "variableSubscriptPattern": {
+    "value": "{{variable}}<sub style='font-style:normal'>{{subscript}}</sub>",
+    "history": [
+      {
+        "userId": 157247,
+        "timestamp": 1706345526856,
+        "oldValue": "",
+        "newValue": "{{variable}}<sub style='font-style:normal'>{{subscript}}</sub>"
       }
     ]
   }
