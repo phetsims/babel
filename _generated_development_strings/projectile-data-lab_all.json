@@ -15,7 +15,7 @@
     "screen.sampling": {
       "value": "Sampling"
     },
-    "singleLaunch": {
+    "single": {
       "value": "Single"
     },
     "launch": {
@@ -24,7 +24,7 @@
     "stop": {
       "value": "Stop"
     },
-    "continuousLaunch": {
+    "continuous": {
       "value": "Continuous"
     },
     "noAirResistance": {
@@ -57,8 +57,8 @@
     "histogram": {
       "value": "Histogram"
     },
-    "fieldValuePattern": {
-      "value": "Field {{value}}"
+    "fieldNumberPattern": {
+      "value": "Field {{number}}"
     },
     "noData": {
       "value": "No data"
@@ -72,7 +72,7 @@
     "values": {
       "value": "Values"
     },
-    "sampleSize": {
+    "sampleSizeN": {
       "value": "Sample size (n)"
     },
     "paths": {
@@ -97,7 +97,7 @@
       "value": "Mean = {{value}} m"
     },
     "meanXBarEqualsValueMPattern": {
-      "value": "Mean (x̅)= {{value}} m"
+      "value": "Mean (x̅) = {{value}} m"
     },
     "standardDeviationMPattern": {
       "value": "{{standardDeviation}} m"
@@ -108,10 +108,10 @@
     "standardErrorOfXBarEqualsValueMPattern": {
       "value": "Standard error of x̅ = {{value}} m"
     },
-    "metersPerSecondPattern": {
+    "valueMetersPerSecondPattern": {
       "value": "{{value}} m/s"
     },
-    "degreesPattern": {
+    "valueDegreesPattern": {
       "value": "{{value}}°"
     },
     "nEqualsSampleSizePattern": {
@@ -126,10 +126,10 @@
     "binWidthMPattern": {
       "value": "{{binWidth}} m"
     },
-    "intervalMetersPattern": {
+    "intervalMPattern": {
       "value": "{{interval}} m"
     },
-    "meanMetersPattern": {
+    "meanMPattern": {
       "value": "{{mean}} m"
     },
     "distance": {
@@ -153,13 +153,10 @@
     "histogramBinsPreferenceDescription": {
       "value": "The histogram offers two customization options for its data representation. You can either choose to define the width of the bins or specify the total number of bins in the histogram."
     },
-    "intervalToolPercent": {
+    "percentPattern": {
       "value": "{{percent}}%"
     },
-    "launcherPattern": {
-      "value": "Launcher {{launcher}}"
-    },
-    "sampleSizePattern": {
+    "sampleSizeNPattern": {
       "value": "Sample size (n): {{sampleSize}}"
     },
     "numberOfSamplesPattern": {
