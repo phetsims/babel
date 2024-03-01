@@ -77,13 +77,20 @@
     ]
   },
   "operationOffScale": {
-    "value": "operação fora da escala ",
+    "value": "operação fora da escala",
     "history": [
       {
         "userId": 143491,
         "timestamp": 1612553812407,
         "oldValue": "",
         "newValue": "operação fora da escala "
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1709288135176,
+        "oldValue": "operação fora da escala ",
+        "newValue": "operação fora da escala",
+        "explanation": null
       }
     ]
   },
@@ -110,13 +117,20 @@
     ]
   },
   "addRemoveAssetDebtPattern": {
-    "value": " {{addOrRemove}} {{assetOrDebt}} de {{currencyUnits}}{{value}}",
+    "value": "{{addOrRemove}} {{assetOrDebt}} de {{currencyUnits}}{{value}}",
     "history": [
       {
         "userId": 143491,
         "timestamp": 1612553812407,
         "oldValue": "",
         "newValue": " {{addOrRemove}} {{assetOrDebt}} de {{currencyUnits}}{{value}}"
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1709288135176,
+        "oldValue": " {{addOrRemove}} {{assetOrDebt}} de {{currencyUnits}}{{value}}",
+        "newValue": "{{addOrRemove}} {{assetOrDebt}} de {{currencyUnits}}{{value}}",
+        "explanation": null
       }
     ]
   },
@@ -264,13 +278,20 @@
     ]
   },
   "number-line-operations.title": {
-    "value": "Reta Numérica: Operações ",
+    "value": "Reta Numérica: Operações",
     "history": [
       {
         "userId": 143491,
         "timestamp": 1612553812407,
         "oldValue": "",
         "newValue": "Reta Numérica: Operações "
+      },
+      {
+        "userId": 143491,
+        "timestamp": 1709288135176,
+        "oldValue": "Reta Numérica: Operações ",
+        "newValue": "Reta Numérica: Operações",
+        "explanation": null
       }
     ]
   },
@@ -315,6 +336,83 @@
         "timestamp": 1612553812407,
         "oldValue": "",
         "newValue": "Simplificar"
+      }
+    ]
+  },
+  "currencyUnits": {
+    "value": "$",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1709288135176,
+        "oldValue": "",
+        "newValue": "$"
+      }
+    ]
+  },
+  "addRemoveZeroCurrencyPattern": {
+    "value": "{{addOrRemove}} {{currencyUnits}}0",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1709288135176,
+        "oldValue": "",
+        "newValue": "{{addOrRemove}} {{currencyUnits}}0"
+      }
+    ]
+  },
+  "currencyValuePattern": {
+    "value": "{{sign}}{{currencyUnits}}{{value}}",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1709288135176,
+        "oldValue": "",
+        "newValue": "{{sign}}{{currencyUnits}}{{value}}"
+      }
+    ]
+  },
+  "netWorthWithCurrencyPattern": {
+    "value": "{{netWorthString}} ({{currencyUnits}})",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1709288135176,
+        "oldValue": "",
+        "newValue": "{{netWorthString}} ({{currencyUnits}})"
+      }
+    ]
+  },
+  "totalCurrencyPattern": {
+    "value": "{{totalString}} = {{sign}}{{currencyUnits}}{{totalValue}}",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1709288135176,
+        "oldValue": "",
+        "newValue": "{{totalString}} = {{sign}}{{currencyUnits}}{{totalValue}}"
+      }
+    ]
+  },
+  "totalValuePattern": {
+    "value": "{{totalString}} = {{totalValue}}",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1709288135176,
+        "oldValue": "",
+        "newValue": "{{totalString}} = {{totalValue}}"
+      }
+    ]
+  },
+  "addRemoveZeroPattern": {
+    "value": "{{addOrRemove}} 0",
+    "history": [
+      {
+        "userId": 143491,
+        "timestamp": 1709288135176,
+        "oldValue": "",
+        "newValue": "{{addOrRemove}} 0"
       }
     ]
   }
