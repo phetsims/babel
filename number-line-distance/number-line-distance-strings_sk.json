@@ -33,29 +33,43 @@
     ]
   },
   "genericDirectedPositiveDistanceTemplate": {
-    "value": "{{secondaryPointControllerLabel}} je o {{difference}}{{units}}väčšie než {{primaryPointControllerLabel}}",
+    "value": "{{secondaryPointControllerLabel}} je o {{difference}} {{units}} väčšie než {{primaryPointControllerLabel}}",
     "history": [
       {
         "userId": 134140,
         "timestamp": 1675677205615,
         "oldValue": "",
         "newValue": "{{secondaryPointControllerLabel}} je o {{difference}}{{units}}väčšie než {{primaryPointControllerLabel}}"
+      },
+      {
+        "userId": 134140,
+        "timestamp": 1712058534025,
+        "oldValue": "{{secondaryPointControllerLabel}} je o {{difference}}{{units}}väčšie než {{primaryPointControllerLabel}}",
+        "newValue": "{{secondaryPointControllerLabel}} je o {{difference}} {{units}} väčšie než {{primaryPointControllerLabel}}",
+        "explanation": null
       }
     ]
   },
   "genericDirectedNegativeDistanceTemplate": {
-    "value": "{{secondaryPointControllerLabel}} je o {{difference}}{{units}}menšie než {{primaryPointControllerLabel}}",
+    "value": "{{secondaryPointControllerLabel}} je o {{difference}} {{units}} menšie než {{primaryPointControllerLabel}}",
     "history": [
       {
         "userId": 134140,
         "timestamp": 1675677205615,
         "oldValue": "",
         "newValue": "{{secondaryPointControllerLabel}} je o {{difference}}{{units}}menšie než {{primaryPointControllerLabel}}"
+      },
+      {
+        "userId": 134140,
+        "timestamp": 1712058534025,
+        "oldValue": "{{secondaryPointControllerLabel}} je o {{difference}}{{units}}menšie než {{primaryPointControllerLabel}}",
+        "newValue": "{{secondaryPointControllerLabel}} je o {{difference}} {{units}} menšie než {{primaryPointControllerLabel}}",
+        "explanation": null
       }
     ]
   },
   "unit": {
-    "value": "jednotka",
+    "value": "",
     "history": [
       {
         "userId": 134140,
@@ -69,11 +83,17 @@
         "oldValue": " ",
         "newValue": "jednotka",
         "explanation": null
+      },
+      {
+        "userId": 134140,
+        "timestamp": 1712058534025,
+        "oldValue": "jednotka",
+        "newValue": ""
       }
     ]
   },
   "units": {
-    "value": "jednotky",
+    "value": "",
     "history": [
       {
         "userId": 134140,
@@ -87,6 +107,12 @@
         "oldValue": " ",
         "newValue": "jednotky",
         "explanation": null
+      },
+      {
+        "userId": 134140,
+        "timestamp": 1712058534025,
+        "oldValue": "jednotky",
+        "newValue": ""
       }
     ]
   },
@@ -432,13 +458,20 @@
     ]
   },
   "elevationSceneDirectedNegativeDistanceTemplate": {
-    "value": "{{secondaryPointControllerLabel}} je o {{difference}} {{units}} nižšie ako {{primaryPointControllerLabel}}",
+    "value": "{{secondaryPointControllerLabel}} je o {{difference}}  {{units}} nižšie ako {{primaryPointControllerLabel}}",
     "history": [
       {
         "userId": 134140,
         "timestamp": 1675677205615,
         "oldValue": "",
         "newValue": "{{secondaryPointControllerLabel}} je o {{difference}} {{units}} nižšie ako {{primaryPointControllerLabel}}"
+      },
+      {
+        "userId": 134140,
+        "timestamp": 1712058534025,
+        "oldValue": "{{secondaryPointControllerLabel}} je o {{difference}} {{units}} nižšie ako {{primaryPointControllerLabel}}",
+        "newValue": "{{secondaryPointControllerLabel}} je o {{difference}}  {{units}} nižšie ako {{primaryPointControllerLabel}}",
+        "explanation": null
       }
     ]
   },
@@ -450,6 +483,61 @@
         "timestamp": 1675677205615,
         "oldValue": "",
         "newValue": "Číselná os: Rozdiely"
+      }
+    ]
+  },
+  "displacement": {
+    "value": "Relatívny rozdiel",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1712058534025,
+        "oldValue": "",
+        "newValue": "Relatívny rozdiel"
+      }
+    ]
+  },
+  "terminology": {
+    "value": "Terminológia",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1712058534025,
+        "oldValue": "",
+        "newValue": "Terminológia"
+      }
+    ]
+  },
+  "terminologyControlDescription": {
+    "value": "Vyberte terminológiu použitú na popis rozdielu medzi dvoma celými číslami.",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1712058534025,
+        "oldValue": "",
+        "newValue": "Vyberte terminológiu použitú na popis rozdielu medzi dvoma celými číslami."
+      }
+    ]
+  },
+  "mathSymbolPattern": {
+    "value": "<span style='font-family: \"Times New Roman\", Times, serif;font-style: italic'>{{symbol}}</span>",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1712058534025,
+        "oldValue": "",
+        "newValue": "<span style='font-family: \"Times New Roman\", Times, serif;font-style: italic'>{{symbol}}</span>"
+      }
+    ]
+  },
+  "variableSubscriptPattern": {
+    "value": "{{variable}}<sub style='font-style:normal'>{{subscript}}</sub>",
+    "history": [
+      {
+        "userId": 134140,
+        "timestamp": 1712058534025,
+        "oldValue": "",
+        "newValue": "{{variable}}<sub style='font-style:normal'>{{subscript}}</sub>"
       }
     ]
   }
