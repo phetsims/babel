@@ -170,7 +170,7 @@
     ]
   },
   "oopsPressureLarge": {
-    "value": " وای!<br><br>فشار را نمیتوان ثابت نگه داشت.<br>زیرا حجم بیش از حد بزرگ می شود.",
+    "value": "وای!<br><br>فشار را نمیتوان ثابت نگه داشت.<br>زیرا حجم بیش از حد بزرگ می شود.",
     "history": [
       {
         "userId": 333721,
@@ -185,11 +185,18 @@
         "oldValue": "اوه، فشار را نمیتوان ثابت نگه داشت زیرا حجم بیش از حد زیاد میشود.",
         "newValue": " وای!<br><br>فشار را نمیتوان ثابت نگه داشت.<br>زیرا حجم بیش از حد بزرگ می شود.",
         "explanation": null
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1714805510548,
+        "oldValue": " وای!<br><br>فشار را نمیتوان ثابت نگه داشت.<br>زیرا حجم بیش از حد بزرگ می شود.",
+        "newValue": "وای!<br><br>فشار را نمیتوان ثابت نگه داشت.<br>زیرا حجم بیش از حد بزرگ می شود.",
+        "explanation": null
       }
     ]
   },
   "oopsPressureSmall": {
-    "value": "وای!<br><br>فشار را نمی توان ثابت نگه داشت <br> چون حجم زیادی کوچک خواهد بود. ",
+    "value": "وای!<br><br>فشار را نمی توان ثابت نگه داشت <br> چون حجم زیادی کوچک خواهد بود.",
     "history": [
       {
         "userId": 333721,
@@ -203,6 +210,13 @@
         "timestamp": 1577210750032,
         "oldValue": "اوه، فشار را نمیتوان ثابت نگه داشت زیرا حجم بیش از حد کم میشود.",
         "newValue": "وای!<br><br>فشار را نمی توان ثابت نگه داشت <br> چون حجم زیادی کوچک خواهد بود. ",
+        "explanation": null
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1714805510548,
+        "oldValue": "وای!<br><br>فشار را نمی توان ثابت نگه داشت <br> چون حجم زیادی کوچک خواهد بود. ",
+        "newValue": "وای!<br><br>فشار را نمی توان ثابت نگه داشت <br> چون حجم زیادی کوچک خواهد بود.",
         "explanation": null
       }
     ]
@@ -294,13 +308,20 @@
     ]
   },
   "holdConstant.pressureV": {
-    "value": " فشار ↕ حجم",
+    "value": "فشار ↕ حجم",
     "history": [
       {
         "userId": 333721,
         "timestamp": 1576304024801,
         "oldValue": "",
         "newValue": " فشار ↕ حجم",
+        "explanation": null
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1714805510548,
+        "oldValue": " فشار ↕ حجم",
+        "newValue": "فشار ↕ حجم",
         "explanation": null
       }
     ]
@@ -402,13 +423,20 @@
     ]
   },
   "valueUnits": {
-    "value": " {{value}} {{units}}",
+    "value": "{{value}} {{units}}",
     "history": [
       {
         "userId": 641432,
         "timestamp": 1577210750032,
         "oldValue": "",
         "newValue": " {{value}} {{units}}",
+        "explanation": null
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1714805510548,
+        "oldValue": " {{value}} {{units}}",
+        "newValue": "{{value}} {{units}}",
         "explanation": null
       }
     ]
@@ -510,13 +538,20 @@
     ]
   },
   "resetDivider": {
-    "value": "بازگرداندن دیواره ",
+    "value": "بازگرداندن دیواره",
     "history": [
       {
         "userId": 333721,
         "timestamp": 1576256173193,
         "oldValue": "",
         "newValue": "بازگرداندن دیواره ",
+        "explanation": null
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1714805510548,
+        "oldValue": "بازگرداندن دیواره ",
+        "newValue": "بازگرداندن دیواره",
         "explanation": null
       }
     ]
@@ -662,6 +697,39 @@
         "oldValue": "",
         "newValue": "ویژگی های گاز",
         "explanation": null
+      }
+    ]
+  },
+  "tAvg": {
+    "value": "{{value}} = <sub>avg</sub>T",
+    "history": [
+      {
+        "userId": 641432,
+        "timestamp": 1714805510548,
+        "oldValue": "",
+        "newValue": "{{value}} = <sub>avg</sub>T"
+      }
+    ]
+  },
+  "tAvgK": {
+    "value": "K {{value}} = <sub>avg</sub>T",
+    "history": [
+      {
+        "userId": 641432,
+        "timestamp": 1714805510548,
+        "oldValue": "",
+        "newValue": "K {{value}} = <sub>avg</sub>T"
+      }
+    ]
+  },
+  "metersPerSecond": {
+    "value": "m/s",
+    "history": [
+      {
+        "userId": 641432,
+        "timestamp": 1714805510548,
+        "oldValue": "",
+        "newValue": "m/s"
       }
     ]
   }
