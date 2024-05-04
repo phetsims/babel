@@ -1697,6 +1697,30 @@
     },
     "simplify": {
       "value": "ساده سازی"
+    },
+    "currencyUnits": {
+      "value": "$"
+    },
+    "currencyValuePattern": {
+      "value": "{{sign}}{{currencyUnits}}{{value}}"
+    },
+    "netWorthWithCurrencyPattern": {
+      "value": "{{netWorthString}} ({{currencyUnits}})"
+    },
+    "totalCurrencyPattern": {
+      "value": "{{totalString}} = {{sign}}{{currencyUnits}}{{totalValue}}"
+    },
+    "totalValuePattern": {
+      "value": "{{totalString}} = {{totalValue}}"
+    },
+    "addRemoveZeroCurrencyPattern": {
+      "value": "{{addOrRemove}} {{currencyUnits}}0"
+    },
+    "addRemoveZeroPattern": {
+      "value": "{{addOrRemove}} 0"
+    },
+    "addRemovePositiveNegativePattern": {
+      "value": "{{addOrRemove}} {{positiveOrNegative}} {{value}}"
     }
   },
   "fi": {
