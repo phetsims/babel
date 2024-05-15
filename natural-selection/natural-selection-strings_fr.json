@@ -504,7 +504,7 @@
     ]
   },
   "lessThanValuePercent": {
-    "value": ">{{value}}%",
+    "value": "<{{value}}%",
     "history": [
       {
         "userId": 147846,
@@ -512,17 +512,31 @@
         "oldValue": "",
         "newValue": ">{{value}}%",
         "explanation": null
+      },
+      {
+        "userId": 147846,
+        "timestamp": 1715783560922,
+        "oldValue": ">{{value}}%",
+        "newValue": "<{{value}}%",
+        "explanation": null
       }
     ]
   },
   "valuePercent": {
-    "value": ">{{value}}%",
+    "value": "{{value}}%",
     "history": [
       {
         "userId": 147846,
         "timestamp": 1601216147766,
         "oldValue": "",
         "newValue": ">{{value}}%",
+        "explanation": null
+      },
+      {
+        "userId": 147846,
+        "timestamp": 1715783560922,
+        "oldValue": ">{{value}}%",
+        "newValue": "{{value}}%",
         "explanation": null
       }
     ]
