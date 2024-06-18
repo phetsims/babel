@@ -23,18 +23,6 @@
       }
     ]
   },
-  "ControlPanel.BuildAtmosphere": {
-    "value": ""
-  },
-  "ControlPanel.CH4": {
-    "value": ""
-  },
-  "ControlPanel.CO": {
-    "value": ""
-  },
-  "ControlPanel.CO2": {
-    "value": ""
-  },
   "ControlPanel.CarbonDioxide": {
     "value": "Oxid uhličitý",
     "history": [
@@ -58,9 +46,6 @@
         "explanation": null
       }
     ]
-  },
-  "ControlPanel.H2O": {
-    "value": ""
   },
   "ControlPanel.Methane": {
     "value": "Methan",
@@ -98,12 +83,6 @@
       }
     ]
   },
-  "ControlPanel.N2": {
-    "value": ""
-  },
-  "ControlPanel.NO2": {
-    "value": ""
-  },
   "ControlPanel.Nitrogen": {
     "value": "Dusík",
     "history": [
@@ -127,12 +106,6 @@
         "explanation": null
       }
     ]
-  },
-  "ControlPanel.O2": {
-    "value": ""
-  },
-  "ControlPanel.O3": {
-    "value": ""
   },
   "ControlPanel.Oxygen": {
     "value": "Kyslík",
@@ -267,13 +240,20 @@
     ]
   },
   "SpectrumWindow.buttonCaption": {
-    "value": "Zobrazit spektrum světla",
+    "value": "Zobrazit elektromagnetické spektrum",
     "history": [
       {
         "userId": 315698,
         "timestamp": 1462889832273,
         "oldValue": "",
         "newValue": "Zobrazit spektrum světla",
+        "explanation": null
+      },
+      {
+        "userId": 315698,
+        "timestamp": 1718689702075,
+        "oldValue": "Zobrazit spektrum světla",
+        "newValue": "Zobrazit elektromagnetické spektrum",
         "explanation": null
       }
     ]
@@ -315,13 +295,20 @@
     ]
   },
   "SpectrumWindow.gammaRayBandLabel": {
-    "value": "Gamma\npaprsky",
+    "value": "Gamma",
     "history": [
       {
         "userId": 315698,
         "timestamp": 1462889832273,
         "oldValue": "",
         "newValue": "Gamma\npaprsky",
+        "explanation": null
+      },
+      {
+        "userId": 315698,
+        "timestamp": 1718689702075,
+        "oldValue": "Gamma\npaprsky",
+        "newValue": "Gamma",
         "explanation": null
       }
     ]
@@ -351,7 +338,7 @@
     ]
   },
   "SpectrumWindow.microwaveBandLabel": {
-    "value": "Mikrovlny",
+    "value": "Mikrovlnné",
     "history": [
       {
         "userId": 315698,
@@ -359,11 +346,18 @@
         "oldValue": "",
         "newValue": "Mikrovlny",
         "explanation": null
+      },
+      {
+        "userId": 315698,
+        "timestamp": 1718689702075,
+        "oldValue": "Mikrovlny",
+        "newValue": "Mikrovlnné",
+        "explanation": null
       }
     ]
   },
   "SpectrumWindow.radioBandLabel": {
-    "value": "Rádiový",
+    "value": "Rádiové",
     "history": [
       {
         "userId": 315698,
@@ -371,17 +365,31 @@
         "oldValue": "",
         "newValue": "Rádiový",
         "explanation": null
+      },
+      {
+        "userId": 315698,
+        "timestamp": 1718689702075,
+        "oldValue": "Rádiový",
+        "newValue": "Rádiové",
+        "explanation": null
       }
     ]
   },
   "SpectrumWindow.title": {
-    "value": "Světelné spektrum",
+    "value": "Elektromagnetické spektrum",
     "history": [
       {
         "userId": 315698,
         "timestamp": 1462889832273,
         "oldValue": "",
         "newValue": "Světelné spektrum",
+        "explanation": null
+      },
+      {
+        "userId": 315698,
+        "timestamp": 1718689702075,
+        "oldValue": "Světelné spektrum",
+        "newValue": "Elektromagnetické spektrum",
         "explanation": null
       }
     ]
@@ -399,13 +407,20 @@
     ]
   },
   "SpectrumWindow.visibleBandLabel": {
-    "value": "viditelné",
+    "value": "Viditelné",
     "history": [
       {
         "userId": 315698,
         "timestamp": 1462889832273,
         "oldValue": "",
         "newValue": "viditelné",
+        "explanation": null
+      },
+      {
+        "userId": 315698,
+        "timestamp": 1718689702075,
+        "oldValue": "viditelné",
+        "newValue": "Viditelné",
         "explanation": null
       }
     ]
@@ -423,13 +438,20 @@
     ]
   },
   "SpectrumWindow.xrayBandLabel": {
-    "value": "Rentgen",
+    "value": "Rentgenové",
     "history": [
       {
         "userId": 315698,
         "timestamp": 1462889832273,
         "oldValue": "",
         "newValue": "Rentgen",
+        "explanation": null
+      },
+      {
+        "userId": 315698,
+        "timestamp": 1718689702075,
+        "oldValue": "Rentgen",
+        "newValue": "Rentgenové",
         "explanation": null
       }
     ]
@@ -459,13 +481,20 @@
     ]
   },
   "molecules-and-light.title": {
-    "value": "Molekuly a světlo",
+    "value": "Molekuly a záření",
     "history": [
       {
         "userId": 315698,
         "timestamp": 1462889832273,
         "oldValue": "",
         "newValue": "Molekuly a světlo",
+        "explanation": null
+      },
+      {
+        "userId": 315698,
+        "timestamp": 1718689702075,
+        "oldValue": "Molekuly a světlo",
+        "newValue": "Molekuly a záření",
         "explanation": null
       }
     ]
@@ -479,6 +508,17 @@
         "oldValue": "",
         "newValue": "Jitka Štaberňáková",
         "explanation": null
+      }
+    ]
+  },
+  "openSciEd.energySource": {
+    "value": "Energie z povrchu Země",
+    "history": [
+      {
+        "userId": 315698,
+        "timestamp": 1718689702075,
+        "oldValue": "",
+        "newValue": "Energie z povrchu Země"
       }
     ]
   }
