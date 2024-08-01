@@ -180,7 +180,7 @@
     ]
   },
   "tAvg": {
-    "value": "T<sub>ממוצע</sub> = {{value}}",
+    "value": "{{value}} = <sub>ממוצע</sub> T",
     "history": [
       {
         "userId": 282815,
@@ -188,17 +188,31 @@
         "oldValue": "",
         "newValue": "T<sub>ממוצע</sub> = {{value}}",
         "explanation": null
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1722522791229,
+        "oldValue": "T<sub>ממוצע</sub> = {{value}}",
+        "newValue": "{{value}} = <sub>ממוצע</sub> T",
+        "explanation": null
       }
     ]
   },
   "tAvgK": {
-    "value": "T<sub>ממוצע</sub> = {{value}} K",
+    "value": "{{value}}K = <sub>ממוצע</sub> T",
     "history": [
       {
         "userId": 282815,
         "timestamp": 1585166814282,
         "oldValue": "",
         "newValue": "T<sub>ממוצע</sub> = {{value}} K",
+        "explanation": null
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1722522791229,
+        "oldValue": "T<sub>ממוצע</sub> = {{value}} K",
+        "newValue": "{{value}}K = <sub>ממוצע</sub> T",
         "explanation": null
       }
     ]
@@ -619,13 +633,20 @@
     ]
   },
   "valueUnits": {
-    "value": "{{value}} {{units}}",
+    "value": "{{value}}  {{units}}",
     "history": [
       {
         "userId": 282815,
         "timestamp": 1686347139316,
         "oldValue": "",
         "newValue": "{{value}} {{units}}"
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1722522791229,
+        "oldValue": "{{value}} {{units}}",
+        "newValue": "{{value}}  {{units}}",
+        "explanation": null
       }
     ]
   },
@@ -641,13 +662,20 @@
     ]
   },
   "degreesCelsius": {
-    "value": "°C",
+    "value": "C°",
     "history": [
       {
         "userId": 282815,
         "timestamp": 1686359400350,
         "oldValue": "",
         "newValue": "°C"
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1722522791229,
+        "oldValue": "°C",
+        "newValue": "C°",
+        "explanation": null
       }
     ]
   },
@@ -670,6 +698,39 @@
         "timestamp": 1686359400350,
         "oldValue": "",
         "newValue": "m/s"
+      }
+    ]
+  },
+  "keyboardHelpDialog.changeUnits": {
+    "value": "שינוי יחידות",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1722522791229,
+        "oldValue": "",
+        "newValue": "שינוי יחידות"
+      }
+    ]
+  },
+  "pressureNoiseDescription": {
+    "value": "מוסיף מעט רעש למד הלחץ כדי לגרום לו להיראות יותר מציאותי.",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1722522791229,
+        "oldValue": "",
+        "newValue": "מוסיף מעט רעש למד הלחץ כדי לגרום לו להיראות יותר מציאותי."
+      }
+    ]
+  },
+  "wallVelocity": {
+    "value": "מהירות הקיר",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1722522791229,
+        "oldValue": "",
+        "newValue": "מהירות הקיר"
       }
     ]
   }
