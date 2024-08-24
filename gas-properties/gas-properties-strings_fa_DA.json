@@ -1,12 +1,19 @@
 {
   "pressureNoise": {
-    "value": "فشار صدا",
+    "value": "اختلال فشار",
     "history": [
       {
         "userId": 11191855,
         "timestamp": 1720510297926,
         "oldValue": "",
         "newValue": "فشار صدا"
+      },
+      {
+        "userId": 11192058,
+        "timestamp": 1724526851495,
+        "oldValue": "فشار صدا",
+        "newValue": "اختلال فشار",
+        "explanation": null
       }
     ]
   },
@@ -33,46 +40,74 @@
     ]
   },
   "wallCollisions": {
-    "value": "برخوردها به دیوار",
+    "value": "تصادم‌ها به دیوار",
     "history": [
       {
         "userId": 11191855,
         "timestamp": 1720510297926,
         "oldValue": "",
         "newValue": "برخوردها به دیوار"
+      },
+      {
+        "userId": 11192058,
+        "timestamp": 1724526851495,
+        "oldValue": "برخوردها به دیوار",
+        "newValue": "تصادم‌ها به دیوار",
+        "explanation": null
       }
     ]
   },
   "returnLid": {
-    "value": "باز گرداندن پوش",
+    "value": "برگشتاندن پوش",
     "history": [
       {
         "userId": 11191855,
         "timestamp": 1720510297926,
         "oldValue": "",
         "newValue": "باز گرداندن پوش"
+      },
+      {
+        "userId": 11192058,
+        "timestamp": 1724526851495,
+        "oldValue": "باز گرداندن پوش",
+        "newValue": "برگشتاندن پوش",
+        "explanation": null
       }
     ]
   },
   "oopsMaximumTemperature": {
-    "value": "Oops!<br><br>به حداکثر درجه حرارت رسیدیم",
+    "value": "وای!br><br>به حد اکثر درجهٔ حرارت رسیدیم.",
     "history": [
       {
         "userId": 11191855,
         "timestamp": 1720510297926,
         "oldValue": "",
         "newValue": "Oops!<br><br>به حداکثر درجه حرارت رسیدیم"
+      },
+      {
+        "userId": 11192058,
+        "timestamp": 1724526851495,
+        "oldValue": "Oops!<br><br>به حداکثر درجه حرارت رسیدیم",
+        "newValue": "وای!br><br>به حد اکثر درجهٔ حرارت رسیدیم.",
+        "explanation": null
       }
     ]
   },
   "collisionCounter": {
-    "value": "شمارش برخوردها",
+    "value": "شمارشگر تصادم‌ها",
     "history": [
       {
         "userId": 11191855,
         "timestamp": 1720510297926,
         "oldValue": "",
         "newValue": "شمارش برخوردها"
+      },
+      {
+        "userId": 11192058,
+        "timestamp": 1724526851495,
+        "oldValue": "شمارش برخوردها",
+        "newValue": "شمارشگر تصادم‌ها",
+        "explanation": null
       }
     ]
   },
@@ -143,7 +178,7 @@
     ]
   },
   "stopwatch": {
-    "value": "زمان سنج (استاپ‌واچ)",
+    "value": "زمان سنج‌ (استاپ‌واچ)",
     "history": [
       {
         "userId": 11191855,
@@ -156,6 +191,13 @@
         "timestamp": 1722700712048,
         "oldValue": "زمان سنج",
         "newValue": "زمان سنج (استاپ‌واچ)",
+        "explanation": null
+      },
+      {
+        "userId": 11192058,
+        "timestamp": 1724526851495,
+        "oldValue": "زمان سنج (استاپ‌واچ)",
+        "newValue": "زمان سنج‌ (استاپ‌واچ)",
         "explanation": null
       }
     ]
@@ -249,13 +291,20 @@
     ]
   },
   "oopsTemperatureEmpty": {
-    "value": "وای!<br><br>درجه حرارت را نمی‌توان ثابت نگه داشت.<br>وقتی ظرف خالی است.",
+    "value": "وای!<br><br>درجه حرارت را نمی‌توان ثابت نگه داشت <br>وقتی ظرف خالی است.",
     "history": [
       {
         "userId": 11191855,
         "timestamp": 1720510297926,
         "oldValue": "",
         "newValue": "وای!<br><br>درجه حرارت را نمی‌توان ثابت نگه داشت.<br>وقتی ظرف خالی است."
+      },
+      {
+        "userId": 11192058,
+        "timestamp": 1724526851495,
+        "oldValue": "وای!<br><br>درجه حرارت را نمی‌توان ثابت نگه داشت.<br>وقتی ظرف خالی است.",
+        "newValue": "وای!<br><br>درجه حرارت را نمی‌توان ثابت نگه داشت <br>وقتی ظرف خالی است.",
+        "explanation": null
       }
     ]
   },
@@ -271,13 +320,20 @@
     ]
   },
   "screen.ideal": {
-    "value": "خیالی (ایده آل)",
+    "value": "گازات خیالی (آیدیل)",
     "history": [
       {
         "userId": 11191855,
         "timestamp": 1720510297926,
         "oldValue": "",
         "newValue": "خیالی (ایده آل)"
+      },
+      {
+        "userId": 11192058,
+        "timestamp": 1724526851495,
+        "oldValue": "خیالی (ایده آل)",
+        "newValue": "گازات خیالی (آیدیل)",
+        "explanation": null
       }
     ]
   },
@@ -413,6 +469,39 @@
         "timestamp": 1722700712048,
         "oldValue": "",
         "newValue": "برگشتاندن دیوار"
+      }
+    ]
+  },
+  "pressureNoiseDescription": {
+    "value": "کمی اختلال به فشار سنج علاوه می‌کند تا حقیقی‌تر به نظر برسد.",
+    "history": [
+      {
+        "userId": 11192058,
+        "timestamp": 1724526851495,
+        "oldValue": "",
+        "newValue": "کمی اختلال به فشار سنج علاوه می‌کند تا حقیقی‌تر به نظر برسد."
+      }
+    ]
+  },
+  "keyboardHelpDialog.changeUnits": {
+    "value": "تغییر واحدها",
+    "history": [
+      {
+        "userId": 11192058,
+        "timestamp": 1724526851495,
+        "oldValue": "",
+        "newValue": "تغییر واحدها"
+      }
+    ]
+  },
+  "samplePeriod": {
+    "value": "دورهٔ نمونه‌ای",
+    "history": [
+      {
+        "userId": 11192058,
+        "timestamp": 1724526851495,
+        "oldValue": "",
+        "newValue": "دورهٔ نمونه‌ای"
       }
     ]
   }
