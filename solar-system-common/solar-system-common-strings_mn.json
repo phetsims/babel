@@ -22,24 +22,38 @@
     ]
   },
   "units.AU": {
-    "value": "АН",
+    "value": "AU",
     "history": [
       {
         "userId": 348103,
         "timestamp": 1672978660506,
         "oldValue": "",
         "newValue": "АН"
+      },
+      {
+        "userId": 348103,
+        "timestamp": 1725332881947,
+        "oldValue": "АН",
+        "newValue": "AU",
+        "explanation": null
       }
     ]
   },
   "units.kms": {
-    "value": "км/с",
+    "value": "km/s",
     "history": [
       {
         "userId": 348103,
         "timestamp": 1672978660506,
         "oldValue": "",
         "newValue": "км/с"
+      },
+      {
+        "userId": 348103,
+        "timestamp": 1725332881947,
+        "oldValue": "км/с",
+        "newValue": "km/s",
+        "explanation": null
       }
     ]
   },
@@ -95,6 +109,72 @@
         "timestamp": 1672978660506,
         "oldValue": "",
         "newValue": "Зам"
+      }
+    ]
+  },
+  "pattern.labelUnits": {
+    "value": "{{value}} {{units}}",
+    "history": [
+      {
+        "userId": 348103,
+        "timestamp": 1725332881947,
+        "oldValue": "",
+        "newValue": "{{value}} {{units}}"
+      }
+    ]
+  },
+  "pattern.velocityValueUnits": {
+    "value": "|v<sub>{{index}}</sub>| = {{value}} {{units}}",
+    "history": [
+      {
+        "userId": 348103,
+        "timestamp": 1725332881947,
+        "oldValue": "",
+        "newValue": "|v<sub>{{index}}</sub>| = {{value}} {{units}}"
+      }
+    ]
+  },
+  "V": {
+    "value": "V",
+    "history": [
+      {
+        "userId": 348103,
+        "timestamp": 1725332881947,
+        "oldValue": "",
+        "newValue": "V"
+      }
+    ]
+  },
+  "speed": {
+    "value": "Хурд (km/s)",
+    "history": [
+      {
+        "userId": 348103,
+        "timestamp": 1725332881947,
+        "oldValue": "",
+        "newValue": "Хурд (km/s)"
+      }
+    ]
+  },
+  "zoom": {
+    "value": "Томруулах:",
+    "history": [
+      {
+        "userId": 348103,
+        "timestamp": 1725332881947,
+        "oldValue": "",
+        "newValue": "Томруулах:"
+      }
+    ]
+  },
+  "pattern.unitsPower": {
+    "value": "{{units}}<sup>{{power}}</sup>",
+    "history": [
+      {
+        "userId": 348103,
+        "timestamp": 1725332881947,
+        "oldValue": "",
+        "newValue": "{{units}}<sup>{{power}}</sup>"
       }
     ]
   }
