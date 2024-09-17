@@ -306,5 +306,93 @@
         "newValue": "Številska premica: Operacije"
       }
     ]
+  },
+  "currencyUnits": {
+    "value": "$",
+    "history": [
+      {
+        "userId": 157571,
+        "timestamp": 1726613060340,
+        "oldValue": "",
+        "newValue": "$"
+      }
+    ]
+  },
+  "netWorthWithCurrencyPattern": {
+    "value": "{{netWorthString}} ({{currencyUnits}})",
+    "history": [
+      {
+        "userId": 157571,
+        "timestamp": 1726613060340,
+        "oldValue": "",
+        "newValue": "{{netWorthString}} ({{currencyUnits}})"
+      }
+    ]
+  },
+  "totalCurrencyPattern": {
+    "value": "{{totalString}} = {{sign}}{{currencyUnits}}{{totalValue}}",
+    "history": [
+      {
+        "userId": 157571,
+        "timestamp": 1726613060340,
+        "oldValue": "",
+        "newValue": "{{totalString}} = {{sign}}{{currencyUnits}}{{totalValue}}"
+      }
+    ]
+  },
+  "totalValuePattern": {
+    "value": "{{totalString}} = {{totalValue}}",
+    "history": [
+      {
+        "userId": 157571,
+        "timestamp": 1726613060340,
+        "oldValue": "",
+        "newValue": "{{totalString}} = {{totalValue}}"
+      }
+    ]
+  },
+  "currencyValuePattern": {
+    "value": "{{sign}}{{currencyUnits}}{{value}}",
+    "history": [
+      {
+        "userId": 157571,
+        "timestamp": 1726613060340,
+        "oldValue": "",
+        "newValue": "{{sign}}{{currencyUnits}}{{value}}"
+      }
+    ]
+  },
+  "addRemoveZeroCurrencyPattern": {
+    "value": "{{addOrRemove}} {{currencyUnits}}0",
+    "history": [
+      {
+        "userId": 157571,
+        "timestamp": 1726613060340,
+        "oldValue": "",
+        "newValue": "{{addOrRemove}} {{currencyUnits}}0"
+      }
+    ]
+  },
+  "addRemoveZeroPattern": {
+    "value": "{{addOrRemove}} 0",
+    "history": [
+      {
+        "userId": 157571,
+        "timestamp": 1726613060340,
+        "oldValue": "",
+        "newValue": "{{addOrRemove}} 0"
+      }
+    ]
+  },
+  "addRemovePositiveNegativePattern": {
+    "value": "{{addOrRemove}} {{positiveOrNegative}} {{value}}",
+    "history": [
+      {
+        "userId": 157571,
+        "timestamp": 1726613060340,
+        "oldValue": "",
+        "newValue": "{{addOrRemove}} {{positiveOrNegative}} {{value}}"
+      }
+    ]
   }
 }
