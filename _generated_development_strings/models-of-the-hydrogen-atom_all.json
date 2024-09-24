@@ -49,7 +49,7 @@
       "value": "{{nSymbol}} = {{nValue}}"
     },
     "nlmEquals": {
-      "value": "({{nSymbol}},{{lSymbol}},{{mSymbol}}) = ({{nValue}},{{lValue}},{{mValue}})"
+      "value": "({{nSymbol}},{{lSymbol}},{{mSymbol}}) = ({{nValue}},{{lValue}},{{mValue}}) = {{nValue}}{{subshell}}"
     },
     "photon": {
       "value": "photon"
@@ -113,6 +113,24 @@
     },
     "absorptionEmission": {
       "value": "Absorption/Emission"
+    },
+    "s": {
+      "value": "s"
+    },
+    "p": {
+      "value": "p"
+    },
+    "d": {
+      "value": "d"
+    },
+    "f": {
+      "value": "f"
+    },
+    "g": {
+      "value": "g"
+    },
+    "h": {
+      "value": "h"
     }
   }
 }
