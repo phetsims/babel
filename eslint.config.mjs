@@ -1,4 +1,5 @@
 // Copyright 2024, University of Colorado Boulder
+
 import rootEslintConfig from '../chipper/eslint/root.eslint.config.mjs';
 
 /**
