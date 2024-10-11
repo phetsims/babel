@@ -978,24 +978,38 @@
     ]
   },
   "decimetersCubedPattern": {
-    "value": "{{decimetersCubed}} דצימטר<sup>3</sup>",
+    "value": "{{decimetersCubed}} <sup>3</sup>דצימטר",
     "history": [
       {
         "userId": 282815,
         "timestamp": 1686337298021,
         "oldValue": "",
         "newValue": "{{decimetersCubed}} דצימטר<sup>3</sup>"
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "{{decimetersCubed}} דצימטר<sup>3</sup>",
+        "newValue": "{{decimetersCubed}} <sup>3</sup>דצימטר",
+        "explanation": null
       }
     ]
   },
   "kilogramsPerDecimeterCubedPattern": {
-    "value": "{{value}} ק\"ג/דצימטר<sup>3</sup>",
+    "value": "{{value}} ק\"ג\\דצימטר<sup>3</sup>",
     "history": [
       {
         "userId": 282815,
         "timestamp": 1686337298021,
         "oldValue": "",
         "newValue": "{{value}} ק\"ג/דצימטר<sup>3</sup>"
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "{{value}} ק\"ג/דצימטר<sup>3</sup>",
+        "newValue": "{{value}} ק\"ג\\דצימטר<sup>3</sup>",
+        "explanation": null
       }
     ]
   },
@@ -1073,6 +1087,699 @@
         "timestamp": 1686337298021,
         "oldValue": "",
         "newValue": "צפיפות (ק\"ג/דצימטר<sup>3</sup>)"
+      }
+    ]
+  },
+  "preferences.percentSubmerged.title": {
+    "value": "אחוז שקיעה",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "אחוז שקיעה"
+      }
+    ]
+  },
+  "preferences.percentSubmerged.description": {
+    "value": "הצגת אחוז החפצים ששקעו בתוך הנוזל.",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "הצגת אחוז החפצים ששקעו בתוך הנוזל."
+      }
+    ]
+  },
+  "itemTitlecase": {
+    "value": "חפץ",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "חפץ"
+      }
+    ]
+  },
+  "itemLowercase": {
+    "value": "חפץ",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "חפץ"
+      }
+    ]
+  },
+  "objectDensity": {
+    "value": "צפיפות סגולית",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "צפיפות סגולית"
+      }
+    ]
+  },
+  "blockPattern": {
+    "value": "קוביה {{tag}}",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "קוביה {{tag}}"
+      }
+    ]
+  },
+  "shape.block": {
+    "value": "קוביה",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "קוביה"
+      }
+    ]
+  },
+  "N": {
+    "value": "N",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "N"
+      }
+    ]
+  },
+  "densityComparison": {
+    "value": "השוואת צפיפויות",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "השוואת צפיפויות"
+      }
+    ]
+  },
+  "bottle": {
+    "value": "בקבוק",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "בקבוק"
+      }
+    ]
+  },
+  "boat": {
+    "value": "סירה",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "סירה"
+      }
+    ]
+  },
+  "shapeTagPattern": {
+    "value": "צורה {{tag}}",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "צורה {{tag}}"
+      }
+    ]
+  },
+  "material.pvc": {
+    "value": "PVC",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "PVC"
+      }
+    ]
+  },
+  "material.boatHull": {
+    "value": "גוף הסירה",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "גוף הסירה"
+      }
+    ]
+  },
+  "material.concrete": {
+    "value": "בטון",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "בטון"
+      }
+    ]
+  },
+  "material.fluidA": {
+    "value": "נוזל א",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "נוזל א"
+      }
+    ]
+  },
+  "material.fluidB": {
+    "value": "נוזל ב",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "נוזל ב"
+      }
+    ]
+  },
+  "material.fluidC": {
+    "value": "נוזל ג",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "נוזל ג"
+      }
+    ]
+  },
+  "material.fluidD": {
+    "value": "נוזל ד",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "נוזל ד"
+      }
+    ]
+  },
+  "material.fluidE": {
+    "value": "נוזל ה",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "נוזל ה"
+      }
+    ]
+  },
+  "material.fluidF": {
+    "value": "נוזל ו",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "נוזל ו"
+      }
+    ]
+  },
+  "material.materialR": {
+    "value": "חומר R",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "חומר R"
+      }
+    ]
+  },
+  "material.materialS": {
+    "value": "חומר S",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "חומר S"
+      }
+    ]
+  },
+  "material.materialT": {
+    "value": "חומר T",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "חומר T"
+      }
+    ]
+  },
+  "material.materialU": {
+    "value": "חומר U",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "חומר U"
+      }
+    ]
+  },
+  "material.materialV": {
+    "value": "חומר V",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "חומר V"
+      }
+    ]
+  },
+  "material.materialW": {
+    "value": "חומר W",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "חומר W"
+      }
+    ]
+  },
+  "material.materialX": {
+    "value": "חומר X",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "חומר X"
+      }
+    ]
+  },
+  "material.materialY": {
+    "value": "חומר Y",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "חומר Y"
+      }
+    ]
+  },
+  "questionMark": {
+    "value": "?",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "?"
+      }
+    ]
+  },
+  "percentSubmerged": {
+    "value": "% שקיעה",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "% שקיעה"
+      }
+    ]
+  },
+  "valuePercent": {
+    "value": "{{value}}%",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "{{value}}%"
+      }
+    ]
+  },
+  "whatIsTheValueOfGravity": {
+    "value": "מה ערך כוח הכבידה?",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "מה ערך כוח הכבידה?"
+      }
+    ]
+  },
+  "gravity.name": {
+    "value": "כבידה",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "כבידה"
+      }
+    ]
+  },
+  "metersPerSecondSquaredPattern": {
+    "value": "{{value}} <sup>2</sup>m/s",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "{{value}} <sup>2</sup>m/s"
+      }
+    ]
+  },
+  "systemA": {
+    "value": "מערכת א",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "מערכת א"
+      }
+    ]
+  },
+  "fluidDisplaced": {
+    "value": "נפח הנוזל המוחלף",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "נפח הנוזל המוחלף"
+      }
+    ]
+  },
+  "fluid": {
+    "value": "נוזל",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "נוזל"
+      }
+    ]
+  },
+  "boatVolume": {
+    "value": "נפח הסירה",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "נפח הסירה"
+      }
+    ]
+  },
+  "materialInside": {
+    "value": "החומר בפנים",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "החומר בפנים"
+      }
+    ]
+  },
+  "airVolume": {
+    "value": "תווך האוויר",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "תווך האוויר"
+      }
+    ]
+  },
+  "shape.ellipsoid": {
+    "value": "אליפסואיד",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "אליפסואיד"
+      }
+    ]
+  },
+  "shape.verticalCylinder": {
+    "value": "גליל אנכי",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "גליל אנכי"
+      }
+    ]
+  },
+  "shape.horizontalCylinder": {
+    "value": "גליל אופקי",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "גליל אופקי"
+      }
+    ]
+  },
+  "shape.cone": {
+    "value": "חרוט",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "חרוט"
+      }
+    ]
+  },
+  "shape.invertedCone": {
+    "value": "חרוט הפוך",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "חרוט הפוך"
+      }
+    ]
+  },
+  "shape.duck": {
+    "value": "ברווז",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "ברווז"
+      }
+    ]
+  },
+  "shapesInfoDialog": {
+    "value": "ההדמיה זו מוגבלת לכוחות אנכיים, ללא התחשבות במומנט. סיבוב העצם ותנועות מורכבות אינן נחשבות בדגם.",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "ההדמיה זו מוגבלת לכוחות אנכיים, ללא התחשבות במומנט. סיבוב העצם ותנועות מורכבות אינן נחשבות בדגם."
+      }
+    ]
+  },
+  "height": {
+    "value": "גובה",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "גובה"
+      }
+    ]
+  },
+  "radius": {
+    "value": "רדיוס",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "רדיוס"
+      }
+    ]
+  },
+  "width": {
+    "value": "רוחב",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "רוחב"
+      }
+    ]
+  },
+  "widthAndDepth": {
+    "value": "רוחב ועמק",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "רוחב ועמק"
+      }
+    ]
+  },
+  "forces": {
+    "value": "כוחות",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "כוחות"
+      }
+    ]
+  },
+  "buoyancy": {
+    "value": "ציפה",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "ציפה"
+      }
+    ]
+  },
+  "contact": {
+    "value": "מגע",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "מגע"
+      }
+    ]
+  },
+  "vectorZoom": {
+    "value": "זום וקטור",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "זום וקטור"
+      }
+    ]
+  },
+  "forceValues": {
+    "value": "ערכי כוחות",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "ערכי כוחות"
+      }
+    ]
+  },
+  "massValues": {
+    "value": "ערכי מסה",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "ערכי מסה"
+      }
+    ]
+  },
+  "depthLines": {
+    "value": "קווי עומק",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "קווי עומק"
+      }
+    ]
+  },
+  "nameColonPattern": {
+    "value": "{{name}}:",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "{{name}}:"
+      }
+    ]
+  },
+  "whatIsTheFluidDensity": {
+    "value": "מה צפיפות הנוזל?",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "מה צפיפות הנוזל?"
+      }
+    ]
+  },
+  "fluidDensity": {
+    "value": "צפיפות הנוזל",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "צפיפות הנוזל"
+      }
+    ]
+  },
+  "whatIsTheMaterial": {
+    "value": "מהו החומר?",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "",
+        "newValue": "מהו החומר?"
       }
     ]
   }
