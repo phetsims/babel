@@ -596,7 +596,7 @@
     ]
   },
   "keyboardHelpDialog.comboBox.chooseNewPattern": {
-    "value": "3. שנה {{thingSingular}}",
+    "value": "3. שינוי {{thingSingular}}",
     "history": [
       {
         "userId": 282815,
@@ -609,6 +609,13 @@
         "timestamp": 1722522791229,
         "oldValue": "3. בחירה חדשה {{thingSingular}}",
         "newValue": "3. שנה {{thingSingular}}",
+        "explanation": null
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "3. שנה {{thingSingular}}",
+        "newValue": "3. שינוי {{thingSingular}}",
         "explanation": null
       }
     ]
@@ -1077,13 +1084,20 @@
     ]
   },
   "measuringTapeReadoutPattern": {
-    "value": "{{distance}} {{units}}",
+    "value": "{{units}} {{distance}}",
     "history": [
       {
         "userId": 282815,
         "timestamp": 1682449236718,
         "oldValue": "",
         "newValue": "{{distance}} {{units}}"
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1728647594614,
+        "oldValue": "{{distance}} {{units}}",
+        "newValue": "{{units}} {{distance}}",
+        "explanation": null
       }
     ]
   },
