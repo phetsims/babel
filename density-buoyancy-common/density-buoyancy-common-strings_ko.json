@@ -227,13 +227,20 @@
     ]
   },
   "material.human": {
-    "value": "인간",
+    "value": "인체",
     "history": [
       {
         "userId": 154927,
         "timestamp": 1675336710562,
         "oldValue": "",
         "newValue": "인간"
+      },
+      {
+        "userId": 154927,
+        "timestamp": 1728672760242,
+        "oldValue": "인간",
+        "newValue": "인체",
+        "explanation": null
       }
     ]
   },
@@ -1685,6 +1692,17 @@
         "timestamp": 1728650328827,
         "oldValue": "",
         "newValue": "이 물질은 무엇인가?"
+      }
+    ]
+  },
+  "nameColonValueUnitsPattern": {
+    "value": "{{name}}: {{valueWithUnits}}",
+    "history": [
+      {
+        "userId": 154927,
+        "timestamp": 1728672760242,
+        "oldValue": "",
+        "newValue": "{{name}}: {{valueWithUnits}}"
       }
     ]
   }
