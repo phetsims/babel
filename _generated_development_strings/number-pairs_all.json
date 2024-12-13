@@ -30,8 +30,14 @@
     "decompositionNumberSentencePattern": {
       "value": "<total>{{total}}</total> can be decomposed into <left>{{leftAddend}}</left> and <right>{{rightAddend}}</right>"
     },
+    "decompositionNumberPhraseSpeechPattern": {
+      "value": "{{total}} can be decomposed into {{leftAddend}} and {{rightAddend}}"
+    },
     "sumNumberSentencePattern": {
       "value": "<left>{{leftAddend}}</left> plus <right>{{rightAddend}}</right> equals <total>{{total}}</total>"
+    },
+    "sumNumberPhraseSpeechPattern": {
+      "value": "{{leftAddend}} plus {{rightAddend}} equals {{total}}"
     },
     "aNumber": {
       "value": "a number"
