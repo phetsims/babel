@@ -1,0 +1,1 @@
+contents-in-french = Some french string
