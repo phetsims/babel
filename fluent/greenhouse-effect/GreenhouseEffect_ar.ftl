@@ -67,13 +67,13 @@ dynamicPlayingEmitterOnScreenSummaryPattern = حاليًا، { $lightSource ->
     [ NORMAL ] مباشرة على
     *[ SLOW ] بسرعة بطيئة مباشرة على
 } مباشرة على { $targetMolecule ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 } جزيء.
 
@@ -85,13 +85,13 @@ dynamicPlayingEmitterOffScreenSummaryPattern = حاليًا، { $lightSource ->
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } مصدر الضوء مطفأ ويوجه مباشرة على { $targetMolecule ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 } جزيء.
 
@@ -106,13 +106,13 @@ dynamicPausedEmitterOnScreenSummaryPattern = حاليًا، المحاكاة { $
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } مصدر الضوء ينبعث الفوتونات مباشرة على { $targetMolecule ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 } جزيء.
 
@@ -121,13 +121,13 @@ dynamicPausedEmitterOffScreenSummaryPattern = حاليًا، المحاكاة { 
    [ NORMAL ] متوقفة مؤقتًا
   *[ SLOW ] متوقفة مؤقتًا بسرعة بطيئة
 }. مصدر الضوء تحت الحمراء مطفأ ويوجه مباشرة على { $targetMolecule ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 } جزيء.
 
@@ -149,13 +149,13 @@ photonEmitterOffDescriptionPattern = { $lightSource ->
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } مصدر الضوء مطفأ ويوجه مباشرة إلى { $targetMolecule ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 } جزيء.
 
@@ -169,13 +169,13 @@ inactiveAndPassesPhaseDescriptionPattern = { $lightSource ->
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } الفوتون يمر عبر { $targetMolecule ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 } جزيء.
 
@@ -189,13 +189,13 @@ absorptionPhaseBondsDescriptionPattern = { $lightSource ->
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } الفوتون ممتص، روابط { $photonTarget ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 } جزيء { $excitedRepresentation ->
   [BEND_UP_AND_DOWN] { -bend-up-and-down }
@@ -213,13 +213,13 @@ absorptionPhaseMoleculeDescriptionPattern = { $lightSource ->
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } الفوتون ممتص، { $photonTarget ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 } جزيء { $excitedRepresentation ->
   [GLOWING] { -glows }
@@ -241,13 +241,13 @@ breakApartPhaseDescriptionPattern = { $lightSource ->
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } الفوتون ممتص، { $photonTarget ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 } جزيء ينقسم إلى { $firstMolecule } و { $secondMolecule }.
 
@@ -289,13 +289,13 @@ moleculesRadioButtonHelpText = اختر الجزيء لنافذة الملاحظ
 
 # Pattern for the labels for the molecule radio buttons. Molecular formulas are not translatable.
 moleculeButtonLabelPattern = { $photonTarget ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 }, { $molecularFormula }, { $geometryTitle ->
   [LINEAR] خطي
@@ -317,13 +317,13 @@ emissionPhaseDescriptionPattern = الفوتون الممْتص من { $lightSou
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } مُنبعث من { $photonTarget ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 } جزيء { $direction ->
   [LEFT] { -left }
@@ -377,13 +377,13 @@ pausedPassingPattern = { $lightSource ->
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } الفوتون يمر عبر { $photonTarget ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 } جزيء.
 
@@ -394,13 +394,13 @@ slowMotionPassingPattern = { $lightSource ->
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } الفوتونات تمر عبر { $photonTarget ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 } جزيء.
 
