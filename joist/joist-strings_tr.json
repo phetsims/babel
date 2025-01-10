@@ -347,7 +347,7 @@
     ]
   },
   "updates.getUpdate": {
-    "value": "Güncelle...",
+    "value": "Güncelle..",
     "history": [
       {
         "userId": 354576,
@@ -401,6 +401,13 @@
         "timestamp": 1671309127113,
         "oldValue": "Güncellemeleri Al...",
         "newValue": "Güncelle..."
+      },
+      {
+        "userId": 613972,
+        "timestamp": 1735585510407,
+        "oldValue": "Güncelle...",
+        "newValue": "Güncelle..",
+        "explanation": null
       }
     ]
   },
@@ -1191,13 +1198,20 @@
     ]
   },
   "queryParametersWarningDialog.theSimulationWillStart": {
-    "value": "Bu simülasyon mevcut sorgu parametreleri için <br>varsayılan değerlerle başlayacak.",
+    "value": "Bu Simülasyon mevcut sorgu parametreleri için <br>varsayılan değerlerle başlayacak.",
     "history": [
       {
         "userId": 354576,
         "timestamp": 1606511957163,
         "oldValue": "",
         "newValue": "Bu simülasyon mevcut sorgu parametreleri için <br>varsayılan değerlerle başlayacak.",
+        "explanation": null
+      },
+      {
+        "userId": 613972,
+        "timestamp": 1735584963912,
+        "oldValue": "Bu simülasyon mevcut sorgu parametreleri için <br>varsayılan değerlerle başlayacak.",
+        "newValue": "Bu Simülasyon mevcut sorgu parametreleri için <br>varsayılan değerlerle başlayacak.",
         "explanation": null
       }
     ]
@@ -1953,6 +1967,130 @@
         "timestamp": 1679770133108,
         "oldValue": "",
         "newValue": "Bölge ve Kültür"
+      }
+    ]
+  },
+  "preferences.tabs.localization.regionAndCulture.description": {
+    "value": "Simülasyondaki insanların, yerlerin veya nesnelerin tasvirini seçin. Görseller bir bölgenin veya kültürün tüm çeşitliliğini temsil etmeyi amaçlamaz.",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1735579883179,
+        "oldValue": "",
+        "newValue": "Simülasyondaki kişilerin, yerlerin veya nesnelerin tasvirini seçin. Görsellerin bir bölgenin veya kültürün tüm çeşitliliğini temsil etmesi amaçlanmamaktadır."
+      },
+      {
+        "userId": 613972,
+        "timestamp": 1735580955023,
+        "oldValue": "Simülasyondaki kişilerin, yerlerin veya nesnelerin tasvirini seçin. Görsellerin bir bölgenin veya kültürün tüm çeşitliliğini temsil etmesi amaçlanmamaktadır.",
+        "newValue": "Simülasyondaki insanların, yerlerin veya nesnelerin tasvirini seçin. Görseller bir bölgenin veya kültürün tüm çeşitliliğini temsil etmeyi amaçlamaz.",
+        "explanation": null
+      }
+    ]
+  },
+  "preferences.tabs.localization.languageSelection.title": {
+    "value": "Diller",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1735579883179,
+        "oldValue": "",
+        "newValue": "Diller"
+      }
+    ]
+  },
+  "preferences.tabs.localization.languageSelection.description": {
+    "value": "Ekrandaki metni çevirmek için dili değiştirin. Mevcut olduğunda ek açıklamalar İngilizce olarak kalır.",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1735579883179,
+        "oldValue": "",
+        "newValue": "Ekrandaki metni çevirmek için dili değiştirin. Ek açıklamalar mevcut olduğunda İngilizce olarak kalacaktır."
+      },
+      {
+        "userId": 613972,
+        "timestamp": 1735580955023,
+        "oldValue": "Ekrandaki metni çevirmek için dili değiştirin. Ek açıklamalar mevcut olduğunda İngilizce olarak kalacaktır.",
+        "newValue": "Ekrandaki metni çevirmek için dili değiştirin. Mevcut olduğunda ek açıklamalar İngilizce olarak kalır.",
+        "explanation": null
+      }
+    ]
+  },
+  "preferences.tabs.localization.regionAndCulture.africa": {
+    "value": "Afrika",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1735579883179,
+        "oldValue": "",
+        "newValue": "Afrika"
+      }
+    ]
+  },
+  "preferences.tabs.localization.regionAndCulture.africaModest": {
+    "value": "Afrika",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1735579883179,
+        "oldValue": "",
+        "newValue": "Afrika"
+      }
+    ]
+  },
+  "preferences.tabs.localization.regionAndCulture.asia": {
+    "value": "Asya",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1735579883179,
+        "oldValue": "",
+        "newValue": "Asya"
+      }
+    ]
+  },
+  "preferences.tabs.localization.regionAndCulture.latinAmerica": {
+    "value": "Latin Amerika",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1735579883179,
+        "oldValue": "",
+        "newValue": "Latin Amerika"
+      }
+    ]
+  },
+  "preferences.tabs.localization.regionAndCulture.oceania": {
+    "value": "Okyanusya",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1735579883179,
+        "oldValue": "",
+        "newValue": "Okyanusya"
+      }
+    ]
+  },
+  "preferences.tabs.localization.regionAndCulture.random": {
+    "value": "Rastgele",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1735579883179,
+        "oldValue": "",
+        "newValue": "Rastgele"
+      }
+    ]
+  },
+  "preferences.tabs.localization.regionAndCulture.unitedStatesOfAmerica": {
+    "value": "Amerika Birleşik Devletleri",
+    "history": [
+      {
+        "userId": 613972,
+        "timestamp": 1735579883179,
+        "oldValue": "",
+        "newValue": "Amerika Birleşik Devletleri"
       }
     ]
   }
