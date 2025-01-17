@@ -212,17 +212,17 @@ absorptionPhaseBondsDescriptionPattern = Fotón { $lightSource ->
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } absorbido,los enlaces de la molécula { $photonTarget ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 } { $excitedRepresentation ->
-  [BEND_UP_AND_DOWN] { -bend-up-and-down }
-  [STRETCH_BACK_AND_FORTH] { -stretch-back-and-forth }
+  [BEND_UP_AND_DOWN] { -bendUpAndDown }
+  [STRETCH_BACK_AND_FORTH] { -stretchBackAndForth }
   *[ UNKNOWN ] { -unknown }
 }.
 
@@ -353,10 +353,10 @@ emissionPhaseDescriptionPattern = Fotón { $lightSource ->
   [RIGHT] { -right }
   [UP] { -up }
   [DOWN] { -down }
-  [UP_LEFT] { -up-and-to-the-left }
-  [UP_RIGHT] { -up-and-to-the-right }
-  [DOWN_LEFT] { -down-and-to-the-left }
-  [DOWN_RIGHT] { -down-and-to-the-right }
+  [UP_LEFT] { -upAndToTheLeft }
+  [UP_RIGHT] { -upAndToTheRight }
+  [DOWN_LEFT] { -downAndToTheLeft }
+  [DOWN_RIGHT] { -downAndToTheRight }
   *[UNKNOWN] { -unknown }
 }.
 
@@ -386,10 +386,10 @@ pausedEmittingPattern = Fotón absorbido emitido desde la molécula hacia { $dir
   [RIGHT] { -right }
   [UP] { -up }
   [DOWN] { -down }
-  [UP_LEFT] { -up-and-to-the-left }
-  [UP_RIGHT] { -up-and-to-the-right }
-  [DOWN_LEFT] { -down-and-to-the-left }
-  [DOWN_RIGHT] { -down-and-to-the-right }
+  [UP_LEFT] { -upAndToTheLeft }
+  [UP_RIGHT] { -upAndToTheRight }
+  [DOWN_LEFT] { -downAndToTheLeft }
+  [DOWN_RIGHT] { -downAndToTheRight }
   *[UNKNOWN] { -unknown }
 }.
 
@@ -400,13 +400,13 @@ pausedPassingPattern = Fotón { $lightSource ->
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } pasa a través de la molécula de { $photonTarget ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 }.
 
@@ -417,13 +417,13 @@ slowMotionPassingPattern = Fotones { $lightSource ->
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } pasando a través de la molécula { $photonTarget ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 }.
 
@@ -432,8 +432,8 @@ photonPasses = Fotón pasa.
 photonsPassing = Fotones pasando.
 
 slowMotionVibratingPattern = Fotón absorbido. Enlaces de la molécula { $excitedRepresentation ->
-  [BEND_UP_AND_DOWN] { -bend-up-and-down }
-  [STRETCH_BACK_AND_FORTH] { -stretch-back-and-forth }
+  [BEND_UP_AND_DOWN] { -bendUpAndDown }
+  [STRETCH_BACK_AND_FORTH] { -stretchBackAndForth }
   *[ UNKNOWN ] { -unknown }
 }.
 
@@ -468,10 +468,10 @@ slowMotionEmittedPattern = Fotón emitido hacia { $direction ->
   [RIGHT] { -right }
   [UP] { -up }
   [DOWN] { -down }
-  [UP_LEFT] { -up-and-to-the-left }
-  [UP_RIGHT] { -up-and-to-the-right }
-  [DOWN_LEFT] { -down-and-to-the-left }
-  [DOWN_RIGHT] { -down-and-to-the-right }
+  [UP_LEFT] { -upAndToTheLeft }
+  [UP_RIGHT] { -upAndToTheRight }
+  [DOWN_LEFT] { -downAndToTheLeft }
+  [DOWN_RIGHT] { -downAndToTheRight }
   *[UNKNOWN] { -unknown }
 }.
 

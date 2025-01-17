@@ -6,7 +6,7 @@
 -microwave = ميكروويف
 -infrared = تحت الحمراء
 -visible = مرئي
--Ultraviolet = فوق البنفسجي
+-ultraviolet = فوق البنفسجي
 
 # ..
 # Target molecules
@@ -198,8 +198,8 @@ absorptionPhaseBondsDescriptionPattern = { $lightSource ->
   [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 } جزيء { $excitedRepresentation ->
-  [BEND_UP_AND_DOWN] { -bend-up-and-down }
-  [STRETCH_BACK_AND_FORTH] { -stretch-back-and-forth }
+  [BEND_UP_AND_DOWN] { -bendUpAndDown }
+  [STRETCH_BACK_AND_FORTH] { -stretchBackAndForth }
   *[ UNKNOWN ] { -unknown }
 }.
 
@@ -330,10 +330,10 @@ emissionPhaseDescriptionPattern = الفوتون الممْتص من { $lightSou
   [RIGHT] { -right }
   [UP] { -up }
   [DOWN] { -down }
-  [UP_LEFT] { -up-and-to-the-left }
-  [UP_RIGHT] { -up-and-to-the-right }
-  [DOWN_LEFT] { -down-and-to-the-left }
-  [DOWN_RIGHT] { -down-and-to-the-right }
+  [UP_LEFT] { -upAndToTheLeft }
+  [UP_RIGHT] { -upAndToTheRight }
+  [DOWN_LEFT] { -downAndToTheLeft }
+  [DOWN_RIGHT] { -downAndToTheRight }
   *[UNKNOWN] { -unknown }
 }.
 
@@ -363,10 +363,10 @@ pausedEmittingPattern = الفوتون الممتص من الجزيء { $directi
   [RIGHT] { -right }
   [UP] { -up }
   [DOWN] { -down }
-  [UP_LEFT] { -up-and-to-the-left }
-  [UP_RIGHT] { -up-and-to-the-right }
-  [DOWN_LEFT] { -down-and-to-the-left }
-  [DOWN_RIGHT] { -down-and-to-the-right }
+  [UP_LEFT] { -upAndToTheLeft }
+  [UP_RIGHT] { -upAndToTheRight }
+  [DOWN_LEFT] { -downAndToTheLeft }
+  [DOWN_RIGHT] { -downAndToTheRight }
   *[UNKNOWN] { -unknown }
 }.
 
@@ -409,8 +409,8 @@ photonPasses = الفوتون يمر.
 photonsPassing = الفوتونات تمر.
 
 slowMotionVibratingPattern = الفوتون الممتص. الروابط الجزيئية { $excitedRepresentation ->
-  [BEND_UP_AND_DOWN] { -bend-up-and-down }
-  [STRETCH_BACK_AND_FORTH] { -stretch-back-and-forth }
+  [BEND_UP_AND_DOWN] { -bendUpAndDown }
+  [STRETCH_BACK_AND_FORTH] { -stretchBackAndForth }
   *[ UNKNOWN ] { -unknown }
 }.
 
@@ -445,10 +445,10 @@ slowMotionEmittedPattern = الفوتون المنبعث { $direction ->
   [RIGHT] { -right }
   [UP] { -up }
   [DOWN] { -down }
-  [UP_LEFT] { -up-and-to-the-left }
-  [UP_RIGHT] { -up-and-to-the-right }
-  [DOWN_LEFT] { -down-and-to-the-left }
-  [DOWN_RIGHT] { -down-and-to-the-right }
+  [UP_LEFT] { -upAndToTheLeft }
+  [UP_RIGHT] { -upAndToTheRight }
+  [DOWN_LEFT] { -downAndToTheLeft }
+  [DOWN_RIGHT] { -downAndToTheRight }
   *[UNKNOWN] { -unknown }
 }.
 
