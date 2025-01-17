@@ -11,7 +11,7 @@
 # ..
 # Target molecules
 -carbonMonoxide = أول أكسيد الكربون
--nitrogetn = نيتروجين
+-nitrogen = نيتروجين
 -oxygen = أكسجين
 -carbonDioxide = ثاني أكسيد الكربون
 -methane = ميثان
