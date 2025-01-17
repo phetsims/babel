@@ -84,13 +84,13 @@ dynamicPlayingEmitterOnScreenSummaryPattern = Actualmente, la fuente de luz { $l
     [ NORMAL ] directamente a
     *[ SLOW ] a velocidad lenta directamente a
 }  la molécula de { $targetMolecule ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 }.
 
@@ -102,13 +102,13 @@ dynamicPlayingEmitterOffScreenSummaryPattern = Actualmente, la fuente de luz { $
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } está apagada y apunta directamente a la molécula de { $targetMolecule ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 }.
 
@@ -123,13 +123,13 @@ dynamicPausedEmitterOnScreenSummaryPattern = Actualmente, la simulación { $simS
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } emite fotones directamente a la molécula de { $targetMolecule ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 }.
 
@@ -144,13 +144,13 @@ dynamicPausedEmitterOffScreenSummaryPattern = Actualmente, la simulación { $sim
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 }  está apagada y apunta directamente a la molécula de { $targetMolecule ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 }.
 
@@ -172,13 +172,13 @@ photonEmitterOffDescriptionPattern = La fuente de luz { $lightSource ->
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } está apagada y apunta directamente a la molécula de { $targetMolecule ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 }.
 
@@ -192,13 +192,13 @@ inactiveAndPassesPhaseDescriptionPattern = El fotón { $lightSource ->
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } pasa a través de la molécula de { $targetMolecule ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 }.
 
@@ -236,18 +236,18 @@ absorptionPhaseMoleculeDescriptionPattern = Fotón { $lightSource ->
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } absorbido, la molécula { $photonTarget ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 } { $excitedRepresentation ->
   [GLOWING] { -glows }
-  [ROTATES_CLOCKWISE] { -rotates-clockwise }
-  [ROTATES_COUNTER_CLOCKWISE] { -rotates-counter-clockwise }
+  [ROTATES_CLOCKWISE] { -rotatesClockwise }
+  [ROTATES_COUNTER_CLOCKWISE] { -rotatesCounterClockwise }
   *[ UNKNOWN ] { -unknown }
 }.
 
@@ -264,13 +264,13 @@ breakApartPhaseDescriptionPattern = Fotón { $lightSource ->
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } absorbido, la molécula { $photonTarget ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 } se divide en { $firstMolecule } y { $secondMolecule }. { $firstMolecule } y { $secondMolecule } flotan alejandose.
 
@@ -292,10 +292,10 @@ tetrahedralGeometryDescription = Tetraédrica, molécula con un átomo central u
 # Descriptions for the light source button.
 # ..................................................................
 lightSourceButtonLabelPattern = Fuente de Luz { $lightSource ->
-  [ MICRO ] { -microwave-capitalized }
-  [ INFRARED ] { -infrared-feminine-capitalized }
-  [ VISIBLE ] { -visible-capitalized }
-  [ ULTRAVIOLET ] { -ultraviolet-capitalized }
+  [ MICRO ] { -microwaveCapitalized }
+  [ INFRARED ] { -infraredFeminineCapitalized }
+  [ VISIBLE ] { -visibleCapitalized }
+  [ ULTRAVIOLET ] { -ultravioletCapitalized }
   *[ UNKNOWN ] { -unknown }
 }
 lightSourceButtonPressedHelpText = Apague la fuente de luz para detener los fotones.
@@ -312,14 +312,14 @@ moleculesRadioButtonHelpText = Elija molécula para la ventana de observación.
 
 # Pattern for the labels for the molecule radio buttons. Molecular formulas are not translatable.
 moleculeButtonLabelPattern = { $photonTarget ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide-capitalized }
-  [ SINGLE_N2_MOLECULE ] { -nitrogen-capitalized }
-  [ SINGLE_O2_MOLECULE ] { -oxygen-capitalized }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide-capitalized }
-  [ SINGLE_CH4_MOLECULE ] { -methane-capitalized }
-  [ SINGLE_H2O_MOLECULE ] { -water-capitalized }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide-capitalized }
-  *[ SINGLE_O3_MOLECULE ] { -ozone-capitalized }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxideCapitalized }
+  [ SINGLE_N2_MOLECULE ] { -nitrogenCapitalized }
+  [ SINGLE_O2_MOLECULE ] { -oxygenCapitalized }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxideCapitalized }
+  [ SINGLE_CH4_MOLECULE ] { -methaneCapitalized }
+  [ SINGLE_H2O_MOLECULE ] { -waterCapitalized }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxideCapitalized }
+  *[ SINGLE_O3_MOLECULE ] { -ozoneCapitalized }
 }, { $molecularFormula }, { $geometryTitle ->
   [LINEAR] Lineal
   [BENT] Angular
@@ -340,13 +340,13 @@ emissionPhaseDescriptionPattern = Fotón { $lightSource ->
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } absorbido y emitido desde la molécula de { $photonTarget ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 } hacia { $direction ->
   [LEFT] { -left }
@@ -447,8 +447,8 @@ slowMotionAbsorbedShortPattern = Fotón absorbido.{ $excitedRepresentation ->
 
 slowMotionAbsorbedMoleculeExcitedPattern = Fotón absorbido. La molécula { $excitedRepresentation ->
  [GLOWING] { -glows }
- [ROTATES_CLOCKWISE] { -rotates-clockwise }
- [ROTATES_COUNTER_CLOCKWISE] { -rotates-counter-clockwise }
+ [ROTATES_CLOCKWISE] { -rotatesClockwise }
+ [ROTATES_COUNTER_CLOCKWISE] { -rotatesCounterClockwise }
  *[ UNKNOWN ] { -unknown }
 }.
 
