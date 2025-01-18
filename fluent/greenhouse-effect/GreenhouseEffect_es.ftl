@@ -76,7 +76,7 @@ interactionHint = Encienda la fuente de luz para explorar.
 # Describing the simulation when the sim is playing and the photon emitter is on.
 dynamicPlayingEmitterOnScreenSummaryPattern = Actualmente, la fuente de luz { $lightSource ->
   [ MICRO ] { -microwave }
-  [ INFRARED ] { -infrared-feminine }
+  [ INFRARED ] { -infraredFeminine }
   [ VISIBLE ] { -visible }
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
@@ -97,7 +97,7 @@ dynamicPlayingEmitterOnScreenSummaryPattern = Actualmente, la fuente de luz { $l
 # Describing the simulation when the sim is playing and the photon emitter is off.
 dynamicPlayingEmitterOffScreenSummaryPattern = Actualmente, la fuente de luz { $lightSource ->
   [ MICRO ] { -microwave }
-  [ INFRARED ] { -infrared-feminine }
+  [ INFRARED ] { -infraredFeminine }
   [ VISIBLE ] { -visible }
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
@@ -118,7 +118,7 @@ dynamicPausedEmitterOnScreenSummaryPattern = Actualmente, la simulación { $simS
   *[ SLOW ] está pausada a velocidad lenta
 }. La fuente de luz { $lightSource ->
   [ MICRO ] { -microwave }
-  [ INFRARED ] { -infrared-feminine }
+  [ INFRARED ] { -infraredFeminine }
   [ VISIBLE ] { -visible }
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
@@ -139,7 +139,7 @@ dynamicPausedEmitterOffScreenSummaryPattern = Actualmente, la simulación { $sim
   *[ SLOW ] está pausada a velocidad lenta
 }. La fuente de luz { $lightSource ->
   [ MICRO ] { -microwave }
-  [ INFRARED ] { -infrared-feminine }
+  [ INFRARED ] { -infraredFeminine }
   [ VISIBLE ] { -visible }
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
@@ -167,7 +167,7 @@ observationWindowLabel = Ventana de Observación
 # Description of the light source when it is off.
 photonEmitterOffDescriptionPattern = La fuente de luz { $lightSource ->
   [ MICRO ] { -microwave }
-  [ INFRARED ] { -infrared-feminine }
+  [ INFRARED ] { -infraredFeminine }
   [ VISIBLE ] { -visible }
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }

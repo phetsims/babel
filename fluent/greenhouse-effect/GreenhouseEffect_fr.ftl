@@ -49,14 +49,14 @@
 
 # ..
 # Photon and molecule movement directions
-left = la gauche
-right = la droite
-up = le haut
-down = le bas
-upAndToTheLeft = en haut à gauche
-upAndToTheRight = en haut à droite
-downAndToTheLeft = en bas à gauche
-downAndToTheRight = en bas à droite
+-left = la gauche
+-right = la droite
+-up = le haut
+-down = le bas
+-upAndToTheLeft = en haut à gauche
+-upAndToTheRight = en haut à droite
+-downAndToTheLeft = en bas à gauche
+-downAndToTheRight = en bas à droite
 
 # ..
 # Unknown catch
@@ -85,14 +85,14 @@ dynamicPlayingEmitterOnScreenSummaryPattern = Présentement, la source de lumiè
     [ NORMAL ] directement sur
     *[ SLOW ] à vitesse réduite directement sur la molécule
 } { $targetMolecule ->
-  [ SINGLE_CO_MOLECULE ] { -particle-carbon-monoxide }
-  [ SINGLE_N2_MOLECULE ] { -particle-nitrogen }
-  [ SINGLE_O2_MOLECULE ] { -particle-oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -particle-carbon-dioxide }
-  [ SINGLE_CH4_MOLECULE ] { -particle-methane }
-  [ SINGLE_H2O_MOLECULE ] { -particle-water }
-  [ SINGLE_NO2_MOLECULE ] { -particle-nitrogen-dioxide }
-  *[ SINGLE_O3_MOLECULE ] { -particle-ozone }
+  [ SINGLE_CO_MOLECULE ] { -particleCarbonMonoxide }
+  [ SINGLE_N2_MOLECULE ] { -particleNitrogen }
+  [ SINGLE_O2_MOLECULE ] { -particleOxygen }
+  [ SINGLE_CO2_MOLECULE ] { -particleCarbonDioxide }
+  [ singleCh4Molecule ] { -particleMethane }
+  [ singleH2OMolecule ] { -particleWater }
+  [ singleNo2Molecule ] { -particleNitrogenDioxide }
+  *[ singleO3Molecule ] { -particleOzone }
 }.
 
 # Describing the simulation when the sim is playing and the photon emitter is off.
@@ -103,14 +103,14 @@ dynamicPlayingEmitterOffScreenSummaryPattern = Présentement, la source de lumi�
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } est éteinte et pointe directement vers la molécule { $targetMolecule ->
-  [ SINGLE_CO_MOLECULE ] { -particle-carbon-monoxide }
-  [ SINGLE_N2_MOLECULE ] { -particle-nitrogen }
-  [ SINGLE_O2_MOLECULE ] { -particle-oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -particle-carbon-dioxide }
-  [ SINGLE_CH4_MOLECULE ] { -particle-methane }
-  [ SINGLE_H2O_MOLECULE ] { -particle-water }
-  [ SINGLE_NO2_MOLECULE ] { -particle-nitrogen-dioxide }
-  *[ SINGLE_O3_MOLECULE ] { -particle-ozone }
+  [ SINGLE_CO_MOLECULE ] { -particleCarbonMonoxide }
+  [ SINGLE_N2_MOLECULE ] { -particleNitrogen }
+  [ SINGLE_O2_MOLECULE ] { -particleOxygen }
+  [ SINGLE_CO2_MOLECULE ] { -particleCarbonDioxide }
+  [ singleCh4Molecule ] { -particleMethane }
+  [ singleH2OMolecule ] { -particleWater }
+  [ singleNo2Molecule ] { -particleNitrogenDioxide }
+  *[ singleO3Molecule ] { -particleOzone }
 }.
 
 # Describing the simulation when the sim is paused and the photon emitter is on.
@@ -124,14 +124,14 @@ dynamicPausedEmitterOnScreenSummaryPattern = Présentement, la simulation { $sim
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } émet des photons directement vers la molécule { $targetMolecule ->
-  [ SINGLE_CO_MOLECULE ] { -particle-carbon-monoxide }
-  [ SINGLE_N2_MOLECULE ] { -particle-nitrogen }
-  [ SINGLE_O2_MOLECULE ] { -particle-oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -particle-carbon-dioxide }
-  [ SINGLE_CH4_MOLECULE ] { -particle-methane }
-  [ SINGLE_H2O_MOLECULE ] { -particle-water }
-  [ SINGLE_NO2_MOLECULE ] { -particle-nitrogen-dioxide }
-  *[ SINGLE_O3_MOLECULE ] { -particle-ozone }
+  [ SINGLE_CO_MOLECULE ] { -particleCarbonMonoxide }
+  [ SINGLE_N2_MOLECULE ] { -particleNitrogen }
+  [ SINGLE_O2_MOLECULE ] { -particleOxygen }
+  [ SINGLE_CO2_MOLECULE ] { -particleCarbonDioxide }
+  [ singleCh4Molecule ] { -particleMethane }
+  [ singleH2OMolecule ] { -particleWater }
+  [ singleNo2Molecule ] { -particleNitrogenDioxide }
+  *[ singleO3Molecule ] { -particleOzone }
 }.
 
 # Describing the simulation when the sim is paused and the photon emitter is off.
@@ -139,14 +139,14 @@ dynamicPausedEmitterOffScreenSummaryPattern = Présentement, la simulation { $si
    [ NORMAL ] est en pause
   *[ SLOW ] est en pause à vitesse réduite
 }. La source de lumière infrarouge est éteinte et pointe directement vers la molécule { $targetMolecule ->
-  [ SINGLE_CO_MOLECULE ] { -particle-carbon-monoxide }
-  [ SINGLE_N2_MOLECULE ] { -particle-nitrogen }
-  [ SINGLE_O2_MOLECULE ] { -particle-oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -particle-carbon-dioxide }
-  [ SINGLE_CH4_MOLECULE ] { -particle-methane }
-  [ SINGLE_H2O_MOLECULE ] { -particle-water }
-  [ SINGLE_NO2_MOLECULE ] { -particle-nitrogen-dioxide }
-  *[ SINGLE_O3_MOLECULE ] { -particle-ozone }
+  [ SINGLE_CO_MOLECULE ] { -particleCarbonMonoxide }
+  [ SINGLE_N2_MOLECULE ] { -particleNitrogen }
+  [ SINGLE_O2_MOLECULE ] { -particleOxygen }
+  [ SINGLE_CO2_MOLECULE ] { -particleCarbonDioxide }
+  [ singleCh4Molecule ] { -particleMethane }
+  [ singleH2OMolecule ] { -particleWater }
+  [ singleNo2Molecule ] { -particleNitrogenDioxide }
+  *[ singleO3Molecule ] { -particleOzone }
 }.
 
 # When the target molecule has broken apart, the above screen summaries include this
@@ -167,14 +167,14 @@ photonEmitterOffDescriptionPattern = La source de lumière { $lightSource ->
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } est éteinte et pointe directement vers la molécule { $targetMolecule ->
-  [ SINGLE_CO_MOLECULE ] { -particle-carbon-monoxide }
-  [ SINGLE_N2_MOLECULE ] { -particle-nitrogen }
-  [ SINGLE_O2_MOLECULE ] { -particle-oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -particle-carbon-dioxide }
-  [ SINGLE_CH4_MOLECULE ] { -particle-methane }
-  [ SINGLE_H2O_MOLECULE ] { -particle-water }
-  [ SINGLE_NO2_MOLECULE ] { -particle-nitrogen-dioxide }
-  *[ SINGLE_O3_MOLECULE ] { -particle-ozone }
+  [ SINGLE_CO_MOLECULE ] { -particleCarbonMonoxide }
+  [ SINGLE_N2_MOLECULE ] { -particleNitrogen }
+  [ SINGLE_O2_MOLECULE ] { -particleOxygen }
+  [ SINGLE_CO2_MOLECULE ] { -particleCarbonDioxide }
+  [ singleCh4Molecule ] { -particleMethane }
+  [ singleH2OMolecule ] { -particleWater }
+  [ singleNo2Molecule ] { -particleNitrogenDioxide }
+  *[ singleO3Molecule ] { -particleOzone }
 }.
 
 # ..
@@ -187,14 +187,14 @@ inactiveAndPassesPhaseDescriptionPattern = Le photon { $lightSource ->
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } traverse la molécule  { $targetMolecule ->
-  [ SINGLE_CO_MOLECULE ] { -particle-carbon-monoxide }
-  [ SINGLE_N2_MOLECULE ] { -particle-nitrogen }
-  [ SINGLE_O2_MOLECULE ] { -particle-oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -particle-carbon-dioxide }
-  [ SINGLE_CH4_MOLECULE ] { -particle-methane }
-  [ SINGLE_H2O_MOLECULE ] { -particle-water }
-  [ SINGLE_NO2_MOLECULE ] { -particle-nitrogen-dioxide }
-  *[ SINGLE_O3_MOLECULE ] { -particle-ozone }
+  [ SINGLE_CO_MOLECULE ] { -particleCarbonMonoxide }
+  [ SINGLE_N2_MOLECULE ] { -particleNitrogen }
+  [ SINGLE_O2_MOLECULE ] { -particleOxygen }
+  [ SINGLE_CO2_MOLECULE ] { -particleCarbonDioxide }
+  [ singleCh4Molecule ] { -particleMethane }
+  [ singleH2OMolecule ] { -particleWater }
+  [ singleNo2Molecule ] { -particleNitrogenDioxide }
+  *[ singleO3Molecule ] { -particleOzone }
 }.
 # ..
 # Description of the light source when it is on and emitting photons that interact
@@ -206,17 +206,17 @@ absorptionPhaseBondsDescriptionPattern = Le photon { $lightSource ->
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } est absorbé, les liaisons de la molécule { $photonTarget ->
-  [ SINGLE_CO_MOLECULE ] { -particle-carbon-monoxide }
-  [ SINGLE_N2_MOLECULE ] { -particle-nitrogen }
-  [ SINGLE_O2_MOLECULE ] { -particle-oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -particle-carbon-dioxide }
-  [ SINGLE_CH4_MOLECULE ] { -particle-methane }
-  [ SINGLE_H2O_MOLECULE ] { -particle-water }
-  [ SINGLE_NO2_MOLECULE ] { -particle-nitrogen-dioxide }
-  *[ SINGLE_O3_MOLECULE ] { -particle-ozone }
+  [ SINGLE_CO_MOLECULE ] { -particleCarbonMonoxide }
+  [ SINGLE_N2_MOLECULE ] { -particleNitrogen }
+  [ SINGLE_O2_MOLECULE ] { -particleOxygen }
+  [ SINGLE_CO2_MOLECULE ] { -particleCarbonDioxide }
+  [ singleCh4Molecule ] { -particleMethane }
+  [ singleH2OMolecule ] { -particleWater }
+  [ singleNo2Molecule ] { -particleNitrogenDioxide }
+  *[ singleO3Molecule ] { -particleOzone }
 } { $excitedRepresentation ->
-  [BEND_UP_AND_DOWN] { -bend-up-and-down }
-  [STRETCH_BACK_AND_FORTH] { -stretch-back-and-forth }
+  [BEND_UP_AND_DOWN] { -bendUpAndDown }
+  [STRETCH_BACK_AND_FORTH] { -stretchBackAndForth }
   *[ UNKNOWN ] { -unknown }
 }.
 
@@ -230,18 +230,18 @@ absorptionPhaseMoleculeDescriptionPattern = Le photon { $lightSource ->
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } est absorbé, la molécule { $photonTarget ->
-  [ SINGLE_CO_MOLECULE ] { -particle-carbon-monoxide }
-  [ SINGLE_N2_MOLECULE ] { -particle-nitrogen }
-  [ SINGLE_O2_MOLECULE ] { -particle-oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -particle-carbon-dioxide }
-  [ SINGLE_CH4_MOLECULE ] { -particle-methane }
-  [ SINGLE_H2O_MOLECULE ] { -particle-water }
-  [ SINGLE_NO2_MOLECULE ] { -particle-nitrogen-dioxide }
-  *[ SINGLE_O3_MOLECULE ] { -particle-ozone }
+  [ SINGLE_CO_MOLECULE ] { -particleCarbonMonoxide }
+  [ SINGLE_N2_MOLECULE ] { -particleNitrogen }
+  [ SINGLE_O2_MOLECULE ] { -particleOxygen }
+  [ SINGLE_CO2_MOLECULE ] { -particleCarbonDioxide }
+  [ singleCh4Molecule ] { -particleMethane }
+  [ singleH2OMolecule ] { -particleWater }
+  [ singleNo2Molecule ] { -particleNitrogenDioxide }
+  *[ singleO3Molecule ] { -particleOzone }
 } { $excitedRepresentation ->
   [GLOWING] { -glows }
-  [ROTATES_CLOCKWISE] { -rotates-clockwise }
-  [ROTATES_COUNTER_CLOCKWISE] { -rotates-counter-clockwise }
+  [ROTATES_CLOCKWISE] { -rotatesClockwise }
+  [ROTATES_COUNTER_CLOCKWISE] { -rotatesCounterClockwise }
   *[ UNKNOWN ] { -unknown }
 }.
 
@@ -258,14 +258,14 @@ breakApartPhaseDescriptionPattern = Le photon { $lightSource ->
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } est absorbé, la molécule { $photonTarget ->
-  [ SINGLE_CO_MOLECULE ] { -particle-carbon-monoxide }
-  [ SINGLE_N2_MOLECULE ] { -particle-nitrogen }
-  [ SINGLE_O2_MOLECULE ] { -particle-oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -particle-carbon-dioxide }
-  [ SINGLE_CH4_MOLECULE ] { -particle-methane }
-  [ SINGLE_H2O_MOLECULE ] { -particle-water }
-  [ SINGLE_NO2_MOLECULE ] { -particle-nitrogen-dioxide }
-  *[ SINGLE_O3_MOLECULE ] { -particle-ozone }
+  [ SINGLE_CO_MOLECULE ] { -particleCarbonMonoxide }
+  [ SINGLE_N2_MOLECULE ] { -particleNitrogen }
+  [ SINGLE_O2_MOLECULE ] { -particleOxygen }
+  [ SINGLE_CO2_MOLECULE ] { -particleCarbonDioxide }
+  [ singleCh4Molecule ] { -particleMethane }
+  [ singleH2OMolecule ] { -particleWater }
+  [ singleNo2Molecule ] { -particleNitrogenDioxide }
+  *[ singleO3Molecule ] { -particleOzone }
 } se brise en { $firstMolecule } et { $secondMolecule }.
 
 # ..
@@ -306,13 +306,13 @@ moleculesRadioButtonHelpText = Choisissez une molécule pour la fenêtre d’obs
 
 # Pattern for the labels for the molecule radio buttons. Molecular formulas are not translatable.
 moleculeButtonLabelPattern = { $photonTarget ->
-  [ SINGLE_CO_MOLECULE ] { -carbon-monoxide }
+  [ SINGLE_CO_MOLECULE ] { -carbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -nitrogen }
   [ SINGLE_O2_MOLECULE ] { -oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -carbon-dioxide }
+  [ SINGLE_CO2_MOLECULE ] { -carbonDioxide }
   [ SINGLE_CH4_MOLECULE ] { -methane }
   [ SINGLE_H2O_MOLECULE ] { -water }
-  [ SINGLE_NO2_MOLECULE ] { -nitrogen-dioxide }
+  [ SINGLE_NO2_MOLECULE ] { -nitrogenDioxide }
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 }, { $molecularFormula }, { $geometryTitle ->
   [LINEAR] Linéaire
@@ -334,23 +334,23 @@ emissionPhaseDescriptionPattern = Photon { $lightSource ->
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } absorbé réémis de la molécule { $photonTarget ->
-  [ SINGLE_CO_MOLECULE ] { -particle-carbon-monoxide }
-  [ SINGLE_N2_MOLECULE ] { -particle-nitrogen }
-  [ SINGLE_O2_MOLECULE ] { -particle-oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -particle-carbon-dioxide }
-  [ SINGLE_CH4_MOLECULE ] { -particle-methane }
-  [ SINGLE_H2O_MOLECULE ] { -particle-water }
-  [ SINGLE_NO2_MOLECULE ] { -particle-nitrogen-dioxide }
-  *[ SINGLE_O3_MOLECULE ] { -particle-ozone }
+  [ SINGLE_CO_MOLECULE ] { -particleCarbonMonoxide }
+  [ SINGLE_N2_MOLECULE ] { -particleNitrogen }
+  [ SINGLE_O2_MOLECULE ] { -particleOxygen }
+  [ SINGLE_CO2_MOLECULE ] { -particleCarbonDioxide }
+  [ singleCh4Molecule ] { -particleMethane }
+  [ singleH2OMolecule ] { -particleWater }
+  [ singleNo2Molecule ] { -particleNitrogenDioxide }
+  *[ singleO3Molecule ] { -particleOzone }
 } vers { $direction ->
   [LEFT] { -left }
   [RIGHT] { -right }
   [UP] { -up }
   [DOWN] { -down }
-  [UP_LEFT] { -up-and-to-the-left }
-  [UP_RIGHT] { -up-and-to-the-right }
-  [DOWN_LEFT] { -down-and-to-the-left }
-  [DOWN_RIGHT] { -down-and-to-the-right }
+  [UP_LEFT] { -upAndToTheLeft }
+  [UP_RIGHT] { -upAndToTheRight }
+  [DOWN_LEFT] { -downAndToTheLeft }
+  [DOWN_RIGHT] { -downAndToTheRight }
   *[UNKNOWN] { -unknown }
 }.
 
@@ -380,10 +380,10 @@ pausedEmittingPattern = Photon absorbé réémis par la molécule vers { $direct
   [RIGHT] { -right }
   [UP] { -up }
   [DOWN] { -down }
-  [UP_LEFT] { -up-and-to-the-left }
-  [UP_RIGHT] { -up-and-to-the-right }
-  [DOWN_LEFT] { -down-and-to-the-left }
-  [DOWN_RIGHT] { -down-and-to-the-right }
+  [UP_LEFT] { -upAndToTheLeft }
+  [UP_RIGHT] { -upAndToTheRight }
+  [DOWN_LEFT] { -downAndToTheLeft }
+  [DOWN_RIGHT] { -downAndToTheRight }
   *[UNKNOWN] { -unknown }
 }.
 
@@ -394,31 +394,31 @@ pausedPassingPattern = Le photon { $lightSource ->
   [ ULTRAVIOLET ] { -ultraviolet }
   *[ UNKNOWN ] { -unknown }
 } traverse la molécule { $photonTarget ->
-  [ SINGLE_CO_MOLECULE ] { -particle-carbon-monoxide }
-  [ SINGLE_N2_MOLECULE ] { -particle-nitrogen }
-  [ SINGLE_O2_MOLECULE ] { -particle-oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -particle-carbon-dioxide }
-  [ SINGLE_CH4_MOLECULE ] { -particle-methane }
-  [ SINGLE_H2O_MOLECULE ] { -particle-water }
-  [ SINGLE_NO2_MOLECULE ] { -particle-nitrogen-dioxide }
-  *[ SINGLE_O3_MOLECULE ] { -particle-ozone }.
+  [ SINGLE_CO_MOLECULE ] { -particleCarbonMonoxide }
+  [ SINGLE_N2_MOLECULE ] { -particleNitrogen }
+  [ SINGLE_O2_MOLECULE ] { -particleOxygen }
+  [ SINGLE_CO2_MOLECULE ] { -particleCarbonDioxide }
+  [ singleCh4Molecule ] { -particleMethane }
+  [ singleH2OMolecule ] { -particleWater }
+  [ singleNo2Molecule ] { -particleNitrogenDioxide }
+  *[ singleO3Molecule ] { -particleOzone }.
 }.
 
 slowMotionPassingPattern = Les photons { $lightSource ->
-  [ MICRO ] { -plural-microwave }
-  [ INFRARED ] { -plural-infrared }
-  [ VISIBLE ] { -plural-visible }
-  [ ULTRAVIOLET ] { -plural-ultraviolet }
-  *[ UNKNOWN ] { -plural-unknown }
+  [ MICRO ] { -pluralMicrowave }
+  [ INFRARED ] { -pluralInfrared }
+  [ VISIBLE ] { -pluralVisible }
+  [ ULTRAVIOLET ] { -pluralUltraviolet }
+  *[ UNKNOWN ] { -pluralUnknown }
 } traversent la molécule { $photonTarget ->
-  [ SINGLE_CO_MOLECULE ] { -particle-carbon-monoxide }
-  [ SINGLE_N2_MOLECULE ] { -particle-nitrogen }
-  [ SINGLE_O2_MOLECULE ] { -particle-oxygen }
-  [ SINGLE_CO2_MOLECULE ] { -particle-carbon-dioxide }
-  [ SINGLE_CH4_MOLECULE ] { -particle-methane }
-  [ SINGLE_H2O_MOLECULE ] { -particle-water }
-  [ SINGLE_NO2_MOLECULE ] { -particle-nitrogen-dioxide }
-  *[ SINGLE_O3_MOLECULE ] { -particle-ozone }.
+  [ SINGLE_CO_MOLECULE ] { -particleCarbonMonoxide }
+  [ SINGLE_N2_MOLECULE ] { -particleNitrogen }
+  [ SINGLE_O2_MOLECULE ] { -particleOxygen }
+  [ SINGLE_CO2_MOLECULE ] { -particleCarbonDioxide }
+  [ singleCh4Molecule ] { -particleMethane }
+  [ singleH2OMolecule ] { -particleWater }
+  [ singleNo2Molecule ] { -particleNitrogenDioxide }
+  *[ singleO3Molecule ] { -particleOzone }.
 }.
 
 photonPasses = Le photon passe.
@@ -426,8 +426,8 @@ photonPasses = Le photon passe.
 photonsPassing = Les photons passent.
 
 slowMotionVibratingPattern = Photon absorbé. Les liaisons de la molécule { $excitedRepresentation ->
-  [BEND_UP_AND_DOWN] { -bend-up-and-down }
-  [STRETCH_BACK_AND_FORTH] { -stretch-back-and-forth }
+  [BEND_UP_AND_DOWN] { -bendUpAndDown }
+  [STRETCH_BACK_AND_FORTH] { -stretchBackAndForth }
   *[ UNKNOWN ] { -unknown }
 }.
 
@@ -441,8 +441,8 @@ slowMotionAbsorbedShortPattern = Photon absorbé. { $excitedRepresentation ->
 
 slowMotionAbsorbedMoleculeExcitedPattern = Photon absorbé. La molécule { $excitedRepresentation ->
  [GLOWING] { -glows }
- [ROTATES_CLOCKWISE] { -rotates-clockwise }
- [ROTATES_COUNTER_CLOCKWISE] { -rotates-counter-clockwise }
+ [ROTATES_CLOCKWISE] { -rotatesClockwise }
+ [ROTATES_COUNTER_CLOCKWISE] { -rotatesCounterClockwise }
  *[ UNKNOWN ] { -unknown }
 }.
 
@@ -462,10 +462,10 @@ slowMotionEmittedPattern = Photon émis vers { $direction ->
   [RIGHT] { -right }
   [UP] { -up }
   [DOWN] { -down }
-  [UP_LEFT] { -up-and-to-the-left }
-  [UP_RIGHT] { -up-and-to-the-right }
-  [DOWN_LEFT] { -down-and-to-the-left }
-  [DOWN_RIGHT] { -down-and-to-the-right }
+  [UP_LEFT] { -upAndToTheLeft }
+  [UP_RIGHT] { -upAndToTheRight }
+  [DOWN_LEFT] { -downAndToTheLeft }
+  [DOWN_RIGHT] { -downAndToTheRight }
   *[UNKNOWN] { -unknown }
 }.
 

@@ -32,14 +32,14 @@
 
 # ..
 # Photon and molecule movement directions
-left = يسار
-right = يمين
-up = أعلى
-down = أسفل
-upAndToTheLeft = أعلى وإلى اليسار
-upAndToTheRight = أعلى وإلى اليمين
-downAndToTheLeft = أسفل وإلى اليسار
-downAndToTheRight = أسفل وإلى اليمين
+-left = يسار
+-right = يمين
+-up = أعلى
+-down = أسفل
+-upAndToTheLeft = أعلى وإلى اليسار
+-upAndToTheRight = أعلى وإلى اليمين
+-downAndToTheLeft = أسفل وإلى اليسار
+-downAndToTheRight = أسفل وإلى اليمين
 
 # ..
 # Unknown catch
@@ -223,8 +223,8 @@ absorptionPhaseMoleculeDescriptionPattern = { $lightSource ->
   *[ SINGLE_O3_MOLECULE ] { -ozone }
 } جزيء { $excitedRepresentation ->
   [GLOWING] { -glows }
-  [ROTATES_CLOCKWISE] { -rotates-clockwise }
-  [ROTATES_COUNTER_CLOCKWISE] { -rotates-counter-clockwise }
+  [ROTATES_CLOCKWISE] { -rotatesClockwise }
+  [ROTATES_COUNTER_CLOCKWISE] { -rotatesCounterClockwise }
   *[ UNKNOWN ] { -unknown }
 }.
 
@@ -424,8 +424,8 @@ slowMotionAbsorbedShortPattern = الفوتون الممتص. { $excitedRepresen
 
 slowMotionAbsorbedMoleculeExcitedPattern = الفوتون الممتص. الجزيء { $excitedRepresentation ->
  [GLOWING] { -glows }
- [ROTATES_CLOCKWISE] { -rotates-clockwise }
- [ROTATES_COUNTER_CLOCKWISE] { -rotates-counter-clockwise }
+ [ROTATES_CLOCKWISE] { -rotatesClockwise }
+ [ROTATES_COUNTER_CLOCKWISE] { -rotatesCounterClockwise }
  *[ UNKNOWN ] { -unknown }
 }.
 
