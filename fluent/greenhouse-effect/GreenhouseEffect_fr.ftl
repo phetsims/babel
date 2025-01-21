@@ -138,7 +138,13 @@ dynamicPausedEmitterOnScreenSummaryPattern = Présentement, la simulation { $sim
 dynamicPausedEmitterOffScreenSummaryPattern = Présentement, la simulation { $simSpeed ->
    [ NORMAL ] est en pause
   *[ SLOW ] est en pause à vitesse réduite
-}. La source de lumière infrarouge est éteinte et pointe directement vers la molécule { $targetMolecule ->
+}. La source de lumière { $lightSource ->
+  [ MICRO ] { -microwave }
+  [ INFRARED ] { -infrared }
+  [ VISIBLE ] { -visible }
+  [ ULTRAVIOLET ] { -ultraviolet }
+  *[ UNKNOWN ] { -unknown }
+} est éteinte et pointe directement vers la molécule { $targetMolecule ->
   [ SINGLE_CO_MOLECULE ] { -particleCarbonMonoxide }
   [ SINGLE_N2_MOLECULE ] { -particleNitrogen }
   [ SINGLE_O2_MOLECULE ] { -particleOxygen }
