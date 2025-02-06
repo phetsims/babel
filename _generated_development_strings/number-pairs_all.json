@@ -18,22 +18,28 @@
     "screen.game": {
       "value": "Game"
     },
-    "numberSentence": {
-      "value": "Number Sentence"
+    "numberPhrase": {
+      "value": "Number Phrase"
+    },
+    "numberPhraseHelpText": {
+      "value": "Read number phrase aloud."
     },
     "numberBond": {
       "value": "Number Bond"
     },
+    "barModel": {
+      "value": "Bar Model"
+    },
     "equation": {
       "value": "Equation"
     },
-    "decompositionNumberSentencePattern": {
+    "decompositionNumberPhrasePattern": {
       "value": "<total>{{total}}</total> can be decomposed into <left>{{leftAddend}}</left> and <right>{{rightAddend}}</right>"
     },
     "decompositionNumberPhraseSpeechPattern": {
       "value": "{{total}} can be decomposed into {{leftAddend}} and {{rightAddend}}"
     },
-    "sumNumberSentencePattern": {
+    "sumNumberPhrasePattern": {
       "value": "<left>{{leftAddend}}</left> plus <right>{{rightAddend}}</right> equals <total>{{total}}</total>"
     },
     "sumNumberPhraseSpeechPattern": {
@@ -66,29 +72,29 @@
     "automaticallyHearPhraseDescription": {
       "value": "Hear the phrase update automatically as you interact."
     },
-    "hearNumberSentence": {
+    "hearNumberPhrase": {
       "value": "Hear Number Sentence"
     },
-    "organizeObjects": {
-      "value": "Organize Objects"
+    "organizeObjectsPattern": {
+      "value": "Organize {{representation}}"
     },
-    "organizeObjectsHelpText": {
-      "value": "Organizes objects into groups of five."
+    "organizeObjectsHelpTextPattern": {
+      "value": "Organize {{representation}} into groups of five."
     },
     "swapAddends": {
       "value": "Swap Addends"
     },
-    "makesAreaVisible": {
-      "value": "Makes area visible."
+    "showOrHideAddend": {
+      "value": "Show or Hide Addend"
     },
-    "firstAddendNoJump": {
-      "value": "First Addend No Jump"
+    "showOrHideAddends": {
+      "value": "Show or Hide Addends"
     },
-    "firstAddendJump": {
-      "value": "First Addend Jump"
+    "totalNumberPattern": {
+      "value": "Total Number {{value}}"
     },
-    "sceneSelectionRadioButtonGroup": {
-      "value": "Scene Selection Radio Button Group"
+    "chooseTotalHelpText": {
+      "value": "Choose total for counting area."
     },
     "apples": {
       "value": "Apples"
@@ -99,8 +105,8 @@
     "butterflies": {
       "value": "Butterflies"
     },
-    "oneCards": {
-      "value": "One Cards"
+    "ones": {
+      "value": "Ones"
     },
     "kittens": {
       "value": "Kittens"
@@ -108,17 +114,32 @@
     "beads": {
       "value": "Beads"
     },
+    "beadsOnAWire": {
+      "value": "Beads on a Wire"
+    },
     "numberLine": {
       "value": "Number Line"
     },
     "representationType": {
       "value": "Representation Type"
     },
+    "representationTypeHelpText": {
+      "value": "Choose representation for counting area."
+    },
     "locationCountingObjects": {
       "value": "Location Counting Objects"
     },
     "numberLineSlider": {
       "value": "Number Line Slider"
+    },
+    "countOn": {
+      "value": "Count On"
+    },
+    "countFromZero": {
+      "value": "Count from Zero"
+    },
+    "totalCheckboxHelpText": {
+      "value": "Show or hide the sum of the two addends."
     }
   }
 }
