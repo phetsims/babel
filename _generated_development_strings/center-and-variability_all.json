@@ -760,13 +760,13 @@
       "value": "গড় এবং মধ্যমা/Mean & Median"
     },
     "plotType": {
-      "value": "প্লট টাইপ "
+      "value": "প্লট টাইপ"
     },
     "linePlot": {
-      "value": "লাইন প্লট "
+      "value": "লাইন প্লট"
     },
     "dotPlot": {
-      "value": "ডট  প্লট "
+      "value": "ডট  প্লট"
     },
     "medianQuestion": {
       "value": "সাধারণ কিক দূরত্ব কি?"
@@ -796,19 +796,244 @@
       "value": "ডেটা   সাজাও/সাজান"
     },
     "mean": {
-      "value": "গড় "
+      "value": "গড়"
     },
     "median": {
-      "value": "মধ্যমা "
+      "value": "মধ্যমা"
     },
     "predictMean": {
-      "value": "অনুমিত গড় "
+      "value": "অনুমিত গড়"
     },
     "predictMedian": {
-      "value": "অনুমিত মধ্যমা "
+      "value": "অনুমিত মধ্যমা"
     },
     "center-and-variability.title": {
       "value": "কেন্দ্র এবং পরিবর্তনশীলতা/Center and Variability"
+    },
+    "screen.variability": {
+      "value": "পরিবর্তনশীলতা"
+    },
+    "maxKicks": {
+      "value": "Max Kicks"
+    },
+    "maxKicksDescription": {
+      "value": "সমস্ত স্ক্রীনের জন্য অনুমোদিত সর্বাধিক কিকের সংখ্যা নির্ধারণ করো । মধ্যমা স্ক্রীনে সর্বাধিক কিকের সংখ্যা ১৫।"
+    },
+    "outliers": {
+      "value": "প্রান্তিক মান"
+    },
+    "outliersDescription": {
+      "value": "বক্সপ্লটে প্রান্তিক মানগুলিকে উইস্কারে (WHISKER) অন্তর্ভুক্ত করার পরিবর্তে চিহ্নিতকরণ হিসেবে দেখাও।"
+    },
+    "keyboardHelpDialog.medianScreen.grabOrReleaseBallOrCard": {
+      "value": "বল বা কার্ড ধরুন অথবা ছেড়ে দিন"
+    },
+    "keyboardHelpDialog.medianScreen.moveGrabbedBallOrCardTitle": {
+      "value": "ধরা বল বা কার্ড সরান"
+    },
+    "keyboardHelpDialog.medianScreen.moveGrabbedBallOrCard": {
+      "value": "ধরা বল বা কার্ড সরান"
+    },
+    "keyboardHelpDialog.medianScreen.jumpToStartOfCardsOrNumberLine": {
+      "value": "কার্ড বা সংখ্যা রেখার শুরুতে যান"
+    },
+    "keyboardHelpDialog.medianScreen.jumpToEndOfCardsOrNumberLine": {
+      "value": "কার্ড বা সংখ্যা রেখার শেষে যান"
+    },
+    "keyboardHelpDialog.grabOrReleaseBall": {
+      "value": "বল ধরুন অথবা ছেড়ে দিন"
+    },
+    "keyboardHelpDialog.moveGrabbedBallTitle": {
+      "value": "ধরা বল সরান"
+    },
+    "keyboardHelpDialog.moveGrabbedBall": {
+      "value": "ধরা বল সরান"
+    },
+    "keyboardHelpDialog.jumpToStartOfNumberLine": {
+      "value": "সংখ্যা রেখার শুরুতে যান"
+    },
+    "keyboardHelpDialog.jumpToEndOfNumberLine": {
+      "value": "সংখ্যা রেখার শেষ পর্যন্ত যান"
+    },
+    "variabilityQuestion": {
+      "value": "কিকের দূরত্ব কতটা ছড়িয়ে ছিটিয়ে আছে?"
+    },
+    "valueKicksPattern": {
+      "value": "{{value}} Kicks"
+    },
+    "distanceInMetersAccordionBoxTitle": {
+      "value": "দূরত্ব (মিটারে)"
+    },
+    "intervalTool": {
+      "value": "Interval Tool"
+    },
+    "pointer": {
+      "value": "পয়েন্টার"
+    },
+    "keyboardHelpDialog.grabOrRelease": {
+      "value": "ধরুন অথবা ছেড়ে দিন"
+    },
+    "keyboardHelpDialog.moveInLargerSteps": {
+      "value": "বড় ধাপে এগোও"
+    },
+    "keyboardHelpDialog.jumpBallToTickMark": {
+      "value": "Jump ball to tick mark"
+    },
+    "keyboardHelpDialog.medianScreen.movePredictMedian": {
+      "value": "Move Predict Median"
+    },
+    "keyboardHelpDialog.move": {
+      "value": "মুভ"
+    },
+    "keyboardHelpDialog.medianScreen.predictMedian": {
+      "value": "predict median"
+    },
+    "keyboardHelpDialog.endOfNumberLine": {
+      "value": "সংখ্যা লাইনের শেষ"
+    },
+    "keyboardHelpDialog.startOfNumberLine": {
+      "value": "সংখ্যা লাইনের শুরু"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanOrMedian": {
+      "value": "anOrMedian\tMove Predict Mean or Median"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.movePredictionPointer": {
+      "value": "Move prediction pointer"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanInSmallerSteps": {
+      "value": "ছোট ধাপে পূর্বাভাস গড় সরান"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.moveInLargerSteps": {
+      "value": "Move in larger steps"
+    },
+    "medianEqualsValueMPattern": {
+      "value": "Median = {{value}} m"
+    },
+    "medianEqualsUnknown": {
+      "value": "Median = ?"
+    },
+    "meanEqualsValueMPattern": {
+      "value": "Mean = {{value}} m"
+    },
+    "meanEqualsUnknown": {
+      "value": "Mean = ?"
+    },
+    "range": {
+      "value": "পাল্লা"
+    },
+    "interquartileRangeIQR": {
+      "value": "Interquartile Range (IQR)"
+    },
+    "meanAbsoluteDeviationMAD": {
+      "value": "Mean Absolute Deviation (MAD)"
+    },
+    "iqr": {
+      "value": "IQR"
+    },
+    "mad": {
+      "value": "MAD"
+    },
+    "rangeEqualsValueMPattern": {
+      "value": "Range = {{value}} m"
+    },
+    "iqrEqualsValueMPattern": {
+      "value": "IQR = {{value}} m"
+    },
+    "madEqualsValueMPattern": {
+      "value": "MAD = {{value}} m"
+    },
+    "rangeEqualsUnknown": {
+      "value": "পাল্লা = ?"
+    },
+    "iqrEqualsUnknown": {
+      "value": "IQR = ?"
+    },
+    "madEqualsUnknown": {
+      "value": "MAD = ?"
+    },
+    "keyboardHelpDialog.variabilityScreen.movePointerIntervalHandleOrIntervalBlock": {
+      "value": "Move Pointer, Interval Handles, or Interval Block"
+    },
+    "keyboardHelpDialog.variabilityScreen.object": {
+      "value": "অবজেক্ট"
+    },
+    "medianDescription": {
+      "value": "<strong>Median</strong> is the number that splits a sorted data set in half."
+    },
+    "needAtLeastOneKick": {
+      "value": "Need at least one kick"
+    },
+    "kickValuePattern": {
+      "value": "Kick {{value}}"
+    },
+    "medianEqualsValueUnitsPattern": {
+      "value": "Median = {{value}} {{units}}"
+    },
+    "meter": {
+      "value": "মিটার"
+    },
+    "meters": {
+      "value": "meters"
+    },
+    "meanDescription": {
+      "value": "<strong>Mean</strong> is the average of all values in any data set."
+    },
+    "meanEquals": {
+      "value": "মধ্যমা"
+    },
+    "meanEqualsValueMetersPattern": {
+      "value": "Mean = {{value}} meters"
+    },
+    "rangeDescription": {
+      "value": "<strong>Range</strong> is the distance between the minimum and maximum data points."
+    },
+    "rangeEqualsMaxMinusMinPattern": {
+      "value": "Range = {{max}} – {{min}}"
+    },
+    "rangeEqualsRangeUnitsPattern": {
+      "value": "Range = {{range}} {{units}}"
+    },
+    "iqrDescription": {
+      "value": "<strong>Interquartile range (IQR)</strong> is the middle 50% of the data."
+    },
+    "iqrEqualsQ3MinusQ3Pattern": {
+      "value": "IQR = {{q3}} – {{q1}}"
+    },
+    "iqrEqualsIQRUnitsPattern": {
+      "value": "IQR = {{iqr}} {{units}}"
+    },
+    "madDescription": {
+      "value": "<strong>Mean absolute deviation (MAD)</strong> is the average distance from each data point to the mean."
+    },
+    "madEquals": {
+      "value": "MAD ="
+    },
+    "madEqualsMADMetersPattern": {
+      "value": "MAD = {{mad}} meters"
+    },
+    "dataValuesInMeters": {
+      "value": "Data Values (in meters):"
+    },
+    "medianEqualsValuePattern": {
+      "value": "Median = {{value}}"
+    },
+    "distanceInMetersChartLabel": {
+      "value": "দূরত্ব (মিটারে)"
+    },
+    "needAtLeastFiveKicks": {
+      "value": "অন্তত পাঁচটা কিক লাগবে"
+    },
+    "min": {
+      "value": "সর্বনিম্ন"
+    },
+    "max": {
+      "value": "সর্বাধিক"
+    },
+    "q1": {
+      "value": "Q1"
+    },
+    "q3": {
+      "value": "Q3"
     }
   },
   "bs": {
