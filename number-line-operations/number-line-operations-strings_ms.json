@@ -33,13 +33,20 @@
     ]
   },
   "tickMarks": {
-    "value": "Tanda Semak",
+    "value": "Tanda Nombor",
     "history": [
       {
         "userId": 981130,
         "timestamp": 1638249016699,
         "oldValue": "",
         "newValue": "Tanda Semak"
+      },
+      {
+        "userId": 11360046,
+        "timestamp": 1742801093175,
+        "oldValue": "Tanda Semak",
+        "newValue": "Tanda Nombor",
+        "explanation": null
       }
     ]
   },
@@ -165,13 +172,20 @@
     ]
   },
   "screen.generic": {
-    "value": "Generik",
+    "value": "Umum",
     "history": [
       {
         "userId": 981130,
         "timestamp": 1638249016699,
         "oldValue": "",
         "newValue": "Generik"
+      },
+      {
+        "userId": 11360046,
+        "timestamp": 1742801093175,
+        "oldValue": "Generik",
+        "newValue": "Umum",
+        "explanation": null
       }
     ]
   },
@@ -293,6 +307,105 @@
         "timestamp": 1638249016699,
         "oldValue": "",
         "newValue": "Mudahkan"
+      }
+    ]
+  },
+  "currencyUnits": {
+    "value": "RM",
+    "history": [
+      {
+        "userId": 11360046,
+        "timestamp": 1742801093175,
+        "oldValue": "",
+        "newValue": "RM"
+      }
+    ]
+  },
+  "netWorthWithCurrencyPattern": {
+    "value": "{{netWorthString}} ({{currencyUnits}})",
+    "history": [
+      {
+        "userId": 11360046,
+        "timestamp": 1742801093175,
+        "oldValue": "",
+        "newValue": "{{netWorthString}} ({{currencyUnits}})"
+      }
+    ]
+  },
+  "totalCurrencyPattern": {
+    "value": "{{totalString}} = {{sign}}{{currencyUnits}}{{totalValue}}",
+    "history": [
+      {
+        "userId": 11360046,
+        "timestamp": 1742801093175,
+        "oldValue": "",
+        "newValue": "{{totalString}} = {{sign}}{{currencyUnits}}{{totalValue}}"
+      }
+    ]
+  },
+  "totalValuePattern": {
+    "value": "{{totalString}} = {{totalValue}}",
+    "history": [
+      {
+        "userId": 11360046,
+        "timestamp": 1742801093175,
+        "oldValue": "",
+        "newValue": "{{totalString}} = {{totalValue}}"
+      }
+    ]
+  },
+  "currencyValuePattern": {
+    "value": "{{sign}}{{currencyUnits}}{{value}}",
+    "history": [
+      {
+        "userId": 11360046,
+        "timestamp": 1742801093175,
+        "oldValue": "",
+        "newValue": "{{sign}}{{currencyUnits}}{{value}}"
+      }
+    ]
+  },
+  "addRemoveZeroCurrencyPattern": {
+    "value": "{{addOrRemove}} {{currencyUnits}}0",
+    "history": [
+      {
+        "userId": 11360046,
+        "timestamp": 1742801093175,
+        "oldValue": "",
+        "newValue": "{{addOrRemove}} {{currencyUnits}}0"
+      }
+    ]
+  },
+  "operationOffScale": {
+    "value": "operasi melebihi skala",
+    "history": [
+      {
+        "userId": 11360046,
+        "timestamp": 1742801093175,
+        "oldValue": "",
+        "newValue": "operasi melebihi skala"
+      }
+    ]
+  },
+  "addRemoveZeroPattern": {
+    "value": "{{addOrRemove}} 0",
+    "history": [
+      {
+        "userId": 11360046,
+        "timestamp": 1742801093175,
+        "oldValue": "",
+        "newValue": "{{addOrRemove}} 0"
+      }
+    ]
+  },
+  "addRemovePositiveNegativePattern": {
+    "value": "{{addOrRemove}} {{positiveOrNegative}} {{value}}",
+    "history": [
+      {
+        "userId": 11360046,
+        "timestamp": 1742801093175,
+        "oldValue": "",
+        "newValue": "{{addOrRemove}} {{positiveOrNegative}} {{value}}"
       }
     ]
   }
