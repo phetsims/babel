@@ -319,13 +319,20 @@
     ]
   },
   "transitions": {
-    "value": "Overgange",
+    "value": "Spring",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1745555480095,
         "oldValue": "",
         "newValue": "Overgange"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1745585876880,
+        "oldValue": "Overgange",
+        "newValue": "Spring",
+        "explanation": null
       }
     ]
   },
@@ -451,24 +458,38 @@
     ]
   },
   "nlmInfo": {
-    "value": "Schrödingemodellen benytter 3 kvantumnumre ({{n}},{{l}},{{m}}) til at beskrive den mest sandsynlige placering af en elektron, også kendt som en <b>orbitale</b>.",
+    "value": "Schrödingemodellen benytter 3 kvantumnumre ({{n}},{{l}},{{m}}) for at beskrive den mest sandsynlige placering af en elektron, også kendt som en <b>orbitale</b>.",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1745555480095,
         "oldValue": "",
         "newValue": "Schrödingemodellen benytter 3 kvantumnumre ({{n}},{{l}},{{m}}) til at beskrive den mest sandsynlige placering af en elektron, også kendt som en <b>orbitale</b>."
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1745585876880,
+        "oldValue": "Schrödingemodellen benytter 3 kvantumnumre ({{n}},{{l}},{{m}}) til at beskrive den mest sandsynlige placering af en elektron, også kendt som en <b>orbitale</b>.",
+        "newValue": "Schrödingemodellen benytter 3 kvantumnumre ({{n}},{{l}},{{m}}) for at beskrive den mest sandsynlige placering af en elektron, også kendt som en <b>orbitale</b>.",
+        "explanation": null
       }
     ]
   },
   "nInfo": {
-    "value": "{{n}},<b>Hoved-kvantumnummer</b>, beskriver elektronens energi og dens mulige distance fra kernen.",
+    "value": "{{n}}, <b>Hoved-kvantumnummer</b>, beskriver elektronens energi og dens mulige distance fra kernen.",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1745555480095,
         "oldValue": "",
         "newValue": "{{n}},<b>Hoved-kvantumnummer</b>, beskriver elektronens energi og dens mulige distance fra kernen."
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1745585876880,
+        "oldValue": "{{n}},<b>Hoved-kvantumnummer</b>, beskriver elektronens energi og dens mulige distance fra kernen.",
+        "newValue": "{{n}}, <b>Hoved-kvantumnummer</b>, beskriver elektronens energi og dens mulige distance fra kernen.",
+        "explanation": null
       }
     ]
   },
@@ -506,13 +527,20 @@
     ]
   },
   "white": {
-    "value": "Hvid",
+    "value": "Hvidt",
     "history": [
       {
         "userId": 130982,
         "timestamp": 1745555480095,
         "oldValue": "",
         "newValue": "Hvid"
+      },
+      {
+        "userId": 130982,
+        "timestamp": 1745585876880,
+        "oldValue": "Hvid",
+        "newValue": "Hvidt",
+        "explanation": null
       }
     ]
   },
@@ -546,6 +574,28 @@
         "timestamp": 1745555480095,
         "oldValue": "",
         "newValue": "Modeller af hydrogenatomet"
+      }
+    ]
+  },
+  "lInfo": {
+    "value": "{{l}}, <b>Vinkel-kvantumnummer</b>, beskriver formen af ​​orbitalen. Orbitale former er sfæriske ({{l}} = 0 eller {{s}}), jordnøddeformede ({{l}} = 1 eller {{p}}), og bliver mere komplekse, når {{l}} øges.",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1745585876880,
+        "oldValue": "",
+        "newValue": "{{l}}, <b>Vinkel-kvantumnummer</b>, beskriver formen af ​​orbitalen. Orbitale former er sfæriske ({{l}} = 0 eller {{s}}), jordnøddeformede ({{l}} = 1 eller {{p}}), og bliver mere komplekse, når {{l}} øges."
+      }
+    ]
+  },
+  "mInfo": {
+    "value": "{{m}}, <b>Magnetisk-kvantumnummer</b>, beskriver orbitalens orientering i rummet.",
+    "history": [
+      {
+        "userId": 130982,
+        "timestamp": 1745585876880,
+        "oldValue": "",
+        "newValue": "{{m}}, <b>Magnetisk-kvantumnummer</b>, beskriver orbitalens orientering i rummet."
       }
     ]
   }
