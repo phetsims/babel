@@ -1,4 +1,472 @@
 {
+  "da": {
+    "screen.energyLevels": {
+      "value": "Energiniveauer"
+    },
+    "screen.spectra": {
+      "value": "Spektrum"
+    },
+    "uv": {
+      "value": "UV"
+    },
+    "ir": {
+      "value": "IR"
+    },
+    "visible": {
+      "value": "Synlig"
+    },
+    "plumPudding": {
+      "value": "Blommebudding"
+    },
+    "bohr": {
+      "value": "Bohr"
+    },
+    "deBroglie": {
+      "value": "de Broglie"
+    },
+    "schrodinger": {
+      "value": "Schrödinger"
+    },
+    "electronEnergyLevel": {
+      "value": "Elektronens energiniveau"
+    },
+    "billiardBall": {
+      "value": "Billardkugle"
+    },
+    "classicalSolarSystem": {
+      "value": "Klassisk solsystem"
+    },
+    "x": {
+      "value": "x"
+    },
+    "z": {
+      "value": "z"
+    },
+    "n": {
+      "value": "n"
+    },
+    "l": {
+      "value": "l"
+    },
+    "m": {
+      "value": "m"
+    },
+    "s": {
+      "value": "s"
+    },
+    "p": {
+      "value": "p"
+    },
+    "d": {
+      "value": "d"
+    },
+    "experiment": {
+      "value": "Eksperiment"
+    },
+    "questionMark": {
+      "value": "?"
+    },
+    "symbolEquals": {
+      "value": "{{symbol}} ="
+    },
+    "symbolEqualsValue": {
+      "value": "{{symbol}} = {{value}}"
+    },
+    "hydrogenSymbol": {
+      "value": "H"
+    },
+    "proton": {
+      "value": "proton"
+    },
+    "electron": {
+      "value": "elektron"
+    },
+    "photon": {
+      "value": "foton"
+    },
+    "spectrometerPhotonsEmittedPerNanometer": {
+      "value": "Spektrometer (fotoner udsendt / nm)"
+    },
+    "transitions": {
+      "value": "Overgange"
+    },
+    "wavelengthNanometers": {
+      "value": "bølgelængde (nm)"
+    },
+    "nTransition": {
+      "value": "n transition"
+    },
+    "experimentOopsDialogTitle": {
+      "value": "Hovsa!"
+    },
+    "experimentOopsDialogMessage": {
+      "value": "Elektronen sidder fast i en anslået tilstand. Nulstilling af elektronen."
+    },
+    "model": {
+      "value": "Model"
+    },
+    "energy": {
+      "value": "Energi"
+    },
+    "radialDistance": {
+      "value": "Radial distance"
+    },
+    "3DHeight": {
+      "value": "3D-højde"
+    },
+    "brightness": {
+      "value": "Klarhed"
+    },
+    "exciteElectron": {
+      "value": "Anslået elektron"
+    },
+    "quantumNumbers": {
+      "value": "Kvantumnumre"
+    },
+    "nlmInfo": {
+      "value": "Schrödingemodellen benytter 3 kvantumnumre ({{n}},{{l}},{{m}}) til at beskrive den mest sandsynlige placering af en elektron, også kendt som en <b>orbitale</b>."
+    },
+    "nInfo": {
+      "value": "{{n}},<b>Hoved-kvantumnummer</b>, beskriver elektronens energi og dens mulige distance fra kernen."
+    },
+    "nlmEquals": {
+      "value": "({{nSymbol}},{{lSymbol}},{{mSymbol}}) = ({{nValue}},{{lValue}},{{mValue}}) = {{nValue}}{{orbitalShape}}"
+    },
+    "classical": {
+      "value": "Klassisk"
+    },
+    "quantum": {
+      "value": "Kvantum"
+    },
+    "white": {
+      "value": "Hvid"
+    },
+    "monochromatic": {
+      "value": "Monokromatisk"
+    },
+    "snapshotNumberName": {
+      "value": "Snapshot {{number}}: {{name}}"
+    },
+    "models-of-the-hydrogen-atom.title": {
+      "value": "Modeller af hydrogenatomet"
+    }
+  },
+  "kn": {
+    "screen.energyLevels": {
+      "value": "ಚೈತನ್ಯ ಮಟ್ಟ"
+    },
+    "screen.spectra": {
+      "value": "ರೋಹಿತ"
+    },
+    "uv": {
+      "value": "ನೇರಳಾತೀತ"
+    },
+    "ir": {
+      "value": "ಅವಕೆಂಪು"
+    },
+    "visible": {
+      "value": "ಗೋಚರ"
+    },
+    "bohr": {
+      "value": "Bohr"
+    },
+    "deBroglie": {
+      "value": "de Broglie"
+    },
+    "schrodinger": {
+      "value": "Schrödinger"
+    },
+    "plumPudding": {
+      "value": "ಪ್ಲಮ್ ಪುಡ್ಡಿಂಗ್"
+    },
+    "electronEnergyLevel": {
+      "value": "ಎಲೆಕ್ಟ್ರಾನ್ ಚೈತನ್ಯ ಮಟ್ಟ"
+    },
+    "billiardBall": {
+      "value": "ಬಿಲಿಯರ್ಡ್ ಚೆಂಡು"
+    },
+    "classicalSolarSystem": {
+      "value": "Classical ಸೌರ ಮಂಡಲ"
+    },
+    "x": {
+      "value": "x"
+    },
+    "z": {
+      "value": "z"
+    },
+    "n": {
+      "value": "n"
+    },
+    "l": {
+      "value": "l"
+    },
+    "m": {
+      "value": "m"
+    },
+    "s": {
+      "value": "s"
+    },
+    "p": {
+      "value": "p"
+    },
+    "d": {
+      "value": "d"
+    },
+    "experiment": {
+      "value": "ಪ್ರಯೋಗ"
+    },
+    "hydrogenSymbol": {
+      "value": "H"
+    },
+    "proton": {
+      "value": "ಪ್ರೋಟಾನ್"
+    },
+    "electron": {
+      "value": "ಎಲೆಕ್ಟ್ರಾನ್"
+    },
+    "photon": {
+      "value": "ಫೋಟಾನ್"
+    },
+    "spectrometerPhotonsEmittedPerNanometer": {
+      "value": "ರೋಹಿತಮಾಪಕ (ಉತ್ಸರ್ಜಿತ ಫೋಟಾನ್‌ಗಳು / nm)"
+    },
+    "transitions": {
+      "value": "Transitions"
+    },
+    "wavelengthNanometers": {
+      "value": "ತರಂಗದೂರ (nm)"
+    },
+    "nTransition": {
+      "value": "n transition"
+    },
+    "experimentOopsDialogTitle": {
+      "value": "Oops!"
+    },
+    "experimentOopsDialogMessage": {
+      "value": "ಉತ್ತೇಜಿತ ಸ್ಥಿತಿಯಲ್ಲಿ ಎಲೆಕ್ಟ್ರಾನ್ ಸ್ಥಗಿತವಾಗಿದೆ. ಎಲೆಕ್ಟ್ರಾನ್ ರಿಸೆಟ್ ಮಾಡಲಾಗುತ್ತಿದೆ."
+    },
+    "model": {
+      "value": "ಮಾದರಿ"
+    },
+    "questionMark": {
+      "value": "?"
+    },
+    "symbolEquals": {
+      "value": "{{symbol}} ="
+    },
+    "symbolEqualsValue": {
+      "value": "{{symbol}} = {{value}}"
+    },
+    "classical": {
+      "value": "Classical"
+    },
+    "quantum": {
+      "value": "Quantum"
+    },
+    "white": {
+      "value": "ಬಿಳಿ ಬೆಳಕು"
+    },
+    "monochromatic": {
+      "value": "ಏಕವರ್ಣ ಬೆಳಕು"
+    },
+    "snapshotNumberName": {
+      "value": "Snapshot {{number}}: {{name}}"
+    },
+    "energy": {
+      "value": "ಶಕ್ತಿ"
+    },
+    "radialDistance": {
+      "value": "ತ್ರಿಜ್ಯೀಯ ಅಂತರ"
+    },
+    "3DHeight": {
+      "value": "3D ಎತ್ತರ"
+    },
+    "brightness": {
+      "value": "Brightness"
+    },
+    "exciteElectron": {
+      "value": "ಎಲೆಕ್ಟ್ರಾನ್‌ನ್ನು ಉತ್ತೇಜಿಸು"
+    },
+    "quantumNumbers": {
+      "value": "Quantum ಸಂಖ್ಯೆಗಳು"
+    },
+    "nlmInfo": {
+      "value": "The Schrödinger model uses 3 quantum numbers ({{n}},{{l}},{{m}}) to describe the most probable location of an electron, also known as an <b>orbital</b>."
+    },
+    "nInfo": {
+      "value": "{{n}}, the <b>Principal Quantum Number</b>, describes the electron's energy and its probable distance from the nucleus."
+    },
+    "lInfo": {
+      "value": "{{l}}, the <b>Angular Quantum Number</b>, describes the shape of the orbital. Orbital shapes are spherical ({{l}} = 0 or {{s}}), peanut-shaped ({{l}} = 1 or {{p}}), and become more complex as {{l}} increases."
+    },
+    "mInfo": {
+      "value": "{{m}}, the <b>Magnetic Quantum Number</b>, describes the orientation of the orbital in space."
+    },
+    "nlmEquals": {
+      "value": "({{nSymbol}},{{lSymbol}},{{mSymbol}}) = ({{nValue}},{{lValue}},{{mValue}}) = {{nValue}}{{orbitalShape}}"
+    },
+    "models-of-the-hydrogen-atom.title": {
+      "value": "ಹೈಡ್ರೋಜನ್ ಪರಮಾಣುವಿನ ಮಾದರಿಗಳು."
+    }
+  },
+  "ro": {
+    "screen.energyLevels": {
+      "value": "Niveluri de energie"
+    },
+    "screen.spectra": {
+      "value": "Spectre"
+    },
+    "uv": {
+      "value": "UV"
+    },
+    "ir": {
+      "value": "IR"
+    },
+    "visible": {
+      "value": "Vizibil"
+    },
+    "bohr": {
+      "value": "Bohr"
+    },
+    "deBroglie": {
+      "value": "de Broglie"
+    },
+    "schrodinger": {
+      "value": "Schrödinger"
+    },
+    "plumPudding": {
+      "value": "Cozonac cu stafide"
+    },
+    "electronEnergyLevel": {
+      "value": "Nivelul de energie al electronului"
+    },
+    "billiardBall": {
+      "value": "Minge de biliard"
+    },
+    "classicalSolarSystem": {
+      "value": "Model planetar clasic"
+    },
+    "x": {
+      "value": "x"
+    },
+    "z": {
+      "value": "z"
+    },
+    "n": {
+      "value": "n"
+    },
+    "l": {
+      "value": "l"
+    },
+    "m": {
+      "value": "m"
+    },
+    "s": {
+      "value": "s"
+    },
+    "p": {
+      "value": "p"
+    },
+    "d": {
+      "value": "d"
+    },
+    "experiment": {
+      "value": "Experiment"
+    },
+    "hydrogenSymbol": {
+      "value": "H"
+    },
+    "proton": {
+      "value": "proton"
+    },
+    "electron": {
+      "value": "electron"
+    },
+    "photon": {
+      "value": "foton"
+    },
+    "spectrometerPhotonsEmittedPerNanometer": {
+      "value": "Spectrometru (fotoni emiși / nm)"
+    },
+    "transitions": {
+      "value": "Tranziții"
+    },
+    "wavelengthNanometers": {
+      "value": "lungime de undă (nm)"
+    },
+    "nTransition": {
+      "value": "tranziția n"
+    },
+    "experimentOopsDialogTitle": {
+      "value": "Ups!"
+    },
+    "experimentOopsDialogMessage": {
+      "value": "Electronul este blocat într-o stare excitată. Resetarea electronului."
+    },
+    "model": {
+      "value": "Model"
+    },
+    "questionMark": {
+      "value": "?"
+    },
+    "symbolEquals": {
+      "value": "{{symbol}} ="
+    },
+    "symbolEqualsValue": {
+      "value": "{{symbol}} = {{value}}"
+    },
+    "classical": {
+      "value": "Clasic"
+    },
+    "quantum": {
+      "value": "Cuantic"
+    },
+    "white": {
+      "value": "Alb"
+    },
+    "monochromatic": {
+      "value": "Monocromatic"
+    },
+    "snapshotNumberName": {
+      "value": "Snapshot {{number}}: {{name}}"
+    },
+    "energy": {
+      "value": "Energie"
+    },
+    "radialDistance": {
+      "value": "Distanța radială"
+    },
+    "3DHeight": {
+      "value": "Înălțime 3D"
+    },
+    "brightness": {
+      "value": "Luminozitate"
+    },
+    "exciteElectron": {
+      "value": "Excită electronul"
+    },
+    "quantumNumbers": {
+      "value": "Numere cuantice"
+    },
+    "nlmInfo": {
+      "value": "Modelul Schrödinger utilizează 3 numere cuantice ({{n}}, {{l}}, {{m}}) pentru a descrie cea mai probabilă locație a unui electron, cunoscută și ca <b>orbital</b>."
+    },
+    "nInfo": {
+      "value": "{{n}}, <b>numărul cuantic principal</b>, descrie energia electronului și distanța probabilă a acestuia față de nucleu."
+    },
+    "lInfo": {
+      "value": "{{l}}, <b>numărul cuantic orbital</b>, descrie forma orbitalului. Formele orbitalilor sunt sferice (dacă {{l}} = 0 sau de tip {{s}}), bilobare ( dacă {{l}} = 1 sau de tip {{p}}) și devin mai complexe pe măsură ce {{l}} crește."
+    },
+    "mInfo": {
+      "value": "{{m}}, <b>numărul cuantic magnetic</b>, descrie orientarea orbitalului în spațiu."
+    },
+    "nlmEquals": {
+      "value": "({{nSymbol}},{{lSymbol}},{{mSymbol}}) = ({{nValue}},{{lValue}},{{mValue}}) = {{nValue}}{{orbitalShape}}"
+    },
+    "models-of-the-hydrogen-atom.title": {
+      "value": "Modele ale atomului de hidrogen"
+    }
+  },
   "en": {
     "models-of-the-hydrogen-atom.title": {
       "value": "Models of the Hydrogen Atom"
