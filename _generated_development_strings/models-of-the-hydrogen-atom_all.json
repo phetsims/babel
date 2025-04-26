@@ -88,7 +88,7 @@
       "value": "Spektrometer (fotoner udsendt / nm)"
     },
     "transitions": {
-      "value": "Overgange"
+      "value": "Spring"
     },
     "wavelengthNanometers": {
       "value": "bølgelængde (nm)"
@@ -112,10 +112,10 @@
       "value": "Radial distance"
     },
     "3DHeight": {
-      "value": "3D-højde"
+      "value": "3D-visning"
     },
     "brightness": {
-      "value": "Klarhed"
+      "value": "Lysstyrke"
     },
     "exciteElectron": {
       "value": "Anslået elektron"
@@ -124,10 +124,10 @@
       "value": "Kvantumnumre"
     },
     "nlmInfo": {
-      "value": "Schrödingemodellen benytter 3 kvantumnumre ({{n}},{{l}},{{m}}) til at beskrive den mest sandsynlige placering af en elektron, også kendt som en <b>orbitale</b>."
+      "value": "Schrödingermodellen benytter 3 kvantumnumre ({{n}}, {{l}}, {{m}}) for at beskrive den mest sandsynlige placering af en elektron, også kendt som en <b>orbitale</b>."
     },
     "nInfo": {
-      "value": "{{n}},<b>Hoved-kvantumnummer</b>, beskriver elektronens energi og dens mulige distance fra kernen."
+      "value": "{{n}}, <b>Hoved-kvantumnummeret</b>, beskriver elektronens energi og dens mulige distance fra kernen."
     },
     "nlmEquals": {
       "value": "({{nSymbol}},{{lSymbol}},{{mSymbol}}) = ({{nValue}},{{lValue}},{{mValue}}) = {{nValue}}{{orbitalShape}}"
@@ -139,7 +139,7 @@
       "value": "Kvantum"
     },
     "white": {
-      "value": "Hvid"
+      "value": "Hvidt"
     },
     "monochromatic": {
       "value": "Monokromatisk"
@@ -149,6 +149,170 @@
     },
     "models-of-the-hydrogen-atom.title": {
       "value": "Modeller af hydrogenatomet"
+    },
+    "lInfo": {
+      "value": "{{l}}, <b>Vinkel-kvantumnummeret</b>, beskriver formen af ​​orbitalen. Orbitale former er sfæriske ({{l}} = 0 eller {{s}}), jordnøddeformede ({{l}} = 1 eller {{p}}), og bliver mere komplekse, når {{l}} øges."
+    },
+    "mInfo": {
+      "value": "{{m}}, <b>Magnetisk-kvantumnummeret</b>, beskriver orbitalens orientering i rummet."
+    }
+  },
+  "es": {
+    "screen.energyLevels": {
+      "value": "Niveles de energía"
+    },
+    "screen.spectra": {
+      "value": "Espectros"
+    },
+    "uv": {
+      "value": "UV"
+    },
+    "ir": {
+      "value": "IR"
+    },
+    "visible": {
+      "value": "Visible"
+    },
+    "bohr": {
+      "value": "Bohr"
+    },
+    "deBroglie": {
+      "value": "de Broglie"
+    },
+    "schrodinger": {
+      "value": "Schrödinger"
+    },
+    "plumPudding": {
+      "value": "Pudín de pasas"
+    },
+    "electronEnergyLevel": {
+      "value": "Nivel de energía de los electrones"
+    },
+    "billiardBall": {
+      "value": "Esfera rígida"
+    },
+    "classicalSolarSystem": {
+      "value": "Sistema solar clásico"
+    },
+    "experiment": {
+      "value": "Experimento"
+    },
+    "x": {
+      "value": "x"
+    },
+    "z": {
+      "value": "z"
+    },
+    "n": {
+      "value": "n"
+    },
+    "l": {
+      "value": "l"
+    },
+    "m": {
+      "value": "m"
+    },
+    "s": {
+      "value": "s"
+    },
+    "p": {
+      "value": "p"
+    },
+    "d": {
+      "value": "d"
+    },
+    "questionMark": {
+      "value": "?"
+    },
+    "symbolEquals": {
+      "value": "{{symbol}} ="
+    },
+    "symbolEqualsValue": {
+      "value": "{{symbol}} = {{value}}"
+    },
+    "hydrogenSymbol": {
+      "value": "H"
+    },
+    "proton": {
+      "value": "protón"
+    },
+    "electron": {
+      "value": "electrón"
+    },
+    "photon": {
+      "value": "fotón"
+    },
+    "spectrometerPhotonsEmittedPerNanometer": {
+      "value": "Espectro (fotones emitidos / nm)"
+    },
+    "transitions": {
+      "value": "Transiciones"
+    },
+    "wavelengthNanometers": {
+      "value": "longitud de onda (nm)"
+    },
+    "nTransition": {
+      "value": "transición de n"
+    },
+    "experimentOopsDialogTitle": {
+      "value": "Oops!"
+    },
+    "experimentOopsDialogMessage": {
+      "value": "El electrón está atrapado en un estado excitado. Reiniciando al electrón."
+    },
+    "model": {
+      "value": "Modelo"
+    },
+    "energy": {
+      "value": "Energía"
+    },
+    "radialDistance": {
+      "value": "Distancia al núcleo atómico"
+    },
+    "3DHeight": {
+      "value": "Altura 3D"
+    },
+    "brightness": {
+      "value": "Brillo"
+    },
+    "exciteElectron": {
+      "value": "Excitar electrones"
+    },
+    "quantumNumbers": {
+      "value": "Números cuánticos"
+    },
+    "nlmInfo": {
+      "value": "El modelo de Schrödinger usa 3 números cuánticos ({{n}},{{l}},{{m}}) para describir la localización más probable del electrón, también conocida como su<b>orbital</b>."
+    },
+    "nInfo": {
+      "value": "{{n}}, El <b>Número cuántico principal</b>, describe el nivel energético de los electrones y su posible distancia con respecto al núcleo atómico."
+    },
+    "lInfo": {
+      "value": "{{l}}, el <b>Número cuántico angular</b>, describe la forma del orbital. La forma de los orbitales es esférica ({{l}} = 0 o {{s}}), forma de cacahuate ({{l}} = 1 o {{p}}), y volverse más complejo como {{l}} aumenta."
+    },
+    "mInfo": {
+      "value": "{{m}}, el <b>número cuántico magnético</b>, describe la orientación del orbital en el espacio."
+    },
+    "nlmEquals": {
+      "value": "({{nSymbol}},{{lSymbol}},{{mSymbol}}) = ({{nValue}},{{lValue}},{{mValue}}) = {{nValue}}{{orbitalShape}}"
+    },
+    "classical": {
+      "value": "Clásico"
+    },
+    "quantum": {
+      "value": "Cuántico"
+    },
+    "white": {
+      "value": "Blanco"
+    },
+    "monochromatic": {
+      "value": "Monocromático"
+    },
+    "snapshotNumberName": {
+      "value": "Snapshot {{number}}: {{name}}"
+    },
+    "models-of-the-hydrogen-atom.title": {
+      "value": "Modelos del átomo de hidrógeno"
     }
   },
   "kn": {
