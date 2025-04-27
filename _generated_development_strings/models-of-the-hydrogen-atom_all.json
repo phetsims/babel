@@ -127,7 +127,7 @@
       "value": "Schrödingermodellen benytter 3 kvantumnumre ({{n}}, {{l}}, {{m}}) for at beskrive den mest sandsynlige placering af en elektron, også kendt som en <b>orbitale</b>."
     },
     "nInfo": {
-      "value": "{{n}}, <b>Hoved-kvantumnummeret</b>, beskriver elektronens energi og dens mulige distance fra kernen."
+      "value": "{{n}}, <b>Hoved kvantetal</b>, beskriver elektronens energi og dens mulige distance fra kernen."
     },
     "nlmEquals": {
       "value": "({{nSymbol}},{{lSymbol}},{{mSymbol}}) = ({{nValue}},{{lValue}},{{mValue}}) = {{nValue}}{{orbitalShape}}"
@@ -151,10 +151,10 @@
       "value": "Modeller af hydrogenatomet"
     },
     "lInfo": {
-      "value": "{{l}}, <b>Vinkel-kvantumnummeret</b>, beskriver formen af ​​orbitalen. Orbitale former er sfæriske ({{l}} = 0 eller {{s}}), jordnøddeformede ({{l}} = 1 eller {{p}}), og bliver mere komplekse, når {{l}} øges."
+      "value": "{{l}}, <b>Vinkel kvantetal</b>, beskriver formen af ​​orbitalen. Orbitale former er sfæriske ({{l}} = 0 eller {{s}}), jordnøddeformede ({{l}} = 1 eller {{p}}), og bliver mere komplekse, når {{l}} øges."
     },
     "mInfo": {
-      "value": "{{m}}, <b>Magnetisk-kvantumnummeret</b>, beskriver orbitalens orientering i rummet."
+      "value": "{{m}}, <b>Magnetisk kvantetal</b>, beskriver orbitalens orientering i rummet."
     }
   },
   "es": {
@@ -471,6 +471,164 @@
     },
     "models-of-the-hydrogen-atom.title": {
       "value": "ಹೈಡ್ರೋಜನ್ ಪರಮಾಣುವಿನ ಮಾದರಿಗಳು."
+    }
+  },
+  "pl": {
+    "screen.energyLevels": {
+      "value": "Poziomy energetyczne"
+    },
+    "screen.spectra": {
+      "value": "Widma"
+    },
+    "uv": {
+      "value": "ultrafiolet"
+    },
+    "ir": {
+      "value": "podczerwień"
+    },
+    "visible": {
+      "value": "widzialne"
+    },
+    "bohr": {
+      "value": "Bohr"
+    },
+    "deBroglie": {
+      "value": "de Broglie"
+    },
+    "schrodinger": {
+      "value": "Schrödinger"
+    },
+    "electronEnergyLevel": {
+      "value": "Poziom energetyczny elektronu"
+    },
+    "billiardBall": {
+      "value": "Kula bilardowa"
+    },
+    "classicalSolarSystem": {
+      "value": "Klasyczny model planetarny"
+    },
+    "plumPudding": {
+      "value": "Ciasto z rodzynkami"
+    },
+    "x": {
+      "value": "x"
+    },
+    "z": {
+      "value": "z"
+    },
+    "n": {
+      "value": "n"
+    },
+    "l": {
+      "value": "l"
+    },
+    "m": {
+      "value": "m"
+    },
+    "s": {
+      "value": "s"
+    },
+    "p": {
+      "value": "p"
+    },
+    "d": {
+      "value": "d"
+    },
+    "experiment": {
+      "value": "Eksperyment"
+    },
+    "questionMark": {
+      "value": "?"
+    },
+    "symbolEquals": {
+      "value": "{{symbol}} ="
+    },
+    "symbolEqualsValue": {
+      "value": "{{symbol}} = {{value}}"
+    },
+    "hydrogenSymbol": {
+      "value": "H"
+    },
+    "proton": {
+      "value": "proton"
+    },
+    "electron": {
+      "value": "elektron"
+    },
+    "photon": {
+      "value": "foton"
+    },
+    "spectrometerPhotonsEmittedPerNanometer": {
+      "value": "Spektrometr (emitowane fotony / nm)"
+    },
+    "transitions": {
+      "value": "Przejścia"
+    },
+    "wavelengthNanometers": {
+      "value": "długość fali (nm)"
+    },
+    "nTransition": {
+      "value": "zmiana n"
+    },
+    "experimentOopsDialogTitle": {
+      "value": "Ups!"
+    },
+    "experimentOopsDialogMessage": {
+      "value": "Elektron utknął w stanie wzbudzonym. Resetowanie elektronu."
+    },
+    "model": {
+      "value": "Model"
+    },
+    "energy": {
+      "value": "Energia"
+    },
+    "radialDistance": {
+      "value": "Promień wodzący"
+    },
+    "3DHeight": {
+      "value": "Wysokość 3D"
+    },
+    "brightness": {
+      "value": "Jasność"
+    },
+    "exciteElectron": {
+      "value": "Wzbudź elektron"
+    },
+    "quantumNumbers": {
+      "value": "Liczby kwantowe"
+    },
+    "nlmInfo": {
+      "value": "Model Schrödingera wykorzystuje 3 liczby kwantowe ({{n}},{{l}},{{m}}) do opisu najbardziej prawdopodobnego położenia elektronu, zwanego także <b>orbitalem</b>."
+    },
+    "nInfo": {
+      "value": "{{n}}, <b>główna liczba kwantowa</b>, określa energię elektronu i jego prawdopodobną odległość od jądra."
+    },
+    "lInfo": {
+      "value": "{{l}}, <b>poboczna liczba kwantowa</b>, opisuje kształt orbitalu. Kształty orbitali są kuliste ({{l}} = 0 lub {{s}}), w kształcie orzeszka ziemnego ({{l}} = 1 lub {{p}}) i stają się bardziej złożone wraz ze wzrostem {{l}}."
+    },
+    "mInfo": {
+      "value": "{{m}}, <b>magnetyczna liczba kwantowa</b>, opisuje orientację orbitalu w przestrzeni."
+    },
+    "nlmEquals": {
+      "value": "({{nSymbol}},{{lSymbol}},{{mSymbol}}) = ({{nValue}},{{lValue}},{{mValue}}) = {{nValue}}{{orbitalShape}}"
+    },
+    "classical": {
+      "value": "Klasyczny"
+    },
+    "quantum": {
+      "value": "Kwantowy"
+    },
+    "white": {
+      "value": "Białe"
+    },
+    "monochromatic": {
+      "value": "Monochromatyczne"
+    },
+    "snapshotNumberName": {
+      "value": "Migawka {{number}}: {{name}}"
+    },
+    "models-of-the-hydrogen-atom.title": {
+      "value": "Modele atomu wodoru"
     }
   },
   "ro": {
