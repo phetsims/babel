@@ -1,4 +1,554 @@
 {
+  "da": {
+    "averagePolarizationDialog.title": {
+      "value": "Gennemsnitlig polariserings-repræsentation"
+    },
+    "preferences.classicalCoinsStartHidden.title": {
+      "value": "Klassiske mønter begynder skjult"
+    },
+    "preferences.showGlobalPhase.title": {
+      "value": "Vis global fase"
+    },
+    "quantum-measurement.title": {
+      "value": "Kvantemåling"
+    },
+    "screen.blochSphere": {
+      "value": "Bloch sfære"
+    },
+    "screen.coins": {
+      "value": "Mønter"
+    },
+    "screen.photons": {
+      "value": "Fotoner"
+    },
+    "screen.spin": {
+      "value": "Kast"
+    },
+    "H": {
+      "value": "H"
+    },
+    "N": {
+      "value": "N"
+    },
+    "P": {
+      "value": "P"
+    },
+    "SternGerlachMeasurements": {
+      "value": "Stern-Gerlach (SG) målinger"
+    },
+    "V": {
+      "value": "V"
+    },
+    "atom": {
+      "value": "Atom"
+    },
+    "atoms": {
+      "value": "Atomer"
+    },
+    "averagePolarization": {
+      "value": "Gennemsnitlig polarisering"
+    },
+    "averagePolarizationDialog.explanatoryParagraph": {
+      "value": "Ligningen giver en værdi mellem +1 og -1. Denne værdi repræsenterer et vægtet gennemsnit af polariseringen af ​​detekterede fotoner, hvis hver detektion af vertikal polarisation er afbildet til en værdi på +1, og hver detektion af horisontal polarisation er afbildet til en værdi på -1. Denne værdi kan også afbildes til en vektorrepræsentation, der ligger mellem værdien +1 og -1."
+    },
+    "averagePolarizationDialog.numberOfPhotonsPatternPhrase": {
+      "value": "{{function}} - Antal fotoner detekteret af {{direction}} Polarisationsdetektor"
+    },
+    "averagePolarizationDialog.subTitle": {
+      "value": "I ligningen for gennemsnitlig polarisering:"
+    },
+    "averagePolarizationDialog.totalNumberOfPhotonsPatternPhrase": {
+      "value": "{{function}} - Samlet antal registrerede fotoner"
+    },
+    "averagePolarizationRate": {
+      "value": "Gennemsnitlig polarisationshastighed"
+    },
+    "azimuthalAngleParenthesesSymbolPattern": {
+      "value": "Azimutvinkel ({{symbol}})"
+    },
+    "basisColon": {
+      "value": "Basis:"
+    },
+    "basisState": {
+      "value": "Basis status"
+    },
+    "behavior": {
+      "value": "Opførsel"
+    },
+    "blochSphere": {
+      "value": "Bloch sfære"
+    },
+    "blockDown": {
+      "value": "Blok ned"
+    },
+    "blockUp": {
+      "value": "Blok op"
+    },
+    "classical": {
+      "value": "Klassisk"
+    },
+    "classicalCoin": {
+      "value": "Klassisk mønt"
+    },
+    "coin": {
+      "value": "Mønt"
+    },
+    "coinBias": {
+      "value": "Møntbias"
+    },
+    "continuous": {
+      "value": "Vedblivende"
+    },
+    "custom": {
+      "value": "Traditionel"
+    },
+    "decimalValues": {
+      "value": "Decimalværdier"
+    },
+    "eventsPerSecondPattern": {
+      "value": "{{value}}/s"
+    },
+    "expectationValue": {
+      "value": "Forventede værdier"
+    },
+    "expectedPercentage": {
+      "value": "Forventet procent"
+    },
+    "experimentNPattern": {
+      "value": "Eksperiment {{number}} {{order}}"
+    },
+    "flip": {
+      "value": "Kast"
+    },
+    "flipAndReveal": {
+      "value": "Kast og afslør"
+    },
+    "fortyFiveDegrees": {
+      "value": "45°"
+    },
+    "hide": {
+      "value": "Gem"
+    },
+    "horizontal": {
+      "value": "Vandret"
+    },
+    "identicalCoins": {
+      "value": "Ens mønter"
+    },
+    "initialOrientation": {
+      "value": "Indledende orientering"
+    },
+    "itemToPreparePattern": {
+      "value": "{{item}} at klargøre"
+    },
+    "lots": {
+      "value": "Mange"
+    },
+    "magneticField": {
+      "value": "Magnetisk felt"
+    },
+    "manyPhotons": {
+      "value": "Mange fotoner"
+    },
+    "measurementDelay": {
+      "value": "Forsinkelse på visning (ns)"
+    },
+    "mirror": {
+      "value": "Spejl"
+    },
+    "multipleCoinMeasurements": {
+      "value": "Visning med flere mønter"
+    },
+    "nameAndAbbreviationPattern": {
+      "value": "{{name}} (<b>{{abbreviation}}</b>)"
+    },
+    "newCoin": {
+      "value": "Ny mønt"
+    },
+    "none": {
+      "value": "Ingen"
+    },
+    "numberOfAtoms": {
+      "value": "Antal atomer"
+    },
+    "numberOfCoinsPattern": {
+      "value": "N = {{number}}"
+    },
+    "observe": {
+      "value": "Observér"
+    },
+    "photonPolarizationAngle": {
+      "value": "Foton polarisationsvinkel"
+    },
+    "photonSource": {
+      "value": "Fotonkilde"
+    },
+    "polarAngleParenthesesSymbolPattern": {
+      "value": "Polar vinkel ({{symbol}})"
+    },
+    "polarizationDetectorLabelPattern": {
+      "value": "{{orientation}} Polarisations-<br>detektor"
+    },
+    "polarizingBeamSplitter": {
+      "value": "Polariserende<br>stråle<br>opdeler"
+    },
+    "preferences.classicalCoinsStartHidden.description": {
+      "value": "Gem de klassiske mønter efter de er klargjorte"
+    },
+    "preferences.showGlobalPhase.description": {
+      "value": "Vis den globale fase af kvantetilstanden på Bloch sfære-skærmen"
+    },
+    "preparedState": {
+      "value": "Klargjort tilstand"
+    },
+    "probability": {
+      "value": "Sandsynlighed"
+    },
+    "probabilityOfValuePattern": {
+      "value": "P({{value}})"
+    },
+    "projection": {
+      "value": "Projektion:"
+    },
+    "propagation": {
+      "value": "Formering"
+    },
+    "propagationIntoPage": {
+      "value": "Udbredelse<br>(til side)"
+    },
+    "quantum": {
+      "value": "Kvantum"
+    },
+    "quantumCoinQuoted": {
+      "value": "Kvantum “mønt”"
+    },
+    "reprepare": {
+      "value": "Klargør"
+    },
+    "reprepareAndReveal": {
+      "value": "Klargør og observér"
+    },
+    "reveal": {
+      "value": "Afslør"
+    },
+    "singleCoinMeasurements": {
+      "value": "Enkeltmønts visning"
+    },
+    "singleParticle": {
+      "value": "Enkel partikel"
+    },
+    "singlePhoton": {
+      "value": "Enkel foton"
+    },
+    "sourceMode": {
+      "value": "Kildetilstand"
+    },
+    "spinMeasurementAxis": {
+      "value": "Spin måleakse"
+    },
+    "spinSource": {
+      "value": "Spin-1/2 kilde"
+    },
+    "spinStateToPrepare": {
+      "value": "Spin State at klargøre"
+    },
+    "start": {
+      "value": "Start"
+    },
+    "stateToPrepare": {
+      "value": "State at forberede"
+    },
+    "total": {
+      "value": "Total"
+    },
+    "unknownProbabilitySymbol": {
+      "value": "?"
+    },
+    "unpolarized": {
+      "value": "Upolariseret"
+    },
+    "vectorRepresentation": {
+      "value": "Vektorvisning"
+    },
+    "vertical": {
+      "value": "Lodret"
+    }
+  },
+  "vi": {
+    "averagePolarizationDialog.title": {
+      "value": "Biểu diễn độ phân cực trung bình"
+    },
+    "preferences.classicalCoinsStartHidden.title": {
+      "value": "Classical Coins Start Hidden"
+    },
+    "preferences.showGlobalPhase.title": {
+      "value": "Show Global Phase"
+    },
+    "quantum-measurement.title": {
+      "value": "Thí nghiệm lượng tử"
+    },
+    "screen.blochSphere": {
+      "value": "Hình cầu Bloch"
+    },
+    "screen.coins": {
+      "value": "Đồng xu"
+    },
+    "screen.photons": {
+      "value": "Photon"
+    },
+    "screen.spin": {
+      "value": "Spin"
+    },
+    "H": {
+      "value": "H"
+    },
+    "N": {
+      "value": "N"
+    },
+    "P": {
+      "value": "P"
+    },
+    "SternGerlachMeasurements": {
+      "value": "Thí nghiệm Stern-Gerlach (SG)"
+    },
+    "V": {
+      "value": "V"
+    },
+    "atom": {
+      "value": "Nguyên tử"
+    },
+    "atoms": {
+      "value": "Nguyên tử"
+    },
+    "averagePolarization": {
+      "value": "Độ phân cực trung bình"
+    },
+    "averagePolarizationDialog.explanatoryParagraph": {
+      "value": "The equation yields a value between +1 and -1. This value represents a weighted average of the polarization of detected photons if each detection of vertical polarization is mapped to a value of +1 and each detection of horizontal polarization is mapped to a value of -1. This value can also be mapped to a vector representation that lies between the value of +1 and -1."
+    },
+    "averagePolarizationDialog.numberOfPhotonsPatternPhrase": {
+      "value": "{{function}} - Số photons theo {{direction}} do máy đo phân cực đếm được"
+    },
+    "averagePolarizationDialog.subTitle": {
+      "value": "Trong phương trình đối với độ phân cực trung bình:"
+    },
+    "averagePolarizationDialog.totalNumberOfPhotonsPatternPhrase": {
+      "value": "{{function}} - Tổng số photon đếm được"
+    },
+    "averagePolarizationRate": {
+      "value": "Độ phân cực trung bình"
+    },
+    "azimuthalAngleParenthesesSymbolPattern": {
+      "value": "Góc phương vị ({{symbol}})"
+    },
+    "basisColon": {
+      "value": "Cơ bản:"
+    },
+    "basisState": {
+      "value": "Trạng thái cơ bản"
+    },
+    "behavior": {
+      "value": "Hành trạng"
+    },
+    "blochSphere": {
+      "value": "Hình cầu Bloch"
+    },
+    "blockDown": {
+      "value": "Chặn Down"
+    },
+    "blockUp": {
+      "value": "Chặn Up"
+    },
+    "classical": {
+      "value": "Cổ điển"
+    },
+    "classicalCoin": {
+      "value": "Đồng xu cổ điển"
+    },
+    "coin": {
+      "value": "Đồng xu"
+    },
+    "coinBias": {
+      "value": "Trạng thái đồng xu"
+    },
+    "continuous": {
+      "value": "Liên tục"
+    },
+    "custom": {
+      "value": "Điều chỉnh"
+    },
+    "decimalValues": {
+      "value": "Giá trị thập phân"
+    },
+    "eventsPerSecondPattern": {
+      "value": "{{value}}/s"
+    },
+    "expectationValue": {
+      "value": "Giá trị kỳ vọng"
+    },
+    "expectedPercentage": {
+      "value": "Tỷ lệ kỳ vọng"
+    },
+    "experimentNPattern": {
+      "value": "Thí nghiệm {{number}} {{order}}"
+    },
+    "flip": {
+      "value": "Flip"
+    },
+    "flipAndReveal": {
+      "value": "Flip và hiện kết quả"
+    },
+    "fortyFiveDegrees": {
+      "value": "45°"
+    },
+    "hide": {
+      "value": "Ẩn"
+    },
+    "horizontal": {
+      "value": "Ngang"
+    },
+    "identicalCoins": {
+      "value": "Đồng xu giống nhau"
+    },
+    "initialOrientation": {
+      "value": "Hướng ban đầu"
+    },
+    "itemToPreparePattern": {
+      "value": "{{item}} để chuẩn bị"
+    },
+    "lots": {
+      "value": "Nhiều"
+    },
+    "magneticField": {
+      "value": "Từ trường"
+    },
+    "manyPhotons": {
+      "value": "Nhiều photon"
+    },
+    "measurementDelay": {
+      "value": "Độ trễ của thời gian đo (ns)"
+    },
+    "mirror": {
+      "value": "Gương"
+    },
+    "multipleCoinMeasurements": {
+      "value": "Thí nghiệm nhiều đồng xu"
+    },
+    "nameAndAbbreviationPattern": {
+      "value": "{{name}} (<b>{{abbreviation}}</b>)"
+    },
+    "newCoin": {
+      "value": "Đồng xu mới"
+    },
+    "none": {
+      "value": "Không có"
+    },
+    "numberOfAtoms": {
+      "value": "Số nguyên tử"
+    },
+    "numberOfCoinsPattern": {
+      "value": "N = {{number}}"
+    },
+    "observe": {
+      "value": "Quan sát"
+    },
+    "photonPolarizationAngle": {
+      "value": "Góc phân cực của photon"
+    },
+    "photonSource": {
+      "value": "Nguồn photon"
+    },
+    "polarAngleParenthesesSymbolPattern": {
+      "value": "Góc cực ({{symbol}})"
+    },
+    "polarizationDetectorLabelPattern": {
+      "value": "Máy đo<br>độ phân cực {{orientation}}"
+    },
+    "polarizingBeamSplitter": {
+      "value": "Tách<br>chùm<br>phân cực"
+    },
+    "preferences.classicalCoinsStartHidden.description": {
+      "value": "Hide the classical coins after they are prepared"
+    },
+    "preferences.showGlobalPhase.description": {
+      "value": "Show the global phase of the quantum state on the Bloch Sphere screen"
+    },
+    "preparedState": {
+      "value": "Trạng thái đã chuẩn bị"
+    },
+    "probability": {
+      "value": "Xác suất"
+    },
+    "probabilityOfValuePattern": {
+      "value": "P({{value}})"
+    },
+    "projection": {
+      "value": "Hình chiếu:"
+    },
+    "propagation": {
+      "value": "Phương truyền"
+    },
+    "propagationIntoPage": {
+      "value": "Hướng<br>(vào trang giấy)"
+    },
+    "quantum": {
+      "value": "Lượng tử"
+    },
+    "quantumCoinQuoted": {
+      "value": "\"Xu\" lượng tử"
+    },
+    "reprepare": {
+      "value": "Tái chuẩn bị"
+    },
+    "reprepareAndReveal": {
+      "value": "Tái chuẩn bị và quan sát"
+    },
+    "reveal": {
+      "value": "Hiển thị"
+    },
+    "singleCoinMeasurements": {
+      "value": "Thí nghiệm đồng xu đơn"
+    },
+    "singleParticle": {
+      "value": "Hạt đơn"
+    },
+    "singlePhoton": {
+      "value": "Photon đơn"
+    },
+    "sourceMode": {
+      "value": "Kiểu nguồn"
+    },
+    "spinMeasurementAxis": {
+      "value": "Trục đo spin"
+    },
+    "spinSource": {
+      "value": "Nguồn spin -1/2"
+    },
+    "spinStateToPrepare": {
+      "value": "Trạng thái spin để chuẩn bị"
+    },
+    "start": {
+      "value": "Bắt đầu"
+    },
+    "stateToPrepare": {
+      "value": "Trạng thái để chuẩn bị"
+    },
+    "total": {
+      "value": "Tổng"
+    },
+    "unknownProbabilitySymbol": {
+      "value": "?"
+    },
+    "unpolarized": {
+      "value": "Không phân cực"
+    },
+    "vectorRepresentation": {
+      "value": "Biểu diễn vector"
+    },
+    "vertical": {
+      "value": "Dọc"
+    }
+  },
   "en": {
     "quantum-measurement.title": {
       "value": "Quantum Measurement"
