@@ -183,24 +183,38 @@
     ]
   },
   "averagePolarizationDialog.explanatoryParagraph": {
-    "value": "L'equazione produce un valore compreso tra +1 e -1. Questo valore rappresenta una media ponderata della polarizzazione dei fotoni rilevati se ogni rilevamento di polarizzazione verticale viene mappato a un valore di +1 e ogni rilevamento di polarizzazione orizzontale viene mappato a un valore di -1. Questo valore può anche essere mappato a una rappresentazione vettoriale compresa tra +1 e -1.",
+    "value": "La formula restituisce un valore compreso tra +1 e -1. Questo valore rappresenta una media ponderata della polarizzazione dei fotoni rilevati se ad ogni rilevamento di polarizzazione verticale viene associato il valore  +1 e ad ogni rilevamento di polarizzazione orizzontale viene associato il valore  -1. Questo valore può anche essere associato ad una rappresentazione vettoriale compresa tra +1 e -1.",
     "history": [
       {
         "userId": 157247,
         "timestamp": 1747040507868,
         "oldValue": "",
         "newValue": "L'equazione produce un valore compreso tra +1 e -1. Questo valore rappresenta una media ponderata della polarizzazione dei fotoni rilevati se ogni rilevamento di polarizzazione verticale viene mappato a un valore di +1 e ogni rilevamento di polarizzazione orizzontale viene mappato a un valore di -1. Questo valore può anche essere mappato a una rappresentazione vettoriale compresa tra +1 e -1."
+      },
+      {
+        "userId": 1008323,
+        "timestamp": 1747082601595,
+        "oldValue": "L'equazione produce un valore compreso tra +1 e -1. Questo valore rappresenta una media ponderata della polarizzazione dei fotoni rilevati se ogni rilevamento di polarizzazione verticale viene mappato a un valore di +1 e ogni rilevamento di polarizzazione orizzontale viene mappato a un valore di -1. Questo valore può anche essere mappato a una rappresentazione vettoriale compresa tra +1 e -1.",
+        "newValue": "La formula restituisce un valore compreso tra +1 e -1. Questo valore rappresenta una media ponderata della polarizzazione dei fotoni rilevati se ad ogni rilevamento di polarizzazione verticale viene associato il valore  +1 e ad ogni rilevamento di polarizzazione orizzontale viene associato il valore  -1. Questo valore può anche essere associato ad una rappresentazione vettoriale compresa tra +1 e -1.",
+        "explanation": null
       }
     ]
   },
   "averagePolarizationDialog.numberOfPhotonsPatternPhrase": {
-    "value": "{{function}} - Numero di fotoni rilevati dal {{direction}} Rilevatore di Polarizzazione",
+    "value": "{{function}} - Numero di fotoni rilevati dal Rilevatore di Polarizzazione {{direction}}",
     "history": [
       {
         "userId": 157247,
         "timestamp": 1747040507868,
         "oldValue": "",
         "newValue": "{{function}} - Numero di fotoni rilevati dal {{direction}} Rilevatore di Polarizzazione"
+      },
+      {
+        "userId": 1008323,
+        "timestamp": 1747082601595,
+        "oldValue": "{{function}} - Numero di fotoni rilevati dal {{direction}} Rilevatore di Polarizzazione",
+        "newValue": "{{function}} - Numero di fotoni rilevati dal Rilevatore di Polarizzazione {{direction}}",
+        "explanation": null
       }
     ]
   },
@@ -599,13 +613,20 @@
     ]
   },
   "measurementDelay": {
-    "value": "Misura del ritardo (ns)",
+    "value": "Ritardo nella misura (ns)",
     "history": [
       {
         "userId": 157247,
         "timestamp": 1747040507868,
         "oldValue": "",
         "newValue": "Misura del ritardo (ns)"
+      },
+      {
+        "userId": 1008323,
+        "timestamp": 1747082601595,
+        "oldValue": "Misura del ritardo (ns)",
+        "newValue": "Ritardo nella misura (ns)",
+        "explanation": null
       }
     ]
   },
@@ -738,7 +759,7 @@
     ]
   },
   "polarizationDetectorLabelPattern": {
-    "value": "Rilevatore di polarizzazione <br>{{orientation}}",
+    "value": "Rivelatore di polarizzazione <br>{{orientation}}",
     "history": [
       {
         "userId": 157247,
@@ -751,6 +772,13 @@
         "timestamp": 1747081198676,
         "oldValue": "{{orientation}} Rilevatore<br>di polarizzazione",
         "newValue": "Rilevatore di polarizzazione <br>{{orientation}}",
+        "explanation": null
+      },
+      {
+        "userId": 1008323,
+        "timestamp": 1747082601595,
+        "oldValue": "Rilevatore di polarizzazione <br>{{orientation}}",
+        "newValue": "Rivelatore di polarizzazione <br>{{orientation}}",
         "explanation": null
       }
     ]
