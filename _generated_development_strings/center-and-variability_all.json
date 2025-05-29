@@ -9207,15 +9207,6 @@
     "screen.variability": {
       "value": "Variability"
     },
-    "medianQuestion": {
-      "value": "What is the typical kick distance?"
-    },
-    "meanAndMedianQuestion": {
-      "value": "How does each kick influence the mean and median?"
-    },
-    "variabilityQuestion": {
-      "value": "How spread out are the kick distances?"
-    },
     "kickValuePattern": {
       "value": "Kick {{value}}"
     },
@@ -9225,17 +9216,14 @@
     "distanceInMetersChartLabel": {
       "value": "Distance (in meters)"
     },
-    "sortData": {
-      "value": "Sort Data"
+    "meanEqualsValueMetersPattern": {
+      "value": "Mean = {{value}} meters"
     },
     "meanEqualsValueMPattern": {
       "value": "Mean = {{value}} m"
     },
     "meanEqualsUnknown": {
       "value": "Mean = ?"
-    },
-    "meanEqualsValueMetersPattern": {
-      "value": "Mean = {{value}} meters"
     },
     "medianEqualsValuePattern": {
       "value": "Median = {{value}}"
@@ -9248,6 +9236,75 @@
     },
     "medianEqualsValueUnitsPattern": {
       "value": "Median = {{value}} {{units}}"
+    },
+    "plotType": {
+      "value": "Plot Type"
+    },
+    "dotPlot": {
+      "value": "Dot Plot"
+    },
+    "linePlot": {
+      "value": "Line Plot"
+    },
+    "median": {
+      "value": "Median"
+    },
+    "mean": {
+      "value": "Mean"
+    },
+    "meanEquals": {
+      "value": "Mean ="
+    },
+    "valueUnknown": {
+      "value": "?"
+    },
+    "meters": {
+      "value": "meters"
+    },
+    "meter": {
+      "value": "meter"
+    },
+    "needAtLeastFiveKicks": {
+      "value": "Need at least five kicks"
+    },
+    "maxKicks": {
+      "value": "Max Kicks"
+    },
+    "maxKicksDescription": {
+      "value": "Determines the maximum number of kicks allowed for all screens. The maximum number of kicks on the Median screen is 15."
+    },
+    "outliers": {
+      "value": "Outliers"
+    },
+    "outliersDescription": {
+      "value": "Shows outliers on the boxplot as markings rather than being included in the whisker."
+    },
+    "valueKicksPattern": {
+      "value": "{{value}} Kicks"
+    },
+    "pointer": {
+      "value": "Pointer"
+    },
+    "medianQuestion": {
+      "value": "What is the typical kick distance?"
+    },
+    "sortData": {
+      "value": "Sort Data"
+    },
+    "youSortedTheData": {
+      "value": "You sorted the data!"
+    },
+    "medianDescription": {
+      "value": "<strong>Median</strong> is the number that splits a sorted data set in half."
+    },
+    "meanAndMedianQuestion": {
+      "value": "How does each kick influence the mean and median?"
+    },
+    "meanDescription": {
+      "value": "<strong>Mean</strong> is the average of all values in any data set."
+    },
+    "variabilityQuestion": {
+      "value": "How spread out are the kick distances?"
     },
     "iqrEqualsValueMPattern": {
       "value": "IQR = {{value}} m"
@@ -9267,20 +9324,8 @@
     "madEqualsUnknown": {
       "value": "MAD = ?"
     },
-    "plotType": {
-      "value": "Plot Type"
-    },
-    "dotPlot": {
-      "value": "Dot Plot"
-    },
-    "linePlot": {
-      "value": "Line Plot"
-    },
-    "median": {
-      "value": "Median"
-    },
-    "mean": {
-      "value": "Mean"
+    "madEquals": {
+      "value": "MAD ="
     },
     "range": {
       "value": "Range"
@@ -9318,21 +9363,6 @@
     "predictMedian": {
       "value": "Predict Median"
     },
-    "valueUnknown": {
-      "value": "?"
-    },
-    "youSortedTheData": {
-      "value": "You sorted the data!"
-    },
-    "medianDescription": {
-      "value": "<strong>Median</strong> is the number that splits a sorted data set in half."
-    },
-    "meanDescription": {
-      "value": "<strong>Mean</strong> is the average of all values in any data set."
-    },
-    "meanEquals": {
-      "value": "Mean ="
-    },
     "rangeDescription": {
       "value": "<strong>Range</strong> is the distance between the minimum and maximum data points."
     },
@@ -9348,17 +9378,8 @@
     "iqrEqualsIQRUnitsPattern": {
       "value": "IQR = {{iqr}} {{units}}"
     },
-    "meters": {
-      "value": "meters"
-    },
-    "meter": {
-      "value": "meter"
-    },
     "madDescription": {
       "value": "<strong>Mean absolute deviation (MAD)</strong> is the average distance from each data point to the mean."
-    },
-    "madEquals": {
-      "value": "MAD ="
     },
     "madEqualsMADMetersPattern": {
       "value": "MAD = {{mad}} meters"
@@ -9368,27 +9389,6 @@
     },
     "rangeEqualsRangeUnitsPattern": {
       "value": "Range = {{range}} {{units}}"
-    },
-    "needAtLeastFiveKicks": {
-      "value": "Need at least five kicks"
-    },
-    "maxKicks": {
-      "value": "Max Kicks"
-    },
-    "maxKicksDescription": {
-      "value": "Determines the maximum number of kicks allowed for all screens. The maximum number of kicks on the Median screen is 15."
-    },
-    "outliers": {
-      "value": "Outliers"
-    },
-    "outliersDescription": {
-      "value": "Shows outliers on the boxplot as markings rather than being included in the whisker."
-    },
-    "valueKicksPattern": {
-      "value": "{{value}} Kicks"
-    },
-    "pointer": {
-      "value": "Pointer"
     },
     "keyboardHelpDialog.move": {
       "value": "Move"
