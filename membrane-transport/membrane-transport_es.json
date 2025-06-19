@@ -1,0 +1,374 @@
+{
+  "membrane-transport.title": {
+    "value": "Transporte de Membrana"
+  },
+  "screen.simpleDiffusion": {
+    "value": "Difusión Simple"
+  },
+  "screen.facilitatedDiffusion": {
+    "value": "Difusión Facilitada"
+  },
+  "screen.activeTransport": {
+    "value": "Transporte Activo"
+  },
+  "screen.playground": {
+    "value": "Zona de juegos"
+  },
+  "solutes": {
+    "value": "Solutos"
+  },
+  "oxygen": {
+    "value": "O<sub>2</sub>"
+  },
+  "carbonDioxide": {
+    "value": "CO<sub>2</sub>"
+  },
+  "sodiumIon": {
+    "value": "Na<sup>+</sup>"
+  },
+  "potassiumIon": {
+    "value": "K<sup>+</sup>"
+  },
+  "glucose": {
+    "value": "Glucosa"
+  },
+  "atp": {
+    "value": "ATP"
+  },
+  "outside": {
+    "value": "Exterior"
+  },
+  "inside": {
+    "value": "Interior"
+  },
+  "voltageGatedChannels": {
+    "value": "Canales dependientes de voltaje"
+  },
+  "ligandGatedChannels": {
+    "value": "Canales dependientes de ligando"
+  },
+  "activeTransporters": {
+    "value": "Transportadores Activos"
+  },
+  "leakageChannels": {
+    "value": "Canales de Fuga"
+  },
+  "NaPlusKPlusPump": {
+    "value": "Bomba<br>Na<sup>+</sup>/K<sup>+</sup>"
+  },
+  "sodiumGlucoseCotransporter": {
+    "value": "Cotransportador<br>Na<sup>+</sup>/Glucosa"
+  },
+  "membranePotential_mV": {
+    "value": "Potencial de membrana (mV)"
+  },
+  "charges": {
+    "value": "Cargas"
+  },
+  "addLigands": {
+    "value": "Añadir ligandos"
+  },
+  "removeLigands": {
+    "value": "Quitar ligandos"
+  },
+  "animateLipids": {
+    "value": "Animar lípidos"
+  },
+  "animateLipidsDescription": {
+    "value": "Indica si los fosfolípidos que forman la membrana celular deben estar animados."
+  },
+  "glucoseDrain": {
+    "value": "Drenaje de glucosa"
+  },
+  "glucoseDrainDescription": {
+    "value": "Simula la fosforilación de la glucosa en la célula después del transporte. La simulación asume una alta concentración de glucosa dentro de la célula."
+  },
+  "soluteConcentrations": {
+    "value": "Concentraciones de soluto"
+  },
+  "highlightCrossing": {
+    "value": "Resaltar cruce"
+  },
+  "preferencesDialog.audio.sounds.stereoSounds": {
+    "value": "Sonidos estéreo"
+  },
+  "preferencesDialog.audio.sounds.stereoSoundsDescription": {
+    "value": "Enfatiza la dirección del transporte de solutos asignando el sonido a los canales derecho (de afuera hacia adentro) e izquierdo (de adentro hacia afuera)."
+  },
+  "a11y": {
+    "summary": {
+      "playAreaSummaryIntro": {
+        "value": "Una ventana de observación se acerca a una sección transversal de la membrana de una célula.\n  La membrana consiste en una bicapa fosfolipídica que se mueve, una lámina de doble capa que separa los fluidos del interior y el exterior de la célula.\n  Cuando se añaden al exterior o al interior, las partículas de soluto quedan suspendidas en el fluido y se mueven aleatoriamente con movimiento browniano."
+      },
+      "playAreaSummaryProteins": {
+        "value": "Se pueden añadir directamente a la membrana proteínas de transporte de diferentes tipos."
+      },
+      "playAreaSummaryPotential": {
+        "value": "Hay opciones para cambiar el entorno celular y afectar a las proteínas añadidas."
+      },
+      "playAreaSummaryBarCharts": {
+        "value": "Los gráficos de barras de las concentraciones de solutos comparan dinámicamente las cantidades de solutos en el exterior y el interior de la célula."
+      },
+      "playAreaSummaryScreen1": {
+        "value": "{ a11y_summary_playAreaSummaryIntro } { a11y_summary_playAreaSummaryBarCharts }"
+      },
+      "playAreaSummaryScreen2and4": {
+        "value": "{ a11y_summary_playAreaSummaryIntro } { a11y_summary_playAreaSummaryProteins } { a11y_summary_playAreaSummaryPotential } { a11y_summary_playAreaSummaryBarCharts }"
+      },
+      "playAreaSummaryScreen3": {
+        "value": "{ a11y_summary_playAreaSummaryIntro } { a11y_summary_playAreaSummaryProteins } { a11y_summary_playAreaSummaryBarCharts }"
+      },
+      "controlAreaSummary": {
+        "value": "Puedes pausar la acción o ralentizarla para escuchar más detalles. También puedes reiniciar todo para empezar de nuevo."
+      },
+      "interactionHint": {
+        "value": "Añade o quita solutos en el exterior o interior de la célula."
+      },
+      "interactionHintWithTransportProteins": {
+        "value": "Añade o quita solutos en el exterior o interior de la célula y juega con las proteínas de transporte."
+      }
+    },
+    "soluteControls": {
+      "accessibleHeading": {
+        "value": "Controles de soluto"
+      }
+    },
+    "eraseSolutesButton": {
+      "accessibleName": {
+        "value": "Reiniciar solutos"
+      },
+      "accessibleContextResponse": {
+        "value": "Solutos eliminados. Añade solutos para observar los cambios."
+      }
+    },
+    "transportProteinPanel": {
+      "transportProteins": {
+        "value": "Proteínas de transporte"
+      },
+      "accessibleHelpText": {
+        "value": "Añade hasta 7 proteínas a la membrana. Usa los atajos de teclado para coger, ordenar y soltar proteínas en la membrana."
+      },
+      "ligandGatedChannelPanel": {
+        "sodiumIonNaPlusLigandGated": {
+          "value": "Ion de Sodio Na plus, dependiente de ligando"
+        },
+        "potassiumIonKPlusLigandGated": {
+          "value": "Ion de Potasio K plus, dependiente de ligando"
+        }
+      },
+      "leakageChannelPanel": {
+        "sodiumIonNaPlusLeakage": {
+          "value": "Ion de Sodio Na plus, Fuga"
+        },
+        "potassiumIonKPlusLeakage": {
+          "value": "Ion de Potasio K plus, Fuga"
+        }
+      },
+      "voltageGatedChannelPanel": {
+        "sodiumIonNaPlusVoltageGated": {
+          "value": "Ion de Sodio Na plus, dependiente de voltaje"
+        },
+        "potassiumIonKPlusVoltageGated": {
+          "value": "Ion de Potasio K plus, dependiente de voltaje"
+        },
+        "membranePotential": {
+          "radioButtonGroup": {
+            "accessibleName": {
+              "value": "Potencial de membrana"
+            },
+            "accessibleHelpText": {
+              "value": "Ajusta los milivoltios y observa las proteínas."
+            },
+            "negative70RadioButton": {
+              "accessibleName": {
+                "value": "menos 70 milivoltios"
+              }
+            },
+            "negative50RadioButton": {
+              "accessibleName": {
+                "value": "menos 50 milivoltios"
+              }
+            },
+            "positive30RadioButton": {
+              "accessibleName": {
+                "value": "más 30 milivoltios"
+              }
+            }
+          }
+        },
+        "chargesCheckbox": {
+          "accessibleHelpText": {
+            "value": "Explora con o sin cargas que muestren el potencial de membrana a lo largo del interior y el exterior."
+          },
+          "uncheckedContextResponse": {
+            "value": "Cargas de potencial de membrana, ocultas."
+          }
+        }
+      },
+      "activeTransportProteinPanel": {
+        "sodiumPotassiumPump": {
+          "value": "Bomba de Sodio-Potasio"
+        },
+        "sodiumGlucoseCotransporter": {
+          "value": "Cotransportador Sodio-Glucosa"
+        }
+      },
+      "toolAccessibleHelpText": {
+        "value": "Coge el transportador para llevarlo a la membrana."
+      }
+    },
+    "ligandNode": {
+      "starLigand": {
+        "value": "Ligando Estrella"
+      },
+      "triangleLigand": {
+        "value": "Ligando Triángulo"
+      },
+      "accessibleHelpText": {
+        "value": "Coge un ligando. Una vez cogido, usa los atajos de teclado para mover el ligando al sitio de unión. Suéltalo para que se una o deja que los ligandos se unan de forma natural."
+      },
+      "releasedLigand": {
+        "value": "Soltado."
+      },
+      "ligandReleasedOffMembranePattern": {
+        "value": "{{ligandType}} soltado fuera de la membrana"
+      },
+      "ligandReleasedOnProteinPattern": {
+        "value": "Soltado. Unión exitosa. La proteína se abre."
+      },
+      "ligandReleasedOnBusyOrIncompatibleProteinPattern": {
+        "value": "Soltado. Unión sin éxito. El ligando se aleja flotando."
+      },
+      "ligandUnboundAlert": {
+        "value": "El ligando se aleja flotando. La proteína se cierra."
+      }
+    },
+    "soluteControlsAccessibleHelpText": {
+      "value": "Elige el soluto para añadir o quitar con los Ajustadores de soluto."
+    },
+    "soluteAccessibleNames": {
+      "oxygen": {
+        "value": "Oxígeno, O2, no polar, pequeño"
+      },
+      "carbonDioxide": {
+        "value": "Dióxido de carbono, CO2, no polar, pequeño"
+      },
+      "sodiumIon": {
+        "value": "Ion de sodio, Na, positivo, pequeño"
+      },
+      "potassiumIon": {
+        "value": "Ion de potasio, K, positivo, pequeño"
+      },
+      "glucose": {
+        "value": "Glucosa, anillo hexagonal, grande"
+      },
+      "atp": {
+        "value": "Adenosín trifosfato, ATP, complejo, grande"
+      }
+    },
+    "outsideMembraneSpinnerAccessibleNamePattern": {
+      "value": "{ a11y_soluteCapitalized } exterior de la célula"
+    },
+    "outsideMembraneSpinnerHelpText": {
+      "value": "Ajusta la cantidad de soluto elegida en el exterior."
+    },
+    "soluteSpinnerVoicingHintResponse": {
+      "value": "Ajusta la cantidad de soluto elegida."
+    },
+    "insideMembraneSpinnerAccessibleNamePattern": {
+      "value": "{ a11y_soluteCapitalized } interior de la célula"
+    },
+    "insideMembraneSpinnerHelpText": {
+      "value": "Ajusta la cantidad de soluto elegida en el interior."
+    },
+    "soluteSpinnerRoleDescription": {
+      "value": "ajustador de soluto"
+    },
+    "solute": {
+      "value": "{ $soluteType ->\n  [oxygen]        moléculas de oxígeno\n  [carbonDioxide] moléculas de dióxido de carbono\n  [sodiumIon]     iones de sodio\n  [potassiumIon]  iones de potasio\n  [glucose]       moléculas de glucosa\n *[atp]           moléculas de ATP\n}"
+    },
+    "soluteCapitalized": {
+      "value": "{ $soluteType ->\n  [oxygen]        Moléculas de oxígeno\n  [carbonDioxide] Moléculas de dióxido de carbono\n  [sodiumIon]     Iones de sodio\n  [potassiumIon]  Iones de potasio\n  [glucose]       Moléculas de glucosa\n *[atp]           Moléculas de ATP\n}"
+    },
+    "soluteSpinnerObjectResponsePattern": {
+      "value": "{ $amount ->\n  [none] sin\n  [some] algo de\n  [smallAmount] una pequeña cantidad de\n  [several] un grupo de\n  [many] multitud de\n  [largeAmount] una gran cantidad de\n  [hugeAmount] una cantidad enorme de\n *[maxAmount] la cantidad máxima de\n} { a11y_solute }"
+    },
+    "soluteSpinnerContextResponsePattern": {
+      "value": "{ $amount ->\n\n  [aLittle] Un poco\n *[aLot]    Mucho\n} { $addedOrRemoved ->\n  [added]   añadido\n *[removed] quitado\n}. Ahora\n{ $moreOrLessOrSame ->\n  [same] hay la misma cantidad de soluto dentro y fuera.\n *[other] hay { $differenceSize ->\n    [aLittle] un poco\n   *[aLot]    mucho\n  }\n  { $moreOrLessOrSame ->\n    [more] más\n   *[less] menos\n  }\n  { a11y_solute }\n  { $directionality ->\n    [insideThanOutside] dentro que fuera\n   *[outsideThanInside] fuera que dentro\n  }.\n}"
+    },
+    "soluteBarChartsDescriptionParagraph": {
+      "value": "Un gráfico de barras para cada soluto registra las cantidades a cada lado de la membrana, y los cruces recientes se capturan con resaltados visuales y sonidos. Si es necesario, pausa la simulación para congelar los detalles y poder leerlos."
+    },
+    "arrowSizeDescription": {
+      "value": "{ $size ->\n[small]  pequeña\n[medium] mediana\n*[large]  grande\n}"
+    },
+    "arrowDirectionDescription": {
+      "value": "{ $direction ->\n[upward]   la flecha hacia arriba indica el paso del exterior al interior\n*[downward] la flecha hacia abajo indica el paso del interior al exterior\n}"
+    },
+    "barSizeDescription": {
+      "value": "{ $amount ->\n[aLittleMore]  Un poco más\n[aLotMore]     Mucho más\n[aLittleLess]  Un poco menos\n*[aLotLess]     Mucho menos\n} fuera que dentro"
+    },
+    "barChartPattern": {
+      "value": "{ a11y_solute }: { a11y_barSizeDescription }; { a11y_arrowSizeDescription } { a11y_arrowDirectionDescription }."
+    },
+    "currentDetailsLeadingParagraph": {
+      "value": "En este momento, la sección transversal ampliada de la célula tiene:"
+    },
+    "currentDetailsNoAddedSolutes": {
+      "value": "ningún soluto añadido"
+    },
+    "currentDetailsSoluteTypesOnOutside": {
+      "value": "{ $count ->\n  [one] { $count } tipo de soluto añadido en el exterior\n *[other] { $count } tipos de soluto añadidos en el exterior\n}"
+    },
+    "currentDetailsSoluteTypesOnInside": {
+      "value": "{ $count ->\n  [one] { $count } tipo de soluto añadido en el interior\n *[other] { $count } tipos de soluto añadidos en el interior\n}"
+    },
+    "currentDetailsTransportProteins": {
+      "value": "{ $proteinCount ->\n  [one] { $proteinCount} proteína de transporte\n  *[other] { $proteinCount} proteínas de transporte\n} de { $proteinTypeCount ->\n  [one] { $proteinTypeCount } tipo\n *[other] { $proteinTypeCount} tipos\n}, en la membrana"
+    },
+    "currentDetailsLigands": {
+      "value": "2 tipos de ligandos añadidos solo en el exterior"
+    },
+    "membranePotentialValue": {
+      "value": "{ $membranePotential ->\n  [-70] menos 70\n  [-50] menos 50\n  *[30] más 30\n} milivoltios"
+    },
+    "currentDetailsMembranePotential": {
+      "value": "un potencial de membrana de { a11y_membranePotentialValue }"
+    },
+    "ligandToggleButtonAccessibleHelpText": {
+      "value": "Añade o quita ligandos en forma de triángulo y estrella en el exterior de la célula."
+    },
+    "ligandToggleButtonAddedContextResponse": {
+      "value": "Exterior inundado de ligandos."
+    },
+    "ligandToggleButtonRemovedContextResponse": {
+      "value": "Ligandos eliminados."
+    },
+    "grabbedLigandResponsePattern": {
+      "value": "Cogido. Exterior, { $proteinCount } Proteínas en la Membrana."
+    },
+    "grabbedLigandResponseWithHintPattern": {
+      "value": "{ a11y_grabbedLigandResponsePattern } Mueve el ligando con las teclas A o D. Espacio para soltar."
+    },
+    "grabbedLigandResponseWithEmptyMembraneHintPattern": {
+      "value": "{ a11y_grabbedLigandResponsePattern } Espacio para soltar. Añade proteínas de transporte."
+    },
+    "transportProteinBriefName": {
+      "value": "{ $type ->\n  [sodiumIonLeakageChannel]         Ion de Sodio, Fuga\n  [potassiumIonLeakageChannel]      Ion de Potasio, Fuga\n  [sodiumIonVoltageGatedChannel]    Ion de Sodio, Dependiente de Voltaje\n  [potassiumIonVoltageGatedChannel] Ion de Potasio, Dependiente de Voltaje\n  [sodiumIonLigandGatedChannel]     Ion de Sodio, Dependiente de Ligando\n  [potassiumIonLigandGatedChannel]  Ion de Potasio, Dependiente de Ligando\n  [sodiumPotassiumPump]             Bomba de Sodio-Potasio\n *[sodiumGlucoseCotransporter]      Cotransportador Sodio-Glucosa\n}"
+    },
+    "ligandMovedAboveLigandGatedChannelPattern": {
+      "value": "Sobre { $openOrClosed ->\n[open]   abierto\n*[closed] cerrado\n} { a11y_transportProteinBriefName } { $ligandType ->\n[triangleLigand] Sitio Triángulo\n*[starLigand]     Sitio Estrella\n}, { $index } de { $transportProteinCount } Proteínas."
+    },
+    "ligandMovedAboveLeakageChannelPattern": {
+      "value": "Sobre { a11y_transportProteinBriefName }, { $index } de { $transportProteinCount } Proteínas."
+    },
+    "ligandMovedAboveOtherChannelPattern": {
+      "value": "Sobre { $openOrClosed ->\n[open]   abierto\n*[closed] cerrado\n} { a11y_transportProteinBriefName }, { $index } de { $transportProteinCount } Proteínas."
+    },
+    "transportProtein": {
+      "grabbed": {
+        "value": "Cogido."
+      }
+    }
+  }
+}
