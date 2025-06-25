@@ -328,10 +328,10 @@
       "value": "{ $soluteType ->\n  [oxygen]        Moléculas de Oxígeno\n  [carbonDioxide] Moléculas de Dióxido de Carbono\n  [sodiumIon]     Iones de Sodio\n  [potassiumIon]  Iones de Potasio\n  [glucose]       Moléculas de Glucosa\n *[atp]           Moléculas de ATP\n}"
     },
     "soluteSpinnerObjectResponsePattern": {
-      "value": "{ $amount ->\n  [none] ninguna\n  [few] unas pocas\n  [some] algunas\n  [smallAmount] una pequeña cantidad de\n  [several] varias\n  [many] muchas\n  [largeAmount] una gran cantidad de\n  [hugeAmount] una enorme cantidad de\n *[maxAmount] la máxima cantidad de\n} { a11y_solute }"
+      "value": "{ $amount ->\n  [none] cero\n  [few] { $soluteType -> [sodiumIon] unos pocos [potassiumIon] unos pocos *[other] unas pocas }\n  [some] { $soluteType -> [sodiumIon] algunos [potassiumIon] algunos *[other] algunas }\n  [smallAmount] una pequeña cantidad de\n  [several] { $soluteType -> [sodiumIon] varios [potassiumIon] varios *[other] varias }\n  [many] { $soluteType -> [sodiumIon] muchos [potassiumIon] muchos *[other] muchas }\n  [largeAmount] una gran cantidad de\n  [hugeAmount] una enorme cantidad de\n *[maxAmount] la máxima cantidad de\n} { a11y_solute }"
     },
     "soluteSpinnerContextResponsePattern": {
-      "value": "{ $amount ->\n\n  [aLittle] Un poco\n *[aLot]    Mucho\n} { $addedOrRemoved ->\n  [added]   agregado\n *[removed] eliminado\n}. Ahora\n{ $moreOrLessOrSame ->\n  [same] hay la misma cantidad de soluto en el interior y en el exterior.\n *[other] hay { $differenceSize ->\n    [aLittle] un poco\n   *[aLot]    mucho\n  }\n  { $moreOrLessOrSame ->\n    [more] más\n   *[less] menos\n  }\n  { a11y_solute }\n  { $directionality ->\n    [insideThanOutside] en el interior que en el exterior\n   *[outsideThanInside] en el exterior que en el interior\n  }.\n}"
+      "value": "{ $amount ->\n\n  [aLittle] Un poco\n *[aLot]    Mucho\n} { $addedOrRemoved ->\n  [added]   agregado\n *[removed] eliminado\n}. Ahora\n{ $moreOrLessOrSame ->\n  [same] hay la misma cantidad de soluto en el interior y en el exterior.\n *[other] hay { $differenceSize ->\n    [aLittle] un poco\n   *[aLot]    { $soluteType -> [sodiumIon] muchos [potassiumIon] muchos *[other] muchas }\n  }\n  { $moreOrLessOrSame ->\n    [more] más\n   *[less] menos\n  }\n  { a11y_solute }\n  { $directionality ->\n    [insideThanOutside] en el interior que en el exterior\n   *[outsideThanInside] en el exterior que en el interior\n  }.\n}"
     },
     "soluteConcentrationsAccordionBox": {
       "descriptionContent": {
@@ -342,7 +342,7 @@
           "value": "{ a11y_soluteCapitalized }: { a11y_soluteConcentrationsAccordionBox_barChart_comparison }; { a11y_soluteConcentrationsAccordionBox_barChart_crossing }."
         },
         "comparison": {
-          "value": "{ $amount ->\n  *[none]  ninguna\n  [equal] Cantidades exactamente iguales afuera y adentro\n  [manyMoreOutside] muchas más afuera que adentro\n  [aboutTwiceAsManyOutside] aproximadamente el doble afuera que adentro\n  [someMoreOutside] algunas más afuera que adentro\n  [roughlyEqualOutside] aproximadamente iguales, más afuera que adentro\n  [manyMoreInside] muchas más adentro que afuera\n  [aboutTwiceAsManyInside] aproximadamente el doble adentro que afuera\n  [someMoreInside] algunas más adentro que afuera\n  [roughlyEqualInside] aproximadamente iguales, más adentro que afuera\n}"
+          "value": "{ $amount ->\n  *[none]  ninguna\n  [equal] Cantidades exactamente iguales afuera y adentro\n  [manyMoreOutside] { $soluteType -> [sodiumIon] muchos [potassiumIon] muchos *[other] muchas } más afuera que adentro\n  [aboutTwiceAsManyOutside] aproximadamente el doble afuera que adentro\n  [someMoreOutside] { $soluteType -> [sodiumIon] algunos [potassiumIon] algunos *[other] algunas } más afuera que adentro\n  [roughlyEqualOutside] aproximadamente iguales, más afuera que adentro\n  [manyMoreInside] { $soluteType -> [sodiumIon] muchos [potassiumIon] muchos *[other] muchas } más adentro que afuera\n  [aboutTwiceAsManyInside] aproximadamente el doble adentro que afuera\n  [someMoreInside] { $soluteType -> [sodiumIon] algunos [potassiumIon] algunos *[other] algunas } más adentro que afuera\n  [roughlyEqualInside] aproximadamente iguales, más adentro que afuera\n}"
         },
         "crossing": {
           "value": "{ $crossing ->\n  *[none] sin cruces\n  [inside] cruces hacia adentro\n  [outside] cruces hacia afuera\n  [both] cruces hacia adentro y hacia afuera\n}"
@@ -356,13 +356,13 @@
       "value": "ningún soluto añadido"
     },
     "currentDetailsSoluteTypesOnOutside": {
-      "value": "{ $count ->\n  [one] { $count } tipo de soluto añadido en el exterior\n *[other] { $count } tipos de solutos añadidos en el exterior\n}"
+      "value": "{ $count ->\n  [one] un tipo de soluto añadido en el exterior\n *[other] { $count } tipos de solutos añadidos en el exterior\n}"
     },
     "currentDetailsSoluteTypesOnInside": {
-      "value": "{ $count ->\n  [one] { $count } tipo de soluto añadido en el interior\n *[other] { $count } tipos de solutos añadidos en el interior\n}"
+      "value": "{ $count ->\n  [one] un tipo de soluto añadido en el interior\n *[other] { $count } tipos de solutos añadidos en el interior\n}"
     },
     "currentDetailsTransportProteins": {
-      "value": "{ $proteinCount ->\n  [one] { $proteinCount} proteína de transporte\n  *[other] { $proteinCount} proteínas de transporte\n} de { $proteinTypeCount ->\n  [one] { $proteinTypeCount } tipo\n *[other] { $proteinTypeCount} tipos\n}, en la membrana"
+      "value": "{ $proteinCount ->\n  [one] una proteína de transporte\n  *[other] { $proteinCount} proteínas de transporte\n} de { $proteinTypeCount ->\n  [one] un tipo\n *[other] { $proteinTypeCount} tipos\n}, en la membrana"
     },
     "currentDetailsLigands": {
       "value": "2 tipos de ligandos añadidos solo en el exterior"
