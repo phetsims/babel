@@ -1756,6 +1756,142 @@
     "escapeKeyDescription": {
       "value": "<strong>Escape key</strong> closes a dialog, like this one."
     },
-    "a11y": {}
+    "a11y": {
+      "screenSummary": {
+        "bodyDescriptionPattern": {
+          "value": "John has {{position}}, and he is ready to swing his leg to rub his foot on the rug."
+        },
+        "descriptionWithChargePattern": {
+          "value": "{{charge}} {{johnDescription}}"
+        }
+      },
+      "electrons": {
+        "singleDescription": {
+          "value": "John has 1 charge on his body."
+        },
+        "multipleDescriptionPattern": {
+          "value": "John has {{value}} charges on his body."
+        },
+        "totalDescriptionPattern": {
+          "value": "Electrons on body: {{value}}"
+        },
+        "totalAfterDischargePattern": {
+          "value": "Discharge occurred. Electrons on body decreased from {{oldValue}} to {{newValue}} with {{region}}."
+        }
+      },
+      "appendages": {
+        "arm": {
+          "label": {
+            "value": "Arm Swing"
+          },
+          "positions": {
+            "farthestFromDoorknob": {
+              "value": "Hand farthest from doorknob"
+            },
+            "veryFarFromDoorknob": {
+              "value": "Hand very far from doorknob"
+            },
+            "farFromDoorknob": {
+              "value": "Hand far from doorknob"
+            },
+            "notSoCloseToDoorknob": {
+              "value": "Hand not so close to doorknob"
+            },
+            "closeToDoorknob": {
+              "value": "Hand close to doorknob"
+            },
+            "veryCloseToDoorknob": {
+              "value": "Hand very close to doorknob"
+            },
+            "justAboveDoorknob": {
+              "value": "Hand just above doorknob"
+            },
+            "atDoorknob": {
+              "value": "Hand at doorknob"
+            },
+            "justBelowDoorknob": {
+              "value": "Hand just below doorknob"
+            },
+            "handPointingAway": {
+              "value": "Hand pointing away from door, very far from doorknob"
+            },
+            "handPointingStraightUp": {
+              "value": "Hand pointing straight up"
+            },
+            "handPointingAtUpperDoor": {
+              "value": "Hand pointing at upper door, close to doorknob"
+            },
+            "handPointingAtLowerDoor": {
+              "value": "Hand pointing at lower door, close to doorknob"
+            },
+            "handPointingStraightDown": {
+              "value": "Hand pointing straight down"
+            },
+            "farthestFromDoorknobLast": {
+              "value": "Hand farthest from doorknob."
+            }
+          }
+        },
+        "leg": {
+          "label": {
+            "value": "Leg swing"
+          },
+          "positions": {
+            "footOffRugPointingBackwards": {
+              "value": "Foot off rug, pointing backward"
+            },
+            "footOffRug": {
+              "value": "Foot off rug"
+            },
+            "footRubbingOnRug": {
+              "value": "Foot on rug"
+            },
+            "footOffRugPointingForward": {
+              "value": "Foot off rug, pointing forward"
+            }
+          }
+        }
+      },
+      "keyboardHelpDialog": {
+        "moveFootDescription": {
+          "value": "Move foot with Left and Right Arrow keys."
+        },
+        "moveHandDescription": {
+          "value": "Move hand with Up and Down Arrow keys."
+        }
+      },
+      "voicing": {
+        "contentHint": {
+          "value": "Swing John's leg to rub his foot on rug."
+        },
+        "detailedContentHint": {
+          "value": "Rub John's foot some more."
+        },
+        "chargedContentHint": {
+          "value": "Move John's hand to see when he gets a shock."
+        },
+        "overviewPattern": {
+          "value": "{{overview}} Looks like John is leaving the house. Facing the door, he strikes a pose on the rug."
+        },
+        "previousDischargePattern": {
+          "value": "Last shock, {{quantity}} electrons discharged with {{position}}."
+        },
+        "johnFullyCharged": {
+          "value": "John fully charged."
+        },
+        "multipleElectronsOnBodyPattern": {
+          "value": "John has {{quantity}} electrons on his body."
+        },
+        "screenSummaryWithPreviousDischargePattern": {
+          "value": "{{screenSummary}} {{previousDischarge}}"
+        },
+        "handInteractionHint": {
+          "value": "Move John's Hand."
+        },
+        "footInteractionHint": {
+          "value": "Rub John's Foot."
+        }
+      }
+    }
   }
 }

@@ -3857,6 +3857,123 @@
     "preferences.classicalCoinsStartHidden.description": {
       "value": "Hide the classical coins after they are prepared"
     },
-    "a11y": {}
+    "a11y": {
+      "equationAccessibleParagraphPattern": {
+        "value": "{{alpha}} times up state plus {{beta}} times down state."
+      },
+      "singleCoinStatePattern": {
+        "value": "Single coin: {{state}}"
+      },
+      "quantumCoinsAccessibleParagraph": {
+        "value": "Spin State to Prepare (alpha times up state plus beta times down state)"
+      },
+      "preparationAreaHeader": {
+        "classicalCoinToPrepare": {
+          "value": "Classical Coin to Prepare"
+        },
+        "classicalCoin": {
+          "value": "Classical Coin"
+        },
+        "quantumCoinToPrepare": {
+          "value": "Quantum \"Coin\" to Prepare"
+        },
+        "preparedState": {
+          "value": "Prepared State"
+        },
+        "classicalAccessibleParagraphPattern": {
+          "value": "Initial orientation: {{initialCoinFaceState}}. Probability of heads: {{upProbability}}. Probability of tails: {{downProbability}}"
+        },
+        "quantumAccessibleParagraphPattern": {
+          "value": "Initial orientation: {{initialCoinFaceState}}. Probability of up state: {{upProbability}}. Probability of down state: {{downProbability}}"
+        }
+      },
+      "coinsScreen": {
+        "screenButtonsHelpText": {
+          "value": "Play with the Coins Screen"
+        },
+        "coinStates": {
+          "heads": {
+            "value": "Heads"
+          },
+          "tails": {
+            "value": "Tails"
+          },
+          "superposition": {
+            "value": "Superposition"
+          },
+          "up": {
+            "value": "Up"
+          },
+          "down": {
+            "value": "Down"
+          }
+        },
+        "probabilityNumberControls": {
+          "probabilityOfHeads": {
+            "value": "Probability of Heads"
+          },
+          "probabilityOfHeadsHelpText": {
+            "value": "Probability of flipped coin landing on heads"
+          },
+          "probabilityOfTails": {
+            "value": "Probability of Tails"
+          },
+          "probabilityOfTailsHelpText": {
+            "value": "Probability of flipped coin landing on tails"
+          },
+          "probabilityOfUp": {
+            "value": "Probability of Up, Alpha Squared"
+          },
+          "probabilityOfUpHelpText": {
+            "value": "Probability of flipped coin landing on up state"
+          },
+          "probabilityOfDown": {
+            "value": "Probability of Down, Beta Squared"
+          },
+          "probabilityOfDownHelpText": {
+            "value": "Probability of flipped coin landing on down state"
+          }
+        },
+        "initialOrientationHelpText": {
+          "value": "Coin orientation before flipping"
+        },
+        "startMeasurement": {
+          "value": "Start Measurement"
+        },
+        "startMeasurementHelpText": {
+          "value": "Prepare coins to be measured"
+        },
+        "prepareNewCoinHelpText": {
+          "value": "Button to prepare a new coin"
+        },
+        "identicalCoins": {
+          "value": "Identical Coins"
+        },
+        "identicalCoinsHelpText": {
+          "value": "Number of identical coins to prepare"
+        }
+      },
+      "photonsScreen": {
+        "screenButtonsHelpText": {
+          "value": "Play with the Photons Screen"
+        },
+        "photonBehaviorMode": {
+          "value": "Behavior of Photons"
+        },
+        "emitPhotonButton": {
+          "value": "Photon Source"
+        }
+      },
+      "spinScreen": {
+        "screenButtonsHelpText": {
+          "value": "Play with the Spin Screen"
+        }
+      },
+      "blochSphereScreen": {
+        "screenButtonsHelpText": {
+          "value": "Play with the Bloch Sphere Screen"
+        }
+      }
+    }
   }
 }

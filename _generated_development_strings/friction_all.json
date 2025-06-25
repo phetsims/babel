@@ -2018,6 +2018,198 @@
     "moveInSmallerSteps": {
       "value": "Move slower"
     },
-    "a11y": {}
+    "a11y": {
+      "chemistryBook": {
+        "value": "Chemistry book"
+      },
+      "zoomedInChemistryBook": {
+        "value": "zoomed-in Chemistry book"
+      },
+      "grabButtonHelpText": {
+        "value": "Look for grab buttons. Once grabbed, use keyboard shortcuts to move book or zoomed-in book."
+      },
+      "moveBookWith": {
+        "value": "Move grabbed book or zoomed-in book up, left, down, or right with Arrow keys, or with letter keys W, A, S, or D."
+      },
+      "moveInSmallerStepsWith": {
+        "value": "Move slower with Shift plus Arrow keys, or Shift plus letter keys W, A, S, or D."
+      },
+      "initialKeyboardGrabbedNotTouching": {
+        "value": "Grabbed. Lightly on Physics book. Move book with W, A, S, or D key. Space to release."
+      },
+      "initialTouchGrabbedNotTouching": {
+        "value": "Grabbed. Lightly on Physics book. Drag finger to move book. Lift finger to release."
+      },
+      "initialKeyboardGrabbedTouching": {
+        "value": "Grabbed. Rub fast or slow with A or D keys. Space to release."
+      },
+      "initialTouchGrabbedTouching": {
+        "value": "Grabbed. Rub fast or slow dragging left or right. Lift to release."
+      },
+      "lightlyOnPhysicsBook": {
+        "value": "Lightly on Physics book."
+      },
+      "moveDownToRubHarder": {
+        "value": "Move down to rub harder."
+      },
+      "grabbedNotTouchingPattern": {
+        "value": "{{grabbedOnBook}} {{moveDownToRubHarder}}"
+      },
+      "rubFastOrSlow": {
+        "value": "Rub fast or slow."
+      },
+      "grabbedPattern": {
+        "value": "Grabbed. {{alert}}"
+      },
+      "amountOfAtoms": {
+        "sentence": {
+          "value": "Chemistry book has {{comparisonAmount}} jiggling atoms as {{breakAwayAmount}} have broken away.{{space}}"
+        },
+        "fewer": {
+          "value": "fewer"
+        },
+        "farFewer": {
+          "value": "far fewer"
+        },
+        "some": {
+          "value": "some"
+        },
+        "many": {
+          "value": "many"
+        }
+      },
+      "jiggle": {
+        "jiggleALot": {
+          "value": "jiggle  a lot"
+        },
+        "jiggleALittle": {
+          "value": "jiggle a little"
+        },
+        "jiggleABit": {
+          "value": "jiggle a tiny bit"
+        },
+        "jigglingLess": {
+          "value": "jiggling less"
+        },
+        "less": {
+          "value": "less"
+        },
+        "evenLess": {
+          "value": "even less"
+        }
+      },
+      "temperature": {
+        "superHot": {
+          "value": "super hot"
+        },
+        "capitalizedVeryHot": {
+          "value": "Very Hot"
+        },
+        "veryHot": {
+          "value": "very hot"
+        },
+        "hot": {
+          "value": "hot"
+        },
+        "atWarm": {
+          "value": "warm"
+        },
+        "atCool": {
+          "value": "cool"
+        },
+        "thermometerPattern": {
+          "value": "surface temperature is {{temp}}"
+        },
+        "pattern": {
+          "value": "surface temperature thermometer is {{temp}}"
+        },
+        "more": {
+          "value": "more"
+        },
+        "faster": {
+          "value": "faster"
+        },
+        "evenFaster": {
+          "value": "even faster"
+        },
+        "superFast": {
+          "value": "super fast"
+        },
+        "evenCooler": {
+          "value": "even cooler"
+        },
+        "cooler": {
+          "value": "cooler"
+        },
+        "nowCooler": {
+          "value": "now cooler"
+        },
+        "warmer": {
+          "value": "warmer"
+        },
+        "evenHotter": {
+          "value": "even hotter"
+        },
+        "nowHotter": {
+          "value": "now hotter"
+        }
+      },
+      "screenSummary": {
+        "summarySentencePattern": {
+          "value": "{{chemistryBookString}} {{jiggleTemperatureScaleSentence}}"
+        },
+        "droppingAsAtomsJiggleLess": {
+          "value": "dropping as atoms jiggle less"
+        },
+        "atomsJigglePattern": {
+          "value": "atoms {{jiggleAmount}}"
+        },
+        "jiggleClausePattern": {
+          "value": "and {{jiggleAmount}}"
+        },
+        "jiggleTemperatureScaleSentence": {
+          "value": "In zoomed-in view of where books meet, {{temperatureClause}}, {{jigglingClause}}."
+        },
+        "grabChemistryBookPlay": {
+          "value": "Grab Chemistry book to play."
+        },
+        "continueRubbing": {
+          "value": "Grab Chemistry book to rub fast or slow."
+        },
+        "startingChemistryBookPattern": {
+          "value": "{{relativeChemistryBookSentence}}Chemistry book rests on top of a Physics book, and is ready to be rubbed against it."
+        },
+        "startingChemistryBookLightlyPattern": {
+          "value": "{{relativeChemistryBookSentence}}Chemistry book rests lightly on top of a Physics book, and is ready to be rubbed against it."
+        }
+      },
+      "moveDownToRubHarderSentence": {
+        "value": "Move down to rub harder."
+      },
+      "resetSimMoreObservationSentence": {
+        "value": "Reset sim to make more observations."
+      },
+      "atomsJiggleTinyBitTempCool": {
+        "value": "Atoms jiggle a tiny bit, temperature cool."
+      },
+      "frictionIncreasingAtomsJigglingTemperaturePattern": {
+        "value": "Jiggling {{jigglingAmount}}, {{temperature}}."
+      },
+      "frictionIncreasingAtomsJigglingTemperatureFirstPattern": {
+        "value": "Atoms {{jigglingAmount}}, temperature {{temperature}}."
+      },
+      "breakAwaySentenceFirst": {
+        "value": "{{temp}}. Atoms break away from chemistry book."
+      },
+      "breakAwaySentenceAgain": {
+        "value": "{{temp}}. More atoms break away."
+      },
+      "breakAwayNoneLeft": {
+        "value": "{{temp}}. Atoms jiggling very fast."
+      },
+      "readMeOverview": {
+        "value": "Friction is an interactive sim. It changes as you play with it. Get ready for Friction, there’s a stack of big textbooks ready to go. In zoomed-in view of textbooks you can observe how jiggling atoms and temperature change."
+      }
+    }
   }
 }

@@ -26231,6 +26231,330 @@
     "SoundToggleButton.name": {
       "value": "Toggle Sound"
     },
-    "a11y": {}
+    "a11y": {
+      "simSection": {
+        "screenSummary": {
+          "multiScreenIntro": {
+            "value": "The {{screen}} changes as you play with it. It has a Play Area and a Control Area."
+          },
+          "singleScreenIntroPattern": {
+            "value": "{{sim}} is an interactive sim. It changes as you play with it. It has a Play Area and a Control Area."
+          },
+          "keyboardShortcutsHint": {
+            "value": "If needed, check out keyboard shortcuts under Sim Resources."
+          }
+        },
+        "playArea": {
+          "value": "Play Area"
+        },
+        "controlArea": {
+          "value": "Control Area"
+        }
+      },
+      "resetAll": {
+        "accessibleName": {
+          "value": "Reset All"
+        },
+        "accessibleContextResponse": {
+          "value": "Everything reset."
+        }
+      },
+      "soundToggle": {
+        "label": {
+          "value": "Mute Sound"
+        },
+        "alert": {
+          "simSoundOn": {
+            "value": "Sim sound on."
+          },
+          "simSoundOff": {
+            "value": "Sim sound off."
+          }
+        }
+      },
+      "keyboardHelpDialog": {
+        "slider": {
+          "orKeysPattern": {
+            "value": "{{leftRight}}, or {{upDown}}"
+          },
+          "leftRightArrowKeys": {
+            "value": "Left and Right arrow keys"
+          },
+          "upDownArrowKeys": {
+            "value": "Up and Down arrow keys"
+          },
+          "defaultStepsDescriptionPattern": {
+            "value": "{{verb}} {{slider}} with {{keys}}."
+          },
+          "shiftLeftRightArrowKeys": {
+            "value": "Shift plus Left or Right arrow key"
+          },
+          "shiftUpDownArrowKeys": {
+            "value": "Shift plus Up or Down arrow key"
+          },
+          "smallerStepsDescriptionPattern": {
+            "value": "{{verb}} in smaller steps with {{keys}}."
+          },
+          "largerStepsDescriptionPattern": {
+            "value": "{{verb}} in larger steps with Page Up or Page Down key."
+          },
+          "jumpToMinimumDescriptionPattern": {
+            "value": "Jump to {{minimum}} with Home key."
+          },
+          "jumpToMaximumDescriptionPattern": {
+            "value": "Jump to {{maximum}} with End key."
+          }
+        },
+        "general": {
+          "resetAllDescriptionPattern": {
+            "value": "Reset All with {{altOrOption}} plus R."
+          },
+          "tabDescription": {
+            "value": "Move to next item with Tab key."
+          },
+          "shiftTabDescription": {
+            "value": "Move to previous item with Shift plus Tab key."
+          },
+          "tabGroupDescription": {
+            "value": "Move to next item or group with Tab key."
+          },
+          "shiftTabGroupDescription": {
+            "value": "Move to previous item or group with Shift plus Tab key."
+          },
+          "pressButtonsDescription": {
+            "value": "Press buttons with Space or Enter keys."
+          },
+          "groupNavigationDescription": {
+            "value": "Move between items in a group with Left and Right arrow keys or Up and Down arrow keys."
+          },
+          "setValuesInKeypadDescription": {
+            "value": "Set values within keypad using number keys 0-9."
+          },
+          "exitDialogDescription": {
+            "value": "Exit a dialog with Escape key."
+          },
+          "toggleCheckboxesDescription": {
+            "value": "Toggle checkboxes with Space key."
+          }
+        },
+        "grabOrReleaseDescriptionPattern": {
+          "value": "Grab or release {{thing}} with Space or Enter keys."
+        },
+        "comboBox": {
+          "popUpListPatternDescription": {
+            "value": "Show {{thingPlural}} with Space or Enter keys."
+          },
+          "moveThroughPatternDescription": {
+            "value": "Move through {{thingPlural}} with Up and Down arrow keys."
+          },
+          "chooseNewPatternDescription": {
+            "value": "Change {{thingSingular}} with Enter key."
+          },
+          "closeWithoutChangingDescription": {
+            "value": " Close without changing with Escape key."
+          }
+        },
+        "draggableItems": {
+          "moveDescription": {
+            "value": "Move with arrow keys or W, A, S, or D keys."
+          },
+          "moveSlowerDescription": {
+            "value": "Move slower with shift plus arrow keys or W, A, S, or D keys."
+          }
+        },
+        "timingControls": {
+          "pauseOrPlayActionDescription": {
+            "value": "Pause or play action with alt key plus K."
+          }
+        }
+      },
+      "eraserButton": {
+        "accessibleName": {
+          "value": "Erase"
+        }
+      },
+      "playControlButton": {
+        "play": {
+          "value": "Play"
+        },
+        "pause": {
+          "value": "Pause"
+        },
+        "stop": {
+          "value": "Stop"
+        }
+      },
+      "playPauseButton": {
+        "playingAccessibleContextResponse": {
+          "value": "Sim Playing."
+        },
+        "pausedAccessibleContextResponse": {
+          "value": "Sim Paused."
+        }
+      },
+      "stepButton": {
+        "stepForward": {
+          "value": "Step Forward"
+        },
+        "playingDescription": {
+          "value": "Pause sim to step forward little by little."
+        },
+        "pausedDescription": {
+          "value": "Play sim to resume chosen speed."
+        }
+      },
+      "timeControlNode": {
+        "simSpeedDescription": {
+          "value": "For closer observations Play sim on slower speed."
+        },
+        "label": {
+          "value": "Time Controls"
+        },
+        "simSpeeds": {
+          "value": "Sim Speeds"
+        }
+      },
+      "playPauseStepButtonGroup": {
+        "playingHelpText": {
+          "value": "Pause sim to step through little by little."
+        },
+        "pausedHelpText": {
+          "value": "Step through little by little."
+        }
+      },
+      "movementAlerter": {
+        "down": {
+          "value": "down"
+        },
+        "left": {
+          "value": "left"
+        },
+        "right": {
+          "value": "right"
+        },
+        "up": {
+          "value": "up"
+        },
+        "upAndToTheRight": {
+          "value": "up and to the right"
+        },
+        "upAndToTheLeft": {
+          "value": "up and to the left"
+        },
+        "downAndToTheRight": {
+          "value": "down and to the right"
+        },
+        "downAndToTheLeft": {
+          "value": "down and to the left"
+        },
+        "leftBorderAlert": {
+          "value": "At left edge"
+        },
+        "rightBorderAlert": {
+          "value": "At right edge"
+        },
+        "topBorderAlert": {
+          "value": "At top"
+        },
+        "bottomBorderAlert": {
+          "value": "At bottom"
+        }
+      },
+      "grabDrag": {
+        "grabPattern": {
+          "value": "Grab {{objectToGrab}}"
+        },
+        "movable": {
+          "value": "movable"
+        },
+        "button": {
+          "value": "button"
+        },
+        "defaultObjectToGrab": {
+          "value": "Object"
+        },
+        "released": {
+          "value": "Released."
+        },
+        "grabbed": {
+          "value": "Grabbed."
+        },
+        "gestureHelpTextPattern": {
+          "value": "Double tap and hold to drag {{objectToGrab}}. Lift finger to release."
+        },
+        "spaceToGrabOrRelease": {
+          "value": "Space to Grab or Release."
+        }
+      },
+      "groupSort": {
+        "sortable": {
+          "value": "sortable"
+        },
+        "navigable": {
+          "value": "navigable"
+        }
+      },
+      "listItemPunctuation": {
+        "semicolonPattern": {
+          "value": "{{content}};"
+        },
+        "commaPattern": {
+          "value": "{{content}},"
+        },
+        "periodPattern": {
+          "value": "{{content}}."
+        }
+      },
+      "voicing": {
+        "simSection": {
+          "screenSummary": {
+            "singleScreenIntroPattern": {
+              "value": "{{sim}} is an interactive sim. It changes as you play with it."
+            }
+          }
+        },
+        "grabDragHintPattern": {
+          "value": "Tap, hold, and drag to {{manipulation}}."
+        },
+        "grabbedAlert": {
+          "value": "Grabbed."
+        },
+        "draggableAlert": {
+          "value": "Draggable"
+        }
+      },
+      "close": {
+        "value": "Close"
+      },
+      "zoomIn": {
+        "value": "Zoom In"
+      },
+      "zoomOut": {
+        "value": "Zoom Out"
+      },
+      "measuringTape": {
+        "value": "Measuring Tape"
+      },
+      "measuringTapeTip": {
+        "value": "Measuring Tape Tip"
+      },
+      "info": {
+        "value": "Info"
+      },
+      "offScaleIndicator": {
+        "pointsOffScaleUp": {
+          "value": "Points off scale up!"
+        },
+        "pointsOffScaleDown": {
+          "value": "Points off scale down!"
+        },
+        "pointsOffScaleLeft": {
+          "value": "Points off scale to the left!"
+        },
+        "pointsOffScaleRight": {
+          "value": "Points off scale to the right!"
+        }
+      }
+    }
   }
 }

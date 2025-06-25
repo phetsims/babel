@@ -382,6 +382,24 @@
     "size": {
       "value": "Size"
     },
-    "a11y": {}
+    "a11y": {
+      "nested": {
+        "constant": {
+          "value": "Constant string"
+        },
+        "fluentReference": {
+          "value": "Hello { a11y_nested_constant } world"
+        },
+        "fluentVariable": {
+          "value": "Hello { $variable } world"
+        },
+        "selector": {
+          "value": "{ $activityLevel ->\n*[calm]            relatively calm\n[active]          active\n[activeAndPaused] active and paused\n}"
+        },
+        "cascade": {
+          "value": "Right now, the weather is { a11y_nested_selector }."
+        }
+      }
+    }
   }
 }

@@ -4147,6 +4147,728 @@
     "smallSteps": {
       "value": "Small Steps"
     },
-    "a11y": {}
+    "a11y": {
+      "cornerLabelsAddedResponse": {
+        "value": "Letters A through D added to corners."
+      },
+      "cornerLabelsRemovedResponse": {
+        "value": "Corner labels hidden."
+      },
+      "cornerLabelsHintResponse": {
+        "value": "Create shapes with or without help of visual corner labels."
+      },
+      "markersAddedResponse": {
+        "value": "30-degree angle wedges and evenly-spaced side units added."
+      },
+      "markersRemovedResponse": {
+        "value": "Angle wedges and side units hidden."
+      },
+      "markersHintResponse": {
+        "value": "Create shapes with or without help of 30-degree angle wedges and evenly-spaced side-length units."
+      },
+      "gridLinesAddedResponse": {
+        "value": "Grid lines added."
+      },
+      "gridLinesRemovedResponse": {
+        "value": "Grid lines hidden."
+      },
+      "diagonalGuidesAddedResponse": {
+        "value": "Guides pass diagonally through opposite corners."
+      },
+      "diagonalGuidesRemovedResponse": {
+        "value": "Diagonal guides hidden."
+      },
+      "diagonalGuidesHintResponse": {
+        "value": "Create shapes with or without help of diagonal symmetry guides."
+      },
+      "gridLinesHintResponse": {
+        "value": "Create shapes with or without help of background grid."
+      },
+      "cornerA": {
+        "value": "Corner A"
+      },
+      "cornerB": {
+        "value": "Corner B"
+      },
+      "cornerC": {
+        "value": "Corner C"
+      },
+      "cornerD": {
+        "value": "Corner D"
+      },
+      "sideAB": {
+        "value": "Side AB"
+      },
+      "sideBC": {
+        "value": "Side BC"
+      },
+      "sideCD": {
+        "value": "Side CD"
+      },
+      "sideDA": {
+        "value": "Side DA"
+      },
+      "aB": {
+        "value": "AB"
+      },
+      "bC": {
+        "value": "BC"
+      },
+      "cD": {
+        "value": "CD"
+      },
+      "dA": {
+        "value": "DA"
+      },
+      "voicing": {
+        "overviewContent": {
+          "value": "Quadrilaterals are shapes with four sides. This one changes as you play with its connected corners and sides. Moving a corner or side changes your shape in different ways all at once. You cannot break your shape or make sides or corners cross over. Use shape markers, background grid, and diagonal guides as needed to create different shapes in the quadrilateral family. You can show shape name, mute shape sounds, quickly reset shape or start over with reset all."
+        },
+        "hintContent": {
+          "value": "Move corners and sides in big steps or small steps. Have fun!"
+        },
+        "youHaveAShapeHintPattern": {
+          "value": "You have {{shapeDescription}}."
+        },
+        "youHaveASizedNamedShapePattern": {
+          "value": "Your {{shapeName}} has a {{size}} area."
+        },
+        "youHaveASizedShapePattern": {
+          "value": "Your shape has a {{size}} area."
+        },
+        "firstDetailsStatementPattern": {
+          "value": "Right now, {{cornerType}} corners are {{angleEquality}}, and {{sideType}} sides are equal."
+        },
+        "vertexHintResponse": {
+          "value": "Move corner and change its two connected sides and up to 3 corners."
+        },
+        "sideHintResponse": {
+          "value": "Move side and change its two connected sides and up to 4 corners."
+        },
+        "details": {
+          "all": {
+            "value": "all"
+          },
+          "opposite": {
+            "value": "opposite"
+          },
+          "rightAngles": {
+            "value": "right angles"
+          },
+          "equal": {
+            "value": "equal"
+          },
+          "pairsOfAdjacent": {
+            "value": "pairs of adjacent"
+          },
+          "onePairOfAdjacent": {
+            "value": "one pair of adjacent"
+          },
+          "onePairOfOpposite": {
+            "value": "one pair of opposite"
+          },
+          "noString": {
+            "value": "no"
+          }
+        },
+        "sidesDescriptionPattern": {
+          "value": "Sides {{description}}."
+        },
+        "longestSidesDescriptionPattern": {
+          "value": "longest sides {{description}}"
+        },
+        "longestSideDescriptionPattern": {
+          "value": "longest side {{description}}"
+        },
+        "shortestSidesDescriptionPattern": {
+          "value": "shortest sides {{description}}"
+        },
+        "shortestSideDescriptionPattern": {
+          "value": "shortest side {{description}}"
+        },
+        "sideLengthDescriptionPattern": {
+          "value": "{{longest}}, {{shortest}}"
+        },
+        "cornersRightDescription": {
+          "value": "Corners 90 degrees."
+        },
+        "widestCornersDescriptionPattern": {
+          "value": "widest corners {{description}}"
+        },
+        "widestCornerDescriptionPattern": {
+          "value": "widest corner {{description}}"
+        },
+        "smallestCornersDescriptionPattern": {
+          "value": "smallest corners {{description}}"
+        },
+        "smallestCornerDescriptionPattern": {
+          "value": "smallest corner {{description}}"
+        },
+        "cornersDescriptionPattern": {
+          "value": "{{longest}}, {{shortest}}"
+        },
+        "oppositeSidesTiltPattern": {
+          "value": "Opposite sides {{tiltChange}} in parallel as opposite corners change equally."
+        },
+        "oppositeSidesInParallelPattern": {
+          "value": "Opposite sides in parallel as shape gets {{areaChange}}."
+        },
+        "oppositeSidesInParallelAsCornersChangeEquallyPattern": {
+          "value": "Opposite sides {{firstSide}} and {{secondSide}} tilt in parallel as corners change unequally."
+        },
+        "oppositeSidesTiltAsShapeChangesPattern": {
+          "value": "Opposite sides {{firstSide}} and {{secondSide}} tilt in parallel as shape gets {{areaChange}}."
+        },
+        "maintainingATrapezoidAsShapeChangesPattern": {
+          "value": "Opposite sides {{firstSide}} and {{secondSide}} in parallel as shape gets {{areaChange}}."
+        },
+        "adjacentSidesChangeEquallyAsShapeChangesPattern": {
+          "value": "Adjacent sides change equally as shape gets {{areaChange}}."
+        },
+        "oppositeSidesEqualAsShapeChangesPattern": {
+          "value": "Opposite sides {{firstSide}} and {{secondSide}} equal as shape gets {{areaChange}}."
+        },
+        "maintainingAParallelogramAngleResponse": {
+          "value": "Opposite sides in parallel as opposite corners change equally."
+        },
+        "maintainingAParallelogramLengthResponsePattern": {
+          "value": "Opposite sides in parallel as shape gets {{areaChange}}."
+        },
+        "allRightAnglesAsShapeChangesPattern": {
+          "value": "All right angles as shape gets {{areaChange}}."
+        },
+        "maintainingARhombus": {
+          "value": "Opposite corners change equally, opposite equal sides in parallel."
+        },
+        "allSidesEqualAsShapeChangesPattern": {
+          "value": "All sides equal as shape gets {{areaChange}}."
+        },
+        "cornerFlatAsShapeChangesPattern": {
+          "value": "{{cornerLabel}} flat as adjacent sides change in length."
+        },
+        "adjacentSidesInLinePattern": {
+          "value": "Adjacent sides {{firstSide}} and {{secondSide}} in line as shape gets {{areaChange}}"
+        },
+        "allSidesTiltAwayFromParallel": {
+          "value": "All sides tilt away from parallel as opposite corners change unequally."
+        },
+        "allSidesTiltAwayFromParallelAsShapeChangesPattern": {
+          "value": "All sides tilt away from parallel as shape gets {{areaChange}}"
+        },
+        "tilt": {
+          "value": "tilt"
+        },
+        "straighten": {
+          "value": "straighten"
+        },
+        "bigger": {
+          "value": "bigger"
+        },
+        "smaller": {
+          "value": "smaller"
+        },
+        "sizes": {
+          "tiny": {
+            "value": "tiny"
+          },
+          "verySmall": {
+            "value": "very small"
+          },
+          "small": {
+            "value": "small"
+          },
+          "mediumSized": {
+            "value": "medium-sized"
+          },
+          "large": {
+            "value": "large"
+          }
+        },
+        "shapeNames": {
+          "withoutArticles": {
+            "square": {
+              "value": "square"
+            },
+            "rectangle": {
+              "value": "rectangle"
+            },
+            "rhombus": {
+              "value": "rhombus"
+            },
+            "kite": {
+              "value": "kite"
+            },
+            "isoscelesTrapezoid": {
+              "value": "isosceles trapezoid"
+            },
+            "trapezoid": {
+              "value": "trapezoid"
+            },
+            "concaveQuadrilateral": {
+              "value": "concave quadrilateral"
+            },
+            "convexQuadrilateral": {
+              "value": "convex quadrilateral"
+            },
+            "parallelogram": {
+              "value": "parallelogram"
+            },
+            "dart": {
+              "value": "dart"
+            },
+            "triangle": {
+              "value": "triangle, is that right?"
+            }
+          },
+          "withArticles": {
+            "square": {
+              "value": "a square"
+            },
+            "rectangle": {
+              "value": "a rectangle"
+            },
+            "rhombus": {
+              "value": "a rhombus"
+            },
+            "kite": {
+              "value": "a kite"
+            },
+            "isoscelesTrapezoid": {
+              "value": "an isosceles trapezoid"
+            },
+            "trapezoid": {
+              "value": "a trapezoid"
+            },
+            "concaveQuadrilateral": {
+              "value": "a concave quadrilateral"
+            },
+            "convexQuadrilateral": {
+              "value": "a convex quadrilateral"
+            },
+            "parallelogram": {
+              "value": "a parallelogram"
+            },
+            "dart": {
+              "value": "a dart"
+            },
+            "triangle": {
+              "value": "a triangle, is that right?"
+            }
+          }
+        },
+        "allRightAnglesAllSidesEqual": {
+          "value": "All right angles, all sides equal."
+        },
+        "allSidesEqual": {
+          "value": "All sides equal."
+        },
+        "allRightAngles": {
+          "value": "All right angles."
+        },
+        "oppositeSidesInParallel": {
+          "value": "Opposite sides in parallel."
+        },
+        "trapezoidDetailsPattern": {
+          "value": "Opposite sides {{firstSide}} and {{secondSide}} in parallel."
+        },
+        "isoscelesTrapezoidDetailsPattern": {
+          "value": "Opposite sides {{equalFirstSide}} and {{equalSecondSide}} equal, opposite sides {{parallelFirstSide}} and {{parallelSecondSide}} in parallel."
+        },
+        "kiteDetailsPattern": {
+          "value": "Corners {{firstCorner}} and {{secondCorner}} are equal, and pairs of adjacent sides are equal."
+        },
+        "kiteDetailsShortPattern": {
+          "value": "Corners {{firstCorner}} and {{secondCorner}} are equal."
+        },
+        "dartDetailsPattern": {
+          "value": "Corner {{inwardCorner}} points inward, Corners {{firstCorner}} and {{secondCorner}} are equal, and pairs of adjacent sides are equal."
+        },
+        "dartDetailsShortPattern": {
+          "value": "Corner {{inwardCorner}} points inward, Corners {{firstCorner}} and {{secondCorner}} are equal."
+        },
+        "triangleDetailsPattern": {
+          "value": "Corner {{flatCorner}} flat, adjacent sides look like one."
+        },
+        "convexQuadrilateralDetails": {
+          "value": "No sides in parallel."
+        },
+        "concaveQuadrilateralDetailsPattern": {
+          "value": "Corner {{inwardCorner}} points inward, no sides in parallel."
+        },
+        "vertexObjectResponsePattern": {
+          "value": "{{oppositeComparison}} opposite corner, {{adjacentVertexDescription}}."
+        },
+        "vertexObjectResponseWithWedgesPattern": {
+          "value": "{{wedgeDescription}}, {{oppositeComparison}} opposite corner, {{adjacentVertexDescription}}."
+        },
+        "rightAngle": {
+          "value": "right angle"
+        },
+        "angleFlat": {
+          "value": "6 wedges"
+        },
+        "oneWedge": {
+          "value": "one wedge"
+        },
+        "halfOneWedge": {
+          "value": "half one wedge"
+        },
+        "lessThanHalfOneWedge": {
+          "value": "less than half 1 wedge"
+        },
+        "justUnderOneWedge": {
+          "value": "just under 1 wedge"
+        },
+        "justOverOneWedge": {
+          "value": "just over 1 wedge"
+        },
+        "numberOfWedgesPattern": {
+          "value": "{{numberOfWedges}} wedges"
+        },
+        "numberOfWedgesAndAHalfPattern": {
+          "value": "{{numberOfWedges}} and a half wedges"
+        },
+        "justOverNumberOfWedgesPattern": {
+          "value": "just over {{numberOfWedges}} wedges"
+        },
+        "justUnderNumberOfWedgesPattern": {
+          "value": "just under {{numberOfWedges}} wedges"
+        },
+        "oneUnit": {
+          "value": "1 unit"
+        },
+        "numberOfUnitsPattern": {
+          "value": "{{numberOfUnits}} units"
+        },
+        "numberOfUnitsAndAHalfPattern": {
+          "value": "{{numberOfUnits}} and a half units"
+        },
+        "oneQuarterUnit": {
+          "value": "one quarter unit"
+        },
+        "numberAndOneQuarterUnitsPattern": {
+          "value": "{{fullNumber}} and one-quarter units"
+        },
+        "threeQuarterUnits": {
+          "value": "three-quarter units"
+        },
+        "numberAndThreeQuarterUnitsPattern": {
+          "value": "{{fullNumber}} and three-quarter units"
+        },
+        "aboutOneUnit": {
+          "value": "about one unit"
+        },
+        "aboutNumberUnitsPattern": {
+          "value": "about {{number}} units"
+        },
+        "aboutOneHalfUnits": {
+          "value": "about one-half units"
+        },
+        "oneHalfUnits": {
+          "value": "one-half units"
+        },
+        "aboutNumberAndAHalfUnitsPattern": {
+          "value": "about {{number}} and a half units"
+        },
+        "aboutNumberQuarterUnitsPattern": {
+          "value": "about {{number}}-quarter units"
+        },
+        "aboutFullNumberAndNumberQuarterUnitsPattern": {
+          "value": "about {{fullNumber}} and {{number}}-quarter units"
+        },
+        "vertexDragObjectResponse": {
+          "wider": {
+            "value": "wider"
+          },
+          "smaller": {
+            "value": "smaller"
+          },
+          "vertexDragObjectResponsePattern": {
+            "value": "angle {{angleChange}}"
+          }
+        },
+        "sideDragObjectResponse": {
+          "shorter": {
+            "value": "shorter"
+          },
+          "longer": {
+            "value": "longer"
+          },
+          "adjacentSidesChangePattern": {
+            "value": "adjacent sides {{lengthChange}}"
+          },
+          "adjacentSidesChangeInLength": {
+            "value": "adjacent sides change in length"
+          },
+          "parallelAdjacentSidesChangePattern": {
+            "value": "parallel adjacent sides {{lengthChange}}"
+          },
+          "equalAdjacentSidesChangePattern": {
+            "value": "equal adjacent sides {{lengthChange}}"
+          },
+          "adjacentSidesEqual": {
+            "value": "adjacent sides equal"
+          },
+          "equalToAdjacentSides": {
+            "value": "equal to adjacent sides"
+          },
+          "adjacentSidesParallel": {
+            "value": "adjacent sides parallel"
+          },
+          "equalToOneAdjacentSide": {
+            "value": "equal to one adjacent side"
+          },
+          "threeSidesEqual": {
+            "value": "three sides equal"
+          },
+          "twoSidesEqual": {
+            "value": "two sides equal"
+          }
+        },
+        "farSmallerThan": {
+          "value": "far smaller than"
+        },
+        "aboutHalfAsWideAs": {
+          "value": "about half as wide as"
+        },
+        "halfAsWideAs": {
+          "value": "half as wide as"
+        },
+        "aLittleSmallerThan": {
+          "value": "a little smaller than"
+        },
+        "muchSmallerThan": {
+          "value": "much smaller than"
+        },
+        "similarButSmallerThan": {
+          "value": "similar but smaller than"
+        },
+        "equalTo": {
+          "value": "equal to"
+        },
+        "similarButWiderThan": {
+          "value": "similar but wider than"
+        },
+        "aLittleWiderThan": {
+          "value": "a little wider than"
+        },
+        "muchWiderThan": {
+          "value": "much wider than"
+        },
+        "aboutTwiceAsWideAs": {
+          "value": "about twice as wide as"
+        },
+        "twiceAsWideAs": {
+          "value": "twice as wide as"
+        },
+        "farWiderThan": {
+          "value": "far wider than"
+        },
+        "equalToAdjacentCorners": {
+          "value": "equal to adjacent corners"
+        },
+        "equalToOneAdjacentCorner": {
+          "value": "equal to one adjacent corner"
+        },
+        "equalAdjacentCornersPattern": {
+          "value": "{{comparison}} equal adjacent corners"
+        },
+        "smallerThanAdjacentCorners": {
+          "value": "smaller than adjacent corners"
+        },
+        "widerThanAdjacentCorners": {
+          "value": "wider than adjacent corners"
+        },
+        "notEqualToAdjacentCorners": {
+          "value": "not equal to adjacent corners"
+        },
+        "farShorterThan": {
+          "value": "far shorter than"
+        },
+        "aboutHalfAsLongAs": {
+          "value": "about half as long as"
+        },
+        "halfAsLongAs": {
+          "value": "half as long as"
+        },
+        "aLittleShorterThan": {
+          "value": "a little shorter than"
+        },
+        "muchShorterThan": {
+          "value": "much shorter than"
+        },
+        "similarButShorterThan": {
+          "value": "similar but shorter than"
+        },
+        "similarButLongerThan": {
+          "value": "similar but longer than"
+        },
+        "aLittleLongerThan": {
+          "value": "a little longer than"
+        },
+        "muchLongerThan": {
+          "value": "much longer than"
+        },
+        "aboutTwiceAsLongAs": {
+          "value": "about twice as long as"
+        },
+        "twiceAsLongAs": {
+          "value": "twice as long as"
+        },
+        "farLongerThan": {
+          "value": "far longer than"
+        },
+        "parallelEqualSideObjectResponsePattern": {
+          "value": "Parallel and {{oppositeComparison}} opposite side, {{adjacentSideDescription}}"
+        },
+        "parallelSideObjectResponsePattern": {
+          "value": "Parallel to and {{oppositeComparison}} opposite side, {{adjacentSideDescription}}"
+        },
+        "sideObjectResponsePattern": {
+          "value": "{{oppositeComparison}} opposite side, {{adjacentSideDescription}}"
+        },
+        "sideUnitsObjectResponsePattern": {
+          "value": "{{unitsDescription}}, {{objectResponse}}"
+        },
+        "equalToAdjacentSides": {
+          "value": "equal to adjacent sides"
+        },
+        "equalToOneAdjacentSide": {
+          "value": "equal to one adjacent side"
+        },
+        "equalAdjacentSidesPattern": {
+          "value": "{{comparison}} equal adjacent sides"
+        },
+        "equalAdjacentParallelSidesPattern": {
+          "value": "{{comparison}} parallel and equal adjacent sides"
+        },
+        "shorterThanAdjacentSides": {
+          "value": "shorter than adjacent sides"
+        },
+        "shorterThanParallelAdjacentSides": {
+          "value": "shorter than parallel adjacent sides"
+        },
+        "longerThanAdjacentSides": {
+          "value": "longer than adjacent sides"
+        },
+        "longerThanParallelAdjacentSides": {
+          "value": "longer than parallel adjacent sides"
+        },
+        "notEqualToAdjacentSides": {
+          "value": "not equal to adjacent sides"
+        },
+        "notEqualToParallelAdjacentSides": {
+          "value": "not equal to parallel adjacent sides"
+        },
+        "back": {
+          "value": "back"
+        },
+        "gone": {
+          "value": "gone"
+        },
+        "cornersBack": {
+          "value": "Corners back."
+        },
+        "cornersGone": {
+          "value": "Corners gone."
+        },
+        "cornerDetectedPattern": {
+          "value": "Corner {{label}} {{state}}"
+        },
+        "shapeSoundControl": {
+          "nameResponse": {
+            "value": "Shape Sounds"
+          },
+          "enabledContextResponse": {
+            "value": "On for shape changes"
+          },
+          "disabledContextResponse": {
+            "value": "Off for shape changes"
+          },
+          "hintResponse": {
+            "value": "Explore with or without musical sounds for shape changes."
+          }
+        },
+        "resetShape": {
+          "contextResponse": {
+            "value": "All right angles, all sides two units."
+          }
+        },
+        "foundShapePattern": {
+          "value": "Found {{shapeName}}"
+        },
+        "shapeNameHiddenContextResponse": {
+          "value": "Listen for changing shape properties."
+        },
+        "shapeNameShownContextResponse": {
+          "value": "Listen for changing shape names."
+        },
+        "angleComparisonPattern": {
+          "value": "{{comparison}} {{cornerLabel}}"
+        },
+        "equalToOppositeCornerEqualToAdjacentCorners": {
+          "value": "equal to opposite corner, equal to adjacent corners"
+        },
+        "oppositeCorner": {
+          "value": "opposite corner"
+        },
+        "adjacentCornersEqual": {
+          "value": "adjacent corners equal"
+        },
+        "adjacentCornersRightAngles": {
+          "value": "adjacent corners right angles"
+        },
+        "progressStatePattern": {
+          "value": "{{progress}}, {{state}}"
+        },
+        "blockedByEdge": {
+          "value": "Blocked by Edge."
+        },
+        "blockedByInnerShape": {
+          "value": "Blocked by inner shape."
+        },
+        "minorIntervalsToggle": {
+          "hintResponse": {
+            "value": "When locked, corners and sides move in small steps."
+          },
+          "lockedNameResponse": {
+            "value": "Small Steps Locked"
+          },
+          "unlockedNameResponse": {
+            "value": "Small Steps Unlocked"
+          },
+          "lockedContextResponse": {
+            "value": "Corner and side movement locked to small steps."
+          },
+          "unlockedContextResponse": {
+            "value": "Shift key needed to make small steps."
+          }
+        }
+      },
+      "keyboardHelpDialog": {
+        "checkShapeDescriptionPattern": {
+          "value": "With Voicing enabled, check shape name or properties with {{altOrOption}} plus C."
+        },
+        "resetShapeDescriptionPattern": {
+          "value": "Reset Shape with {{altOrOption}} plus Shift plus R."
+        },
+        "moveShapeDescription": {
+          "value": "Move corner or side up, left, down, or right with Arrow keys or with letter keys W, A, S, or D."
+        },
+        "smallerStepsDescription": {
+          "value": "Move in smaller steps with Shift plus Arrow keys, or Shift plus letter keys W, A, S, or D, or Shift plus Mouse."
+        }
+      },
+      "preferencesDialog": {
+        "tracksPlayForeverToggle": {
+          "checkedContextResponse": {
+            "value": "Shape sounds play forever."
+          },
+          "uncheckedContextResponse": {
+            "value": "Shape sounds fade out."
+          }
+        }
+      }
+    }
   }
 }

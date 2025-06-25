@@ -7904,6 +7904,753 @@
     "temperatureUnits": {
       "value": "Temperature Units"
     },
-    "a11y": {}
+    "a11y": {
+      "observationWindowLabel": {
+        "value": "Observation Window"
+      },
+      "energyBalance": {
+        "accessibleHelpText": {
+          "value": "Measure incoming and outgoing energy at top of atmosphere."
+        }
+      },
+      "fluxMeter": {
+        "accessibleHelpText": {
+          "value": "Measure incoming and outgoing energy throughout atmosphere."
+        },
+        "zoomButtonHelpText": {
+          "value": "Adjust visual range."
+        },
+        "energyFluxRangeZoomPattern": {
+          "value": "Energy Flux Range Zoom {{inOrOut}}"
+        },
+        "in": {
+          "value": "in"
+        },
+        "out": {
+          "value": "out"
+        },
+        "visualScaleZoomedPattern": {
+          "value": "Visual scale zoomed {{inOrOut}}."
+        },
+        "noChange": {
+          "value": "No change in energy flux."
+        }
+      },
+      "fluxMeterUncheckedAlert": {
+        "value": "Energy Flux hidden."
+      },
+      "fluxMeterCheckedAlert": {
+        "value": "Energy Flux added to Observation Window."
+      },
+      "morePhotonsCheckedAlert": {
+        "value": "Displaying more photons in observation window."
+      },
+      "morePhotonsUncheckedAlert": {
+        "value": "Displaying fewer photons in observation window."
+      },
+      "morePhotonsHelpText": {
+        "value": "Displays more photons in observation window."
+      },
+      "fluxMeterCheckedPattern": {
+        "value": "{{checkedResponse}} {{energyFluxDescription}}"
+      },
+      "fluxMeterStateDescription": {
+        "value": "{{altitude}}, {{incomingSunlightAmount}} incoming sunlight and {{outgoingSunlightAmount}} outgoing sunlight. {{outgoingInfraredAmount}} outgoing infrared and {{incomingInfraredAmount}} incoming infrared."
+      },
+      "fluxMeterAltitude": {
+        "value": "Flux Meter Altitude"
+      },
+      "fluxMeterHelpText": {
+        "value": "Measure energy flux at different altitudes."
+      },
+      "fluxMeterSmallChangePattern": {
+        "value": "{{negligibleOrNo}} change in energy flux"
+      },
+      "negligible": {
+        "value": "negligible"
+      },
+      "aboveCloud": {
+        "value": "above cloud"
+      },
+      "belowCloud": {
+        "value": "below cloud"
+      },
+      "surfaceThermometer": {
+        "accessibleHelpText": {
+          "value": "Measure Earth’s surface temperature."
+        }
+      },
+      "carbonDioxidePPMPattern": {
+        "value": "Carbon dioxide {{value}} parts per million"
+      },
+      "methanePPMPattern": {
+        "value": "Methane {{value}} parts per billion"
+      },
+      "nitrousOxidePPMPattern": {
+        "value": "Nitrous oxide {{value}} parts per billion"
+      },
+      "showSurfaceTemperature": {
+        "accessibleHelpText": {
+          "value": "Describe temperature on a scale."
+        }
+      },
+      "surfaceTemperatureScaleHidden": {
+        "value": "Surface temperature scale hidden."
+      },
+      "historicalRelativeDescriptions": {
+        "high": {
+          "value": "historically high"
+        },
+        "moderate": {
+          "value": "historically moderate"
+        },
+        "low": {
+          "value": "historically low"
+        }
+      },
+      "historicalLevelsOfGreenhouseGassesPattern": {
+        "value": "{{historical}} levels of greenhouse gases in atmosphere."
+      },
+      "temperatureOptionsLabel": {
+        "value": "Temperature Options"
+      },
+      "temperatureUnitsLabel": {
+        "value": "Temperature Units"
+      },
+      "temperatureUnitsHelpText": {
+        "value": "Select temperature units."
+      },
+      "temperatureUnits": {
+        "kelvin": {
+          "value": "Kelvin"
+        },
+        "celsius": {
+          "value": "degrees Celsius"
+        },
+        "fahrenheit": {
+          "value": "degrees Fahrenheit"
+        }
+      },
+      "qualitativeAmountDescriptions": {
+        "no": {
+          "value": "no"
+        },
+        "extremelyLow": {
+          "value": "extremely low"
+        },
+        "exceptionallyLow": {
+          "value": "exceptionally low"
+        },
+        "veryLow": {
+          "value": "very low"
+        },
+        "low": {
+          "value": "low"
+        },
+        "somewhatLow": {
+          "value": "somewhat low"
+        },
+        "moderate": {
+          "value": "moderate"
+        },
+        "somewhatHigh": {
+          "value": "somewhat high"
+        },
+        "high": {
+          "value": "high"
+        },
+        "veryHigh": {
+          "value": "very high"
+        },
+        "exceptionallyHigh": {
+          "value": "exceptionally high"
+        },
+        "extremelyHigh": {
+          "value": "extremely high"
+        },
+        "max": {
+          "value": "max"
+        }
+      },
+      "qualitativeAltitudeDescriptions": {
+        "nearSurface": {
+          "value": "near surface"
+        },
+        "veryLow": {
+          "value": "at very low altitude"
+        },
+        "low": {
+          "value": "at low altitude"
+        },
+        "moderate": {
+          "value": "at moderate altitude"
+        },
+        "high": {
+          "value": "at high altitude"
+        },
+        "veryHigh": {
+          "value": "at very high altitude"
+        },
+        "topOfAtmosphere": {
+          "value": "at top of the atmosphere"
+        }
+      },
+      "amountOfPattern": {
+        "value": "{{qualitativeDescription}} amount of"
+      },
+      "proportionOfPattern": {
+        "value": "{{qualitativeDescription}} proportion of"
+      },
+      "levelsOfPattern": {
+        "value": "{{qualitativeDescription}} levels of"
+      },
+      "timePeriodDescriptions": {
+        "iceAge": {
+          "value": "ice age"
+        },
+        "seventeenFifty": {
+          "value": "year seventeen fifty"
+        },
+        "nineteenFifty": {
+          "value": "year nineteen fifty"
+        },
+        "twentyTwenty": {
+          "value": "year twenty twenty"
+        }
+      },
+      "sky": {
+        "skyDescriptionPattern": {
+          "value": "The sky is {{cloudDescription}}."
+        },
+        "cloudy": {
+          "value": "cloudy"
+        },
+        "clear": {
+          "value": "clear"
+        },
+        "cloudAddedAlert": {
+          "value": "Cloud added to sky."
+        },
+        "someSunlightReflectedAlert": {
+          "value": "Some sunlight reflecting back to space."
+        },
+        "cloudRemovedAlert": {
+          "value": "Cloud removed from sky."
+        },
+        "allSunlightReachesSurfaceAlert": {
+          "value": "All sunlight reaching surface."
+        },
+        "cloudAlertPattern": {
+          "value": "{{addedOrRemoved}} {{receivedOrReflected}}"
+        }
+      },
+      "energyLegend": {
+        "title": {
+          "value": "Energy Legend"
+        },
+        "inObservationWindow": {
+          "value": "In observation window:"
+        },
+        "wavesSunlightDescription": {
+          "value": "Sunlight radiation: yellow waves, wavelength shorter than infrared"
+        },
+        "wavesInfraredDescription": {
+          "value": "Infrared radiation: red waves, wavelength longer than sunlight"
+        },
+        "photonsSunlightDescription": {
+          "value": "Sunlight radiation: yellow photons"
+        },
+        "photonsInfraredDescription": {
+          "value": "Infrared radiation: red photons"
+        }
+      },
+      "infraredEnergyRedirectingPattern": {
+        "value": "{{changeDescription}} infrared {{energyRepresentation}} redirecting back to surface."
+      },
+      "infraredEnergyEmittedFromSurfacePattern": {
+        "value": "{{changeDescription}} infrared {{energyRepresentation}} emitting from surface."
+      },
+      "more": {
+        "value": "More"
+      },
+      "less": {
+        "value": "Less"
+      },
+      "no": {
+        "value": "No"
+      },
+      "fewer": {
+        "value": "Fewer"
+      },
+      "energyRepresentation": {
+        "photons": {
+          "value": "photons"
+        },
+        "radiation": {
+          "value": "radiation"
+        }
+      },
+      "inflowToEarth": {
+        "value": "inflow to Earth"
+      },
+      "outflowToSpace": {
+        "value": "outflow to space"
+      },
+      "outgoingEnergyAtAtmospherePattern": {
+        "value": "Outgoing energy is {{greaterThanOrLessThan}} incoming energy at top of atmosphere, net energy {{inflowOrOutflow}}."
+      },
+      "outgoingEnergyAtAtmosphereEqual": {
+        "value": "Outgoing energy is equal to incoming energy at top of atmosphere."
+      },
+      "noFlowOfEnergyHintDescription": {
+        "value": "No flow of energy. Start sunlight to explore energy balance."
+      },
+      "lessThan": {
+        "value": "less than"
+      },
+      "greaterThan": {
+        "value": "greater than"
+      },
+      "currently": {
+        "value": "Currently,"
+      },
+      "currentlySimIsPaused": {
+        "value": "Currently, sim is paused."
+      },
+      "currentlyNoSunlight": {
+        "value": "Currently, no sunlight in observation window."
+      },
+      "currentlySimIsPausedNoSunlight": {
+        "value": "Currently, sim is paused. No sunlight in observation window."
+      },
+      "surfaceTemperaturePattern": {
+        "value": "Earth's surface temperature is {{temperatureDescription}}"
+      },
+      "infraredEmissionIntensityPattern": {
+        "value": "{{value}} amount of infrared photons emit from surface and travel to space."
+      },
+      "photonDensityDescription": {
+        "value": "Higher density of infrared photons near surface."
+      },
+      "waves": {
+        "screenButtonsHelpText": {
+          "value": "Explore greenhouse effect with wave representation."
+        },
+        "screenSummary": {
+          "playAreaDescription": {
+            "value": "The Play Area is an observation window showing a scene extending from the surface of the Earth to outer space. Experiment with the greenhouse gas concentration or explore and compare historical time periods. It also has controls to add a cloud and measure the energy balance."
+          },
+          "controlAreaDescription": {
+            "value": "The Control Area has options for displaying the surface temperature of Earth. You can pause the action that happens in the observation window."
+          }
+        },
+        "observationWindow": {
+          "infraredEmissionIntensityPattern": {
+            "value": "Infrared waves emit with {{value}} intensity from surface and travel to space."
+          },
+          "infraredEmissionIntensityWithRedirectionPattern": {
+            "value": "{{surfaceEmission}} {{value}} infrared energy is redirecting back to surface."
+          },
+          "sunlightWavesTravelFromSpace": {
+            "value": "Sunlight waves travel from space to surface."
+          }
+        }
+      },
+      "photons": {
+        "screenButtonsHelpText": {
+          "value": "Explore greenhouse effect with photon representation."
+        },
+        "screenSummary": {
+          "playAreaDescription": {
+            "value": "The Play Area is an observation window showing a scene extending from the surface of the Earth to outer space.  Experiment with the greenhouse gas concentration or explore and compare historical time periods. It also has controls to add a cloud and measure the energy balance or energy flux."
+          },
+          "controlAreaDescription": {
+            "value": "The Control Area has options for displaying the surface temperature of Earth. You can control how fast the action happens in the observation window including buttons to pause and step forward."
+          }
+        },
+        "observationWindow": {
+          "sunlightPhotonsDescription": {
+            "value": "Sunlight photons travel from space to surface."
+          },
+          "infraredEmissionIntensityWithRedirectionPattern": {
+            "value": "{{surfaceEmission}} {{value}} infrared photons are redirecting back to surface."
+          },
+          "noOutgoingInfrared": {
+            "value": "No infrared photons are redirecting back to surface."
+          },
+          "infraredDescriptionPattern": {
+            "value": "{{incomingInfraredDescription}} {{outgoingInfraredDescription}}"
+          }
+        }
+      },
+      "layerModel": {
+        "screenButtonsHelpText": {
+          "value": "Experiment with infrared absorbing layers in the atmosphere."
+        },
+        "screenSummary": {
+          "playAreaDescription": {
+            "value": "The Play Area is an observation window showing a scene extending from the surface of the Earth to outer space.  It has controls to adjust the solar intensity, surface albedo, and to add infrared absorbing layers to the atmosphere. It also has controls to measure the energy balance and energy flux."
+          },
+          "controlAreaDescription": {
+            "value": "The Control Area has options for changing the temperature units. You can control how fast the action happens in the observation window including buttons to pause and step forward."
+          }
+        },
+        "sameAsOurSun": {
+          "value": "same as our Sun"
+        },
+        "percentOfOurSunPattern": {
+          "value": "{{value}}% of our Sun"
+        },
+        "surfaceAlbedoHelpText": {
+          "value": "Set reflectance of Earth’s surface."
+        },
+        "sunlightControls": {
+          "value": "Sunlight Controls"
+        },
+        "solarIntensityHelpText": {
+          "value": "Set intensity of incoming sunlight."
+        },
+        "infraredControls": {
+          "value": "Infrared Controls"
+        },
+        "absorbingLayersHelpText": {
+          "value": "Add or remove infrared absorbing layers from atmosphere."
+        },
+        "absorbanceValuePattern": {
+          "value": "{{value}}%"
+        },
+        "absorbanceHelpText": {
+          "value": "Set infrared absorbance of all layers."
+        },
+        "observationWindow": {
+          "numberOfAbsorbingLayersPattern": {
+            "value": "{{number}} infrared absorbing layer{{s}} in atmosphere"
+          },
+          "sunlightPhotonsDescription": {
+            "value": "Sunlight photons travel from space to surface"
+          },
+          "passingThroughLayersPattern": {
+            "value": "passing through layer{{s}}"
+          },
+          "solarIntensityPattern": {
+            "value": "Solar intensity is {{percentage}}% of our sun."
+          },
+          "surfaceReflectsNoSunlight": {
+            "value": "Surface reflects no sunlight back into space."
+          },
+          "surfaceReflectsSunlightPercentagePattern": {
+            "value": "Surface reflects {{percentage}}% of sunlight back into space."
+          },
+          "layerThermometerCheckboxLabelPattern": {
+            "value": "Layer {{number}} Thermometer"
+          },
+          "layerThermometerCheckboxHelpText": {
+            "value": "Measure Layer {{number}} temperature."
+          },
+          "allPhotonsAbsorbedPattern": {
+            "value": "All infrared photons are absorbed by layer{{s}} and re-emitted randomly up or down."
+          },
+          "percentageOfPhotonsAbsorbedPattern": {
+            "value": "{{absorbedPercentage}}% of infrared photons are absorbed by layer{{s}} and re-emitted randomly up or down while {{passThroughPercentage}}% are passing through layer{{s}}."
+          },
+          "layerTemperaturePattern": {
+            "value": "Layer {{layerNumber}} temperature is {{temperatureWithUnits}}."
+          },
+          "justAboveLayerPattern": {
+            "value": "just above layer {{layerNumber}}"
+          },
+          "justBelowLayerPattern": {
+            "value": "just below layer {{layerNumber}}"
+          },
+          "betweenLayersPattern": {
+            "value": "between layers {{layerNumber}} and {{nextLayerNumber}}"
+          },
+          "aboveLayerPattern": {
+            "value": "above layer {{layerNumber}}"
+          },
+          "belowLayerPattern": {
+            "value": "below layer {{layerNumber}}"
+          },
+          "thermometerMeasuringSurfacePattern": {
+            "value": "Thermometer measuring {{surfaceOrLayer}}"
+          },
+          "surface": {
+            "value": "surface"
+          },
+          "layerPattern": {
+            "value": "layer {{layerNumber}}"
+          },
+          "thermometerRemovedFrom": {
+            "value": "Thermometer removed from {{surfaceOrLayer}}."
+          },
+          "sunlightPhotonsPattern": {
+            "value": "{{moreFewer}} sunlight photons entering atmosphere."
+          },
+          "multipleLayersAdded": {
+            "value": "Multiple layers added."
+          },
+          "multipleLayersRemoved": {
+            "value": "Multiple layers removed."
+          },
+          "layerAddedAboveSurfacePattern": {
+            "value": "Layer {{number}} added above surface."
+          },
+          "layerAddedContextResponsePattern": {
+            "value": "Layer {{aboveNumber}} added above layer {{belowNumber}}."
+          },
+          "layerRemovedContextResponsePattern": {
+            "value": "Layer {{number}} removed."
+          },
+          "layerTemperatureStablePattern": {
+            "value": "Layer {{number}} temperature stable at {{temperature}}."
+          },
+          "fullAbsorptionContextResponse": {
+            "value": "All layers now absorbing 100% of infrared photons."
+          },
+          "absorptionChangeContextResponsePattern": {
+            "value": "All layers now absorbing {{absorbedPercentage}}% of infrared photons, {{passThroughPercentage}}% passing through layers."
+          },
+          "absorptionChangeWithNoLayersContextResponsePattern": {
+            "value": "No absorbing layers. Added layers will absorb {{absorbedPercentage}}% of infrared photons."
+          },
+          "temperatureUnitsPattern": {
+            "value": "Temperature units {{temperatureUnits}}"
+          }
+        }
+      },
+      "greenhouseGasesInAtmospherePattern": {
+        "value": "{{valueDescription}} greenhouse gases in atmosphere."
+      },
+      "greenhouseGasesValuePattern": {
+        "value": "{{valueDescription}} greenhouse gases."
+      },
+      "timePeriodPattern": {
+        "value": "the time period is the {{timePeriodDescription}}."
+      },
+      "summaryWithTemperaturePattern": {
+        "value": "{{currentlyDescription}} {{concentrationDescription}} {{temperatureDescription}}. {{skyDescription}}"
+      },
+      "summaryWithoutTemperaturePattern": {
+        "value": "{{currentlyDescription}} {{concentrationDescription}} {{skyDescription}}"
+      },
+      "qualitativeAndQuantitativeTemperatureDescriptionPattern": {
+        "value": "{{qualitativeDescription}}, {{quantitativeDescription}}"
+      },
+      "timePeriodDescriptionPattern": {
+        "value": "{{timePeriod}} and {{description}}"
+      },
+      "thereAreManyHomesAndFactories": {
+        "value": "there are many homes and factories"
+      },
+      "thereAreAFewHomesAndFactories": {
+        "value": "there are a few homes and factories"
+      },
+      "thereIsAFarm": {
+        "value": "there is a farm"
+      },
+      "thereIsALargeGlacier": {
+        "value": "there is a large glacier"
+      },
+      "manyHomesAndFactories": {
+        "value": "many homes and factories"
+      },
+      "aFewHomesAndFactories": {
+        "value": "a few homes and factories"
+      },
+      "aFarm": {
+        "value": "a farm"
+      },
+      "aLargeGlacier": {
+        "value": "a large glacier"
+      },
+      "timePeriodChangeDescriptionPattern": {
+        "value": "Time period is the {{timePeriodDescription}}."
+      },
+      "nowLevelsOfConcentrationPattern": {
+        "value": "Now {{value}} greenhouse gases."
+      },
+      "qualitativeConcentrationChangeDescriptionPattern": {
+        "value": "Greenhouse gas levels {{comparativeDescription}} than {{year}}."
+      },
+      "higher": {
+        "value": "higher"
+      },
+      "muchHigher": {
+        "value": "much higher"
+      },
+      "significantlyHigher": {
+        "value": "significantly higher"
+      },
+      "lower": {
+        "value": "lower"
+      },
+      "muchLower": {
+        "value": "much lower"
+      },
+      "significantlyLower": {
+        "value": "significantly lower"
+      },
+      "concentrationControlReplacedPattern": {
+        "value": "{{replacedControl}} replaced with {{visibleControl}}."
+      },
+      "greenhouseGasConcentrationSlider": {
+        "value": "Greenhouse Gas Concentration slider"
+      },
+      "timePeriodRadioButtonGroup": {
+        "value": "Time Period radio button group"
+      },
+      "energyBalanceCheckedAlert": {
+        "value": "Energy Balance added to Observation Window."
+      },
+      "energyBalanceCheckedPattern": {
+        "value": "{{checkedResponse}} {{outgoingEnergyDescription}}"
+      },
+      "energyBalanceUncheckedAlert": {
+        "value": "Energy Balance hidden."
+      },
+      "thermometers": {
+        "value": "Thermometers"
+      },
+      "thermometerShownAlertPattern": {
+        "value": "Thermometer measuring surface temperature, {{value}}."
+      },
+      "thermometerRemovedAlert": {
+        "value": "Thermometer removed."
+      },
+      "qualitativeSurfaceTemperaturePattern": {
+        "value": "Surface temperature is {{description}}."
+      },
+      "observationWindowTimePeriodPattern": {
+        "value": "Now {{timePeriodDescription}}."
+      },
+      "sunlightAndReflectionPattern": {
+        "value": "{{sunlightDescription}} {{reflectionDescription}}"
+      },
+      "cloudRefection": {
+        "value": "Cloud reflects some sunlight back into space."
+      },
+      "cloudAndGlacierRefection": {
+        "value": "Cloud and glacier reflect some sunlight back into space."
+      },
+      "surfaceTemperatureIsQuantitativePattern": {
+        "value": "The surface temperature is {{value}}."
+      },
+      "surfaceTemperatureIsQualitativePattern": {
+        "value": "The surface temperature is {{description}}."
+      },
+      "surfaceTemperatureIsQuantitativeAndQualitativePattern": {
+        "value": "The surface temperature is {{description}}, {{value}}."
+      },
+      "startSunlightHint": {
+        "value": "Start sunlight to play."
+      },
+      "startSunlightButtonHelpText": {
+        "value": "Start sunlight to begin observations."
+      },
+      "sunlightStarted": {
+        "value": "Sunlight started."
+      },
+      "cloudCheckboxHelpText": {
+        "value": "Experiment with cloudy sky."
+      },
+      "surfaceTemperatureChangeWithValuePattern": {
+        "value": "Surface temperature {{qualitativeDescription}}, now {{temperature}}."
+      },
+      "surfaceTemperatureChangeWithoutValuePattern": {
+        "value": "Surface temperature {{qualitativeDescription}}."
+      },
+      "temperatureChangeWithValuePattern": {
+        "value": "{{qualitativeDescription}}, now {{temperature}}."
+      },
+      "temperatureChangeWithoutValuePattern": {
+        "value": "{{qualitativeDescription}}."
+      },
+      "surfaceTemperatureStable": {
+        "value": "Surface temperature stable."
+      },
+      "surfaceTemperatureStableWithDescription": {
+        "value": "Surface temperature stable and {{qualitativeDescription}}."
+      },
+      "surfaceTemperatureStableWithValue": {
+        "value": "Surface temperature stable at {{quantitativeDescription}}."
+      },
+      "surfaceTemperatureStableWithDescriptionAndValue": {
+        "value": "Surface temperature stable and {{qualitativeDescription}} at {{quantitativeDescription}}."
+      },
+      "warming": {
+        "value": "warming"
+      },
+      "cooling": {
+        "value": "cooling"
+      },
+      "stabilizing": {
+        "value": "stabilizing"
+      },
+      "concentrationPanel": {
+        "title": {
+          "value": "Greenhouse Gas Exploration Controls"
+        },
+        "experimentMode": {
+          "value": "Experiment Mode"
+        },
+        "experimentModeHelpText": {
+          "value": "Explore a wide range of concentrations from none to lots or zoom in to compare historical time periods."
+        },
+        "byConcentration": {
+          "value": "By concentration"
+        },
+        "byTimePeriod": {
+          "value": "By time period"
+        },
+        "timePeriod": {
+          "label": {
+            "value": "Time Period"
+          },
+          "accessibleHelpText": {
+            "value": "Compare greenhouse gas levels at different historical time periods."
+          },
+          "yearTwentyTwenty": {
+            "value": "Year Twenty Twenty"
+          },
+          "yearNineteenFifty": {
+            "value": "Year Nineteen Fifty"
+          },
+          "yearSeventeenFifty": {
+            "value": "Year Seventeen Fifty"
+          },
+          "iceAge": {
+            "value": "Ice Age"
+          }
+        },
+        "concentration": {
+          "greenhouseGasConcentration": {
+            "value": "Greenhouse Gas Concentration"
+          },
+          "concentrationSliderHelpText": {
+            "value": "Adjust amount of greenhouse gases in the atmosphere."
+          }
+        }
+      },
+      "timeControls": {
+        "simPausedEmitterOnAlert": {
+          "value": "Sim paused. Play to continue exploration."
+        },
+        "playPauseButtonObservationWindowPlayingDescription": {
+          "value": "Pause action in observation window."
+        },
+        "playPauseButtonObservationWindowPausedDescription": {
+          "value": "Resume action in observation window."
+        },
+        "playPauseButtonObservationWindowPlayingWithSpeedDescription": {
+          "value": "Pause action in observation window for closer observations or to step forward little by little."
+        },
+        "playPauseButtonObservationWindowPausedWithSpeedDescription": {
+          "value": "Resume action in observation window or step forward little by little."
+        },
+        "speedRadioButtonsDescription": {
+          "value": "For slower observations play sim on slow speed."
+        }
+      }
+    }
   }
 }

@@ -8504,6 +8504,360 @@
     "jumpHome": {
       "value": "Jump and release ruler<br>to home position"
     },
-    "a11y": {}
+    "a11y": {
+      "screenSummary": {
+        "playAreaOverview": {
+          "value": "The Play Area has two mass spheres, a blue sphere labeled m1 and a red sphere labeled m2. A force vector arrow starts at the center of each sphere and points directly at the opposite sphere."
+        },
+        "playAreaControls": {
+          "value": "Spheres can be moved closer or farther from one another along a measured track. The mass of each sphere can be increased or decreased. Each sphere is held in place by a robot. Optionally, a movable ruler can be used to measure distance between the spheres centers."
+        },
+        "secondaryDescription": {
+          "value": "In the Control Area, there are options to change force notations and mass representations, and a button to reset the sim."
+        },
+        "simStateListLabel": {
+          "value": "Currently, force on m1 by m2 is equal in magnitude and opposite in direction of force on m2 by m1."
+        },
+        "massValuesAndComparisonSummaryPattern": {
+          "value": "Mass of {{mass1Label}} is {{m1Mass}} kilograms, {{comparativeValue}} {{mass2Label}} at {{m2Mass}} kilograms."
+        }
+      },
+      "blueSpherePattern": {
+        "value": "{{objectLabel}}, Blue Sphere"
+      },
+      "redSpherePattern": {
+        "value": "{{objectLabel}}, Red Sphere"
+      },
+      "sizeAndDistancePattern": {
+        "value": "{{size}}, {{relativeSize}} {{otherObjectLabel}}, and also {{distance}}."
+      },
+      "sizePattern": {
+        "value": "{{thisObjectLabel}} is {{massValue}} kilograms"
+      },
+      "micronewtons": {
+        "value": "micronewtons"
+      },
+      "mass": {
+        "value": "mass"
+      },
+      "qualitative": {
+        "objectsRelativeSizePattern": {
+          "value": "{{firstObjectLabel}} {{relativeSize}} {{secondObjectLabel}}."
+        },
+        "massAndUnitPattern": {
+          "value": "{{massValue}} kilograms"
+        },
+        "massAndForceClausesPattern": {
+          "value": "{{massClause}}, {{forceClause}}."
+        },
+        "massChangeClausePattern": {
+          "value": "As {{changeDirectionPhrase}}"
+        },
+        "massChangesAndMovesClausePattern": {
+          "value": "As {{changeDirectionPhrase}} and moves {{leftOrRight}}"
+        },
+        "massChangesMovesOtherClausePattern": {
+          "value": "As {{changeDirectionPhrase}} and moves {{otherObjectLabel}} {{leftOrRight}}"
+        }
+      },
+      "sentencePattern": {
+        "value": "{{sentence}}."
+      },
+      "relativeMassSize": {
+        "muchMuchSmallerThan": {
+          "value": "much much smaller than"
+        },
+        "halfTheSizeOf": {
+          "value": "half the size of"
+        },
+        "muchSmallerThan": {
+          "value": "much smaller than"
+        },
+        "smallerButComparableTo": {
+          "value": "smaller but comparable to"
+        },
+        "sameSizeAs": {
+          "value": "same size as"
+        },
+        "largerButComparableTo": {
+          "value": "larger but comparable to"
+        },
+        "muchLargerThan": {
+          "value": "much larger than"
+        },
+        "twiceTheSizeOf": {
+          "value": "twice the size of"
+        },
+        "muchMuchLargerThan": {
+          "value": "much much larger than"
+        }
+      },
+      "relativeMassSizeCapitalized": {
+        "muchMuchSmallerThan": {
+          "value": "Much much smaller than"
+        },
+        "halfTheSizeOf": {
+          "value": "Half the size of"
+        },
+        "muchSmallerThan": {
+          "value": "Much smaller than"
+        },
+        "smallerButComparableTo": {
+          "value": "Smaller but comparable to"
+        },
+        "sameSizeAs": {
+          "value": "Same size as"
+        },
+        "largerButComparableTo": {
+          "value": "Larger but comparable to"
+        },
+        "muchLargerThan": {
+          "value": "Much larger than"
+        },
+        "twiceTheSizeOf": {
+          "value": "Twice the size of"
+        },
+        "muchMuchLargerThan": {
+          "value": "Much much larger than"
+        }
+      },
+      "relativeMassDensity": {
+        "notDenseComparedTo": {
+          "value": "not dense compared to"
+        },
+        "halfAsDenseAs": {
+          "value": "half as dense as"
+        },
+        "muchLessDenseThan": {
+          "value": "much less dense than"
+        },
+        "lessDenseButComparableTo": {
+          "value": "less dense but comparable to"
+        },
+        "asDenseAs": {
+          "value": "as dense as"
+        },
+        "denseButComparableTo": {
+          "value": "denser but comparable to"
+        },
+        "muchDenseThan": {
+          "value": "much denser than"
+        },
+        "twiceAsDenseAs": {
+          "value": "twice as dense as"
+        },
+        "extremelyDenseComparedTo": {
+          "value": "extremely dense compared to"
+        }
+      },
+      "relativeMassDensityCapitalized": {
+        "notDenseComparedTo": {
+          "value": "Not dense compared to"
+        },
+        "halfAsDenseAs": {
+          "value": "Half as dense as"
+        },
+        "muchLessDenseThan": {
+          "value": "Much less dense than"
+        },
+        "lessDenseButComparableTo": {
+          "value": "Less dense but comparable to"
+        },
+        "asDenseAs": {
+          "value": "As dense as"
+        },
+        "denseButComparableTo": {
+          "value": "Denser but comparable to"
+        },
+        "muchDenseThan": {
+          "value": "Much denser than"
+        },
+        "twiceAsDenseAs": {
+          "value": "Twice as dense as"
+        },
+        "extremelyDenseComparedTo": {
+          "value": "Extremely dense compared to"
+        }
+      },
+      "propertyChange": {
+        "massGetsSmaller": {
+          "value": "mass gets smaller"
+        },
+        "massGetsBigger": {
+          "value": "mass gets bigger"
+        },
+        "densityIncreases": {
+          "value": "density increases"
+        },
+        "densityDecreases": {
+          "value": "density decreases"
+        }
+      },
+      "controls": {
+        "massControlsLabel": {
+          "value": "Mass Controls"
+        },
+        "massControlsHelpText": {
+          "value": "Change mass of spheres in kilograms."
+        },
+        "massControlsHelpTextDensity": {
+          "value": "Change density of spheres in kilograms per unit volume."
+        },
+        "constantSizeCheckboxHelpText": {
+          "value": "Keep size of spheres constant while changing mass."
+        },
+        "constantRadiusThinkDensityPattern": {
+          "value": "{{mass1}} and {{mass2}} set to same size."
+        },
+        "massMaxMinBorderTextWithForce": {
+          "value": "{{relativeSize}} {{otherObjectLabel}}, {{forceVectorSize}}, forces {{force}} {{unit}}."
+        },
+        "massMaxMinBorderTextWithoutForce": {
+          "value": "{{relativeSize}} {{otherObjectLabel}}, {{forceVectorSize}}."
+        }
+      },
+      "keyboardHelp": {
+        "moveSphereDescription": {
+          "value": "Move sphere left and right with Left and Right Arrow keys."
+        },
+        "moveInSmallerStepsDescription": {
+          "value": "Move in smaller steps with Shift plus Left and Right Arrow keys."
+        },
+        "moveInLargerStepsDescription": {
+          "value": "Move in larger steps with Page Up and Page Down keys."
+        },
+        "jumpToLeftDescription": {
+          "value": "Jump to left with Home key."
+        },
+        "jumpToRightDescription": {
+          "value": "Jump to right with End key."
+        },
+        "changeMassPDOM": {
+          "value": "Change mass with Left and Right Arrow keys."
+        },
+        "changeMassBasicsPDOM": {
+          "value": "Change mass with Up and Down Arrow keys."
+        },
+        "changeMassInLargerStepsDescription": {
+          "value": "Change mass in larger steps with Page Up and Page Down keys."
+        },
+        "changeMassInSmallerStepsDescription": {
+          "value": "Change mass in smaller steps with Shift plus Left and Right Arrow keys."
+        },
+        "jumpToMaximumMassDescription": {
+          "value": "Jump to maximum mass with End key."
+        },
+        "jumpToMinimumMassDescription": {
+          "value": "Jump to minimum mass with Home key."
+        },
+        "moveGrabbedRulerPDOM": {
+          "value": "Move grabbed ruler up, left, down, or right with Arrow keys, or with letter keys W, A, S, or D."
+        },
+        "moveInSmallerStepsPDOM": {
+          "value": "Move in smaller steps with Shift plus Arrow keys, or Shift plus letter keys W, A, S, or D."
+        },
+        "jumpStartOfSpherePDOM": {
+          "value": "Jump start of ruler to center of m1 sphere with J plus C."
+        },
+        "jumpHomePDOM": {
+          "value": "Jump and release ruler to home position with J plus H."
+        }
+      },
+      "ruler": {
+        "regionAndDistancePattern": {
+          "value": "{{verticalRegion}} {{centersApart}}"
+        },
+        "releaseAndExploreHint": {
+          "value": "Release ruler to explore position and mass of spheres."
+        },
+        "grabbedAlertPattern": {
+          "value": "Grabbed. {{regionAndDistance}} {{supplementalHint}}"
+        },
+        "hintPattern": {
+          "value": "{{playHint}} {{releaseHint}}"
+        },
+        "grabbedJumpKeyboardHint": {
+          "value": "Hold J plus C keys to jump ruler to center of m1."
+        },
+        "jumpCenterKeyboardHint": {
+          "value": "Hold J plus H keys to release ruler in home position."
+        },
+        "gestureHint": {
+          "value": "Drag finger to move ruler. Lift to release."
+        },
+        "keyboardReleaseHint": {
+          "value": "Space to release."
+        },
+        "jumpCenterMassAlert": {
+          "value": "Ruler zero mark at center of {{object1}}. {{centersApart}} {{supplementalHint}}"
+        },
+        "positions": {
+          "coveringM2": {
+            "value": "Covering force vector of m2."
+          },
+          "coveringM1": {
+            "value": "Covering force vector of m1."
+          },
+          "justAboveCenters": {
+            "value": "Just above centers."
+          },
+          "coveringCenters": {
+            "value": "Covering centers."
+          },
+          "justBelowCenters": {
+            "value": "Just below centers."
+          },
+          "inHomePosition": {
+            "value": "In home position below mass spheres."
+          },
+          "behindMassControls": {
+            "value": "Behind mass controls."
+          }
+        }
+      },
+      "voicing": {
+        "briefPositionChangeInteractionPattern": {
+          "value": "{{valueText}}. {{forceAlert}}"
+        },
+        "briefMassChangeForceAlertWithValuePattern": {
+          "value": "Forces {{forceChange}}, now {{value}} newtons."
+        },
+        "briefMassChangeForceAlertPattern": {
+          "value": "Forces {{forceChange}}."
+        },
+        "briefDensityChangeForceAlertPattern": {
+          "value": "{{densityChange}} density, {{forceChange}} forces."
+        },
+        "briefNewForcePattern": {
+          "value": "Forces now {{value}} newtons."
+        },
+        "briefMassPushAlertPattern": {
+          "value": "{{object1}} moves {{object2}} {{direction}}. {{forceAlert}}"
+        },
+        "briefMassChangeWithPushAlertPattern": {
+          "value": "{{pushAlert}} {{forceAlert}}"
+        },
+        "briefMassChangeAlertPattern": {
+          "value": "{{propertyChange}} {{forceChange}}"
+        },
+        "biggerCapitalized": {
+          "value": "Bigger"
+        },
+        "smallerCapitalized": {
+          "value": "Smaller"
+        },
+        "more": {
+          "value": "More"
+        },
+        "less": {
+          "value": "Less"
+        },
+        "levels": {
+          "distanceArrowPattern": {
+            "value": "{{distance}} kilometers"
+          }
+        }
+      }
+    }
   }
 }

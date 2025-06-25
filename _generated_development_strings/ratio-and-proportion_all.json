@@ -5512,6 +5512,566 @@
     "chooseAChallengeRatio": {
       "value": "Choose a Challenge Ratio"
     },
-    "a11y": {}
+    "a11y": {
+      "keyboardHelp": {
+        "leftHandDescription": {
+          "value": "Move left hand up or down with W or S letter keys."
+        },
+        "rightHandDescription": {
+          "value": "Move right hand up or down with Up or Down arrow keys."
+        },
+        "handsInSmallerStepsDescription": {
+          "value": "Move hands in smaller steps, add Shift key."
+        },
+        "jumpBothHandsDescription": {
+          "value": "Jump both hands to same tick mark with number keys 0 to 9."
+        },
+        "setHandRatioValueDescription": {
+          "value": "Set left or right value with Up and Down arrow keys."
+        },
+        "jumpToMinimumDescription": {
+          "value": "Jump to minimum setting with Home key."
+        },
+        "jumpToMaximumDescription": {
+          "value": "Jump to maximum setting with End key."
+        }
+      },
+      "leftHand": {
+        "value": "Left Hand"
+      },
+      "rightHand": {
+        "value": "Right Hand"
+      },
+      "leftHandLower": {
+        "value": "left hand"
+      },
+      "rightHandLower": {
+        "value": "right hand"
+      },
+      "handLockedPattern": {
+        "value": "{{hand}}, Locked"
+      },
+      "leftValue": {
+        "value": "Left Value"
+      },
+      "rightValue": {
+        "value": "Right Value"
+      },
+      "individualHandsHelpText": {
+        "value": "Move hands up and down individually to find the challenge ratio in different places."
+      },
+      "individualHandsVoicingHelpText": {
+        "value": "Move hands."
+      },
+      "bothHands": {
+        "bothHands": {
+          "value": "Both Hands"
+        },
+        "bothHandsHelpText": {
+          "value": "With Both Hands activated, use W and S keys to move left hand, and Up and Down Arrow keys to move right hand. Move both hands at the same time to find and maintain the challenge ratio."
+        },
+        "handsDistancePattern": {
+          "value": "hands {{distance}} each other"
+        },
+        "handsDistancePatternCapitalized": {
+          "value": "Hands {{distance}} each other"
+        },
+        "handsDistanceProgressPattern": {
+          "value": "Hands {{distanceProgress}}"
+        },
+        "equalObjectResponseAlert": {
+          "value": "both hands {{inPosition}}"
+        },
+        "eachObjectResponseAlert": {
+          "value": "left {{leftPosition}}, right {{rightPosition}}"
+        },
+        "cannotJumpToZeroWhenLocked": {
+          "value": "Can’t jump both hands to zero with ratio locked."
+        }
+      },
+      "tickMark": {
+        "heading": {
+          "value": "Tick Mark Options"
+        },
+        "showNo": {
+          "value": "No Tick Marks"
+        },
+        "show": {
+          "value": "Tick Marks"
+        },
+        "showNumbered": {
+          "value": "Numbered Tick Marks"
+        },
+        "tickMarksHidden": {
+          "value": "Tick Marks hidden."
+        },
+        "tickMarksShown": {
+          "value": "Evenly-spaced horizontal lines added."
+        },
+        "numberedTickMarksShown": {
+          "value": "Evenly-spaced numbered lines added."
+        },
+        "relative": {
+          "around": {
+            "value": "around"
+          },
+          "aroundHalfwayPast": {
+            "value": "around halfway past"
+          },
+          "almostHalfwayPast": {
+            "value": "almost halfway past"
+          },
+          "halfwayPast": {
+            "value": "halfway past"
+          },
+          "halfwayTo": {
+            "value": "halfway to"
+          },
+          "aroundHalfwayTo": {
+            "value": "around halfway to"
+          },
+          "almostHalfwayTo": {
+            "value": "almost halfway to"
+          },
+          "almostOn": {
+            "value": "almost on"
+          },
+          "on": {
+            "value": "on"
+          },
+          "at": {
+            "value": "at"
+          },
+          "near": {
+            "value": "near"
+          },
+          "zero": {
+            "value": "zero"
+          }
+        },
+        "semiQuantitativeHandPositionPattern": {
+          "value": "{{relativePosition}} {{ordinal}} tick mark"
+        },
+        "quantitativeHandPositionPattern": {
+          "value": "{{relativePosition}} tick mark {{tickMarkPosition}}"
+        },
+        "ordinal": {
+          "first": {
+            "value": "first"
+          },
+          "second": {
+            "value": "second"
+          },
+          "third": {
+            "value": "third"
+          },
+          "fourth": {
+            "value": "fourth"
+          },
+          "fifth": {
+            "value": "fifth"
+          },
+          "sixth": {
+            "value": "sixth"
+          },
+          "seventh": {
+            "value": "seventh"
+          },
+          "eighth": {
+            "value": "eighth"
+          },
+          "ninth": {
+            "value": "ninth"
+          },
+          "tenth": {
+            "value": "tenth"
+          },
+          "eleventh": {
+            "value": "eleventh"
+          },
+          "twelfth": {
+            "value": "twelfth"
+          },
+          "thirteenth": {
+            "value": "thirteenth"
+          },
+          "fourteenth": {
+            "value": "fourteenth"
+          },
+          "fifteenth": {
+            "value": "fifteenth"
+          },
+          "sixteenth": {
+            "value": "sixteenth"
+          },
+          "seventeenth": {
+            "value": "seventeenth"
+          },
+          "eighteenth": {
+            "value": "eighteenth"
+          },
+          "nineteenth": {
+            "value": "nineteenth"
+          },
+          "twentieth": {
+            "value": "twentieth"
+          },
+          "twentyFirst": {
+            "value": "twenty-first"
+          },
+          "twentySecond": {
+            "value": "twenty-second"
+          },
+          "twentyThird": {
+            "value": "twenty-third"
+          },
+          "twentyFourth": {
+            "value": "twenty-fourth"
+          },
+          "twentyFifth": {
+            "value": "twenty-fifth"
+          },
+          "twentySixth": {
+            "value": "twenty-sixth"
+          },
+          "twentySeventh": {
+            "value": "twenty-seventh"
+          },
+          "twentyEighth": {
+            "value": "twenty-eighth"
+          },
+          "twentyNinth": {
+            "value": "twenty-ninth"
+          }
+        }
+      },
+      "leftHandBullet": {
+        "value": "Left hand {{position}},"
+      },
+      "rightHandBullet": {
+        "value": "Right hand {{position}}."
+      },
+      "ratioLockEnabledHelpText": {
+        "value": "Move hands as a single unit with ratio locked."
+      },
+      "ratioLockDisabledHelpText": {
+        "value": "Enabled when hands are at challenge ratio."
+      },
+      "ratioLockToggleContextResponse": {
+        "value": "Hands locked at challenge ratio. Move hands and observe."
+      },
+      "ratioNoLongerLocked": {
+        "value": "Hands no longer locked."
+      },
+      "ratioNoLongerLockedPattern": {
+        "value": "{{noLongerLocked}} {{originalContextResponse}}"
+      },
+      "screenSummaryControlAreaParagraph": {
+        "value": "The Control Area has a button to reset the sim."
+      },
+      "screenSummaryQualitativeStateOfSim": {
+        "value": "Currently, the screen is {{color}}, hands are {{ratioFitness}} the {{currentChallenge}} ratio and {{distance}} each other:"
+      },
+      "detailsButtonPattern": {
+        "value": "{{stateOfSim}} {{leftHand}} {{rightHand}}"
+      },
+      "detailsButtonWithCurrentChallengePattern": {
+        "value": "{{stateOfSim}} {{leftHand}} {{rightHand}} {{currentChallenge}}"
+      },
+      "discover": {
+        "screenButtonsHelpText": {
+          "value": "Explore and discover set challenge ratios."
+        },
+        "screenSummary": {
+          "paragraph1": {
+            "value": "The Play Area is a tall space. It contains two interactive hands, a Left Hand and a Right Hand. You can move the Left Hand and Right Hand up and down individually, or activate Both Hands to move both hands at the same time. As you move the hands up and down, you will get closer to or farther from the challenge ratio, and closer or farther from a dark green screen."
+          },
+          "paragraph2": {
+            "value": "Tick mark options allow you to explore the vertical space with evenly-spaced horizontal lines."
+          },
+          "paragraph3": {
+            "value": "There are different challenges to explore, and the Control Area has a button to reset the sim."
+          },
+          "interactionHint": {
+            "value": "Move hands up and down to explore and discover different challenges."
+          }
+        },
+        "overviewSentence": {
+          "value": "The Discover Screen changes as you play with it.\nA tall space contains two interactive hands, a Left Hand and a Right Hand. You can move the Left Hand and the Right Hand up and down individually, or activate Both Hands to move both hands at the same time. As you move the hands up and down, you will get closer to or farther from the challenge ratio, and closer or farther from a dark green screen.\nTick mark options allow you to explore the vertical space with evenly-spaced horizontal lines. \nThere are different challenges to explore, and a button to reset the sim."
+        },
+        "challengesHelpText": {
+          "value": "Choose a challenge, then move hands to explore it."
+        },
+        "challenge1Lowercase": {
+          "value": "challenge 1"
+        },
+        "challenge2Lowercase": {
+          "value": "challenge 2"
+        },
+        "challenge3Lowercase": {
+          "value": "challenge 3"
+        },
+        "bothHandsGestureDescriptionHelpText": {
+          "value": "Explore challenge ratio with individual Left and Right hands. The custom Both Hands interaction is not yet possible with screen reader software on a mobile device."
+        }
+      },
+      "create": {
+        "screenButtonsHelpText": {
+          "value": "Set your own challenge ratios to explore."
+        },
+        "screenSummary": {
+          "paragraph1": {
+            "value": "Here, you can create your own Challenge Ratio. The Play Area is a tall space. It contains two interactive hands, a Left Hand and a Right Hand. You can move the Left Hand and the Right Hand up and down individually, or activate Both Hands to move both hands at the same time. As you move the hands up and down, you will get closer to or farther from the challenge ratio, unless you lock the ratio when screen is darkest green."
+          },
+          "paragraph2": {
+            "value": "Tick mark options allow you to explore the vertical space with evenly-spaced horizontal lines, and you can increase the range of tick marks to explore larger numbers."
+          },
+          "interactionHint": {
+            "value": "Explore current challenge, or look for My Challenge to create your own."
+          }
+        },
+        "overviewSentence": {
+          "value": "The Create Screen changes as you play with it.\nHere, you can create your own Challenge Ratio. A tall space contains two interactive hands, a Left Hand and a Right Hand. You can move the Left Hand and the Right Hand up and down individually, or activate Both Hands to move both hands at the same time. As you move the hands up and down, you will get closer to or farther from the Challenge Ratio, unless you lock the ratio when screen is darkest green.\nTick mark options allow you to explore the vertical space with evenly-spaced horizontal lines, and you can increase the tick mark range to explore larger numbers. \nFinally, there is a button to reset the sim."
+        },
+        "challenge": {
+          "value": "challenge"
+        },
+        "tickMarkRangeHelpText": {
+          "value": "When tick marks shown, choose range for tick marks."
+        },
+        "tickMarkRangeContextResponse": {
+          "value": "Tick mark range now {{range}}."
+        },
+        "myChallengeHelpText": {
+          "value": "Set left and right values to create your challenge, then move hands to explore it."
+        },
+        "myChallengeHintText": {
+          "value": "Expand to set your challenge."
+        },
+        "myChallengeReadingBlockHintText": {
+          "value": "Change challenge, and move hands."
+        },
+        "bothHandsGestureDescriptionHelpText": {
+          "value": "Explore challenge ratio with individual Left and Right hands, or try with ratio locked. The custom Both Hands interaction is not yet possible with screen reader software on a mobile device."
+        },
+        "rangeLabelPattern": {
+          "value": "Range: {{value}}"
+        }
+      },
+      "handPosition": {
+        "atTop": {
+          "value": "at top"
+        },
+        "nearTop": {
+          "value": "near top"
+        },
+        "inUpperRegion": {
+          "value": "in upper region"
+        },
+        "inUpperMiddleRegion": {
+          "value": "in upper-middle region"
+        },
+        "atMiddle": {
+          "value": "at middle"
+        },
+        "aroundMiddle": {
+          "value": "around middle"
+        },
+        "inLowerMiddleRegion": {
+          "value": "in lower-middle region"
+        },
+        "inLowerRegion": {
+          "value": "in lower region"
+        },
+        "nearBottom": {
+          "value": "near bottom"
+        },
+        "atBottom": {
+          "value": "at bottom"
+        },
+        "distance": {
+          "capitalized": {
+            "farthestFrom": {
+              "value": "Farthest from"
+            },
+            "extremelyFarFrom": {
+              "value": "Extremely far from"
+            },
+            "veryFarFrom": {
+              "value": "Very far from"
+            },
+            "farFrom": {
+              "value": "Far from"
+            },
+            "notSoCloseTo": {
+              "value": "Not so close to"
+            },
+            "somewhatCloseTo": {
+              "value": "Somewhat close to"
+            },
+            "veryCloseTo": {
+              "value": "Very close to"
+            },
+            "extremelyCloseTo": {
+              "value": "Extremely close to"
+            },
+            "almostEvenWith": {
+              "value": "Almost even with"
+            },
+            "evenWith": {
+              "value": "Even with"
+            }
+          },
+          "lowercase": {
+            "farthestFrom": {
+              "value": "farthest from"
+            },
+            "extremelyFarFrom": {
+              "value": "extremely far from"
+            },
+            "veryFarFrom": {
+              "value": "very far from"
+            },
+            "farFrom": {
+              "value": "far from"
+            },
+            "notSoCloseTo": {
+              "value": "not so close to"
+            },
+            "somewhatCloseTo": {
+              "value": "somewhat close to"
+            },
+            "veryCloseTo": {
+              "value": "very close to"
+            },
+            "extremelyCloseTo": {
+              "value": "extremely close to"
+            },
+            "almostEvenWith": {
+              "value": "almost even with"
+            },
+            "evenWith": {
+              "value": "even with"
+            }
+          }
+        },
+        "closerTogether": {
+          "value": "closer together"
+        },
+        "fartherApart": {
+          "value": "farther apart"
+        },
+        "closerTo": {
+          "value": "Closer to"
+        },
+        "fartherFrom": {
+          "value": "Farther from"
+        },
+        "distanceOrDistanceProgressClause": {
+          "value": "{{distanceOrDistanceProgress}} {{otherHand}}"
+        }
+      },
+      "ratio": {
+        "distancePositionContextResponse": {
+          "value": "{{distance}}, {{position}}."
+        },
+        "bothHandsGoBeyondEdgeContextResponse": {
+          "value": "{{hand}}, {{position}}. Move hands {{direction}} to explore more."
+        },
+        "singleHandGoBeyondEdgeContextResponse": {
+          "value": "{{hand}}, {{position}}. Move hand {{direction}} to explore more."
+        },
+        "proximityToNewRatioPattern": {
+          "value": "Hands, {{proximity}} new challenge ratio."
+        },
+        "proximityToRatioObjectResponse": {
+          "value": "hands, {{proximityToRatio}} challenge ratio"
+        },
+        "targetRatioChangedContextResponse": {
+          "value": "{{currentChallenge}} {{proximityToRatio}}"
+        },
+        "currentChallenge": {
+          "value": "Current challenge {{targetAntecedent}} to {{targetConsequent}}."
+        },
+        "currentChallengeHidden": {
+          "value": "Current challenge hidden."
+        },
+        "capitalized": {
+          "at": {
+            "value": "At"
+          },
+          "extremelyCloseTo": {
+            "value": "Extremely close to"
+          },
+          "veryCloseTo": {
+            "value": "Very close to"
+          },
+          "somewhatCloseTo": {
+            "value": "Somewhat close to"
+          },
+          "notSoCloseTo": {
+            "value": "Not so close to"
+          },
+          "farFrom": {
+            "value": "Far from"
+          },
+          "veryFarFrom": {
+            "value": "Very far from"
+          },
+          "extremelyFarFrom": {
+            "value": "Extremely far from"
+          }
+        },
+        "lowercase": {
+          "at": {
+            "value": "at"
+          },
+          "extremelyCloseTo": {
+            "value": "extremely close to"
+          },
+          "veryCloseTo": {
+            "value": "very close to"
+          },
+          "somewhatCloseTo": {
+            "value": "somewhat close to"
+          },
+          "notSoCloseTo": {
+            "value": "not so close to"
+          },
+          "farFrom": {
+            "value": "far from"
+          },
+          "veryFarFrom": {
+            "value": "very far from"
+          },
+          "extremelyFarFrom": {
+            "value": "extremely far from"
+          }
+        }
+      },
+      "backgroundColor": {
+        "notGreen": {
+          "value": "not green"
+        },
+        "lightestGreen": {
+          "value": "lightest green"
+        },
+        "veryLightGreen": {
+          "value": "very light green"
+        },
+        "lightGreen": {
+          "value": "light green"
+        },
+        "darkestGreen": {
+          "value": "darkest green"
+        }
+      },
+      "down": {
+        "value": "down"
+      },
+      "up": {
+        "value": "up"
+      }
+    }
   }
 }

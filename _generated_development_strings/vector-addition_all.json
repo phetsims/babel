@@ -3556,6 +3556,262 @@
     "unsignedRange": {
       "value": "unsigned: 0° to 360°"
     },
-    "a11y": {}
+    "a11y": {
+      "explore1DScreen": {
+        "screenButtonsHelpText": {
+          "value": "Explore vector addition in one dimension."
+        },
+        "screenSummary": {
+          "playArea": {
+            "value": "There is an open graph area where you can add vectors and modify their position, magnitude, and direction, as well as explore the vectors’ sum."
+          },
+          "controlArea": {
+            "value": "Turn on vector sum, values, and grid. Modify position of graph area origin. Switch between horizontal and vertical scenes, or reset the screen."
+          },
+          "currentDetails": {
+            "value": "Currently, {{numberOfVectors}} vectors in graph area. {{sceneName}} scene selected."
+          },
+          "interactionHint": {
+            "value": "Add vectors to graph area to begin exploring."
+          }
+        }
+      },
+      "explore2DScreen": {
+        "screenButtonsHelpText": {
+          "value": "Explore vector addition in two dimensions."
+        },
+        "screenSummary": {
+          "playArea": {
+            "value": "There is an open graph area where you can add vectors and modify their position, magnitude, and direction, as well as explore the vectors’ sum."
+          },
+          "controlArea": {
+            "value": "Turn on vector sum, values, angles, and grid. Modify position of graph area origin. Switch between Cartesian and polar scenes, or reset the screen."
+          },
+          "currentDetails": {
+            "value": "Currently, {{numberOfVectors}} vectors in graph area. {{sceneName}} scene selected."
+          },
+          "interactionHint": {
+            "value": "Add vectors to graph area to begin exploring."
+          }
+        }
+      },
+      "labScreen": {
+        "screenButtonsHelpText": {
+          "value": "Experiment with two independent sets of vectors."
+        },
+        "screenSummary": {
+          "playArea": {
+            "value": "There is an open graph area where you can add vectors from two sets and modify their position, magnitude, and direction. You can also explore and compare vector sums for each set."
+          },
+          "controlArea": {
+            "value": "Turn on vector sums, values, angles, and grid. Display vector components. Modify position of graph area origin. Switch between Cartesian and polar scenes, or reset screen."
+          },
+          "currentDetails": {
+            "value": "Currently, {{vectorSet1Size}} vectors from set {{vectorSet1Symbol}} and {{vectorSet2Size}} vectors from set {{vectorSet2Symbol}} in graph area. {{sceneName}} scene selected."
+          },
+          "interactionHint": {
+            "value": "Add vectors to graph area to begin exploring."
+          }
+        }
+      },
+      "equationsScreen": {
+        "screenButtonsHelpText": {
+          "value": "Explore and manipulate vector equations."
+        },
+        "screenSummary": {
+          "playArea": {
+            "value": "TODO.equationsScreen.screenSummary.playArea"
+          },
+          "controlArea": {
+            "value": "TODO.equationsScreen.screenSummary.controlArea"
+          },
+          "currentDetails": {
+            "value": "TODO.equationsScreen.screenSummary.currentDetails"
+          },
+          "interactionHint": {
+            "value": "TODO.equationsScreen.screenSummary.interactionHint"
+          }
+        }
+      },
+      "horizontalSceneName": {
+        "value": "Horizontal"
+      },
+      "verticalSceneName": {
+        "value": "Vertical"
+      },
+      "cartesianSceneName": {
+        "value": "Cartesian"
+      },
+      "polarSceneName": {
+        "value": "Polar"
+      },
+      "anglesCheckbox": {
+        "accessibleName": {
+          "value": "Angles"
+        },
+        "accessibleHelpText": {
+          "value": "Display vector angles in graph area."
+        }
+      },
+      "gridCheckbox": {
+        "accessibleName": {
+          "value": "Grid"
+        },
+        "accessibleHelpText": {
+          "value": "Explore with or without use of visual grid."
+        }
+      },
+      "sumCheckbox": {
+        "accessibleName": {
+          "value": "Vector Sum"
+        },
+        "accessibleHelpText": {
+          "value": "Show or hide vector sum in graph area."
+        }
+      },
+      "labSumCheckbox": {
+        "accessibleName": {
+          "value": "Vector sum for set {{symbol}}, {{symbol}} sub v"
+        }
+      },
+      "equationsSumCheckbox": {
+        "accessibleName": {
+          "value": "Vector {{symbol}}"
+        },
+        "accessibleHelpText": {
+          "value": "Show or hide vector {{symbol}} in graph area."
+        }
+      },
+      "valuesCheckbox": {
+        "accessibleHelpText": {
+          "value": "Display vector and component magnitudes in graph area."
+        }
+      },
+      "componentsRadioButtonGroup": {
+        "accessibleName": {
+          "value": "Components Display Style"
+        },
+        "accessibleHelpText": {
+          "value": "Choose whether and where to display vector x,y components."
+        }
+      },
+      "invisibleRadioButton": {
+        "accessibleName": {
+          "value": "Hidden"
+        }
+      },
+      "triangleRadioButton": {
+        "accessibleName": {
+          "value": "Right triangle"
+        }
+      },
+      "parallelogramRadioButton": {
+        "accessibleName": {
+          "value": "From vector tail"
+        }
+      },
+      "projectionRadioButton": {
+        "accessibleName": {
+          "value": "Projected onto x,y axes"
+        }
+      },
+      "cartesianPolarSceneRadioButtonGroup": {
+        "accessibleName": {
+          "value": "Scene"
+        },
+        "accessibleHelpText": {
+          "value": "Switch between independent scenes with their own vectors and graph areas."
+        }
+      },
+      "cartesianRadioButton": {
+        "accessibleName": {
+          "value": "Cartesian scene"
+        },
+        "accessibleHelpText": {
+          "value": "Vectors snap to (x,y)."
+        }
+      },
+      "polarRadioButton": {
+        "accessibleName": {
+          "value": "Polar scene"
+        },
+        "accessibleHelpText": {
+          "value": "Vectors snap to (r,θ)."
+        }
+      },
+      "horizontalVerticalSceneRadioButtonGroup": {
+        "accessibleName": {
+          "value": "Scene"
+        },
+        "accessibleHelpText": {
+          "value": "Switch between independent scenes with their own vectors and graph areas."
+        }
+      },
+      "horizontalRadioButton": {
+        "accessibleName": {
+          "value": "Horizontal 1-D scene"
+        }
+      },
+      "verticalRadioButton": {
+        "accessibleName": {
+          "value": "Vertical 1-D scene"
+        }
+      },
+      "equationTypeRadioButtonGroup": {
+        "accessibleName": {
+          "value": "Equation Type"
+        },
+        "accessibleHelpText": {
+          "value": "Choose the equation that determines how vectors {{symbol1}}, {{symbol2}}, and {{symbol3}} interrelate."
+        }
+      },
+      "additionRadioButton": {
+        "accessibleName": {
+          "value": "{{symbol1}} plus {{symbol2}} equals {{symbol3}}"
+        }
+      },
+      "subtractionRadioButton": {
+        "accessibleName": {
+          "value": "{{symbol1}} minus {{symbol2}} equals {{symbol3}}"
+        }
+      },
+      "negationRadioButton": {
+        "accessibleName": {
+          "value": "{{symbol1}} plus {{symbol2}} plus {{symbol3}} equals zero"
+        }
+      },
+      "baseVectorsCheckbox": {
+        "accessibleName": {
+          "value": "Base Vectors"
+        },
+        "accessibleHelpText": {
+          "value": "Show or hide base vectors in graph area."
+        }
+      },
+      "originManipulator": {
+        "accessibleName": {
+          "value": "Graph Area Origin"
+        },
+        "accessibleHelpText": {
+          "value": "Move to relocate graph area origin, which changes graph area bounds. Value is x,y limits of graph area, from bottom left to top right."
+        },
+        "accessibleObjectResponse": {
+          "value": "From ({{minX}}, {{minY}}) to ({{maxX}}, {{maxY}})."
+        }
+      },
+      "eraserButton": {
+        "accessibleName": {
+          "value": "Erase all vectors"
+        },
+        "accessibleContextResponse": {
+          "value": "Graph area cleared"
+        }
+      },
+      "vectorValuesAccordionBox": {
+        "accessibleParagraph": {
+          "value": "For vector {{symbol}}, magnitude is {{magnitude}}, direction is {{direction}} degrees from positive x-axis, x-component is {{xComponent}}, y-component is {{yComponent}}."
+        }
+      }
+    }
   }
 }
