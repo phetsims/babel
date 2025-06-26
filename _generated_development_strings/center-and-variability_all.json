@@ -9463,101 +9463,103 @@
       "value": "object"
     },
     "a11y": {
-      "medianScreenHelpText": {
-        "value": "Kick soccer balls and explore data set to find value of median."
-      },
-      "meanAndMedianScreenHelpText": {
-        "value": "Kick soccer balls and explore data set to compare mean and median."
-      },
-      "variabilityScreenHelpText": {
-        "value": "Kick soccer balls and explore data sets to compare measures of variability."
-      },
-      "common": {
-        "null": {
-          "value": "null"
+      "screenSummary": {
+        "playArea": {
+          "guidingQuestion": {
+            "value": "Guiding question: \"{$question}\""
+          }
         },
         "currentDetails": {
-          "listItemPattern": {
+          "countAtMeter": {
             "value": "{$number} at meter {$distance}"
           }
         },
-        "guidingQuestion": {
-          "value": "Guiding question: \"{$question}\""
-        },
-        "soccerField": {
-          "value": "Soccer Field"
-        },
-        "interactionHintNoBalls": {
-          "value": "Kick soccer balls to create a data set."
-        },
-        "eraseButton": {
-          "accessibleName": {
-            "value": "Erase Current Data"
-          },
-          "accessibleHelpText": {
-            "value": "Remove soccer balls from field."
-          }
-        },
-        "medianPredictionSlider": {
-          "accessibleName": {
-            "value": "Median Prediction"
-          }
-        },
-        "meanPredictionSlider": {
-          "accessibleName": {
-            "value": "Mean Prediction"
-          }
-        },
-        "medianCheckbox": {
-          "accessibleName": {
-            "value": "Median on Field"
-          },
-          "accessibleHelpText": {
-            "value": "Show or hide red highlights marking middle soccer\n ball or balls and arrow pointing to median kick distance."
-          }
-        },
-        "meanCheckbox": {
-          "accessibleName": {
-            "value": "Mean on Field"
-          },
-          "accessibleHelpText": {
-            "value": "Show or hide purple triangle indicating mean kick distance."
-          }
-        },
-        "predictMedianCheckbox": {
-          "accessibleName": {
-            "value": "Predict Median Pointer"
-          },
-          "accessibleHelpText": {
-            "value": "Show or hide movable prediction pointer on field."
-          }
-        },
-        "predictMeanCheckbox": {
-          "accessibleName": {
-            "value": "Predict Mean Pointer"
-          },
-          "accessibleHelpText": {
-            "value": "Show or hide movable prediction pointer on field."
+        "interactionHint": {
+          "noBalls": {
+            "value": "Kick soccer balls to create a data set."
           }
         }
       },
-      "median": {
-        "playArea": {
-          "value": "At edge of field, up to {$maxBalls} kickers are ready to kick a soccer ball a random distance between 1 and 15 meters. Stacks of balls form when they land at the same distance. A sortable data card appears for each kicked ball recording the kick distance. Each ball can be moved to adjust its kick distance. There are checkboxes to auto-sort the data cards and highlight or predict the median."
+      "null": {
+        "value": "null"
+      },
+      "soccerField": {
+        "value": "Soccer Field"
+      },
+      "eraseButton": {
+        "accessibleName": {
+          "value": "Erase Current Data"
         },
-        "controlArea": {
-          "value": "Additionally, access detailed median information, clear data set, and reset the sim to start over."
+        "accessibleHelpText": {
+          "value": "Remove soccer balls from field."
+        }
+      },
+      "medianPredictionSlider": {
+        "accessibleName": {
+          "value": "Median Prediction"
+        }
+      },
+      "meanPredictionSlider": {
+        "accessibleName": {
+          "value": "Mean Prediction"
+        }
+      },
+      "medianCheckbox": {
+        "accessibleName": {
+          "value": "Median on Field"
         },
-        "currentDetails": {
-          "soccerBalls": {
-            "value": "Currently, { NUMBER($number, type: \"cardinal\") ->\n[0] 0 soccer balls on field.\n[1] 1 soccer ball on field:\n*[other] {$number} soccer balls on field:\n}"
+        "accessibleHelpText": {
+          "value": "Show or hide red highlights marking middle soccer\n ball or balls and arrow pointing to median kick distance."
+        }
+      },
+      "meanCheckbox": {
+        "accessibleName": {
+          "value": "Mean on Field"
+        },
+        "accessibleHelpText": {
+          "value": "Show or hide purple triangle indicating mean kick distance."
+        }
+      },
+      "predictMedianCheckbox": {
+        "accessibleName": {
+          "value": "Predict Median Pointer"
+        },
+        "accessibleHelpText": {
+          "value": "Show or hide movable prediction pointer on field."
+        }
+      },
+      "predictMeanCheckbox": {
+        "accessibleName": {
+          "value": "Predict Mean Pointer"
+        },
+        "accessibleHelpText": {
+          "value": "Show or hide movable prediction pointer on field."
+        }
+      },
+      "medianScreen": {
+        "screenButtonsHelpText": {
+          "value": "Kick soccer balls and explore data set to find value of median."
+        },
+        "screenSummary": {
+          "playArea": {
+            "value": "At edge of field, up to {$maxBalls} kickers are ready to kick a soccer ball a random distance between 1 and 15 meters. Stacks of balls form when they land at the same distance. A sortable data card appears for each kicked ball recording the kick distance. Each ball can be moved to adjust its kick distance. There are checkboxes to auto-sort the data cards and highlight or predict the median."
           },
-          "cards": {
-            "value": "{ NUMBER($number, type: \"cardinal\") ->\n[0] 0 data cards are listed.\n[1] 1 data card lists the kick distance as {$distances}.\n*[other] {$number} data cards list the kick distances as {$distances}.\n}"
+          "controlArea": {
+            "value": "Additionally, access detailed median information, clear data set, and reset the sim to start over."
+          },
+          "currentDetails": {
+            "soccerBalls": {
+              "value": "Currently, { NUMBER($number, type: \"cardinal\") ->\n[0] 0 soccer balls on field.\n[1] 1 soccer ball on field:\n*[other] {$number} soccer balls on field:\n}"
+            },
+            "cards": {
+              "value": "{ NUMBER($number, type: \"cardinal\") ->\n[0] 0 data cards are listed.\n[1] 1 data card lists the kick distance as {$distances}.\n*[other] {$number} data cards list the kick distances as {$distances}.\n}"
+            }
+          },
+          "interactionHint": {
+            "someBalls": {
+              "value": "Move soccer balls or sort distance data cards to explore data."
+            }
           }
-        },
-        "interactionHintSomeBalls": {
-          "value": "Move soccer balls or sort distance data cards to explore data."
         },
         "dataCardsGroup": {
           "noCardsAccessibleName": {
@@ -9584,7 +9586,7 @@
             "value": "Explore with or without data sorted numerically."
           }
         },
-        "cardsMedianCheckbox": {
+        "medianCheckbox": {
           "accessibleName": {
             "value": "Median on Data Cards"
           },
@@ -9592,29 +9594,41 @@
             "value": "Analyze data cards with or without median value shown and located if data is sorted."
           }
         },
-        "details": {
+        "infoButton": {
           "accessibleName": {
             "value": "Median Details"
           }
         }
       },
-      "meanAndMedian": {
-        "playArea": {
-          "value": "At edge of field, up to {$maxBalls} kickers are ready to kick a soccer ball a random distance between 1 and 15 meters. Stacks of balls form when they land at the same distance. A mark appears on a plot for each kicked ball recording the kick distance. Each ball can be moved to adjust its kick distance. There are checkboxes to highlight or predict the median and mean."
+      "meanAndMedianScreen": {
+        "screenButtonsHelpText": {
+          "value": "Kick soccer balls and explore data set to compare mean and median."
         },
-        "currentDetails": {
-          "soccerBalls": {
-            "value": "Currently, { NUMBER($number, type: \"cardinal\") ->\n[0] 0 soccer balls on field.\n[1] 1 soccer ball on field:\n*[other] {$number} soccer balls on field:\n}"
+        "screenSummary": {
+          "playArea": {
+            "value": "At edge of field, up to {$maxBalls} kickers are ready to kick a soccer ball a random distance between 1 and 15 meters. Stacks of balls form when they land at the same distance. A mark appears on a plot for each kicked ball recording the kick distance. Each ball can be moved to adjust its kick distance. There are checkboxes to highlight or predict the median and mean."
           },
-          "plot": {
-            "value": "{ NUMBER($number, type: \"cardinal\") ->\n[0] 0 marks on plot.\n[1] 1 mark on plot matches kick distance on field.\n*[other] {$number} marks on plot match kick distances on field.\n}"
+          "currentDetails": {
+            "soccerBalls": {
+              "value": "Currently, { NUMBER($number, type: \"cardinal\") ->\n[0] 0 soccer balls on field.\n[1] 1 soccer ball on field:\n*[other] {$number} soccer balls on field:\n}"
+            },
+            "plot": {
+              "value": "{ NUMBER($number, type: \"cardinal\") ->\n[0] 0 marks on plot.\n[1] 1 mark on plot matches kick distance on field.\n*[other] {$number} marks on plot match kick distances on field.\n}"
+            }
+          },
+          "controlArea": {
+            "value": "Additionally, access detailed mean and median information, clear data set, and reset the sim to start over."
+          },
+          "interactionHint": {
+            "someBalls": {
+              "value": "Move soccer balls or explore plot to analyze data."
+            }
           }
         },
-        "controlArea": {
-          "value": "Additionally, access detailed mean and median information, clear data set, and reset the sim to start over."
-        },
-        "accordionBoxHelpText": {
-          "value": "Kick distance (meters) plot."
+        "meanAndMedianAccordionBox": {
+          "accessibleHelpText": {
+            "value": "Kick distance (meters) plot."
+          }
         },
         "plotMedianCheckbox": {
           "accessibleName": {
@@ -9624,7 +9638,7 @@
             "value": "Analyze data with or without median value shown and located on plot."
           }
         },
-        "plotMeanCheckbox": {
+        "meanCheckbox": {
           "accessibleName": {
             "value": "Mean on Plot"
           },
@@ -9632,48 +9646,63 @@
             "value": "Analyze data with or without mean value shown and located on plot."
           }
         },
-        "details": {
+        "infoButton": {
           "accessibleName": {
             "value": "Median and Mean Details"
           }
-        },
-        "interactionHintSomeBalls": {
-          "value": "Move soccer balls or explore plot to analyze data."
         }
       },
-      "variability": {
-        "playArea": {
-          "value": "At edge of field, up to {$maxBalls} kickers are ready to kick a soccer ball a random distance between 1 and 15 meters. Stacks of balls form when they land at the same distance. A mark appears on a plot for each kicked ball recording the kick distance. Each ball can be moved to adjust its kick distance. Explore the range, interquartile range (IQR), and mean absolute deviation (MAD) for each kicker’s kick distribution."
+      "variabilityScreen": {
+        "screenButtonsHelpText": {
+          "value": "Kick soccer balls and explore data sets to compare measures of variability."
         },
-        "currentDetails": {
-          "soccerBalls": {
-            "value": "{$kicker} kicker selected. Currently, { NUMBER($number, type: \"cardinal\") ->\n[0] 0 soccer balls on field.\n[1] 1 soccer ball on field:\n*[other] {$number} soccer balls on field:\n}"
+        "screenSummary": {
+          "playArea": {
+            "value": "At edge of field, up to {$maxBalls} kickers are ready to kick a soccer ball a random distance between 1 and 15 meters. Stacks of balls form when they land at the same distance. A mark appears on a plot for each kicked ball recording the kick distance. Each ball can be moved to adjust its kick distance. Explore the range, interquartile range (IQR), and mean absolute deviation (MAD) for each kicker’s kick distribution."
           },
-          "plot": {
-            "value": "{ NUMBER($number, type: \"cardinal\") ->\n[0] 0 marks on plot\n[1] 1 mark on plot matches kick distance on field\n*[other] {$number} marks on plot match kick distances on field\n}, and {$measure} is being explored."
+          "currentDetails": {
+            "soccerBalls": {
+              "value": "{$kicker} kicker selected. Currently, { NUMBER($number, type: \"cardinal\") ->\n[0] 0 soccer balls on field.\n[1] 1 soccer ball on field:\n*[other] {$number} soccer balls on field:\n}"
+            },
+            "plot": {
+              "value": "{ NUMBER($number, type: \"cardinal\") ->\n[0] 0 marks on plot\n[1] 1 mark on plot matches kick distance on field\n*[other] {$number} marks on plot match kick distances on field\n}, and {$measure} is being explored."
+            }
+          },
+          "controlArea": {
+            "value": "Additionally, access detailed variability information, clear data set, and reset the sim to start over."
+          },
+          "interactionHint": {
+            "someBalls": {
+              "value": "Move soccer balls or explore plot to analyze data."
+            }
           }
         },
-        "controlArea": {
-          "value": "Additionally, access detailed variability information, clear data set, and reset the sim to start over."
-        },
-        "sceneRadioButtonGroup": {
-          "groupName": {
+        "sceneKickerRadioButtonGroup": {
+          "accessibleName": {
             "value": "Choose Kicker"
-          },
-          "scene1AccessibleName": {
-            "value": "Green Jersey 1"
-          },
-          "scene2AccessibleName": {
-            "value": "Blue Jersey 2"
-          },
-          "scene3AccessibleName": {
-            "value": "Red Jersey 3"
-          },
-          "scene4AccessibleName": {
-            "value": "Yellow Jersey 4"
           },
           "accessibleHelpText": {
             "value": "Compare kick distance distributions of four different kickers."
+          },
+          "kicker1RadioButton": {
+            "accessibleName": {
+              "value": "Green Jersey 1"
+            }
+          },
+          "kicker2RadioButton": {
+            "accessibleName": {
+              "value": "Blue Jersey 2"
+            }
+          },
+          "kicker3RadioButton": {
+            "accessibleName": {
+              "value": "Red Jersey 3"
+            }
+          },
+          "kicker4RadioButton": {
+            "accessibleName": {
+              "value": "Yellow Jersey 4"
+            }
           }
         },
         "pointerCheckbox": {
@@ -9681,13 +9710,13 @@
             "value": "Show or hide movable prediction pointer on field."
           }
         },
-        "predictionPointer": {
+        "pointerNode": {
           "accessibleName": {
             "value": "Prediction Pointer"
           }
         },
         "measuresRadioButtonGroup": {
-          "groupName": {
+          "accessibleName": {
             "value": "Variability Measures"
           },
           "accessibleHelpText": {
@@ -9720,37 +9749,40 @@
             "value": "Explore with or without MAD highlighted on plot."
           }
         },
-        "details": {
-          "accessibleNamePattern": {
+        "infoButton": {
+          "accessibleName": {
             "value": "{$measure} Details"
           }
         },
         "intervalTool": {
-          "heading": {
+          "accessibleHeading": {
             "value": "Interval Tool Controls"
           },
           "accessibleHelpText": {
             "value": "Define boundaries of interval region. Shift interval region to estimate distribution variability or future kick locations."
           },
-          "handle1AccessibleName": {
-            "value": "Boundary A"
+          "handle1": {
+            "accessibleName": {
+              "value": "BoundaryA"
+            }
           },
-          "handle2AccessibleName": {
-            "value": "Boundary B"
+          "handle2": {
+            "accessibleName": {
+              "value": "BoundaryB"
+            }
           },
-          "rectangleAccessibleName": {
-            "value": "Interval Region"
+          "rectangle": {
+            "accessibleName": {
+              "value": "Interval Region"
+            }
           },
           "rectangleValuePattern": {
             "value": "Bounded by {$valueA} and {$valueB}, width {$width}"
           }
-        },
-        "interactionHintSomeBalls": {
-          "value": "Move soccer balls or explore plot to analyze data."
         }
       },
       "preferences": {
-        "plotType": {
+        "plotTypeRadioButtonGroup": {
           "accessibleHelpText": {
             "value": "Determines whether an x or dot marks a kick distance on the plot."
           }
