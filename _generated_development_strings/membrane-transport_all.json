@@ -310,11 +310,8 @@
         }
       },
       "ligandNode": {
-        "starLigandAccessibleName": {
-          "value": "Star Ligand"
-        },
-        "triangleLigandAccessibleName": {
-          "value": "Triangle Ligand"
+        "accessibleName": {
+          "value": "{ $ligandType ->\n[starLigand]     Star Ligand\n*[triangleLigand] Triangle Ligand\n}"
         },
         "accessibleHelpText": {
           "value": "Grab a ligand. When grabbed, use keyboard shortcuts to move ligand to binding site. Release to bind or let ligands bind naturally."
@@ -323,7 +320,7 @@
           "value": "Released."
         },
         "releasedOffMembraneResponse": {
-          "value": "{{ligandType}} released off membrane"
+          "value": "{ a11y_ligandNode_accessibleName } released off membrane."
         },
         "releasedOnProteinResponse": {
           "value": "Released. Binding successful. Protein opens."
@@ -436,9 +433,41 @@
           "value": "Ligands removed."
         }
       },
+      "cellMembrane": {
+        "accessibleHeading": {
+          "value": "Cell Membrane"
+        }
+      },
       "transportProtein": {
         "grabbedResponse": {
           "value": "Grabbed."
+        },
+        "offMembrane": {
+          "value": "Off membrane"
+        },
+        "releasedReplacedResponse": {
+          "value": "Released. Protein replaced."
+        },
+        "deletedResponse": {
+          "value": "Deleted."
+        },
+        "cancelledResponse": {
+          "value": "Released. Back to initial slot."
+        },
+        "objectResponse": {
+          "value": "{ $openOrClosed ->\n  [open]   open\n *[closed] closed\n}, { $proteinIndex } of { $proteinCount } Proteins in Membrane"
+        },
+        "accessibleName": {
+          "value": "{ $nameResponse }, { $objectResponse }"
+        },
+        "accessibleNameReversed": {
+          "value": "{ $objectResponse }, { $nameResponse }"
+        },
+        "accessibleObjectResponse": {
+          "value": "Above slot { $slotIndex } of { $slotCount }."
+        },
+        "empty": {
+          "value": "empty"
         },
         "briefName": {
           "value": "{ $type ->\n  [sodiumIonLeakageChannel]         Sodium Ion, Leakage\n  [potassiumIonLeakageChannel]      Potassium Ion, Leakage\n  [sodiumIonVoltageGatedChannel]    Sodium Ion, Voltage-Gated\n  [potassiumIonVoltageGatedChannel] Potassium Ion, Voltage-Gated\n  [sodiumIonLigandGatedChannel]     Sodium Ion, Ligand-Gated\n  [potassiumIonLigandGatedChannel]  Potassium Ion, Ligand-Gated\n  [sodiumPotassiumPump]             Sodium Potassium Pump\n *[sodiumGlucoseCotransporter]      Sodium-Glucose Cotransporter\n}"
