@@ -8825,7 +8825,7 @@
       "value": "Pulse"
     },
     "restart": {
-      "value": "Restart"
+      "value": "Restart String"
     },
     "fixedEnd": {
       "value": "Fixed End"
@@ -8859,6 +8859,11 @@
     },
     "patternValueUnitPercentage": {
       "value": "{0}%"
+    },
+    "keyboardHelpDialog": {
+      "simulationShortcuts": {
+        "value": "Simulation Shortcuts"
+      }
     },
     "a11y": {
       "screenSummary": {
@@ -9023,6 +9028,13 @@
       "tensionControl": {
         "accessibleHelpText": {
           "value": "Force pulling on the string."
+        }
+      },
+      "keyboardHelpDialog": {
+        "restartString": {
+          "description": {
+            "value": "Reset Shape with { $altOrOption } plus Shift plus R."
+          }
         }
       }
     }
