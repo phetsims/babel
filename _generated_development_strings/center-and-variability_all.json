@@ -9538,6 +9538,11 @@
           "value": "Show or hide movable prediction pointer on field."
         }
       },
+      "infoDialog": {
+        "dataValues": {
+          "value": "Data Values (in meters): {$values}"
+        }
+      },
       "medianScreen": {
         "screenButtonsHelpText": {
           "value": "Kick soccer balls and explore data set to find value of median."
@@ -9599,11 +9604,6 @@
         "infoButton": {
           "accessibleName": {
             "value": "Median Details"
-          }
-        },
-        "infoDialog": {
-          "dataValues": {
-            "value": "Data Values (in meters): {$values}"
           }
         }
       },
@@ -9764,6 +9764,11 @@
         "infoButton": {
           "accessibleName": {
             "value": "{$measure} Details"
+          }
+        },
+        "infoDialog": {
+          "rangeMinusPattern": {
+            "value": "Range = {$max} minus {$min}"
           }
         },
         "intervalTool": {
