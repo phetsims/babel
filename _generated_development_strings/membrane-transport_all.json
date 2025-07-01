@@ -155,10 +155,10 @@
             "value": "no added solutes"
           },
           "soluteTypesOnOutside": {
-            "value": "{ $count ->\n  [one] { $count } added solute type on outside\n *[other] { $count } added solute types on outside\n}"
+            "value": "{ $count ->\n  [one] { $count } solute type on outside\n *[other] { $count } solute types on outside\n}"
           },
           "soluteTypesOnInside": {
-            "value": "{ $count ->\n  [one] { $count } added solute type on inside\n *[other] { $count } added solute types on inside\n}"
+            "value": "{ $count ->\n  [one] { $count } solute type on inside\n *[other] { $count } solute types on inside\n}"
           },
           "transportProteins": {
             "value": "{ $proteinCount ->\n  [one] { $proteinCount} transport protein\n  *[other] { $proteinCount} transport proteins\n} of { $proteinTypeCount ->\n  [one] { $proteinTypeCount } type\n *[other] { $proteinTypeCount} types\n}, in membrane"
@@ -403,7 +403,7 @@
           "value": "{ $amount ->\n  [none] no\n  [few] a few\n  [some] some\n  [smallAmount] small amount of\n  [several] several\n  [many] many\n  [largeAmount] large amount of\n  [hugeAmount] huge amount of\n *[maxAmount] max amount of\n} { a11y_solute }"
         },
         "accessibleContextResponse": {
-          "value": "{ $amount ->\n\n  [aLittle] A little\n *[aLot]    A lot\n} { $addedOrRemoved ->\n  [added]   added\n *[removed] removed\n}. Now\n{ $moreOrLessOrSame ->\n  [same] same amount of solute inside and outside.\n *[other] { $differenceSize ->\n    [aLittle] a little\n   *[aLot]    a lot\n  }\n  { $moreOrLessOrSame ->\n    [more] more\n   *[less] less\n  }\n  { a11y_solute }\n  { $directionality ->\n    [insideThanOutside] inside than outside\n   *[outsideThanInside] outside than inside\n  }.\n}    "
+          "value": "{ $amount ->\n\n  [aLittle] A little\n *[aLot]    A lot\n} { $addedOrRemoved ->\n  [added]   added\n *[removed] removed\n}. Now,\n{ $moreOrLessOrSameOrNone ->\n  [none] no { a11y_solute } outside or inside.\n  [same] same amount of solute inside and outside.\n *[other] { $differenceSize ->\n    [aLittle] a little\n   *[aLot]    a lot\n  }\n  { $moreOrLessOrSameOrNone ->\n    [more] more\n   *[less] less\n  }\n  { a11y_solute }\n  { $directionality ->\n    [insideThanOutside] inside than outside\n   *[outsideThanInside] outside than inside\n  }.\n}    "
         }
       },
       "soluteConcentrationsAccordionBox": {
@@ -464,7 +464,7 @@
           "value": "{ $objectResponse }, { $nameResponse }"
         },
         "accessibleObjectResponse": {
-          "value": "Above slot { $slotIndex } of { $slotCount }."
+          "value": "Above slot { $slotIndex } of { $slotCount }"
         },
         "empty": {
           "value": "empty"
