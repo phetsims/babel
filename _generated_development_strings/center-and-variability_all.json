@@ -9546,6 +9546,16 @@
       "noKicksLeftResponse": {
         "value": "No kicks left"
       },
+      "meanReadout": {
+        "accessibleParagraph": {
+          "value": "{$value ->\n[null] Mean = ?\n[1] Mean = 1 meter\n*[other] Mean = {$value} meters\n}"
+        }
+      },
+      "medianReadout": {
+        "accessibleParagraph": {
+          "value": "{$value ->\n[null] Median = ?\n[1] Median = 1 meter\n*[other] Median = {$value} meters\n}"
+        }
+      },
       "medianScreen": {
         "screenButtonsHelpText": {
           "value": "Kick soccer balls and explore data set to find value of median."
@@ -9742,11 +9752,20 @@
           "rangeAccessibleHelpText": {
             "value": "Predict and view range of kick distribution."
           },
+          "rangeAccessibleParagraph": {
+            "value": "{ $value ->\n[null] Range = ?\n[1] Range = 1 meter\n*[other] Range = { $value } meters\n}"
+          },
           "iqrAccessibleHelpText": {
             "value": "Predict and view IQR of kick distribution."
           },
+          "iqrAccessibleParagraph": {
+            "value": "{ $value ->\n[null] IQR = ?\n[1] IQR = 1 meter\n*[other] IQR = { $value } meters\n}"
+          },
           "madAccessibleHelpText": {
             "value": "Predict and view MAD of kick distribution."
+          },
+          "madAccessibleParagraph": {
+            "value": "{ $value ->\n[null] MAD = ?\n[1] MAD = 1 meter\n*[other] MAD = { $value } meters\n}"
           }
         },
         "rangeCheckbox": {
