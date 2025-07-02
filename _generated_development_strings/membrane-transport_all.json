@@ -376,6 +376,9 @@
       "soluteCapitalized": {
         "value": "{ $soluteType ->\n  [oxygen]        Oxygen Molecules\n  [carbonDioxide] Carbon Dioxide molecules\n  [sodiumIon]     Sodium Ions\n  [potassiumIon]  Potassium Ions\n  [glucose]       Glucose Molecules\n *[atp]           Atp Molecules\n}"
       },
+      "soluteBrief": {
+        "value": "{ $soluteType ->\n  [oxygen]        Oxygen\n  [carbonDioxide] Carbon Dioxide\n  [sodiumIon]     Sodium\n  [potassiumIon]  Potassium\n  [glucose]       Glucose\n *[atp]           Atp\n}"
+      },
       "soluteControl": {
         "outside": {
           "accessibleName": {
@@ -415,12 +418,18 @@
             "value": "{ a11y_soluteCapitalized }: { a11y_soluteConcentrationsAccordionBox_barChart_comparison }; { a11y_soluteConcentrationsAccordionBox_barChart_crossing }."
           },
           "comparison": {
-            "value": "{ $amount ->\n  *[none]  none\n  [equal] Amounts exactly equal outside and inside\n  [manyMoreOutside] many more outside than inside \n  [aboutTwiceAsManyOutside] about twice as many outside as inside\n  [someMoreOutside] some more outside than inside\n  [roughlyEqualOutside] roughly equal, more outside than inside\n  [manyMoreInside] many more inside than outside\n  [aboutTwiceAsManyInside] about twice as many inside as outside\n  [someMoreInside] some more inside than outside\n  [roughlyEqualInside] roughly equal, more inside than outside\n}"
+            "value": "{ $amount ->\n  *[none]  none\n  [equal] Amounts exactly equal outside and inside\n  [manyMoreOutside] many more outside than inside \n  [aboutTwiceAsManyOutside] about twice as many outside as inside\n  [someMoreOutside] some more outside than inside\n  [roughlyEqualOutside] roughly equal amounts inside and outside\n  [manyMoreInside] many more inside than outside\n  [aboutTwiceAsManyInside] about twice as many inside as outside\n  [someMoreInside] some more inside than outside\n  [roughlyEqualInside] roughly equal amounts inside and outside\n}"
           },
           "crossing": {
             "value": "{ $crossing ->\n  *[none] no crossings\n  [inside] crossings in\n  [outside] crossings out\n  [both] crossings in and out\n}"
           }
         }
+      },
+      "crossingInitialResponse": {
+        "value": "{ a11y_soluteCapitalized } crossing membrane, { a11y_soluteConcentrationsAccordionBox_barChart_comparison }"
+      },
+      "crossingSubsequentResponse": {
+        "value": "{ a11y_soluteBrief }, { a11y_soluteConcentrationsAccordionBox_barChart_comparison }"
       },
       "ligandToggleButton": {
         "accessibleHelpText": {
