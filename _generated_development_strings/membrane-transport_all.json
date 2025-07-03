@@ -425,11 +425,22 @@
           }
         }
       },
-      "crossingInitialResponse": {
-        "value": "{ a11y_soluteCapitalized } crossing membrane, { a11y_soluteConcentrationsAccordionBox_barChart_comparison }"
-      },
-      "crossingSubsequentResponse": {
-        "value": "{ a11y_soluteBrief }, { a11y_soluteConcentrationsAccordionBox_barChart_comparison }"
+      "soluteCrossing": {
+        "initialResponse": {
+          "value": "{ a11y_soluteCapitalized } crossing membrane, { a11y_soluteConcentrationsAccordionBox_barChart_comparison }."
+        },
+        "subsequentResponse": {
+          "value": "{ a11y_soluteBrief }, { a11y_soluteConcentrationsAccordionBox_barChart_comparison }."
+        },
+        "inBalanceResponse": {
+          "value": "{ a11y_soluteCapitalized } crossing steadily in both directions, now roughly equal."
+        },
+        "manyTypesResponse": {
+          "value": "Many solute types crossing membrane."
+        },
+        "manyTypesInBalanceResponse": {
+          "value": "Many solutes types crossing steadily in both directions."
+        }
       },
       "ligandToggleButton": {
         "accessibleHelpText": {
@@ -451,7 +462,7 @@
         "grabbedResponse": {
           "value": "Grabbed."
         },
-        "offMembrane": {
+        "offMembraneResponse": {
           "value": "Off membrane"
         },
         "releasedReplacedResponse": {
