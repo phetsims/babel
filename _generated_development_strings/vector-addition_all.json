@@ -3585,7 +3585,7 @@
             "value": "There is an open graph area where you can add vectors and modify their position, magnitude, and direction, as well as explore the vectors’ sum."
           },
           "controlArea": {
-            "value": "Turn on vector sum, values, angles, and grid. Modify position of graph area origin. Switch between Cartesian and polar scenes, or reset the screen."
+            "value": "Turn on vector sum, values, angles, and grid. Display vector components. Modify position of graph area origin. Switch between Cartesian and polar scenes, or reset screen."
           },
           "currentDetails": {
             "value": "Currently, {{numberOfVectors}} vectors in graph area. {{sceneName}} scene selected."
@@ -3667,6 +3667,12 @@
         },
         "accessibleHelpText": {
           "value": "Show or hide vector sum in graph area."
+        },
+        "accessibleContextResponseChecked": {
+          "value": "Vector sum added to graph area."
+        },
+        "accessibleContextResponseUnchecked": {
+          "value": "Vector sum removed from graph area."
         }
       },
       "labSumCheckbox": {
