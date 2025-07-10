@@ -166,11 +166,11 @@
           "ligands": {
             "value": "2 added ligand types on outside only"
           },
-          "membranePotentialValue": {
-            "value": "{ $membranePotential ->\n  [-70] negative 70\n  [-50] negative 50\n  *[30] positive 30\n} millivolts"
+          "atpReacting": {
+            "value": "ATP reacting to form ADP and phosphate, which regularly fade away on the inside"
           },
           "membranePotential": {
-            "value": "membrane potential of { a11y_screenSummary_currentDetails_membranePotentialValue }"
+            "value": "membrane potential of { a11y_membranePotentialValue }"
           }
         },
         "interactionHint": {
@@ -350,6 +350,9 @@
           "value": "{ a11y_ligandNode_grabbedResponse } Space to release. Add transport proteins."
         }
       },
+      "membranePotentialValue": {
+        "value": "{ $membranePotential ->\n  [-70] negative 70\n  [-50] negative 50\n  *[30] positive 30\n} millivolts"
+      },
       "soluteAccessibleNames": {
         "oxygen": {
           "value": "Oxygen, O2, nonpolar, small"
@@ -456,6 +459,24 @@
       "cellMembrane": {
         "accessibleHeading": {
           "value": "Cell Membrane"
+        },
+        "accessibleHelpTextNoSolutesProteinsHidden": {
+          "value": "Look for Solute Controls to add and remove solute types."
+        },
+        "accessibleHelpTextWithSolutesProteinsHidden": {
+          "value": "Observe crossing solutes. Look for Solute Controls to add and remove solute types."
+        },
+        "accessibleHelpTextNoSolutesOrProteins": {
+          "value": "Membrane potential is { a11y_membranePotentialValue }. No proteins in membrane. Look for Transport Proteins and Solute Controls to add."
+        },
+        "accessibleHelpTextWithSolutesNoProteins": {
+          "value": "Membrane potential is { a11y_membranePotentialValue }. No proteins in membrane. Observe crossing solutes. Look for transport proteins to add."
+        },
+        "accessibleHelpTextWithProteinsNoSolutes": {
+          "value": "Membrane potential is { a11y_membranePotentialValue }. Proteins in membrane, {$typeCount ->\n[one] { $typeCount } type\n*[other] { $typeCount } types\n}. Look for Solute Controls to add or remove solutes types."
+        },
+        "accessibleHelpTextWithSolutesAndProteins": {
+          "value": "Membrane potential is { a11y_membranePotentialValue }. Proteins in membrane, {$typeCount ->\n[one] { $typeCount } type\n*[other] { $typeCount } types\n}. Observe crossing solutes and protein changes, grab protein to re-order or delete. Look for transport proteins to add."
         }
       },
       "transportProtein": {
