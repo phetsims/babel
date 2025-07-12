@@ -496,7 +496,7 @@
           "value": "Released. Back to initial slot."
         },
         "objectResponse": {
-          "value": "{ $openOrClosed ->\n  [open]   open\n *[closed] closed\n}, { $proteinIndex } of { $proteinCount } Proteins in Membrane"
+          "value": "{ $proteinIndex } of { $proteinCount } Proteins in Membrane"
         },
         "accessibleName": {
           "value": "{ $nameResponse }, { $objectResponse }"
