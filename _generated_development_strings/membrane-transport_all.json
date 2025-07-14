@@ -54,13 +54,13 @@
     "leakageChannels": {
       "value": "Leakage Channels"
     },
-    "NaPlusKPlusPump": {
+    "naPlusKPlusPump": {
       "value": "Na<sup>+</sup>/K<sup>+</sup><br>Pump"
     },
     "sodiumGlucoseCotransporter": {
       "value": "Na<sup>+</sup>/Glucose<br>Cotransporter"
     },
-    "membranePotential_mV": {
+    "membranePotentialMV": {
       "value": "Membrane Potential (mV)"
     },
     "charges": {
@@ -72,22 +72,22 @@
     "removeLigands": {
       "value": "Remove Ligands"
     },
-    "animateLipids": {
+    "animateLipids.label": {
       "value": "Animate Lipids"
     },
-    "animateLipidsDescription": {
+    "animateLipids.description": {
       "value": "Whether the phospholipids forming the cell membrane should be animated."
     },
-    "glucoseMetabolism": {
+    "glucoseMetabolism.label": {
       "value": "Glucose Metabolism"
     },
-    "glucoseMetabolismDescription": {
+    "glucoseMetabolism.description": {
       "value": "Glucose fades from the inside of the cell. Barcharts display constant high concentration of glucose inside the cell."
     },
-    "preferencesDialog.audio.sounds.stereoSounds": {
+    "preferencesDialog.audio.sounds.stereoSounds.label": {
       "value": "Stereo Sounds"
     },
-    "preferencesDialog.audio.sounds.stereoSoundsDescription": {
+    "preferencesDialog.audio.sounds.stereoSounds.description": {
       "value": "Emphasize solute transport direction by mapping sound to right (outside to inside) and left (inside to outside) channels."
     },
     "soluteConcentrations": {
@@ -382,6 +382,9 @@
       "soluteBrief": {
         "value": "{ $soluteType ->\n  [oxygen]        Oxygen\n  [carbonDioxide] Carbon Dioxide\n  [sodiumIon]     Sodium\n  [potassiumIon]  Potassium\n  [glucose]       Glucose\n *[atp]           Atp\n}"
       },
+      "soluteComparison": {
+        "value": "{ $amount ->\n  *[none]  none\n  [equal] amounts exactly equal outside and inside\n  [allOutside] all outside, none inside\n  [allInside] all inside, none outside\n  [manyMoreOutside] many more outside than inside \n  [aboutTwiceAsManyOutside] about twice as many outside as inside\n  [someMoreOutside] some more outside than inside\n  [roughlyEqualOutside] roughly equal amounts inside and outside\n  [manyMoreInside] many more inside than outside\n  [aboutTwiceAsManyInside] about twice as many inside as outside\n  [someMoreInside] some more inside than outside\n  [roughlyEqualInside] roughly equal amounts inside and outside\n}"
+      },
       "soluteControl": {
         "outside": {
           "accessibleName": {
@@ -409,7 +412,7 @@
           "value": "{ $amount ->\n  [none] no\n  [few] a few\n  [some] some\n  [smallAmount] small amount of\n  [several] several\n  [many] many\n  [largeAmount] large amount of\n  [hugeAmount] huge amount of\n *[maxAmount] max amount of\n} { a11y_solute }"
         },
         "accessibleContextResponse": {
-          "value": "{ $amount ->\n\n  [aLittle] A little\n *[aLot]    A lot\n} { $addedOrRemoved ->\n  [added]   added\n *[removed] removed\n}. Now,\n{ $moreOrLessOrSameOrNone ->\n  [none] no { a11y_solute } outside or inside.\n  [same] same amount of solute inside and outside.\n *[other] { $differenceSize ->\n    [aLittle] a little\n   *[aLot]    a lot\n  }\n  { $moreOrLessOrSameOrNone ->\n    [more] more\n   *[less] less\n  }\n  { a11y_solute }\n  { $directionality ->\n    [insideThanOutside] inside than outside\n   *[outsideThanInside] outside than inside\n  }.\n}    "
+          "value": "{ $amountAdded ->\n  [aLittle] A little\n *[aLot]    A lot\n} { $addedOrRemoved ->\n  [added]   added\n *[removed] removed\n}. Now, { a11y_soluteComparison }. "
         }
       },
       "soluteConcentrationsAccordionBox": {
@@ -418,10 +421,7 @@
         },
         "barChart": {
           "accessibleName": {
-            "value": "{ a11y_soluteCapitalized }: { a11y_soluteConcentrationsAccordionBox_barChart_comparison }; { a11y_soluteConcentrationsAccordionBox_barChart_crossing }."
-          },
-          "comparison": {
-            "value": "{ $amount ->\n  *[none]  none\n  [equal] Amounts exactly equal outside and inside\n  [allOutside] all outside, none inside\n  [allInside] all inside, none outside\n  [manyMoreOutside] many more outside than inside \n  [aboutTwiceAsManyOutside] about twice as many outside as inside\n  [someMoreOutside] some more outside than inside\n  [roughlyEqualOutside] roughly equal amounts inside and outside\n  [manyMoreInside] many more inside than outside\n  [aboutTwiceAsManyInside] about twice as many inside as outside\n  [someMoreInside] some more inside than outside\n  [roughlyEqualInside] roughly equal amounts inside and outside\n}"
+            "value": "{ a11y_soluteCapitalized }: { a11y_soluteComparison }; { a11y_soluteConcentrationsAccordionBox_barChart_crossing }."
           },
           "crossing": {
             "value": "{ $crossing ->\n  *[none] no crossings\n  [inside] crossings in\n  [outside] crossings out\n  [both] crossings in and out\n}"
@@ -430,10 +430,10 @@
       },
       "soluteCrossing": {
         "initialResponse": {
-          "value": "{ a11y_soluteCapitalized } crossing membrane, { a11y_soluteConcentrationsAccordionBox_barChart_comparison }."
+          "value": "{ a11y_soluteCapitalized } crossing membrane, { a11y_soluteComparison }."
         },
         "subsequentResponse": {
-          "value": "{ a11y_soluteBrief }, { a11y_soluteConcentrationsAccordionBox_barChart_comparison }."
+          "value": "{ a11y_soluteBrief }, { a11y_soluteComparison }."
         },
         "inBalanceResponse": {
           "value": "{ a11y_soluteCapitalized } crossing steadily in both directions, now roughly equal."
