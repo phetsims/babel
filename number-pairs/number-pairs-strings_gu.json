@@ -99,13 +99,416 @@
     ]
   },
   "keyboardHelpDialog.countingObjectOrBead": {
-    "value": "સફરજન, અંક કે બીડ",
+    "value": "સફરજન, અંક કે મણકો",
     "history": [
       {
         "userId": 1057318,
         "timestamp": 1752475614549,
         "oldValue": "",
         "newValue": "સફરજન, અંક કે બીડ"
+      },
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "સફરજન, અંક કે બીડ",
+        "newValue": "સફરજન, અંક કે મણકો",
+        "explanation": null
+      }
+    ]
+  },
+  "addends": {
+    "value": "અંત ઉમેરો",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "અંત ઉમેરો"
+      }
+    ]
+  },
+  "automaticallyHearPhrase": {
+    "value": "વર્ણન સાંભળો.",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "વર્ણન સાંભળો."
+      }
+    ]
+  },
+  "automaticallyHearPhraseDescription": {
+    "value": "તમે આપેલા પ્રેતીભાવોનું વર્ણન સ્વયમ સંચાલિત રીતે સાંભળો",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "તમે આપેલા પ્રેતીભાવોનું વર્ણન સ્વયમ સંચાલિત રીતે સાંભળો"
+      }
+    ]
+  },
+  "decompositionPhrasePattern": {
+    "value": "<total>{{total}}</total> નાં બે ભાગ   <left>{{leftAddend}}</left> અને <right> {{rightAddend}}</right>છે.",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "<total>{{total}}</total> નાં બે ભાગ   <left>{{leftAddend}}</left> અને <right> {{rightAddend}}</right>છે."
+      }
+    ]
+  },
+  "decompositionPhraseSpeechPattern": {
+    "value": "{{total}}  નાં બે ભાગ  {{leftAddend}} અને {{rightAddend}} છે.",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "{{total}}  નાં બે ભાગ  {{leftAddend}} અને {{rightAddend}} છે."
+      }
+    ]
+  },
+  "keyboardHelpDialog.adjustObjectsTitle": {
+    "value": "રંગીન વસ્તુઓ સરખી કરો",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "રંગીન વસ્તુઓ સરખી કરો"
+      }
+    ]
+  },
+  "keyboardHelpDialog.bead": {
+    "value": "મણકો",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "મણકો"
+      }
+    ]
+  },
+  "keyboardHelpDialog.beadHeading": {
+    "value": "મણકો",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "મણકો"
+      }
+    ]
+  },
+  "keyboardHelpDialog.changeKittenColor": {
+    "value": "બચ્ચાનો રંગ બદલો",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "બચ્ચાનો રંગ બદલો"
+      }
+    ]
+  },
+  "keyboardHelpDialog.countingObjectOrBeadHeading": {
+    "value": "સફરજન, અંક કે મણકો",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "સફરજન, અંક કે મણકો"
+      }
+    ]
+  },
+  "keyboardHelpDialog.introScreen.moveGrabbableItemHeading": {
+    "value": "પકડેલી વસ્તુને ખસેડો",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "પકડેલી વસ્તુને ખસેડો"
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToFirstKitten": {
+    "value": "પ્રથમ બચ્ચા સુધી કુદકો લગાવો",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "પ્રથમ બચ્ચા સુધી કુદકો લગાવો"
+      }
+    ]
+  },
+  "keyboardHelpDialog.jumpToLastKitten": {
+    "value": "છેલ્લા બચ્ચા સુધી કુદકો લગાવો",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "છેલ્લા બચ્ચા સુધી કુદકો લગાવો"
+      }
+    ]
+  },
+  "keyboardHelpDialog.kittenSectionHeading": {
+    "value": "બચ્ચા સાથે ક્રિયા કરો",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "બચ્ચા સાથે ક્રિયા કરો"
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveBeadsToOppositeSide": {
+    "value": "મણકાને સામેની દિશામાં ખસેડો",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "મણકાને સામેની દિશામાં ખસેડો"
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveGrabbedObjectToOppositeSide": {
+    "value": "પકડેલી વસ્તુને સામેની દિશામાં ખસેડો",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "પકડેલી વસ્તુને સામેની દિશામાં ખસેડો"
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToLeftSidePattern": {
+    "value": "{{items}} ને ડાબી બાજુ ખસેડો",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "{{items}} ને ડાબી બાજુ ખસેડો"
+      }
+    ]
+  },
+  "keyboardHelpDialog.moveToRightSidePattern": {
+    "value": "Move grabbed {{items}} ને જમણી બાજુ ખસેડો",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "Move grabbed {{items}} ને જમણી બાજુ ખસેડો"
+      }
+    ]
+  },
+  "keyboardHelpDialog.numberOfObjects": {
+    "value": "વસ્તુની સંખ્યા",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "વસ્તુની સંખ્યા"
+      }
+    ]
+  },
+  "keyboardHelpDialog.object": {
+    "value": "વસ્તુ",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "વસ્તુ"
+      }
+    ]
+  },
+  "keyboardHelpDialog.objectHeading": {
+    "value": "વસ્તુ",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "વસ્તુ"
+      }
+    ]
+  },
+  "keyboardHelpDialog.sumScreen.moveGrabbableItemHeading": {
+    "value": "બચ્ચા અથવા મણકાને ખસેડો",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "બચ્ચા અથવા મણકાને ખસેડો"
+      }
+    ]
+  },
+  "keyboardHelpDialog.tenScreen.moveGrabbableItemHeading": {
+    "value": "બચ્ચા અથવા મણકાને ખસેડો",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "બચ્ચા અથવા મણકાને ખસેડો"
+      }
+    ]
+  },
+  "keyboardHelpDialog.twentyScreen.moveGrabbableItemHeading": {
+    "value": "પકડેલી વસ્તુને ગણતરી વિસ્તારમાં ખસેડો",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "પકડેલી વસ્તુને ગણતરી વિસ્તારમાં ખસેડો"
+      }
+    ]
+  },
+  "numberBond": {
+    "value": "સંખ્યાનું જોડાણ",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "સંખ્યાનું જોડાણ"
+      }
+    ]
+  },
+  "numberModelType": {
+    "value": "સંખ્યા - મોડેલ પ્રકારો",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "સંખ્યા - મોડેલ પ્રકારો"
+      }
+    ]
+  },
+  "numberModelTypeDescription": {
+    "value": "સંખ્યાનું જોડાણ શીખવા માટે પરંપરાગત કે બાર મોડેલ માંથી પસંદગી કરો.",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "સંખ્યાનું જોડાણ શીખવા માટે પરંપરાગત કે બાર મોડેલ માંથી પસંદગી કરો."
+      }
+    ]
+  },
+  "phrase": {
+    "value": "વર્ણન",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "વર્ણન"
+      }
+    ]
+  },
+  "someNumber": {
+    "value": "some number",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "some number"
+      }
+    ]
+  },
+  "sumPhrasePattern": {
+    "value": "<left>{{leftAddend}}</left> માં  <right>{{rightAddend}}</right> ઉમેરતા  <total>{{total}}</total> મળે.",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "<left>{{leftAddend}}</left> માં  <right>{{rightAddend}}</right> ઉમેરતા  <total>{{total}}</total> મળે."
+      }
+    ]
+  },
+  "sumPhraseSpeechPattern": {
+    "value": "{{leftAddend}} વતા  {{rightAddend}} બરાબર {{total}}",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "{{leftAddend}} વતા  {{rightAddend}} બરાબર {{total}}"
+      }
+    ]
+  },
+  "sumScreenNumberModelOrientation": {
+    "value": "Sum Screen Number Model Orientation",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "Sum Screen Number Model Orientation"
+      }
+    ]
+  },
+  "sumScreenNumberModelOrientationDescription": {
+    "value": "On the sum screen only, this changes the orientation of the total in the number decomposition model.",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "On the sum screen only, this changes the orientation of the total in the number decomposition model."
+      }
+    ]
+  },
+  "tickNumbers": {
+    "value": "સંખ્યા પસંદ કરો.",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "સંખ્યા પસંદ કરો."
+      }
+    ]
+  },
+  "total": {
+    "value": "કુલ",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "કુલ"
+      }
+    ]
+  },
+  "totalJump": {
+    "value": "કુલ કુદકા",
+    "history": [
+      {
+        "userId": 1057318,
+        "timestamp": 1752477494890,
+        "oldValue": "",
+        "newValue": "કુલ કુદકા"
       }
     ]
   }
