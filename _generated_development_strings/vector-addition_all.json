@@ -3666,26 +3666,23 @@
           "value": "Vector Sum"
         },
         "accessibleHelpText": {
-          "value": "Show or hide vector sum in graph area."
+          "value": "Show or hide vector {{sumVectorSymbol}}."
         },
         "accessibleContextResponseChecked": {
-          "value": "Vector sum added to graph area."
+          "value": "Vector {{sumVectorSymbol}} shown in graph area."
         },
         "accessibleContextResponseUnchecked": {
-          "value": "Vector sum removed from graph area."
+          "value": "Vector {{sumVectorSymbol}} hidden in graph area."
         }
       },
       "labSumCheckbox": {
         "accessibleName": {
-          "value": "Vector sum for set {{symbol}}, {{symbol}} sub v"
+          "value": "Vector Sum for Set {{vectorSetSymbol}}"
         }
       },
       "equationsSumCheckbox": {
         "accessibleName": {
-          "value": "Vector {{symbol}}"
-        },
-        "accessibleHelpText": {
-          "value": "Show or hide vector {{symbol}} in graph area."
+          "value": "Vector {{vectorSymbol}}"
         }
       },
       "valuesCheckbox": {
@@ -3817,6 +3814,9 @@
         "accessibleParagraph": {
           "value": "For vector {{symbol}}, magnitude is {{magnitude}}, direction is {{direction}} degrees from positive x-axis, x-component is {{xComponent}}, y-component is {{yComponent}}."
         }
+      },
+      "symbolWithSubscriptDescription": {
+        "value": "{{symbol}} sub {{subscript}}"
       }
     }
   }
