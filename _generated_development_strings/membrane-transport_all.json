@@ -82,7 +82,7 @@
       "value": "Glucose Metabolism"
     },
     "glucoseMetabolism.description": {
-      "value": "Glucose fades from the inside of the cell. Barcharts display constant high concentration of glucose inside the cell."
+      "value": "Glucose fades and is removed from the inside of the cell simulating conversion for cellular metabolism."
     },
     "preferencesDialog.audio.sounds.stereoSounds.label": {
       "value": "Stereo Sounds"
@@ -385,6 +385,9 @@
       "soluteComparison": {
         "value": "{ $amount ->\n  *[none]  none\n  [equal] amounts exactly equal outside and inside\n  [allOutside] all outside, none inside\n  [allInside] all inside, none outside\n  [manyMoreOutside] many more outside than inside \n  [aboutTwiceAsManyOutside] about twice as many outside as inside\n  [someMoreOutside] some more outside than inside\n  [roughlyEqualOutside] roughly equal amounts inside and outside\n  [manyMoreInside] many more inside than outside\n  [aboutTwiceAsManyInside] about twice as many inside as outside\n  [someMoreInside] some more inside than outside\n  [roughlyEqualInside] roughly equal amounts inside and outside\n}"
       },
+      "soluteAverageCrossingDirection": {
+        "value": "{ $direction ->\n  [toOutside] to outside\n  [mostlyToOutside] mostly to outside\n  [inBothDirections] in both directions\n  [mostlyToInside] mostly to inside\n  [toInside] to inside\n  *[none] no recent crossings\n}"
+      },
       "soluteControl": {
         "outside": {
           "accessibleName": {
@@ -421,7 +424,7 @@
         },
         "barChart": {
           "accessibleName": {
-            "value": "{ a11y_soluteCapitalized }: { a11y_soluteComparison }; { a11y_soluteConcentrationsAccordionBox_barChart_crossing }."
+            "value": "{ a11y_soluteCapitalized }: { a11y_soluteComparison }; { a11y_soluteAverageCrossingDirection } happening at membrane; currently { $outsideAmount ->\n  [none] none\n  [few] a few\n  [some] some\n  [smallAmount] small amount of\n  [several] several\n  [many] many\n  [largeAmount] large amount of\n  [hugeAmount] huge amount of\n *[maxAmount] max amount of\n} outside, { $insideAmount ->\n  [none] none\n  [few] a few\n  [some] some\n  [smallAmount] small amount of\n  [several] several\n  [many] many\n  [largeAmount] large amount of\n  [hugeAmount] huge amount of\n *[maxAmount] max amount of\n} inside."
           },
           "crossing": {
             "value": "{ $crossing ->\n  *[none] no crossings\n  [inside] crossings in\n  [outside] crossings out\n  [both] crossings in and out\n}"
