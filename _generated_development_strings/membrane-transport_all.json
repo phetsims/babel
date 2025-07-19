@@ -234,6 +234,9 @@
           },
           "potassiumIonKPlusLigandGated": {
             "value": "Potassium-selective, Ligand-gated"
+          },
+          "accessibleHelpText": {
+            "value": "Transmembrane single channel proteins with open and closed states, and a triangle- or star-shaped ligand binding site. Grab to pull to protein."
           }
         },
         "leakageChannelPanel": {
@@ -242,6 +245,9 @@
           },
           "potassiumIonKPlusLeakage": {
             "value": "Potassium-selective, Leakage"
+          },
+          "accessibleHelpText": {
+            "value": "Transmembrane single channel proteins, always open. Grab to pull to membrane."
           }
         },
         "voltageGatedChannelPanel": {
@@ -250,6 +256,9 @@
           },
           "potassiumIonKPlusVoltageGated": {
             "value": "Potassium-selective, Voltage-gated"
+          },
+          "accessibleHelpText": {
+            "value": "Transmembrane single channel proteins with open and closed states. Grab to pull to protein."
           },
           "membranePotential": {
             "radioButtonGroup": {
@@ -305,7 +314,7 @@
             "value": "Sodium-Glucose Cotransporter"
           },
           "accessibleHelpText": {
-            "value": "Grab transporter to pull to membrane."
+            "value": "Proteins that open to one side at a time and follow specific binding sequences of solutes to transport solutes across the membrane. Grab to pull to membrane.\n  Sodium Potassium Pump begins open to the inside with 3 small circular binding sites awaiting solute. A phosphate is required to change the shape of the protein and open to the outside. Two larger circular binding sites awaiting solute are exposed. The pump returns to its original shape, open to the inside.\n  Sodium-Glucose Cotransporter begins open to the outside with two small circular binding sites and one hexagonal binding site. Requires specific solute concentration outside cell to shuttle. Cotransporter changes shape to shuttle solutes to inside and returns to to original shape."
           }
         }
       },
@@ -514,7 +523,7 @@
           "value": "empty"
         },
         "briefName": {
-          "value": "{ $type ->\n  [sodiumIonLeakageChannel]         Sodium Ion, Leakage\n  [potassiumIonLeakageChannel]      Potassium Ion, Leakage\n  [sodiumIonVoltageGatedChannel]    Sodium Ion, Voltage-Gated\n  [potassiumIonVoltageGatedChannel] Potassium Ion, Voltage-Gated\n  [sodiumIonLigandGatedChannel]     Sodium Ion, Ligand-Gated\n  [potassiumIonLigandGatedChannel]  Potassium Ion, Ligand-Gated\n  [sodiumPotassiumPump]             Sodium Potassium Pump\n *[sodiumGlucoseCotransporter]      Sodium-Glucose Cotransporter\n}"
+          "value": "{ $type ->\n  [sodiumIonLeakageChannel]         Sodium-selective, Leakage\n  [potassiumIonLeakageChannel]      Potassium-selective, Leakage\n  [sodiumIonVoltageGatedChannel]    Sodium-selective, Voltage-Gated\n  [potassiumIonVoltageGatedChannel] Potassium-selective, Voltage-Gated\n  [sodiumIonLigandGatedChannel]     Sodium-selective, Ligand-Gated\n  [potassiumIonLigandGatedChannel]  Potassium-selective, Ligand-Gated\n  [sodiumPotassiumPump]             Sodium Potassium Pump\n *[sodiumGlucoseCotransporter]      Sodium-Glucose Cotransporter\n}"
         }
       },
       "membranePotential": {
