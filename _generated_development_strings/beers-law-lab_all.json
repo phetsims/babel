@@ -10718,10 +10718,21 @@
             "value": "Is a button to reset the screen."
           },
           "currentDetails": {
-            "value": "TODO.concentrationScreen.screenSummary.currentDetails"
+            "beakerEmpty": {
+              "value": "Currently, the beaker is empty."
+            },
+            "onlyWater": {
+              "value": "Currently, beaker contains water. Concentration is 0 mol/L."
+            },
+            "solutionConcentrationMeasured": {
+              "value": "Currently, beaker contains {{soluteName}} solution. Concentration is {{concentration}} {{units}}."
+            },
+            "solutionConcentrationNotMeasured": {
+              "value": "Currently, beaker contains {{soluteName}} solution. Concentration is unknown."
+            }
           },
           "interactionHint": {
-            "value": "Add solute to the water to start exploring."
+            "value": "Add solute to water to start exploring."
           }
         }
       },
@@ -10731,16 +10742,24 @@
         },
         "screenSummary": {
           "playArea": {
-            "value": "TODO.beersLawScreen.screenSummary.playArea"
+            "value": "Contains a light source aimed at a cuvette filled with solution, with adjustable type and concentration. Wavelength of light and size of the cuvette are adjustable. Transmittance or absorbance is measured using detector with a movable probe."
           },
           "controlArea": {
-            "value": "TODO.beersLawScreen.screenSummary.controlArea"
+            "value": "Is a ruler and a button to reset the screen."
           },
           "currentDetails": {
-            "value": "TODO.beersLawScreen.screenSummary.currentDetails"
+            "noMeasurement": {
+              "value": "Currently, light source is {{onOff}}, wavelength is {{wavelength}}, and cuvette contains a solution of {{concentration}} {{units}} {{solutionName}}."
+            },
+            "measuredTransmittance": {
+              "value": "Currently, light source is {{onOff}}, wavelength is {{wavelength}}, and cuvette contains a solution of {{concentration}} {{units}} {{solutionName}}. Measured transmittance is {{transmittance}}."
+            },
+            "measuredAbsorbance": {
+              "value": "Currently, light source is {{onOff}}, wavelength is {{wavelength}}, and cuvette contains a solution of {{concentration}} {{units}} {{solutionName}}. Measured absorbance is {{absorbance}}%."
+            }
           },
           "interactionHint": {
-            "value": "TODO.beersLawScreen.screenSummary.interactionHint"
+            "value": "Turn on light source to start exploring."
           }
         }
       },
@@ -10833,6 +10852,29 @@
       "lightToggleButton": {
         "accessibleName": {
           "value": "Light Toggle Button"
+        }
+      },
+      "unitsDescription": {
+        "centimeters": {
+          "value": "centimeters"
+        },
+        "centimeter": {
+          "value": "centimeter"
+        },
+        "molesPerLiter": {
+          "value": "moles per liter"
+        },
+        "molePerLiter": {
+          "value": "mole per liter"
+        },
+        "nanometers": {
+          "value": "nanometers"
+        },
+        "percentPlural": {
+          "value": "percent"
+        },
+        "percentSingular": {
+          "value": "percent"
         }
       }
     }
