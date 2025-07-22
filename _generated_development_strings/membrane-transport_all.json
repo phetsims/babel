@@ -236,7 +236,7 @@
             "value": "Potassium-selective, Ligand-gated"
           },
           "accessibleHelpText": {
-            "value": "Transmembrane single channel proteins with open and closed states, and a triangle- or star-shaped ligand binding site. Grab to pull to protein."
+            "value": "Transmembrane single channel proteins with open and closed states, and a triangle- or star-shaped ligand binding site. Grab to pull to membrane."
           }
         },
         "leakageChannelPanel": {
@@ -258,7 +258,7 @@
             "value": "Potassium-selective, Voltage-gated"
           },
           "accessibleHelpText": {
-            "value": "Transmembrane single channel proteins with open and closed states. Grab to pull to protein."
+            "value": "Transmembrane single channel proteins with open and closed states. Grab to pull to membrane."
           },
           "membranePotential": {
             "radioButtonGroup": {
@@ -314,7 +314,7 @@
             "value": "Sodium-Glucose Cotransporter"
           },
           "accessibleHelpText": {
-            "value": "Proteins that open to one side at a time and follow specific binding sequences of solutes to transport solutes across the membrane. Grab to pull to membrane.\n  Sodium Potassium Pump begins open to the inside with 3 small circular binding sites awaiting solute. A phosphate is required to change the shape of the protein and open to the outside. Two larger circular binding sites awaiting solute are exposed. The pump returns to its original shape, open to the inside.\n  Sodium-Glucose Cotransporter begins open to the outside with two small circular binding sites and one hexagonal binding site. Requires specific solute concentration outside cell to shuttle. Cotransporter changes shape to shuttle solutes to inside and returns to to original shape."
+            "value": "Proteins that open to one side at a time and follow specific solute binding sequences to transport solutes across membrane.\n  Sodium Potassium Pump, when open to inside has binding sites for 3 sodium and 1 phosphate. When open to outside has binding sites for 2 potassium.\n  Sodium-Glucose Cotransporter, only open to outside and has binding sites for 2 sodium and 1 glucose. Requires specific solute concentrations to shuttle.\n  Grab to pull to membrane."
           }
         }
       },
@@ -395,7 +395,7 @@
         "value": "{ $amount ->\n  *[none]  none\n  [equal] amounts exactly equal outside and inside\n  [allOutside] all outside, none inside\n  [allInside] all inside, none outside\n  [manyMoreOutside] many more outside than inside \n  [aboutTwiceAsManyOutside] about twice as many outside as inside\n  [someMoreOutside] some more outside than inside\n  [roughlyEqualOutside] roughly equal amounts inside and outside\n  [manyMoreInside] many more inside than outside\n  [aboutTwiceAsManyInside] about twice as many inside as outside\n  [someMoreInside] some more inside than outside\n  [roughlyEqualInside] roughly equal amounts inside and outside\n}"
       },
       "soluteAverageCrossingDirection": {
-        "value": "{ $direction ->\n  [toOutside] to outside\n  [mostlyToOutside] mostly to outside\n  [inBothDirections] in both directions\n  [mostlyToInside] mostly to inside\n  [toInside] to inside\n  *[none] no recent crossings\n}"
+        "value": "{ $direction ->\n  [toOutside] crossings to outside\n  [mostlyToOutside] crossings mostly to outside\n  [inBothDirections] crossings in both directions\n  [mostlyToInside] crossings mostly to inside\n  [toInside] crossings to inside\n  *[none] no recent crossings\n}"
       },
       "soluteControl": {
         "outside": {
@@ -433,7 +433,7 @@
         },
         "barChart": {
           "accessibleName": {
-            "value": "{ a11y_soluteCapitalized }: { a11y_soluteComparison }; { a11y_soluteAverageCrossingDirection } happening at membrane; currently { $outsideAmount ->\n  [none] none\n  [few] a few\n  [some] some\n  [smallAmount] small amount of\n  [several] several\n  [many] many\n  [largeAmount] large amount of\n  [hugeAmount] huge amount of\n *[maxAmount] max amount of\n} outside, { $insideAmount ->\n  [none] none\n  [few] a few\n  [some] some\n  [smallAmount] small amount of\n  [several] several\n  [many] many\n  [largeAmount] large amount of\n  [hugeAmount] huge amount of\n *[maxAmount] max amount of\n} inside."
+            "value": "{ a11y_soluteCapitalized }: { a11y_soluteComparison }; { a11y_soluteAverageCrossingDirection }; { $outsideAmount ->\n  [none] none\n  [few] a few\n  [some] some\n  [smallAmount] small amount\n  [several] several\n  [many] many\n  [largeAmount] large amount\n  [hugeAmount] huge amount\n *[maxAmount] max amount\n} outside, { $insideAmount ->\n  [none] none\n  [few] a few\n  [some] some\n  [smallAmount] small amount\n  [several] several\n  [many] many\n  [largeAmount] large amount\n  [hugeAmount] huge amount\n *[maxAmount] max amount\n} inside."
           },
           "crossing": {
             "value": "{ $crossing ->\n  *[none] no crossings\n  [inside] crossings in\n  [outside] crossings out\n  [both] crossings in and out\n}"
@@ -488,7 +488,7 @@
           "value": "Membrane potential is { a11y_membranePotentialValue }. Proteins in membrane, {$typeCount ->\n[one] { $typeCount } type\n*[other] { $typeCount } types\n}. Look for Solute Controls to add or remove solutes types."
         },
         "accessibleHelpTextWithSolutesAndProteins": {
-          "value": "Membrane potential is { a11y_membranePotentialValue }. Proteins in membrane, {$typeCount ->\n[one] { $typeCount } type\n*[other] { $typeCount } types\n}. Observe crossing solutes and protein changes, grab protein to re-order or delete. Look for transport proteins to add."
+          "value": "Membrane potential is { a11y_membranePotentialValue }. Proteins in membrane, {$typeCount ->\n[one] { $typeCount } type\n*[other] { $typeCount } types\n}. Observe crossing solutes and protein changes, grab protein to re-order or delete."
         }
       },
       "transportProtein": {
@@ -507,16 +507,25 @@
         "cancelledResponse": {
           "value": "Released. Back to initial slot."
         },
-        "objectResponse": {
+        "proteinLocation": {
           "value": "{ $proteinIndex } of { $proteinCount } Proteins in Membrane"
         },
         "accessibleName": {
-          "value": "{ $nameResponse }, { $objectResponse }"
+          "value": "{ $nameResponse }, { a11y_transportProtein_proteinLocation }"
         },
-        "accessibleNameReversed": {
-          "value": "{ $objectResponse }, { $nameResponse }"
+        "accessibleObjectResponseOpenClose": {
+          "value": "{ $state ->\n   [openToInsideEmpty] open to inside\n   [openToInsideSodiumBound] open to inside\n   [openToInsideSodiumAndATPBound] open to inside\n   [openToInsideSodiumAndPhosphateBound] open to inside\n   [openToOutsideAwaitingPotassium] open to outside\n   [openToOutsidePotassiumBound] open to outside\n\n   [openToOutsideAwaitingParticles] open to outside \n   [openToOutsideAllParticlesBound] open to outside\n   [openToInside] open to inside\n\n   [closedNegative70mV] closed\n   [openNegative50mV] open \n   [closed30mV] closed\n\n   [closedNegative70mV] closed\n   [closedNegative50mV] closed\n   [open30mV] open\n\n\n   [ligandBoundClosed] closed\n   [ligandBoundOpen] open\n   [ligandUnboundOpen] open\n   [open] open \n   *[closed] closed                                           \n}"
         },
-        "accessibleObjectResponse": {
+        "accessibleParagraph": {
+          "value": "{ $state ->\n   [openToInsideEmpty] Awaiting sodium, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n   [openToInsideSodiumBound] 3 sodium bound, awaiting phosphate, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n   [openToInsideSodiumAndATPBound] ATP reacts, phosphate bound, pumping 3 sodium to outside, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n   [openToInsideSodiumAndPhosphateBound] Phosphate bound, pumping 3 sodium to outside, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n   [openToOutsideAwaitingPotassium] Awaiting potassium, phosphate still bound, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n   [openToOutsidePotassiumBound] Phosphate floating away, pumping 2 potassium to inside, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n\n   [openToOutsideAwaitingParticles] Awaiting sodium and glucose, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n   [openToOutsideAllParticlesBound] Sodium and glucose bound, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n   [openToInside] Pumping sodium and glucose to inside, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n\n   *[other] { a11y_transportProtein_accessibleObjectResponseOpenClose }\n}."
+        },
+        "accessibleContextResponse": {
+          "value": "{ $state ->\n   [openToInsideEmpty] Phosphate floats away, pumping 2 potassium to inside\n   [openToInsideSodiumAndATPBound] ATP reacts, phosphate binds, pumping 3 sodium to outside\n\n   *[openToInside] 2 sodium and 1 glucose shuttled to inside\n}."
+        },
+        "accessibleNameMoving": {
+          "value": "{ a11y_transportProtein_accessibleObjectResponseMoving }, { $nameResponse }"
+        },
+        "accessibleObjectResponseMoving": {
           "value": "Above slot { $slotIndex } of { $slotCount }"
         },
         "empty": {
