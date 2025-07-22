@@ -10749,13 +10749,13 @@
           },
           "currentDetails": {
             "noMeasurement": {
-              "value": "Currently, light source is {{onOff}}, wavelength is {{wavelength}}, and cuvette contains a solution of {{concentration}} {{units}} {{solutionName}}."
+              "value": "Currently, light source is {{onOff}}, wavelength is {{wavelength}} {{wavelengthUnits}}, and cuvette contains a solution of {{concentration}} {{concentrationUnits}} {{solutionName}}."
             },
             "measuredTransmittance": {
-              "value": "Currently, light source is {{onOff}}, wavelength is {{wavelength}}, and cuvette contains a solution of {{concentration}} {{units}} {{solutionName}}. Measured transmittance is {{transmittance}}."
+              "value": "Currently, light source is {{onOff}}, wavelength is {{wavelength}} {{wavelengthUnits}}, and cuvette contains a solution of {{concentration}} {{concentrationUnits}} {{solutionName}}. Measured transmittance is {{transmittance}} {{transmittanceUnits}}."
             },
             "measuredAbsorbance": {
-              "value": "Currently, light source is {{onOff}}, wavelength is {{wavelength}}, and cuvette contains a solution of {{concentration}} {{units}} {{solutionName}}. Measured absorbance is {{absorbance}}%."
+              "value": "Currently, light source is {{onOff}}, wavelength is {{wavelength}} {{wavelengthUnits}}, and cuvette contains a solution of {{concentration}} {{concentrationUnits}} {{solutionName}}. Measured absorbance is {{absorbance}}."
             }
           },
           "interactionHint": {
@@ -10854,12 +10854,30 @@
           "value": "Light Toggle Button"
         }
       },
+      "on": {
+        "value": "on"
+      },
+      "off": {
+        "value": "off"
+      },
       "unitsDescription": {
         "centimeters": {
           "value": "centimeters"
         },
         "centimeter": {
           "value": "centimeter"
+        },
+        "microMoles": {
+          "value": "micro moles"
+        },
+        "microMole": {
+          "value": "micro mole"
+        },
+        "milliMoles": {
+          "value": "milli moles"
+        },
+        "milliMole": {
+          "value": "milli mole"
         },
         "molesPerLiter": {
           "value": "moles per liter"
