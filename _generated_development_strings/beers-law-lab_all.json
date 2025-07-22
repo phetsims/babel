@@ -10725,13 +10725,13 @@
               "value": "Currently, the beaker contains {{soluteName}} particles."
             },
             "onlyWater": {
-              "value": "Currently, beaker contains water. Concentration is 0 mol/L."
+              "value": "Currently, beaker contains water. Concentration is 0 {{units}}."
             },
             "solutionConcentrationMeasured": {
-              "value": "Currently, beaker contains {{soluteName}} solution. Concentration is {{concentration}} {{units}}."
+              "value": "Currently, beaker contains {{soluteName}} solution. Concentration is {{concentration}} {{units}}. {{saturationSentence}}"
             },
             "solutionConcentrationNotMeasured": {
-              "value": "Currently, beaker contains {{soluteName}} solution. Concentration is unknown."
+              "value": "Currently, beaker contains {{soluteName}} solution. Concentration is unknown. {{saturationSentence}}"
             }
           },
           "interactionHint": {
@@ -10862,6 +10862,12 @@
       },
       "off": {
         "value": "off"
+      },
+      "solutionIsSaturated": {
+        "value": "Solution is saturated."
+      },
+      "solutionIsNotSaturated": {
+        "value": "Solution is not saturated."
       },
       "unitsDescription": {
         "centimeters": {
