@@ -432,7 +432,10 @@
           "value": "A barchart for each solute captures amounts on either side of membrane, recent crossings captured with visual highlights and sounds. If needed, pause sim to freeze details for reading."
         },
         "barChart": {
-          "accessibleName": {
+          "accessibleNameWithNoParticles": {
+            "value": "{ a11y_soluteCapitalized }: none outside, none inside."
+          },
+          "accessibleNameWithParticles": {
             "value": "{ a11y_soluteCapitalized }: { a11y_soluteComparison }; { a11y_soluteAverageCrossingDirection }; { $outsideAmount ->\n  [none] none\n  [few] a few\n  [some] some\n  [smallAmount] small amount\n  [several] several\n  [many] many\n  [largeAmount] large amount\n  [hugeAmount] huge amount\n *[maxAmount] max amount\n} outside, { $insideAmount ->\n  [none] none\n  [few] a few\n  [some] some\n  [smallAmount] small amount\n  [several] several\n  [many] many\n  [largeAmount] large amount\n  [hugeAmount] huge amount\n *[maxAmount] max amount\n} inside."
           },
           "crossing": {
