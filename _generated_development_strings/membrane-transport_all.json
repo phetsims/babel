@@ -392,7 +392,7 @@
         "value": "{ $soluteType ->\n  [oxygen]        Oxygen\n  [carbonDioxide] Carbon Dioxide\n  [sodiumIon]     Sodium\n  [potassiumIon]  Potassium\n  [glucose]       Glucose\n *[atp]           Atp\n}"
       },
       "soluteComparison": {
-        "value": "{ $amount ->\n  *[none]  none\n  [equal] amounts exactly equal outside and inside\n  [allOutside] all outside, none inside\n  [allInside] all inside, none outside\n  [manyMoreOutside] many more outside than inside \n  [aboutTwiceAsManyOutside] about twice as many outside as inside\n  [someMoreOutside] some more outside than inside\n  [roughlyEqualOutside] roughly equal amounts inside and outside\n  [manyMoreInside] many more inside than outside\n  [aboutTwiceAsManyInside] about twice as many inside as outside\n  [someMoreInside] some more inside than outside\n  [roughlyEqualInside] roughly equal amounts inside and outside\n}"
+        "value": "{ $amount ->\n  *[none]  none\n  [equal] amounts exactly equal outside and inside\n  [allOutside] all outside, none inside\n  [allInside] all inside, none outside\n  [manyManyMoreOutside] many many more outside than inside\n  [manyMoreOutside] many more outside than inside\n  [aboutTwiceAsManyOutside] about twice as many outside as inside\n  [alotMoreOutside] a lot more outside than inside\n  [someMoreOutside] some more outside than inside\n  [littleBitMoreOutside] a little bit more outside than inside\n  [roughlyEqualOutside] roughly equal amounts inside and outside\n  [manyManyMoreInside] many many more inside than outside\n  [manyMoreInside] many more inside than outside\n  [aboutTwiceAsManyInside] about twice as many inside as outside\n  [alotMoreInside] a lot more inside than outside\n  [someMoreInside] some more inside than outside\n  [littleBitMoreInside] a little bit more inside than outside\n  [roughlyEqualInside] roughly equal amounts inside and outside\n}"
       },
       "soluteAverageCrossingDirection": {
         "value": "{ $direction ->\n  [toOutside] crossings to outside\n  [mostlyToOutside] crossings mostly to outside\n  [inBothDirections] crossings in both directions\n  [mostlyToInside] crossings mostly to inside\n  [toInside] crossings to inside\n  *[none] no recent crossings\n}"
@@ -421,7 +421,7 @@
           "value": "solute adjuster"
         },
         "accessibleObjectResponse": {
-          "value": "{ $amount ->\n  [none] no\n  [few] a few\n  [some] some\n  [smallAmount] small amount of\n  [several] several\n  [many] many\n  [largeAmount] large amount of\n  [hugeAmount] huge amount of\n *[maxAmount] max amount of\n} { a11y_solute }"
+          "value": "{ $amount ->\n  [none] no\n  [few] a few\n  [some] some\n  [smallAmount] small amount of\n  [several] several\n  [many] many\n  [largeAmount] large amount\n  [hugeAmount] huge amount\n *[maxAmount] max amount of\n} { a11y_solute }"
         },
         "accessibleContextResponse": {
           "value": "{ $amountAdded ->\n  [aLittle] A little\n *[aLot]    A lot\n} { $addedOrRemoved ->\n  [added]   added\n *[removed] removed\n}. Now, { a11y_soluteComparison }. "
