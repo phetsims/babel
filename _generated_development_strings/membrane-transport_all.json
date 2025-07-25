@@ -18,86 +18,98 @@
     "solutes": {
       "value": "Solutes"
     },
-    "oxygen": {
-      "value": "O<sub>2</sub>"
+    "soluteNames": {
+      "oxygen": {
+        "value": "O<sub>2</sub>"
+      },
+      "carbonDioxide": {
+        "value": "CO<sub>2</sub>"
+      },
+      "sodiumIon": {
+        "value": "Na<sup>+</sup>"
+      },
+      "potassiumIon": {
+        "value": "K<sup>+</sup>"
+      },
+      "glucose": {
+        "value": "Glucose"
+      },
+      "atp": {
+        "value": "ATP"
+      }
     },
-    "carbonDioxide": {
-      "value": "CO<sub>2</sub>"
+    "cellRegions": {
+      "outside": {
+        "value": "Outside"
+      },
+      "inside": {
+        "value": "Inside"
+      }
     },
-    "sodiumIon": {
-      "value": "Na<sup>+</sup>"
+    "transportProteinPanel": {
+      "voltageGatedChannels": {
+        "value": "Voltage-gated Channels"
+      },
+      "ligandGatedChannels": {
+        "value": "Ligand-gated Channels"
+      },
+      "activeTransporters": {
+        "value": "Active Transporters"
+      },
+      "leakageChannels": {
+        "value": "Leakage Channels"
+      },
+      "naPlusKPlusPump": {
+        "value": "Na<sup>+</sup>/K<sup>+</sup><br>Pump"
+      },
+      "sodiumGlucoseCotransporter": {
+        "value": "Na<sup>+</sup>/Glucose<br>Cotransporter"
+      },
+      "membranePotentialMV": {
+        "value": "Membrane Potential (mV)"
+      },
+      "charges": {
+        "value": "Charges"
+      },
+      "addLigands": {
+        "value": "Add Ligands"
+      },
+      "removeLigands": {
+        "value": "Remove Ligands"
+      }
     },
-    "potassiumIon": {
-      "value": "K<sup>+</sup>"
+    "preferencesDialog": {
+      "animateLipids.label": {
+        "value": "Animate Lipids"
+      },
+      "animateLipids.description": {
+        "value": "Whether the phospholipids forming the cell membrane should be animated."
+      },
+      "glucoseMetabolism.label": {
+        "value": "Glucose Metabolism"
+      },
+      "glucoseMetabolism.description": {
+        "value": "Glucose fades and is removed from the inside of the cell simulating conversion for cellular metabolism."
+      },
+      "audio.sounds.stereoCrossingSounds.label": {
+        "value": "Stereo Crossing Sounds"
+      },
+      "audio.sounds.stereoCrossingSounds.description": {
+        "value": "Emphasize solute transport direction by mapping sound to right (outside to inside) and left (inside to outside) channels."
+      }
     },
-    "glucose": {
-      "value": "Glucose"
+    "barChart": {
+      "soluteConcentrations": {
+        "value": "Solute Concentrations"
+      }
     },
-    "atp": {
-      "value": "ATP"
-    },
-    "outside": {
-      "value": "Outside"
-    },
-    "inside": {
-      "value": "Inside"
-    },
-    "voltageGatedChannels": {
-      "value": "Voltage-gated Channels"
-    },
-    "ligandGatedChannels": {
-      "value": "Ligand-gated Channels"
-    },
-    "activeTransporters": {
-      "value": "Active Transporters"
-    },
-    "leakageChannels": {
-      "value": "Leakage Channels"
-    },
-    "naPlusKPlusPump": {
-      "value": "Na<sup>+</sup>/K<sup>+</sup><br>Pump"
-    },
-    "sodiumGlucoseCotransporter": {
-      "value": "Na<sup>+</sup>/Glucose<br>Cotransporter"
-    },
-    "membranePotentialMV": {
-      "value": "Membrane Potential (mV)"
-    },
-    "charges": {
-      "value": "Charges"
-    },
-    "addLigands": {
-      "value": "Add Ligands"
-    },
-    "removeLigands": {
-      "value": "Remove Ligands"
-    },
-    "animateLipids.label": {
-      "value": "Animate Lipids"
-    },
-    "animateLipids.description": {
-      "value": "Whether the phospholipids forming the cell membrane should be animated."
-    },
-    "glucoseMetabolism.label": {
-      "value": "Glucose Metabolism"
-    },
-    "glucoseMetabolism.description": {
-      "value": "Glucose fades and is removed from the inside of the cell simulating conversion for cellular metabolism."
-    },
-    "preferencesDialog.audio.sounds.stereoCrossingSounds.label": {
-      "value": "Stereo Crossing Sounds"
-    },
-    "preferencesDialog.audio.sounds.stereoCrossingSounds.description": {
-      "value": "Emphasize solute transport direction by mapping sound to right (outside to inside) and left (inside to outside) channels."
-    },
-    "soluteConcentrations": {
-      "value": "Solute Concentrations"
-    },
-    "crossingHighlights": {
-      "value": "Crossing Highlights"
-    },
-    "crossingSounds": {
-      "value": "Crossing Sounds"
+    "settings": {
+      "crossingHighlights": {
+        "value": "Crossing Highlights"
+      },
+      "crossingSounds": {
+        "value": "Crossing Sounds"
+      }
     },
     "a11y": {
       "simpleDiffusionScreen": {
@@ -202,26 +214,28 @@
           "value": "Disabled when no solutes have been added."
         }
       },
-      "crossingHighlightsCheckbox": {
-        "accessibleHelpText": {
-          "value": "Explore with or without visual highlights for solute crossings."
+      "settings": {
+        "crossingHighlightsCheckbox": {
+          "accessibleHelpText": {
+            "value": "Explore with or without visual highlights for solute crossings."
+          },
+          "accessibleContextResponseChecked": {
+            "value": "Visual highlights for solute crossings, on."
+          },
+          "accessibleContextResponseUnchecked": {
+            "value": "Visual highlights for solute crossings, off."
+          }
         },
-        "accessibleContextResponseChecked": {
-          "value": "Visual highlights for solute crossings, on."
-        },
-        "accessibleContextResponseUnchecked": {
-          "value": "Visual highlights for solute crossings, off."
-        }
-      },
-      "crossingSoundsCheckbox": {
-        "accessibleHelpText": {
-          "value": "Explore with or without unique sounds for solute crossings."
-        },
-        "accessibleContextResponseChecked": {
-          "value": "Solute crossing sounds on."
-        },
-        "accessibleContextResponseUnchecked": {
-          "value": "Solute crossing sounds off."
+        "crossingSoundsCheckbox": {
+          "accessibleHelpText": {
+            "value": "Explore with or without unique sounds for solute crossings."
+          },
+          "accessibleContextResponseChecked": {
+            "value": "Solute crossing sounds on."
+          },
+          "accessibleContextResponseUnchecked": {
+            "value": "Solute crossing sounds off."
+          }
         }
       },
       "transportProteinPanel": {
@@ -365,45 +379,47 @@
       "membranePotentialValue": {
         "value": "{ $membranePotential ->\n  [-70] negative 70\n  [-50] negative 50\n  *[30] positive 30\n} millivolts"
       },
-      "soluteAccessibleNames": {
-        "oxygen": {
-          "value": "Oxygen, O2, nonpolar, small"
+      "solutes": {
+        "lowercaseName": {
+          "value": "{ $soluteType ->\n  [oxygen]        oxygen molecules\n  [carbonDioxide] carbon dioxide molecules\n  [sodiumIon]     sodium ions\n  [potassiumIon]  potassium ions\n  [glucose]       glucose molecules\n *[atp]           ATP molecules\n}"
         },
-        "carbonDioxide": {
-          "value": "Carbon Dioxide, CO2, nonpolar, small"
+        "uppercaseName": {
+          "value": "{ $soluteType ->\n  [oxygen]        Oxygen Molecules\n  [carbonDioxide] Carbon Dioxide molecules\n  [sodiumIon]     Sodium Ions\n  [potassiumIon]  Potassium Ions\n  [glucose]       Glucose Molecules\n *[atp]           ATP Molecules\n}"
         },
-        "sodiumIon": {
-          "value": "Sodium Ion, Na, positive, small"
+        "briefName": {
+          "value": "{ $soluteType ->\n  [oxygen]        Oxygen\n  [carbonDioxide] Carbon Dioxide\n  [sodiumIon]     Sodium\n  [potassiumIon]  Potassium\n  [glucose]       Glucose\n *[atp]           ATP\n}"
         },
-        "potassiumIon": {
-          "value": "Potassium Ion, K, positive, small"
+        "amountComparison": {
+          "value": "{ $amount ->\n  *[none]  none\n  [equal] amounts exactly equal outside and inside\n  [allOutside] all outside, none inside\n  [allInside] all inside, none outside\n  [manyManyMoreOutside] many many more outside than inside\n  [manyMoreOutside] many more outside than inside\n  [aboutTwiceAsManyOutside] about twice as many outside as inside\n  [alotMoreOutside] a lot more outside than inside\n  [someMoreOutside] some more outside than inside\n  [littleBitMoreOutside] a little bit more outside than inside\n  [roughlyEqualOutside] roughly equal amounts inside and outside\n  [manyManyMoreInside] many many more inside than outside\n  [manyMoreInside] many more inside than outside\n  [aboutTwiceAsManyInside] about twice as many inside as outside\n  [alotMoreInside] a lot more inside than outside\n  [someMoreInside] some more inside than outside\n  [littleBitMoreInside] a little bit more inside than outside\n  [roughlyEqualInside] roughly equal amounts inside and outside\n}"
         },
-        "glucose": {
-          "value": "Glucose, hexagonal ring, large"
-        },
-        "atp": {
-          "value": "Adenosine Triphosphate, ATP, complex, large"
+        "averageCrossingDirection": {
+          "value": "{ $direction ->\n  [toOutside] crossings to outside\n  [mostlyToOutside] crossings mostly to outside\n  [inBothDirections] crossings in both directions\n  [mostlyToInside] crossings mostly to inside\n  [toInside] crossings to inside\n  *[none] no recent crossings\n}"
         }
       },
-      "solute": {
-        "value": "{ $soluteType ->\n  [oxygen]        oxygen molecules\n  [carbonDioxide] carbon dioxide molecules\n  [sodiumIon]     sodium ions\n  [potassiumIon]  potassium ions\n  [glucose]       glucose molecules\n *[atp]           ATP molecules\n}"
-      },
-      "soluteCapitalized": {
-        "value": "{ $soluteType ->\n  [oxygen]        Oxygen Molecules\n  [carbonDioxide] Carbon Dioxide molecules\n  [sodiumIon]     Sodium Ions\n  [potassiumIon]  Potassium Ions\n  [glucose]       Glucose Molecules\n *[atp]           Atp Molecules\n}"
-      },
-      "soluteBrief": {
-        "value": "{ $soluteType ->\n  [oxygen]        Oxygen\n  [carbonDioxide] Carbon Dioxide\n  [sodiumIon]     Sodium\n  [potassiumIon]  Potassium\n  [glucose]       Glucose\n *[atp]           Atp\n}"
-      },
-      "soluteComparison": {
-        "value": "{ $amount ->\n  *[none]  none\n  [equal] amounts exactly equal outside and inside\n  [allOutside] all outside, none inside\n  [allInside] all inside, none outside\n  [manyManyMoreOutside] many many more outside than inside\n  [manyMoreOutside] many more outside than inside\n  [aboutTwiceAsManyOutside] about twice as many outside as inside\n  [alotMoreOutside] a lot more outside than inside\n  [someMoreOutside] some more outside than inside\n  [littleBitMoreOutside] a little bit more outside than inside\n  [roughlyEqualOutside] roughly equal amounts inside and outside\n  [manyManyMoreInside] many many more inside than outside\n  [manyMoreInside] many more inside than outside\n  [aboutTwiceAsManyInside] about twice as many inside as outside\n  [alotMoreInside] a lot more inside than outside\n  [someMoreInside] some more inside than outside\n  [littleBitMoreInside] a little bit more inside than outside\n  [roughlyEqualInside] roughly equal amounts inside and outside\n}"
-      },
-      "soluteAverageCrossingDirection": {
-        "value": "{ $direction ->\n  [toOutside] crossings to outside\n  [mostlyToOutside] crossings mostly to outside\n  [inBothDirections] crossings in both directions\n  [mostlyToInside] crossings mostly to inside\n  [toInside] crossings to inside\n  *[none] no recent crossings\n}"
+      "solutesPanel": {
+        "oxygenRadioButton": {
+          "value": "Oxygen, O2, nonpolar, small"
+        },
+        "carbonDioxideRadioButton": {
+          "value": "Carbon Dioxide, CO2, nonpolar, small"
+        },
+        "sodiumIonRadioButton": {
+          "value": "Sodium Ion, Na, positive, small"
+        },
+        "potassiumIonRadioButton": {
+          "value": "Potassium Ion, K, positive, small"
+        },
+        "glucoseRadioButton": {
+          "value": "Glucose, hexagonal ring, large"
+        },
+        "atpRadioButton": {
+          "value": "Adenosine Triphosphate, ATP, complex, large"
+        }
       },
       "soluteControl": {
         "outside": {
           "accessibleName": {
-            "value": "{ a11y_soluteCapitalized } Outside Cell"
+            "value": "{ a11y_solutes_uppercaseName } Outside Cell"
           },
           "accessibleHelpText": {
             "value": "Adjust chosen solute amount on outside."
@@ -411,7 +427,7 @@
         },
         "inside": {
           "accessibleName": {
-            "value": "{ a11y_soluteCapitalized } Inside Cell"
+            "value": "{ a11y_solutes_uppercaseName } Inside Cell"
           },
           "accessibleHelpText": {
             "value": "Adjust chosen solute amount on inside."
@@ -424,10 +440,10 @@
           "value": "solute adjuster"
         },
         "accessibleObjectResponse": {
-          "value": "{ $amount ->\n  [none] no\n  [few] a few\n  [some] some\n  [smallAmount] small amount of\n  [several] several\n  [many] many\n  [largeAmount] large amount of\n  [hugeAmount] huge amount of\n *[maxAmount] max amount of\n} { a11y_solute }"
+          "value": "{ $amount ->\n  [none] no\n  [few] a few\n  [some] some\n  [smallAmount] small amount of\n  [several] several\n  [many] many\n  [largeAmount] large amount of\n  [hugeAmount] huge amount of\n *[maxAmount] max amount of\n} { a11y_solutes_lowercaseName }"
         },
         "accessibleContextResponse": {
-          "value": "{ $amountAdded ->\n  [aLittle] A little\n *[aLot]    A lot\n} { $addedOrRemoved ->\n  [added]   added\n *[removed] removed\n}. Now, { a11y_soluteComparison }. "
+          "value": "{ $amountAdded ->\n  [aLittle] A little\n *[aLot]    A lot\n} { $addedOrRemoved ->\n  [added]   added\n *[removed] removed\n}. Now, { a11y_solutes_amountComparison }. "
         }
       },
       "soluteConcentrationsAccordionBox": {
@@ -436,10 +452,10 @@
         },
         "barChart": {
           "accessibleNameWithNoParticles": {
-            "value": "{ a11y_soluteCapitalized }: none outside, none inside."
+            "value": "{ a11y_solutes_uppercaseName }: none outside, none inside."
           },
           "accessibleNameWithParticles": {
-            "value": "{ a11y_soluteCapitalized }: { a11y_soluteComparison }; { a11y_soluteAverageCrossingDirection }; { $outsideAmount ->\n  [none] none\n  [few] a few\n  [some] some\n  [smallAmount] small amount\n  [several] several\n  [many] many\n  [largeAmount] large amount\n  [hugeAmount] huge amount\n *[maxAmount] max amount\n} outside, { $insideAmount ->\n  [none] none\n  [few] a few\n  [some] some\n  [smallAmount] small amount\n  [several] several\n  [many] many\n  [largeAmount] large amount\n  [hugeAmount] huge amount\n *[maxAmount] max amount\n} inside."
+            "value": "{ a11y_solutes_uppercaseName }: { a11y_solutes_amountComparison }; { a11y_solutes_averageCrossingDirection }; { $outsideAmount ->\n  [none] none\n  [few] a few\n  [some] some\n  [smallAmount] small amount\n  [several] several\n  [many] many\n  [largeAmount] large amount\n  [hugeAmount] huge amount\n *[maxAmount] max amount\n} outside, { $insideAmount ->\n  [none] none\n  [few] a few\n  [some] some\n  [smallAmount] small amount\n  [several] several\n  [many] many\n  [largeAmount] large amount\n  [hugeAmount] huge amount\n *[maxAmount] max amount\n} inside."
           },
           "glucoseMetabolism": {
             "value": "Glucose disappears from inside as it is metabolized by the cell."
@@ -457,13 +473,13 @@
       },
       "soluteCrossing": {
         "initialResponse": {
-          "value": "{ a11y_soluteCapitalized } crossing membrane, { a11y_soluteComparison }."
+          "value": "{ a11y_solutes_uppercaseName } crossing membrane, { a11y_solutes_amountComparison }."
         },
         "subsequentResponse": {
-          "value": "{ a11y_soluteBrief }, { a11y_soluteComparison }."
+          "value": "{ a11y_solutes_briefName }, { a11y_solutes_amountComparison }."
         },
         "inBalanceResponse": {
-          "value": "{ a11y_soluteCapitalized } crossing steadily in both directions, now roughly equal."
+          "value": "{ a11y_solutes_uppercaseName } crossing steadily in both directions, now roughly equal."
         },
         "manyTypesResponse": {
           "value": "Many solute types crossing membrane."
