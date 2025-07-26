@@ -79,23 +79,33 @@
       }
     },
     "preferencesDialog": {
-      "animateLipids.label": {
-        "value": "Animate Lipids"
+      "animateLipids": {
+        "label": {
+          "value": "Animate Lipids"
+        },
+        "description": {
+          "value": "Whether the phospholipids forming the cell membrane should be animated."
+        }
       },
-      "animateLipids.description": {
-        "value": "Whether the phospholipids forming the cell membrane should be animated."
+      "glucoseMetabolism": {
+        "label": {
+          "value": "Glucose Metabolism"
+        },
+        "description": {
+          "value": "Glucose fades and is removed from the inside of the cell simulating conversion for cellular metabolism."
+        }
       },
-      "glucoseMetabolism.label": {
-        "value": "Glucose Metabolism"
-      },
-      "glucoseMetabolism.description": {
-        "value": "Glucose fades and is removed from the inside of the cell simulating conversion for cellular metabolism."
-      },
-      "audio.sounds.stereoCrossingSounds.label": {
-        "value": "Stereo Crossing Sounds"
-      },
-      "audio.sounds.stereoCrossingSounds.description": {
-        "value": "Emphasize solute transport direction by mapping sound to right (outside to inside) and left (inside to outside) channels."
+      "audio": {
+        "sounds": {
+          "stereoCrossingSounds": {
+            "label": {
+              "value": "Stereo Crossing Sounds"
+            },
+            "description": {
+              "value": "Emphasize solute transport direction by mapping sound to right (outside to inside) and left (inside to outside) channels."
+            }
+          }
+        }
       }
     },
     "soluteConcentrationsAccordionBox": {
@@ -465,27 +475,7 @@
           },
           "accessibleNameWithNoParticlesAndGlucoseMetabolism": {
             "value": "{ a11y_soluteConcentrationsAccordionBox_barChart_accessibleNameWithNoParticles } { a11y_soluteConcentrationsAccordionBox_barChart_glucoseMetabolism }"
-          },
-          "crossing": {
-            "value": "{ $crossing ->\n  *[none] no crossings\n  [inside] crossings in\n  [outside] crossings out\n  [both] crossings in and out\n}"
           }
-        }
-      },
-      "soluteCrossing": {
-        "initialResponse": {
-          "value": "{ a11y_solutes_uppercaseName } crossing membrane, { a11y_solutes_amountComparison }."
-        },
-        "subsequentResponse": {
-          "value": "{ a11y_solutes_briefName }, { a11y_solutes_amountComparison }."
-        },
-        "inBalanceResponse": {
-          "value": "{ a11y_solutes_uppercaseName } crossing steadily in both directions, now roughly equal."
-        },
-        "manyTypesResponse": {
-          "value": "Many solute types crossing membrane."
-        },
-        "manyTypesInBalanceResponse": {
-          "value": "Many solutes types crossing steadily in both directions."
         }
       },
       "ligandToggleButton": {
@@ -548,7 +538,7 @@
           "value": "{ $state ->\n   [openToInsideEmpty] open to inside\n   [openToInsideSodiumBound] open to inside\n   [openToInsideSodiumAndATPBound] open to inside\n   [openToInsideSodiumAndPhosphateBound] open to inside\n   [openToOutsideAwaitingPotassium] open to outside\n   [openToOutsidePotassiumBound] open to outside\n\n   [openToOutsideAwaitingParticles] open to outside \n   [openToOutsideAllParticlesBound] open to outside\n   [openToInside] open to inside\n\n   [closedNegative70mV] closed\n   [openNegative50mV] open \n   [closed30mV] closed\n\n   [closedNegative70mV] closed\n   [closedNegative50mV] closed\n   [open30mV] open\n\n   [ligandBoundClosed] closed\n   [ligandBoundOpen] open\n   [ligandUnboundOpen] open\n   [open] open \n   *[closed] closed                                           \n}"
         },
         "accessibleParagraph": {
-          "value": "{ $state ->\n   [openToInsideEmpty] Awaiting sodium, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n   [openToInsideSodiumBound] 3 sodium bound, awaiting phosphate, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n   [openToInsideSodiumAndATPBound] ATP reacts, phosphate bound, pumping 3 sodium to outside, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n   [openToInsideSodiumAndPhosphateBound] Phosphate bound, pumping 3 sodium to outside, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n   [openToOutsideAwaitingPotassium] Awaiting potassium, phosphate still bound, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n   [openToOutsidePotassiumBound] Phosphate floating away, pumping 2 potassium to inside, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n\n   [openToOutsideAwaitingParticles] Awaiting sodium and glucose, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n   [openToOutsideAllParticlesBound] Sodium and glucose bound, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n   [openToInside] Pumping sodium and glucose to inside, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n\n   [ligandBoundClosed] { $proteinType ->\n     [sodiumIonLigandGatedChannel] triangle shape ligand bound, closed channel through membrane \n     *[potassiumIonLigandGatedChannel] star shape ligand bound, closed channel through membrane\n   }\n   [ligandBoundOpen] { $proteinType ->\n     [sodiumIonLigandGatedChannel] triangle shape ligand bound, open channel through membrane \n     *[potassiumIonLigandGatedChannel] star shape ligand bound, open channel through membrane\n   }\n   [ligandUnboundOpen] { $proteinType ->\n     [sodiumIonLigandGatedChannel] no triangle shape ligand bound, open channel through membrane \n     *[potassiumIonLigandGatedChannel] no star shape ligand bound, open channel through membrane\n   }\n\n   [closedNegative70mV] closed channel through membrane at -70 mV\n   [openNegative50mV] open channel through membrane at -50 mV\n   [closed30mV] closed channel through membrane at 30 mV\n\n   [closedNegative70mV] closed channel through membrane at -70 mV\n   [closedNegative50mV] closed channel through membrane at -50 mV\n   [open30mV] open channel through membrane at 30 mV\n\n   [open] open channel through membrane\n   [closed] { $proteinType ->\n     [sodiumIonLigandGatedChannel] no triangle shape ligand bound, closed channel through membrane \n     [potassiumIonLigandGatedChannel] no star shape ligand bound, closed channel through membrane\n     \n     *[other] { a11y_transportProtein_accessibleObjectResponseOpenClose }\n   }\n\n   *[other] { a11y_transportProtein_accessibleObjectResponseOpenClose }\n}."
+          "value": "{ $state ->\n   [openToInsideEmpty] Awaiting sodium, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n   [openToInsideSodiumBound] 3 sodium bound, awaiting phosphate, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n   [openToInsideSodiumAndATPBound] ATP reacts, phosphate bound, pumping 3 sodium to outside, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n   [openToInsideSodiumAndPhosphateBound] Phosphate bound, pumping 3 sodium to outside, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n   [openToOutsideAwaitingPotassium] Awaiting potassium, phosphate still bound, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n   [openToOutsidePotassiumBound] Phosphate floating away, pumping 2 potassium to inside, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n\n   [openToOutsideAwaitingParticles] Awaiting sodium and glucose, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n   [openToOutsideAllParticlesBound] Sodium and glucose bound, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n   [openToInside] Pumping sodium and glucose to inside, { a11y_transportProtein_accessibleObjectResponseOpenClose }\n\n   [ligandBoundClosed] { $proteinType ->\n     [sodiumIonLigandGatedChannel] triangle shape ligand bound, closed channel through membrane \n     *[potassiumIonLigandGatedChannel] star shape ligand bound, closed channel through membrane\n   }\n   [ligandBoundOpen] { $proteinType ->\n     [sodiumIonLigandGatedChannel] triangle shape ligand bound, open channel through membrane \n     *[potassiumIonLigandGatedChannel] star shape ligand bound, open channel through membrane\n   }\n   [ligandUnboundOpen] { $proteinType ->\n     [sodiumIonLigandGatedChannel] no triangle shape ligand bound, open channel through membrane \n     *[potassiumIonLigandGatedChannel] no star shape ligand bound, open channel through membrane\n   }\n\n   [closedNegative70mV] closed channel through membrane at -70 mV\n   [openNegative50mV] open channel through membrane at -50 mV\n   [closed30mV] closed channel through membrane at 30 mV\n\n   [closedNegative70mV] closed channel through membrane at -70 mV\n   [closedNegative50mV] closed channel through membrane at -50 mV\n   [open30mV] open channel through membrane at 30 mV\n\n   [open] open channel through membrane\n   [closed] { $proteinType ->\n     [sodiumIonLigandGatedChannel] no triangle shape ligand bound, closed channel through membrane \n     [potassiumIonLigandGatedChannel] no star shape ligand bound, closed channel through membrane\n\n     *[other] { a11y_transportProtein_accessibleObjectResponseOpenClose }\n   }\n\n   *[other] { a11y_transportProtein_accessibleObjectResponseOpenClose }\n}."
         },
         "accessibleContextResponse": {
           "value": "{ $state ->\n   [openToInsideEmpty] Phosphate floats away, pumping 2 potassium to inside\n   [openToInsideSodiumAndATPBound] ATP reacts, phosphate binds, pumping 3 sodium to outside\n\n   *[openToInside] 2 sodium and 1 glucose shuttled to inside\n}."
