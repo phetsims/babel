@@ -9889,7 +9889,24 @@
       "ratioCheckboxAccessibleName": {
         "value": "H 3 O Plus To O H Minus Ratio"
       },
+      "pHMeter": {
+        "heading": {
+          "value": "pH Meter"
+        },
+        "description": {
+          "value": "pH meter vertical scale starts at zero and climbs to 14. The bottom half is labeled acidic and top half is labeled basic."
+        },
+        "pHValuePattern": {
+          "value": "pH is {{pHValue}}, {{pHDescription}}"
+        }
+      },
       "probe": {
+        "accessibleName": {
+          "value": "pH Probe"
+        },
+        "accessibleHelpText": {
+          "value": "Move probe or hop to special location with keyboard shortcuts."
+        },
         "accessibleObjectResponses": {
           "insideBeaker": {
             "value": "Inside beaker"
@@ -9906,6 +9923,117 @@
           "outsideBeaker": {
             "value": "Outside beaker"
           }
+        }
+      },
+      "beakerControls": {
+        "accessibleHeading": {
+          "value": "Beaker Controls"
+        },
+        "soluteComboBox": {
+          "accessibleName": {
+            "value": "Solution: {{solute}}"
+          },
+          "accessibleHelpText": {
+            "value": "Choose everyday liquid for dropper."
+          },
+          "batteryAcidAccessibleName": {
+            "value": "Battery Acid, bright yellow"
+          },
+          "bloodAccessibleName": {
+            "value": "Blood, red"
+          },
+          "chickenSoupAccessibleName": {
+            "value": "Chicken Soup, dark yellow"
+          },
+          "coffeeAccessibleName": {
+            "value": "Coffee, brown"
+          },
+          "drainCleanerAccessibleName": {
+            "value": "Drain Cleaner, bright yellow"
+          },
+          "handSoapAccessibleName": {
+            "value": "Hand Soap, lavender"
+          },
+          "milkAccessibleName": {
+            "value": "Milk, white"
+          },
+          "orangeJuiceAccessibleName": {
+            "value": "Orange Juice, orange"
+          },
+          "sodaPopAccessibleName": {
+            "value": "Soda Pop, lime green"
+          },
+          "spitAccessibleName": {
+            "value": "Spit, colorless"
+          },
+          "vomitAccessibleName": {
+            "value": "Vomit, salmon"
+          },
+          "waterAccessibleName": {
+            "value": "Water, colorless"
+          }
+        },
+        "dropper": {
+          "accessibleName": {
+            "value": "{{solute}} Dropper"
+          },
+          "accessibleHelpText": {
+            "value": "Add solution to beaker."
+          },
+          "accessibleContextResponse": {
+            "value": "dispensing"
+          }
+        },
+        "waterFaucet": {
+          "accessibleName": {
+            "value": "Water Faucet"
+          },
+          "accessibleHelpText": {
+            "value": "Add water to solution in beaker."
+          }
+        },
+        "drainFaucet": {
+          "accessibleName": {
+            "value": "Drain Faucet"
+          },
+          "accessibleHelpText": {
+            "value": "Open to drain solution from beaker."
+          }
+        },
+        "faucetAccessibleObjectResponses": {
+          "closed": {
+            "value": "Closed"
+          },
+          "openATinyBit": {
+            "value": "Open a Tiny Bit"
+          },
+          "openALittle": {
+            "value": "Open a Little"
+          },
+          "openSomewhat": {
+            "value": "Open Somewhat"
+          },
+          "halfwayOpen": {
+            "value": "Halfway Open"
+          },
+          "openALot": {
+            "value": "Open a Lot"
+          },
+          "fullyOpen": {
+            "value": "Fully Open"
+          }
+        },
+        "accessibleHelpText": {
+          "value": "Use the beaker controls to add solutes, move the pH probe, and dispense liquid."
+        },
+        "addSoluteButton": {
+          "value": "Add Solute"
+        },
+        "moveProbeButton": {
+          "value": "Move Probe"
+        },
+        "dispenseLiquidButton": {
+          "value": "Dispense Liquid"
         }
       }
     }
