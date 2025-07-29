@@ -121,6 +121,64 @@
         "value": "Crossing Sounds"
       }
     },
+    "keyboardHelp": {
+      "soluteAdjusters": {
+        "title": {
+          "value": "Solute Adjusters"
+        },
+        "addOrRemoveALot": {
+          "value": "Add or remove a lot of chosen solute"
+        },
+        "addOrRemoveALittle": {
+          "value": "Add or remove a little of chosen solute"
+        }
+      },
+      "transportProteinsAndLigands": {
+        "title": {
+          "value": "Transport Proteins and Ligands"
+        },
+        "navigate": {
+          "value": "Navigate proteins in panel or random ligands outside cell"
+        },
+        "grabOrRelease": {
+          "value": "Grab or release protein or ligand"
+        },
+        "moveGrabbedItem": {
+          "value": "Move grabbed protein or ligand between available drop locations"
+        },
+        "cancelGrab": {
+          "value": "Cancel grab or move interaction"
+        }
+      },
+      "sortOrDeleteProteins": {
+        "title": {
+          "value": "Sort or Delete Proteins in Membrane"
+        },
+        "navigateProteins": {
+          "value": "Navigate proteins in membrane"
+        },
+        "grabProtein": {
+          "value": "Grab protein in membrane"
+        },
+        "moveGrabbedProtein": {
+          "value": "Move grabbed protein between membrane slots"
+        },
+        "releaseProtein": {
+          "value": "Release grabbed protein into empty slot or swap slots"
+        },
+        "deleteProtein": {
+          "value": "Delete grabbed protein"
+        }
+      },
+      "fromAnywhereInSim": {
+        "title": {
+          "value": "From Anywhere in Sim"
+        },
+        "pauseOrPlay": {
+          "value": "Pause or play action in Observation Window"
+        }
+      }
+    },
     "a11y": {
       "simpleDiffusionScreen": {
         "screenButtonsHelpText": {
@@ -583,6 +641,52 @@
         },
         "noChangeResponse": {
           "value": "No change in transport proteins."
+        }
+      },
+      "keyboardHelp": {
+        "soluteAdjusters": {
+          "addOrRemoveALotDescription": {
+            "value": "Add or remove a lot of chosen solute with Left and Right arrow keys."
+          },
+          "addOrRemoveALittleDescription": {
+            "value": "Add or remove a little of chosen solute with Shift plus Left and Right arrow keys."
+          }
+        },
+        "transportProteinsAndLigands": {
+          "navigateDescription": {
+            "value": "Navigate proteins in panel or random ligands outside cell with Tab key."
+          },
+          "grabOrReleaseDescription": {
+            "value": "Grab or release protein or ligand with Space or Enter keys."
+          },
+          "moveGrabbedItemDescription": {
+            "value": "Move grabbed protein or ligand between available drop locations with Left and Right Arrow keys or letter keys A and D."
+          },
+          "cancelGrabDescription": {
+            "value": "Cancel grab or move interaction with Escape key."
+          }
+        },
+        "sortOrDeleteProteins": {
+          "navigateProteinsDescription": {
+            "value": "Navigate proteins in membrane with Left and Right Arrow keys."
+          },
+          "grabProteinDescription": {
+            "value": "Grab protein in membrane with Space or Enter keys."
+          },
+          "moveGrabbedProteinDescription": {
+            "value": "Move grabbed protein between membrane slots with Left and Right Arrow keys."
+          },
+          "releaseProteinDescription": {
+            "value": "Release grabbed protein into empty slot or swap slots with Space or Enter keys."
+          },
+          "deleteProteinDescription": {
+            "value": "Delete grabbed protein with Delete key."
+          }
+        },
+        "fromAnywhereInSim": {
+          "pauseOrPlayDescription": {
+            "value": "Pause or play action in Observation Window with Alt key plus K."
+          }
         }
       }
     }
