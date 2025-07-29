@@ -8864,9 +8864,170 @@
       "returnButton": {
         "cartReturnedToCenter": {
           "value": "Cart returned to center"
+        },
+        "accessibleName": {
+          "value": "Return Cart Button"
+        },
+        "accessibleHelpText": {
+          "value": "Press to return the cart to the center and reset for a new game."
+        }
+      },
+      "goPauseButton": {
+        "accessibleName": {
+          "value": "Go/Pause Button"
+        },
+        "accessibleHelpText": {
+          "value": "Press to start or pause the tug-of-war game."
+        }
+      },
+      "pullersOnRope": {
+        "blueTeamHeading": {
+          "value": "Blue Team Pullers on Rope"
+        },
+        "redTeamHeading": {
+          "value": "Red Team Pullers on Rope"
+        },
+        "descriptionContent": {
+          "value": "Use arrow keys to navigate between pullers on the rope, then press Space or Enter to grab"
+        }
+      },
+      "netForceControlPanel": {
+        "sumOfForces": {
+          "accessibleName": {
+            "value": "Sum of Forces"
+          },
+          "accessibleHelpText": {
+            "value": "Check to show an arrow representing the sum of all forces."
+          },
+          "accessibleContextResponseChecked": {
+            "value": "Sum of forces arrow shown."
+          },
+          "accessibleContextResponseUnchecked": {
+            "value": "Sum of forces arrow hidden."
+          }
+        },
+        "values": {
+          "accessibleName": {
+            "value": "Values"
+          },
+          "accessibleHelpText": {
+            "value": "Check to show numerical values for the forces."
+          },
+          "accessibleContextResponseChecked": {
+            "value": "Force values shown."
+          },
+          "accessibleContextResponseUnchecked": {
+            "value": "Force values hidden."
+          }
+        },
+        "speed": {
+          "accessibleName": {
+            "value": "Speed"
+          },
+          "accessibleHelpText": {
+            "value": "Check to show the speedometer on the cart."
+          },
+          "accessibleContextResponseChecked": {
+            "value": "Speedometer shown on cart."
+          },
+          "accessibleContextResponseUnchecked": {
+            "value": "Speedometer hidden."
+          }
+        }
+      },
+      "playAreaControls": {
+        "accessibleHeading": {
+          "value": "Play Area Controls"
+        },
+        "descriptionContent": {
+          "value": "Controls to start or pause the tug-of-war, and to return the cart"
         }
       },
       "motionScreen": {
+        "screenSummary": {
+          "playArea": {
+            "description": {
+              "value": "The play area shows a horizontal surface with objects that can be moved onto a skateboard. A pusher can apply force to move objects, creating motion and demonstrating the relationship between force and movement."
+            },
+            "frictionDescription": {
+              "value": "The play area shows a horizontal surface with objects that can be moved on the ground. A pusher can apply force to move objects, creating motion and demonstrating the relationship between force, friction, and movement. The surface turns to ice when friction is zero."
+            },
+            "accelerationDescription": {
+              "value": "The play area shows a horizontal surface with objects that can be moved on the ground. A pusher can apply force to move objects, creating motion and demonstrating the relationship between force, friction, acceleration, and movement. The surface turns to ice when friction is zero."
+            },
+            "guidingQuestion": {
+              "value": "How do forces affect the motion of objects?"
+            },
+            "objectToolbox": {
+              "description": {
+                "value": "Drag objects from the toolboxes to place them on the skateboard. Different objects have different masses."
+              },
+              "frictionDescription": {
+                "value": "Drag objects from the toolboxes to place them on the ground. Different objects have different masses and friction properties."
+              },
+              "accelerationDescription": {
+                "value": "Drag objects from the toolboxes to place them on the ground. Different objects have different masses and friction properties."
+              }
+            },
+            "appliedForceControl": {
+              "description": {
+                "value": "Use arrow keys or mouse to control the applied force. Watch how the objects move as you change the force."
+              }
+            }
+          },
+          "controlArea": {
+            "description": {
+              "value": "Use checkboxes to show or hide forces, values, masses, speed, and other measurements. Use play controls to start, pause, or reset the simulation."
+            }
+          },
+          "currentDetails": {
+            "noObjectsOnSkateboard": {
+              "value": "No objects are currently on the skateboard."
+            },
+            "noObjectsOnGround": {
+              "value": "No objects are currently on the ground."
+            },
+            "objectsOnSkateboard": {
+              "value": "{ $count ->\n  [one] { $count } object is on the skateboard.\n *[other] { $count } objects are on the skateboard.\n}"
+            },
+            "objectsOnGround": {
+              "value": "{ $count ->\n  [one] { $count } object is on the ground.\n *[other] { $count } objects are on the ground.\n}"
+            },
+            "motionState": {
+              "stationary": {
+                "value": "Objects are stationary."
+              },
+              "movingRight": {
+                "value": "Objects are moving to the right."
+              },
+              "movingLeft": {
+                "value": "Objects are moving to the left."
+              }
+            },
+            "forceDescription": {
+              "noForce": {
+                "value": "No force is being applied."
+              },
+              "appliedForceRight": {
+                "value": "Applied force is pushing objects to the right."
+              },
+              "appliedForceLeft": {
+                "value": "Applied force is pushing objects to the left."
+              }
+            }
+          },
+          "interactionHint": {
+            "noObjects": {
+              "value": "Drag objects from the toolboxes onto the skateboard, then use the applied force control to create motion."
+            },
+            "noObjectsOnGround": {
+              "value": "Drag objects from the toolboxes onto the ground, then use the applied force control to create motion."
+            },
+            "withObjects": {
+              "value": "Use the applied force control to push the objects. Adjust checkboxes to show different measurements and forces."
+            }
+          }
+        },
         "items": {
           "itemAccessibleNameWithMass": {
             "value": "{ $itemName }, { $mass }"
@@ -8897,6 +9058,158 @@
               "value": "Mystery Object"
             }
           }
+        },
+        "itemToolbox": {
+          "accessibleName": {
+            "value": "Item Toolbox"
+          },
+          "descriptionContent": {
+            "value": "Use arrow keys to select an item, then press Space or Enter to grab"
+          }
+        },
+        "itemStackGroup": {
+          "accessibleName": {
+            "value": "Items on Skateboard"
+          },
+          "descriptionContent": {
+            "value": "Use arrow keys to navigate between stacked items, then press Space or Enter to grab"
+          }
+        },
+        "motionControlPanel": {
+          "force": {
+            "accessibleName": {
+              "value": "Force"
+            },
+            "accessibleHelpText": {
+              "value": "Check to show force arrows."
+            },
+            "accessibleContextResponseChecked": {
+              "value": "Force arrows shown."
+            },
+            "accessibleContextResponseUnchecked": {
+              "value": "Force arrows hidden."
+            }
+          },
+          "values": {
+            "accessibleName": {
+              "value": "Values"
+            },
+            "accessibleHelpText": {
+              "value": "Check to show numerical values for the forces."
+            },
+            "accessibleContextResponseChecked": {
+              "value": "Force values shown."
+            },
+            "accessibleContextResponseUnchecked": {
+              "value": "Force values hidden."
+            }
+          },
+          "masses": {
+            "accessibleName": {
+              "value": "Masses"
+            },
+            "accessibleHelpText": {
+              "value": "Check to show masses of objects."
+            },
+            "accessibleContextResponseChecked": {
+              "value": "Object masses shown."
+            },
+            "accessibleContextResponseUnchecked": {
+              "value": "Object masses hidden."
+            }
+          },
+          "speed": {
+            "accessibleName": {
+              "value": "Speed"
+            },
+            "accessibleHelpText": {
+              "value": "Check to show the speedometer."
+            },
+            "accessibleContextResponseChecked": {
+              "value": "Speedometer shown."
+            },
+            "accessibleContextResponseUnchecked": {
+              "value": "Speedometer hidden."
+            }
+          },
+          "stopwatch": {
+            "accessibleName": {
+              "value": "Stopwatch"
+            },
+            "accessibleHelpText": {
+              "value": "Check to show the stopwatch."
+            },
+            "accessibleContextResponseChecked": {
+              "value": "Stopwatch shown."
+            },
+            "accessibleContextResponseUnchecked": {
+              "value": "Stopwatch hidden."
+            }
+          },
+          "forces": {
+            "accessibleName": {
+              "value": "Forces"
+            },
+            "accessibleHelpText": {
+              "value": "Check to show force arrows."
+            },
+            "accessibleContextResponseChecked": {
+              "value": "Force arrows shown."
+            },
+            "accessibleContextResponseUnchecked": {
+              "value": "Force arrows hidden."
+            }
+          },
+          "sumOfForces": {
+            "accessibleName": {
+              "value": "Sum of Forces"
+            },
+            "accessibleHelpText": {
+              "value": "Check to show an arrow representing the sum of all forces."
+            },
+            "accessibleContextResponseChecked": {
+              "value": "Sum of forces arrow shown."
+            },
+            "accessibleContextResponseUnchecked": {
+              "value": "Sum of forces arrow hidden."
+            }
+          },
+          "acceleration": {
+            "accessibleName": {
+              "value": "Acceleration"
+            },
+            "accessibleHelpText": {
+              "value": "Check to show the accelerometer."
+            },
+            "accessibleContextResponseChecked": {
+              "value": "Accelerometer shown."
+            },
+            "accessibleContextResponseUnchecked": {
+              "value": "Accelerometer hidden."
+            }
+          }
+        }
+      },
+      "objectToolboxes": {
+        "leftObjectToolbox": {
+          "value": "Left Object Toolbox"
+        },
+        "rightObjectToolbox": {
+          "value": "Right Object Toolbox"
+        },
+        "objectToolbox": {
+          "value": "Object Toolbox"
+        },
+        "skateboard": {
+          "value": "Skateboard"
+        }
+      },
+      "motionPlayAreaControls": {
+        "accessibleHeading": {
+          "value": "Play Area Controls"
+        },
+        "descriptionContent": {
+          "value": "Controls to start or pause motion, and to reset simulation"
         }
       }
     }
