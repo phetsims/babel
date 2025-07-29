@@ -9889,15 +9889,44 @@
       "ratioCheckboxAccessibleName": {
         "value": "H 3 O Plus To O H Minus Ratio"
       },
+      "pHValuePattern": {
+        "value": "pH is {{pHValue}}, {{pHDescription}}."
+      },
+      "qualitativePHDescription": {
+        "extremelyBasic": {
+          "value": "Extremely Basic"
+        },
+        "highlyBasic": {
+          "value": "Highly Basic"
+        },
+        "moderatelyBasic": {
+          "value": "Moderately Basic"
+        },
+        "slightlyBasic": {
+          "value": "Slightly Basic"
+        },
+        "neutral": {
+          "value": "Neutral"
+        },
+        "slightlyAcidic": {
+          "value": "Slightly Acidic"
+        },
+        "moderatelyAcidic": {
+          "value": "Moderately Acidic"
+        },
+        "highlyAcidic": {
+          "value": "Highly Acidic"
+        },
+        "extremelyAcidic": {
+          "value": "Extremely Acidic"
+        }
+      },
       "pHMeter": {
         "heading": {
           "value": "pH Meter"
         },
         "description": {
           "value": "pH meter vertical scale starts at zero and climbs to 14. The bottom half is labeled acidic and top half is labeled basic."
-        },
-        "pHValuePattern": {
-          "value": "pH is {{pHValue}}, {{pHDescription}}"
         }
       },
       "probe": {
