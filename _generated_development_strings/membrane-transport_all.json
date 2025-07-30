@@ -81,10 +81,10 @@
     "preferencesDialog": {
       "animateLipids": {
         "label": {
-          "value": "Animate Lipids"
+          "value": "Lipids Animation"
         },
         "description": {
-          "value": "Whether the phospholipids forming the cell membrane should be animated."
+          "value": "Remove wiggling animation of phospholipid bilayer forming the cell membrane."
         }
       },
       "glucoseMetabolism": {
@@ -92,7 +92,7 @@
           "value": "Glucose Metabolism"
         },
         "description": {
-          "value": "Glucose fades and is removed from the inside of the cell simulating conversion for cellular metabolism."
+          "value": "Fade and remove glucose solutes to simulate conversion for cellular metabolism."
         }
       },
       "audio": {
@@ -124,13 +124,13 @@
     "keyboardHelp": {
       "soluteAdjusters": {
         "title": {
-          "value": "Solute Adjusters"
+          "value": "Chosen Solute Adjusters"
         },
         "addOrRemoveALot": {
-          "value": "Add or remove a lot of chosen solute"
+          "value": "Adjust amount"
         },
         "addOrRemoveALittle": {
-          "value": "Add or remove a little of chosen solute"
+          "value": "Adjust in smaller amounts"
         }
       },
       "transportProteinsAndLigands": {
@@ -138,10 +138,10 @@
           "value": "Transport Proteins and Ligands"
         },
         "navigate": {
-          "value": "Navigate proteins in panel or random ligands outside cell"
+          "value": "Navigate possible proteins or ligands"
         },
         "grabOrRelease": {
-          "value": "Grab or release protein or ligand"
+          "value": "Grab or release"
         },
         "moveGrabbedItem": {
           "value": "Move grabbed protein or ligand between available drop locations"
@@ -161,21 +161,13 @@
           "value": "Grab protein in membrane"
         },
         "moveGrabbedProtein": {
-          "value": "Move grabbed protein between membrane slots"
+          "value": "Move grabbed protein between slots"
         },
         "releaseProtein": {
           "value": "Release grabbed protein into empty slot or swap slots"
         },
         "deleteProtein": {
           "value": "Delete grabbed protein"
-        }
-      },
-      "fromAnywhereInSim": {
-        "title": {
-          "value": "From Anywhere in Sim"
-        },
-        "pauseOrPlay": {
-          "value": "Pause or play action in Observation Window"
         }
       }
     },
@@ -276,13 +268,10 @@
           "value": "Reset Solutes"
         },
         "accessibleContextResponse": {
-          "value": "Solutes cleared. Add solutes to observe changes"
+          "value": "Solutes cleared."
         },
-        "accessibleHelpTextDisabled": {
-          "value": "Disabled because no solutes have been added."
-        },
-        "accessibleHelpTextEnabled": {
-          "value": "Remove all solutes from the play area."
+        "accessibleHelpText": {
+          "value": "Disabled when no solutes have been added."
         }
       },
       "settings": {
@@ -314,7 +303,7 @@
           "value": "Transport Proteins"
         },
         "accessibleHelpText": {
-          "value": "Add up to 7 proteins to membrane. Use keyboard shortcuts to grab, sort, and release proteins into membrane."
+          "value": "Use keyboard shortcuts to grab, sort, and release up to 7 proteins into membrane. Grab to pull to membrane."
         },
         "ligandGatedChannelPanel": {
           "sodiumIonNaPlusLigandGated": {
@@ -324,7 +313,7 @@
             "value": "Potassium-selective, Ligand-gated"
           },
           "accessibleHelpText": {
-            "value": "Transmembrane single channel proteins that can be open or closed, and a triangle- or star-shaped ligand binding site. Grab to pull to membrane."
+            "value": "Transmembrane single channel proteins that can be open or closed. When closed has a tiangle- or star-shaped ligand binding site."
           }
         },
         "leakageChannelPanel": {
@@ -335,7 +324,7 @@
             "value": "Potassium-selective, Leakage"
           },
           "accessibleHelpText": {
-            "value": "Transmembrane single channel proteins, always open. Grab to pull to membrane."
+            "value": "Transmembrane single channel proteins, always open."
           }
         },
         "voltageGatedChannelPanel": {
@@ -346,7 +335,7 @@
             "value": "Potassium-selective, Voltage-gated"
           },
           "accessibleHelpText": {
-            "value": "Transmembrane single channel proteins that can be open or closed. Grab to pull to membrane."
+            "value": "Transmembrane single channel proteins that can be open or closed."
           },
           "membranePotential": {
             "radioButtonGroup": {
@@ -402,7 +391,7 @@
             "value": "Sodium-Glucose Cotransporter"
           },
           "accessibleHelpText": {
-            "value": "Proteins that open to one side at a time. Sodium Potassium Pump, when open to inside has binding sites for 3 \n  sodium and 1 phosphate. When open to outside has binding sites for 2 potassium. Sodium-Glucose Cotransporter, \n  only open to outside and has binding sites for 2 sodium and 1 glucose. Requires specific solute concentrations to shuttle.\n  Grab to pull to membrane."
+            "value": "Proteins that open to one side at a time. Sodium Potassium Pump, when open to inside has binding sites for 3 \n  sodium and 1 phosphate. When open to outside has binding sites for 2 potassium. Sodium-Glucose Cotransporter, \n  only open to outside and has binding sites for 2 sodium and 1 glucose. Requires specific solute concentrations to shuttle."
           }
         }
       },
@@ -493,7 +482,7 @@
             "value": "{ a11y_solutes_uppercaseName } Outside Cell"
           },
           "accessibleHelpText": {
-            "value": "Adjust chosen solute amount on outside using arrows keys."
+            "value": "Add or remove chosen solute amount on outside with arrows keys."
           }
         },
         "inside": {
@@ -501,7 +490,7 @@
             "value": "{ a11y_solutes_uppercaseName } Inside Cell"
           },
           "accessibleHelpText": {
-            "value": "Adjust chosen solute amount on inside using arrows keys."
+            "value": "Add or remove chosen solute amount on inside with arrows keys."
           }
         },
         "voicingHintResponse": {
@@ -517,12 +506,12 @@
           "value": "{ $amount ->\n  [none] no\n  [few] a few\n  [some] some\n  [smallAmount] small amount of\n  [several] several\n  [many] many\n  [largeAmount] large amount of\n  [hugeAmount] huge amount of\n *[maxAmount] max amount of\n} { a11y_solutes_lowercaseName }"
         },
         "accessibleContextResponse": {
-          "value": "{ $amountAdded ->\n  [aLittle] A little\n *[aLot]    A lot\n} { $addedOrRemoved ->\n  [added]   added\n *[removed] removed\n}. Now, { a11y_solutes_amountComparison }. "
+          "value": "{ $amountAdded ->\n  [aLittle] Ten\n *[aLot]    Fifty\n} { $addedOrRemoved ->\n  [added]   added\n *[removed] removed\n}. Now, { a11y_solutes_amountComparison }. "
         }
       },
       "soluteConcentrationsAccordionBox": {
         "descriptionContent": {
-          "value": "A barchart for each solute captures amounts on either side of membrane, recent crossings captured with visual highlights and sounds. If needed, pause sim to freeze details for reading."
+          "value": "A dynamic barchart for each solute captures amounts on either side of membrane and emphasizes recent crossings with visual highlights and sounds. If needed, pause sim to freeze details for reading."
         },
         "barChart": {
           "accessibleNameWithNoParticles": {
@@ -532,7 +521,7 @@
             "value": "{ a11y_solutes_uppercaseName }: { a11y_solutes_amountComparison }; crossings { a11y_solutes_averageCrossingDirection }; { $outsideAmount ->\n  [none] none\n  [few] a few\n  [some] some\n  [smallAmount] small amount\n  [several] several\n  [many] many\n  [largeAmount] large amount\n  [hugeAmount] huge amount\n *[maxAmount] max amount\n} outside, { $insideAmount ->\n  [none] none\n  [few] a few\n  [some] some\n  [smallAmount] small amount\n  [several] several\n  [many] many\n  [largeAmount] large amount\n  [hugeAmount] huge amount\n *[maxAmount] max amount\n} inside."
           },
           "glucoseMetabolism": {
-            "value": "Glucose disappears from inside as it is metabolized by the cell."
+            "value": "Glucose disappears from inside as it is metabolized by cell."
           },
           "accessibleNameWithParticlesAndGlucoseMetabolism": {
             "value": "{ a11y_soluteConcentrationsAccordionBox_barChart_accessibleNameWithParticles } { a11y_soluteConcentrationsAccordionBox_barChart_glucoseMetabolism }"
@@ -567,7 +556,7 @@
           "value": "Membrane potential is { a11y_membranePotentialValue }. No proteins in membrane. Look for Transport Proteins and Solute Controls to add."
         },
         "accessibleHelpTextWithSolutesNoProteins": {
-          "value": "Membrane potential is { a11y_membranePotentialValue }. No proteins in membrane. Observe crossing solutes. Look for transport proteins to add."
+          "value": "Membrane potential is { a11y_membranePotentialValue }. No proteins in membrane. Observe crossing solutes and look for transport proteins to add."
         },
         "accessibleHelpTextWithProteinsNoSolutes": {
           "value": "Membrane potential is { a11y_membranePotentialValue }. Proteins in membrane, {$typeCount ->\n[one] { $typeCount } type\n*[other] { $typeCount } types\n}. Look for Solute Controls to add or remove solutes types."
@@ -581,7 +570,7 @@
           "value": "Grabbed."
         },
         "offMembraneResponse": {
-          "value": "Off membrane"
+          "value": "Off membrane."
         },
         "releasedReplacedResponse": {
           "value": "Released. Protein replaced."
@@ -602,7 +591,7 @@
           "value": "{ $state ->\n   [openToInsideEmpty] open to inside\n   [openToInsideSodiumBound] open to inside\n   [openToInsideSodiumAndATPBound] open to inside\n   [openToInsideSodiumAndPhosphateBound] open to inside\n   [openToOutsideAwaitingPotassium] open to outside\n   [openToOutsidePotassiumBound] open to outside\n\n   [openToOutsideAwaitingParticles] open to outside \n   [openToOutsideAllParticlesBound] open to outside\n   [openToInside] open to inside\n\n   [closedNegative70mV] closed\n   [openNegative50mV] open \n   [closed30mV] closed\n\n   [closedNegative50mV] closed\n   [open30mV] open\n\n   [ligandBoundClosed] closed\n   [ligandBoundOpen] open\n   [ligandUnboundOpen] open\n   [closed] closed\n\n   *[open] open \n}"
         },
         "accessibleParagraph": {
-          "value": "{ $state ->\n   [openToInsideEmpty] Awaiting sodium, open to inside\n   [openToInsideSodiumBound] 3 sodium bound, awaiting phosphate, open to inside\n   [openToInsideSodiumAndATPBound] ATP reacts, phosphate bound, pumping 3 sodium to outside, open to inside\n   [openToInsideSodiumAndPhosphateBound] Phosphate bound, pumping 3 sodium to outside, open to inside\n   [openToOutsideAwaitingPotassium] Awaiting potassium, phosphate still bound, open to outside\n   [openToOutsidePotassiumBound] Phosphate floating away, pumping 2 potassium to inside, open to outside\n\n   [openToOutsideAwaitingParticles] { $warning ->\n     [shown] Showing warning that no binding is possible, open to outside\n     *[hidden] Awaiting sodium and glucose, open to outside\n   }\n   [openToOutsideAllParticlesBound] Sodium and glucose bound, open to outside\n   [openToInside] Pumping sodium and glucose to inside, open to inside\n\n   [ligandBoundClosed] { $proteinType ->\n     [sodiumIonLigandGatedChannel] triangle ligand binding, channel opening \n     *[potassiumIonLigandGatedChannel] star ligand binding, channel opening\n   }\n   [ligandBoundOpen] { $proteinType ->\n     [sodiumIonLigandGatedChannel] triangle ligand bound, open channel\n     *[potassiumIonLigandGatedChannel] star ligand bound, open channel\n   }\n   [ligandUnboundOpen] { $proteinType ->\n     [sodiumIonLigandGatedChannel] triangle ligand floats away, channel closing \n     *[potassiumIonLigandGatedChannel] star ligand floats away, channel closing\n   }\n   [closed] { $proteinType ->\n     [sodiumIonLigandGatedChannel] no triangle ligand bound, closed channel\n     *[potassiumIonLigandGatedChannel] no star ligand bound, closed channel\n   }\n\n   [closedNegative70mV] closed channel at -70 mV\n   [openNegative50mV] open channel at -50 mV\n   [closed30mV] closed channel at 30 mV\n\n   [closedNegative50mV] closed channel at -50 mV\n   [open30mV] open channel at 30 mV\n\n   *[open] open channel through membrane\n}."
+          "value": "{ $state ->\n   [openToInsideEmpty] Awaiting sodium, open to inside\n   [openToInsideSodiumBound] 3 sodium bound, awaiting phosphate, open to inside\n   [openToInsideSodiumAndATPBound] ATP reacts, phosphate bound, pumping 3 sodium to outside, open to inside\n   [openToInsideSodiumAndPhosphateBound] Phosphate bound, pumping 3 sodium to outside, open to inside\n   [openToOutsideAwaitingPotassium] Awaiting potassium, phosphate bound, open to outside\n   [openToOutsidePotassiumBound] Phosphate floating away, pumping 2 potassium to inside, open to outside\n\n   [openToOutsideAwaitingParticles] { $warning ->\n     [shown] Warning, sodium concentration too low for binding, open to outside\n     *[hidden] Awaiting sodium and glucose, open to outside\n   }\n   [openToOutsideAllParticlesBound] Sodium and glucose bound, open to outside\n   [openToInside] Pumping sodium and glucose to inside, open to inside\n\n   [ligandBoundClosed] { $proteinType ->\n     [sodiumIonLigandGatedChannel] triangle ligand binding, channel opening \n     *[potassiumIonLigandGatedChannel] star ligand binding, channel opening\n   }\n   [ligandBoundOpen] { $proteinType ->\n     [sodiumIonLigandGatedChannel] triangle ligand bound, open channel\n     *[potassiumIonLigandGatedChannel] star ligand bound, open channel\n   }\n   [ligandUnboundOpen] { $proteinType ->\n     [sodiumIonLigandGatedChannel] triangle ligand floats away, channel closing \n     *[potassiumIonLigandGatedChannel] star ligand floats away, channel closing\n   }\n   [closed] { $proteinType ->\n     [sodiumIonLigandGatedChannel] no triangle ligand bound, closed channel\n     *[potassiumIonLigandGatedChannel] no star ligand bound, closed channel\n   }\n\n   [closedNegative70mV] closed channel at -70 mV\n   [openNegative50mV] open channel at -50 mV\n   [closed30mV] closed channel at 30 mV\n\n   [closedNegative50mV] closed channel at -50 mV\n   [open30mV] open channel at 30 mV\n\n   *[open] open channel through membrane\n}."
         },
         "accessibleContextResponse": {
           "value": "{ $state ->\n   [openToInsideEmpty] Phosphate floats away, pumping 2 potassium to inside\n   [openToInsideSodiumAndATPBound] ATP reacts, phosphate binds, pumping 3 sodium to outside\n\n   *[openToInside] { $glucoseBehavior ->\n     [metabolized] Shuttles 2 sodium, one glucose inside, shuttled glucose metabolized\n     *[persistent] Shuttles 2 sodium, one glucose inside\n   }\n\n   [ligandBoundOpen] { $proteinType ->\n     [sodiumIonLigandGatedChannel] triangle ligand binds, open \n     *[potassiumIonLigandGatedChannel] star ligand binds, open\n   }\n   [closed] { $proteinType ->\n     [sodiumIonLigandGatedChannel] triangle ligand floats away, closed\n     *[potassiumIonLigandGatedChannel] star ligand floats away, closed\n   }\n}."
@@ -652,18 +641,18 @@
       "keyboardHelp": {
         "soluteAdjusters": {
           "addOrRemoveALotDescription": {
-            "value": "Add or remove a lot of chosen solute with Left and Right arrow keys."
+            "value": "Adjust amount with Left and Right arrow keys."
           },
           "addOrRemoveALittleDescription": {
-            "value": "Add or remove a little of chosen solute with Shift plus Left and Right arrow keys."
+            "value": "Adjust in smaller amounts with Shift plus Left and Right arrow keys."
           }
         },
         "transportProteinsAndLigands": {
           "navigateDescription": {
-            "value": "Navigate proteins in panel or random ligands outside cell with Tab key."
+            "value": "Navigate possible proteins or ligands with Tab key."
           },
           "grabOrReleaseDescription": {
-            "value": "Grab or release protein or ligand with Space or Enter keys."
+            "value": "Grab or release with Space or Enter keys."
           },
           "moveGrabbedItemDescription": {
             "value": "Move grabbed protein or ligand between available drop locations with Left and Right Arrow keys or letter keys A and D."
@@ -680,18 +669,13 @@
             "value": "Grab protein in membrane with Space or Enter keys."
           },
           "moveGrabbedProteinDescription": {
-            "value": "Move grabbed protein between membrane slots with Left and Right Arrow keys."
+            "value": "Move grabbed protein between slots with Left and Right Arrow keys."
           },
           "releaseProteinDescription": {
             "value": "Release grabbed protein into empty slot or swap slots with Space or Enter keys."
           },
           "deleteProteinDescription": {
             "value": "Delete grabbed protein with Delete key."
-          }
-        },
-        "fromAnywhereInSim": {
-          "pauseOrPlayDescription": {
-            "value": "Pause or play action in Observation Window with Alt key plus K."
           }
         }
       }
