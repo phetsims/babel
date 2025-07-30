@@ -324,7 +324,7 @@
             "value": "Potassium-selective, Ligand-gated"
           },
           "accessibleHelpText": {
-            "value": "Transmembrane single channel proteins with open and closed states, and a triangle- or star-shaped ligand binding site. Grab to pull to membrane."
+            "value": "Transmembrane single channel proteins that can be open or closed, and a triangle- or star-shaped ligand binding site. Grab to pull to membrane."
           }
         },
         "leakageChannelPanel": {
@@ -346,7 +346,7 @@
             "value": "Potassium-selective, Voltage-gated"
           },
           "accessibleHelpText": {
-            "value": "Transmembrane single channel proteins with open and closed states. Grab to pull to membrane."
+            "value": "Transmembrane single channel proteins that can be open or closed. Grab to pull to membrane."
           },
           "membranePotential": {
             "radioButtonGroup": {
@@ -402,7 +402,7 @@
             "value": "Sodium-Glucose Cotransporter"
           },
           "accessibleHelpText": {
-            "value": "Proteins that open to one side at a time and follow specific solute binding sequences to transport solutes across membrane.\n  Sodium Potassium Pump, when open to inside has binding sites for 3 sodium and 1 phosphate. When open to outside has binding sites for 2 potassium.\n  Sodium-Glucose Cotransporter, only open to outside and has binding sites for 2 sodium and 1 glucose. Requires specific solute concentrations to shuttle.\n  Grab to pull to membrane."
+            "value": "Proteins that open to one side at a time. Sodium Potassium Pump, when open to inside has binding sites for 3 \n  sodium and 1 phosphate. When open to outside has binding sites for 2 potassium. Sodium-Glucose Cotransporter, \n  only open to outside and has binding sites for 2 sodium and 1 glucose. Requires specific solute concentrations to shuttle.\n  Grab to pull to membrane."
           }
         }
       },
@@ -464,7 +464,7 @@
           "value": "{ $amount ->\n  *[none]  none\n  [equal] amounts exactly equal outside and inside\n  [allOutside] all outside, none inside\n  [allInside] all inside, none outside\n  [manyManyMoreOutside] many many more outside than inside\n  [manyMoreOutside] many more outside than inside\n  [aboutTwiceAsManyOutside] about twice as many outside as inside\n  [aLotMoreOutside] a lot more outside than inside\n  [someMoreOutside] some more outside than inside\n  [littleBitMoreOutside] a little bit more outside than inside\n  [roughlyEqualOutside] roughly equal amounts inside and outside\n  [manyManyMoreInside] many many more inside than outside\n  [manyMoreInside] many more inside than outside\n  [aboutTwiceAsManyInside] about twice as many inside as outside\n  [aLotMoreInside] a lot more inside than outside\n  [someMoreInside] some more inside than outside\n  [littleBitMoreInside] a little bit more inside than outside\n  [roughlyEqualInside] roughly equal amounts inside and outside\n}"
         },
         "averageCrossingDirection": {
-          "value": "{ $direction ->\n  [toOutside] crossings to outside\n  [mostlyToOutside] crossings mostly to outside\n  [inBothDirections] crossings in both directions\n  [mostlyToInside] crossings mostly to inside\n  [toInside] crossings to inside\n  *[none] no recent crossings\n}"
+          "value": "{ $direction ->\n  [toOutside] to outside\n  [mostlyToOutside] mostly to outside\n  [inBothDirections] in both directions\n  [mostlyToInside] mostly to inside\n  [toInside] to inside\n  *[none] none recently\n}"
         }
       },
       "solutesPanel": {
@@ -493,7 +493,7 @@
             "value": "{ a11y_solutes_uppercaseName } Outside Cell"
           },
           "accessibleHelpText": {
-            "value": "Adjust chosen solute amount on outside."
+            "value": "Adjust chosen solute amount on outside using arrows keys."
           }
         },
         "inside": {
@@ -501,7 +501,7 @@
             "value": "{ a11y_solutes_uppercaseName } Inside Cell"
           },
           "accessibleHelpText": {
-            "value": "Adjust chosen solute amount on inside."
+            "value": "Adjust chosen solute amount on inside using arrows keys."
           }
         },
         "voicingHintResponse": {
@@ -509,6 +509,9 @@
         },
         "accessibleRoleDescription": {
           "value": "solute adjuster"
+        },
+        "accessibleHelpTextAllDisabled": {
+          "value": "Solutes cannot be added or removed on this side because there is already the maximum amount on the opposite side."
         },
         "accessibleObjectResponse": {
           "value": "{ $amount ->\n  [none] no\n  [few] a few\n  [some] some\n  [smallAmount] small amount of\n  [several] several\n  [many] many\n  [largeAmount] large amount of\n  [hugeAmount] huge amount of\n *[maxAmount] max amount of\n} { a11y_solutes_lowercaseName }"
@@ -526,7 +529,7 @@
             "value": "{ a11y_solutes_uppercaseName }: none outside, none inside."
           },
           "accessibleNameWithParticles": {
-            "value": "{ a11y_solutes_uppercaseName }: { a11y_solutes_amountComparison }; { a11y_solutes_averageCrossingDirection }; { $outsideAmount ->\n  [none] none\n  [few] a few\n  [some] some\n  [smallAmount] small amount\n  [several] several\n  [many] many\n  [largeAmount] large amount\n  [hugeAmount] huge amount\n *[maxAmount] max amount\n} outside, { $insideAmount ->\n  [none] none\n  [few] a few\n  [some] some\n  [smallAmount] small amount\n  [several] several\n  [many] many\n  [largeAmount] large amount\n  [hugeAmount] huge amount\n *[maxAmount] max amount\n} inside."
+            "value": "{ a11y_solutes_uppercaseName }: { a11y_solutes_amountComparison }; crossings { a11y_solutes_averageCrossingDirection }; { $outsideAmount ->\n  [none] none\n  [few] a few\n  [some] some\n  [smallAmount] small amount\n  [several] several\n  [many] many\n  [largeAmount] large amount\n  [hugeAmount] huge amount\n *[maxAmount] max amount\n} outside, { $insideAmount ->\n  [none] none\n  [few] a few\n  [some] some\n  [smallAmount] small amount\n  [several] several\n  [many] many\n  [largeAmount] large amount\n  [hugeAmount] huge amount\n *[maxAmount] max amount\n} inside."
           },
           "glucoseMetabolism": {
             "value": "Glucose disappears from inside as it is metabolized by the cell."
