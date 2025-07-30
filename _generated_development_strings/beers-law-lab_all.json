@@ -10854,16 +10854,28 @@
         },
         "jumpResponses": {
           "betweenLightSourceAndCuvette": {
-            "value": "In light source path, between light source and cuvette"
+            "value": "In light source path, between light source and cuvette. {{valueSentence}}"
           },
           "centeredInCuvette": {
-            "value": "In light source path, centered in cuvette"
+            "value": "In light source path, centered in cuvette. {{valueSentence}}"
           },
           "rightOfCuvette": {
-            "value": "In light source path, right of cuvette"
+            "value": "In light source path, right of cuvette. {{valueSentence}}"
           },
           "outsideLightSourcePath": {
             "value": "Outside light source path"
+          },
+          "transmittanceValueUnits": {
+            "value": "Transmittance is {{transmittance}} {{units}}."
+          },
+          "transmittanceUnknown": {
+            "value": "Transmittance is unknown."
+          },
+          "absorbanceValue": {
+            "value": "Absorbance is {{absorbance}}."
+          },
+          "absorbanceUnknown": {
+            "value": "Absorbance is unknown."
           }
         }
       },
