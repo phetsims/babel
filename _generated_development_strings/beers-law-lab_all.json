@@ -10844,13 +10844,13 @@
           "value": "Drag the probe, or move to useful positions with keyboard shortcut."
         },
         "accessibleObjectResponseTransmittance": {
-          "value": "{{mode}} {{transmittance}} {{units}}"
+          "value": "{{mode}} is {{transmittance}} {{units}}"
         },
         "accessibleObjectResponseAbsorbance": {
-          "value": "{{mode}} {{absorbance}}"
+          "value": "{{mode}} is {{absorbance}}"
         },
         "accessibleObjectResponseUnknown": {
-          "value": "unknown"
+          "value": "{{mode}} is unknown"
         },
         "jumpResponses": {
           "betweenLightSourceAndCuvette": {
@@ -10863,7 +10863,7 @@
             "value": "In light source path, right of cuvette. {{valueSentence}}"
           },
           "outsideLightSourcePath": {
-            "value": "Outside light source path"
+            "value": "Outside light source path. {{valueSentence}}"
           },
           "transmittanceValueUnits": {
             "value": "Transmittance is {{transmittance}} {{units}}."
