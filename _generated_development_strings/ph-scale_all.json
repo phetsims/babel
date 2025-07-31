@@ -9886,9 +9886,6 @@
       "value": "Cycle through useful positions."
     },
     "a11y": {
-      "ratioCheckboxAccessibleName": {
-        "value": "H 3 O Plus To O H Minus Ratio"
-      },
       "qualitativePHValuePattern": {
         "value": "pH is {{pHValue}}, {{pHDescription}}."
       },
@@ -9900,6 +9897,9 @@
       },
       "unknown": {
         "value": "unknown"
+      },
+      "scientificNotationPattern": {
+        "value": "{{coefficient}} times 10 to the {{exponent}}"
       },
       "qualitativePHDescription": {
         "extremelyBasic": {
@@ -10076,17 +10076,91 @@
             "value": "Open to drain solution from beaker."
           }
         },
-        "accessibleHelpText": {
-          "value": "Use the beaker controls to add solutes, move the pH probe, and dispense liquid."
+        "ratioCheckbox": {
+          "accessibleName": {
+            "value": "H 3 O Plus To O H Minus Ratio"
+          },
+          "accessibleHelpText": {
+            "value": "Show or hide dots representing ratio of H 3 O plus to O H minus in solution."
+          }
         },
-        "addSoluteButton": {
-          "value": "Add Solute"
+        "particleCountsCheckbox": {
+          "accessibleHelpText": {
+            "value": "Show or hide number of each type of particle in solution."
+          }
+        }
+      },
+      "graph": {
+        "units": {
+          "molesPerLiter": {
+            "value": "moles per liter"
+          },
+          "moles": {
+            "value": "moles"
+          }
         },
-        "moveProbeButton": {
-          "value": "Move Probe"
+        "accessibleHeading": {
+          "value": "Vertical Graph of Particle Amounts"
         },
-        "dispenseLiquidButton": {
-          "value": "Dispense Liquid"
+        "accessibleName": {
+          "value": "Graph"
+        },
+        "unitsSwitch": {
+          "molesPerLiterAccessibleName": {
+            "value": "Concentration (moles per liter)"
+          },
+          "molesAccessibleName": {
+            "value": "Quantity (moles)"
+          }
+        },
+        "scaleListItem": {
+          "pattern": {
+            "value": "{{type}} scale"
+          },
+          "logarithmic": {
+            "value": "logarithmic"
+          },
+          "linear": {
+            "value": "linear"
+          }
+        },
+        "rangeListItem": {
+          "pattern": {
+            "value": "range is {{min}} to {{max}}"
+          },
+          "baseToExponentPattern": {
+            "value": "10 to the {{exponent}}"
+          }
+        },
+        "h3OListItemPattern": {
+          "value": "H 3 O plus indicator reads {{value}} {{units}}"
+        },
+        "oHMinusListItemPattern": {
+          "value": "O H minus indicator reads {{value}} {{units}}"
+        },
+        "waterListItemPattern": {
+          "value": "Water indicator reads {{value}} {{units}}"
+        },
+        "scaleSwitch": {
+          "accessibleHelpText": {
+            "value": "Choose graph scale."
+          }
+        },
+        "zoomInButton": {
+          "accessibleName": {
+            "value": "Linear Graph Zoom In"
+          },
+          "accessibleHelpText": {
+            "value": "Adjust visual range."
+          }
+        },
+        "zoomOutButton": {
+          "accessibleName": {
+            "value": "Linear Graph Zoom Out"
+          },
+          "accessibleHelpText": {
+            "value": "Adjust visual range."
+          }
         }
       }
     }
