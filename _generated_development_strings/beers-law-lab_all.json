@@ -10864,20 +10864,20 @@
           },
           "outsideLightSourcePath": {
             "value": "Outside light source path. {{valueSentence}}"
-          },
-          "transmittanceValueUnits": {
-            "value": "Transmittance is {{transmittance}} {{units}}."
-          },
-          "transmittanceUnknown": {
-            "value": "Transmittance is unknown."
-          },
-          "absorbanceValue": {
-            "value": "Absorbance is {{absorbance}}."
-          },
-          "absorbanceUnknown": {
-            "value": "Absorbance is unknown."
           }
         }
+      },
+      "transmittanceValueUnits": {
+        "value": "Transmittance is {{transmittance}} {{units}}."
+      },
+      "transmittanceUnknown": {
+        "value": "Transmittance is unknown."
+      },
+      "absorbanceValue": {
+        "value": "Absorbance is {{absorbance}}."
+      },
+      "absorbanceUnknown": {
+        "value": "Absorbance is unknown."
       },
       "shakerNode": {
         "accessibleName": {
@@ -10907,20 +10907,6 @@
         },
         "accessibleParagraphUnknown": {
           "value": "Concentration is unknown."
-        }
-      },
-      "detectorBodyNode": {
-        "accessibleParagraphAbsorbance": {
-          "value": "Absorbance is {{absorbance}}."
-        },
-        "accessibleParagraphAbsorbanceUnknown": {
-          "value": "Absorbance is unknown."
-        },
-        "accessibleParagraphTransmittance": {
-          "value": "Transmittance is {{transmittance}} {{units}}."
-        },
-        "accessibleParagraphTransmittanceUnknown": {
-          "value": "Transmittance is unknown."
         }
       },
       "soluteComboBox": {
@@ -10969,16 +10955,16 @@
         },
         "jumpResponses": {
           "measuringCuvetteWidth": {
-            "value": "Measuring cuvette width, {{width}} {{units}}"
+            "value": "Measuring cuvette width, {{width}} {{units}}."
           },
           "measuringOpticalPathLength": {
-            "value": "Measuring optical path length, {{width}} {{units}}"
+            "value": "Measuring optical path length, {{width}} {{units}}."
           },
           "measuringOpticalPathLengthLightOff": {
-            "value": "Measuring optical path length, light source is off."
+            "value": "Measuring optical path length. Light source is off."
           },
           "notMeasuring": {
-            "value": "Not measuring"
+            "value": "Not measuring."
           }
         }
       },
