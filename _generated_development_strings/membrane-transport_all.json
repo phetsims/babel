@@ -226,6 +226,9 @@
           "noAddedSolutes": {
             "value": "no added solutes"
           },
+          "noAddedProteins": {
+            "value": "no added proteins"
+          },
           "soluteTypesOnOutside": {
             "value": "{ $count ->\n  [one] { $count } solute type on outside\n *[other] { $count } solute types on outside\n}"
           },
@@ -265,10 +268,10 @@
       },
       "eraseSolutesButton": {
         "accessibleName": {
-          "value": "Reset Solutes"
+          "value": "Remove All Solutes"
         },
         "accessibleContextResponse": {
-          "value": "Solutes cleared."
+          "value": "Solutes cleared. Add solutes to observe changes."
         },
         "accessibleHelpText": {
           "value": "Disabled when no solutes have been added."
