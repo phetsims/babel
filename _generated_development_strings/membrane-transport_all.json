@@ -236,7 +236,7 @@
             "value": "{ $count ->\n  [one] { $count } solute type on inside\n *[other] { $count } solute types on inside\n}"
           },
           "transportProteins": {
-            "value": "{ $proteinCount ->\n  [one] { $proteinCount} transport protein\n  *[other] { $proteinCount} transport proteins\n} of { $proteinTypeCount ->\n  [one] { $proteinTypeCount } type\n *[other] { $proteinTypeCount} types\n}, in membrane"
+            "value": "{ $proteinCount ->\n  [one] { $proteinCount} protein\n  *[other] { $proteinCount} proteins\n} of { $proteinTypeCount ->\n  [one] { $proteinTypeCount } type\n *[other] { $proteinTypeCount} types\n}, in membrane"
           },
           "ligands": {
             "value": "2 added ligand types on outside only"
@@ -485,7 +485,7 @@
             "value": "{ a11y_solutes_uppercaseName } Outside Cell"
           },
           "accessibleHelpText": {
-            "value": "Add or remove chosen solute amount on outside with arrows keys."
+            "value": "Adjust chosen solute amount on outside using arrows keys."
           }
         },
         "inside": {
@@ -493,7 +493,7 @@
             "value": "{ a11y_solutes_uppercaseName } Inside Cell"
           },
           "accessibleHelpText": {
-            "value": "Add or remove chosen solute amount on inside with arrows keys."
+            "value": "Adjust chosen solute amount on inside using arrows keys."
           }
         },
         "voicingHintResponse": {
@@ -503,7 +503,7 @@
           "value": "solute adjuster"
         },
         "accessibleHelpTextAllDisabled": {
-          "value": "Solutes cannot be added or removed on this side because there is already the maximum amount on the opposite side."
+          "value": "Disabled, total solute amount at max."
         },
         "accessibleObjectResponse": {
           "value": "{ $amount ->\n  [none] no\n  [few] a few\n  [some] some\n  [smallAmount] small amount of\n  [several] several\n  [many] many\n  [largeAmount] large amount of\n  [hugeAmount] huge amount of\n *[maxAmount] max amount of\n} { a11y_solutes_lowercaseName }"
