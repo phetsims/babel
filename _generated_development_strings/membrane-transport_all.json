@@ -485,7 +485,7 @@
             "value": "{ a11y_solutes_uppercaseName } Outside Cell"
           },
           "accessibleHelpText": {
-            "value": "Adjust chosen solute amount on outside using arrows keys."
+            "value": "Adjust chosen solute amount on outside with arrows keys or alternate keyboard shortcuts."
           }
         },
         "inside": {
@@ -493,7 +493,7 @@
             "value": "{ a11y_solutes_uppercaseName } Inside Cell"
           },
           "accessibleHelpText": {
-            "value": "Adjust chosen solute amount on inside using arrows keys."
+            "value": "Adjust chosen solute amount on inside with arrows keys or alternate keyboard shortcuts."
           }
         },
         "voicingHintResponse": {
@@ -503,7 +503,7 @@
           "value": "solute adjuster"
         },
         "accessibleHelpTextAllDisabled": {
-          "value": "Disabled, total solute amount at max."
+          "value": "Disabled, total chosen solute at max amount."
         },
         "accessibleObjectResponse": {
           "value": "{ $amount ->\n  [none] no\n  [few] a few\n  [some] some\n  [smallAmount] small amount of\n  [several] several\n  [many] many\n  [largeAmount] large amount of\n  [hugeAmount] huge amount of\n *[maxAmount] max amount of\n} { a11y_solutes_lowercaseName }"
