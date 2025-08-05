@@ -9899,7 +9899,7 @@
         "value": "unknown"
       },
       "scientificNotationPattern": {
-        "value": "{{coefficient}} times 10 to the {{exponent}}"
+        "value": "{{mantissa}} times 10 to the {{exponent}}"
       },
       "qualitativePHDescription": {
         "extremelyBasic": {
@@ -10093,6 +10093,17 @@
           "accessibleHelpText": {
             "value": "Show or hide number of each type of particle in solution."
           }
+        },
+        "particleCountValues": {
+          "h3OPattern": {
+            "value": "{{value}} H 3 O plus"
+          },
+          "oHPattern": {
+            "value": "{{value}} O H minus"
+          },
+          "waterPattern": {
+            "value": "{{value}} water molecules"
+          }
         }
       },
       "graph": {
@@ -10172,7 +10183,7 @@
             "value": "H 3 O Plus Indicator"
           },
           "accessibleHelpText": {
-            "value": "Adjust  amount of H 3 O plus in solution."
+            "value": "Adjust amount of H 3 O plus in solution."
           },
           "accessibleObjectResponse": {
             "value": "{{h3OValue}} O H minus indicator now {{oHValue}}"
