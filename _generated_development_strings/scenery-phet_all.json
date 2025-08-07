@@ -26484,6 +26484,41 @@
     "SoundToggleButton.name": {
       "value": "Toggle Sound"
     },
+    "scientificNotation": {
+      "value": "{{value}} × {{base}}<sup>{{exponent}}</sup>"
+    },
+    "units": {
+      "centimeters": {
+        "value": "cm"
+      },
+      "centimetersPattern": {
+        "value": "{{value}} cm"
+      },
+      "centimetersSquared": {
+        "value": "cm<sup>2</sup>"
+      },
+      "centimetersSquaredPattern": {
+        "value": "{{value}} cm<sup>2</sup>"
+      },
+      "hertz": {
+        "value": "Hz"
+      },
+      "hertzPattern": {
+        "value": "{{value}} Hz"
+      },
+      "percent": {
+        "value": "%"
+      },
+      "percentPattern": {
+        "value": "{{value}}%"
+      },
+      "seconds": {
+        "value": "s"
+      },
+      "secondsPattern": {
+        "value": "{{value}} s"
+      }
+    },
     "a11y": {
       "simSection": {
         "screenSummary": {
@@ -26870,6 +26905,29 @@
           "accessibleName": {
             "value": "Pause Stopwatch"
           }
+        }
+      },
+      "negativeNumber": {
+        "value": "negative { $value }"
+      },
+      "scientificNotation": {
+        "value": "{ $value } times ${ $base } to the { $exponent } power"
+      },
+      "units": {
+        "centimetersPattern": {
+          "value": "{ $value ->\n  [one] { $value } centimeter\n  *[other] { $value } centimeters\n}"
+        },
+        "centimetersSquaredPattern": {
+          "value": "{ $value ->\n  [one] { $value } square centimeter\n  *[other] { $value } square centimeters\n}"
+        },
+        "hertzPattern": {
+          "value": "{ $value } hertz"
+        },
+        "percentPattern": {
+          "value": "{ $value } percent"
+        },
+        "secondsPattern": {
+          "value": "{ $value ->\n  [one] { $value } second\n  *[other] { $value } seconds\n}"
         }
       }
     }
