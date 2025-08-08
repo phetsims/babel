@@ -10207,7 +10207,7 @@
             "value": "Adjust visual range."
           }
         },
-        "h3OIndicator": {
+        "indicatorH3O": {
           "accessibleName": {
             "value": "H 3 O Plus Indicator"
           },
@@ -10215,10 +10215,10 @@
             "value": "Adjust amount of H 3 O plus in solution."
           },
           "accessibleObjectResponse": {
-            "value": "{{h3OValue}} O H minus indicator now {{oHValue}}"
+            "value": "{{valueH3O}} O H minus indicator now {{valueOH}}"
           }
         },
-        "oHIndicator": {
+        "indicatorOH": {
           "accessibleName": {
             "value": "O H Minus Indicator"
           },
@@ -10226,7 +10226,7 @@
             "value": "Adjust amount of O H minus in solution."
           },
           "accessibleObjectResponse": {
-            "value": "{{oHValue}} H 3 O plus indicator now {{h3OValue}}"
+            "value": "{{valueOH}} H 3 O plus indicator now {{valueH3O}}"
           }
         }
       }
