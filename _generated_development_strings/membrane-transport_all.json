@@ -79,20 +79,22 @@
       }
     },
     "preferencesDialog": {
-      "animateLipids": {
-        "label": {
-          "value": "Lipids Animation"
+      "simulation": {
+        "animateLipids": {
+          "label": {
+            "value": "Lipids Animation"
+          },
+          "description": {
+            "value": "Remove wiggling animation of phospholipid bilayer forming the cell membrane."
+          }
         },
-        "description": {
-          "value": "Remove wiggling animation of phospholipid bilayer forming the cell membrane."
-        }
-      },
-      "glucoseMetabolism": {
-        "label": {
-          "value": "Glucose Metabolism"
-        },
-        "description": {
-          "value": "Fade and remove glucose solutes inside cell to simulate conversion for cellular metabolism."
+        "glucoseMetabolism": {
+          "label": {
+            "value": "Glucose Metabolism"
+          },
+          "description": {
+            "value": "Fade and remove glucose solutes inside cell to simulate conversion for cellular metabolism."
+          }
         }
       },
       "audio": {
@@ -256,6 +258,9 @@
         },
         "interactionHintWithTransportProteins": {
           "value": "Add or remove solutes to outside or inside of cell, and play with transport proteins."
+        },
+        "customInteractionsHint": {
+          "value": "This screen has custom interactions."
         }
       },
       "soluteControls": {
@@ -306,7 +311,7 @@
           "value": "Transport Proteins"
         },
         "accessibleHelpText": {
-          "value": "Use keyboard shortcuts to grab, sort, and release up to 7 proteins into membrane. Grab to pull to membrane."
+          "value": "Look for proteins to grab. Once grabbed, use keyboard shortcuts to release in a membrane slot. Grab again from membrane sort or delete."
         },
         "ligandGatedChannelPanel": {
           "sodiumIonNaPlusLigandGated": {
@@ -403,7 +408,7 @@
           "value": "{ $ligandType ->\n[starLigand]     Star Ligand\n*[triangleLigand] Triangle Ligand\n}"
         },
         "accessibleHelpText": {
-          "value": "Grab a ligand. When grabbed, use keyboard shortcuts to move ligand to binding site. Release to bind or let ligands bind naturally."
+          "value": "Grab a ligand. Once grabbed, use keyboard shortcuts to move ligand to binding site. Release to bind or let ligands bind naturally."
         },
         "releasedResponse": {
           "value": "Released."
@@ -509,7 +514,7 @@
           "value": "{ $amount ->\n  [none] no\n  [few] a few\n  [some] some\n  [smallAmount] small amount of\n  [several] several\n  [many] many\n  [largeAmount] large amount of\n  [hugeAmount] huge amount\n *[maxAmount] max amount of\n} { a11y_solutes_lowercaseName }"
         },
         "accessibleContextResponse": {
-          "value": "{ $amountAdded ->\n  [aLittle] Ten\n *[aLot]    Fifty\n} { $addedOrRemoved ->\n  [added]   added\n *[removed] removed\n}. Now, { a11y_solutes_amountComparison }. "
+          "value": "{ $addedOrRemoved ->\n  [addedToMax] Solutes added to max\n  [removedToMin] Solutes removed\n  [added]  {$delta} added\n *[removed] {$delta} removed\n}. Now, { a11y_solutes_amountComparison }. "
         }
       },
       "soluteConcentrationsAccordionBox": {
@@ -552,23 +557,89 @@
         "accessibleHeading": {
           "value": "Cell Membrane"
         },
-        "accessibleHelpTextNoSolutesProteinsHidden": {
-          "value": "Look to adjust solute types and amounts."
+        "accessibleStateDescription": {
+          "proteinTypeCountDescription": {
+            "value": "{ $typeCount ->\n  [one] { $typeCount } type\n  *[other] { $typeCount } types\n} of proteins in membrane"
+          },
+          "proteinsHidden": {
+            "potentialHidden": {
+              "noSolutes": {
+                "value": "No solutes."
+              },
+              "withSolutes": {
+                "value": "Solute added."
+              }
+            }
+          },
+          "proteinsShown": {
+            "potentialHidden": {
+              "noProteins": {
+                "noSolutes": {
+                  "value": "No solutes or proteins."
+                },
+                "withSolutes": {
+                  "value": "Solute added, no proteins in membrane."
+                }
+              },
+              "withProteins": {
+                "noSolutes": {
+                  "value": "No solutes. { a11y_cellMembrane_accessibleStateDescription_proteinTypeCountDescription }."
+                },
+                "withSolutes": {
+                  "value": "Solute added. { a11y_cellMembrane_accessibleStateDescription_proteinTypeCountDescription }."
+                }
+              }
+            },
+            "potentialShown": {
+              "noProteins": {
+                "noSolutes": {
+                  "value": "No solutes or proteins, and a membrane potential of { a11y_membranePotentialValue }."
+                },
+                "withSolutes": {
+                  "value": "Solute added, no proteins in membrane, and a membrane potential of { a11y_membranePotentialValue }."
+                }
+              },
+              "withProteins": {
+                "noSolutes": {
+                  "value": "No solutes. { a11y_cellMembrane_accessibleStateDescription_proteinTypeCountDescription }, and a membrane potential of { a11y_membranePotentialValue }."
+                },
+                "withSolutes": {
+                  "value": "Solute added. { a11y_cellMembrane_accessibleStateDescription_proteinTypeCountDescription }, and a membrane potential of { a11y_membranePotentialValue }."
+                }
+              }
+            }
+          }
         },
-        "accessibleHelpTextWithSolutesProteinsHidden": {
-          "value": "Observe crossing solutes. Look to adjust solute types and amounts."
+        "accessibleHelpText": {
+          "proteinsHidden": {
+            "noSolutes": {
+              "value": "Look to adjust solute types and amounts."
+            },
+            "withSolutes": {
+              "value": "Observe crossing solutes. Look to adjust solute types and amounts."
+            }
+          },
+          "proteinsShown": {
+            "noProteins": {
+              "noSolutes": {
+                "value": "Look to add solutes and proteins."
+              },
+              "withSolutes": {
+                "value": "Observe crossing solutes. Look to adjust solutes and proteins."
+              }
+            },
+            "withProteins": {
+              "noSolutes": {
+                "value": "Look to adjust solutes and proteins."
+              },
+              "withSolutes": {
+                "value": "Observe crossing solutes and protein changes. Look to adjust solutes and proteins."
+              }
+            }
+          }
         },
-        "accessibleHelpTextNoSolutesOrProteins": {
-          "value": "No proteins, and membrane potential of { a11y_membranePotentialValue }. Look to add solutes and proteins."
-        },
-        "accessibleHelpTextWithSolutesNoProteins": {
-          "value": "No proteins, and membrane potential of { a11y_membranePotentialValue }. Observe crossing solutes. Look to add proteins."
-        },
-        "accessibleHelpTextWithProteinsNoSolutes": {
-          "value": "{$typeCount ->\n[one] { $typeCount } type\n*[other] { $typeCount } types\n} of proteins in membrane and a membrane potential of { a11y_membranePotentialValue }. Look to adjust solute types and amounts."
-        },
-        "accessibleHelpTextWithSolutesAndProteins": {
-          "value": "{$typeCount ->\n[one] { $typeCount } type\n*[other] { $typeCount } types\n} of proteins in membrane and a membrane potential of { a11y_membranePotentialValue }. Observe crossing solutes and protein changes. Look to add solutes or proteins."
+        "accessibleHelpTextPattern": {
+          "value": "{ $accessibleStateDescription } { $accessibleHelpText }"
         }
       },
       "transportProtein": {
@@ -738,6 +809,38 @@
         },
         "sodiumAndGlucoseShuttledInside": {
           "value": "sodium and glucose shuttled inside"
+        }
+      },
+      "preferencesDialog": {
+        "simulation": {
+          "animateLipids": {
+            "accessibleContextResponseLeftValue": {
+              "value": "Lipids Animation off."
+            },
+            "accessibleContextResponseRightValue": {
+              "value": "Lipids Animation on."
+            }
+          },
+          "glucoseMetabolism": {
+            "accessibleContextResponseLeftValue": {
+              "value": "Glucose Metabolism off."
+            },
+            "accessibleContextResponseRightValue": {
+              "value": "Glucose Metabolism on."
+            }
+          }
+        },
+        "audio": {
+          "sounds": {
+            "stereoCrossingSounds": {
+              "accessibleContextResponseLeftValue": {
+                "value": "Stereo Crossing Sounds off."
+              },
+              "accessibleContextResponseRightValue": {
+                "value": "Stereo Crossing Sounds on."
+              }
+            }
+          }
         }
       }
     }
