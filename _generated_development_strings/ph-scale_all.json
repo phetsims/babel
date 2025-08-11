@@ -9886,6 +9886,31 @@
       "value": "Cycle through useful positions."
     },
     "a11y": {
+      "commonScreenSummary": {
+        "currentDetails": {
+          "emptyBeaker": {
+            "value": "Currently, beaker is empty."
+          },
+          "beakerWithSolution": {
+            "value": "Currently, beaker contains liquid."
+          }
+        }
+      },
+      "macroScreenButton": {
+        "accessibleHelpText": {
+          "value": "Test the pH of common solutions."
+        }
+      },
+      "microScreenButton": {
+        "accessibleHelpText": {
+          "value": "Explore ion amounts in common solutions."
+        }
+      },
+      "mySolutionScreenButton": {
+        "accessibleHelpText": {
+          "value": "Create your own solution by manipulating pH or ion concentration."
+        }
+      },
       "qualitativePHValuePattern": {
         "value": "pH is {{pHValue}}, {{pHDescription}}."
       },
@@ -9930,29 +9955,23 @@
           "value": "Extremely Acidic"
         }
       },
+      "microScreenSummary": {
+        "playArea": {
+          "value": "A solution dropper, water faucet, and pH meter with collapsible probe sit above a drainable beaker. The dropper dispenses a number of everyday solutions one at a time. On the left, a graph displays the amounts of O H minus, H 3 O plus, and water in solution."
+        },
+        "controlArea": {
+          "value": "Switch graph scale between logarithmic and linear. Reset sim to start over."
+        },
+        "interactionHint": {
+          "value": "Add solution to beaker and play."
+        }
+      },
       "macroScreenSummary": {
         "playArea": {
           "value": "A solution dropper and water faucet sit above a drainable beaker. The dropper dispenses a number of everyday solutions one at a time. On the left, is a movable pH probe connected to a scaled pH meter. "
         },
         "controlArea": {
           "value": "Reset sim to start over."
-        },
-        "currentDetails": {
-          "emptyBeaker": {
-            "value": "beaker is empty."
-          },
-          "currently": {
-            "value": "Currently,"
-          },
-          "beakerWithSolution": {
-            "value": "beaker contains {{solute}} solution."
-          },
-          "beakerWithWater": {
-            "value": "beaker contains Water."
-          },
-          "waterPHValuePattern": {
-            "value": "pH is {{pHValue}}, neutral."
-          }
         },
         "interactionHint": {
           "emptyBeaker": {
@@ -9961,6 +9980,17 @@
           "beakerWithSolution": {
             "value": "Move pH probe to start exploring."
           }
+        }
+      },
+      "mySolutionScreenSummary": {
+        "playArea": {
+          "value": "An adjustable pH meter has a collapsible probe submerged in a beaker containing customizable solution. On the left, is a logarithmic graph with moveable indicators for amount of H 3 O plus and O H minus."
+        },
+        "controlArea": {
+          "value": "Reset sim to start over."
+        },
+        "interactionHint": {
+          "value": "Change pH value or ion amounts to create a solution."
         }
       },
       "pHMeter": {
