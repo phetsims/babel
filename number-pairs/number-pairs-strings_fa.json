@@ -121,24 +121,38 @@
     ]
   },
   "decompositionPhrasePattern": {
-    "value": "<total>{{total}}</total> را می‌توان به <left>{{leftAddend}}</left> و <right>{{rightAddend}}</right> تجزیه کرد",
+    "value": "<total>{{total}}</total> را می‌توان به <right>{{rightAddend}}</right> و <left>{{leftAddend}}</left> تجزیه کرد",
     "history": [
       {
         "userId": 641432,
         "timestamp": 1755324732663,
         "oldValue": "",
         "newValue": "<total>{{total}}</total> را می‌توان به <left>{{leftAddend}}</left> و <right>{{rightAddend}}</right> تجزیه کرد"
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1755329660270,
+        "oldValue": "<total>{{total}}</total> را می‌توان به <left>{{leftAddend}}</left> و <right>{{rightAddend}}</right> تجزیه کرد",
+        "newValue": "<total>{{total}}</total> را می‌توان به <right>{{rightAddend}}</right> و <left>{{leftAddend}}</left> تجزیه کرد",
+        "explanation": null
       }
     ]
   },
   "decompositionPhraseSpeechPattern": {
-    "value": "{{total}} را می‌توان به {{leftAddend}} و {{rightAddend}} تجزیه کرد",
+    "value": "{{total}} را می‌توان به {{rightAddend}} و {{leftAddend}} تجزیه کرد",
     "history": [
       {
         "userId": 641432,
         "timestamp": 1755324732663,
         "oldValue": "",
         "newValue": "{{total}} را می‌توان به {{leftAddend}} و {{rightAddend}} تجزیه کرد"
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1755329660270,
+        "oldValue": "{{total}} را می‌توان به {{leftAddend}} و {{rightAddend}} تجزیه کرد",
+        "newValue": "{{total}} را می‌توان به {{rightAddend}} و {{leftAddend}} تجزیه کرد",
+        "explanation": null
       }
     ]
   },
@@ -429,24 +443,38 @@
     ]
   },
   "sumPhrasePattern": {
-    "value": "{{leftAddend}} به‌علاوه {{rightAddend}} برابر است با {{total}}",
+    "value": "<right>{{rightAddend}}</right> به‌علاوه <left>{{leftAddend}}</left> برابر است با <total>{{total}}</total>",
     "history": [
       {
         "userId": 641432,
         "timestamp": 1755329199065,
         "oldValue": "",
         "newValue": "{{leftAddend}} به‌علاوه {{rightAddend}} برابر است با {{total}}"
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1755329660270,
+        "oldValue": "{{leftAddend}} به‌علاوه {{rightAddend}} برابر است با {{total}}",
+        "newValue": "<right>{{rightAddend}}</right> به‌علاوه <left>{{leftAddend}}</left> برابر است با <total>{{total}}</total>",
+        "explanation": null
       }
     ]
   },
   "sumPhraseSpeechPattern": {
-    "value": "{{leftAddend}} به‌علاوه {{rightAddend}} برابر است با {{total}}",
+    "value": "{{rightAddend}} به‌علاوه {{leftAddend}} برابر است با {{total}}",
     "history": [
       {
         "userId": 641432,
         "timestamp": 1755329199065,
         "oldValue": "",
         "newValue": "{{leftAddend}} به‌علاوه {{rightAddend}} برابر است با {{total}}"
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1755329660270,
+        "oldValue": "{{leftAddend}} به‌علاوه {{rightAddend}} برابر است با {{total}}",
+        "newValue": "{{rightAddend}} به‌علاوه {{leftAddend}} برابر است با {{total}}",
+        "explanation": null
       }
     ]
   },
