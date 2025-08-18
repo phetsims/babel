@@ -112,24 +112,49 @@
     ]
   },
   "units.centimeters": {
-    "value": "سانتی متر",
+    "value": "cm",
     "history": [
       {
         "userId": 641432,
         "timestamp": 1714888565657,
         "oldValue": "",
         "newValue": "سانتی متر"
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1755535543107,
+        "oldValue": "سانتی متر",
+        "newValue": "cm",
+        "explanation": null
       }
     ]
   },
   "pattern_0value_1units": {
-    "value": "{{value}} {{units}}",
+    "value": "{{units}} {{value}}",
     "history": [
       {
         "userId": 641432,
         "timestamp": 1714888565657,
         "oldValue": "",
         "newValue": "{{value}} {{units}}"
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1755535543107,
+        "oldValue": "{{value}} {{units}}",
+        "newValue": "{{units}} {{value}}",
+        "explanation": null
+      }
+    ]
+  },
+  "units.picometers": {
+    "value": "pm",
+    "history": [
+      {
+        "userId": 641432,
+        "timestamp": 1755535543107,
+        "oldValue": "",
+        "newValue": "pm"
       }
     ]
   }
