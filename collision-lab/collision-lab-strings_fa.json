@@ -330,40 +330,61 @@
     ]
   },
   "pattern.labelEqualsValueSpaceUnits": {
-    "value": "{{label}} = {{value}} {{units}}",
+    "value": "{{units}} {{value}} = {{label}}",
     "history": [
       {
         "userId": 641432,
         "timestamp": 1755526359441,
         "oldValue": "",
         "newValue": "{{label}} = {{value}} {{units}}"
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1755527616812,
+        "oldValue": "{{label}} = {{value}} {{units}}",
+        "newValue": "{{units}} {{value}} = {{label}}",
+        "explanation": null
       }
     ]
   },
   "pattern.labelEqualsValueUnits": {
-    "value": "{{label}} = {{value}}{{units}}",
+    "value": "{{units}}{{value}} = {{label}}",
     "history": [
       {
         "userId": 641432,
         "timestamp": 1755526359441,
         "oldValue": "",
         "newValue": "{{label}} = {{value}}{{units}}"
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1755527616812,
+        "oldValue": "{{label}} = {{value}}{{units}}",
+        "newValue": "{{units}}{{value}} = {{label}}",
+        "explanation": null
       }
     ]
   },
   "pattern.labelParenthesesUnits": {
-    "value": "{{label}} ({{units}})",
+    "value": "{{label}} {{units}}",
     "history": [
       {
         "userId": 641432,
         "timestamp": 1755526359441,
         "oldValue": "",
         "newValue": "{{label}} ({{units}})"
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1755527616812,
+        "oldValue": "{{label}} ({{units}})",
+        "newValue": "{{label}} {{units}}",
+        "explanation": null
       }
     ]
   },
   "pattern.range": {
-    "value": "{{min}} به {{max}} {{units}}",
+    "value": "{{min}} به {{units}} {{max}}",
     "history": [
       {
         "userId": 641432,
@@ -377,17 +398,31 @@
         "oldValue": "{{min}} to {{max}} {{units}}",
         "newValue": "{{min}} به {{max}} {{units}}",
         "explanation": null
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1755527616812,
+        "oldValue": "{{min}} به {{max}} {{units}}",
+        "newValue": "{{min}} به {{units}} {{max}}",
+        "explanation": null
       }
     ]
   },
   "pattern.symbolSubSymbol": {
-    "value": "{{symbol1}}<sub>{{symbol2}}</sub>",
+    "value": "<sub>{{symbol2}}</sub>{{symbol1}}",
     "history": [
       {
         "userId": 641432,
         "timestamp": 1755526359441,
         "oldValue": "",
         "newValue": "{{symbol1}}<sub>{{symbol2}}</sub>"
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1755527616812,
+        "oldValue": "{{symbol1}}<sub>{{symbol2}}</sub>",
+        "newValue": "<sub>{{symbol2}}</sub>{{symbol1}}",
+        "explanation": null
       }
     ]
   },
@@ -403,24 +438,38 @@
     ]
   },
   "pattern.valueUnits": {
-    "value": "{{value}}{{units}}",
+    "value": "{{value}}({{units}}",
     "history": [
       {
         "userId": 641432,
         "timestamp": 1755526359441,
         "oldValue": "",
         "newValue": "{{value}}{{units}}"
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1755527616812,
+        "oldValue": "{{value}}{{units}}",
+        "newValue": "{{value}}({{units}}",
+        "explanation": null
       }
     ]
   },
   "pattern.vectorSymbolEqualsValueSpaceUnits": {
-    "value": "|{{symbol}}| = {{value}} {{units}}",
+    "value": "{{units}} {{value}} = |{{symbol}}|",
     "history": [
       {
         "userId": 641432,
         "timestamp": 1755526359441,
         "oldValue": "",
         "newValue": "|{{symbol}}| = {{value}} {{units}}"
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1755527616812,
+        "oldValue": "|{{symbol}}| = {{value}} {{units}}",
+        "newValue": "{{units}} {{value}} = |{{symbol}}|",
+        "explanation": null
       }
     ]
   },
