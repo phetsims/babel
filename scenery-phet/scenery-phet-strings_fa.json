@@ -1071,7 +1071,7 @@
     ]
   },
   "stopwatchValueUnitsPattern": {
-    "value": "{{units}} {{value}}",
+    "value": "{{value}} {{units}}",
     "history": [
       {
         "userId": 641432,
@@ -1084,6 +1084,13 @@
         "timestamp": 1755526690951,
         "oldValue": "{{value}} {{units}}",
         "newValue": "{{units}} {{value}}",
+        "explanation": null
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1755527616812,
+        "oldValue": "{{units}} {{value}}",
+        "newValue": "{{value}} {{units}}",
         "explanation": null
       }
     ]
