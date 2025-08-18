@@ -366,7 +366,7 @@
     ]
   },
   "pattern.labelParenthesesUnits": {
-    "value": "{{label}} {{units}}",
+    "value": "{{label}} ({{units}})",
     "history": [
       {
         "userId": 641432,
@@ -379,6 +379,13 @@
         "timestamp": 1755527616812,
         "oldValue": "{{label}} ({{units}})",
         "newValue": "{{label}} {{units}}",
+        "explanation": null
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1755527951849,
+        "oldValue": "{{label}} {{units}}",
+        "newValue": "{{label}} ({{units}})",
         "explanation": null
       }
     ]
@@ -438,7 +445,7 @@
     ]
   },
   "pattern.valueUnits": {
-    "value": "{{value}}({{units}}",
+    "value": "{{value}}{{units}}",
     "history": [
       {
         "userId": 641432,
@@ -451,6 +458,13 @@
         "timestamp": 1755527616812,
         "oldValue": "{{value}}{{units}}",
         "newValue": "{{value}}({{units}}",
+        "explanation": null
+      },
+      {
+        "userId": 641432,
+        "timestamp": 1755527951849,
+        "oldValue": "{{value}}({{units}}",
+        "newValue": "{{value}}{{units}}",
         "explanation": null
       }
     ]
