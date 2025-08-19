@@ -9366,7 +9366,10 @@
           "value": "Speed"
         },
         "cartSpeed": {
-          "value": "Cart speed is { $speedDescription }"
+          "value": "Cart speed is { $speedDescription }."
+        },
+        "cartSpeedWithAcceleration": {
+          "value": "Cart speed is { $speedDescription } and { $accelerationDescription }."
         },
         "qualitativeDescriptions": {
           "stationary": {
@@ -9383,6 +9386,14 @@
           },
           "fast": {
             "value": "fast"
+          }
+        },
+        "accelerationDescriptions": {
+          "speedingUp": {
+            "value": "speeding up"
+          },
+          "slowingDown": {
+            "value": "slowing down"
           }
         }
       },
