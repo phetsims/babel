@@ -265,7 +265,7 @@
           "value": "Solute Controls"
         },
         "accessibleHelpText": {
-          "value": "Choose solute for adding or removing with Solute Adjusters."
+          "value": "Choose solute for Solute Adjusters."
         }
       },
       "eraseSolutesButton": {
@@ -422,8 +422,11 @@
         "unboundResponse": {
           "value": "Ligand floats away. Protein closes."
         },
+        "movedOffMembraneResponse": {
+          "value": "Off membrane."
+        },
         "movedAboveLigandGatedChannelResponse": {
-          "value": "Above { $openOrClosed ->\n[open]   open\n*[closed] closed\n} { a11y_transportProtein_briefName } { $ligandType ->\n[triangleLigand] Triangle Site\n*[starLigand]     Star Site\n}, { $index } of { $transportProteinCount } Proteins."
+          "value": "Above { $openOrClosed ->\n[open]   open\n*[closed] closed\n} { a11y_transportProtein_briefName } { $proteinType ->\n[sodiumIonLigandGatedChannel] Triangle Site\n*[potassiumIonLigandGatedChannel]     Star Site\n}, { $index } of { $transportProteinCount } Proteins."
         },
         "movedAboveLeakageChannelResponse": {
           "value": "Above { a11y_transportProtein_briefName }, { $index } of { $transportProteinCount } Proteins."
@@ -488,6 +491,9 @@
           },
           "accessibleHelpText": {
             "value": "Adjust chosen solute amount on outside with arrow keys or alternate keyboard shortcuts."
+          },
+          "readingBlockNameResponse": {
+            "value": "{ a11y_soluteControl_accessibleObjectResponse }, Outside"
           }
         },
         "inside": {
@@ -496,6 +502,9 @@
           },
           "accessibleHelpText": {
             "value": "Adjust chosen solute amount on inside with arrow keys or alternate keyboard shortcuts."
+          },
+          "readingBlockNameResponse": {
+            "value": "{ a11y_soluteControl_accessibleObjectResponse }, Inside"
           }
         },
         "voicingHintResponse": {
@@ -554,58 +563,8 @@
         "accessibleHeading": {
           "value": "Cell Membrane"
         },
-        "accessibleStateDescription": {
-          "proteinTypeCountDescription": {
-            "value": "{ $typeCount ->\n  [one] { $typeCount } type\n  *[other] { $typeCount } types\n} of proteins in membrane"
-          },
-          "proteinsHidden": {
-            "potentialHidden": {
-              "noSolutes": {
-                "value": "No solutes."
-              },
-              "withSolutes": {
-                "value": "Solute added."
-              }
-            }
-          },
-          "proteinsShown": {
-            "potentialHidden": {
-              "noProteins": {
-                "noSolutes": {
-                  "value": "No solutes or proteins."
-                },
-                "withSolutes": {
-                  "value": "Solute added, no proteins in membrane."
-                }
-              },
-              "withProteins": {
-                "noSolutes": {
-                  "value": "No solutes. { a11y_cellMembrane_accessibleStateDescription_proteinTypeCountDescription }."
-                },
-                "withSolutes": {
-                  "value": "Solute added. { a11y_cellMembrane_accessibleStateDescription_proteinTypeCountDescription }."
-                }
-              }
-            },
-            "potentialShown": {
-              "noProteins": {
-                "noSolutes": {
-                  "value": "No solutes or proteins, and a membrane potential of { a11y_membranePotentialValue }."
-                },
-                "withSolutes": {
-                  "value": "Solute added, no proteins in membrane, and a membrane potential of { a11y_membranePotentialValue }."
-                }
-              },
-              "withProteins": {
-                "noSolutes": {
-                  "value": "No solutes. { a11y_cellMembrane_accessibleStateDescription_proteinTypeCountDescription }, and a membrane potential of { a11y_membranePotentialValue }."
-                },
-                "withSolutes": {
-                  "value": "Solute added. { a11y_cellMembrane_accessibleStateDescription_proteinTypeCountDescription }, and a membrane potential of { a11y_membranePotentialValue }."
-                }
-              }
-            }
-          }
+        "leadingParagraph": {
+          "value": "Zoomed-in cross section of cell has:"
         },
         "accessibleHelpText": {
           "proteinsHidden": {
@@ -634,9 +593,6 @@
               }
             }
           }
-        },
-        "accessibleHelpTextPattern": {
-          "value": "{ $accessibleStateDescription } { $accessibleHelpText }"
         }
       },
       "transportProtein": {
