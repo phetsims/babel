@@ -525,10 +525,16 @@
       },
       "soluteConcentrationsAccordionBox": {
         "descriptionContent": {
-          "value": "A dynamic barchart for each solute captures amounts on either side of membrane and emphasizes recent crossings with visual highlights and sounds. If needed, pause sim to freeze details for reading."
+          "value": "Dynamic bar charts show concentration comparisons and recent crossings for each solute. If needed, pause sim to read details."
+        },
+        "accessibleContextResponseExpanded": {
+          "value": "Dynamic bar charts show solute details."
+        },
+        "accessibleContextResponseCollapsed": {
+          "value": "Dynamic bar charts hidden."
         },
         "voicingHintResponseCollapsed": {
-          "value": "Expand to explore changing solute concentrations."
+          "value": "Expand to show dynamic bar charts with solute details."
         },
         "barChart": {
           "accessibleNameWithNoParticles": {
