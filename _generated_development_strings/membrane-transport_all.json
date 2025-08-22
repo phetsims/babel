@@ -639,10 +639,13 @@
           "value": "{ $state ->\n   [openToInsideEmpty] Phosphate floats away, pumping 2 potassium to inside\n   [openToInsideSodiumAndATPBound] ATP reacts, phosphate binds, pumping 3 sodium to outside\n\n   *[openToInside] { $glucoseBehavior ->\n     [metabolized] Shuttles 2 sodium, one glucose inside, shuttled glucose metabolized\n     *[persistent] Shuttles 2 sodium, one glucose inside\n   }\n\n   [ligandBoundOpen] { $proteinType ->\n     [sodiumIonLigandGatedChannel] triangle ligand binds, open \n     *[potassiumIonLigandGatedChannel] star ligand binds, open\n   }\n   [closed] { $proteinType ->\n     [sodiumIonLigandGatedChannel] triangle ligand floats away, closed\n     *[potassiumIonLigandGatedChannel] star ligand floats away, closed\n   }\n}."
         },
         "accessibleNameMoving": {
-          "value": "{ a11y_transportProtein_accessibleObjectResponseMoving }, above { $nameResponse }"
+          "value": "Slot { $slotIndex } of { $slotCount }"
         },
         "accessibleObjectResponseMoving": {
-          "value": "Slot { $slotIndex } of { $slotCount }"
+          "value": "above { $slotContents }"
+        },
+        "accessibleNameAndObjectResponse": {
+          "value": "{ $nameResponse }, { $objectResponse }"
         },
         "empty": {
           "value": "empty slot"
