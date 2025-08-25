@@ -4979,11 +4979,6 @@
           "interactionHint": {
             "value": "TODO.exploreScreen.screenSummary.interactionHint"
           }
-        },
-        "equationAccordionBox": {
-          "accessibleName": {
-            "value": "TODO.exploreScreen.equationAccordionBox.accessibleName"
-          }
         }
       },
       "standardFormScreen": {
@@ -5002,11 +4997,6 @@
           },
           "interactionHint": {
             "value": "TODO.standardFormScreen.screenSummary.interactionHint"
-          }
-        },
-        "equationAccordionBox": {
-          "accessibleName": {
-            "value": "TODO.standardScreen.equationAccordionBox.accessibleName"
           }
         }
       },
@@ -5029,8 +5019,8 @@
           }
         },
         "equationAccordionBox": {
-          "accessibleName": {
-            "value": "TODO.vertexScreen.equationAccordionBox.accessibleName"
+          "accessibleHelpText": {
+            "value": "Adjust values a, h, and k in equation y equals a times the quantity x minus h, squared, plus k."
           }
         }
       },
@@ -5053,9 +5043,17 @@
           }
         },
         "equationAccordionBox": {
-          "accessibleName": {
-            "value": "TODO.focusAndDirectrixScreen.equationAccordionBox.accessibleName"
+          "accessibleHelpText": {
+            "value": "Adjust values p, h, and k in equation y equals 1 over 4p, times (x minus h) squared, plus k."
           }
+        }
+      },
+      "equationAccordionBox": {
+        "accessibleName": {
+          "value": "Equation Controls"
+        },
+        "accessibleHelpText": {
+          "value": "Adjust values a, b, and c of the equation y equals a x squared plus b x plus c."
         }
       },
       "graphContentsToggleButton": {
