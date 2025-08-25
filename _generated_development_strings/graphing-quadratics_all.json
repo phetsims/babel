@@ -4968,7 +4968,7 @@
             "value": "Additionally, access movable coordinate point tools, and reset the sim to start over.\n"
           },
           "currentDetails": {
-            "value": "Currently, there is a parabola in the coordinate grid graphing the function in the equation control."
+            "value": "Currently, there is a parabola in the coordinate grid, graphing the function in the equation control."
           },
           "currentDetailsEmpty": {
             "value": "Currently, the contents of the coordinate grid are empty."
@@ -5114,18 +5114,18 @@
       },
       "leftPointToolNode": {
         "accessibleName": {
-          "value": "TODO.leftPointToolNode.accessibleName"
+          "value": "Left-handed Point Tool"
         },
         "accessibleHelpText": {
-          "value": "TODO.leftPointToolNode.accessibleHelpText"
+          "value": "Place in grid for x,y coordinates. Tool has handle on left, scope on right."
         }
       },
       "rightPointToolNode": {
         "accessibleName": {
-          "value": "TODO.rightPointToolNode.accessibleName"
+          "value": "Right-handed Point Tool"
         },
         "accessibleHelpText": {
-          "value": "TODO.rightPointToolNode.accessibleHelpText"
+          "value": "Place in grid for x,y coordinates. Tool has handle on right, scope on left."
         }
       },
       "quadraticTermCheckbox": {
@@ -5188,22 +5188,40 @@
       },
       "vertexPointCheckbox": {
         "accessibleHelpText": {
-          "value": "TODO.vertexPointCheckbox.accessibleHelpText"
+          "value": "Show or hide vertex on parabola."
+        },
+        "accessibleContextResponseChecked": {
+          "value": "vertex shown"
+        },
+        "accessibleContextResponseUnchecked": {
+          "value": "vertex hidden"
         }
       },
       "axisOfSymmetryCheckbox": {
         "accessibleHelpText": {
-          "value": "TODO.axisOfSymmetryCheckbox.accessibleHelpText"
+          "value": "Show or hide axis of symmetry of parabola."
+        },
+        "accessibleContextResponseChecked": {
+          "value": "axis of symmetry shown"
+        },
+        "accessibleContextResponseUnchecked": {
+          "value": "axis of symmetry hidden"
         }
       },
       "rootsCheckbox": {
         "accessibleHelpText": {
-          "value": "TODO.rootsCheckbox.accessibleHelpText"
+          "value": "Show or hide roots of parabola, if they are real."
+        },
+        "accessibleContextResponseChecked": {
+          "value": "roots shown, if real"
+        },
+        "accessibleContextResponseUnchecked": {
+          "value": "roots hidden"
         }
       },
       "coordinatesCheckbox": {
         "accessibleHelpText": {
-          "value": "TODO.coordinatesCheckbox.accessibleHelpText"
+          "value": "Explore with or without coordinates of graph features labeled."
         }
       },
       "focusCheckbox": {
