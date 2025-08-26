@@ -2983,50 +2983,35 @@
       "value": "On the sum screen only, this changes the orientation of the total in the number decomposition model."
     },
     "a11y": {
-      "changeColor": {
-        "value": "Change Color"
-      },
       "yellow": {
         "value": "Yellow"
       },
       "blue": {
         "value": "Blue"
       },
-      "totalOnTop": {
-        "value": "Total on Top"
+      "left": {
+        "value": "left"
       },
-      "totalOnBottom": {
-        "value": "Total on Bottom"
+      "right": {
+        "value": "right"
+      },
+      "home": {
+        "value": "Home"
+      },
+      "end": {
+        "value": "End"
       },
       "phraseHelpText": {
         "value": "Read phrase aloud."
       },
-      "totalNumberPattern": {
-        "value": "Total Number { $value }"
+      "hearPhrase": {
+        "value": "Hear Phrase"
       },
       "representationType": {
         "value": "Representation Type"
       },
-      "hearPhrase": {
-        "value": "Hear Phrase"
-      },
-      "organizeObjectsPattern": {
-        "value": "Organize { $representation }"
-      },
-      "swapAddends": {
-        "value": "Swap Addends"
-      },
-      "showAddendPattern": {
-        "value": "Show { $addend } addend"
-      },
-      "hideAddendPattern": {
-        "value": "Hide { $addend } addend"
-      },
-      "showAddends": {
-        "value": "Show addends"
-      },
-      "hideAddends": {
-        "value": "Hide addends"
+      "representationTypeHelpText": {
+        "value": "Choose representation for counting area."
       },
       "apples": {
         "value": "Apples"
@@ -3052,95 +3037,120 @@
       "one": {
         "value": "One"
       },
-      "kittens": {
-        "value": "Kittens"
-      },
-      "beads": {
-        "value": "Beads"
-      },
-      "bead": {
-        "value": "Bead"
-      },
-      "numberLine": {
-        "value": "Number Line"
-      },
-      "countOn": {
-        "value": "Count On"
-      },
-      "countFromZero": {
-        "value": "Count from Zero"
-      },
       "locationCountingObjects": {
         "value": "Location Counting Objects"
-      },
-      "totalCheckboxHelpText": {
-        "value": "Show or hide the sum of the two addends."
-      },
-      "chooseTotalHelpText": {
-        "value": "Choose total for counting area."
-      },
-      "representationTypeHelpText": {
-        "value": "Choose representation for counting area."
-      },
-      "organizeObjectsHelpTextPattern": {
-        "value": "Organize { $representation } into groups of five."
       },
       "locationCountingObjectsHelpText": {
         "value": "Left and right counting areas with grabbable and movable objects."
       },
-      "beadsHelpText": {
-        "value": "Counting area with grabbable and movable beads."
+      "kittens": {
+        "kittens": {
+          "value": "Kittens"
+        },
+        "changeColor": {
+          "value": "Change Color"
+        },
+        "blueKitten": {
+          "value": "Blue Kitten"
+        },
+        "yellowKitten": {
+          "value": "Yellow Kitten"
+        },
+        "helpText": {
+          "value": "Change kitten color and move kittens around to play."
+        },
+        "jumpToFirstKeyboardHelp": {
+          "value": "Jump to first kitten with Home key."
+        },
+        "jumpToLastKeyboardHelp": {
+          "value": "Jump to last kitten with End key."
+        },
+        "changeColorKeyboardHelp": {
+          "value": "Change color with Space or Enter key."
+        }
       },
-      "blueKitten": {
-        "value": "Blue Kitten"
+      "beads": {
+        "beads": {
+          "value": "Beads"
+        },
+        "bead": {
+          "value": "Bead"
+        },
+        "helpText": {
+          "value": "Counting area with grabbable and movable beads."
+        }
       },
-      "yellowKitten": {
-        "value": "Yellow Kitten"
+      "numberLine": {
+        "numberLine": {
+          "value": "Number Line"
+        },
+        "countOn": {
+          "value": "Count On"
+        },
+        "countFromZero": {
+          "value": "Count from Zero"
+        }
       },
-      "kittensHelpText": {
-        "value": "Change kitten color and move kittens around to play."
+      "total": {
+        "totalOnTop": {
+          "value": "Total on Top"
+        },
+        "totalOnBottom": {
+          "value": "Total on Bottom"
+        },
+        "totalNumberPattern": {
+          "value": "Total Number { $value }"
+        },
+        "checkboxHelpText": {
+          "value": "Show or hide the sum of the two addends."
+        },
+        "chooseTotalHelpText": {
+          "value": "Choose total for counting area."
+        }
       },
-      "yellowObjects": {
-        "value": "Yellow Objects"
-      },
-      "blueObjects": {
-        "value": "Blue Objects"
-      },
-      "countingObjectControlHelpTextPattern": {
-        "value": "Add or remove from the { $addend } addend."
-      },
-      "left": {
-        "value": "left"
-      },
-      "right": {
-        "value": "right"
-      },
-      "navigatePattern": {
-        "value": "Navigate { $items }"
-      },
-      "movePattern": {
-        "value": "Move { $item }"
-      },
-      "home": {
-        "value": "Home"
-      },
-      "end": {
-        "value": "End"
-      },
-      "moveAcrossDescriptionPattern": {
-        "value": "Move grabbed { $item } to { $addend } side with { $key } key."
-      },
-      "jumpToFirstKittenKeyboardHelp": {
-        "value": "Jump to first kitten with Home key."
-      },
-      "jumpToLastKittenKeyboardHelp": {
-        "value": "Jump to last kitten with End key."
-      },
-      "changeColorKeyboardHelp": {
-        "value": "Change color with Space or Enter key."
-      },
-      "adjustObjectsKeyboardHelp": {
-        "value": "Adjust number of objects with arrow keys."
+      "controls": {
+        "organizeObjectsPattern": {
+          "value": "Organize { $representation }"
+        },
+        "organizeObjectsHelpTextPattern": {
+          "value": "Organize { $representation } into groups of five."
+        },
+        "swapAddends": {
+          "value": "Swap Addends"
+        },
+        "showAddendPattern": {
+          "value": "Show { $addend } addend"
+        },
+        "hideAddendPattern": {
+          "value": "Hide { $addend } addend"
+        },
+        "showAddends": {
+          "value": "Show addends"
+        },
+        "hideAddends": {
+          "value": "Hide addends"
+        },
+        "yellowObjects": {
+          "value": "Yellow Objects"
+        },
+        "blueObjects": {
+          "value": "Blue Objects"
+        },
+        "countingObjectControlHelpTextPattern": {
+          "value": "Add or remove from the { $addend } addend."
+        },
+        "navigatePattern": {
+          "value": "Navigate { $items }"
+        },
+        "movePattern": {
+          "value": "Move { $item }"
+        },
+        "moveAcrossDescriptionPattern": {
+          "value": "Move grabbed { $item } to { $addend } side with { $key } key."
+        },
+        "adjustObjectsKeyboardHelp": {
+          "value": "Adjust number of objects with arrow keys."
+        }
       }
     }
   }
