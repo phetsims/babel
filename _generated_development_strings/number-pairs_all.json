@@ -3002,7 +3002,7 @@
         "value": "Read phrase aloud."
       },
       "totalNumberPattern": {
-        "value": "Total Number {{value}}"
+        "value": "Total Number { $value }"
       },
       "representationType": {
         "value": "Representation Type"
@@ -3011,16 +3011,16 @@
         "value": "Hear Phrase"
       },
       "organizeObjectsPattern": {
-        "value": "Organize {{representation}}"
+        "value": "Organize { $representation }"
       },
       "swapAddends": {
         "value": "Swap Addends"
       },
       "showAddendPattern": {
-        "value": "Show {{addend}} addend"
+        "value": "Show { $addend } addend"
       },
       "hideAddendPattern": {
-        "value": "Hide {{addend}} addend"
+        "value": "Hide { $addend } addend"
       },
       "showAddends": {
         "value": "Show addends"
@@ -3083,7 +3083,7 @@
         "value": "Choose representation for counting area."
       },
       "organizeObjectsHelpTextPattern": {
-        "value": "Organize {{representation}} into groups of five."
+        "value": "Organize { $representation } into groups of five."
       },
       "locationCountingObjectsHelpText": {
         "value": "Left and right counting areas with grabbable and movable objects."
@@ -3107,7 +3107,7 @@
         "value": "Blue Objects"
       },
       "countingObjectControlHelpTextPattern": {
-        "value": "Add or remove from the {{addend}} addend."
+        "value": "Add or remove from the { $addend } addend."
       },
       "left": {
         "value": "left"
@@ -3116,10 +3116,10 @@
         "value": "right"
       },
       "navigatePattern": {
-        "value": "Navigate {{items}}"
+        "value": "Navigate { $items }"
       },
       "movePattern": {
-        "value": "Move {{item}}"
+        "value": "Move { $item }"
       },
       "home": {
         "value": "Home"
@@ -3128,7 +3128,7 @@
         "value": "End"
       },
       "moveAcrossDescriptionPattern": {
-        "value": "Move grabbed {{item}} to {{addend}} side with {{key}} key."
+        "value": "Move grabbed { $item } to { $addend } side with { $key } key."
       },
       "jumpToFirstKittenKeyboardHelp": {
         "value": "Jump to first kitten with Home key."
