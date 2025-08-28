@@ -4984,7 +4984,7 @@
         },
         "screenSummary": {
           "playArea": {
-            "value": "There is an equation control panel to adjust coefficient values in equation y equals a x squared, plus b x, plus c, an individual quadratic terms panel, and a coordinate grid. The equation control allows you to manipulate the quadratic function. Coordinate grid area shows active graphs."
+            "value": "There is an equation control panel to adjust coefficient values in equation y equals a x squared plus b x plus c, an individual quadratic terms panel, and a coordinate grid. The equation control allows you to manipulate the quadratic function. Coordinate grid area shows active curves."
           }
         }
       },
@@ -4994,7 +4994,7 @@
         },
         "screenSummary": {
           "playArea": {
-            "value": "There is an equation control panel to adjust coefficient values in the equation y equals a x squared, plus b x, plus c, visibility checkboxes for key parabola features, and a coordinate grid. Equation controls allow you to manipulate the quadratic function. Coordinate grid area shows active graphs and graph features."
+            "value": "There is an equation control panel to adjust coefficient values in the equation y equals a x squared plus b x plus c, visibility checkboxes for key parabola features, and a coordinate grid. Equation controls allow you to manipulate the quadratic function. Coordinate grid area shows active graphs and graph features."
           }
         }
       },
@@ -5004,12 +5004,12 @@
         },
         "screenSummary": {
           "playArea": {
-            "value": "There is an equation control panel to adjust coefficient values in the equation y equals a times ( x minus h ) squared, plus k, visibility checkboxes for key parabola features, and a coordinate grid. Equation controls allow you to manipulate the quadratic function. Coordinate grid area shows active graphs and graph features."
+            "value": "There is an equation control panel to adjust coefficient values in the equation y equals a times ( x minus h ) squared plus k, visibility checkboxes for key parabola features, and a coordinate grid. Equation controls allow you to manipulate the quadratic function. Coordinate grid area shows active graphs and graph features."
           }
         },
         "equationAccordionBox": {
           "accessibleHelpText": {
-            "value": "Adjust values a, h, and k in equation y equals a times ( x minus h ) squared, plus k."
+            "value": "Adjust values a, h, and k in equation y equals a times ( x minus h ) squared plus k."
           }
         }
       },
@@ -5019,12 +5019,12 @@
         },
         "screenSummary": {
           "playArea": {
-            "value": "There is an equation control panel to adjust coefficient values in the equation y equals 1 over 4 p, times ( x minus h ) squared, plus k, visibility checkboxes for key parabola features, and a coordinate grid. Equation controls allow you to manipulate the quadratic function. Coordinate grid area shows active graphs and graph features."
+            "value": "There is an equation control panel to adjust coefficient values in the equation y equals 1 over 4 p, times ( x minus h ) squared plus k, visibility checkboxes for key parabola features, and a coordinate grid. Equation controls allow you to manipulate the quadratic function. Coordinate grid area shows active graphs and graph features."
           }
         },
         "equationAccordionBox": {
           "accessibleHelpText": {
-            "value": "Adjust values p, h, and k in equation y equals 1 over 4p, times ( x minus h ) squared, plus k."
+            "value": "Adjust values p, h, and k in equation y equals 1 over 4p, times ( x minus h ) squared plus k."
           }
         }
       },
@@ -5033,7 +5033,7 @@
           "value": "Equation Controls"
         },
         "accessibleHelpText": {
-          "value": "Adjust values a, b, and c of the equation y equals a x squared, plus b x, plus c."
+          "value": "Adjust values a, b, and c of the equation y equals a x squared plus b x plus c."
         }
       },
       "quadraticTermsAccordionBox": {
@@ -5098,7 +5098,7 @@
           "value": "Point on Parabola"
         },
         "accessibleHelpText": {
-          "value": "Explore x,y ordered pairs on parabola."
+          "value": "Explore x y ordered pairs on parabola."
         },
         "accessibleObjectResponse": {
           "value": "{{x}}, {{y}}"
@@ -5117,7 +5117,7 @@
           "value": "Left-handed Point Tool"
         },
         "accessibleHelpText": {
-          "value": "Place in grid for x,y coordinates. Tool has handle on left, scope on right."
+          "value": "Place in grid for x y coordinates. Tool has handle on left, scope on right."
         }
       },
       "rightPointToolNode": {
@@ -5125,15 +5125,15 @@
           "value": "Right-handed Point Tool"
         },
         "accessibleHelpText": {
-          "value": "Place in grid for x,y coordinates. Tool has handle on right, scope on left."
+          "value": "Place in grid for x y coordinates. Tool has handle on right, scope on left."
         }
       },
       "quadraticTermCheckbox": {
         "accessibleName": {
-          "value": "Quadratic Term"
+          "value": "y equals a x squared"
         },
         "accessibleHelpText": {
-          "value": "Explore with or without graph of quadratic term."
+          "value": "Show or hide graph of quadratic term."
         },
         "accessibleContextResponseChecked": {
           "value": "quadratic term graphed"
@@ -5144,10 +5144,10 @@
       },
       "linearTermCheckbox": {
         "accessibleName": {
-          "value": "Linear Term"
+          "value": "y equals b x"
         },
         "accessibleHelpText": {
-          "value": "Explore with or without graph of linear term."
+          "value": "Show or hide graph of linear term."
         },
         "accessibleContextResponseChecked": {
           "value": "linear term graphed"
@@ -5158,10 +5158,10 @@
       },
       "constantTermCheckbox": {
         "accessibleName": {
-          "value": "Constant Term"
+          "value": "y equals c"
         },
         "accessibleHelpText": {
-          "value": "Explore with or without graph of constant term."
+          "value": "Show or hide graph of constant term."
         },
         "accessibleContextResponseChecked": {
           "value": "constant term graphed"
@@ -5271,7 +5271,7 @@
       },
       "aSlider": {
         "accessibleName": {
-          "value": "a, Leading Coefficient"
+          "value": "a, Coefficient of x squared"
         },
         "accessibleHelpText": {
           "value": "Adjust coefficient of quadratic term in equation."
@@ -5355,17 +5355,17 @@
       },
       "standardFormEquationNode": {
         "accessibleParagraph": {
-          "value": "y equals {{a}} x squared, plus {{b}} x, plus {{c}}"
+          "value": "y equals {{a}} x squared plus {{b}} x plus {{c}}"
         }
       },
       "vertexFormEquationNode": {
         "accessibleParagraph": {
-          "value": "y equals {{a}} times ( x minus {{h}} ) squared, plus {{k}}"
+          "value": "y equals {{a}} times ( x minus {{h}} ) squared plus {{k}}"
         }
       },
       "focusAndDirectrixFormEquationNode": {
         "accessibleParagraph": {
-          "value": "y equals 1 over ( 4 times {{p}} ), times ( x minus {{h}}} ) squared, plus {{k}}"
+          "value": "y equals 1 over ( 4 times {{p}} ) times ( x minus {{h}}} ) squared plus {{k}}"
         }
       },
       "coordinateGridCurrentlyContains": {
@@ -5438,7 +5438,7 @@
         "value": "Roots at {{x}}, {{y}}"
       },
       "rootsAtCoordinates2": {
-        "value": "Roots at {{x1}}, {{y1}} and {{x2}}, {{y2}}"
+        "value": "Roots at {{x1}}, {{y1}}, and {{x2}}, {{y2}}"
       },
       "equals": {
         "value": "equals"

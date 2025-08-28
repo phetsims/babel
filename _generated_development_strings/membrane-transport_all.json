@@ -140,7 +140,7 @@
           "value": "Transport Proteins or Ligands"
         },
         "navigate": {
-          "value": "Navigate proteins in panel or added ligands"
+          "value": "Navigate proteins in toolbox or added ligands"
         },
         "grabOrRelease": {
           "value": "Grab or release"
@@ -262,10 +262,10 @@
       },
       "soluteControls": {
         "accessibleHeading": {
-          "value": "Solute Controls"
+          "value": "Solute Adjusters"
         },
         "accessibleHelpText": {
-          "value": "Choose a solute for the Solute Adjusters."
+          "value": "Add or remove chosen solute to outside or inside of cell."
         }
       },
       "eraseSolutesButton": {
@@ -312,10 +312,10 @@
         },
         "ligandGatedChannelPanel": {
           "sodiumIonNaPlusLigandGated": {
-            "value": "Sodium-selective, Ligand-gated"
+            "value": "Grab Sodium-selective, Ligand-gated"
           },
           "potassiumIonKPlusLigandGated": {
-            "value": "Potassium-selective, Ligand-gated"
+            "value": "Grab Potassium-selective, Ligand-gated"
           },
           "accessibleHelpText": {
             "value": "Transmembrane single channel proteins that can be open or closed. When closed has a triangle- or star-shaped ligand binding site."
@@ -323,10 +323,10 @@
         },
         "leakageChannelPanel": {
           "sodiumIonNaPlusLeakage": {
-            "value": "Sodium-selective, Leakage"
+            "value": "Grab Sodium-selective, Leakage"
           },
           "potassiumIonKPlusLeakage": {
-            "value": "Potassium-selective, Leakage"
+            "value": "Grab Potassium-selective, Leakage"
           },
           "accessibleHelpText": {
             "value": "Transmembrane single channel proteins, always open."
@@ -334,10 +334,10 @@
         },
         "voltageGatedChannelPanel": {
           "sodiumIonNaPlusVoltageGated": {
-            "value": "Sodium-selective, Voltage-gated"
+            "value": "Grab Sodium-selective, Voltage-gated"
           },
           "potassiumIonKPlusVoltageGated": {
-            "value": "Potassium-selective, Voltage-gated"
+            "value": "Grab Potassium-selective, Voltage-gated"
           },
           "accessibleHelpText": {
             "value": "Transmembrane single channel proteins that can be open or closed."
@@ -485,6 +485,9 @@
         },
         "atpRadioButton": {
           "value": "Adenosine Triphosphate, ATP, complex, large"
+        },
+        "accessibleHelpText": {
+          "value": "Choose a solute for the Solute Adjusters."
         }
       },
       "soluteControl": {
@@ -523,7 +526,7 @@
           "value": "{ $amount ->\n  [none] no\n  [few] a few\n  [some] some\n  [smallAmount] small amount of\n  [several] several\n  [many] many\n  [largeAmount] large amount of\n  [hugeAmount] huge amount\n *[maxAmount] max amount of\n} { a11y_solutes_lowercaseName }"
         },
         "accessibleContextResponse": {
-          "value": "{ $addedOrRemoved ->\n  [addedToMax] {$delta} added, solute at max\n  [removedToMin] Solutes removed\n  [added]  {$delta} added\n *[removed] {$delta} removed\n}. Now, { a11y_solutes_amountComparison }. "
+          "value": "{ $addedOrRemoved ->\n  [addedToMax] {$delta} added, solute at max\n  [removedToMin] Removed\n  [added]  {$delta} added\n *[removed] {$delta} removed\n}. Now, { a11y_solutes_amountComparison }. "
         }
       },
       "soluteConcentrationsAccordionBox": {
@@ -612,25 +615,25 @@
           "value": "Choose slot with A or D keys. Space to release. Delete to remove."
         },
         "offMembraneResponse": {
-          "value": "Off membrane."
+          "value": "Above toolbox, off membrane."
         },
         "releasedReplacedResponse": {
-          "value": "Released. Protein replaced."
+          "value": "Released in membrane. Protein replaced."
         },
         "deletedResponse": {
           "value": "Deleted."
         },
         "cancelledBackToSlotResponse": {
-          "value": "Released. Back to initial slot."
+          "value": "Cancelled. Back to initial slot."
         },
         "cancelledBackToPanelResponse": {
-          "value": "Released. Back in panel."
+          "value": "Cancelled. Back in toolbox."
         },
         "reorderedResponse": {
           "value": "Reordered."
         },
         "proteinLocation": {
-          "value": "{ $proteinIndex } of { $proteinCount } Proteins in Membrane"
+          "value": "in Membrane, { $proteinIndex } of { $proteinCount } Proteins "
         },
         "accessibleName": {
           "value": "{ $nameResponse }, { a11y_transportProtein_proteinLocation }"
@@ -703,7 +706,7 @@
         },
         "transportProteinsAndLigands": {
           "navigateDescription": {
-            "value": "Navigate proteins in panel or added ligands with Tab key."
+            "value": "Navigate proteins in toolbox or added ligands with Tab key."
           },
           "grabOrReleaseDescription": {
             "value": "Grab or release with Space or Enter keys."
