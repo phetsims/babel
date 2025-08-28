@@ -5004,12 +5004,12 @@
         },
         "screenSummary": {
           "playArea": {
-            "value": "There is an equation control panel to adjust coefficient values in the equation y equals a times ( x minus h ) squared plus k, visibility checkboxes for key parabola features, and a coordinate grid. Equation controls allow you to manipulate the quadratic function. Graph area shows active graphs and graph features."
+            "value": "There is an equation control panel to adjust coefficient values in the equation y equals a times the quantity (x minus h) squared, plus k, visibility checkboxes for key parabola features, and a coordinate grid. Equation controls allow you to manipulate the quadratic function. Graph area shows active parabola and parabola features."
           }
         },
         "equationAccordionBox": {
           "accessibleHelpText": {
-            "value": "Adjust values a, h, and k in equation y equals a times ( x minus h ) squared plus k."
+            "value": "Adjust values a, h, and k in equation y equals a times the quantity (x minus h) squared, plus k."
           }
         }
       },
@@ -5019,12 +5019,12 @@
         },
         "screenSummary": {
           "playArea": {
-            "value": "There is an equation control panel to adjust coefficient values in the equation y equals 1 over 4 p, times ( x minus h ) squared plus k, visibility checkboxes for key parabola features, and a coordinate grid. Equation controls allow you to manipulate the quadratic function. Graph area shows active graphs and graph features."
+            "value": "There is an equation control panel to adjust coefficient values in the equation y equals 1 over 4 p, times the quantity (x minus h) squared, plus k, visibility checkboxes for key parabola features, and a coordinate grid. Equation controls allow you to manipulate the quadratic function. Graph area shows active parabolas and parabolas features."
           }
         },
         "equationAccordionBox": {
           "accessibleHelpText": {
-            "value": "Adjust values p, h, and k in equation y equals 1 over 4p, times ( x minus h ) squared plus k."
+            "value": "Adjust values p, h, and k in equation y equals 1 over 4p, times the quantity (x minus h) squared, plus k."
           }
         }
       },
@@ -5046,7 +5046,7 @@
           "value": "Graph Contents Visibility"
         },
         "accessibleHelpText": {
-          "value": "Show or hide curves and graph features in coordinate grid."
+          "value": "Show or hide parabolas and parabolas features in graph area."
         },
         "accessibleContextResponseHidden": {
           "value": "graph contents hidden"
@@ -5230,7 +5230,7 @@
       },
       "coordinatesCheckbox": {
         "accessibleHelpText": {
-          "value": "Show or hide coordinates of graph features."
+          "value": "Show or hide coordinates of parabola features."
         },
         "accessibleContextResponseChecked": {
           "value": "coordinates shown"
@@ -5363,12 +5363,12 @@
       },
       "vertexFormEquationNode": {
         "accessibleParagraph": {
-          "value": "y equals {{a}} times ( x minus {{h}} ) squared plus {{k}}"
+          "value": "y equals {{a}} times the quantity (x minus {{h}}) squared, plus {{k}}"
         }
       },
       "focusAndDirectrixFormEquationNode": {
         "accessibleParagraph": {
-          "value": "y equals 1 over ( 4 times {{p}} ) times ( x minus {{h}}} ) squared plus {{k}}"
+          "value": "y equals 1 over (4 times {{p}}) times the quantity (x minus {{h}}) squared, plus {{k}}"
         }
       },
       "graphAreaCurrentlyContains": {
@@ -5460,6 +5460,9 @@
       },
       "negative": {
         "value": "negative"
+      },
+      "theQuantity": {
+        "value": "the quantity"
       }
     }
   }
