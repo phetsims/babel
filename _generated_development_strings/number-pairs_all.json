@@ -3048,53 +3048,67 @@
       "end": {
         "value": "End"
       },
-      "phraseHelpText": {
-        "value": "Read phrase aloud."
-      },
-      "hearPhrase": {
-        "value": "Hear Phrase"
+      "phrase": {
+        "accessibleName": {
+          "value": "Hear Phrase"
+        },
+        "accessibleHelpText": {
+          "value": "Read phrase aloud."
+        }
       },
       "representationType": {
-        "value": "Representation Type"
-      },
-      "representationTypeHelpText": {
-        "value": "Choose representation for counting area."
+        "accessibleName": {
+          "value": "Representation Type"
+        },
+        "accessibleHelpText": {
+          "value": "Choose representation for counting area."
+        }
       },
       "apples": {
-        "value": "Apples"
-      },
-      "apple": {
-        "value": "Apple"
+        "accessibleName": {
+          "value": "Apples"
+        },
+        "singularAccessibleName": {
+          "value": "Apple"
+        }
       },
       "soccerBalls": {
-        "value": "Soccer Balls"
-      },
-      "soccerBall": {
-        "value": "Soccer Ball"
+        "accessibleName": {
+          "value": "Soccer Balls"
+        },
+        "singularAccessibleName": {
+          "value": "Soccer Ball"
+        }
       },
       "butterflies": {
-        "value": "Butterflies"
-      },
-      "butterfly": {
-        "value": "Butterfly"
+        "accessibleName": {
+          "value": "Butterflies"
+        },
+        "singularAccessibleName": {
+          "value": "Butterfly"
+        }
       },
       "ones": {
-        "value": "Ones"
-      },
-      "one": {
-        "value": "One"
+        "accessibleName": {
+          "value": "Ones"
+        },
+        "singularAccessibleName": {
+          "value": "One"
+        }
       },
       "locationCountingObjects": {
-        "value": "Location Counting Objects"
-      },
-      "locationCountingObjectsHelpText": {
-        "value": "Left and right counting areas with grabbable and movable objects."
+        "accessibleName": {
+          "value": "Location Counting Objects"
+        },
+        "accessibleHelpText": {
+          "value": "Left and right counting areas with grabbable and movable objects."
+        }
       },
       "kittens": {
-        "kittens": {
+        "accessibleName": {
           "value": "Kittens"
         },
-        "changeColor": {
+        "changeColorAccessibleName": {
           "value": "Change Color"
         },
         "blueKitten": {
@@ -3103,32 +3117,32 @@
         "yellowKitten": {
           "value": "Yellow Kitten"
         },
-        "helpText": {
+        "accessibleHelpText": {
           "value": "Change kitten color and move kittens around to play."
         },
-        "jumpToFirstKeyboardHelp": {
+        "jumpToFirstLabelInnerContent": {
           "value": "Jump to first kitten with Home key."
         },
-        "jumpToLastKeyboardHelp": {
+        "jumpToLastLabelInnerContent": {
           "value": "Jump to last kitten with End key."
         },
-        "changeColorKeyboardHelp": {
+        "changeColorLabelInnerContent": {
           "value": "Change color with Space or Enter key."
         }
       },
       "beads": {
-        "beads": {
+        "accessibleName": {
           "value": "Beads"
         },
-        "bead": {
+        "singularAccessibleName": {
           "value": "Bead"
         },
-        "helpText": {
+        "accessibleHelpText": {
           "value": "Counting area with grabbable and movable beads."
         }
       },
       "numberLine": {
-        "numberLine": {
+        "accessibleName": {
           "value": "Number Line"
         },
         "countOn": {
@@ -3148,55 +3162,81 @@
         "totalNumberPattern": {
           "value": "Total Number { $value }"
         },
-        "checkboxHelpText": {
+        "accessibleHelpText": {
           "value": "Show or hide the sum of the two addends."
         },
-        "chooseTotalHelpText": {
+        "chooseTotalAccessibleHelpText": {
           "value": "Choose total for counting area."
         }
       },
       "controls": {
-        "organizeObjectsPattern": {
-          "value": "Organize { $representation }"
-        },
-        "organizeObjectsHelpTextPattern": {
-          "value": "Organize { $representation } into groups of five."
+        "organizeObjects": {
+          "accessibleName": {
+            "value": "Organize { $representation }"
+          },
+          "accessibleHelpText": {
+            "value": "Organize { $representation } into groups of five."
+          }
         },
         "swapAddends": {
-          "value": "Swap Addends"
+          "accessibleName": {
+            "value": "Swap Addends"
+          }
         },
-        "showAddendPattern": {
-          "value": "Show { $addend } addend"
+        "showAddend": {
+          "accessibleName": {
+            "value": "Show { $addend } addend"
+          }
         },
-        "hideAddendPattern": {
-          "value": "Hide { $addend } addend"
+        "hideAddend": {
+          "accessibleName": {
+            "value": "Hide { $addend } addend"
+          }
         },
         "showAddends": {
-          "value": "Show addends"
+          "accessibleName": {
+            "value": "Show addends"
+          }
         },
         "hideAddends": {
-          "value": "Hide addends"
+          "accessibleName": {
+            "value": "Hide addends"
+          }
         },
         "yellowObjects": {
-          "value": "Yellow Objects"
+          "accessibleName": {
+            "value": "Yellow Objects"
+          }
         },
         "blueObjects": {
-          "value": "Blue Objects"
+          "accessibleName": {
+            "value": "Blue Objects"
+          }
         },
-        "countingObjectControlHelpTextPattern": {
-          "value": "Add or remove from the { $addend } addend."
+        "countingObjectControl": {
+          "accessibleHelpText": {
+            "value": "Add or remove from the { $addend } addend."
+          }
         },
-        "navigatePattern": {
-          "value": "Navigate { $items }"
+        "navigate": {
+          "accessibleName": {
+            "value": "Navigate { $items }"
+          }
         },
-        "movePattern": {
-          "value": "Move { $item }"
+        "move": {
+          "accessibleName": {
+            "value": "Move { $item }"
+          }
         },
-        "moveAcrossDescriptionPattern": {
-          "value": "Move grabbed { $item } to { $addend } side with { $key } key."
+        "moveAcrossDescription": {
+          "labelInnerContent": {
+            "value": "Move grabbed { $item } to { $addend } side with { $key } key."
+          }
         },
-        "adjustObjectsKeyboardHelp": {
-          "value": "Adjust number of objects with arrow keys."
+        "adjustObjectsKeyboard": {
+          "labelInnerContent": {
+            "value": "Adjust number of objects with arrow keys."
+          }
         }
       }
     }
