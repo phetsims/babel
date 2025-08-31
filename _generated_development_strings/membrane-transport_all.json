@@ -639,7 +639,15 @@
           "value": "{ $nameResponse }, { a11y_transportProtein_proteinLocation }"
         },
         "voicingHintResponse": {
-          "value": "Space to grab or release."
+          "general": {
+            "value": "Space to grab or release."
+          },
+          "mouseInputFromToolbox": {
+            "value": "Move to membrane."
+          },
+          "mouseInputFromMembrane": {
+            "value": "Reorder or remove from membrane."
+          }
         },
         "accessibleObjectResponse": {
           "value": "{ $state ->\n   [openToInsideEmpty] open to inside\n   [openToInsideSodiumBound] open to inside\n   [openToInsideSodiumAndATPBound] open to inside\n   [openToInsideSodiumAndPhosphateBound] open to inside\n   [openToOutsideAwaitingPotassium] open to outside\n   [openToOutsidePotassiumBound] open to outside\n\n   [openToOutsideAwaitingParticles] open to outside \n   [openToOutsideAllParticlesBound] open to outside\n   [openToInside] open to inside\n\n   [closedNegative70mV] closed\n   [openNegative50mV] open \n   [closed30mV] closed\n\n   [closedNegative50mV] closed\n   [open30mV] open\n\n   [ligandBoundClosed] closed\n   [ligandBoundOpen] open\n   [ligandUnboundOpen] open\n   [closed] closed\n\n   *[open] open \n}"
