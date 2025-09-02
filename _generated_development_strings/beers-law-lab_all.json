@@ -10712,7 +10712,7 @@
         },
         "screenSummary": {
           "playArea": {
-            "value": "A solution dispenser and water faucet sit above a drainable beaker. Choose from a variety of solutes to dispense one at a time, in either solid or solution form. On the right is a concentration meter with movable probe. On the bottom is a slider to control evaporation, and a button to remove solute from the solution."
+            "value": "A solute dispenser and water faucet sit above a drainable beaker. Choose from a variety of solutes to dispense one at a time, in either solid or solution form. On the right is a concentration meter with movable probe. On the bottom is a slider to control evaporation, and a button to remove solute from the solution."
           },
           "controlArea": {
             "value": "Is a button to reset the screen."
@@ -10724,8 +10724,11 @@
             "onlyParticles": {
               "value": "Currently, the beaker contains {{soluteName}} particles."
             },
-            "onlyWater": {
+            "onlyWaterConcentrationMeasured": {
               "value": "Currently, beaker contains water. Concentration is 0 {{units}}."
+            },
+            "onlyWaterConcentrationNotMeasured": {
+              "value": "Currently, beaker contains water. Concentration is unknown."
             },
             "solutionConcentrationMeasured": {
               "value": "Currently, beaker contains {{soluteName}} solution. Concentration is {{concentration}} {{units}}. {{saturationSentence}}"
