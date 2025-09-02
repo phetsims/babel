@@ -3170,23 +3170,17 @@
       "value": "On the sum screen only, this changes the orientation of the total in the number decomposition model."
     },
     "a11y": {
-      "yellow": {
-        "value": "Yellow"
-      },
-      "blue": {
-        "value": "Blue"
-      },
       "left": {
         "value": "left"
       },
       "right": {
         "value": "right"
       },
-      "home": {
-        "value": "Home"
+      "navigatePattern": {
+        "value": "Navigate { $items }"
       },
-      "end": {
-        "value": "End"
+      "movePattern": {
+        "value": "Move { $item }"
       },
       "phrase": {
         "accessibleName": {
@@ -3251,23 +3245,20 @@
         "changeColorAccessibleName": {
           "value": "Change Color"
         },
-        "blueKitten": {
-          "value": "Blue Kitten"
+        "leftAddendColor": {
+          "value": "Yellow"
         },
-        "yellowKitten": {
+        "rightAddendColor": {
+          "value": "Blue"
+        },
+        "leftAddendKitten": {
           "value": "Yellow Kitten"
+        },
+        "rightAddendKitten": {
+          "value": "Blue Kitten"
         },
         "accessibleHelpText": {
           "value": "Change kitten color and move kittens around to play."
-        },
-        "jumpToFirstLabelInnerContent": {
-          "value": "Jump to first kitten with Home key."
-        },
-        "jumpToLastLabelInnerContent": {
-          "value": "Jump to last kitten with End key."
-        },
-        "changeColorLabelInnerContent": {
-          "value": "Change color with Space or Enter key."
         }
       },
       "beads": {
@@ -3284,29 +3275,19 @@
       "numberLine": {
         "accessibleName": {
           "value": "Number Line"
-        },
-        "countOn": {
-          "value": "Count On"
-        },
-        "countFromZero": {
-          "value": "Count from Zero"
         }
       },
-      "total": {
-        "totalOnTop": {
-          "value": "Total on Top"
-        },
-        "totalOnBottom": {
-          "value": "Total on Bottom"
-        },
+      "totalSceneSelection": {
         "totalNumberPattern": {
           "value": "Total Number { $value }"
         },
         "accessibleHelpText": {
-          "value": "Show or hide the sum of the two addends."
-        },
-        "chooseTotalAccessibleHelpText": {
           "value": "Choose total for counting area."
+        }
+      },
+      "totalCheckbox": {
+        "accessibleHelpText": {
+          "value": "Show or hide the sum of the two addends."
         }
       },
       "controls": {
@@ -3323,15 +3304,11 @@
             "value": "Swap Addends"
           }
         },
-        "showAddend": {
-          "accessibleName": {
-            "value": "Show { $addend } addend"
-          }
+        "showAddendPattern": {
+          "value": "Show { $addend } addend"
         },
-        "hideAddend": {
-          "accessibleName": {
-            "value": "Hide { $addend } addend"
-          }
+        "hideAddendPattern": {
+          "value": "Hide { $addend } addend"
         },
         "showAddends": {
           "accessibleName": {
@@ -3343,12 +3320,12 @@
             "value": "Hide addends"
           }
         },
-        "yellowObjects": {
+        "leftObjects": {
           "accessibleName": {
             "value": "Yellow Objects"
           }
         },
-        "blueObjects": {
+        "rightObjects": {
           "accessibleName": {
             "value": "Blue Objects"
           }
@@ -3358,16 +3335,31 @@
             "value": "Add or remove from the { $addend } addend."
           }
         },
-        "navigate": {
-          "accessibleName": {
-            "value": "Navigate { $items }"
+        "countFromZeroSwitch": {
+          "valueAAccessibleName": {
+            "value": "Count On"
+          },
+          "valueBAccessibleName": {
+            "value": "Count from Zero"
           }
         },
-        "move": {
-          "accessibleName": {
-            "value": "Move { $item }"
+        "totalCheckbox": {
+          "accessibleHelpText": {
+            "value": "Show or hide the sum of the two addends."
           }
-        },
+        }
+      },
+      "preferences": {
+        "sumScreenModelOrientation": {
+          "totalOnTop": {
+            "value": "Total on Top"
+          },
+          "totalOnBottom": {
+            "value": "Total on Bottom"
+          }
+        }
+      },
+      "keyboardHelpDialog": {
         "moveAcrossDescription": {
           "labelInnerContent": {
             "value": "Move grabbed { $item } to { $addend } side with { $key } key."
@@ -3376,6 +3368,17 @@
         "adjustObjectsKeyboard": {
           "labelInnerContent": {
             "value": "Adjust number of objects with arrow keys."
+          }
+        },
+        "kittenInteraction": {
+          "jumpToFirstLabelInnerContent": {
+            "value": "Jump to first kitten with Home key."
+          },
+          "jumpToLastLabelInnerContent": {
+            "value": "Jump to last kitten with End key."
+          },
+          "changeColorLabelInnerContent": {
+            "value": "Change color with Space or Enter key."
           }
         }
       }
