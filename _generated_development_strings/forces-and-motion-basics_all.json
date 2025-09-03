@@ -9173,9 +9173,6 @@
             "accessibleHelpText": {
               "value": "Check to show the speedometer."
             },
-            "accessibleContextResponseChecked": {
-              "value": "Speedometer shown."
-            },
             "accessibleContextResponseUnchecked": {
               "value": "Speedometer hidden."
             }
@@ -9360,6 +9357,12 @@
         "cartSpeedWithAcceleration": {
           "value": "Cart speed is { $speedDescription } and { $accelerationDescription }."
         },
+        "speedOnly": {
+          "value": "The speed is { $speedDescription }."
+        },
+        "speedWithValue": {
+          "value": "The speed is { $speedDescription } at { $speedMetersPerSecond } meters per second."
+        },
         "qualitativeDescriptions": {
           "stationary": {
             "value": "zero"
@@ -9375,6 +9378,12 @@
           },
           "fast": {
             "value": "fast"
+          },
+          "veryFast": {
+            "value": "very fast"
+          },
+          "extremelyFast": {
+            "value": "extremely fast"
           }
         },
         "accelerationDescriptions": {
