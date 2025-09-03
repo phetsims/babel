@@ -8782,6 +8782,20 @@
       }
     },
     "a11y": {
+      "values": {
+        "checkedResponse": {
+          "value": "Numeric values shown."
+        },
+        "uncheckedResponse": {
+          "value": "Numeric values hidden."
+        },
+        "accessibleHelpText": {
+          "value": "Show or hide force and speed values."
+        },
+        "withAccelerationAccessibleHelpText": {
+          "value": "Show or hide force, speed, and acceleration values."
+        }
+      },
       "preferences": {
         "netForcePullerColors": {
           "accessibleHelpText": {
@@ -8942,12 +8956,6 @@
             },
             "accessibleHelpText": {
               "value": "Show or hide force values."
-            },
-            "accessibleContextResponseChecked": {
-              "value": "Force values shown."
-            },
-            "accessibleContextResponseUnchecked": {
-              "value": "Force values hidden."
             }
           },
           "speed": {
@@ -9044,6 +9052,11 @@
             }
           }
         },
+        "pauseButton": {
+          "accessibleHelpText": {
+            "value": "Pause sim to step through little by little and to help make precise measurements."
+          }
+        },
         "items": {
           "itemAccessibleNameWithMass": {
             "value": "{ $itemName }, { $mass }"
@@ -9123,6 +9136,11 @@
             "value": "Returned to stack"
           }
         },
+        "pusherResponses": {
+          "fellDownAppliedForceZero": {
+            "value": "Pusher fell down, applied force now 0 newtons."
+          }
+        },
         "motionControlPanel": {
           "force": {
             "accessibleName": {
@@ -9144,12 +9162,6 @@
             },
             "accessibleHelpText": {
               "value": "Check to show numerical values for the forces."
-            },
-            "accessibleContextResponseChecked": {
-              "value": "Force values shown."
-            },
-            "accessibleContextResponseUnchecked": {
-              "value": "Force values hidden."
             }
           },
           "masses": {
@@ -9172,9 +9184,6 @@
             },
             "accessibleHelpText": {
               "value": "Check to show the speedometer."
-            },
-            "accessibleContextResponseChecked": {
-              "value": "Speedometer shown."
             },
             "accessibleContextResponseUnchecked": {
               "value": "Speedometer hidden."
@@ -9225,9 +9234,6 @@
             },
             "accessibleHelpText": {
               "value": "Check to show the accelerometer."
-            },
-            "accessibleContextResponseChecked": {
-              "value": "Accelerometer shown."
             },
             "accessibleContextResponseUnchecked": {
               "value": "Accelerometer hidden."
@@ -9360,6 +9366,12 @@
         "cartSpeedWithAcceleration": {
           "value": "Cart speed is { $speedDescription } and { $accelerationDescription }."
         },
+        "speedOnly": {
+          "value": "The speed is { $speedDescription }."
+        },
+        "speedWithValue": {
+          "value": "The speed is { $speedDescription } at { $speedMetersPerSecond } meters per second."
+        },
         "qualitativeDescriptions": {
           "stationary": {
             "value": "zero"
@@ -9375,6 +9387,58 @@
           },
           "fast": {
             "value": "fast"
+          },
+          "veryFast": {
+            "value": "very fast"
+          },
+          "extremelyFast": {
+            "value": "extremely fast"
+          }
+        }
+      },
+      "acceleration": {
+        "heading": {
+          "value": "Acceleration"
+        },
+        "accelerationOnly": {
+          "value": "The acceleration is { $accelerationDescription }."
+        },
+        "accelerationWithValue": {
+          "value": "The acceleration is { $accelerationDescription } at { $accelerationMetersPerSecondSquared } meters per second squared."
+        },
+        "accelerationWithDirection": {
+          "value": "The acceleration is { $accelerationDescription } to the { $direction }."
+        },
+        "accelerationWithDirectionAndValue": {
+          "value": "The acceleration is { $accelerationDescription } to the { $direction } at { $accelerationMetersPerSecondSquared } meters per second squared."
+        },
+        "qualitativeDescriptions": {
+          "zero": {
+            "value": "zero"
+          },
+          "verySmall": {
+            "value": "very small"
+          },
+          "small": {
+            "value": "small"
+          },
+          "moderate": {
+            "value": "moderate"
+          },
+          "large": {
+            "value": "large"
+          },
+          "veryLarge": {
+            "value": "very large"
+          },
+          "extremelyLarge": {
+            "value": "extremely large"
+          },
+          "left": {
+            "value": "left"
+          },
+          "right": {
+            "value": "right"
           }
         },
         "accelerationDescriptions": {
