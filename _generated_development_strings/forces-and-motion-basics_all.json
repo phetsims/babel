@@ -9136,6 +9136,22 @@
             "value": "Returned to stack"
           }
         },
+        "surface": {
+          "skateboard": {
+            "value": "skateboard"
+          },
+          "ground": {
+            "value": "ground"
+          }
+        },
+        "stackList": {
+          "stackedOnSurface": {
+            "value": "Stacked on { $surface }:"
+          },
+          "noObjectsOnSurface": {
+            "value": "No objects on { $surface }."
+          }
+        },
         "pusherResponses": {
           "fellDownAppliedForceZero": {
             "value": "Pusher fell down, applied force now 0 newtons."
@@ -9268,6 +9284,9 @@
         },
         "skateboard": {
           "value": "Skateboard"
+        },
+        "stack": {
+          "value": "Stack"
         }
       },
       "pullers": {
