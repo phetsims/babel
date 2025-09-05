@@ -3179,18 +3179,36 @@
       "right": {
         "value": "right"
       },
-      "navigatePattern": {
-        "value": "Navigate { $items }"
+      "leftCapitalized": {
+        "value": "Left"
       },
-      "movePattern": {
-        "value": "Move { $item }"
+      "rightCapitalized": {
+        "value": "Right"
       },
-      "phrase": {
-        "accessibleName": {
-          "value": "Hear Phrase"
+      "movableRoleDescription": {
+        "value": "movable"
+      },
+      "grabOrReleaseInteraction": {
+        "navigatePattern": {
+          "value": "Navigate { $items }"
         },
-        "accessibleHelpText": {
-          "value": "Read phrase aloud."
+        "grabbedPattern": {
+          "value": "Grabbed { $item }"
+        },
+        "releasedHelpText": {
+          "value": "Press Space to grab or release."
+        },
+        "grabbedHelpTextPattern": {
+          "value": "Move { $item } in or between left and right counting areas"
+        },
+        "grabbedAccessibleResponse": {
+          "value": "grabbed, in { $addend } counting area."
+        },
+        "releasedAccessibleResponse": {
+          "value": "released, in { $addend } counting area."
+        },
+        "movedAccessibleResponse": {
+          "value": "now in { $addend } counting area"
         }
       },
       "representationType": {
@@ -3294,24 +3312,85 @@
         }
       },
       "controls": {
-        "organizeObjects": {
+        "speechSynthesis": {
           "accessibleName": {
-            "value": "Organize { $representation }"
+            "value": "Hear Phrase"
+          },
+          "noVoiceAccessibleName": {
+            "value": "No Voice Found"
+          },
+          "noVoiceAccessibleParagraph": {
+            "value": "There is no voice found on this device for the selected language. Your device may support downloading additional voices for this language."
           },
           "accessibleHelpText": {
-            "value": "Organize { $representation } into groups of five."
+            "value": "Hear decomposition phrase aloud."
           }
         },
-        "swapAddends": {
+        "localeSwitch": {
+          "accessibleHelpText": {
+            "value": "Choose between two languages to hear and read phrase."
+          }
+        },
+        "numberModel": {
+          "numberBond": {
+            "value": "number bond"
+          },
+          "barModel": {
+            "value": "proportional bar model"
+          },
+          "accessibleHelpText": {
+            "value": "Represent decomposition as a { $representation }."
+          },
+          "numberBondAccessibleParagraph": {
+            "value": "{ $total } in top total circle. { $leftAddend } and { $rightAddend } in bottom addend circles."
+          },
+          "barModelAccessibleParagraph": {
+            "value": "{ $total } in top total rectangle. { $leftAddend } and { $rightAddend } in bottom addends rectangle, split into { $size } sections."
+          },
+          "largerAndSmaller": {
+            "value": "larger and smaller"
+          },
+          "smallerAndLarger": {
+            "value": "smaller and larger"
+          },
+          "equal": {
+            "value": "equal"
+          }
+        },
+        "organizeObjects": {
+          "accessibleName": {
+            "value": "Organize { $representation } Into Groups"
+          },
+          "accessibleHelpText": {
+            "value": "Each group has a maximum of 5 { $representation }."
+          }
+        },
+        "commutativeButton": {
           "accessibleName": {
             "value": "Swap Addends"
+          },
+          "accessibleHelpTextPattern": {
+            "value": "Switch { $items } from left counting are to right and right counting area to left."
+          },
+          "accessibleContextResponse": {
+            "value": "{ $leftAddend } on left, { $rightAddend } on right, { $total } { $items } total."
           }
         },
-        "showAddendPattern": {
-          "value": "Show { $addend } addend"
-        },
-        "hideAddendPattern": {
-          "value": "Hide { $addend } addend"
+        "addendVisible": {
+          "accessibleNamePattern": {
+            "value": "{ $addend } Counting Area Visibility"
+          },
+          "accessibleHelpTextPattern": {
+            "value": "Show or hide { $addend } counting area and { $addend } addend in { $modelRepresentation }."
+          },
+          "accessibleContextResponse": {
+            "hidden": {
+              "value": "contents hidden"
+            },
+            "visible": {
+              "value": "contents visible"
+            }
+          }
         },
         "showAddends": {
           "accessibleName": {
