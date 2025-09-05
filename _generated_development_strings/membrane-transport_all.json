@@ -414,7 +414,7 @@
           "value": "Released."
         },
         "releasedOffMembraneResponse": {
-          "value": "{ a11y_ligandNode_accessibleName } released off membrane."
+          "value": "Released. { a11y_ligandNode_accessibleName } floats away."
         },
         "releasedOnProteinResponse": {
           "value": "Released. Binding successful. Protein opens."
@@ -438,7 +438,7 @@
           "value": "Above { $openOrClosed ->\n[open]   open\n*[closed] closed\n} { a11y_transportProtein_briefName }, { $index } of { $transportProteinCount } Proteins."
         },
         "grabbedResponse": {
-          "value": "Grabbed. Outside, { $proteinCount } Proteins in Membrane."
+          "value": "Grabbed. Off membrane. { $proteinCount } Proteins in Membrane."
         },
         "grabbedResponseWithHint": {
           "value": "{ a11y_ligandNode_grabbedResponse } Move ligand with A or D keys. Space to release."
