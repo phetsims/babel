@@ -2886,7 +2886,7 @@
       "value": "نمودار خطی"
     },
     "dotPlot": {
-      "value": "نمودار نقطه ای"
+      "value": "نمودار نقطه‌ای"
     },
     "medianQuestion": {
       "value": "فاصله طولی هر شوت نوعی چقدر است؟"
@@ -2898,7 +2898,7 @@
       "value": "فاصله (متر)"
     },
     "youSortedTheData": {
-      "value": "شما داده ها مرتب کردید!"
+      "value": "شما داده‌ها را مرتب کردید!"
     },
     "medianEqualsValue": {
       "value": "میانه = {{value}}"
@@ -2913,7 +2913,7 @@
       "value": "{{value}} شوت"
     },
     "sortData": {
-      "value": "مرتبسازی داده ها"
+      "value": "مرتبسازی داده‌ها"
     },
     "mean": {
       "value": "میانگین"
@@ -2922,13 +2922,232 @@
       "value": "میانه"
     },
     "predictMean": {
-      "value": "پیش بینی میانگین"
+      "value": "پیش‌بینی میانگین"
     },
     "predictMedian": {
-      "value": "پیش بینی میانه"
+      "value": "پیش‌بینی میانه"
     },
     "center-and-variability.title": {
-      "value": "مرکز و تغییرپذیری"
+      "value": "مرکز و پراکندگی"
+    },
+    "screen.variability": {
+      "value": "تغییرپذیری (پراکندگی)"
+    },
+    "dataValuesInMeters": {
+      "value": "مقادیر داده (بر حسب متر):"
+    },
+    "distanceInMetersAccordionBoxTitle": {
+      "value": "مسافت طی شدۀ شوت (متر)"
+    },
+    "distanceInMetersChartLabel": {
+      "value": "مسافت (متر)"
+    },
+    "interquartileRangeIQR": {
+      "value": "دامنه بین چارکی (IQR)"
+    },
+    "intervalTool": {
+      "value": "ابزار بازه"
+    },
+    "iqr": {
+      "value": "IQR"
+    },
+    "iqrDescription": {
+      "value": "دامنه بین چارکی 50% میانی داده‌ها را نشان می‌دهد"
+    },
+    "iqrEqualsIQRUnitsPattern": {
+      "value": "IQR = {{iqr}} {{units}}"
+    },
+    "iqrEqualsQ3MinusQ3Pattern": {
+      "value": "IQR = {{q3}} − {{q1}}"
+    },
+    "iqrEqualsUnknown": {
+      "value": "IQR = ?"
+    },
+    "iqrEqualsValueMPattern": {
+      "value": "IQR = {{value}} m"
+    },
+    "keyboardHelpDialog.endOfNumberLine": {
+      "value": "انتهای خط اعداد"
+    },
+    "keyboardHelpDialog.grabOrReleaseBall": {
+      "value": "توپ"
+    },
+    "keyboardHelpDialog.jumpBallToTickMark": {
+      "value": "پرش توپ به علامت روی خط"
+    },
+    "keyboardHelpDialog.jumpToEndOfNumberLine": {
+      "value": "پرش به انتهای خط اعداد"
+    },
+    "keyboardHelpDialog.jumpToStartOfNumberLine": {
+      "value": "پرش به ابتدای خط اعداد"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.moveInLargerSteps": {
+      "value": "حرکت با گام‌های بزرگ‌تر"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanInSmallerSteps": {
+      "value": "جابه‌جایی پیش‌بینی میانگین با گام‌های کوچک‌تر"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanOrMedian": {
+      "value": "جابه‌جایی پیش‌بینی میانگین یا میانه"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.movePredictionPointer": {
+      "value": "جابه‌جایی نشانگر پیش‌بینی"
+    },
+    "keyboardHelpDialog.medianScreen.grabOrReleaseBallOrCard": {
+      "value": "توپ یا کارت"
+    },
+    "keyboardHelpDialog.medianScreen.jumpToEndOfCardsOrNumberLine": {
+      "value": "پرش به انتهای کارت‌ها یا خط اعداد"
+    },
+    "keyboardHelpDialog.medianScreen.jumpToStartOfCardsOrNumberLine": {
+      "value": "پرش به آغاز کارت‌ها یا خط اعداد"
+    },
+    "keyboardHelpDialog.medianScreen.moveGrabbedBallOrCard": {
+      "value": "حرکت توپ یا کارت گرفته‌شده"
+    },
+    "keyboardHelpDialog.medianScreen.moveGrabbedBallOrCardTitle": {
+      "value": "حرکت توپ یا کارت گرفته‌شده"
+    },
+    "keyboardHelpDialog.medianScreen.movePredictMedian": {
+      "value": "جابه‌جایی پیش‌بینی میانه"
+    },
+    "keyboardHelpDialog.medianScreen.predictMedian": {
+      "value": "پیش‌بینی میانه"
+    },
+    "keyboardHelpDialog.move": {
+      "value": "جابه‌جایی"
+    },
+    "keyboardHelpDialog.moveGrabbedBall": {
+      "value": "جابه‌جایی توپ گرفته‌شده"
+    },
+    "keyboardHelpDialog.moveGrabbedBallTitle": {
+      "value": "جابه‌جایی توپ گرفته‌شده"
+    },
+    "keyboardHelpDialog.moveInLargerSteps": {
+      "value": "حرکت با گام‌های بزرگ‌تر"
+    },
+    "keyboardHelpDialog.startOfNumberLine": {
+      "value": "آغاز خط اعداد"
+    },
+    "keyboardHelpDialog.variabilityScreen.movePointerIntervalHandleOrIntervalBlock": {
+      "value": "جابه‌جایی نشانگر، دستگیره‌های بازه یا بلوک بازه"
+    },
+    "keyboardHelpDialog.variabilityScreen.object": {
+      "value": "شیء"
+    },
+    "kickValuePattern": {
+      "value": "شوت {{value}}"
+    },
+    "mad": {
+      "value": "MAD"
+    },
+    "madDescription": {
+      "value": "میانگین انحراف مطلق (MAD) مسافت متوسط هر داده از میانگین را نشان می‌دهد."
+    },
+    "madEquals": {
+      "value": "MAD ="
+    },
+    "madEqualsMADMetersPattern": {
+      "value": "MAD = متر {{mad}}"
+    },
+    "madEqualsUnknown": {
+      "value": "MAD = ؟"
+    },
+    "madEqualsValueMPattern": {
+      "value": "MAD = {{value}} m"
+    },
+    "max": {
+      "value": "بیشینه"
+    },
+    "maxKicks": {
+      "value": "بیشینۀ شوت‌ها"
+    },
+    "maxKicksDescription": {
+      "value": "حداکثر تعداد شوت مجاز در همه صفحه‌ها را تعیین می‌کند. در صفحهٔ میانه، بیشترین تعداد شوت ۱۵ است."
+    },
+    "meanAbsoluteDeviationMAD": {
+      "value": "میانگین انحراف مطلق (MAD)"
+    },
+    "meanDescription": {
+      "value": "<strong>میانگین</strong> برابر است با متوسط همه مقادیر در هر مجموعه داده."
+    },
+    "meanEquals": {
+      "value": "= میانگین"
+    },
+    "meanEqualsUnknown": {
+      "value": "میانگین = ؟"
+    },
+    "meanEqualsValueMPattern": {
+      "value": "میانگین = {{value}} متر"
+    },
+    "meanEqualsValueMetersPattern": {
+      "value": "میانگین = {{value}} متر"
+    },
+    "medianDescription": {
+      "value": "<strong>میانه</strong> مقداری است که مجموعه داده‌های مرتب را به دو نیم تقسیم می‌کند."
+    },
+    "medianEqualsUnknown": {
+      "value": "میانه = ؟"
+    },
+    "medianEqualsValueMPattern": {
+      "value": "میانه = {{value}} متر"
+    },
+    "medianEqualsValuePattern": {
+      "value": "میانه = {{value}}"
+    },
+    "medianEqualsValueUnitsPattern": {
+      "value": "میانه =  {{units}} {{value}}"
+    },
+    "meter": {
+      "value": "متر"
+    },
+    "meters": {
+      "value": "متر"
+    },
+    "min": {
+      "value": "کمینه"
+    },
+    "needAtLeastFiveKicks": {
+      "value": "به حداقل پنج شوت نیاز است"
+    },
+    "outliers": {
+      "value": "داده‌های پرت"
+    },
+    "outliersDescription": {
+      "value": "داده‌های پرت در نمودار جعبه‌ای به‌صورت علامت جداگانه نشان داده می‌شوند و در بازهٔ اصلی لحاظ نمی‌شوند."
+    },
+    "pointer": {
+      "value": "نشانگر"
+    },
+    "q1": {
+      "value": "چارک اول (Q1)"
+    },
+    "q3": {
+      "value": "چارک سوم (Q3)"
+    },
+    "range": {
+      "value": "دامنه"
+    },
+    "rangeDescription": {
+      "value": "<strong>دامنه</strong> فاصله بین دادهٔ کمینه و بیشینه است."
+    },
+    "rangeEqualsMaxMinusMinPattern": {
+      "value": "دامنه = {{max}} − {{min}}"
+    },
+    "rangeEqualsRangeUnitsPattern": {
+      "value": "دامنه =  {{units}} {{range}}"
+    },
+    "rangeEqualsUnknown": {
+      "value": "دامنه = ؟"
+    },
+    "rangeEqualsValueMPattern": {
+      "value": "دامنه = {{value}} متر"
+    },
+    "valueKicksPattern": {
+      "value": "{{value}} شوت"
+    },
+    "variabilityQuestion": {
+      "value": "فاصلۀ شوتها چقدر پراکنده‌اند؟"
     }
   },
   "fa_DA": {
