@@ -5133,14 +5133,14 @@
         }
       },
       "pointToolNode": {
-        "accessibleObjectResponse": {
+        "accessibleObjectResponseXY": {
           "value": "{{x}}, {{y}}"
         },
-        "accessibleObjectResponseNoPoint": {
-          "value": "off grid"
-        },
-        "accessibleContextResponse": {
+        "accessibleObjectResponseEquationXY": {
           "value": "On {{equation}} at {{x}}, {{y}}. Use J to jump to next curve, K to move off grid."
+        },
+        "accessibleObjectResponseOffGrid": {
+          "value": "off grid"
         }
       },
       "leftPointToolNode": {
