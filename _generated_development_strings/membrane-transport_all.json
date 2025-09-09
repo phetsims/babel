@@ -526,7 +526,10 @@
           "value": "{ $amount ->\n  [none] no\n  [few] a few\n  [some] some\n  [smallAmount] small amount of\n  [several] several\n  [many] many\n  [largeAmount] large amount of\n  [hugeAmount] huge amount\n *[maxAmount] max amount of\n} { a11y_solutes_lowercaseName }"
         },
         "accessibleContextResponse": {
-          "value": "{ $addedOrRemoved ->\n  [addedToMax] {$delta} added, solute at max\n  [removedToMin] Removed\n  [added]  {$delta} added\n *[removed] {$delta} removed\n}. Now, { a11y_solutes_amountComparison }. "
+          "value": "{ $addedOrRemoved ->\n  [addedToMax] {$delta} added, solute at max\n  [removedToMin] Removed\n  [added]  {$delta} added\n *[removed] {$delta} removed\n}. Now, { a11y_solutes_amountComparison }."
+        },
+        "accessibleObjectResponseAtMax": {
+          "value": "Solute at max."
         }
       },
       "soluteConcentrationsAccordionBox": {
