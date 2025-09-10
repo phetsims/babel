@@ -5137,10 +5137,13 @@
           "value": "{{x}}, {{y}}"
         },
         "accessibleObjectResponseEquationXY": {
-          "value": "On {{equation}} at {{x}}, {{y}}. Use J to jump to next curve, K to move off grid."
+          "value": "{{x}}, {{y}} on {{equation}}"
         },
         "accessibleObjectResponseOffGrid": {
           "value": "off grid"
+        },
+        "keyboardHelp": {
+          "value": "Use J to jump to next curve, K to move off grid."
         }
       },
       "leftPointToolNode": {
@@ -5148,7 +5151,7 @@
           "value": "Left-handed Point Tool"
         },
         "accessibleHelpText": {
-          "value": "Place in grid for x y coordinates. Tool has handle on left, scope on right."
+          "value": "Place in grid for x y coordinates. Tool has handle on left, scope on right. {{keyboardHelp}}"
         }
       },
       "rightPointToolNode": {
@@ -5156,7 +5159,7 @@
           "value": "Right-handed Point Tool"
         },
         "accessibleHelpText": {
-          "value": "Place in grid for x y coordinates. Tool has handle on right, scope on left."
+          "value": "Place in grid for x y coordinates. Tool has handle on right, scope on left. {{keyboardHelp}}"
         }
       },
       "quadraticTermCheckbox": {
