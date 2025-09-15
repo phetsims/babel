@@ -367,6 +367,12 @@
     "chains.title": {
       "value": "Chains"
     },
+    "screen.chains": {
+      "value": "Chains"
+    },
+    "screen.directional": {
+      "value": "Directional"
+    },
     "plainString": {
       "value": "It's not easy being green."
     },
@@ -390,6 +396,41 @@
         "message": {
           "value": "This is a nested message."
         }
+      }
+    },
+    "directional": {
+      "valuePattern": {
+        "value": "{{value}}"
+      },
+      "valueSignPattern": {
+        "value": "{{sign}}{{value}}"
+      },
+      "valueUnitsPattern": {
+        "value": "{{value}}{{units}}"
+      },
+      "valueSignUnitsPattern": {
+        "value": "{{sign}}{{value}}{{units}}"
+      },
+      "signValueCurrencyPattern": {
+        "value": "{{sign}}{{value}}{{currency}}"
+      },
+      "signCurrencyValuePattern": {
+        "value": "{{sign}}{{currency}}{{value}}"
+      },
+      "wordEqualsSignCurrencyValuePattern": {
+        "value": "{{word}}={{sign}}{{currency}}{{value}}"
+      },
+      "units": {
+        "value": "km"
+      },
+      "celcius": {
+        "value": "°C"
+      },
+      "currency": {
+        "value": "$"
+      },
+      "word": {
+        "value": "fun"
       }
     },
     "a11y": {
