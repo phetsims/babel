@@ -406,10 +406,10 @@
         "value": "{{sign}}{{value}}"
       },
       "valueUnitsPattern": {
-        "value": "{{value}}{{units}}"
+        "value": "{{value}} {{units}}"
       },
       "valueSignUnitsPattern": {
-        "value": "{{sign}}{{value}}{{units}}"
+        "value": "{{sign}}{{value}} {{units}}"
       },
       "signValueCurrencyPattern": {
         "value": "{{sign}}{{value}}{{currency}}"
@@ -418,7 +418,7 @@
         "value": "{{sign}}{{currency}}{{value}}"
       },
       "wordEqualsSignCurrencyValuePattern": {
-        "value": "{{word}}={{sign}}{{currency}}{{value}}"
+        "value": "{{word}} = {{sign}}{{currency}}{{value}}"
       },
       "units": {
         "value": "km"
