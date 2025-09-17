@@ -3328,13 +3328,10 @@
       "movableRoleDescription": {
         "value": "movable"
       },
+      "countingAreaEmpty": {
+        "value": "Counting Area Empty"
+      },
       "grabOrReleaseInteraction": {
-        "navigatePattern": {
-          "value": "Navigate { $items }"
-        },
-        "grabbedPattern": {
-          "value": "Grabbed { $item }"
-        },
         "releasedHelpText": {
           "value": "Press Space to grab or release."
         },
@@ -3349,6 +3346,12 @@
         },
         "movedAccessibleResponse": {
           "value": "now in { $addend } counting area"
+        },
+        "leftItemPattern": {
+          "value": "Left { $item }"
+        },
+        "rightItemPattern": {
+          "value": "Right { $item }"
         }
       },
       "representationType": {
@@ -3428,6 +3431,12 @@
         },
         "singularAccessibleName": {
           "value": "Bead"
+        },
+        "leftAddendBead": {
+          "value": "Yellow Bead"
+        },
+        "rightAddendBead": {
+          "value": "Blue Bead"
         },
         "accessibleHelpText": {
           "value": "Counting area with grabbable and movable beads."
