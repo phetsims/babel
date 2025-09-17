@@ -423,6 +423,12 @@
       "signCurrencyValuePattern": {
         "value": "{{sign}}{{currency}}{{value}}"
       },
+      "wordParenthesesColonValuePattern": {
+        "value": "{{word}} ({{units}}): {{value}}"
+      },
+      "subscriptsAndSuperscriptsPattern": {
+        "value": "{{units}}<sup>{{value}}</sup> + {{units}}<sub>{{value}}</sub>"
+      },
       "wordEqualsSignCurrencyValuePattern": {
         "value": "{{word}} = {{sign}}{{currency}}{{value}}"
       },
