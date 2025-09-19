@@ -3354,6 +3354,35 @@
           "value": "Right { $item }"
         }
       },
+      "countingArea": {
+        "accessibleHeading": {
+          "value": "Counting Area"
+        },
+        "leadingParagraph": {
+          "value": "{ NUMBER($total) ->\n[1] Counting area has 1 total { $item }\n*[other] Counting area has { $total } total { $items }\n}"
+        },
+        "numberBondLeadingParagraph": {
+          "value": "Number bond has { $total } in top circle"
+        },
+        "barModelLeadingParagraph": {
+          "value": "Bar model has { $total } in top rectangle"
+        },
+        "leftSideListItemPattern": {
+          "value": "{ $value } on left side"
+        },
+        "rightSideListItemPattern": {
+          "value": "{ $value } on right side"
+        },
+        "leftCircleListItemPattern": {
+          "value": "{ $value } in left circle"
+        },
+        "rightCircleListItemPattern": {
+          "value": "{ $value } in right circle"
+        },
+        "valueHidden": {
+          "value": "some"
+        }
+      },
       "representationType": {
         "accessibleName": {
           "value": "Representation Type"
@@ -3461,6 +3490,9 @@
         }
       },
       "controls": {
+        "accessibleHeading": {
+          "value": "Counting Area Controls"
+        },
         "speechSynthesis": {
           "accessibleName": {
             "value": "Hear Phrase"
