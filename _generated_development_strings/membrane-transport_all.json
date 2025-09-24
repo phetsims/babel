@@ -43,7 +43,7 @@
       "value": "Interior"
     },
     "outsideSodiumTooLow": {
-      "value": "¡Sodio exterior demasiado bajo!"
+      "value": "¡Sodio en el exterior demasiado bajo!"
     },
     "transportProteinToolbox.voltageGatedChannels": {
       "value": "Canales regulados por voltaje"
@@ -121,7 +121,7 @@
       "value": "Tomar o soltar"
     },
     "keyboardHelp.transportProteinsAndLigands.moveGrabbedItem": {
-      "value": "Mover la proteína o el ligando tomado entre ubicaciones de colocación disponibles"
+      "value": "Mover la proteína o el ligando tomado entre posiciones disponibles"
     },
     "keyboardHelp.transportProteinsAndLigands.cancelGrab": {
       "value": "Cancelar la toma o el movimiento"
@@ -297,31 +297,31 @@
     "a11y.transportProteinToolbox.voltageGatedChannelPanel.membranePotential.radioButtonGroup.positive30RadioButton.accessibleName": {
       "value": "más 30 milivoltios"
     },
-    "a11y.transportProteinToolbox.voltageGatedChannelPanel.chargesCheckbox.accessibleHelpText": {
+    "a11y.chargesCheckbox.accessibleHelpText": {
       "value": "Explora con o sin signos de carga que muestran el potencial de membrana a lo largo del interior y el exterior."
     },
-    "a11y.transportProteinToolbox.voltageGatedChannelPanel.chargesCheckbox.voicingHelpText": {
+    "a11y.chargesCheckbox.voicingHelpText": {
       "value": "Explora con o sin signos de carga a lo largo de la membrana."
     },
-    "a11y.transportProteinToolbox.voltageGatedChannelPanel.chargesCheckbox.accessibleContextResponseCheckedNegative70": {
-      "value": "Positivo afuera y negativo adentro; signos de carga densos a lo largo de la membrana."
+    "a11y.chargesCheckbox.accessibleContextResponseCheckedNegative70": {
+      "value": "Positivo en el exterior y negativo en el interior; signos de carga densos a lo largo de la membrana."
     },
-    "a11y.transportProteinToolbox.voltageGatedChannelPanel.chargesCheckbox.accessibleContextResponseCheckedNegative50": {
-      "value": "Positivo afuera y negativo adentro; signos de carga poco densos a lo largo de la membrana."
+    "a11y.chargesCheckbox.accessibleContextResponseCheckedNegative50": {
+      "value": "Positivo en el exterior y negativo en el interior; signos de carga poco densos a lo largo de la membrana."
     },
-    "a11y.transportProteinToolbox.voltageGatedChannelPanel.chargesCheckbox.accessibleContextResponseCheckedPositive30": {
-      "value": "Negativo afuera y positivo adentro; signos de carga escasos a lo largo de la membrana."
+    "a11y.chargesCheckbox.accessibleContextResponseCheckedPositive30": {
+      "value": "Negativo en el exterior y positivo en el interior; signos de carga escasos a lo largo de la membrana."
     },
-    "a11y.transportProteinToolbox.voltageGatedChannelPanel.chargesCheckbox.accessibleContextResponseUnchecked": {
+    "a11y.chargesCheckbox.accessibleContextResponseUnchecked": {
       "value": "Signos de carga del potencial de membrana, ocultos."
     },
-    "a11y.transportProteinToolbox.activeTransportProteinPanel.sodiumPotassiumPump": {
+    "a11y.chargesCheckbox.activeTransportProteinPanel.sodiumPotassiumPump": {
       "value": "Tomar Bomba sodio-potasio"
     },
-    "a11y.transportProteinToolbox.activeTransportProteinPanel.sodiumGlucoseCotransporter": {
+    "a11y.chargesCheckbox.activeTransportProteinPanel.sodiumGlucoseCotransporter": {
       "value": "Tomar Cotransportador sodio-glucosa"
     },
-    "a11y.transportProteinToolbox.activeTransportProteinPanel.accessibleHelpText": {
+    "a11y.chargesCheckbox.activeTransportProteinPanel.accessibleHelpText": {
       "value": "Proteínas que se abren a un lado a la vez. La bomba sodio-potasio, cuando está abierta hacia el interior tiene sitios de unión para 3 \n  sodios y 1 fosfato. Cuando está abierta hacia el exterior tiene sitios de unión para 2 potasios. El cotransportador sodio-glucosa, \n  solo se abre hacia el exterior y tiene sitios de unión para 2 sodios y 1 glucosa. Requiere una concentración de sodio exterior más alta para transportar."
     },
     "a11y.ligandNode.accessibleName": {
@@ -369,8 +369,14 @@
     "a11y.ligandNode.grabbedResponseWithEmptyMembraneHint": {
       "value": "{ a11y_ligandNode_grabbedResponse } Barra espaciadora para soltar. Agrega proteínas de transporte."
     },
+    "a11y.sortable": {
+      "value": "ordenable"
+    },
+    "a11y.navigable": {
+      "value": "navegable"
+    },
     "a11y.membranePotentialValue": {
-      "value": "{ $membranePotential ->\n  [-70] menos 70\n  [-50] menos 50\n  *[30] más 30\n} milivoltios"
+      "value": "{ $membranePotential ->\n  [-70] negativo 70\n  [-50] negativo 50\n  *[30] positivo 30\n} milivoltios"
     },
     "a11y.solutes.lowercaseName": {
       "value": "{ $soluteType ->\n  [oxygen]        moléculas de oxígeno\n  [carbonDioxide] moléculas de dióxido de carbono\n  [sodiumIon]     iones de sodio\n  [potassiumIon]  iones de potasio\n  [glucose]       moléculas de glucosa\n *[atp]           moléculas de ATP\n}"
@@ -394,16 +400,16 @@
       "value": "Dióxido de carbono, CO2, apolar, pequeño"
     },
     "a11y.solutesPanel.sodiumIonRadioButton": {
-      "value": "Ion sodio, Na, positivo, pequeño"
+      "value": "Ion de sodio, Na, positivo, pequeño"
     },
     "a11y.solutesPanel.potassiumIonRadioButton": {
-      "value": "Ion potasio, K, positivo, pequeño"
+      "value": "Ion de potasio, K, positivo, pequeño"
     },
     "a11y.solutesPanel.glucoseRadioButton": {
       "value": "Glucosa, anillo hexagonal, grande"
     },
     "a11y.solutesPanel.atpRadioButton": {
-      "value": "Adenosín trifosfato, ATP, complejo, grande"
+      "value": "Adenosina trifosfato, ATP, complejo, grande"
     },
     "a11y.solutesPanel.accessibleHelpText": {
       "value": "Elige un soluto para los Ajustadores de solutos."
@@ -475,10 +481,13 @@
       "value": "Agrega o quita ligandos con forma de triángulo y estrella en el exterior de la célula."
     },
     "a11y.ligandToggleButton.addedAccessibleContextResponse": {
-      "value": "El exterior se inundó de ligandos."
+      "value": "Exterior inundado de ligandos."
     },
     "a11y.ligandToggleButton.removedAccessibleContextResponse": {
       "value": "Ligandos eliminados."
+    },
+    "a11y.observationWindow.accessibleHeading": {
+      "value": "Ventana de observación"
     },
     "a11y.cellMembrane.accessibleHeading": {
       "value": "Membrana celular"
@@ -607,7 +616,7 @@
       "value": "Toma o suelta con la barra espaciadora o Enter."
     },
     "a11y.keyboardHelp.transportProteinsAndLigands.moveGrabbedItemDescription": {
-      "value": "Mueve la proteína o ligando tomado entre ubicaciones de colocación disponibles con Flecha izquierda y derecha o con A y D."
+      "value": "Mueve la proteína o el ligando tomado entre posiciones disponibles con Flecha izquierda y derecha o con A y D."
     },
     "a11y.keyboardHelp.transportProteinsAndLigands.cancelGrabDescription": {
       "value": "Cancela la toma o el movimiento con Escape."
@@ -640,7 +649,7 @@
       "value": "La bomba necesita una fuente de fosfato"
     },
     "a11y.membraneTransportDescriber.hints.sodiumGlucoseCotransporterWithLowOutsideSodium": {
-      "value": "El cotransportador no une sodio. Sodio exterior demasiado bajo."
+      "value": "El cotransportador no une sodio. Sodio exterior demasiado bajo"
     },
     "a11y.membraneTransportDescriber.commaSeparator": {
       "value": ", "
@@ -695,6 +704,713 @@
     },
     "a11y.preferencesDialog.audio.sounds.stereoCrossingSounds.accessibleContextResponseRightValue": {
       "value": "Sonidos estéreo de cruce activados."
+    }
+  },
+  "fr": {
+    "membrane-transport.title": {
+      "value": "Transport membranaire"
+    },
+    "screen.simpleDiffusion": {
+      "value": "Diffusion simple"
+    },
+    "screen.facilitatedDiffusion": {
+      "value": "Diffusion facilitée"
+    },
+    "screen.activeTransport": {
+      "value": "Transport actif"
+    },
+    "screen.playground": {
+      "value": "Terrain d’expérimentation"
+    },
+    "solutes": {
+      "value": "Solutés"
+    },
+    "soluteNames.oxygen": {
+      "value": "O<sub>2</sub>"
+    },
+    "soluteNames.carbonDioxide": {
+      "value": "CO<sub>2</sub>"
+    },
+    "soluteNames.sodiumIon": {
+      "value": "Na<sup>+</sup>"
+    },
+    "soluteNames.potassiumIon": {
+      "value": "K<sup>+</sup>"
+    },
+    "soluteNames.glucose": {
+      "value": "Glucose"
+    },
+    "soluteNames.atp": {
+      "value": "ATP"
+    },
+    "cellRegions.outside": {
+      "value": "Extérieur"
+    },
+    "cellRegions.inside": {
+      "value": "Intérieur"
+    },
+    "outsideSodiumTooLow": {
+      "value": "Sodium extérieur trop faible !"
+    },
+    "transportProteinToolbox.voltageGatedChannels": {
+      "value": "Canaux voltage‑dépendants"
+    },
+    "transportProteinToolbox.ligandGatedChannels": {
+      "value": "Canaux ligand‑dépendants"
+    },
+    "transportProteinToolbox.activeTransporters": {
+      "value": "Transporteurs actifs"
+    },
+    "transportProteinToolbox.leakageChannels": {
+      "value": "Canaux de fuite"
+    },
+    "transportProteinToolbox.naPlusKPlusPump": {
+      "value": "Na<sup>+</sup>/K<sup>+</sup><br>Pompe"
+    },
+    "transportProteinToolbox.sodiumGlucoseCotransporter": {
+      "value": "Na<sup>+</sup>/Glucose<br>Cotransporteur"
+    },
+    "transportProteinToolbox.membranePotentialMV": {
+      "value": "Potentiel de membrane (mV)"
+    },
+    "transportProteinToolbox.charges": {
+      "value": "Charges"
+    },
+    "transportProteinToolbox.addLigands": {
+      "value": "Ajouter des ligands"
+    },
+    "transportProteinToolbox.removeLigands": {
+      "value": "Retirer les ligands"
+    },
+    "preferencesDialog.simulation.animateLipids.label": {
+      "value": "Animation des lipides"
+    },
+    "preferencesDialog.simulation.animateLipids.description": {
+      "value": "Animation ondulante de la bicouche phospholipidique formant la membrane cellulaire."
+    },
+    "preferencesDialog.simulation.glucoseMetabolism.label": {
+      "value": "Métabolisme du glucose"
+    },
+    "preferencesDialog.simulation.glucoseMetabolism.description": {
+      "value": "Les molécules de glucose s’estompent à l’intérieur de la cellule pour simuler leur conversion par le métabolisme cellulaire."
+    },
+    "preferencesDialog.audio.sounds.stereoCrossingSounds.label": {
+      "value": "Sons stéréo de franchissement"
+    },
+    "preferencesDialog.audio.sounds.stereoCrossingSounds.description": {
+      "value": "Met en évidence la direction du transport des solutés en mappant le son sur les canaux droit (extérieur vers intérieur) et gauche (intérieur vers extérieur)."
+    },
+    "soluteConcentrationsAccordionBox.title": {
+      "value": "Concentrations des solutés"
+    },
+    "settings.crossingHighlights": {
+      "value": "Surlignage des franchissements"
+    },
+    "settings.crossingSounds": {
+      "value": "Sons des franchissements"
+    },
+    "keyboardHelp.soluteAdjusters.title": {
+      "value": "Réglages de soluté"
+    },
+    "keyboardHelp.soluteAdjusters.addOrRemoveALot": {
+      "value": "Ajuster la quantité du soluté choisi"
+    },
+    "keyboardHelp.soluteAdjusters.addOrRemoveALittle": {
+      "value": "Ajuster par petites quantités"
+    },
+    "keyboardHelp.transportProteinsAndLigands.title": {
+      "value": "Protéines de transport ou ligands"
+    },
+    "keyboardHelp.transportProteinsAndLigands.navigate": {
+      "value": "Parcourir les protéines dans la boîte à outils ou les ligands ajoutés"
+    },
+    "keyboardHelp.transportProteinsAndLigands.grabOrRelease": {
+      "value": "Saisir ou relâcher"
+    },
+    "keyboardHelp.transportProteinsAndLigands.moveGrabbedItem": {
+      "value": "Déplacer la protéine ou le ligand saisi entre les emplacements de dépôt disponibles"
+    },
+    "keyboardHelp.transportProteinsAndLigands.cancelGrab": {
+      "value": "Annuler la saisie ou le déplacement"
+    },
+    "keyboardHelp.sortOrDeleteProteins.title": {
+      "value": "Trier ou supprimer des protéines dans la membrane"
+    },
+    "keyboardHelp.sortOrDeleteProteins.navigateProteins": {
+      "value": "Parcourir les protéines dans la membrane"
+    },
+    "keyboardHelp.sortOrDeleteProteins.grabProtein": {
+      "value": "Saisir une protéine dans la membrane"
+    },
+    "keyboardHelp.sortOrDeleteProteins.moveGrabbedProtein": {
+      "value": "Déplacer la protéine saisie entre les fentes"
+    },
+    "keyboardHelp.sortOrDeleteProteins.releaseProtein": {
+      "value": "Relâcher la protéine saisie dans une fente vide ou permuter"
+    },
+    "keyboardHelp.sortOrDeleteProteins.deleteProtein": {
+      "value": "Supprimer la protéine saisie"
+    },
+    "a11y.simpleDiffusionScreen.screenButtonsHelpText": {
+      "value": "Explorer quels solutés peuvent diffuser librement dans un environnement cellulaire."
+    },
+    "a11y.facilitatedDiffusionScreen.screenButtonsHelpText": {
+      "value": "Explorer les conditions qui facilitent la diffusion des solutés à l’aide de protéines de transport."
+    },
+    "a11y.activeTransportScreen.screenButtonsHelpText": {
+      "value": "Explorer les conditions permettant le transport actif des solutés à l’aide de protéines de transport."
+    },
+    "a11y.playgroundScreen.screenButtonsHelpText": {
+      "value": "Expérimenter avec tous les solutés et toutes les protéines de transport."
+    },
+    "a11y.screenSummary.playArea.intro": {
+      "value": "Une fenêtre d’observation zoome sur une très petite section transversale de la membrane d’une cellule.\n  La membrane consiste en une bicouche de phospholipides ondulante, une feuille à double couche\n  qui sépare les fluides à l’intérieur et à l’extérieur de la cellule. Lorsqu’ils sont ajoutés à l’extérieur ou à l’intérieur,\n  les particules de soluté sont en suspension dans le fluide et se déplacent aléatoirement selon un mouvement brownien."
+    },
+    "a11y.screenSummary.playArea.proteins": {
+      "value": "Des protéines de transport de différents types peuvent être ajoutées directement à la membrane."
+    },
+    "a11y.screenSummary.playArea.potential": {
+      "value": "Des options permettent de modifier l’environnement cellulaire et d’influencer les protéines ajoutées."
+    },
+    "a11y.screenSummary.playArea.barCharts": {
+      "value": "Des histogrammes des concentrations de soluté comparent dynamiquement les quantités à l’extérieur et à l’intérieur de la cellule."
+    },
+    "a11y.screenSummary.playArea.screen1": {
+      "value": "{ a11y_screenSummary_playArea_intro } { a11y_screenSummary_playArea_barCharts }"
+    },
+    "a11y.screenSummary.playArea.screen2and4": {
+      "value": "{ a11y_screenSummary_playArea_intro } { a11y_screenSummary_playArea_proteins } { a11y_screenSummary_playArea_potential } { a11y_screenSummary_playArea_barCharts }"
+    },
+    "a11y.screenSummary.playArea.screen3": {
+      "value": "{ a11y_screenSummary_playArea_intro } { a11y_screenSummary_playArea_proteins } { a11y_screenSummary_playArea_barCharts }"
+    },
+    "a11y.screenSummary.controlArea": {
+      "value": "Vous pouvez mettre l’action en pause ou la ralentir pour entendre plus de détails, ajouter ou retirer des sons et des surlignages qui mettent en évidence les franchissements des solutés, et réinitialiser pour recommencer."
+    },
+    "a11y.screenSummary.currentDetails.leadingParagraph": {
+      "value": "En ce moment, la section transversale agrandie de la cellule contient :"
+    },
+    "a11y.screenSummary.currentDetails.noAddedSolutes": {
+      "value": "aucun soluté ajouté"
+    },
+    "a11y.screenSummary.currentDetails.noAddedProteins": {
+      "value": "aucune protéine ajoutée"
+    },
+    "a11y.screenSummary.currentDetails.soluteTypesOnOutside": {
+      "value": "{ $count ->\n  [one] { $count } type de soluté à l’extérieur\n *[other] { $count } types de soluté à l’extérieur\n}"
+    },
+    "a11y.screenSummary.currentDetails.soluteTypesOnInside": {
+      "value": "{ $count ->\n  [one] { $count } type de soluté à l’intérieur\n *[other] { $count } types de soluté à l’intérieur\n}"
+    },
+    "a11y.screenSummary.currentDetails.transportProteins": {
+      "value": "{ $proteinCount ->\n  [one] { $proteinCount } protéine\n  *[other] { $proteinCount } protéines\n} de { $proteinTypeCount ->\n  [one] { $proteinTypeCount } type\n *[other] { $proteinTypeCount } types\n}, dans la membrane"
+    },
+    "a11y.screenSummary.currentDetails.ligands": {
+      "value": "2 types de ligands ajoutés uniquement à l’extérieur"
+    },
+    "a11y.screenSummary.currentDetails.atpReacting": {
+      "value": "L’ATP réagit pour former de l’ADP et du phosphate, qui s’estompent régulièrement à l’intérieur"
+    },
+    "a11y.screenSummary.currentDetails.membranePotential": {
+      "value": "potentiel de membrane de { a11y_membranePotentialValue }"
+    },
+    "a11y.screenSummary.currentDetails.glucoseMetabolism": {
+      "value": "Le glucose disparaît de l’intérieur lorsqu’il est métabolisé par la cellule"
+    },
+    "a11y.screenSummary.interactionHint": {
+      "value": "Ajouter ou retirer des solutés à l’extérieur ou à l’intérieur de la cellule et observer les concentrations de soluté."
+    },
+    "a11y.screenSummary.interactionHintWithTransportProteins": {
+      "value": "Ajouter ou retirer des solutés à l’extérieur ou à l’intérieur de la cellule, placer des protéines de transport dans la membrane, et observer les concentrations de soluté."
+    },
+    "a11y.soluteControls.accessibleHeading": {
+      "value": "Réglages de soluté"
+    },
+    "a11y.soluteControls.accessibleHelpText": {
+      "value": "Ajouter ou retirer le soluté choisi à l’extérieur ou à l’intérieur de la cellule."
+    },
+    "a11y.eraseSolutesButton.accessibleName": {
+      "value": "Effacer tous les solutés"
+    },
+    "a11y.eraseSolutesButton.accessibleContextResponse": {
+      "value": "Solutés effacés. Ajoutez des solutés pour observer des changements."
+    },
+    "a11y.eraseSolutesButton.accessibleHelpText": {
+      "value": "Désactivé quand aucun soluté n’a été ajouté."
+    },
+    "a11y.settings.crossingHighlightsCheckbox.accessibleHelpText": {
+      "value": "Explorer avec ou sans surlignage visuel des franchissements de soluté."
+    },
+    "a11y.settings.crossingHighlightsCheckbox.accessibleContextResponseChecked": {
+      "value": "Surlignage visuel des franchissements de soluté activé."
+    },
+    "a11y.settings.crossingHighlightsCheckbox.accessibleContextResponseUnchecked": {
+      "value": "Surlignage visuel des franchissements de soluté désactivé."
+    },
+    "a11y.settings.crossingSoundsCheckbox.accessibleHelpText": {
+      "value": "Explorer avec ou sans sons uniques pour les franchissements de soluté."
+    },
+    "a11y.settings.crossingSoundsCheckbox.accessibleContextResponseChecked": {
+      "value": "Sons de franchissement des solutés activés."
+    },
+    "a11y.settings.crossingSoundsCheckbox.accessibleContextResponseUnchecked": {
+      "value": "Sons de franchissement des solutés désactivés."
+    },
+    "a11y.transportProteinToolbox.accessibleHeading": {
+      "value": "Boîte à outils des protéines de transport"
+    },
+    "a11y.transportProteinToolbox.accessibleHelpText": {
+      "value": "Cherchez des protéines à saisir. Une fois saisies, utilisez les raccourcis clavier pour les déposer dans une fente de la membrane. Saisissez de nouveau depuis la membrane pour trier ou supprimer."
+    },
+    "a11y.transportProteinToolbox.ligandGatedChannelPanel.sodiumIonNaPlusLigandGated": {
+      "value": "Saisir Sélectif au sodium, ligand‑dépendant"
+    },
+    "a11y.transportProteinToolbox.ligandGatedChannelPanel.potassiumIonKPlusLigandGated": {
+      "value": "Saisir Sélectif au potassium, ligand‑dépendant"
+    },
+    "a11y.transportProteinToolbox.ligandGatedChannelPanel.accessibleHelpText": {
+      "value": "Protéines transmembranaires à canal unique pouvant être ouvertes ou fermées. Fermées, elles possèdent un site de liaison en forme de triangle ou d’étoile."
+    },
+    "a11y.transportProteinToolbox.leakageChannelPanel.sodiumIonNaPlusLeakage": {
+      "value": "Saisir Sélectif au sodium, fuite"
+    },
+    "a11y.transportProteinToolbox.leakageChannelPanel.potassiumIonKPlusLeakage": {
+      "value": "Saisir Sélectif au potassium, fuite"
+    },
+    "a11y.transportProteinToolbox.leakageChannelPanel.accessibleHelpText": {
+      "value": "Protéines transmembranaires à canal unique, toujours ouvertes."
+    },
+    "a11y.transportProteinToolbox.voltageGatedChannelPanel.sodiumIonNaPlusVoltageGated": {
+      "value": "Saisir Sélectif au sodium, voltage‑dépendant"
+    },
+    "a11y.transportProteinToolbox.voltageGatedChannelPanel.potassiumIonKPlusVoltageGated": {
+      "value": "Saisir Sélectif au potassium, voltage‑dépendant"
+    },
+    "a11y.transportProteinToolbox.voltageGatedChannelPanel.accessibleHelpText": {
+      "value": "Protéines transmembranaires à canal unique pouvant être ouvertes ou fermées."
+    },
+    "a11y.transportProteinToolbox.voltageGatedChannelPanel.membranePotential.radioButtonGroup.accessibleName": {
+      "value": "Potentiel de membrane"
+    },
+    "a11y.transportProteinToolbox.voltageGatedChannelPanel.membranePotential.radioButtonGroup.accessibleHelpText": {
+      "value": "Ajuster les millivolts et observer les protéines."
+    },
+    "a11y.transportProteinToolbox.voltageGatedChannelPanel.membranePotential.radioButtonGroup.negative70RadioButton.accessibleName": {
+      "value": "moins 70 millivolts"
+    },
+    "a11y.transportProteinToolbox.voltageGatedChannelPanel.membranePotential.radioButtonGroup.negative50RadioButton.accessibleName": {
+      "value": "moins 50 millivolts"
+    },
+    "a11y.transportProteinToolbox.voltageGatedChannelPanel.membranePotential.radioButtonGroup.positive30RadioButton.accessibleName": {
+      "value": "plus 30 millivolts"
+    },
+    "a11y.transportProteinToolbox.voltageGatedChannelPanel.chargesCheckbox.accessibleHelpText": {
+      "value": "Explorer avec ou sans signes de charge indiquant le potentiel de membrane le long de l’intérieur et de l’extérieur."
+    },
+    "a11y.transportProteinToolbox.voltageGatedChannelPanel.chargesCheckbox.voicingHelpText": {
+      "value": "Explorer avec ou sans signes de charge le long de la membrane."
+    },
+    "a11y.transportProteinToolbox.voltageGatedChannelPanel.chargesCheckbox.accessibleContextResponseCheckedNegative70": {
+      "value": "Positif à l’extérieur et négatif à l’intérieur ; signes de charge densément répartis le long de la membrane."
+    },
+    "a11y.transportProteinToolbox.voltageGatedChannelPanel.chargesCheckbox.accessibleContextResponseCheckedNegative50": {
+      "value": "Positif à l’extérieur et négatif à l’intérieur ; signes de charge légèrement répartis le long de la membrane."
+    },
+    "a11y.transportProteinToolbox.voltageGatedChannelPanel.chargesCheckbox.accessibleContextResponseCheckedPositive30": {
+      "value": "Négatif à l’extérieur et positif à l’intérieur ; signes de charge clairsemés le long de la membrane."
+    },
+    "a11y.transportProteinToolbox.voltageGatedChannelPanel.chargesCheckbox.accessibleContextResponseUnchecked": {
+      "value": "Signes de charge du potentiel de membrane, masqués."
+    },
+    "a11y.transportProteinToolbox.activeTransportProteinPanel.sodiumPotassiumPump": {
+      "value": "Saisir Pompe sodium‑potassium"
+    },
+    "a11y.transportProteinToolbox.activeTransportProteinPanel.sodiumGlucoseCotransporter": {
+      "value": "Saisir Cotransporteur sodium‑glucose"
+    },
+    "a11y.transportProteinToolbox.activeTransportProteinPanel.accessibleHelpText": {
+      "value": "Protéines qui s’ouvrent d’un seul côté à la fois. La pompe sodium‑potassium, ouverte vers l’intérieur, possède des sites de liaison pour 3 ions sodium et 1 phosphate. Ouverte vers l’extérieur, elle possède des sites de liaison pour 2 ions potassium. Le cotransporteur sodium‑glucose n’est ouvert que vers l’extérieur et a des sites de liaison pour 2 ions sodium et 1 glucose. Nécessite une concentration extérieure en sodium plus élevée pour assurer la navette."
+    },
+    "a11y.ligandNode.accessibleName": {
+      "value": "{ $ligandType ->\n[starLigand]     Ligand étoile\n*[triangleLigand] Ligand triangle\n}"
+    },
+    "a11y.ligandNode.accessibleHelpText": {
+      "value": "Saisir un ligand. Une fois saisi, utilisez les raccourcis clavier pour déplacer le ligand vers un site de liaison. Relâchez pour lier ou laissez les ligands se lier naturellement."
+    },
+    "a11y.ligandNode.voicingHintResponse": {
+      "value": "Se déplacer vers une protéine ligand‑dépendante."
+    },
+    "a11y.ligandNode.releasedResponse": {
+      "value": "Relâché."
+    },
+    "a11y.ligandNode.releasedOffMembraneResponse": {
+      "value": "Relâché. { a11y_ligandNode_accessibleName } s’éloigne."
+    },
+    "a11y.ligandNode.releasedOnProteinResponse": {
+      "value": "Relâché. Liaison réussie. La protéine s’ouvre."
+    },
+    "a11y.ligandNode.releasedOnBusyOrIncompatibleProteinResponse": {
+      "value": "Relâché. Liaison échouée. Le ligand s’éloigne."
+    },
+    "a11y.ligandNode.unboundResponse": {
+      "value": "Le ligand s’éloigne. La protéine se ferme."
+    },
+    "a11y.ligandNode.movedOffMembraneResponse": {
+      "value": "Hors membrane."
+    },
+    "a11y.ligandNode.movedAboveLigandGatedChannelResponse": {
+      "value": "Au‑dessus de { $openOrClosed ->\n[open]   ouvert\n*[closed] fermé\n} { a11y_transportProtein_briefName } { $proteinType ->\n[sodiumIonLigandGatedChannel] Site triangle\n*[potassiumIonLigandGatedChannel]     Site étoile\n}, { $index } sur { $transportProteinCount } protéines."
+    },
+    "a11y.ligandNode.movedAboveLeakageChannelResponse": {
+      "value": "Au‑dessus de { a11y_transportProtein_briefName }, { $index } sur { $transportProteinCount } protéines."
+    },
+    "a11y.ligandNode.movedAboveOtherChannelResponse": {
+      "value": "Au‑dessus de { $openOrClosed ->\n[open]   ouvert\n*[closed] fermé\n} { a11y_transportProtein_briefName }, { $index } sur { $transportProteinCount } protéines."
+    },
+    "a11y.ligandNode.grabbedResponse": {
+      "value": "Saisi. Hors membrane. { $proteinCount } protéines dans la membrane."
+    },
+    "a11y.ligandNode.grabbedResponseWithHint": {
+      "value": "{ a11y_ligandNode_grabbedResponse } Déplacer le ligand avec les touches A ou D. Espace pour relâcher."
+    },
+    "a11y.ligandNode.grabbedResponseWithEmptyMembraneHint": {
+      "value": "{ a11y_ligandNode_grabbedResponse } Espace pour relâcher. Ajouter des protéines de transport."
+    },
+    "a11y.sortable": {
+      "value": "triable"
+    },
+    "a11y.navigable": {
+      "value": "navigable"
+    },
+    "a11y.membranePotentialValue": {
+      "value": "{ $membranePotential ->\n  [-70] moins 70\n  [-50] moins 50\n  *[30] plus 30\n} millivolts"
+    },
+    "a11y.solutes.lowercaseName": {
+      "value": "{ $soluteType ->\n  [oxygen]        molécules d’oxygène\n  [carbonDioxide] molécules de dioxyde de carbone\n  [sodiumIon]     ions sodium\n  [potassiumIon]  ions potassium\n  [glucose]       molécules de glucose\n *[atp]           molécules d’ATP\n}"
+    },
+    "a11y.solutes.uppercaseName": {
+      "value": "{ $soluteType ->\n  [oxygen]        Molécules d’oxygène\n  [carbonDioxide] Molécules de dioxyde de carbone\n  [sodiumIon]     Ions sodium\n  [potassiumIon]  Ions potassium\n  [glucose]       Molécules de glucose\n *[atp]           Molécules d’ATP\n}"
+    },
+    "a11y.solutes.briefName": {
+      "value": "{ $soluteType ->\n  [oxygen]        Oxygène\n  [carbonDioxide] Dioxyde de carbone\n  [sodiumIon]     Sodium\n  [potassiumIon]  Potassium\n  [glucose]       Glucose\n *[atp]           ATP\n}"
+    },
+    "a11y.solutes.amountComparison": {
+      "value": "{ $amount ->\n  *[none]  aucun\n  [equal] quantités exactement égales à l’extérieur et à l’intérieur\n  [allOutside] toutes à l’extérieur, aucune à l’intérieur\n  [allInside] toutes à l’intérieur, aucune à l’extérieur\n  [manyManyMoreOutside] énormément plus à l’extérieur qu’à l’intérieur\n  [manyMoreOutside] beaucoup plus à l’extérieur qu’à l’intérieur\n  [aboutTwiceAsManyOutside] environ deux fois plus à l’extérieur qu’à l’intérieur\n  [aLotMoreOutside] nettement plus à l’extérieur qu’à l’intérieur\n  [someMoreOutside] un peu plus à l’extérieur qu’à l’intérieur\n  [littleBitMoreOutside] légèrement plus à l’extérieur qu’à l’intérieur\n  [roughlyEqualOutside] quantités à peu près égales à l’intérieur et à l’extérieur\n  [manyManyMoreInside] énormément plus à l’intérieur qu’à l’extérieur\n  [manyMoreInside] beaucoup plus à l’intérieur qu’à l’extérieur\n  [aboutTwiceAsManyInside] environ deux fois plus à l’intérieur qu’à l’extérieur\n  [aLotMoreInside] nettement plus à l’intérieur qu’à l’extérieur\n  [someMoreInside] un peu plus à l’intérieur qu’à l’extérieur\n  [littleBitMoreInside] légèrement plus à l’intérieur qu’à l’extérieur\n  [roughlyEqualInside] quantités à peu près égales à l’intérieur et à l’extérieur\n}"
+    },
+    "a11y.solutes.averageCrossingDirection": {
+      "value": "{ $direction ->\n  [toOutside] vers l’extérieur\n  [mostlyToOutside] principalement vers l’extérieur\n  [inBothDirections] dans les deux sens\n  [mostlyToInside] principalement vers l’intérieur\n  [toInside] vers l’intérieur\n  *[none] aucun récemment\n}"
+    },
+    "a11y.solutesPanel.oxygenRadioButton": {
+      "value": "Oxygène, O2, non polaire, petit"
+    },
+    "a11y.solutesPanel.carbonDioxideRadioButton": {
+      "value": "Dioxyde de carbone, CO2, non polaire, petit"
+    },
+    "a11y.solutesPanel.sodiumIonRadioButton": {
+      "value": "Ion sodium, Na, positif, petit"
+    },
+    "a11y.solutesPanel.potassiumIonRadioButton": {
+      "value": "Ion potassium, K, positif, petit"
+    },
+    "a11y.solutesPanel.glucoseRadioButton": {
+      "value": "Glucose, anneau hexagonal, grand"
+    },
+    "a11y.solutesPanel.atpRadioButton": {
+      "value": "Adénosine triphosphate, ATP, complexe, grand"
+    },
+    "a11y.solutesPanel.accessibleHelpText": {
+      "value": "Choisir un soluté pour les Réglages de soluté."
+    },
+    "a11y.soluteControl.outside.accessibleName": {
+      "value": "{ a11y_solutes_uppercaseName } À l’extérieur de la cellule"
+    },
+    "a11y.soluteControl.outside.accessibleHelpText": {
+      "value": "Ajuster la quantité du soluté choisi à l’extérieur avec les touches fléchées ou des raccourcis clavier alternatifs."
+    },
+    "a11y.soluteControl.outside.readingBlockNameResponse": {
+      "value": "{ a11y_soluteControl_accessibleObjectResponse }, Extérieur"
+    },
+    "a11y.soluteControl.inside.accessibleName": {
+      "value": "{ a11y_solutes_uppercaseName } À l’intérieur de la cellule"
+    },
+    "a11y.soluteControl.inside.accessibleHelpText": {
+      "value": "Ajuster la quantité du soluté choisi à l’intérieur avec les touches fléchées ou des raccourcis clavier alternatifs."
+    },
+    "a11y.soluteControl.inside.readingBlockNameResponse": {
+      "value": "{ a11y_soluteControl_accessibleObjectResponse }, Intérieur"
+    },
+    "a11y.soluteControl.voicingHintResponse": {
+      "value": "Ajuster le soluté choisi avec les touches fléchées ou les boutons fléchés."
+    },
+    "a11y.soluteControl.accessibleRoleDescription": {
+      "value": "régleur de soluté"
+    },
+    "a11y.soluteControl.accessibleHelpTextAllDisabled": {
+      "value": "Désactivé, quantité totale du soluté choisi au maximum."
+    },
+    "a11y.soluteControl.accessibleObjectResponse": {
+      "value": "{ $amount ->\n  [none] pas de\n  [few] quelques\n  [some] un peu de\n  [smallAmount] petite quantité de\n  [several] plusieurs\n  [many] beaucoup de\n  [largeAmount] grande quantité de\n  [hugeAmount] énorme quantité de\n *[maxAmount] quantité maximale de\n} { a11y_solutes_lowercaseName }"
+    },
+    "a11y.soluteControl.accessibleContextResponse": {
+      "value": "{ $addedOrRemoved ->\n  [addedToMax] Ajout de {$delta}, soluté au maximum\n  [removedToMin] Retrait effectué\n  [added]  Ajout de {$delta}\n *[removed] Retrait de {$delta}\n}. À présent, { a11y_solutes_amountComparison }."
+    },
+    "a11y.soluteControl.accessibleObjectResponseAtMax": {
+      "value": "soluté au maximum"
+    },
+    "a11y.soluteConcentrationsAccordionBox.descriptionContent": {
+      "value": "Des histogrammes dynamiques montrent les comparaisons de concentration et les franchissements récents pour chaque soluté. Si nécessaire, mettez la simulation en pause pour lire les détails."
+    },
+    "a11y.soluteConcentrationsAccordionBox.accessibleContextResponseExpanded": {
+      "value": "Des histogrammes dynamiques montrent les détails des solutés."
+    },
+    "a11y.soluteConcentrationsAccordionBox.accessibleContextResponseCollapsed": {
+      "value": "Histogrammes dynamiques masqués."
+    },
+    "a11y.soluteConcentrationsAccordionBox.voicingHintResponseCollapsed": {
+      "value": "Développer pour afficher des histogrammes dynamiques avec les détails des solutés."
+    },
+    "a11y.soluteConcentrationsAccordionBox.barChart.accessibleNameWithNoParticles": {
+      "value": "{ a11y_solutes_uppercaseName }: aucune à l’extérieur, aucune à l’intérieur."
+    },
+    "a11y.soluteConcentrationsAccordionBox.barChart.accessibleNameWithParticles": {
+      "value": "{ a11y_solutes_uppercaseName }: { a11y_solutes_amountComparison }; franchissements { a11y_solutes_averageCrossingDirection }; { $outsideAmount ->\n  [none] aucune\n  [few] quelques\n  [some] un peu\n  [smallAmount] petite quantité\n  [several] plusieurs\n  [many] beaucoup\n  [largeAmount] grande quantité\n  [hugeAmount] énorme quantité\n *[maxAmount] quantité maximale\n} à l’extérieur, { $insideAmount ->\n  [none] aucune\n  [few] quelques\n  [some] un peu\n  [smallAmount] petite quantité\n  [several] plusieurs\n  [many] beaucoup\n  [largeAmount] grande quantité\n  [hugeAmount] énorme quantité\n *[maxAmount] quantité maximale\n} à l’intérieur."
+    },
+    "a11y.soluteConcentrationsAccordionBox.barChart.glucoseMetabolism": {
+      "value": "Le glucose disparaît de l’intérieur lorsqu’il est métabolisé par la cellule."
+    },
+    "a11y.soluteConcentrationsAccordionBox.barChart.accessibleNameWithParticlesAndGlucoseMetabolism": {
+      "value": "{ a11y_soluteConcentrationsAccordionBox_barChart_accessibleNameWithParticles } { a11y_soluteConcentrationsAccordionBox_barChart_glucoseMetabolism }"
+    },
+    "a11y.soluteConcentrationsAccordionBox.barChart.accessibleNameWithNoParticlesAndGlucoseMetabolism": {
+      "value": "{ a11y_soluteConcentrationsAccordionBox_barChart_accessibleNameWithNoParticles } { a11y_soluteConcentrationsAccordionBox_barChart_glucoseMetabolism }"
+    },
+    "a11y.ligandToggleButton.accessibleHelpText": {
+      "value": "Ajouter ou retirer des ligands en forme de triangle et d’étoile à l’extérieur de la cellule."
+    },
+    "a11y.ligandToggleButton.addedAccessibleContextResponse": {
+      "value": "Extérieur inondé de ligands."
+    },
+    "a11y.ligandToggleButton.removedAccessibleContextResponse": {
+      "value": "Ligands retirés."
+    },
+    "a11y.observationWindow.accessibleHeading": {
+      "value": "Fenêtre d’observation"
+    },
+    "a11y.cellMembrane.accessibleHeading": {
+      "value": "Membrane cellulaire"
+    },
+    "a11y.cellMembrane.leadingParagraph": {
+      "value": "La section transversale agrandie de la cellule contient :"
+    },
+    "a11y.cellMembrane.accessibleHelpText.proteinsHidden.noSolutes": {
+      "value": "Voir pour ajuster les types et les quantités de soluté."
+    },
+    "a11y.cellMembrane.accessibleHelpText.proteinsHidden.withSolutes": {
+      "value": "Observer les solutés qui franchissent. Voir pour ajuster les types et les quantités de soluté."
+    },
+    "a11y.cellMembrane.accessibleHelpText.proteinsShown.noProteins.noSolutes": {
+      "value": "Voir pour ajouter des solutés et des protéines."
+    },
+    "a11y.cellMembrane.accessibleHelpText.proteinsShown.noProteins.withSolutes": {
+      "value": "Observer les solutés qui franchissent. Voir pour ajuster les solutés et les protéines."
+    },
+    "a11y.cellMembrane.accessibleHelpText.proteinsShown.withProteins.noSolutes": {
+      "value": "Voir pour ajuster les solutés et les protéines."
+    },
+    "a11y.cellMembrane.accessibleHelpText.proteinsShown.withProteins.withSolutes": {
+      "value": "Observer les franchissements des solutés et les changements des protéines. Voir pour ajuster les solutés et les protéines."
+    },
+    "a11y.transportProtein.grabbedResponse": {
+      "value": "Saisie."
+    },
+    "a11y.transportProtein.initialGrabbedHintResponse": {
+      "value": "Choisissez une fente avec A ou D. Espace pour relâcher. Suppr pour enlever."
+    },
+    "a11y.transportProtein.offMembraneResponse": {
+      "value": "Au‑dessus de la boîte à outils, hors membrane."
+    },
+    "a11y.transportProtein.releasedReplacedResponse": {
+      "value": "Relâchée dans la membrane. Protéine remplacée."
+    },
+    "a11y.transportProtein.deletedResponse": {
+      "value": "Protéine saisie supprimée."
+    },
+    "a11y.transportProtein.cancelledBackToSlotResponse": {
+      "value": "Annulé. De retour dans la membrane."
+    },
+    "a11y.transportProtein.cancelledBackToToolboxResponse": {
+      "value": "De retour dans la boîte à outils."
+    },
+    "a11y.transportProtein.reorderedResponse": {
+      "value": "Réordonnée."
+    },
+    "a11y.transportProtein.proteinLocation": {
+      "value": "dans la membrane, { $proteinIndex } sur { $proteinCount } protéines "
+    },
+    "a11y.transportProtein.accessibleName": {
+      "value": "{ $nameResponse }, { a11y_transportProtein_proteinLocation }"
+    },
+    "a11y.transportProtein.voicingHintResponse.general": {
+      "value": "Espace pour saisir ou relâcher."
+    },
+    "a11y.transportProtein.voicingHintResponse.mouseInputFromToolbox": {
+      "value": "Déplacer vers la membrane."
+    },
+    "a11y.transportProtein.voicingHintResponse.mouseInputFromMembrane": {
+      "value": "Réordonner ou retirer de la membrane."
+    },
+    "a11y.transportProtein.accessibleObjectResponse": {
+      "value": "{ $state ->\n   [openToInsideEmpty] ouvert vers l’intérieur\n   [openToInsideSodiumBound] ouvert vers l’intérieur\n   [openToInsideSodiumAndATPBound] ouvert vers l’intérieur\n   [openToInsideSodiumAndPhosphateBound] ouvert vers l’intérieur\n   [openToOutsideAwaitingPotassium] ouvert vers l’extérieur\n   [openToOutsidePotassiumBound] ouvert vers l’extérieur\n   [openToOutsideAwaitingParticles] ouvert vers l’extérieur \n   [openToOutsideAllParticlesBound] ouvert vers l’extérieur\n   [openToInside] ouvert vers l’intérieur\n   [closedNegative70mV] fermé\n   [openNegative50mV] ouvert \n   [closed30mV] fermé\n   [closedNegative50mV] fermé\n   [open30mV] ouvert\n   [ligandBoundClosed] fermé\n   [ligandBoundOpen] ouvert\n   [ligandUnboundOpen] ouvert\n   [closed] fermé\n   *[open] ouvert \n}"
+    },
+    "a11y.transportProtein.accessibleParagraph": {
+      "value": "{ $state ->\n   [openToInsideEmpty] En attente de sodium, ouvert vers l’intérieur\n   [openToInsideSodiumBound] 3 ions sodium liés, en attente de phosphate, ouvert vers l’intérieur\n   [openToInsideSodiumAndATPBound] L’ATP réagit, phosphate lié, pompe 3 sodium vers l’extérieur, ouvert vers l’intérieur\n   [openToInsideSodiumAndPhosphateBound] Phosphate lié, pompe 3 sodium vers l’extérieur, ouvert vers l’intérieur\n   [openToOutsideAwaitingPotassium] En attente de potassium, phosphate lié, ouvert vers l’extérieur\n   [openToOutsidePotassiumBound] Le phosphate s’éloigne, pompe 2 potassium vers l’intérieur, ouvert vers l’extérieur\n   [openToOutsideAwaitingParticles] { $warning ->\n     [shown] Avertissement, sodium extérieur trop faible pour la liaison, ouvert vers l’extérieur\n     *[hidden] En attente de sodium et de glucose, ouvert vers l’extérieur\n   }\n   [openToOutsideAllParticlesBound] Sodium et glucose liés, ouvert vers l’extérieur\n   [openToInside] Pompe le sodium et le glucose vers l’intérieur, ouvert vers l’intérieur\n   [ligandBoundClosed] { $proteinType ->\n     [sodiumIonLigandGatedChannel] Liaison de ligand triangle, canal en ouverture\n     *[potassiumIonLigandGatedChannel] Liaison de ligand étoile, canal en ouverture\n   }\n   [ligandBoundOpen] { $proteinType ->\n     [sodiumIonLigandGatedChannel] Canal ouvert avec ligand triangle lié\n     *[potassiumIonLigandGatedChannel] Canal ouvert avec ligand étoile lié\n   }\n   [ligandUnboundOpen] { $proteinType ->\n     [sodiumIonLigandGatedChannel] Le ligand triangle s’éloigne, canal en fermeture \n     *[potassiumIonLigandGatedChannel] Le ligand étoile s’éloigne, canal en fermeture\n   }\n   [closed] { $proteinType ->\n     [sodiumIonLigandGatedChannel] Canal fermé, aucun ligand triangle lié\n     *[potassiumIonLigandGatedChannel] Canal fermé, aucun ligand étoile lié\n   }\n   [closedNegative70mV] Canal fermé à -70 mV\n   [openNegative50mV] Canal ouvert à -50 mV\n   [closed30mV] Canal fermé à 30 mV\n   [closedNegative50mV] Canal fermé à -50 mV\n   [open30mV] Canal ouvert à 30 mV\n   *[open] Canal ouvert\n}."
+    },
+    "a11y.transportProtein.accessibleContextResponse": {
+      "value": "{ $state ->\n   [openToInsideEmpty] Le phosphate s’éloigne, pompe 2 potassium vers l’intérieur\n   [openToInsideSodiumAndATPBound] L’ATP réagit, le phosphate se lie, pompe 3 sodium vers l’extérieur\n   *[openToInside] { $glucoseBehavior ->\n     [metabolized] Navette 2 sodium et un glucose vers l’intérieur, le glucose navetté est métabolisé\n     *[persistent] Navette 2 sodium et un glucose vers l’intérieur\n   }\n   [ligandBoundOpen] { $proteinType ->\n     [sodiumIonLigandGatedChannel] Ligand triangle lié, ouvert\n     *[potassiumIonLigandGatedChannel] Ligand étoile lié, ouvert\n   }\n   [closed] { $proteinType ->\n     [sodiumIonLigandGatedChannel] Le ligand triangle s’éloigne, fermé\n     *[potassiumIonLigandGatedChannel] Le ligand étoile s’éloigne, fermé\n   }\n}."
+    },
+    "a11y.transportProtein.accessibleNameMoving": {
+      "value": "Fente { $slotIndex } sur { $slotCount }"
+    },
+    "a11y.transportProtein.accessibleObjectResponseMoving": {
+      "value": "au‑dessus de { $slotContents }"
+    },
+    "a11y.transportProtein.accessibleNameAndObjectResponse": {
+      "value": "{ $nameResponse }, { $objectResponse }"
+    },
+    "a11y.transportProtein.empty": {
+      "value": "fente vide"
+    },
+    "a11y.transportProtein.briefName": {
+      "value": "{ $type ->\n  [sodiumIonLeakageChannel]         Sélectif au sodium, fuite\n  [potassiumIonLeakageChannel]      Sélectif au potassium, fuite\n  [sodiumIonVoltageGatedChannel]    Sélectif au sodium, voltage‑dépendant\n  [potassiumIonVoltageGatedChannel] Sélectif au potassium, voltage‑dépendant\n  [sodiumIonLigandGatedChannel]     Sélectif au sodium, ligand‑dépendant\n  [potassiumIonLigandGatedChannel]  Sélectif au potassium, ligand‑dépendant\n  [sodiumPotassiumPump]             Pompe sodium‑potassium\n *[sodiumGlucoseCotransporter]      Cotransporteur sodium‑glucose\n}"
+    },
+    "a11y.membranePotential.sodiumVoltageGatedOpenedResponse": {
+      "value": "Sélectif au sodium, voltage‑dépendant, ouvert."
+    },
+    "a11y.membranePotential.sodiumVoltageGatedClosedResponse": {
+      "value": "Sélectif au sodium, voltage‑dépendant, fermé."
+    },
+    "a11y.membranePotential.potassiumVoltageGatedOpenedResponse": {
+      "value": "Sélectif au potassium, voltage‑dépendant, ouvert."
+    },
+    "a11y.membranePotential.potassiumVoltageGatedClosedResponse": {
+      "value": "Sélectif au potassium, voltage‑dépendant, fermé."
+    },
+    "a11y.membranePotential.sodiumOpenedPotassiumOpenedResponse": {
+      "value": "{ a11y_membranePotential_sodiumVoltageGatedOpenedResponse } { a11y_membranePotential_potassiumVoltageGatedOpenedResponse }"
+    },
+    "a11y.membranePotential.sodiumOpenedPotassiumClosedResponse": {
+      "value": "{ a11y_membranePotential_sodiumVoltageGatedOpenedResponse } { a11y_membranePotential_potassiumVoltageGatedClosedResponse }"
+    },
+    "a11y.membranePotential.sodiumClosedPotassiumOpenedResponse": {
+      "value": "{ a11y_membranePotential_potassiumVoltageGatedOpenedResponse } { a11y_membranePotential_sodiumVoltageGatedClosedResponse } "
+    },
+    "a11y.membranePotential.sodiumClosedPotassiumClosedResponse": {
+      "value": "Canaux voltage‑dépendants fermés."
+    },
+    "a11y.membranePotential.noChangeResponse": {
+      "value": "Aucun changement des protéines de transport."
+    },
+    "a11y.keyboardHelp.soluteAdjusters.addOrRemoveALotDescription": {
+      "value": "Ajuster la quantité du soluté choisi avec les flèches gauche/droite ou les touches A et D."
+    },
+    "a11y.keyboardHelp.soluteAdjusters.addOrRemoveALittleDescription": {
+      "value": "Ajuster par petites quantités avec Maj + flèches gauche/droite ou Maj + A et D."
+    },
+    "a11y.keyboardHelp.transportProteinsAndLigands.navigateDescription": {
+      "value": "Parcourir les protéines dans la boîte à outils ou les ligands ajoutés avec Tab."
+    },
+    "a11y.keyboardHelp.transportProteinsAndLigands.grabOrReleaseDescription": {
+      "value": "Saisir ou relâcher avec Espace ou Entrée."
+    },
+    "a11y.keyboardHelp.transportProteinsAndLigands.moveGrabbedItemDescription": {
+      "value": "Déplacer la protéine ou le ligand saisi entre les emplacements de dépôt disponibles avec les flèches gauche/droite ou A et D."
+    },
+    "a11y.keyboardHelp.transportProteinsAndLigands.cancelGrabDescription": {
+      "value": "Annuler la saisie ou le déplacement avec Échap."
+    },
+    "a11y.keyboardHelp.sortOrDeleteProteins.navigateProteinsDescription": {
+      "value": "Parcourir les protéines dans la membrane avec les flèches gauche/droite ou A et D."
+    },
+    "a11y.keyboardHelp.sortOrDeleteProteins.grabProteinDescription": {
+      "value": "Saisir une protéine dans la membrane avec Espace ou Entrée."
+    },
+    "a11y.keyboardHelp.sortOrDeleteProteins.moveGrabbedProteinDescription": {
+      "value": "Déplacer la protéine saisie entre les fentes avec les flèches gauche/droite ou A et D."
+    },
+    "a11y.keyboardHelp.sortOrDeleteProteins.releaseProteinDescription": {
+      "value": "Relâcher la protéine saisie dans une fente vide ou permuter avec Espace ou Entrée."
+    },
+    "a11y.keyboardHelp.sortOrDeleteProteins.deleteProteinDescription": {
+      "value": "Supprimer la protéine saisie avec Retour arrière ou Supprimer."
+    },
+    "a11y.membraneTransportDescriber.particleCrossing": {
+      "value": "{ a11y_solutes_briefName } franchit { $direction ->\n  [inward] vers l’intérieur\n *[outward] vers l’extérieur\n}"
+    },
+    "a11y.membraneTransportDescriber.hints.ligandGatedChannelWithoutLigands": {
+      "value": "Protéine ligand‑dépendante fermée. Chercher des ligands"
+    },
+    "a11y.membraneTransportDescriber.hints.voltageGatedChannelAtRestingPotential": {
+      "value": "Protéine voltage‑dépendante fermée. Vérifier le potentiel de membrane"
+    },
+    "a11y.membraneTransportDescriber.hints.pumpAwaitingPhosphateWithoutATP": {
+      "value": "La pompe a besoin d’une source de phosphate"
+    },
+    "a11y.membraneTransportDescriber.hints.sodiumGlucoseCotransporterWithLowOutsideSodium": {
+      "value": "Le cotransporteur ne lie pas le sodium. Sodium extérieur trop faible"
+    },
+    "a11y.membraneTransportDescriber.commaSeparator": {
+      "value": ", "
+    },
+    "a11y.membraneTransportDescriber.andSeparator": {
+      "value": " et "
+    },
+    "a11y.membraneTransportDescriber.sentencePattern": {
+      "value": "{ $content }."
+    },
+    "a11y.membraneTransportDescriber.crossingSteadilyInBothDirections": {
+      "value": "{ a11y_solutes_briefName } franchit régulièrement dans les deux sens, chaque côté à peu près égal"
+    },
+    "a11y.membraneTransportDescriber.crossingChannelsWithDirection": {
+      "value": "{ a11y_solutes_briefName } franchit les canaux, { a11y_solutes_averageCrossingDirection }"
+    },
+    "a11y.membraneTransportDescriber.crossingMembraneWithDirection": {
+      "value": "{ a11y_solutes_briefName } franchit la membrane, { a11y_solutes_averageCrossingDirection }"
+    },
+    "a11y.membraneTransportDescriber.multipleSolutesCrossing": {
+      "value": "{ $soluteNames }, franchissent"
+    },
+    "a11y.membraneTransportDescriber.soluteComparisonWithName": {
+      "value": "{ a11y_solutes_briefName }, { a11y_solutes_amountComparison }"
+    },
+    "a11y.membraneTransportDescriber.sodiumPumpedOutside": {
+      "value": "sodium pompé vers l’extérieur"
+    },
+    "a11y.membraneTransportDescriber.potassiumPumpedInside": {
+      "value": "potassium pompé vers l’intérieur"
+    },
+    "a11y.membraneTransportDescriber.sodiumPumpedOutsideAndPotassiumPumpedInside": {
+      "value": "sodium pompé vers l’extérieur et potassium pompé vers l’intérieur"
+    },
+    "a11y.membraneTransportDescriber.sodiumAndGlucoseShuttledInside": {
+      "value": "sodium et glucose navettés vers l’intérieur"
+    },
+    "a11y.preferencesDialog.simulation.animateLipids.accessibleContextResponseLeftValue": {
+      "value": "Animation des lipides désactivée."
+    },
+    "a11y.preferencesDialog.simulation.animateLipids.accessibleContextResponseRightValue": {
+      "value": "Animation des lipides activée."
+    },
+    "a11y.preferencesDialog.simulation.glucoseMetabolism.accessibleContextResponseLeftValue": {
+      "value": "Métabolisme du glucose désactivé."
+    },
+    "a11y.preferencesDialog.simulation.glucoseMetabolism.accessibleContextResponseRightValue": {
+      "value": "Métabolisme du glucose activé."
+    },
+    "a11y.preferencesDialog.audio.sounds.stereoCrossingSounds.accessibleContextResponseLeftValue": {
+      "value": "Sons stéréo de franchissement désactivés."
+    },
+    "a11y.preferencesDialog.audio.sounds.stereoCrossingSounds.accessibleContextResponseRightValue": {
+      "value": "Sons stéréo de franchissement activés."
     }
   },
   "en": {
@@ -1148,6 +1864,12 @@
           "value": "{ a11y_ligandNode_grabbedResponse } Space to release. Add transport proteins."
         }
       },
+      "sortable": {
+        "value": "sortable"
+      },
+      "navigable": {
+        "value": "navigable"
+      },
       "membranePotentialValue": {
         "value": "{ $membranePotential ->\n  [-70] negative 70\n  [-50] negative 50\n  *[30] positive 30\n} millivolts"
       },
@@ -1273,6 +1995,11 @@
         },
         "removedAccessibleContextResponse": {
           "value": "Ligands removed."
+        }
+      },
+      "observationWindow": {
+        "accessibleHeading": {
+          "value": "Observation Window"
         }
       },
       "cellMembrane": {
@@ -1467,10 +2194,10 @@
           }
         },
         "commaSeparator": {
-          "value": ", "
+          "value": ","
         },
         "andSeparator": {
-          "value": " and "
+          "value": "and"
         },
         "sentencePattern": {
           "value": "{ $content }."
