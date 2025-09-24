@@ -3347,11 +3347,29 @@
         "movedAccessibleResponse": {
           "value": "now in { $addend } counting area"
         },
+        "firstLeftItemPattern": {
+          "value": "First { $item } on left side"
+        },
         "leftItemPattern": {
-          "value": "Left { $item }"
+          "value": "{ $item } on left side"
+        },
+        "lastLeftItemPattern": {
+          "value": "Last { $item } on left side"
+        },
+        "onlyLeftItemPattern": {
+          "value": "Only { $item } on left side"
+        },
+        "firstRightItemPattern": {
+          "value": "First { $item } on right side"
         },
         "rightItemPattern": {
-          "value": "Right { $item }"
+          "value": "{ $item } on right side"
+        },
+        "lastRightItemPattern": {
+          "value": "Last { $item } on right side"
+        },
+        "onlyRightItemPattern": {
+          "value": "Only { $item } on right side"
         }
       },
       "countingArea": {
@@ -3421,14 +3439,6 @@
         },
         "singularAccessibleName": {
           "value": "One"
-        }
-      },
-      "locationCountingObjects": {
-        "accessibleName": {
-          "value": "Location Counting Objects"
-        },
-        "accessibleHelpText": {
-          "value": "Left and right counting areas with grabbable and movable objects."
         }
       },
       "kittens": {
