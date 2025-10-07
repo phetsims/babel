@@ -9057,7 +9057,30 @@
       "value": "Choose Your Level!"
     },
     "a11y": {
+      "scoreDisplays": {
+        "scoreDisplayStars": {
+          "accessibleScore": {
+            "value": "{ $stars ->\n  [one] { $stars } star\n  *[other] { $stars } stars\n }"
+          }
+        },
+        "scoreDisplayLabelledStars": {
+          "accessibleScore": {
+            "value": "Score: { $stars ->\n  [one] { $stars } star\n  *[other] { $stars } stars\n }"
+          }
+        },
+        "scoreDisplayNumberAndStar": {
+          "accessibleScore": {
+            "value": "{ $stars ->\n  [one] { $stars } star\n  *[other] { $stars } stars\n }"
+          }
+        }
+      },
       "statusBar": {
+        "accessibleHeading": {
+          "value": "Level Progress"
+        },
+        "accessibleHeadingWithLevelNumber": {
+          "value": "Level { $levelNumber } Progress"
+        },
         "backButton": {
           "accessibleName": {
             "value": "Back"
@@ -9067,6 +9090,14 @@
           },
           "accessibleContextResponse": {
             "value": "You are on the level selection screen."
+          }
+        },
+        "startOver": {
+          "accessibleHelpText": {
+            "value": "Erase game progress and begin again."
+          },
+          "accessibleContextResponse": {
+            "value": "Choose your level!"
           }
         }
       },
@@ -9084,6 +9115,13 @@
         },
         "accessibleContextResponseOff": {
           "value": "Play game without Timer."
+        }
+      },
+      "levelCompletedNode": {
+        "continueButton": {
+          "accessibleHelpText": {
+            "value": "Return to level selection screen and keep playing."
+          }
         }
       },
       "gameInfoButton": {
