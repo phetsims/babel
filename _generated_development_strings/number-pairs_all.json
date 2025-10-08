@@ -3333,16 +3333,16 @@
       },
       "grabOrReleaseInteraction": {
         "releasedHelpText": {
-          "value": "Press Space to grab or release."
+          "value": "Use arrows to navigate and choose which { $item } to move. Space or enter to grab."
         },
         "grabbedHelpTextPattern": {
-          "value": "Move { $item } in or between left and right counting areas"
+          "value": "Move { $item } in or between left and right counting areas."
         },
         "grabbedAccessibleResponse": {
-          "value": "grabbed, in { $addend } counting area."
+          "value": "Grabbed, in { $addend } counting area."
         },
         "releasedAccessibleResponse": {
-          "value": "released, in { $addend } counting area."
+          "value": "Released, in { $addend } counting area."
         },
         "movedAccessibleResponse": {
           "value": "now in { $addend } counting area"
@@ -3503,6 +3503,11 @@
         "accessibleHeading": {
           "value": "Counting Area Controls"
         },
+        "phrase": {
+          "accessibleHelpText": {
+            "value": "Phrase tells how total is decomposed."
+          }
+        },
         "speechSynthesis": {
           "accessibleName": {
             "value": "Hear Phrase"
@@ -3514,7 +3519,7 @@
             "value": "There is no voice found on this device for the selected language. Your device may support downloading additional voices for this language."
           },
           "accessibleHelpText": {
-            "value": "Hear decomposition phrase aloud."
+            "value": "Read decomposition phrase aloud."
           }
         },
         "localeSwitch": {
@@ -3533,10 +3538,10 @@
             "value": "Represent decomposition as a { $representation }."
           },
           "numberBondAccessibleParagraph": {
-            "value": "{ $total } in top total circle. { $leftAddend } and { $rightAddend } in bottom addend circles."
+            "value": "Number bond has three circles arranged with one circle on top and two underneath like a triangle. Top circle tells total number of objects, left circle is left addend, right circle is right addend. Right now, { $total } in top circle. { $left } in left circle, { $right } in right circle."
           },
           "barModelAccessibleParagraph": {
-            "value": "{ $total } in top total rectangle. { $leftAddend } and { $rightAddend } in bottom addends rectangle, split into { $size } sections."
+            "value": "Two matching rectangles are stacked on top of each other. Top rectangle is not split and tells total number of objects, bottom rectangle is split into two sections that adjust based on size of addends. Right now, { $total } in top rectangle. { $left } and { $right } in bottom rectangle, split into { $proportion } sections."
           },
           "largerAndSmaller": {
             "value": "larger and smaller"
@@ -3564,7 +3569,7 @@
             "value": "Swap Addends"
           },
           "accessibleHelpTextPattern": {
-            "value": "Switch { $items } from left counting are to right and right counting area to left."
+            "value": "Switch { $items } from left counting area to right and right counting area to left."
           },
           "accessibleContextResponse": {
             "value": "{ $leftAddend } on left, { $rightAddend } on right, { $total } total."
