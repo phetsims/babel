@@ -9156,15 +9156,15 @@
         }
       },
       "levelSelectionScreenNode": {
+        "accessibleContextResponseShow": {
+          "value": "Choose Your Level!"
+        },
         "screenSummary": {
-          "useResetDescription": {
-            "value": "Use reset all to clear the game and start over."
-          },
           "intro": {
-            "value": "Welcome to the { $screenName } Screen. { a11y_levelSelectionScreenNode_screenSummary_useResetDescription }"
+            "value": "Welcome to the { $screenName } Screen. Choose a level to start earning stars. Use reset all to clear game and start over."
           },
-          "introWithSummary": {
-            "value": "Welcome to the { $screenName } Screen. { $summary } { a11y_levelSelectionScreenNode_screenSummary_useResetDescription }"
+          "introWithOptions": {
+            "value": "Welcome to the { $screenName } Screen. Choose a level to start earning stars. Set available game options to your liking. Use reset all to clear game and start over."
           }
         }
       }
