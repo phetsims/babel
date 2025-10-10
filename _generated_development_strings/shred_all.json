@@ -34747,12 +34747,13 @@
           "value": "Particle Counts in Atom"
         }
       },
-      "particles": {
-        "accessibleHelpText": {
-          "value": "Grab {{particle}}. Once grabbed use arrow keys to change location or delete to return to bucket."
-        }
+      "grabbed": {
+        "value": "Grabbed."
       },
-      "buckets": {
+      "released": {
+        "value": "Released."
+      },
+      "particles": {
         "proton": {
           "value": "Proton"
         },
@@ -34763,22 +34764,13 @@
           "value": "Electron"
         },
         "accessibleName": {
-          "value": "{{particle}} Bucket"
-        },
-        "emptyName": {
-          "value": "Empty {{particle}} Bucket"
+          "value": "{{particle}}, in {{location}}"
         },
         "accessibleHelpText": {
-          "value": "Grab {{particle}}. Once grabbed, use arrow keys to move to specific location."
+          "value": "Grab {{particle}}. Once grabbed use arrow keys to change location or delete to return to bucket."
         },
         "accessibleHeading": {
           "value": "Particles"
-        },
-        "grabbed": {
-          "value": "Grabbed."
-        },
-        "released": {
-          "value": "Released."
         },
         "overNucleus": {
           "value": "Over nucleus."
@@ -34815,6 +34807,14 @@
         },
         "bucketEmpty": {
           "value": "Bucket empty."
+        }
+      },
+      "buckets": {
+        "accessibleName": {
+          "value": "{{particle}} Bucket"
+        },
+        "emptyName": {
+          "value": "Empty {{particle}} Bucket"
         }
       }
     }
