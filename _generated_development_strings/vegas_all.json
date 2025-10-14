@@ -9118,6 +9118,17 @@
         }
       },
       "levelCompletedNode": {
+        "timeItem": {
+          "time": {
+            "value": "Time: { $time }"
+          },
+          "timeWithBest": {
+            "value": "Time: { $time }. Your Best: { $bestTime }"
+          },
+          "timeWithNewBest": {
+            "value": "Time: { $time }. Your New Best!"
+          }
+        },
         "continueButton": {
           "accessibleHelpText": {
             "value": "Return to level selection screen and keep playing."
@@ -9140,7 +9151,7 @@
           "value": "Answer displayed. Review and move on."
         }
       },
-      "gameScreenNode": {
+      "challengeScreenNode": {
         "accessibleHeadingChallenge": {
           "value": "Challenge"
         },
