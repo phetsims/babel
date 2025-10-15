@@ -3657,8 +3657,14 @@
           "controlArea": {
             "value": "Choose equation determining how the three vectors interrelate. Select coefficients for scaling vectors {{symbol1}} and {{symbol2}}. Turn on vector {{symbol3}}, values, angles, and grid, and components. Set components of base vectors, and choose to add them to graph area. Modify position of graph area origin. Switch between Cartesian and polar scenes, or reset entire screen."
           },
-          "currentDetails": {
-            "value": "TODO.equationsScreen.screenSummary.currentDetails"
+          "currentDetailsAddition": {
+            "value": "Currently, equation is {{coefficient1}} times base vector {{symbol1}} plus {{coefficient2}} times base vector {{symbol2}} equals vector {{symbol3}}."
+          },
+          "currentDetailsSubtraction": {
+            "value": "Currently, equation is {{coefficient1}} times base vector {{symbol1}} minus {{coefficient2}} times base vector {{symbol2}} equals vector {{symbol3}}."
+          },
+          "currentDetailsNegation": {
+            "value": "Currently, equation is {{coefficient1}} times base vector {{symbol1}} plus {{coefficient2}} times base vector {{symbol2}} plus vector {{symbol3}} equals zero."
           },
           "interactionHint": {
             "value": "Modify the equation type and its coefficients to explore how changes in the equation affect vectors in graph area."
@@ -3906,7 +3912,7 @@
       },
       "equationsVectorNode": {
         "accessibleName": {
-          "value": "Vector {{symbol}}"
+          "value": "{{coefficient}} times base vector {{symbol}}"
         },
         "accessibleHelpText": {
           "value": "Move to change position of vector. Value is tail to tip coordinates."
