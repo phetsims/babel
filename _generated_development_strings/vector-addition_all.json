@@ -3652,16 +3652,16 @@
         },
         "screenSummary": {
           "playArea": {
-            "value": "TODO.equationsScreen.screenSummary.playArea"
+            "value": "There is an open graph area showing the vectors from the selected equation. Modify the position, magnitude, direction, and scaling of these vectors, and explore how changes to the equation and coefficients affect the vectors in the graph area."
           },
           "controlArea": {
-            "value": "TODO.equationsScreen.screenSummary.controlArea"
+            "value": "Choose equation determining how the three vectors interrelate. Select coefficients for scaling vectors {{symbol1}} and {{symbol2}}. Turn on vector {{symbol3}}, values, angles, and grid, and components. Set components of base vectors, and choose to add them to graph area. Modify position of graph area origin. Switch between Cartesian and polar scenes, or reset entire screen."
           },
           "currentDetails": {
             "value": "TODO.equationsScreen.screenSummary.currentDetails"
           },
           "interactionHint": {
-            "value": "TODO.equationsScreen.screenSummary.interactionHint"
+            "value": "Modify the equation type and its coefficients to explore how changes in the equation affect vectors in graph area."
           }
         }
       },
@@ -3855,6 +3855,9 @@
       },
       "unsignedRadioButton": {
         "value": "unsigned, 0 to 360 degrees"
+      },
+      "indexedVectorPattern": {
+        "value": "{{symbol}} sub {{index}}"
       }
     }
   }
