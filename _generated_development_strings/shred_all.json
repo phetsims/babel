@@ -34734,13 +34734,13 @@
       "particleCounts": {
         "accessibleListNode": {
           "protons": {
-            "value": "{{value}} Protons"
+            "value": "{ $count ->\n  [one] { $count } Protonnnn\n  [two] { $count } Protonsayn\n *[other] { $count } Protons\n}"
           },
           "neutrons": {
-            "value": "{{value}} Neutrons"
+            "value": "{ $count ->\n  [one] { $count } Neutron\n *[other] { $count } Neutrons\n}"
           },
           "electrons": {
-            "value": "{{value}} Electrons"
+            "value": "{ $count ->\n  [one] { $count } Electron\n *[other] { $count } Electrons\n}"
           }
         },
         "accessibleHeading": {
