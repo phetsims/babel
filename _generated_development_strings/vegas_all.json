@@ -9086,18 +9086,12 @@
             "value": "Back"
           },
           "accessibleHelpText": {
-            "value": "Go back to the level selection screen."
-          },
-          "accessibleContextResponse": {
-            "value": "You are on the level selection screen."
+            "value": "Go back to choose a new level."
           }
         },
         "startOver": {
           "accessibleHelpText": {
-            "value": "Erase game progress and begin again."
-          },
-          "accessibleContextResponse": {
-            "value": "Choose your level!"
+            "value": "Erase progress and choose a new level."
           }
         }
       },
@@ -9131,7 +9125,7 @@
         },
         "continueButton": {
           "accessibleHelpText": {
-            "value": "Return to level selection screen and keep playing."
+            "value": "Choose a new level and keep playing."
           }
         }
       },
@@ -9165,6 +9159,27 @@
       "rewardScreenNode": {
         "accessibleHeading": {
           "value": "Level { $levelNumber } Summary"
+        }
+      },
+      "rewardDialog": {
+        "accessibleName": {
+          "value": "Level { $levelNumber } Summary"
+        },
+        "accessibleContextResponseShown": {
+          "value": "Level { $levelNumber } complete with { $stars }."
+        },
+        "accessibleContextResponseHidden": {
+          "value": "Continue playing level { $levelNumber }."
+        },
+        "phetGirl": {
+          "accessibleParagraph": {
+            "value": "PhET Girl juggles a few of your { $stars }."
+          }
+        },
+        "newLevelButton": {
+          "accessibleParagraph": {
+            "value": "Choose a New Level or Keep Going with Level { $level }."
+          }
         }
       },
       "units": {
