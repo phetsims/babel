@@ -3652,10 +3652,10 @@
         },
         "screenSummary": {
           "playArea": {
-            "value": "There is an open graph area showing the vectors from the selected equation. Modify the position, magnitude, direction, and scaling of these vectors, and explore how changes to the equation and coefficients affect the vectors in the graph area."
+            "value": "There is an open graph area showing vectors from the selected equation. Modify position, magnitude, direction, and scaling of these vectors, and explore how changes to the equation and coefficients affect vectors in graph area."
           },
           "controlArea": {
-            "value": "Choose equation determining how the three vectors interrelate. Select coefficients for scaling vectors {{symbol1}} and {{symbol2}}. Turn on vector {{symbol3}}, values, angles, and grid, and components. Set components of base vectors, and choose to add them to graph area. Modify position of graph area origin. Switch between Cartesian and polar scenes, or reset entire screen."
+            "value": "Choose equation determining how three vectors interrelate. Select coefficients for scaling vectors {{symbol1}} and {{symbol2}}. Turn on vector {{symbol3}}, values, angles, and grid, and components. Set components of base vectors, and choose to add them to graph area. Modify position of graph area origin. Switch between Cartesian and polar scenes, or reset entire screen."
           },
           "currentDetailsAddition": {
             "value": "Currently, equation is {{coefficient1}} times base vector {{symbol1}} plus {{coefficient2}} times base vector {{symbol2}} equals vector {{symbol3}}."
@@ -3667,7 +3667,7 @@
             "value": "Currently, equation is {{coefficient1}} times base vector {{symbol1}} plus {{coefficient2}} times base vector {{symbol2}} plus vector {{symbol3}} equals zero."
           },
           "interactionHint": {
-            "value": "Modify the equation type and its coefficients to explore how changes in the equation affect vectors in graph area."
+            "value": "Modify equation type and its coefficients to explore how changes in the equation affect vectors in graph area."
           }
         }
       },
@@ -3837,7 +3837,7 @@
           "value": "Move to relocate graph area origin, which changes graph area bounds. Value is x,y limits of graph area, from bottom left to top right."
         },
         "accessibleObjectResponse": {
-          "value": "From {{minX}},{{minY}} to {{maxX}},{{maxY}}."
+          "value": "from {{minX}} {{minY}} to {{maxX}} {{maxY}}."
         }
       },
       "eraserButton": {
@@ -3850,7 +3850,7 @@
       },
       "vectorValuesAccordionBox": {
         "accessibleParagraph": {
-          "value": "For vector {{symbol}}, magnitude is {{magnitude}}, direction is {{direction}} degrees from positive x-axis, x-component is {{xComponent}}, y-component is {{yComponent}}."
+          "value": "For vector {{symbol}}: magnitude is {{magnitude}}; direction is {{direction}} degrees from positive x-axis; x-component is {{xComponent}}; y-component is {{yComponent}}."
         }
       },
       "symbolWithSubscriptDescription": {
@@ -3906,8 +3906,11 @@
         }
       },
       "vectorNode": {
-        "accessibleObjectResponse": {
-          "value": "{{tailX}} {{tailY}} to {{tipX}} {{tipY}}"
+        "accessibleObjectResponseTail": {
+          "value": "{{tailX}} {{tailY}}"
+        },
+        "accessibleObjectResponseTip": {
+          "value": "{{tipX}} {{tipY}}"
         }
       },
       "equationsVectorNode": {
@@ -3916,6 +3919,9 @@
         },
         "accessibleHelpText": {
           "value": "Move to change position of vector. Value is tail to tip coordinates."
+        },
+        "accessibleObjectResponse": {
+          "value": "{{tailX}} {{tailY}} to {{tipX}} {{tipY}}"
         }
       },
       "baseVectorNode": {
