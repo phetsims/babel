@@ -34734,7 +34734,7 @@
       "particleCounts": {
         "accessibleListNode": {
           "protons": {
-            "value": "{ $count ->\n  [one] { $count } Protonnnn\n  [two] { $count } Protonsayn\n *[other] { $count } Protons\n}"
+            "value": "{ $count ->\n  [one] { $count } Proton\n *[other] { $count } Protons\n}"
           },
           "neutrons": {
             "value": "{ $count ->\n  [one] { $count } Neutron\n *[other] { $count } Neutrons\n}"
