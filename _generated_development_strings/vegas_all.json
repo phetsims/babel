@@ -9099,8 +9099,14 @@
         "accessibleName": {
           "value": "Check Answer"
         },
-        "accessibleHelpText": {
-          "value": "Read challenge details carefully."
+        "accessibleContextResponseCorrectStars": {
+          "value": "Great! You earned { $stars ->\n[one] { $stars } star\n*[other] { $stars } stars\n}."
+        },
+        "accessibleContextResponseCorrectPoints": {
+          "value": "Great! You earned { $points ->\n[one] { $points } point\n*[other] { $points } points\n}."
+        },
+        "accessibleContextResponseIncorrect": {
+          "value": "Oops! Let’s review."
         }
       },
       "gameTimerToggleButton": {
@@ -9127,6 +9133,9 @@
           "accessibleHelpText": {
             "value": "Choose a new level and keep playing."
           }
+        },
+        "accessibleContextResponse": {
+          "value": "Level { $levelNumber } complete. { $stars }, { $progressMessage }"
         }
       },
       "gameInfoButton": {
@@ -9171,6 +9180,11 @@
         "accessibleContextResponseHidden": {
           "value": "Continue playing level { $levelNumber }."
         },
+        "keepGoingButton": {
+          "accessibleContextResponse": {
+            "value": "Continue playing Level { $levelNumber }."
+          }
+        },
         "phetGirl": {
           "accessibleParagraph": {
             "value": "PhET Girl juggles a few of your { $stars }."
@@ -9178,7 +9192,7 @@
         },
         "newLevelButton": {
           "accessibleParagraph": {
-            "value": "Choose a New Level or Keep Going with Level { $level }."
+            "value": "Choose a New Level or Keep Going with Level { $levelNumber }."
           }
         }
       },
@@ -9186,6 +9200,11 @@
         "stars": {
           "pattern": {
             "value": "{ $value ->\n  [one] { $value } star\n  *[other] { $value } stars\n}"
+          }
+        },
+        "points": {
+          "pattern": {
+            "value": "{ $value ->\n  [one] { $value } point\n  *[other] { $value } points\n}"
           }
         }
       },
