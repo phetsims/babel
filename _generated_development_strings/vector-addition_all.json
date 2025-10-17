@@ -3741,7 +3741,7 @@
           "value": "Components Display Style"
         },
         "accessibleHelpText": {
-          "value": "Choose whether and where to display vector x,y components."
+          "value": "Choose whether and where to display vector x y components."
         }
       },
       "invisibleRadioButton": {
@@ -3761,7 +3761,7 @@
       },
       "projectionRadioButton": {
         "accessibleName": {
-          "value": "Projected onto x,y axes"
+          "value": "Projected onto x y axes"
         }
       },
       "cartesianPolarSceneRadioButtonGroup": {
@@ -3777,7 +3777,7 @@
           "value": "Cartesian scene"
         },
         "accessibleHelpText": {
-          "value": "Vectors snap to (x,y)."
+          "value": "Vectors snap to x y."
         }
       },
       "polarRadioButton": {
@@ -3785,7 +3785,7 @@
           "value": "Polar scene"
         },
         "accessibleHelpText": {
-          "value": "Vectors snap to (r,θ)."
+          "value": "Vectors snap to r θ."
         }
       },
       "horizontalVerticalSceneRadioButtonGroup": {
@@ -3842,10 +3842,10 @@
           "value": "Graph Area Origin"
         },
         "accessibleHelpText": {
-          "value": "Move to relocate graph area origin, which changes graph area bounds. Value is x,y limits of graph area, from bottom left to top right."
+          "value": "Move to relocate graph area origin, which changes graph area bounds. Value is x y limits of graph area, from bottom left to top right."
         },
         "accessibleObjectResponse": {
-          "value": "from {{minX}} {{minY}} to {{maxX}} {{maxY}}."
+          "value": "from {{minX}} {{minY}} to {{maxX}} {{maxY}}"
         }
       },
       "eraserButton": {
@@ -3858,7 +3858,7 @@
       },
       "vectorValuesAccordionBox": {
         "accessibleParagraph": {
-          "value": "For vector {{symbol}}: magnitude is {{magnitude}}; direction is {{direction}} degrees from positive x-axis; x-component is {{xComponent}}; y-component is {{yComponent}}."
+          "value": "For vector {{symbol}}: magnitude is {{magnitude}}; direction is {{direction}} degrees from positive x axis; x component is {{xComponent}}; y component is {{yComponent}}."
         }
       },
       "symbolWithSubscriptDescription": {
@@ -3875,18 +3875,18 @@
       },
       "baseVectorXComponentPicker": {
         "accessibleName": {
-          "value": "Base vector {{symbol}}, x-component"
+          "value": "Base vector {{symbol}}, x component"
         },
         "accessibleHelpText": {
-          "value": "Choose the horizontal component of base vector {{symbol}}."
+          "value": "Choose horizontal component of base vector {{symbol}}."
         }
       },
       "baseVectorYComponentPicker": {
         "accessibleName": {
-          "value": "Base vector {{symbol}}, y-component"
+          "value": "Base vector {{symbol}}, y component"
         },
         "accessibleHelpText": {
-          "value": "Choose the vertical component of base vector {{symbol}}."
+          "value": "Choose vertical component of base vector {{symbol}}."
         }
       },
       "baseVectorMagnitudePicker": {
@@ -3894,15 +3894,15 @@
           "value": "Base vector {{symbol}}, magnitude"
         },
         "accessibleHelpText": {
-          "value": "Choose the magnitude of base vector {{symbol}}."
+          "value": "Choose magnitude of base vector {{symbol}}."
         }
       },
       "baseVectorAnglePicker": {
         "accessibleName": {
-          "value": "Base vector {{symbol}}, angle"
+          "value": "Base vector {{symbol}}, direction"
         },
         "accessibleHelpText": {
-          "value": "Choose the angle of base vector {{symbol}}."
+          "value": "Choose direction of base vector {{symbol}}, in degrees from positive x axis."
         }
       },
       "coefficientPicker": {
@@ -3937,10 +3937,10 @@
       },
       "vectorNode": {
         "accessibleObjectResponseTail": {
-          "value": "{{tailX}} {{tailY}}"
+          "value": "tail at {{tailX}} {{tailY}}"
         },
         "accessibleObjectResponseTip": {
-          "value": "{{tipX}} {{tipY}}"
+          "value": "tip at {{tipX}} {{tipY}}"
         }
       },
       "equationsVectorNode": {
@@ -3951,7 +3951,7 @@
           "value": "Move to change position of vector. Value is tail to tip coordinates."
         },
         "accessibleObjectResponse": {
-          "value": "{{tailX}} {{tailY}} to {{tipX}} {{tipY}}"
+          "value": "tail at {{tailX}} {{tailY}}, tip at {{tipX}} {{tipY}}"
         }
       },
       "baseVectorNode": {
