@@ -3936,30 +3936,31 @@
         }
       },
       "vectorNode": {
-        "accessibleObjectResponseTail": {
-          "value": "tail at {{tailX}} {{tailY}}"
+        "body": {
+          "accessibleHelpText": {
+            "value": "Move to change position of vector. Value is tail to tip coordinates."
+          },
+          "accessibleObjectResponse": {
+            "value": "tail at {{tailX}} {{tailY}}, tip at {{tipX}} {{tipY}}"
+          }
         },
-        "accessibleObjectResponseTip": {
-          "value": "tip at {{tipX}} {{tipY}}"
+        "tip": {
+          "accessibleHelpText": {
+            "value": "Move to change position of vector tip. Value is tip coordinates."
+          },
+          "accessibleObjectResponse": {
+            "value": "tip at {{tipX}} {{tipY}}"
+          }
         }
       },
       "equationsVectorNode": {
         "accessibleName": {
           "value": "{{coefficient}} times base vector {{symbol}}"
-        },
-        "accessibleHelpText": {
-          "value": "Move to change position of vector. Value is tail to tip coordinates."
-        },
-        "accessibleObjectResponse": {
-          "value": "tail at {{tailX}} {{tailY}}, tip at {{tipX}} {{tipY}}"
         }
       },
       "baseVectorNode": {
         "accessibleName": {
           "value": "Base Vector {{symbol}}"
-        },
-        "accessibleHelpText": {
-          "value": "Move to change position of vector. Value is tail to tip coordinates."
         }
       }
     }
