@@ -3867,7 +3867,7 @@
           "value": "For vector {{coefficient}} {{symbol}}: magnitude is {{magnitude}}; direction is {{direction}} degrees from positive x axis; x component is {{xComponent}}; y component is {{yComponent}}."
         }
       },
-      "symbolWithSubscriptDescription": {
+      "symbolSubSubscript": {
         "value": "{{symbol}} sub {{subscript}}"
       },
       "signedRadioButton": {
@@ -3875,9 +3875,6 @@
       },
       "unsignedRadioButton": {
         "value": "unsigned, 0 to 360 degrees"
-      },
-      "indexedVectorPattern": {
-        "value": "{{symbol}} sub {{index}}"
       },
       "baseVectorXComponentPicker": {
         "accessibleName": {
@@ -3935,7 +3932,7 @@
           "value": "Vector Set {{symbol}}"
         },
         "accessibleHelpText": {
-          "value": "Add vector from set {{symbol}} to graph area."
+          "value": "Add vectors from set {{symbol}} to graph area."
         },
         "accessibleObjectResponse": {
           "value": "vector {{symbol}} added to graph area"
@@ -3947,7 +3944,7 @@
             "value": "Vector {{symbol}}"
           },
           "accessibleHelpText": {
-            "value": "Move to change position of vector. Value is tail to tip coordinates."
+            "value": "Move to change position of vector."
           },
           "accessibleObjectResponse": {
             "value": "tail at {{tailX}} {{tailY}}, tip at {{tipX}} {{tipY}}"
@@ -3958,7 +3955,7 @@
             "value": "Vector {{symbol}} tip"
           },
           "accessibleHelpText": {
-            "value": "Move to change position of vector tip. Value is tip coordinates."
+            "value": "Move to change position of vector tip."
           },
           "accessibleObjectResponse": {
             "value": "tip at {{tipX}} {{tipY}}"
