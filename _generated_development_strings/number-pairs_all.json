@@ -3664,6 +3664,17 @@
           }
         }
       },
+      "gameScreen": {
+        "correctAnswer": {
+          "value": "{ $guess } is correct."
+        },
+        "incorrectAnswer": {
+          "value": "{ $guess } is incorrect."
+        },
+        "correctAnswerOnFirstTry": {
+          "value": "{ $guess } is correct. Stars increased to { $score }."
+        }
+      },
       "preferences": {
         "sumScreenModelOrientation": {
           "totalOnTop": {
