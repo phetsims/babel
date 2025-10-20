@@ -3698,14 +3698,24 @@
         }
       },
       "gameScreen": {
-        "correctAnswer": {
-          "value": "{ $guess } is correct."
+        "responses": {
+          "correctAnswer": {
+            "value": "{ $guess } is correct."
+          },
+          "incorrectAnswer": {
+            "value": "{ $guess } is incorrect."
+          },
+          "correctAnswerOnFirstTry": {
+            "value": "{ $guess } is correct. Stars increased to { $score }."
+          }
         },
-        "incorrectAnswer": {
-          "value": "{ $guess } is incorrect."
-        },
-        "correctAnswerOnFirstTry": {
-          "value": "{ $guess } is correct. Stars increased to { $score }."
+        "resetChallengeButton": {
+          "accessibleName": {
+            "value": "Reset Challenge"
+          },
+          "accessibleHelpText": {
+            "value": "Reset the current challenge to try again."
+          }
         }
       },
       "preferences": {
