@@ -3352,26 +3352,57 @@
       }
     },
     "a11y": {
-      "screenSummary": {
-        "playArea": {
-          "value": "There are left and right counting areas with fun objects. You can organize objects inside a counting area or move them between counting areas to break a total apart in different ways. A decomposition phrase and a  { $numberBarOrBarModel} represent the total number broken apart into two addends. Additionally, change total number of objects, automatically organize objects, or swap addends."
-        },
-        "controlArea": {
-          "value": "Reset the sim to start over."
-        },
-        "currentDetails": {
-          "objectsPattern": {
-            "value": "{ $count ->\n  [one] Currently, { $count } object is in the counting areas.\n *[other] Currently, { $count } objects are in the counting areas.\n}"
+      "introScreen": {
+        "screenSummary": {
+          "playArea": {
+            "value": "There are left and right counting areas with fun objects. You can organize objects inside a counting area or move them between counting areas to break a total apart in different ways. A decomposition phrase and a  { $numberBarOrBarModel} represent the total number broken apart into two addends. Additionally, change total number of objects, automatically organize objects, or swap addends."
           },
-          "hiddenAreaPattern": {
-            "value": "Currently, the { $hiddenAddend } counting area is hidden."
+          "controlArea": {
+            "value": "Reset the sim to start over."
           },
-          "bothHidden": {
-            "value": "Currently, both counting areas are hidden."
+          "currentDetails": {
+            "objectsPattern": {
+              "value": "{ $count ->\n  [one] Currently, { $count } object is in the counting areas.\n *[other] Currently, { $count } objects are in the counting areas.\n}"
+            },
+            "hiddenAreaPattern": {
+              "value": "Currently, the { $hiddenAddend } counting area is hidden."
+            },
+            "bothHidden": {
+              "value": "Currently, both counting areas are hidden."
+            }
+          },
+          "interactionHint": {
+            "value": "Count or choose an object. Organize or move objects in counting area to play."
           }
-        },
-        "interactionHint": {
-          "value": "Count or choose an object. Organize or move objects in counting area to play."
+        }
+      },
+      "tenScreen": {
+        "screenSummary": {
+          "playArea": {
+            "value": "There are yellow and blue objects you can move, change color, or organize. Drag objects to  change how total is broken apart. A decomposition phrase, a { $numberBarOrBarModel}, and equation  represent how total is broken apart into two addends. Additionally, change total number of  objects, automatically organize objects, or swap addends."
+          },
+          "controlArea": {
+            "value": "{ a11y_introScreen_screenSummary_controlArea }"
+          },
+          "currentDetails": {
+            "countingAreaShown": {
+              "value": "Currently, counting area shows { $count } { $itemType } broken into one or two colors. A phrase, { $numberBarOrBarModel} and equation show how the total is broken apart."
+            },
+            "countingAreaHidden": {
+              "value": "Currently, the counting area is hidden. A phrase, { $numberBarOrBarModel } and equation show how the total is broken apart."
+            }
+          },
+          "interactionHint": {
+            "beads": {
+              "value": "Navigate to and grab bead to create groups, or move it across divider to change color."
+            },
+            "kittens": {
+              "value": "Choose kitten to move, organize, or change its color."
+            },
+            "numberLine": {
+              "value": "Navigate to addend splitter knob and move it to change how total is broken apart."
+            }
+          }
         }
       },
       "left": {
@@ -3605,10 +3636,16 @@
             "value": "Represent decomposition as a { $representation }."
           },
           "numberBondAccessibleParagraph": {
-            "value": "Number bond has three circles arranged with one circle on top and two underneath like a triangle. Top circle tells total number of objects, left circle is left addend, right circle is right addend. Right now, { $total } in top circle. { $left } in left circle, { $right } in right circle."
+            "value": "Number bond has three circles arranged with one circle on top and two underneath like a triangle. Top circle tells total number of objects, left circle is left addend, right circle is right addend."
+          },
+          "currentNumberBondStateAccessibleParagraph": {
+            "value": "Right now, { $total } in top circle. { $left } in left circle, { $right } in right circle."
           },
           "barModelAccessibleParagraph": {
-            "value": "Two matching rectangles are stacked on top of each other. Top rectangle is not split and tells total number of objects, bottom rectangle is split into two sections that adjust based on size of addends. Right now, { $total } in top rectangle. { $left } and { $right } in bottom rectangle, split into { $proportion } sections."
+            "value": "Two matching rectangles are stacked on top of each other. Top rectangle is not split and tells total number of objects, bottom rectangle is split into two sections that adjust based on size of addends."
+          },
+          "currentBarModelStateAccessibleParagraph": {
+            "value": "Right now, { $total } in top rectangle. { $left } and { $right } in bottom rectangle, split into { $proportion } sections."
           },
           "largerAndSmaller": {
             "value": "larger and smaller"
