@@ -3355,41 +3355,41 @@
       "introScreen": {
         "screenSummary": {
           "playArea": {
-            "value": "There are left and right counting areas with fun objects. You can organize objects inside a counting area or move them between counting areas to break a total apart in different ways. A decomposition phrase and a  { $numberBarOrBarModel} represent the total number broken apart into two addends. Additionally, change total number of objects, automatically organize objects, or swap addends."
+            "value": "There are left and right counting areas with fun objects. You can organize objects inside a counting area or move them between counting areas to break total apart in different ways. A decomposition phrase and a  { $numberBarOrBarModel} represent the total number broken apart into two addends. Additionally, choose any total from 0 to 10, automatically organize objects into rows, or swap addends."
           },
           "controlArea": {
             "value": "Reset the sim to start over."
           },
           "currentDetails": {
             "objectsPattern": {
-              "value": "{ $count ->\n  [one] Currently, { $count } object is in the counting areas.\n *[other] Currently, { $count } objects are in the counting areas.\n}"
+              "value": "{ $count ->\n  [one] Currently, { $count } object is in counting area.\n *[other] Currently, { $count } objects are in counting areas.\n}"
             },
             "hiddenAreaPattern": {
-              "value": "Currently, the { $hiddenAddend } counting area is hidden."
+              "value": "Currently, { $hiddenAddend } counting area is hidden."
             },
             "bothHidden": {
               "value": "Currently, both counting areas are hidden."
             }
           },
           "interactionHint": {
-            "value": "Count or choose an object. Organize or move objects in counting area to play."
+            "value": "Count or grab an object. Organize or move objects in counting area to play."
           }
         }
       },
       "tenScreen": {
         "screenSummary": {
           "playArea": {
-            "value": "There are yellow and blue objects you can move, change color, and organize. Drag objects to  change how total is broken apart. A decomposition phrase, a { $numberBarOrBarModel}, and equation  represent how total is broken apart into two addends. Additionally, change total number of  objects, automatically organize objects, or swap addends."
+            "value": "There are yellow and blue objects you can move to organize or change color to  change how total is broken apart. A decomposition phrase, a { $numberBarOrBarModel}, and equation  represent how total is broken apart into two addends. Additionally, choose any total from 0 to 10,  automatically organize objects, or swap addends."
           },
           "controlArea": {
             "value": "{ a11y_introScreen_screenSummary_controlArea }"
           },
           "currentDetails": {
             "countingAreaShown": {
-              "value": "Currently, counting area shows { $count } { $itemType } broken into one or two colors. A phrase, { $numberBarOrBarModel} and equation show how the total is broken apart."
+              "value": "Currently, counting area shows { $count } { $itemType } broken into colors. A phrase, { $numberBarOrBarModel} and equation show how total is broken apart."
             },
             "countingAreaHidden": {
-              "value": "Currently, the counting area is hidden. A phrase, { $numberBarOrBarModel } and equation show how the total is broken apart."
+              "value": "Currently, the counting area is hidden. A phrase, { $numberBarOrBarModel } and equation show how total is broken apart."
             }
           },
           "interactionHint": {
@@ -3556,10 +3556,12 @@
           "value": "Blue Kitten"
         },
         "accessibleHelpText": {
-          "value": "Change kitten color and move kittens around to play."
-        },
-        "withoutAttributeSwitchHelpText": {
-          "value": "Move kittens around to play."
+          "withAttributeSwitch": {
+            "value": "Change kitten color and move kittens around to play."
+          },
+          "withoutAttributeSwitch": {
+            "value": "Move kittens around to play."
+          }
         }
       },
       "beads": {
@@ -3740,7 +3742,7 @@
             "value": "{ $guess } is correct."
           },
           "incorrectAnswer": {
-            "value": "{ $guess } is incorrect."
+            "value": "{ $guess } is incorrect. Try a different number."
           },
           "correctAnswerOnFirstTry": {
             "value": "{ $guess } is correct. Stars increased to { $score }."
