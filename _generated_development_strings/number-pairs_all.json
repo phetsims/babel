@@ -3601,6 +3601,56 @@
           "value": "Number Line"
         }
       },
+      "numberLineDescription": {
+        "leadingCountOn": {
+          "value": "Number line shows a green line to represent total and a blue jump from knob to total:"
+        },
+        "leadingCountFromZero": {
+          "value": "Number line shows a green line to represent total, a yellow jump from left edge to knob, and a blue jump from knob to total:"
+        },
+        "leadingHidden": {
+          "value": "Number line is hidden."
+        },
+        "totalStartsPattern": {
+          "value": "Total starts at { $start }, ends at { $end }"
+        },
+        "totalSpansPattern": {
+          "value": "Total spans from { $start } to { $end }"
+        },
+        "knobIsAtPattern": {
+          "value": "Knob is at { $value }"
+        },
+        "knobSplits": {
+          "value": "Knob splits total into 2 sections"
+        },
+        "leftEdgeLabel": {
+          "value": "left edge"
+        },
+        "totalLabel": {
+          "value": "total"
+        },
+        "knobLabel": {
+          "value": "knob"
+        },
+        "countOnLeftAddendPattern": {
+          "value": "Left addend, { $left }, marked on number line"
+        },
+        "countOnJumpPattern": {
+          "value": "Jump of length { $right } starts at { $start } and ends at total"
+        },
+        "countFromZeroLeftAddendPattern": {
+          "value": "Left addend, { $left }, is shown above jump from left edge to knob"
+        },
+        "countFromZeroRightAddendPattern": {
+          "value": "Right addend, { $right }, is shown above jump from { $start } to total"
+        },
+        "countOnTotalJumpPattern": {
+          "value": "Jump of length { $total } is labeled"
+        },
+        "countFromZeroTotalJumpPattern": {
+          "value": "Jump spans total length, { $total }"
+        }
+      },
       "totalSceneSelection": {
         "totalNumberPattern": {
           "value": "Total Number { $value }"
