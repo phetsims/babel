@@ -3740,7 +3740,7 @@
             "value": "Organize { $representation } Into Groups"
           },
           "accessibleHelpText": {
-            "value": "Each group has a maximum of 5 { $representation }."
+            "value": "{ $representationType ->\n  [kittens] Group by color, up to 5 kittens per row.\n  [beads] Group by color, up to 5 beads per group.\n  *[other] Each group has a maximum of 5 { $representation }.\n}"
           },
           "accessibleContextResponse": {
             "value": "Organized."
