@@ -3818,11 +3818,25 @@
           },
           "valueBAccessibleName": {
             "value": "Count from Zero"
+          },
+          "accessibleHelpText": {
+            "value": "Choose where to start counting. Count on from first addend to get total or count to first addend starting at zero."
           }
         },
         "totalCheckbox": {
           "accessibleHelpText": {
             "value": "Show or hide the sum of the two addends."
+          }
+        },
+        "addendsCheckbox": {
+          "accessibleHelpText": {
+            "value": "Show or hide addend values."
+          },
+          "accessibleContextResponseChecked": {
+            "value": "Addends are { $leftAddend } and { $rightAddend }, labeled on number line."
+          },
+          "accessibleContextResponseUnchecked": {
+            "value": "Addends hidden."
           }
         }
       },
