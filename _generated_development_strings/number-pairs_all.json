@@ -3585,7 +3585,7 @@
           "value": "Blue"
         },
         "kittenPattern": {
-          "value": "{ $descriptor ->\n    [first] First Kitten, { $color } \n    [last] Last Kitten, { $color } \n    [only] Only Kitten, { $color } \n    *[other] { $color } Kitten\n}"
+          "value": "{ $descriptor ->\n    [first] First { $color} Kitten \n    [last] Last { $color } Kitten \n    [only] Only { $color } Kitten \n    *[other] { $color } Kitten\n}"
         },
         "accessibleHelpText": {
           "withAttributeSwitch": {
