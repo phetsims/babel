@@ -3584,11 +3584,8 @@
         "rightAddendColor": {
           "value": "Blue"
         },
-        "leftAddendKitten": {
-          "value": "Yellow Kitten"
-        },
-        "rightAddendKitten": {
-          "value": "Blue Kitten"
+        "kittenPattern": {
+          "value": "{ $descriptor ->\n    [first] First Kitten, { $color } \n    [last] Last Kitten, { $color } \n    [only] Only Kitten, { $color } \n    *[other] { $color } Kitten\n}"
         },
         "accessibleHelpText": {
           "withAttributeSwitch": {
