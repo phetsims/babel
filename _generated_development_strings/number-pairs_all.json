@@ -3398,7 +3398,7 @@
               "value": "Currently, counting area shows { $count } { $itemType } broken into colors. A phrase, { $numberBarOrBarModel} and equation show how total is broken apart."
             },
             "countingAreaShownWithNumberLine": {
-              "value": "Currently, counting area shows a total of 3 broken into two addends with the addend splitter. A phrase, { $numberBarOrBarModel }, and equation show how total is broken apart."
+              "value": "Currently, counting area shows total of { $count } broken into two addends with addend splitter. A phrase, { $numberBarOrBarModel }, and equation show how total is broken apart."
             },
             "countingAreaHidden": {
               "value": "Currently, the counting area is hidden. A phrase, { $numberBarOrBarModel } and equation show how total is broken apart."
@@ -3858,10 +3858,10 @@
             "value": "Show or hide tick mark numbers on number line."
           },
           "accessibleContextResponseChecked": {
-            "value": "Tick marks are labeled."
+            "value": "Tick marks labeled."
           },
           "accessibleContextResponseUnchecked": {
-            "value": "Tick mark labels are blank."
+            "value": "Tick mark labels not labeled."
           }
         },
         "totalJumpCheckbox": {
@@ -3872,7 +3872,7 @@
             "value": "Total jump is shown and labeled."
           },
           "accessibleContextResponseUnchecked": {
-            "value": "No total jump is shown."
+            "value": "Total jump is not shown."
           }
         }
       },
