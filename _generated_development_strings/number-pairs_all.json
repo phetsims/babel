@@ -3456,29 +3456,33 @@
         "movedAccessibleResponse": {
           "value": "now in { $addend } counting area"
         },
-        "firstLeftItemPattern": {
-          "value": "First { $item } on left side"
+        "leftSide": {
+          "firstItemPattern": {
+            "value": "First { $item } on left side"
+          },
+          "itemPattern": {
+            "value": "{ $item } on left side"
+          },
+          "lastItemPattern": {
+            "value": "Last { $item } on left side"
+          },
+          "onlyItemPattern": {
+            "value": "Only { $item } on left side"
+          }
         },
-        "leftItemPattern": {
-          "value": "{ $item } on left side"
-        },
-        "lastLeftItemPattern": {
-          "value": "Last { $item } on left side"
-        },
-        "onlyLeftItemPattern": {
-          "value": "Only { $item } on left side"
-        },
-        "firstRightItemPattern": {
-          "value": "First { $item } on right side"
-        },
-        "rightItemPattern": {
-          "value": "{ $item } on right side"
-        },
-        "lastRightItemPattern": {
-          "value": "Last { $item } on right side"
-        },
-        "onlyRightItemPattern": {
-          "value": "Only { $item } on right side"
+        "rightSide": {
+          "firstItemPattern": {
+            "value": "First { $item } on right side"
+          },
+          "itemPattern": {
+            "value": "{ $item } on right side"
+          },
+          "lastItemPattern": {
+            "value": "Last { $item } on right side"
+          },
+          "onlyItemPattern": {
+            "value": "Only { $item } on right side"
+          }
         },
         "noItemSelected": {
           "value": "No item selected"
@@ -3785,7 +3789,7 @@
             "value": "Addends swapped, contents hidden."
           }
         },
-        "bothAddendsVisible": {
+        "bothAddendsVisibleButton": {
           "accessibleName": {
             "value": "Counting Area Visibility"
           },
@@ -3793,20 +3797,18 @@
             "value": "Show or hide counting area and both addends in { $modelRepresentation }."
           }
         },
-        "addendVisible": {
+        "addendVisibleButton": {
           "accessibleNamePattern": {
             "value": "{ $addend } Counting Area Visibility"
           },
           "accessibleHelpTextPattern": {
             "value": "Show or hide { $addend } counting area and { $addend } addend in { $modelRepresentation }."
           },
-          "accessibleContextResponse": {
-            "hidden": {
-              "value": "contents hidden"
-            },
-            "visible": {
-              "value": "contents visible"
-            }
+          "accessibleContextResponseOn": {
+            "value": "contents hidden"
+          },
+          "accessibleContextResponseOff": {
+            "value": "contents visible"
           }
         },
         "showAddends": {
