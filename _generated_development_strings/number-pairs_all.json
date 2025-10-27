@@ -3613,6 +3613,9 @@
         },
         "accessibleHelpText": {
           "value": "Counting area with grabbable and movable beads."
+        },
+        "contextResponse": {
+          "value": "{ $grabbedOrReleased ->\n  [ grabbed ]  Grabbed\n *[ released ] Released\n}, { $side -> \n  [left] left\n *[right] right\n} of divider."
         }
       },
       "numberLine": {
