@@ -3616,6 +3616,9 @@
         },
         "contextResponse": {
           "value": "{ $grabbedOrReleased ->\n  [ grabbed ]  Grabbed\n *[ released ] Released\n}, { $side -> \n  [left] left\n *[right] right\n} of divider."
+        },
+        "crossedDividerContextResponse": {
+          "value": "{ $side ->\n  [left] Bead now yellow on left.\n *[right] Bead now blue on right.\n}"
         }
       },
       "numberLine": {
