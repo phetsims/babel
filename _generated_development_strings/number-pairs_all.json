@@ -3628,7 +3628,7 @@
           }
         },
         "contextResponse": {
-          "value": "{ $total } is split into { $left } and { $right }."
+          "value": "{ $addendsShowing ->\n  [ addendsVisible ] { $total } is split into { $left } and { $right }.\n *[ addendsHidden ]  { $total } is split into { $sections ->\n                                                  [ smallerAndLarger ] smaller and larger\n                                                  [ equal ]           equal\n                                                 *[ largerAndSmaller ]  larger and smaller\n  } sections.\n}"
         }
       },
       "numberLineDescription": {
