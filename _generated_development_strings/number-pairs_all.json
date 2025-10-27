@@ -3493,7 +3493,7 @@
           "value": "Counting Area"
         },
         "leadingParagraph": {
-          "value": "{ NUMBER($total) ->\n[1] Counting area has 1 total { $item }\n*[other] Counting area has { $total } total { $items }\n}"
+          "value": "{ $total ->\n[1] Counting area has 1 total { $item }\n*[other] Counting area has { $total } total { $items }\n}"
         },
         "numberBondLeadingParagraph": {
           "value": "Number bond has { $total } in top circle"
@@ -3752,7 +3752,7 @@
             "value": "Two matching rectangles are stacked on top of each other. Top rectangle is not split and tells total number of objects, bottom rectangle is split into two sections that adjust based on size of addends."
           },
           "currentBarModelStateAccessibleParagraph": {
-            "value": "Right now, { $total } in top rectangle. { $left } and { $right } in bottom rectangle, split into { $proportion } sections."
+            "value": "Right now, { $total } in top rectangle. { $left } and { $right } in bottom rectangle, split into { $proportions } sections."
           },
           "largerAndSmaller": {
             "value": "larger and smaller"
