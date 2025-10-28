@@ -3388,9 +3388,7 @@
       "tenScreen": {
         "screenSummary": {
           "playArea": {
-            "description": {
-              "value": "{ $representationType ->\n  [numberLine] There is a number line broken into yellow and blue sections that can change with a movable knob to show how total is broken apart.\n *[other] There are yellow and blue objects you can move to organize or change color to change how total is broken apart.\n} A decomposition phrase, a { $numberBarOrBarModel }, and equation  represent how total is broken apart into two addends. Additionally, choose any total from 0 to 10,  automatically organize objects, or swap addends."
-            }
+            "value": "{ $representationType ->\n  [numberLine] There is a number line broken into yellow and blue sections that can change with a movable knob to show how total is broken apart.\n *[other] There are yellow and blue objects you can move to organize or change color to change how total is broken apart.\n} A decomposition phrase, a { $numberBarOrBarModel }, and equation  represent how total is broken apart into two addends. Additionally, choose any total from 0 to 10,  automatically organize objects, or swap addends."
           },
           "controlArea": {
             "value": "{ a11y_introScreen_screenSummary_controlArea }"
@@ -3415,6 +3413,12 @@
             },
             "numberLine": {
               "value": "Move addend splitter knob to change how total is broken apart."
+            },
+            "apples": {
+              "value": "{ a11y_introScreen_screenSummary_interactionHint }"
+            },
+            "oneCards": {
+              "value": "{ a11y_introScreen_screenSummary_interactionHint }"
             }
           }
         }
