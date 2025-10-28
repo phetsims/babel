@@ -3398,10 +3398,7 @@
           },
           "currentDetails": {
             "countingAreaShown": {
-              "value": "Currently, { $count } total { $itemType } split by color in counting area."
-            },
-            "countingAreaShownWithNumberLine": {
-              "value": "Currently, total of { $count } split with addend splitter knob in counting area."
+              "value": "{ $representationType ->\n  [numberLine] Currently, total of { $count } split with addend splitter knob in counting area.\n  [apples] { a11y_introScreen_screenSummary_currentDetails_objectsPattern }\n  [oneCards] { a11y_introScreen_screenSummary_currentDetails_objectsPattern }\n *[other] Currently, { $count } total { $itemType } split by color in counting area.\n}"
             },
             "countingAreaHidden": {
               "value": "Counting area currently hidden."
