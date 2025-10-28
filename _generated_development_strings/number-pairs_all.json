@@ -3361,20 +3361,23 @@
       }
     },
     "a11y": {
+      "playAreaIntroSentence": {
+        "value": "There are left and right counting areas with fun objects. You can organize objects inside a counting area or move them between counting areas to break total apart in different ways."
+      },
       "introScreen": {
         "screenSummary": {
           "playArea": {
-            "value": "There are left and right counting areas with fun objects. You can organize objects inside a counting area or move them between counting areas to break total apart in different ways. A decomposition phrase and a  { $numberBarOrBarModel} represent the total number broken apart into two addends. Additionally, choose any total from 0 to 10, automatically organize objects into rows, or swap addends."
+            "value": "{ a11y_playAreaIntroSentence } A decomposition phrase and a  { $numberBarOrBarModel} represent the total number broken apart into two addends. Additionally, choose any total from 0 to 10, automatically organize objects into rows, or swap addends."
           },
           "controlArea": {
             "value": "Reset the sim to start over."
           },
           "currentDetails": {
             "objectsPattern": {
-              "value": "{ $count ->\n  [one] Currently, { $count } object is in counting area.\n *[other] Currently, { $count } objects are in counting areas.\n}"
+              "value": "{ $count ->\n  [one] Currently, { $count } object in counting area.\n *[other] Currently, { $count } objects in counting areas.\n}"
             },
             "hiddenAreaPattern": {
-              "value": "Currently, { $hiddenAddend } counting area is hidden."
+              "value": "Currently, { $count } total, { $hiddenAddend } counting area hidden."
             },
             "bothHidden": {
               "value": "Currently, both counting areas are hidden."
@@ -3388,20 +3391,20 @@
       "tenScreen": {
         "screenSummary": {
           "playArea": {
-            "value": "{ $representationType ->\n  [numberLine] There is a number line broken into yellow and blue sections that can change with a movable knob to show how total is broken apart.\n *[other] There are yellow and blue objects you can move to organize or change color to change how total is broken apart.\n} A decomposition phrase, a { $numberBarOrBarModel }, and equation  represent how total is broken apart into two addends. Additionally, choose any total from 0 to 10,  automatically organize objects, or swap addends."
+            "value": "{ $representationType ->\n  [numberLine] There is a number line broken into yellow and blue sections and a movable knob to change how total is broken apart.\n  [apples] { a11y_playAreaIntroSentence }\n  [oneCards] { a11y_playAreaIntroSentence }\n *[other] There are movable yellow and blue objects you can organize or change color to change how total is broken apart.\n} A decomposition phrase, a { $numberBarOrBarModel }, and equation  represent how total is broken apart into two addends. Additionally, choose any total from 0 to 10,  automatically organize objects, or swap addends."
           },
           "controlArea": {
             "value": "{ a11y_introScreen_screenSummary_controlArea }"
           },
           "currentDetails": {
             "countingAreaShown": {
-              "value": "Currently, counting area shows { $count } { $itemType } broken into colors. A phrase, { $numberBarOrBarModel} and equation show how total is broken apart."
+              "value": "Currently, { $count } total { $itemType } split by color in counting area."
             },
             "countingAreaShownWithNumberLine": {
-              "value": "Currently, counting area shows total of { $count } broken into two sections with addend splitter. A phrase, { $numberBarOrBarModel }, and equation show how total is broken apart."
+              "value": "Currently, total of { $count } split with addend splitter knob in counting area."
             },
             "countingAreaHidden": {
-              "value": "Currently, counting area is hidden. A phrase, { $numberBarOrBarModel } and equation show how total is broken apart."
+              "value": "Counting area currently hidden."
             }
           },
           "interactionHint": {
