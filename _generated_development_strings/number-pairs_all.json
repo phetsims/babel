@@ -3391,35 +3391,21 @@
       "tenScreen": {
         "screenSummary": {
           "playArea": {
-            "value": "{ $representationType ->\n  [numberLine] There is a number line broken into yellow and blue sections and a movable knob to change how total is broken apart.\n  [apples] { a11y_playAreaIntroSentence }\n  [oneCards] { a11y_playAreaIntroSentence }\n *[other] There are movable yellow and blue objects you can organize or change color to change how total is broken apart.\n} A decomposition phrase, a { $numberBarOrBarModel }, and equation  represent how total is broken apart into two addends. Additionally, choose any total from 0 to 10,  automatically organize objects, or swap addends."
+            "value": "{ $representationType ->\n  [numberLine] There is a number line broken into yellow and blue sections and a movable knob to change how total is broken apart.\n  [beads] There are movable yellow and blue objects you can organize or change color to change how total is broken apart.\n  [kittens] There are movable yellow and blue objects you can organize or change color to change how total is broken apart.\n *[location] { a11y_playAreaIntroSentence }\n} A decomposition phrase, a { $numberBarOrBarModel }, and equation  represent how total is broken apart into two addends. Additionally, choose any total from 0 to 10,  automatically organize objects, or swap addends."
           },
           "controlArea": {
             "value": "{ a11y_introScreen_screenSummary_controlArea }"
           },
           "currentDetails": {
             "countingAreaShown": {
-              "value": "{ $representationType ->\n  [numberLine] Currently, total of { $count } split with addend splitter knob in counting area.\n  [apples] { a11y_introScreen_screenSummary_currentDetails_objectsPattern }\n  [oneCards] { a11y_introScreen_screenSummary_currentDetails_objectsPattern }\n *[other] Currently, { $count } total { $itemType } split by color in counting area.\n}"
+              "value": "{ $representationType ->\n  [numberLine] Currently, total of { $count } split with addend splitter knob in counting area.\n  [beads] Currently, { $count } total { $itemType } split by color in counting area.\n  [kittens] Currently, { $count } total { $itemType } split by color in counting area.\n *[location] { a11y_introScreen_screenSummary_currentDetails_objectsPattern }\n}"
             },
             "countingAreaHidden": {
               "value": "Counting area currently hidden."
             }
           },
           "interactionHint": {
-            "beads": {
-              "value": "Navigate to and grab bead to create groups, or move it across divider to change color."
-            },
-            "kittens": {
-              "value": "Choose kitten to move, organize, or change its color."
-            },
-            "numberLine": {
-              "value": "Move addend splitter knob to change how total is broken apart."
-            },
-            "apples": {
-              "value": "{ a11y_introScreen_screenSummary_interactionHint }"
-            },
-            "oneCards": {
-              "value": "{ a11y_introScreen_screenSummary_interactionHint }"
-            }
+            "value": "{ $representationType ->\n  [ beads ]      Navigate to and grab bead to create groups, or move it across divider to change color.\n  [ kittens ]    Choose kitten to move, organize, or change its color.\n  [ numberLine ] Move addend splitter knob to change how total is broken apart.\n  *[ location ]  { a11y_introScreen_screenSummary_interactionHint }\n}"
           }
         }
       },
