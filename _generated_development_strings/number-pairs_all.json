@@ -3397,12 +3397,7 @@
             "value": "{ a11y_introScreen_screenSummary_controlArea }"
           },
           "currentDetails": {
-            "countingAreaShown": {
-              "value": "{ $representationType ->\n  [numberLine] Currently, total of { $count } split with addend splitter knob in counting area.\n  [beads] Currently, { $count } total { $itemType } split by color in counting area.\n  [kittens] Currently, { $count } total { $itemType } split by color in counting area.\n *[location] { a11y_introScreen_screenSummary_currentDetails_objectsPattern }\n}"
-            },
-            "countingAreaHidden": {
-              "value": "Counting area currently hidden."
-            }
+            "value": "{ $shownSides -> \n    [ none ]   Counting area currently hidden.\n    [ right ]  Currently, { $count } total, left counting area hidden.\n    [ left ]   Currently, { $count } total, right counting area hidden.\n   *[ both ]   { $representationType ->\n             [numberLine] Currently, total of { $count } split with addend splitter knob in counting area.\n             [beads] Currently, { $count } total { $itemType } split by color in counting area.\n             [kittens] Currently, { $count } total { $itemType } split by color in counting area.\n            *[location] { a11y_introScreen_screenSummary_currentDetails_objectsPattern }\n           }\n    }"
           },
           "interactionHint": {
             "value": "{ $representationType ->\n  [ beads ]      Navigate to and grab bead to create groups, or move it across divider to change color.\n  [ kittens ]    Choose kitten to move, organize, or change its color.\n  [ numberLine ] Move addend splitter knob to change how total is broken apart.\n  *[ location ]  { a11y_introScreen_screenSummary_interactionHint }\n}"
