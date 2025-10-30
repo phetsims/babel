@@ -8899,7 +8899,7 @@
           },
           "controlArea": {
             "description": {
-              "value": "You can turn on sum of forces, values, or speed. Reset sim to start over."
+              "value": "Turn on sum of forces, values, or speed. Reset sim to start over."
             }
           },
           "currentDetails": {
@@ -9021,13 +9021,13 @@
           },
           "controlArea": {
             "motionDescription": {
-              "value": "You can turn on forces, values, or measurement tools. Reset sim to start over."
+              "value": "Turn on forces, values, or measurement tools."
             },
             "frictionDescription": {
-              "value": "You can turn on forces, values, or measurement tools. The Friction slider sets the roughness of the ground. Reset sim to start over."
+              "value": "Turn on forces, values, or measurement tools. Set the roughness of the ground with the Friction slider. Reset sim to start over."
             },
             "accelerationDescription": {
-              "value": "{ a11y_motionScreen_screenSummary_controlArea_frictionDescription }"
+              "value": "Turn on forces, values, or measurement tools. Set the roughness of the ground with the Friction slider. Reset sim to start over."
             }
           },
           "currentDetails": {
@@ -9174,7 +9174,7 @@
         },
         "stackList": {
           "stackedOnSurface": {
-            "value": "Objects on { $surface }:"
+            "value": "Stacked on { $surface }:"
           },
           "noObjectsOnSurface": {
             "value": "No objects on { $surface }."
@@ -9279,7 +9279,7 @@
           "value": "Object Toolbox"
         },
         "skateboard": {
-          "value": "Stack on Skateboard"
+          "value": "Skateboard"
         },
         "stack": {
           "value": "Stack"
@@ -9287,13 +9287,13 @@
       },
       "pullers": {
         "pullerInstruction": {
-          "value": "Grab puller. Once grabbed, use keyboard shortcuts to change position. Knots are numbered from left-to-right."
+          "value": "Grab puller. Once grabbed, use keyboard shortcuts to change position."
         },
         "overReturnToToolbox": {
           "value": "Over toolbox"
         },
         "overKnotDescription": {
-          "value": "{ $side ->\n    [left] Over left knot { $number ->\n    [1] 1, furthest from cart\n    [4] 4, closest to cart\n    *[other] { $number }\n  }\n    *[right] Over right knot { $number ->\n    [1] 1, closest to cart\n    [4] 4, furthest from cart\n    *[other] { $number }\n  }\n}"
+          "value": "Over { $side } knot { $number }"
         },
         "knotDescription": {
           "value": "{ $side } knot { $number }"
@@ -9307,12 +9307,7 @@
       },
       "tugOfWar": {
         "heading": {
-          "value": "Tug-of-War for Candy Cart"
-        },
-        "list": {
-          "leadingParagraph": {
-            "value": "Pullers attached to ropes, from left-to-right:"
-          }
+          "value": "Tug-of-War"
         },
         "noPullersOnRope": {
           "value": "No pullers on rope"
@@ -9322,11 +9317,8 @@
         }
       },
       "forces": {
-        "netForceScreenHeading": {
-          "value": "Forces on Candy Cart"
-        },
-        "motionScreensHeading": {
-          "value": "Forces on Stack"
+        "heading": {
+          "value": "Forces"
         },
         "appliedForceArrow": {
           "value": "Applied force arrow is { $description }, pointing { $direction }"
@@ -9345,9 +9337,6 @@
         },
         "sumOfForcesZero": {
           "value": "Sum of forces is 0"
-        },
-        "noForcesDisplayed": {
-          "value": "No forces displayed."
         },
         "quantitativeDescription": {
           "value": "{ $forceMagnitude ->\n  [one] { $forceMagnitude } newton\n  *[other] { $forceMagnitude } newtons\n}"
