@@ -9138,6 +9138,21 @@
           "value": "Level { $levelNumber } complete. { $stars }, { $progressMessage }"
         }
       },
+      "allLevelsCompletedNode": {
+        "faceNode": {
+          "accessibleParagraph": {
+            "value": "A big smiley is happy you completed all levels!"
+          }
+        },
+        "doneButton": {
+          "accessibleHelpText": {
+            "value": "Return to level selection screen to check progress or keep playing."
+          }
+        },
+        "accessibleContextResponseShow": {
+          "value": "You completed all levels!"
+        }
+      },
       "gameInfoButton": {
         "accessibleName": {
           "value": "Game Info"
