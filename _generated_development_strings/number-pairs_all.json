@@ -3823,10 +3823,10 @@
           "accessibleHelpText": {
             "value": "{ $representationType ->\n  [kittens] Add or remove one { $color } kitten.\n  [beads]   Add or remove one { $color } bead.\n  *[other]  Add or remove one from { $addend } addend.\n}"
           },
-          "addedAccessibleContextResponse": {
+          "incrementContextResponse": {
             "value": "{ $representationType ->\n  [kittens] One { $color } kitten added to counting area.\n  [beads]   One { $color } bead added to counting area.\n  *[other]  One added to { $addend } section of number line.\n}"
           },
-          "removedAccessibleContextResponse": {
+          "decrementContextResponse": {
             "value": "{ $representationType ->\n  [kittens] One { $color } kitten removed from counting area.\n  [beads]   One { $color } bead removed from counting area.\n  *[other]  One removed from { $addend } section of number line.\n}"
           }
         },
