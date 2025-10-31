@@ -3400,7 +3400,7 @@
             "value": "{ $shownSides -> \n    [ none ]   Counting area currently hidden.\n    [ right ]  Currently, { $count } total, left counting area hidden.\n    [ left ]   Currently, { $count } total, right counting area hidden.\n   *[ both ]   { $representationType ->\n             [numberLine] Currently, total of { $count } split with addend splitter knob in counting area.\n             [beads] Currently, { $count } total { $itemType } split by color in counting area.\n             [kittens] Currently, { $count } total { $itemType } split by color in counting area.\n            *[location] { a11y_introScreen_screenSummary_currentDetails_objectsPattern }\n           }\n    }"
           },
           "interactionHint": {
-            "value": "{ $representationType ->\n  [ beads ]      Navigate to and grab bead to create groups, or move it across divider to change color.\n  [ kittens ]    Choose kitten to move, organize, or change its color.\n  [ numberLine ] Move addend splitter knob to change how total is broken apart.\n  *[ location ]  { a11y_introScreen_screenSummary_interactionHint }\n}"
+            "value": "{ $representationType ->\n  [ beads ]      Navigate to and grab bead to create groups, or move across divider to change color.\n  [ kittens ]    Choose kitten to move, organize, or change its color.\n  [ numberLine ] Move addend splitter knob to change how total is broken apart.\n  *[ location ]  { a11y_introScreen_screenSummary_interactionHint }\n}"
           }
         }
       },
@@ -3409,6 +3409,12 @@
       },
       "right": {
         "value": "right"
+      },
+      "leftAddendColor": {
+        "value": "Yellow"
+      },
+      "rightAddendColor": {
+        "value": "Blue"
       },
       "leftCapitalized": {
         "value": "Left"
@@ -3569,12 +3575,6 @@
         "changeColorAccessibleName": {
           "value": "Change Color"
         },
-        "leftAddendColor": {
-          "value": "Yellow"
-        },
-        "rightAddendColor": {
-          "value": "Blue"
-        },
         "kittenPattern": {
           "value": "{ $descriptor ->\n    [first] First { $color} Kitten \n    [last] Last { $color } Kitten \n    [only] Only { $color } Kitten \n    *[other] { $color } Kitten\n}"
         },
@@ -3583,7 +3583,7 @@
             "value": "Move freely to create groups with arrows or W, A, S, D keys. Change color with space or enter."
           },
           "withoutAttributeSwitch": {
-            "value": "Optionally, count or organize kittens to help solve challenge."
+            "value": "Count or organize kittens to help solve challenge if needed."
           }
         }
       },
@@ -3817,8 +3817,17 @@
           }
         },
         "countingObjectControl": {
+          "accessibleName": {
+            "value": "{ $representationType ->\n  [kittens] { $color } Kitten\n  [beads]   { $color } Bead\n  *[other]  { $color } Section\n}"
+          },
           "accessibleHelpText": {
-            "value": "Add or remove from the { $addend } addend."
+            "value": "{ $representationType ->\n  [kittens] Add or remove one { $color } kitten.\n  [beads]   Add or remove one { $color } bead.\n  *[other]  Add or remove one from { $addend } addend.\n}"
+          },
+          "addedAccessibleContextResponse": {
+            "value": "{ $representationType ->\n  [kittens] One { $color } kitten added to counting area.\n  [beads]   One { $color } bead added to counting area.\n  *[other]  One added to { $addend } section of number line.\n}"
+          },
+          "removedAccessibleContextResponse": {
+            "value": "{ $representationType ->\n  [kittens] One { $color } kitten removed from counting area.\n  [beads]   One { $color } bead removed from counting area.\n  *[other]  One removed from { $addend } section of number line.\n}"
           }
         },
         "countFromZeroSwitch": {
@@ -3912,12 +3921,12 @@
         },
         "level7": {
           "accessibleHelpText": {
-            "value": "Missing addend or total in a sum equation (11-20)"
+            "value": "Find a missing addend or total in a sum equation with total between 11 and 20."
           }
         },
         "level8": {
           "accessibleHelpText": {
-            "value": "Equations with the number line (0-20)"
+            "value": "Find a missing addend in a sum equations using the number line for totals between 0 and 20."
           }
         },
         "answerButton": {
