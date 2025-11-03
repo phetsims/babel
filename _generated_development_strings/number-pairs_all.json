@@ -3484,7 +3484,7 @@
           "value": "Counting Area"
         },
         "leadingParagraph": {
-          "value": "{ $total ->\n[1] Counting area has 1 total { $item }\n*[other] Counting area has { $total } total { $items }\n}"
+          "value": "{ NUMBER($total) ->\n[1] Counting area has 1 total { $item }\n*[other] Counting area has { $total } total { $items }\n}"
         },
         "numberBondLeadingParagraph": {
           "value": "Number bond has { $total } in top circle"
@@ -3516,8 +3516,11 @@
         "rightCircleListItemPattern": {
           "value": "{ $value } in right circle"
         },
-        "valueHidden": {
+        "addendValueHidden": {
           "value": "some"
+        },
+        "totalValueHidden": {
+          "value": "hidden"
         }
       },
       "equationAccordionBox": {
@@ -3764,14 +3767,11 @@
           "accessibleName": {
             "value": "Swap Addends"
           },
-          "accessibleHelpTextPattern": {
-            "value": "Switch { $items } from left counting area to right and right counting area to left."
+          "accessibleHelpText": {
+            "value": "Switches left and right addends."
           },
           "accessibleContextResponse": {
-            "value": "{ $leftAddend } on left, { $rightAddend } on right, { $total } total."
-          },
-          "accessibleContextResponseHidden": {
-            "value": "Addends swapped, contents hidden."
+            "value": "{ $representationType ->\n  [attribute] { $leftAddend } yellow, { $rightAddend } blue, { $total } total.\n  [numberLine]   { $leftAddend } in yellow section, { $rightAddend } in blue section, { $total } total.\n  *[other]  { $leftAddend } on left, { $rightAddend } on right, { $total } total.\n}"
           }
         },
         "bothAddendsVisibleButton": {
@@ -3843,7 +3843,7 @@
         },
         "totalCheckbox": {
           "accessibleHelpText": {
-            "value": "Show or hide the sum of the two addends."
+            "value": "Show or hide sum of addends."
           }
         },
         "addendsCheckbox": {
