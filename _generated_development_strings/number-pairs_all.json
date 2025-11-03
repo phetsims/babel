@@ -3413,7 +3413,7 @@
             "value": "{ a11y_introScreen_screenSummary_controlArea }"
           },
           "currentDetails": {
-            "value": "{ $shownSides -> \n    [ none ]   Counting area currently hidden.\n   *[ both ]   { $representationType ->\n             [numberLine] total of { $total } created by adding lengths of two sections on number line.\n            *[other] { $total } total { $itemType } created by adding { $itemType } of two colors.\n           }\n    }"
+            "value": "{ $shownSides -> \n    [ none ]   Counting area currently hidden.\n   *[ both ]   { $representationType ->\n             [numberLine] Currently, total of { $total } created by adding lengths of two sections on number line.\n            *[other] Currently, { $total } total { $itemType } created by adding { $itemType } of two colors.\n           }\n    }"
           },
           "interactionHint": {
             "value": "{ $representationType ->\n    *[ beads ]      Navigate to and grab bead to create groups, or move across divider to change color.\n    [ kittens ]    Choose kitten to move, organize, or change color.\n    [ numberLine ] Move addend splitter knob to change length of sections that create total.\n}"
