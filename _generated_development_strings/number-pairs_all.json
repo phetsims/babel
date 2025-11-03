@@ -3374,10 +3374,10 @@
           },
           "currentDetails": {
             "objectsPattern": {
-              "value": "{ $count ->\n  [one] Currently, { $count } object in counting area.\n *[other] Currently, { $count } objects in counting areas.\n}"
+              "value": "{ $total ->\n  [one] Currently, { $total } object in counting area.\n *[other] Currently, { $total } objects in counting areas.\n}"
             },
             "hiddenAreaPattern": {
-              "value": "Currently, { $count } total, { $hiddenAddend } counting area hidden."
+              "value": "Currently, { $total } total, { $hiddenAddend } counting area hidden."
             },
             "bothHidden": {
               "value": "Currently, both counting areas are hidden."
@@ -3397,10 +3397,26 @@
             "value": "{ a11y_introScreen_screenSummary_controlArea }"
           },
           "currentDetails": {
-            "value": "{ $shownSides -> \n    [ none ]   Counting area currently hidden.\n    [ right ]  Currently, { $count } total, left counting area hidden.\n    [ left ]   Currently, { $count } total, right counting area hidden.\n   *[ both ]   { $representationType ->\n             [numberLine] Currently, total of { $count } split with addend splitter knob in counting area.\n             [beads] Currently, { $count } total { $itemType } split by color in counting area.\n             [kittens] Currently, { $count } total { $itemType } split by color in counting area.\n            *[location] { a11y_introScreen_screenSummary_currentDetails_objectsPattern }\n           }\n    }"
+            "value": "{ $shownSides -> \n    [ none ]   Counting area currently hidden.\n    [ right ]  Currently, { $total } total, left counting area hidden.\n    [ left ]   Currently, { $total } total, right counting area hidden.\n   *[ both ]   { $representationType ->\n             [numberLine] Currently, total of { $total } split with addend splitter knob in counting area.\n             [beads] Currently, { $total } total { $itemType } split by color in counting area.\n             [kittens] Currently, { $total } total { $itemType } split by color in counting area.\n            *[location] { a11y_introScreen_screenSummary_currentDetails_objectsPattern }\n           }\n    }"
           },
           "interactionHint": {
             "value": "{ $representationType ->\n  [ beads ]      Navigate to and grab bead to create groups, or move across divider to change color.\n  [ kittens ]    Choose kitten to move, organize, or change its color.\n  [ numberLine ] Move addend splitter knob to change how total is broken apart.\n  *[ location ]  { a11y_introScreen_screenSummary_interactionHint }\n}"
+          }
+        }
+      },
+      "sumScreen": {
+        "screenSummary": {
+          "playArea": {
+            "value": "{ $representationType ->\n    [numberLine] Total is shown on number line with a green line broken into two sections, a yellow section on left and blue section on right.\n     A movable knob changes how total is broken apart by changing lengths of yellow and blue sections.\n   *[other] There are yellow and blue objects you can move to organize or change color to find different ways to add two numbers to create a total. \n} An addition phrase, a { $numberBarOrBarModel }, and equation represent how two numbers add to total. Additionally, create totals from 0 to 20,\n automatically organize objects, or swap addends."
+          },
+          "controlArea": {
+            "value": "{ a11y_introScreen_screenSummary_controlArea }"
+          },
+          "currentDetails": {
+            "value": "{ $shownSides -> \n    [ none ]   Counting area currently hidden.\n   *[ both ]   { $representationType ->\n             [numberLine] total of { $total } created by adding lengths of two sections on number line.\n            *[other] { $total } total { $itemType } created by adding { $itemType } of two colors.\n           }\n    }"
+          },
+          "interactionHint": {
+            "value": "{ $representationType ->\n    *[ beads ]      Navigate to and grab bead to create groups, or move across divider to change color.\n    [ kittens ]    Choose kitten to move, organize, or change color.\n    [ numberLine ] Move addend splitter knob to change length of sections that create total.\n}"
           }
         }
       },
@@ -3749,7 +3765,7 @@
         },
         "tenFrameButton": {
           "accessibleName": {
-            "value": "Organize { $representation } Into Groups"
+            "value": "Organize { $representation }"
           },
           "accessibleHelpText": {
             "value": "Create groups of 5 { $representation }."
