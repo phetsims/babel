@@ -3919,11 +3919,22 @@
           "value": "{ $leftAddend } plus { $rightAddend } equals { $total }? { a11y_gameScreen_accessibleChallengePromptFinalSentence }"
         },
         "accessibleChallengePromptFinalSentence": {
-          "value": "Find missing\n  { $addendOrSum -> \n      [addend] addend\n     *[sum] sum\n} to solve challenge. Select an answer from the Answer Choice Stack."
+          "value": "Find missing\n  { $addendOrSum ->\n      [addend] addend\n     *[sum] sum\n} to solve challenge. Select an answer from the Answer Choice Stack."
         },
         "challengeSupports": {
           "accessibleHeading": {
             "value": "Challenge Supports"
+          }
+        },
+        "bothAddendsEyeToggleButton": {
+          "accessibleHelpText": {
+            "value": "Show or hide kittens."
+          },
+          "accessibleContextResponseOff": {
+            "value": "Kittens visible."
+          },
+          "accessibleContextResponseOn": {
+            "value": "Kittens hidden."
           }
         },
         "level1": {
