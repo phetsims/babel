@@ -3391,7 +3391,7 @@
       "tenOrTwentyScreen": {
         "screenSummary": {
           "playArea": {
-            "value": "{ $representationType ->\n  [numberLine] There is a number line broken into yellow and blue sections and a movable knob to change how total is broken apart.\n  [beads] There are movable yellow and blue objects you can organize or change color to change how total is broken apart.\n  [kittens] There are movable yellow and blue objects you can organize or change color to change how total is broken apart.\n *[location] { a11y_playAreaIntroSentence }\n} A decomposition phrase, a { $numberBarOrBarModel }, and equation  represent how total is broken apart into two addends. Additionally, choose any total from 0 to 10,  automatically organize objects, or swap addends."
+            "value": "{ $representationType ->\n  [numberLine] There is a number line showing total as a green line broken into two sections, a yellow section on left and blue \n  section on right. A movable knob changes how total is broken apart by changing lengths of yellow and blue sections.\n  [beads] There are movable yellow and blue beads you can slide along a wire to organize or change color to change how \n  total is broken apart.\n  [kittens] There are freely movable yellow and blue kittens you can organize or change color to change how total is broken apart.\n *[location] { a11y_playAreaIntroSentence }\n} A decomposition phrase, a { $numberBarOrBarModel }, and equation  represent how total is broken apart into two addends. Additionally, choose any total from 0 to 10,  automatically organize objects, or swap addends."
           },
           "controlArea": {
             "value": "{ a11y_introScreen_screenSummary_controlArea }"
@@ -3400,7 +3400,23 @@
             "value": "{ $shownSides -> \n    [ none ]   Counting area currently hidden.\n    [ right ]  Currently, { $total } total, left counting area hidden.\n    [ left ]   Currently, { $total } total, right counting area hidden.\n   *[ both ]   { $representationType ->\n             [numberLine] Currently, total of { $total } split with addend splitter knob in counting area.\n             [beads] Currently, { $total } total { $itemType } split by color in counting area.\n             [kittens] Currently, { $total } total { $itemType } split by color in counting area.\n            *[location] { a11y_introScreen_screenSummary_currentDetails_objectsPattern }\n           }\n    }"
           },
           "interactionHint": {
-            "value": "{ $representationType ->\n  [ beads ]      Navigate to and grab bead to create groups, or move across divider to change color.\n  [ kittens ]    Choose kitten to move, organize, or change its color.\n  [ numberLine ] Move addend splitter knob to change how total is broken apart.\n  *[ location ]  { a11y_introScreen_screenSummary_interactionHint }\n}"
+            "value": "{ $representationType ->\n  [ beads ]      Navigate to and grab bead to create groups, or move across divider to change color.\n  [ kittens ]    Choose kitten to move, organize, or change its color with space or enter. Move with arrows or W, A, S, D keys.\n  [ numberLine ] Move addend splitter knob to change how total is broken apart.\n  *[ location ]  { a11y_introScreen_screenSummary_interactionHint }\n}"
+          }
+        }
+      },
+      "sumScreen": {
+        "screenSummary": {
+          "playArea": {
+            "value": "{ $representationType ->\n    [numberLine] Total is shown on number line with a green line broken into two sections, a yellow section on left and blue section on right.\n     A movable knob changes how total is broken apart by changing lengths of yellow and blue sections.\n   *[other] There are yellow and blue objects you can move to organize or change color to find different ways to add two numbers to create a total. \n} An addition phrase, a { $numberBarOrBarModel }, and equation represent how two numbers add to total. Additionally, create totals from 0 to 20,\n automatically organize objects, or swap addends."
+          },
+          "controlArea": {
+            "value": "{ a11y_introScreen_screenSummary_controlArea }"
+          },
+          "currentDetails": {
+            "value": "{ $shownSides -> \n    [ none ]   Counting area currently hidden.\n   *[ both ]   { $representationType ->\n             [numberLine] Currently, total of { $total } created by adding lengths of two sections on number line.\n            *[other] Currently, { $total } total { $itemType } created by adding { $itemType } of two colors.\n           }\n    }"
+          },
+          "interactionHint": {
+            "value": "{ $representationType ->\n    *[ beads ]      Navigate to and grab bead to create groups, or move across divider to change color.\n     Add or remove beads with number spinners to change total.\n    [ kittens ]    Choose kitten to move, organize, or change color. Add or remove beads with number spinners to change total.\n    [ numberLine ] Move addend splitter knob to change length of yellow and blue sections that create total.\n     Add or remove one from yellow section on left or blue section on right to change total.\n}"
           }
         }
       },
@@ -4000,13 +4016,13 @@
         },
         "responses": {
           "correctAnswer": {
-            "value": "{ $guess } is correct."
+            "value": "Correct. { $total } can be decomposed into { $leftAddend } and { $rightAddend }."
           },
           "incorrectAnswer": {
-            "value": "{ $guess } is incorrect. Try a different number."
+            "value": "Not quite. { $total } cannot be decomposed into { $leftAddend } and { $rightAddend }. Try again."
           },
           "correctAnswerOnFirstTry": {
-            "value": "{ $guess } is correct. Stars increased to { $score }."
+            "value": "Correct. { $total } can be decomposed into { $leftAddend } and { $rightAddend }. Stars increased to { $score }."
           }
         },
         "resetChallengeButton": {
@@ -4014,7 +4030,10 @@
             "value": "Reset Challenge"
           },
           "accessibleHelpText": {
-            "value": "Reset the current challenge to try again."
+            "value": "Reset challenge back to beginning."
+          },
+          "accessibleContextResponse": {
+            "value": "Challenge reset."
           }
         }
       },
