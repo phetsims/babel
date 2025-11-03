@@ -3416,7 +3416,7 @@
             "value": "{ $shownSides -> \n    [ none ]   Counting area currently hidden.\n   *[ both ]   { $representationType ->\n             [numberLine] Currently, total of { $total } created by adding lengths of two sections on number line.\n            *[other] Currently, { $total } total { $itemType } created by adding { $itemType } of two colors.\n           }\n    }"
           },
           "interactionHint": {
-            "value": "{ $representationType ->\n    *[ beads ]      Navigate to and grab bead to create groups, or move across divider to change color.\n    [ kittens ]    Choose kitten to move, organize, or change color.\n    [ numberLine ] Move addend splitter knob to change length of sections that create total.\n}"
+            "value": "{ $representationType ->\n    *[ beads ]      Navigate to and grab bead to create groups, or move across divider to change color.\n     Add or remove beads with number spinners to change total.\n    [ kittens ]    Choose kitten to move, organize, or change color. Add or remove beads with number spinners to change total.\n    [ numberLine ] Move addend splitter knob to change length of yellow and blue sections that create total.\n     Add or remove one from yellow section on left or blue section on right to change total.\n}"
           }
         }
       },
@@ -3778,6 +3778,12 @@
           },
           "accessibleContextResponse": {
             "value": "{ $representationType ->\n[kittens]   { $distribution }, kittens in rows.\n[beads]     Divider separates groups by color.\n*[other]    Left and right counting areas organized into rows.\n}"
+          },
+          "accessibleContextResponseGameCombined": {
+            "value": "One array with combined colors, kittens in rows."
+          },
+          "accessibleContextResponseGameSeparate": {
+            "value": "Two arrays separated by color, kittens in rows."
           }
         },
         "commutativeButton": {
@@ -3916,7 +3922,12 @@
           "value": "{ $leftAddend } plus { $rightAddend } equals { $total }? { a11y_gameScreen_accessibleChallengePromptFinalSentence }"
         },
         "accessibleChallengePromptFinalSentence": {
-          "value": "Find missing addend to solve challenge. Select an answer from the Answer Choice Stack."
+          "value": "Find missing\n  { $addendOrSum -> \n      [addend] addend\n     *[sum] sum\n} to solve challenge. Select an answer from the Answer Choice Stack."
+        },
+        "challengeSupports": {
+          "accessibleHeading": {
+            "value": "Challenge Supports"
+          }
         },
         "level1": {
           "accessibleHelpText": {
