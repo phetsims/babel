@@ -3889,44 +3889,80 @@
         }
       },
       "gameScreen": {
+        "whatNumber": {
+          "value": "what number"
+        },
+        "decompositionChallengePrompt": {
+          "value": "{ $total } can be decomposed into { $leftAddend } and { $rightAddend }? { a11y_gameScreen_accessibleChallengePromptFinalSentence }"
+        },
+        "challengeSumPrompt": {
+          "value": "{ $leftAddend } plus { $rightAddend } equals { $total }? { a11y_gameScreen_accessibleChallengePromptFinalSentence }"
+        },
+        "accessibleChallengePromptFinalSentence": {
+          "value": "Find missing addend to solve challenge. Select an answer from the Answer Choice Stack."
+        },
         "level1": {
           "accessibleHelpText": {
             "value": "Find a missing addend in a { $numberModelType } with total between 2 and 10."
+          },
+          "accessibleChallengePrompt": {
+            "value": "{ a11y_gameScreen_decompositionChallengePrompt }"
           }
         },
         "level2": {
           "accessibleHelpText": {
             "value": "Find a missing addend in a { $numberModelType } with total always 10."
+          },
+          "accessibleChallengePrompt": {
+            "value": "{ a11y_gameScreen_decompositionChallengePrompt }"
           }
         },
         "level3": {
           "accessibleHelpText": {
             "value": "Find a missing addend in a decomposition equation with total always 10."
+          },
+          "accessibleChallengePrompt": {
+            "value": "{ a11y_gameScreen_decompositionChallengePrompt }"
           }
         },
         "level4": {
           "accessibleHelpText": {
             "value": "Find a missing addend in a sum equation with total always 10."
+          },
+          "accessibleChallengePrompt": {
+            "value": "{ a11y_gameScreen_challengeSumPrompt }"
           }
         },
         "level5": {
           "accessibleHelpText": {
             "value": "Find a missing addend in a { $numberModelType } with total between 11 and 20."
+          },
+          "accessibleChallengePrompt": {
+            "value": "{ a11y_gameScreen_decompositionChallengePrompt }"
           }
         },
         "level6": {
           "accessibleHelpText": {
             "value": "Find a missing addend in a decomposition equation with total between 11 and 20."
+          },
+          "accessibleChallengePrompt": {
+            "value": "{ a11y_gameScreen_decompositionChallengePrompt }"
           }
         },
         "level7": {
           "accessibleHelpText": {
             "value": "Find a missing addend or total in a sum equation with total between 11 and 20."
+          },
+          "accessibleChallengePrompt": {
+            "value": "{ a11y_gameScreen_challengeSumPrompt }"
           }
         },
         "level8": {
           "accessibleHelpText": {
             "value": "Find a missing addend in a sum equation using the number line with total between 0 and 20."
+          },
+          "accessibleChallengePrompt": {
+            "value": "{ a11y_gameScreen_challengeSumPrompt }"
           }
         },
         "answerButton": {
