@@ -3687,11 +3687,6 @@
           "value": "Choose total for counting area."
         }
       },
-      "totalCheckbox": {
-        "accessibleHelpText": {
-          "value": "Show or hide the sum of the two addends."
-        }
-      },
       "controls": {
         "accessibleHeading": {
           "value": "Counting Area Controls"
@@ -3757,10 +3752,16 @@
             "value": "Organize { $representation } Into Groups"
           },
           "accessibleHelpText": {
-            "value": "{ $representationType ->\n  [kittens] Group by color, up to 5 kittens per row.\n  [beads] Group by color, up to 5 beads per group.\n  *[other] Each group has a maximum of 5 { $representation }.\n}"
+            "value": "Create groups of 5 { $representation }."
+          },
+          "sumDistribution": {
+            "value": "One array combines color"
+          },
+          "decompositionDistribution": {
+            "value": "Two arrays separated by color"
           },
           "accessibleContextResponse": {
-            "value": "Organized."
+            "value": "{ $representationType ->\n[kittens]   { $distribution }, kittens in rows.\n[beads]     Divider separates groups by color.\n*[other]    Left and right counting areas organized into rows.\n}"
           }
         },
         "commutativeButton": {
