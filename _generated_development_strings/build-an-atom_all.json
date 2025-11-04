@@ -10011,7 +10011,13 @@
             "value": "Your Built Atom"
           },
           "nucleusInfoFull": {
-            "value": "Nucleus contains {{particles}}."
+            "value": "Nucleus contains\n{ $protons ->\n[one]{ $protons } Proton\n*[other] { $protons } Protons\n} and\n{ $neutrons ->\n[one]{ $neutrons } Neutron\n*[other] { $neutrons } Neutrons\n}."
+          },
+          "nucleusInfoProtons": {
+            "value": "Nucleus contains\n{ $protons ->\n[one]{ $protons } Proton\n*[other] { $protons } Protons\n}."
+          },
+          "nucleusInfoNeutrons": {
+            "value": "Nucleus contains\n{ $neutrons ->\n[one]{ $neutrons } Neutron\n*[other] { $neutrons } Neutrons\n}."
           },
           "nucleusInfoEmpty": {
             "value": "Nucleus empty."
@@ -10305,7 +10311,7 @@
                 "value": "Oops! Not quite right."
               },
               "incorrectSecondTry": {
-                "value": "Oops! Not quite right."
+                "value": "Oops! Let's review."
               }
             }
           }

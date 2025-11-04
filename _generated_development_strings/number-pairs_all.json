@@ -3367,7 +3367,7 @@
       "introScreen": {
         "screenSummary": {
           "playArea": {
-            "value": "{ a11y_playAreaIntroSentence } A decomposition phrase and a  { $numberBarOrBarModel} represent the total number broken apart into two addends. Additionally, choose any total from 0 to 10, automatically organize objects into rows, or swap addends."
+            "value": "{ a11y_playAreaIntroSentence } A decomposition phrase and a   { $numberBarOrBarModel} represent the total number broken apart into two addends. Additionally, choose any total from 0 to 10, automatically organize objects into rows, or swap addends."
           },
           "controlArea": {
             "value": "Reset the sim to start over."
@@ -3380,7 +3380,7 @@
               "value": "Currently, { $total } total, { $hiddenAddend } counting area hidden."
             },
             "bothHidden": {
-              "value": "Currently, both counting areas are hidden."
+              "value": "Currently, { $total } total, both counting areas hidden."
             }
           },
           "interactionHint": {
@@ -3391,32 +3391,32 @@
       "tenOrTwentyScreen": {
         "screenSummary": {
           "playArea": {
-            "value": "{ $representationType ->\n  [numberLine] There is a number line showing total as a green line broken into two sections, a yellow section on left and blue \n  section on right. A movable knob changes how total is broken apart by changing lengths of yellow and blue sections.\n  [beads] There are movable yellow and blue beads you can slide along a wire to organize or change color to change how \n  total is broken apart.\n  [kittens] There are freely movable yellow and blue kittens you can organize or change color to change how total is broken apart.\n *[location] { a11y_playAreaIntroSentence }\n} A decomposition phrase, a { $numberBarOrBarModel }, and equation  represent how total is broken apart into two addends. Additionally, choose any total from 0 to 10,  automatically organize objects, or swap addends."
+            "value": "{ $representationType ->\n  [numberLine] There is a number line showing total as a green line broken into two sections, yellow on left and blue \n  on right. A movable knob changes how total is broken apart by changing lengths of yellow and blue sections.\n  [beads] There are movable yellow and blue beads you can slide along a wire to organize or change color to change how \n  total is broken apart.\n  [kittens] There are freely movable yellow and blue kittens you can organize or change color to change how total is broken apart.\n *[location] { a11y_playAreaIntroSentence }\n} A decomposition phrase, { $numberBarOrBarModel }, and equation  represent how total is broken apart into two addends. Additionally, choose any total from 0 to 10,  automatically organize objects, or swap addends."
           },
           "controlArea": {
             "value": "{ a11y_introScreen_screenSummary_controlArea }"
           },
           "currentDetails": {
-            "value": "{ $shownSides -> \n    [ none ]   Counting area currently hidden.\n    [ right ]  Currently, { $total } total, left counting area hidden.\n    [ left ]   Currently, { $total } total, right counting area hidden.\n   *[ both ]   { $representationType ->\n             [numberLine] Currently, total of { $total } split with addend splitter knob in counting area.\n             [beads] Currently, { $total } total { $itemType } split by color in counting area.\n             [kittens] Currently, { $total } total { $itemType } split by color in counting area.\n            *[location] { a11y_introScreen_screenSummary_currentDetails_objectsPattern }\n           }\n    }"
+            "value": "{ $shownSides -> \n    [ none ]   Counting area currently hidden.\n    [ right ]  Currently, { $total } total, left counting area hidden.\n    [ left ]   Currently, { $total } total, right counting area hidden.\n   *[ both ]   { $representationType ->\n             [numberLine] Currently, total of { $total } splits colored sections with addend splitter knob in counting area.\n             [beads] Currently, { $total } total { $itemType } split by color in counting area.\n             [kittens] Currently, { $total } total { $itemType } split by color in counting area.\n            *[location] { a11y_introScreen_screenSummary_currentDetails_objectsPattern }\n           }\n    }"
           },
           "interactionHint": {
-            "value": "{ $representationType ->\n  [ beads ]      Navigate to and grab bead to create groups, or move across divider to change color.\n  [ kittens ]    Choose kitten to move, organize, or change its color with space or enter. Move with arrows or W, A, S, D keys.\n  [ numberLine ] Move addend splitter knob to change how total is broken apart.\n  *[ location ]  { a11y_introScreen_screenSummary_interactionHint }\n}"
+            "value": "{ $representationType ->\n  [ beads ]      Navigate to and grab bead to create groups, or move across divider to change color.\n  [ kittens ]    Choose kitten to move, organize, or change its color with space or enter. Move with arrows or W, A, S, D keys.\n  [ numberLine ] Move addend splitter knob to change length of yellow and blue sections.\n  *[ location ]  { a11y_introScreen_screenSummary_interactionHint }\n}"
           }
         }
       },
       "sumScreen": {
         "screenSummary": {
           "playArea": {
-            "value": "{ $representationType ->\n    [numberLine] Total is shown on number line with a green line broken into two sections, a yellow section on left and blue section on right.\n     A movable knob changes how total is broken apart by changing lengths of yellow and blue sections.\n   *[other] There are yellow and blue objects you can move to organize or change color to find different ways to add two numbers to create a total. \n} An addition phrase, a { $numberBarOrBarModel }, and equation represent how two numbers add to total. Additionally, create totals from 0 to 20,\n automatically organize objects, or swap addends."
+            "value": "{ $representationType ->\n    [numberLine] Total is shown on number line with a green line broken into two sections, yellow on left and blue on right.\n     A movable knob changes how total is broken apart by changing lengths of yellow and blue sections. Number spinners add or remove \n     one from yellow or blue section.\n   *[other] There are yellow and blue { $representation } you can move to organize or change color to find different ways to create a total number\n   of { $representation }.\n} An addition phrase, { $numberBarOrBarModel }, and equation represent how two numbers add to total. Additionally, create totals from 0 to 20,\n automatically organize objects, or swap addends."
           },
           "controlArea": {
             "value": "{ a11y_introScreen_screenSummary_controlArea }"
           },
           "currentDetails": {
-            "value": "{ $shownSides -> \n    [ none ]   Counting area currently hidden.\n   *[ both ]   { $representationType ->\n             [numberLine] Currently, total of { $total } created by adding lengths of two sections on number line.\n            *[other] Currently, { $total } total { $itemType } created by adding { $itemType } of two colors.\n           }\n    }"
+            "value": "{ $shownSides -> \n    [ none ]   Counting area currently hidden.\n   *[ both ]   { $representationType ->\n             [numberLine] Currently, total of { $total } created by adding lengths of yellow and blue sections.\n            *[other] Currently, { $total } total { $itemType } created by adding { $itemType } of two colors.\n           }\n    }"
           },
           "interactionHint": {
-            "value": "{ $representationType ->\n    *[ beads ]      Navigate to and grab bead to create groups, or move across divider to change color.\n     Add or remove beads with number spinners to change total.\n    [ kittens ]    Choose kitten to move, organize, or change color. Add or remove beads with number spinners to change total.\n    [ numberLine ] Move addend splitter knob to change length of yellow and blue sections that create total.\n     Add or remove one from yellow section on left or blue section on right to change total.\n}"
+            "value": "{ $representationType ->\n    *[ beads ]      Navigate to and grab bead to create groups, or move across divider to change color.\n     Add or remove beads with number spinners to change total.\n    [ kittens ]    Choose kitten to move, organize, or change color. Add or remove beads with number spinners to change total.\n    [ numberLine ] Move addend splitter knob to change length of yellow and blue sections that create total.\n     Add or remove one from yellow or blue section to change total.\n}"
           }
         }
       },
@@ -3500,7 +3500,7 @@
           "value": "Counting Area"
         },
         "leadingParagraph": {
-          "value": "{ NUMBER($total) ->\n[1] Counting area has 1 total { $item }\n*[other] Counting area has { $total } total { $items }\n}"
+          "value": "{ $totalVisible ->\n[hidden] Total is hidden\n*[shown] { $total ->\n    [1] Counting area has 1 total { $item }\n    *[other] Counting area has { $total } total { $items }\n  }\n}"
         },
         "numberBondLeadingParagraph": {
           "value": "Number bond has { $total } in top circle"
@@ -3694,7 +3694,7 @@
       },
       "totalSceneSelection": {
         "totalNumberPattern": {
-          "value": "Total Number { $value }"
+          "value": "Total Number of Objects"
         },
         "accessibleHelpText": {
           "value": "Choose total for counting area."
@@ -3841,13 +3841,13 @@
             "value": "{ $representationType ->\n  [kittens] { $color } Kitten\n  [beads]   { $color } Bead\n  *[other]  { $color } Section\n}"
           },
           "accessibleHelpText": {
-            "value": "{ $representationType ->\n  [kittens] Add or remove one { $color } kitten.\n  [beads]   Add or remove one { $color } bead.\n  *[other]  Add or remove one from { $addend } addend.\n}"
+            "value": "{ $representationType ->\n  [kittens] Add or remove one { $color } kitten.\n  [beads]   Add or remove one { $color } bead.\n  *[other]  Add or remove one from { $addend } section.\n}"
           },
           "incrementContextResponse": {
-            "value": "{ $representationType ->\n  [kittens] One { $color } kitten added to counting area.\n  [beads]   One { $color } bead added to counting area.\n  *[other]  One added to { $addend } section of number line.\n}"
+            "value": "{ $representationType ->\n  [kittens] One { $color } kitten added to counting area.\n  [beads]   One { $color } bead added to counting area.\n  *[other]  One added to { $addend } section of total.\n}"
           },
           "decrementContextResponse": {
-            "value": "{ $representationType ->\n  [kittens] One { $color } kitten removed from counting area.\n  [beads]   One { $color } bead removed from counting area.\n  *[other]  One removed from { $addend } section of number line.\n}"
+            "value": "{ $representationType ->\n  [kittens] One { $color } kitten removed from counting area.\n  [beads]   One { $color } bead removed from counting area.\n  *[other]  One removed from { $addend } section of total.\n}"
           }
         },
         "countFromZeroSwitch": {
@@ -3919,7 +3919,7 @@
           "value": "{ $leftAddend } plus { $rightAddend } equals { $total }? { a11y_gameScreen_accessibleChallengePromptFinalSentence }"
         },
         "accessibleChallengePromptFinalSentence": {
-          "value": "Find missing\n  { $addendOrSum ->\n      [addend] addend\n     *[sum] sum\n} to solve challenge. Select an answer from the Answer Choice Stack."
+          "value": "Find missing\n  { $addendOrSum ->\n      [addend] addend\n     *[sum] sum\n} to solve challenge. Select an answer from Answer Choices."
         },
         "challengeSupports": {
           "accessibleHeading": {
@@ -4008,10 +4008,10 @@
         },
         "answerButtonGroup": {
           "accessibleHeading": {
-            "value": "Answer Choice Number Stack"
+            "value": "{ $challengeType ->\n   [leftAddend] Left Addend Choices\n   [rightAddend] Right Addend Choices\n  *[total] Sum Choices\n   }."
           },
           "accessibleName": {
-            "value": "Answer Choice Number Stack"
+            "value": "{ a11y_gameScreen_answerButtonGroup_accessibleHeading }"
           },
           "accessibleHelpText": {
             "value": "Arrows or W,A,S,D keys navigate to choice, space or enter selects answer."
