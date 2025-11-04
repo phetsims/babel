@@ -3413,7 +3413,7 @@
             "value": "{ a11y_introScreen_screenSummary_controlArea }"
           },
           "currentDetails": {
-            "value": "{ $shownSides -> \n    [ none ]   Counting area currently hidden.\n   *[ both ]   { $representationType ->\n             [numberLine] Currently, total of { $total } created by adding lengths of yellow and blue sections.\n            *[other] Currently, { $total } total { $itemType } created by adding { $itemType } of two colors.\n           }\n    }"
+            "value": "{ $shown -> \n   [ none ]   Currently, total hidden, counting area hidden.\n   [ total ]   Currently, Total of { $total }, counting area hidden.\n   [ countingArea ] { $representationType ->\n             [ numberLine ] Currently, total hidden, created by adding lengths of yellow and blue sections.\n             *[ other ] Currently, total hidden, created by adding all { $itemType }.\n           }\n   *[ all ]   { $representationType ->\n             [ numberLine ] Currently, total of { $total } created by adding lengths of yellow and blue sections.\n            *[ other ] Currently, { $total } total { $itemType } created by adding { $itemType } of two colors.\n           }\n    }"
           },
           "interactionHint": {
             "value": "{ $representationType ->\n    *[ beads ]      Navigate to and grab bead to create groups, or move across divider to change color.\n     Add or remove beads with number spinners to change total.\n    [ kittens ]    Choose kitten to move, organize, or change color. Add or remove beads with number spinners to change total.\n    [ numberLine ] Move addend splitter knob to change length of yellow and blue sections that create total.\n     Add or remove one from yellow or blue section to change total.\n}"
@@ -3694,7 +3694,7 @@
       },
       "totalSceneSelection": {
         "totalNumberPattern": {
-          "value": "Total Number of Objects"
+          "value": "Total Number"
         },
         "accessibleHelpText": {
           "value": "Choose total for counting area."
@@ -3791,7 +3791,7 @@
             "value": "Switches left and right addends."
           },
           "accessibleContextResponse": {
-            "value": "{ $representationType ->\n  [attribute] { $leftAddend } yellow, { $rightAddend } blue, { $total } total.\n  [numberLine]   { $leftAddend } in yellow section, { $rightAddend } in blue section, { $total } total.\n  *[other]  { $leftAddend } on left, { $rightAddend } on right, { $total } total.\n}"
+            "value": "{ $representationType ->\n  [attribute] { $leftAddend } yellow, { $rightAddend } blue.\n  [numberLine]   { $leftAddend } in yellow section, { $rightAddend } in blue section.\n  *[other]  { $leftAddend } on left, { $rightAddend } on right.\n}"
           }
         },
         "bothAddendsVisibleButton": {
@@ -3919,7 +3919,7 @@
           "value": "{ $leftAddend } plus { $rightAddend } equals { $total }? { a11y_gameScreen_accessibleChallengePromptFinalSentence }"
         },
         "accessibleChallengePromptFinalSentence": {
-          "value": "Find missing\n  { $addendOrSum ->\n      [addend] addend\n     *[sum] sum\n} to solve challenge. Select an answer from Answer Choices."
+          "value": "Find missing\n  { $addendOrSum ->\n      [addend] addend\n     *[sum] sum\n} to solve challenge. Select an answer from { $challengeType } Choices."
         },
         "challengeSupports": {
           "accessibleHeading": {
@@ -4008,7 +4008,7 @@
         },
         "answerButtonGroup": {
           "accessibleHeading": {
-            "value": "{ $challengeType ->\n   [leftAddend] Left Addend Choices\n   [rightAddend] Right Addend Choices\n  *[total] Sum Choices\n   }."
+            "value": "{ $challengeType ->\n   [leftAddend] Left Addend Choices\n   [rightAddend] Right Addend Choices\n  *[total] Sum Choices\n   }"
           },
           "accessibleName": {
             "value": "{ a11y_gameScreen_answerButtonGroup_accessibleHeading }"
