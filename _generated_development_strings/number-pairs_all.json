@@ -3694,7 +3694,7 @@
       },
       "totalSceneSelection": {
         "totalNumberPattern": {
-          "value": "Total Number { $value }"
+          "value": "Total Number of Objects"
         },
         "accessibleHelpText": {
           "value": "Choose total for counting area."
@@ -3841,13 +3841,13 @@
             "value": "{ $representationType ->\n  [kittens] { $color } Kitten\n  [beads]   { $color } Bead\n  *[other]  { $color } Section\n}"
           },
           "accessibleHelpText": {
-            "value": "{ $representationType ->\n  [kittens] Add or remove one { $color } kitten.\n  [beads]   Add or remove one { $color } bead.\n  *[other]  Add or remove one from { $addend } addend.\n}"
+            "value": "{ $representationType ->\n  [kittens] Add or remove one { $color } kitten.\n  [beads]   Add or remove one { $color } bead.\n  *[other]  Add or remove one from { $addend } section.\n}"
           },
           "incrementContextResponse": {
-            "value": "{ $representationType ->\n  [kittens] One { $color } kitten added to counting area.\n  [beads]   One { $color } bead added to counting area.\n  *[other]  One added to { $addend } section of number line.\n}"
+            "value": "{ $representationType ->\n  [kittens] One { $color } kitten added to counting area.\n  [beads]   One { $color } bead added to counting area.\n  *[other]  One added to { $addend } section of total.\n}"
           },
           "decrementContextResponse": {
-            "value": "{ $representationType ->\n  [kittens] One { $color } kitten removed from counting area.\n  [beads]   One { $color } bead removed from counting area.\n  *[other]  One removed from { $addend } section of number line.\n}"
+            "value": "{ $representationType ->\n  [kittens] One { $color } kitten removed from counting area.\n  [beads]   One { $color } bead removed from counting area.\n  *[other]  One removed from { $addend } section of total.\n}"
           }
         },
         "countFromZeroSwitch": {
@@ -3919,7 +3919,7 @@
           "value": "{ $leftAddend } plus { $rightAddend } equals { $total }? { a11y_gameScreen_accessibleChallengePromptFinalSentence }"
         },
         "accessibleChallengePromptFinalSentence": {
-          "value": "Find missing\n  { $addendOrSum ->\n      [addend] addend\n     *[sum] sum\n} to solve challenge. Select an answer from the Answer Choice Stack."
+          "value": "Find missing\n  { $addendOrSum ->\n      [addend] addend\n     *[sum] sum\n} to solve challenge. Select an answer from Answer Choices."
         },
         "challengeSupports": {
           "accessibleHeading": {
@@ -4008,10 +4008,10 @@
         },
         "answerButtonGroup": {
           "accessibleHeading": {
-            "value": "Answer Choice Number Stack"
+            "value": "{ $challengeType ->\n   [leftAddend] Left Addend Choices\n   [rightAddend] Right Addend Choices\n  *[total] Sum Choices\n   }."
           },
           "accessibleName": {
-            "value": "Answer Choice Number Stack"
+            "value": "{ a11y_gameScreen_answerButtonGroup_accessibleHeading }"
           },
           "accessibleHelpText": {
             "value": "Arrows or W,A,S,D keys navigate to choice, space or enter selects answer."
