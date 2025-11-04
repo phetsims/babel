@@ -3391,7 +3391,7 @@
       "tenOrTwentyScreen": {
         "screenSummary": {
           "playArea": {
-            "value": "{ $representationType ->\n  [numberLine] There is a number line broken into yellow and blue sections and a movable knob to change how total is broken apart.\n  [beads] There are movable yellow and blue objects you can organize or change color to change how total is broken apart.\n  [kittens] There are movable yellow and blue objects you can organize or change color to change how total is broken apart.\n *[location] { a11y_playAreaIntroSentence }\n} A decomposition phrase, a { $numberBarOrBarModel }, and equation  represent how total is broken apart into two addends. Additionally, choose any total from 0 to 10,  automatically organize objects, or swap addends."
+            "value": "{ $representationType ->\n  [numberLine] There is a number line showing total as a green line broken into two sections, a yellow section on left and blue \n  section on right. A movable knob changes how total is broken apart by changing lengths of yellow and blue sections.\n  [beads] There are movable yellow and blue beads you can slide along a wire to organize or change color to change how \n  total is broken apart.\n  [kittens] There are freely movable yellow and blue kittens you can organize or change color to change how total is broken apart.\n *[location] { a11y_playAreaIntroSentence }\n} A decomposition phrase, a { $numberBarOrBarModel }, and equation  represent how total is broken apart into two addends. Additionally, choose any total from 0 to 10,  automatically organize objects, or swap addends."
           },
           "controlArea": {
             "value": "{ a11y_introScreen_screenSummary_controlArea }"
@@ -3400,7 +3400,7 @@
             "value": "{ $shownSides -> \n    [ none ]   Counting area currently hidden.\n    [ right ]  Currently, { $total } total, left counting area hidden.\n    [ left ]   Currently, { $total } total, right counting area hidden.\n   *[ both ]   { $representationType ->\n             [numberLine] Currently, total of { $total } split with addend splitter knob in counting area.\n             [beads] Currently, { $total } total { $itemType } split by color in counting area.\n             [kittens] Currently, { $total } total { $itemType } split by color in counting area.\n            *[location] { a11y_introScreen_screenSummary_currentDetails_objectsPattern }\n           }\n    }"
           },
           "interactionHint": {
-            "value": "{ $representationType ->\n  [ beads ]      Navigate to and grab bead to create groups, or move across divider to change color.\n  [ kittens ]    Choose kitten to move, organize, or change its color.\n  [ numberLine ] Move addend splitter knob to change how total is broken apart.\n  *[ location ]  { a11y_introScreen_screenSummary_interactionHint }\n}"
+            "value": "{ $representationType ->\n  [ beads ]      Navigate to and grab bead to create groups, or move across divider to change color.\n  [ kittens ]    Choose kitten to move, organize, or change its color with space or enter. Move with arrows or W, A, S, D keys.\n  [ numberLine ] Move addend splitter knob to change how total is broken apart.\n  *[ location ]  { a11y_introScreen_screenSummary_interactionHint }\n}"
           }
         }
       },
@@ -3598,9 +3598,6 @@
           "value": "{ $descriptor ->\n    [first] First { $color} Kitten \n    [last] Last { $color } Kitten \n    [only] Only { $color } Kitten \n    *[other] { $color } Kitten\n}"
         },
         "accessibleHelpText": {
-          "withAttributeSwitch": {
-            "value": "Move freely to create groups with arrows or W, A, S, D keys. Change color with space or enter."
-          },
           "withoutAttributeSwitch": {
             "value": "Count or organize kittens to help solve challenge if needed."
           }
@@ -3922,11 +3919,22 @@
           "value": "{ $leftAddend } plus { $rightAddend } equals { $total }? { a11y_gameScreen_accessibleChallengePromptFinalSentence }"
         },
         "accessibleChallengePromptFinalSentence": {
-          "value": "Find missing\n  { $addendOrSum -> \n      [addend] addend\n     *[sum] sum\n} to solve challenge. Select an answer from the Answer Choice Stack."
+          "value": "Find missing\n  { $addendOrSum ->\n      [addend] addend\n     *[sum] sum\n} to solve challenge. Select an answer from the Answer Choice Stack."
         },
         "challengeSupports": {
           "accessibleHeading": {
             "value": "Challenge Supports"
+          }
+        },
+        "bothAddendsEyeToggleButton": {
+          "accessibleHelpText": {
+            "value": "Show or hide kittens."
+          },
+          "accessibleContextResponseOff": {
+            "value": "Kittens visible."
+          },
+          "accessibleContextResponseOn": {
+            "value": "Kittens hidden."
           }
         },
         "level1": {
@@ -3998,15 +4006,31 @@
             "value": "{$value}, wrong answer"
           }
         },
+        "answerButtonGroup": {
+          "accessibleHeading": {
+            "value": "Answer Choice Number Stack"
+          },
+          "accessibleName": {
+            "value": "Answer Choice Number Stack"
+          },
+          "accessibleHelpText": {
+            "value": "Arrows or W,A,S,D keys navigate to choice, space or enter selects answer."
+          }
+        },
+        "tenFrameButton": {
+          "accessibleHelpText": {
+            "value": "Create groups of 5 Kittens"
+          }
+        },
         "responses": {
           "correctAnswer": {
-            "value": "{ $guess } is correct."
+            "value": "Correct. { $total } can be decomposed into { $leftAddend } and { $rightAddend }."
           },
           "incorrectAnswer": {
-            "value": "{ $guess } is incorrect. Try a different number."
+            "value": "Not quite. { $total } cannot be decomposed into { $leftAddend } and { $rightAddend }. Try again."
           },
           "correctAnswerOnFirstTry": {
-            "value": "{ $guess } is correct. Stars increased to { $score }."
+            "value": "Correct. { $total } can be decomposed into { $leftAddend } and { $rightAddend }. Stars increased to { $score }."
           }
         },
         "resetChallengeButton": {
@@ -4014,7 +4038,10 @@
             "value": "Reset Challenge"
           },
           "accessibleHelpText": {
-            "value": "Reset the current challenge to try again."
+            "value": "Reset challenge back to beginning."
+          },
+          "accessibleContextResponse": {
+            "value": "Challenge reset."
           }
         }
       },
