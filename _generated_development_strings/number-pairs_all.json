@@ -4021,6 +4021,12 @@
           }
         },
         "responses": {
+          "answerSelected": {
+            "value": " {$value} chosen for answer."
+          },
+          "answerCleared": {
+            "value": "Answer cleared."
+          },
           "correctAnswer": {
             "value": "Correct. { $total } can be decomposed into { $leftAddend } and { $rightAddend }."
           },
@@ -4028,7 +4034,7 @@
             "value": "Not quite. { $total } cannot be decomposed into { $leftAddend } and { $rightAddend }. Try again."
           },
           "correctAnswerOnFirstTry": {
-            "value": "Correct. { $total } can be decomposed into { $leftAddend } and { $rightAddend }. { $score } stars!"
+            "value": "Correct. { $total } can be decomposed into { $leftAddend } and { $rightAddend }. \n { $score ->\n  [1] 1 star!\n  *[other] { $score } stars!\n }"
           }
         },
         "resetChallengeButton": {
