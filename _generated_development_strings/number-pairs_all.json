@@ -3734,7 +3734,7 @@
             "value": "Represent decomposition as a { $representation }."
           },
           "numberBondAccessibleParagraph": {
-            "value": "Number bond has three circles arranged with one circle on top and two underneath like a triangle. Top circle tells total number of objects, left circle is left addend, right circle is right addend."
+            "value": "{ $screenType ->\n  [sumScreen] Number bond has three circles arranged with two circles on top and one underneath like a triangle. Top circles tell the addends. Left circle is left addend, right circle is right addend. Bottom circle is total. \n *[other] Number bond has three circles arranged with one circle on top and two underneath like a triangle. Bottom circles tell the addends. Top circle tells total number of objects, left circle is left addend, right circle is right addend.\n}"
           },
           "currentNumberBondStateAccessibleParagraph": {
             "value": "{ $screenType ->\n  *[ other ] Right now, { $total } in top circle. { $left } in left circle, { $right } in right circle.\n   [ sumScreen ] Right now, { $left } in left circle, { $right } in right circle, \n    { $totalView ->\n       [shown] { $total } in bottom circle.\n      *[hidden] total hidden from bottom circle.\n    }\n}"
@@ -4025,7 +4025,7 @@
         },
         "responses": {
           "answerSelected": {
-            "value": "{$value} chosen for { a11y_gameScreen_challengeType }. \n   { $representationType ->\n     [kittens] {$value} kittens added to Counting Area.\n    *[numberLine] {$value} added to number line.\n   }"
+            "value": "{$value} chosen for { a11y_gameScreen_challengeType }. \n   { $representationType ->\n     [kittens] {$value} kittens added to Counting Area.\n    *[numberLine] Addend now {$value} on number line.\n   }"
           },
           "answerCleared": {
             "value": "Answer cleared."
