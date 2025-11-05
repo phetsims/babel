@@ -3737,7 +3737,7 @@
             "value": "Number bond has three circles arranged with one circle on top and two underneath like a triangle. Top circle tells total number of objects, left circle is left addend, right circle is right addend."
           },
           "currentNumberBondStateAccessibleParagraph": {
-            "value": "Right now, { $total } in top circle. { $left } in left circle, { $right } in right circle."
+            "value": "{ $screenType ->\n  *[ other ] Right now, { $total } in top circle. { $left } in left circle, { $right } in right circle.\n   [ sumScreen ] Right now, { $left } in left circle, { $right } in right circle, \n    { $totalView ->\n       [shown] { $total } in bottom circle.\n      *[hidden] total hidden from bottom circle.\n    }\n}"
           },
           "barModelAccessibleParagraph": {
             "value": "Two matching rectangles are stacked on top of each other. Top rectangle is not split and tells total number of objects, bottom rectangle is split into two sections that adjust based on size of addends."
