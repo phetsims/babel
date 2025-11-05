@@ -3916,6 +3916,9 @@
         "answerChoices": {
           "value": "{ $challengeType ->\n  [ leftAddend ] Left Addend Choices\n  [ rightAddend ] Right Addend Choices\n  *[ total ] Sum Choices\n}"
         },
+        "challengeType": {
+          "value": "{ $challengeType ->\n  [ leftAddend ] left addend\n  [ rightAddend ] right addend\n  *[ total ] sum\n}"
+        },
         "accessibleChallengePromptFinalSentence": {
           "value": "Find missing\n  { $addendOrSum ->\n      [addend] addend\n     *[sum] sum\n} to solve challenge. Select an answer from { a11y_gameScreen_answerChoices }. Count, organize, or hide kittens in Challenge Supports if needed."
         },
@@ -4022,7 +4025,7 @@
         },
         "responses": {
           "answerSelected": {
-            "value": " {$value} chosen for answer."
+            "value": " {$value} chosen for { a11y_gameScreen_challengeType }. {$value} kittens added to Counting Area."
           },
           "answerCleared": {
             "value": "Answer cleared."
