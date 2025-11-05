@@ -3413,7 +3413,7 @@
             "value": "{ a11y_introScreen_screenSummary_controlArea }"
           },
           "currentDetails": {
-            "value": "{ $shown -> \n   [ none ]   Currently, total hidden, counting area hidden.\n   [ total ]   Currently, Total of { $total }, counting area hidden.\n   [ countingArea ] { $representationType ->\n             [ numberLine ] Currently, total hidden, created by adding lengths of yellow and blue sections.\n             *[ other ] Currently, total hidden, created by adding all { $itemType }.\n           }\n   *[ all ]   { $representationType ->\n             [ numberLine ] Currently, total of { $total } created by adding lengths of yellow and blue sections.\n            *[ other ] Currently, { $total } total { $itemType } created by adding { $itemType } of two colors.\n           }\n    }"
+            "value": "{ $shown -> \n   [ none ]   Currently, total hidden, counting area hidden.\n   [ total ]   Currently, Total of { $total }, counting area hidden.\n   [ countingArea ] { $representationType ->\n             [ numberLine ] Currently, total hidden, created by adding lengths of yellow and blue sections.\n             *[ other ] Currently, total hidden, created by adding all { $itemType }.\n           }\n   *[ all ]   { $representationType ->\n             [ numberLine ] Currently, total of { $total } created by adding lengths of yellow and blue sections.\n            *[ other ] Currently, { $total } total { $itemType } created by adding all { $itemType }.\n           }\n    }"
           },
           "interactionHint": {
             "value": "{ $representationType ->\n    *[ beads ]      Navigate to and grab bead to create groups, or move across divider to change color.\n     Add or remove beads with number spinners to change total.\n    [ kittens ]    Choose kitten to move, organize, or change color. Add or remove beads with number spinners to change total.\n    [ numberLine ] Move addend splitter knob to change length of yellow and blue sections that create total.\n     Add or remove one from yellow or blue section to change total.\n}"
@@ -3701,7 +3701,7 @@
         },
         "phrase": {
           "accessibleHelpTextCollapsed": {
-            "value": "Phrase tells how total is decomposed."
+            "value": "{ $screenType ->\n     [ sumScreen ] Phrase describes the sum equation.\n     *[ other ] Phrase tells how total is decomposed.\n }"
           }
         },
         "speechSynthesis": {
@@ -3734,10 +3734,10 @@
             "value": "Represent decomposition as a { $representation }."
           },
           "numberBondAccessibleParagraph": {
-            "value": "Number bond has three circles arranged with one circle on top and two underneath like a triangle. Top circle tells total number of objects, left circle is left addend, right circle is right addend."
+            "value": "{ $screenType ->\n  [sumScreen] Number bond has three circles arranged with two circles on top and one underneath like a triangle. Top circles tell the addends. Left circle is left addend, right circle is right addend. Bottom circle is total. \n *[other] Number bond has three circles arranged with one circle on top and two underneath like a triangle. Bottom circles tell the addends. Top circle tells total number of objects, left circle is left addend, right circle is right addend.\n}"
           },
           "currentNumberBondStateAccessibleParagraph": {
-            "value": "Right now, { $total } in top circle. { $left } in left circle, { $right } in right circle."
+            "value": "{ $screenType ->\n  *[ other ] Right now, { $total } in top circle. { $left } in left circle, { $right } in right circle.\n   [ sumScreen ] Right now, { $left } in left circle, { $right } in right circle, \n    { $totalView ->\n       [shown] { $total } in bottom circle.\n      *[hidden] total hidden from bottom circle.\n    }\n}"
           },
           "barModelAccessibleParagraph": {
             "value": "Two matching rectangles are stacked on top of each other. Top rectangle is not split and tells total number of objects, bottom rectangle is split into two sections that adjust based on size of addends."
@@ -3916,6 +3916,9 @@
         "answerChoices": {
           "value": "{ $challengeType ->\n  [ leftAddend ] Left Addend Choices\n  [ rightAddend ] Right Addend Choices\n  *[ total ] Sum Choices\n}"
         },
+        "challengeType": {
+          "value": "{ $challengeType ->\n  [ leftAddend ] left addend\n  [ rightAddend ] right addend\n  *[ total ] sum\n}"
+        },
         "accessibleChallengePromptFinalSentence": {
           "value": "Find missing\n  { $addendOrSum ->\n      [addend] addend\n     *[sum] sum\n} to solve challenge. Select an answer from { a11y_gameScreen_answerChoices }. Count, organize, or hide kittens in Challenge Supports if needed."
         },
@@ -4022,7 +4025,7 @@
         },
         "responses": {
           "answerSelected": {
-            "value": " {$value} chosen for answer."
+            "value": "{$value} chosen for { a11y_gameScreen_challengeType }. \n   { $representationType ->\n     [kittens] {$value} kittens added to Counting Area.\n    *[numberLine] Addend now {$value} on number line.\n   }"
           },
           "answerCleared": {
             "value": "Answer cleared."
