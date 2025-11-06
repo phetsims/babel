@@ -3502,12 +3502,6 @@
         "leadingParagraph": {
           "value": "{ $totalVisible ->\n[hidden] Total is hidden\n*[shown] { $total ->\n    [1] Counting area has 1 total { $item }\n    *[other] Counting area has { $total } total { $items }\n  }\n}"
         },
-        "numberBondLeadingParagraph": {
-          "value": "Number bond has { $total } in top circle"
-        },
-        "barModelLeadingParagraph": {
-          "value": "Bar model has { $total } in top rectangle"
-        },
         "leftSideListItemPattern": {
           "value": "{ $value } on left side"
         },
@@ -3526,17 +3520,8 @@
         "blueListItemPattern": {
           "value": "{ $value } blue"
         },
-        "leftCircleListItemPattern": {
-          "value": "{ $value } in left circle"
-        },
-        "rightCircleListItemPattern": {
-          "value": "{ $value } in right circle"
-        },
         "addendValueHidden": {
           "value": "some"
-        },
-        "totalValueHidden": {
-          "value": "hidden"
         }
       },
       "equationAccordionBox": {
@@ -3610,9 +3595,6 @@
         },
         "rightAddendBead": {
           "value": "Blue Bead"
-        },
-        "accessibleHelpText": {
-          "value": "Counting area with grabbable and movable beads."
         },
         "contextResponse": {
           "value": "{ $grabbedOrReleased ->\n  [ grabbed ]  Grabbed\n *[ released ] Released\n}, { $side -> \n  [left] left\n *[right] right\n} of divider."
@@ -3696,9 +3678,6 @@
         }
       },
       "controls": {
-        "accessibleHeading": {
-          "value": "Counting Area Controls"
-        },
         "phrase": {
           "accessibleHelpTextCollapsed": {
             "value": "{ $screenType ->\n     [ sumScreen ] Phrase describes the sum equation.\n     *[ other ] Phrase tells how total is decomposed.\n }"
@@ -3809,26 +3788,6 @@
           },
           "accessibleContextResponseOff": {
             "value": "contents visible"
-          }
-        },
-        "showAddends": {
-          "accessibleName": {
-            "value": "Show addends"
-          }
-        },
-        "hideAddends": {
-          "accessibleName": {
-            "value": "Hide addends"
-          }
-        },
-        "leftObjects": {
-          "accessibleName": {
-            "value": "Yellow Objects"
-          }
-        },
-        "rightObjects": {
-          "accessibleName": {
-            "value": "Blue Objects"
           }
         },
         "countingObjectControl": {
