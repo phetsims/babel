@@ -3541,7 +3541,7 @@
       },
       "equationAccordionBox": {
         "accessibleHelpTextCollapsed": {
-          "value": "View decomposition equation."
+          "value": "{ $screenType ->\n  *[ other ] View decomposition equation.\n   [ sumScreen ] View sum equation.\n}"
         }
       },
       "representationType": {
@@ -3734,10 +3734,10 @@
             "value": "Represent decomposition as a { $representation }."
           },
           "numberBondAccessibleParagraph": {
-            "value": "{ $screenType ->\n  [sumScreen] Number bond has three circles arranged with two circles on top and one underneath like a triangle. Top circles tell the addends. Left circle is left addend, right circle is right addend. Bottom circle is total. \n *[other] Number bond has three circles arranged with one circle on top and two underneath like a triangle. Bottom circles tell the addends. Top circle tells total number of objects, left circle is left addend, right circle is right addend.\n}"
+            "value": "{ $screenType ->\n  [sumScreen] Number bond has three circles arranged with two on top and one underneath like a triangle. Top circles tell the addends. Left circle is left addend, right circle is right addend. Bottom circle is total. \n *[other] Number bond has three circles arranged with one circle on top and two underneath like a triangle. Bottom circles tell the addends. Top circle tells total number of objects, left circle is left addend, right circle is right addend.\n}"
           },
           "currentNumberBondStateAccessibleParagraph": {
-            "value": "{ $screenType ->\n  *[ other ] Right now, { $total } in top circle. { $left } in left circle, { $right } in right circle.\n   [ sumScreen ] Right now, { $left } in left circle, { $right } in right circle, \n    { $totalView ->\n       [shown] { $total } in bottom circle.\n      *[hidden] total hidden from bottom circle.\n    }\n}"
+            "value": "{ $screenType ->\n  *[ other ] Right now, { $total } in top circle. { $left } in left circle, { $right } in right circle.\n   [ sumScreen ] Right now, { $left } in left circle, { $right } in right circle, \n    { $totalView ->\n       [shown] { $total } in bottom circle.\n      *[hidden] total hidden in bottom circle.\n    }\n}"
           },
           "barModelAccessibleParagraph": {
             "value": "{ $screenType ->\n  *[other] Two matching rectangles are stacked on top of each other. Top rectangle is not split and tells total number of objects, bottom rectangle is split by addends, showing two sections that adjust based on value of addends.\n   [sumScreen] Two matching rectangles are stacked on top of each other. Top rectangle is split by addends, showing two sections that adjust based on value of addends. Bottom rectangle is not split and tells the sum of two addends, also called the total.\n}"
@@ -4031,7 +4031,7 @@
             "value": "Answer cleared."
           },
           "correctAnswer": {
-            "value": "{ $levelType ->\n  *[decomposition] Correct. { $total } can be decomposed into { $leftAddend } and { $rightAddend }.\n  [sum] Correct. { $leftAddend } plus { $rightAddend } equals { $total }.\n}"
+            "value": "{ $levelType ->\n  *[decomposition] Correct. { $total } can be decomposed into { $leftAddend } and { $rightAddend }.\n  [sum] Correct! { $leftAddend } plus { $rightAddend } equals { $total }. Nice work.\n}"
           },
           "incorrectAnswer": {
             "value": "{ $levelType ->\n  *[decomposition] Not quite. { $total } cannot be decomposed into { $leftAddend } and { $rightAddend }. Try again.\n  [sum] Not quite. { $leftAddend } plus { $rightAddend } does not equal { $total }. Try again.\n}"
