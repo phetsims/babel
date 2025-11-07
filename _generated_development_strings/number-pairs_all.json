@@ -3390,8 +3390,11 @@
       },
       "tenOrTwentyScreen": {
         "screenSummary": {
+          "playAreaEndSentence": {
+            "value": "A decomposition phrase, { $numberBarOrBarModel }, and equation represent how total is broken  apart into two addends. Additionally, choose any total from 0 to 10, automatically organize  objects, or swap addends."
+          },
           "playArea": {
-            "value": "{ $representationType ->\n  [numberLine] There is a number line showing total as a green line broken into two sections, yellow on left and blue \n  on right. A movable knob changes how total is broken apart by changing lengths of yellow and blue sections.\n  [beads] There are movable yellow and blue beads you can slide along a wire to organize or change color to change how \n  total is broken apart.\n  [kittens] There are freely movable yellow and blue kittens you can organize or change color to change how total is broken apart.\n *[location] { a11y_playAreaIntroSentence }\n} A decomposition phrase, { $numberBarOrBarModel }, and equation  represent how total is broken apart into two addends. Additionally, choose any total from 0 to 10,  automatically organize objects, or swap addends."
+            "value": "{ $representationType ->\n  [numberLine] There is a number line showing total as a green line broken into two sections, yellow on left and blue on right. A movable knob changes how total is broken apart by changing lengths of yellow and blue sections. { a11y_tenOrTwentyScreen_screenSummary_playAreaEndSentence }\n  [beads] There are movable yellow and blue beads you can slide along a wire to organize or change color to change how total is broken apart. { a11y_tenOrTwentyScreen_screenSummary_playAreaEndSentence }\n  [kittens] There are freely movable yellow and blue kittens you can organize or change color to change how total is broken apart. { a11y_tenOrTwentyScreen_screenSummary_playAreaEndSentence }\n  *[location] { a11y_playAreaIntroSentence } { a11y_tenOrTwentyScreen_screenSummary_playAreaEndSentence }\n}"
           },
           "controlArea": {
             "value": "{ a11y_introScreen_screenSummary_controlArea }"
