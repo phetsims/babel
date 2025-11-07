@@ -3413,7 +3413,10 @@
       "sumScreen": {
         "screenSummary": {
           "playArea": {
-            "value": "{ $representationType ->\n    [numberLine] Total is shown on number line with a green line broken into two sections, yellow on left and blue on right.\n     A movable knob changes how total is broken apart by changing lengths of yellow and blue sections. Number spinners add or remove \n     one from yellow or blue section.\n   *[other] There are yellow and blue { $representation } you can move to organize or change color to find different ways to create a total number\n   of { $representation }.\n} An addition phrase, { a11y_numberBondOrBarModel }, and equation represent how two numbers add to total. Additionally, create totals from 0 to 20,\n automatically organize objects, or swap addends."
+            "value": "{ $representationType ->\n  [numberLine] Total is shown on number line with a green line broken into two sections, yellow on left and blue \n               on right. movable knob changes how total is broken apart by changing lengths of yellow and blue \n               sections. Number spinners add or remove one from yellow or blue section. { a11y_sumScreen_screenSummary_playAreaEndSentence }\n  *[other] There are yellow and blue { $representation } you can move to organize or change color to find \n           different ways to create a total number of { $representation }. { a11y_sumScreen_screenSummary_playAreaEndSentence }\n}"
+          },
+          "playAreaEndSentence": {
+            "value": "An addition phrase, { a11y_numberBondOrBarModel }, and equation represent how two numbers \n  add to total. Additionally, create totals from 0 to 20, automatically organize objects, or swap addends."
           },
           "controlArea": {
             "value": "{ a11y_introScreen_screenSummary_controlArea }"
