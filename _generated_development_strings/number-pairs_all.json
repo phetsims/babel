@@ -3367,7 +3367,7 @@
       "introScreen": {
         "screenSummary": {
           "playArea": {
-            "value": "{ a11y_playAreaIntroSentence } A decomposition phrase and a   { $numberBarOrBarModel} represent the total number broken apart into two addends. Additionally, choose any total from 0 to 10, automatically organize objects into rows, or swap addends."
+            "value": "{ a11y_playAreaIntroSentence } A decomposition phrase and a   { $numberBondOrBarModel} represent the total number broken apart into two addends. Additionally, choose any total from 0 to 10, automatically organize objects into rows, or swap addends."
           },
           "controlArea": {
             "value": "Reset the sim to start over."
@@ -3391,7 +3391,7 @@
       "tenOrTwentyScreen": {
         "screenSummary": {
           "playAreaEndSentence": {
-            "value": "A decomposition phrase, { $numberBarOrBarModel }, and equation represent how total is broken  apart into two addends. Additionally, choose any total from 0 to 10, automatically organize  objects, or swap addends."
+            "value": "A decomposition phrase, { $numberBondOrBarModel }, and equation represent how total is broken  apart into two addends. Additionally, choose any total from 0 to 10, automatically organize  objects, or swap addends."
           },
           "playArea": {
             "value": "{ $representationType ->\n  [numberLine] There is a number line showing total as a green line broken into two sections, yellow on left and blue on right. A movable knob changes how total is broken apart by changing lengths of yellow and blue sections. { a11y_tenOrTwentyScreen_screenSummary_playAreaEndSentence }\n  [beads] There are movable yellow and blue beads you can slide along a wire to organize or change color to change how total is broken apart. { a11y_tenOrTwentyScreen_screenSummary_playAreaEndSentence }\n  [kittens] There are freely movable yellow and blue kittens you can organize or change color to change how total is broken apart. { a11y_tenOrTwentyScreen_screenSummary_playAreaEndSentence }\n  *[location] { a11y_playAreaIntroSentence } { a11y_tenOrTwentyScreen_screenSummary_playAreaEndSentence }\n}"
@@ -3410,7 +3410,7 @@
       "sumScreen": {
         "screenSummary": {
           "playArea": {
-            "value": "{ $representationType ->\n    [numberLine] Total is shown on number line with a green line broken into two sections, yellow on left and blue on right.\n     A movable knob changes how total is broken apart by changing lengths of yellow and blue sections. Number spinners add or remove \n     one from yellow or blue section.\n   *[other] There are yellow and blue { $representation } you can move to organize or change color to find different ways to create a total number\n   of { $representation }.\n} An addition phrase, { $numberBarOrBarModel }, and equation represent how two numbers add to total. Additionally, create totals from 0 to 20,\n automatically organize objects, or swap addends."
+            "value": "{ $representationType ->\n    [numberLine] Total is shown on number line with a green line broken into two sections, yellow on left and blue on right.\n     A movable knob changes how total is broken apart by changing lengths of yellow and blue sections. Number spinners add or remove \n     one from yellow or blue section.\n   *[other] There are yellow and blue { $representation } you can move to organize or change color to find different ways to create a total number\n   of { $representation }.\n} An addition phrase, { $numberBondOrBarModel }, and equation represent how two numbers add to total. Additionally, create totals from 0 to 20,\n automatically organize objects, or swap addends."
           },
           "controlArea": {
             "value": "{ a11y_introScreen_screenSummary_controlArea }"
@@ -3713,7 +3713,7 @@
             "value": "proportional bar model"
           },
           "accessibleHelpText": {
-            "value": "Represent decomposition as a { $representation }."
+            "value": "Represent decomposition as a { $numberBondOrBarModel }."
           },
           "numberBondAccessibleParagraph": {
             "value": "{ $screenType ->\n  [sumScreen] Number bond has three circles arranged with two on top and one underneath like a triangle. Top circles tell the addends. Left circle is left addend, right circle is right addend. Bottom circle is total. \n *[other] Number bond has three circles arranged with one circle on top and two underneath like a triangle. Bottom circles tell the addends. Top circle tells total number of objects, left circle is left addend, right circle is right addend.\n}"
@@ -3776,7 +3776,7 @@
             "value": "Counting Area Visibility"
           },
           "accessibleHelpTextPattern": {
-            "value": "Show or hide counting area and both addends in { $modelRepresentation }."
+            "value": "Show or hide counting area and both addends in { $numberBondOrBarModel }."
           }
         },
         "addendVisibleButton": {
@@ -3784,7 +3784,7 @@
             "value": "{ $addend } Counting Area Visibility"
           },
           "accessibleHelpTextPattern": {
-            "value": "Show or hide { $addend } counting area and { $addend } addend in { $modelRepresentation }."
+            "value": "Show or hide { $addend } counting area and { $addend } addend in { $numberBondOrBarModel }."
           },
           "accessibleContextResponseOn": {
             "value": "contents hidden"
@@ -3910,7 +3910,7 @@
         },
         "level1": {
           "accessibleHelpText": {
-            "value": "Find a missing addend in a { $numberModelType } with total between 2 and 10."
+            "value": "Find a missing addend in a { $numberBondOrBarModel } with total between 2 and 10."
           },
           "accessibleChallengePrompt": {
             "value": "{ a11y_gameScreen_decompositionChallengePrompt }"
@@ -3918,7 +3918,7 @@
         },
         "level2": {
           "accessibleHelpText": {
-            "value": "Find a missing addend in a { $numberModelType } with total always 10."
+            "value": "Find a missing addend in a { $numberBondOrBarModel } with total always 10."
           },
           "accessibleChallengePrompt": {
             "value": "{ a11y_gameScreen_decompositionChallengePrompt }"
@@ -3942,7 +3942,7 @@
         },
         "level5": {
           "accessibleHelpText": {
-            "value": "Find a missing addend in a { $numberModelType } with total between 11 and 20."
+            "value": "Find a missing addend in a { $numberBondOrBarModel } with total between 11 and 20."
           },
           "accessibleChallengePrompt": {
             "value": "{ a11y_gameScreen_decompositionChallengePrompt }"
