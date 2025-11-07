@@ -3876,16 +3876,16 @@
           "value": "what number"
         },
         "decompositionChallengePrompt": {
-          "value": "{ $total } can be decomposed into { $leftAddend } and { $rightAddend }? { a11y_gameScreen__accessibleChallengePromptFinalSentence }"
+          "value": "{ $total } can be decomposed into { $leftAddend } and { $rightAddend }? { a11y_gameScreen_accessibleChallengePromptFinalSentence }"
         },
         "challengeSumPrompt": {
-          "value": "{ $leftAddend } plus { $rightAddend } equals { $total }? { a11y_gameScreen__accessibleChallengePromptFinalSentence }"
+          "value": "{ $leftAddend } plus { $rightAddend } equals { $total }? { a11y_gameScreen_accessibleChallengePromptFinalSentence }"
         },
-        "_addendOrSum": {
+        "addendOrSum": {
           "value": "{ $addendOrSum ->\n  [addend] addend\n  *[sum] sum\n}"
         },
-        "_accessibleChallengePromptFinalSentence": {
-          "value": "Find missing { a11y_gameScreen__addendOrSum } to solve challenge. Select an \n  answer from { a11y_gameScreen_answerChoices }. Count, organize, or hide \n  kittens in Challenge Supports if needed."
+        "accessibleChallengePromptFinalSentence": {
+          "value": "Find missing { a11y_gameScreen_addendOrSum } to solve challenge. Select an \n  answer from { a11y_gameScreen_answerChoices }. Count, organize, or hide \n  kittens in Challenge Supports if needed."
         },
         "testCurrentAnswerSection": {
           "accessibleHeading": {
