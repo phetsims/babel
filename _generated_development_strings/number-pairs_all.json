@@ -3731,7 +3731,7 @@
             "value": "{ $screenType ->\n  [other] Two matching rectangles are stacked on top of each other. Top rectangle is not split and tells total number of objects, bottom rectangle is split by addends, showing two sections that adjust based on value of addends.\n  *[sumScreen] Two matching rectangles are stacked on top of each other. Top rectangle is split by addends, showing two sections that adjust based on value of addends. Bottom rectangle is not split and tells the sum of two addends, also called the total.\n}"
           },
           "currentBarModelStateAccessibleParagraph": {
-            "value": "{ $screenType ->\n  [other] Right now, { $total } in top rectangle. { $left } and { $right } in bottom rectangle, split into { $proportions } sections.\n  *[sumScreen] Right now, { $left } and { $right } top rectangle, split into { $proportions } sections.\n                 { $totalView ->\n                      [shown] { $total } in bottom rectangle.\n                     *[hidden] Total hidden from bottom rectangle.\n               }\n}"
+            "value": "{ $screenType ->\n  [other] Right now, { $total } in top rectangle. { $left } and { $right } in bottom rectangle, split into { $proportions } sections.\n  *[sumScreen] { $totalView ->\n                 [shown] Right now, { $left } and { $right } top rectangle, split into { $proportions } sections. { $total } in bottom rectangle.\n                 *[hidden] Right now, { $left } and { $right } top rectangle, split into { $proportions } sections. Total hidden from bottom rectangle.\n               }\n}"
           },
           "largerAndSmaller": {
             "value": "larger and smaller"
