@@ -4004,7 +4004,7 @@
         },
         "responses": {
           "answerSelected": {
-            "value": "{$value} chosen for { a11y_gameScreen_challengeType }. \n   { $representationType ->\n     [kittens] {$value} kittens added to Counting Area.\n    *[numberLine] Addend now {$value} on number line.\n   }"
+            "value": "{ $representationType ->\n  [kittens] {$value} chosen for { a11y_gameScreen_challengeType }. {$value} kittens added to Counting Area.\n  *[numberLine] {$value} chosen for { a11y_gameScreen_challengeType }. Addend now {$value} on number line.\n}"
           },
           "answerCleared": {
             "value": "Answer cleared."
