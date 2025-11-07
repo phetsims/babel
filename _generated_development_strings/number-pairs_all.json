@@ -3458,7 +3458,7 @@
           "value": "Use arrows or W, A, S, D keys to navigate and choose { $item } to move. Space or enter to grab or release."
         },
         "grabbedHelpTextPattern": {
-          "value": "{ $representationType ->\n    [beads]   Move one or more beads to create groups.\n    *[other]  Move { $item } in or between left and right counting areas.\n}"
+          "value": "{ $representationType ->\n  [beads] Move one or more beads to create groups.\n  *[other] Move { $item } in or between left and right counting areas.\n}"
         },
         "grabbedAccessibleResponse": {
           "value": "Grabbed, in { $addend } counting area."
@@ -3506,7 +3506,7 @@
           "value": "Counting Area"
         },
         "leadingParagraph": {
-          "value": "{ $totalVisible ->\n[hidden] Total is hidden\n*[shown] { $total ->\n    [1] Counting area has 1 total { $item }\n    *[other] Counting area has { $total } total { $items }\n  }\n}"
+          "value": "{ $totalVisible ->\n  [hidden] Total is hidden\n  *[shown] { $total ->\n               [1] Counting area has 1 total { $item }\n               *[other] Counting area has { $total } total { $items }\n           }\n}"
         },
         "leftSideListItemPattern": {
           "value": "{ $value } on left side"
@@ -3532,7 +3532,7 @@
       },
       "equationAccordionBox": {
         "accessibleHelpTextCollapsed": {
-          "value": "{ $screenType ->\n  *[ other ] View decomposition equation.\n   [ sumScreen ] View sum equation.\n}"
+          "value": "{ $screenType ->\n  [other] View decomposition equation.\n  *[sumScreen] View sum equation.\n}"
         }
       },
       "representationType": {
@@ -3586,7 +3586,7 @@
           "value": "Change Color"
         },
         "kittenPattern": {
-          "value": "{ $descriptor ->\n    [first] First { $color} Kitten \n    [last] Last { $color } Kitten \n    [only] Only { $color } Kitten \n    *[other] { $color } Kitten\n}"
+          "value": "{ $descriptor ->\n  [first] First { $color} Kitten\n  [last] Last { $color } Kitten\n  [only] Only { $color } Kitten\n  *[other] { $color } Kitten\n}"
         }
       },
       "beads": {
@@ -3603,10 +3603,10 @@
           "value": "Blue Bead"
         },
         "contextResponse": {
-          "value": "{ $grabbedOrReleased ->\n  [ grabbed ]  Grabbed\n *[ released ] Released\n}, { $side -> \n  [left] left\n *[right] right\n} of divider."
+          "value": "{ $grabbedOrReleased ->\n  [grabbed] { $side ->\n              [left] Grabbed, left of divider.\n              *[right] Grabbed, right of divider.\n            }\n  *[released] { $side ->\n                [left] Released, left of divider.\n                *[right] Released, right of divider.\n              }\n}"
         },
         "crossedDividerContextResponse": {
-          "value": "{ $side ->\n  [left] Bead now yellow on left.\n *[right] Bead now blue on right.\n}"
+          "value": "{ $side ->\n  [left] Bead now yellow on left.\n  *[right] Bead now blue on right.\n}"
         }
       },
       "numberLine": {
@@ -3686,7 +3686,7 @@
       "controls": {
         "phrase": {
           "accessibleHelpTextCollapsed": {
-            "value": "{ $screenType ->\n     [ sumScreen ] Phrase describes the sum equation.\n     *[ other ] Phrase tells how total is decomposed.\n }"
+            "value": "{ $screenType ->\n  [sumScreen] Phrase describes the sum equation.\n  *[other] Phrase tells how total is decomposed.\n}"
           }
         },
         "speechSynthesis": {
@@ -3719,16 +3719,16 @@
             "value": "Represent decomposition as a { a11y_numberBondOrBarModel }."
           },
           "numberBondAccessibleParagraph": {
-            "value": "{ $screenType ->\n  [sumScreen] Number bond has three circles arranged with two on top and one underneath like a triangle. Top circles tell the addends. Left circle is left addend, right circle is right addend. Bottom circle is total. \n *[other] Number bond has three circles arranged with one circle on top and two underneath like a triangle. Bottom circles tell the addends. Top circle tells total number of objects, left circle is left addend, right circle is right addend.\n}"
+            "value": "{ $screenType ->\n  [sumScreen] Number bond has three circles arranged with two on top and one underneath like a triangle. Top circles tell the addends. Left circle is left addend, right circle is right addend. Bottom circle is total.\n  *[other] Number bond has three circles arranged with one circle on top and two underneath like a triangle. Bottom circles tell the addends. Top circle tells total number of objects, left circle is left addend, right circle is right addend.\n}"
           },
           "currentNumberBondStateAccessibleParagraph": {
-            "value": "{ $screenType ->\n  *[ other ] Right now, { $total } in top circle. { $left } in left circle, { $right } in right circle.\n   [ sumScreen ] Right now, { $left } in left circle, { $right } in right circle, \n    { $totalView ->\n       [shown] { $total } in bottom circle.\n      *[hidden] total hidden in bottom circle.\n    }\n}"
+            "value": "{ $screenType ->\n  [other] Right now, { $total } in top circle. { $left } in left circle, { $right } in right circle.\n  *[sumScreen] Right now, { $left } in left circle, { $right } in right circle,\n                 { $totalView ->\n                    [shown] { $total } in bottom circle.\n                   *[hidden] total hidden in bottom circle.\n                 }\n}"
           },
           "barModelAccessibleParagraph": {
-            "value": "{ $screenType ->\n  *[other] Two matching rectangles are stacked on top of each other. Top rectangle is not split and tells total number of objects, bottom rectangle is split by addends, showing two sections that adjust based on value of addends.\n   [sumScreen] Two matching rectangles are stacked on top of each other. Top rectangle is split by addends, showing two sections that adjust based on value of addends. Bottom rectangle is not split and tells the sum of two addends, also called the total.\n}"
+            "value": "{ $screenType ->\n  [other] Two matching rectangles are stacked on top of each other. Top rectangle is not split and tells total number of objects, bottom rectangle is split by addends, showing two sections that adjust based on value of addends.\n  *[sumScreen] Two matching rectangles are stacked on top of each other. Top rectangle is split by addends, showing two sections that adjust based on value of addends. Bottom rectangle is not split and tells the sum of two addends, also called the total.\n}"
           },
           "currentBarModelStateAccessibleParagraph": {
-            "value": "{ $screenType ->\n*[ other ] Right now, { $total } in top rectangle. { $left } and { $right } in bottom rectangle, split into { $proportions } sections.\n [ sumScreen ] Right now, { $left } and { $right } top rectangle, split into { $proportions } sections. \n       { $totalView ->\n            [shown] { $total } in bottom rectangle.\n           *[hidden] Total hidden from bottom rectangle.\n }\n}"
+            "value": "{ $screenType ->\n  [other] Right now, { $total } in top rectangle. { $left } and { $right } in bottom rectangle, split into { $proportions } sections.\n  *[sumScreen] Right now, { $left } and { $right } top rectangle, split into { $proportions } sections.\n                 { $totalView ->\n                      [shown] { $total } in bottom rectangle.\n                     *[hidden] Total hidden from bottom rectangle.\n               }\n}"
           },
           "largerAndSmaller": {
             "value": "larger and smaller"
@@ -3754,7 +3754,7 @@
             "value": "Two arrays separated by color"
           },
           "accessibleContextResponse": {
-            "value": "{ $representationType ->\n[kittens]   { $distribution }, kittens in rows.\n[beads]     Divider separates groups by color.\n*[other]    Left and right counting areas organized into rows.\n}"
+            "value": "{ $representationType ->\n  [kittens] { $distribution }, kittens in rows.\n  [beads] Divider separates groups by color.\n  *[other] Left and right counting areas organized into rows.\n}"
           },
           "accessibleContextResponseGameCombined": {
             "value": "One array with combined colors, kittens in rows."
@@ -3771,7 +3771,7 @@
             "value": "Switches left and right addends."
           },
           "accessibleContextResponse": {
-            "value": "{ $representationType ->\n  [attribute] { $leftAddend } yellow, { $rightAddend } blue.\n  [numberLine]   { $leftAddend } in yellow section, { $rightAddend } in blue section.\n  *[other]  { $leftAddend } on left, { $rightAddend } on right.\n}"
+            "value": "{ $representationType ->\n  [attribute] { $leftAddend } yellow, { $rightAddend } blue.\n  [numberLine] { $leftAddend } in yellow section, { $rightAddend } in blue section.\n  *[other] { $leftAddend } on left, { $rightAddend } on right.\n}"
           }
         },
         "bothAddendsVisibleButton": {
@@ -3798,16 +3798,16 @@
         },
         "countingObjectControl": {
           "accessibleName": {
-            "value": "{ $representationType ->\n  [kittens] { $color } Kitten\n  [beads]   { $color } Bead\n  *[other]  { $color } Section\n}"
+            "value": "{ $representationType ->\n  [kittens] { $color } Kitten\n  [beads] { $color } Bead\n  *[other] { $color } Section\n}"
           },
           "accessibleHelpText": {
-            "value": "{ $representationType ->\n  [kittens] Add or remove one { $color } kitten.\n  [beads]   Add or remove one { $color } bead.\n  *[other]  Add or remove one from { $addend } section.\n}"
+            "value": "{ $representationType ->\n  [kittens] Add or remove one { $color } kitten.\n  [beads] Add or remove one { $color } bead.\n  *[other] Add or remove one from { $addend } section.\n}"
           },
           "incrementContextResponse": {
-            "value": "{ $representationType ->\n  [kittens] One { $color } kitten added to counting area.\n  [beads]   One { $color } bead added to counting area.\n  *[other]  One added to { $addend } section of total.\n}"
+            "value": "{ $representationType ->\n  [kittens] One { $color } kitten added to counting area.\n  [beads] One { $color } bead added to counting area.\n  *[other] One added to { $addend } section of total.\n}"
           },
           "decrementContextResponse": {
-            "value": "{ $representationType ->\n  [kittens] One { $color } kitten removed from counting area.\n  [beads]   One { $color } bead removed from counting area.\n  *[other]  One removed from { $addend } section of total.\n}"
+            "value": "{ $representationType ->\n  [kittens] One { $color } kitten removed from counting area.\n  [beads] One { $color } bead removed from counting area.\n  *[other] One removed from { $addend } section of total.\n}"
           }
         },
         "countFromZeroSwitch": {
@@ -4010,7 +4010,7 @@
             "value": "{ $levelType ->\n  [decomposition] Not quite. { $total } cannot be decomposed into { $leftAddend } and { $rightAddend }. Try again.\n  *[sum] Not quite. { $leftAddend } plus { $rightAddend } does not equal { $total }. Try again.\n}"
           },
           "correctAnswerOnFirstTry": {
-            "value": "{ $levelType ->\n  [sum] Correct. { $leftAddend } plus { $rightAddend } equals { $total }.\n  *[decomposition] Correct. { $total } can be decomposed into { $leftAddend } and { $rightAddend }. \n}\n{ $score ->\n  [1] 1 star!\n  *[other] { $score } stars!\n}"
+            "value": "{ $levelType ->\n  [sum] Correct. { $leftAddend } plus { $rightAddend } equals { $total }.\n  *[decomposition] Correct. { $total } can be decomposed into { $leftAddend } and { $rightAddend }. \n}\n{ $score ->\n[1] 1 star!\n*[other] { $score } stars!\n}"
           }
         },
         "resetChallengeButton": {
