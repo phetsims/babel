@@ -3870,19 +3870,27 @@
           "value": "what number"
         },
         "decompositionChallengePrompt": {
-          "value": "{ $total } can be decomposed into { $leftAddend } and { $rightAddend }? { a11y_gameScreen_accessibleChallengePromptFinalSentence }"
+          "value": "{ $total } can be decomposed into { $leftAddend } and { $rightAddend }? { a11y_gameScreen__accessibleChallengePromptFinalSentence }"
         },
         "challengeSumPrompt": {
-          "value": "{ $leftAddend } plus { $rightAddend } equals { $total }? { a11y_gameScreen_accessibleChallengePromptFinalSentence }"
+          "value": "{ $leftAddend } plus { $rightAddend } equals { $total }? { a11y_gameScreen__accessibleChallengePromptFinalSentence }"
+        },
+        "_accessibleChallengePromptFinalSentence": {
+          "value": "Find missing\n  { $addendOrSum ->\n      [addend] addend\n     *[sum] sum\n} to solve challenge. Select an answer from { a11y_gameScreen_answerChoices }. Count, organize, or hide kittens in Challenge Supports if needed."
+        },
+        "testCurrentAnswerSection": {
+          "accessibleHeading": {
+            "value": "Test Current Answer"
+          },
+          "accessibleParagraph": {
+            "value": "{ $levelType ->\n  [bondBar] Can { $total } be decomposed into { $theirGuess } and { $right }? Press check if ready or choose another number.\n  [decomposition] Does { $total } equal { $left } plus { $theirGuess }? Press check if ready or choose another number.\n  *[sumEquation] Does { $theirGuess } plus { $right } equal { $total }? Press check if ready or choose another number.\n}"
+          }
         },
         "answerChoices": {
           "value": "{ $challengeType ->\n  [leftAddend] Left Addend Choices\n  [rightAddend] Right Addend Choices\n  *[total] Sum Choices\n}"
         },
         "challengeType": {
           "value": "{ $challengeType ->\n  [leftAddend] left addend\n  [rightAddend] right addend\n  *[total] sum\n}"
-        },
-        "accessibleChallengePromptFinalSentence": {
-          "value": "Find missing\n  { $addendOrSum ->\n      [addend] addend\n     *[sum] sum\n} to solve challenge. Select an answer from { a11y_gameScreen_answerChoices }. Count, organize, or hide kittens in Challenge Supports if needed."
         },
         "challengeSupports": {
           "accessibleHeading": {
