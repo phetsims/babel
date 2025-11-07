@@ -3881,8 +3881,11 @@
         "challengeSumPrompt": {
           "value": "{ $leftAddend } plus { $rightAddend } equals { $total }? { a11y_gameScreen__accessibleChallengePromptFinalSentence }"
         },
+        "_addendOrSum": {
+          "value": "{ $addendOrSum ->\n  [addend] addend\n  *[sum] sum\n}"
+        },
         "_accessibleChallengePromptFinalSentence": {
-          "value": "Find missing\n  { $addendOrSum ->\n      [addend] addend\n     *[sum] sum\n} to solve challenge. Select an answer from { a11y_gameScreen_answerChoices }. Count, organize, or hide kittens in Challenge Supports if needed."
+          "value": "Find missing { a11y_gameScreen__addendOrSum } to solve challenge. Select an \n  answer from { a11y_gameScreen_answerChoices }. Count, organize, or hide \n  kittens in Challenge Supports if needed."
         },
         "testCurrentAnswerSection": {
           "accessibleHeading": {
