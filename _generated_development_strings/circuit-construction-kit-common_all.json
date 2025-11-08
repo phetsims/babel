@@ -17688,6 +17688,18 @@
             "value": "{ $currentType ->\n  [electrons] Electron flow hidden in circuit.\n  *[conventional] Conventional current arrows hidden in circuit.\n}"
           }
         },
+        "currentTypeRadioButtonGroup": {
+          "electronsRadioButton": {
+            "accessibleContextResponse": {
+              "value": "Current animation shows electrons moving through the circuit."
+            }
+          },
+          "conventionalRadioButton": {
+            "accessibleContextResponse": {
+              "value": "Current animation shows conventional current arrows."
+            }
+          }
+        },
         "labelsCheckbox": {
           "accessibleContextResponseChecked": {
             "value": "Toolbox labels shown under circuit elements."
@@ -17721,6 +17733,9 @@
           },
           "accessibleHelpText": {
             "value": "Show the circuit elements like they would look in real life."
+          },
+          "accessibleContextResponse": {
+            "value": "Circuit elements displayed with lifelike appearance."
           }
         },
         "schematicRadioButton": {
@@ -17729,6 +17744,9 @@
           },
           "accessibleHelpText": {
             "value": "Show the circuit elements like they would look in a schematic circuit diagram."
+          },
+          "accessibleContextResponse": {
+            "value": "Circuit elements displayed with schematic symbols."
           }
         }
       },
