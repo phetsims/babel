@@ -3610,7 +3610,7 @@
       "value": "Scale and rotate via tip"
     },
     "keyboardHelpDialog.vectorValues": {
-      "value": "Read vector values"
+      "value": "Read values"
     },
     "a11y": {
       "explore1DScreen": {
@@ -3975,8 +3975,11 @@
           "accessibleHelpText": {
             "value": "Move to change position of vector tip."
           },
-          "accessibleObjectResponse": {
+          "accessibleObjectResponseCartesian": {
             "value": "tip at {{tipX}} {{tipY}}"
+          },
+          "accessibleObjectResponsePolar": {
+            "value": "magnitude {{magnitude}}, direction {{angle}} degrees"
           }
         }
       },
@@ -4011,7 +4014,7 @@
             "value": "Scale and rotate via tip with arrow keys or W, A, S, or D keys."
           },
           "vectorValuesDescription": {
-            "value": "Read vector values with V key."
+            "value": "Read values with V key."
           }
         }
       }
