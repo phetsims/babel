@@ -3911,10 +3911,10 @@
             "value": "Show or hide kittens."
           },
           "accessibleContextResponseOff": {
-            "value": "Kittens visible."
+            "value": "{ $levelType ->\n  [kittens] Kittens visible.\n  *[numberLine] Number line visible.\n}"
           },
           "accessibleContextResponseOn": {
-            "value": "Kittens hidden."
+            "value": "{ $levelType ->\n  [kittens] Kittens hidden.\n  *[numberLine] Number line hidden.\n}"
           }
         },
         "level1": {
