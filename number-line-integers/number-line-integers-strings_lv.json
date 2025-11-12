@@ -140,13 +140,20 @@
     ]
   },
   "moneyAmount": {
-    "value": " {{currencyUnit}}{{value}}",
+    "value": "{{currencyUnit}}{{value}}",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1597491190871,
         "oldValue": "",
         "newValue": " {{currencyUnit}}{{value}}",
+        "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1762962254550,
+        "oldValue": " {{currencyUnit}}{{value}}",
+        "newValue": "{{currencyUnit}}{{value}}",
         "explanation": null
       }
     ]
@@ -176,7 +183,7 @@
     ]
   },
   "amountAboveSeaLevel": {
-    "value": " {{value}} m virs jūras līmeņa",
+    "value": "{{value}} m virs jūras līmeņa",
     "history": [
       {
         "userId": 155506,
@@ -184,17 +191,31 @@
         "oldValue": "",
         "newValue": " {{value}} m virs jūras līmeņa",
         "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1762962254550,
+        "oldValue": " {{value}} m virs jūras līmeņa",
+        "newValue": "{{value}} m virs jūras līmeņa",
+        "explanation": null
       }
     ]
   },
   "amountBelowSeaLevel": {
-    "value": " {{value}} m zem jūras līmeņa",
+    "value": "{{value}} m zem jūras līmeņa",
     "history": [
       {
         "userId": 155506,
         "timestamp": 1597491190871,
         "oldValue": "",
         "newValue": " {{value}} m zem jūras līmeņa",
+        "explanation": null
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1762962254550,
+        "oldValue": " {{value}} m zem jūras līmeņa",
+        "newValue": "{{value}} m zem jūras līmeņa",
         "explanation": null
       }
     ]
@@ -392,7 +413,7 @@
     ]
   },
   "positiveTemperatureAmount": {
-    "value": " {{value}}° virs 0",
+    "value": "{{value}}° virs 0",
     "history": [
       {
         "userId": 155506,
@@ -406,6 +427,13 @@
         "timestamp": 1614425228073,
         "oldValue": " {{value}}° zem 0",
         "newValue": " {{value}}° virs 0"
+      },
+      {
+        "userId": 155506,
+        "timestamp": 1762962254550,
+        "oldValue": " {{value}}° virs 0",
+        "newValue": "{{value}}° virs 0",
+        "explanation": null
       }
     ]
   },
