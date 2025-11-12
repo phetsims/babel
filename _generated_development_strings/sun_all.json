@@ -31,6 +31,44 @@
         "combinedNameResponse": {
           "value": "{{groupName}}, {{buttonName}}"
         }
+      },
+      "carousel": {
+        "accessibleRoleDescription": {
+          "value": "Carousel"
+        },
+        "slide": {
+          "accessibleName": {
+            "value": "Slide"
+          },
+          "accessibleRoleDescription": {
+            "value": "Page {{number}}"
+          }
+        },
+        "nextPreviousButtons": {
+          "nextButton": {
+            "accessibleName": {
+              "value": "Next"
+            }
+          },
+          "previousButton": {
+            "accessibleName": {
+              "value": "Previous"
+            }
+          },
+          "accessibleContextResponse": {
+            "value": "{{number}} new items available."
+          }
+        }
+      },
+      "pageControl": {
+        "accessibleName": {
+          "value": "Pagination"
+        },
+        "dotNode": {
+          "accessibleNamePattern": {
+            "value": "Group {{pageNumber}}"
+          }
+        }
       }
     }
   }
