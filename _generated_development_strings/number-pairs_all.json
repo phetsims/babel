@@ -3875,17 +3875,11 @@
         "whatNumber": {
           "value": "what number"
         },
-        "decompositionChallengePrompt": {
-          "value": "{ $total } can be decomposed into { $leftAddend } and { $rightAddend }? { a11y_gameScreen_accessibleChallengePromptFinalSentence }"
+        "challengePrompt": {
+          "value": "{ $challengeType ->\n  [decomposition] { $total } can be decomposed into { $leftAddend } and { $rightAddend }? { a11y_gameScreen_challengePromptHelpText }\n  *[sum] { $leftAddend } plus { $rightAddend } equals { $total }? { a11y_gameScreen_challengePromptHelpText }\n}"
         },
-        "challengeSumPrompt": {
-          "value": "{ $leftAddend } plus { $rightAddend } equals { $total }? { a11y_gameScreen_accessibleChallengePromptFinalSentence }"
-        },
-        "addendOrSum": {
-          "value": "{ $addendOrSum ->\n  [addend] addend\n  *[sum] sum\n}"
-        },
-        "accessibleChallengePromptFinalSentence": {
-          "value": "Find missing { a11y_gameScreen_addendOrSum } to solve challenge. Select an \n  answer from { a11y_gameScreen_answerChoices }. Count, organize, or hide \n  kittens in Challenge Supports if needed."
+        "challengePromptHelpText": {
+          "value": "{ $levelType ->\n  [kittens] { $addendOrSum ->\n              [addend] Choose number for { a11y_gameScreen_challengeType } to add { $color } Kittens. If needed, count, organize, or hide Kittens in Counting Area. Check Answer to submit.\n              *[sum] Choose number for sum of blue and yellow kittens. If needed, count, organize, or hide Kittens in Counting Area. Check Answer to submit.\n            }\n  *[numberLine] Choose number for { a11y_gameScreen_challengeType } to make { $color } jump have that length. Check Answer to submit.\n}"
         },
         "testCurrentAnswerSection": {
           "accessibleHeading": {
@@ -3920,65 +3914,41 @@
         "level1": {
           "accessibleHelpText": {
             "value": "Find a missing addend in a { a11y_numberBondOrBarModel } with total between 2 and 10."
-          },
-          "accessibleChallengePrompt": {
-            "value": "{ a11y_gameScreen_decompositionChallengePrompt }"
           }
         },
         "level2": {
           "accessibleHelpText": {
             "value": "Find a missing addend in a { a11y_numberBondOrBarModel } with total always 10."
-          },
-          "accessibleChallengePrompt": {
-            "value": "{ a11y_gameScreen_decompositionChallengePrompt }"
           }
         },
         "level3": {
           "accessibleHelpText": {
             "value": "Find a missing addend in a decomposition equation with total always 10."
-          },
-          "accessibleChallengePrompt": {
-            "value": "{ a11y_gameScreen_decompositionChallengePrompt }"
           }
         },
         "level4": {
           "accessibleHelpText": {
             "value": "Find a missing addend in a sum equation with total always 10."
-          },
-          "accessibleChallengePrompt": {
-            "value": "{ a11y_gameScreen_challengeSumPrompt }"
           }
         },
         "level5": {
           "accessibleHelpText": {
             "value": "Find a missing addend in a { a11y_numberBondOrBarModel } with total between 11 and 20."
-          },
-          "accessibleChallengePrompt": {
-            "value": "{ a11y_gameScreen_decompositionChallengePrompt }"
           }
         },
         "level6": {
           "accessibleHelpText": {
             "value": "Find a missing addend in a decomposition equation with total between 11 and 20."
-          },
-          "accessibleChallengePrompt": {
-            "value": "{ a11y_gameScreen_decompositionChallengePrompt }"
           }
         },
         "level7": {
           "accessibleHelpText": {
             "value": "Find a missing addend or total in a sum equation with total between 11 and 20."
-          },
-          "accessibleChallengePrompt": {
-            "value": "{ a11y_gameScreen_challengeSumPrompt }"
           }
         },
         "level8": {
           "accessibleHelpText": {
             "value": "Find a missing addend in a sum equation using the number line with total between 0 and 20."
-          },
-          "accessibleChallengePrompt": {
-            "value": "{ a11y_gameScreen_challengeSumPrompt }"
           }
         },
         "answerButton": {
