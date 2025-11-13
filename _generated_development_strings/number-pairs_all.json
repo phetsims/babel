@@ -3878,6 +3878,23 @@
         "challengePromptHelpText": {
           "value": "{ $levelType ->\n  [kittens] { $addendOrSum ->\n              [addend] Choose number for { a11y_gameScreen_challengeType } to add { $color } Kittens. If needed, count, organize, or hide Kittens in Counting Area. Check Answer to submit.\n              *[sum] Choose number for sum of blue and yellow kittens. If needed, count, organize, or hide Kittens in Counting Area. Check Answer to submit.\n            }\n  *[numberLine] Choose number for { a11y_gameScreen_challengeType } to make { $color } jump have that length. Check Answer to submit.\n}"
         },
+        "countingArea": {
+          "accessibleHeading": {
+            "value": "Counting Area"
+          },
+          "numberLineSentence": {
+            "value": "Right now, number line shows a green line representing total, a yellow jump from left edge to dot, and a blue jump from dot to total."
+          },
+          "numberLineAddends": {
+            "value": "{ $leftAddend } is shown above yellow jump representing left addend. {$rightAddend} is shown above grey jump representing { $guess }."
+          },
+          "numberLineTickMarks": {
+            "value": "Dot at { $leftAddend }."
+          },
+          "accessibleParagraph": {
+            "value": "{ $type ->\n  [kittens] Right now, { $leftAddend } Yellow Kittens, { $rightAddend } Blue Kittens in Counting Area.\n  *[numberLine] { $visible ->\n                  [none] { a11y_gameScreen_countingArea_numberLineSentence }\n                  [addends] { a11y_gameScreen_countingArea_numberLineSentence } { a11y_gameScreen_countingArea_numberLineAddends }\n                  [tickMarks] { a11y_gameScreen_countingArea_numberLineSentence } { a11y_gameScreen_countingArea_numberLineTickMarks }\n                  *[both] { a11y_gameScreen_countingArea_numberLineSentence } { a11y_gameScreen_countingArea_numberLineAddends } { a11y_gameScreen_countingArea_numberLineTickMarks }\n                }\n}"
+          }
+        },
         "testCurrentAnswerSection": {
           "accessibleHeading": {
             "value": "Test Current Answer"
