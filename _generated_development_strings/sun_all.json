@@ -34,14 +34,11 @@
       },
       "carousel": {
         "accessibleRoleDescription": {
-          "value": "Carousel"
+          "value": "carousel"
         },
-        "slide": {
+        "page": {
           "accessibleName": {
-            "value": "Slide"
-          },
-          "accessibleRoleDescription": {
-            "value": "Page {{number}}"
+            "value": "Page"
           }
         },
         "nextPreviousButtons": {
@@ -56,7 +53,7 @@
             }
           },
           "accessibleContextResponse": {
-            "value": "{{number}} new items available."
+            "value": "{{number}} more items available."
           }
         }
       },
@@ -66,7 +63,7 @@
         },
         "dotNode": {
           "accessibleNamePattern": {
-            "value": "Group {{pageNumber}}"
+            "value": "Page {{pageNumber}}"
           }
         }
       }
