@@ -166,12 +166,36 @@
       "value": "የተፈጥሮ ምርጫ"
     }
   },
-  "ar_MA": {
-    "screen.intro": {
-      "value": "مقدمة"
+  "ar": {
+    "whiteFur": {
+      "value": "فرو أبيض"
     },
-    "screen.lab": {
-      "value": "مختبر"
+    "brownFur": {
+      "value": "فرو بني"
+    },
+    "floppyEars": {
+      "value": "آذان متدلية"
+    },
+    "straightEars": {
+      "value": "آذان مستقيمة"
+    },
+    "shortTeeth": {
+      "value": "أسنان قصيرة"
+    },
+    "longTeeth": {
+      "value": "أسنان طويلة"
+    },
+    "fur": {
+      "value": "فرو"
+    },
+    "ears": {
+      "value": "آذان"
+    },
+    "teeth": {
+      "value": "أسنان"
+    },
+    "addAMate": {
+      "value": "أضف رفيقاً"
     },
     "addMutations": {
       "value": "أضف الطفرات"
@@ -180,10 +204,10 @@
       "value": "سائد"
     },
     "recessive": {
-      "value": "الصفة الوراثية النادرة"
+      "value": "متنحي"
     },
     "addMutation": {
-      "value": "أضف الطفرة"
+      "value": "إضافة طفرة"
     },
     "allOfTheBunniesHaveDied": {
       "value": "ماتت كل الأرانب."
@@ -194,83 +218,50 @@
     "environmentalFactor": {
       "value": "عامل بيئي"
     },
+    "generationValue": {
+      "value": "جيل {{value}}"
+    },
     "population": {
-      "value": "السكان"
+      "value": "تعداد الارانب"
     },
     "proportions": {
-      "value": "نسب"
+      "value": "النسب"
     },
     "pedigree": {
-      "value": "نسب"
+      "value": "شجرة العائلة"
     },
     "none": {
       "value": "لا شيء"
     },
-    "memoryLimitMessage": {
-      "value": "تهانينا! <br> <br> لقد نجت أعداد الأرانب لديك لفترة كافية <br> لتصل إلى الحد الأقصى لذاكرة المحاكاة."
-    },
-    "bunniesHaveTakenOverTheWorld": {
-      "value": "لقد سيطرت الأرانب على العالم!"
-    },
-    "fur": {
-      "value": "الفرو"
-    },
-    "furDominant": {
-      "value": "F"
-    },
-    "furRecessive": {
-      "value": "f"
-    },
-    "ears": {
-      "value": "آذان"
-    },
-    "earsDominant": {
-      "value": "E"
-    },
-    "earsRecessive": {
-      "value": "e"
-    },
-    "teeth": {
-      "value": "أسنان"
-    },
-    "teethDominant": {
-      "value": "T"
-    },
-    "teethRecessive": {
-      "value": "t"
-    },
-    "whiteFur": {
-      "value": "فرو أبيض"
-    },
-    "brownFur": {
-      "value": "فرو بني "
-    },
-    "floppyEars": {
-      "value": "Floppy Ears"
-    },
-    "straightEars": {
-      "value": "آذان مرنة"
-    },
-    "shortTeeth": {
-      "value": "أسنان قصيرة"
-    },
-    "longTeeth": {
-      "value": "أسنان طويلة"
-    },
     "limitedFood": {
-      "value": "غذاء محدود"
+      "value": "طعام محدود"
+    },
+    "memoryLimitMessage": {
+      "value": "تهانينا! <br> <br> لقد نجت أعداد الأرانب لديك لفترة كافية <br> لتصل إلى الحد الأقصى للذاكرة في المحاكاة."
+    },
+    "mutationComing": {
+      "value": "الطفرة قادمة..."
+    },
+    "play": {
+      "value": "ابدأ"
+    },
+    "startOver": {
+      "value": "ابدأ من جديد"
     },
     "toughFood": {
-      "value": "غذاء صلب"
+      "value": "طعام صلب"
     },
     "wolves": {
       "value": "ذئاب"
     },
-    "generationValue": {
-      "value": "الجيل {{value}}"
+    "bunniesHaveTakenOverTheWorld": {
+      "value": "لقد سيطرت الأرانب على العالم!"
     },
-    "mutationComing": {
-      "value": "طفرة قادمة"
+    "alleles": {
+      "value": "الأليلات"
+    },
+    "selectABunny": {
+      "value": "اختر أرنباً"
     },
     "generation": {
       "value": "جيل"
@@ -284,12 +275,6 @@
     "dataProbe": {
       "value": "مسبار البيانات"
     },
-    "alleles": {
-      "value": "الأليلات"
-    },
-    "selectABunny": {
-      "value": "اختر الأرنب"
-    },
     "startOfGeneration": {
       "value": "بداية الجيل"
     },
@@ -300,25 +285,43 @@
       "value": "لا توجد بيانات"
     },
     "currently": {
-      "value": "في الوقت الحالي"
+      "value": "حاليا"
     },
     "oneBunny": {
       "value": "أرنب واحد"
     },
     "countBunnies": {
-      "value": "{{count}} الأرانب"
+      "value": "{{count}} أرانب"
     },
     "values": {
       "value": "قيم"
     },
-    "addAMate": {
-      "value": "أضف رفيقًا"
+    "screen.intro": {
+      "value": "مقدمة"
     },
-    "play": {
-      "value": "العب"
+    "screen.lab": {
+      "value": "مختبر"
     },
-    "startOver": {
-      "value": "ابدأ من جديد"
+    "natural-selection.title": {
+      "value": "الانتخاب الطبيعي"
+    },
+    "furDominant": {
+      "value": "ف"
+    },
+    "furRecessive": {
+      "value": "ف"
+    },
+    "earsDominant": {
+      "value": "ه"
+    },
+    "earsRecessive": {
+      "value": "ه"
+    },
+    "teethDominant": {
+      "value": "ت"
+    },
+    "teethRecessive": {
+      "value": "ت"
     },
     "greaterThanValuePercent": {
       "value": ">{{value}}%"
@@ -328,9 +331,6 @@
     },
     "valuePercent": {
       "value": "{{value}}%"
-    },
-    "natural-selection.title": {
-      "value": "الانتقاء الطبيعي"
     }
   },
   "ar_LY": {
@@ -500,6 +500,173 @@
       "value": "الانتخاب( الانتخاب الطبيعي )"
     }
   },
+  "ar_MA": {
+    "screen.intro": {
+      "value": "مقدمة"
+    },
+    "screen.lab": {
+      "value": "مختبر"
+    },
+    "addMutations": {
+      "value": "أضف الطفرات"
+    },
+    "dominant": {
+      "value": "سائد"
+    },
+    "recessive": {
+      "value": "الصفة الوراثية النادرة"
+    },
+    "addMutation": {
+      "value": "أضف الطفرة"
+    },
+    "allOfTheBunniesHaveDied": {
+      "value": "ماتت كل الأرانب."
+    },
+    "environmentalFactors": {
+      "value": "عوامل بيئية"
+    },
+    "environmentalFactor": {
+      "value": "عامل بيئي"
+    },
+    "population": {
+      "value": "السكان"
+    },
+    "proportions": {
+      "value": "نسب"
+    },
+    "pedigree": {
+      "value": "نسب"
+    },
+    "none": {
+      "value": "لا شيء"
+    },
+    "memoryLimitMessage": {
+      "value": "تهانينا! <br> <br> لقد نجت أعداد الأرانب لديك لفترة كافية <br> لتصل إلى الحد الأقصى لذاكرة المحاكاة."
+    },
+    "bunniesHaveTakenOverTheWorld": {
+      "value": "لقد سيطرت الأرانب على العالم!"
+    },
+    "fur": {
+      "value": "الفرو"
+    },
+    "furDominant": {
+      "value": "F"
+    },
+    "furRecessive": {
+      "value": "f"
+    },
+    "ears": {
+      "value": "آذان"
+    },
+    "earsDominant": {
+      "value": "E"
+    },
+    "earsRecessive": {
+      "value": "e"
+    },
+    "teeth": {
+      "value": "أسنان"
+    },
+    "teethDominant": {
+      "value": "T"
+    },
+    "teethRecessive": {
+      "value": "t"
+    },
+    "whiteFur": {
+      "value": "فرو أبيض"
+    },
+    "brownFur": {
+      "value": "فرو بني "
+    },
+    "floppyEars": {
+      "value": "Floppy Ears"
+    },
+    "straightEars": {
+      "value": "آذان مرنة"
+    },
+    "shortTeeth": {
+      "value": "أسنان قصيرة"
+    },
+    "longTeeth": {
+      "value": "أسنان طويلة"
+    },
+    "limitedFood": {
+      "value": "غذاء محدود"
+    },
+    "toughFood": {
+      "value": "غذاء صلب"
+    },
+    "wolves": {
+      "value": "ذئاب"
+    },
+    "generationValue": {
+      "value": "الجيل {{value}}"
+    },
+    "mutationComing": {
+      "value": "طفرة قادمة"
+    },
+    "generation": {
+      "value": "جيل"
+    },
+    "zoomOutToSeeData": {
+      "value": "تصغير لرؤية البيانات."
+    },
+    "total": {
+      "value": "المجموع"
+    },
+    "dataProbe": {
+      "value": "مسبار البيانات"
+    },
+    "alleles": {
+      "value": "الأليلات"
+    },
+    "selectABunny": {
+      "value": "اختر الأرنب"
+    },
+    "startOfGeneration": {
+      "value": "بداية الجيل"
+    },
+    "endOfGeneration": {
+      "value": "نهاية الجيل"
+    },
+    "noData": {
+      "value": "لا توجد بيانات"
+    },
+    "currently": {
+      "value": "في الوقت الحالي"
+    },
+    "oneBunny": {
+      "value": "أرنب واحد"
+    },
+    "countBunnies": {
+      "value": "{{count}} الأرانب"
+    },
+    "values": {
+      "value": "قيم"
+    },
+    "addAMate": {
+      "value": "أضف رفيقًا"
+    },
+    "play": {
+      "value": "العب"
+    },
+    "startOver": {
+      "value": "ابدأ من جديد"
+    },
+    "greaterThanValuePercent": {
+      "value": ">{{value}}%"
+    },
+    "lessThanValuePercent": {
+      "value": "<{{value}}%"
+    },
+    "valuePercent": {
+      "value": "{{value}}%"
+    },
+    "natural-selection.title": {
+      "value": "الانتقاء الطبيعي"
+    }
+  },
   "ar_SA": {
     "screen.intro": {
       "value": "المقدمة"
@@ -667,162 +834,162 @@
       "value": "الانتقاء الطبيعي"
     }
   },
-  "ar": {
-    "whiteFur": {
-      "value": "فرو أبيض"
-    },
-    "brownFur": {
-      "value": "فرو بني"
-    },
-    "floppyEars": {
-      "value": "آذان متدلية"
-    },
-    "straightEars": {
-      "value": "آذان مستقيمة"
-    },
-    "shortTeeth": {
-      "value": "أسنان قصيرة"
-    },
-    "longTeeth": {
-      "value": "أسنان طويلة"
-    },
-    "fur": {
-      "value": "فرو"
-    },
-    "ears": {
-      "value": "آذان"
-    },
-    "teeth": {
-      "value": "أسنان"
-    },
-    "addAMate": {
-      "value": "أضف رفيقاً"
-    },
-    "addMutations": {
-      "value": "أضف الطفرات"
-    },
-    "dominant": {
-      "value": "سائد"
-    },
-    "recessive": {
-      "value": "متنحي"
-    },
-    "addMutation": {
-      "value": "إضافة طفرة"
-    },
-    "allOfTheBunniesHaveDied": {
-      "value": "ماتت كل الأرانب."
-    },
-    "environmentalFactors": {
-      "value": "عوامل بيئية"
-    },
-    "environmentalFactor": {
-      "value": "عامل بيئي"
-    },
-    "generationValue": {
-      "value": "جيل {{value}}"
-    },
-    "population": {
-      "value": "تعداد الارانب"
-    },
-    "proportions": {
-      "value": "النسب"
-    },
-    "pedigree": {
-      "value": "شجرة العائلة"
-    },
-    "none": {
-      "value": "لا شيء"
-    },
-    "limitedFood": {
-      "value": "طعام محدود"
-    },
-    "memoryLimitMessage": {
-      "value": "تهانينا! <br> <br> لقد نجت أعداد الأرانب لديك لفترة كافية <br> لتصل إلى الحد الأقصى للذاكرة في المحاكاة."
-    },
+  "az": {
     "mutationComing": {
-      "value": "الطفرة قادمة..."
-    },
-    "play": {
-      "value": "ابدأ"
-    },
-    "startOver": {
-      "value": "ابدأ من جديد"
-    },
-    "toughFood": {
-      "value": "طعام صلب"
-    },
-    "wolves": {
-      "value": "ذئاب"
-    },
-    "bunniesHaveTakenOverTheWorld": {
-      "value": "لقد سيطرت الأرانب على العالم!"
+      "value": "Mutasiyaya Uğrayır..."
     },
     "alleles": {
-      "value": "الأليلات"
+      "value": "Allellər"
     },
     "selectABunny": {
-      "value": "اختر أرنباً"
+      "value": "Dovşan Seçin"
     },
     "generation": {
-      "value": "جيل"
+      "value": "Nəsil"
     },
     "zoomOutToSeeData": {
-      "value": "تصغير لرؤية البيانات."
-    },
-    "total": {
-      "value": "المجموع"
+      "value": "Datanı görmək üçün kiçildin"
     },
     "dataProbe": {
-      "value": "مسبار البيانات"
+      "value": "Datanı Araşdır"
     },
     "startOfGeneration": {
-      "value": "بداية الجيل"
+      "value": "Nəslin Başlanğıcı"
     },
     "endOfGeneration": {
-      "value": "نهاية الجيل"
+      "value": "Nəslin Sonu"
     },
     "noData": {
-      "value": "لا توجد بيانات"
+      "value": "Data Yoxdur"
     },
     "currently": {
-      "value": "حاليا"
+      "value": "Hal-hazırda"
     },
     "oneBunny": {
-      "value": "أرنب واحد"
+      "value": "1 dovşan"
     },
     "countBunnies": {
-      "value": "{{count}} أرانب"
+      "value": "{{count}} dovşan"
     },
     "values": {
-      "value": "قيم"
+      "value": "Dəyərlər"
     },
-    "screen.intro": {
-      "value": "مقدمة"
+    "addAMate": {
+      "value": "Partnyor Əlavə Et"
     },
-    "screen.lab": {
-      "value": "مختبر"
+    "teeth": {
+      "value": "Dişlər"
     },
-    "natural-selection.title": {
-      "value": "الانتخاب الطبيعي"
+    "proportions": {
+      "value": "Nisbətlər"
     },
-    "furDominant": {
-      "value": "ف"
+    "pedigree": {
+      "value": "Şəcərə"
     },
-    "furRecessive": {
-      "value": "ف"
+    "none": {
+      "value": "Heç biri"
+    },
+    "bunniesHaveTakenOverTheWorld": {
+      "value": "Dovşanlar dünyanı ələ keçirdi!"
+    },
+    "whiteFur": {
+      "value": "Ağ Xəz"
+    },
+    "brownFur": {
+      "value": "Qəhvəyi Xəz"
+    },
+    "floppyEars": {
+      "value": "Sallaq Qulaqlar"
+    },
+    "straightEars": {
+      "value": "Dik Qulaqlar"
+    },
+    "shortTeeth": {
+      "value": "Qısa Dişlər"
+    },
+    "longTeeth": {
+      "value": "Uzun Dişlər"
     },
     "earsDominant": {
-      "value": "ه"
+      "value": "E"
     },
     "earsRecessive": {
-      "value": "ه"
+      "value": "e"
     },
     "teethDominant": {
-      "value": "ت"
+      "value": "T"
     },
     "teethRecessive": {
-      "value": "ت"
+      "value": "t"
+    },
+    "limitedFood": {
+      "value": "Məhdud Qida"
+    },
+    "toughFood": {
+      "value": "Sərt Qida"
+    },
+    "wolves": {
+      "value": "Canavarlar"
+    },
+    "total": {
+      "value": "Ümumi"
+    },
+    "screen.intro": {
+      "value": "Giriş"
+    },
+    "screen.lab": {
+      "value": "Laboratoriya"
+    },
+    "addMutations": {
+      "value": "Mutasiyalar Əlavə Et"
+    },
+    "dominant": {
+      "value": "Dominant"
+    },
+    "recessive": {
+      "value": "Resessiv"
+    },
+    "addMutation": {
+      "value": "Mutasiya Əlavə Et"
+    },
+    "allOfTheBunniesHaveDied": {
+      "value": "Bütün dovşanlar öldü"
+    },
+    "environmentalFactors": {
+      "value": "Ətraf-mühit Faktorları"
+    },
+    "environmentalFactor": {
+      "value": "Ətraf-mühit Faktoru"
+    },
+    "population": {
+      "value": "Populyasiya"
+    },
+    "memoryLimitMessage": {
+      "value": "Təbriklər!<br><br>Dovşan populyasiyanız simulyasiyanın yaddaş limitinə çatacaq qədər<br>uzun müddət sağ qaldı."
+    },
+    "fur": {
+      "value": "Xəz"
+    },
+    "furDominant": {
+      "value": "F"
+    },
+    "furRecessive": {
+      "value": "f"
+    },
+    "ears": {
+      "value": "Qulaqlar"
+    },
+    "generationValue": {
+      "value": "Nəsil {{value}}"
+    },
+    "natural-selection.title": {
+      "value": "Təbii Seçmə"
+    },
+    "play": {
+      "value": "Oyna"
+    },
+    "startOver": {
+      "value": "Yenidən Başla"
     },
     "greaterThanValuePercent": {
       "value": ">{{value}}%"
@@ -832,6 +999,158 @@
     },
     "valuePercent": {
       "value": "{{value}}%"
+    }
+  },
+  "bg": {
+    "screen.intro": {
+      "value": "Въведение"
+    },
+    "screen.lab": {
+      "value": "Лаборатория"
+    },
+    "addMutations": {
+      "value": "Добави мутации"
+    },
+    "dominant": {
+      "value": "Доминантен"
+    },
+    "recessive": {
+      "value": "Рецисивен"
+    },
+    "addMutation": {
+      "value": "Добави мутация"
+    },
+    "allOfTheBunniesHaveDied": {
+      "value": "Всички зайчета са починали."
+    },
+    "environmentalFactors": {
+      "value": "Фактори на околната среда"
+    },
+    "environmentalFactor": {
+      "value": "Фактор на околната среда"
+    },
+    "population": {
+      "value": "Популация"
+    },
+    "proportions": {
+      "value": "Пропорции"
+    },
+    "pedigree": {
+      "value": "Произход"
+    },
+    "none": {
+      "value": "Няма"
+    },
+    "memoryLimitMessage": {
+      "value": "Поздравления!Вашата популация от зайчета оцеля достатъчно дълго, за да достигне ограничението на паметта на симулацията."
+    },
+    "bunniesHaveTakenOverTheWorld": {
+      "value": "Зайчетата превзеха света!"
+    },
+    "whiteFur": {
+      "value": "Бяла козина"
+    },
+    "brownFur": {
+      "value": "Кафява козина"
+    },
+    "floppyEars": {
+      "value": "Увиснали уши"
+    },
+    "straightEars": {
+      "value": "Стърчащи уши"
+    },
+    "shortTeeth": {
+      "value": "Малки зъби"
+    },
+    "longTeeth": {
+      "value": "Големи зъби"
+    },
+    "fur": {
+      "value": "Козина"
+    },
+    "furDominant": {
+      "value": "F"
+    },
+    "furRecessive": {
+      "value": "f"
+    },
+    "ears": {
+      "value": "Уши"
+    },
+    "earsDominant": {
+      "value": "E"
+    },
+    "earsRecessive": {
+      "value": "e"
+    },
+    "teeth": {
+      "value": "Зъби"
+    },
+    "teethDominant": {
+      "value": "T"
+    },
+    "teethRecessive": {
+      "value": "t"
+    },
+    "limitedFood": {
+      "value": "Ограничена храна"
+    },
+    "toughFood": {
+      "value": "Специалитет"
+    },
+    "wolves": {
+      "value": "Вълци"
+    },
+    "mutationComing": {
+      "value": "Наличие на мутация...."
+    },
+    "alleles": {
+      "value": "Алели"
+    },
+    "selectABunny": {
+      "value": "Избери зайче"
+    },
+    "generation": {
+      "value": "Поколение"
+    },
+    "zoomOutToSeeData": {
+      "value": "Намали, за да видиш данните."
+    },
+    "total": {
+      "value": "Общо"
+    },
+    "dataProbe": {
+      "value": "Проучване на данни"
+    },
+    "startOfGeneration": {
+      "value": "Начало на поколението"
+    },
+    "endOfGeneration": {
+      "value": "Край на поколението"
+    },
+    "noData": {
+      "value": "Няма данни"
+    },
+    "currently": {
+      "value": "Понастоящем"
+    },
+    "oneBunny": {
+      "value": "1 зайче"
+    },
+    "values": {
+      "value": "Стойности"
+    },
+    "addAMate": {
+      "value": "Добави помощник"
+    },
+    "play": {
+      "value": "Играй"
+    },
+    "startOver": {
+      "value": "Започни отначало"
+    },
+    "natural-selection.title": {
+      "value": "Естествен подбор"
     }
   },
   "bn": {
@@ -1159,162 +1478,159 @@
       "value": "Prirodna selekcija"
     }
   },
-  "az": {
-    "mutationComing": {
-      "value": "Mutasiyaya Uğrayır..."
-    },
-    "alleles": {
-      "value": "Allellər"
-    },
-    "selectABunny": {
-      "value": "Dovşan Seçin"
-    },
-    "generation": {
-      "value": "Nəsil"
-    },
-    "zoomOutToSeeData": {
-      "value": "Datanı görmək üçün kiçildin"
-    },
-    "dataProbe": {
-      "value": "Datanı Araşdır"
-    },
-    "startOfGeneration": {
-      "value": "Nəslin Başlanğıcı"
-    },
-    "endOfGeneration": {
-      "value": "Nəslin Sonu"
-    },
-    "noData": {
-      "value": "Data Yoxdur"
-    },
-    "currently": {
-      "value": "Hal-hazırda"
-    },
-    "oneBunny": {
-      "value": "1 dovşan"
-    },
-    "countBunnies": {
-      "value": "{{count}} dovşan"
-    },
-    "values": {
-      "value": "Dəyərlər"
-    },
-    "addAMate": {
-      "value": "Partnyor Əlavə Et"
-    },
-    "teeth": {
-      "value": "Dişlər"
-    },
-    "proportions": {
-      "value": "Nisbətlər"
-    },
-    "pedigree": {
-      "value": "Şəcərə"
-    },
-    "none": {
-      "value": "Heç biri"
-    },
-    "bunniesHaveTakenOverTheWorld": {
-      "value": "Dovşanlar dünyanı ələ keçirdi!"
-    },
-    "whiteFur": {
-      "value": "Ağ Xəz"
-    },
-    "brownFur": {
-      "value": "Qəhvəyi Xəz"
-    },
-    "floppyEars": {
-      "value": "Sallaq Qulaqlar"
-    },
-    "straightEars": {
-      "value": "Dik Qulaqlar"
-    },
-    "shortTeeth": {
-      "value": "Qısa Dişlər"
-    },
-    "longTeeth": {
-      "value": "Uzun Dişlər"
-    },
-    "earsDominant": {
-      "value": "E"
-    },
-    "earsRecessive": {
-      "value": "e"
-    },
-    "teethDominant": {
-      "value": "T"
-    },
-    "teethRecessive": {
-      "value": "t"
-    },
-    "limitedFood": {
-      "value": "Məhdud Qida"
-    },
-    "toughFood": {
-      "value": "Sərt Qida"
-    },
-    "wolves": {
-      "value": "Canavarlar"
-    },
-    "total": {
-      "value": "Ümumi"
-    },
+  "ca": {
     "screen.intro": {
-      "value": "Giriş"
+      "value": "Introducció"
     },
     "screen.lab": {
-      "value": "Laboratoriya"
+      "value": "Laboratori"
     },
     "addMutations": {
-      "value": "Mutasiyalar Əlavə Et"
+      "value": "Afegir mutacions"
     },
     "dominant": {
       "value": "Dominant"
     },
     "recessive": {
-      "value": "Resessiv"
+      "value": "Recessiva"
     },
     "addMutation": {
-      "value": "Mutasiya Əlavə Et"
+      "value": "Afegir mutació"
     },
     "allOfTheBunniesHaveDied": {
-      "value": "Bütün dovşanlar öldü"
+      "value": "S'han mort tots els conills."
     },
     "environmentalFactors": {
-      "value": "Ətraf-mühit Faktorları"
+      "value": "Factor ambiental"
     },
     "environmentalFactor": {
-      "value": "Ətraf-mühit Faktoru"
+      "value": "Factors ambientals"
     },
     "population": {
-      "value": "Populyasiya"
+      "value": "Població"
+    },
+    "proportions": {
+      "value": "Proporcions"
+    },
+    "pedigree": {
+      "value": "Pedigrí"
+    },
+    "none": {
+      "value": "En blanc"
     },
     "memoryLimitMessage": {
-      "value": "Təbriklər!<br><br>Dovşan populyasiyanız simulyasiyanın yaddaş limitinə çatacaq qədər<br>uzun müddət sağ qaldı."
+      "value": "Felicitats!<br><br>La teva població de conills ha sobreviscut el suficient<br>per omplir la memòria límit de la simulació."
+    },
+    "bunniesHaveTakenOverTheWorld": {
+      "value": "Els conills s'han apoderat del món!"
     },
     "fur": {
-      "value": "Xəz"
+      "value": "Pelatge"
     },
     "furDominant": {
-      "value": "F"
+      "value": "P"
     },
     "furRecessive": {
-      "value": "f"
+      "value": "p"
     },
     "ears": {
-      "value": "Qulaqlar"
+      "value": "Orelles"
+    },
+    "earsDominant": {
+      "value": "O"
+    },
+    "earsRecessive": {
+      "value": "o"
+    },
+    "teeth": {
+      "value": "Dents"
+    },
+    "teethDominant": {
+      "value": "D"
+    },
+    "teethRecessive": {
+      "value": "d"
+    },
+    "whiteFur": {
+      "value": "Pelatge blanc"
+    },
+    "brownFur": {
+      "value": "Pelatge marró"
+    },
+    "floppyEars": {
+      "value": "Orelles caigudes"
+    },
+    "straightEars": {
+      "value": "Orelles rectes"
+    },
+    "shortTeeth": {
+      "value": "Dents curtes"
+    },
+    "longTeeth": {
+      "value": "Dents llargues"
+    },
+    "limitedFood": {
+      "value": "Menjar limitat"
+    },
+    "toughFood": {
+      "value": "Menjar dur"
+    },
+    "wolves": {
+      "value": "Llops"
     },
     "generationValue": {
-      "value": "Nəsil {{value}}"
+      "value": "Generació {{value}}"
     },
-    "natural-selection.title": {
-      "value": "Təbii Seçmə"
+    "mutationComing": {
+      "value": "Arribant mutació..."
+    },
+    "generation": {
+      "value": "Generació"
+    },
+    "zoomOutToSeeData": {
+      "value": "Allunyar per veure les dades."
+    },
+    "total": {
+      "value": "Total"
+    },
+    "dataProbe": {
+      "value": "Explorar dades"
+    },
+    "alleles": {
+      "value": "Al·lels"
+    },
+    "selectABunny": {
+      "value": "Selecciona un conill"
+    },
+    "startOfGeneration": {
+      "value": "Inici de la generació"
+    },
+    "endOfGeneration": {
+      "value": "Fi de la generació"
+    },
+    "noData": {
+      "value": "Sense dades"
+    },
+    "currently": {
+      "value": "Actualment"
+    },
+    "oneBunny": {
+      "value": "1 conill"
+    },
+    "countBunnies": {
+      "value": "{{count}} conills"
+    },
+    "values": {
+      "value": "Valors"
+    },
+    "addAMate": {
+      "value": "Afegir una parella"
     },
     "play": {
-      "value": "Oyna"
+      "value": "Reproduir"
     },
     "startOver": {
-      "value": "Yenidən Başla"
+      "value": "Començar de nou"
     },
     "greaterThanValuePercent": {
       "value": ">{{value}}%"
@@ -1324,6 +1640,9 @@
     },
     "valuePercent": {
       "value": "{{value}}%"
+    },
+    "natural-selection.title": {
+      "value": "Selecció natural"
     }
   },
   "cs": {
@@ -1491,325 +1810,6 @@
     },
     "natural-selection.title": {
       "value": "Přírodní výběr"
-    }
-  },
-  "bg": {
-    "screen.intro": {
-      "value": "Въведение"
-    },
-    "screen.lab": {
-      "value": "Лаборатория"
-    },
-    "addMutations": {
-      "value": "Добави мутации"
-    },
-    "dominant": {
-      "value": "Доминантен"
-    },
-    "recessive": {
-      "value": "Рецисивен"
-    },
-    "addMutation": {
-      "value": "Добави мутация"
-    },
-    "allOfTheBunniesHaveDied": {
-      "value": "Всички зайчета са починали."
-    },
-    "environmentalFactors": {
-      "value": "Фактори на околната среда"
-    },
-    "environmentalFactor": {
-      "value": "Фактор на околната среда"
-    },
-    "population": {
-      "value": "Популация"
-    },
-    "proportions": {
-      "value": "Пропорции"
-    },
-    "pedigree": {
-      "value": "Произход"
-    },
-    "none": {
-      "value": "Няма"
-    },
-    "memoryLimitMessage": {
-      "value": "Поздравления!Вашата популация от зайчета оцеля достатъчно дълго, за да достигне ограничението на паметта на симулацията."
-    },
-    "bunniesHaveTakenOverTheWorld": {
-      "value": "Зайчетата превзеха света!"
-    },
-    "whiteFur": {
-      "value": "Бяла козина"
-    },
-    "brownFur": {
-      "value": "Кафява козина"
-    },
-    "floppyEars": {
-      "value": "Увиснали уши"
-    },
-    "straightEars": {
-      "value": "Стърчащи уши"
-    },
-    "shortTeeth": {
-      "value": "Малки зъби"
-    },
-    "longTeeth": {
-      "value": "Големи зъби"
-    },
-    "fur": {
-      "value": "Козина"
-    },
-    "furDominant": {
-      "value": "F"
-    },
-    "furRecessive": {
-      "value": "f"
-    },
-    "ears": {
-      "value": "Уши"
-    },
-    "earsDominant": {
-      "value": "E"
-    },
-    "earsRecessive": {
-      "value": "e"
-    },
-    "teeth": {
-      "value": "Зъби"
-    },
-    "teethDominant": {
-      "value": "T"
-    },
-    "teethRecessive": {
-      "value": "t"
-    },
-    "limitedFood": {
-      "value": "Ограничена храна"
-    },
-    "toughFood": {
-      "value": "Специалитет"
-    },
-    "wolves": {
-      "value": "Вълци"
-    },
-    "mutationComing": {
-      "value": "Наличие на мутация...."
-    },
-    "alleles": {
-      "value": "Алели"
-    },
-    "selectABunny": {
-      "value": "Избери зайче"
-    },
-    "generation": {
-      "value": "Поколение"
-    },
-    "zoomOutToSeeData": {
-      "value": "Намали, за да видиш данните."
-    },
-    "total": {
-      "value": "Общо"
-    },
-    "dataProbe": {
-      "value": "Проучване на данни"
-    },
-    "startOfGeneration": {
-      "value": "Начало на поколението"
-    },
-    "endOfGeneration": {
-      "value": "Край на поколението"
-    },
-    "noData": {
-      "value": "Няма данни"
-    },
-    "currently": {
-      "value": "Понастоящем"
-    },
-    "oneBunny": {
-      "value": "1 зайче"
-    },
-    "values": {
-      "value": "Стойности"
-    },
-    "addAMate": {
-      "value": "Добави помощник"
-    },
-    "play": {
-      "value": "Играй"
-    },
-    "startOver": {
-      "value": "Започни отначало"
-    },
-    "natural-selection.title": {
-      "value": "Естествен подбор"
-    }
-  },
-  "ca": {
-    "screen.intro": {
-      "value": "Introducció"
-    },
-    "screen.lab": {
-      "value": "Laboratori"
-    },
-    "addMutations": {
-      "value": "Afegir mutacions"
-    },
-    "dominant": {
-      "value": "Dominant"
-    },
-    "recessive": {
-      "value": "Recessiva"
-    },
-    "addMutation": {
-      "value": "Afegir mutació"
-    },
-    "allOfTheBunniesHaveDied": {
-      "value": "S'han mort tots els conills."
-    },
-    "environmentalFactors": {
-      "value": "Factor ambiental"
-    },
-    "environmentalFactor": {
-      "value": "Factors ambientals"
-    },
-    "population": {
-      "value": "Població"
-    },
-    "proportions": {
-      "value": "Proporcions"
-    },
-    "pedigree": {
-      "value": "Pedigrí"
-    },
-    "none": {
-      "value": "En blanc"
-    },
-    "memoryLimitMessage": {
-      "value": "Felicitats!<br><br>La teva població de conills ha sobreviscut el suficient<br>per omplir la memòria límit de la simulació."
-    },
-    "bunniesHaveTakenOverTheWorld": {
-      "value": "Els conills s'han apoderat del món!"
-    },
-    "fur": {
-      "value": "Pelatge"
-    },
-    "furDominant": {
-      "value": "P"
-    },
-    "furRecessive": {
-      "value": "p"
-    },
-    "ears": {
-      "value": "Orelles"
-    },
-    "earsDominant": {
-      "value": "O"
-    },
-    "earsRecessive": {
-      "value": "o"
-    },
-    "teeth": {
-      "value": "Dents"
-    },
-    "teethDominant": {
-      "value": "D"
-    },
-    "teethRecessive": {
-      "value": "d"
-    },
-    "whiteFur": {
-      "value": "Pelatge blanc"
-    },
-    "brownFur": {
-      "value": "Pelatge marró"
-    },
-    "floppyEars": {
-      "value": "Orelles caigudes"
-    },
-    "straightEars": {
-      "value": "Orelles rectes"
-    },
-    "shortTeeth": {
-      "value": "Dents curtes"
-    },
-    "longTeeth": {
-      "value": "Dents llargues"
-    },
-    "limitedFood": {
-      "value": "Menjar limitat"
-    },
-    "toughFood": {
-      "value": "Menjar dur"
-    },
-    "wolves": {
-      "value": "Llops"
-    },
-    "generationValue": {
-      "value": "Generació {{value}}"
-    },
-    "mutationComing": {
-      "value": "Arribant mutació..."
-    },
-    "generation": {
-      "value": "Generació"
-    },
-    "zoomOutToSeeData": {
-      "value": "Allunyar per veure les dades."
-    },
-    "total": {
-      "value": "Total"
-    },
-    "dataProbe": {
-      "value": "Explorar dades"
-    },
-    "alleles": {
-      "value": "Al·lels"
-    },
-    "selectABunny": {
-      "value": "Selecciona un conill"
-    },
-    "startOfGeneration": {
-      "value": "Inici de la generació"
-    },
-    "endOfGeneration": {
-      "value": "Fi de la generació"
-    },
-    "noData": {
-      "value": "Sense dades"
-    },
-    "currently": {
-      "value": "Actualment"
-    },
-    "oneBunny": {
-      "value": "1 conill"
-    },
-    "countBunnies": {
-      "value": "{{count}} conills"
-    },
-    "values": {
-      "value": "Valors"
-    },
-    "addAMate": {
-      "value": "Afegir una parella"
-    },
-    "play": {
-      "value": "Reproduir"
-    },
-    "startOver": {
-      "value": "Començar de nou"
-    },
-    "greaterThanValuePercent": {
-      "value": ">{{value}}%"
-    },
-    "lessThanValuePercent": {
-      "value": "<{{value}}%"
-    },
-    "valuePercent": {
-      "value": "{{value}}%"
-    },
-    "natural-selection.title": {
-      "value": "Selecció natural"
     }
   },
   "da": {
@@ -2313,173 +2313,6 @@
       "value": "Φυσική επιλογή"
     }
   },
-  "fa": {
-    "whiteFur": {
-      "value": "موی سفید"
-    },
-    "brownFur": {
-      "value": "موی قهوه ای"
-    },
-    "floppyEars": {
-      "value": "گوش های نرم"
-    },
-    "straightEars": {
-      "value": "گوش های راست"
-    },
-    "shortTeeth": {
-      "value": "دندان های کوتاه"
-    },
-    "longTeeth": {
-      "value": "دندان های بلند"
-    },
-    "fur": {
-      "value": "مو"
-    },
-    "furDominant": {
-      "value": "موی غالب"
-    },
-    "furRecessive": {
-      "value": "موی مغلوب"
-    },
-    "ears": {
-      "value": "گوش ها"
-    },
-    "earsDominant": {
-      "value": "گوش های غالب"
-    },
-    "earsRecessive": {
-      "value": "گوش های مغلوب"
-    },
-    "teeth": {
-      "value": "دندان ها"
-    },
-    "teethDominant": {
-      "value": "دندان های غالب"
-    },
-    "teethRecessive": {
-      "value": "دندان های مغلوب"
-    },
-    "addAMate": {
-      "value": "یک جفت اضافه کنید."
-    },
-    "addMutations": {
-      "value": "جهش ها را اضافه کنید."
-    },
-    "dominant": {
-      "value": "غالب"
-    },
-    "recessive": {
-      "value": "مغلوب"
-    },
-    "addMutation": {
-      "value": "جهش را اضافه کنید."
-    },
-    "allOfTheBunniesHaveDied": {
-      "value": "همه ی خرگوش ها مردند."
-    },
-    "environmentalFactors": {
-      "value": "عوامل محیطی"
-    },
-    "environmentalFactor": {
-      "value": "عامل محیطی"
-    },
-    "population": {
-      "value": "جمعیت"
-    },
-    "proportions": {
-      "value": "نسبت ها"
-    },
-    "pedigree": {
-      "value": "دودمانه"
-    },
-    "none": {
-      "value": "هیچکدام"
-    },
-    "limitedFood": {
-      "value": "محدودیت غذا"
-    },
-    "memoryLimitMessage": {
-      "value": "تبریک میگم!<br><br>جمعیت خرگوش های شما آنقدر زیاد شده است که از محدوده حافظه شبیه سازی خارج شده است."
-    },
-    "mutationComing": {
-      "value": "جهش در حال اضافه شدن"
-    },
-    "play": {
-      "value": "شروع"
-    },
-    "startOver": {
-      "value": "از اول شروع کنید."
-    },
-    "toughFood": {
-      "value": "غذای سفت"
-    },
-    "wolves": {
-      "value": "گرگ ها"
-    },
-    "bunniesHaveTakenOverTheWorld": {
-      "value": "خرگوش ها همه جا را فراگرفتند!"
-    },
-    "alleles": {
-      "value": "الل ها(دگره)"
-    },
-    "selectABunny": {
-      "value": "یک خرگوش انتخاب کن"
-    },
-    "generation": {
-      "value": "نسل"
-    },
-    "zoomOutToSeeData": {
-      "value": "برای دیدن اطلاعات کوچک نمایی کنید."
-    },
-    "total": {
-      "value": "مجموع"
-    },
-    "dataProbe": {
-      "value": "شبکه داده"
-    },
-    "greaterThanValuePercent": {
-      "value": "%{{value}}<"
-    },
-    "lessThanValuePercent": {
-      "value": "%{{value}}>"
-    },
-    "valuePercent": {
-      "value": "%{{value}}"
-    },
-    "generationValue": {
-      "value": "{{value}}: نژاد"
-    },
-    "startOfGeneration": {
-      "value": "شروع نسل"
-    },
-    "endOfGeneration": {
-      "value": "پایان نسل"
-    },
-    "noData": {
-      "value": "بدون اطلاعات"
-    },
-    "currently": {
-      "value": "در حال حاضر"
-    },
-    "oneBunny": {
-      "value": "یک خرگوش"
-    },
-    "countBunnies": {
-      "value": "{{count}} خرگوش "
-    },
-    "values": {
-      "value": "ارزش"
-    },
-    "screen.intro": {
-      "value": "محیط طبیعی"
-    },
-    "screen.lab": {
-      "value": "محیط آزمایشگاه"
-    },
-    "natural-selection.title": {
-      "value": "انتخاب طبیعی"
-    }
-  },
   "es": {
     "whiteFur": {
       "value": "Pelaje Blanco"
@@ -2981,6 +2814,495 @@
       "value": "Hautespen naturala"
     }
   },
+  "fa": {
+    "whiteFur": {
+      "value": "موی سفید"
+    },
+    "brownFur": {
+      "value": "موی قهوه ای"
+    },
+    "floppyEars": {
+      "value": "گوش های نرم"
+    },
+    "straightEars": {
+      "value": "گوش های راست"
+    },
+    "shortTeeth": {
+      "value": "دندان های کوتاه"
+    },
+    "longTeeth": {
+      "value": "دندان های بلند"
+    },
+    "fur": {
+      "value": "مو"
+    },
+    "furDominant": {
+      "value": "موی غالب"
+    },
+    "furRecessive": {
+      "value": "موی مغلوب"
+    },
+    "ears": {
+      "value": "گوش ها"
+    },
+    "earsDominant": {
+      "value": "گوش های غالب"
+    },
+    "earsRecessive": {
+      "value": "گوش های مغلوب"
+    },
+    "teeth": {
+      "value": "دندان ها"
+    },
+    "teethDominant": {
+      "value": "دندان های غالب"
+    },
+    "teethRecessive": {
+      "value": "دندان های مغلوب"
+    },
+    "addAMate": {
+      "value": "یک جفت اضافه کنید."
+    },
+    "addMutations": {
+      "value": "جهش ها را اضافه کنید."
+    },
+    "dominant": {
+      "value": "غالب"
+    },
+    "recessive": {
+      "value": "مغلوب"
+    },
+    "addMutation": {
+      "value": "جهش را اضافه کنید."
+    },
+    "allOfTheBunniesHaveDied": {
+      "value": "همه ی خرگوش ها مردند."
+    },
+    "environmentalFactors": {
+      "value": "عوامل محیطی"
+    },
+    "environmentalFactor": {
+      "value": "عامل محیطی"
+    },
+    "population": {
+      "value": "جمعیت"
+    },
+    "proportions": {
+      "value": "نسبت ها"
+    },
+    "pedigree": {
+      "value": "دودمانه"
+    },
+    "none": {
+      "value": "هیچکدام"
+    },
+    "limitedFood": {
+      "value": "محدودیت غذا"
+    },
+    "memoryLimitMessage": {
+      "value": "تبریک میگم!<br><br>جمعیت خرگوش های شما آنقدر زیاد شده است که از محدوده حافظه شبیه سازی خارج شده است."
+    },
+    "mutationComing": {
+      "value": "جهش در حال اضافه شدن"
+    },
+    "play": {
+      "value": "شروع"
+    },
+    "startOver": {
+      "value": "از اول شروع کنید."
+    },
+    "toughFood": {
+      "value": "غذای سفت"
+    },
+    "wolves": {
+      "value": "گرگ ها"
+    },
+    "bunniesHaveTakenOverTheWorld": {
+      "value": "خرگوش ها همه جا را فراگرفتند!"
+    },
+    "alleles": {
+      "value": "الل ها(دگره)"
+    },
+    "selectABunny": {
+      "value": "یک خرگوش انتخاب کن"
+    },
+    "generation": {
+      "value": "نسل"
+    },
+    "zoomOutToSeeData": {
+      "value": "برای دیدن اطلاعات کوچک نمایی کنید."
+    },
+    "total": {
+      "value": "مجموع"
+    },
+    "dataProbe": {
+      "value": "شبکه داده"
+    },
+    "greaterThanValuePercent": {
+      "value": "%{{value}}<"
+    },
+    "lessThanValuePercent": {
+      "value": "%{{value}}>"
+    },
+    "valuePercent": {
+      "value": "%{{value}}"
+    },
+    "generationValue": {
+      "value": "{{value}}: نژاد"
+    },
+    "startOfGeneration": {
+      "value": "شروع نسل"
+    },
+    "endOfGeneration": {
+      "value": "پایان نسل"
+    },
+    "noData": {
+      "value": "بدون اطلاعات"
+    },
+    "currently": {
+      "value": "در حال حاضر"
+    },
+    "oneBunny": {
+      "value": "یک خرگوش"
+    },
+    "countBunnies": {
+      "value": "{{count}} خرگوش "
+    },
+    "values": {
+      "value": "ارزش"
+    },
+    "screen.intro": {
+      "value": "محیط طبیعی"
+    },
+    "screen.lab": {
+      "value": "محیط آزمایشگاه"
+    },
+    "natural-selection.title": {
+      "value": "انتخاب طبیعی"
+    }
+  },
+  "fo": {
+    "screen.intro": {
+      "value": "Innleiðing"
+    },
+    "screen.lab": {
+      "value": "Royndarstað"
+    },
+    "addMutations": {
+      "value": "Broyting"
+    },
+    "dominant": {
+      "value": "Ráðandi"
+    },
+    "recessive": {
+      "value": "Víkjandi"
+    },
+    "addMutation": {
+      "value": "Legg umskifti til"
+    },
+    "allOfTheBunniesHaveDied": {
+      "value": "Allar kaninurnar eru deyðar."
+    },
+    "environmentalFactors": {
+      "value": "Umhvørvisfyrilit"
+    },
+    "environmentalFactor": {
+      "value": "Umhvørvisfyrilit"
+    },
+    "population": {
+      "value": "Stovnur"
+    },
+    "proportions": {
+      "value": "Partur"
+    },
+    "pedigree": {
+      "value": "Ættartalva"
+    },
+    "none": {
+      "value": "Einki"
+    },
+    "memoryLimitMessage": {
+      "value": "Til lukku!<br><br>Tínar kaninir hava yvirlivað nóg leingi.<br>Spælið klárar ikki at gera meira kaninir."
+    },
+    "bunniesHaveTakenOverTheWorld": {
+      "value": "Kaninirnar hava yvirtikið heimin!"
+    },
+    "fur": {
+      "value": "Pelsur"
+    },
+    "furDominant": {
+      "value": "F"
+    },
+    "furRecessive": {
+      "value": "f"
+    },
+    "ears": {
+      "value": "Oyru"
+    },
+    "earsDominant": {
+      "value": "O"
+    },
+    "earsRecessive": {
+      "value": "o"
+    },
+    "teeth": {
+      "value": "Tenn"
+    },
+    "teethDominant": {
+      "value": "T"
+    },
+    "teethRecessive": {
+      "value": "t"
+    },
+    "whiteFur": {
+      "value": "Hvítur Pelsur"
+    },
+    "brownFur": {
+      "value": "Brúnur Pelsur"
+    },
+    "floppyEars": {
+      "value": "Hangandi Oyru"
+    },
+    "straightEars": {
+      "value": "Bein Oyru"
+    },
+    "shortTeeth": {
+      "value": "Stuttar Tenn"
+    },
+    "longTeeth": {
+      "value": "Langar Tenn"
+    },
+    "limitedFood": {
+      "value": "Lítið av mati"
+    },
+    "toughFood": {
+      "value": "Harður matur"
+    },
+    "wolves": {
+      "value": "Úlvar"
+    },
+    "generationValue": {
+      "value": "Ættarlið {{value}}"
+    },
+    "mutationComing": {
+      "value": "Umskifti á veg..."
+    },
+    "generation": {
+      "value": "Ættarlið"
+    },
+    "zoomOutToSeeData": {
+      "value": "Flyt myndina longur út, fyri at síggja upplýsingar."
+    },
+    "total": {
+      "value": "Alt"
+    },
+    "dataProbe": {
+      "value": "Kanningartilfar"
+    },
+    "selectABunny": {
+      "value": "Vel eina kanin"
+    },
+    "startOfGeneration": {
+      "value": "Byrjan av ættarliði"
+    },
+    "endOfGeneration": {
+      "value": "Endi á ættarliði"
+    },
+    "noData": {
+      "value": "Einki úrslit"
+    },
+    "currently": {
+      "value": "Í løtuni"
+    },
+    "oneBunny": {
+      "value": "1 kanin"
+    },
+    "countBunnies": {
+      "value": "{{count}} kaninir"
+    },
+    "values": {
+      "value": "Virðir"
+    },
+    "addAMate": {
+      "value": "Lagg maka til"
+    },
+    "play": {
+      "value": "Spæl"
+    },
+    "startOver": {
+      "value": "Byrja umaftur"
+    },
+    "natural-selection.title": {
+      "value": "Nátúrlig Úrveljing"
+    }
+  },
+  "fr": {
+    "whiteFur": {
+      "value": "Fourrure blanche"
+    },
+    "brownFur": {
+      "value": "Fourrure brune"
+    },
+    "floppyEars": {
+      "value": "Oreilles souples"
+    },
+    "straightEars": {
+      "value": "Oreilles droites"
+    },
+    "shortTeeth": {
+      "value": "Dents courtes"
+    },
+    "longTeeth": {
+      "value": "Dents longues"
+    },
+    "fur": {
+      "value": "Fourrure"
+    },
+    "furDominant": {
+      "value": "F"
+    },
+    "furRecessive": {
+      "value": "f"
+    },
+    "ears": {
+      "value": "Oreilles"
+    },
+    "earsDominant": {
+      "value": "E"
+    },
+    "earsRecessive": {
+      "value": "e"
+    },
+    "teeth": {
+      "value": "Dents"
+    },
+    "teethDominant": {
+      "value": "T"
+    },
+    "teethRecessive": {
+      "value": "t"
+    },
+    "addAMate": {
+      "value": "ajouter un compagnon"
+    },
+    "addMutations": {
+      "value": "ajouter des mutations"
+    },
+    "dominant": {
+      "value": "Dominant"
+    },
+    "recessive": {
+      "value": "Récessif"
+    },
+    "addMutation": {
+      "value": "Ajouter une mutation"
+    },
+    "allOfTheBunniesHaveDied": {
+      "value": "Tous les lapins sont morts."
+    },
+    "environmentalFactors": {
+      "value": "Facteurs environnementaux"
+    },
+    "environmentalFactor": {
+      "value": "Facteur environnemental"
+    },
+    "population": {
+      "value": "Population"
+    },
+    "proportions": {
+      "value": "Proportions"
+    },
+    "pedigree": {
+      "value": "Pedigree"
+    },
+    "none": {
+      "value": "Aucun"
+    },
+    "limitedFood": {
+      "value": "Nourriture limitée"
+    },
+    "memoryLimitMessage": {
+      "value": "Félicitations! <br> <br> Votre population de lapins a survécu assez longtemps <br> pour atteindre la limite de mémoire de la simulation."
+    },
+    "mutationComing": {
+      "value": "Mutation à venir ..."
+    },
+    "play": {
+      "value": "Jouer"
+    },
+    "startOver": {
+      "value": "Recommencer"
+    },
+    "toughFood": {
+      "value": "Nourriture dure"
+    },
+    "wolves": {
+      "value": "Loups"
+    },
+    "bunniesHaveTakenOverTheWorld": {
+      "value": "Les lapins ont conquis le monde!"
+    },
+    "alleles": {
+      "value": "Allèles"
+    },
+    "selectABunny": {
+      "value": "Choisir un lapin"
+    },
+    "generation": {
+      "value": "Génération"
+    },
+    "zoomOutToSeeData": {
+      "value": "Faites un zoom arrière pour voir les données"
+    },
+    "total": {
+      "value": "Total"
+    },
+    "dataProbe": {
+      "value": "Sonde de données"
+    },
+    "greaterThanValuePercent": {
+      "value": ">{{value}}%"
+    },
+    "lessThanValuePercent": {
+      "value": "<{{value}}%"
+    },
+    "valuePercent": {
+      "value": "{{value}}%"
+    },
+    "generationValue": {
+      "value": "Generation {{value}}"
+    },
+    "startOfGeneration": {
+      "value": "Début de génération"
+    },
+    "endOfGeneration": {
+      "value": "Fin de génération"
+    },
+    "noData": {
+      "value": "Pas de donnée"
+    },
+    "currently": {
+      "value": "Actuellement"
+    },
+    "oneBunny": {
+      "value": "1 lapin"
+    },
+    "countBunnies": {
+      "value": "{{count}} bunnies"
+    },
+    "values": {
+      "value": "Valeurs"
+    },
+    "screen.intro": {
+      "value": "Intro"
+    },
+    "screen.lab": {
+      "value": "Labo"
+    },
+    "natural-selection.title": {
+      "value": "Sélection naturelle"
+    }
+  },
   "gu": {
     "screen.intro": {
       "value": "માહિતી"
@@ -3104,173 +3426,6 @@
     },
     "natural-selection.title": {
       "value": "કુદરતી (પ્રાકૃતિક) પસંદગી - જીજ્ઞેશ ખુંટ"
-    }
-  },
-  "hi": {
-    "screen.intro": {
-      "value": "परिचय"
-    },
-    "screen.lab": {
-      "value": "प्रयोगशाला"
-    },
-    "addMutations": {
-      "value": "उत्परिवर्तन जोड़ें"
-    },
-    "dominant": {
-      "value": "प्रभावी"
-    },
-    "recessive": {
-      "value": "अप्रभावी"
-    },
-    "addMutation": {
-      "value": "उत्परिवर्तन जोड़ें"
-    },
-    "allOfTheBunniesHaveDied": {
-      "value": "सभी खरगोश मर चुके हैं।"
-    },
-    "environmentalFactors": {
-      "value": "वातावरणीय कारक"
-    },
-    "environmentalFactor": {
-      "value": "वातावरणीय कारक"
-    },
-    "population": {
-      "value": "जनसंख्या"
-    },
-    "proportions": {
-      "value": "परिणाम"
-    },
-    "pedigree": {
-      "value": "वंश"
-    },
-    "none": {
-      "value": "कोई नहीं"
-    },
-    "memoryLimitMessage": {
-      "value": "बधाई हो!<br>सिम्युलेशन की स्मृति सीमा तक पहुंचने के लिए <br><br> आप खरगोशों की आबादी काफी समय तक जीवित रही।"
-    },
-    "bunniesHaveTakenOverTheWorld": {
-      "value": "खरगोशों ने दुनिया भर में कब्जा कर लिया है!"
-    },
-    "fur": {
-      "value": "कोमल बाल"
-    },
-    "furDominant": {
-      "value": "F"
-    },
-    "furRecessive": {
-      "value": "f"
-    },
-    "ears": {
-      "value": "कान"
-    },
-    "earsDominant": {
-      "value": "E"
-    },
-    "earsRecessive": {
-      "value": "e"
-    },
-    "teeth": {
-      "value": "दाँत"
-    },
-    "teethDominant": {
-      "value": "T"
-    },
-    "teethRecessive": {
-      "value": "t"
-    },
-    "whiteFur": {
-      "value": "सफेद कोमल बाल"
-    },
-    "brownFur": {
-      "value": "भूरे कोमल बाल"
-    },
-    "floppyEars": {
-      "value": "कान"
-    },
-    "straightEars": {
-      "value": "कान"
-    },
-    "shortTeeth": {
-      "value": "दाँत"
-    },
-    "longTeeth": {
-      "value": "दाँत"
-    },
-    "limitedFood": {
-      "value": "सीमित भोजन"
-    },
-    "toughFood": {
-      "value": "रूखा भोजन"
-    },
-    "wolves": {
-      "value": "भेड़िये"
-    },
-    "generationValue": {
-      "value": "पीढ़ी {{value}}"
-    },
-    "mutationComing": {
-      "value": "उत्परिवर्तन आ रहा है।"
-    },
-    "generation": {
-      "value": "पीढ़ी"
-    },
-    "zoomOutToSeeData": {
-      "value": "आँकड़े देखने के लिए ज़ूम आउट करें।"
-    },
-    "total": {
-      "value": "योग"
-    },
-    "dataProbe": {
-      "value": "आँकड़ों की जाँच"
-    },
-    "alleles": {
-      "value": "युग्म विकल्पी"
-    },
-    "selectABunny": {
-      "value": "एक खरगोश चुने"
-    },
-    "startOfGeneration": {
-      "value": "पीढ़ी का आरंभ"
-    },
-    "endOfGeneration": {
-      "value": "पीढ़ी का अंत"
-    },
-    "noData": {
-      "value": "कोई आँकड़े नहीं"
-    },
-    "currently": {
-      "value": "वर्तमान में"
-    },
-    "oneBunny": {
-      "value": "1 खरगोश"
-    },
-    "countBunnies": {
-      "value": "{{count}} खरगोश"
-    },
-    "values": {
-      "value": "मूल्य"
-    },
-    "addAMate": {
-      "value": "एक साथी जोड़ें"
-    },
-    "play": {
-      "value": "खेलें"
-    },
-    "startOver": {
-      "value": "शुरू करें"
-    },
-    "greaterThanValuePercent": {
-      "value": ">{{value}}%"
-    },
-    "lessThanValuePercent": {
-      "value": "<{{value}}%"
-    },
-    "valuePercent": {
-      "value": "{{value}}%"
-    },
-    "natural-selection.title": {
-      "value": "प्राकृतिक वरण"
     }
   },
   "ha": {
@@ -3438,6 +3593,173 @@
     },
     "natural-selection.title": {
       "value": "Sauyawa halitta daga lokaci zuwa lokaci bisa dalilan da zasu iya rayuwa"
+    }
+  },
+  "hi": {
+    "screen.intro": {
+      "value": "परिचय"
+    },
+    "screen.lab": {
+      "value": "प्रयोगशाला"
+    },
+    "addMutations": {
+      "value": "उत्परिवर्तन जोड़ें"
+    },
+    "dominant": {
+      "value": "प्रभावी"
+    },
+    "recessive": {
+      "value": "अप्रभावी"
+    },
+    "addMutation": {
+      "value": "उत्परिवर्तन जोड़ें"
+    },
+    "allOfTheBunniesHaveDied": {
+      "value": "सभी खरगोश मर चुके हैं।"
+    },
+    "environmentalFactors": {
+      "value": "वातावरणीय कारक"
+    },
+    "environmentalFactor": {
+      "value": "वातावरणीय कारक"
+    },
+    "population": {
+      "value": "जनसंख्या"
+    },
+    "proportions": {
+      "value": "परिणाम"
+    },
+    "pedigree": {
+      "value": "वंश"
+    },
+    "none": {
+      "value": "कोई नहीं"
+    },
+    "memoryLimitMessage": {
+      "value": "बधाई हो!<br>सिम्युलेशन की स्मृति सीमा तक पहुंचने के लिए <br><br> आप खरगोशों की आबादी काफी समय तक जीवित रही।"
+    },
+    "bunniesHaveTakenOverTheWorld": {
+      "value": "खरगोशों ने दुनिया भर में कब्जा कर लिया है!"
+    },
+    "fur": {
+      "value": "कोमल बाल"
+    },
+    "furDominant": {
+      "value": "F"
+    },
+    "furRecessive": {
+      "value": "f"
+    },
+    "ears": {
+      "value": "कान"
+    },
+    "earsDominant": {
+      "value": "E"
+    },
+    "earsRecessive": {
+      "value": "e"
+    },
+    "teeth": {
+      "value": "दाँत"
+    },
+    "teethDominant": {
+      "value": "T"
+    },
+    "teethRecessive": {
+      "value": "t"
+    },
+    "whiteFur": {
+      "value": "सफेद कोमल बाल"
+    },
+    "brownFur": {
+      "value": "भूरे कोमल बाल"
+    },
+    "floppyEars": {
+      "value": "कान"
+    },
+    "straightEars": {
+      "value": "कान"
+    },
+    "shortTeeth": {
+      "value": "दाँत"
+    },
+    "longTeeth": {
+      "value": "दाँत"
+    },
+    "limitedFood": {
+      "value": "सीमित भोजन"
+    },
+    "toughFood": {
+      "value": "रूखा भोजन"
+    },
+    "wolves": {
+      "value": "भेड़िये"
+    },
+    "generationValue": {
+      "value": "पीढ़ी {{value}}"
+    },
+    "mutationComing": {
+      "value": "उत्परिवर्तन आ रहा है।"
+    },
+    "generation": {
+      "value": "पीढ़ी"
+    },
+    "zoomOutToSeeData": {
+      "value": "आँकड़े देखने के लिए ज़ूम आउट करें।"
+    },
+    "total": {
+      "value": "योग"
+    },
+    "dataProbe": {
+      "value": "आँकड़ों की जाँच"
+    },
+    "alleles": {
+      "value": "युग्म विकल्पी"
+    },
+    "selectABunny": {
+      "value": "एक खरगोश चुने"
+    },
+    "startOfGeneration": {
+      "value": "पीढ़ी का आरंभ"
+    },
+    "endOfGeneration": {
+      "value": "पीढ़ी का अंत"
+    },
+    "noData": {
+      "value": "कोई आँकड़े नहीं"
+    },
+    "currently": {
+      "value": "वर्तमान में"
+    },
+    "oneBunny": {
+      "value": "1 खरगोश"
+    },
+    "countBunnies": {
+      "value": "{{count}} खरगोश"
+    },
+    "values": {
+      "value": "मूल्य"
+    },
+    "addAMate": {
+      "value": "एक साथी जोड़ें"
+    },
+    "play": {
+      "value": "खेलें"
+    },
+    "startOver": {
+      "value": "शुरू करें"
+    },
+    "greaterThanValuePercent": {
+      "value": ">{{value}}%"
+    },
+    "lessThanValuePercent": {
+      "value": "<{{value}}%"
+    },
+    "valuePercent": {
+      "value": "{{value}}%"
+    },
+    "natural-selection.title": {
+      "value": "प्राकृतिक वरण"
     }
   },
   "hr": {
@@ -4099,328 +4421,6 @@
       "value": "Eke nhọrọ"
     }
   },
-  "fr": {
-    "whiteFur": {
-      "value": "Fourrure blanche"
-    },
-    "brownFur": {
-      "value": "Fourrure brune"
-    },
-    "floppyEars": {
-      "value": "Oreilles souples"
-    },
-    "straightEars": {
-      "value": "Oreilles droites"
-    },
-    "shortTeeth": {
-      "value": "Dents courtes"
-    },
-    "longTeeth": {
-      "value": "Dents longues"
-    },
-    "fur": {
-      "value": "Fourrure"
-    },
-    "furDominant": {
-      "value": "F"
-    },
-    "furRecessive": {
-      "value": "f"
-    },
-    "ears": {
-      "value": "Oreilles"
-    },
-    "earsDominant": {
-      "value": "E"
-    },
-    "earsRecessive": {
-      "value": "e"
-    },
-    "teeth": {
-      "value": "Dents"
-    },
-    "teethDominant": {
-      "value": "T"
-    },
-    "teethRecessive": {
-      "value": "t"
-    },
-    "addAMate": {
-      "value": "ajouter un compagnon"
-    },
-    "addMutations": {
-      "value": "ajouter des mutations"
-    },
-    "dominant": {
-      "value": "Dominant"
-    },
-    "recessive": {
-      "value": "Récessif"
-    },
-    "addMutation": {
-      "value": "Ajouter une mutation"
-    },
-    "allOfTheBunniesHaveDied": {
-      "value": "Tous les lapins sont morts."
-    },
-    "environmentalFactors": {
-      "value": "Facteurs environnementaux"
-    },
-    "environmentalFactor": {
-      "value": "Facteur environnemental"
-    },
-    "population": {
-      "value": "Population"
-    },
-    "proportions": {
-      "value": "Proportions"
-    },
-    "pedigree": {
-      "value": "Pedigree"
-    },
-    "none": {
-      "value": "Aucun"
-    },
-    "limitedFood": {
-      "value": "Nourriture limitée"
-    },
-    "memoryLimitMessage": {
-      "value": "Félicitations! <br> <br> Votre population de lapins a survécu assez longtemps <br> pour atteindre la limite de mémoire de la simulation."
-    },
-    "mutationComing": {
-      "value": "Mutation à venir ..."
-    },
-    "play": {
-      "value": "Jouer"
-    },
-    "startOver": {
-      "value": "Recommencer"
-    },
-    "toughFood": {
-      "value": "Nourriture dure"
-    },
-    "wolves": {
-      "value": "Loups"
-    },
-    "bunniesHaveTakenOverTheWorld": {
-      "value": "Les lapins ont conquis le monde!"
-    },
-    "alleles": {
-      "value": "Allèles"
-    },
-    "selectABunny": {
-      "value": "Choisir un lapin"
-    },
-    "generation": {
-      "value": "Génération"
-    },
-    "zoomOutToSeeData": {
-      "value": "Faites un zoom arrière pour voir les données"
-    },
-    "total": {
-      "value": "Total"
-    },
-    "dataProbe": {
-      "value": "Sonde de données"
-    },
-    "greaterThanValuePercent": {
-      "value": ">{{value}}%"
-    },
-    "lessThanValuePercent": {
-      "value": "<{{value}}%"
-    },
-    "valuePercent": {
-      "value": "{{value}}%"
-    },
-    "generationValue": {
-      "value": "Generation {{value}}"
-    },
-    "startOfGeneration": {
-      "value": "Début de génération"
-    },
-    "endOfGeneration": {
-      "value": "Fin de génération"
-    },
-    "noData": {
-      "value": "Pas de donnée"
-    },
-    "currently": {
-      "value": "Actuellement"
-    },
-    "oneBunny": {
-      "value": "1 lapin"
-    },
-    "countBunnies": {
-      "value": "{{count}} bunnies"
-    },
-    "values": {
-      "value": "Valeurs"
-    },
-    "screen.intro": {
-      "value": "Intro"
-    },
-    "screen.lab": {
-      "value": "Labo"
-    },
-    "natural-selection.title": {
-      "value": "Sélection naturelle"
-    }
-  },
-  "fo": {
-    "screen.intro": {
-      "value": "Innleiðing"
-    },
-    "screen.lab": {
-      "value": "Royndarstað"
-    },
-    "addMutations": {
-      "value": "Broyting"
-    },
-    "dominant": {
-      "value": "Ráðandi"
-    },
-    "recessive": {
-      "value": "Víkjandi"
-    },
-    "addMutation": {
-      "value": "Legg umskifti til"
-    },
-    "allOfTheBunniesHaveDied": {
-      "value": "Allar kaninurnar eru deyðar."
-    },
-    "environmentalFactors": {
-      "value": "Umhvørvisfyrilit"
-    },
-    "environmentalFactor": {
-      "value": "Umhvørvisfyrilit"
-    },
-    "population": {
-      "value": "Stovnur"
-    },
-    "proportions": {
-      "value": "Partur"
-    },
-    "pedigree": {
-      "value": "Ættartalva"
-    },
-    "none": {
-      "value": "Einki"
-    },
-    "memoryLimitMessage": {
-      "value": "Til lukku!<br><br>Tínar kaninir hava yvirlivað nóg leingi.<br>Spælið klárar ikki at gera meira kaninir."
-    },
-    "bunniesHaveTakenOverTheWorld": {
-      "value": "Kaninirnar hava yvirtikið heimin!"
-    },
-    "fur": {
-      "value": "Pelsur"
-    },
-    "furDominant": {
-      "value": "F"
-    },
-    "furRecessive": {
-      "value": "f"
-    },
-    "ears": {
-      "value": "Oyru"
-    },
-    "earsDominant": {
-      "value": "O"
-    },
-    "earsRecessive": {
-      "value": "o"
-    },
-    "teeth": {
-      "value": "Tenn"
-    },
-    "teethDominant": {
-      "value": "T"
-    },
-    "teethRecessive": {
-      "value": "t"
-    },
-    "whiteFur": {
-      "value": "Hvítur Pelsur"
-    },
-    "brownFur": {
-      "value": "Brúnur Pelsur"
-    },
-    "floppyEars": {
-      "value": "Hangandi Oyru"
-    },
-    "straightEars": {
-      "value": "Bein Oyru"
-    },
-    "shortTeeth": {
-      "value": "Stuttar Tenn"
-    },
-    "longTeeth": {
-      "value": "Langar Tenn"
-    },
-    "limitedFood": {
-      "value": "Lítið av mati"
-    },
-    "toughFood": {
-      "value": "Harður matur"
-    },
-    "wolves": {
-      "value": "Úlvar"
-    },
-    "generationValue": {
-      "value": "Ættarlið {{value}}"
-    },
-    "mutationComing": {
-      "value": "Umskifti á veg..."
-    },
-    "generation": {
-      "value": "Ættarlið"
-    },
-    "zoomOutToSeeData": {
-      "value": "Flyt myndina longur út, fyri at síggja upplýsingar."
-    },
-    "total": {
-      "value": "Alt"
-    },
-    "dataProbe": {
-      "value": "Kanningartilfar"
-    },
-    "selectABunny": {
-      "value": "Vel eina kanin"
-    },
-    "startOfGeneration": {
-      "value": "Byrjan av ættarliði"
-    },
-    "endOfGeneration": {
-      "value": "Endi á ættarliði"
-    },
-    "noData": {
-      "value": "Einki úrslit"
-    },
-    "currently": {
-      "value": "Í løtuni"
-    },
-    "oneBunny": {
-      "value": "1 kanin"
-    },
-    "countBunnies": {
-      "value": "{{count}} kaninir"
-    },
-    "values": {
-      "value": "Virðir"
-    },
-    "addAMate": {
-      "value": "Lagg maka til"
-    },
-    "play": {
-      "value": "Spæl"
-    },
-    "startOver": {
-      "value": "Byrja umaftur"
-    },
-    "natural-selection.title": {
-      "value": "Nátúrlig Úrveljing"
-    }
-  },
   "it": {
     "whiteFur": {
       "value": "Pelliccia bianca"
@@ -4753,173 +4753,6 @@
     },
     "valuePercent": {
       "value": "{{value}}%"
-    }
-  },
-  "lg": {
-    "screen.intro": {
-      "value": "Enyanjula "
-    },
-    "screen.lab": {
-      "value": "Laabu "
-    },
-    "addMutations": {
-      "value": "Yongera ku Mutations"
-    },
-    "dominant": {
-      "value": "Okukulira"
-    },
-    "recessive": {
-      "value": "Okudda emabega."
-    },
-    "addMutation": {
-      "value": "Yongera ku Mutation"
-    },
-    "allOfTheBunniesHaveDied": {
-      "value": "Ensigo zonna zifudde."
-    },
-    "environmentalFactors": {
-      "value": "Ensonga ezikwata ku butonde bw’ensi"
-    },
-    "environmentalFactor": {
-      "value": "Ensonga ekwata ku butonde bw’ensi"
-    },
-    "population": {
-      "value": "Obungi gw'abantu"
-    },
-    "proportions": {
-      "value": "Ebipimo"
-    },
-    "pedigree": {
-      "value": "Pedigree"
-    },
-    "none": {
-      "value": "Tewali "
-    },
-    "memoryLimitMessage": {
-      "value": "Yogayoga!<br><br>Omuwendo gwo ogwa b'abantu ba bunne  guwangadde ekimala<br>okukuba ekkomo ly'okujjukira ery'okusiiga."
-    },
-    "bunniesHaveTakenOverTheWorld": {
-      "value": "Bannizi batute ensi yona"
-    },
-    "whiteFur": {
-      "value": "Ebyooya ebyeru"
-    },
-    "brownFur": {
-      "value": "Ebyooya ebyakitaka"
-    },
-    "floppyEars": {
-      "value": "Amaatu aga fulopi"
-    },
-    "straightEars": {
-      "value": "Amaatu atelevu"
-    },
-    "shortTeeth": {
-      "value": "Amanyo amampi"
-    },
-    "longTeeth": {
-      "value": "Amanyo amawanvu"
-    },
-    "fur": {
-      "value": "Ebyooya"
-    },
-    "furDominant": {
-      "value": "F"
-    },
-    "furRecessive": {
-      "value": "f"
-    },
-    "ears": {
-      "value": "Amaatu"
-    },
-    "earsDominant": {
-      "value": "E"
-    },
-    "earsRecessive": {
-      "value": "e"
-    },
-    "teeth": {
-      "value": "Amanyo"
-    },
-    "teethDominant": {
-      "value": "T"
-    },
-    "teethRecessive": {
-      "value": "t"
-    },
-    "limitedFood": {
-      "value": "Emmere Entono"
-    },
-    "wolves": {
-      "value": "Emisege"
-    },
-    "toughFood": {
-      "value": "Emmere Enkalu"
-    },
-    "generationValue": {
-      "value": "Omulembe {{value}}"
-    },
-    "mutationComing": {
-      "value": "Mutation ejja..."
-    },
-    "alleles": {
-      "value": "Tebyetagisa"
-    },
-    "selectABunny": {
-      "value": "Londa banne"
-    },
-    "startOfGeneration": {
-      "value": "Entandika y'omulembe"
-    },
-    "endOfGeneration": {
-      "value": "Enkomerero y'omulembe "
-    },
-    "noData": {
-      "value": "Tewali data"
-    },
-    "currently": {
-      "value": "Kati"
-    },
-    "oneBunny": {
-      "value": "Banne 1"
-    },
-    "countBunnies": {
-      "value": "{{count}} bannezi"
-    },
-    "values": {
-      "value": "Omuwendo "
-    },
-    "generation": {
-      "value": "Omulembe"
-    },
-    "zoomOutToSeeData": {
-      "value": "Yongeza olabe data"
-    },
-    "total": {
-      "value": "Omuwendo "
-    },
-    "dataProbe": {
-      "value": "Data Probe"
-    },
-    "play": {
-      "value": "Zanya"
-    },
-    "startOver": {
-      "value": "Daamu buto"
-    },
-    "addAMate": {
-      "value": "Yongera ku Mate"
-    },
-    "greaterThanValuePercent": {
-      "value": ">{{value}}%"
-    },
-    "lessThanValuePercent": {
-      "value": "<{{value}}%"
-    },
-    "valuePercent": {
-      "value": "{{value}}%"
-    },
-    "natural-selection.title": {
-      "value": "Okulonda kw’Obutonde"
     }
   },
   "ja": {
@@ -5256,164 +5089,6 @@
       "value": "Gũthuurũo na Njĩra ya Kĩmwĩrĩ"
     }
   },
-  "lt": {
-    "whiteFur": {
-      "value": "Baltas kailis"
-    },
-    "brownFur": {
-      "value": "Rudas kailis"
-    },
-    "floppyEars": {
-      "value": "Nuleipusios ausys"
-    },
-    "straightEars": {
-      "value": "Stačios ausys"
-    },
-    "shortTeeth": {
-      "value": "Trumpi dantys"
-    },
-    "longTeeth": {
-      "value": "Ilgi dantys"
-    },
-    "fur": {
-      "value": "Kailis"
-    },
-    "furDominant": {
-      "value": "K"
-    },
-    "furRecessive": {
-      "value": "k"
-    },
-    "ears": {
-      "value": "Ausys"
-    },
-    "earsDominant": {
-      "value": "A"
-    },
-    "earsRecessive": {
-      "value": "a"
-    },
-    "teeth": {
-      "value": "Dantys"
-    },
-    "teethDominant": {
-      "value": "D"
-    },
-    "teethRecessive": {
-      "value": "d"
-    },
-    "addAMate": {
-      "value": "Pridėti partnerį"
-    },
-    "addMutations": {
-      "value": "Pridėti mutacijas"
-    },
-    "dominant": {
-      "value": "Dominantinis"
-    },
-    "recessive": {
-      "value": "Recesyvinis"
-    },
-    "addMutation": {
-      "value": "Pridėti mutaciją"
-    },
-    "allOfTheBunniesHaveDied": {
-      "value": "Visi triušiai nugaišo."
-    },
-    "environmentalFactors": {
-      "value": "Aplinkos veiksniai"
-    },
-    "environmentalFactor": {
-      "value": "Aplinkos veiksnys"
-    },
-    "population": {
-      "value": "Populiacija"
-    },
-    "proportions": {
-      "value": "Proporcijos"
-    },
-    "pedigree": {
-      "value": "Kilmė"
-    },
-    "none": {
-      "value": "Nėra"
-    },
-    "limitedFood": {
-      "value": "Ribotas maistas"
-    },
-    "memoryLimitMessage": {
-      "value": "Valio!<br><br>Tavo triušių populiacija išgyveno pakankamai ilgai,<br>kad pasiektų simuliacijos atminties ribą."
-    },
-    "mutationComing": {
-      "value": "Mutacija įvedama..."
-    },
-    "play": {
-      "value": "Paleisti"
-    },
-    "startOver": {
-      "value": "Pradėti iš naujo"
-    },
-    "toughFood": {
-      "value": "Kietas maistas"
-    },
-    "wolves": {
-      "value": "Vilkai"
-    },
-    "bunniesHaveTakenOverTheWorld": {
-      "value": "Triušiai užkariavo pasaulį!"
-    },
-    "alleles": {
-      "value": "Aleliai"
-    },
-    "selectABunny": {
-      "value": "Pasirinkite triušį"
-    },
-    "generation": {
-      "value": "Karta"
-    },
-    "zoomOutToSeeData": {
-      "value": "Atitraukite duomenų peržiūrai."
-    },
-    "total": {
-      "value": "Iš viso"
-    },
-    "dataProbe": {
-      "value": "Duomenų pjūvis"
-    },
-    "generationValue": {
-      "value": "Karta {{value}}"
-    },
-    "startOfGeneration": {
-      "value": "Kartos pradžia"
-    },
-    "endOfGeneration": {
-      "value": "Kartos pabaiga"
-    },
-    "noData": {
-      "value": "Nėra duomenų"
-    },
-    "currently": {
-      "value": "Dabar"
-    },
-    "oneBunny": {
-      "value": "1 triušis"
-    },
-    "countBunnies": {
-      "value": "{{count}} triušių"
-    },
-    "values": {
-      "value": "Reikšmės"
-    },
-    "screen.intro": {
-      "value": "Įvadas"
-    },
-    "screen.lab": {
-      "value": "Laboratorija"
-    },
-    "natural-selection.title": {
-      "value": "Natūrali atranka"
-    }
-  },
   "ko": {
     "whiteFur": {
       "value": "힌색 털"
@@ -5581,6 +5256,331 @@
       "value": "자연선택"
     }
   },
+  "lg": {
+    "screen.intro": {
+      "value": "Enyanjula "
+    },
+    "screen.lab": {
+      "value": "Laabu "
+    },
+    "addMutations": {
+      "value": "Yongera ku Mutations"
+    },
+    "dominant": {
+      "value": "Okukulira"
+    },
+    "recessive": {
+      "value": "Okudda emabega."
+    },
+    "addMutation": {
+      "value": "Yongera ku Mutation"
+    },
+    "allOfTheBunniesHaveDied": {
+      "value": "Ensigo zonna zifudde."
+    },
+    "environmentalFactors": {
+      "value": "Ensonga ezikwata ku butonde bw’ensi"
+    },
+    "environmentalFactor": {
+      "value": "Ensonga ekwata ku butonde bw’ensi"
+    },
+    "population": {
+      "value": "Obungi gw'abantu"
+    },
+    "proportions": {
+      "value": "Ebipimo"
+    },
+    "pedigree": {
+      "value": "Pedigree"
+    },
+    "none": {
+      "value": "Tewali "
+    },
+    "memoryLimitMessage": {
+      "value": "Yogayoga!<br><br>Omuwendo gwo ogwa b'abantu ba bunne  guwangadde ekimala<br>okukuba ekkomo ly'okujjukira ery'okusiiga."
+    },
+    "bunniesHaveTakenOverTheWorld": {
+      "value": "Bannizi batute ensi yona"
+    },
+    "whiteFur": {
+      "value": "Ebyooya ebyeru"
+    },
+    "brownFur": {
+      "value": "Ebyooya ebyakitaka"
+    },
+    "floppyEars": {
+      "value": "Amaatu aga fulopi"
+    },
+    "straightEars": {
+      "value": "Amaatu atelevu"
+    },
+    "shortTeeth": {
+      "value": "Amanyo amampi"
+    },
+    "longTeeth": {
+      "value": "Amanyo amawanvu"
+    },
+    "fur": {
+      "value": "Ebyooya"
+    },
+    "furDominant": {
+      "value": "F"
+    },
+    "furRecessive": {
+      "value": "f"
+    },
+    "ears": {
+      "value": "Amaatu"
+    },
+    "earsDominant": {
+      "value": "E"
+    },
+    "earsRecessive": {
+      "value": "e"
+    },
+    "teeth": {
+      "value": "Amanyo"
+    },
+    "teethDominant": {
+      "value": "T"
+    },
+    "teethRecessive": {
+      "value": "t"
+    },
+    "limitedFood": {
+      "value": "Emmere Entono"
+    },
+    "wolves": {
+      "value": "Emisege"
+    },
+    "toughFood": {
+      "value": "Emmere Enkalu"
+    },
+    "generationValue": {
+      "value": "Omulembe {{value}}"
+    },
+    "mutationComing": {
+      "value": "Mutation ejja..."
+    },
+    "alleles": {
+      "value": "Tebyetagisa"
+    },
+    "selectABunny": {
+      "value": "Londa banne"
+    },
+    "startOfGeneration": {
+      "value": "Entandika y'omulembe"
+    },
+    "endOfGeneration": {
+      "value": "Enkomerero y'omulembe "
+    },
+    "noData": {
+      "value": "Tewali data"
+    },
+    "currently": {
+      "value": "Kati"
+    },
+    "oneBunny": {
+      "value": "Banne 1"
+    },
+    "countBunnies": {
+      "value": "{{count}} bannezi"
+    },
+    "values": {
+      "value": "Omuwendo "
+    },
+    "generation": {
+      "value": "Omulembe"
+    },
+    "zoomOutToSeeData": {
+      "value": "Yongeza olabe data"
+    },
+    "total": {
+      "value": "Omuwendo "
+    },
+    "dataProbe": {
+      "value": "Data Probe"
+    },
+    "play": {
+      "value": "Zanya"
+    },
+    "startOver": {
+      "value": "Daamu buto"
+    },
+    "addAMate": {
+      "value": "Yongera ku Mate"
+    },
+    "greaterThanValuePercent": {
+      "value": ">{{value}}%"
+    },
+    "lessThanValuePercent": {
+      "value": "<{{value}}%"
+    },
+    "valuePercent": {
+      "value": "{{value}}%"
+    },
+    "natural-selection.title": {
+      "value": "Okulonda kw’Obutonde"
+    }
+  },
+  "lt": {
+    "whiteFur": {
+      "value": "Baltas kailis"
+    },
+    "brownFur": {
+      "value": "Rudas kailis"
+    },
+    "floppyEars": {
+      "value": "Nuleipusios ausys"
+    },
+    "straightEars": {
+      "value": "Stačios ausys"
+    },
+    "shortTeeth": {
+      "value": "Trumpi dantys"
+    },
+    "longTeeth": {
+      "value": "Ilgi dantys"
+    },
+    "fur": {
+      "value": "Kailis"
+    },
+    "furDominant": {
+      "value": "K"
+    },
+    "furRecessive": {
+      "value": "k"
+    },
+    "ears": {
+      "value": "Ausys"
+    },
+    "earsDominant": {
+      "value": "A"
+    },
+    "earsRecessive": {
+      "value": "a"
+    },
+    "teeth": {
+      "value": "Dantys"
+    },
+    "teethDominant": {
+      "value": "D"
+    },
+    "teethRecessive": {
+      "value": "d"
+    },
+    "addAMate": {
+      "value": "Pridėti partnerį"
+    },
+    "addMutations": {
+      "value": "Pridėti mutacijas"
+    },
+    "dominant": {
+      "value": "Dominantinis"
+    },
+    "recessive": {
+      "value": "Recesyvinis"
+    },
+    "addMutation": {
+      "value": "Pridėti mutaciją"
+    },
+    "allOfTheBunniesHaveDied": {
+      "value": "Visi triušiai nugaišo."
+    },
+    "environmentalFactors": {
+      "value": "Aplinkos veiksniai"
+    },
+    "environmentalFactor": {
+      "value": "Aplinkos veiksnys"
+    },
+    "population": {
+      "value": "Populiacija"
+    },
+    "proportions": {
+      "value": "Proporcijos"
+    },
+    "pedigree": {
+      "value": "Kilmė"
+    },
+    "none": {
+      "value": "Nėra"
+    },
+    "limitedFood": {
+      "value": "Ribotas maistas"
+    },
+    "memoryLimitMessage": {
+      "value": "Valio!<br><br>Tavo triušių populiacija išgyveno pakankamai ilgai,<br>kad pasiektų simuliacijos atminties ribą."
+    },
+    "mutationComing": {
+      "value": "Mutacija įvedama..."
+    },
+    "play": {
+      "value": "Paleisti"
+    },
+    "startOver": {
+      "value": "Pradėti iš naujo"
+    },
+    "toughFood": {
+      "value": "Kietas maistas"
+    },
+    "wolves": {
+      "value": "Vilkai"
+    },
+    "bunniesHaveTakenOverTheWorld": {
+      "value": "Triušiai užkariavo pasaulį!"
+    },
+    "alleles": {
+      "value": "Aleliai"
+    },
+    "selectABunny": {
+      "value": "Pasirinkite triušį"
+    },
+    "generation": {
+      "value": "Karta"
+    },
+    "zoomOutToSeeData": {
+      "value": "Atitraukite duomenų peržiūrai."
+    },
+    "total": {
+      "value": "Iš viso"
+    },
+    "dataProbe": {
+      "value": "Duomenų pjūvis"
+    },
+    "generationValue": {
+      "value": "Karta {{value}}"
+    },
+    "startOfGeneration": {
+      "value": "Kartos pradžia"
+    },
+    "endOfGeneration": {
+      "value": "Kartos pabaiga"
+    },
+    "noData": {
+      "value": "Nėra duomenų"
+    },
+    "currently": {
+      "value": "Dabar"
+    },
+    "oneBunny": {
+      "value": "1 triušis"
+    },
+    "countBunnies": {
+      "value": "{{count}} triušių"
+    },
+    "values": {
+      "value": "Reikšmės"
+    },
+    "screen.intro": {
+      "value": "Įvadas"
+    },
+    "screen.lab": {
+      "value": "Laboratorija"
+    },
+    "natural-selection.title": {
+      "value": "Natūrali atranka"
+    }
+  },
   "lv": {
     "whiteFur": {
       "value": "Balts kažoks"
@@ -5746,173 +5746,6 @@
     },
     "natural-selection.title": {
       "value": "Dabiskā izlase"
-    }
-  },
-  "ny": {
-    "screen.intro": {
-      "value": "Chiyambi"
-    },
-    "screen.lab": {
-      "value": "Lab"
-    },
-    "addMutations": {
-      "value": "Onjezani Zosintha"
-    },
-    "dominant": {
-      "value": "chomwe chiziwonetsa"
-    },
-    "recessive": {
-      "value": "chomwe sichiziwonetsa"
-    },
-    "addMutation": {
-      "value": "Onjezani Zosintha"
-    },
-    "allOfTheBunniesHaveDied": {
-      "value": "Akalulu onse afa."
-    },
-    "environmentalFactors": {
-      "value": "Zinthu Zachilengedwe"
-    },
-    "environmentalFactor": {
-      "value": "chinthu chachilengedwe"
-    },
-    "population": {
-      "value": "Chiwerengero cha anthu"
-    },
-    "proportions": {
-      "value": "Magawo"
-    },
-    "pedigree": {
-      "value": "Mbadwa"
-    },
-    "none": {
-      "value": "Palibe"
-    },
-    "memoryLimitMessage": {
-      "value": "Zabwino kwambiri!<br><br>Nambala yanu yakhalapo kwanthawi yayitali<br>kuti isakumbukike poyerekezera."
-    },
-    "bunniesHaveTakenOverTheWorld": {
-      "value": "akalulu alanda dziko!"
-    },
-    "whiteFur": {
-      "value": "Ubweya Woyera"
-    },
-    "brownFur": {
-      "value": "Ubweya wa Brown"
-    },
-    "floppyEars": {
-      "value": "Makutu a Floppy"
-    },
-    "straightEars": {
-      "value": "Makutu Owongoka"
-    },
-    "shortTeeth": {
-      "value": "Mano Aafupi"
-    },
-    "longTeeth": {
-      "value": "Mano Aatali"
-    },
-    "fur": {
-      "value": "Ubweya"
-    },
-    "furDominant": {
-      "value": "F"
-    },
-    "furRecessive": {
-      "value": "f"
-    },
-    "ears": {
-      "value": "Makutu"
-    },
-    "earsDominant": {
-      "value": "E"
-    },
-    "earsRecessive": {
-      "value": "e"
-    },
-    "teeth": {
-      "value": "Mano"
-    },
-    "teethDominant": {
-      "value": "T"
-    },
-    "teethRecessive": {
-      "value": "t"
-    },
-    "limitedFood": {
-      "value": "Chakudya Chochepa"
-    },
-    "wolves": {
-      "value": "Wolves"
-    },
-    "toughFood": {
-      "value": "Chakudya Cholimba"
-    },
-    "generationValue": {
-      "value": "M'badwo {{value}}"
-    },
-    "mutationComing": {
-      "value": "Kusintha Kukubwera..."
-    },
-    "alleles": {
-      "value": "Alleles"
-    },
-    "selectABunny": {
-      "value": "Sankhani kalulu"
-    },
-    "startOfGeneration": {
-      "value": "Chiyambi cha m'badwo"
-    },
-    "endOfGeneration": {
-      "value": "Mapeto a M'badwo"
-    },
-    "noData": {
-      "value": "Palibe Data"
-    },
-    "currently": {
-      "value": "Panopa"
-    },
-    "oneBunny": {
-      "value": "1 kalulu"
-    },
-    "countBunnies": {
-      "value": "{{count}} akalulu"
-    },
-    "values": {
-      "value": "manambala"
-    },
-    "generation": {
-      "value": "M'badwo"
-    },
-    "zoomOutToSeeData": {
-      "value": "Onerani panja kuti muwone zambiri."
-    },
-    "total": {
-      "value": "Zonse"
-    },
-    "dataProbe": {
-      "value": "Data Probe"
-    },
-    "play": {
-      "value": "Sewerani"
-    },
-    "startOver": {
-      "value": "Yambitsaninso"
-    },
-    "addAMate": {
-      "value": "Onjezani Mnzanu"
-    },
-    "greaterThanValuePercent": {
-      "value": ">{{value}}%"
-    },
-    "lessThanValuePercent": {
-      "value": "<{{value}}%"
-    },
-    "valuePercent": {
-      "value": "{{value}}%"
-    },
-    "natural-selection.title": {
-      "value": "Kusankhidwa Kwachilengedwe"
     }
   },
   "mn": {
@@ -6216,173 +6049,6 @@
       "value": "नैसर्गिक निवड"
     }
   },
-  "pt": {
-    "screen.intro": {
-      "value": "Intro"
-    },
-    "screen.lab": {
-      "value": "Lab"
-    },
-    "addMutations": {
-      "value": "Adicionar Mutações"
-    },
-    "dominant": {
-      "value": "Dominante"
-    },
-    "recessive": {
-      "value": "Recessivo"
-    },
-    "addMutation": {
-      "value": "Adicionar Mutação"
-    },
-    "allOfTheBunniesHaveDied": {
-      "value": "Todos os coelhos morreram."
-    },
-    "environmentalFactors": {
-      "value": "Fatores Ambientais"
-    },
-    "environmentalFactor": {
-      "value": "Fator Ambiental"
-    },
-    "population": {
-      "value": "População"
-    },
-    "proportions": {
-      "value": "Proporções"
-    },
-    "pedigree": {
-      "value": "Linhagem"
-    },
-    "none": {
-      "value": "Nenhuma"
-    },
-    "memoryLimitMessage": {
-      "value": "Parabéns!<br><br>A tua população de coelhos sobreviveu por tempo suficiente<br>para atingir o limite da memória da simulação. "
-    },
-    "bunniesHaveTakenOverTheWorld": {
-      "value": "Os coelhos dominaram o mundo!"
-    },
-    "fur": {
-      "value": "Pelo"
-    },
-    "furDominant": {
-      "value": "F"
-    },
-    "furRecessive": {
-      "value": "f"
-    },
-    "ears": {
-      "value": "Orelhas"
-    },
-    "earsDominant": {
-      "value": "E"
-    },
-    "earsRecessive": {
-      "value": "e"
-    },
-    "teeth": {
-      "value": "Dentes"
-    },
-    "teethDominant": {
-      "value": "T"
-    },
-    "teethRecessive": {
-      "value": "t"
-    },
-    "whiteFur": {
-      "value": "Pelo Branco"
-    },
-    "brownFur": {
-      "value": "Pelo Castanho"
-    },
-    "floppyEars": {
-      "value": "Orelhas de Abano"
-    },
-    "straightEars": {
-      "value": "Orelhas Espetadas"
-    },
-    "shortTeeth": {
-      "value": "Dentes Curtos"
-    },
-    "longTeeth": {
-      "value": "Dentes Compridos"
-    },
-    "generationValue": {
-      "value": "Geração {{value}}"
-    },
-    "limitedFood": {
-      "value": "Comida Limitada"
-    },
-    "toughFood": {
-      "value": "Comida Rija"
-    },
-    "wolves": {
-      "value": "Lobos"
-    },
-    "mutationComing": {
-      "value": "Mutação em Curso..."
-    },
-    "alleles": {
-      "value": "Alelos"
-    },
-    "selectABunny": {
-      "value": "Escolhe um Coelho"
-    },
-    "startOfGeneration": {
-      "value": "Iniciar a Geração"
-    },
-    "endOfGeneration": {
-      "value": "Terminar a Geração"
-    },
-    "noData": {
-      "value": "Sem Dados"
-    },
-    "currently": {
-      "value": "Atualmente"
-    },
-    "oneBunny": {
-      "value": "1 coelho"
-    },
-    "countBunnies": {
-      "value": "{{count}} coelhos"
-    },
-    "values": {
-      "value": "Valores"
-    },
-    "generation": {
-      "value": "Geração"
-    },
-    "zoomOutToSeeData": {
-      "value": "Zoom para ver os dados."
-    },
-    "total": {
-      "value": "Total"
-    },
-    "dataProbe": {
-      "value": "Sonda de Dados"
-    },
-    "addAMate": {
-      "value": "Adicionar Companheiro"
-    },
-    "play": {
-      "value": "Executar"
-    },
-    "startOver": {
-      "value": "Recomeçar"
-    },
-    "greaterThanValuePercent": {
-      "value": ">{{value}}%"
-    },
-    "lessThanValuePercent": {
-      "value": "<{{value}}%"
-    },
-    "valuePercent": {
-      "value": "{{value}}%"
-    },
-    "natural-selection.title": {
-      "value": "Seleção Natural"
-    }
-  },
   "ms": {
     "whiteFur": {
       "value": "Bulu Putih"
@@ -6550,663 +6216,159 @@
       "value": "{{value}}%"
     }
   },
-  "om": {
+  "ny": {
     "screen.intro": {
-      "value": "Seensa"
-    },
-    "screen.lab": {
-      "value": "yaalii"
-    },
-    "addMutations": {
-      "value": "Mutationiwwan Dabali"
-    },
-    "dominant": {
-      "value": "Kan hunda of jala aansee mul'atu"
-    },
-    "recessive": {
-      "value": "Recessive"
-    },
-    "addMutation": {
-      "value": "Mutation Dabali"
-    },
-    "allOfTheBunniesHaveDied": {
-      "value": "Bunniwwan hundi du'aniiru."
-    },
-    "environmentalFactors": {
-      "value": "Dhimmoota naannoo "
-    },
-    "environmentalFactor": {
-      "value": "Dhimma naannoo "
-    },
-    "population": {
-      "value": "Uummata"
-    },
-    "proportions": {
-      "value": "Pirooppoorshinii"
-    },
-    "pedigree": {
-      "value": "Sanyii"
-    },
-    "none": {
-      "value": "Homaa"
-    },
-    "memoryLimitMessage": {
-      "value": "Baga gammaddan!<br><br>Uummanni bunny kee yeroo dheeraa lubbuun hafeera<br>daangaa yaadannoo simulaasii rukutuuf."
-    },
-    "bunniesHaveTakenOverTheWorld": {
-      "value": "Bunniiwwan addunyaa dhuunfattanii jirru!"
-    },
-    "fur": {
-      "value": "Fur"
-    },
-    "furDominant": {
-      "value": "F"
-    },
-    "furRecessive": {
-      "value": "f"
-    },
-    "ears": {
-      "value": "Gurrawwan"
-    },
-    "earsDominant": {
-      "value": "E"
-    },
-    "earsRecessive": {
-      "value": "e"
-    },
-    "teeth": {
-      "value": "Ilkaan"
-    },
-    "teethDominant": {
-      "value": "T"
-    },
-    "teethRecessive": {
-      "value": "t"
-    },
-    "whiteFur": {
-      "value": "White Fur"
-    },
-    "brownFur": {
-      "value": "Brown Fur"
-    },
-    "floppyEars": {
-      "value": "Gurrawwan Flooppii"
-    },
-    "straightEars": {
-      "value": "Gurrawwan Qajeelaa"
-    },
-    "shortTeeth": {
-      "value": "Ilkaan Gabaabaa"
-    },
-    "longTeeth": {
-      "value": "Ilkaan Dheeraa"
-    },
-    "limitedFood": {
-      "value": "Nyaata Daangeffamaa"
-    },
-    "toughFood": {
-      "value": "Nyaata Cimaa"
-    },
-    "wolves": {
-      "value": "Waraabessi"
-    },
-    "generationValue": {
-      "value": "Dhalootaa {{value}}"
-    },
-    "mutationComing": {
-      "value": "Mutation Dhufaa Jira..."
-    },
-    "generation": {
-      "value": "Dhalootaa"
-    },
-    "zoomOutToSeeData": {
-      "value": "Daataa arguuf xiqqeessi."
-    },
-    "total": {
-      "value": "Ida'ama"
-    },
-    "dataProbe": {
-      "value": "Probii Daataa"
-    },
-    "alleles": {
-      "value": "Aaleelota"
-    },
-    "selectABunny": {
-      "value": "Bunny tokko filadhu"
-    },
-    "startOfGeneration": {
-      "value": "Jalqaba Dhalootaa"
-    },
-    "endOfGeneration": {
-      "value": "Xumura Dhalootaa"
-    },
-    "noData": {
-      "value": "Daataa Hin Qabu"
-    },
-    "currently": {
-      "value": "Yeroo ammaatti"
-    },
-    "oneBunny": {
-      "value": "1 bunny"
-    },
-    "countBunnies": {
-      "value": "{{count}} bunnies"
-    },
-    "values": {
-      "value": "Duudhaalee"
-    },
-    "addAMate": {
-      "value": "Hiriyaa itti dabali"
-    },
-    "play": {
-      "value": "Taphadhu"
-    },
-    "startOver": {
-      "value": "Irra Deebii'ii Jalqabi"
-    },
-    "greaterThanValuePercent": {
-      "value": ">{{value}}%"
-    },
-    "lessThanValuePercent": {
-      "value": "<{{value}}%"
-    },
-    "valuePercent": {
-      "value": "{{value}}%"
-    },
-    "natural-selection.title": {
-      "value": "Filannoo Uumamaa"
-    }
-  },
-  "rw": {
-    "screen.intro": {
-      "value": "Intangiriro"
-    },
-    "screen.lab": {
-      "value": "Laboratwari"
-    },
-    "addMutations": {
-      "value": "Ongeraho ihinduka ry'utunyangingo"
-    },
-    "dominant": {
-      "value": "Akarango kigaragaje inyuma"
-    },
-    "recessive": {
-      "value": "Akarango katagaragaye"
-    },
-    "addMutation": {
-      "value": "Ogeraho ihinduka ry'utunyangingo"
-    },
-    "allOfTheBunniesHaveDied": {
-      "value": "Inkwavu zose zapfuye"
-    },
-    "environmentalFactors": {
-      "value": "Ingaruka zituruka ku bidukikije"
-    },
-    "environmentalFactor": {
-      "value": "Ingaruka ituruka ku bidukikije"
-    },
-    "population": {
-      "value": "Ibinyabuzima"
-    },
-    "proportions": {
-      "value": "Ibigerereranyo"
-    },
-    "pedigree": {
-      "value": "Inkomoko"
-    },
-    "none": {
-      "value": "Nta na kimwe!"
-    },
-    "memoryLimitMessage": {
-      "value": "Byiza cyane!<br><br>Inkwavu zabayeho igihe kirekire<br>ubushobozi bw'iyigana bwageze aho bugarukira"
-    },
-    "bunniesHaveTakenOverTheWorld": {
-      "value": "Inkwavu zuzuye isi!"
-    },
-    "fur": {
-      "value": "Ubwoya"
-    },
-    "furDominant": {
-      "value": "F"
-    },
-    "furRecessive": {
-      "value": "f"
-    },
-    "ears": {
-      "value": "Amatwi"
-    },
-    "earsDominant": {
-      "value": "E"
-    },
-    "earsRecessive": {
-      "value": "e"
-    },
-    "teeth": {
-      "value": "Amenyo"
-    },
-    "teethDominant": {
-      "value": "T"
-    },
-    "teethRecessive": {
-      "value": "t"
-    },
-    "whiteFur": {
-      "value": "Ubwoya bwera"
-    },
-    "brownFur": {
-      "value": "Ubwoya bw'ikigina"
-    },
-    "floppyEars": {
-      "value": "Amatwi aguye"
-    },
-    "straightEars": {
-      "value": "Amatwi ahagaze"
-    },
-    "shortTeeth": {
-      "value": "Iryinyo rigufi"
-    },
-    "longTeeth": {
-      "value": "Iryinyo rirerire"
-    },
-    "limitedFood": {
-      "value": "Ibiryo ntibihagije"
-    },
-    "toughFood": {
-      "value": "Ibiryo bikomeye"
-    },
-    "wolves": {
-      "value": "Ibirura"
-    },
-    "generationValue": {
-      "value": "Urungano {{value}}"
-    },
-    "mutationComing": {
-      "value": "Ihinduka ry'utunyangingo riraje..."
-    },
-    "generation": {
-      "value": "Urungano"
-    },
-    "zoomOutToSeeData": {
-      "value": "Reba neza"
-    },
-    "total": {
-      "value": "Igiteranyo"
-    },
-    "dataProbe": {
-      "value": "Gutanga amakuru akenewe"
-    },
-    "alleles": {
-      "value": "Agace k'akanyingingo ndangasano"
-    },
-    "selectABunny": {
-      "value": "Guhitamo urukwavu rw'urunyagazi"
-    },
-    "startOfGeneration": {
-      "value": "Gutangira urungano"
-    },
-    "endOfGeneration": {
-      "value": "Gusoza urungano"
-    },
-    "noData": {
-      "value": "Nta makuru ahari"
-    },
-    "currently": {
-      "value": "Kugeza ubu"
-    },
-    "oneBunny": {
-      "value": "Urukwavu 1"
-    },
-    "countBunnies": {
-      "value": "{{count}} inyagazi"
-    },
-    "values": {
-      "value": "Agaciro"
-    },
-    "addAMate": {
-      "value": "Ongeraho "
-    },
-    "play": {
-      "value": "Gukina"
-    },
-    "startOver": {
-      "value": "Ongera utangire"
-    },
-    "greaterThanValuePercent": {
-      "value": ">{{value}}%"
-    },
-    "lessThanValuePercent": {
-      "value": ">{{value}}%"
-    },
-    "valuePercent": {
-      "value": ">{{value}}%"
-    },
-    "natural-selection.title": {
-      "value": "Ihitamo kamere"
-    }
-  },
-  "ro": {
-    "screen.intro": {
-      "value": "Introducere"
-    },
-    "screen.lab": {
-      "value": "Laborator"
-    },
-    "addMutations": {
-      "value": "Adaugă mutații"
-    },
-    "dominant": {
-      "value": "Dominantă"
-    },
-    "recessive": {
-      "value": "Recesivă"
-    },
-    "addMutation": {
-      "value": "Adaugă mutație"
-    },
-    "allOfTheBunniesHaveDied": {
-      "value": "Toți iepurașii au murit."
-    },
-    "environmentalFactors": {
-      "value": "Factori de mediu"
-    },
-    "environmentalFactor": {
-      "value": "Factor de mediu"
-    },
-    "population": {
-      "value": "Populație"
-    },
-    "proportions": {
-      "value": "Proporție"
-    },
-    "pedigree": {
-      "value": "Pedigree"
-    },
-    "none": {
-      "value": "Nimic"
-    },
-    "memoryLimitMessage": {
-      "value": "Felicitări!<br><br>Populația ta de iepurași a supraviețuit suficient încât<br>să atingă limita de memorie a simulării."
-    },
-    "bunniesHaveTakenOverTheWorld": {
-      "value": "Iepurașii au cucerit lumea!"
-    },
-    "fur": {
-      "value": "Băniță"
-    },
-    "furDominant": {
-      "value": "B"
-    },
-    "furRecessive": {
-      "value": "b"
-    },
-    "ears": {
-      "value": "Urechi"
-    },
-    "earsDominant": {
-      "value": "U"
-    },
-    "earsRecessive": {
-      "value": "u"
-    },
-    "teeth": {
-      "value": "Dinți"
-    },
-    "teethDominant": {
-      "value": "D"
-    },
-    "teethRecessive": {
-      "value": "d"
-    },
-    "whiteFur": {
-      "value": "Blăniță albă"
-    },
-    "brownFur": {
-      "value": "Blăniță maro"
-    },
-    "floppyEars": {
-      "value": "Urechi lăsate"
-    },
-    "straightEars": {
-      "value": "Urechi drepte"
-    },
-    "shortTeeth": {
-      "value": "Dinți scurți"
-    },
-    "longTeeth": {
-      "value": "Dinți lungi"
-    },
-    "limitedFood": {
-      "value": "Hrană puțină"
-    },
-    "toughFood": {
-      "value": "Hrană tare"
-    },
-    "wolves": {
-      "value": "Lupi"
-    },
-    "generationValue": {
-      "value": "Generația {{value}}"
-    },
-    "mutationComing": {
-      "value": "Apariție mutație..."
-    },
-    "generation": {
-      "value": "Generația"
-    },
-    "zoomOutToSeeData": {
-      "value": "Micșorează să vezi datele"
-    },
-    "total": {
-      "value": "Total"
-    },
-    "dataProbe": {
-      "value": "Date / generație"
-    },
-    "alleles": {
-      "value": "Alele"
-    },
-    "selectABunny": {
-      "value": "Selectează un iepuraș"
-    },
-    "startOfGeneration": {
-      "value": "Început de generație"
-    },
-    "endOfGeneration": {
-      "value": "Sfârșit de generație"
-    },
-    "noData": {
-      "value": "Nu sunt date"
-    },
-    "currently": {
-      "value": "În prezent"
-    },
-    "oneBunny": {
-      "value": "1 iepuraș"
-    },
-    "countBunnies": {
-      "value": "{{count}} iepurași"
-    },
-    "values": {
-      "value": "Valori"
-    },
-    "addAMate": {
-      "value": "Adaugă perechea"
-    },
-    "play": {
-      "value": "Strat"
-    },
-    "startOver": {
-      "value": "Reluare"
-    },
-    "greaterThanValuePercent": {
-      "value": ">{{value}}%"
-    },
-    "lessThanValuePercent": {
-      "value": "<{{value}}%"
-    },
-    "valuePercent": {
-      "value": "{{value}}%"
-    },
-    "natural-selection.title": {
-      "value": "Selecția naturală"
-    }
-  },
-  "pt_BR": {
-    "addMutations": {
-      "value": "Adicionar Mutações"
-    },
-    "dominant": {
-      "value": "Dominante"
-    },
-    "recessive": {
-      "value": "Recessivo"
-    },
-    "addMutation": {
-      "value": "Adicionar Mutação"
-    },
-    "allOfTheBunniesHaveDied": {
-      "value": "Todos os coelhos morreram."
-    },
-    "environmentalFactors": {
-      "value": "Fatores Ambientais"
-    },
-    "environmentalFactor": {
-      "value": "Fator Ambiental"
-    },
-    "population": {
-      "value": "População"
-    },
-    "proportions": {
-      "value": "Proporções"
-    },
-    "none": {
-      "value": "Nada"
-    },
-    "memoryLimitMessage": {
-      "value": "Parabéns!<br><br>Sua população de coelhos sobreviveu o suficiente<br>para atingir o limite de memória dessa simulação."
-    },
-    "bunniesHaveTakenOverTheWorld": {
-      "value": "Os coelhos dominaram o mundo!"
-    },
-    "fur": {
-      "value": "Pelo"
-    },
-    "furDominant": {
-      "value": "P"
-    },
-    "furRecessive": {
-      "value": "p"
-    },
-    "ears": {
-      "value": "Orelhas"
-    },
-    "earsDominant": {
-      "value": "O"
-    },
-    "earsRecessive": {
-      "value": "o"
-    },
-    "teeth": {
-      "value": "Dentes"
-    },
-    "teethDominant": {
-      "value": "D"
-    },
-    "teethRecessive": {
-      "value": "d"
-    },
-    "whiteFur": {
-      "value": "Pelo Branco"
-    },
-    "brownFur": {
-      "value": "Pelo Marrom"
-    },
-    "floppyEars": {
-      "value": "Orelhas Caídas"
-    },
-    "straightEars": {
-      "value": "Orelhas Retas"
-    },
-    "shortTeeth": {
-      "value": "Dentes Curtos"
-    },
-    "longTeeth": {
-      "value": "Dentes Longos"
-    },
-    "limitedFood": {
-      "value": "Comida Limitada"
-    },
-    "toughFood": {
-      "value": "Comida Escassa"
-    },
-    "wolves": {
-      "value": "Lobos"
-    },
-    "generationValue": {
-      "value": "Geração {{value}}"
-    },
-    "mutationComing": {
-      "value": "Mutação Chegando ..."
-    },
-    "generation": {
-      "value": "Geração"
-    },
-    "zoomOutToSeeData": {
-      "value": "Afastar para ver dados"
-    },
-    "total": {
-      "value": "Total"
-    },
-    "dataProbe": {
-      "value": "Sonda de Dados"
-    },
-    "alleles": {
-      "value": "Alelos"
-    },
-    "selectABunny": {
-      "value": "Escolha um Coelho"
-    },
-    "startOfGeneration": {
-      "value": "Início da Geração"
-    },
-    "endOfGeneration": {
-      "value": "Fim da Geração"
-    },
-    "noData": {
-      "value": "Sem Dados"
-    },
-    "currently": {
-      "value": "Agora"
-    },
-    "oneBunny": {
-      "value": "1 coelho"
-    },
-    "countBunnies": {
-      "value": "{{count}} coelhos"
-    },
-    "values": {
-      "value": "Valores"
-    },
-    "addAMate": {
-      "value": "Formar Casal"
-    },
-    "play": {
-      "value": "Jogar"
-    },
-    "startOver": {
-      "value": "Reiniciar"
-    },
-    "natural-selection.title": {
-      "value": "Seleção Natural"
-    },
-    "screen.intro": {
-      "value": "Intro"
+      "value": "Chiyambi"
     },
     "screen.lab": {
       "value": "Lab"
     },
+    "addMutations": {
+      "value": "Onjezani Zosintha"
+    },
+    "dominant": {
+      "value": "chomwe chiziwonetsa"
+    },
+    "recessive": {
+      "value": "chomwe sichiziwonetsa"
+    },
+    "addMutation": {
+      "value": "Onjezani Zosintha"
+    },
+    "allOfTheBunniesHaveDied": {
+      "value": "Akalulu onse afa."
+    },
+    "environmentalFactors": {
+      "value": "Zinthu Zachilengedwe"
+    },
+    "environmentalFactor": {
+      "value": "chinthu chachilengedwe"
+    },
+    "population": {
+      "value": "Chiwerengero cha anthu"
+    },
+    "proportions": {
+      "value": "Magawo"
+    },
     "pedigree": {
-      "value": "Linhagem (Pedigree)"
+      "value": "Mbadwa"
+    },
+    "none": {
+      "value": "Palibe"
+    },
+    "memoryLimitMessage": {
+      "value": "Zabwino kwambiri!<br><br>Nambala yanu yakhalapo kwanthawi yayitali<br>kuti isakumbukike poyerekezera."
+    },
+    "bunniesHaveTakenOverTheWorld": {
+      "value": "akalulu alanda dziko!"
+    },
+    "whiteFur": {
+      "value": "Ubweya Woyera"
+    },
+    "brownFur": {
+      "value": "Ubweya wa Brown"
+    },
+    "floppyEars": {
+      "value": "Makutu a Floppy"
+    },
+    "straightEars": {
+      "value": "Makutu Owongoka"
+    },
+    "shortTeeth": {
+      "value": "Mano Aafupi"
+    },
+    "longTeeth": {
+      "value": "Mano Aatali"
+    },
+    "fur": {
+      "value": "Ubweya"
+    },
+    "furDominant": {
+      "value": "F"
+    },
+    "furRecessive": {
+      "value": "f"
+    },
+    "ears": {
+      "value": "Makutu"
+    },
+    "earsDominant": {
+      "value": "E"
+    },
+    "earsRecessive": {
+      "value": "e"
+    },
+    "teeth": {
+      "value": "Mano"
+    },
+    "teethDominant": {
+      "value": "T"
+    },
+    "teethRecessive": {
+      "value": "t"
+    },
+    "limitedFood": {
+      "value": "Chakudya Chochepa"
+    },
+    "wolves": {
+      "value": "Wolves"
+    },
+    "toughFood": {
+      "value": "Chakudya Cholimba"
+    },
+    "generationValue": {
+      "value": "M'badwo {{value}}"
+    },
+    "mutationComing": {
+      "value": "Kusintha Kukubwera..."
+    },
+    "alleles": {
+      "value": "Alleles"
+    },
+    "selectABunny": {
+      "value": "Sankhani kalulu"
+    },
+    "startOfGeneration": {
+      "value": "Chiyambi cha m'badwo"
+    },
+    "endOfGeneration": {
+      "value": "Mapeto a M'badwo"
+    },
+    "noData": {
+      "value": "Palibe Data"
+    },
+    "currently": {
+      "value": "Panopa"
+    },
+    "oneBunny": {
+      "value": "1 kalulu"
+    },
+    "countBunnies": {
+      "value": "{{count}} akalulu"
+    },
+    "values": {
+      "value": "manambala"
+    },
+    "generation": {
+      "value": "M'badwo"
+    },
+    "zoomOutToSeeData": {
+      "value": "Onerani panja kuti muwone zambiri."
+    },
+    "total": {
+      "value": "Zonse"
+    },
+    "dataProbe": {
+      "value": "Data Probe"
+    },
+    "play": {
+      "value": "Sewerani"
+    },
+    "startOver": {
+      "value": "Yambitsaninso"
+    },
+    "addAMate": {
+      "value": "Onjezani Mnzanu"
     },
     "greaterThanValuePercent": {
       "value": ">{{value}}%"
@@ -7216,6 +6378,9 @@
     },
     "valuePercent": {
       "value": "{{value}}%"
+    },
+    "natural-selection.title": {
+      "value": "Kusankhidwa Kwachilengedwe"
     }
   },
   "pl": {
@@ -7385,36 +6550,397 @@
       "value": "{{value}}%"
     }
   },
-  "sk": {
-    "whiteFur": {
-      "value": "Biela srsť"
+  "pt": {
+    "screen.intro": {
+      "value": "Intro"
     },
-    "brownFur": {
-      "value": "Hnedá srsť"
+    "screen.lab": {
+      "value": "Lab"
     },
-    "floppyEars": {
-      "value": "Visiace uši"
+    "addMutations": {
+      "value": "Adicionar Mutações"
     },
-    "straightEars": {
-      "value": "Vzpriamené uši"
+    "dominant": {
+      "value": "Dominante"
     },
-    "shortTeeth": {
-      "value": "Krátke hryzáky"
+    "recessive": {
+      "value": "Recessivo"
     },
-    "longTeeth": {
-      "value": "Dlhé hryzáky"
+    "addMutation": {
+      "value": "Adicionar Mutação"
+    },
+    "allOfTheBunniesHaveDied": {
+      "value": "Todos os coelhos morreram."
+    },
+    "environmentalFactors": {
+      "value": "Fatores Ambientais"
+    },
+    "environmentalFactor": {
+      "value": "Fator Ambiental"
+    },
+    "population": {
+      "value": "População"
+    },
+    "proportions": {
+      "value": "Proporções"
+    },
+    "pedigree": {
+      "value": "Linhagem"
+    },
+    "none": {
+      "value": "Nenhuma"
+    },
+    "memoryLimitMessage": {
+      "value": "Parabéns!<br><br>A tua população de coelhos sobreviveu por tempo suficiente<br>para atingir o limite da memória da simulação. "
+    },
+    "bunniesHaveTakenOverTheWorld": {
+      "value": "Os coelhos dominaram o mundo!"
     },
     "fur": {
-      "value": "Srsť"
+      "value": "Pelo"
     },
     "furDominant": {
-      "value": "S"
+      "value": "F"
     },
     "furRecessive": {
-      "value": "s"
+      "value": "f"
     },
     "ears": {
-      "value": "Uši"
+      "value": "Orelhas"
+    },
+    "earsDominant": {
+      "value": "E"
+    },
+    "earsRecessive": {
+      "value": "e"
+    },
+    "teeth": {
+      "value": "Dentes"
+    },
+    "teethDominant": {
+      "value": "T"
+    },
+    "teethRecessive": {
+      "value": "t"
+    },
+    "whiteFur": {
+      "value": "Pelo Branco"
+    },
+    "brownFur": {
+      "value": "Pelo Castanho"
+    },
+    "floppyEars": {
+      "value": "Orelhas de Abano"
+    },
+    "straightEars": {
+      "value": "Orelhas Espetadas"
+    },
+    "shortTeeth": {
+      "value": "Dentes Curtos"
+    },
+    "longTeeth": {
+      "value": "Dentes Compridos"
+    },
+    "generationValue": {
+      "value": "Geração {{value}}"
+    },
+    "limitedFood": {
+      "value": "Comida Limitada"
+    },
+    "toughFood": {
+      "value": "Comida Rija"
+    },
+    "wolves": {
+      "value": "Lobos"
+    },
+    "mutationComing": {
+      "value": "Mutação em Curso..."
+    },
+    "alleles": {
+      "value": "Alelos"
+    },
+    "selectABunny": {
+      "value": "Escolhe um Coelho"
+    },
+    "startOfGeneration": {
+      "value": "Iniciar a Geração"
+    },
+    "endOfGeneration": {
+      "value": "Terminar a Geração"
+    },
+    "noData": {
+      "value": "Sem Dados"
+    },
+    "currently": {
+      "value": "Atualmente"
+    },
+    "oneBunny": {
+      "value": "1 coelho"
+    },
+    "countBunnies": {
+      "value": "{{count}} coelhos"
+    },
+    "values": {
+      "value": "Valores"
+    },
+    "generation": {
+      "value": "Geração"
+    },
+    "zoomOutToSeeData": {
+      "value": "Zoom para ver os dados."
+    },
+    "total": {
+      "value": "Total"
+    },
+    "dataProbe": {
+      "value": "Sonda de Dados"
+    },
+    "addAMate": {
+      "value": "Adicionar Companheiro"
+    },
+    "play": {
+      "value": "Executar"
+    },
+    "startOver": {
+      "value": "Recomeçar"
+    },
+    "greaterThanValuePercent": {
+      "value": ">{{value}}%"
+    },
+    "lessThanValuePercent": {
+      "value": "<{{value}}%"
+    },
+    "valuePercent": {
+      "value": "{{value}}%"
+    },
+    "natural-selection.title": {
+      "value": "Seleção Natural"
+    }
+  },
+  "pt_BR": {
+    "addMutations": {
+      "value": "Adicionar Mutações"
+    },
+    "dominant": {
+      "value": "Dominante"
+    },
+    "recessive": {
+      "value": "Recessivo"
+    },
+    "addMutation": {
+      "value": "Adicionar Mutação"
+    },
+    "allOfTheBunniesHaveDied": {
+      "value": "Todos os coelhos morreram."
+    },
+    "environmentalFactors": {
+      "value": "Fatores Ambientais"
+    },
+    "environmentalFactor": {
+      "value": "Fator Ambiental"
+    },
+    "population": {
+      "value": "População"
+    },
+    "proportions": {
+      "value": "Proporções"
+    },
+    "none": {
+      "value": "Nada"
+    },
+    "memoryLimitMessage": {
+      "value": "Parabéns!<br><br>Sua população de coelhos sobreviveu o suficiente<br>para atingir o limite de memória dessa simulação."
+    },
+    "bunniesHaveTakenOverTheWorld": {
+      "value": "Os coelhos dominaram o mundo!"
+    },
+    "fur": {
+      "value": "Pelo"
+    },
+    "furDominant": {
+      "value": "P"
+    },
+    "furRecessive": {
+      "value": "p"
+    },
+    "ears": {
+      "value": "Orelhas"
+    },
+    "earsDominant": {
+      "value": "O"
+    },
+    "earsRecessive": {
+      "value": "o"
+    },
+    "teeth": {
+      "value": "Dentes"
+    },
+    "teethDominant": {
+      "value": "D"
+    },
+    "teethRecessive": {
+      "value": "d"
+    },
+    "whiteFur": {
+      "value": "Pelo Branco"
+    },
+    "brownFur": {
+      "value": "Pelo Marrom"
+    },
+    "floppyEars": {
+      "value": "Orelhas Caídas"
+    },
+    "straightEars": {
+      "value": "Orelhas Retas"
+    },
+    "shortTeeth": {
+      "value": "Dentes Curtos"
+    },
+    "longTeeth": {
+      "value": "Dentes Longos"
+    },
+    "limitedFood": {
+      "value": "Comida Limitada"
+    },
+    "toughFood": {
+      "value": "Comida Escassa"
+    },
+    "wolves": {
+      "value": "Lobos"
+    },
+    "generationValue": {
+      "value": "Geração {{value}}"
+    },
+    "mutationComing": {
+      "value": "Mutação Chegando ..."
+    },
+    "generation": {
+      "value": "Geração"
+    },
+    "zoomOutToSeeData": {
+      "value": "Afastar para ver dados"
+    },
+    "total": {
+      "value": "Total"
+    },
+    "dataProbe": {
+      "value": "Sonda de Dados"
+    },
+    "alleles": {
+      "value": "Alelos"
+    },
+    "selectABunny": {
+      "value": "Escolha um Coelho"
+    },
+    "startOfGeneration": {
+      "value": "Início da Geração"
+    },
+    "endOfGeneration": {
+      "value": "Fim da Geração"
+    },
+    "noData": {
+      "value": "Sem Dados"
+    },
+    "currently": {
+      "value": "Agora"
+    },
+    "oneBunny": {
+      "value": "1 coelho"
+    },
+    "countBunnies": {
+      "value": "{{count}} coelhos"
+    },
+    "values": {
+      "value": "Valores"
+    },
+    "addAMate": {
+      "value": "Formar Casal"
+    },
+    "play": {
+      "value": "Jogar"
+    },
+    "startOver": {
+      "value": "Reiniciar"
+    },
+    "natural-selection.title": {
+      "value": "Seleção Natural"
+    },
+    "screen.intro": {
+      "value": "Intro"
+    },
+    "screen.lab": {
+      "value": "Lab"
+    },
+    "pedigree": {
+      "value": "Linhagem (Pedigree)"
+    },
+    "greaterThanValuePercent": {
+      "value": ">{{value}}%"
+    },
+    "lessThanValuePercent": {
+      "value": "<{{value}}%"
+    },
+    "valuePercent": {
+      "value": "{{value}}%"
+    }
+  },
+  "ro": {
+    "screen.intro": {
+      "value": "Introducere"
+    },
+    "screen.lab": {
+      "value": "Laborator"
+    },
+    "addMutations": {
+      "value": "Adaugă mutații"
+    },
+    "dominant": {
+      "value": "Dominantă"
+    },
+    "recessive": {
+      "value": "Recesivă"
+    },
+    "addMutation": {
+      "value": "Adaugă mutație"
+    },
+    "allOfTheBunniesHaveDied": {
+      "value": "Toți iepurașii au murit."
+    },
+    "environmentalFactors": {
+      "value": "Factori de mediu"
+    },
+    "environmentalFactor": {
+      "value": "Factor de mediu"
+    },
+    "population": {
+      "value": "Populație"
+    },
+    "proportions": {
+      "value": "Proporție"
+    },
+    "pedigree": {
+      "value": "Pedigree"
+    },
+    "none": {
+      "value": "Nimic"
+    },
+    "memoryLimitMessage": {
+      "value": "Felicitări!<br><br>Populația ta de iepurași a supraviețuit suficient încât<br>să atingă limita de memorie a simulării."
+    },
+    "bunniesHaveTakenOverTheWorld": {
+      "value": "Iepurașii au cucerit lumea!"
+    },
+    "fur": {
+      "value": "Băniță"
+    },
+    "furDominant": {
+      "value": "B"
+    },
+    "furRecessive": {
+      "value": "b"
+    },
+    "ears": {
+      "value": "Urechi"
     },
     "earsDominant": {
       "value": "U"
@@ -7423,94 +6949,97 @@
       "value": "u"
     },
     "teeth": {
-      "value": "Hryzáky"
+      "value": "Dinți"
     },
     "teethDominant": {
-      "value": "H"
+      "value": "D"
     },
     "teethRecessive": {
-      "value": "h"
+      "value": "d"
     },
-    "addAMate": {
-      "value": "Pridať partnera"
+    "whiteFur": {
+      "value": "Blăniță albă"
     },
-    "addMutations": {
-      "value": "Pridať mutácie"
+    "brownFur": {
+      "value": "Blăniță maro"
     },
-    "dominant": {
-      "value": "Dominantný"
+    "floppyEars": {
+      "value": "Urechi lăsate"
     },
-    "recessive": {
-      "value": "Recesívny"
+    "straightEars": {
+      "value": "Urechi drepte"
     },
-    "addMutation": {
-      "value": "Pridať mutáciu"
+    "shortTeeth": {
+      "value": "Dinți scurți"
     },
-    "allOfTheBunniesHaveDied": {
-      "value": "Všetky králiky vyhynuli."
-    },
-    "environmentalFactors": {
-      "value": "Faktory životného prostredia"
-    },
-    "environmentalFactor": {
-      "value": "Faktor životného prostredia"
-    },
-    "population": {
-      "value": "Populácia"
-    },
-    "proportions": {
-      "value": "Rozdelenie"
-    },
-    "pedigree": {
-      "value": "Rodokmeň"
-    },
-    "none": {
-      "value": "Nič"
+    "longTeeth": {
+      "value": "Dinți lungi"
     },
     "limitedFood": {
-      "value": "Nedostatok potravy"
-    },
-    "memoryLimitMessage": {
-      "value": "Gratulujeme! <br> <br> Populácia vášho králika prežila dosť dlho <br> <br>, aby ste dosiahli limit pamäte simulácie."
-    },
-    "mutationComing": {
-      "value": "Môže nastať mutácia..."
-    },
-    "play": {
-      "value": "Hra"
-    },
-    "startOver": {
-      "value": "Začať odznova"
+      "value": "Hrană puțină"
     },
     "toughFood": {
-      "value": "Ťažko stráviteľná potrava"
+      "value": "Hrană tare"
     },
     "wolves": {
-      "value": "Vlci"
+      "value": "Lupi"
     },
-    "bunniesHaveTakenOverTheWorld": {
-      "value": "Králiky ovládli svet!"
+    "generationValue": {
+      "value": "Generația {{value}}"
     },
-    "alleles": {
-      "value": "Alely (dedičné znaky)"
-    },
-    "selectABunny": {
-      "value": "Vyber králika"
+    "mutationComing": {
+      "value": "Apariție mutație..."
     },
     "generation": {
-      "value": "Generácia"
+      "value": "Generația"
     },
     "zoomOutToSeeData": {
-      "value": "Oddialením zobrazíte údaje."
+      "value": "Micșorează să vezi datele"
     },
     "total": {
-      "value": "Spolu"
+      "value": "Total"
     },
     "dataProbe": {
-      "value": "Snímač dát"
+      "value": "Date / generație"
+    },
+    "alleles": {
+      "value": "Alele"
+    },
+    "selectABunny": {
+      "value": "Selectează un iepuraș"
+    },
+    "startOfGeneration": {
+      "value": "Început de generație"
+    },
+    "endOfGeneration": {
+      "value": "Sfârșit de generație"
+    },
+    "noData": {
+      "value": "Nu sunt date"
+    },
+    "currently": {
+      "value": "În prezent"
+    },
+    "oneBunny": {
+      "value": "1 iepuraș"
+    },
+    "countBunnies": {
+      "value": "{{count}} iepurași"
+    },
+    "values": {
+      "value": "Valori"
+    },
+    "addAMate": {
+      "value": "Adaugă perechea"
+    },
+    "play": {
+      "value": "Strat"
+    },
+    "startOver": {
+      "value": "Reluare"
     },
     "greaterThanValuePercent": {
-      "value": " >{{value}}%"
+      "value": ">{{value}}%"
     },
     "lessThanValuePercent": {
       "value": "<{{value}}%"
@@ -7518,196 +7047,8 @@
     "valuePercent": {
       "value": "{{value}}%"
     },
-    "generationValue": {
-      "value": "Generácia {{value}}"
-    },
-    "startOfGeneration": {
-      "value": "Na začiatku generácie"
-    },
-    "endOfGeneration": {
-      "value": "Na konci generácie"
-    },
-    "noData": {
-      "value": "Žiadne dáta"
-    },
-    "currently": {
-      "value": "Aktuálne"
-    },
-    "oneBunny": {
-      "value": "1 králik"
-    },
-    "countBunnies": {
-      "value": "{{count}} králikov"
-    },
-    "values": {
-      "value": "Hodnoty"
-    },
-    "screen.intro": {
-      "value": "Úvod"
-    },
-    "screen.lab": {
-      "value": "Laboratórium"
-    },
     "natural-selection.title": {
-      "value": "Prirodzený výber"
-    }
-  },
-  "sr": {
-    "whiteFur": {
-      "value": "Бело крзно"
-    },
-    "brownFur": {
-      "value": "Браон крзно"
-    },
-    "floppyEars": {
-      "value": "Спуштене уши"
-    },
-    "straightEars": {
-      "value": "Усправне уши"
-    },
-    "shortTeeth": {
-      "value": "Кратки зуби"
-    },
-    "longTeeth": {
-      "value": "Дуги зуби"
-    },
-    "fur": {
-      "value": "Крзно"
-    },
-    "furDominant": {
-      "value": "К"
-    },
-    "furRecessive": {
-      "value": "к"
-    },
-    "ears": {
-      "value": "Уши"
-    },
-    "earsDominant": {
-      "value": "У"
-    },
-    "earsRecessive": {
-      "value": "у"
-    },
-    "teeth": {
-      "value": "Зуби"
-    },
-    "teethDominant": {
-      "value": "З"
-    },
-    "teethRecessive": {
-      "value": "з"
-    },
-    "addAMate": {
-      "value": "Додај партнера"
-    },
-    "addMutations": {
-      "value": "Додај мутације"
-    },
-    "dominant": {
-      "value": "Доминантно"
-    },
-    "recessive": {
-      "value": "Рецесивно"
-    },
-    "addMutation": {
-      "value": "Додај мутацију"
-    },
-    "allOfTheBunniesHaveDied": {
-      "value": "Све зеке су угинуле!"
-    },
-    "environmentalFactors": {
-      "value": "Фактори животне средине"
-    },
-    "environmentalFactor": {
-      "value": "Фактори животне средине"
-    },
-    "population": {
-      "value": "Популација"
-    },
-    "proportions": {
-      "value": "Пропорција"
-    },
-    "pedigree": {
-      "value": "Родослов"
-    },
-    "none": {
-      "value": "Без"
-    },
-    "limitedFood": {
-      "value": "Ограничена храна"
-    },
-    "memoryLimitMessage": {
-      "value": "Браво!!!<br><br>Ваша популација зечева живела је довољно дуго<br>и достигла ограничење меморије коју има симулација. Ако би наставили зеке би почеле да искачу из екрана"
-    },
-    "mutationComing": {
-      "value": "Мутација долази..."
-    },
-    "play": {
-      "value": "Покрени"
-    },
-    "startOver": {
-      "value": "Поново испочетка"
-    },
-    "toughFood": {
-      "value": "Тврда храна"
-    },
-    "wolves": {
-      "value": "Вукови"
-    },
-    "bunniesHaveTakenOverTheWorld": {
-      "value": "Зечеви су завладали светом!"
-    },
-    "alleles": {
-      "value": "Алели"
-    },
-    "selectABunny": {
-      "value": "Одаберите зеца"
-    },
-    "generation": {
-      "value": "Генерација"
-    },
-    "zoomOutToSeeData": {
-      "value": "Умањите да бисте видели податке"
-    },
-    "total": {
-      "value": "Укупно"
-    },
-    "dataProbe": {
-      "value": "Подаци истраживања"
-    },
-    "generationValue": {
-      "value": "Генерација {{value}}"
-    },
-    "startOfGeneration": {
-      "value": "Почетак генерације"
-    },
-    "endOfGeneration": {
-      "value": "Крај генерације"
-    },
-    "noData": {
-      "value": "Нема података"
-    },
-    "currently": {
-      "value": "Тренутно"
-    },
-    "oneBunny": {
-      "value": "1 зека"
-    },
-    "countBunnies": {
-      "value": "{{count}} зеца (зечева)"
-    },
-    "values": {
-      "value": "Вредности"
-    },
-    "screen.intro": {
-      "value": "Увод"
-    },
-    "screen.lab": {
-      "value": "Лаб"
-    },
-    "natural-selection.title": {
-      "value": "Природна селекција"
+      "value": "Selecția naturală"
     }
   },
   "sl": {
@@ -7877,173 +7218,6 @@
       "value": "{{value}}%"
     }
   },
-  "st": {
-    "screen.intro": {
-      "value": "selelekela"
-    },
-    "screen.lab": {
-      "value": "lebo"
-    },
-    "addMutations": {
-      "value": "eketsa mutation"
-    },
-    "dominant": {
-      "value": "Dominant"
-    },
-    "recessive": {
-      "value": "Recessive"
-    },
-    "addMutation": {
-      "value": "eketsa mutation"
-    },
-    "allOfTheBunniesHaveDied": {
-      "value": "limmutla li shoele kaofela"
-    },
-    "environmentalFactors": {
-      "value": "maemo a tikolo"
-    },
-    "environmentalFactor": {
-      "value": "maemo a tikolo "
-    },
-    "population": {
-      "value": "sechaba"
-    },
-    "proportions": {
-      "value": "keketseho/phokotseho ho ipapisitsoe"
-    },
-    "pedigree": {
-      "value": "pedigree"
-    },
-    "none": {
-      "value": "letho"
-    },
-    "memoryLimitMessage": {
-      "value": "u thabetsoe!<br><br> sechaba sa limmutla li phetse nako e lelele <br> ho fihlela bolelele ba simulation"
-    },
-    "bunniesHaveTakenOverTheWorld": {
-      "value": "limmutla li tlala lefat'se"
-    },
-    "fur": {
-      "value": "Boea"
-    },
-    "furDominant": {
-      "value": "B"
-    },
-    "furRecessive": {
-      "value": "b"
-    },
-    "ears": {
-      "value": "Tsebe"
-    },
-    "earsDominant": {
-      "value": "T"
-    },
-    "earsRecessive": {
-      "value": "t"
-    },
-    "teeth": {
-      "value": "meno"
-    },
-    "teethDominant": {
-      "value": "M"
-    },
-    "teethRecessive": {
-      "value": "m"
-    },
-    "whiteFur": {
-      "value": "boea bo bosoeu"
-    },
-    "brownFur": {
-      "value": "boea bo bosootho"
-    },
-    "floppyEars": {
-      "value": "litsebe tse oeleng"
-    },
-    "straightEars": {
-      "value": "litsebe tse otlolohileng"
-    },
-    "shortTeeth": {
-      "value": "meno a makhut'soanyane"
-    },
-    "longTeeth": {
-      "value": "meno a malelele"
-    },
-    "limitedFood": {
-      "value": "moeli oa lijo"
-    },
-    "toughFood": {
-      "value": "lijo tse thata"
-    },
-    "wolves": {
-      "value": "phiri"
-    },
-    "generationValue": {
-      "value": "moloko {{value}}"
-    },
-    "mutationComing": {
-      "value": "mutation o oatla"
-    },
-    "generation": {
-      "value": "moloko"
-    },
-    "zoomOutToSeeData": {
-      "value": "atametsa pokello ea liphuputso"
-    },
-    "total": {
-      "value": "kakaretso"
-    },
-    "dataProbe": {
-      "value": "pokello ea liphuputso e probe"
-    },
-    "alleles": {
-      "value": "alleles"
-    },
-    "selectABunny": {
-      "value": "khetha 'mutla"
-    },
-    "startOfGeneration": {
-      "value": "qaleho ea moloko"
-    },
-    "endOfGeneration": {
-      "value": "qetello a moloko"
-    },
-    "noData": {
-      "value": "haho pokello ea liphuputso"
-    },
-    "currently": {
-      "value": "hona ioale"
-    },
-    "oneBunny": {
-      "value": "'mutla o le mong"
-    },
-    "countBunnies": {
-      "value": "{{count}} 'mutla"
-    },
-    "values": {
-      "value": "bohlokoa"
-    },
-    "addAMate": {
-      "value": "ho tlisa poho/sethoana"
-    },
-    "play": {
-      "value": "bapala"
-    },
-    "startOver": {
-      "value": "qala qalong"
-    },
-    "greaterThanValuePercent": {
-      "value": ">{{value}}%"
-    },
-    "lessThanValuePercent": {
-      "value": "{{value}}%"
-    },
-    "valuePercent": {
-      "value": "{{value}}%"
-    },
-    "natural-selection.title": {
-      "value": "khetho e etsoang ke tlholeho"
-    }
-  },
   "sq": {
     "screen.intro": {
       "value": "Hyrje"
@@ -8211,6 +7385,331 @@
       "value": "Përzgjedhja Natyrore"
     }
   },
+  "sr": {
+    "whiteFur": {
+      "value": "Бело крзно"
+    },
+    "brownFur": {
+      "value": "Браон крзно"
+    },
+    "floppyEars": {
+      "value": "Спуштене уши"
+    },
+    "straightEars": {
+      "value": "Усправне уши"
+    },
+    "shortTeeth": {
+      "value": "Кратки зуби"
+    },
+    "longTeeth": {
+      "value": "Дуги зуби"
+    },
+    "fur": {
+      "value": "Крзно"
+    },
+    "furDominant": {
+      "value": "К"
+    },
+    "furRecessive": {
+      "value": "к"
+    },
+    "ears": {
+      "value": "Уши"
+    },
+    "earsDominant": {
+      "value": "У"
+    },
+    "earsRecessive": {
+      "value": "у"
+    },
+    "teeth": {
+      "value": "Зуби"
+    },
+    "teethDominant": {
+      "value": "З"
+    },
+    "teethRecessive": {
+      "value": "з"
+    },
+    "addAMate": {
+      "value": "Додај партнера"
+    },
+    "addMutations": {
+      "value": "Додај мутације"
+    },
+    "dominant": {
+      "value": "Доминантно"
+    },
+    "recessive": {
+      "value": "Рецесивно"
+    },
+    "addMutation": {
+      "value": "Додај мутацију"
+    },
+    "allOfTheBunniesHaveDied": {
+      "value": "Све зеке су угинуле!"
+    },
+    "environmentalFactors": {
+      "value": "Фактори животне средине"
+    },
+    "environmentalFactor": {
+      "value": "Фактори животне средине"
+    },
+    "population": {
+      "value": "Популација"
+    },
+    "proportions": {
+      "value": "Пропорција"
+    },
+    "pedigree": {
+      "value": "Родослов"
+    },
+    "none": {
+      "value": "Без"
+    },
+    "limitedFood": {
+      "value": "Ограничена храна"
+    },
+    "memoryLimitMessage": {
+      "value": "Браво!!!<br><br>Ваша популација зечева живела је довољно дуго<br>и достигла ограничење меморије коју има симулација. Ако би наставили зеке би почеле да искачу из екрана"
+    },
+    "mutationComing": {
+      "value": "Мутација долази..."
+    },
+    "play": {
+      "value": "Покрени"
+    },
+    "startOver": {
+      "value": "Поново испочетка"
+    },
+    "toughFood": {
+      "value": "Тврда храна"
+    },
+    "wolves": {
+      "value": "Вукови"
+    },
+    "bunniesHaveTakenOverTheWorld": {
+      "value": "Зечеви су завладали светом!"
+    },
+    "alleles": {
+      "value": "Алели"
+    },
+    "selectABunny": {
+      "value": "Одаберите зеца"
+    },
+    "generation": {
+      "value": "Генерација"
+    },
+    "zoomOutToSeeData": {
+      "value": "Умањите да бисте видели податке"
+    },
+    "total": {
+      "value": "Укупно"
+    },
+    "dataProbe": {
+      "value": "Подаци истраживања"
+    },
+    "generationValue": {
+      "value": "Генерација {{value}}"
+    },
+    "startOfGeneration": {
+      "value": "Почетак генерације"
+    },
+    "endOfGeneration": {
+      "value": "Крај генерације"
+    },
+    "noData": {
+      "value": "Нема података"
+    },
+    "currently": {
+      "value": "Тренутно"
+    },
+    "oneBunny": {
+      "value": "1 зека"
+    },
+    "countBunnies": {
+      "value": "{{count}} зеца (зечева)"
+    },
+    "values": {
+      "value": "Вредности"
+    },
+    "screen.intro": {
+      "value": "Увод"
+    },
+    "screen.lab": {
+      "value": "Лаб"
+    },
+    "natural-selection.title": {
+      "value": "Природна селекција"
+    }
+  },
+  "st": {
+    "screen.intro": {
+      "value": "selelekela"
+    },
+    "screen.lab": {
+      "value": "lebo"
+    },
+    "addMutations": {
+      "value": "eketsa mutation"
+    },
+    "dominant": {
+      "value": "Dominant"
+    },
+    "recessive": {
+      "value": "Recessive"
+    },
+    "addMutation": {
+      "value": "eketsa mutation"
+    },
+    "allOfTheBunniesHaveDied": {
+      "value": "limmutla li shoele kaofela"
+    },
+    "environmentalFactors": {
+      "value": "maemo a tikolo"
+    },
+    "environmentalFactor": {
+      "value": "maemo a tikolo "
+    },
+    "population": {
+      "value": "sechaba"
+    },
+    "proportions": {
+      "value": "keketseho/phokotseho ho ipapisitsoe"
+    },
+    "pedigree": {
+      "value": "pedigree"
+    },
+    "none": {
+      "value": "letho"
+    },
+    "memoryLimitMessage": {
+      "value": "u thabetsoe!<br><br> sechaba sa limmutla li phetse nako e lelele <br> ho fihlela bolelele ba simulation"
+    },
+    "bunniesHaveTakenOverTheWorld": {
+      "value": "limmutla li tlala lefat'se"
+    },
+    "fur": {
+      "value": "Boea"
+    },
+    "furDominant": {
+      "value": "B"
+    },
+    "furRecessive": {
+      "value": "b"
+    },
+    "ears": {
+      "value": "Tsebe"
+    },
+    "earsDominant": {
+      "value": "T"
+    },
+    "earsRecessive": {
+      "value": "t"
+    },
+    "teeth": {
+      "value": "meno"
+    },
+    "teethDominant": {
+      "value": "M"
+    },
+    "teethRecessive": {
+      "value": "m"
+    },
+    "whiteFur": {
+      "value": "boea bo bosoeu"
+    },
+    "brownFur": {
+      "value": "boea bo bosootho"
+    },
+    "floppyEars": {
+      "value": "litsebe tse oeleng"
+    },
+    "straightEars": {
+      "value": "litsebe tse otlolohileng"
+    },
+    "shortTeeth": {
+      "value": "meno a makhut'soanyane"
+    },
+    "longTeeth": {
+      "value": "meno a malelele"
+    },
+    "limitedFood": {
+      "value": "moeli oa lijo"
+    },
+    "toughFood": {
+      "value": "lijo tse thata"
+    },
+    "wolves": {
+      "value": "phiri"
+    },
+    "generationValue": {
+      "value": "moloko {{value}}"
+    },
+    "mutationComing": {
+      "value": "mutation o oatla"
+    },
+    "generation": {
+      "value": "moloko"
+    },
+    "zoomOutToSeeData": {
+      "value": "atametsa pokello ea liphuputso"
+    },
+    "total": {
+      "value": "kakaretso"
+    },
+    "dataProbe": {
+      "value": "pokello ea liphuputso e probe"
+    },
+    "alleles": {
+      "value": "alleles"
+    },
+    "selectABunny": {
+      "value": "khetha 'mutla"
+    },
+    "startOfGeneration": {
+      "value": "qaleho ea moloko"
+    },
+    "endOfGeneration": {
+      "value": "qetello a moloko"
+    },
+    "noData": {
+      "value": "haho pokello ea liphuputso"
+    },
+    "currently": {
+      "value": "hona ioale"
+    },
+    "oneBunny": {
+      "value": "'mutla o le mong"
+    },
+    "countBunnies": {
+      "value": "{{count}} 'mutla"
+    },
+    "values": {
+      "value": "bohlokoa"
+    },
+    "addAMate": {
+      "value": "ho tlisa poho/sethoana"
+    },
+    "play": {
+      "value": "bapala"
+    },
+    "startOver": {
+      "value": "qala qalong"
+    },
+    "greaterThanValuePercent": {
+      "value": ">{{value}}%"
+    },
+    "lessThanValuePercent": {
+      "value": "{{value}}%"
+    },
+    "valuePercent": {
+      "value": "{{value}}%"
+    },
+    "natural-selection.title": {
+      "value": "khetho e etsoang ke tlholeho"
+    }
+  },
   "sv": {
     "whiteFur": {
       "value": "Vit päls"
@@ -8366,159 +7865,159 @@
       "value": "Naturligt urval"
     }
   },
-  "tk": {
+  "sw": {
     "screen.intro": {
-      "value": "Giriş"
+      "value": "Utangulizi"
     },
     "screen.lab": {
-      "value": "Barlaghana"
+      "value": "Maabara"
     },
     "addMutations": {
-      "value": "Mutasiýalary goş"
+      "value": "Ongeza Mabadiliko"
     },
     "dominant": {
-      "value": "Dominant"
+      "value": "Inayotawala"
     },
     "recessive": {
-      "value": "Resessiw"
+      "value": "Kupindukia"
     },
     "addMutation": {
-      "value": "Mutasiýa goş"
+      "value": "Ongeza  Mabadiliko"
     },
     "allOfTheBunniesHaveDied": {
-      "value": "Hemme towşanlar öldi."
+      "value": "Sungura wote wamekufa."
     },
     "environmentalFactors": {
-      "value": "Daşky gurşaw faktorlary"
+      "value": "Mambo ya Mazingira"
     },
     "environmentalFactor": {
-      "value": "Daşky gurşaw faktory"
+      "value": "Sababu ya Mazingira"
     },
     "population": {
-      "value": "Populýasiýa"
+      "value": "Idadi"
     },
     "proportions": {
-      "value": "Gatnaşyklar"
+      "value": "Uwiano"
     },
     "pedigree": {
-      "value": "Nesil daragty"
+      "value": "Asili"
     },
     "none": {
-      "value": "Hiç"
+      "value": "Hakuna"
     },
     "memoryLimitMessage": {
-      "value": "Gutlaýarys!<br><br>Siziň towşan populýasiýaňyz<br>simulýasiýanyň ýat çägine ýetjek derejede uzak ýaşady."
+      "value": "Hongera!<br><br>Idadi ya sungura wako imesalia kwa muda wa kutosha<br>kufikia kikomo cha kumbukumbu cha mwigo."
     },
     "bunniesHaveTakenOverTheWorld": {
-      "value": "Towşanlar dünýäni basyp aldy!"
+      "value": "Sungura wamechukua ulimwengu!"
     },
     "fur": {
-      "value": "Sütügi"
+      "value": "Unyoya"
     },
     "furDominant": {
-      "value": "S"
+      "value": "F"
     },
     "furRecessive": {
-      "value": "s"
+      "value": "f"
     },
     "ears": {
-      "value": "Gulaklar"
+      "value": "Masikio"
     },
     "earsDominant": {
-      "value": "G"
+      "value": "E"
     },
     "earsRecessive": {
-      "value": "g"
+      "value": "e"
     },
     "teeth": {
-      "value": "Dişler"
+      "value": "Meno"
     },
     "teethDominant": {
-      "value": "D"
+      "value": "T"
     },
     "teethRecessive": {
-      "value": "d"
+      "value": "t"
     },
     "whiteFur": {
-      "value": "Ak sütük"
+      "value": "Manyoya Nyeupe"
     },
     "brownFur": {
-      "value": "Goňur sütük"
+      "value": "Manyoya ya Brown"
     },
     "floppyEars": {
-      "value": "Ýasy gulaklar"
+      "value": "Masikio legevu"
     },
     "straightEars": {
-      "value": "Göni gulaklar"
+      "value": "Masikio Sawa"
     },
     "shortTeeth": {
-      "value": "Gysga dişler"
+      "value": "Meno Mafupi"
     },
     "longTeeth": {
-      "value": "Uzyn dişler"
+      "value": "Meno Marefu"
     },
     "limitedFood": {
-      "value": "Çäkli iýmit"
+      "value": "Chakula Kidogo"
     },
     "toughFood": {
-      "value": "Gaty iýmit"
+      "value": "Chakula kigumu"
     },
     "wolves": {
-      "value": "Möjekler"
+      "value": "Mbwa mwitu"
     },
     "generationValue": {
-      "value": "Nesil {{value}}"
+      "value": "Kizazi {{value}}"
     },
     "mutationComing": {
-      "value": "Mutasiýa ýetip gelýär..."
+      "value": "Mabadiliko Yanakuja..."
     },
     "generation": {
-      "value": "Nesil"
+      "value": "Kizazi"
     },
     "zoomOutToSeeData": {
-      "value": "Maglumaty görmek üçin ulalt."
+      "value": "Vuta ili kuona data."
     },
     "total": {
-      "value": "Jemi"
+      "value": "Jumla"
     },
     "dataProbe": {
-      "value": "Maglumaty barlamak"
+      "value": "Uchunguzi wa Data"
     },
     "alleles": {
-      "value": "Alleller"
+      "value": "Alleles"
     },
     "selectABunny": {
-      "value": "Towşan saýla"
+      "value": "Chagua Sungura"
     },
     "startOfGeneration": {
-      "value": "Nesliň başlamagy"
+      "value": "Mwanzo wa Kizazi"
     },
     "endOfGeneration": {
-      "value": "Nesliň gutarmagy"
+      "value": "Mwisho wa Kizazi"
     },
     "noData": {
-      "value": "Maglumat ýok"
+      "value": "Hakuna Data"
     },
     "currently": {
-      "value": "Häzirki wagtda"
+      "value": "Kwa sasa"
     },
     "oneBunny": {
-      "value": "1 towşan"
+      "value": "sungura 1"
     },
     "countBunnies": {
-      "value": "{{count}} towşan"
+      "value": "Sungura {{count}}"
     },
     "values": {
-      "value": "Bahalar"
+      "value": "thamani"
     },
     "addAMate": {
-      "value": "Jübüt goş"
+      "value": "Ongeza Mwenza"
     },
     "play": {
-      "value": "Oýnat"
+      "value": "Cheza"
     },
     "startOver": {
-      "value": "Başdan başla"
+      "value": "Anza tena"
     },
     "greaterThanValuePercent": {
       "value": ">{{value}}%"
@@ -8530,7 +8029,7 @@
       "value": "{{value}}%"
     },
     "natural-selection.title": {
-      "value": "Tebigy seçgi"
+      "value": "Uchaguzi wa asili"
     }
   },
   "ta": {
@@ -8840,159 +8339,159 @@
       "value": "ప్రకృతి వరణము"
     }
   },
-  "sw": {
+  "tk": {
     "screen.intro": {
-      "value": "Utangulizi"
+      "value": "Giriş"
     },
     "screen.lab": {
-      "value": "Maabara"
+      "value": "Barlaghana"
     },
     "addMutations": {
-      "value": "Ongeza Mabadiliko"
+      "value": "Mutasiýalary goş"
     },
     "dominant": {
-      "value": "Inayotawala"
+      "value": "Dominant"
     },
     "recessive": {
-      "value": "Kupindukia"
+      "value": "Resessiw"
     },
     "addMutation": {
-      "value": "Ongeza  Mabadiliko"
+      "value": "Mutasiýa goş"
     },
     "allOfTheBunniesHaveDied": {
-      "value": "Sungura wote wamekufa."
+      "value": "Hemme towşanlar öldi."
     },
     "environmentalFactors": {
-      "value": "Mambo ya Mazingira"
+      "value": "Daşky gurşaw faktorlary"
     },
     "environmentalFactor": {
-      "value": "Sababu ya Mazingira"
+      "value": "Daşky gurşaw faktory"
     },
     "population": {
-      "value": "Idadi"
+      "value": "Populýasiýa"
     },
     "proportions": {
-      "value": "Uwiano"
+      "value": "Gatnaşyklar"
     },
     "pedigree": {
-      "value": "Asili"
+      "value": "Nesil daragty"
     },
     "none": {
-      "value": "Hakuna"
+      "value": "Hiç"
     },
     "memoryLimitMessage": {
-      "value": "Hongera!<br><br>Idadi ya sungura wako imesalia kwa muda wa kutosha<br>kufikia kikomo cha kumbukumbu cha mwigo."
+      "value": "Gutlaýarys!<br><br>Siziň towşan populýasiýaňyz<br>simulýasiýanyň ýat çägine ýetjek derejede uzak ýaşady."
     },
     "bunniesHaveTakenOverTheWorld": {
-      "value": "Sungura wamechukua ulimwengu!"
+      "value": "Towşanlar dünýäni basyp aldy!"
     },
     "fur": {
-      "value": "Unyoya"
+      "value": "Sütügi"
     },
     "furDominant": {
-      "value": "F"
+      "value": "S"
     },
     "furRecessive": {
-      "value": "f"
+      "value": "s"
     },
     "ears": {
-      "value": "Masikio"
+      "value": "Gulaklar"
     },
     "earsDominant": {
-      "value": "E"
+      "value": "G"
     },
     "earsRecessive": {
-      "value": "e"
+      "value": "g"
     },
     "teeth": {
-      "value": "Meno"
+      "value": "Dişler"
     },
     "teethDominant": {
-      "value": "T"
+      "value": "D"
     },
     "teethRecessive": {
-      "value": "t"
+      "value": "d"
     },
     "whiteFur": {
-      "value": "Manyoya Nyeupe"
+      "value": "Ak sütük"
     },
     "brownFur": {
-      "value": "Manyoya ya Brown"
+      "value": "Goňur sütük"
     },
     "floppyEars": {
-      "value": "Masikio legevu"
+      "value": "Ýasy gulaklar"
     },
     "straightEars": {
-      "value": "Masikio Sawa"
+      "value": "Göni gulaklar"
     },
     "shortTeeth": {
-      "value": "Meno Mafupi"
+      "value": "Gysga dişler"
     },
     "longTeeth": {
-      "value": "Meno Marefu"
+      "value": "Uzyn dişler"
     },
     "limitedFood": {
-      "value": "Chakula Kidogo"
+      "value": "Çäkli iýmit"
     },
     "toughFood": {
-      "value": "Chakula kigumu"
+      "value": "Gaty iýmit"
     },
     "wolves": {
-      "value": "Mbwa mwitu"
+      "value": "Möjekler"
     },
     "generationValue": {
-      "value": "Kizazi {{value}}"
+      "value": "Nesil {{value}}"
     },
     "mutationComing": {
-      "value": "Mabadiliko Yanakuja..."
+      "value": "Mutasiýa ýetip gelýär..."
     },
     "generation": {
-      "value": "Kizazi"
+      "value": "Nesil"
     },
     "zoomOutToSeeData": {
-      "value": "Vuta ili kuona data."
+      "value": "Maglumaty görmek üçin ulalt."
     },
     "total": {
-      "value": "Jumla"
+      "value": "Jemi"
     },
     "dataProbe": {
-      "value": "Uchunguzi wa Data"
+      "value": "Maglumaty barlamak"
     },
     "alleles": {
-      "value": "Alleles"
+      "value": "Alleller"
     },
     "selectABunny": {
-      "value": "Chagua Sungura"
+      "value": "Towşan saýla"
     },
     "startOfGeneration": {
-      "value": "Mwanzo wa Kizazi"
+      "value": "Nesliň başlamagy"
     },
     "endOfGeneration": {
-      "value": "Mwisho wa Kizazi"
+      "value": "Nesliň gutarmagy"
     },
     "noData": {
-      "value": "Hakuna Data"
+      "value": "Maglumat ýok"
     },
     "currently": {
-      "value": "Kwa sasa"
+      "value": "Häzirki wagtda"
     },
     "oneBunny": {
-      "value": "sungura 1"
+      "value": "1 towşan"
     },
     "countBunnies": {
-      "value": "Sungura {{count}}"
+      "value": "{{count}} towşan"
     },
     "values": {
-      "value": "thamani"
+      "value": "Bahalar"
     },
     "addAMate": {
-      "value": "Ongeza Mwenza"
+      "value": "Jübüt goş"
     },
     "play": {
-      "value": "Cheza"
+      "value": "Oýnat"
     },
     "startOver": {
-      "value": "Anza tena"
+      "value": "Başdan başla"
     },
     "greaterThanValuePercent": {
       "value": ">{{value}}%"
@@ -9004,7 +8503,314 @@
       "value": "{{value}}%"
     },
     "natural-selection.title": {
-      "value": "Uchaguzi wa asili"
+      "value": "Tebigy seçgi"
+    }
+  },
+  "tr": {
+    "whiteFur": {
+      "value": "Beyaz Kürk"
+    },
+    "brownFur": {
+      "value": "Kahverengi Kürk"
+    },
+    "floppyEars": {
+      "value": "Sarkık Kulaklar"
+    },
+    "straightEars": {
+      "value": "Düz Kulaklar"
+    },
+    "shortTeeth": {
+      "value": "Kısa Dişler"
+    },
+    "longTeeth": {
+      "value": "Uzun Dişler"
+    },
+    "fur": {
+      "value": "Kürk"
+    },
+    "ears": {
+      "value": "Kulaklar"
+    },
+    "teeth": {
+      "value": "Dişler"
+    },
+    "addAMate": {
+      "value": "Eş ekleyin"
+    },
+    "addMutations": {
+      "value": "Mutasyon ekleyin"
+    },
+    "dominant": {
+      "value": "Baskın"
+    },
+    "recessive": {
+      "value": "Çekinik"
+    },
+    "addMutation": {
+      "value": "Mutasyon ekleyin"
+    },
+    "allOfTheBunniesHaveDied": {
+      "value": "Tavşanların hepsi öldü."
+    },
+    "environmentalFactors": {
+      "value": "Çevresel Etkenler"
+    },
+    "environmentalFactor": {
+      "value": "Çevresel Etkenler"
+    },
+    "population": {
+      "value": "Nüfus"
+    },
+    "proportions": {
+      "value": "Oranlar"
+    },
+    "pedigree": {
+      "value": "Soyağacı "
+    },
+    "none": {
+      "value": "Hiçbiri"
+    },
+    "limitedFood": {
+      "value": "Sınırlı yemek"
+    },
+    "memoryLimitMessage": {
+      "value": "Tebrikler!<br><br>Tavşan nüfusunuz simulasyonun sınırına<br> ulaşacak kadar uzun yaşadı."
+    },
+    "mutationComing": {
+      "value": "Mutasyon hazırlanıyor..."
+    },
+    "play": {
+      "value": "Oynat"
+    },
+    "startOver": {
+      "value": "Yeniden Başla "
+    },
+    "toughFood": {
+      "value": "Zor Yiyecek"
+    },
+    "wolves": {
+      "value": "Kurtlar"
+    },
+    "bunniesHaveTakenOverTheWorld": {
+      "value": "Tavşanlar tüm dünyayı fethetti!"
+    },
+    "alleles": {
+      "value": "Aleller"
+    },
+    "selectABunny": {
+      "value": "Bir Tavşan Seçin"
+    },
+    "generation": {
+      "value": "Nesil"
+    },
+    "zoomOutToSeeData": {
+      "value": "Veriyi görmek için uzaklaştırın"
+    },
+    "total": {
+      "value": "Toplam"
+    },
+    "dataProbe": {
+      "value": "Veri Çubuğu"
+    },
+    "generationValue": {
+      "value": "Nesil {{value}}"
+    },
+    "startOfGeneration": {
+      "value": "Nesil Başlangıç"
+    },
+    "endOfGeneration": {
+      "value": "Nesil Sonu"
+    },
+    "noData": {
+      "value": "Veri Yok"
+    },
+    "currently": {
+      "value": "Halihazırda "
+    },
+    "oneBunny": {
+      "value": "1 tavşan"
+    },
+    "countBunnies": {
+      "value": "{{count}} tavşan"
+    },
+    "values": {
+      "value": "Değerler "
+    },
+    "screen.intro": {
+      "value": "Giriş"
+    },
+    "screen.lab": {
+      "value": "Laboratuvar"
+    },
+    "natural-selection.title": {
+      "value": "Doğal Seleksiyon"
+    }
+  },
+  "tw": {
+    "screen.intro": {
+      "value": "Nnianimu"
+    },
+    "screen.lab": {
+      "value": "Beaeɛ a wɔyɛ biribi mu nhwehwɛmu"
+    },
+    "addMutations": {
+      "value": "Fa nsensaneeɛ ka ho"
+    },
+    "dominant": {
+      "value": "Kɛseɛ"
+    },
+    "recessive": {
+      "value": "Ketewa"
+    },
+    "addMutation": {
+      "value": "Fa nsensaneeɛ ka ho"
+    },
+    "allOfTheBunniesHaveDied": {
+      "value": "Nnanko mma no nyinaa awuwu"
+    },
+    "environmentalFactors": {
+      "value": " Beaɛ Nsunsuansoɔ"
+    },
+    "environmentalFactor": {
+      "value": " Beaeɛ Nsunsuansoɔ"
+    },
+    "population": {
+      "value": "Dodoɔ"
+    },
+    "proportions": {
+      "value": "Emu fa bi"
+    },
+    "pedigree": {
+      "value": "Sononkoyɛ"
+    },
+    "none": {
+      "value": "ɛnyɛ ɛmu biaa"
+    },
+    "memoryLimitMessage": {
+      "value": "Mo!<br><br>wo Nnanko mma dodoɔ no nyinaa ayɛ yie akyɛ na ɔmo annwu<br>abro yɛn adesua yi adwene so."
+    },
+    "bunniesHaveTakenOverTheWorld": {
+      "value": "Nnanko nketewa no afa asaase no nyinaa"
+    },
+    "fur": {
+      "value": "nwi"
+    },
+    "furDominant": {
+      "value": "F"
+    },
+    "furRecessive": {
+      "value": "f"
+    },
+    "ears": {
+      "value": "Aso"
+    },
+    "earsDominant": {
+      "value": "E"
+    },
+    "earsRecessive": {
+      "value": "e"
+    },
+    "teeth": {
+      "value": "ɛse"
+    },
+    "teethDominant": {
+      "value": "T"
+    },
+    "teethRecessive": {
+      "value": "t"
+    },
+    "whiteFur": {
+      "value": "Nwi fitaa"
+    },
+    "brownFur": {
+      "value": "Nwi dodoeɛ"
+    },
+    "floppyEars": {
+      "value": "Aso a ɛda hɔ"
+    },
+    "straightEars": {
+      "value": "Aso a ɛgyina hɔ"
+    },
+    "shortTeeth": {
+      "value": "ɛse Ntiatia"
+    },
+    "longTeeth": {
+      "value": "ɛse Atenten"
+    },
+    "limitedFood": {
+      "value": "Aduane no sua"
+    },
+    "toughFood": {
+      "value": "Aduane no ɛden"
+    },
+    "wolves": {
+      "value": "Mpataku"
+    },
+    "generationValue": {
+      "value": "Awoɔ Ntoatoasoɔ {{value}}"
+    },
+    "mutationComing": {
+      "value": "Nsesaeɛ a ɛreba"
+    },
+    "generation": {
+      "value": "Awoɔ Ntoatoasoɔ"
+    },
+    "zoomOutToSeeData": {
+      "value": "Twe bra anim na hwɛ nsɛm a yɛakora"
+    },
+    "total": {
+      "value": "Dodoɔ"
+    },
+    "dataProbe": {
+      "value": "Nhwehwɛmu Safoa"
+    },
+    "alleles": {
+      "value": "Alleles"
+    },
+    "selectABunny": {
+      "value": "Fa nnako mma no mu bi"
+    },
+    "startOfGeneration": {
+      "value": "Hyɛ Awoɔ ntoatoasoɔ  Ase"
+    },
+    "endOfGeneration": {
+      "value": "Awoɔ Ntoatoasoɔ Awieeɛ"
+    },
+    "noData": {
+      "value": "Nsɛm biara ɛni mu"
+    },
+    "currently": {
+      "value": "Seesei ara"
+    },
+    "oneBunny": {
+      "value": "Adanko ba baako pɛ"
+    },
+    "countBunnies": {
+      "value": "{{count}} Nnanko mma"
+    },
+    "values": {
+      "value": "Mfasoɔ"
+    },
+    "addAMate": {
+      "value": "Fa deɛ ɔbɛforo no ka ne ho"
+    },
+    "play": {
+      "value": "Bɔ"
+    },
+    "startOver": {
+      "value": "Hyɛ  Aseɛ Biom"
+    },
+    "greaterThanValuePercent": {
+      "value": ">{{value}}%"
+    },
+    "lessThanValuePercent": {
+      "value": "<{{value}}%"
+    },
+    "valuePercent": {
+      "value": "{{value}}%"
+    },
+    "natural-selection.title": {
+      "value": "Abɔdeɛ Nyiyimu"
     }
   },
   "uk": {
@@ -9174,146 +8980,6 @@
       "value": "Природний добір"
     }
   },
-  "tr": {
-    "whiteFur": {
-      "value": "Beyaz Kürk"
-    },
-    "brownFur": {
-      "value": "Kahverengi Kürk"
-    },
-    "floppyEars": {
-      "value": "Sarkık Kulaklar"
-    },
-    "straightEars": {
-      "value": "Düz Kulaklar"
-    },
-    "shortTeeth": {
-      "value": "Kısa Dişler"
-    },
-    "longTeeth": {
-      "value": "Uzun Dişler"
-    },
-    "fur": {
-      "value": "Kürk"
-    },
-    "ears": {
-      "value": "Kulaklar"
-    },
-    "teeth": {
-      "value": "Dişler"
-    },
-    "addAMate": {
-      "value": "Eş ekleyin"
-    },
-    "addMutations": {
-      "value": "Mutasyon ekleyin"
-    },
-    "dominant": {
-      "value": "Baskın"
-    },
-    "recessive": {
-      "value": "Çekinik"
-    },
-    "addMutation": {
-      "value": "Mutasyon ekleyin"
-    },
-    "allOfTheBunniesHaveDied": {
-      "value": "Tavşanların hepsi öldü."
-    },
-    "environmentalFactors": {
-      "value": "Çevresel Etkenler"
-    },
-    "environmentalFactor": {
-      "value": "Çevresel Etkenler"
-    },
-    "population": {
-      "value": "Nüfus"
-    },
-    "proportions": {
-      "value": "Oranlar"
-    },
-    "pedigree": {
-      "value": "Soyağacı "
-    },
-    "none": {
-      "value": "Hiçbiri"
-    },
-    "limitedFood": {
-      "value": "Sınırlı yemek"
-    },
-    "memoryLimitMessage": {
-      "value": "Tebrikler!<br><br>Tavşan nüfusunuz simulasyonun sınırına<br> ulaşacak kadar uzun yaşadı."
-    },
-    "mutationComing": {
-      "value": "Mutasyon hazırlanıyor..."
-    },
-    "play": {
-      "value": "Oynat"
-    },
-    "startOver": {
-      "value": "Yeniden Başla "
-    },
-    "toughFood": {
-      "value": "Zor Yiyecek"
-    },
-    "wolves": {
-      "value": "Kurtlar"
-    },
-    "bunniesHaveTakenOverTheWorld": {
-      "value": "Tavşanlar tüm dünyayı fethetti!"
-    },
-    "alleles": {
-      "value": "Aleller"
-    },
-    "selectABunny": {
-      "value": "Bir Tavşan Seçin"
-    },
-    "generation": {
-      "value": "Nesil"
-    },
-    "zoomOutToSeeData": {
-      "value": "Veriyi görmek için uzaklaştırın"
-    },
-    "total": {
-      "value": "Toplam"
-    },
-    "dataProbe": {
-      "value": "Veri Çubuğu"
-    },
-    "generationValue": {
-      "value": "Nesil {{value}}"
-    },
-    "startOfGeneration": {
-      "value": "Nesil Başlangıç"
-    },
-    "endOfGeneration": {
-      "value": "Nesil Sonu"
-    },
-    "noData": {
-      "value": "Veri Yok"
-    },
-    "currently": {
-      "value": "Halihazırda "
-    },
-    "oneBunny": {
-      "value": "1 tavşan"
-    },
-    "countBunnies": {
-      "value": "{{count}} tavşan"
-    },
-    "values": {
-      "value": "Değerler "
-    },
-    "screen.intro": {
-      "value": "Giriş"
-    },
-    "screen.lab": {
-      "value": "Laboratuvar"
-    },
-    "natural-selection.title": {
-      "value": "Doğal Seleksiyon"
-    }
-  },
   "uz": {
     "whiteFur": {
       "value": "Oq mo‘yna"
@@ -9479,6 +9145,340 @@
     },
     "valuePercent": {
       "value": "{{value}}%"
+    }
+  },
+  "vi": {
+    "whiteFur": {
+      "value": "Da trắng"
+    },
+    "brownFur": {
+      "value": "Da nâu"
+    },
+    "floppyEars": {
+      "value": "Tai mềm"
+    },
+    "straightEars": {
+      "value": "Tai thẳng"
+    },
+    "shortTeeth": {
+      "value": "Răng ngắn"
+    },
+    "longTeeth": {
+      "value": "Răng dài"
+    },
+    "fur": {
+      "value": "Da"
+    },
+    "furDominant": {
+      "value": "F"
+    },
+    "furRecessive": {
+      "value": "f"
+    },
+    "ears": {
+      "value": "Tai"
+    },
+    "earsDominant": {
+      "value": "E"
+    },
+    "earsRecessive": {
+      "value": "e"
+    },
+    "teeth": {
+      "value": "Răng"
+    },
+    "teethDominant": {
+      "value": "T"
+    },
+    "teethRecessive": {
+      "value": "t"
+    },
+    "addAMate": {
+      "value": "Thêm một con bạn"
+    },
+    "addMutations": {
+      "value": "Thêm sự đột biến"
+    },
+    "dominant": {
+      "value": "Trội"
+    },
+    "recessive": {
+      "value": "Lặn"
+    },
+    "addMutation": {
+      "value": "Thêm sự đột biến"
+    },
+    "allOfTheBunniesHaveDied": {
+      "value": "Toàn bộ thỏ đều qua đời"
+    },
+    "environmentalFactors": {
+      "value": "Nhân tố môi trường"
+    },
+    "environmentalFactor": {
+      "value": "Nhân tố môi trường"
+    },
+    "population": {
+      "value": "Quần thể"
+    },
+    "proportions": {
+      "value": "Tỷ lệ"
+    },
+    "pedigree": {
+      "value": "Phả hệ"
+    },
+    "none": {
+      "value": "Không"
+    },
+    "limitedFood": {
+      "value": "Thực phẩm bị hạn chế"
+    },
+    "memoryLimitMessage": {
+      "value": "Xin chúc mừng! <br><br>Quần thể thỏ của bạn đã tồn tại đủ<br> để đạt tới giới hạn bộ nhớ của mô phỏng."
+    },
+    "mutationComing": {
+      "value": "Đột biến sắp xảy ra..."
+    },
+    "play": {
+      "value": "Play"
+    },
+    "startOver": {
+      "value": "Bắt đầu lại"
+    },
+    "toughFood": {
+      "value": "Thực phẩm cứng"
+    },
+    "wolves": {
+      "value": "Sói"
+    },
+    "bunniesHaveTakenOverTheWorld": {
+      "value": "Thỏ đã chiếm lĩnh toàn thế giới!"
+    },
+    "alleles": {
+      "value": "Allele"
+    },
+    "selectABunny": {
+      "value": "Chọn một con thỏ"
+    },
+    "generation": {
+      "value": "Thế hệ"
+    },
+    "zoomOutToSeeData": {
+      "value": "Thu nhỏ để thấy dữ liệu"
+    },
+    "total": {
+      "value": "Tổng cộng"
+    },
+    "dataProbe": {
+      "value": "Dò dữ liệu"
+    },
+    "greaterThanValuePercent": {
+      "value": ">{{value}}%"
+    },
+    "lessThanValuePercent": {
+      "value": "<{{value}}%"
+    },
+    "valuePercent": {
+      "value": "{{value}}%"
+    },
+    "generationValue": {
+      "value": "Thế hệ {{value}}"
+    },
+    "startOfGeneration": {
+      "value": "Bắt đầu thế hệ"
+    },
+    "endOfGeneration": {
+      "value": "Kết thúc thế hệ"
+    },
+    "noData": {
+      "value": "Không có dữ liệu"
+    },
+    "currently": {
+      "value": "Hiện tại"
+    },
+    "oneBunny": {
+      "value": "1 con thỏ"
+    },
+    "countBunnies": {
+      "value": "{{count}} thỏ"
+    },
+    "values": {
+      "value": "Giá trị"
+    },
+    "screen.intro": {
+      "value": "Phần giới thiệu"
+    },
+    "screen.lab": {
+      "value": "Phòng thí nghiệm"
+    },
+    "natural-selection.title": {
+      "value": "Chọn lọc tự nhiên"
+    }
+  },
+  "yo": {
+    "screen.intro": {
+      "value": "Káábọ̀"
+    },
+    "screen.lab": {
+      "value": "Lààbu"
+    },
+    "addMutations": {
+      "value": "Ṣafikun Iyipada"
+    },
+    "dominant": {
+      "value": "Alakoso"
+    },
+    "recessive": {
+      "value": "Jiini"
+    },
+    "addMutation": {
+      "value": "Ṣafikun Iyipada"
+    },
+    "allOfTheBunniesHaveDied": {
+      "value": "Gbogbo awọn bunnies ti ku."
+    },
+    "environmentalFactors": {
+      "value": "Awọn Okunfa Ayika"
+    },
+    "environmentalFactor": {
+      "value": "Okùnfà  àyíká "
+    },
+    "population": {
+      "value": "Olùgbé "
+    },
+    "proportions": {
+      "value": "Ipin"
+    },
+    "pedigree": {
+      "value": "Pedigree"
+    },
+    "none": {
+      "value": "ko si"
+    },
+    "memoryLimitMessage": {
+      "value": "Oriire!<br> <b>Olugbe bunny rẹ ti ye gun to<b>lati lu opin iranti ti kikopa."
+    },
+    "bunniesHaveTakenOverTheWorld": {
+      "value": "Bunnies ti gba agbaye kan!"
+    },
+    "fur": {
+      "value": "Irun"
+    },
+    "furDominant": {
+      "value": "F"
+    },
+    "furRecessive": {
+      "value": "f"
+    },
+    "ears": {
+      "value": "Eti"
+    },
+    "earsDominant": {
+      "value": "E"
+    },
+    "earsRecessive": {
+      "value": "e"
+    },
+    "teeth": {
+      "value": "Eyin"
+    },
+    "teethDominant": {
+      "value": "T"
+    },
+    "teethRecessive": {
+      "value": "t"
+    },
+    "whiteFur": {
+      "value": "Irun alawọ funfun"
+    },
+    "brownFur": {
+      "value": "Irun alàwo pako"
+    },
+    "floppyEars": {
+      "value": "Awọn Eti fẹ́lẹ́fẹ́lẹ́ "
+    },
+    "straightEars": {
+      "value": "Eti tààrà"
+    },
+    "shortTeeth": {
+      "value": "Eyin kukuru"
+    },
+    "longTeeth": {
+      "value": "Eyin gigun"
+    },
+    "generationValue": {
+      "value": "Iran  {{value}}"
+    },
+    "limitedFood": {
+      "value": "Opin ounje"
+    },
+    "toughFood": {
+      "value": "Ounjẹ Alakikanju"
+    },
+    "wolves": {
+      "value": "Awon ìkookò"
+    },
+    "mutationComing": {
+      "value": "Iyipada bọ̀"
+    },
+    "alleles": {
+      "value": "Alleles"
+    },
+    "selectABunny": {
+      "value": "Yan Bunny kan"
+    },
+    "startOfGeneration": {
+      "value": "Ibẹrẹ ti Iran"
+    },
+    "endOfGeneration": {
+      "value": "Ipari Iran"
+    },
+    "noData": {
+      "value": "Ko si dàtà"
+    },
+    "currently": {
+      "value": "Lọwọlọwọ"
+    },
+    "oneBunny": {
+      "value": "Bunny eyokan"
+    },
+    "countBunnies": {
+      "value": "{{count}} bunnies"
+    },
+    "values": {
+      "value": "Idiyélé "
+    },
+    "generation": {
+      "value": "Iran"
+    },
+    "zoomOutToSeeData": {
+      "value": "Sun jade lati wo data."
+    },
+    "total": {
+      "value": "Lapapọ"
+    },
+    "dataProbe": {
+      "value": "Iwadi Dátà"
+    },
+    "addAMate": {
+      "value": "Safikun "
+    },
+    "play": {
+      "value": "Sééré"
+    },
+    "startOver": {
+      "value": "Sẹsẹbẹrẹ"
+    },
+    "greaterThanValuePercent": {
+      "value": ">{{value}}%"
+    },
+    "lessThanValuePercent": {
+      "value": "<{{value}}%"
+    },
+    "valuePercent": {
+      "value": "{{value}}%"
+    },
+    "natural-selection.title": {
+      "value": "Yíyàn adánidá"
     }
   },
   "zh_CN": {
@@ -9815,54 +9815,54 @@
       "value": "Natural Selection_天擇"
     }
   },
-  "yo": {
+  "zu": {
     "screen.intro": {
-      "value": "Káábọ̀"
+      "value": "isingeniso"
     },
     "screen.lab": {
-      "value": "Lààbu"
-    },
-    "addMutations": {
-      "value": "Ṣafikun Iyipada"
+      "value": "ilebhu"
     },
     "dominant": {
-      "value": "Alakoso"
+      "value": "ubusayo"
     },
     "recessive": {
-      "value": "Jiini"
+      "value": "ngokwedlulele"
     },
     "addMutation": {
-      "value": "Ṣafikun Iyipada"
+      "value": "engeza ukuguqulwa"
+    },
+    "addMutations": {
+      "value": "engeza izinguquko"
     },
     "allOfTheBunniesHaveDied": {
-      "value": "Gbogbo awọn bunnies ti ku."
-    },
-    "environmentalFactors": {
-      "value": "Awọn Okunfa Ayika"
+      "value": "bonke onogwaja bafile."
     },
     "environmentalFactor": {
-      "value": "Okùnfà  àyíká "
+      "value": "isici semvelo"
+    },
+    "environmentalFactors": {
+      "value": "izici semvelo"
     },
     "population": {
-      "value": "Olùgbé "
+      "value": "inani labantu"
     },
     "proportions": {
-      "value": "Ipin"
+      "value": "izilinganiso"
     },
     "pedigree": {
-      "value": "Pedigree"
+      "value": "uzalo"
     },
     "none": {
-      "value": "ko si"
+      "value": "akukho"
     },
     "memoryLimitMessage": {
-      "value": "Oriire!<br> <b>Olugbe bunny rẹ ti ye gun to<b>lati lu opin iranti ti kikopa."
+      "value": "siyakuhalalisela! <br><br>isibalo sikanogwaja wakho usinde isikhathi eside ngokwanele <br> ukushaya umkhawulo wenkumbulo yesimo."
     },
     "bunniesHaveTakenOverTheWorld": {
-      "value": "Bunnies ti gba agbaye kan!"
+      "value": "onogwaja sebewudlangile"
     },
     "fur": {
-      "value": "Irun"
+      "value": "uboya"
     },
     "furDominant": {
       "value": "F"
@@ -9871,7 +9871,7 @@
       "value": "f"
     },
     "ears": {
-      "value": "Eti"
+      "value": "izindlebe"
     },
     "earsDominant": {
       "value": "E"
@@ -9880,7 +9880,7 @@
       "value": "e"
     },
     "teeth": {
-      "value": "Eyin"
+      "value": "amazinyo"
     },
     "teethDominant": {
       "value": "T"
@@ -9888,86 +9888,86 @@
     "teethRecessive": {
       "value": "t"
     },
-    "whiteFur": {
-      "value": "Irun alawọ funfun"
-    },
-    "brownFur": {
-      "value": "Irun alàwo pako"
-    },
-    "floppyEars": {
-      "value": "Awọn Eti fẹ́lẹ́fẹ́lẹ́ "
-    },
-    "straightEars": {
-      "value": "Eti tààrà"
-    },
-    "shortTeeth": {
-      "value": "Eyin kukuru"
-    },
-    "longTeeth": {
-      "value": "Eyin gigun"
-    },
-    "generationValue": {
-      "value": "Iran  {{value}}"
-    },
     "limitedFood": {
-      "value": "Opin ounje"
+      "value": "ukudla okulinganiselwe"
     },
     "toughFood": {
-      "value": "Ounjẹ Alakikanju"
+      "value": "ukundla okunzima"
     },
     "wolves": {
-      "value": "Awon ìkookò"
+      "value": "izimpisi"
+    },
+    "generationValue": {
+      "value": "Generation {{value}}"
+    },
+    "addAMate": {
+      "value": "engeza umlingani"
+    },
+    "play": {
+      "value": "dlala"
+    },
+    "startOver": {
+      "value": "qalaphansi"
     },
     "mutationComing": {
-      "value": "Iyipada bọ̀"
+      "value": "ukuguqulwa kuyeza"
     },
     "alleles": {
       "value": "Alleles"
     },
     "selectABunny": {
-      "value": "Yan Bunny kan"
-    },
-    "startOfGeneration": {
-      "value": "Ibẹrẹ ti Iran"
-    },
-    "endOfGeneration": {
-      "value": "Ipari Iran"
-    },
-    "noData": {
-      "value": "Ko si dàtà"
-    },
-    "currently": {
-      "value": "Lọwọlọwọ"
-    },
-    "oneBunny": {
-      "value": "Bunny eyokan"
-    },
-    "countBunnies": {
-      "value": "{{count}} bunnies"
-    },
-    "values": {
-      "value": "Idiyélé "
-    },
-    "generation": {
-      "value": "Iran"
+      "value": "khetha unogwaja"
     },
     "zoomOutToSeeData": {
-      "value": "Sun jade lati wo data."
+      "value": "hlehlisa ukuze ubone idatha"
     },
     "total": {
-      "value": "Lapapọ"
+      "value": "inani"
     },
     "dataProbe": {
-      "value": "Iwadi Dátà"
+      "value": "uphenyo lwedatha"
     },
-    "addAMate": {
-      "value": "Safikun "
+    "startOfGeneration": {
+      "value": "ukuqalankwesizukulwane"
     },
-    "play": {
-      "value": "Sééré"
+    "currently": {
+      "value": "okwamanje"
     },
-    "startOver": {
-      "value": "Sẹsẹbẹrẹ"
+    "endOfGeneration": {
+      "value": "ukuphela kwesizukulwane"
+    },
+    "noData": {
+      "value": "ayikho idatha"
+    },
+    "oneBunny": {
+      "value": "1 unogwaja"
+    },
+    "countBunnies": {
+      "value": "{{count}} bunnies"
+    },
+    "values": {
+      "value": "amanani"
+    },
+    "whiteFur": {
+      "value": "uboya obumhlophe"
+    },
+    "brownFur": {
+      "value": "uboya obunsundu"
+    },
+    "floppyEars": {
+      "value": "izindlebe ze-floppy"
+    },
+    "straightEars": {
+      "value": "izindlebe eziqondile"
+    },
+    "shortTeeth": {
+      "value": "amazinyo amafushane"
+    },
+    "longTeeth": {
+      "value": "amazinyo amade"
+    },
+    "generation": {
+      "value": "isizukulwane"
     },
     "greaterThanValuePercent": {
       "value": ">{{value}}%"
@@ -9979,7 +9979,7 @@
       "value": "{{value}}%"
     },
     "natural-selection.title": {
-      "value": "Yíyàn adánidá"
+      "value": "ukukhetha kwemvelo"
     }
   },
   "en": {
@@ -10149,325 +10149,6 @@
       "value": "Congratulations!<br><br>Your bunny population has survived long enough<br>to hit the memory limit of the simulation."
     }
   },
-  "nl": {
-    "whiteFur": {
-      "value": "Witte vacht"
-    },
-    "brownFur": {
-      "value": "Bruine vacht"
-    },
-    "floppyEars": {
-      "value": "Flaporen"
-    },
-    "straightEars": {
-      "value": "Rechtopstaande oren"
-    },
-    "shortTeeth": {
-      "value": "Korte tanden"
-    },
-    "longTeeth": {
-      "value": "Lange tanden"
-    },
-    "fur": {
-      "value": "Vacht"
-    },
-    "furDominant": {
-      "value": "V"
-    },
-    "furRecessive": {
-      "value": "v"
-    },
-    "ears": {
-      "value": "Oren"
-    },
-    "earsDominant": {
-      "value": "O"
-    },
-    "earsRecessive": {
-      "value": "o"
-    },
-    "teeth": {
-      "value": "Tanden"
-    },
-    "teethDominant": {
-      "value": "T"
-    },
-    "teethRecessive": {
-      "value": "t"
-    },
-    "addAMate": {
-      "value": "Voeg een maatje toe"
-    },
-    "addMutations": {
-      "value": "Voeg mutaties toe"
-    },
-    "recessive": {
-      "value": "Recessief"
-    },
-    "addMutation": {
-      "value": "Voeg mutatie toe"
-    },
-    "allOfTheBunniesHaveDied": {
-      "value": "Al de konijnen zijn dood."
-    },
-    "environmentalFactors": {
-      "value": "Omgevingsfaktoren"
-    },
-    "environmentalFactor": {
-      "value": "Omgevingsfaktor"
-    },
-    "population": {
-      "value": "Bevolking"
-    },
-    "proportions": {
-      "value": "Verhoudingen"
-    },
-    "pedigree": {
-      "value": "Stamboom"
-    },
-    "none": {
-      "value": "Geen"
-    },
-    "limitedFood": {
-      "value": "Beperkt voedsel"
-    },
-    "memoryLimitMessage": {
-      "value": "Proficiat!<br><br>Je konijnenbevolking heeft lang genoeg overleefd<br>om de grens van het geheugen van de simulatie te   bereiken."
-    },
-    "mutationComing": {
-      "value": "Mutatie op komst ..."
-    },
-    "play": {
-      "value": "Speel"
-    },
-    "startOver": {
-      "value": "Begin opnieuw"
-    },
-    "toughFood": {
-      "value": "Flink wat te eten"
-    },
-    "wolves": {
-      "value": "Wolven"
-    },
-    "bunniesHaveTakenOverTheWorld": {
-      "value": "De konijnen hebben de wereld veroverd!"
-    },
-    "alleles": {
-      "value": "Allelen"
-    },
-    "selectABunny": {
-      "value": "Kies een konijn"
-    },
-    "generation": {
-      "value": "Generatie"
-    },
-    "zoomOutToSeeData": {
-      "value": "Vergroot om de gegevens te zien."
-    },
-    "total": {
-      "value": "Totaal"
-    },
-    "dataProbe": {
-      "value": "Gegevens onderzoeken"
-    },
-    "generationValue": {
-      "value": "Generatie {{value}}"
-    },
-    "startOfGeneration": {
-      "value": "Start van generatie"
-    },
-    "endOfGeneration": {
-      "value": "Einde van generatie"
-    },
-    "noData": {
-      "value": "Geen gegevens"
-    },
-    "currently": {
-      "value": "Nu"
-    },
-    "oneBunny": {
-      "value": "1 konijn"
-    },
-    "countBunnies": {
-      "value": "{{count}} konijnen"
-    },
-    "values": {
-      "value": "Waarden"
-    },
-    "screen.intro": {
-      "value": "Inleiding"
-    },
-    "natural-selection.title": {
-      "value": "Natuurlijke selektie"
-    }
-  },
-  "tw": {
-    "screen.intro": {
-      "value": "Nnianimu"
-    },
-    "screen.lab": {
-      "value": "Beaeɛ a wɔyɛ biribi mu nhwehwɛmu"
-    },
-    "addMutations": {
-      "value": "Fa nsensaneeɛ ka ho"
-    },
-    "dominant": {
-      "value": "Kɛseɛ"
-    },
-    "recessive": {
-      "value": "Ketewa"
-    },
-    "addMutation": {
-      "value": "Fa nsensaneeɛ ka ho"
-    },
-    "allOfTheBunniesHaveDied": {
-      "value": "Nnanko mma no nyinaa awuwu"
-    },
-    "environmentalFactors": {
-      "value": " Beaɛ Nsunsuansoɔ"
-    },
-    "environmentalFactor": {
-      "value": " Beaeɛ Nsunsuansoɔ"
-    },
-    "population": {
-      "value": "Dodoɔ"
-    },
-    "proportions": {
-      "value": "Emu fa bi"
-    },
-    "pedigree": {
-      "value": "Sononkoyɛ"
-    },
-    "none": {
-      "value": "ɛnyɛ ɛmu biaa"
-    },
-    "memoryLimitMessage": {
-      "value": "Mo!<br><br>wo Nnanko mma dodoɔ no nyinaa ayɛ yie akyɛ na ɔmo annwu<br>abro yɛn adesua yi adwene so."
-    },
-    "bunniesHaveTakenOverTheWorld": {
-      "value": "Nnanko nketewa no afa asaase no nyinaa"
-    },
-    "fur": {
-      "value": "nwi"
-    },
-    "furDominant": {
-      "value": "F"
-    },
-    "furRecessive": {
-      "value": "f"
-    },
-    "ears": {
-      "value": "Aso"
-    },
-    "earsDominant": {
-      "value": "E"
-    },
-    "earsRecessive": {
-      "value": "e"
-    },
-    "teeth": {
-      "value": "ɛse"
-    },
-    "teethDominant": {
-      "value": "T"
-    },
-    "teethRecessive": {
-      "value": "t"
-    },
-    "whiteFur": {
-      "value": "Nwi fitaa"
-    },
-    "brownFur": {
-      "value": "Nwi dodoeɛ"
-    },
-    "floppyEars": {
-      "value": "Aso a ɛda hɔ"
-    },
-    "straightEars": {
-      "value": "Aso a ɛgyina hɔ"
-    },
-    "shortTeeth": {
-      "value": "ɛse Ntiatia"
-    },
-    "longTeeth": {
-      "value": "ɛse Atenten"
-    },
-    "limitedFood": {
-      "value": "Aduane no sua"
-    },
-    "toughFood": {
-      "value": "Aduane no ɛden"
-    },
-    "wolves": {
-      "value": "Mpataku"
-    },
-    "generationValue": {
-      "value": "Awoɔ Ntoatoasoɔ {{value}}"
-    },
-    "mutationComing": {
-      "value": "Nsesaeɛ a ɛreba"
-    },
-    "generation": {
-      "value": "Awoɔ Ntoatoasoɔ"
-    },
-    "zoomOutToSeeData": {
-      "value": "Twe bra anim na hwɛ nsɛm a yɛakora"
-    },
-    "total": {
-      "value": "Dodoɔ"
-    },
-    "dataProbe": {
-      "value": "Nhwehwɛmu Safoa"
-    },
-    "alleles": {
-      "value": "Alleles"
-    },
-    "selectABunny": {
-      "value": "Fa nnako mma no mu bi"
-    },
-    "startOfGeneration": {
-      "value": "Hyɛ Awoɔ ntoatoasoɔ  Ase"
-    },
-    "endOfGeneration": {
-      "value": "Awoɔ Ntoatoasoɔ Awieeɛ"
-    },
-    "noData": {
-      "value": "Nsɛm biara ɛni mu"
-    },
-    "currently": {
-      "value": "Seesei ara"
-    },
-    "oneBunny": {
-      "value": "Adanko ba baako pɛ"
-    },
-    "countBunnies": {
-      "value": "{{count}} Nnanko mma"
-    },
-    "values": {
-      "value": "Mfasoɔ"
-    },
-    "addAMate": {
-      "value": "Fa deɛ ɔbɛforo no ka ne ho"
-    },
-    "play": {
-      "value": "Bɔ"
-    },
-    "startOver": {
-      "value": "Hyɛ  Aseɛ Biom"
-    },
-    "greaterThanValuePercent": {
-      "value": ">{{value}}%"
-    },
-    "lessThanValuePercent": {
-      "value": "<{{value}}%"
-    },
-    "valuePercent": {
-      "value": "{{value}}%"
-    },
-    "natural-selection.title": {
-      "value": "Abɔdeɛ Nyiyimu"
-    }
-  },
   "nn": {
     "screen.intro": {
       "value": "Introduksjon"
@@ -10635,212 +10316,45 @@
       "value": "Naturleg utval"
     }
   },
-  "zu": {
-    "screen.intro": {
-      "value": "isingeniso"
-    },
-    "screen.lab": {
-      "value": "ilebhu"
-    },
-    "dominant": {
-      "value": "ubusayo"
-    },
-    "recessive": {
-      "value": "ngokwedlulele"
-    },
-    "addMutation": {
-      "value": "engeza ukuguqulwa"
-    },
-    "addMutations": {
-      "value": "engeza izinguquko"
-    },
-    "allOfTheBunniesHaveDied": {
-      "value": "bonke onogwaja bafile."
-    },
-    "environmentalFactor": {
-      "value": "isici semvelo"
-    },
-    "environmentalFactors": {
-      "value": "izici semvelo"
-    },
-    "population": {
-      "value": "inani labantu"
-    },
-    "proportions": {
-      "value": "izilinganiso"
-    },
-    "pedigree": {
-      "value": "uzalo"
-    },
-    "none": {
-      "value": "akukho"
-    },
-    "memoryLimitMessage": {
-      "value": "siyakuhalalisela! <br><br>isibalo sikanogwaja wakho usinde isikhathi eside ngokwanele <br> ukushaya umkhawulo wenkumbulo yesimo."
-    },
-    "bunniesHaveTakenOverTheWorld": {
-      "value": "onogwaja sebewudlangile"
-    },
-    "fur": {
-      "value": "uboya"
-    },
-    "furDominant": {
-      "value": "F"
-    },
-    "furRecessive": {
-      "value": "f"
-    },
-    "ears": {
-      "value": "izindlebe"
-    },
-    "earsDominant": {
-      "value": "E"
-    },
-    "earsRecessive": {
-      "value": "e"
-    },
-    "teeth": {
-      "value": "amazinyo"
-    },
-    "teethDominant": {
-      "value": "T"
-    },
-    "teethRecessive": {
-      "value": "t"
-    },
-    "limitedFood": {
-      "value": "ukudla okulinganiselwe"
-    },
-    "toughFood": {
-      "value": "ukundla okunzima"
-    },
-    "wolves": {
-      "value": "izimpisi"
-    },
-    "generationValue": {
-      "value": "Generation {{value}}"
-    },
-    "addAMate": {
-      "value": "engeza umlingani"
-    },
-    "play": {
-      "value": "dlala"
-    },
-    "startOver": {
-      "value": "qalaphansi"
-    },
-    "mutationComing": {
-      "value": "ukuguqulwa kuyeza"
-    },
-    "alleles": {
-      "value": "Alleles"
-    },
-    "selectABunny": {
-      "value": "khetha unogwaja"
-    },
-    "zoomOutToSeeData": {
-      "value": "hlehlisa ukuze ubone idatha"
-    },
-    "total": {
-      "value": "inani"
-    },
-    "dataProbe": {
-      "value": "uphenyo lwedatha"
-    },
-    "startOfGeneration": {
-      "value": "ukuqalankwesizukulwane"
-    },
-    "currently": {
-      "value": "okwamanje"
-    },
-    "endOfGeneration": {
-      "value": "ukuphela kwesizukulwane"
-    },
-    "noData": {
-      "value": "ayikho idatha"
-    },
-    "oneBunny": {
-      "value": "1 unogwaja"
-    },
-    "countBunnies": {
-      "value": "{{count}} bunnies"
-    },
-    "values": {
-      "value": "amanani"
-    },
+  "nl": {
     "whiteFur": {
-      "value": "uboya obumhlophe"
+      "value": "Witte vacht"
     },
     "brownFur": {
-      "value": "uboya obunsundu"
+      "value": "Bruine vacht"
     },
     "floppyEars": {
-      "value": "izindlebe ze-floppy"
+      "value": "Flaporen"
     },
     "straightEars": {
-      "value": "izindlebe eziqondile"
+      "value": "Rechtopstaande oren"
     },
     "shortTeeth": {
-      "value": "amazinyo amafushane"
+      "value": "Korte tanden"
     },
     "longTeeth": {
-      "value": "amazinyo amade"
-    },
-    "generation": {
-      "value": "isizukulwane"
-    },
-    "greaterThanValuePercent": {
-      "value": ">{{value}}%"
-    },
-    "lessThanValuePercent": {
-      "value": "<{{value}}%"
-    },
-    "valuePercent": {
-      "value": "{{value}}%"
-    },
-    "natural-selection.title": {
-      "value": "ukukhetha kwemvelo"
-    }
-  },
-  "vi": {
-    "whiteFur": {
-      "value": "Da trắng"
-    },
-    "brownFur": {
-      "value": "Da nâu"
-    },
-    "floppyEars": {
-      "value": "Tai mềm"
-    },
-    "straightEars": {
-      "value": "Tai thẳng"
-    },
-    "shortTeeth": {
-      "value": "Răng ngắn"
-    },
-    "longTeeth": {
-      "value": "Răng dài"
+      "value": "Lange tanden"
     },
     "fur": {
-      "value": "Da"
+      "value": "Vacht"
     },
     "furDominant": {
-      "value": "F"
+      "value": "V"
     },
     "furRecessive": {
-      "value": "f"
+      "value": "v"
     },
     "ears": {
-      "value": "Tai"
+      "value": "Oren"
     },
     "earsDominant": {
-      "value": "E"
+      "value": "O"
     },
     "earsRecessive": {
-      "value": "e"
+      "value": "o"
     },
     "teeth": {
-      "value": "Răng"
+      "value": "Tanden"
     },
     "teethDominant": {
       "value": "T"
@@ -10849,124 +10363,109 @@
       "value": "t"
     },
     "addAMate": {
-      "value": "Thêm một con bạn"
+      "value": "Voeg een maatje toe"
     },
     "addMutations": {
-      "value": "Thêm sự đột biến"
-    },
-    "dominant": {
-      "value": "Trội"
+      "value": "Voeg mutaties toe"
     },
     "recessive": {
-      "value": "Lặn"
+      "value": "Recessief"
     },
     "addMutation": {
-      "value": "Thêm sự đột biến"
+      "value": "Voeg mutatie toe"
     },
     "allOfTheBunniesHaveDied": {
-      "value": "Toàn bộ thỏ đều qua đời"
+      "value": "Al de konijnen zijn dood."
     },
     "environmentalFactors": {
-      "value": "Nhân tố môi trường"
+      "value": "Omgevingsfaktoren"
     },
     "environmentalFactor": {
-      "value": "Nhân tố môi trường"
+      "value": "Omgevingsfaktor"
     },
     "population": {
-      "value": "Quần thể"
+      "value": "Bevolking"
     },
     "proportions": {
-      "value": "Tỷ lệ"
+      "value": "Verhoudingen"
     },
     "pedigree": {
-      "value": "Phả hệ"
+      "value": "Stamboom"
     },
     "none": {
-      "value": "Không"
+      "value": "Geen"
     },
     "limitedFood": {
-      "value": "Thực phẩm bị hạn chế"
+      "value": "Beperkt voedsel"
     },
     "memoryLimitMessage": {
-      "value": "Xin chúc mừng! <br><br>Quần thể thỏ của bạn đã tồn tại đủ<br> để đạt tới giới hạn bộ nhớ của mô phỏng."
+      "value": "Proficiat!<br><br>Je konijnenbevolking heeft lang genoeg overleefd<br>om de grens van het geheugen van de simulatie te   bereiken."
     },
     "mutationComing": {
-      "value": "Đột biến sắp xảy ra..."
+      "value": "Mutatie op komst ..."
     },
     "play": {
-      "value": "Play"
+      "value": "Speel"
     },
     "startOver": {
-      "value": "Bắt đầu lại"
+      "value": "Begin opnieuw"
     },
     "toughFood": {
-      "value": "Thực phẩm cứng"
+      "value": "Flink wat te eten"
     },
     "wolves": {
-      "value": "Sói"
+      "value": "Wolven"
     },
     "bunniesHaveTakenOverTheWorld": {
-      "value": "Thỏ đã chiếm lĩnh toàn thế giới!"
+      "value": "De konijnen hebben de wereld veroverd!"
     },
     "alleles": {
-      "value": "Allele"
+      "value": "Allelen"
     },
     "selectABunny": {
-      "value": "Chọn một con thỏ"
+      "value": "Kies een konijn"
     },
     "generation": {
-      "value": "Thế hệ"
+      "value": "Generatie"
     },
     "zoomOutToSeeData": {
-      "value": "Thu nhỏ để thấy dữ liệu"
+      "value": "Vergroot om de gegevens te zien."
     },
     "total": {
-      "value": "Tổng cộng"
+      "value": "Totaal"
     },
     "dataProbe": {
-      "value": "Dò dữ liệu"
-    },
-    "greaterThanValuePercent": {
-      "value": ">{{value}}%"
-    },
-    "lessThanValuePercent": {
-      "value": "<{{value}}%"
-    },
-    "valuePercent": {
-      "value": "{{value}}%"
+      "value": "Gegevens onderzoeken"
     },
     "generationValue": {
-      "value": "Thế hệ {{value}}"
+      "value": "Generatie {{value}}"
     },
     "startOfGeneration": {
-      "value": "Bắt đầu thế hệ"
+      "value": "Start van generatie"
     },
     "endOfGeneration": {
-      "value": "Kết thúc thế hệ"
+      "value": "Einde van generatie"
     },
     "noData": {
-      "value": "Không có dữ liệu"
+      "value": "Geen gegevens"
     },
     "currently": {
-      "value": "Hiện tại"
+      "value": "Nu"
     },
     "oneBunny": {
-      "value": "1 con thỏ"
+      "value": "1 konijn"
     },
     "countBunnies": {
-      "value": "{{count}} thỏ"
+      "value": "{{count}} konijnen"
     },
     "values": {
-      "value": "Giá trị"
+      "value": "Waarden"
     },
     "screen.intro": {
-      "value": "Phần giới thiệu"
-    },
-    "screen.lab": {
-      "value": "Phòng thí nghiệm"
+      "value": "Inleiding"
     },
     "natural-selection.title": {
-      "value": "Chọn lọc tự nhiên"
+      "value": "Natuurlijke selektie"
     }
   },
   "mt": {
@@ -11134,6 +10633,507 @@
     },
     "natural-selection.title": {
       "value": "Selezzjoni Naturali"
+    }
+  },
+  "sk": {
+    "whiteFur": {
+      "value": "Biela srsť"
+    },
+    "brownFur": {
+      "value": "Hnedá srsť"
+    },
+    "floppyEars": {
+      "value": "Visiace uši"
+    },
+    "straightEars": {
+      "value": "Vzpriamené uši"
+    },
+    "shortTeeth": {
+      "value": "Krátke hryzáky"
+    },
+    "longTeeth": {
+      "value": "Dlhé hryzáky"
+    },
+    "fur": {
+      "value": "Srsť"
+    },
+    "furDominant": {
+      "value": "S"
+    },
+    "furRecessive": {
+      "value": "s"
+    },
+    "ears": {
+      "value": "Uši"
+    },
+    "earsDominant": {
+      "value": "U"
+    },
+    "earsRecessive": {
+      "value": "u"
+    },
+    "teeth": {
+      "value": "Hryzáky"
+    },
+    "teethDominant": {
+      "value": "H"
+    },
+    "teethRecessive": {
+      "value": "h"
+    },
+    "addAMate": {
+      "value": "Pridať partnera"
+    },
+    "addMutations": {
+      "value": "Pridať mutácie"
+    },
+    "dominant": {
+      "value": "Dominantný"
+    },
+    "recessive": {
+      "value": "Recesívny"
+    },
+    "addMutation": {
+      "value": "Pridať mutáciu"
+    },
+    "allOfTheBunniesHaveDied": {
+      "value": "Všetky králiky vyhynuli."
+    },
+    "environmentalFactors": {
+      "value": "Faktory životného prostredia"
+    },
+    "environmentalFactor": {
+      "value": "Faktor životného prostredia"
+    },
+    "population": {
+      "value": "Populácia"
+    },
+    "proportions": {
+      "value": "Rozdelenie"
+    },
+    "pedigree": {
+      "value": "Rodokmeň"
+    },
+    "none": {
+      "value": "Nič"
+    },
+    "limitedFood": {
+      "value": "Nedostatok potravy"
+    },
+    "memoryLimitMessage": {
+      "value": "Gratulujeme! <br> <br> Populácia vášho králika prežila dosť dlho <br> <br>, aby ste dosiahli limit pamäte simulácie."
+    },
+    "mutationComing": {
+      "value": "Môže nastať mutácia..."
+    },
+    "play": {
+      "value": "Hra"
+    },
+    "startOver": {
+      "value": "Začať odznova"
+    },
+    "toughFood": {
+      "value": "Ťažko stráviteľná potrava"
+    },
+    "wolves": {
+      "value": "Vlci"
+    },
+    "bunniesHaveTakenOverTheWorld": {
+      "value": "Králiky ovládli svet!"
+    },
+    "alleles": {
+      "value": "Alely (dedičné znaky)"
+    },
+    "selectABunny": {
+      "value": "Vyber králika"
+    },
+    "generation": {
+      "value": "Generácia"
+    },
+    "zoomOutToSeeData": {
+      "value": "Oddialením zobrazíte údaje."
+    },
+    "total": {
+      "value": "Spolu"
+    },
+    "dataProbe": {
+      "value": "Snímač dát"
+    },
+    "greaterThanValuePercent": {
+      "value": " >{{value}}%"
+    },
+    "lessThanValuePercent": {
+      "value": "<{{value}}%"
+    },
+    "valuePercent": {
+      "value": "{{value}}%"
+    },
+    "generationValue": {
+      "value": "Generácia {{value}}"
+    },
+    "startOfGeneration": {
+      "value": "Na začiatku generácie"
+    },
+    "endOfGeneration": {
+      "value": "Na konci generácie"
+    },
+    "noData": {
+      "value": "Žiadne dáta"
+    },
+    "currently": {
+      "value": "Aktuálne"
+    },
+    "oneBunny": {
+      "value": "1 králik"
+    },
+    "countBunnies": {
+      "value": "{{count}} králikov"
+    },
+    "values": {
+      "value": "Hodnoty"
+    },
+    "screen.intro": {
+      "value": "Úvod"
+    },
+    "screen.lab": {
+      "value": "Laboratórium"
+    },
+    "natural-selection.title": {
+      "value": "Prirodzený výber"
+    }
+  },
+  "rw": {
+    "screen.intro": {
+      "value": "Intangiriro"
+    },
+    "screen.lab": {
+      "value": "Laboratwari"
+    },
+    "addMutations": {
+      "value": "Ongeraho ihinduka ry'utunyangingo"
+    },
+    "dominant": {
+      "value": "Akarango kigaragaje inyuma"
+    },
+    "recessive": {
+      "value": "Akarango katagaragaye"
+    },
+    "addMutation": {
+      "value": "Ogeraho ihinduka ry'utunyangingo"
+    },
+    "allOfTheBunniesHaveDied": {
+      "value": "Inkwavu zose zapfuye"
+    },
+    "environmentalFactors": {
+      "value": "Ingaruka zituruka ku bidukikije"
+    },
+    "environmentalFactor": {
+      "value": "Ingaruka ituruka ku bidukikije"
+    },
+    "population": {
+      "value": "Ibinyabuzima"
+    },
+    "proportions": {
+      "value": "Ibigerereranyo"
+    },
+    "pedigree": {
+      "value": "Inkomoko"
+    },
+    "none": {
+      "value": "Nta na kimwe!"
+    },
+    "memoryLimitMessage": {
+      "value": "Byiza cyane!<br><br>Inkwavu zabayeho igihe kirekire<br>ubushobozi bw'iyigana bwageze aho bugarukira"
+    },
+    "bunniesHaveTakenOverTheWorld": {
+      "value": "Inkwavu zuzuye isi!"
+    },
+    "fur": {
+      "value": "Ubwoya"
+    },
+    "furDominant": {
+      "value": "F"
+    },
+    "furRecessive": {
+      "value": "f"
+    },
+    "ears": {
+      "value": "Amatwi"
+    },
+    "earsDominant": {
+      "value": "E"
+    },
+    "earsRecessive": {
+      "value": "e"
+    },
+    "teeth": {
+      "value": "Amenyo"
+    },
+    "teethDominant": {
+      "value": "T"
+    },
+    "teethRecessive": {
+      "value": "t"
+    },
+    "whiteFur": {
+      "value": "Ubwoya bwera"
+    },
+    "brownFur": {
+      "value": "Ubwoya bw'ikigina"
+    },
+    "floppyEars": {
+      "value": "Amatwi aguye"
+    },
+    "straightEars": {
+      "value": "Amatwi ahagaze"
+    },
+    "shortTeeth": {
+      "value": "Iryinyo rigufi"
+    },
+    "longTeeth": {
+      "value": "Iryinyo rirerire"
+    },
+    "limitedFood": {
+      "value": "Ibiryo ntibihagije"
+    },
+    "toughFood": {
+      "value": "Ibiryo bikomeye"
+    },
+    "wolves": {
+      "value": "Ibirura"
+    },
+    "generationValue": {
+      "value": "Urungano {{value}}"
+    },
+    "mutationComing": {
+      "value": "Ihinduka ry'utunyangingo riraje..."
+    },
+    "generation": {
+      "value": "Urungano"
+    },
+    "zoomOutToSeeData": {
+      "value": "Reba neza"
+    },
+    "total": {
+      "value": "Igiteranyo"
+    },
+    "dataProbe": {
+      "value": "Gutanga amakuru akenewe"
+    },
+    "alleles": {
+      "value": "Agace k'akanyingingo ndangasano"
+    },
+    "selectABunny": {
+      "value": "Guhitamo urukwavu rw'urunyagazi"
+    },
+    "startOfGeneration": {
+      "value": "Gutangira urungano"
+    },
+    "endOfGeneration": {
+      "value": "Gusoza urungano"
+    },
+    "noData": {
+      "value": "Nta makuru ahari"
+    },
+    "currently": {
+      "value": "Kugeza ubu"
+    },
+    "oneBunny": {
+      "value": "Urukwavu 1"
+    },
+    "countBunnies": {
+      "value": "{{count}} inyagazi"
+    },
+    "values": {
+      "value": "Agaciro"
+    },
+    "addAMate": {
+      "value": "Ongeraho "
+    },
+    "play": {
+      "value": "Gukina"
+    },
+    "startOver": {
+      "value": "Ongera utangire"
+    },
+    "greaterThanValuePercent": {
+      "value": ">{{value}}%"
+    },
+    "lessThanValuePercent": {
+      "value": ">{{value}}%"
+    },
+    "valuePercent": {
+      "value": ">{{value}}%"
+    },
+    "natural-selection.title": {
+      "value": "Ihitamo kamere"
+    }
+  },
+  "om": {
+    "screen.intro": {
+      "value": "Seensa"
+    },
+    "screen.lab": {
+      "value": "yaalii"
+    },
+    "addMutations": {
+      "value": "Mutationiwwan Dabali"
+    },
+    "dominant": {
+      "value": "Kan hunda of jala aansee mul'atu"
+    },
+    "recessive": {
+      "value": "Recessive"
+    },
+    "addMutation": {
+      "value": "Mutation Dabali"
+    },
+    "allOfTheBunniesHaveDied": {
+      "value": "Bunniwwan hundi du'aniiru."
+    },
+    "environmentalFactors": {
+      "value": "Dhimmoota naannoo "
+    },
+    "environmentalFactor": {
+      "value": "Dhimma naannoo "
+    },
+    "population": {
+      "value": "Uummata"
+    },
+    "proportions": {
+      "value": "Pirooppoorshinii"
+    },
+    "pedigree": {
+      "value": "Sanyii"
+    },
+    "none": {
+      "value": "Homaa"
+    },
+    "memoryLimitMessage": {
+      "value": "Baga gammaddan!<br><br>Uummanni bunny kee yeroo dheeraa lubbuun hafeera<br>daangaa yaadannoo simulaasii rukutuuf."
+    },
+    "bunniesHaveTakenOverTheWorld": {
+      "value": "Bunniiwwan addunyaa dhuunfattanii jirru!"
+    },
+    "fur": {
+      "value": "Fur"
+    },
+    "furDominant": {
+      "value": "F"
+    },
+    "furRecessive": {
+      "value": "f"
+    },
+    "ears": {
+      "value": "Gurrawwan"
+    },
+    "earsDominant": {
+      "value": "E"
+    },
+    "earsRecessive": {
+      "value": "e"
+    },
+    "teeth": {
+      "value": "Ilkaan"
+    },
+    "teethDominant": {
+      "value": "T"
+    },
+    "teethRecessive": {
+      "value": "t"
+    },
+    "whiteFur": {
+      "value": "White Fur"
+    },
+    "brownFur": {
+      "value": "Brown Fur"
+    },
+    "floppyEars": {
+      "value": "Gurrawwan Flooppii"
+    },
+    "straightEars": {
+      "value": "Gurrawwan Qajeelaa"
+    },
+    "shortTeeth": {
+      "value": "Ilkaan Gabaabaa"
+    },
+    "longTeeth": {
+      "value": "Ilkaan Dheeraa"
+    },
+    "limitedFood": {
+      "value": "Nyaata Daangeffamaa"
+    },
+    "toughFood": {
+      "value": "Nyaata Cimaa"
+    },
+    "wolves": {
+      "value": "Waraabessi"
+    },
+    "generationValue": {
+      "value": "Dhalootaa {{value}}"
+    },
+    "mutationComing": {
+      "value": "Mutation Dhufaa Jira..."
+    },
+    "generation": {
+      "value": "Dhalootaa"
+    },
+    "zoomOutToSeeData": {
+      "value": "Daataa arguuf xiqqeessi."
+    },
+    "total": {
+      "value": "Ida'ama"
+    },
+    "dataProbe": {
+      "value": "Probii Daataa"
+    },
+    "alleles": {
+      "value": "Aaleelota"
+    },
+    "selectABunny": {
+      "value": "Bunny tokko filadhu"
+    },
+    "startOfGeneration": {
+      "value": "Jalqaba Dhalootaa"
+    },
+    "endOfGeneration": {
+      "value": "Xumura Dhalootaa"
+    },
+    "noData": {
+      "value": "Daataa Hin Qabu"
+    },
+    "currently": {
+      "value": "Yeroo ammaatti"
+    },
+    "oneBunny": {
+      "value": "1 bunny"
+    },
+    "countBunnies": {
+      "value": "{{count}} bunnies"
+    },
+    "values": {
+      "value": "Duudhaalee"
+    },
+    "addAMate": {
+      "value": "Hiriyaa itti dabali"
+    },
+    "play": {
+      "value": "Taphadhu"
+    },
+    "startOver": {
+      "value": "Irra Deebii'ii Jalqabi"
+    },
+    "greaterThanValuePercent": {
+      "value": ">{{value}}%"
+    },
+    "lessThanValuePercent": {
+      "value": "<{{value}}%"
+    },
+    "valuePercent": {
+      "value": "{{value}}%"
+    },
+    "natural-selection.title": {
+      "value": "Filannoo Uumamaa"
     }
   }
 }

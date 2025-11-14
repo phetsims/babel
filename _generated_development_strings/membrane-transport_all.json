@@ -1,4 +1,442 @@
 {
+  "ar": {
+    "membrane-transport.title": {
+      "value": "النقل الغشائي"
+    },
+    "keyboardHelp.soluteAdjusters.title": {
+      "value": "منظمات المذاب"
+    },
+    "keyboardHelp.sortOrDeleteProteins.title": {
+      "value": "فرز أو حذف البروتينات الموجودة في الغشاء"
+    },
+    "keyboardHelp.transportProteinsAndLigands.title": {
+      "value": "بروتينات النقل أو الربيطة"
+    },
+    "soluteConcentrationsAccordionBox.title": {
+      "value": "تركيزات المواد المذابة"
+    },
+    "screen.activeTransport": {
+      "value": "النقل النشط"
+    },
+    "screen.facilitatedDiffusion": {
+      "value": "الانتشار الميسر"
+    },
+    "screen.playground": {
+      "value": "ملعب"
+    },
+    "screen.simpleDiffusion": {
+      "value": "الانتشار البسيط"
+    },
+    "cellRegions.inside": {
+      "value": "داخل"
+    },
+    "cellRegions.outside": {
+      "value": "الخارج"
+    },
+    "keyboardHelp.soluteAdjusters.addOrRemoveALittle": {
+      "value": "تعديل بكميات أصغر"
+    },
+    "keyboardHelp.soluteAdjusters.addOrRemoveALot": {
+      "value": "ضبط كمية المذاب المختارة"
+    },
+    "keyboardHelp.sortOrDeleteProteins.deleteProtein": {
+      "value": "حذف البروتين الملتقط"
+    },
+    "keyboardHelp.sortOrDeleteProteins.grabProtein": {
+      "value": "انتزاع البروتين في الغشاء"
+    },
+    "keyboardHelp.sortOrDeleteProteins.moveGrabbedProtein": {
+      "value": "نقل البروتين الملتقط بين الفتحات"
+    },
+    "keyboardHelp.sortOrDeleteProteins.navigateProteins": {
+      "value": "التنقل بين البروتينات في الغشاء"
+    },
+    "keyboardHelp.sortOrDeleteProteins.releaseProtein": {
+      "value": "قم بإطلاق البروتين الذي تم الاستيلاء عليه في الفتحة الفارغة أو قم بتبديل الفتحات"
+    },
+    "keyboardHelp.transportProteinsAndLigands.cancelGrab": {
+      "value": "إلغاء التفاعل بين الإمساك أو النقل"
+    },
+    "keyboardHelp.transportProteinsAndLigands.grabOrRelease": {
+      "value": "الاستيلاء أو الإفراج"
+    },
+    "keyboardHelp.transportProteinsAndLigands.moveGrabbedItem": {
+      "value": "نقل البروتين أو الربيطة الملتقطة بين مواقع الإسقاط المتاحة"
+    },
+    "keyboardHelp.transportProteinsAndLigands.navigate": {
+      "value": "التنقل بين البروتينات في صندوق الأدوات أو الربيطة المضافة"
+    },
+    "outsideSodiumTooLow": {
+      "value": "الصوديوم في الخارج منخفض جدًا!"
+    },
+    "preferencesDialog.audio.sounds.stereoCrossingSounds.description": {
+      "value": "قم بالتأكيد على اتجاه نقل المواد المذابة عن طريق تعيين الصوت إلى القنوات اليمنى (من الخارج إلى الداخل) واليسرى (من الداخل إلى الخارج)."
+    },
+    "preferencesDialog.audio.sounds.stereoCrossingSounds.label": {
+      "value": "أصوات عبور ستيريو"
+    },
+    "preferencesDialog.simulation.animateLipids.description": {
+      "value": "رسوم متحركة لطبقة ثنائية من الفوسفوليبيد تشكل غشاء الخلية."
+    },
+    "preferencesDialog.simulation.animateLipids.label": {
+      "value": "الرسوم المتحركة للدهون"
+    },
+    "preferencesDialog.simulation.glucoseMetabolism.description": {
+      "value": "تتلاشى جزيئات الجلوكوز داخل الخلية لمحاكاة التحويل لعملية التمثيل الغذائي الخلوي."
+    },
+    "preferencesDialog.simulation.glucoseMetabolism.label": {
+      "value": "استقلاب الجلوكوز"
+    },
+    "settings.crossingHighlights": {
+      "value": "أبرز معالم العبور"
+    },
+    "settings.crossingSounds": {
+      "value": "أصوات العبور"
+    },
+    "soluteNames.atp": {
+      "value": "ادينوسين ثلاثي الفوسفات"
+    },
+    "soluteNames.carbonDioxide": {
+      "value": "ثاني أكسيد الكربون"
+    },
+    "soluteNames.glucose": {
+      "value": "الجلوكوز"
+    },
+    "soluteNames.oxygen": {
+      "value": "غاز الأكسجين"
+    },
+    "soluteNames.potassiumIon": {
+      "value": "أيون البوتاسيوم"
+    },
+    "soluteNames.sodiumIon": {
+      "value": "أيون الصوديوم"
+    },
+    "solutes": {
+      "value": "المواد المذابة"
+    },
+    "transportProteinToolbox.activeTransporters": {
+      "value": "الناقلات النشطة"
+    },
+    "transportProteinToolbox.addLigands": {
+      "value": "إضافة الروابط"
+    },
+    "transportProteinToolbox.charges": {
+      "value": "شحنات"
+    },
+    "transportProteinToolbox.leakageChannels": {
+      "value": "قنوات التسرب"
+    },
+    "transportProteinToolbox.ligandGatedChannels": {
+      "value": "القنوات ذات البوابات الربيطية"
+    },
+    "transportProteinToolbox.membranePotentialMV": {
+      "value": "جهد الغشاء (ملي فولت)"
+    },
+    "transportProteinToolbox.naPlusKPlusPump": {
+      "value": "Na<sup>+</sup>/K<sup>+</sup><br>مضخة"
+    },
+    "transportProteinToolbox.removeLigands": {
+      "value": "إزالة الروابط"
+    },
+    "transportProteinToolbox.sodiumGlucoseCotransporter": {
+      "value": "Na<sup>+</sup>/الجلوكوز<br>ناقل مساعد"
+    },
+    "transportProteinToolbox.voltageGatedChannels": {
+      "value": "القنوات المعتمدة على الجهد"
+    }
+  },
+  "ar_LY": {
+    "membrane-transport.title": {
+      "value": "النقل الغشائي"
+    },
+    "keyboardHelp.soluteAdjusters.title": {
+      "value": "منظمات المذاب"
+    },
+    "keyboardHelp.sortOrDeleteProteins.title": {
+      "value": "فرز أو حذف البروتينات الموجودة في الغشاء"
+    },
+    "keyboardHelp.transportProteinsAndLigands.title": {
+      "value": "بروتينات النقل أو الربيطة"
+    },
+    "soluteConcentrationsAccordionBox.title": {
+      "value": "تركيزات المواد المذابة"
+    },
+    "screen.activeTransport": {
+      "value": "النقل النشط"
+    },
+    "screen.facilitatedDiffusion": {
+      "value": "الانتشار الميسر"
+    },
+    "screen.playground": {
+      "value": "ملعب"
+    },
+    "screen.simpleDiffusion": {
+      "value": "الانتشار البسيط"
+    },
+    "cellRegions.inside": {
+      "value": "داخل"
+    },
+    "cellRegions.outside": {
+      "value": "الخارج"
+    },
+    "keyboardHelp.soluteAdjusters.addOrRemoveALittle": {
+      "value": "تعديل بكميات أصغر"
+    },
+    "keyboardHelp.soluteAdjusters.addOrRemoveALot": {
+      "value": "ضبط كمية المذاب المختارة"
+    },
+    "keyboardHelp.sortOrDeleteProteins.deleteProtein": {
+      "value": "حذف البروتين الملتقط"
+    },
+    "keyboardHelp.sortOrDeleteProteins.grabProtein": {
+      "value": "انتزاع البروتين في الغشاء"
+    },
+    "keyboardHelp.sortOrDeleteProteins.moveGrabbedProtein": {
+      "value": "نقل البروتين الملتقط بين الفتحات"
+    },
+    "keyboardHelp.sortOrDeleteProteins.navigateProteins": {
+      "value": "التنقل بين البروتينات في الغشاء"
+    },
+    "keyboardHelp.sortOrDeleteProteins.releaseProtein": {
+      "value": "قم بإطلاق البروتين الذي تم الاستيلاء عليه في الفتحة الفارغة أو قم بتبديل الفتحات"
+    },
+    "keyboardHelp.transportProteinsAndLigands.cancelGrab": {
+      "value": "إلغاء التفاعل بين الإمساك أو النقل"
+    },
+    "keyboardHelp.transportProteinsAndLigands.grabOrRelease": {
+      "value": "إلغاء التفاعل بين الإمساك أو النقل"
+    },
+    "keyboardHelp.transportProteinsAndLigands.moveGrabbedItem": {
+      "value": "نقل البروتين أو الربيطة الملتقطة بين مواقع الإسقاط المتاحة"
+    },
+    "keyboardHelp.transportProteinsAndLigands.navigate": {
+      "value": "التنقل بين البروتينات في صندوق الأدوات أو الربيطة المضافة"
+    },
+    "outsideSodiumTooLow": {
+      "value": "الصوديوم في الخارج منخفض جدًا!"
+    },
+    "preferencesDialog.audio.sounds.stereoCrossingSounds.description": {
+      "value": "قم بالتأكيد على اتجاه نقل المواد المذابة عن طريق تعيين الصوت إلى القنوات اليمنى (من الخارج إلى الداخل) واليسرى (من الداخل إلى الخارج)."
+    },
+    "preferencesDialog.audio.sounds.stereoCrossingSounds.label": {
+      "value": "أصوات عبور ستيريو"
+    },
+    "preferencesDialog.simulation.animateLipids.description": {
+      "value": "أصوات عبور ستيريو"
+    },
+    "preferencesDialog.simulation.animateLipids.label": {
+      "value": "الرسوم المتحركة للدهون"
+    },
+    "preferencesDialog.simulation.glucoseMetabolism.description": {
+      "value": "تتلاشى جزيئات الجلوكوز داخل الخلية لمحاكاة التحويل لعملية التمثيل الغذائي الخلوي."
+    },
+    "preferencesDialog.simulation.glucoseMetabolism.label": {
+      "value": "استقلاب الجلوكوز"
+    },
+    "settings.crossingHighlights": {
+      "value": "أصوات العبور"
+    },
+    "settings.crossingSounds": {
+      "value": "أصوات العبور"
+    },
+    "soluteNames.atp": {
+      "value": "ادينوسين ثلاثي الفوسفات"
+    },
+    "soluteNames.carbonDioxide": {
+      "value": "ثاني اكسيد الكربون"
+    },
+    "soluteNames.glucose": {
+      "value": "الجلوكوز"
+    },
+    "soluteNames.oxygen": {
+      "value": "غاز الأكسجين"
+    },
+    "soluteNames.potassiumIon": {
+      "value": "ايون البوتاسيوم"
+    },
+    "soluteNames.sodiumIon": {
+      "value": "أيون الصوديوم"
+    },
+    "solutes": {
+      "value": "المواد المذابة"
+    },
+    "transportProteinToolbox.activeTransporters": {
+      "value": "الناقلات النشطة"
+    },
+    "transportProteinToolbox.addLigands": {
+      "value": "إضافة الروابط"
+    },
+    "transportProteinToolbox.charges": {
+      "value": "الشحنات"
+    },
+    "transportProteinToolbox.leakageChannels": {
+      "value": "قنوات التسرب"
+    },
+    "transportProteinToolbox.ligandGatedChannels": {
+      "value": "القنوات ذات البوابات الربيطية"
+    },
+    "transportProteinToolbox.membranePotentialMV": {
+      "value": "جهد الغشاء (ملي فولت)"
+    },
+    "transportProteinToolbox.naPlusKPlusPump": {
+      "value": "Na<sup>+</sup>/K<sup>+</sup><br>مضخة"
+    },
+    "transportProteinToolbox.removeLigands": {
+      "value": "إزالة الروابط"
+    },
+    "transportProteinToolbox.sodiumGlucoseCotransporter": {
+      "value": "Na<sup>+</sup>/الجلوكوز<br>ناقل مساعد"
+    },
+    "transportProteinToolbox.voltageGatedChannels": {
+      "value": "القنوات المعتمدة على الجهد"
+    }
+  },
+  "bs": {
+    "membrane-transport.title": {
+      "value": "Membranski transport"
+    },
+    "keyboardHelp.soluteAdjusters.title": {
+      "value": "Podešavanje rastvora"
+    },
+    "keyboardHelp.sortOrDeleteProteins.title": {
+      "value": "Odaberite ili obrišite proteine u membrani"
+    },
+    "keyboardHelp.transportProteinsAndLigands.title": {
+      "value": "Transportni proteini ili ligandi"
+    },
+    "soluteConcentrationsAccordionBox.title": {
+      "value": "Koncentracija rastvora"
+    },
+    "screen.activeTransport": {
+      "value": "Aktivni transport"
+    },
+    "screen.facilitatedDiffusion": {
+      "value": "Olakšana difuzija"
+    },
+    "screen.playground": {
+      "value": "Igraonica"
+    },
+    "screen.simpleDiffusion": {
+      "value": "Jednostavna difuzija"
+    },
+    "cellRegions.inside": {
+      "value": "Unutra"
+    },
+    "cellRegions.outside": {
+      "value": "Spolja"
+    },
+    "keyboardHelp.soluteAdjusters.addOrRemoveALittle": {
+      "value": "Prilagoditi u manjim količinama"
+    },
+    "keyboardHelp.soluteAdjusters.addOrRemoveALot": {
+      "value": "Podesite izabranu količinu rastvora"
+    },
+    "keyboardHelp.sortOrDeleteProteins.deleteProtein": {
+      "value": "Uklonite uhvaćeni protein"
+    },
+    "keyboardHelp.sortOrDeleteProteins.grabProtein": {
+      "value": "Uhvatite protein u membrani"
+    },
+    "keyboardHelp.sortOrDeleteProteins.moveGrabbedProtein": {
+      "value": "Premještajte uhvaćene proteine između slotova"
+    },
+    "keyboardHelp.sortOrDeleteProteins.navigateProteins": {
+      "value": "Navigacija proteina u membrani"
+    },
+    "keyboardHelp.sortOrDeleteProteins.releaseProtein": {
+      "value": "Otpustite uhvaćeni protein u prazan slot ili zamijenite slotove"
+    },
+    "keyboardHelp.transportProteinsAndLigands.cancelGrab": {
+      "value": "Otkaži hvatanje ili pomjeranje"
+    },
+    "keyboardHelp.transportProteinsAndLigands.grabOrRelease": {
+      "value": "Uhvati ili pusti"
+    },
+    "keyboardHelp.transportProteinsAndLigands.moveGrabbedItem": {
+      "value": "Premještajte uhvaćeni protein ili ligand između dostupnih lokacija za ispuštanje"
+    },
+    "keyboardHelp.transportProteinsAndLigands.navigate": {
+      "value": "Navigacija proteina u alatkama ili dodati ligande"
+    },
+    "outsideSodiumTooLow": {
+      "value": "Prenizak nivo natrijuma napolju!"
+    },
+    "preferencesDialog.audio.sounds.stereoCrossingSounds.description": {
+      "value": "Naglasite smjer transporta rastvorenih materija mapiranjem zvuka na desni (spolja ka unutra) i lijevi (iznutra ka spolja) kanal"
+    },
+    "preferencesDialog.audio.sounds.stereoCrossingSounds.label": {
+      "value": "Stereo zvuci prelaza"
+    },
+    "preferencesDialog.simulation.animateLipids.description": {
+      "value": "Animacija pomjeranja fosfolipidnog dvosloja koji formira ćelijsku membranu."
+    },
+    "preferencesDialog.simulation.animateLipids.label": {
+      "value": "Animacija lipida"
+    },
+    "preferencesDialog.simulation.glucoseMetabolism.description": {
+      "value": "Molekule glukoze nestaju unutar ćelije kako bi simulirale konverziju za ćelijski metabolizam."
+    },
+    "preferencesDialog.simulation.glucoseMetabolism.label": {
+      "value": "Metabolizam glukoze"
+    },
+    "settings.crossingHighlights": {
+      "value": "Najvažniji dijelovi prelaska"
+    },
+    "settings.crossingSounds": {
+      "value": "Zvuci prelaska"
+    },
+    "soluteNames.atp": {
+      "value": "ATP"
+    },
+    "soluteNames.carbonDioxide": {
+      "value": "CO<sub>2</sub>"
+    },
+    "soluteNames.glucose": {
+      "value": "Glukoza"
+    },
+    "soluteNames.oxygen": {
+      "value": "O<sub>2</sub>"
+    },
+    "soluteNames.potassiumIon": {
+      "value": "K<sup>+</sup>"
+    },
+    "soluteNames.sodiumIon": {
+      "value": "Na<sup>+</sup>"
+    },
+    "solutes": {
+      "value": "Rastvori"
+    },
+    "transportProteinToolbox.activeTransporters": {
+      "value": "Aktivni transporti"
+    },
+    "transportProteinToolbox.addLigands": {
+      "value": "Dodaj ligande"
+    },
+    "transportProteinToolbox.charges": {
+      "value": "Naelektrisanja"
+    },
+    "transportProteinToolbox.leakageChannels": {
+      "value": "Kanali curenja"
+    },
+    "transportProteinToolbox.ligandGatedChannels": {
+      "value": "Ligandno kontrolisani kanali"
+    },
+    "transportProteinToolbox.membranePotentialMV": {
+      "value": "Potencijal membrane (mV)"
+    },
+    "transportProteinToolbox.naPlusKPlusPump": {
+      "value": "Na<sup>+</sup>/K<sup>+</sup><br>pumpa"
+    },
+    "transportProteinToolbox.removeLigands": {
+      "value": "Ukloni ligande"
+    },
+    "transportProteinToolbox.sodiumGlucoseCotransporter": {
+      "value": "Na<sup>+</sup>/kotransporter<br>glukoze"
+    },
+    "transportProteinToolbox.voltageGatedChannels": {
+      "value": "Naponski kontrolisani kanali"
+    }
+  },
   "cs": {
     "membrane-transport.title": {
       "value": "Membránový transport"
@@ -128,6 +566,98 @@
     },
     "transportProteinToolbox.voltageGatedChannels": {
       "value": "Napěťově řízené kanály"
+    }
+  },
+  "cy": {
+    "membrane-transport.title": {
+      "value": "Cludiant Pilen"
+    },
+    "screen.activeTransport": {
+      "value": "Cludiant Actif"
+    },
+    "screen.facilitatedDiffusion": {
+      "value": "Trylediad Cynorthwyedig"
+    },
+    "screen.playground": {
+      "value": "Man chwarae"
+    },
+    "screen.simpleDiffusion": {
+      "value": "Trylediad syml"
+    },
+    "NaPlusKPlusPump": {
+      "value": "Pwmp <br>\tNa<sup>+</sup>-K<sup>+</sup>"
+    },
+    "activeTransporters": {
+      "value": "Cludiannau Actif"
+    },
+    "addLigands": {
+      "value": "Ychwanegu ligandau"
+    },
+    "animateLipids": {
+      "value": "Animeiddio Lipidau"
+    },
+    "animateLipidsDescription": {
+      "value": "A ddylid animeiddio’r ffosffolipidau sy’n ffurfio pilen y gell"
+    },
+    "atp": {
+      "value": "ATP"
+    },
+    "carbonDioxide": {
+      "value": "CO<sub>2</sub>"
+    },
+    "glucose": {
+      "value": "Glwcos"
+    },
+    "inside": {
+      "value": "Tu mewn"
+    },
+    "leakageChannels": {
+      "value": "Sianeli Gollwng"
+    },
+    "ligandGatedChannels": {
+      "value": "Sianeli a reolir gan ligandau"
+    },
+    "membranePotentialLabels": {
+      "value": "Labeli Potential Pilen"
+    },
+    "membranePotential_mV": {
+      "value": "Potential Pilen (mV)"
+    },
+    "outside": {
+      "value": "Tu allan"
+    },
+    "oxygen": {
+      "value": "O<sub>2</sub>"
+    },
+    "potassiumIon": {
+      "value": "K<sup>+</sup>"
+    },
+    "potassiumIonKPlus": {
+      "value": "Ion Potasiwm<br>(K<sup>+</sup>)"
+    },
+    "removeLigands": {
+      "value": "Tynnu Ligandau"
+    },
+    "signs": {
+      "value": "Arwyddion"
+    },
+    "sodiumGlucoseCotransporter": {
+      "value": "Cyd-gludydd Na<sup>+</sup>-Glwcos"
+    },
+    "sodiumIon": {
+      "value": "Na<sup>+</sup>"
+    },
+    "sodiumIonNaPlus": {
+      "value": "Ion Sodiwm<br>(Na<sup>+</sup>)"
+    },
+    "soluteConcentrations": {
+      "value": "Crynodiadau Hydoddydd"
+    },
+    "solutes": {
+      "value": "Hydoddion"
+    },
+    "voltageGatedChannels": {
+      "value": "Sianeli a reolir gan foltedd"
     }
   },
   "da": {
@@ -348,6 +878,152 @@
       "value": "Krydsende lyde"
     }
   },
+  "de": {
+    "membrane-transport.title": {
+      "value": "Transport an Membranen"
+    },
+    "keyboardHelp.soluteAdjusters.title": {
+      "value": "Konzentrationsregler Lösungsstoffe"
+    },
+    "keyboardHelp.sortOrDeleteProteins.title": {
+      "value": "Proteine in der Membran sortieren oder löschen"
+    },
+    "keyboardHelp.transportProteinsAndLigands.title": {
+      "value": "Transportprotein oder Ligand"
+    },
+    "soluteConcentrationsAccordionBox.title": {
+      "value": "Konzentration der gelösten Stoffe"
+    },
+    "screen.activeTransport": {
+      "value": "aktiver Transport"
+    },
+    "screen.facilitatedDiffusion": {
+      "value": "erleichterte Diffusion"
+    },
+    "screen.playground": {
+      "value": "Spielplatz"
+    },
+    "screen.simpleDiffusion": {
+      "value": "einfache Diffusion"
+    },
+    "cellRegions.inside": {
+      "value": "Innen"
+    },
+    "cellRegions.outside": {
+      "value": "Außen"
+    },
+    "keyboardHelp.soluteAdjusters.addOrRemoveALittle": {
+      "value": "Kleine Mengen zu-/entnehmen"
+    },
+    "keyboardHelp.soluteAdjusters.addOrRemoveALot": {
+      "value": "Größere Menge des gewählten Stoffes anpassen"
+    },
+    "keyboardHelp.sortOrDeleteProteins.deleteProtein": {
+      "value": "Gewähltes Protein löschen"
+    },
+    "keyboardHelp.sortOrDeleteProteins.grabProtein": {
+      "value": "Protein in der Membran greife"
+    },
+    "keyboardHelp.sortOrDeleteProteins.moveGrabbedProtein": {
+      "value": "Gewähltes Protein zwischen Steckplätzen verschieben"
+    },
+    "keyboardHelp.sortOrDeleteProteins.navigateProteins": {
+      "value": "Proteine in der Membran navigieren"
+    },
+    "keyboardHelp.sortOrDeleteProteins.releaseProtein": {
+      "value": "Gewähltes Protein in freien Steckplatz setzen oder Plätze tauschen"
+    },
+    "keyboardHelp.transportProteinsAndLigands.cancelGrab": {
+      "value": "Greifen bzw. Bewegung abbrechen"
+    },
+    "keyboardHelp.transportProteinsAndLigands.grabOrRelease": {
+      "value": "Greifen oder loslassen"
+    },
+    "keyboardHelp.transportProteinsAndLigands.moveGrabbedItem": {
+      "value": "Gewähltes Protein oder Ligand zu verfügbaren Ablageorten bewegen"
+    },
+    "keyboardHelp.transportProteinsAndLigands.navigate": {
+      "value": "In der Werkzeugleiste Proteine oder hinzugefügte Liganden navigieren"
+    },
+    "outsideSodiumTooLow": {
+      "value": "Natrium-Konzentration außen zu niedrig!"
+    },
+    "preferencesDialog.audio.sounds.stereoCrossingSounds.description": {
+      "value": "Verstärke die Richtung des Stofftransports durch Zuordnung des Klangs zum rechten (Außen→Innen) und linken (Innen→Außen) Kanal."
+    },
+    "preferencesDialog.audio.sounds.stereoCrossingSounds.label": {
+      "value": "Stereoklang bei Übergängen"
+    },
+    "preferencesDialog.simulation.animateLipids.description": {
+      "value": "Wackelnde Animation der Phospholipid-Doppelschicht, die die Zellmembran bildet."
+    },
+    "preferencesDialog.simulation.animateLipids.label": {
+      "value": "Lipid-Animation"
+    },
+    "preferencesDialog.simulation.glucoseMetabolism.description": {
+      "value": "Glukose-Moleküle verblassen innerhalb der Zelle, um die Umwandlung für den Zellstoffwechsel zu simulieren."
+    },
+    "preferencesDialog.simulation.glucoseMetabolism.label": {
+      "value": "Glukosestoffwechsel"
+    },
+    "settings.crossingHighlights": {
+      "value": "Hervorhebungen für Übergänge"
+    },
+    "settings.crossingSounds": {
+      "value": "Übergangsklänge"
+    },
+    "soluteNames.atp": {
+      "value": "ATP"
+    },
+    "soluteNames.carbonDioxide": {
+      "value": "CO<sub>2</sub>"
+    },
+    "soluteNames.glucose": {
+      "value": "Glukose"
+    },
+    "soluteNames.oxygen": {
+      "value": "O<sub>2</sub>"
+    },
+    "soluteNames.potassiumIon": {
+      "value": "K<sup>+</sup>"
+    },
+    "soluteNames.sodiumIon": {
+      "value": "Na<sup>+</sup>"
+    },
+    "solutes": {
+      "value": "gelöste Stoffe"
+    },
+    "transportProteinToolbox.activeTransporters": {
+      "value": "aktiver Transporter"
+    },
+    "transportProteinToolbox.addLigands": {
+      "value": "Ligand hinzufügen"
+    },
+    "transportProteinToolbox.charges": {
+      "value": "Spannungen"
+    },
+    "transportProteinToolbox.leakageChannels": {
+      "value": "Leckkanal"
+    },
+    "transportProteinToolbox.ligandGatedChannels": {
+      "value": "ligandengesteuerter Kanal"
+    },
+    "transportProteinToolbox.membranePotentialMV": {
+      "value": "Membranpotenzial (mV)"
+    },
+    "transportProteinToolbox.naPlusKPlusPump": {
+      "value": "Na<sup>+</sup>/K<sup>+</sup><br>Pumpe"
+    },
+    "transportProteinToolbox.removeLigands": {
+      "value": "Liganden entfernen"
+    },
+    "transportProteinToolbox.sodiumGlucoseCotransporter": {
+      "value": "Na<sup>+</sup>/Glucose<br>Cotransporter"
+    },
+    "transportProteinToolbox.voltageGatedChannels": {
+      "value": "spannungsabhängiger Kanal"
+    }
+  },
   "el": {
     "membrane-transport.title": {
       "value": "Μεταφορά μεμβράνης"
@@ -438,244 +1114,6 @@
     },
     "voltageGatedChannels": {
       "value": "Κανάλια με πύλη τάσης"
-    }
-  },
-  "bs": {
-    "membrane-transport.title": {
-      "value": "Membranski transport"
-    },
-    "keyboardHelp.soluteAdjusters.title": {
-      "value": "Podešavanje rastvora"
-    },
-    "keyboardHelp.sortOrDeleteProteins.title": {
-      "value": "Odaberite ili obrišite proteine u membrani"
-    },
-    "keyboardHelp.transportProteinsAndLigands.title": {
-      "value": "Transportni proteini ili ligandi"
-    },
-    "soluteConcentrationsAccordionBox.title": {
-      "value": "Koncentracija rastvora"
-    },
-    "screen.activeTransport": {
-      "value": "Aktivni transport"
-    },
-    "screen.facilitatedDiffusion": {
-      "value": "Olakšana difuzija"
-    },
-    "screen.playground": {
-      "value": "Igraonica"
-    },
-    "screen.simpleDiffusion": {
-      "value": "Jednostavna difuzija"
-    },
-    "cellRegions.inside": {
-      "value": "Unutra"
-    },
-    "cellRegions.outside": {
-      "value": "Spolja"
-    },
-    "keyboardHelp.soluteAdjusters.addOrRemoveALittle": {
-      "value": "Prilagoditi u manjim količinama"
-    },
-    "keyboardHelp.soluteAdjusters.addOrRemoveALot": {
-      "value": "Podesite izabranu količinu rastvora"
-    },
-    "keyboardHelp.sortOrDeleteProteins.deleteProtein": {
-      "value": "Uklonite uhvaćeni protein"
-    },
-    "keyboardHelp.sortOrDeleteProteins.grabProtein": {
-      "value": "Uhvatite protein u membrani"
-    },
-    "keyboardHelp.sortOrDeleteProteins.moveGrabbedProtein": {
-      "value": "Premještajte uhvaćene proteine između slotova"
-    },
-    "keyboardHelp.sortOrDeleteProteins.navigateProteins": {
-      "value": "Navigacija proteina u membrani"
-    },
-    "keyboardHelp.sortOrDeleteProteins.releaseProtein": {
-      "value": "Otpustite uhvaćeni protein u prazan slot ili zamijenite slotove"
-    },
-    "keyboardHelp.transportProteinsAndLigands.cancelGrab": {
-      "value": "Otkaži hvatanje ili pomjeranje"
-    },
-    "keyboardHelp.transportProteinsAndLigands.grabOrRelease": {
-      "value": "Uhvati ili pusti"
-    },
-    "keyboardHelp.transportProteinsAndLigands.moveGrabbedItem": {
-      "value": "Premještajte uhvaćeni protein ili ligand između dostupnih lokacija za ispuštanje"
-    },
-    "keyboardHelp.transportProteinsAndLigands.navigate": {
-      "value": "Navigacija proteina u alatkama ili dodati ligande"
-    },
-    "outsideSodiumTooLow": {
-      "value": "Prenizak nivo natrijuma napolju!"
-    },
-    "preferencesDialog.audio.sounds.stereoCrossingSounds.description": {
-      "value": "Naglasite smjer transporta rastvorenih materija mapiranjem zvuka na desni (spolja ka unutra) i lijevi (iznutra ka spolja) kanal"
-    },
-    "preferencesDialog.audio.sounds.stereoCrossingSounds.label": {
-      "value": "Stereo zvuci prelaza"
-    },
-    "preferencesDialog.simulation.animateLipids.description": {
-      "value": "Animacija pomjeranja fosfolipidnog dvosloja koji formira ćelijsku membranu."
-    },
-    "preferencesDialog.simulation.animateLipids.label": {
-      "value": "Animacija lipida"
-    },
-    "preferencesDialog.simulation.glucoseMetabolism.description": {
-      "value": "Molekule glukoze nestaju unutar ćelije kako bi simulirale konverziju za ćelijski metabolizam."
-    },
-    "preferencesDialog.simulation.glucoseMetabolism.label": {
-      "value": "Metabolizam glukoze"
-    },
-    "settings.crossingHighlights": {
-      "value": "Najvažniji dijelovi prelaska"
-    },
-    "settings.crossingSounds": {
-      "value": "Zvuci prelaska"
-    },
-    "soluteNames.atp": {
-      "value": "ATP"
-    },
-    "soluteNames.carbonDioxide": {
-      "value": "CO<sub>2</sub>"
-    },
-    "soluteNames.glucose": {
-      "value": "Glukoza"
-    },
-    "soluteNames.oxygen": {
-      "value": "O<sub>2</sub>"
-    },
-    "soluteNames.potassiumIon": {
-      "value": "K<sup>+</sup>"
-    },
-    "soluteNames.sodiumIon": {
-      "value": "Na<sup>+</sup>"
-    },
-    "solutes": {
-      "value": "Rastvori"
-    },
-    "transportProteinToolbox.activeTransporters": {
-      "value": "Aktivni transporti"
-    },
-    "transportProteinToolbox.addLigands": {
-      "value": "Dodaj ligande"
-    },
-    "transportProteinToolbox.charges": {
-      "value": "Naelektrisanja"
-    },
-    "transportProteinToolbox.leakageChannels": {
-      "value": "Kanali curenja"
-    },
-    "transportProteinToolbox.ligandGatedChannels": {
-      "value": "Ligandno kontrolisani kanali"
-    },
-    "transportProteinToolbox.membranePotentialMV": {
-      "value": "Potencijal membrane (mV)"
-    },
-    "transportProteinToolbox.naPlusKPlusPump": {
-      "value": "Na<sup>+</sup>/K<sup>+</sup><br>pumpa"
-    },
-    "transportProteinToolbox.removeLigands": {
-      "value": "Ukloni ligande"
-    },
-    "transportProteinToolbox.sodiumGlucoseCotransporter": {
-      "value": "Na<sup>+</sup>/kotransporter<br>glukoze"
-    },
-    "transportProteinToolbox.voltageGatedChannels": {
-      "value": "Naponski kontrolisani kanali"
-    }
-  },
-  "cy": {
-    "membrane-transport.title": {
-      "value": "Cludiant Pilen"
-    },
-    "screen.activeTransport": {
-      "value": "Cludiant Actif"
-    },
-    "screen.facilitatedDiffusion": {
-      "value": "Trylediad Cynorthwyedig"
-    },
-    "screen.playground": {
-      "value": "Man chwarae"
-    },
-    "screen.simpleDiffusion": {
-      "value": "Trylediad syml"
-    },
-    "NaPlusKPlusPump": {
-      "value": "Pwmp <br>\tNa<sup>+</sup>-K<sup>+</sup>"
-    },
-    "activeTransporters": {
-      "value": "Cludiannau Actif"
-    },
-    "addLigands": {
-      "value": "Ychwanegu ligandau"
-    },
-    "animateLipids": {
-      "value": "Animeiddio Lipidau"
-    },
-    "animateLipidsDescription": {
-      "value": "A ddylid animeiddio’r ffosffolipidau sy’n ffurfio pilen y gell"
-    },
-    "atp": {
-      "value": "ATP"
-    },
-    "carbonDioxide": {
-      "value": "CO<sub>2</sub>"
-    },
-    "glucose": {
-      "value": "Glwcos"
-    },
-    "inside": {
-      "value": "Tu mewn"
-    },
-    "leakageChannels": {
-      "value": "Sianeli Gollwng"
-    },
-    "ligandGatedChannels": {
-      "value": "Sianeli a reolir gan ligandau"
-    },
-    "membranePotentialLabels": {
-      "value": "Labeli Potential Pilen"
-    },
-    "membranePotential_mV": {
-      "value": "Potential Pilen (mV)"
-    },
-    "outside": {
-      "value": "Tu allan"
-    },
-    "oxygen": {
-      "value": "O<sub>2</sub>"
-    },
-    "potassiumIon": {
-      "value": "K<sup>+</sup>"
-    },
-    "potassiumIonKPlus": {
-      "value": "Ion Potasiwm<br>(K<sup>+</sup>)"
-    },
-    "removeLigands": {
-      "value": "Tynnu Ligandau"
-    },
-    "signs": {
-      "value": "Arwyddion"
-    },
-    "sodiumGlucoseCotransporter": {
-      "value": "Cyd-gludydd Na<sup>+</sup>-Glwcos"
-    },
-    "sodiumIon": {
-      "value": "Na<sup>+</sup>"
-    },
-    "sodiumIonNaPlus": {
-      "value": "Ion Sodiwm<br>(Na<sup>+</sup>)"
-    },
-    "soluteConcentrations": {
-      "value": "Crynodiadau Hydoddydd"
-    },
-    "solutes": {
-      "value": "Hydoddion"
-    },
-    "voltageGatedChannels": {
-      "value": "Sianeli a reolir gan foltedd"
     }
   },
   "es": {
@@ -1385,152 +1823,6 @@
       "value": "Sonidos estéreo de cruce activados."
     }
   },
-  "de": {
-    "membrane-transport.title": {
-      "value": "Transport an Membranen"
-    },
-    "keyboardHelp.soluteAdjusters.title": {
-      "value": "Konzentrationsregler Lösungsstoffe"
-    },
-    "keyboardHelp.sortOrDeleteProteins.title": {
-      "value": "Proteine in der Membran sortieren oder löschen"
-    },
-    "keyboardHelp.transportProteinsAndLigands.title": {
-      "value": "Transportprotein oder Ligand"
-    },
-    "soluteConcentrationsAccordionBox.title": {
-      "value": "Konzentration der gelösten Stoffe"
-    },
-    "screen.activeTransport": {
-      "value": "aktiver Transport"
-    },
-    "screen.facilitatedDiffusion": {
-      "value": "erleichterte Diffusion"
-    },
-    "screen.playground": {
-      "value": "Spielplatz"
-    },
-    "screen.simpleDiffusion": {
-      "value": "einfache Diffusion"
-    },
-    "cellRegions.inside": {
-      "value": "Innen"
-    },
-    "cellRegions.outside": {
-      "value": "Außen"
-    },
-    "keyboardHelp.soluteAdjusters.addOrRemoveALittle": {
-      "value": "Kleine Mengen zu-/entnehmen"
-    },
-    "keyboardHelp.soluteAdjusters.addOrRemoveALot": {
-      "value": "Größere Menge des gewählten Stoffes anpassen"
-    },
-    "keyboardHelp.sortOrDeleteProteins.deleteProtein": {
-      "value": "Gewähltes Protein löschen"
-    },
-    "keyboardHelp.sortOrDeleteProteins.grabProtein": {
-      "value": "Protein in der Membran greife"
-    },
-    "keyboardHelp.sortOrDeleteProteins.moveGrabbedProtein": {
-      "value": "Gewähltes Protein zwischen Steckplätzen verschieben"
-    },
-    "keyboardHelp.sortOrDeleteProteins.navigateProteins": {
-      "value": "Proteine in der Membran navigieren"
-    },
-    "keyboardHelp.sortOrDeleteProteins.releaseProtein": {
-      "value": "Gewähltes Protein in freien Steckplatz setzen oder Plätze tauschen"
-    },
-    "keyboardHelp.transportProteinsAndLigands.cancelGrab": {
-      "value": "Greifen bzw. Bewegung abbrechen"
-    },
-    "keyboardHelp.transportProteinsAndLigands.grabOrRelease": {
-      "value": "Greifen oder loslassen"
-    },
-    "keyboardHelp.transportProteinsAndLigands.moveGrabbedItem": {
-      "value": "Gewähltes Protein oder Ligand zu verfügbaren Ablageorten bewegen"
-    },
-    "keyboardHelp.transportProteinsAndLigands.navigate": {
-      "value": "In der Werkzeugleiste Proteine oder hinzugefügte Liganden navigieren"
-    },
-    "outsideSodiumTooLow": {
-      "value": "Natrium-Konzentration außen zu niedrig!"
-    },
-    "preferencesDialog.audio.sounds.stereoCrossingSounds.description": {
-      "value": "Verstärke die Richtung des Stofftransports durch Zuordnung des Klangs zum rechten (Außen→Innen) und linken (Innen→Außen) Kanal."
-    },
-    "preferencesDialog.audio.sounds.stereoCrossingSounds.label": {
-      "value": "Stereoklang bei Übergängen"
-    },
-    "preferencesDialog.simulation.animateLipids.description": {
-      "value": "Wackelnde Animation der Phospholipid-Doppelschicht, die die Zellmembran bildet."
-    },
-    "preferencesDialog.simulation.animateLipids.label": {
-      "value": "Lipid-Animation"
-    },
-    "preferencesDialog.simulation.glucoseMetabolism.description": {
-      "value": "Glukose-Moleküle verblassen innerhalb der Zelle, um die Umwandlung für den Zellstoffwechsel zu simulieren."
-    },
-    "preferencesDialog.simulation.glucoseMetabolism.label": {
-      "value": "Glukosestoffwechsel"
-    },
-    "settings.crossingHighlights": {
-      "value": "Hervorhebungen für Übergänge"
-    },
-    "settings.crossingSounds": {
-      "value": "Übergangsklänge"
-    },
-    "soluteNames.atp": {
-      "value": "ATP"
-    },
-    "soluteNames.carbonDioxide": {
-      "value": "CO<sub>2</sub>"
-    },
-    "soluteNames.glucose": {
-      "value": "Glukose"
-    },
-    "soluteNames.oxygen": {
-      "value": "O<sub>2</sub>"
-    },
-    "soluteNames.potassiumIon": {
-      "value": "K<sup>+</sup>"
-    },
-    "soluteNames.sodiumIon": {
-      "value": "Na<sup>+</sup>"
-    },
-    "solutes": {
-      "value": "gelöste Stoffe"
-    },
-    "transportProteinToolbox.activeTransporters": {
-      "value": "aktiver Transporter"
-    },
-    "transportProteinToolbox.addLigands": {
-      "value": "Ligand hinzufügen"
-    },
-    "transportProteinToolbox.charges": {
-      "value": "Spannungen"
-    },
-    "transportProteinToolbox.leakageChannels": {
-      "value": "Leckkanal"
-    },
-    "transportProteinToolbox.ligandGatedChannels": {
-      "value": "ligandengesteuerter Kanal"
-    },
-    "transportProteinToolbox.membranePotentialMV": {
-      "value": "Membranpotenzial (mV)"
-    },
-    "transportProteinToolbox.naPlusKPlusPump": {
-      "value": "Na<sup>+</sup>/K<sup>+</sup><br>Pumpe"
-    },
-    "transportProteinToolbox.removeLigands": {
-      "value": "Liganden entfernen"
-    },
-    "transportProteinToolbox.sodiumGlucoseCotransporter": {
-      "value": "Na<sup>+</sup>/Glucose<br>Cotransporter"
-    },
-    "transportProteinToolbox.voltageGatedChannels": {
-      "value": "spannungsabhängiger Kanal"
-    }
-  },
   "es_PE": {
     "membrane-transport.title": {
       "value": "Transporte de membrana"
@@ -1675,6 +1967,444 @@
     },
     "transportProteinToolbox.voltageGatedChannels": {
       "value": "Canales dependientes del voltaje"
+    }
+  },
+  "fr": {
+    "membrane-transport.title": {
+      "value": "Transport membranaire"
+    },
+    "keyboardHelp.soluteAdjusters.title": {
+      "value": "Ajusteurs de soluté"
+    },
+    "keyboardHelp.sortOrDeleteProteins.title": {
+      "value": "Trier ou supprimer les protéines dans la membrane"
+    },
+    "keyboardHelp.transportProteinsAndLigands.title": {
+      "value": "Protéines de transport ou ligands"
+    },
+    "soluteConcentrationsAccordionBox.title": {
+      "value": "Concentrations de soluté"
+    },
+    "screen.activeTransport": {
+      "value": "Transport actif"
+    },
+    "screen.facilitatedDiffusion": {
+      "value": "Diffusion facilitée"
+    },
+    "screen.playground": {
+      "value": "Aire de jeu"
+    },
+    "screen.simpleDiffusion": {
+      "value": "Diffusion simple"
+    },
+    "cellRegions.inside": {
+      "value": "Intérieur"
+    },
+    "cellRegions.outside": {
+      "value": "Extérieur"
+    },
+    "keyboardHelp.soluteAdjusters.addOrRemoveALittle": {
+      "value": "Ajuster en plus petites quantités"
+    },
+    "keyboardHelp.soluteAdjusters.addOrRemoveALot": {
+      "value": "Ajuster la quantité de soluté choisie"
+    },
+    "keyboardHelp.sortOrDeleteProteins.deleteProtein": {
+      "value": "Supprimer la protéine saisie"
+    },
+    "keyboardHelp.sortOrDeleteProteins.grabProtein": {
+      "value": "Saisir la protéine dans la membrane"
+    },
+    "keyboardHelp.sortOrDeleteProteins.moveGrabbedProtein": {
+      "value": "Déplacer la protéine saisie entre les emplacements"
+    },
+    "keyboardHelp.sortOrDeleteProteins.navigateProteins": {
+      "value": "Naviguer parmi les protéines dans la membrane"
+    },
+    "keyboardHelp.sortOrDeleteProteins.releaseProtein": {
+      "value": "Relâcher la protéine saisie dans un emplacement vide ou échanger les emplacements"
+    },
+    "keyboardHelp.transportProteinsAndLigands.cancelGrab": {
+      "value": "Annuler la saisie ou l'interaction de déplacement"
+    },
+    "keyboardHelp.transportProteinsAndLigands.grabOrRelease": {
+      "value": "Saisir ou relâcher"
+    },
+    "keyboardHelp.transportProteinsAndLigands.moveGrabbedItem": {
+      "value": "Déplacer la protéine ou le ligand saisi entre les emplacements de dépôt disponibles"
+    },
+    "keyboardHelp.transportProteinsAndLigands.navigate": {
+      "value": "Naviguer parmi les protéines dans la boîte à outils ou les ligands ajoutés"
+    },
+    "outsideSodiumTooLow": {
+      "value": "Sodium extérieur trop faible !"
+    },
+    "preferencesDialog.audio.sounds.stereoCrossingSounds.description": {
+      "value": "Mettre l'accent sur la direction du transport de soluté en associant le son au canal droit (extérieur vers intérieur) et gauche (intérieur vers extérieur)."
+    },
+    "preferencesDialog.audio.sounds.stereoCrossingSounds.label": {
+      "value": "Sons de passage stéréo"
+    },
+    "preferencesDialog.simulation.animateLipids.description": {
+      "value": "Animation ondulante de la bicouche phospholipidique formant la membrane cellulaire."
+    },
+    "preferencesDialog.simulation.animateLipids.label": {
+      "value": "Animation des lipides"
+    },
+    "preferencesDialog.simulation.glucoseMetabolism.description": {
+      "value": "Les molécules de glucose disparaissent progressivement à l'intérieur de la cellule pour simuler la conversion pour le métabolisme cellulaire."
+    },
+    "preferencesDialog.simulation.glucoseMetabolism.label": {
+      "value": "Métabolisme du glucose"
+    },
+    "settings.crossingHighlights": {
+      "value": "Surbrillances de passage"
+    },
+    "settings.crossingSounds": {
+      "value": "Sons de passage"
+    },
+    "soluteNames.atp": {
+      "value": "ATP"
+    },
+    "soluteNames.carbonDioxide": {
+      "value": "CO<sub>2</sub>"
+    },
+    "soluteNames.glucose": {
+      "value": "Glucose"
+    },
+    "soluteNames.oxygen": {
+      "value": "O<sub>2</sub>"
+    },
+    "soluteNames.potassiumIon": {
+      "value": "K<sup>+</sup>"
+    },
+    "soluteNames.sodiumIon": {
+      "value": "Na<sup>+</sup>"
+    },
+    "solutes": {
+      "value": "Solutés"
+    },
+    "transportProteinToolbox.activeTransporters": {
+      "value": "Transporteurs actifs"
+    },
+    "transportProteinToolbox.addLigands": {
+      "value": "Ajouter des ligands"
+    },
+    "transportProteinToolbox.charges": {
+      "value": "Charges"
+    },
+    "transportProteinToolbox.leakageChannels": {
+      "value": "Canaux de fuite"
+    },
+    "transportProteinToolbox.ligandGatedChannels": {
+      "value": "Canaux dépendants des ligands"
+    },
+    "transportProteinToolbox.membranePotentialMV": {
+      "value": "Potentiel de membrane (mV)"
+    },
+    "transportProteinToolbox.naPlusKPlusPump": {
+      "value": "Pompe Na⁺⁺/K⁺⁺"
+    },
+    "transportProteinToolbox.removeLigands": {
+      "value": "Retirer les ligands"
+    },
+    "transportProteinToolbox.sodiumGlucoseCotransporter": {
+      "value": "Cotransporteur Na⁺⁺/Glucose"
+    },
+    "transportProteinToolbox.voltageGatedChannels": {
+      "value": "Canaux voltage-dépendants"
+    }
+  },
+  "ga": {
+    "membrane-transport.title": {
+      "value": "Iompar Scannáin"
+    },
+    "keyboardHelp.soluteAdjusters.title": {
+      "value": "Coigeartóirí Tuaslagáite"
+    },
+    "keyboardHelp.sortOrDeleteProteins.title": {
+      "value": "Sortáil nó Scrios Próitéiní sa Scannán"
+    },
+    "keyboardHelp.transportProteinsAndLigands.title": {
+      "value": "Próitéiní nó Lioganna Iompair"
+    },
+    "soluteConcentrationsAccordionBox.title": {
+      "value": "Tiúchaintí Tuaslagáite"
+    },
+    "screen.activeTransport": {
+      "value": "Iompar Gníomhach"
+    },
+    "screen.facilitatedDiffusion": {
+      "value": "Idirleathadh Éascaithe"
+    },
+    "screen.playground": {
+      "value": "Clós Súgartha"
+    },
+    "screen.simpleDiffusion": {
+      "value": "Idirleathadh Simplí"
+    },
+    "cellRegions.inside": {
+      "value": "Taobh Istigh"
+    },
+    "cellRegions.outside": {
+      "value": "Taobh Amuigh"
+    },
+    "keyboardHelp.soluteAdjusters.addOrRemoveALittle": {
+      "value": "Mionchoigeartaigh"
+    },
+    "keyboardHelp.soluteAdjusters.addOrRemoveALot": {
+      "value": "Coigeartaigh méid tuaslagáite roghnaithe"
+    },
+    "keyboardHelp.sortOrDeleteProteins.deleteProtein": {
+      "value": "Scrios próitéin pioctha"
+    },
+    "keyboardHelp.sortOrDeleteProteins.grabProtein": {
+      "value": "Pioc próitéin sa scannán"
+    },
+    "keyboardHelp.sortOrDeleteProteins.moveGrabbedProtein": {
+      "value": "Bog próitéin pioctha idir ionaid"
+    },
+    "keyboardHelp.sortOrDeleteProteins.navigateProteins": {
+      "value": "Stiúir próitéiní sa scannán"
+    },
+    "keyboardHelp.sortOrDeleteProteins.releaseProtein": {
+      "value": "Scaoil próitéiní pioctha go hionad folamh nó malartaigh ionaid"
+    },
+    "keyboardHelp.transportProteinsAndLigands.cancelGrab": {
+      "value": "Cealaigh an piocadh nó bog an t-idirghabháil"
+    },
+    "keyboardHelp.transportProteinsAndLigands.grabOrRelease": {
+      "value": "Pioc nó scaoil"
+    },
+    "keyboardHelp.transportProteinsAndLigands.moveGrabbedItem": {
+      "value": "Bog an próitéin phioctha nó liogann idir suíomhanna saora"
+    },
+    "keyboardHelp.transportProteinsAndLigands.navigate": {
+      "value": "Stiúir próitéiní nó lioganna sa bhosca uirlisi"
+    },
+    "outsideSodiumTooLow": {
+      "value": "Sóidiam an taoibh amuigh ró-íseal!"
+    },
+    "preferencesDialog.audio.sounds.stereoCrossingSounds.description": {
+      "value": "Cuir béim ar threo iompar na tuaslagáite trí fhuaim a mheaitseáil le cainéil ar dheis (taobh amuigh go taobh istigh) agus clé (taobh istigh go taobh amuigh)."
+    },
+    "preferencesDialog.audio.sounds.stereoCrossingSounds.label": {
+      "value": "Fuaim Trasnúcháin Steiréó"
+    },
+    "preferencesDialog.simulation.animateLipids.description": {
+      "value": "Beochan croite an déchisil fosfailipide a  fhoirmíonn an cillscannán."
+    },
+    "preferencesDialog.simulation.animateLipids.label": {
+      "value": "Beochan Lipidí"
+    },
+    "preferencesDialog.simulation.glucoseMetabolism.description": {
+      "value": "Imíonn móilíní glúcóis laistigh den chill chun tiontú a spreagadh le haghaidh meitibileacht cheallach."
+    },
+    "preferencesDialog.simulation.glucoseMetabolism.label": {
+      "value": "Meitibileacht Ghlúcóis"
+    },
+    "settings.crossingHighlights": {
+      "value": "Aibhsú Trasnúcháin"
+    },
+    "settings.crossingSounds": {
+      "value": "Fuaim Thrasnúcháin"
+    },
+    "soluteNames.atp": {
+      "value": "ATP"
+    },
+    "soluteNames.carbonDioxide": {
+      "value": "CO<sub>2</sub>"
+    },
+    "soluteNames.glucose": {
+      "value": "Glúcós"
+    },
+    "soluteNames.oxygen": {
+      "value": "O<sub>2</sub>"
+    },
+    "soluteNames.potassiumIon": {
+      "value": "K<sup>+</sup>"
+    },
+    "soluteNames.sodiumIon": {
+      "value": "Na<sup>+</sup>"
+    },
+    "solutes": {
+      "value": "Tuaslagáití"
+    },
+    "transportProteinToolbox.activeTransporters": {
+      "value": "Iompróirí Gníomhacha"
+    },
+    "transportProteinToolbox.addLigands": {
+      "value": "Cuir Lioganna Leis"
+    },
+    "transportProteinToolbox.charges": {
+      "value": "Luchtanna"
+    },
+    "transportProteinToolbox.leakageChannels": {
+      "value": "Cainéil Sceite"
+    },
+    "transportProteinToolbox.ligandGatedChannels": {
+      "value": "Cainéil le Geataí Liogainne"
+    },
+    "transportProteinToolbox.membranePotentialMV": {
+      "value": "Poitéinseal an Scannáin (mV)"
+    },
+    "transportProteinToolbox.naPlusKPlusPump": {
+      "value": "Ciadéal Na<sup>+</sup>/K<sup>+</sup>"
+    },
+    "transportProteinToolbox.removeLigands": {
+      "value": "Bain Lioganna"
+    },
+    "transportProteinToolbox.sodiumGlucoseCotransporter": {
+      "value": "Có-iompróir Na<sup>+</sup>/Glucose"
+    },
+    "transportProteinToolbox.voltageGatedChannels": {
+      "value": "Cainéil le Geataí Voltais"
+    }
+  },
+  "hu": {
+    "membrane-transport.title": {
+      "value": "Membrántranszport"
+    },
+    "keyboardHelp.sortOrDeleteProteins.title": {
+      "value": "Rendezd vagy töröld a proteineket a membránban"
+    },
+    "keyboardHelp.transportProteinsAndLigands.title": {
+      "value": "Transzportproteinek vagy ligandumok"
+    },
+    "soluteConcentrationsAccordionBox.title": {
+      "value": "Oldottanyag-koncentrációk"
+    },
+    "screen.activeTransport": {
+      "value": "Aktív transzport"
+    },
+    "screen.facilitatedDiffusion": {
+      "value": "Elősegített diffúzió"
+    },
+    "screen.playground": {
+      "value": "Játszótér"
+    },
+    "screen.simpleDiffusion": {
+      "value": "Egyszerű diffúzió"
+    },
+    "cellRegions.inside": {
+      "value": "Belül"
+    },
+    "cellRegions.outside": {
+      "value": "Kívül"
+    },
+    "keyboardHelp.soluteAdjusters.addOrRemoveALittle": {
+      "value": "Kisebb adagokban módosítsd"
+    },
+    "keyboardHelp.soluteAdjusters.addOrRemoveALot": {
+      "value": "A választott oldott mennyiségre állítsd"
+    },
+    "keyboardHelp.sortOrDeleteProteins.deleteProtein": {
+      "value": "Töröld a megragadott proteint"
+    },
+    "keyboardHelp.sortOrDeleteProteins.grabProtein": {
+      "value": "Ragadd meg a proteint a membránban"
+    },
+    "keyboardHelp.sortOrDeleteProteins.moveGrabbedProtein": {
+      "value": "Mozgasd a megragadott proteint a nyílások között"
+    },
+    "keyboardHelp.sortOrDeleteProteins.navigateProteins": {
+      "value": "Navigáld a fehérjéket a membránban"
+    },
+    "keyboardHelp.sortOrDeleteProteins.releaseProtein": {
+      "value": "Engedd a megragadott fehérjét az üres helyre, vagy cseréld ki a helyeket"
+    },
+    "keyboardHelp.transportProteinsAndLigands.cancelGrab": {
+      "value": "Megragadás vagy mozgatás művelet visszavonása"
+    },
+    "keyboardHelp.transportProteinsAndLigands.grabOrRelease": {
+      "value": "Ragadd meg vagy ereszd el"
+    },
+    "keyboardHelp.transportProteinsAndLigands.moveGrabbedItem": {
+      "value": "A megragadott fehérje vagy ligandum mozgatása a lehetséges elengedési helyek között"
+    },
+    "keyboardHelp.transportProteinsAndLigands.navigate": {
+      "value": "Navigálj a fehérjék között az eszköztárban vagy a hozzáadott ligandumok között"
+    },
+    "outsideSodiumTooLow": {
+      "value": "Túl alacsony a nátriumszint a külső oldalon!"
+    },
+    "preferencesDialog.audio.sounds.stereoCrossingSounds.description": {
+      "value": "Érzékeltesd az oldottanyag-transzport irányát a hangforrás hozzárendelésével a jobb csatornához (kívülről befelé), illetve a bal csatornához (belülről kifelé)."
+    },
+    "preferencesDialog.audio.sounds.stereoCrossingSounds.label": {
+      "value": "Átjutás érzékeltetése sztereo hangjelzéssel"
+    },
+    "preferencesDialog.simulation.animateLipids.description": {
+      "value": "A sejtmembránt alkotó foszfolipid kettősréteg \"tekergős\" animációja."
+    },
+    "preferencesDialog.simulation.animateLipids.label": {
+      "value": "Lipidek animációja"
+    },
+    "preferencesDialog.simulation.glucoseMetabolism.description": {
+      "value": "A glükózmolekulák sejten belüli elhalványulása a metabolizmushoz szükséges átalakulásukat érzékelteti."
+    },
+    "preferencesDialog.simulation.glucoseMetabolism.label": {
+      "value": "Glükóz metabolizmusa"
+    },
+    "settings.crossingHighlights": {
+      "value": "Áthaladást jelző fények"
+    },
+    "settings.crossingSounds": {
+      "value": "Áthaladást jelző hangok"
+    },
+    "soluteNames.atp": {
+      "value": "ATP"
+    },
+    "soluteNames.carbonDioxide": {
+      "value": "CO<sub>2</sub>"
+    },
+    "soluteNames.glucose": {
+      "value": "Glükóz"
+    },
+    "soluteNames.oxygen": {
+      "value": "O<sub>2</sub>"
+    },
+    "soluteNames.potassiumIon": {
+      "value": "K<sup>+</sup>"
+    },
+    "soluteNames.sodiumIon": {
+      "value": "Na<sup>+</sup>"
+    },
+    "solutes": {
+      "value": "Oldott anyagok"
+    },
+    "transportProteinToolbox.activeTransporters": {
+      "value": "Aktív transzporterek"
+    },
+    "transportProteinToolbox.addLigands": {
+      "value": "Ligandumok hozzáadása"
+    },
+    "transportProteinToolbox.charges": {
+      "value": "Töltések"
+    },
+    "transportProteinToolbox.leakageChannels": {
+      "value": "Szivárgó csatornák"
+    },
+    "transportProteinToolbox.ligandGatedChannels": {
+      "value": "Ligandumvezérelt csatornák"
+    },
+    "transportProteinToolbox.membranePotentialMV": {
+      "value": "Membránpotenciál (mV)"
+    },
+    "transportProteinToolbox.naPlusKPlusPump": {
+      "value": "Na<sup>+</sup>/K<sup>+</sup><br>pumpa"
+    },
+    "transportProteinToolbox.removeLigands": {
+      "value": "Ligandumok eltávolítása"
+    },
+    "transportProteinToolbox.sodiumGlucoseCotransporter": {
+      "value": "Na<sup>+</sup>/glükóz<br>kotranszporter"
+    },
+    "transportProteinToolbox.voltageGatedChannels": {
+      "value": "Feszültségfüggő ioncsatornák"
+    },
+    "keyboardHelp.soluteAdjusters.title": {
+      "value": "Oldott anyagok beállítása"
     }
   },
   "it": {
@@ -1895,150 +2625,96 @@
       "value": "Canali voltaggio-dipendenti"
     }
   },
-  "fr": {
+  "iw": {
     "membrane-transport.title": {
-      "value": "Transport membranaire"
-    },
-    "keyboardHelp.soluteAdjusters.title": {
-      "value": "Ajusteurs de soluté"
-    },
-    "keyboardHelp.sortOrDeleteProteins.title": {
-      "value": "Trier ou supprimer les protéines dans la membrane"
-    },
-    "keyboardHelp.transportProteinsAndLigands.title": {
-      "value": "Protéines de transport ou ligands"
-    },
-    "soluteConcentrationsAccordionBox.title": {
-      "value": "Concentrations de soluté"
+      "value": "מעבר קרומים"
     },
     "screen.activeTransport": {
-      "value": "Transport actif"
+      "value": "העברה אקטיבית"
     },
     "screen.facilitatedDiffusion": {
-      "value": "Diffusion facilitée"
+      "value": "פעפוע מתווך"
     },
     "screen.playground": {
-      "value": "Aire de jeu"
+      "value": "גן משחקים"
     },
     "screen.simpleDiffusion": {
-      "value": "Diffusion simple"
+      "value": "פעפוע פשוט"
     },
-    "cellRegions.inside": {
-      "value": "Intérieur"
+    "NaPlusKPlusPump": {
+      "value": "Na<sup>+</sup>-K<sup>+</sup><br>משאבה"
     },
-    "cellRegions.outside": {
-      "value": "Extérieur"
+    "activeTransporters": {
+      "value": "הסעה אקטיבית"
     },
-    "keyboardHelp.soluteAdjusters.addOrRemoveALittle": {
-      "value": "Ajuster en plus petites quantités"
+    "addLigands": {
+      "value": "הוספת ליגנדים"
     },
-    "keyboardHelp.soluteAdjusters.addOrRemoveALot": {
-      "value": "Ajuster la quantité de soluté choisie"
+    "animateLipids": {
+      "value": "הנפש ליפידים"
     },
-    "keyboardHelp.sortOrDeleteProteins.deleteProtein": {
-      "value": "Supprimer la protéine saisie"
+    "animateLipidsDescription": {
+      "value": "האם יש להפעיל אנימציה על הפוספוליפידים היוצרים את קרום התא"
     },
-    "keyboardHelp.sortOrDeleteProteins.grabProtein": {
-      "value": "Saisir la protéine dans la membrane"
-    },
-    "keyboardHelp.sortOrDeleteProteins.moveGrabbedProtein": {
-      "value": "Déplacer la protéine saisie entre les emplacements"
-    },
-    "keyboardHelp.sortOrDeleteProteins.navigateProteins": {
-      "value": "Naviguer parmi les protéines dans la membrane"
-    },
-    "keyboardHelp.sortOrDeleteProteins.releaseProtein": {
-      "value": "Relâcher la protéine saisie dans un emplacement vide ou échanger les emplacements"
-    },
-    "keyboardHelp.transportProteinsAndLigands.cancelGrab": {
-      "value": "Annuler la saisie ou l'interaction de déplacement"
-    },
-    "keyboardHelp.transportProteinsAndLigands.grabOrRelease": {
-      "value": "Saisir ou relâcher"
-    },
-    "keyboardHelp.transportProteinsAndLigands.moveGrabbedItem": {
-      "value": "Déplacer la protéine ou le ligand saisi entre les emplacements de dépôt disponibles"
-    },
-    "keyboardHelp.transportProteinsAndLigands.navigate": {
-      "value": "Naviguer parmi les protéines dans la boîte à outils ou les ligands ajoutés"
-    },
-    "outsideSodiumTooLow": {
-      "value": "Sodium extérieur trop faible !"
-    },
-    "preferencesDialog.audio.sounds.stereoCrossingSounds.description": {
-      "value": "Mettre l'accent sur la direction du transport de soluté en associant le son au canal droit (extérieur vers intérieur) et gauche (intérieur vers extérieur)."
-    },
-    "preferencesDialog.audio.sounds.stereoCrossingSounds.label": {
-      "value": "Sons de passage stéréo"
-    },
-    "preferencesDialog.simulation.animateLipids.description": {
-      "value": "Animation ondulante de la bicouche phospholipidique formant la membrane cellulaire."
-    },
-    "preferencesDialog.simulation.animateLipids.label": {
-      "value": "Animation des lipides"
-    },
-    "preferencesDialog.simulation.glucoseMetabolism.description": {
-      "value": "Les molécules de glucose disparaissent progressivement à l'intérieur de la cellule pour simuler la conversion pour le métabolisme cellulaire."
-    },
-    "preferencesDialog.simulation.glucoseMetabolism.label": {
-      "value": "Métabolisme du glucose"
-    },
-    "settings.crossingHighlights": {
-      "value": "Surbrillances de passage"
-    },
-    "settings.crossingSounds": {
-      "value": "Sons de passage"
-    },
-    "soluteNames.atp": {
+    "atp": {
       "value": "ATP"
     },
-    "soluteNames.carbonDioxide": {
+    "carbonDioxide": {
       "value": "CO<sub>2</sub>"
     },
-    "soluteNames.glucose": {
-      "value": "Glucose"
+    "glucose": {
+      "value": "גלוקוז"
     },
-    "soluteNames.oxygen": {
+    "inside": {
+      "value": "בפנים"
+    },
+    "leakageChannels": {
+      "value": "תעלות דליפה"
+    },
+    "ligandGatedChannels": {
+      "value": "תעלות עם שערי ליגנד"
+    },
+    "membranePotentialLabels": {
+      "value": "תוויות הפוטנציאלים של הקרום"
+    },
+    "membranePotential_mV": {
+      "value": "פוטנציאל הממברנה (mV)"
+    },
+    "outside": {
+      "value": "בחוץ"
+    },
+    "oxygen": {
       "value": "O<sub>2</sub>"
     },
-    "soluteNames.potassiumIon": {
+    "potassiumIon": {
       "value": "K<sup>+</sup>"
     },
-    "soluteNames.sodiumIon": {
+    "potassiumIonKPlus": {
+      "value": "יון אשלגן<br>(K<sup>+</sup>)"
+    },
+    "removeLigands": {
+      "value": "הסרת ליגנדים"
+    },
+    "signs": {
+      "value": "סימנים"
+    },
+    "sodiumGlucoseCotransporter": {
+      "value": "Na<sup>+</sup>-גלוקוז<br>Cotransporter"
+    },
+    "sodiumIon": {
       "value": "Na<sup>+</sup>"
     },
+    "sodiumIonNaPlus": {
+      "value": "יון נתרן<br>(Na<sup>+</sup>)"
+    },
+    "soluteConcentrations": {
+      "value": "ריכוז התמיסה"
+    },
     "solutes": {
-      "value": "Solutés"
+      "value": "תמיסות"
     },
-    "transportProteinToolbox.activeTransporters": {
-      "value": "Transporteurs actifs"
-    },
-    "transportProteinToolbox.addLigands": {
-      "value": "Ajouter des ligands"
-    },
-    "transportProteinToolbox.charges": {
-      "value": "Charges"
-    },
-    "transportProteinToolbox.leakageChannels": {
-      "value": "Canaux de fuite"
-    },
-    "transportProteinToolbox.ligandGatedChannels": {
-      "value": "Canaux dépendants des ligands"
-    },
-    "transportProteinToolbox.membranePotentialMV": {
-      "value": "Potentiel de membrane (mV)"
-    },
-    "transportProteinToolbox.naPlusKPlusPump": {
-      "value": "Pompe Na⁺⁺/K⁺⁺"
-    },
-    "transportProteinToolbox.removeLigands": {
-      "value": "Retirer les ligands"
-    },
-    "transportProteinToolbox.sodiumGlucoseCotransporter": {
-      "value": "Cotransporteur Na⁺⁺/Glucose"
-    },
-    "transportProteinToolbox.voltageGatedChannels": {
-      "value": "Canaux voltage-dépendants"
+    "voltageGatedChannels": {
+      "value": "מתח-שער התעלה"
     }
   },
   "lt": {
@@ -2187,244 +2863,6 @@
       "value": "Potencialo valdomi kanalai"
     }
   },
-  "iw": {
-    "membrane-transport.title": {
-      "value": "מעבר קרומים"
-    },
-    "screen.activeTransport": {
-      "value": "העברה אקטיבית"
-    },
-    "screen.facilitatedDiffusion": {
-      "value": "פעפוע מתווך"
-    },
-    "screen.playground": {
-      "value": "גן משחקים"
-    },
-    "screen.simpleDiffusion": {
-      "value": "פעפוע פשוט"
-    },
-    "NaPlusKPlusPump": {
-      "value": "Na<sup>+</sup>-K<sup>+</sup><br>משאבה"
-    },
-    "activeTransporters": {
-      "value": "הסעה אקטיבית"
-    },
-    "addLigands": {
-      "value": "הוספת ליגנדים"
-    },
-    "animateLipids": {
-      "value": "הנפש ליפידים"
-    },
-    "animateLipidsDescription": {
-      "value": "האם יש להפעיל אנימציה על הפוספוליפידים היוצרים את קרום התא"
-    },
-    "atp": {
-      "value": "ATP"
-    },
-    "carbonDioxide": {
-      "value": "CO<sub>2</sub>"
-    },
-    "glucose": {
-      "value": "גלוקוז"
-    },
-    "inside": {
-      "value": "בפנים"
-    },
-    "leakageChannels": {
-      "value": "תעלות דליפה"
-    },
-    "ligandGatedChannels": {
-      "value": "תעלות עם שערי ליגנד"
-    },
-    "membranePotentialLabels": {
-      "value": "תוויות הפוטנציאלים של הקרום"
-    },
-    "membranePotential_mV": {
-      "value": "פוטנציאל הממברנה (mV)"
-    },
-    "outside": {
-      "value": "בחוץ"
-    },
-    "oxygen": {
-      "value": "O<sub>2</sub>"
-    },
-    "potassiumIon": {
-      "value": "K<sup>+</sup>"
-    },
-    "potassiumIonKPlus": {
-      "value": "יון אשלגן<br>(K<sup>+</sup>)"
-    },
-    "removeLigands": {
-      "value": "הסרת ליגנדים"
-    },
-    "signs": {
-      "value": "סימנים"
-    },
-    "sodiumGlucoseCotransporter": {
-      "value": "Na<sup>+</sup>-גלוקוז<br>Cotransporter"
-    },
-    "sodiumIon": {
-      "value": "Na<sup>+</sup>"
-    },
-    "sodiumIonNaPlus": {
-      "value": "יון נתרן<br>(Na<sup>+</sup>)"
-    },
-    "soluteConcentrations": {
-      "value": "ריכוז התמיסה"
-    },
-    "solutes": {
-      "value": "תמיסות"
-    },
-    "voltageGatedChannels": {
-      "value": "מתח-שער התעלה"
-    }
-  },
-  "hu": {
-    "membrane-transport.title": {
-      "value": "Membrántranszport"
-    },
-    "keyboardHelp.sortOrDeleteProteins.title": {
-      "value": "Rendezd vagy töröld a proteineket a membránban"
-    },
-    "keyboardHelp.transportProteinsAndLigands.title": {
-      "value": "Transzportproteinek vagy ligandumok"
-    },
-    "soluteConcentrationsAccordionBox.title": {
-      "value": "Oldottanyag-koncentrációk"
-    },
-    "screen.activeTransport": {
-      "value": "Aktív transzport"
-    },
-    "screen.facilitatedDiffusion": {
-      "value": "Elősegített diffúzió"
-    },
-    "screen.playground": {
-      "value": "Játszótér"
-    },
-    "screen.simpleDiffusion": {
-      "value": "Egyszerű diffúzió"
-    },
-    "cellRegions.inside": {
-      "value": "Belül"
-    },
-    "cellRegions.outside": {
-      "value": "Kívül"
-    },
-    "keyboardHelp.soluteAdjusters.addOrRemoveALittle": {
-      "value": "Kisebb adagokban módosítsd"
-    },
-    "keyboardHelp.soluteAdjusters.addOrRemoveALot": {
-      "value": "A választott oldott mennyiségre állítsd"
-    },
-    "keyboardHelp.sortOrDeleteProteins.deleteProtein": {
-      "value": "Töröld a megragadott proteint"
-    },
-    "keyboardHelp.sortOrDeleteProteins.grabProtein": {
-      "value": "Ragadd meg a proteint a membránban"
-    },
-    "keyboardHelp.sortOrDeleteProteins.moveGrabbedProtein": {
-      "value": "Mozgasd a megragadott proteint a nyílások között"
-    },
-    "keyboardHelp.sortOrDeleteProteins.navigateProteins": {
-      "value": "Navigáld a fehérjéket a membránban"
-    },
-    "keyboardHelp.sortOrDeleteProteins.releaseProtein": {
-      "value": "Engedd a megragadott fehérjét az üres helyre, vagy cseréld ki a helyeket"
-    },
-    "keyboardHelp.transportProteinsAndLigands.cancelGrab": {
-      "value": "Megragadás vagy mozgatás művelet visszavonása"
-    },
-    "keyboardHelp.transportProteinsAndLigands.grabOrRelease": {
-      "value": "Ragadd meg vagy ereszd el"
-    },
-    "keyboardHelp.transportProteinsAndLigands.moveGrabbedItem": {
-      "value": "A megragadott fehérje vagy ligandum mozgatása a lehetséges elengedési helyek között"
-    },
-    "keyboardHelp.transportProteinsAndLigands.navigate": {
-      "value": "Navigálj a fehérjék között az eszköztárban vagy a hozzáadott ligandumok között"
-    },
-    "outsideSodiumTooLow": {
-      "value": "Túl alacsony a nátriumszint a külső oldalon!"
-    },
-    "preferencesDialog.audio.sounds.stereoCrossingSounds.description": {
-      "value": "Érzékeltesd az oldottanyag-transzport irányát a hangforrás hozzárendelésével a jobb csatornához (kívülről befelé), illetve a bal csatornához (belülről kifelé)."
-    },
-    "preferencesDialog.audio.sounds.stereoCrossingSounds.label": {
-      "value": "Átjutás érzékeltetése sztereo hangjelzéssel"
-    },
-    "preferencesDialog.simulation.animateLipids.description": {
-      "value": "A sejtmembránt alkotó foszfolipid kettősréteg \"tekergős\" animációja."
-    },
-    "preferencesDialog.simulation.animateLipids.label": {
-      "value": "Lipidek animációja"
-    },
-    "preferencesDialog.simulation.glucoseMetabolism.description": {
-      "value": "A glükózmolekulák sejten belüli elhalványulása a metabolizmushoz szükséges átalakulásukat érzékelteti."
-    },
-    "preferencesDialog.simulation.glucoseMetabolism.label": {
-      "value": "Glükóz metabolizmusa"
-    },
-    "settings.crossingHighlights": {
-      "value": "Áthaladást jelző fények"
-    },
-    "settings.crossingSounds": {
-      "value": "Áthaladást jelző hangok"
-    },
-    "soluteNames.atp": {
-      "value": "ATP"
-    },
-    "soluteNames.carbonDioxide": {
-      "value": "CO<sub>2</sub>"
-    },
-    "soluteNames.glucose": {
-      "value": "Glükóz"
-    },
-    "soluteNames.oxygen": {
-      "value": "O<sub>2</sub>"
-    },
-    "soluteNames.potassiumIon": {
-      "value": "K<sup>+</sup>"
-    },
-    "soluteNames.sodiumIon": {
-      "value": "Na<sup>+</sup>"
-    },
-    "solutes": {
-      "value": "Oldott anyagok"
-    },
-    "transportProteinToolbox.activeTransporters": {
-      "value": "Aktív transzporterek"
-    },
-    "transportProteinToolbox.addLigands": {
-      "value": "Ligandumok hozzáadása"
-    },
-    "transportProteinToolbox.charges": {
-      "value": "Töltések"
-    },
-    "transportProteinToolbox.leakageChannels": {
-      "value": "Szivárgó csatornák"
-    },
-    "transportProteinToolbox.ligandGatedChannels": {
-      "value": "Ligandumvezérelt csatornák"
-    },
-    "transportProteinToolbox.membranePotentialMV": {
-      "value": "Membránpotenciál (mV)"
-    },
-    "transportProteinToolbox.naPlusKPlusPump": {
-      "value": "Na<sup>+</sup>/K<sup>+</sup><br>pumpa"
-    },
-    "transportProteinToolbox.removeLigands": {
-      "value": "Ligandumok eltávolítása"
-    },
-    "transportProteinToolbox.sodiumGlucoseCotransporter": {
-      "value": "Na<sup>+</sup>/glükóz<br>kotranszporter"
-    },
-    "transportProteinToolbox.voltageGatedChannels": {
-      "value": "Feszültségfüggő ioncsatornák"
-    },
-    "keyboardHelp.soluteAdjusters.title": {
-      "value": "Oldott anyagok beállítása"
-    }
-  },
   "nb": {
     "membrane-transport.title": {
       "value": "Transport gjennom cellemembranen"
@@ -2569,152 +3007,6 @@
     },
     "transportProteinToolbox.voltageGatedChannels": {
       "value": "Spenningsregulerte kanaler"
-    }
-  },
-  "ga": {
-    "membrane-transport.title": {
-      "value": "Iompar Scannáin"
-    },
-    "keyboardHelp.soluteAdjusters.title": {
-      "value": "Coigeartóirí Tuaslagáite"
-    },
-    "keyboardHelp.sortOrDeleteProteins.title": {
-      "value": "Sortáil nó Scrios Próitéiní sa Scannán"
-    },
-    "keyboardHelp.transportProteinsAndLigands.title": {
-      "value": "Próitéiní nó Lioganna Iompair"
-    },
-    "soluteConcentrationsAccordionBox.title": {
-      "value": "Tiúchaintí Tuaslagáite"
-    },
-    "screen.activeTransport": {
-      "value": "Iompar Gníomhach"
-    },
-    "screen.facilitatedDiffusion": {
-      "value": "Idirleathadh Éascaithe"
-    },
-    "screen.playground": {
-      "value": "Clós Súgartha"
-    },
-    "screen.simpleDiffusion": {
-      "value": "Idirleathadh Simplí"
-    },
-    "cellRegions.inside": {
-      "value": "Taobh Istigh"
-    },
-    "cellRegions.outside": {
-      "value": "Taobh Amuigh"
-    },
-    "keyboardHelp.soluteAdjusters.addOrRemoveALittle": {
-      "value": "Mionchoigeartaigh"
-    },
-    "keyboardHelp.soluteAdjusters.addOrRemoveALot": {
-      "value": "Coigeartaigh méid tuaslagáite roghnaithe"
-    },
-    "keyboardHelp.sortOrDeleteProteins.deleteProtein": {
-      "value": "Scrios próitéin pioctha"
-    },
-    "keyboardHelp.sortOrDeleteProteins.grabProtein": {
-      "value": "Pioc próitéin sa scannán"
-    },
-    "keyboardHelp.sortOrDeleteProteins.moveGrabbedProtein": {
-      "value": "Bog próitéin pioctha idir ionaid"
-    },
-    "keyboardHelp.sortOrDeleteProteins.navigateProteins": {
-      "value": "Stiúir próitéiní sa scannán"
-    },
-    "keyboardHelp.sortOrDeleteProteins.releaseProtein": {
-      "value": "Scaoil próitéiní pioctha go hionad folamh nó malartaigh ionaid"
-    },
-    "keyboardHelp.transportProteinsAndLigands.cancelGrab": {
-      "value": "Cealaigh an piocadh nó bog an t-idirghabháil"
-    },
-    "keyboardHelp.transportProteinsAndLigands.grabOrRelease": {
-      "value": "Pioc nó scaoil"
-    },
-    "keyboardHelp.transportProteinsAndLigands.moveGrabbedItem": {
-      "value": "Bog an próitéin phioctha nó liogann idir suíomhanna saora"
-    },
-    "keyboardHelp.transportProteinsAndLigands.navigate": {
-      "value": "Stiúir próitéiní nó lioganna sa bhosca uirlisi"
-    },
-    "outsideSodiumTooLow": {
-      "value": "Sóidiam an taoibh amuigh ró-íseal!"
-    },
-    "preferencesDialog.audio.sounds.stereoCrossingSounds.description": {
-      "value": "Cuir béim ar threo iompar na tuaslagáite trí fhuaim a mheaitseáil le cainéil ar dheis (taobh amuigh go taobh istigh) agus clé (taobh istigh go taobh amuigh)."
-    },
-    "preferencesDialog.audio.sounds.stereoCrossingSounds.label": {
-      "value": "Fuaim Trasnúcháin Steiréó"
-    },
-    "preferencesDialog.simulation.animateLipids.description": {
-      "value": "Beochan croite an déchisil fosfailipide a  fhoirmíonn an cillscannán."
-    },
-    "preferencesDialog.simulation.animateLipids.label": {
-      "value": "Beochan Lipidí"
-    },
-    "preferencesDialog.simulation.glucoseMetabolism.description": {
-      "value": "Imíonn móilíní glúcóis laistigh den chill chun tiontú a spreagadh le haghaidh meitibileacht cheallach."
-    },
-    "preferencesDialog.simulation.glucoseMetabolism.label": {
-      "value": "Meitibileacht Ghlúcóis"
-    },
-    "settings.crossingHighlights": {
-      "value": "Aibhsú Trasnúcháin"
-    },
-    "settings.crossingSounds": {
-      "value": "Fuaim Thrasnúcháin"
-    },
-    "soluteNames.atp": {
-      "value": "ATP"
-    },
-    "soluteNames.carbonDioxide": {
-      "value": "CO<sub>2</sub>"
-    },
-    "soluteNames.glucose": {
-      "value": "Glúcós"
-    },
-    "soluteNames.oxygen": {
-      "value": "O<sub>2</sub>"
-    },
-    "soluteNames.potassiumIon": {
-      "value": "K<sup>+</sup>"
-    },
-    "soluteNames.sodiumIon": {
-      "value": "Na<sup>+</sup>"
-    },
-    "solutes": {
-      "value": "Tuaslagáití"
-    },
-    "transportProteinToolbox.activeTransporters": {
-      "value": "Iompróirí Gníomhacha"
-    },
-    "transportProteinToolbox.addLigands": {
-      "value": "Cuir Lioganna Leis"
-    },
-    "transportProteinToolbox.charges": {
-      "value": "Luchtanna"
-    },
-    "transportProteinToolbox.leakageChannels": {
-      "value": "Cainéil Sceite"
-    },
-    "transportProteinToolbox.ligandGatedChannels": {
-      "value": "Cainéil le Geataí Liogainne"
-    },
-    "transportProteinToolbox.membranePotentialMV": {
-      "value": "Poitéinseal an Scannáin (mV)"
-    },
-    "transportProteinToolbox.naPlusKPlusPump": {
-      "value": "Ciadéal Na<sup>+</sup>/K<sup>+</sup>"
-    },
-    "transportProteinToolbox.removeLigands": {
-      "value": "Bain Lioganna"
-    },
-    "transportProteinToolbox.sodiumGlucoseCotransporter": {
-      "value": "Có-iompróir Na<sup>+</sup>/Glucose"
-    },
-    "transportProteinToolbox.voltageGatedChannels": {
-      "value": "Cainéil le Geataí Voltais"
     }
   },
   "pl": {
@@ -2933,6 +3225,588 @@
     },
     "transportProteinToolbox.voltageGatedChannels": {
       "value": "Kanały bramkowane napięciem"
+    }
+  },
+  "pt_BR": {
+    "membrane-transport.title": {
+      "value": "Transporte Celular"
+    },
+    "screen.activeTransport": {
+      "value": "Transporte Ativo"
+    },
+    "screen.facilitatedDiffusion": {
+      "value": "Difusão Facilitada"
+    },
+    "screen.playground": {
+      "value": "Parque"
+    },
+    "screen.simpleDiffusion": {
+      "value": "Difusão Simples"
+    },
+    "NaPlusKPlusPump": {
+      "value": "Bomba<br>Na<sup>+</sup>-K<sup>+</sup>"
+    },
+    "activeTransporters": {
+      "value": "Transportadores Ativos"
+    },
+    "addLigands": {
+      "value": "Adicionar Ligantes"
+    },
+    "animateLipids": {
+      "value": "Animar Lipídios"
+    },
+    "animateLipidsDescription": {
+      "value": "Se os fosfolipídios que formam a membrana celular devem ser animados"
+    },
+    "atp": {
+      "value": "ATP"
+    },
+    "carbonDioxide": {
+      "value": "CO<sub>2</sub>"
+    },
+    "glucose": {
+      "value": "Glicose"
+    },
+    "inside": {
+      "value": "Por dentro"
+    },
+    "leakageChannels": {
+      "value": "Canais de Vazamento"
+    },
+    "ligandGatedChannels": {
+      "value": "Canais Controlados por Ligantes"
+    },
+    "membranePotentialLabels": {
+      "value": "Etiquetas de Potencial de Membrana"
+    },
+    "membranePotential_mV": {
+      "value": "Potencial de Membrana (mV)"
+    },
+    "outside": {
+      "value": "Por fora"
+    },
+    "oxygen": {
+      "value": "O<sub>2</sub>"
+    },
+    "potassiumIon": {
+      "value": "K<sup>+</sup>"
+    },
+    "potassiumIonKPlus": {
+      "value": "Íon Potássio<br>(K<sup>+</sup>)"
+    },
+    "removeLigands": {
+      "value": "Remover Ligantes"
+    },
+    "signs": {
+      "value": "Sinais"
+    },
+    "sodiumGlucoseCotransporter": {
+      "value": "Cotransportador Na-<sup>+</sup>-Glicose"
+    },
+    "sodiumIon": {
+      "value": "Na<sup>+</sup>"
+    },
+    "sodiumIonNaPlus": {
+      "value": "Íon Sódio<br>(Na<sup>+</sup>)"
+    },
+    "soluteConcentrations": {
+      "value": "Concentrações de Solutos"
+    },
+    "solutes": {
+      "value": "Solutos"
+    },
+    "voltageGatedChannels": {
+      "value": "Canais Dependentes de Voltagem"
+    },
+    "keyboardHelp.soluteAdjusters.title": {
+      "value": "Ajustadores de Soluto"
+    },
+    "keyboardHelp.sortOrDeleteProteins.title": {
+      "value": "Classificar ou Excluir Proteínas na Membrana"
+    },
+    "keyboardHelp.transportProteinsAndLigands.title": {
+      "value": "Proteínas de Transporte ou Ligantes"
+    },
+    "soluteConcentrationsAccordionBox.title": {
+      "value": "Concentrações de Solutos"
+    },
+    "cellRegions.inside": {
+      "value": "Intracelular"
+    },
+    "cellRegions.outside": {
+      "value": "Extracelular"
+    },
+    "keyboardHelp.soluteAdjusters.addOrRemoveALittle": {
+      "value": "Ajustar em porções menores"
+    },
+    "keyboardHelp.soluteAdjusters.addOrRemoveALot": {
+      "value": "Ajustar porção do soluto escolhido"
+    },
+    "keyboardHelp.sortOrDeleteProteins.deleteProtein": {
+      "value": "Excluir proteína capturada"
+    },
+    "keyboardHelp.sortOrDeleteProteins.grabProtein": {
+      "value": "Capturar proteína na membrana"
+    },
+    "keyboardHelp.sortOrDeleteProteins.moveGrabbedProtein": {
+      "value": "Mover proteína capturada entre as fendas"
+    },
+    "keyboardHelp.sortOrDeleteProteins.navigateProteins": {
+      "value": "Navegar por proteínas na membrana"
+    },
+    "keyboardHelp.sortOrDeleteProteins.releaseProtein": {
+      "value": "Liberar a proteína capturada na fenda vazia ou trocar as fendas"
+    },
+    "keyboardHelp.transportProteinsAndLigands.cancelGrab": {
+      "value": "Cancelar interação de agarrar ou mover"
+    },
+    "keyboardHelp.transportProteinsAndLigands.grabOrRelease": {
+      "value": "Agarrar ou mover"
+    },
+    "keyboardHelp.transportProteinsAndLigands.moveGrabbedItem": {
+      "value": "Mover a proteína ou ligante agarrado entre os locais de descarte disponíveis"
+    },
+    "keyboardHelp.transportProteinsAndLigands.navigate": {
+      "value": "Navegar pelas proteínas na caixa de ferramentas ou pelos ligantes adicionados"
+    },
+    "outsideSodiumTooLow": {
+      "value": "Sódio Muito Baixo no Exterior!"
+    },
+    "preferencesDialog.audio.sounds.stereoCrossingSounds.description": {
+      "value": "Enfatizar a direção do transporte de soluto mapeando o som para os canais direito (de fora para dentro) e esquerdo (de dentro para fora)."
+    },
+    "preferencesDialog.audio.sounds.stereoCrossingSounds.label": {
+      "value": "Sons de Cruzamento Estéreo"
+    },
+    "preferencesDialog.simulation.animateLipids.description": {
+      "value": "Animação ondulante da bicamada fosfolipídica formando a membrana celular."
+    },
+    "preferencesDialog.simulation.animateLipids.label": {
+      "value": "Animação de Lipídios"
+    },
+    "preferencesDialog.simulation.glucoseMetabolism.description": {
+      "value": "As moléculas de glicose desaparecem dentro da célula para simular a conversão pelo metabolismo celular."
+    },
+    "preferencesDialog.simulation.glucoseMetabolism.label": {
+      "value": "Metabolismo da Glicose"
+    },
+    "settings.crossingHighlights": {
+      "value": "Realçar Travessia"
+    },
+    "settings.crossingSounds": {
+      "value": "Sons da Travessia"
+    },
+    "soluteNames.atp": {
+      "value": "ATP"
+    },
+    "soluteNames.carbonDioxide": {
+      "value": "CO<sub>2</sub>"
+    },
+    "soluteNames.glucose": {
+      "value": "Glicose"
+    },
+    "soluteNames.oxygen": {
+      "value": "O<sub>2</sub>"
+    },
+    "soluteNames.potassiumIon": {
+      "value": "K<sup>1+</sup>"
+    },
+    "soluteNames.sodiumIon": {
+      "value": "Na<sup>1+</sup>"
+    },
+    "transportProteinToolbox.activeTransporters": {
+      "value": "Transportadores Ativos"
+    },
+    "transportProteinToolbox.addLigands": {
+      "value": "Adicionar Ligantes"
+    },
+    "transportProteinToolbox.charges": {
+      "value": "Cargas"
+    },
+    "transportProteinToolbox.leakageChannels": {
+      "value": "Canais de Repouso"
+    },
+    "transportProteinToolbox.ligandGatedChannels": {
+      "value": "Canais Controlados por Ligantes"
+    },
+    "transportProteinToolbox.membranePotentialMV": {
+      "value": "Potencial de Membrana (mV)"
+    },
+    "transportProteinToolbox.naPlusKPlusPump": {
+      "value": "Bomba de<br>Na<sup>1+</sup>/K<sup>1+</sup>"
+    },
+    "transportProteinToolbox.removeLigands": {
+      "value": "Remover Ligantes"
+    },
+    "transportProteinToolbox.sodiumGlucoseCotransporter": {
+      "value": "Cotransportador de<br>Na<sup>+</sup>/Glicose"
+    },
+    "transportProteinToolbox.voltageGatedChannels": {
+      "value": "Canais Dependentes de Voltagem"
+    }
+  },
+  "sr": {
+    "membrane-transport.title": {
+      "value": "Мембрански транспорт"
+    },
+    "keyboardHelp.soluteAdjusters.title": {
+      "value": "Подешавање раствора"
+    },
+    "keyboardHelp.sortOrDeleteProteins.title": {
+      "value": "Одаберите или обришите протеине у мембрани"
+    },
+    "keyboardHelp.transportProteinsAndLigands.title": {
+      "value": "Транспортни протеини или лиганди"
+    },
+    "soluteConcentrationsAccordionBox.title": {
+      "value": "Концентрација раствора"
+    },
+    "solutes": {
+      "value": "Раствори"
+    },
+    "transportProteinToolbox.leakageChannels": {
+      "value": "Канали цурења"
+    },
+    "screen.activeTransport": {
+      "value": "Активни транспорт"
+    },
+    "screen.facilitatedDiffusion": {
+      "value": "Олакшана дифузија"
+    },
+    "screen.playground": {
+      "value": "Играоница"
+    },
+    "screen.simpleDiffusion": {
+      "value": "Једноставна дифузија"
+    },
+    "cellRegions.inside": {
+      "value": "Унутра"
+    },
+    "cellRegions.outside": {
+      "value": "Споља"
+    },
+    "keyboardHelp.soluteAdjusters.addOrRemoveALittle": {
+      "value": "Прилагодити у мањим количинама"
+    },
+    "keyboardHelp.soluteAdjusters.addOrRemoveALot": {
+      "value": "Подесите изабрану количину раствора"
+    },
+    "keyboardHelp.sortOrDeleteProteins.deleteProtein": {
+      "value": "Уклоните ухваћени протеин"
+    },
+    "keyboardHelp.sortOrDeleteProteins.grabProtein": {
+      "value": "Ухватите протеин у мембрани"
+    },
+    "keyboardHelp.sortOrDeleteProteins.moveGrabbedProtein": {
+      "value": "Премештајте ухваћене протеине између слотова"
+    },
+    "keyboardHelp.sortOrDeleteProteins.navigateProteins": {
+      "value": "Навигација протеина у мембрани"
+    },
+    "keyboardHelp.sortOrDeleteProteins.releaseProtein": {
+      "value": "Отпустите ухваћени протеин у празан слот или замените слотове"
+    },
+    "keyboardHelp.transportProteinsAndLigands.cancelGrab": {
+      "value": "Откажи хватање или померање"
+    },
+    "keyboardHelp.transportProteinsAndLigands.grabOrRelease": {
+      "value": "Ухвати или пусти"
+    },
+    "keyboardHelp.transportProteinsAndLigands.moveGrabbedItem": {
+      "value": "Премештајте ухваћени протеин или лиганд између доступних локација за испуштање"
+    },
+    "keyboardHelp.transportProteinsAndLigands.navigate": {
+      "value": "Навигација протеина у алаткама или додати лиганде"
+    },
+    "outsideSodiumTooLow": {
+      "value": "Пренизак ниво натријума напољу!"
+    },
+    "preferencesDialog.audio.sounds.stereoCrossingSounds.description": {
+      "value": "Нагласите смер транспорта растворених материја мапирањем звука на десни (споља ка унутра) и леви (изнутра ка споља) канал"
+    },
+    "preferencesDialog.audio.sounds.stereoCrossingSounds.label": {
+      "value": "Стерео звуци прелаза"
+    },
+    "preferencesDialog.simulation.animateLipids.description": {
+      "value": "Анимација померања фосфолипидног двослоја који формира ћелијску мембрану."
+    },
+    "preferencesDialog.simulation.animateLipids.label": {
+      "value": "Анимација липида"
+    },
+    "preferencesDialog.simulation.glucoseMetabolism.description": {
+      "value": "Молекули глукозе нестају унутар ћелије како би симулирали конверзију за ћелијски метаболизам."
+    },
+    "preferencesDialog.simulation.glucoseMetabolism.label": {
+      "value": "Метаболизам глукозе"
+    },
+    "settings.crossingHighlights": {
+      "value": "Најважнији делови преласка"
+    },
+    "settings.crossingSounds": {
+      "value": "Звуци преласка"
+    },
+    "soluteNames.atp": {
+      "value": "ATP (АТП)"
+    },
+    "soluteNames.carbonDioxide": {
+      "value": "CO<sub>2</sub>"
+    },
+    "soluteNames.glucose": {
+      "value": "Глукоза"
+    },
+    "soluteNames.oxygen": {
+      "value": "O<sub>2</sub>"
+    },
+    "soluteNames.potassiumIon": {
+      "value": "K<sup>+</sup>"
+    },
+    "soluteNames.sodiumIon": {
+      "value": "Na<sup>+</sup>"
+    },
+    "transportProteinToolbox.activeTransporters": {
+      "value": "Активни транспорти"
+    },
+    "transportProteinToolbox.addLigands": {
+      "value": "Додај лиганде"
+    },
+    "transportProteinToolbox.charges": {
+      "value": "Нелектрисања"
+    },
+    "transportProteinToolbox.ligandGatedChannels": {
+      "value": "Лигандно контролисани канали"
+    },
+    "transportProteinToolbox.membranePotentialMV": {
+      "value": "Потенцијал мембране (mV)"
+    },
+    "transportProteinToolbox.naPlusKPlusPump": {
+      "value": "Na<sup>+</sup>/K<sup>+</sup><br>пумпа"
+    },
+    "transportProteinToolbox.removeLigands": {
+      "value": "Уклони лиганде"
+    },
+    "transportProteinToolbox.sodiumGlucoseCotransporter": {
+      "value": "Na<sup>+</sup>/коранспортер<br>глукозе"
+    },
+    "transportProteinToolbox.voltageGatedChannels": {
+      "value": "Напонски контролисани канали"
+    }
+  },
+  "vi": {
+    "membrane-transport.title": {
+      "value": "Vận chuyển qua màng tế bào"
+    },
+    "screen.activeTransport": {
+      "value": "Vận chuyển chủ động"
+    },
+    "screen.facilitatedDiffusion": {
+      "value": "Khuếch tán tăng cường"
+    },
+    "screen.playground": {
+      "value": "Sân chơi"
+    },
+    "screen.simpleDiffusion": {
+      "value": "Khuếch tán đơn giản"
+    },
+    "NaPlusKPlusPump": {
+      "value": "Bơm Na<sup>+</sup>-K<sup>+</sup><br>"
+    },
+    "activeTransporters": {
+      "value": "Protein vận chuyển chủ động"
+    },
+    "addLigands": {
+      "value": "Thêm Ligand"
+    },
+    "animateLipids": {
+      "value": "Hoạt ảnh Lipid"
+    },
+    "animateLipidsDescription": {
+      "value": "Whether the phospholipids forming the cell membrane should be animated"
+    },
+    "atp": {
+      "value": "ATP"
+    },
+    "carbonDioxide": {
+      "value": "CO<sub>2</sub>"
+    },
+    "glucose": {
+      "value": "Glucose"
+    },
+    "inside": {
+      "value": "Bên trong"
+    },
+    "leakageChannels": {
+      "value": "Kênh thoát"
+    },
+    "ligandGatedChannels": {
+      "value": "Kênh có cổng Ligand"
+    },
+    "membranePotentialLabels": {
+      "value": "Nhãn của Thế màng"
+    },
+    "membranePotential_mV": {
+      "value": "Thế màng (mV)"
+    },
+    "outside": {
+      "value": "Bên ngoài"
+    },
+    "oxygen": {
+      "value": "O<sub>2</sub>"
+    },
+    "potassiumIon": {
+      "value": "K<sup>+</sup>"
+    },
+    "potassiumIonKPlus": {
+      "value": "Potassium Ion<br>(K<sup>+</sup>)"
+    },
+    "removeLigands": {
+      "value": "Bớt Ligand"
+    },
+    "signs": {
+      "value": "Dấu"
+    },
+    "sodiumGlucoseCotransporter": {
+      "value": "Na<sup>+</sup>-Glucose<br>Cotransporter"
+    },
+    "sodiumIon": {
+      "value": "Na<sup>+</sup>"
+    },
+    "sodiumIonNaPlus": {
+      "value": "Sodium Ion<br>(Na<sup>+</sup>)"
+    },
+    "soluteConcentrations": {
+      "value": "Nồng độ chất tan"
+    },
+    "solutes": {
+      "value": "Chất tan"
+    },
+    "voltageGatedChannels": {
+      "value": "Kênh có cổng điện thế"
+    },
+    "keyboardHelp.soluteAdjusters.title": {
+      "value": "Điều chỉnh chất tan"
+    },
+    "keyboardHelp.sortOrDeleteProteins.title": {
+      "value": "Sort or Delete Proteins in Membrane"
+    },
+    "keyboardHelp.transportProteinsAndLigands.title": {
+      "value": "Transport Proteins or Ligands"
+    },
+    "soluteConcentrationsAccordionBox.title": {
+      "value": "Nồng độ chất tan"
+    },
+    "cellRegions.inside": {
+      "value": "Bên trong"
+    },
+    "cellRegions.outside": {
+      "value": "Bên ngoài"
+    },
+    "keyboardHelp.soluteAdjusters.addOrRemoveALittle": {
+      "value": "Adjust in smaller amounts"
+    },
+    "keyboardHelp.soluteAdjusters.addOrRemoveALot": {
+      "value": "Adjust chosen solute amount"
+    },
+    "keyboardHelp.sortOrDeleteProteins.deleteProtein": {
+      "value": "Delete grabbed protein"
+    },
+    "keyboardHelp.sortOrDeleteProteins.grabProtein": {
+      "value": "Grab protein in membrane"
+    },
+    "keyboardHelp.sortOrDeleteProteins.moveGrabbedProtein": {
+      "value": "Move grabbed protein between slots"
+    },
+    "keyboardHelp.sortOrDeleteProteins.navigateProteins": {
+      "value": "Navigate proteins in membrane"
+    },
+    "keyboardHelp.sortOrDeleteProteins.releaseProtein": {
+      "value": "Release grabbed protein into empty slot or swap slots"
+    },
+    "keyboardHelp.transportProteinsAndLigands.cancelGrab": {
+      "value": "Cancel grab or move interaction"
+    },
+    "keyboardHelp.transportProteinsAndLigands.grabOrRelease": {
+      "value": "Grab or release"
+    },
+    "keyboardHelp.transportProteinsAndLigands.moveGrabbedItem": {
+      "value": "Move grabbed protein or ligand between available drop locations"
+    },
+    "keyboardHelp.transportProteinsAndLigands.navigate": {
+      "value": "Navigate proteins in toolbox or added ligands"
+    },
+    "outsideSodiumTooLow": {
+      "value": "Natrium bên ngoài quá ít!"
+    },
+    "preferencesDialog.audio.sounds.stereoCrossingSounds.description": {
+      "value": "Emphasize solute transport direction by mapping sound to right (outside to inside) and left (inside to outside) channels."
+    },
+    "preferencesDialog.audio.sounds.stereoCrossingSounds.label": {
+      "value": "Stereo Crossing Sounds"
+    },
+    "preferencesDialog.simulation.animateLipids.description": {
+      "value": "Wiggling animation of phospholipid bilayer forming the cell membrane."
+    },
+    "preferencesDialog.simulation.animateLipids.label": {
+      "value": "Lipids Animation"
+    },
+    "preferencesDialog.simulation.glucoseMetabolism.description": {
+      "value": "Glucose molecules fade away inside cell to simulate conversion for cellular metabolism."
+    },
+    "preferencesDialog.simulation.glucoseMetabolism.label": {
+      "value": "Chuyển hoá Glucose"
+    },
+    "settings.crossingHighlights": {
+      "value": "Crossing Highlights"
+    },
+    "settings.crossingSounds": {
+      "value": "Crossing Sounds"
+    },
+    "soluteNames.atp": {
+      "value": "ATP"
+    },
+    "soluteNames.carbonDioxide": {
+      "value": "CO<sub>2</sub>"
+    },
+    "soluteNames.glucose": {
+      "value": "Glucose"
+    },
+    "soluteNames.oxygen": {
+      "value": "O<sub>2</sub>"
+    },
+    "soluteNames.potassiumIon": {
+      "value": "K<sup>+</sup>"
+    },
+    "soluteNames.sodiumIon": {
+      "value": "Na<sup>+</sup>"
+    },
+    "transportProteinToolbox.activeTransporters": {
+      "value": "Protein vận chuyển chủ động"
+    },
+    "transportProteinToolbox.addLigands": {
+      "value": "Thêm Ligand"
+    },
+    "transportProteinToolbox.charges": {
+      "value": "Điện tích"
+    },
+    "transportProteinToolbox.leakageChannels": {
+      "value": "Kênh thoát"
+    },
+    "transportProteinToolbox.ligandGatedChannels": {
+      "value": "Kênh có cổng Ligand"
+    },
+    "transportProteinToolbox.membranePotentialMV": {
+      "value": "Điện thế màng (mV)"
+    },
+    "transportProteinToolbox.naPlusKPlusPump": {
+      "value": "Na<sup>+</sup>/K<sup>+</sup><br>Bơm"
+    },
+    "transportProteinToolbox.removeLigands": {
+      "value": "Bớt Ligand"
+    },
+    "transportProteinToolbox.sodiumGlucoseCotransporter": {
+      "value": "Na<sup>+</sup>/Glucose<br>Đồng vận chuyển"
+    },
+    "transportProteinToolbox.voltageGatedChannels": {
+      "value": "Kênh có cổng hiệu thế"
     }
   },
   "en": {
@@ -3784,588 +4658,6 @@
           }
         }
       }
-    }
-  },
-  "vi": {
-    "membrane-transport.title": {
-      "value": "Vận chuyển qua màng tế bào"
-    },
-    "screen.activeTransport": {
-      "value": "Vận chuyển chủ động"
-    },
-    "screen.facilitatedDiffusion": {
-      "value": "Khuếch tán tăng cường"
-    },
-    "screen.playground": {
-      "value": "Sân chơi"
-    },
-    "screen.simpleDiffusion": {
-      "value": "Khuếch tán đơn giản"
-    },
-    "NaPlusKPlusPump": {
-      "value": "Bơm Na<sup>+</sup>-K<sup>+</sup><br>"
-    },
-    "activeTransporters": {
-      "value": "Protein vận chuyển chủ động"
-    },
-    "addLigands": {
-      "value": "Thêm Ligand"
-    },
-    "animateLipids": {
-      "value": "Hoạt ảnh Lipid"
-    },
-    "animateLipidsDescription": {
-      "value": "Whether the phospholipids forming the cell membrane should be animated"
-    },
-    "atp": {
-      "value": "ATP"
-    },
-    "carbonDioxide": {
-      "value": "CO<sub>2</sub>"
-    },
-    "glucose": {
-      "value": "Glucose"
-    },
-    "inside": {
-      "value": "Bên trong"
-    },
-    "leakageChannels": {
-      "value": "Kênh thoát"
-    },
-    "ligandGatedChannels": {
-      "value": "Kênh có cổng Ligand"
-    },
-    "membranePotentialLabels": {
-      "value": "Nhãn của Thế màng"
-    },
-    "membranePotential_mV": {
-      "value": "Thế màng (mV)"
-    },
-    "outside": {
-      "value": "Bên ngoài"
-    },
-    "oxygen": {
-      "value": "O<sub>2</sub>"
-    },
-    "potassiumIon": {
-      "value": "K<sup>+</sup>"
-    },
-    "potassiumIonKPlus": {
-      "value": "Potassium Ion<br>(K<sup>+</sup>)"
-    },
-    "removeLigands": {
-      "value": "Bớt Ligand"
-    },
-    "signs": {
-      "value": "Dấu"
-    },
-    "sodiumGlucoseCotransporter": {
-      "value": "Na<sup>+</sup>-Glucose<br>Cotransporter"
-    },
-    "sodiumIon": {
-      "value": "Na<sup>+</sup>"
-    },
-    "sodiumIonNaPlus": {
-      "value": "Sodium Ion<br>(Na<sup>+</sup>)"
-    },
-    "soluteConcentrations": {
-      "value": "Nồng độ chất tan"
-    },
-    "solutes": {
-      "value": "Chất tan"
-    },
-    "voltageGatedChannels": {
-      "value": "Kênh có cổng điện thế"
-    },
-    "keyboardHelp.soluteAdjusters.title": {
-      "value": "Điều chỉnh chất tan"
-    },
-    "keyboardHelp.sortOrDeleteProteins.title": {
-      "value": "Sort or Delete Proteins in Membrane"
-    },
-    "keyboardHelp.transportProteinsAndLigands.title": {
-      "value": "Transport Proteins or Ligands"
-    },
-    "soluteConcentrationsAccordionBox.title": {
-      "value": "Nồng độ chất tan"
-    },
-    "cellRegions.inside": {
-      "value": "Bên trong"
-    },
-    "cellRegions.outside": {
-      "value": "Bên ngoài"
-    },
-    "keyboardHelp.soluteAdjusters.addOrRemoveALittle": {
-      "value": "Adjust in smaller amounts"
-    },
-    "keyboardHelp.soluteAdjusters.addOrRemoveALot": {
-      "value": "Adjust chosen solute amount"
-    },
-    "keyboardHelp.sortOrDeleteProteins.deleteProtein": {
-      "value": "Delete grabbed protein"
-    },
-    "keyboardHelp.sortOrDeleteProteins.grabProtein": {
-      "value": "Grab protein in membrane"
-    },
-    "keyboardHelp.sortOrDeleteProteins.moveGrabbedProtein": {
-      "value": "Move grabbed protein between slots"
-    },
-    "keyboardHelp.sortOrDeleteProteins.navigateProteins": {
-      "value": "Navigate proteins in membrane"
-    },
-    "keyboardHelp.sortOrDeleteProteins.releaseProtein": {
-      "value": "Release grabbed protein into empty slot or swap slots"
-    },
-    "keyboardHelp.transportProteinsAndLigands.cancelGrab": {
-      "value": "Cancel grab or move interaction"
-    },
-    "keyboardHelp.transportProteinsAndLigands.grabOrRelease": {
-      "value": "Grab or release"
-    },
-    "keyboardHelp.transportProteinsAndLigands.moveGrabbedItem": {
-      "value": "Move grabbed protein or ligand between available drop locations"
-    },
-    "keyboardHelp.transportProteinsAndLigands.navigate": {
-      "value": "Navigate proteins in toolbox or added ligands"
-    },
-    "outsideSodiumTooLow": {
-      "value": "Natrium bên ngoài quá ít!"
-    },
-    "preferencesDialog.audio.sounds.stereoCrossingSounds.description": {
-      "value": "Emphasize solute transport direction by mapping sound to right (outside to inside) and left (inside to outside) channels."
-    },
-    "preferencesDialog.audio.sounds.stereoCrossingSounds.label": {
-      "value": "Stereo Crossing Sounds"
-    },
-    "preferencesDialog.simulation.animateLipids.description": {
-      "value": "Wiggling animation of phospholipid bilayer forming the cell membrane."
-    },
-    "preferencesDialog.simulation.animateLipids.label": {
-      "value": "Lipids Animation"
-    },
-    "preferencesDialog.simulation.glucoseMetabolism.description": {
-      "value": "Glucose molecules fade away inside cell to simulate conversion for cellular metabolism."
-    },
-    "preferencesDialog.simulation.glucoseMetabolism.label": {
-      "value": "Chuyển hoá Glucose"
-    },
-    "settings.crossingHighlights": {
-      "value": "Crossing Highlights"
-    },
-    "settings.crossingSounds": {
-      "value": "Crossing Sounds"
-    },
-    "soluteNames.atp": {
-      "value": "ATP"
-    },
-    "soluteNames.carbonDioxide": {
-      "value": "CO<sub>2</sub>"
-    },
-    "soluteNames.glucose": {
-      "value": "Glucose"
-    },
-    "soluteNames.oxygen": {
-      "value": "O<sub>2</sub>"
-    },
-    "soluteNames.potassiumIon": {
-      "value": "K<sup>+</sup>"
-    },
-    "soluteNames.sodiumIon": {
-      "value": "Na<sup>+</sup>"
-    },
-    "transportProteinToolbox.activeTransporters": {
-      "value": "Protein vận chuyển chủ động"
-    },
-    "transportProteinToolbox.addLigands": {
-      "value": "Thêm Ligand"
-    },
-    "transportProteinToolbox.charges": {
-      "value": "Điện tích"
-    },
-    "transportProteinToolbox.leakageChannels": {
-      "value": "Kênh thoát"
-    },
-    "transportProteinToolbox.ligandGatedChannels": {
-      "value": "Kênh có cổng Ligand"
-    },
-    "transportProteinToolbox.membranePotentialMV": {
-      "value": "Điện thế màng (mV)"
-    },
-    "transportProteinToolbox.naPlusKPlusPump": {
-      "value": "Na<sup>+</sup>/K<sup>+</sup><br>Bơm"
-    },
-    "transportProteinToolbox.removeLigands": {
-      "value": "Bớt Ligand"
-    },
-    "transportProteinToolbox.sodiumGlucoseCotransporter": {
-      "value": "Na<sup>+</sup>/Glucose<br>Đồng vận chuyển"
-    },
-    "transportProteinToolbox.voltageGatedChannels": {
-      "value": "Kênh có cổng hiệu thế"
-    }
-  },
-  "sr": {
-    "membrane-transport.title": {
-      "value": "Мембрански транспорт"
-    },
-    "keyboardHelp.soluteAdjusters.title": {
-      "value": "Подешавање раствора"
-    },
-    "keyboardHelp.sortOrDeleteProteins.title": {
-      "value": "Одаберите или обришите протеине у мембрани"
-    },
-    "keyboardHelp.transportProteinsAndLigands.title": {
-      "value": "Транспортни протеини или лиганди"
-    },
-    "soluteConcentrationsAccordionBox.title": {
-      "value": "Концентрација раствора"
-    },
-    "solutes": {
-      "value": "Раствори"
-    },
-    "transportProteinToolbox.leakageChannels": {
-      "value": "Канали цурења"
-    },
-    "screen.activeTransport": {
-      "value": "Активни транспорт"
-    },
-    "screen.facilitatedDiffusion": {
-      "value": "Олакшана дифузија"
-    },
-    "screen.playground": {
-      "value": "Играоница"
-    },
-    "screen.simpleDiffusion": {
-      "value": "Једноставна дифузија"
-    },
-    "cellRegions.inside": {
-      "value": "Унутра"
-    },
-    "cellRegions.outside": {
-      "value": "Споља"
-    },
-    "keyboardHelp.soluteAdjusters.addOrRemoveALittle": {
-      "value": "Прилагодити у мањим количинама"
-    },
-    "keyboardHelp.soluteAdjusters.addOrRemoveALot": {
-      "value": "Подесите изабрану количину раствора"
-    },
-    "keyboardHelp.sortOrDeleteProteins.deleteProtein": {
-      "value": "Уклоните ухваћени протеин"
-    },
-    "keyboardHelp.sortOrDeleteProteins.grabProtein": {
-      "value": "Ухватите протеин у мембрани"
-    },
-    "keyboardHelp.sortOrDeleteProteins.moveGrabbedProtein": {
-      "value": "Премештајте ухваћене протеине између слотова"
-    },
-    "keyboardHelp.sortOrDeleteProteins.navigateProteins": {
-      "value": "Навигација протеина у мембрани"
-    },
-    "keyboardHelp.sortOrDeleteProteins.releaseProtein": {
-      "value": "Отпустите ухваћени протеин у празан слот или замените слотове"
-    },
-    "keyboardHelp.transportProteinsAndLigands.cancelGrab": {
-      "value": "Откажи хватање или померање"
-    },
-    "keyboardHelp.transportProteinsAndLigands.grabOrRelease": {
-      "value": "Ухвати или пусти"
-    },
-    "keyboardHelp.transportProteinsAndLigands.moveGrabbedItem": {
-      "value": "Премештајте ухваћени протеин или лиганд између доступних локација за испуштање"
-    },
-    "keyboardHelp.transportProteinsAndLigands.navigate": {
-      "value": "Навигација протеина у алаткама или додати лиганде"
-    },
-    "outsideSodiumTooLow": {
-      "value": "Пренизак ниво натријума напољу!"
-    },
-    "preferencesDialog.audio.sounds.stereoCrossingSounds.description": {
-      "value": "Нагласите смер транспорта растворених материја мапирањем звука на десни (споља ка унутра) и леви (изнутра ка споља) канал"
-    },
-    "preferencesDialog.audio.sounds.stereoCrossingSounds.label": {
-      "value": "Стерео звуци прелаза"
-    },
-    "preferencesDialog.simulation.animateLipids.description": {
-      "value": "Анимација померања фосфолипидног двослоја који формира ћелијску мембрану."
-    },
-    "preferencesDialog.simulation.animateLipids.label": {
-      "value": "Анимација липида"
-    },
-    "preferencesDialog.simulation.glucoseMetabolism.description": {
-      "value": "Молекули глукозе нестају унутар ћелије како би симулирали конверзију за ћелијски метаболизам."
-    },
-    "preferencesDialog.simulation.glucoseMetabolism.label": {
-      "value": "Метаболизам глукозе"
-    },
-    "settings.crossingHighlights": {
-      "value": "Најважнији делови преласка"
-    },
-    "settings.crossingSounds": {
-      "value": "Звуци преласка"
-    },
-    "soluteNames.atp": {
-      "value": "ATP (АТП)"
-    },
-    "soluteNames.carbonDioxide": {
-      "value": "CO<sub>2</sub>"
-    },
-    "soluteNames.glucose": {
-      "value": "Глукоза"
-    },
-    "soluteNames.oxygen": {
-      "value": "O<sub>2</sub>"
-    },
-    "soluteNames.potassiumIon": {
-      "value": "K<sup>+</sup>"
-    },
-    "soluteNames.sodiumIon": {
-      "value": "Na<sup>+</sup>"
-    },
-    "transportProteinToolbox.activeTransporters": {
-      "value": "Активни транспорти"
-    },
-    "transportProteinToolbox.addLigands": {
-      "value": "Додај лиганде"
-    },
-    "transportProteinToolbox.charges": {
-      "value": "Нелектрисања"
-    },
-    "transportProteinToolbox.ligandGatedChannels": {
-      "value": "Лигандно контролисани канали"
-    },
-    "transportProteinToolbox.membranePotentialMV": {
-      "value": "Потенцијал мембране (mV)"
-    },
-    "transportProteinToolbox.naPlusKPlusPump": {
-      "value": "Na<sup>+</sup>/K<sup>+</sup><br>пумпа"
-    },
-    "transportProteinToolbox.removeLigands": {
-      "value": "Уклони лиганде"
-    },
-    "transportProteinToolbox.sodiumGlucoseCotransporter": {
-      "value": "Na<sup>+</sup>/коранспортер<br>глукозе"
-    },
-    "transportProteinToolbox.voltageGatedChannels": {
-      "value": "Напонски контролисани канали"
-    }
-  },
-  "pt_BR": {
-    "membrane-transport.title": {
-      "value": "Transporte Celular"
-    },
-    "screen.activeTransport": {
-      "value": "Transporte Ativo"
-    },
-    "screen.facilitatedDiffusion": {
-      "value": "Difusão Facilitada"
-    },
-    "screen.playground": {
-      "value": "Parque"
-    },
-    "screen.simpleDiffusion": {
-      "value": "Difusão Simples"
-    },
-    "NaPlusKPlusPump": {
-      "value": "Bomba<br>Na<sup>+</sup>-K<sup>+</sup>"
-    },
-    "activeTransporters": {
-      "value": "Transportadores Ativos"
-    },
-    "addLigands": {
-      "value": "Adicionar Ligantes"
-    },
-    "animateLipids": {
-      "value": "Animar Lipídios"
-    },
-    "animateLipidsDescription": {
-      "value": "Se os fosfolipídios que formam a membrana celular devem ser animados"
-    },
-    "atp": {
-      "value": "ATP"
-    },
-    "carbonDioxide": {
-      "value": "CO<sub>2</sub>"
-    },
-    "glucose": {
-      "value": "Glicose"
-    },
-    "inside": {
-      "value": "Por dentro"
-    },
-    "leakageChannels": {
-      "value": "Canais de Vazamento"
-    },
-    "ligandGatedChannels": {
-      "value": "Canais Controlados por Ligantes"
-    },
-    "membranePotentialLabels": {
-      "value": "Etiquetas de Potencial de Membrana"
-    },
-    "membranePotential_mV": {
-      "value": "Potencial de Membrana (mV)"
-    },
-    "outside": {
-      "value": "Por fora"
-    },
-    "oxygen": {
-      "value": "O<sub>2</sub>"
-    },
-    "potassiumIon": {
-      "value": "K<sup>+</sup>"
-    },
-    "potassiumIonKPlus": {
-      "value": "Íon Potássio<br>(K<sup>+</sup>)"
-    },
-    "removeLigands": {
-      "value": "Remover Ligantes"
-    },
-    "signs": {
-      "value": "Sinais"
-    },
-    "sodiumGlucoseCotransporter": {
-      "value": "Cotransportador Na-<sup>+</sup>-Glicose"
-    },
-    "sodiumIon": {
-      "value": "Na<sup>+</sup>"
-    },
-    "sodiumIonNaPlus": {
-      "value": "Íon Sódio<br>(Na<sup>+</sup>)"
-    },
-    "soluteConcentrations": {
-      "value": "Concentrações de Solutos"
-    },
-    "solutes": {
-      "value": "Solutos"
-    },
-    "voltageGatedChannels": {
-      "value": "Canais Dependentes de Voltagem"
-    },
-    "keyboardHelp.soluteAdjusters.title": {
-      "value": "Ajustadores de Soluto"
-    },
-    "keyboardHelp.sortOrDeleteProteins.title": {
-      "value": "Classificar ou Excluir Proteínas na Membrana"
-    },
-    "keyboardHelp.transportProteinsAndLigands.title": {
-      "value": "Proteínas de Transporte ou Ligantes"
-    },
-    "soluteConcentrationsAccordionBox.title": {
-      "value": "Concentrações de Solutos"
-    },
-    "cellRegions.inside": {
-      "value": "Intracelular"
-    },
-    "cellRegions.outside": {
-      "value": "Extracelular"
-    },
-    "keyboardHelp.soluteAdjusters.addOrRemoveALittle": {
-      "value": "Ajustar em porções menores"
-    },
-    "keyboardHelp.soluteAdjusters.addOrRemoveALot": {
-      "value": "Ajustar porção do soluto escolhido"
-    },
-    "keyboardHelp.sortOrDeleteProteins.deleteProtein": {
-      "value": "Excluir proteína capturada"
-    },
-    "keyboardHelp.sortOrDeleteProteins.grabProtein": {
-      "value": "Capturar proteína na membrana"
-    },
-    "keyboardHelp.sortOrDeleteProteins.moveGrabbedProtein": {
-      "value": "Mover proteína capturada entre as fendas"
-    },
-    "keyboardHelp.sortOrDeleteProteins.navigateProteins": {
-      "value": "Navegar por proteínas na membrana"
-    },
-    "keyboardHelp.sortOrDeleteProteins.releaseProtein": {
-      "value": "Liberar a proteína capturada na fenda vazia ou trocar as fendas"
-    },
-    "keyboardHelp.transportProteinsAndLigands.cancelGrab": {
-      "value": "Cancelar interação de agarrar ou mover"
-    },
-    "keyboardHelp.transportProteinsAndLigands.grabOrRelease": {
-      "value": "Agarrar ou mover"
-    },
-    "keyboardHelp.transportProteinsAndLigands.moveGrabbedItem": {
-      "value": "Mover a proteína ou ligante agarrado entre os locais de descarte disponíveis"
-    },
-    "keyboardHelp.transportProteinsAndLigands.navigate": {
-      "value": "Navegar pelas proteínas na caixa de ferramentas ou pelos ligantes adicionados"
-    },
-    "outsideSodiumTooLow": {
-      "value": "Sódio Muito Baixo no Exterior!"
-    },
-    "preferencesDialog.audio.sounds.stereoCrossingSounds.description": {
-      "value": "Enfatizar a direção do transporte de soluto mapeando o som para os canais direito (de fora para dentro) e esquerdo (de dentro para fora)."
-    },
-    "preferencesDialog.audio.sounds.stereoCrossingSounds.label": {
-      "value": "Sons de Cruzamento Estéreo"
-    },
-    "preferencesDialog.simulation.animateLipids.description": {
-      "value": "Animação ondulante da bicamada fosfolipídica formando a membrana celular."
-    },
-    "preferencesDialog.simulation.animateLipids.label": {
-      "value": "Animação de Lipídios"
-    },
-    "preferencesDialog.simulation.glucoseMetabolism.description": {
-      "value": "As moléculas de glicose desaparecem dentro da célula para simular a conversão pelo metabolismo celular."
-    },
-    "preferencesDialog.simulation.glucoseMetabolism.label": {
-      "value": "Metabolismo da Glicose"
-    },
-    "settings.crossingHighlights": {
-      "value": "Realçar Travessia"
-    },
-    "settings.crossingSounds": {
-      "value": "Sons da Travessia"
-    },
-    "soluteNames.atp": {
-      "value": "ATP"
-    },
-    "soluteNames.carbonDioxide": {
-      "value": "CO<sub>2</sub>"
-    },
-    "soluteNames.glucose": {
-      "value": "Glicose"
-    },
-    "soluteNames.oxygen": {
-      "value": "O<sub>2</sub>"
-    },
-    "soluteNames.potassiumIon": {
-      "value": "K<sup>1+</sup>"
-    },
-    "soluteNames.sodiumIon": {
-      "value": "Na<sup>1+</sup>"
-    },
-    "transportProteinToolbox.activeTransporters": {
-      "value": "Transportadores Ativos"
-    },
-    "transportProteinToolbox.addLigands": {
-      "value": "Adicionar Ligantes"
-    },
-    "transportProteinToolbox.charges": {
-      "value": "Cargas"
-    },
-    "transportProteinToolbox.leakageChannels": {
-      "value": "Canais de Repouso"
-    },
-    "transportProteinToolbox.ligandGatedChannels": {
-      "value": "Canais Controlados por Ligantes"
-    },
-    "transportProteinToolbox.membranePotentialMV": {
-      "value": "Potencial de Membrana (mV)"
-    },
-    "transportProteinToolbox.naPlusKPlusPump": {
-      "value": "Bomba de<br>Na<sup>1+</sup>/K<sup>1+</sup>"
-    },
-    "transportProteinToolbox.removeLigands": {
-      "value": "Remover Ligantes"
-    },
-    "transportProteinToolbox.sodiumGlucoseCotransporter": {
-      "value": "Cotransportador de<br>Na<sup>+</sup>/Glicose"
-    },
-    "transportProteinToolbox.voltageGatedChannels": {
-      "value": "Canais Dependentes de Voltagem"
     }
   }
 }

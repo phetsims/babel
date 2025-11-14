@@ -23,22 +23,6 @@
       "value": "{{lowValue}} إلى {{highValue}}"
     }
   },
-  "bn": {
-    "pointsOffScale": {
-      "value": "Points<br>off scale!"
-    },
-    "rangePattern": {
-      "value": "{{lowValue}} to {{highValue}}"
-    }
-  },
-  "ca": {
-    "pointsOffScale": {
-      "value": "Punts<br>fora de l'escala!"
-    },
-    "rangePattern": {
-      "value": "de {{lowValue}} a {{highValue}}"
-    }
-  },
   "az": {
     "pointsOffScale": {
       "value": "Ballar<br>miqyasdan kənardır!"
@@ -55,14 +39,30 @@
       "value": "Точки<br>извън скалата!"
     }
   },
-  "cs": {
+  "bn": {
     "pointsOffScale": {
-      "value": "Body<br> mimo stupnici!"
+      "value": "Points<br>off scale!"
+    },
+    "rangePattern": {
+      "value": "{{lowValue}} to {{highValue}}"
     }
   },
   "bs": {
     "rangePattern": {
       "value": "{{lowValue}} dо {{highValue}}"
+    }
+  },
+  "cs": {
+    "pointsOffScale": {
+      "value": "Body<br> mimo stupnici!"
+    }
+  },
+  "ca": {
+    "pointsOffScale": {
+      "value": "Punts<br>fora de l'escala!"
+    },
+    "rangePattern": {
+      "value": "de {{lowValue}} a {{highValue}}"
     }
   },
   "da": {
@@ -73,12 +73,12 @@
       "value": "{{lowValue}} til {{highValue}}"
     }
   },
-  "es": {
+  "de": {
     "pointsOffScale": {
-      "value": "¡Puntos fuera<br>de escala!"
+      "value": "Punkte<br>ausserhalb!"
     },
     "rangePattern": {
-      "value": "{{lowValue}} a {{highValue}}"
+      "value": "{{lowValue}} bis {{highValue}}"
     }
   },
   "el": {
@@ -89,17 +89,25 @@
       "value": "{{lowValue}} ως {{highValue}}"
     }
   },
+  "es": {
+    "pointsOffScale": {
+      "value": "¡Puntos fuera<br>de escala!"
+    },
+    "rangePattern": {
+      "value": "{{lowValue}} a {{highValue}}"
+    }
+  },
+  "es_MX": {
+    "rangePattern": {
+      "value": "{{lowValue}} a {{highValue}}"
+    }
+  },
   "es_PE": {
     "pointsOffScale": {
       "value": "¡Puntos<br>fuera de escala!"
     },
     "rangePattern": {
       "value": "{{lowValue}} hasta {{highValue}}"
-    }
-  },
-  "es_MX": {
-    "rangePattern": {
-      "value": "{{lowValue}} a {{highValue}}"
     }
   },
   "eu": {
@@ -110,14 +118,6 @@
       "value": "{{lowValue}}-(e)tik {{highValue}}-(e)raino"
     }
   },
-  "fi": {
-    "rangePattern": {
-      "value": "väli [{{lowValue}}, {{highValue}}]"
-    },
-    "pointsOffScale": {
-      "value": "Pisteet eivät ole asteikolla"
-    }
-  },
   "fa": {
     "rangePattern": {
       "value": "{{lowValue}} تا {{highValue}}"
@@ -126,20 +126,20 @@
       "value": "امتیاز خارج از مقیاس"
     }
   },
-  "de": {
-    "pointsOffScale": {
-      "value": "Punkte<br>ausserhalb!"
-    },
+  "fa_DA": {
     "rangePattern": {
-      "value": "{{lowValue}} bis {{highValue}}"
+      "value": "{{lowValue}} الی {{highValue}}"
+    },
+    "pointsOffScale": {
+      "value": "امتیاز خارج از مقیاس"
     }
   },
-  "hi": {
-    "pointsOffScale": {
-      "value": "पैमाने पर अंक <br>"
-    },
+  "fi": {
     "rangePattern": {
-      "value": "{{lowValue}} to {{highValue}}"
+      "value": "väli [{{lowValue}}, {{highValue}}]"
+    },
+    "pointsOffScale": {
+      "value": "Pisteet eivät ole asteikolla"
     }
   },
   "fr": {
@@ -150,12 +150,17 @@
       "value": "{{lowValue}} to {{highValue}}"
     }
   },
-  "fa_DA": {
+  "gu": {
     "rangePattern": {
-      "value": "{{lowValue}} الی {{highValue}}"
-    },
+      "value": "{{lowValue}} થી {{highValue}}"
+    }
+  },
+  "hi": {
     "pointsOffScale": {
-      "value": "امتیاز خارج از مقیاس"
+      "value": "पैमाने पर अंक <br>"
+    },
+    "rangePattern": {
+      "value": "{{lowValue}} to {{highValue}}"
     }
   },
   "hr": {
@@ -174,9 +179,17 @@
       "value": "{{lowValue}} to {{highValue}}"
     }
   },
-  "gu": {
+  "hu": {
     "rangePattern": {
-      "value": "{{lowValue}} થી {{highValue}}"
+      "value": "{{lowValue}} ... {{highValue}}"
+    }
+  },
+  "ig": {
+    "pointsOffScale": {
+      "value": "Isi<br>enweghị atụ!"
+    },
+    "rangePattern": {
+      "value": "{{lowValue}} to {{highValue}}"
     }
   },
   "it": {
@@ -187,12 +200,12 @@
       "value": "{{lowValue}} a {{highValue}}"
     }
   },
-  "ig": {
+  "iw": {
     "pointsOffScale": {
-      "value": "Isi<br>enweghị atụ!"
+      "value": "נקודות <br> מחוץ לטווח"
     },
     "rangePattern": {
-      "value": "{{lowValue}} to {{highValue}}"
+      "value": "{{lowValue}} עד {{highValue}}"
     }
   },
   "ja": {
@@ -208,17 +221,17 @@
       "value": "Maũndũ <br>nĩ ũndũ wa ũritũ!"
     }
   },
-  "hu": {
+  "kn": {
     "rangePattern": {
-      "value": "{{lowValue}} ... {{highValue}}"
+      "value": "{{lowValue}} ಇಂದ {{highValue}}"
     }
   },
-  "iw": {
+  "ko": {
     "pointsOffScale": {
-      "value": "נקודות <br> מחוץ לטווח"
+      "value": "점이 스케일을 벗어남"
     },
     "rangePattern": {
-      "value": "{{lowValue}} עד {{highValue}}"
+      "value": "{{lowValue}} to {{highValue}}"
     }
   },
   "lg": {
@@ -229,25 +242,12 @@
       "value": "{{lowValue}} ku {{highValue}}"
     }
   },
-  "kn": {
-    "rangePattern": {
-      "value": "{{lowValue}} ಇಂದ {{highValue}}"
-    }
-  },
   "lv": {
     "pointsOffScale": {
       "value": "Punkti<br>ārpus skalas!"
     },
     "rangePattern": {
       "value": "no {{lowValue}} līdz {{highValue}}"
-    }
-  },
-  "ko": {
-    "pointsOffScale": {
-      "value": "점이 스케일을 벗어남"
-    },
-    "rangePattern": {
-      "value": "{{lowValue}} to {{highValue}}"
     }
   },
   "mi": {
@@ -274,12 +274,20 @@
       "value": "Markah<br>melepasi had!"
     }
   },
-  "pt_BR": {
+  "nl": {
     "pointsOffScale": {
-      "value": "Pontos fora<br>da escala!"
+      "value": "Punten <br> buiten schaal!"
     },
     "rangePattern": {
-      "value": "{{lowValue}} até {{highValue}}"
+      "value": "{{lowValue}} tot {{highValue}}"
+    }
+  },
+  "ny": {
+    "pointsOffScale": {
+      "value": "Mapointi<br>kuchoka pa sikelo!"
+    },
+    "rangePattern": {
+      "value": "{{lowValue}} ku {{highValue}}"
     }
   },
   "pl": {
@@ -295,28 +303,12 @@
       "value": "{{lowValue}} تر {{highValue}}"
     }
   },
-  "rw": {
+  "pt_BR": {
     "pointsOffScale": {
-      "value": "Utudomo<br>inyuma y'ihindurangano"
+      "value": "Pontos fora<br>da escala!"
     },
     "rangePattern": {
-      "value": "{{lowValue}} kugeza kuri {{highValue}}"
-    }
-  },
-  "mt": {
-    "rangePattern": {
-      "value": "{{lowValue}} to {{highValue}}"
-    },
-    "pointsOffScale": {
-      "value": "Punti<br>barra l-limitu!"
-    }
-  },
-  "sk": {
-    "rangePattern": {
-      "value": "{{lowValue}} až {{highValue}}"
-    },
-    "pointsOffScale": {
-      "value": "Body<br>mimo stupnicu!"
+      "value": "{{lowValue}} até {{highValue}}"
     }
   },
   "qu": {
@@ -335,6 +327,22 @@
       "value": "de la {{lowValue}} la {{highValue}}"
     }
   },
+  "rw": {
+    "pointsOffScale": {
+      "value": "Utudomo<br>inyuma y'ihindurangano"
+    },
+    "rangePattern": {
+      "value": "{{lowValue}} kugeza kuri {{highValue}}"
+    }
+  },
+  "sk": {
+    "rangePattern": {
+      "value": "{{lowValue}} až {{highValue}}"
+    },
+    "pointsOffScale": {
+      "value": "Body<br>mimo stupnicu!"
+    }
+  },
   "sl": {
     "pointsOffScale": {
       "value": "Točke<br>izven lestvice!"
@@ -351,30 +359,9 @@
       "value": "{{lowValue}} deri te {{highValue}}"
     }
   },
-  "sw": {
-    "pointsOffScale": {
-      "value": "Nukta<br>nje ya skeli"
-    },
-    "rangePattern": {
-      "value": "{{lowValue}} kwenda {{highValue}}"
-    }
-  },
   "sr": {
     "rangePattern": {
       "value": "{{lowValue}} до {{highValue}}"
-    }
-  },
-  "te": {
-    "pointsOffScale": {
-      "value": "Points<br>off scale!"
-    },
-    "rangePattern": {
-      "value": "{{lowValue}} to {{highValue}}"
-    }
-  },
-  "sv": {
-    "rangePattern": {
-      "value": "{{lowValue}} till {{highValue}}"
     }
   },
   "st": {
@@ -385,9 +372,25 @@
       "value": "{{lowValue}} ho {{highValue}}"
     }
   },
-  "uk": {
+  "sv": {
     "rangePattern": {
-      "value": "{{lowValue}} до {{highValue}}"
+      "value": "{{lowValue}} till {{highValue}}"
+    }
+  },
+  "sw": {
+    "pointsOffScale": {
+      "value": "Nukta<br>nje ya skeli"
+    },
+    "rangePattern": {
+      "value": "{{lowValue}} kwenda {{highValue}}"
+    }
+  },
+  "te": {
+    "pointsOffScale": {
+      "value": "Points<br>off scale!"
+    },
+    "rangePattern": {
+      "value": "{{lowValue}} to {{highValue}}"
     }
   },
   "tk": {
@@ -411,12 +414,9 @@
       "value": "{{lowValue}} to {{highValue}}"
     }
   },
-  "vi": {
-    "pointsOffScale": {
-      "value": "Điểm<br>ngoài thang đo!"
-    },
+  "uk": {
     "rangePattern": {
-      "value": "{{lowValue}} tới {{highValue}}"
+      "value": "{{lowValue}} до {{highValue}}"
     }
   },
   "uz": {
@@ -432,12 +432,12 @@
       "value": "{{lowValue}} to {{highValue}}"
     }
   },
-  "en": {
-    "rangePattern": {
-      "value": "{{lowValue}} to {{highValue}}"
-    },
+  "vi": {
     "pointsOffScale": {
-      "value": "Points<br>off scale!"
+      "value": "Điểm<br>ngoài thang đo!"
+    },
+    "rangePattern": {
+      "value": "{{lowValue}} tới {{highValue}}"
     }
   },
   "zh_HK": {
@@ -456,22 +456,6 @@
       "value": "{{lowValue}} 到 {{highValue}}"
     }
   },
-  "nl": {
-    "pointsOffScale": {
-      "value": "Punten <br> buiten schaal!"
-    },
-    "rangePattern": {
-      "value": "{{lowValue}} tot {{highValue}}"
-    }
-  },
-  "ny": {
-    "pointsOffScale": {
-      "value": "Mapointi<br>kuchoka pa sikelo!"
-    },
-    "rangePattern": {
-      "value": "{{lowValue}} ku {{highValue}}"
-    }
-  },
   "zu": {
     "rangePattern": {
       "value": "{{lowValue}} to {{highValue}}"
@@ -480,12 +464,28 @@
       "value": "amaphuzu<br>esikalini!"
     }
   },
+  "en": {
+    "rangePattern": {
+      "value": "{{lowValue}} to {{highValue}}"
+    },
+    "pointsOffScale": {
+      "value": "Points<br>off scale!"
+    }
+  },
   "om": {
     "pointsOffScale": {
       "value": "Qabxiilee<br>Iskeelii alaa!"
     },
     "rangePattern": {
       "value": "{{lowValue}} gara {{highValue}}"
+    }
+  },
+  "mt": {
+    "rangePattern": {
+      "value": "{{lowValue}} to {{highValue}}"
+    },
+    "pointsOffScale": {
+      "value": "Punti<br>barra l-limitu!"
     }
   }
 }
