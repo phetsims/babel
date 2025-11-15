@@ -1,106 +1,154 @@
 {
-  "am": {
+  "ar_MA": {
+    "screen.pickupCoil": {
+      "value": "وشيعة لاقطة"
+    },
+    "screen.barMagnet": {
+      "value": "مغناطيس مستقيمي"
+    },
+    "screen.electromagnet": {
+      "value": "الكهروميغناطيس"
+    },
+    "screen.transformer": {
+      "value": "المحول"
+    },
     "screen.generator": {
-      "value": "ጀነሬተር"
+      "value": "المولد"
     },
     "symbol.N": {
-      "value": "ሰሜን"
+      "value": "N"
     },
     "symbol.S": {
-      "value": "ደቡብ"
+      "value": "S"
+    },
+    "pattern.valueUnits": {
+      "value": "{{value}} {{units}}"
     },
     "units.V": {
-      "value": "ቪ"
+      "value": "V"
     },
     "batteryVoltage": {
-      "value": "የባትሪ ቮልቴጅ"
+      "value": "توتر المولد"
     },
     "dcPowerSupply": {
-      "value": "የዲሲ ኃይል አቅርቦት"
+      "value": "مولد التيار المستمر"
+    },
+    "acPowerSupply": {
+      "value": "مولد التيار المتناوب"
     },
     "addEarthCheckbox": {
-      "value": "አመልካች ሳጥን \"ምድር\"ን ጨምር"
+      "value": "أضف خانة اختيار \"الأرض\""
     },
     "addEarthCheckboxDescription": {
-      "value": "አስፈላጊ በሆነበት ቦታ ላይ \"ምድር\"ን አመልካች ሳጥን ጨምር።"
+      "value": "أضف خانة اختيار \"الأرض\" إلى الشاشات ذات الصلة"
     },
     "magneticUnits": {
-      "value": "መግነጢሳዊ መለኪያወች"
+      "value": "وحدات قياس المغناطيسية"
     },
     "gaussPreference": {
-      "value": "ጂ(ጋውስ)"
+      "value": "G (gauss)"
     },
     "teslaPreference": {
-      "value": "ቲ(ቴስላ)"
+      "value": "T (tesla)"
     },
     "earthHemisphere": {
-      "value": "የምድር ንፍቀ ክበብ"
+      "value": "نصف الكرة الأرضية"
     },
     "currentFlow": {
-      "value": "የከረንት ፍሰት"
+      "value": "شدة التيار الكهربائي"
     },
     "electronPreference": {
-      "value": "ኤሌክትሮን"
+      "value": "الكترون"
     },
     "conventionalPreference": {
-      "value": "የተለመደ"
+      "value": "منحى اصطلاحي"
     },
     "pickupCoil": {
-      "value": "ጥቅሉን አንሳ"
+      "value": "وحدات قياس المغناطيسية"
+    },
+    "barMagnet": {
+      "value": "مغناطيس مستقيمي"
+    },
+    "magneticField": {
+      "value": "مجال مغناطيسي"
     },
     "seeInside": {
-      "value": "ውስጥ ይመልከቱ"
+      "value": "نظرة داخلية"
     },
     "earth": {
-      "value": "መሬት"
+      "value": "الأرض"
+    },
+    "flipPolarity": {
+      "value": "تغيير القطبية"
+    },
+    "flipEarth": {
+      "value": "اقلب الأرض"
     },
     "symbol.B": {
-      "value": "ቢ"
+      "value": "B"
     },
     "symbol.x": {
-      "value": "ኤክስ"
+      "value": "x"
     },
     "symbol.y": {
-      "value": "ዋይ"
+      "value": "y"
     },
     "units.G": {
-      "value": "ጅ"
+      "value": "G"
     },
     "units.T": {
-      "value": "ቲ"
+      "value": "T"
     },
-    "lockToAxis": {
-      "value": "ወደ አክሲስ ቆልፍ"
+    "pattern.almostValueUnits": {
+      "value": "~ {{value}} {{units}}"
     },
-    "compass": {
-      "value": "ኮምፓስ"
-    },
-    "fieldMeter": {
-      "value": "የመስክ ሜትር"
-    },
-    "loopArea": {
-      "value": "ዙር ስፋት"
-    },
-    "loops": {
-      "value": "ስፋቶች"
-    },
-    "indicator": {
-      "value": "ማሳያ"
-    },
-    "electrons": {
-      "value": "ኤሌክትሮኖች"
-    },
-    "conventionalCurrent": {
-      "value": "የተለመደ ኤሌክትሪክ"
-    },
-    "strength": {
-      "value": "ጥንካሬ"
-    },
-    "units.RPM": {
-      "value": "አርፒኤም"
+    "pattern.valueDegrees": {
+      "value": "{{value}}°"
     },
     "voltage": {
-      "value": "ቮልቴጅ"
+      "value": "الجهد"
+    },
+    "electromagnet": {
+      "value": "الكهرومغناطيس"
+    },
+    "pattern.valuePercent": {
+      "value": "{{value}}%"
+    },
+    "lockToAxis": {
+      "value": "قفل على المحور"
+    },
+    "compass": {
+      "value": "بوصلة"
+    },
+    "fieldMeter": {
+      "value": "جهاز قياس المجال"
+    },
+    "loopArea": {
+      "value": "مساحة الحلقة:"
+    },
+    "loops": {
+      "value": "حلقات:"
+    },
+    "indicator": {
+      "value": "مؤشر"
+    },
+    "electrons": {
+      "value": "الكترونات"
+    },
+    "conventionalCurrent": {
+      "value": "المنحى الاصطلاحي للتيار الكهربائي"
+    },
+    "strength": {
+      "value": "الشدة:"
+    },
+    "units.RPM": {
+      "value": "RPM"
+    },
+    "currentSource": {
+      "value": "التيار<br>مصدر"
+    },
+    "faradays-electromagnetic-lab.title": {
+      "value": "مختبر فاراداي الكهرومغناطيسي."
     }
   },
   "ar": {
@@ -407,158 +455,6 @@
       "value": "مختبر فاراداي الكهرومغناطيسي"
     }
   },
-  "ar_MA": {
-    "screen.pickupCoil": {
-      "value": "وشيعة لاقطة"
-    },
-    "screen.barMagnet": {
-      "value": "مغناطيس مستقيمي"
-    },
-    "screen.electromagnet": {
-      "value": "الكهروميغناطيس"
-    },
-    "screen.transformer": {
-      "value": "المحول"
-    },
-    "screen.generator": {
-      "value": "المولد"
-    },
-    "symbol.N": {
-      "value": "N"
-    },
-    "symbol.S": {
-      "value": "S"
-    },
-    "pattern.valueUnits": {
-      "value": "{{value}} {{units}}"
-    },
-    "units.V": {
-      "value": "V"
-    },
-    "batteryVoltage": {
-      "value": "توتر المولد"
-    },
-    "dcPowerSupply": {
-      "value": "مولد التيار المستمر"
-    },
-    "acPowerSupply": {
-      "value": "مولد التيار المتناوب"
-    },
-    "addEarthCheckbox": {
-      "value": "أضف خانة اختيار \"الأرض\""
-    },
-    "addEarthCheckboxDescription": {
-      "value": "أضف خانة اختيار \"الأرض\" إلى الشاشات ذات الصلة"
-    },
-    "magneticUnits": {
-      "value": "وحدات قياس المغناطيسية"
-    },
-    "gaussPreference": {
-      "value": "G (gauss)"
-    },
-    "teslaPreference": {
-      "value": "T (tesla)"
-    },
-    "earthHemisphere": {
-      "value": "نصف الكرة الأرضية"
-    },
-    "currentFlow": {
-      "value": "شدة التيار الكهربائي"
-    },
-    "electronPreference": {
-      "value": "الكترون"
-    },
-    "conventionalPreference": {
-      "value": "منحى اصطلاحي"
-    },
-    "pickupCoil": {
-      "value": "وحدات قياس المغناطيسية"
-    },
-    "barMagnet": {
-      "value": "مغناطيس مستقيمي"
-    },
-    "magneticField": {
-      "value": "مجال مغناطيسي"
-    },
-    "seeInside": {
-      "value": "نظرة داخلية"
-    },
-    "earth": {
-      "value": "الأرض"
-    },
-    "flipPolarity": {
-      "value": "تغيير القطبية"
-    },
-    "flipEarth": {
-      "value": "اقلب الأرض"
-    },
-    "symbol.B": {
-      "value": "B"
-    },
-    "symbol.x": {
-      "value": "x"
-    },
-    "symbol.y": {
-      "value": "y"
-    },
-    "units.G": {
-      "value": "G"
-    },
-    "units.T": {
-      "value": "T"
-    },
-    "pattern.almostValueUnits": {
-      "value": "~ {{value}} {{units}}"
-    },
-    "pattern.valueDegrees": {
-      "value": "{{value}}°"
-    },
-    "voltage": {
-      "value": "الجهد"
-    },
-    "electromagnet": {
-      "value": "الكهرومغناطيس"
-    },
-    "pattern.valuePercent": {
-      "value": "{{value}}%"
-    },
-    "lockToAxis": {
-      "value": "قفل على المحور"
-    },
-    "compass": {
-      "value": "بوصلة"
-    },
-    "fieldMeter": {
-      "value": "جهاز قياس المجال"
-    },
-    "loopArea": {
-      "value": "مساحة الحلقة:"
-    },
-    "loops": {
-      "value": "حلقات:"
-    },
-    "indicator": {
-      "value": "مؤشر"
-    },
-    "electrons": {
-      "value": "الكترونات"
-    },
-    "conventionalCurrent": {
-      "value": "المنحى الاصطلاحي للتيار الكهربائي"
-    },
-    "strength": {
-      "value": "الشدة:"
-    },
-    "units.RPM": {
-      "value": "RPM"
-    },
-    "currentSource": {
-      "value": "التيار<br>مصدر"
-    },
-    "faradays-electromagnetic-lab.title": {
-      "value": "مختبر فاراداي الكهرومغناطيسي."
-    }
-  },
   "be": {
     "screen.generator": {
       "value": "Генератар"
@@ -709,6 +605,110 @@
     },
     "faradays-electromagnetic-lab.title": {
       "value": "Лабараторыя Фарадэя"
+    }
+  },
+  "am": {
+    "screen.generator": {
+      "value": "ጀነሬተር"
+    },
+    "symbol.N": {
+      "value": "ሰሜን"
+    },
+    "symbol.S": {
+      "value": "ደቡብ"
+    },
+    "units.V": {
+      "value": "ቪ"
+    },
+    "batteryVoltage": {
+      "value": "የባትሪ ቮልቴጅ"
+    },
+    "dcPowerSupply": {
+      "value": "የዲሲ ኃይል አቅርቦት"
+    },
+    "addEarthCheckbox": {
+      "value": "አመልካች ሳጥን \"ምድር\"ን ጨምር"
+    },
+    "addEarthCheckboxDescription": {
+      "value": "አስፈላጊ በሆነበት ቦታ ላይ \"ምድር\"ን አመልካች ሳጥን ጨምር።"
+    },
+    "magneticUnits": {
+      "value": "መግነጢሳዊ መለኪያወች"
+    },
+    "gaussPreference": {
+      "value": "ጂ(ጋውስ)"
+    },
+    "teslaPreference": {
+      "value": "ቲ(ቴስላ)"
+    },
+    "earthHemisphere": {
+      "value": "የምድር ንፍቀ ክበብ"
+    },
+    "currentFlow": {
+      "value": "የከረንት ፍሰት"
+    },
+    "electronPreference": {
+      "value": "ኤሌክትሮን"
+    },
+    "conventionalPreference": {
+      "value": "የተለመደ"
+    },
+    "pickupCoil": {
+      "value": "ጥቅሉን አንሳ"
+    },
+    "seeInside": {
+      "value": "ውስጥ ይመልከቱ"
+    },
+    "earth": {
+      "value": "መሬት"
+    },
+    "symbol.B": {
+      "value": "ቢ"
+    },
+    "symbol.x": {
+      "value": "ኤክስ"
+    },
+    "symbol.y": {
+      "value": "ዋይ"
+    },
+    "units.G": {
+      "value": "ጅ"
+    },
+    "units.T": {
+      "value": "ቲ"
+    },
+    "lockToAxis": {
+      "value": "ወደ አክሲስ ቆልፍ"
+    },
+    "compass": {
+      "value": "ኮምፓስ"
+    },
+    "fieldMeter": {
+      "value": "የመስክ ሜትር"
+    },
+    "loopArea": {
+      "value": "ዙር ስፋት"
+    },
+    "loops": {
+      "value": "ስፋቶች"
+    },
+    "indicator": {
+      "value": "ማሳያ"
+    },
+    "electrons": {
+      "value": "ኤሌክትሮኖች"
+    },
+    "conventionalCurrent": {
+      "value": "የተለመደ ኤሌክትሪክ"
+    },
+    "strength": {
+      "value": "ጥንካሬ"
+    },
+    "units.RPM": {
+      "value": "አርፒኤም"
+    },
+    "voltage": {
+      "value": "ቮልቴጅ"
     }
   },
   "bs": {
@@ -863,265 +863,6 @@
       "value": "Faradejeva elektromagnetna laboratorija"
     }
   },
-  "ca": {
-    "screen.pickupCoil": {
-      "value": "Bobina captadora"
-    },
-    "screen.barMagnet": {
-      "value": "Barra magnètica"
-    },
-    "screen.electromagnet": {
-      "value": "Electroimant"
-    },
-    "screen.transformer": {
-      "value": "Transformador"
-    },
-    "screen.generator": {
-      "value": "Generador"
-    },
-    "symbol.N": {
-      "value": "N"
-    },
-    "symbol.S": {
-      "value": "S"
-    },
-    "pattern.valueUnits": {
-      "value": "{{value}} {{units}}"
-    },
-    "units.V": {
-      "value": "V"
-    },
-    "batteryVoltage": {
-      "value": "Voltatge de la pila:"
-    },
-    "dcPowerSupply": {
-      "value": "Font d'alimentació de CC"
-    },
-    "addEarthCheckbox": {
-      "value": "Afegir casella \"la Terra\""
-    },
-    "addEarthCheckboxDescription": {
-      "value": "Afegeix la casella \"la Terra\" a les pantalles quan és pertinent."
-    },
-    "magneticUnits": {
-      "value": "Unitats magnètiques"
-    },
-    "gaussPreference": {
-      "value": "G (gauss)"
-    },
-    "teslaPreference": {
-      "value": "T (tesla)"
-    },
-    "earthHemisphere": {
-      "value": "Hemisferi de la Terra"
-    },
-    "currentFlow": {
-      "value": "Flux de corrent"
-    },
-    "electronPreference": {
-      "value": "Electró"
-    },
-    "conventionalPreference": {
-      "value": "Convencional"
-    },
-    "acPowerSupply": {
-      "value": "Font d'alimentació de CA"
-    },
-    "pickupCoil": {
-      "value": "Bobina captadora"
-    },
-    "barMagnet": {
-      "value": "Barra magnètica"
-    },
-    "magneticField": {
-      "value": "Camp magnètic (B)"
-    },
-    "seeInside": {
-      "value": "Veure interior"
-    },
-    "earth": {
-      "value": "la Terra"
-    },
-    "flipPolarity": {
-      "value": "Invertir polaritat"
-    },
-    "flipEarth": {
-      "value": "Invertir la Terra"
-    },
-    "voltage": {
-      "value": "voltatge"
-    },
-    "symbol.B": {
-      "value": "B"
-    },
-    "symbol.x": {
-      "value": "x"
-    },
-    "symbol.y": {
-      "value": "y"
-    },
-    "units.G": {
-      "value": "G"
-    },
-    "units.T": {
-      "value": "T"
-    },
-    "pattern.almostValueUnits": {
-      "value": "~ {{value}} {{units}}"
-    },
-    "pattern.valueDegrees": {
-      "value": "{{value}}°"
-    },
-    "electromagnet": {
-      "value": "Electroimant"
-    },
-    "pattern.valuePercent": {
-      "value": "{{value}} %"
-    },
-    "lockToAxis": {
-      "value": "Bloquejar a l'eix"
-    },
-    "compass": {
-      "value": "Brúixola"
-    },
-    "fieldMeter": {
-      "value": "Mesurador de camp"
-    },
-    "strength": {
-      "value": "Força:"
-    },
-    "loopArea": {
-      "value": "Àrea d'espira:"
-    },
-    "loops": {
-      "value": "Espires:"
-    },
-    "indicator": {
-      "value": "Indicador"
-    },
-    "electrons": {
-      "value": "Electrons"
-    },
-    "conventionalCurrent": {
-      "value": "Corrent convencional"
-    },
-    "currentSource": {
-      "value": "Font<br>actual"
-    },
-    "units.RPM": {
-      "value": "RPM"
-    },
-    "faradays-electromagnetic-lab.title": {
-      "value": "Laboratori electromagnètic de Faraday"
-    }
-  },
-  "cs": {
-    "screen.barMagnet": {
-      "value": "Tyčový magnet"
-    },
-    "screen.electromagnet": {
-      "value": "Elektromagnet"
-    },
-    "batteryVoltage": {
-      "value": "Napětí baterie:"
-    },
-    "dcPowerSupply": {
-      "value": "Napájení stejnosměrným proudem"
-    },
-    "acPowerSupply": {
-      "value": "Napájení střídavým proudem"
-    },
-    "addEarthCheckbox": {
-      "value": "Přidat zaškrtávátko \"Země\""
-    },
-    "addEarthCheckboxDescription": {
-      "value": "Přidá zaškrtávátko \"Země\" na obrazovky, kde je to relevantní."
-    },
-    "magneticUnits": {
-      "value": "Jednotky magnetického pole"
-    },
-    "earthHemisphere": {
-      "value": "Zemská polokoule"
-    },
-    "currentFlow": {
-      "value": "Tok proudu"
-    },
-    "electronPreference": {
-      "value": "Elektrony"
-    },
-    "conventionalPreference": {
-      "value": "Konvenční"
-    },
-    "barMagnet": {
-      "value": "Tyčový magnet"
-    },
-    "magneticField": {
-      "value": "Magnetické pole (B)"
-    },
-    "seeInside": {
-      "value": "Pohled dovnitř"
-    },
-    "earth": {
-      "value": "Země"
-    },
-    "flipPolarity": {
-      "value": "Převrátit polaritu"
-    },
-    "flipEarth": {
-      "value": "Převrátit Zemi"
-    },
-    "electromagnet": {
-      "value": "Elektromagnet"
-    },
-    "lockToAxis": {
-      "value": "Připevnit k ose"
-    },
-    "compass": {
-      "value": "Kompas"
-    },
-    "fieldMeter": {
-      "value": "Měřák pole"
-    },
-    "strength": {
-      "value": "Síla:"
-    },
-    "loops": {
-      "value": "Smyčky:"
-    },
-    "currentSource": {
-      "value": "Zdroj<br>proudu"
-    },
-    "electrons": {
-      "value": "Elektrony"
-    },
-    "conventionalCurrent": {
-      "value": "Konvenční proud"
-    },
-    "screen.pickupCoil": {
-      "value": "Snímací cívka"
-    },
-    "screen.transformer": {
-      "value": "Transformátor"
-    },
-    "screen.generator": {
-      "value": "Generátor"
-    },
-    "voltage": {
-      "value": "napětí"
-    },
-    "pickupCoil": {
-      "value": "Snímací cívka"
-    },
-    "loopArea": {
-      "value": "Plocha smyčky:"
-    },
-    "indicator": {
-      "value": "Indikátor"
-    },
-    "faradays-electromagnetic-lab.title": {
-      "value": "Faradayova elektromagnetická laboratoř"
-    }
-  },
   "da": {
     "screen.generator": {
       "value": "Generator"
@@ -1274,21 +1015,128 @@
       "value": "Faradays elektromagnetiske laboratorium"
     }
   },
-  "de": {
-    "screen.pickupCoil": {
-      "value": "Induktionsspule"
-    },
+  "cs": {
     "screen.barMagnet": {
-      "value": "Stabmagnet"
+      "value": "Tyčový magnet"
     },
     "screen.electromagnet": {
       "value": "Elektromagnet"
     },
+    "batteryVoltage": {
+      "value": "Napětí baterie:"
+    },
+    "dcPowerSupply": {
+      "value": "Napájení stejnosměrným proudem"
+    },
+    "acPowerSupply": {
+      "value": "Napájení střídavým proudem"
+    },
+    "addEarthCheckbox": {
+      "value": "Přidat zaškrtávátko \"Země\""
+    },
+    "addEarthCheckboxDescription": {
+      "value": "Přidá zaškrtávátko \"Země\" na obrazovky, kde je to relevantní."
+    },
+    "magneticUnits": {
+      "value": "Jednotky magnetického pole"
+    },
+    "earthHemisphere": {
+      "value": "Zemská polokoule"
+    },
+    "currentFlow": {
+      "value": "Tok proudu"
+    },
+    "electronPreference": {
+      "value": "Elektrony"
+    },
+    "conventionalPreference": {
+      "value": "Konvenční"
+    },
+    "barMagnet": {
+      "value": "Tyčový magnet"
+    },
+    "magneticField": {
+      "value": "Magnetické pole (B)"
+    },
+    "seeInside": {
+      "value": "Pohled dovnitř"
+    },
+    "earth": {
+      "value": "Země"
+    },
+    "flipPolarity": {
+      "value": "Převrátit polaritu"
+    },
+    "flipEarth": {
+      "value": "Převrátit Zemi"
+    },
+    "electromagnet": {
+      "value": "Elektromagnet"
+    },
+    "lockToAxis": {
+      "value": "Připevnit k ose"
+    },
+    "compass": {
+      "value": "Kompas"
+    },
+    "fieldMeter": {
+      "value": "Měřák pole"
+    },
+    "strength": {
+      "value": "Síla:"
+    },
+    "loops": {
+      "value": "Smyčky:"
+    },
+    "currentSource": {
+      "value": "Zdroj<br>proudu"
+    },
+    "electrons": {
+      "value": "Elektrony"
+    },
+    "conventionalCurrent": {
+      "value": "Konvenční proud"
+    },
+    "screen.pickupCoil": {
+      "value": "Snímací cívka"
+    },
     "screen.transformer": {
-      "value": "Transformator"
+      "value": "Transformátor"
     },
     "screen.generator": {
-      "value": "Generator"
+      "value": "Generátor"
+    },
+    "voltage": {
+      "value": "napětí"
+    },
+    "pickupCoil": {
+      "value": "Snímací cívka"
+    },
+    "loopArea": {
+      "value": "Plocha smyčky:"
+    },
+    "indicator": {
+      "value": "Indikátor"
+    },
+    "faradays-electromagnetic-lab.title": {
+      "value": "Faradayova elektromagnetická laboratoř"
+    }
+  },
+  "ca": {
+    "screen.pickupCoil": {
+      "value": "Bobina captadora"
+    },
+    "screen.barMagnet": {
+      "value": "Barra magnètica"
+    },
+    "screen.electromagnet": {
+      "value": "Electroimant"
+    },
+    "screen.transformer": {
+      "value": "Transformador"
+    },
+    "screen.generator": {
+      "value": "Generador"
     },
     "symbol.N": {
       "value": "N"
@@ -1303,64 +1151,64 @@
       "value": "V"
     },
     "batteryVoltage": {
-      "value": "Batterie-Spannung:"
+      "value": "Voltatge de la pila:"
     },
     "dcPowerSupply": {
-      "value": "Gleichstromversorgung"
+      "value": "Font d'alimentació de CC"
     },
     "addEarthCheckbox": {
-      "value": "\"Erde\" hinzufügen Kontrollkästchen"
+      "value": "Afegir casella \"la Terra\""
     },
     "addEarthCheckboxDescription": {
-      "value": "Fügt ein Kontrollkästchen \"Erde\" zu Bildschirmen hinzu, wo es relevant ist."
+      "value": "Afegeix la casella \"la Terra\" a les pantalles quan és pertinent."
     },
     "magneticUnits": {
-      "value": "Magnetische Einheiten"
+      "value": "Unitats magnètiques"
     },
     "gaussPreference": {
-      "value": "G (Gauß)"
+      "value": "G (gauss)"
     },
     "teslaPreference": {
-      "value": "T (Tesla)"
+      "value": "T (tesla)"
     },
     "earthHemisphere": {
-      "value": "Hemisphäre der Erde"
+      "value": "Hemisferi de la Terra"
     },
     "currentFlow": {
-      "value": "Stromfluss"
+      "value": "Flux de corrent"
     },
     "electronPreference": {
-      "value": "Elektron"
+      "value": "Electró"
     },
     "conventionalPreference": {
-      "value": "technische Stromrichtung"
+      "value": "Convencional"
     },
     "acPowerSupply": {
-      "value": "Wechselstromversorgung"
-    },
-    "barMagnet": {
-      "value": "Stabmagnet"
-    },
-    "magneticField": {
-      "value": "Magnetische Flussdichte (B)"
-    },
-    "seeInside": {
-      "value": "Inneres anzeigen"
-    },
-    "earth": {
-      "value": "Erde"
-    },
-    "flipPolarity": {
-      "value": "Polarität umdrehen"
-    },
-    "flipEarth": {
-      "value": "Erde umdrehen"
+      "value": "Font d'alimentació de CA"
     },
     "pickupCoil": {
-      "value": "Induktionsspule"
+      "value": "Bobina captadora"
+    },
+    "barMagnet": {
+      "value": "Barra magnètica"
+    },
+    "magneticField": {
+      "value": "Camp magnètic (B)"
+    },
+    "seeInside": {
+      "value": "Veure interior"
+    },
+    "earth": {
+      "value": "la Terra"
+    },
+    "flipPolarity": {
+      "value": "Invertir polaritat"
+    },
+    "flipEarth": {
+      "value": "Invertir la Terra"
     },
     "voltage": {
-      "value": "Spannung"
+      "value": "voltatge"
     },
     "symbol.B": {
       "value": "B"
@@ -1384,46 +1232,46 @@
       "value": "{{value}}°"
     },
     "electromagnet": {
-      "value": "Elektromagnet"
+      "value": "Electroimant"
     },
     "pattern.valuePercent": {
-      "value": "{{value}}%"
+      "value": "{{value}} %"
     },
     "lockToAxis": {
-      "value": "Auf die Achse fixieren"
+      "value": "Bloquejar a l'eix"
     },
     "compass": {
-      "value": "Kompass"
+      "value": "Brúixola"
     },
     "fieldMeter": {
-      "value": "Feldmesser"
+      "value": "Mesurador de camp"
     },
     "strength": {
-      "value": "Stärke:"
+      "value": "Força:"
     },
     "loopArea": {
-      "value": "Spulenfläche:"
+      "value": "Àrea d'espira:"
     },
     "loops": {
-      "value": "Windungen:"
+      "value": "Espires:"
     },
     "indicator": {
-      "value": "Indikator"
+      "value": "Indicador"
     },
     "electrons": {
-      "value": "Elektronen"
+      "value": "Electrons"
     },
     "conventionalCurrent": {
-      "value": "Technische Stromrichtung"
+      "value": "Corrent convencional"
     },
     "currentSource": {
-      "value": "Strom<br>Quelle"
+      "value": "Font<br>actual"
     },
     "units.RPM": {
-      "value": "UPM"
+      "value": "RPM"
     },
     "faradays-electromagnetic-lab.title": {
-      "value": "Faradays elektromagnetisches Labor"
+      "value": "Laboratori electromagnètic de Faraday"
     }
   },
   "el": {
@@ -1730,6 +1578,158 @@
       "value": "Laboratorio Electromagnético de Faraday"
     }
   },
+  "de": {
+    "screen.pickupCoil": {
+      "value": "Induktionsspule"
+    },
+    "screen.barMagnet": {
+      "value": "Stabmagnet"
+    },
+    "screen.electromagnet": {
+      "value": "Elektromagnet"
+    },
+    "screen.transformer": {
+      "value": "Transformator"
+    },
+    "screen.generator": {
+      "value": "Generator"
+    },
+    "symbol.N": {
+      "value": "N"
+    },
+    "symbol.S": {
+      "value": "S"
+    },
+    "pattern.valueUnits": {
+      "value": "{{value}} {{units}}"
+    },
+    "units.V": {
+      "value": "V"
+    },
+    "batteryVoltage": {
+      "value": "Batterie-Spannung:"
+    },
+    "dcPowerSupply": {
+      "value": "Gleichstromversorgung"
+    },
+    "addEarthCheckbox": {
+      "value": "\"Erde\" hinzufügen Kontrollkästchen"
+    },
+    "addEarthCheckboxDescription": {
+      "value": "Fügt ein Kontrollkästchen \"Erde\" zu Bildschirmen hinzu, wo es relevant ist."
+    },
+    "magneticUnits": {
+      "value": "Magnetische Einheiten"
+    },
+    "gaussPreference": {
+      "value": "G (Gauß)"
+    },
+    "teslaPreference": {
+      "value": "T (Tesla)"
+    },
+    "earthHemisphere": {
+      "value": "Hemisphäre der Erde"
+    },
+    "currentFlow": {
+      "value": "Stromfluss"
+    },
+    "electronPreference": {
+      "value": "Elektron"
+    },
+    "conventionalPreference": {
+      "value": "technische Stromrichtung"
+    },
+    "acPowerSupply": {
+      "value": "Wechselstromversorgung"
+    },
+    "barMagnet": {
+      "value": "Stabmagnet"
+    },
+    "magneticField": {
+      "value": "Magnetische Flussdichte (B)"
+    },
+    "seeInside": {
+      "value": "Inneres anzeigen"
+    },
+    "earth": {
+      "value": "Erde"
+    },
+    "flipPolarity": {
+      "value": "Polarität umdrehen"
+    },
+    "flipEarth": {
+      "value": "Erde umdrehen"
+    },
+    "pickupCoil": {
+      "value": "Induktionsspule"
+    },
+    "voltage": {
+      "value": "Spannung"
+    },
+    "symbol.B": {
+      "value": "B"
+    },
+    "symbol.x": {
+      "value": "x"
+    },
+    "symbol.y": {
+      "value": "y"
+    },
+    "units.G": {
+      "value": "G"
+    },
+    "units.T": {
+      "value": "T"
+    },
+    "pattern.almostValueUnits": {
+      "value": "~ {{value}} {{units}}"
+    },
+    "pattern.valueDegrees": {
+      "value": "{{value}}°"
+    },
+    "electromagnet": {
+      "value": "Elektromagnet"
+    },
+    "pattern.valuePercent": {
+      "value": "{{value}}%"
+    },
+    "lockToAxis": {
+      "value": "Auf die Achse fixieren"
+    },
+    "compass": {
+      "value": "Kompass"
+    },
+    "fieldMeter": {
+      "value": "Feldmesser"
+    },
+    "strength": {
+      "value": "Stärke:"
+    },
+    "loopArea": {
+      "value": "Spulenfläche:"
+    },
+    "loops": {
+      "value": "Windungen:"
+    },
+    "indicator": {
+      "value": "Indikator"
+    },
+    "electrons": {
+      "value": "Elektronen"
+    },
+    "conventionalCurrent": {
+      "value": "Technische Stromrichtung"
+    },
+    "currentSource": {
+      "value": "Strom<br>Quelle"
+    },
+    "units.RPM": {
+      "value": "UPM"
+    },
+    "faradays-electromagnetic-lab.title": {
+      "value": "Faradays elektromagnetisches Labor"
+    }
+  },
   "es_PE": {
     "screen.pickupCoil": {
       "value": "Bobina de captación"
@@ -2034,158 +2034,6 @@
       "value": "{{value}}%"
     }
   },
-  "fi": {
-    "screen.generator": {
-      "value": "Generaattori"
-    },
-    "symbol.N": {
-      "value": "N"
-    },
-    "symbol.S": {
-      "value": "S"
-    },
-    "pattern.valueUnits": {
-      "value": "{{value}} {{units}}"
-    },
-    "units.V": {
-      "value": "V"
-    },
-    "batteryVoltage": {
-      "value": "Akun jännite"
-    },
-    "dcPowerSupply": {
-      "value": "Tasavirtalähde"
-    },
-    "addEarthCheckbox": {
-      "value": "Lisää \"Maa\"-valintaruutu"
-    },
-    "addEarthCheckboxDescription": {
-      "value": "Lisää \"Maa\"-valintaruudun näkymiin, joissa se on relevantti."
-    },
-    "magneticUnits": {
-      "value": "Magneettivuon tiheyden yksikkö"
-    },
-    "gaussPreference": {
-      "value": "G (gaussi)"
-    },
-    "teslaPreference": {
-      "value": "T (tesla)"
-    },
-    "earthHemisphere": {
-      "value": "Maan pallonpuolisko"
-    },
-    "currentFlow": {
-      "value": "Sähkövirta"
-    },
-    "electronPreference": {
-      "value": "Elektroni"
-    },
-    "conventionalPreference": {
-      "value": "Perinteinen"
-    },
-    "pickupCoil": {
-      "value": "Käämi"
-    },
-    "barMagnet": {
-      "value": "Sauvamagneetti"
-    },
-    "magneticField": {
-      "value": "Magneettikenttä (B)"
-    },
-    "seeInside": {
-      "value": "Katso sisään"
-    },
-    "earth": {
-      "value": "Maa"
-    },
-    "flipPolarity": {
-      "value": "Käännä polaarisuus"
-    },
-    "flipEarth": {
-      "value": "Käännä Maa"
-    },
-    "symbol.B": {
-      "value": "B"
-    },
-    "symbol.x": {
-      "value": "x"
-    },
-    "symbol.y": {
-      "value": "y"
-    },
-    "units.G": {
-      "value": "G"
-    },
-    "units.T": {
-      "value": "T"
-    },
-    "pattern.almostValueUnits": {
-      "value": "~ {{value}} {{units}}"
-    },
-    "pattern.valueDegrees": {
-      "value": "{{value}}°"
-    },
-    "lockToAxis": {
-      "value": "Lukitse akseliin"
-    },
-    "compass": {
-      "value": "Kompassi"
-    },
-    "fieldMeter": {
-      "value": "Kentän voimakkuus"
-    },
-    "loopArea": {
-      "value": "Silmukan ala:"
-    },
-    "loops": {
-      "value": "Kierrokset:"
-    },
-    "indicator": {
-      "value": "Ilmaisin:"
-    },
-    "electrons": {
-      "value": "Näytä elektronit"
-    },
-    "conventionalCurrent": {
-      "value": "Näytä sähkövirta"
-    },
-    "strength": {
-      "value": "Voimakkuus:"
-    },
-    "units.RPM": {
-      "value": "RPM"
-    },
-    "voltage": {
-      "value": "jännite"
-    },
-    "pattern.valuePercent": {
-      "value": "{{value}}%"
-    },
-    "faradays-electromagnetic-lab.title": {
-      "value": "Faradayn Sähkömagneettinen Laboratorio"
-    },
-    "screen.barMagnet": {
-      "value": "Sauvamagneetti"
-    },
-    "screen.electromagnet": {
-      "value": "Sähkömagneetti"
-    },
-    "screen.pickupCoil": {
-      "value": "Käämi"
-    },
-    "screen.transformer": {
-      "value": "Muuntaja"
-    },
-    "acPowerSupply": {
-      "value": "Vaihtovirtalähde"
-    },
-    "currentSource": {
-      "value": "Virta-<br>lähde"
-    },
-    "electromagnet": {
-      "value": "Sähkömagneetti"
-    }
-  },
   "fr": {
     "screen.pickupCoil": {
       "value": "Bobine de détection"
@@ -2336,301 +2184,6 @@
     },
     "faradays-electromagnetic-lab.title": {
       "value": "Labo électromagnétique de Faraday"
-    }
-  },
-  "gu": {
-    "screen.pickupCoil": {
-      "value": "પિકઅપ કોઈલ"
-    },
-    "screen.barMagnet": {
-      "value": "ગજીયો ચુંબક"
-    },
-    "screen.electromagnet": {
-      "value": "ઇલેક્ટ્રોમેગ્નેટ"
-    },
-    "screen.transformer": {
-      "value": "ટ્રાન્સફોર્મર"
-    },
-    "screen.generator": {
-      "value": "જનરેટર"
-    },
-    "symbol.N": {
-      "value": "N"
-    },
-    "symbol.S": {
-      "value": "S"
-    },
-    "pattern.valueUnits": {
-      "value": "{{value}} {{units}}"
-    },
-    "units.V": {
-      "value": "V"
-    },
-    "batteryVoltage": {
-      "value": "બેટરી વૉલ્ટેજ"
-    },
-    "dcPowerSupply": {
-      "value": "DC પાવર સપ્લાય"
-    },
-    "addEarthCheckbox": {
-      "value": "\"પૃથ્વી\" ચેકબોક્સ ઉમેરો"
-    },
-    "addEarthCheckboxDescription": {
-      "value": "\"પૃથ્વી\" ચેકબોક્સ જ્યાં જરૂરી છે ત્યાં સ્ક્રીન પર ઉમેરે છે"
-    },
-    "magneticUnits": {
-      "value": "ચુંબકીય એકમો"
-    },
-    "gaussPreference": {
-      "value": "G (ગાઉસ)"
-    },
-    "teslaPreference": {
-      "value": "T (ટેસ્લા)"
-    },
-    "earthHemisphere": {
-      "value": "પૃથ્વીની સપાટી"
-    },
-    "currentFlow": {
-      "value": "વિદ્યુત પ્રવાહ"
-    },
-    "electronPreference": {
-      "value": "ઇલેક્ટ્રોન"
-    },
-    "conventionalPreference": {
-      "value": "કન્વેન્શનલ"
-    },
-    "acPowerSupply": {
-      "value": "AC પાવર સપ્લાય"
-    },
-    "voltage": {
-      "value": "વૉલ્ટેજ"
-    },
-    "pickupCoil": {
-      "value": "વાયરનું ગુંચળું"
-    },
-    "barMagnet": {
-      "value": "ગજીયો ચુંબક"
-    },
-    "magneticField": {
-      "value": "ચુંબકીય ક્ષેત્ર (B)"
-    },
-    "seeInside": {
-      "value": "અંદર જુઓ"
-    },
-    "earth": {
-      "value": "પૃથ્વી"
-    },
-    "flipPolarity": {
-      "value": "ધ્રુવ બદલો"
-    },
-    "flipEarth": {
-      "value": "પૃથ્વી બદલો"
-    },
-    "symbol.B": {
-      "value": "B"
-    },
-    "symbol.x": {
-      "value": "x"
-    },
-    "symbol.y": {
-      "value": "y"
-    },
-    "units.G": {
-      "value": "G"
-    },
-    "units.T": {
-      "value": "T"
-    },
-    "pattern.almostValueUnits": {
-      "value": "~ {{value}} {{units}}"
-    },
-    "pattern.valueDegrees": {
-      "value": "{{value}}°"
-    },
-    "electromagnet": {
-      "value": "ઇલેક્ટ્રોમેગ્નેટ"
-    },
-    "pattern.valuePercent": {
-      "value": "{{value}}%"
-    },
-    "lockToAxis": {
-      "value": "અક્ષને લોક કરો"
-    },
-    "compass": {
-      "value": "હોકાયંત્ર"
-    },
-    "fieldMeter": {
-      "value": "ફિલ્ડ મીટર"
-    },
-    "strength": {
-      "value": "ક્ષમતા"
-    },
-    "loopArea": {
-      "value": "લૂપ એરિયા"
-    },
-    "loops": {
-      "value": "આંટા"
-    },
-    "indicator": {
-      "value": "ઇન્ડિકેટર"
-    },
-    "electrons": {
-      "value": "ઇલેક્ટ્રોન્સ"
-    },
-    "conventionalCurrent": {
-      "value": "કન્વેન્શનલ વિદ્યુત પ્રવાહ"
-    },
-    "currentSource": {
-      "value": "કરંટ વ<br> સોર્સ"
-    },
-    "units.RPM": {
-      "value": "RPM"
-    },
-    "faradays-electromagnetic-lab.title": {
-      "value": "ફેરાડેની ઇલેક્ટ્રોમેગ્નેટિક લેબ"
-    }
-  },
-  "ha": {
-    "screen.generator": {
-      "value": "Janareta"
-    },
-    "symbol.N": {
-      "value": "N"
-    },
-    "symbol.S": {
-      "value": "S"
-    },
-    "pattern.valueUnits": {
-      "value": "{{value}} {{units}}"
-    },
-    "units.V": {
-      "value": "V"
-    },
-    "batteryVoltage": {
-      "value": "Ƙarfin Baturi:"
-    },
-    "dcPowerSupply": {
-      "value": "wadata Wutar Lantarki na DC"
-    },
-    "addEarthCheckbox": {
-      "value": "kara kasa a akwatin zabi"
-    },
-    "addEarthCheckboxDescription": {
-      "value": "Yana ƙara akwati \"kasa\" zuwa allon nuni inda ya dace."
-    },
-    "magneticUnits": {
-      "value": "Raka'an kura"
-    },
-    "gaussPreference": {
-      "value": "G (gauss)"
-    },
-    "teslaPreference": {
-      "value": "T (tesla)"
-    },
-    "earthHemisphere": {
-      "value": "Rabin kasa"
-    },
-    "currentFlow": {
-      "value": "Gudun wutar lantarki"
-    },
-    "electronPreference": {
-      "value": "lantarki"
-    },
-    "conventionalPreference": {
-      "value": "al'ada"
-    },
-    "symbol.B": {
-      "value": "B"
-    },
-    "symbol.x": {
-      "value": "x"
-    },
-    "symbol.y": {
-      "value": "y"
-    },
-    "units.G": {
-      "value": "G"
-    },
-    "units.T": {
-      "value": "T"
-    },
-    "pattern.almostValueUnits": {
-      "value": "~ {{value}} {{units}}"
-    },
-    "pattern.valueDegrees": {
-      "value": "{{value}}°"
-    },
-    "pickupCoil": {
-      "value": "nada nadauka"
-    },
-    "barMagnet": {
-      "value": "Sandar maganadisu"
-    },
-    "magneticField": {
-      "value": "filin maganadisu"
-    },
-    "seeInside": {
-      "value": "Duba Ciki"
-    },
-    "earth": {
-      "value": "Kasa"
-    },
-    "flipPolarity": {
-      "value": "juya polarity"
-    },
-    "flipEarth": {
-      "value": "juya kasa"
-    },
-    "lockToAxis": {
-      "value": "Kulle zuwa Axis"
-    },
-    "compass": {
-      "value": "kamfas"
-    },
-    "fieldMeter": {
-      "value": "filin mita"
-    },
-    "loopArea": {
-      "value": "yankin madauki"
-    },
-    "loops": {
-      "value": "madaukai"
-    },
-    "indicator": {
-      "value": "Nuni"
-    },
-    "electrons": {
-      "value": "lantarki"
-    },
-    "conventionalCurrent": {
-      "value": "wutan lantarki na al'ada"
-    },
-    "strength": {
-      "value": "karfi:"
-    },
-    "units.RPM": {
-      "value": "RPM"
-    },
-    "voltage": {
-      "value": "Ƙarfi"
-    },
-    "pattern.valuePercent": {
-      "value": "{{value}}%"
-    },
-    "screen.barMagnet": {
-      "value": "Sandar kura"
-    },
-    "screen.electromagnet": {
-      "value": "kura mai wutar lantarki"
-    },
-    "acPowerSupply": {
-      "value": "wadata wutar lantarki na AC"
-    },
-    "electromagnet": {
-      "value": "kura mai wutar lantarki"
-    },
-    "currentSource": {
-      "value": "Lantarki<br>tushi"
     }
   },
   "hi": {
@@ -2785,6 +2338,158 @@
       "value": "फैराडे की विद्युत चुम्बकीय प्रयोगशाला"
     }
   },
+  "fi": {
+    "screen.generator": {
+      "value": "Generaattori"
+    },
+    "symbol.N": {
+      "value": "N"
+    },
+    "symbol.S": {
+      "value": "S"
+    },
+    "pattern.valueUnits": {
+      "value": "{{value}} {{units}}"
+    },
+    "units.V": {
+      "value": "V"
+    },
+    "batteryVoltage": {
+      "value": "Akun jännite"
+    },
+    "dcPowerSupply": {
+      "value": "Tasavirtalähde"
+    },
+    "addEarthCheckbox": {
+      "value": "Lisää \"Maa\"-valintaruutu"
+    },
+    "addEarthCheckboxDescription": {
+      "value": "Lisää \"Maa\"-valintaruudun näkymiin, joissa se on relevantti."
+    },
+    "magneticUnits": {
+      "value": "Magneettivuon tiheyden yksikkö"
+    },
+    "gaussPreference": {
+      "value": "G (gaussi)"
+    },
+    "teslaPreference": {
+      "value": "T (tesla)"
+    },
+    "earthHemisphere": {
+      "value": "Maan pallonpuolisko"
+    },
+    "currentFlow": {
+      "value": "Sähkövirta"
+    },
+    "electronPreference": {
+      "value": "Elektroni"
+    },
+    "conventionalPreference": {
+      "value": "Perinteinen"
+    },
+    "pickupCoil": {
+      "value": "Käämi"
+    },
+    "barMagnet": {
+      "value": "Sauvamagneetti"
+    },
+    "magneticField": {
+      "value": "Magneettikenttä (B)"
+    },
+    "seeInside": {
+      "value": "Katso sisään"
+    },
+    "earth": {
+      "value": "Maa"
+    },
+    "flipPolarity": {
+      "value": "Käännä polaarisuus"
+    },
+    "flipEarth": {
+      "value": "Käännä Maa"
+    },
+    "symbol.B": {
+      "value": "B"
+    },
+    "symbol.x": {
+      "value": "x"
+    },
+    "symbol.y": {
+      "value": "y"
+    },
+    "units.G": {
+      "value": "G"
+    },
+    "units.T": {
+      "value": "T"
+    },
+    "pattern.almostValueUnits": {
+      "value": "~ {{value}} {{units}}"
+    },
+    "pattern.valueDegrees": {
+      "value": "{{value}}°"
+    },
+    "lockToAxis": {
+      "value": "Lukitse akseliin"
+    },
+    "compass": {
+      "value": "Kompassi"
+    },
+    "fieldMeter": {
+      "value": "Kentän voimakkuus"
+    },
+    "loopArea": {
+      "value": "Silmukan ala:"
+    },
+    "loops": {
+      "value": "Kierrokset:"
+    },
+    "indicator": {
+      "value": "Ilmaisin:"
+    },
+    "electrons": {
+      "value": "Näytä elektronit"
+    },
+    "conventionalCurrent": {
+      "value": "Näytä sähkövirta"
+    },
+    "strength": {
+      "value": "Voimakkuus:"
+    },
+    "units.RPM": {
+      "value": "RPM"
+    },
+    "voltage": {
+      "value": "jännite"
+    },
+    "pattern.valuePercent": {
+      "value": "{{value}}%"
+    },
+    "faradays-electromagnetic-lab.title": {
+      "value": "Faradayn Sähkömagneettinen Laboratorio"
+    },
+    "screen.barMagnet": {
+      "value": "Sauvamagneetti"
+    },
+    "screen.electromagnet": {
+      "value": "Sähkömagneetti"
+    },
+    "screen.pickupCoil": {
+      "value": "Käämi"
+    },
+    "screen.transformer": {
+      "value": "Muuntaja"
+    },
+    "acPowerSupply": {
+      "value": "Vaihtovirtalähde"
+    },
+    "currentSource": {
+      "value": "Virta-<br>lähde"
+    },
+    "electromagnet": {
+      "value": "Sähkömagneetti"
+    }
+  },
   "hr": {
     "screen.pickupCoil": {
       "value": "Zavojnica"
@@ -2937,158 +2642,6 @@
       "value": "Fradayev elektromagnetski laboratorij"
     }
   },
-  "ht": {
-    "screen.pickupCoil": {
-      "value": "Bobin"
-    },
-    "screen.barMagnet": {
-      "value": "Leman"
-    },
-    "screen.electromagnet": {
-      "value": "Elektwo-eman"
-    },
-    "screen.transformer": {
-      "value": "Transfòmatè"
-    },
-    "screen.generator": {
-      "value": "Jeneratris"
-    },
-    "symbol.N": {
-      "value": "N"
-    },
-    "symbol.S": {
-      "value": "S"
-    },
-    "pattern.valueUnits": {
-      "value": "{{value}} {{units}}"
-    },
-    "units.V": {
-      "value": "V"
-    },
-    "batteryVoltage": {
-      "value": "Vòltaj Batri:"
-    },
-    "dcPowerSupply": {
-      "value": "Alimantasyon DC"
-    },
-    "addEarthCheckbox": {
-      "value": "Ajoute Kaz \"Latè\""
-    },
-    "addEarthCheckboxDescription": {
-      "value": "Ajoute yon kaz \"Latè\" sou ekran kote li enpòtan."
-    },
-    "magneticUnits": {
-      "value": "Inite Mayetik"
-    },
-    "gaussPreference": {
-      "value": "G (gauss)"
-    },
-    "teslaPreference": {
-      "value": "T (tesla)"
-    },
-    "earthHemisphere": {
-      "value": "Emisfè Latè"
-    },
-    "currentFlow": {
-      "value": "Koule Kouran"
-    },
-    "electronPreference": {
-      "value": "Elektwon"
-    },
-    "conventionalPreference": {
-      "value": "Konvansyonèl"
-    },
-    "acPowerSupply": {
-      "value": "Alimantasyon AC"
-    },
-    "barMagnet": {
-      "value": "Leman"
-    },
-    "magneticField": {
-      "value": "Chan Mayetik (B)"
-    },
-    "seeInside": {
-      "value": "Gade Anndan"
-    },
-    "earth": {
-      "value": "Latè"
-    },
-    "flipPolarity": {
-      "value": "Envèse Polarite"
-    },
-    "flipEarth": {
-      "value": "Envèse Latè"
-    },
-    "pickupCoil": {
-      "value": "Bobin"
-    },
-    "symbol.B": {
-      "value": "B"
-    },
-    "symbol.x": {
-      "value": "x"
-    },
-    "symbol.y": {
-      "value": "y"
-    },
-    "units.G": {
-      "value": "G"
-    },
-    "units.T": {
-      "value": "T"
-    },
-    "pattern.almostValueUnits": {
-      "value": "~ {{value}} {{units}}"
-    },
-    "pattern.valueDegrees": {
-      "value": "{{value}}°"
-    },
-    "voltage": {
-      "value": "Vòltaj"
-    },
-    "electromagnet": {
-      "value": "Elektro-Eman"
-    },
-    "pattern.valuePercent": {
-      "value": "{{value}}%"
-    },
-    "lockToAxis": {
-      "value": "Vewouye Aks"
-    },
-    "compass": {
-      "value": "Bousòl"
-    },
-    "fieldMeter": {
-      "value": "Mèt pou Mezire Chan"
-    },
-    "strength": {
-      "value": "Fòs:"
-    },
-    "loopArea": {
-      "value": "Zòn Bouk:"
-    },
-    "loops": {
-      "value": "Bouk"
-    },
-    "indicator": {
-      "value": "Endikatè"
-    },
-    "electrons": {
-      "value": "Elektwon"
-    },
-    "conventionalCurrent": {
-      "value": "Kouran Konvansyonèl"
-    },
-    "currentSource": {
-      "value": "Sous<br>Kouran"
-    },
-    "units.RPM": {
-      "value": "RPM"
-    },
-    "faradays-electromagnetic-lab.title": {
-      "value": "Laboratwa Elektwomayetik Faraday"
-    }
-  },
   "hu": {
     "screen.barMagnet": {
       "value": "Rúdmágnes"
@@ -3187,9 +2740,21 @@
       "value": "{{value}}%"
     }
   },
-  "is": {
+  "gu": {
+    "screen.pickupCoil": {
+      "value": "પિકઅપ કોઈલ"
+    },
+    "screen.barMagnet": {
+      "value": "ગજીયો ચુંબક"
+    },
+    "screen.electromagnet": {
+      "value": "ઇલેક્ટ્રોમેગ્નેટ"
+    },
+    "screen.transformer": {
+      "value": "ટ્રાન્સફોર્મર"
+    },
     "screen.generator": {
-      "value": "Rafall"
+      "value": "જનરેટર"
     },
     "symbol.N": {
       "value": "N"
@@ -3204,55 +2769,64 @@
       "value": "V"
     },
     "batteryVoltage": {
-      "value": "Spenna rafhlöðu"
+      "value": "બેટરી વૉલ્ટેજ"
     },
     "dcPowerSupply": {
-      "value": "Jafnstraumsaflgjafi"
+      "value": "DC પાવર સપ્લાય"
     },
     "addEarthCheckbox": {
-      "value": "Bæta við \"jarðtenging\" gátreitur"
+      "value": "\"પૃથ્વી\" ચેકબોક્સ ઉમેરો"
     },
     "addEarthCheckboxDescription": {
-      "value": "Bætir við \"jarðtenging\" gátreit þar sem það á við."
+      "value": "\"પૃથ્વી\" ચેકબોક્સ જ્યાં જરૂરી છે ત્યાં સ્ક્રીન પર ઉમેરે છે"
     },
     "magneticUnits": {
-      "value": "Segulsviðseiningar"
+      "value": "ચુંબકીય એકમો"
     },
     "gaussPreference": {
-      "value": "G (gáss)"
+      "value": "G (ગાઉસ)"
     },
     "teslaPreference": {
-      "value": "T (tesla)"
+      "value": "T (ટેસ્લા)"
     },
     "earthHemisphere": {
-      "value": "Andrúmsloft jarðar"
+      "value": "પૃથ્વીની સપાટી"
     },
     "currentFlow": {
-      "value": "Rafstraumur"
+      "value": "વિદ્યુત પ્રવાહ"
     },
     "electronPreference": {
-      "value": "Rafeind"
+      "value": "ઇલેક્ટ્રોન"
     },
     "conventionalPreference": {
-      "value": "Hefðbundið"
+      "value": "કન્વેન્શનલ"
+    },
+    "acPowerSupply": {
+      "value": "AC પાવર સપ્લાય"
+    },
+    "voltage": {
+      "value": "વૉલ્ટેજ"
     },
     "pickupCoil": {
-      "value": "Spólunemi"
+      "value": "વાયરનું ગુંચળું"
     },
     "barMagnet": {
-      "value": "Stangarsegull"
+      "value": "ગજીયો ચુંબક"
     },
     "magneticField": {
-      "value": "Segulsvið (B)"
+      "value": "ચુંબકીય ક્ષેત્ર (B)"
     },
     "seeInside": {
-      "value": "Sjá inn í"
+      "value": "અંદર જુઓ"
     },
     "earth": {
-      "value": "Jarðtenging"
+      "value": "પૃથ્વી"
     },
     "flipPolarity": {
-      "value": "Víxla skautum"
+      "value": "ધ્રુવ બદલો"
+    },
+    "flipEarth": {
+      "value": "પૃથ્વી બદલો"
     },
     "symbol.B": {
       "value": "B"
@@ -3275,68 +2849,47 @@
     "pattern.valueDegrees": {
       "value": "{{value}}°"
     },
-    "lockToAxis": {
-      "value": "Smella við ása"
-    },
-    "compass": {
-      "value": "Áttaviti"
-    },
-    "fieldMeter": {
-      "value": "Sviðsmælir"
-    },
-    "loopArea": {
-      "value": "Flatarmál spólu"
-    },
-    "loops": {
-      "value": "Vafningar"
-    },
-    "electrons": {
-      "value": "Rafeindir"
-    },
-    "conventionalCurrent": {
-      "value": "Hefðbundinn straumur"
-    },
-    "strength": {
-      "value": "Styrkur:"
-    },
-    "units.RPM": {
-      "value": "snúningshraði (snðúningar á mínútu)"
-    },
-    "voltage": {
-      "value": "spenna"
+    "electromagnet": {
+      "value": "ઇલેક્ટ્રોમેગ્નેટ"
     },
     "pattern.valuePercent": {
       "value": "{{value}}%"
     },
-    "screen.barMagnet": {
-      "value": "Stangarsegull"
+    "lockToAxis": {
+      "value": "અક્ષને લોક કરો"
     },
-    "screen.electromagnet": {
-      "value": "Rafsegull"
+    "compass": {
+      "value": "હોકાયંત્ર"
     },
-    "acPowerSupply": {
-      "value": "Riðstraumsaflgjafi"
+    "fieldMeter": {
+      "value": "ફિલ્ડ મીટર"
     },
-    "flipEarth": {
-      "value": "Snúa jörð"
+    "strength": {
+      "value": "ક્ષમતા"
     },
-    "electromagnet": {
-      "value": "Rafsegull"
+    "loopArea": {
+      "value": "લૂપ એરિયા"
     },
-    "currentSource": {
-      "value": "Straum-<br>gjafi"
-    },
-    "screen.pickupCoil": {
-      "value": "Spólunemi"
-    },
-    "screen.transformer": {
-      "value": "Spennubreytir"
+    "loops": {
+      "value": "આંટા"
     },
     "indicator": {
-      "value": "Gaumvísir"
+      "value": "ઇન્ડિકેટર"
+    },
+    "electrons": {
+      "value": "ઇલેક્ટ્રોન્સ"
+    },
+    "conventionalCurrent": {
+      "value": "કન્વેન્શનલ વિદ્યુત પ્રવાહ"
+    },
+    "currentSource": {
+      "value": "કરંટ વ<br> સોર્સ"
+    },
+    "units.RPM": {
+      "value": "RPM"
     },
     "faradays-electromagnetic-lab.title": {
-      "value": "Rafsegultilraunastofa Faradays"
+      "value": "ફેરાડેની ઇલેક્ટ્રોમેગ્નેટિક લેબ"
     }
   },
   "it": {
@@ -5293,21 +4846,9 @@
       "value": "Laborator electromagnetism Faraday"
     }
   },
-  "sk": {
-    "screen.pickupCoil": {
-      "value": "Cievka"
-    },
-    "screen.barMagnet": {
-      "value": "Tyčový magnet"
-    },
-    "screen.electromagnet": {
-      "value": "Elektromagnet"
-    },
-    "screen.transformer": {
-      "value": "Transformátor"
-    },
+  "ha": {
     "screen.generator": {
-      "value": "Generátor"
+      "value": "Janareta"
     },
     "symbol.N": {
       "value": "N"
@@ -5322,19 +4863,19 @@
       "value": "V"
     },
     "batteryVoltage": {
-      "value": "Napätie batérie"
+      "value": "Ƙarfin Baturi:"
     },
     "dcPowerSupply": {
-      "value": "Jednosmerný prúd"
+      "value": "wadata Wutar Lantarki na DC"
     },
     "addEarthCheckbox": {
-      "value": "Pridať začiarkavacie políčko „Zem“"
+      "value": "kara kasa a akwatin zabi"
     },
     "addEarthCheckboxDescription": {
-      "value": "Ak to má zmysel, pridá na obrazovku začiarkavacie políčko „Zem“."
+      "value": "Yana ƙara akwati \"kasa\" zuwa allon nuni inda ya dace."
     },
     "magneticUnits": {
-      "value": "Jednotka magnetickej indukcie"
+      "value": "Raka'an kura"
     },
     "gaussPreference": {
       "value": "G (gauss)"
@@ -5343,43 +4884,16 @@
       "value": "T (tesla)"
     },
     "earthHemisphere": {
-      "value": "Zemská pologuľa"
+      "value": "Rabin kasa"
     },
     "currentFlow": {
-      "value": "Elektrický prúd"
+      "value": "Gudun wutar lantarki"
     },
     "electronPreference": {
-      "value": "Elektrón"
+      "value": "lantarki"
     },
     "conventionalPreference": {
-      "value": "Kladná častica"
-    },
-    "acPowerSupply": {
-      "value": "Striedavý prúd"
-    },
-    "pickupCoil": {
-      "value": "Cievka"
-    },
-    "barMagnet": {
-      "value": "Tyčový magnet"
-    },
-    "magneticField": {
-      "value": "Magnetické pole (B)"
-    },
-    "seeInside": {
-      "value": "Zobraziť vnútro"
-    },
-    "earth": {
-      "value": "Zem"
-    },
-    "flipPolarity": {
-      "value": "Obrátiť polaritu"
-    },
-    "flipEarth": {
-      "value": "Otočiť Zem"
-    },
-    "voltage": {
-      "value": "napätie"
+      "value": "al'ada"
     },
     "symbol.B": {
       "value": "B"
@@ -5402,47 +4916,77 @@
     "pattern.valueDegrees": {
       "value": "{{value}}°"
     },
-    "electromagnet": {
-      "value": "Elektromagnet"
+    "pickupCoil": {
+      "value": "nada nadauka"
+    },
+    "barMagnet": {
+      "value": "Sandar maganadisu"
+    },
+    "magneticField": {
+      "value": "filin maganadisu"
+    },
+    "seeInside": {
+      "value": "Duba Ciki"
+    },
+    "earth": {
+      "value": "Kasa"
+    },
+    "flipPolarity": {
+      "value": "juya polarity"
+    },
+    "flipEarth": {
+      "value": "juya kasa"
+    },
+    "lockToAxis": {
+      "value": "Kulle zuwa Axis"
+    },
+    "compass": {
+      "value": "kamfas"
+    },
+    "fieldMeter": {
+      "value": "filin mita"
+    },
+    "loopArea": {
+      "value": "yankin madauki"
+    },
+    "loops": {
+      "value": "madaukai"
+    },
+    "indicator": {
+      "value": "Nuni"
+    },
+    "electrons": {
+      "value": "lantarki"
+    },
+    "conventionalCurrent": {
+      "value": "wutan lantarki na al'ada"
+    },
+    "strength": {
+      "value": "karfi:"
+    },
+    "units.RPM": {
+      "value": "RPM"
+    },
+    "voltage": {
+      "value": "Ƙarfi"
     },
     "pattern.valuePercent": {
       "value": "{{value}}%"
     },
-    "lockToAxis": {
-      "value": "Zamknúť na os"
+    "screen.barMagnet": {
+      "value": "Sandar kura"
     },
-    "compass": {
-      "value": "Kompas"
+    "screen.electromagnet": {
+      "value": "kura mai wutar lantarki"
     },
-    "fieldMeter": {
-      "value": "Merač poľa"
+    "acPowerSupply": {
+      "value": "wadata wutar lantarki na AC"
     },
-    "strength": {
-      "value": "Sila:"
-    },
-    "loopArea": {
-      "value": "Plocha závitu:"
-    },
-    "loops": {
-      "value": "Závity:"
-    },
-    "indicator": {
-      "value": "Indikátor"
-    },
-    "electrons": {
-      "value": "Elektróny"
-    },
-    "conventionalCurrent": {
-      "value": "Dohodnutý smer prúdu"
+    "electromagnet": {
+      "value": "kura mai wutar lantarki"
     },
     "currentSource": {
-      "value": "Zdroj<br>prúdu"
-    },
-    "units.RPM": {
-      "value": "ot/min"
-    },
-    "faradays-electromagnetic-lab.title": {
-      "value": "Faradayovo elektromagnetické laboratórium"
+      "value": "Lantarki<br>tushi"
     }
   },
   "sw": {
@@ -7266,6 +6810,158 @@
       "value": "Фарадејева електромагнетна лабораторија"
     }
   },
+  "ht": {
+    "screen.pickupCoil": {
+      "value": "Bobin"
+    },
+    "screen.barMagnet": {
+      "value": "Leman"
+    },
+    "screen.electromagnet": {
+      "value": "Elektwo-eman"
+    },
+    "screen.transformer": {
+      "value": "Transfòmatè"
+    },
+    "screen.generator": {
+      "value": "Jeneratris"
+    },
+    "symbol.N": {
+      "value": "N"
+    },
+    "symbol.S": {
+      "value": "S"
+    },
+    "pattern.valueUnits": {
+      "value": "{{value}} {{units}}"
+    },
+    "units.V": {
+      "value": "V"
+    },
+    "batteryVoltage": {
+      "value": "Vòltaj Batri:"
+    },
+    "dcPowerSupply": {
+      "value": "Alimantasyon DC"
+    },
+    "addEarthCheckbox": {
+      "value": "Ajoute Kaz \"Latè\""
+    },
+    "addEarthCheckboxDescription": {
+      "value": "Ajoute yon kaz \"Latè\" sou ekran kote li enpòtan."
+    },
+    "magneticUnits": {
+      "value": "Inite Mayetik"
+    },
+    "gaussPreference": {
+      "value": "G (gauss)"
+    },
+    "teslaPreference": {
+      "value": "T (tesla)"
+    },
+    "earthHemisphere": {
+      "value": "Emisfè Latè"
+    },
+    "currentFlow": {
+      "value": "Koule Kouran"
+    },
+    "electronPreference": {
+      "value": "Elektwon"
+    },
+    "conventionalPreference": {
+      "value": "Konvansyonèl"
+    },
+    "acPowerSupply": {
+      "value": "Alimantasyon AC"
+    },
+    "barMagnet": {
+      "value": "Leman"
+    },
+    "magneticField": {
+      "value": "Chan Mayetik (B)"
+    },
+    "seeInside": {
+      "value": "Gade Anndan"
+    },
+    "earth": {
+      "value": "Latè"
+    },
+    "flipPolarity": {
+      "value": "Envèse Polarite"
+    },
+    "flipEarth": {
+      "value": "Envèse Latè"
+    },
+    "pickupCoil": {
+      "value": "Bobin"
+    },
+    "symbol.B": {
+      "value": "B"
+    },
+    "symbol.x": {
+      "value": "x"
+    },
+    "symbol.y": {
+      "value": "y"
+    },
+    "units.G": {
+      "value": "G"
+    },
+    "units.T": {
+      "value": "T"
+    },
+    "pattern.almostValueUnits": {
+      "value": "~ {{value}} {{units}}"
+    },
+    "pattern.valueDegrees": {
+      "value": "{{value}}°"
+    },
+    "voltage": {
+      "value": "Vòltaj"
+    },
+    "electromagnet": {
+      "value": "Elektro-Eman"
+    },
+    "pattern.valuePercent": {
+      "value": "{{value}}%"
+    },
+    "lockToAxis": {
+      "value": "Vewouye Aks"
+    },
+    "compass": {
+      "value": "Bousòl"
+    },
+    "fieldMeter": {
+      "value": "Mèt pou Mezire Chan"
+    },
+    "strength": {
+      "value": "Fòs:"
+    },
+    "loopArea": {
+      "value": "Zòn Bouk:"
+    },
+    "loops": {
+      "value": "Bouk"
+    },
+    "indicator": {
+      "value": "Endikatè"
+    },
+    "electrons": {
+      "value": "Elektwon"
+    },
+    "conventionalCurrent": {
+      "value": "Kouran Konvansyonèl"
+    },
+    "currentSource": {
+      "value": "Sous<br>Kouran"
+    },
+    "units.RPM": {
+      "value": "RPM"
+    },
+    "faradays-electromagnetic-lab.title": {
+      "value": "Laboratwa Elektwomayetik Faraday"
+    }
+  },
   "sl": {
     "screen.generator": {
       "value": "Generator"
@@ -7416,6 +7112,310 @@
     },
     "faradays-electromagnetic-lab.title": {
       "value": "Faradayev elektromagnetni laboratorij"
+    }
+  },
+  "is": {
+    "screen.generator": {
+      "value": "Rafall"
+    },
+    "symbol.N": {
+      "value": "N"
+    },
+    "symbol.S": {
+      "value": "S"
+    },
+    "pattern.valueUnits": {
+      "value": "{{value}} {{units}}"
+    },
+    "units.V": {
+      "value": "V"
+    },
+    "batteryVoltage": {
+      "value": "Spenna rafhlöðu"
+    },
+    "dcPowerSupply": {
+      "value": "Jafnstraumsaflgjafi"
+    },
+    "addEarthCheckbox": {
+      "value": "Bæta við \"jarðtenging\" gátreitur"
+    },
+    "addEarthCheckboxDescription": {
+      "value": "Bætir við \"jarðtenging\" gátreit þar sem það á við."
+    },
+    "magneticUnits": {
+      "value": "Segulsviðseiningar"
+    },
+    "gaussPreference": {
+      "value": "G (gáss)"
+    },
+    "teslaPreference": {
+      "value": "T (tesla)"
+    },
+    "earthHemisphere": {
+      "value": "Andrúmsloft jarðar"
+    },
+    "currentFlow": {
+      "value": "Rafstraumur"
+    },
+    "electronPreference": {
+      "value": "Rafeind"
+    },
+    "conventionalPreference": {
+      "value": "Hefðbundið"
+    },
+    "pickupCoil": {
+      "value": "Spólunemi"
+    },
+    "barMagnet": {
+      "value": "Stangarsegull"
+    },
+    "magneticField": {
+      "value": "Segulsvið (B)"
+    },
+    "seeInside": {
+      "value": "Sjá inn í"
+    },
+    "earth": {
+      "value": "Jarðtenging"
+    },
+    "flipPolarity": {
+      "value": "Víxla skautum"
+    },
+    "symbol.B": {
+      "value": "B"
+    },
+    "symbol.x": {
+      "value": "x"
+    },
+    "symbol.y": {
+      "value": "y"
+    },
+    "units.G": {
+      "value": "G"
+    },
+    "units.T": {
+      "value": "T"
+    },
+    "pattern.almostValueUnits": {
+      "value": "~ {{value}} {{units}}"
+    },
+    "pattern.valueDegrees": {
+      "value": "{{value}}°"
+    },
+    "lockToAxis": {
+      "value": "Smella við ása"
+    },
+    "compass": {
+      "value": "Áttaviti"
+    },
+    "fieldMeter": {
+      "value": "Sviðsmælir"
+    },
+    "loopArea": {
+      "value": "Flatarmál spólu"
+    },
+    "loops": {
+      "value": "Vafningar"
+    },
+    "electrons": {
+      "value": "Rafeindir"
+    },
+    "conventionalCurrent": {
+      "value": "Hefðbundinn straumur"
+    },
+    "strength": {
+      "value": "Styrkur:"
+    },
+    "units.RPM": {
+      "value": "snúningshraði (snðúningar á mínútu)"
+    },
+    "voltage": {
+      "value": "spenna"
+    },
+    "pattern.valuePercent": {
+      "value": "{{value}}%"
+    },
+    "screen.barMagnet": {
+      "value": "Stangarsegull"
+    },
+    "screen.electromagnet": {
+      "value": "Rafsegull"
+    },
+    "acPowerSupply": {
+      "value": "Riðstraumsaflgjafi"
+    },
+    "flipEarth": {
+      "value": "Snúa jörð"
+    },
+    "electromagnet": {
+      "value": "Rafsegull"
+    },
+    "currentSource": {
+      "value": "Straum-<br>gjafi"
+    },
+    "screen.pickupCoil": {
+      "value": "Spólunemi"
+    },
+    "screen.transformer": {
+      "value": "Spennubreytir"
+    },
+    "indicator": {
+      "value": "Gaumvísir"
+    },
+    "faradays-electromagnetic-lab.title": {
+      "value": "Rafsegultilraunastofa Faradays"
+    }
+  },
+  "sk": {
+    "screen.pickupCoil": {
+      "value": "Cievka"
+    },
+    "screen.barMagnet": {
+      "value": "Tyčový magnet"
+    },
+    "screen.electromagnet": {
+      "value": "Elektromagnet"
+    },
+    "screen.transformer": {
+      "value": "Transformátor"
+    },
+    "screen.generator": {
+      "value": "Generátor"
+    },
+    "symbol.N": {
+      "value": "N"
+    },
+    "symbol.S": {
+      "value": "S"
+    },
+    "pattern.valueUnits": {
+      "value": "{{value}} {{units}}"
+    },
+    "units.V": {
+      "value": "V"
+    },
+    "batteryVoltage": {
+      "value": "Napätie batérie"
+    },
+    "dcPowerSupply": {
+      "value": "Jednosmerný prúd"
+    },
+    "addEarthCheckbox": {
+      "value": "Pridať začiarkavacie políčko „Zem“"
+    },
+    "addEarthCheckboxDescription": {
+      "value": "Ak to má zmysel, pridá na obrazovku začiarkavacie políčko „Zem“."
+    },
+    "magneticUnits": {
+      "value": "Jednotka magnetickej indukcie"
+    },
+    "gaussPreference": {
+      "value": "G (gauss)"
+    },
+    "teslaPreference": {
+      "value": "T (tesla)"
+    },
+    "earthHemisphere": {
+      "value": "Zemská pologuľa"
+    },
+    "currentFlow": {
+      "value": "Elektrický prúd"
+    },
+    "electronPreference": {
+      "value": "Elektrón"
+    },
+    "conventionalPreference": {
+      "value": "Kladná častica"
+    },
+    "acPowerSupply": {
+      "value": "Striedavý prúd"
+    },
+    "pickupCoil": {
+      "value": "Cievka"
+    },
+    "barMagnet": {
+      "value": "Tyčový magnet"
+    },
+    "magneticField": {
+      "value": "Magnetické pole (B)"
+    },
+    "seeInside": {
+      "value": "Zobraziť vnútro"
+    },
+    "earth": {
+      "value": "Zem"
+    },
+    "flipPolarity": {
+      "value": "Obrátiť polaritu"
+    },
+    "flipEarth": {
+      "value": "Otočiť Zem"
+    },
+    "voltage": {
+      "value": "napätie"
+    },
+    "symbol.B": {
+      "value": "B"
+    },
+    "symbol.x": {
+      "value": "x"
+    },
+    "symbol.y": {
+      "value": "y"
+    },
+    "units.G": {
+      "value": "G"
+    },
+    "units.T": {
+      "value": "T"
+    },
+    "pattern.almostValueUnits": {
+      "value": "~ {{value}} {{units}}"
+    },
+    "pattern.valueDegrees": {
+      "value": "{{value}}°"
+    },
+    "electromagnet": {
+      "value": "Elektromagnet"
+    },
+    "pattern.valuePercent": {
+      "value": "{{value}}%"
+    },
+    "lockToAxis": {
+      "value": "Zamknúť na os"
+    },
+    "compass": {
+      "value": "Kompas"
+    },
+    "fieldMeter": {
+      "value": "Merač poľa"
+    },
+    "strength": {
+      "value": "Sila:"
+    },
+    "loopArea": {
+      "value": "Plocha závitu:"
+    },
+    "loops": {
+      "value": "Závity:"
+    },
+    "indicator": {
+      "value": "Indikátor"
+    },
+    "electrons": {
+      "value": "Elektróny"
+    },
+    "conventionalCurrent": {
+      "value": "Dohodnutý smer prúdu"
+    },
+    "currentSource": {
+      "value": "Zdroj<br>prúdu"
+    },
+    "units.RPM": {
+      "value": "ot/min"
+    },
+    "faradays-electromagnetic-lab.title": {
+      "value": "Faradayovo elektromagnetické laboratórium"
     }
   }
 }

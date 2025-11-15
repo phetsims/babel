@@ -365,21 +365,27 @@
       "value": "محور الرقام: المسافة"
     }
   },
-  "az": {
+  "bg": {
+    "screen.explore": {
+      "value": "Изследване"
+    },
     "screen.generic": {
-      "value": "Ümumi baxış"
+      "value": "Общи"
+    },
+    "genericAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} и {{primaryPointControllerLabel}} са {{difference}} {{units}} един от друг."
     },
     "genericDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}  {{primaryPointControllerLabel}}dan  {{difference}} {{units}} daha müsbətdir."
+      "value": "{{secondaryPointControllerLabel}} е {{difference}} {{units}} по-положителен от {{primaryPointControllerLabel}}."
     },
     "genericDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} {{primaryPointControllerLabel}}dan {{difference}} {{units}} daha mənfidir."
+      "value": "{{secondaryPointControllerLabel}} е {{difference}} {{units}} по-отрицателен от {{primaryPointControllerLabel}}."
     },
     "unit": {
-      "value": "vahid"
+      "value": "мерна единица"
     },
     "units": {
-      "value": "vahid"
+      "value": "мерни едници"
     },
     "symbol.x": {
       "value": "x"
@@ -388,34 +394,34 @@
       "value": "y"
     },
     "symbol.east": {
-      "value": "Ş"
+      "value": "E"
     },
     "symbol.west": {
-      "value": "Q"
+      "value": "W"
     },
     "house": {
-      "value": "ev"
+      "value": "къщата"
     },
     "person": {
-      "value": "İnsan"
+      "value": "човекът"
     },
     "distanceSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} və {{primaryPointControllerLabel}} {{difference}} {{units}} məsafədədirlər."
+      "value": "{{secondaryPointControllerLabel}} и {{primaryPointControllerLabel}} са {{difference}} {{units}} един от друг."
     },
     "distanceSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}  {{primaryPointControllerLabel}}in  {{difference}} {{units}} şərqindədir."
+      "value": "{{secondaryPointControllerLabel}} е {{difference}} {{units}} на изток от {{primaryPointControllerLabel}}."
     },
     "distanceSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}  {{primaryPointControllerLabel}}in  {{difference}} {{units}} qərbindədir."
+      "value": "{{secondaryPointControllerLabel}} е {{difference}} {{units}} на запад от {{primaryPointControllerLabel}}."
     },
     "symbol.meters": {
       "value": "m"
     },
     "meter": {
-      "value": "metr"
+      "value": "метър"
     },
     "meters": {
-      "value": "metr"
+      "value": "метра"
     },
     "symbol.A": {
       "value": "A"
@@ -424,67 +430,61 @@
       "value": "B"
     },
     "temperatureSceneAbsoluteDistanceTemplate": {
-      "value": " Temperatur fərqi {{difference}} {{units}}dir."
+      "value": "Разликата в температурата е {{difference}} {{units}}."
     },
     "temperatureSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} nöqtəsi {{primaryPointControllerLabel}} nöqtəsindən {{difference}} {{units}} daha istidir."
+      "value": "Място {{secondaryPointControllerLabel}} е {{difference}} {{units}} по-топло от място {{primaryPointControllerLabel}}."
     },
     "temperatureSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} nöqtəsi {{primaryPointControllerLabel}} nöqtəsindən {{difference}} {{units}} daha soyuqdur."
+      "value": "Място {{secondaryPointControllerLabel}} е {{difference}} {{units}} по-студено от {{primaryPointControllerLabel}}."
     },
     "symbol.degreesCelsius": {
       "value": "°C"
     },
     "degree": {
-      "value": "dərəcə"
+      "value": "градус"
     },
     "degrees": {
-      "value": "dərəcə"
+      "value": "градуса"
     },
     "fish": {
-      "value": "Balıq"
+      "value": "рибата"
     },
     "bird": {
-      "value": "quş"
+      "value": "птицата"
     },
     "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} və {{primaryPointControllerLabel}} {{difference}} {{units}} şaquli məsafədədir."
+      "value": "Между {{secondaryPointControllerLabel}} и {{primaryPointControllerLabel}} има вертикално разстояние от {{difference}} {{units}}."
     },
     "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}  {{primaryPointControllerLabel}}un {{difference}} {{units}} yuxarısındadır."
+      "value": "{{secondaryPointControllerLabel}} е {{difference}} {{units}} повече от {{primaryPointControllerLabel}}."
     },
     "elevationSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}  {{primaryPointControllerLabel}}un {{difference}} {{units}} aşağısındadır."
+      "value": "{{secondaryPointControllerLabel}} е {{difference}} {{units}} по-малко от {{primaryPointControllerLabel}}."
     },
     "pointLabels": {
-      "value": "Nöqtələri göstər"
+      "value": "Означения на точката"
     },
     "distanceLabels": {
-      "value": "Məsafəni göstər"
+      "value": "Означения на дистанцията"
     },
     "distanceDescription": {
-      "value": "Məsafənin təsviri"
+      "value": "Описание на разстоянието"
     },
     "tickMarks": {
-      "value": "Ədədləri göstər"
+      "value": "Отметки"
     },
     "absoluteValue": {
-      "value": "Mütləq qiymət"
+      "value": "Абсолютна стойност"
     },
     "directedDistance": {
-      "value": "İstiqamətləndirilmiş məsafə"
+      "value": "Насочено разстояние"
     },
     "distanceStatement": {
-      "value": "Məsafə"
+      "value": "Разстояние"
     },
     "number-line-distance.title": {
-      "value": "Ədəd oxu: Məsafə"
-    },
-    "screen.explore": {
-      "value": "Araşdır"
-    },
-    "genericAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} və {{primaryPointControllerLabel}} {{difference}} {{units}} məsafədədirlər."
+      "value": "Числова линия: Разстояние"
     }
   },
   "bn": {
@@ -707,200 +707,176 @@
       "value": "Brojevna prava: Udaljenost"
     }
   },
-  "ca": {
-    "screen.generic": {
-      "value": "Genèric"
-    },
+  "cs": {
     "screen.explore": {
-      "value": "Explora"
-    },
-    "genericAbsoluteDistanceTemplate": {
-      "value": "La {{secondaryPointControllerLabel}} i la {{primaryPointControllerLabel}} estan separades {{difference}} {{units}}."
-    },
-    "genericDirectedPositiveDistanceTemplate": {
-      "value": "La {{secondaryPointControllerLabel}} és {{difference}} {{units}} més positiva que la {{primaryPointControllerLabel}}."
-    },
-    "genericDirectedNegativeDistanceTemplate": {
-      "value": "La {{secondaryPointControllerLabel}} és {{difference}} {{units}} més negativa que la {{primaryPointControllerLabel}}."
-    },
-    "unit": {
-      "value": "unitat"
-    },
-    "units": {
-      "value": "unitats"
-    },
-    "symbol.x": {
-      "value": "x"
-    },
-    "symbol.y": {
-      "value": "y"
-    },
-    "symbol.east": {
-      "value": "E"
-    },
-    "symbol.west": {
-      "value": "O"
-    },
-    "house": {
-      "value": "casa"
-    },
-    "person": {
-      "value": "noia"
-    },
-    "distanceSceneAbsoluteDistanceTemplate": {
-      "value": "La {{secondaryPointControllerLabel}} i la {{primaryPointControllerLabel}} estan separades {{difference}} {{units}}."
-    },
-    "distanceSceneDirectedPositiveDistanceTemplate": {
-      "value": "La {{secondaryPointControllerLabel}} és a {{difference}} {{units}} cap a l'est de la {{primaryPointControllerLabel}}."
-    },
-    "distanceSceneDirectedNegativeDistanceTemplate": {
-      "value": "La {{secondaryPointControllerLabel}} és a {{difference}} {{units}} cap a l'oest de la {{primaryPointControllerLabel}}."
-    },
-    "symbol.meters": {
-      "value": "m"
-    },
-    "meter": {
-      "value": "metre"
-    },
-    "meters": {
-      "value": "metres"
-    },
-    "symbol.A": {
-      "value": "A"
-    },
-    "symbol.B": {
-      "value": "B"
-    },
-    "temperatureSceneAbsoluteDistanceTemplate": {
-      "value": "La diferència de temperatura és de {{difference}} {{units}}."
-    },
-    "temperatureSceneDirectedPositiveDistanceTemplate": {
-      "value": "La ubicació {{secondaryPointControllerLabel}} és {{difference}} {{units}} més càlida que la ubicació {{primaryPointControllerLabel}}."
-    },
-    "temperatureSceneDirectedNegativeDistanceTemplate": {
-      "value": "La ubicació {{secondaryPointControllerLabel}} és {{difference}} \r\n{{units}} més freda que la ubicació {{primaryPointControllerLabel}}."
-    },
-    "symbol.degreesCelsius": {
-      "value": "ºC"
-    },
-    "degree": {
-      "value": "grau"
-    },
-    "degrees": {
-      "value": "graus"
-    },
-    "fish": {
-      "value": "peix volador"
-    },
-    "bird": {
-      "value": "gavià argentat"
-    },
-    "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "El {{secondaryPointControllerLabel}} i el {{primaryPointControllerLabel}} són a una distància vertical de {{difference}} {{units}}."
-    },
-    "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "El {{secondaryPointControllerLabel}} és {{difference}} {{units}} per sobre del {{primaryPointControllerLabel}}."
-    },
-    "elevationSceneDirectedNegativeDistanceTemplate": {
-      "value": "El {{secondaryPointControllerLabel}} és {{difference}} {{units}} per sota del {{primaryPointControllerLabel}}."
-    },
-    "pointLabels": {
-      "value": "Etiqueta dels punts"
-    },
-    "distanceLabels": {
-      "value": "Etiquetes de la distància"
-    },
-    "distanceDescription": {
-      "value": "Descripció de la distància"
-    },
-    "tickMarks": {
-      "value": "Marques"
-    },
-    "absoluteValue": {
-      "value": "Valor absolut"
-    },
-    "directedDistance": {
-      "value": "Distància directa"
-    },
-    "distanceStatement": {
-      "value": "Declaració de distància"
-    },
-    "number-line-distance.title": {
-      "value": "Recta numèrica. Distància"
-    },
-    "displacement": {
-      "value": "Desplaçament"
-    },
-    "terminology": {
-      "value": "Terminologia"
-    },
-    "terminologyControlDescription": {
-      "value": "Tria la terminologia que es fa servir per a descriure la diferència entre dos nombres sencers."
-    },
-    "mathSymbolPattern": {
-      "value": "<span style='font-family: \"Times New Roman\", Times, serif;font-style: italic'>{{symbol}}</span>"
-    },
-    "variableSubscriptPattern": {
-      "value": "{{variable}}<sub style='font-style:normal'>{{subscript}}</sub>"
-    }
-  },
-  "da": {
-    "screen.explore": {
-      "value": "Opdag"
+      "value": "Prozkoumat"
     },
     "screen.generic": {
-      "value": "Generelt"
+      "value": "Obecně"
     },
     "genericAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} og {{primaryPointControllerLabel}} er {{difference}} {{units}} fra hinanden."
+      "value": "{{secondaryPointControllerLabel}} a {{primaryPointControllerLabel}} jsou vzdálené {{difference}} {{units}}."
     },
     "genericDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} er {{difference}} {{units}} mere positiv end {{primaryPointControllerLabel}}."
+      "value": "{{secondaryPointControllerLabel}} je {{difference}} {{units}} kladnější, než {{primaryPointControllerLabel}}."
     },
     "genericDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} er {{difference}} {{units}} mere negativ end {{primaryPointControllerLabel}}."
+      "value": "{{secondaryPointControllerLabel}} je {{difference}} {{units}} negativnější, než {{primaryPointControllerLabel}}."
     },
     "unit": {
-      "value": "enhed"
+      "value": "jednotka"
     },
     "units": {
-      "value": "enheder"
-    },
-    "symbol.x": {
-      "value": "x"
-    },
-    "symbol.y": {
-      "value": "y"
+      "value": "jednotky"
     },
     "symbol.east": {
-      "value": "Ø"
-    },
-    "symbol.west": {
       "value": "V"
     },
+    "symbol.west": {
+      "value": "Z"
+    },
     "house": {
-      "value": "huset"
+      "value": "dům"
     },
     "person": {
-      "value": "personen"
+      "value": "osoba"
     },
     "distanceSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} og {{primaryPointControllerLabel}} er {{difference}} {{units}} fra hinanden."
+      "value": "{{secondaryPointControllerLabel}} a {{primaryPointControllerLabel}} jsou vzdálené  {{difference}} {{units}}."
     },
     "distanceSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} er {{difference}} {{units}} øst for {{primaryPointControllerLabel}}."
+      "value": "{{secondaryPointControllerLabel}} je {{difference}} {{units}} východně od {{primaryPointControllerLabel}}."
     },
     "distanceSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} er {{difference}} {{units}} vest for {{primaryPointControllerLabel}}."
+      "value": "{{secondaryPointControllerLabel}} je {{difference}} {{units}} západně od {{primaryPointControllerLabel}}."
+    },
+    "meter": {
+      "value": "metr"
+    },
+    "meters": {
+      "value": "metrů/y"
+    },
+    "temperatureSceneAbsoluteDistanceTemplate": {
+      "value": "Rozdíl teploty je {{difference}} {{units}}."
+    },
+    "temperatureSceneDirectedPositiveDistanceTemplate": {
+      "value": "Místo {{secondaryPointControllerLabel}} je o {{difference}} {{units}} teplejší, než místo {{primaryPointControllerLabel}}."
+    },
+    "temperatureSceneDirectedNegativeDistanceTemplate": {
+      "value": "Místo {{secondaryPointControllerLabel}} je o {{difference}} {{units}} studenější, než místo {{primaryPointControllerLabel}}."
+    },
+    "degree": {
+      "value": "stupeň"
+    },
+    "degrees": {
+      "value": "stupňů/e/stupeň"
+    },
+    "fish": {
+      "value": "ryba"
+    },
+    "bird": {
+      "value": "pták"
+    },
+    "elevationSceneAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} a {{primaryPointControllerLabel}} mají vertikální vzdálenost  {{difference}} {{units}}."
+    },
+    "elevationSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} je {{difference}} {{units}} nad  {{primaryPointControllerLabel}}."
+    },
+    "elevationSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} je {{difference}} {{units}} pod {{primaryPointControllerLabel}}."
+    },
+    "pointLabels": {
+      "value": "Popisky  bodů"
+    },
+    "distanceLabels": {
+      "value": "Popisek vzdálenosti"
+    },
+    "distanceDescription": {
+      "value": "Slovní popis vzdálenosti"
+    },
+    "tickMarks": {
+      "value": "Značky na ose"
+    },
+    "absoluteValue": {
+      "value": "Absolutní hodnota"
+    },
+    "directedDistance": {
+      "value": "Dálka (orientovaná vzdálenost)"
+    },
+    "distanceStatement": {
+      "value": "Vyjádření vzdálenosti"
+    },
+    "number-line-distance.title": {
+      "value": "Číselná osa: vzdálenost"
+    },
+    "displacement": {
+      "value": "Absolutní hodnota"
+    },
+    "terminology": {
+      "value": "Terminologie"
+    },
+    "terminologyControlDescription": {
+      "value": "Vyberte terminologii používanou k popisu rozdílu dvou celých čísel."
+    }
+  },
+  "de": {
+    "screen.explore": {
+      "value": "Erkunden"
+    },
+    "screen.generic": {
+      "value": "Allgemein"
+    },
+    "genericAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} und {{primaryPointControllerLabel}} sind {{difference}} {{units}} voneinander entfernt."
+    },
+    "genericDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} ist um {{difference}} {{units}} positiver als {{primaryPointControllerLabel}}."
+    },
+    "genericDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} ist {{difference}} {{units}} negativer als {{primaryPointControllerLabel}}."
+    },
+    "unit": {
+      "value": "Einheit"
+    },
+    "units": {
+      "value": "Einheiten"
+    },
+    "symbol.x": {
+      "value": "x"
+    },
+    "symbol.y": {
+      "value": "y"
+    },
+    "symbol.east": {
+      "value": "O"
+    },
+    "symbol.west": {
+      "value": "W"
+    },
+    "house": {
+      "value": "Mädchen"
+    },
+    "person": {
+      "value": "Person"
+    },
+    "distanceSceneAbsoluteDistanceTemplate": {
+      "value": "Das {{secondaryPointControllerLabel}} und das {{primaryPointControllerLabel}} sind {{difference}} {{units}} voneinander entfernt."
+    },
+    "distanceSceneDirectedPositiveDistanceTemplate": {
+      "value": "Das {{secondaryPointControllerLabel}} ist {{difference}} {{units}} östlich von dem {{primaryPointControllerLabel}}."
+    },
+    "distanceSceneDirectedNegativeDistanceTemplate": {
+      "value": "Das {{secondaryPointControllerLabel}} ist {{difference}} {{units}} westlich von dem {{primaryPointControllerLabel}}."
     },
     "symbol.meters": {
       "value": "m"
     },
     "meter": {
-      "value": "meter"
+      "value": "Meter"
     },
     "meters": {
-      "value": "meter"
+      "value": "Meter"
     },
     "symbol.A": {
       "value": "A"
@@ -909,70 +885,70 @@
       "value": "B"
     },
     "temperatureSceneAbsoluteDistanceTemplate": {
-      "value": "Forskellen i temperatur er {{difference}} {{units}}."
+      "value": "Der Temperaturunterschied ist {{difference}} {{units}}."
     },
     "temperatureSceneDirectedPositiveDistanceTemplate": {
-      "value": "Placering {{secondaryPointControllerLabel}} er {{difference}} {{units}} varmere end placering {{primaryPointControllerLabel}}."
+      "value": "Der Ort{{secondaryPointControllerLabel}} ist {{difference}} {{units}} heißer als der Ort {{primaryPointControllerLabel}}."
     },
     "temperatureSceneDirectedNegativeDistanceTemplate": {
-      "value": "Placering {{secondaryPointControllerLabel}} er {{difference}} {{units}} koldere end placering {{primaryPointControllerLabel}}."
+      "value": "Der Ort{{secondaryPointControllerLabel}} ist {{difference}} {{units}} kälter als der Ort {{primaryPointControllerLabel}}."
     },
     "symbol.degreesCelsius": {
       "value": "°C"
     },
     "degree": {
-      "value": "grader"
+      "value": "Grad"
     },
     "degrees": {
-      "value": "grader"
+      "value": "Grad"
     },
     "fish": {
-      "value": "fisk"
+      "value": "Fisch"
     },
     "bird": {
-      "value": "fugl"
+      "value": "Vogel"
     },
     "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} og {{primaryPointControllerLabel}} har en lodret afstand på {{difference}} {{units}}."
+      "value": "Der {{secondaryPointControllerLabel}} und der {{primaryPointControllerLabel}} haben einen vertikalen Abstand von {{difference}} {{units}}."
     },
     "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} er {{difference}} {{units}} over {{primaryPointControllerLabel}}."
+      "value": "Der {{secondaryPointControllerLabel}} ist {{difference}} {{units}} über dem {{primaryPointControllerLabel}}."
     },
     "elevationSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} er {{difference}} {{units}} under {{primaryPointControllerLabel}}."
+      "value": "Der {{secondaryPointControllerLabel}} ist {{difference}} {{units}} über dem {{primaryPointControllerLabel}}."
     },
     "pointLabels": {
-      "value": "Punkt-værdier"
+      "value": "Zahlenwerte der Punkte"
     },
     "distanceLabels": {
-      "value": "Afstands-værdi"
+      "value": "Zahlenwert des Abstandes"
     },
     "distanceDescription": {
-      "value": "Afstans-beskrivelse"
+      "value": "Beschreibung des Abstandes"
     },
     "tickMarks": {
-      "value": "Punkt-værdier"
+      "value": "Einteilungen"
     },
     "absoluteValue": {
-      "value": "Absolut værdi"
+      "value": "Betrag"
     },
     "directedDistance": {
-      "value": "Relativ afstand"
+      "value": "Gerichteter Abstand"
     },
     "distanceStatement": {
-      "value": "Afstandsangivelse"
+      "value": "Abstand"
     },
     "number-line-distance.title": {
-      "value": "Tallinje: Afstand"
+      "value": "Zahlengerade: Abstand"
     },
     "displacement": {
-      "value": "Forskydning"
+      "value": "Ersetzen"
     },
     "terminology": {
-      "value": "Terminologi"
+      "value": "Terminologie"
     },
     "terminologyControlDescription": {
-      "value": "Vælg den terminologi, der bruges til at beskrive forskellen mellem to heltal."
+      "value": "Wähle die Terminologie, die verwendet wird, um den Unterschied zwischen zwei ganzen Zahlen zu beschreiben."
     },
     "mathSymbolPattern": {
       "value": "<span style='font-family: \"Times New Roman\", Times, serif;font-style: italic'>{{symbol}}</span>"
@@ -1118,143 +1094,6 @@
       "value": "{{variable}}<sub style='font-style:normal'>{{subscript}}</sub>"
     }
   },
-  "de": {
-    "screen.explore": {
-      "value": "Erkunden"
-    },
-    "screen.generic": {
-      "value": "Allgemein"
-    },
-    "genericAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} und {{primaryPointControllerLabel}} sind {{difference}} {{units}} voneinander entfernt."
-    },
-    "genericDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} ist um {{difference}} {{units}} positiver als {{primaryPointControllerLabel}}."
-    },
-    "genericDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} ist {{difference}} {{units}} negativer als {{primaryPointControllerLabel}}."
-    },
-    "unit": {
-      "value": "Einheit"
-    },
-    "units": {
-      "value": "Einheiten"
-    },
-    "symbol.x": {
-      "value": "x"
-    },
-    "symbol.y": {
-      "value": "y"
-    },
-    "symbol.east": {
-      "value": "O"
-    },
-    "symbol.west": {
-      "value": "W"
-    },
-    "house": {
-      "value": "Mädchen"
-    },
-    "person": {
-      "value": "Person"
-    },
-    "distanceSceneAbsoluteDistanceTemplate": {
-      "value": "Das {{secondaryPointControllerLabel}} und das {{primaryPointControllerLabel}} sind {{difference}} {{units}} voneinander entfernt."
-    },
-    "distanceSceneDirectedPositiveDistanceTemplate": {
-      "value": "Das {{secondaryPointControllerLabel}} ist {{difference}} {{units}} östlich von dem {{primaryPointControllerLabel}}."
-    },
-    "distanceSceneDirectedNegativeDistanceTemplate": {
-      "value": "Das {{secondaryPointControllerLabel}} ist {{difference}} {{units}} westlich von dem {{primaryPointControllerLabel}}."
-    },
-    "symbol.meters": {
-      "value": "m"
-    },
-    "meter": {
-      "value": "Meter"
-    },
-    "meters": {
-      "value": "Meter"
-    },
-    "symbol.A": {
-      "value": "A"
-    },
-    "symbol.B": {
-      "value": "B"
-    },
-    "temperatureSceneAbsoluteDistanceTemplate": {
-      "value": "Der Temperaturunterschied ist {{difference}} {{units}}."
-    },
-    "temperatureSceneDirectedPositiveDistanceTemplate": {
-      "value": "Der Ort{{secondaryPointControllerLabel}} ist {{difference}} {{units}} heißer als der Ort {{primaryPointControllerLabel}}."
-    },
-    "temperatureSceneDirectedNegativeDistanceTemplate": {
-      "value": "Der Ort{{secondaryPointControllerLabel}} ist {{difference}} {{units}} kälter als der Ort {{primaryPointControllerLabel}}."
-    },
-    "symbol.degreesCelsius": {
-      "value": "°C"
-    },
-    "degree": {
-      "value": "Grad"
-    },
-    "degrees": {
-      "value": "Grad"
-    },
-    "fish": {
-      "value": "Fisch"
-    },
-    "bird": {
-      "value": "Vogel"
-    },
-    "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "Der {{secondaryPointControllerLabel}} und der {{primaryPointControllerLabel}} haben einen vertikalen Abstand von {{difference}} {{units}}."
-    },
-    "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "Der {{secondaryPointControllerLabel}} ist {{difference}} {{units}} über dem {{primaryPointControllerLabel}}."
-    },
-    "elevationSceneDirectedNegativeDistanceTemplate": {
-      "value": "Der {{secondaryPointControllerLabel}} ist {{difference}} {{units}} über dem {{primaryPointControllerLabel}}."
-    },
-    "pointLabels": {
-      "value": "Zahlenwerte der Punkte"
-    },
-    "distanceLabels": {
-      "value": "Zahlenwert des Abstandes"
-    },
-    "distanceDescription": {
-      "value": "Beschreibung des Abstandes"
-    },
-    "tickMarks": {
-      "value": "Einteilungen"
-    },
-    "absoluteValue": {
-      "value": "Betrag"
-    },
-    "directedDistance": {
-      "value": "Gerichteter Abstand"
-    },
-    "distanceStatement": {
-      "value": "Abstand"
-    },
-    "number-line-distance.title": {
-      "value": "Zahlengerade: Abstand"
-    },
-    "displacement": {
-      "value": "Ersetzen"
-    },
-    "terminology": {
-      "value": "Terminologie"
-    },
-    "terminologyControlDescription": {
-      "value": "Wähle die Terminologie, die verwendet wird, um den Unterschied zwischen zwei ganzen Zahlen zu beschreiben."
-    },
-    "mathSymbolPattern": {
-      "value": "<span style='font-family: \"Times New Roman\", Times, serif;font-style: italic'>{{symbol}}</span>"
-    },
-    "variableSubscriptPattern": {
-      "value": "{{variable}}<sub style='font-style:normal'>{{subscript}}</sub>"
-    }
-  },
   "es": {
     "screen.explore": {
       "value": "Explora"
@@ -1384,6 +1223,143 @@
     },
     "terminologyControlDescription": {
       "value": "Elige la terminología utilizada para describir la diferencia entre dos números enteros."
+    },
+    "mathSymbolPattern": {
+      "value": "<span style='font-family: \"Times New Roman\", Times, serif;font-style: italic'>{{symbol}}</span>"
+    },
+    "variableSubscriptPattern": {
+      "value": "{{variable}}<sub style='font-style:normal'>{{subscript}}</sub>"
+    }
+  },
+  "es_PE": {
+    "screen.explore": {
+      "value": "Explora"
+    },
+    "screen.generic": {
+      "value": "Genérico"
+    },
+    "genericAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} y {{primaryPointControllerLabel}} están {{difference}} {{units}} aparte."
+    },
+    "genericDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} es {{difference}} {{units}} más positiva que  {{primaryPointControllerLabel}}."
+    },
+    "genericDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} es {{difference}} {{units}} más negativa que  {{primaryPointControllerLabel}}."
+    },
+    "unit": {
+      "value": "Unidad"
+    },
+    "units": {
+      "value": "Unidades"
+    },
+    "symbol.x": {
+      "value": "x"
+    },
+    "symbol.y": {
+      "value": "y"
+    },
+    "symbol.east": {
+      "value": "E"
+    },
+    "symbol.west": {
+      "value": "O"
+    },
+    "house": {
+      "value": "casa"
+    },
+    "person": {
+      "value": "persona"
+    },
+    "distanceSceneAbsoluteDistanceTemplate": {
+      "value": "La {{secondaryPointControllerLabel}} y la {{primaryPointControllerLabel}} están  {{difference}} {{units}} separados."
+    },
+    "distanceSceneDirectedPositiveDistanceTemplate": {
+      "value": "La {{secondaryPointControllerLabel}} está {{difference}} {{units}} al este de la {{primaryPointControllerLabel}}."
+    },
+    "distanceSceneDirectedNegativeDistanceTemplate": {
+      "value": "La {{secondaryPointControllerLabel}} está {{difference}} {{units}} al oeste de la {{primaryPointControllerLabel}}."
+    },
+    "symbol.meters": {
+      "value": "m"
+    },
+    "meter": {
+      "value": "metro"
+    },
+    "meters": {
+      "value": "metros"
+    },
+    "symbol.A": {
+      "value": "A"
+    },
+    "symbol.B": {
+      "value": "B"
+    },
+    "temperatureSceneAbsoluteDistanceTemplate": {
+      "value": "La diferencia de la temperatura es {{difference}} {{units}}."
+    },
+    "temperatureSceneDirectedPositiveDistanceTemplate": {
+      "value": "La ubicación {{secondaryPointControllerLabel}} está {{difference}} {{units}} más caliente que la ubicación {{primaryPointControllerLabel}}."
+    },
+    "temperatureSceneDirectedNegativeDistanceTemplate": {
+      "value": "La ubicación  {{secondaryPointControllerLabel}} está {{difference}} {{units}} más fría que la ubicación {{primaryPointControllerLabel}}."
+    },
+    "symbol.degreesCelsius": {
+      "value": "°C"
+    },
+    "degree": {
+      "value": "grado"
+    },
+    "degrees": {
+      "value": "grados"
+    },
+    "fish": {
+      "value": "pez"
+    },
+    "bird": {
+      "value": "pájaro"
+    },
+    "elevationSceneAbsoluteDistanceTemplate": {
+      "value": "La {{secondaryPointControllerLabel}} y la {{primaryPointControllerLabel}} tienen una distancia vertical de {{difference}} {{units}}."
+    },
+    "elevationSceneDirectedPositiveDistanceTemplate": {
+      "value": "La {{secondaryPointControllerLabel}} está {{difference}} {{units}} por encima del {{primaryPointControllerLabel}}."
+    },
+    "elevationSceneDirectedNegativeDistanceTemplate": {
+      "value": "La {{secondaryPointControllerLabel}} está {{difference}} {{units}} por debajo de la {{primaryPointControllerLabel}}."
+    },
+    "pointLabels": {
+      "value": "Etiquetas de los puntos"
+    },
+    "distanceLabels": {
+      "value": "Etiqueta(s) de la(s) distancia(s)"
+    },
+    "distanceDescription": {
+      "value": "Descripción de la distancia"
+    },
+    "tickMarks": {
+      "value": "Marcas de graduación"
+    },
+    "absoluteValue": {
+      "value": "Valor absoluto"
+    },
+    "directedDistance": {
+      "value": "Distancia dirigida"
+    },
+    "distanceStatement": {
+      "value": "Declaración de distancia"
+    },
+    "number-line-distance.title": {
+      "value": "Recta numérica: Distancia"
+    },
+    "displacement": {
+      "value": "Desplazamiento"
+    },
+    "terminology": {
+      "value": "Terminología"
+    },
+    "terminologyControlDescription": {
+      "value": "Elija la terminología utilizada para describir la diferencia entre dos números enteros."
     },
     "mathSymbolPattern": {
       "value": "<span style='font-family: \"Times New Roman\", Times, serif;font-style: italic'>{{symbol}}</span>"
@@ -2008,27 +1984,27 @@
       "value": "સંખ્યા રેખા: અંતર - જીજ્ઞેશ ખુંટ"
     }
   },
-  "bg": {
-    "screen.explore": {
-      "value": "Изследване"
-    },
+  "ha": {
     "screen.generic": {
-      "value": "Общи"
+      "value": "Na gamayya"
+    },
+    "screen.explore": {
+      "value": "Binciko"
     },
     "genericAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} и {{primaryPointControllerLabel}} са {{difference}} {{units}} един от друг."
+      "value": "{{secondaryPointControllerLabel}} and {{primaryPointControllerLabel}} are {{difference}} {{units}} apart."
     },
     "genericDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} е {{difference}} {{units}} по-положителен от {{primaryPointControllerLabel}}."
+      "value": "{{secondaryPointControllerLabel}} is {{difference}} {{units}} more positive than {{primaryPointControllerLabel}}."
     },
     "genericDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} е {{difference}} {{units}} по-отрицателен от {{primaryPointControllerLabel}}."
+      "value": "{{secondaryPointControllerLabel}} is {{difference}} {{units}} more negative than {{primaryPointControllerLabel}}."
     },
     "unit": {
-      "value": "мерна единица"
+      "value": "Sashe/Rukuni"
     },
     "units": {
-      "value": "мерни едници"
+      "value": "Sashe/Rukuni"
     },
     "symbol.x": {
       "value": "x"
@@ -2043,28 +2019,28 @@
       "value": "W"
     },
     "house": {
-      "value": "къщата"
+      "value": "gida"
     },
     "person": {
-      "value": "човекът"
+      "value": "Mutum"
     },
     "distanceSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} и {{primaryPointControllerLabel}} са {{difference}} {{units}} един от друг."
+      "value": "The {{secondaryPointControllerLabel}} and the {{primaryPointControllerLabel}} are {{difference}} {{units}} apart."
     },
     "distanceSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} е {{difference}} {{units}} на изток от {{primaryPointControllerLabel}}."
+      "value": "The {{secondaryPointControllerLabel}} is {{difference}} {{units}} east of the {{primaryPointControllerLabel}}."
     },
     "distanceSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} е {{difference}} {{units}} на запад от {{primaryPointControllerLabel}}."
+      "value": "The {{secondaryPointControllerLabel}} is {{difference}} {{units}} west of the {{primaryPointControllerLabel}}."
     },
     "symbol.meters": {
       "value": "m"
     },
     "meter": {
-      "value": "метър"
+      "value": "meter(ma'aunin auna tsayi)"
     },
     "meters": {
-      "value": "метра"
+      "value": "meters"
     },
     "symbol.A": {
       "value": "A"
@@ -2073,84 +2049,84 @@
       "value": "B"
     },
     "temperatureSceneAbsoluteDistanceTemplate": {
-      "value": "Разликата в температурата е {{difference}} {{units}}."
+      "value": "Bambancin temperature shine {{difference}} {{units}}."
     },
     "temperatureSceneDirectedPositiveDistanceTemplate": {
-      "value": "Място {{secondaryPointControllerLabel}} е {{difference}} {{units}} по-топло от място {{primaryPointControllerLabel}}."
+      "value": "Location {{secondaryPointControllerLabel}} is {{difference}} {{units}} hotter than location {{primaryPointControllerLabel}}."
     },
     "temperatureSceneDirectedNegativeDistanceTemplate": {
-      "value": "Място {{secondaryPointControllerLabel}} е {{difference}} {{units}} по-студено от {{primaryPointControllerLabel}}."
+      "value": "Location {{secondaryPointControllerLabel}} is {{difference}} {{units}} colder than location {{primaryPointControllerLabel}}."
     },
     "symbol.degreesCelsius": {
       "value": "°C"
     },
     "degree": {
-      "value": "градус"
+      "value": "degree"
     },
     "degrees": {
-      "value": "градуса"
+      "value": "degrees"
     },
     "fish": {
-      "value": "рибата"
+      "value": "Kifi"
     },
     "bird": {
-      "value": "птицата"
+      "value": "Tsunstu"
     },
     "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "Между {{secondaryPointControllerLabel}} и {{primaryPointControllerLabel}} има вертикално разстояние от {{difference}} {{units}}."
+      "value": "The {{secondaryPointControllerLabel}} and the {{primaryPointControllerLabel}} have a vertical distance of {{difference}} {{units}}."
     },
     "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} е {{difference}} {{units}} повече от {{primaryPointControllerLabel}}."
+      "value": "The {{secondaryPointControllerLabel}} is {{difference}} {{units}} above the {{primaryPointControllerLabel}}."
     },
     "elevationSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} е {{difference}} {{units}} по-малко от {{primaryPointControllerLabel}}."
+      "value": "The {{secondaryPointControllerLabel}} is {{difference}} {{units}} below the {{primaryPointControllerLabel}}."
     },
     "pointLabels": {
-      "value": "Означения на точката"
+      "value": "Digon siffanta"
     },
     "distanceLabels": {
-      "value": "Означения на дистанцията"
+      "value": "Siffanta nisan abu"
     },
     "distanceDescription": {
-      "value": "Описание на разстоянието"
+      "value": "Kwatanta nisa/zango"
     },
     "tickMarks": {
-      "value": "Отметки"
+      "value": "Ja maki"
     },
     "absoluteValue": {
-      "value": "Абсолютна стойност"
+      "value": "Absolute value"
     },
     "directedDistance": {
-      "value": "Насочено разстояние"
+      "value": "Kudurta nisa/zango"
     },
     "distanceStatement": {
-      "value": "Разстояние"
+      "value": "Kalmar Zango/nisa"
     },
     "number-line-distance.title": {
-      "value": "Числова линия: Разстояние"
+      "value": "Lambar layi: Nisa/zango"
     }
   },
-  "es_PE": {
-    "screen.explore": {
-      "value": "Explora"
-    },
+  "hi": {
     "screen.generic": {
-      "value": "Genérico"
+      "value": "सामान्य"
+    },
+    "screen.explore": {
+      "value": "पता लगाएँ"
     },
     "genericAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} y {{primaryPointControllerLabel}} están {{difference}} {{units}} aparte."
+      "value": "{{secondaryPointControllerLabel}} और {{primaryPointControllerLabel}} के मध्य {{difference}} {{units}} की दूरी है।"
     },
     "genericDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} es {{difference}} {{units}} más positiva que  {{primaryPointControllerLabel}}."
+      "value": "{{primaryPointControllerLabel}} से {{secondaryPointControllerLabel}}  {{difference}} {{units}} ज्यादा धनात्मक है।"
     },
     "genericDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} es {{difference}} {{units}} más negativa que  {{primaryPointControllerLabel}}."
+      "value": "{{primaryPointControllerLabel}} से {{secondaryPointControllerLabel}}  {{difference}} {{units}} ज्यादा ऋणात्मक है।"
     },
     "unit": {
-      "value": "Unidad"
+      "value": "इकाई"
     },
     "units": {
-      "value": "Unidades"
+      "value": "इकाइयाँ"
     },
     "symbol.x": {
       "value": "x"
@@ -2162,109 +2138,94 @@
       "value": "E"
     },
     "symbol.west": {
-      "value": "O"
+      "value": "W"
     },
     "house": {
-      "value": "casa"
+      "value": "घर"
     },
     "person": {
-      "value": "persona"
+      "value": "व्यक्ति"
     },
     "distanceSceneAbsoluteDistanceTemplate": {
-      "value": "La {{secondaryPointControllerLabel}} y la {{primaryPointControllerLabel}} están  {{difference}} {{units}} separados."
+      "value": "{{secondaryPointControllerLabel}} और {{primaryPointControllerLabel}}  एक-दूसरे से {{difference}} {{units}} दूर हैं।"
     },
     "distanceSceneDirectedPositiveDistanceTemplate": {
-      "value": "La {{secondaryPointControllerLabel}} está {{difference}} {{units}} al este de la {{primaryPointControllerLabel}}."
+      "value": "{{secondaryPointControllerLabel}}  {{primaryPointControllerLabel}} से {{difference}} {{units}} पूर्व में है।"
     },
     "distanceSceneDirectedNegativeDistanceTemplate": {
-      "value": "La {{secondaryPointControllerLabel}} está {{difference}} {{units}} al oeste de la {{primaryPointControllerLabel}}."
+      "value": "{{secondaryPointControllerLabel}}  {{primaryPointControllerLabel}} से {{difference}} {{units}} पश्चिम में है।"
     },
     "symbol.meters": {
-      "value": "m"
+      "value": "मी."
     },
     "meter": {
-      "value": "metro"
+      "value": "मीटर"
     },
     "meters": {
-      "value": "metros"
+      "value": "मीटर"
     },
     "symbol.A": {
-      "value": "A"
+      "value": "अ"
     },
     "symbol.B": {
-      "value": "B"
+      "value": "ब"
     },
     "temperatureSceneAbsoluteDistanceTemplate": {
-      "value": "La diferencia de la temperatura es {{difference}} {{units}}."
+      "value": "तापमान में {{difference}} {{units}} अंतर है।"
     },
     "temperatureSceneDirectedPositiveDistanceTemplate": {
-      "value": "La ubicación {{secondaryPointControllerLabel}} está {{difference}} {{units}} más caliente que la ubicación {{primaryPointControllerLabel}}."
+      "value": "स्थान {{primaryPointControllerLabel}} से {{secondaryPointControllerLabel}} का तापमान {{difference}} {{units}} अधिक गरम है।"
     },
     "temperatureSceneDirectedNegativeDistanceTemplate": {
-      "value": "La ubicación  {{secondaryPointControllerLabel}} está {{difference}} {{units}} más fría que la ubicación {{primaryPointControllerLabel}}."
+      "value": "स्थान {{primaryPointControllerLabel}} से {{secondaryPointControllerLabel}} का तापमान {{difference}} {{units}} अधिक ठण्डा है।"
     },
     "symbol.degreesCelsius": {
-      "value": "°C"
+      "value": "°से."
     },
     "degree": {
-      "value": "grado"
+      "value": "डिग्री"
     },
     "degrees": {
-      "value": "grados"
+      "value": "डिग्री"
     },
     "fish": {
-      "value": "pez"
+      "value": "मच्छली"
     },
     "bird": {
-      "value": "pájaro"
+      "value": "पक्षी"
     },
     "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "La {{secondaryPointControllerLabel}} y la {{primaryPointControllerLabel}} tienen una distancia vertical de {{difference}} {{units}}."
+      "value": "{{secondaryPointControllerLabel}} और  {{primaryPointControllerLabel}} के मध्य {{difference}} {{units}} लंबवत दूरी है।"
     },
     "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "La {{secondaryPointControllerLabel}} está {{difference}} {{units}} por encima del {{primaryPointControllerLabel}}."
+      "value": "{{secondaryPointControllerLabel}} {{primaryPointControllerLabel}} से {{difference}} {{units}} ऊपर है।"
     },
     "elevationSceneDirectedNegativeDistanceTemplate": {
-      "value": "La {{secondaryPointControllerLabel}} está {{difference}} {{units}} por debajo de la {{primaryPointControllerLabel}}."
+      "value": "{{secondaryPointControllerLabel}} {{primaryPointControllerLabel}} से {{difference}} {{units}} नीचे है।"
     },
     "pointLabels": {
-      "value": "Etiquetas de los puntos"
+      "value": "बिंदू नामांकन"
     },
     "distanceLabels": {
-      "value": "Etiqueta(s) de la(s) distancia(s)"
+      "value": "दूरी नामांकन"
     },
     "distanceDescription": {
-      "value": "Descripción de la distancia"
+      "value": "दूरी विवरण"
     },
     "tickMarks": {
-      "value": "Marcas de graduación"
+      "value": "चिह्नित करें"
     },
     "absoluteValue": {
-      "value": "Valor absoluto"
+      "value": "निरपेक्ष मान"
     },
     "directedDistance": {
-      "value": "Distancia dirigida"
+      "value": "निर्देशित दूरी"
     },
     "distanceStatement": {
-      "value": "Declaración de distancia"
+      "value": "दूरी विवरण"
     },
     "number-line-distance.title": {
-      "value": "Recta numérica: Distancia"
-    },
-    "displacement": {
-      "value": "Desplazamiento"
-    },
-    "terminology": {
-      "value": "Terminología"
-    },
-    "terminologyControlDescription": {
-      "value": "Elija la terminología utilizada para describir la diferencia entre dos números enteros."
-    },
-    "mathSymbolPattern": {
-      "value": "<span style='font-family: \"Times New Roman\", Times, serif;font-style: italic'>{{symbol}}</span>"
-    },
-    "variableSubscriptPattern": {
-      "value": "{{variable}}<sub style='font-style:normal'>{{subscript}}</sub>"
+      "value": "संख्या रेखा: दूरी"
     }
   },
   "hr": {
@@ -2389,117 +2350,141 @@
       "value": "Brojevni pravac: Udaljenost"
     }
   },
-  "cs": {
+  "ht": {
     "screen.explore": {
-      "value": "Prozkoumat"
+      "value": "Eksplore"
     },
     "screen.generic": {
-      "value": "Obecně"
-    },
-    "genericAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} a {{primaryPointControllerLabel}} jsou vzdálené {{difference}} {{units}}."
-    },
-    "genericDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} je {{difference}} {{units}} kladnější, než {{primaryPointControllerLabel}}."
-    },
-    "genericDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} je {{difference}} {{units}} negativnější, než {{primaryPointControllerLabel}}."
-    },
-    "unit": {
-      "value": "jednotka"
-    },
-    "units": {
-      "value": "jednotky"
-    },
-    "symbol.east": {
-      "value": "V"
-    },
-    "symbol.west": {
-      "value": "Z"
-    },
-    "house": {
-      "value": "dům"
-    },
-    "person": {
-      "value": "osoba"
-    },
-    "distanceSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} a {{primaryPointControllerLabel}} jsou vzdálené  {{difference}} {{units}}."
-    },
-    "distanceSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} je {{difference}} {{units}} východně od {{primaryPointControllerLabel}}."
-    },
-    "distanceSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} je {{difference}} {{units}} západně od {{primaryPointControllerLabel}}."
-    },
-    "meter": {
-      "value": "metr"
-    },
-    "meters": {
-      "value": "metrů/y"
-    },
-    "temperatureSceneAbsoluteDistanceTemplate": {
-      "value": "Rozdíl teploty je {{difference}} {{units}}."
-    },
-    "temperatureSceneDirectedPositiveDistanceTemplate": {
-      "value": "Místo {{secondaryPointControllerLabel}} je o {{difference}} {{units}} teplejší, než místo {{primaryPointControllerLabel}}."
-    },
-    "temperatureSceneDirectedNegativeDistanceTemplate": {
-      "value": "Místo {{secondaryPointControllerLabel}} je o {{difference}} {{units}} studenější, než místo {{primaryPointControllerLabel}}."
-    },
-    "degree": {
-      "value": "stupeň"
-    },
-    "degrees": {
-      "value": "stupňů/e/stupeň"
-    },
-    "fish": {
-      "value": "ryba"
-    },
-    "bird": {
-      "value": "pták"
-    },
-    "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} a {{primaryPointControllerLabel}} mají vertikální vzdálenost  {{difference}} {{units}}."
-    },
-    "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} je {{difference}} {{units}} nad  {{primaryPointControllerLabel}}."
-    },
-    "elevationSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} je {{difference}} {{units}} pod {{primaryPointControllerLabel}}."
-    },
-    "pointLabels": {
-      "value": "Popisky  bodů"
-    },
-    "distanceLabels": {
-      "value": "Popisek vzdálenosti"
-    },
-    "distanceDescription": {
-      "value": "Slovní popis vzdálenosti"
-    },
-    "tickMarks": {
-      "value": "Značky na ose"
-    },
-    "absoluteValue": {
-      "value": "Absolutní hodnota"
+      "value": "Jenerik"
     },
     "directedDistance": {
-      "value": "Dálka (orientovaná vzdálenost)"
-    },
-    "distanceStatement": {
-      "value": "Vyjádření vzdálenosti"
-    },
-    "number-line-distance.title": {
-      "value": "Číselná osa: vzdálenost"
+      "value": "Distans Dirije"
     },
     "displacement": {
-      "value": "Absolutní hodnota"
+      "value": "Deplasman"
     },
     "terminology": {
-      "value": "Terminologie"
+      "value": "Tèminoloji"
     },
     "terminologyControlDescription": {
-      "value": "Vyberte terminologii používanou k popisu rozdílu dvou celých čísel."
+      "value": "Chwazi tèminoloji yo itilize pou dekri diferans ki genyen ant de nonb antye."
+    },
+    "genericAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} ak {{primaryPointControllerLabel}} yo {{difference}} {{units}} apa."
+    },
+    "genericDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} se {{difference}} {{units}} pi pozitif pase {{primaryPointControllerLabel}}."
+    },
+    "genericDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} se {{difference}} {{units}} pi negatif pasen {{primaryPointControllerLabel}}."
+    },
+    "mathSymbolPattern": {
+      "value": "<span style='font-family: \"Times New Roman\", Times, serif;font-style: italic'>{{symbol}}</span>"
+    },
+    "unit": {
+      "value": "inite"
+    },
+    "units": {
+      "value": "inite yo"
+    },
+    "symbol.x": {
+      "value": "x"
+    },
+    "symbol.y": {
+      "value": "y"
+    },
+    "variableSubscriptPattern": {
+      "value": "{{variable}}<sub style='font-style:normal'>{{subscript}}</sub>"
+    },
+    "symbol.east": {
+      "value": "E"
+    },
+    "symbol.west": {
+      "value": "W"
+    },
+    "house": {
+      "value": "kay"
+    },
+    "person": {
+      "value": "moun"
+    },
+    "distanceSceneAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} ak {{primaryPointControllerLabel}} yo {{difference}} {{units}} apa."
+    },
+    "distanceSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} se {{difference}} {{units}} a lès de {{primaryPointControllerLabel}}."
+    },
+    "distanceSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} se {{difference}} {{units}} a lwès de {{primaryPointControllerLabel}}."
+    },
+    "symbol.meters": {
+      "value": "m"
+    },
+    "meter": {
+      "value": "mèt"
+    },
+    "meters": {
+      "value": "mèt yo"
+    },
+    "fish": {
+      "value": "pwason"
+    },
+    "bird": {
+      "value": "zwazo"
+    },
+    "elevationSceneAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} ak {{primaryPointControllerLabel}} gen yon distans vètikal de {{difference}} {{units}}."
+    },
+    "elevationSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} la se {{difference}} {{units}} anlè {{primaryPointControllerLabel}} la."
+    },
+    "elevationSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} la se {{difference}} {{units}} anba {{primaryPointControllerLabel}} la."
+    },
+    "symbol.A": {
+      "value": "A"
+    },
+    "symbol.B": {
+      "value": "B"
+    },
+    "temperatureSceneAbsoluteDistanceTemplate": {
+      "value": "Diferans tanperati a se {{difference}} {{units}}."
+    },
+    "temperatureSceneDirectedPositiveDistanceTemplate": {
+      "value": "Kote {{secondaryPointControllerLabel}} se {{difference}} {{units}} pi cho pase kote {{primaryPointControllerLabel}}."
+    },
+    "temperatureSceneDirectedNegativeDistanceTemplate": {
+      "value": "Kote {{secondaryPointControllerLabel}} se {{difference}} {{units}} pi frèt pase kote {{primaryPointControllerLabel}}."
+    },
+    "symbol.degreesCelsius": {
+      "value": "°C"
+    },
+    "degree": {
+      "value": "degre"
+    },
+    "degrees": {
+      "value": "degre yo"
+    },
+    "pointLabels": {
+      "value": "Etikèt Pwen yo"
+    },
+    "distanceLabels": {
+      "value": "Etikèt Distans yo"
+    },
+    "distanceDescription": {
+      "value": "Deskripsyon Distans"
+    },
+    "tickMarks": {
+      "value": "Liy Nimewote"
+    },
+    "absoluteValue": {
+      "value": "Valè Absoli"
+    },
+    "distanceStatement": {
+      "value": "Relve Distans"
+    },
+    "number-line-distance.title": {
+      "value": "Liy Nimewote"
     }
   },
   "hy": {
@@ -2746,27 +2731,27 @@
       "value": "Ahịrị nọmba: Anya"
     }
   },
-  "hi": {
+  "in": {
     "screen.generic": {
-      "value": "सामान्य"
+      "value": "Konsep"
     },
     "screen.explore": {
-      "value": "पता लगाएँ"
+      "value": "Eksplorasi"
     },
     "genericAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} और {{primaryPointControllerLabel}} के मध्य {{difference}} {{units}} की दूरी है।"
+      "value": "Jarak benda {{secondaryPointControllerLabel}} dan benda {{primaryPointControllerLabel}} adalah {{difference}} {{units}}."
     },
     "genericDirectedPositiveDistanceTemplate": {
-      "value": "{{primaryPointControllerLabel}} से {{secondaryPointControllerLabel}}  {{difference}} {{units}} ज्यादा धनात्मक है।"
+      "value": "Jarak benda {{secondaryPointControllerLabel}} adalah {{difference}} {{units}} lebih positif daripada benda {{primaryPointControllerLabel}}."
     },
     "genericDirectedNegativeDistanceTemplate": {
-      "value": "{{primaryPointControllerLabel}} से {{secondaryPointControllerLabel}}  {{difference}} {{units}} ज्यादा ऋणात्मक है।"
+      "value": "Jarak benda {{secondaryPointControllerLabel}} adalah {{difference}} {{units}} lebih negatif daripada benda {{primaryPointControllerLabel}}."
     },
     "unit": {
-      "value": "इकाई"
+      "value": "satuan"
     },
     "units": {
-      "value": "इकाइयाँ"
+      "value": "satuan"
     },
     "symbol.x": {
       "value": "x"
@@ -2775,189 +2760,34 @@
       "value": "y"
     },
     "symbol.east": {
-      "value": "E"
+      "value": "Timur"
     },
     "symbol.west": {
-      "value": "W"
+      "value": "Barat"
     },
     "house": {
-      "value": "घर"
+      "value": "Rumah"
     },
     "person": {
-      "value": "व्यक्ति"
+      "value": "Manusia"
     },
     "distanceSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} और {{primaryPointControllerLabel}}  एक-दूसरे से {{difference}} {{units}} दूर हैं।"
+      "value": "Jarak {{secondaryPointControllerLabel}} dengan {{primaryPointControllerLabel}} adalah {{difference}} {{units}}."
     },
     "distanceSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}  {{primaryPointControllerLabel}} से {{difference}} {{units}} पूर्व में है।"
+      "value": "Jarak {{secondaryPointControllerLabel}} adalah {{difference}} {{units}} sebelah timur dari {{primaryPointControllerLabel}}."
     },
     "distanceSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}  {{primaryPointControllerLabel}} से {{difference}} {{units}} पश्चिम में है।"
-    },
-    "symbol.meters": {
-      "value": "मी."
-    },
-    "meter": {
-      "value": "मीटर"
-    },
-    "meters": {
-      "value": "मीटर"
-    },
-    "symbol.A": {
-      "value": "अ"
-    },
-    "symbol.B": {
-      "value": "ब"
-    },
-    "temperatureSceneAbsoluteDistanceTemplate": {
-      "value": "तापमान में {{difference}} {{units}} अंतर है।"
-    },
-    "temperatureSceneDirectedPositiveDistanceTemplate": {
-      "value": "स्थान {{primaryPointControllerLabel}} से {{secondaryPointControllerLabel}} का तापमान {{difference}} {{units}} अधिक गरम है।"
-    },
-    "temperatureSceneDirectedNegativeDistanceTemplate": {
-      "value": "स्थान {{primaryPointControllerLabel}} से {{secondaryPointControllerLabel}} का तापमान {{difference}} {{units}} अधिक ठण्डा है।"
-    },
-    "symbol.degreesCelsius": {
-      "value": "°से."
-    },
-    "degree": {
-      "value": "डिग्री"
-    },
-    "degrees": {
-      "value": "डिग्री"
-    },
-    "fish": {
-      "value": "मच्छली"
-    },
-    "bird": {
-      "value": "पक्षी"
-    },
-    "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} और  {{primaryPointControllerLabel}} के मध्य {{difference}} {{units}} लंबवत दूरी है।"
-    },
-    "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} {{primaryPointControllerLabel}} से {{difference}} {{units}} ऊपर है।"
-    },
-    "elevationSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} {{primaryPointControllerLabel}} से {{difference}} {{units}} नीचे है।"
-    },
-    "pointLabels": {
-      "value": "बिंदू नामांकन"
-    },
-    "distanceLabels": {
-      "value": "दूरी नामांकन"
-    },
-    "distanceDescription": {
-      "value": "दूरी विवरण"
-    },
-    "tickMarks": {
-      "value": "चिह्नित करें"
-    },
-    "absoluteValue": {
-      "value": "निरपेक्ष मान"
-    },
-    "directedDistance": {
-      "value": "निर्देशित दूरी"
-    },
-    "distanceStatement": {
-      "value": "दूरी विवरण"
-    },
-    "number-line-distance.title": {
-      "value": "संख्या रेखा: दूरी"
-    }
-  },
-  "ht": {
-    "screen.explore": {
-      "value": "Eksplore"
-    },
-    "screen.generic": {
-      "value": "Jenerik"
-    },
-    "directedDistance": {
-      "value": "Distans Dirije"
-    },
-    "displacement": {
-      "value": "Deplasman"
-    },
-    "terminology": {
-      "value": "Tèminoloji"
-    },
-    "terminologyControlDescription": {
-      "value": "Chwazi tèminoloji yo itilize pou dekri diferans ki genyen ant de nonb antye."
-    },
-    "genericAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} ak {{primaryPointControllerLabel}} yo {{difference}} {{units}} apa."
-    },
-    "genericDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} se {{difference}} {{units}} pi pozitif pase {{primaryPointControllerLabel}}."
-    },
-    "genericDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} se {{difference}} {{units}} pi negatif pasen {{primaryPointControllerLabel}}."
-    },
-    "mathSymbolPattern": {
-      "value": "<span style='font-family: \"Times New Roman\", Times, serif;font-style: italic'>{{symbol}}</span>"
-    },
-    "unit": {
-      "value": "inite"
-    },
-    "units": {
-      "value": "inite yo"
-    },
-    "symbol.x": {
-      "value": "x"
-    },
-    "symbol.y": {
-      "value": "y"
-    },
-    "variableSubscriptPattern": {
-      "value": "{{variable}}<sub style='font-style:normal'>{{subscript}}</sub>"
-    },
-    "symbol.east": {
-      "value": "E"
-    },
-    "symbol.west": {
-      "value": "W"
-    },
-    "house": {
-      "value": "kay"
-    },
-    "person": {
-      "value": "moun"
-    },
-    "distanceSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} ak {{primaryPointControllerLabel}} yo {{difference}} {{units}} apa."
-    },
-    "distanceSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} se {{difference}} {{units}} a lès de {{primaryPointControllerLabel}}."
-    },
-    "distanceSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} se {{difference}} {{units}} a lwès de {{primaryPointControllerLabel}}."
+      "value": "Jarak {{secondaryPointControllerLabel}} adalah {{difference}} {{units}} sebelah barat dari {{primaryPointControllerLabel}}."
     },
     "symbol.meters": {
       "value": "m"
     },
     "meter": {
-      "value": "mèt"
+      "value": "meter"
     },
     "meters": {
-      "value": "mèt yo"
-    },
-    "fish": {
-      "value": "pwason"
-    },
-    "bird": {
-      "value": "zwazo"
-    },
-    "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} ak {{primaryPointControllerLabel}} gen yon distans vètikal de {{difference}} {{units}}."
-    },
-    "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} la se {{difference}} {{units}} anlè {{primaryPointControllerLabel}} la."
-    },
-    "elevationSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} la se {{difference}} {{units}} anba {{primaryPointControllerLabel}} la."
+      "value": "meter"
     },
     "symbol.A": {
       "value": "A"
@@ -2966,180 +2796,61 @@
       "value": "B"
     },
     "temperatureSceneAbsoluteDistanceTemplate": {
-      "value": "Diferans tanperati a se {{difference}} {{units}}."
+      "value": "Selisih kedua suhu tersebut adalah {{difference}} {{units}}."
     },
     "temperatureSceneDirectedPositiveDistanceTemplate": {
-      "value": "Kote {{secondaryPointControllerLabel}} se {{difference}} {{units}} pi cho pase kote {{primaryPointControllerLabel}}."
+      "value": "Suhu di lokasi {{secondaryPointControllerLabel}} adalah {{difference}} {{units}} lebih panas daripada suhu di lokasi {{primaryPointControllerLabel}}."
     },
     "temperatureSceneDirectedNegativeDistanceTemplate": {
-      "value": "Kote {{secondaryPointControllerLabel}} se {{difference}} {{units}} pi frèt pase kote {{primaryPointControllerLabel}}."
+      "value": "Suhu di lokasi {{secondaryPointControllerLabel}} adalah {{difference}} {{units}} lebih dingin daripada suhu di lokasi {{primaryPointControllerLabel}}."
     },
     "symbol.degreesCelsius": {
       "value": "°C"
     },
     "degree": {
-      "value": "degre"
+      "value": "derajat"
     },
     "degrees": {
-      "value": "degre yo"
-    },
-    "pointLabels": {
-      "value": "Etikèt Pwen yo"
-    },
-    "distanceLabels": {
-      "value": "Etikèt Distans yo"
-    },
-    "distanceDescription": {
-      "value": "Deskripsyon Distans"
-    },
-    "tickMarks": {
-      "value": "Liy Nimewote"
-    },
-    "absoluteValue": {
-      "value": "Valè Absoli"
-    },
-    "distanceStatement": {
-      "value": "Relve Distans"
-    },
-    "number-line-distance.title": {
-      "value": "Liy Nimewote"
-    }
-  },
-  "iw": {
-    "screen.explore": {
-      "value": "חקירה"
-    },
-    "screen.generic": {
-      "value": "כללי"
-    },
-    "genericAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}  ו{{primaryPointControllerLabel}} נמצאים במרחק {{difference}} {{units}} ביניהם."
-    },
-    "genericDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} נמצא {{difference}} {{units}} חיובי יותר  מאשר {{primaryPointControllerLabel}}."
-    },
-    "genericDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} נמצא {{difference}} {{units}} שלילי יותר מאשר {{primaryPointControllerLabel}}."
-    },
-    "unit": {
-      "value": "יחידה"
-    },
-    "units": {
-      "value": "יחידות"
-    },
-    "symbol.x": {
-      "value": "x"
-    },
-    "symbol.y": {
-      "value": "y"
-    },
-    "symbol.east": {
-      "value": "מזרח"
-    },
-    "symbol.west": {
-      "value": "מערב"
-    },
-    "house": {
-      "value": "בית"
-    },
-    "person": {
-      "value": "אדם"
-    },
-    "distanceSceneAbsoluteDistanceTemplate": {
-      "value": "ה{{secondaryPointControllerLabel}} וה {{primaryPointControllerLabel}} נמצאים במרחק של {{difference}} {{units}} ביניהם."
-    },
-    "distanceSceneDirectedPositiveDistanceTemplate": {
-      "value": "ה{{secondaryPointControllerLabel}} נמצא במרחק  {{difference}} {{units}} מזרחה מה{{primaryPointControllerLabel}}"
-    },
-    "distanceSceneDirectedNegativeDistanceTemplate": {
-      "value": "ה{{secondaryPointControllerLabel}} נמצא במרחק {{difference}} {{units}} מערבה מה{{primaryPointControllerLabel}}"
-    },
-    "symbol.meters": {
-      "value": "m"
-    },
-    "meter": {
-      "value": "מטר"
-    },
-    "meters": {
-      "value": "מטרים"
-    },
-    "symbol.A": {
-      "value": "A"
-    },
-    "symbol.B": {
-      "value": "B"
-    },
-    "temperatureSceneAbsoluteDistanceTemplate": {
-      "value": "ההבדל בין הטמפרטורות שווה ל{{difference}} {{units}}."
-    },
-    "temperatureSceneDirectedPositiveDistanceTemplate": {
-      "value": "המיקום של {{secondaryPointControllerLabel}} הוא {{difference}} {{units}} חם יותר מאשר {{primaryPointControllerLabel}}."
-    },
-    "temperatureSceneDirectedNegativeDistanceTemplate": {
-      "value": "המיקום של {{secondaryPointControllerLabel}} הוא {{difference}} {{units}} קר יותר מאשר {{primaryPointControllerLabel}}."
-    },
-    "symbol.degreesCelsius": {
-      "value": "C°"
-    },
-    "degree": {
-      "value": "מעלה"
-    },
-    "degrees": {
-      "value": "מעלות"
+      "value": "derajat"
     },
     "fish": {
-      "value": "דג"
+      "value": "ikan"
     },
     "bird": {
-      "value": "ציפור"
+      "value": "burung"
     },
     "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "ה{{secondaryPointControllerLabel}} וה{{primaryPointControllerLabel}} נמצאים  במרחק אנכי של {{difference}} {{units}}."
+      "value": "{{secondaryPointControllerLabel}} dan  {{primaryPointControllerLabel}} berjarak vertikal {{difference}} {{units}}."
     },
     "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "ה{{secondaryPointControllerLabel}} נמצא במרחק של {{difference}} {{units}} מעל ה{{primaryPointControllerLabel}}."
+      "value": "Posisi {{secondaryPointControllerLabel}} adalah {{difference}} {{units}} di atas posisi {{primaryPointControllerLabel}}."
     },
     "elevationSceneDirectedNegativeDistanceTemplate": {
-      "value": "ה{{secondaryPointControllerLabel}} נמצא במרחק של {{difference}} {{units}} מעל ה{{primaryPointControllerLabel}}."
+      "value": "Posisi {{secondaryPointControllerLabel}} adalah {{difference}} {{units}} di bawah posisi {{primaryPointControllerLabel}}."
     },
     "pointLabels": {
-      "value": "ערכי הנקודות"
+      "value": "Tampilkan Posisi Benda di Garis Bilangan"
     },
     "distanceLabels": {
-      "value": "ערך המרחק"
+      "value": "Tampilkan Jarak  Kedua Benda"
     },
     "distanceDescription": {
-      "value": "תאור המרחק"
+      "value": "Keterangan Jarak Kedua Benda"
     },
     "tickMarks": {
-      "value": "שנתות"
+      "value": "Tampilkan Angka pada Garis Bilangan"
     },
     "absoluteValue": {
-      "value": "ערך מוחלט"
+      "value": "Nilai Mutlak"
     },
     "directedDistance": {
-      "value": "מרחק ישיר"
+      "value": "Nilai Hitung"
     },
     "distanceStatement": {
-      "value": "קביעת מרחק"
+      "value": "Jarak menyatakan"
     },
     "number-line-distance.title": {
-      "value": "ציר המספרים: מרחק"
-    },
-    "displacement": {
-      "value": "העתק"
-    },
-    "terminology": {
-      "value": "מינוח"
-    },
-    "terminologyControlDescription": {
-      "value": "בחר את המושג שישמש לתיאור ההבדל בין שני מספרים שלמים."
-    },
-    "mathSymbolPattern": {
-      "value": "<span style='font-family: \"Times New Roman\", Times, serif;font-style: italic'>{{symbol}}</span>"
-    },
-    "variableSubscriptPattern": {
-      "value": "{{variable}}<sub style='font-style:normal'>{{subscript}}</sub>"
+      "value": "Garis Bilangan: Jarak"
     }
   },
   "it": {
@@ -3279,27 +2990,164 @@
       "value": "{{variable}}<sub style='font-style:normal'>{{subscript}}</sub>"
     }
   },
-  "ha": {
-    "screen.generic": {
-      "value": "Na gamayya"
-    },
+  "iw": {
     "screen.explore": {
-      "value": "Binciko"
+      "value": "חקירה"
+    },
+    "screen.generic": {
+      "value": "כללי"
     },
     "genericAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} and {{primaryPointControllerLabel}} are {{difference}} {{units}} apart."
+      "value": "{{secondaryPointControllerLabel}}  ו{{primaryPointControllerLabel}} נמצאים במרחק {{difference}} {{units}} ביניהם."
     },
     "genericDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} is {{difference}} {{units}} more positive than {{primaryPointControllerLabel}}."
+      "value": "{{secondaryPointControllerLabel}} נמצא {{difference}} {{units}} חיובי יותר  מאשר {{primaryPointControllerLabel}}."
     },
     "genericDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} is {{difference}} {{units}} more negative than {{primaryPointControllerLabel}}."
+      "value": "{{secondaryPointControllerLabel}} נמצא {{difference}} {{units}} שלילי יותר מאשר {{primaryPointControllerLabel}}."
     },
     "unit": {
-      "value": "Sashe/Rukuni"
+      "value": "יחידה"
     },
     "units": {
-      "value": "Sashe/Rukuni"
+      "value": "יחידות"
+    },
+    "symbol.x": {
+      "value": "x"
+    },
+    "symbol.y": {
+      "value": "y"
+    },
+    "symbol.east": {
+      "value": "מזרח"
+    },
+    "symbol.west": {
+      "value": "מערב"
+    },
+    "house": {
+      "value": "בית"
+    },
+    "person": {
+      "value": "אדם"
+    },
+    "distanceSceneAbsoluteDistanceTemplate": {
+      "value": "ה{{secondaryPointControllerLabel}} וה {{primaryPointControllerLabel}} נמצאים במרחק של {{difference}} {{units}} ביניהם."
+    },
+    "distanceSceneDirectedPositiveDistanceTemplate": {
+      "value": "ה{{secondaryPointControllerLabel}} נמצא במרחק  {{difference}} {{units}} מזרחה מה{{primaryPointControllerLabel}}"
+    },
+    "distanceSceneDirectedNegativeDistanceTemplate": {
+      "value": "ה{{secondaryPointControllerLabel}} נמצא במרחק {{difference}} {{units}} מערבה מה{{primaryPointControllerLabel}}"
+    },
+    "symbol.meters": {
+      "value": "m"
+    },
+    "meter": {
+      "value": "מטר"
+    },
+    "meters": {
+      "value": "מטרים"
+    },
+    "symbol.A": {
+      "value": "A"
+    },
+    "symbol.B": {
+      "value": "B"
+    },
+    "temperatureSceneAbsoluteDistanceTemplate": {
+      "value": "ההבדל בין הטמפרטורות שווה ל{{difference}} {{units}}."
+    },
+    "temperatureSceneDirectedPositiveDistanceTemplate": {
+      "value": "המיקום של {{secondaryPointControllerLabel}} הוא {{difference}} {{units}} חם יותר מאשר {{primaryPointControllerLabel}}."
+    },
+    "temperatureSceneDirectedNegativeDistanceTemplate": {
+      "value": "המיקום של {{secondaryPointControllerLabel}} הוא {{difference}} {{units}} קר יותר מאשר {{primaryPointControllerLabel}}."
+    },
+    "symbol.degreesCelsius": {
+      "value": "C°"
+    },
+    "degree": {
+      "value": "מעלה"
+    },
+    "degrees": {
+      "value": "מעלות"
+    },
+    "fish": {
+      "value": "דג"
+    },
+    "bird": {
+      "value": "ציפור"
+    },
+    "elevationSceneAbsoluteDistanceTemplate": {
+      "value": "ה{{secondaryPointControllerLabel}} וה{{primaryPointControllerLabel}} נמצאים  במרחק אנכי של {{difference}} {{units}}."
+    },
+    "elevationSceneDirectedPositiveDistanceTemplate": {
+      "value": "ה{{secondaryPointControllerLabel}} נמצא במרחק של {{difference}} {{units}} מעל ה{{primaryPointControllerLabel}}."
+    },
+    "elevationSceneDirectedNegativeDistanceTemplate": {
+      "value": "ה{{secondaryPointControllerLabel}} נמצא במרחק של {{difference}} {{units}} מעל ה{{primaryPointControllerLabel}}."
+    },
+    "pointLabels": {
+      "value": "ערכי הנקודות"
+    },
+    "distanceLabels": {
+      "value": "ערך המרחק"
+    },
+    "distanceDescription": {
+      "value": "תאור המרחק"
+    },
+    "tickMarks": {
+      "value": "שנתות"
+    },
+    "absoluteValue": {
+      "value": "ערך מוחלט"
+    },
+    "directedDistance": {
+      "value": "מרחק ישיר"
+    },
+    "distanceStatement": {
+      "value": "קביעת מרחק"
+    },
+    "number-line-distance.title": {
+      "value": "ציר המספרים: מרחק"
+    },
+    "displacement": {
+      "value": "העתק"
+    },
+    "terminology": {
+      "value": "מינוח"
+    },
+    "terminologyControlDescription": {
+      "value": "בחר את המושג שישמש לתיאור ההבדל בין שני מספרים שלמים."
+    },
+    "mathSymbolPattern": {
+      "value": "<span style='font-family: \"Times New Roman\", Times, serif;font-style: italic'>{{symbol}}</span>"
+    },
+    "variableSubscriptPattern": {
+      "value": "{{variable}}<sub style='font-style:normal'>{{subscript}}</sub>"
+    }
+  },
+  "ki": {
+    "screen.explore": {
+      "value": "Gũthuthuria"
+    },
+    "screen.generic": {
+      "value": "Kĩndũ gĩa Kĩndũ"
+    },
+    "genericAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} and {{primaryPointControllerLabel}} are {{difference}} {{units}} kutigana."
+    },
+    "genericDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} is {{difference}} {{units}} more positive than {{primaryPointControllerLabel}}."
+    },
+    "genericDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} is {{difference}} {{units}} makĩria ma{{primaryPointControllerLabel}}."
+    },
+    "unit": {
+      "value": "gakundi"
+    },
+    "units": {
+      "value": "gĩkundi"
     },
     "symbol.x": {
       "value": "x"
@@ -3314,28 +3162,28 @@
       "value": "W"
     },
     "house": {
-      "value": "gida"
+      "value": "nyuba"
     },
     "person": {
-      "value": "Mutum"
+      "value": "mundu"
     },
     "distanceSceneAbsoluteDistanceTemplate": {
-      "value": "The {{secondaryPointControllerLabel}} and the {{primaryPointControllerLabel}} are {{difference}} {{units}} apart."
+      "value": "Ũhoro wa {{secondaryPointControllerLabel}} and the {{primaryPointControllerLabel}} are {{difference}} {{units}} kutigana."
     },
     "distanceSceneDirectedPositiveDistanceTemplate": {
-      "value": "The {{secondaryPointControllerLabel}} is {{difference}} {{units}} east of the {{primaryPointControllerLabel}}."
+      "value": "Ũhoro wa  {{secondaryPointControllerLabel}} is {{difference}} {{units}} mwena wa irathĩro wa  {{primaryPointControllerLabel}}."
     },
     "distanceSceneDirectedNegativeDistanceTemplate": {
-      "value": "The {{secondaryPointControllerLabel}} is {{difference}} {{units}} west of the {{primaryPointControllerLabel}}."
+      "value": "Ũhoro wa  {{secondaryPointControllerLabel}} is {{difference}} {{units}} mwena wa ithũĩro wa {{primaryPointControllerLabel}}."
     },
     "symbol.meters": {
       "value": "m"
     },
     "meter": {
-      "value": "meter(ma'aunin auna tsayi)"
+      "value": "mita"
     },
     "meters": {
-      "value": "meters"
+      "value": "mita"
     },
     "symbol.A": {
       "value": "A"
@@ -3344,13 +3192,13 @@
       "value": "B"
     },
     "temperatureSceneAbsoluteDistanceTemplate": {
-      "value": "Bambancin temperature shine {{difference}} {{units}}."
+      "value": "Ngũrani ya rĩera na rĩera nĩ  {{difference}} {{units}}."
     },
     "temperatureSceneDirectedPositiveDistanceTemplate": {
-      "value": "Location {{secondaryPointControllerLabel}} is {{difference}} {{units}} hotter than location {{primaryPointControllerLabel}}."
+      "value": "Kũrĩa gũkoragwo {{secondaryPointControllerLabel}} is {{difference}} {{units}} rĩhiũhĩte gũkĩra harĩa rĩarĩ {{primaryPointControllerLabel}}."
     },
     "temperatureSceneDirectedNegativeDistanceTemplate": {
-      "value": "Location {{secondaryPointControllerLabel}} is {{difference}} {{units}} colder than location {{primaryPointControllerLabel}}."
+      "value": "Kũrĩa gũkoragwo {{secondaryPointControllerLabel}} is {{difference}} {{units}} rĩhorere gũkĩra harĩa rĩarĩ {{primaryPointControllerLabel}}."
     },
     "symbol.degreesCelsius": {
       "value": "°C"
@@ -3362,43 +3210,43 @@
       "value": "degrees"
     },
     "fish": {
-      "value": "Kifi"
+      "value": "thamaki"
     },
     "bird": {
-      "value": "Tsunstu"
+      "value": "nyoni"
     },
     "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "The {{secondaryPointControllerLabel}} and the {{primaryPointControllerLabel}} have a vertical distance of {{difference}} {{units}}."
+      "value": "Uhoro wa {{secondaryPointControllerLabel}} na cia {{primaryPointControllerLabel}} marĩ na ũraihu wa igũrũ wa {{difference}} {{units}}."
     },
     "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "The {{secondaryPointControllerLabel}} is {{difference}} {{units}} above the {{primaryPointControllerLabel}}."
+      "value": "Uhoro wa {{secondaryPointControllerLabel}} is {{difference}} {{units}} ũrĩa ũrĩ igũrũ  {{primaryPointControllerLabel}}."
     },
     "elevationSceneDirectedNegativeDistanceTemplate": {
-      "value": "The {{secondaryPointControllerLabel}} is {{difference}} {{units}} below the {{primaryPointControllerLabel}}."
+      "value": "Uhoro wa {{secondaryPointControllerLabel}} is {{difference}} {{units}} thĩiniĩ wa{{primaryPointControllerLabel}}."
     },
     "pointLabels": {
-      "value": "Digon siffanta"
+      "value": "Marũa ma Gũcokia"
     },
     "distanceLabels": {
-      "value": "Siffanta nisan abu"
+      "value": "Iraihu Marũa"
     },
     "distanceDescription": {
-      "value": "Kwatanta nisa/zango"
+      "value": "Iraihu Ũtaũri"
     },
     "tickMarks": {
-      "value": "Ja maki"
+      "value": "Marũũri"
     },
     "absoluteValue": {
-      "value": "Absolute value"
+      "value": "Ũhoro wa ma Thogora"
     },
     "directedDistance": {
-      "value": "Kudurta nisa/zango"
+      "value": "Kĩambĩrĩria Iraihu"
     },
     "distanceStatement": {
-      "value": "Kalmar Zango/nisa"
+      "value": "Iraihu Ũhoro"
     },
     "number-line-distance.title": {
-      "value": "Lambar layi: Nisa/zango"
+      "value": "Mũhari wa namba:Iraihu"
     }
   },
   "ko": {
@@ -3660,248 +3508,221 @@
       "value": "Layini y'ennamba: Olugendo"
     }
   },
-  "in": {
+  "mi": {
     "screen.generic": {
-      "value": "Konsep"
+      "value": "Māori"
     },
     "screen.explore": {
-      "value": "Eksplorasi"
+      "value": "Tūhura"
     },
     "genericAbsoluteDistanceTemplate": {
-      "value": "Jarak benda {{secondaryPointControllerLabel}} dan benda {{primaryPointControllerLabel}} adalah {{difference}} {{units}}."
+      "value": "{{difference}} {{units}} te tawhiti mai i {{primaryPointControllerLabel}} ki {{secondaryPointControllerLabel}}"
     },
     "genericDirectedPositiveDistanceTemplate": {
-      "value": "Jarak benda {{secondaryPointControllerLabel}} adalah {{difference}} {{units}} lebih positif daripada benda {{primaryPointControllerLabel}}."
+      "value": "He tōrunga ake te {{secondaryPointControllerLabel}}  i te  {{primaryPointControllerLabel}} mā te {{difference}} {{units}}."
     },
     "genericDirectedNegativeDistanceTemplate": {
-      "value": "Jarak benda {{secondaryPointControllerLabel}} adalah {{difference}} {{units}} lebih negatif daripada benda {{primaryPointControllerLabel}}."
+      "value": "He tōraro anō te  {{secondaryPointControllerLabel}} i te  {{primaryPointControllerLabel}} mā te {{difference}} {{units}}."
     },
     "unit": {
-      "value": "satuan"
+      "value": "waeine"
     },
     "units": {
-      "value": "satuan"
+      "value": "ngā waeine"
     },
     "symbol.x": {
-      "value": "x"
+      "value": "a"
     },
     "symbol.y": {
-      "value": "y"
-    },
-    "symbol.east": {
-      "value": "Timur"
-    },
-    "symbol.west": {
-      "value": "Barat"
+      "value": "e"
     },
     "house": {
-      "value": "Rumah"
+      "value": "whare"
     },
     "person": {
-      "value": "Manusia"
+      "value": "tangata"
     },
     "distanceSceneAbsoluteDistanceTemplate": {
-      "value": "Jarak {{secondaryPointControllerLabel}} dengan {{primaryPointControllerLabel}} adalah {{difference}} {{units}}."
+      "value": "Ka {{difference}} {{units}}  te tawhiti mai i {{secondaryPointControllerLabel}} ki {{primaryPointControllerLabel}}."
     },
     "distanceSceneDirectedPositiveDistanceTemplate": {
-      "value": "Jarak {{secondaryPointControllerLabel}} adalah {{difference}} {{units}} sebelah timur dari {{primaryPointControllerLabel}}."
+      "value": "Ka noho {{difference}} {{units}} te {{secondaryPointControllerLabel}} ki te taha rāwhiti (E) o te {{primaryPointControllerLabel}}."
     },
     "distanceSceneDirectedNegativeDistanceTemplate": {
-      "value": "Jarak {{secondaryPointControllerLabel}} adalah {{difference}} {{units}} sebelah barat dari {{primaryPointControllerLabel}}."
+      "value": "Ka noho {{difference}} {{units}}  te {{secondaryPointControllerLabel}} ki te taha hauāuru (W) o te {{primaryPointControllerLabel}}."
     },
     "symbol.meters": {
       "value": "m"
     },
     "meter": {
-      "value": "meter"
+      "value": "mita"
     },
     "meters": {
-      "value": "meter"
+      "value": "ngā mita"
     },
     "symbol.A": {
       "value": "A"
     },
     "symbol.B": {
-      "value": "B"
-    },
-    "temperatureSceneAbsoluteDistanceTemplate": {
-      "value": "Selisih kedua suhu tersebut adalah {{difference}} {{units}}."
-    },
-    "temperatureSceneDirectedPositiveDistanceTemplate": {
-      "value": "Suhu di lokasi {{secondaryPointControllerLabel}} adalah {{difference}} {{units}} lebih panas daripada suhu di lokasi {{primaryPointControllerLabel}}."
-    },
-    "temperatureSceneDirectedNegativeDistanceTemplate": {
-      "value": "Suhu di lokasi {{secondaryPointControllerLabel}} adalah {{difference}} {{units}} lebih dingin daripada suhu di lokasi {{primaryPointControllerLabel}}."
-    },
-    "symbol.degreesCelsius": {
-      "value": "°C"
-    },
-    "degree": {
-      "value": "derajat"
-    },
-    "degrees": {
-      "value": "derajat"
-    },
-    "fish": {
-      "value": "ikan"
-    },
-    "bird": {
-      "value": "burung"
-    },
-    "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} dan  {{primaryPointControllerLabel}} berjarak vertikal {{difference}} {{units}}."
-    },
-    "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "Posisi {{secondaryPointControllerLabel}} adalah {{difference}} {{units}} di atas posisi {{primaryPointControllerLabel}}."
-    },
-    "elevationSceneDirectedNegativeDistanceTemplate": {
-      "value": "Posisi {{secondaryPointControllerLabel}} adalah {{difference}} {{units}} di bawah posisi {{primaryPointControllerLabel}}."
-    },
-    "pointLabels": {
-      "value": "Tampilkan Posisi Benda di Garis Bilangan"
-    },
-    "distanceLabels": {
-      "value": "Tampilkan Jarak  Kedua Benda"
-    },
-    "distanceDescription": {
-      "value": "Keterangan Jarak Kedua Benda"
-    },
-    "tickMarks": {
-      "value": "Tampilkan Angka pada Garis Bilangan"
-    },
-    "absoluteValue": {
-      "value": "Nilai Mutlak"
-    },
-    "directedDistance": {
-      "value": "Nilai Hitung"
-    },
-    "distanceStatement": {
-      "value": "Jarak menyatakan"
-    },
-    "number-line-distance.title": {
-      "value": "Garis Bilangan: Jarak"
-    }
-  },
-  "ki": {
-    "screen.explore": {
-      "value": "Gũthuthuria"
-    },
-    "screen.generic": {
-      "value": "Kĩndũ gĩa Kĩndũ"
-    },
-    "genericAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} and {{primaryPointControllerLabel}} are {{difference}} {{units}} kutigana."
-    },
-    "genericDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} is {{difference}} {{units}} more positive than {{primaryPointControllerLabel}}."
-    },
-    "genericDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} is {{difference}} {{units}} makĩria ma{{primaryPointControllerLabel}}."
-    },
-    "unit": {
-      "value": "gakundi"
-    },
-    "units": {
-      "value": "gĩkundi"
-    },
-    "symbol.x": {
-      "value": "x"
-    },
-    "symbol.y": {
-      "value": "y"
-    },
-    "symbol.east": {
       "value": "E"
     },
-    "symbol.west": {
-      "value": "W"
-    },
-    "house": {
-      "value": "nyuba"
-    },
-    "person": {
-      "value": "mundu"
-    },
-    "distanceSceneAbsoluteDistanceTemplate": {
-      "value": "Ũhoro wa {{secondaryPointControllerLabel}} and the {{primaryPointControllerLabel}} are {{difference}} {{units}} kutigana."
-    },
-    "distanceSceneDirectedPositiveDistanceTemplate": {
-      "value": "Ũhoro wa  {{secondaryPointControllerLabel}} is {{difference}} {{units}} mwena wa irathĩro wa  {{primaryPointControllerLabel}}."
-    },
-    "distanceSceneDirectedNegativeDistanceTemplate": {
-      "value": "Ũhoro wa  {{secondaryPointControllerLabel}} is {{difference}} {{units}} mwena wa ithũĩro wa {{primaryPointControllerLabel}}."
-    },
-    "symbol.meters": {
-      "value": "m"
-    },
-    "meter": {
-      "value": "mita"
-    },
-    "meters": {
-      "value": "mita"
-    },
-    "symbol.A": {
-      "value": "A"
-    },
-    "symbol.B": {
-      "value": "B"
-    },
     "temperatureSceneAbsoluteDistanceTemplate": {
-      "value": "Ngũrani ya rĩera na rĩera nĩ  {{difference}} {{units}}."
+      "value": "Ka {{difference}} {{units}} te rerekē o ngā paemahana."
     },
     "temperatureSceneDirectedPositiveDistanceTemplate": {
-      "value": "Kũrĩa gũkoragwo {{secondaryPointControllerLabel}} is {{difference}} {{units}} rĩhiũhĩte gũkĩra harĩa rĩarĩ {{primaryPointControllerLabel}}."
+      "value": " Ka {{difference}} {{units}} ake te paemahana o te wāhi {{secondaryPointControllerLabel}} i te wāhi {{primaryPointControllerLabel}}."
     },
     "temperatureSceneDirectedNegativeDistanceTemplate": {
-      "value": "Kũrĩa gũkoragwo {{secondaryPointControllerLabel}} is {{difference}} {{units}} rĩhorere gũkĩra harĩa rĩarĩ {{primaryPointControllerLabel}}."
+      "value": " Ka {{difference}} {{units}} iho te paemahana o te wāhi {{secondaryPointControllerLabel}} i te wāhi {{primaryPointControllerLabel}}."
     },
     "symbol.degreesCelsius": {
       "value": "°C"
     },
     "degree": {
-      "value": "degree"
+      "value": "putu"
     },
     "degrees": {
-      "value": "degrees"
+      "value": "ngā putu"
     },
     "fish": {
-      "value": "thamaki"
+      "value": "ika"
     },
     "bird": {
-      "value": "nyoni"
+      "value": "manu"
     },
     "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "Uhoro wa {{secondaryPointControllerLabel}} na cia {{primaryPointControllerLabel}} marĩ na ũraihu wa igũrũ wa {{difference}} {{units}}."
+      "value": "Ka {{difference}} {{units}} te tawhiti poutū ki te {{secondaryPointControllerLabel}} mai i te {{primaryPointControllerLabel}}"
     },
     "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "Uhoro wa {{secondaryPointControllerLabel}} is {{difference}} {{units}} ũrĩa ũrĩ igũrũ  {{primaryPointControllerLabel}}."
+      "value": "Ka noho te {{secondaryPointControllerLabel}} e {{difference}} {{units}} ki runga i te {{primaryPointControllerLabel}}."
     },
     "elevationSceneDirectedNegativeDistanceTemplate": {
-      "value": "Uhoro wa {{secondaryPointControllerLabel}} is {{difference}} {{units}} thĩiniĩ wa{{primaryPointControllerLabel}}."
+      "value": "Ka noho te {{secondaryPointControllerLabel}} e {{difference}} {{units}} ki raro i te {{primaryPointControllerLabel}}."
     },
     "pointLabels": {
-      "value": "Marũa ma Gũcokia"
+      "value": "He Tapanga Pūwāhi"
     },
     "distanceLabels": {
-      "value": "Iraihu Marũa"
+      "value": "Tapanga Tawhiti"
     },
     "distanceDescription": {
-      "value": "Iraihu Ũtaũri"
+      "value": "Whakamārama mō te Tawhiti"
     },
     "tickMarks": {
-      "value": "Marũũri"
+      "value": "Ngā Tohu Āwhata"
     },
     "absoluteValue": {
-      "value": "Ũhoro wa ma Thogora"
+      "value": "Uara Pū"
     },
     "directedDistance": {
-      "value": "Kĩambĩrĩria Iraihu"
+      "value": "Tawhiti Whai Ahunga"
     },
     "distanceStatement": {
-      "value": "Iraihu Ũhoro"
+      "value": "Tauāki Tawhiti"
     },
     "number-line-distance.title": {
-      "value": "Mũhari wa namba:Iraihu"
+      "value": "Rārangi Tau: Te Tawhiti"
+    }
+  },
+  "mn": {
+    "screen.explore": {
+      "value": "Судла"
+    },
+    "screen.generic": {
+      "value": "Ерөнхий"
+    },
+    "genericAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} ба {{primaryPointControllerLabel}} нь {{difference}} {{units}} хол байна."
+    },
+    "genericDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} нь {{primaryPointControllerLabel}}-ээс {{difference}} {{units}} илүү байна."
+    },
+    "genericDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} нь {{primaryPointControllerLabel}}-ээс {{difference}} {{units}} дутуу байна."
+    },
+    "unit": {
+      "value": "нэгж"
+    },
+    "units": {
+      "value": "нэгж"
+    },
+    "house": {
+      "value": "гэр"
+    },
+    "person": {
+      "value": "хүн"
+    },
+    "distanceSceneAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} ба  {{primaryPointControllerLabel}} нь {{difference}} {{units}} хол байна."
+    },
+    "distanceSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{primaryPointControllerLabel}} нь {{secondaryPointControllerLabel}}ээс {{difference}} {{units}} зүүн тийш байна."
+    },
+    "distanceSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{primaryPointControllerLabel}} нь {{secondaryPointControllerLabel}}ээс {{difference}} {{units}} баруун тийш байна."
+    },
+    "symbol.meters": {
+      "value": "м"
+    },
+    "meter": {
+      "value": "метр"
+    },
+    "meters": {
+      "value": "метр"
+    },
+    "temperatureSceneAbsoluteDistanceTemplate": {
+      "value": "Температурийн ялгаа нь {{difference}} {{units}} байна."
+    },
+    "temperatureSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}-ын байрлал {{primaryPointControllerLabel}}-ээс {{difference}} {{units}} халуун талд байна."
+    },
+    "temperatureSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}-ын байрлал {{primaryPointControllerLabel}}-ээс {{difference}} {{units}} хүйтэн талд байна."
+    },
+    "degree": {
+      "value": "хэм"
+    },
+    "degrees": {
+      "value": "хэм"
+    },
+    "fish": {
+      "value": "загас"
+    },
+    "bird": {
+      "value": "шувуу"
+    },
+    "elevationSceneAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} ба {{primaryPointControllerLabel}} нь {{difference}} {{units}} өндөр түвшинд байна."
+    },
+    "elevationSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} нь {{primaryPointControllerLabel}}-ээс {{difference}} {{units}} дээшээ байна."
+    },
+    "elevationSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} нь {{primaryPointControllerLabel}}-ээс {{difference}} {{units}} доошоо байна."
+    },
+    "pointLabels": {
+      "value": "Цэгийн байрлал"
+    },
+    "distanceLabels": {
+      "value": "Зай"
+    },
+    "distanceDescription": {
+      "value": "Зайны хэмжээ"
+    },
+    "tickMarks": {
+      "value": "Хянах хэмжээ"
+    },
+    "absoluteValue": {
+      "value": "Үнэмлэхүй Утга"
+    },
+    "directedDistance": {
+      "value": "Чиглэл"
+    },
+    "distanceStatement": {
+      "value": "Зай"
+    },
+    "number-line-distance.title": {
+      "value": "Тоон шулуун: Зай"
     }
   },
   "ms": {
@@ -4520,223 +4341,6 @@
       "value": "Chiqan yupana"
     }
   },
-  "mn": {
-    "screen.explore": {
-      "value": "Судла"
-    },
-    "screen.generic": {
-      "value": "Ерөнхий"
-    },
-    "genericAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} ба {{primaryPointControllerLabel}} нь {{difference}} {{units}} хол байна."
-    },
-    "genericDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} нь {{primaryPointControllerLabel}}-ээс {{difference}} {{units}} илүү байна."
-    },
-    "genericDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} нь {{primaryPointControllerLabel}}-ээс {{difference}} {{units}} дутуу байна."
-    },
-    "unit": {
-      "value": "нэгж"
-    },
-    "units": {
-      "value": "нэгж"
-    },
-    "house": {
-      "value": "гэр"
-    },
-    "person": {
-      "value": "хүн"
-    },
-    "distanceSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} ба  {{primaryPointControllerLabel}} нь {{difference}} {{units}} хол байна."
-    },
-    "distanceSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{primaryPointControllerLabel}} нь {{secondaryPointControllerLabel}}ээс {{difference}} {{units}} зүүн тийш байна."
-    },
-    "distanceSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{primaryPointControllerLabel}} нь {{secondaryPointControllerLabel}}ээс {{difference}} {{units}} баруун тийш байна."
-    },
-    "symbol.meters": {
-      "value": "м"
-    },
-    "meter": {
-      "value": "метр"
-    },
-    "meters": {
-      "value": "метр"
-    },
-    "temperatureSceneAbsoluteDistanceTemplate": {
-      "value": "Температурийн ялгаа нь {{difference}} {{units}} байна."
-    },
-    "temperatureSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}-ын байрлал {{primaryPointControllerLabel}}-ээс {{difference}} {{units}} халуун талд байна."
-    },
-    "temperatureSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}-ын байрлал {{primaryPointControllerLabel}}-ээс {{difference}} {{units}} хүйтэн талд байна."
-    },
-    "degree": {
-      "value": "хэм"
-    },
-    "degrees": {
-      "value": "хэм"
-    },
-    "fish": {
-      "value": "загас"
-    },
-    "bird": {
-      "value": "шувуу"
-    },
-    "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} ба {{primaryPointControllerLabel}} нь {{difference}} {{units}} өндөр түвшинд байна."
-    },
-    "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} нь {{primaryPointControllerLabel}}-ээс {{difference}} {{units}} дээшээ байна."
-    },
-    "elevationSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} нь {{primaryPointControllerLabel}}-ээс {{difference}} {{units}} доошоо байна."
-    },
-    "pointLabels": {
-      "value": "Цэгийн байрлал"
-    },
-    "distanceLabels": {
-      "value": "Зай"
-    },
-    "distanceDescription": {
-      "value": "Зайны хэмжээ"
-    },
-    "tickMarks": {
-      "value": "Хянах хэмжээ"
-    },
-    "absoluteValue": {
-      "value": "Үнэмлэхүй Утга"
-    },
-    "directedDistance": {
-      "value": "Чиглэл"
-    },
-    "distanceStatement": {
-      "value": "Зай"
-    },
-    "number-line-distance.title": {
-      "value": "Тоон шулуун: Зай"
-    }
-  },
-  "mi": {
-    "screen.generic": {
-      "value": "Māori"
-    },
-    "screen.explore": {
-      "value": "Tūhura"
-    },
-    "genericAbsoluteDistanceTemplate": {
-      "value": "{{difference}} {{units}} te tawhiti mai i {{primaryPointControllerLabel}} ki {{secondaryPointControllerLabel}}"
-    },
-    "genericDirectedPositiveDistanceTemplate": {
-      "value": "He tōrunga ake te {{secondaryPointControllerLabel}}  i te  {{primaryPointControllerLabel}} mā te {{difference}} {{units}}."
-    },
-    "genericDirectedNegativeDistanceTemplate": {
-      "value": "He tōraro anō te  {{secondaryPointControllerLabel}} i te  {{primaryPointControllerLabel}} mā te {{difference}} {{units}}."
-    },
-    "unit": {
-      "value": "waeine"
-    },
-    "units": {
-      "value": "ngā waeine"
-    },
-    "symbol.x": {
-      "value": "a"
-    },
-    "symbol.y": {
-      "value": "e"
-    },
-    "house": {
-      "value": "whare"
-    },
-    "person": {
-      "value": "tangata"
-    },
-    "distanceSceneAbsoluteDistanceTemplate": {
-      "value": "Ka {{difference}} {{units}}  te tawhiti mai i {{secondaryPointControllerLabel}} ki {{primaryPointControllerLabel}}."
-    },
-    "distanceSceneDirectedPositiveDistanceTemplate": {
-      "value": "Ka noho {{difference}} {{units}} te {{secondaryPointControllerLabel}} ki te taha rāwhiti (E) o te {{primaryPointControllerLabel}}."
-    },
-    "distanceSceneDirectedNegativeDistanceTemplate": {
-      "value": "Ka noho {{difference}} {{units}}  te {{secondaryPointControllerLabel}} ki te taha hauāuru (W) o te {{primaryPointControllerLabel}}."
-    },
-    "symbol.meters": {
-      "value": "m"
-    },
-    "meter": {
-      "value": "mita"
-    },
-    "meters": {
-      "value": "ngā mita"
-    },
-    "symbol.A": {
-      "value": "A"
-    },
-    "symbol.B": {
-      "value": "E"
-    },
-    "temperatureSceneAbsoluteDistanceTemplate": {
-      "value": "Ka {{difference}} {{units}} te rerekē o ngā paemahana."
-    },
-    "temperatureSceneDirectedPositiveDistanceTemplate": {
-      "value": " Ka {{difference}} {{units}} ake te paemahana o te wāhi {{secondaryPointControllerLabel}} i te wāhi {{primaryPointControllerLabel}}."
-    },
-    "temperatureSceneDirectedNegativeDistanceTemplate": {
-      "value": " Ka {{difference}} {{units}} iho te paemahana o te wāhi {{secondaryPointControllerLabel}} i te wāhi {{primaryPointControllerLabel}}."
-    },
-    "symbol.degreesCelsius": {
-      "value": "°C"
-    },
-    "degree": {
-      "value": "putu"
-    },
-    "degrees": {
-      "value": "ngā putu"
-    },
-    "fish": {
-      "value": "ika"
-    },
-    "bird": {
-      "value": "manu"
-    },
-    "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "Ka {{difference}} {{units}} te tawhiti poutū ki te {{secondaryPointControllerLabel}} mai i te {{primaryPointControllerLabel}}"
-    },
-    "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "Ka noho te {{secondaryPointControllerLabel}} e {{difference}} {{units}} ki runga i te {{primaryPointControllerLabel}}."
-    },
-    "elevationSceneDirectedNegativeDistanceTemplate": {
-      "value": "Ka noho te {{secondaryPointControllerLabel}} e {{difference}} {{units}} ki raro i te {{primaryPointControllerLabel}}."
-    },
-    "pointLabels": {
-      "value": "He Tapanga Pūwāhi"
-    },
-    "distanceLabels": {
-      "value": "Tapanga Tawhiti"
-    },
-    "distanceDescription": {
-      "value": "Whakamārama mō te Tawhiti"
-    },
-    "tickMarks": {
-      "value": "Ngā Tohu Āwhata"
-    },
-    "absoluteValue": {
-      "value": "Uara Pū"
-    },
-    "directedDistance": {
-      "value": "Tawhiti Whai Ahunga"
-    },
-    "distanceStatement": {
-      "value": "Tauāki Tawhiti"
-    },
-    "number-line-distance.title": {
-      "value": "Rārangi Tau: Te Tawhiti"
-    }
-  },
   "ro": {
     "screen.generic": {
       "value": "În general"
@@ -4996,128 +4600,6 @@
       "value": "Umurongo w'imibare:Uburebure"
     }
   },
-  "ja": {
-    "screen.generic": {
-      "value": "一般論"
-    },
-    "screen.explore": {
-      "value": "探求"
-    },
-    "genericAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}と{{primaryPointControllerLabel}}は{{difference}} {{units}}離れている。"
-    },
-    "genericDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}は、{{primaryPointControllerLabel}}よりも{{difference}} {{units}}だけ正の方向にある。"
-    },
-    "genericDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}は、{{primaryPointControllerLabel}}よりも{{difference}} {{units}}だけ負の方向にある。"
-    },
-    "unit": {
-      "value": "　"
-    },
-    "units": {
-      "value": "　"
-    },
-    "symbol.x": {
-      "value": "x"
-    },
-    "symbol.y": {
-      "value": "y"
-    },
-    "symbol.east": {
-      "value": "東"
-    },
-    "symbol.west": {
-      "value": "西"
-    },
-    "house": {
-      "value": "家"
-    },
-    "person": {
-      "value": "人"
-    },
-    "distanceSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}と {{primaryPointControllerLabel}}は {{difference}} {{units}} 離れている。"
-    },
-    "distanceSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}は、{{primaryPointControllerLabel}}の{{difference}} {{units}} 東に位置する。"
-    },
-    "distanceSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}は、{{primaryPointControllerLabel}}の{{difference}} {{units}}西に位置する。"
-    },
-    "symbol.meters": {
-      "value": "m"
-    },
-    "meter": {
-      "value": "メートル"
-    },
-    "meters": {
-      "value": "メートル"
-    },
-    "symbol.A": {
-      "value": "A"
-    },
-    "symbol.B": {
-      "value": "B"
-    },
-    "temperatureSceneAbsoluteDistanceTemplate": {
-      "value": "気温の差は{{difference}} {{units}}である。"
-    },
-    "temperatureSceneDirectedPositiveDistanceTemplate": {
-      "value": "地点{{secondaryPointControllerLabel}}は、地点{{primaryPointControllerLabel}}よりも{{difference}} {{units}} 暑い。"
-    },
-    "temperatureSceneDirectedNegativeDistanceTemplate": {
-      "value": "地点{{secondaryPointControllerLabel}}は、地点 {{primaryPointControllerLabel}}よりも {{difference}} {{units}} 寒い。"
-    },
-    "symbol.degreesCelsius": {
-      "value": "°C"
-    },
-    "degree": {
-      "value": "度"
-    },
-    "degrees": {
-      "value": "度"
-    },
-    "fish": {
-      "value": "魚"
-    },
-    "bird": {
-      "value": "鳥"
-    },
-    "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}と{{primaryPointControllerLabel}}の間の垂直距離は{{difference}} {{units}}である。"
-    },
-    "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}は {{primaryPointControllerLabel}}の{{difference}} {{units}}上方に位置する。"
-    },
-    "elevationSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}は {{primaryPointControllerLabel}}の{{difference}} {{units}}下方に位置する。"
-    },
-    "pointLabels": {
-      "value": "点のラベル"
-    },
-    "distanceLabels": {
-      "value": "距離のラベル"
-    },
-    "distanceDescription": {
-      "value": "距離の説明"
-    },
-    "tickMarks": {
-      "value": "目盛り"
-    },
-    "absoluteValue": {
-      "value": "絶対値"
-    },
-    "directedDistance": {
-      "value": "有向距離"
-    },
-    "distanceStatement": {
-      "value": "距離の命題"
-    },
-    "number-line-distance.title": {
-      "value": "数直線：距離"
-    }
-  },
   "sk": {
     "screen.explore": {
       "value": "Skúmanie"
@@ -5253,226 +4735,6 @@
     },
     "variableSubscriptPattern": {
       "value": "{{variable}}<sub style='font-style:normal'>{{subscript}}</sub>"
-    }
-  },
-  "sn": {
-    "screen.explore": {
-      "value": "Tsvakurudza"
-    },
-    "screen.generic": {
-      "value": "Kuwedzerera kana kubvisa muna 1"
-    },
-    "genericAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} and {{primaryPointControllerLabel}} are {{difference}} {{units}} apart."
-    },
-    "genericDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} is {{difference}} {{units}} more positive than {{primaryPointControllerLabel}}."
-    },
-    "genericDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} is {{difference}} {{units}} more negative than {{primaryPointControllerLabel}}."
-    },
-    "unit": {
-      "value": "yuniti"
-    },
-    "units": {
-      "value": "mayunitsi"
-    },
-    "symbol.x": {
-      "value": "x"
-    },
-    "symbol.y": {
-      "value": "y"
-    },
-    "symbol.east": {
-      "value": "E"
-    },
-    "symbol.west": {
-      "value": "W"
-    },
-    "house": {
-      "value": "imba"
-    },
-    "person": {
-      "value": "munhu"
-    },
-    "distanceSceneAbsoluteDistanceTemplate": {
-      "value": "The {{secondaryPointControllerLabel}} and the {{primaryPointControllerLabel}} are {{difference}} {{units}} apart."
-    },
-    "distanceSceneDirectedPositiveDistanceTemplate": {
-      "value": "The {{secondaryPointControllerLabel}} is {{difference}} {{units}} east of the {{primaryPointControllerLabel}}."
-    },
-    "distanceSceneDirectedNegativeDistanceTemplate": {
-      "value": "The {{secondaryPointControllerLabel}} is {{difference}} {{units}} west of the {{primaryPointControllerLabel}}."
-    },
-    "symbol.meters": {
-      "value": "m"
-    },
-    "meter": {
-      "value": "mita"
-    },
-    "meters": {
-      "value": "mamita"
-    },
-    "symbol.A": {
-      "value": "A"
-    },
-    "symbol.B": {
-      "value": "B"
-    },
-    "temperatureSceneAbsoluteDistanceTemplate": {
-      "value": "Kusiyana kuri pakati pe temperature i {{difference}} {{units}}."
-    },
-    "temperatureSceneDirectedPositiveDistanceTemplate": {
-      "value": "Location {{secondaryPointControllerLabel}} is {{difference}} {{units}} hotter than location {{primaryPointControllerLabel}}."
-    },
-    "temperatureSceneDirectedNegativeDistanceTemplate": {
-      "value": "Location {{secondaryPointControllerLabel}} is {{difference}} {{units}} colder than location {{primaryPointControllerLabel}}."
-    },
-    "symbol.degreesCelsius": {
-      "value": "°C"
-    },
-    "degree": {
-      "value": "Dhigiri"
-    },
-    "degrees": {
-      "value": "Madhigiri"
-    },
-    "fish": {
-      "value": "Hove"
-    },
-    "bird": {
-      "value": "Shiri"
-    },
-    "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "The {{secondaryPointControllerLabel}} and the {{primaryPointControllerLabel}} have a vertical distance of {{difference}} {{units}}."
-    },
-    "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "The {{secondaryPointControllerLabel}} is {{difference}} {{units}} above the {{primaryPointControllerLabel}}."
-    },
-    "elevationSceneDirectedNegativeDistanceTemplate": {
-      "value": "The {{secondaryPointControllerLabel}} is {{difference}} {{units}} below the {{primaryPointControllerLabel}}."
-    },
-    "pointLabels": {
-      "value": "Chiratidzo chepoyindi"
-    },
-    "distanceLabels": {
-      "value": "Chiratidzo cheChinhambwe Chiri pakati pemanhamba"
-    },
-    "distanceDescription": {
-      "value": "Tsananguro yeChinhambwe chiripakati pemanhamba"
-    },
-    "tickMarks": {
-      "value": "Tika mamakisi"
-    },
-    "absoluteValue": {
-      "value": "Chinhambwe chiripakati pemanhamba chisineyi nemasaini"
-    },
-    "directedDistance": {
-      "value": "Chinhambwe chiripakati pemanhamba sezvauri"
-    },
-    "distanceStatement": {
-      "value": "Shoko reChinhambwe uripakati pemanhamba"
-    },
-    "number-line-distance.title": {
-      "value": "Mutsara wemanhamba: mufambo uripati pemanhamba"
-    }
-  },
-  "sr": {
-    "screen.explore": {
-      "value": "Истражи"
-    },
-    "screen.generic": {
-      "value": "Општи бројеви"
-    },
-    "genericAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} и {{primaryPointControllerLabel}} су {{difference}} {{units}} удаљени."
-    },
-    "genericDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} је {{difference}} {{units}} позитивније од {{primaryPointControllerLabel}}."
-    },
-    "genericDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} је {{difference}} {{units}} негативније од {{primaryPointControllerLabel}}."
-    },
-    "unit": {
-      "value": "јединица"
-    },
-    "units": {
-      "value": "јединице/а"
-    },
-    "house": {
-      "value": "кућа"
-    },
-    "person": {
-      "value": "особа"
-    },
-    "distanceSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}  и {{primaryPointControllerLabel}} су {{difference}} {{units}} удаљени."
-    },
-    "distanceSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} је {{difference}} {{units}} источније од {{primaryPointControllerLabel}}."
-    },
-    "distanceSceneDirectedNegativeDistanceTemplate": {
-      "value": " {{secondaryPointControllerLabel}} је {{difference}} {{units}} западније од {{primaryPointControllerLabel}}."
-    },
-    "meter": {
-      "value": "метар"
-    },
-    "meters": {
-      "value": "метра/метара"
-    },
-    "temperatureSceneAbsoluteDistanceTemplate": {
-      "value": "Разлика температура је {{difference}} {{units}}"
-    },
-    "temperatureSceneDirectedPositiveDistanceTemplate": {
-      "value": "Локација {{secondaryPointControllerLabel}} је {{difference}} {{units}}топлија од локације {{primaryPointControllerLabel}}."
-    },
-    "temperatureSceneDirectedNegativeDistanceTemplate": {
-      "value": "Локација {{secondaryPointControllerLabel}} је {{difference}} {{units}} хладнија од локације {{primaryPointControllerLabel}}."
-    },
-    "degree": {
-      "value": "степен"
-    },
-    "degrees": {
-      "value": "степени/а"
-    },
-    "fish": {
-      "value": "риба"
-    },
-    "bird": {
-      "value": "птица"
-    },
-    "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}  {{primaryPointControllerLabel}} су удаљене по вертикали {{difference}} {{units}}."
-    },
-    "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} је {{difference}} {{units}} изнад {{primaryPointControllerLabel}}."
-    },
-    "elevationSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} је {{difference}} {{units}} испод {{primaryPointControllerLabel}}."
-    },
-    "pointLabels": {
-      "value": "Ознаке положаја"
-    },
-    "distanceLabels": {
-      "value": "Ознаке удаљености"
-    },
-    "distanceDescription": {
-      "value": "Опис удаљености"
-    },
-    "tickMarks": {
-      "value": "Ознаке на скали"
-    },
-    "absoluteValue": {
-      "value": "Апсолутна вредност"
-    },
-    "directedDistance": {
-      "value": "Усмерење удаљености"
-    },
-    "distanceStatement": {
-      "value": "Исказ о удаљености"
-    },
-    "number-line-distance.title": {
-      "value": "Бројевна права: Удаљеност"
     }
   },
   "sl": {
@@ -5612,119 +4874,27 @@
       "value": "{{variable}}<sub style='font-style:normal'>{{subscript}}</sub>"
     }
   },
-  "sv": {
+  "sn": {
     "screen.explore": {
-      "value": "Utforska"
+      "value": "Tsvakurudza"
     },
-    "genericAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} och {{primaryPointControllerLabel}} är {{difference}} {{units}} isär."
-    },
-    "genericDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} är {{difference}} {{units}} mer positiv än {{primaryPointControllerLabel}}."
-    },
-    "genericDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} är {{difference}} {{units}} mer negativ än {{primaryPointControllerLabel}}."
-    },
-    "unit": {
-      "value": "enhet"
-    },
-    "units": {
-      "value": "enheter"
-    },
-    "house": {
-      "value": "huset"
-    },
-    "person": {
-      "value": "personen"
-    },
-    "distanceSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} och {{primaryPointControllerLabel}} är {{difference}} {{units}} isär."
-    },
-    "distanceSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} är {{difference}} {{units}} öster om {{primaryPointControllerLabel}}."
-    },
-    "distanceSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} är{{difference}} {{units}} väster om {{primaryPointControllerLabel}}."
-    },
-    "meters": {
-      "value": "meter"
-    },
-    "temperatureSceneAbsoluteDistanceTemplate": {
-      "value": "Skillnaden i temperatur är {{difference}} {{units}}."
-    },
-    "temperatureSceneDirectedPositiveDistanceTemplate": {
-      "value": "Platsen {{secondaryPointControllerLabel}} är {{difference}} {{units}} varmare än plats {{primaryPointControllerLabel}}."
-    },
-    "temperatureSceneDirectedNegativeDistanceTemplate": {
-      "value": "Platsen {{secondaryPointControllerLabel}} är {{difference}} {{units}} kallare än plats {{primaryPointControllerLabel}}."
-    },
-    "degree": {
-      "value": "grader"
-    },
-    "degrees": {
-      "value": "grader"
-    },
-    "fish": {
-      "value": "fisken"
-    },
-    "bird": {
-      "value": "fågeln"
-    },
-    "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} och {{primaryPointControllerLabel}} har ett lodrät avstånd av {{difference}} {{units}}."
-    },
-    "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} är {{difference}} {{units}} över {{primaryPointControllerLabel}}."
-    },
-    "elevationSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} är {{difference}} {{units}} under {{primaryPointControllerLabel}}."
-    },
-    "pointLabels": {
-      "value": "Punktvärden"
-    },
-    "distanceLabels": {
-      "value": "Avståndsvärden"
-    },
-    "distanceDescription": {
-      "value": "Beskrivning av avståndet"
-    },
-    "tickMarks": {
-      "value": "Gradering"
-    },
-    "absoluteValue": {
-      "value": "Absolutbelopp"
-    },
-    "directedDistance": {
-      "value": "Riktningsavstånd"
-    },
-    "distanceStatement": {
-      "value": "Avståndet"
-    },
-    "number-line-distance.title": {
-      "value": "Tallinje: Avstånd"
-    }
-  },
-  "st": {
     "screen.generic": {
-      "value": "generic"
-    },
-    "screen.explore": {
-      "value": "ithute"
+      "value": "Kuwedzerera kana kubvisa muna 1"
     },
     "genericAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} le {{primaryPointControllerLabel}} li {{difference}} {{units}} arohile"
+      "value": "{{secondaryPointControllerLabel}} and {{primaryPointControllerLabel}} are {{difference}} {{units}} apart."
     },
     "genericDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} ke {{difference}} {{units}} e ntle haholo ho feta {{primaryPointControllerLabel}}."
+      "value": "{{secondaryPointControllerLabel}} is {{difference}} {{units}} more positive than {{primaryPointControllerLabel}}."
     },
     "genericDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} ke {{difference}} {{units}} e mpe haholo ho feta{{primaryPointControllerLabel}}."
+      "value": "{{secondaryPointControllerLabel}} is {{difference}} {{units}} more negative than {{primaryPointControllerLabel}}."
     },
     "unit": {
-      "value": "unit"
+      "value": "yuniti"
     },
     "units": {
-      "value": "units"
+      "value": "mayunitsi"
     },
     "symbol.x": {
       "value": "x"
@@ -5739,28 +4909,28 @@
       "value": "W"
     },
     "house": {
-      "value": "Ntlo"
+      "value": "imba"
     },
     "person": {
-      "value": "motho"
+      "value": "munhu"
     },
     "distanceSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} le {{primaryPointControllerLabel}} li {{difference}} {{units}} arohile"
+      "value": "The {{secondaryPointControllerLabel}} and the {{primaryPointControllerLabel}} are {{difference}} {{units}} apart."
     },
     "distanceSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} ke {{difference}} {{units}} bochabela ho {{primaryPointControllerLabel}}"
+      "value": "The {{secondaryPointControllerLabel}} is {{difference}} {{units}} east of the {{primaryPointControllerLabel}}."
     },
     "distanceSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} ke {{difference}} {{units}} bophirima ho {{primaryPointControllerLabel}}."
+      "value": "The {{secondaryPointControllerLabel}} is {{difference}} {{units}} west of the {{primaryPointControllerLabel}}."
     },
     "symbol.meters": {
       "value": "m"
     },
     "meter": {
-      "value": "mithara"
+      "value": "mita"
     },
     "meters": {
-      "value": "limithara"
+      "value": "mamita"
     },
     "symbol.A": {
       "value": "A"
@@ -5769,61 +4939,61 @@
       "value": "B"
     },
     "temperatureSceneAbsoluteDistanceTemplate": {
-      "value": "Phapang ea mocheso ke {{difference}} {{units}}."
+      "value": "Kusiyana kuri pakati pe temperature i {{difference}} {{units}}."
     },
     "temperatureSceneDirectedPositiveDistanceTemplate": {
-      "value": "fumana {{secondaryPointControllerLabel}} ke {{difference}} {{units}} ho chesa ho feta ho fumana {{primaryPointControllerLabel}}."
+      "value": "Location {{secondaryPointControllerLabel}} is {{difference}} {{units}} hotter than location {{primaryPointControllerLabel}}."
     },
     "temperatureSceneDirectedNegativeDistanceTemplate": {
-      "value": "fumana {{secondaryPointControllerLabel}} ho{{difference}} {{units}}   bata ho feta ho fumana  {{primaryPointControllerLabel}}."
+      "value": "Location {{secondaryPointControllerLabel}} is {{difference}} {{units}} colder than location {{primaryPointControllerLabel}}."
     },
     "symbol.degreesCelsius": {
       "value": "°C"
     },
     "degree": {
-      "value": "degree"
+      "value": "Dhigiri"
     },
     "degrees": {
-      "value": "degrees"
+      "value": "Madhigiri"
     },
     "fish": {
-      "value": "tlhapi"
+      "value": "Hove"
     },
     "bird": {
-      "value": "nonyana"
+      "value": "Shiri"
     },
     "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} le {{primaryPointControllerLabel}} e na le sebaka se tlohabg holimo se ea tlase ho {{difference}} {{units}}."
+      "value": "The {{secondaryPointControllerLabel}} and the {{primaryPointControllerLabel}} have a vertical distance of {{difference}} {{units}}."
     },
     "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} ke {{difference}} {{units}} e holim'a  {{primaryPointControllerLabel}}."
+      "value": "The {{secondaryPointControllerLabel}} is {{difference}} {{units}} above the {{primaryPointControllerLabel}}."
     },
     "elevationSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} ke {{difference}} {{units}} ka tlase ho {{primaryPointControllerLabel}}"
+      "value": "The {{secondaryPointControllerLabel}} is {{difference}} {{units}} below the {{primaryPointControllerLabel}}."
     },
     "pointLabels": {
-      "value": "mat'soao a ntlha"
+      "value": "Chiratidzo chepoyindi"
     },
     "distanceLabels": {
-      "value": "mat'soao a sebaka"
+      "value": "Chiratidzo cheChinhambwe Chiri pakati pemanhamba"
     },
     "distanceDescription": {
-      "value": "litlhaloso tsa sebaka"
+      "value": "Tsananguro yeChinhambwe chiripakati pemanhamba"
     },
     "tickMarks": {
-      "value": "t'soaea mat'soa"
+      "value": "Tika mamakisi"
     },
     "absoluteValue": {
-      "value": "boleng bo felletseng"
+      "value": "Chinhambwe chiripakati pemanhamba chisineyi nemasaini"
     },
     "directedDistance": {
-      "value": "sebaka se lebisitoeng"
+      "value": "Chinhambwe chiripakati pemanhamba sezvauri"
     },
     "distanceStatement": {
-      "value": "polelo e bole"
+      "value": "Shoko reChinhambwe uripakati pemanhamba"
     },
     "number-line-distance.title": {
-      "value": "mola oa nomoro"
+      "value": "Mutsara wemanhamba: mufambo uripati pemanhamba"
     }
   },
   "sq": {
@@ -5948,6 +5118,318 @@
       "value": "Boshti numerik: distanca"
     }
   },
+  "sr": {
+    "screen.explore": {
+      "value": "Истражи"
+    },
+    "screen.generic": {
+      "value": "Општи бројеви"
+    },
+    "genericAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} и {{primaryPointControllerLabel}} су {{difference}} {{units}} удаљени."
+    },
+    "genericDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} је {{difference}} {{units}} позитивније од {{primaryPointControllerLabel}}."
+    },
+    "genericDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} је {{difference}} {{units}} негативније од {{primaryPointControllerLabel}}."
+    },
+    "unit": {
+      "value": "јединица"
+    },
+    "units": {
+      "value": "јединице/а"
+    },
+    "house": {
+      "value": "кућа"
+    },
+    "person": {
+      "value": "особа"
+    },
+    "distanceSceneAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}  и {{primaryPointControllerLabel}} су {{difference}} {{units}} удаљени."
+    },
+    "distanceSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} је {{difference}} {{units}} источније од {{primaryPointControllerLabel}}."
+    },
+    "distanceSceneDirectedNegativeDistanceTemplate": {
+      "value": " {{secondaryPointControllerLabel}} је {{difference}} {{units}} западније од {{primaryPointControllerLabel}}."
+    },
+    "meter": {
+      "value": "метар"
+    },
+    "meters": {
+      "value": "метра/метара"
+    },
+    "temperatureSceneAbsoluteDistanceTemplate": {
+      "value": "Разлика температура је {{difference}} {{units}}"
+    },
+    "temperatureSceneDirectedPositiveDistanceTemplate": {
+      "value": "Локација {{secondaryPointControllerLabel}} је {{difference}} {{units}}топлија од локације {{primaryPointControllerLabel}}."
+    },
+    "temperatureSceneDirectedNegativeDistanceTemplate": {
+      "value": "Локација {{secondaryPointControllerLabel}} је {{difference}} {{units}} хладнија од локације {{primaryPointControllerLabel}}."
+    },
+    "degree": {
+      "value": "степен"
+    },
+    "degrees": {
+      "value": "степени/а"
+    },
+    "fish": {
+      "value": "риба"
+    },
+    "bird": {
+      "value": "птица"
+    },
+    "elevationSceneAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}  {{primaryPointControllerLabel}} су удаљене по вертикали {{difference}} {{units}}."
+    },
+    "elevationSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} је {{difference}} {{units}} изнад {{primaryPointControllerLabel}}."
+    },
+    "elevationSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} је {{difference}} {{units}} испод {{primaryPointControllerLabel}}."
+    },
+    "pointLabels": {
+      "value": "Ознаке положаја"
+    },
+    "distanceLabels": {
+      "value": "Ознаке удаљености"
+    },
+    "distanceDescription": {
+      "value": "Опис удаљености"
+    },
+    "tickMarks": {
+      "value": "Ознаке на скали"
+    },
+    "absoluteValue": {
+      "value": "Апсолутна вредност"
+    },
+    "directedDistance": {
+      "value": "Усмерење удаљености"
+    },
+    "distanceStatement": {
+      "value": "Исказ о удаљености"
+    },
+    "number-line-distance.title": {
+      "value": "Бројевна права: Удаљеност"
+    }
+  },
+  "st": {
+    "screen.generic": {
+      "value": "generic"
+    },
+    "screen.explore": {
+      "value": "ithute"
+    },
+    "genericAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} le {{primaryPointControllerLabel}} li {{difference}} {{units}} arohile"
+    },
+    "genericDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} ke {{difference}} {{units}} e ntle haholo ho feta {{primaryPointControllerLabel}}."
+    },
+    "genericDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} ke {{difference}} {{units}} e mpe haholo ho feta{{primaryPointControllerLabel}}."
+    },
+    "unit": {
+      "value": "unit"
+    },
+    "units": {
+      "value": "units"
+    },
+    "symbol.x": {
+      "value": "x"
+    },
+    "symbol.y": {
+      "value": "y"
+    },
+    "symbol.east": {
+      "value": "E"
+    },
+    "symbol.west": {
+      "value": "W"
+    },
+    "house": {
+      "value": "Ntlo"
+    },
+    "person": {
+      "value": "motho"
+    },
+    "distanceSceneAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} le {{primaryPointControllerLabel}} li {{difference}} {{units}} arohile"
+    },
+    "distanceSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} ke {{difference}} {{units}} bochabela ho {{primaryPointControllerLabel}}"
+    },
+    "distanceSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} ke {{difference}} {{units}} bophirima ho {{primaryPointControllerLabel}}."
+    },
+    "symbol.meters": {
+      "value": "m"
+    },
+    "meter": {
+      "value": "mithara"
+    },
+    "meters": {
+      "value": "limithara"
+    },
+    "symbol.A": {
+      "value": "A"
+    },
+    "symbol.B": {
+      "value": "B"
+    },
+    "temperatureSceneAbsoluteDistanceTemplate": {
+      "value": "Phapang ea mocheso ke {{difference}} {{units}}."
+    },
+    "temperatureSceneDirectedPositiveDistanceTemplate": {
+      "value": "fumana {{secondaryPointControllerLabel}} ke {{difference}} {{units}} ho chesa ho feta ho fumana {{primaryPointControllerLabel}}."
+    },
+    "temperatureSceneDirectedNegativeDistanceTemplate": {
+      "value": "fumana {{secondaryPointControllerLabel}} ho{{difference}} {{units}}   bata ho feta ho fumana  {{primaryPointControllerLabel}}."
+    },
+    "symbol.degreesCelsius": {
+      "value": "°C"
+    },
+    "degree": {
+      "value": "degree"
+    },
+    "degrees": {
+      "value": "degrees"
+    },
+    "fish": {
+      "value": "tlhapi"
+    },
+    "bird": {
+      "value": "nonyana"
+    },
+    "elevationSceneAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} le {{primaryPointControllerLabel}} e na le sebaka se tlohabg holimo se ea tlase ho {{difference}} {{units}}."
+    },
+    "elevationSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} ke {{difference}} {{units}} e holim'a  {{primaryPointControllerLabel}}."
+    },
+    "elevationSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} ke {{difference}} {{units}} ka tlase ho {{primaryPointControllerLabel}}"
+    },
+    "pointLabels": {
+      "value": "mat'soao a ntlha"
+    },
+    "distanceLabels": {
+      "value": "mat'soao a sebaka"
+    },
+    "distanceDescription": {
+      "value": "litlhaloso tsa sebaka"
+    },
+    "tickMarks": {
+      "value": "t'soaea mat'soa"
+    },
+    "absoluteValue": {
+      "value": "boleng bo felletseng"
+    },
+    "directedDistance": {
+      "value": "sebaka se lebisitoeng"
+    },
+    "distanceStatement": {
+      "value": "polelo e bole"
+    },
+    "number-line-distance.title": {
+      "value": "mola oa nomoro"
+    }
+  },
+  "sv": {
+    "screen.explore": {
+      "value": "Utforska"
+    },
+    "genericAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} och {{primaryPointControllerLabel}} är {{difference}} {{units}} isär."
+    },
+    "genericDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} är {{difference}} {{units}} mer positiv än {{primaryPointControllerLabel}}."
+    },
+    "genericDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} är {{difference}} {{units}} mer negativ än {{primaryPointControllerLabel}}."
+    },
+    "unit": {
+      "value": "enhet"
+    },
+    "units": {
+      "value": "enheter"
+    },
+    "house": {
+      "value": "huset"
+    },
+    "person": {
+      "value": "personen"
+    },
+    "distanceSceneAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} och {{primaryPointControllerLabel}} är {{difference}} {{units}} isär."
+    },
+    "distanceSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} är {{difference}} {{units}} öster om {{primaryPointControllerLabel}}."
+    },
+    "distanceSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} är{{difference}} {{units}} väster om {{primaryPointControllerLabel}}."
+    },
+    "meters": {
+      "value": "meter"
+    },
+    "temperatureSceneAbsoluteDistanceTemplate": {
+      "value": "Skillnaden i temperatur är {{difference}} {{units}}."
+    },
+    "temperatureSceneDirectedPositiveDistanceTemplate": {
+      "value": "Platsen {{secondaryPointControllerLabel}} är {{difference}} {{units}} varmare än plats {{primaryPointControllerLabel}}."
+    },
+    "temperatureSceneDirectedNegativeDistanceTemplate": {
+      "value": "Platsen {{secondaryPointControllerLabel}} är {{difference}} {{units}} kallare än plats {{primaryPointControllerLabel}}."
+    },
+    "degree": {
+      "value": "grader"
+    },
+    "degrees": {
+      "value": "grader"
+    },
+    "fish": {
+      "value": "fisken"
+    },
+    "bird": {
+      "value": "fågeln"
+    },
+    "elevationSceneAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} och {{primaryPointControllerLabel}} har ett lodrät avstånd av {{difference}} {{units}}."
+    },
+    "elevationSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} är {{difference}} {{units}} över {{primaryPointControllerLabel}}."
+    },
+    "elevationSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} är {{difference}} {{units}} under {{primaryPointControllerLabel}}."
+    },
+    "pointLabels": {
+      "value": "Punktvärden"
+    },
+    "distanceLabels": {
+      "value": "Avståndsvärden"
+    },
+    "distanceDescription": {
+      "value": "Beskrivning av avståndet"
+    },
+    "tickMarks": {
+      "value": "Gradering"
+    },
+    "absoluteValue": {
+      "value": "Absolutbelopp"
+    },
+    "directedDistance": {
+      "value": "Riktningsavstånd"
+    },
+    "distanceStatement": {
+      "value": "Avståndet"
+    },
+    "number-line-distance.title": {
+      "value": "Tallinje: Avstånd"
+    }
+  },
   "sw": {
     "screen.explore": {
       "value": "Chunguza"
@@ -6068,6 +5550,372 @@
     },
     "number-line-distance.title": {
       "value": "Mstari wa Namba: Umbali"
+    }
+  },
+  "te": {
+    "screen.generic": {
+      "value": "సామాన్యీకరించు"
+    },
+    "screen.explore": {
+      "value": "అన్వేషించు"
+    },
+    "genericAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} మరియు {{primaryPointControllerLabel}} ల మధ్య దూరం {{difference}} {{units}}"
+    },
+    "genericDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}},   {{primaryPointControllerLabel}} కంటే {{difference}} {{units}} ధనాత్మకం."
+    },
+    "genericDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}},   {{primaryPointControllerLabel}} కంటే {{difference}} {{units}} రుణాత్మకం."
+    },
+    "unit": {
+      "value": "యూనిట్"
+    },
+    "units": {
+      "value": "యూనిట్లు"
+    },
+    "symbol.x": {
+      "value": "x"
+    },
+    "symbol.y": {
+      "value": "y"
+    },
+    "symbol.east": {
+      "value": "E తూర్పు"
+    },
+    "symbol.west": {
+      "value": "పడమర W"
+    },
+    "house": {
+      "value": "ఇల్లు"
+    },
+    "person": {
+      "value": "వ్యక్తి"
+    },
+    "distanceSceneAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} , {{primaryPointControllerLabel}}  {{difference}} {{units}} దూరంలో ఉన్నాయి."
+    },
+    "distanceSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} ,   {{primaryPointControllerLabel}} కి తూర్పు దిశలో {{difference}} {{units}} దూరంలో ఉంది/ ఉన్నాడు."
+    },
+    "distanceSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} ,  {{primaryPointControllerLabel}} కి పడమర దిశలో {{difference}} {{units}} దూరంలో ఉంది/ఉన్నాడు."
+    },
+    "symbol.meters": {
+      "value": "m"
+    },
+    "meter": {
+      "value": "మీటర్"
+    },
+    "meters": {
+      "value": "మీటర్ల"
+    },
+    "symbol.A": {
+      "value": "A"
+    },
+    "symbol.B": {
+      "value": "B"
+    },
+    "temperatureSceneAbsoluteDistanceTemplate": {
+      "value": "A, B స్థానాల ఉష్ణోగ్రతాభేదం {{difference}} {{units}}"
+    },
+    "temperatureSceneDirectedPositiveDistanceTemplate": {
+      "value": "స్థానం {{primaryPointControllerLabel}} కన్నా స్థానం {{secondaryPointControllerLabel}} ఉష్ణోగ్రత {{difference}} {{units}} ఎక్కువ."
+    },
+    "temperatureSceneDirectedNegativeDistanceTemplate": {
+      "value": "స్థానం {{primaryPointControllerLabel}} కన్నా స్థానం {{secondaryPointControllerLabel}} ఉష్ణోగ్రత {{difference}} {{units}} తక్కువ."
+    },
+    "symbol.degreesCelsius": {
+      "value": "°C"
+    },
+    "degree": {
+      "value": "డిగ్రీ"
+    },
+    "degrees": {
+      "value": "డిగ్రీలు"
+    },
+    "fish": {
+      "value": "చేప"
+    },
+    "bird": {
+      "value": "పిట్ట"
+    },
+    "elevationSceneAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} మరియు {{primaryPointControllerLabel}}    {{difference}} {{units}} లంబ దూరంలో ఉన్నాయి."
+    },
+    "elevationSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}},  {{primaryPointControllerLabel}} కి  {{difference}} {{units}} ఎగువన ఉంది."
+    },
+    "elevationSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}},  {{primaryPointControllerLabel}} కి  {{difference}} {{units}} దిగువన ఉంది."
+    },
+    "pointLabels": {
+      "value": "బిందు లేబుళ్లు"
+    },
+    "distanceLabels": {
+      "value": "దూరం/అంతరం లేబుళ్లు"
+    },
+    "distanceDescription": {
+      "value": "దూరం /అంతరం వివరణ"
+    },
+    "tickMarks": {
+      "value": "సమ విభాజితాలు"
+    },
+    "absoluteValue": {
+      "value": "నిరపేక్ష విలువ"
+    },
+    "directedDistance": {
+      "value": "దిశా నిర్దేశ దూరం/ అంతరం"
+    },
+    "distanceStatement": {
+      "value": "దూరం/అంతరం గణిత ప్రతిపాదన"
+    },
+    "number-line-distance.title": {
+      "value": "సంఖ్యా రేఖ: దూరం / అంతరం"
+    }
+  },
+  "tk": {
+    "screen.generic": {
+      "value": "Umumy"
+    },
+    "screen.explore": {
+      "value": "Gör"
+    },
+    "genericAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} we {{primaryPointControllerLabel}} biri-birinden {{difference}} {{units}} daşlykda."
+    },
+    "genericDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}  {{primaryPointControllerLabel}}-dan {{difference}} {{units}} has položitel."
+    },
+    "genericDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}  {{primaryPointControllerLabel}}-dan {{difference}} {{units}} has otrisatel."
+    },
+    "unit": {
+      "value": "birlik"
+    },
+    "units": {
+      "value": "birlik"
+    },
+    "symbol.x": {
+      "value": "x"
+    },
+    "symbol.y": {
+      "value": "y"
+    },
+    "symbol.east": {
+      "value": "E"
+    },
+    "symbol.west": {
+      "value": "W"
+    },
+    "house": {
+      "value": "jaý"
+    },
+    "person": {
+      "value": "adam"
+    },
+    "distanceSceneAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} we {{primaryPointControllerLabel}} biri-birinden {{difference}} {{units}} daşlykda."
+    },
+    "distanceSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} {{primaryPointControllerLabel}} görä {{difference}} {{units}} gündogarda."
+    },
+    "distanceSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} {{primaryPointControllerLabel}} görä {{difference}} {{units}} günbatarda."
+    },
+    "symbol.meters": {
+      "value": "m"
+    },
+    "meter": {
+      "value": "metr"
+    },
+    "meters": {
+      "value": "metr"
+    },
+    "symbol.A": {
+      "value": "A"
+    },
+    "symbol.B": {
+      "value": "B"
+    },
+    "temperatureSceneAbsoluteDistanceTemplate": {
+      "value": "Temperatura tapawudy {{difference}} {{units}}."
+    },
+    "temperatureSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} ýer {{primaryPointControllerLabel}} ýerden {{difference}} {{units}} has gyzgyn."
+    },
+    "temperatureSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} ýer {{primaryPointControllerLabel}} ýerden {{difference}} {{units}} has sowuk."
+    },
+    "symbol.degreesCelsius": {
+      "value": "°C"
+    },
+    "degree": {
+      "value": "gradus"
+    },
+    "degrees": {
+      "value": "gradus"
+    },
+    "fish": {
+      "value": "balyk"
+    },
+    "bird": {
+      "value": "guş"
+    },
+    "elevationSceneAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} bilen {{primaryPointControllerLabel}} arasynda dikligine aradaşlyk {{difference}} {{units}}."
+    },
+    "elevationSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} {{primaryPointControllerLabel}} görä {{difference}} {{units}} ýokarsynda."
+    },
+    "elevationSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} {{primaryPointControllerLabel}} görä {{difference}} {{units}} aşagynda."
+    },
+    "pointLabels": {
+      "value": "Nokat bellikleri"
+    },
+    "distanceLabels": {
+      "value": "Aralyk bellikleri"
+    },
+    "distanceDescription": {
+      "value": "Aralyk düşündirişleri"
+    },
+    "tickMarks": {
+      "value": "Çyzykly bellikler"
+    },
+    "absoluteValue": {
+      "value": "Absolýut baha"
+    },
+    "directedDistance": {
+      "value": "Ugurly aralyk"
+    },
+    "distanceStatement": {
+      "value": "Aralyk beýannamasy"
+    },
+    "number-line-distance.title": {
+      "value": "San çyzygy: Aralyk"
+    }
+  },
+  "tr": {
+    "screen.explore": {
+      "value": "Keşfet"
+    },
+    "screen.generic": {
+      "value": "Genel"
+    },
+    "genericAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} ve {{primaryPointControllerLabel}} birbirlerinden {{difference}} {{units}} uzaklar."
+    },
+    "genericDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}}den {{difference}} {{units}} daha pozitif."
+    },
+    "genericDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}}den {{difference}} {{units}} daha negatif."
+    },
+    "unit": {
+      "value": "birim"
+    },
+    "units": {
+      "value": "birimler"
+    },
+    "symbol.x": {
+      "value": "x"
+    },
+    "symbol.y": {
+      "value": "y"
+    },
+    "symbol.east": {
+      "value": "Doğu"
+    },
+    "symbol.west": {
+      "value": "Batı"
+    },
+    "house": {
+      "value": "ev"
+    },
+    "person": {
+      "value": "birey"
+    },
+    "distanceSceneAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} ve {{primaryPointControllerLabel}} birbirlerinden {{difference}} {{units}} uzaklar."
+    },
+    "distanceSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}}'nın  {{difference}} {{units}} doğusunda."
+    },
+    "distanceSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}}'nın  {{difference}} {{units}} batısında."
+    },
+    "symbol.meters": {
+      "value": "m"
+    },
+    "meter": {
+      "value": "metre"
+    },
+    "meters": {
+      "value": "metre"
+    },
+    "symbol.A": {
+      "value": "A"
+    },
+    "symbol.B": {
+      "value": "B"
+    },
+    "temperatureSceneAbsoluteDistanceTemplate": {
+      "value": "Sıcaklık farkı {{difference}} {{units}}."
+    },
+    "temperatureSceneDirectedPositiveDistanceTemplate": {
+      "value": "Konum {{secondaryPointControllerLabel}} konum {{primaryPointControllerLabel}}'den  {{difference}} {{units}} daha sıcak."
+    },
+    "temperatureSceneDirectedNegativeDistanceTemplate": {
+      "value": "Konum {{secondaryPointControllerLabel}} konum {{primaryPointControllerLabel}}'den  {{difference}} {{units}} daha soğuk."
+    },
+    "symbol.degreesCelsius": {
+      "value": "°C"
+    },
+    "degree": {
+      "value": "derece"
+    },
+    "degrees": {
+      "value": "derece"
+    },
+    "fish": {
+      "value": "balık"
+    },
+    "bird": {
+      "value": "kuş"
+    },
+    "elevationSceneAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} ve {{primaryPointControllerLabel}} birbirlerinden {{difference}} {{units}} dikey uzaklıktadır."
+    },
+    "elevationSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}} {{difference}} {{units}} yukarısındadır."
+    },
+    "elevationSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}} {{difference}} {{units}} aşağısındadır."
+    },
+    "pointLabels": {
+      "value": "Puan Etiketleri"
+    },
+    "distanceLabels": {
+      "value": "Mesafe Etiketleri"
+    },
+    "distanceDescription": {
+      "value": "Mesafe Açıklaması"
+    },
+    "tickMarks": {
+      "value": "Sayı İşaretleri"
+    },
+    "absoluteValue": {
+      "value": "Mutlak Değer"
+    },
+    "directedDistance": {
+      "value": "Yönlendirilmiş Mesafe"
+    },
+    "distanceStatement": {
+      "value": "Mesafe Bildirimi"
+    },
+    "number-line-distance.title": {
+      "value": "Sayı Doğrusu: Mesafe"
     }
   },
   "tw": {
@@ -6329,27 +6177,27 @@
       "value": "{{variable}}<sub style='font-style:normal'>{{subscript}}</sub>"
     }
   },
-  "tk": {
-    "screen.generic": {
-      "value": "Umumy"
-    },
+  "vi": {
     "screen.explore": {
-      "value": "Gör"
+      "value": "Tìm hiểu"
+    },
+    "screen.generic": {
+      "value": "Phần tổng quát"
     },
     "genericAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} we {{primaryPointControllerLabel}} biri-birinden {{difference}} {{units}} daşlykda."
+      "value": "{{secondaryPointControllerLabel}} và {{primaryPointControllerLabel}} cách nhau {{difference}} {{units}}."
     },
     "genericDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}  {{primaryPointControllerLabel}}-dan {{difference}} {{units}} has položitel."
+      "value": "{{secondaryPointControllerLabel}} lớn hơn {{primaryPointControllerLabel}} {{difference}} {{units}}."
     },
     "genericDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}  {{primaryPointControllerLabel}}-dan {{difference}} {{units}} has otrisatel."
+      "value": "{{secondaryPointControllerLabel}} nhỏ hơn {{primaryPointControllerLabel}} {{difference}} {{units}}."
     },
     "unit": {
-      "value": "birlik"
+      "value": "đơn vị"
     },
     "units": {
-      "value": "birlik"
+      "value": "đơn vị"
     },
     "symbol.x": {
       "value": "x"
@@ -6364,28 +6212,28 @@
       "value": "W"
     },
     "house": {
-      "value": "jaý"
+      "value": "nhà"
     },
     "person": {
-      "value": "adam"
+      "value": "người"
     },
     "distanceSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} we {{primaryPointControllerLabel}} biri-birinden {{difference}} {{units}} daşlykda."
+      "value": "{{secondaryPointControllerLabel}} và {{primaryPointControllerLabel}} cách nhau {{difference}} {{units}}."
     },
     "distanceSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} {{primaryPointControllerLabel}} görä {{difference}} {{units}} gündogarda."
+      "value": "{{secondaryPointControllerLabel}} cách {{primaryPointControllerLabel}} {{difference}} {{units}} về phía Đông."
     },
     "distanceSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} {{primaryPointControllerLabel}} görä {{difference}} {{units}} günbatarda."
+      "value": "{{secondaryPointControllerLabel}} cách {{primaryPointControllerLabel}} {{difference}} {{units}} về phía Tây."
     },
     "symbol.meters": {
       "value": "m"
     },
     "meter": {
-      "value": "metr"
+      "value": "m"
     },
     "meters": {
-      "value": "metr"
+      "value": "m"
     },
     "symbol.A": {
       "value": "A"
@@ -6394,61 +6242,76 @@
       "value": "B"
     },
     "temperatureSceneAbsoluteDistanceTemplate": {
-      "value": "Temperatura tapawudy {{difference}} {{units}}."
+      "value": "Hiệu nhiệt độ là  {{difference}} {{units}}."
     },
     "temperatureSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} ýer {{primaryPointControllerLabel}} ýerden {{difference}} {{units}} has gyzgyn."
+      "value": "Vị trí {{secondaryPointControllerLabel}} nóng hơn {{primaryPointControllerLabel}} {{difference}} {{units}}."
     },
     "temperatureSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} ýer {{primaryPointControllerLabel}} ýerden {{difference}} {{units}} has sowuk."
+      "value": "Vị trí {{secondaryPointControllerLabel}} lạnh hơn {{primaryPointControllerLabel}} {{difference}} {{units}}."
     },
     "symbol.degreesCelsius": {
       "value": "°C"
     },
     "degree": {
-      "value": "gradus"
+      "value": "độ"
     },
     "degrees": {
-      "value": "gradus"
+      "value": "độ"
     },
     "fish": {
-      "value": "balyk"
+      "value": "cá"
     },
     "bird": {
-      "value": "guş"
+      "value": "chim"
     },
     "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} bilen {{primaryPointControllerLabel}} arasynda dikligine aradaşlyk {{difference}} {{units}}."
+      "value": "{{secondaryPointControllerLabel}} và  {{primaryPointControllerLabel}} cách nhau {{difference}} {{units}} theo phương thẳng đứng."
     },
     "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} {{primaryPointControllerLabel}} görä {{difference}} {{units}} ýokarsynda."
+      "value": "{{secondaryPointControllerLabel}} ở trên {{primaryPointControllerLabel}} {{difference}} {{units}}."
     },
     "elevationSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} {{primaryPointControllerLabel}} görä {{difference}} {{units}} aşagynda."
+      "value": "{{secondaryPointControllerLabel}} ở dưới {{primaryPointControllerLabel}}   {{difference}} {{units}}."
     },
     "pointLabels": {
-      "value": "Nokat bellikleri"
+      "value": "Trị số của điểm"
     },
     "distanceLabels": {
-      "value": "Aralyk bellikleri"
+      "value": "Trị số khoảng cách"
     },
     "distanceDescription": {
-      "value": "Aralyk düşündirişleri"
+      "value": "Mô tả khoảng cách"
     },
     "tickMarks": {
-      "value": "Çyzykly bellikler"
+      "value": "Dấu trị số"
     },
     "absoluteValue": {
-      "value": "Absolýut baha"
+      "value": "Giá trị tuyệt đối"
     },
     "directedDistance": {
-      "value": "Ugurly aralyk"
+      "value": "Khoảng cách định hướng"
     },
     "distanceStatement": {
-      "value": "Aralyk beýannamasy"
+      "value": "Diễn giải khoảng cách"
     },
     "number-line-distance.title": {
-      "value": "San çyzygy: Aralyk"
+      "value": "Đường thẳng số: Khoảng cách"
+    },
+    "displacement": {
+      "value": "Độ dời"
+    },
+    "terminology": {
+      "value": "Thuật ngữ"
+    },
+    "terminologyControlDescription": {
+      "value": "Choose the terminology used to describe the difference between two integers."
+    },
+    "mathSymbolPattern": {
+      "value": "<span style='font-family: \"Times New Roman\", Times, serif;font-style: italic'>{{symbol}}</span>"
+    },
+    "variableSubscriptPattern": {
+      "value": "{{variable}}<sub style='font-style:normal'>{{subscript}}</sub>"
     }
   },
   "yo": {
@@ -7213,6 +7076,128 @@
       "value": "°C"
     }
   },
+  "az": {
+    "screen.generic": {
+      "value": "Ümumi baxış"
+    },
+    "genericDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}  {{primaryPointControllerLabel}}dan  {{difference}} {{units}} daha müsbətdir."
+    },
+    "genericDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} {{primaryPointControllerLabel}}dan {{difference}} {{units}} daha mənfidir."
+    },
+    "unit": {
+      "value": "vahid"
+    },
+    "units": {
+      "value": "vahid"
+    },
+    "symbol.x": {
+      "value": "x"
+    },
+    "symbol.y": {
+      "value": "y"
+    },
+    "symbol.east": {
+      "value": "Ş"
+    },
+    "symbol.west": {
+      "value": "Q"
+    },
+    "house": {
+      "value": "ev"
+    },
+    "person": {
+      "value": "İnsan"
+    },
+    "distanceSceneAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} və {{primaryPointControllerLabel}} {{difference}} {{units}} məsafədədirlər."
+    },
+    "distanceSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}  {{primaryPointControllerLabel}}in  {{difference}} {{units}} şərqindədir."
+    },
+    "distanceSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}  {{primaryPointControllerLabel}}in  {{difference}} {{units}} qərbindədir."
+    },
+    "symbol.meters": {
+      "value": "m"
+    },
+    "meter": {
+      "value": "metr"
+    },
+    "meters": {
+      "value": "metr"
+    },
+    "symbol.A": {
+      "value": "A"
+    },
+    "symbol.B": {
+      "value": "B"
+    },
+    "temperatureSceneAbsoluteDistanceTemplate": {
+      "value": " Temperatur fərqi {{difference}} {{units}}dir."
+    },
+    "temperatureSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} nöqtəsi {{primaryPointControllerLabel}} nöqtəsindən {{difference}} {{units}} daha istidir."
+    },
+    "temperatureSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} nöqtəsi {{primaryPointControllerLabel}} nöqtəsindən {{difference}} {{units}} daha soyuqdur."
+    },
+    "symbol.degreesCelsius": {
+      "value": "°C"
+    },
+    "degree": {
+      "value": "dərəcə"
+    },
+    "degrees": {
+      "value": "dərəcə"
+    },
+    "fish": {
+      "value": "Balıq"
+    },
+    "bird": {
+      "value": "quş"
+    },
+    "elevationSceneAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} və {{primaryPointControllerLabel}} {{difference}} {{units}} şaquli məsafədədir."
+    },
+    "elevationSceneDirectedPositiveDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}  {{primaryPointControllerLabel}}un {{difference}} {{units}} yuxarısındadır."
+    },
+    "elevationSceneDirectedNegativeDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}}  {{primaryPointControllerLabel}}un {{difference}} {{units}} aşağısındadır."
+    },
+    "pointLabels": {
+      "value": "Nöqtələri göstər"
+    },
+    "distanceLabels": {
+      "value": "Məsafəni göstər"
+    },
+    "distanceDescription": {
+      "value": "Məsafənin təsviri"
+    },
+    "tickMarks": {
+      "value": "Ədədləri göstər"
+    },
+    "absoluteValue": {
+      "value": "Mütləq qiymət"
+    },
+    "directedDistance": {
+      "value": "İstiqamətləndirilmiş məsafə"
+    },
+    "distanceStatement": {
+      "value": "Məsafə"
+    },
+    "number-line-distance.title": {
+      "value": "Ədəd oxu: Məsafə"
+    },
+    "screen.explore": {
+      "value": "Araşdır"
+    },
+    "genericAbsoluteDistanceTemplate": {
+      "value": "{{secondaryPointControllerLabel}} və {{primaryPointControllerLabel}} {{difference}} {{units}} məsafədədirlər."
+    }
+  },
   "pl": {
     "screen.explore": {
       "value": "Badaj"
@@ -7472,27 +7457,27 @@
       "value": "Sarara Lakkoofsaa: Fageenya"
     }
   },
-  "tr": {
+  "da": {
     "screen.explore": {
-      "value": "Keşfet"
+      "value": "Opdag"
     },
     "screen.generic": {
-      "value": "Genel"
+      "value": "Generelt"
     },
     "genericAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} ve {{primaryPointControllerLabel}} birbirlerinden {{difference}} {{units}} uzaklar."
+      "value": "{{secondaryPointControllerLabel}} og {{primaryPointControllerLabel}} er {{difference}} {{units}} fra hinanden."
     },
     "genericDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}}den {{difference}} {{units}} daha pozitif."
+      "value": "{{secondaryPointControllerLabel}} er {{difference}} {{units}} mere positiv end {{primaryPointControllerLabel}}."
     },
     "genericDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}}den {{difference}} {{units}} daha negatif."
+      "value": "{{secondaryPointControllerLabel}} er {{difference}} {{units}} mere negativ end {{primaryPointControllerLabel}}."
     },
     "unit": {
-      "value": "birim"
+      "value": "enhed"
     },
     "units": {
-      "value": "birimler"
+      "value": "enheder"
     },
     "symbol.x": {
       "value": "x"
@@ -7501,34 +7486,34 @@
       "value": "y"
     },
     "symbol.east": {
-      "value": "Doğu"
+      "value": "Ø"
     },
     "symbol.west": {
-      "value": "Batı"
+      "value": "V"
     },
     "house": {
-      "value": "ev"
+      "value": "huset"
     },
     "person": {
-      "value": "birey"
+      "value": "personen"
     },
     "distanceSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} ve {{primaryPointControllerLabel}} birbirlerinden {{difference}} {{units}} uzaklar."
+      "value": "{{secondaryPointControllerLabel}} og {{primaryPointControllerLabel}} er {{difference}} {{units}} fra hinanden."
     },
     "distanceSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}}'nın  {{difference}} {{units}} doğusunda."
+      "value": "{{secondaryPointControllerLabel}} er {{difference}} {{units}} øst for {{primaryPointControllerLabel}}."
     },
     "distanceSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}}'nın  {{difference}} {{units}} batısında."
+      "value": "{{secondaryPointControllerLabel}} er {{difference}} {{units}} vest for {{primaryPointControllerLabel}}."
     },
     "symbol.meters": {
       "value": "m"
     },
     "meter": {
-      "value": "metre"
+      "value": "meter"
     },
     "meters": {
-      "value": "metre"
+      "value": "meter"
     },
     "symbol.A": {
       "value": "A"
@@ -7537,84 +7522,99 @@
       "value": "B"
     },
     "temperatureSceneAbsoluteDistanceTemplate": {
-      "value": "Sıcaklık farkı {{difference}} {{units}}."
+      "value": "Forskellen i temperatur er {{difference}} {{units}}."
     },
     "temperatureSceneDirectedPositiveDistanceTemplate": {
-      "value": "Konum {{secondaryPointControllerLabel}} konum {{primaryPointControllerLabel}}'den  {{difference}} {{units}} daha sıcak."
+      "value": "Placering {{secondaryPointControllerLabel}} er {{difference}} {{units}} varmere end placering {{primaryPointControllerLabel}}."
     },
     "temperatureSceneDirectedNegativeDistanceTemplate": {
-      "value": "Konum {{secondaryPointControllerLabel}} konum {{primaryPointControllerLabel}}'den  {{difference}} {{units}} daha soğuk."
+      "value": "Placering {{secondaryPointControllerLabel}} er {{difference}} {{units}} koldere end placering {{primaryPointControllerLabel}}."
     },
     "symbol.degreesCelsius": {
       "value": "°C"
     },
     "degree": {
-      "value": "derece"
+      "value": "grader"
     },
     "degrees": {
-      "value": "derece"
+      "value": "grader"
     },
     "fish": {
-      "value": "balık"
+      "value": "fisk"
     },
     "bird": {
-      "value": "kuş"
+      "value": "fugl"
     },
     "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} ve {{primaryPointControllerLabel}} birbirlerinden {{difference}} {{units}} dikey uzaklıktadır."
+      "value": "{{secondaryPointControllerLabel}} og {{primaryPointControllerLabel}} har en lodret afstand på {{difference}} {{units}}."
     },
     "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}} {{difference}} {{units}} yukarısındadır."
+      "value": "{{secondaryPointControllerLabel}} er {{difference}} {{units}} over {{primaryPointControllerLabel}}."
     },
     "elevationSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}}, {{primaryPointControllerLabel}} {{difference}} {{units}} aşağısındadır."
+      "value": "{{secondaryPointControllerLabel}} er {{difference}} {{units}} under {{primaryPointControllerLabel}}."
     },
     "pointLabels": {
-      "value": "Puan Etiketleri"
+      "value": "Punkt-værdier"
     },
     "distanceLabels": {
-      "value": "Mesafe Etiketleri"
+      "value": "Afstands-værdi"
     },
     "distanceDescription": {
-      "value": "Mesafe Açıklaması"
+      "value": "Afstans-beskrivelse"
     },
     "tickMarks": {
-      "value": "Sayı İşaretleri"
+      "value": "Punkt-værdier"
     },
     "absoluteValue": {
-      "value": "Mutlak Değer"
+      "value": "Absolut værdi"
     },
     "directedDistance": {
-      "value": "Yönlendirilmiş Mesafe"
+      "value": "Relativ afstand"
     },
     "distanceStatement": {
-      "value": "Mesafe Bildirimi"
+      "value": "Afstandsangivelse"
     },
     "number-line-distance.title": {
-      "value": "Sayı Doğrusu: Mesafe"
+      "value": "Tallinje: Afstand"
+    },
+    "displacement": {
+      "value": "Forskydning"
+    },
+    "terminology": {
+      "value": "Terminologi"
+    },
+    "terminologyControlDescription": {
+      "value": "Vælg den terminologi, der bruges til at beskrive forskellen mellem to heltal."
+    },
+    "mathSymbolPattern": {
+      "value": "<span style='font-family: \"Times New Roman\", Times, serif;font-style: italic'>{{symbol}}</span>"
+    },
+    "variableSubscriptPattern": {
+      "value": "{{variable}}<sub style='font-style:normal'>{{subscript}}</sub>"
     }
   },
-  "vi": {
-    "screen.explore": {
-      "value": "Tìm hiểu"
-    },
+  "ca": {
     "screen.generic": {
-      "value": "Phần tổng quát"
+      "value": "Genèric"
+    },
+    "screen.explore": {
+      "value": "Explora"
     },
     "genericAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} và {{primaryPointControllerLabel}} cách nhau {{difference}} {{units}}."
+      "value": "La {{secondaryPointControllerLabel}} i la {{primaryPointControllerLabel}} estan separades {{difference}} {{units}}."
     },
     "genericDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} lớn hơn {{primaryPointControllerLabel}} {{difference}} {{units}}."
+      "value": "La {{secondaryPointControllerLabel}} és {{difference}} {{units}} més positiva que la {{primaryPointControllerLabel}}."
     },
     "genericDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} nhỏ hơn {{primaryPointControllerLabel}} {{difference}} {{units}}."
+      "value": "La {{secondaryPointControllerLabel}} és {{difference}} {{units}} més negativa que la {{primaryPointControllerLabel}}."
     },
     "unit": {
-      "value": "đơn vị"
+      "value": "unitat"
     },
     "units": {
-      "value": "đơn vị"
+      "value": "unitats"
     },
     "symbol.x": {
       "value": "x"
@@ -7626,31 +7626,31 @@
       "value": "E"
     },
     "symbol.west": {
-      "value": "W"
+      "value": "O"
     },
     "house": {
-      "value": "nhà"
+      "value": "casa"
     },
     "person": {
-      "value": "người"
+      "value": "noia"
     },
     "distanceSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} và {{primaryPointControllerLabel}} cách nhau {{difference}} {{units}}."
+      "value": "La {{secondaryPointControllerLabel}} i la {{primaryPointControllerLabel}} estan separades {{difference}} {{units}}."
     },
     "distanceSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} cách {{primaryPointControllerLabel}} {{difference}} {{units}} về phía Đông."
+      "value": "La {{secondaryPointControllerLabel}} és a {{difference}} {{units}} cap a l'est de la {{primaryPointControllerLabel}}."
     },
     "distanceSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} cách {{primaryPointControllerLabel}} {{difference}} {{units}} về phía Tây."
+      "value": "La {{secondaryPointControllerLabel}} és a {{difference}} {{units}} cap a l'oest de la {{primaryPointControllerLabel}}."
     },
     "symbol.meters": {
       "value": "m"
     },
     "meter": {
-      "value": "m"
+      "value": "metre"
     },
     "meters": {
-      "value": "m"
+      "value": "metres"
     },
     "symbol.A": {
       "value": "A"
@@ -7659,70 +7659,70 @@
       "value": "B"
     },
     "temperatureSceneAbsoluteDistanceTemplate": {
-      "value": "Hiệu nhiệt độ là  {{difference}} {{units}}."
+      "value": "La diferència de temperatura és de {{difference}} {{units}}."
     },
     "temperatureSceneDirectedPositiveDistanceTemplate": {
-      "value": "Vị trí {{secondaryPointControllerLabel}} nóng hơn {{primaryPointControllerLabel}} {{difference}} {{units}}."
+      "value": "La ubicació {{secondaryPointControllerLabel}} és {{difference}} {{units}} més càlida que la ubicació {{primaryPointControllerLabel}}."
     },
     "temperatureSceneDirectedNegativeDistanceTemplate": {
-      "value": "Vị trí {{secondaryPointControllerLabel}} lạnh hơn {{primaryPointControllerLabel}} {{difference}} {{units}}."
+      "value": "La ubicació {{secondaryPointControllerLabel}} és {{difference}} \r\n{{units}} més freda que la ubicació {{primaryPointControllerLabel}}."
     },
     "symbol.degreesCelsius": {
-      "value": "°C"
+      "value": "ºC"
     },
     "degree": {
-      "value": "độ"
+      "value": "grau"
     },
     "degrees": {
-      "value": "độ"
+      "value": "graus"
     },
     "fish": {
-      "value": "cá"
+      "value": "peix volador"
     },
     "bird": {
-      "value": "chim"
+      "value": "gavià argentat"
     },
     "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} và  {{primaryPointControllerLabel}} cách nhau {{difference}} {{units}} theo phương thẳng đứng."
+      "value": "El {{secondaryPointControllerLabel}} i el {{primaryPointControllerLabel}} són a una distància vertical de {{difference}} {{units}}."
     },
     "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} ở trên {{primaryPointControllerLabel}} {{difference}} {{units}}."
+      "value": "El {{secondaryPointControllerLabel}} és {{difference}} {{units}} per sobre del {{primaryPointControllerLabel}}."
     },
     "elevationSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} ở dưới {{primaryPointControllerLabel}}   {{difference}} {{units}}."
+      "value": "El {{secondaryPointControllerLabel}} és {{difference}} {{units}} per sota del {{primaryPointControllerLabel}}."
     },
     "pointLabels": {
-      "value": "Trị số của điểm"
+      "value": "Etiqueta dels punts"
     },
     "distanceLabels": {
-      "value": "Trị số khoảng cách"
+      "value": "Etiquetes de la distància"
     },
     "distanceDescription": {
-      "value": "Mô tả khoảng cách"
+      "value": "Descripció de la distància"
     },
     "tickMarks": {
-      "value": "Dấu trị số"
+      "value": "Marques"
     },
     "absoluteValue": {
-      "value": "Giá trị tuyệt đối"
+      "value": "Valor absolut"
     },
     "directedDistance": {
-      "value": "Khoảng cách định hướng"
+      "value": "Distància directa"
     },
     "distanceStatement": {
-      "value": "Diễn giải khoảng cách"
+      "value": "Declaració de distància"
     },
     "number-line-distance.title": {
-      "value": "Đường thẳng số: Khoảng cách"
+      "value": "Recta numèrica. Distància"
     },
     "displacement": {
-      "value": "Độ dời"
+      "value": "Desplaçament"
     },
     "terminology": {
-      "value": "Thuật ngữ"
+      "value": "Terminologia"
     },
     "terminologyControlDescription": {
-      "value": "Choose the terminology used to describe the difference between two integers."
+      "value": "Tria la terminologia que es fa servir per a descriure la diferència entre dos nombres sencers."
     },
     "mathSymbolPattern": {
       "value": "<span style='font-family: \"Times New Roman\", Times, serif;font-style: italic'>{{symbol}}</span>"
@@ -7731,27 +7731,27 @@
       "value": "{{variable}}<sub style='font-style:normal'>{{subscript}}</sub>"
     }
   },
-  "te": {
+  "ja": {
     "screen.generic": {
-      "value": "సామాన్యీకరించు"
+      "value": "一般論"
     },
     "screen.explore": {
-      "value": "అన్వేషించు"
+      "value": "探求"
     },
     "genericAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} మరియు {{primaryPointControllerLabel}} ల మధ్య దూరం {{difference}} {{units}}"
+      "value": "{{secondaryPointControllerLabel}}と{{primaryPointControllerLabel}}は{{difference}} {{units}}離れている。"
     },
     "genericDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}},   {{primaryPointControllerLabel}} కంటే {{difference}} {{units}} ధనాత్మకం."
+      "value": "{{secondaryPointControllerLabel}}は、{{primaryPointControllerLabel}}よりも{{difference}} {{units}}だけ正の方向にある。"
     },
     "genericDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}},   {{primaryPointControllerLabel}} కంటే {{difference}} {{units}} రుణాత్మకం."
+      "value": "{{secondaryPointControllerLabel}}は、{{primaryPointControllerLabel}}よりも{{difference}} {{units}}だけ負の方向にある。"
     },
     "unit": {
-      "value": "యూనిట్"
+      "value": "　"
     },
     "units": {
-      "value": "యూనిట్లు"
+      "value": "　"
     },
     "symbol.x": {
       "value": "x"
@@ -7760,34 +7760,34 @@
       "value": "y"
     },
     "symbol.east": {
-      "value": "E తూర్పు"
+      "value": "東"
     },
     "symbol.west": {
-      "value": "పడమర W"
+      "value": "西"
     },
     "house": {
-      "value": "ఇల్లు"
+      "value": "家"
     },
     "person": {
-      "value": "వ్యక్తి"
+      "value": "人"
     },
     "distanceSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} , {{primaryPointControllerLabel}}  {{difference}} {{units}} దూరంలో ఉన్నాయి."
+      "value": "{{secondaryPointControllerLabel}}と {{primaryPointControllerLabel}}は {{difference}} {{units}} 離れている。"
     },
     "distanceSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} ,   {{primaryPointControllerLabel}} కి తూర్పు దిశలో {{difference}} {{units}} దూరంలో ఉంది/ ఉన్నాడు."
+      "value": "{{secondaryPointControllerLabel}}は、{{primaryPointControllerLabel}}の{{difference}} {{units}} 東に位置する。"
     },
     "distanceSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} ,  {{primaryPointControllerLabel}} కి పడమర దిశలో {{difference}} {{units}} దూరంలో ఉంది/ఉన్నాడు."
+      "value": "{{secondaryPointControllerLabel}}は、{{primaryPointControllerLabel}}の{{difference}} {{units}}西に位置する。"
     },
     "symbol.meters": {
       "value": "m"
     },
     "meter": {
-      "value": "మీటర్"
+      "value": "メートル"
     },
     "meters": {
-      "value": "మీటర్ల"
+      "value": "メートル"
     },
     "symbol.A": {
       "value": "A"
@@ -7796,61 +7796,61 @@
       "value": "B"
     },
     "temperatureSceneAbsoluteDistanceTemplate": {
-      "value": "A, B స్థానాల ఉష్ణోగ్రతాభేదం {{difference}} {{units}}"
+      "value": "気温の差は{{difference}} {{units}}である。"
     },
     "temperatureSceneDirectedPositiveDistanceTemplate": {
-      "value": "స్థానం {{primaryPointControllerLabel}} కన్నా స్థానం {{secondaryPointControllerLabel}} ఉష్ణోగ్రత {{difference}} {{units}} ఎక్కువ."
+      "value": "地点{{secondaryPointControllerLabel}}は、地点{{primaryPointControllerLabel}}よりも{{difference}} {{units}} 暑い。"
     },
     "temperatureSceneDirectedNegativeDistanceTemplate": {
-      "value": "స్థానం {{primaryPointControllerLabel}} కన్నా స్థానం {{secondaryPointControllerLabel}} ఉష్ణోగ్రత {{difference}} {{units}} తక్కువ."
+      "value": "地点{{secondaryPointControllerLabel}}は、地点 {{primaryPointControllerLabel}}よりも {{difference}} {{units}} 寒い。"
     },
     "symbol.degreesCelsius": {
       "value": "°C"
     },
     "degree": {
-      "value": "డిగ్రీ"
+      "value": "度"
     },
     "degrees": {
-      "value": "డిగ్రీలు"
+      "value": "度"
     },
     "fish": {
-      "value": "చేప"
+      "value": "魚"
     },
     "bird": {
-      "value": "పిట్ట"
+      "value": "鳥"
     },
     "elevationSceneAbsoluteDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}} మరియు {{primaryPointControllerLabel}}    {{difference}} {{units}} లంబ దూరంలో ఉన్నాయి."
+      "value": "{{secondaryPointControllerLabel}}と{{primaryPointControllerLabel}}の間の垂直距離は{{difference}} {{units}}である。"
     },
     "elevationSceneDirectedPositiveDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}},  {{primaryPointControllerLabel}} కి  {{difference}} {{units}} ఎగువన ఉంది."
+      "value": "{{secondaryPointControllerLabel}}は {{primaryPointControllerLabel}}の{{difference}} {{units}}上方に位置する。"
     },
     "elevationSceneDirectedNegativeDistanceTemplate": {
-      "value": "{{secondaryPointControllerLabel}},  {{primaryPointControllerLabel}} కి  {{difference}} {{units}} దిగువన ఉంది."
+      "value": "{{secondaryPointControllerLabel}}は {{primaryPointControllerLabel}}の{{difference}} {{units}}下方に位置する。"
     },
     "pointLabels": {
-      "value": "బిందు లేబుళ్లు"
+      "value": "点のラベル"
     },
     "distanceLabels": {
-      "value": "దూరం/అంతరం లేబుళ్లు"
+      "value": "距離のラベル"
     },
     "distanceDescription": {
-      "value": "దూరం /అంతరం వివరణ"
+      "value": "距離の説明"
     },
     "tickMarks": {
-      "value": "సమ విభాజితాలు"
+      "value": "目盛り"
     },
     "absoluteValue": {
-      "value": "నిరపేక్ష విలువ"
+      "value": "絶対値"
     },
     "directedDistance": {
-      "value": "దిశా నిర్దేశ దూరం/ అంతరం"
+      "value": "有向距離"
     },
     "distanceStatement": {
-      "value": "దూరం/అంతరం గణిత ప్రతిపాదన"
+      "value": "距離の命題"
     },
     "number-line-distance.title": {
-      "value": "సంఖ్యా రేఖ: దూరం / అంతరం"
+      "value": "数直線：距離"
     }
   }
 }

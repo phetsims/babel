@@ -1,12 +1,4 @@
 {
-  "ar": {
-    "pointsOffScale": {
-      "value": "نقاط <br> خارج النطاق!"
-    },
-    "rangePattern": {
-      "value": "{{lowValue}} إلى {{highValue}}"
-    }
-  },
   "am": {
     "pointsOffScale": {
       "value": "ነጥቦች<br>ከልኬት ውጭ!"
@@ -15,7 +7,7 @@
       "value": "{{lowValue}} ወደ{{highValue}}"
     }
   },
-  "ar_MA": {
+  "ar": {
     "pointsOffScale": {
       "value": "نقاط <br> خارج النطاق!"
     },
@@ -52,17 +44,17 @@
       "value": "{{lowValue}} dо {{highValue}}"
     }
   },
-  "cs": {
-    "pointsOffScale": {
-      "value": "Body<br> mimo stupnici!"
-    }
-  },
   "ca": {
     "pointsOffScale": {
       "value": "Punts<br>fora de l'escala!"
     },
     "rangePattern": {
       "value": "de {{lowValue}} a {{highValue}}"
+    }
+  },
+  "cs": {
+    "pointsOffScale": {
+      "value": "Body<br> mimo stupnici!"
     }
   },
   "da": {
@@ -179,11 +171,6 @@
       "value": "{{lowValue}} to {{highValue}}"
     }
   },
-  "hu": {
-    "rangePattern": {
-      "value": "{{lowValue}} ... {{highValue}}"
-    }
-  },
   "ig": {
     "pointsOffScale": {
       "value": "Isi<br>enweghị atụ!"
@@ -234,6 +221,11 @@
       "value": "{{lowValue}} to {{highValue}}"
     }
   },
+  "hu": {
+    "rangePattern": {
+      "value": "{{lowValue}} ... {{highValue}}"
+    }
+  },
   "lg": {
     "pointsOffScale": {
       "value": "Ensonga<br>wabweru wa sikelo!"
@@ -274,12 +266,12 @@
       "value": "Markah<br>melepasi had!"
     }
   },
-  "nl": {
-    "pointsOffScale": {
-      "value": "Punten <br> buiten schaal!"
-    },
+  "mt": {
     "rangePattern": {
-      "value": "{{lowValue}} tot {{highValue}}"
+      "value": "{{lowValue}} to {{highValue}}"
+    },
+    "pointsOffScale": {
+      "value": "Punti<br>barra l-limitu!"
     }
   },
   "ny": {
@@ -364,17 +356,17 @@
       "value": "{{lowValue}} до {{highValue}}"
     }
   },
+  "sv": {
+    "rangePattern": {
+      "value": "{{lowValue}} till {{highValue}}"
+    }
+  },
   "st": {
     "pointsOffScale": {
       "value": "Meputso<br>e feta sekala!"
     },
     "rangePattern": {
       "value": "{{lowValue}} ho {{highValue}}"
-    }
-  },
-  "sv": {
-    "rangePattern": {
-      "value": "{{lowValue}} till {{highValue}}"
     }
   },
   "sw": {
@@ -427,17 +419,17 @@
       "value": "Ballar<br>shkaladan tashqari!"
     }
   },
-  "zh_CN": {
-    "rangePattern": {
-      "value": "{{lowValue}} to {{highValue}}"
-    }
-  },
   "vi": {
     "pointsOffScale": {
       "value": "Điểm<br>ngoài thang đo!"
     },
     "rangePattern": {
       "value": "{{lowValue}} tới {{highValue}}"
+    }
+  },
+  "zh_CN": {
+    "rangePattern": {
+      "value": "{{lowValue}} to {{highValue}}"
     }
   },
   "zh_HK": {
@@ -480,12 +472,20 @@
       "value": "{{lowValue}} gara {{highValue}}"
     }
   },
-  "mt": {
-    "rangePattern": {
-      "value": "{{lowValue}} to {{highValue}}"
-    },
+  "nl": {
     "pointsOffScale": {
-      "value": "Punti<br>barra l-limitu!"
+      "value": "Punten <br> buiten schaal!"
+    },
+    "rangePattern": {
+      "value": "{{lowValue}} tot {{highValue}}"
+    }
+  },
+  "ar_MA": {
+    "pointsOffScale": {
+      "value": "نقاط <br> خارج النطاق!"
+    },
+    "rangePattern": {
+      "value": "{{lowValue}} إلى {{highValue}}"
     }
   }
 }

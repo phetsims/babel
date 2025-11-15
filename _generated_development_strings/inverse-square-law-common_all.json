@@ -204,6 +204,35 @@
       "value": "метър"
     }
   },
+  "cs": {
+    "forceOnObjectByOtherObjectPattern": {
+      "value": "Síla na {{thisObject}}, kterou způsobila  {{otherObject}}"
+    },
+    "forceOnObjectByOtherObjectWithUnitsPattern": {
+      "value": "Síla na {{thisObject}}, kterou způsobila {{otherObject}} = {{value}} N"
+    },
+    "forceValues": {
+      "value": "Zobrazit hodnoty"
+    },
+    "units.meter": {
+      "value": "metr"
+    },
+    "units.meters": {
+      "value": "metrů"
+    },
+    "units.newtons": {
+      "value": "newtony"
+    },
+    "decimalNotation": {
+      "value": "Desetinná notace"
+    },
+    "hidden": {
+      "value": "Skrýt"
+    },
+    "scientificNotation": {
+      "value": "Vědecká notace"
+    }
+  },
   "bn": {
     "units.centimeters": {
       "value": "সেন্টিমিটার (cm)"
@@ -242,24 +271,42 @@
       "value": "পিকো মিটার (pm)"
     }
   },
-  "bs": {
+  "de": {
+    "units.centimeters": {
+      "value": "cm"
+    },
+    "decimalNotation": {
+      "value": "Dezimalschreibweise"
+    },
     "forceOnObjectByOtherObjectPattern": {
-      "value": "Sila kojom na {{thisObject}} djeluje {{otherObject}}"
+      "value": "Kraft auf {{thisObject}} durch {{otherObject}}"
     },
     "forceOnObjectByOtherObjectWithUnitsPattern": {
-      "value": "Sila kojom na {{thisObject}} djeluje  {{otherObject}} = {{value}} N"
+      "value": "Kraft auf {{thisObject}} durch {{otherObject}} = {{value}} N"
     },
     "forceValues": {
-      "value": "Vrijednosti sila"
+      "value": "Werte der Kräfte"
+    },
+    "hidden": {
+      "value": "Verborgen"
     },
     "units.meter": {
-      "value": "metar"
+      "value": "meter"
     },
     "units.meters": {
-      "value": "metara"
+      "value": "meter"
     },
     "units.newtons": {
-      "value": "njutna"
+      "value": "Newton"
+    },
+    "scientificNotation": {
+      "value": "Wissenschaftliche Schreibweise"
+    },
+    "pattern_0value_1units": {
+      "value": " {{value}} {{units}}"
+    },
+    "units.picometers": {
+      "value": "pm"
     }
   },
   "ca": {
@@ -295,111 +342,6 @@
     },
     "pattern_0value_1units": {
       "value": "{{value}} {{units}}"
-    },
-    "units.picometers": {
-      "value": "pm"
-    }
-  },
-  "cs": {
-    "forceOnObjectByOtherObjectPattern": {
-      "value": "Síla na {{thisObject}}, kterou způsobila  {{otherObject}}"
-    },
-    "forceOnObjectByOtherObjectWithUnitsPattern": {
-      "value": "Síla na {{thisObject}}, kterou způsobila {{otherObject}} = {{value}} N"
-    },
-    "forceValues": {
-      "value": "Zobrazit hodnoty"
-    },
-    "units.meter": {
-      "value": "metr"
-    },
-    "units.meters": {
-      "value": "metrů"
-    },
-    "units.newtons": {
-      "value": "newtony"
-    },
-    "decimalNotation": {
-      "value": "Desetinná notace"
-    },
-    "hidden": {
-      "value": "Skrýt"
-    },
-    "scientificNotation": {
-      "value": "Vědecká notace"
-    }
-  },
-  "da": {
-    "units.centimeters": {
-      "value": "cm"
-    },
-    "decimalNotation": {
-      "value": "Decimaltal"
-    },
-    "forceOnObjectByOtherObjectPattern": {
-      "value": "Kraft på {{thisObject}} af {{otherObject}}"
-    },
-    "forceOnObjectByOtherObjectWithUnitsPattern": {
-      "value": "Kraft på {{thisObject}} af {{otherObject}} ={{value}} N"
-    },
-    "forceValues": {
-      "value": "Kraftværdier"
-    },
-    "hidden": {
-      "value": "Gemt"
-    },
-    "units.meter": {
-      "value": "meter"
-    },
-    "units.meters": {
-      "value": "metre"
-    },
-    "units.newtons": {
-      "value": "newton"
-    },
-    "scientificNotation": {
-      "value": "Videnskabelig skrivemåde"
-    },
-    "pattern_0value_1units": {
-      "value": "{{value}}{{units}}"
-    },
-    "units.picometers": {
-      "value": "pm"
-    }
-  },
-  "de": {
-    "units.centimeters": {
-      "value": "cm"
-    },
-    "decimalNotation": {
-      "value": "Dezimalschreibweise"
-    },
-    "forceOnObjectByOtherObjectPattern": {
-      "value": "Kraft auf {{thisObject}} durch {{otherObject}}"
-    },
-    "forceOnObjectByOtherObjectWithUnitsPattern": {
-      "value": "Kraft auf {{thisObject}} durch {{otherObject}} = {{value}} N"
-    },
-    "forceValues": {
-      "value": "Werte der Kräfte"
-    },
-    "hidden": {
-      "value": "Verborgen"
-    },
-    "units.meter": {
-      "value": "meter"
-    },
-    "units.meters": {
-      "value": "meter"
-    },
-    "units.newtons": {
-      "value": "Newton"
-    },
-    "scientificNotation": {
-      "value": "Wissenschaftliche Schreibweise"
-    },
-    "pattern_0value_1units": {
-      "value": " {{value}} {{units}}"
     },
     "units.picometers": {
       "value": "pm"
@@ -441,44 +383,6 @@
     },
     "units.picometers": {
       "value": "πμ."
-    }
-  },
-  "es": {
-    "units.centimeters": {
-      "value": "cm"
-    },
-    "decimalNotation": {
-      "value": "Notación decimal"
-    },
-    "forceOnObjectByOtherObjectPattern": {
-      "value": "Fuerza en {{thisObject}} por {{otherObject}}"
-    },
-    "forceOnObjectByOtherObjectWithUnitsPattern": {
-      "value": "Fuerza en {{thisObject}} por {{otherObject}} = {{value}} N"
-    },
-    "forceValues": {
-      "value": "Valor de las Fuerzas"
-    },
-    "hidden": {
-      "value": "Oculto"
-    },
-    "units.meter": {
-      "value": "metro"
-    },
-    "units.meters": {
-      "value": "metros"
-    },
-    "units.newtons": {
-      "value": "newtons"
-    },
-    "scientificNotation": {
-      "value": "Notación cientifica"
-    },
-    "pattern_0value_1units": {
-      "value": "{{value}} {{units}}"
-    },
-    "units.picometers": {
-      "value": "pm"
     }
   },
   "es_MX": {
@@ -543,6 +447,128 @@
     },
     "pattern_0value_1units": {
       "value": "{{value}} {{units}}"
+    },
+    "units.picometers": {
+      "value": "pm"
+    }
+  },
+  "bs": {
+    "forceOnObjectByOtherObjectPattern": {
+      "value": "Sila kojom na {{thisObject}} djeluje {{otherObject}}"
+    },
+    "forceOnObjectByOtherObjectWithUnitsPattern": {
+      "value": "Sila kojom na {{thisObject}} djeluje  {{otherObject}} = {{value}} N"
+    },
+    "forceValues": {
+      "value": "Vrijednosti sila"
+    },
+    "units.meter": {
+      "value": "metar"
+    },
+    "units.meters": {
+      "value": "metara"
+    },
+    "units.newtons": {
+      "value": "njutna"
+    }
+  },
+  "es": {
+    "units.centimeters": {
+      "value": "cm"
+    },
+    "decimalNotation": {
+      "value": "Notación decimal"
+    },
+    "forceOnObjectByOtherObjectPattern": {
+      "value": "Fuerza en {{thisObject}} por {{otherObject}}"
+    },
+    "forceOnObjectByOtherObjectWithUnitsPattern": {
+      "value": "Fuerza en {{thisObject}} por {{otherObject}} = {{value}} N"
+    },
+    "forceValues": {
+      "value": "Valor de las Fuerzas"
+    },
+    "hidden": {
+      "value": "Oculto"
+    },
+    "units.meter": {
+      "value": "metro"
+    },
+    "units.meters": {
+      "value": "metros"
+    },
+    "units.newtons": {
+      "value": "newtons"
+    },
+    "scientificNotation": {
+      "value": "Notación cientifica"
+    },
+    "pattern_0value_1units": {
+      "value": "{{value}} {{units}}"
+    },
+    "units.picometers": {
+      "value": "pm"
+    }
+  },
+  "da": {
+    "units.centimeters": {
+      "value": "cm"
+    },
+    "decimalNotation": {
+      "value": "Decimaltal"
+    },
+    "forceOnObjectByOtherObjectPattern": {
+      "value": "Kraft på {{thisObject}} af {{otherObject}}"
+    },
+    "forceOnObjectByOtherObjectWithUnitsPattern": {
+      "value": "Kraft på {{thisObject}} af {{otherObject}} ={{value}} N"
+    },
+    "forceValues": {
+      "value": "Kraftværdier"
+    },
+    "hidden": {
+      "value": "Gemt"
+    },
+    "units.meter": {
+      "value": "meter"
+    },
+    "units.meters": {
+      "value": "metre"
+    },
+    "units.newtons": {
+      "value": "newton"
+    },
+    "scientificNotation": {
+      "value": "Videnskabelig skrivemåde"
+    },
+    "pattern_0value_1units": {
+      "value": "{{value}}{{units}}"
+    },
+    "units.picometers": {
+      "value": "pm"
+    }
+  },
+  "fi": {
+    "decimalNotation": {
+      "value": "Desimaaliesitys"
+    },
+    "forceOnObjectByOtherObjectPattern": {
+      "value": "Kappaleeseen {{thisObject}} kohdistuva voima kappaleen {{otherObject}} aiheuttamana."
+    },
+    "forceOnObjectByOtherObjectWithUnitsPattern": {
+      "value": "Kappaleeseen {{thisObject}} kohdistuva voima (kappaleen {{otherObject}} aiheuttamana) = {{value}} N"
+    },
+    "forceValues": {
+      "value": "Voiman suuruus"
+    },
+    "scientificNotation": {
+      "value": "Tieteellinen"
+    },
+    "pattern_0value_1units": {
+      "value": "{{value}} {{units}}"
+    },
+    "units.centimeters": {
+      "value": "cm"
     },
     "units.picometers": {
       "value": "pm"
@@ -653,32 +679,6 @@
       "value": "ارایهٔ علمی"
     }
   },
-  "fi": {
-    "decimalNotation": {
-      "value": "Desimaaliesitys"
-    },
-    "forceOnObjectByOtherObjectPattern": {
-      "value": "Kappaleeseen {{thisObject}} kohdistuva voima kappaleen {{otherObject}} aiheuttamana."
-    },
-    "forceOnObjectByOtherObjectWithUnitsPattern": {
-      "value": "Kappaleeseen {{thisObject}} kohdistuva voima (kappaleen {{otherObject}} aiheuttamana) = {{value}} N"
-    },
-    "forceValues": {
-      "value": "Voiman suuruus"
-    },
-    "scientificNotation": {
-      "value": "Tieteellinen"
-    },
-    "pattern_0value_1units": {
-      "value": "{{value}} {{units}}"
-    },
-    "units.centimeters": {
-      "value": "cm"
-    },
-    "units.picometers": {
-      "value": "pm"
-    }
-  },
   "fr": {
     "units.centimeters": {
       "value": "cm"
@@ -741,108 +741,6 @@
     },
     "scientificNotation": {
       "value": "Nodaireacht Eolaíochta "
-    }
-  },
-  "gu": {
-    "forceOnObjectByOtherObjectPattern": {
-      "value": " {{thisObject}} થી {{otherObject}} તરફ લાગતું બળ"
-    },
-    "forceOnObjectByOtherObjectWithUnitsPattern": {
-      "value": " {{thisObject}} થી {{otherObject}} તરફ લાગતું બળ= {{value}} N "
-    },
-    "forceValues": {
-      "value": "બળની કિંમત"
-    },
-    "units.meter": {
-      "value": "મીટર"
-    },
-    "units.meters": {
-      "value": "મીટર"
-    },
-    "units.newtons": {
-      "value": "ન્યુટન"
-    },
-    "decimalNotation": {
-      "value": "દસાંશ મૂલ્ય"
-    },
-    "hidden": {
-      "value": "છુપાવો"
-    },
-    "scientificNotation": {
-      "value": "પ્રમાણિત મૂલ્ય"
-    }
-  },
-  "ha": {
-    "units.centimeters": {
-      "value": "Santi mita"
-    },
-    "forceOnObjectByOtherObjectPattern": {
-      "value": "Ƙarfi kan wani abu {{thisObject}}saboda wani abu {{otherObject}}"
-    },
-    "forceOnObjectByOtherObjectWithUnitsPattern": {
-      "value": "Ƙarfi kan wani abu {{thisObject}}saboda wani abu {{otherObject}}={{value}} harafin N"
-    },
-    "forceValues": {
-      "value": "Yawan ƙarfi (jawowa to turewa)"
-    },
-    "units.picometers": {
-      "value": "Haruffan p da m"
-    },
-    "pattern_0value_1units": {
-      "value": "{{value}} {{units}}"
-    },
-    "decimalNotation": {
-      "value": "Decimal Notation"
-    },
-    "hidden": {
-      "value": "Abin da aka boye"
-    },
-    "scientificNotation": {
-      "value": "Alamomin rubutun kimiyya"
-    },
-    "units.newtons": {
-      "value": "newtons"
-    },
-    "units.meters": {
-      "value": "Mitoci"
-    },
-    "units.meter": {
-      "value": "Mita"
-    }
-  },
-  "hi": {
-    "units.centimeters": {
-      "value": "cm"
-    },
-    "decimalNotation": {
-      "value": "दशमलव अंकन"
-    },
-    "forceOnObjectByOtherObjectPattern": {
-      "value": "इस {{thisObject}} पर उस {{otherObject}} द्वारा लगाया गया बल"
-    },
-    "forceOnObjectByOtherObjectWithUnitsPattern": {
-      "value": "इस {{thisObject}} पर उस {{otherObject}} द्वारा लगाया गया बल = {{value}} N"
-    },
-    "forceValues": {
-      "value": "बल मान"
-    },
-    "hidden": {
-      "value": "छिपा हुआ"
-    },
-    "units.meter": {
-      "value": "मीटर"
-    },
-    "units.meters": {
-      "value": "मीटर"
-    },
-    "units.newtons": {
-      "value": "न्यूटन"
-    },
-    "scientificNotation": {
-      "value": "वैज्ञानिक संकेतन"
-    },
-    "pattern_0value_1units": {
-      "value": "{{value}} {{units}}"
     }
   },
   "hr": {
@@ -918,33 +816,33 @@
       "value": "{{value}} {{units}}"
     }
   },
-  "hu": {
-    "decimalNotation": {
-      "value": "Tizedes alak"
-    },
+  "gu": {
     "forceOnObjectByOtherObjectPattern": {
-      "value": "{{otherObject}} erőhatása {{thisObject}}-re"
+      "value": " {{thisObject}} થી {{otherObject}} તરફ લાગતું બળ"
     },
     "forceOnObjectByOtherObjectWithUnitsPattern": {
-      "value": "{{otherObject}} erőhatása {{thisObject}}-re = {{value}} N"
+      "value": " {{thisObject}} થી {{otherObject}} તરફ લાગતું બળ= {{value}} N "
     },
     "forceValues": {
-      "value": "Erőértékek"
-    },
-    "hidden": {
-      "value": "Nem mutat"
+      "value": "બળની કિંમત"
     },
     "units.meter": {
-      "value": "méter"
+      "value": "મીટર"
     },
     "units.meters": {
-      "value": "méter"
+      "value": "મીટર"
     },
     "units.newtons": {
-      "value": "newton"
+      "value": "ન્યુટન"
+    },
+    "decimalNotation": {
+      "value": "દસાંશ મૂલ્ય"
+    },
+    "hidden": {
+      "value": "છુપાવો"
     },
     "scientificNotation": {
-      "value": "Exponenciális"
+      "value": "પ્રમાણિત મૂલ્ય"
     }
   },
   "hy": {
@@ -1522,20 +1420,6 @@
       "value": "pm"
     }
   },
-  "nl": {
-    "forceOnObjectByOtherObjectPattern": {
-      "value": "Kracht op {{thisObject}} door {{otherObject}}"
-    },
-    "forceOnObjectByOtherObjectWithUnitsPattern": {
-      "value": "Kracht op {{thisObject}} door {{otherObject}} = {{value}} N"
-    },
-    "forceValues": {
-      "value": "Waarden van kracht"
-    },
-    "units.newtons": {
-      "value": "newton"
-    }
-  },
   "ny": {
     "units.centimeters": {
       "value": "cm"
@@ -1746,6 +1630,20 @@
       "value": "newtons"
     }
   },
+  "nl": {
+    "forceOnObjectByOtherObjectPattern": {
+      "value": "Kracht op {{thisObject}} door {{otherObject}}"
+    },
+    "forceOnObjectByOtherObjectWithUnitsPattern": {
+      "value": "Kracht op {{thisObject}} door {{otherObject}} = {{value}} N"
+    },
+    "forceValues": {
+      "value": "Waarden van kracht"
+    },
+    "units.newtons": {
+      "value": "newton"
+    }
+  },
   "ro": {
     "units.centimeters": {
       "value": "cm"
@@ -1936,6 +1834,108 @@
       "value": "Decimalni zapis"
     }
   },
+  "hu": {
+    "decimalNotation": {
+      "value": "Tizedes alak"
+    },
+    "forceOnObjectByOtherObjectPattern": {
+      "value": "{{otherObject}} erőhatása {{thisObject}}-re"
+    },
+    "forceOnObjectByOtherObjectWithUnitsPattern": {
+      "value": "{{otherObject}} erőhatása {{thisObject}}-re = {{value}} N"
+    },
+    "forceValues": {
+      "value": "Erőértékek"
+    },
+    "hidden": {
+      "value": "Nem mutat"
+    },
+    "units.meter": {
+      "value": "méter"
+    },
+    "units.meters": {
+      "value": "méter"
+    },
+    "units.newtons": {
+      "value": "newton"
+    },
+    "scientificNotation": {
+      "value": "Exponenciális"
+    }
+  },
+  "ha": {
+    "units.centimeters": {
+      "value": "Santi mita"
+    },
+    "forceOnObjectByOtherObjectPattern": {
+      "value": "Ƙarfi kan wani abu {{thisObject}}saboda wani abu {{otherObject}}"
+    },
+    "forceOnObjectByOtherObjectWithUnitsPattern": {
+      "value": "Ƙarfi kan wani abu {{thisObject}}saboda wani abu {{otherObject}}={{value}} harafin N"
+    },
+    "forceValues": {
+      "value": "Yawan ƙarfi (jawowa to turewa)"
+    },
+    "units.picometers": {
+      "value": "Haruffan p da m"
+    },
+    "pattern_0value_1units": {
+      "value": "{{value}} {{units}}"
+    },
+    "decimalNotation": {
+      "value": "Decimal Notation"
+    },
+    "hidden": {
+      "value": "Abin da aka boye"
+    },
+    "scientificNotation": {
+      "value": "Alamomin rubutun kimiyya"
+    },
+    "units.newtons": {
+      "value": "newtons"
+    },
+    "units.meters": {
+      "value": "Mitoci"
+    },
+    "units.meter": {
+      "value": "Mita"
+    }
+  },
+  "hi": {
+    "units.centimeters": {
+      "value": "cm"
+    },
+    "decimalNotation": {
+      "value": "दशमलव अंकन"
+    },
+    "forceOnObjectByOtherObjectPattern": {
+      "value": "इस {{thisObject}} पर उस {{otherObject}} द्वारा लगाया गया बल"
+    },
+    "forceOnObjectByOtherObjectWithUnitsPattern": {
+      "value": "इस {{thisObject}} पर उस {{otherObject}} द्वारा लगाया गया बल = {{value}} N"
+    },
+    "forceValues": {
+      "value": "बल मान"
+    },
+    "hidden": {
+      "value": "छिपा हुआ"
+    },
+    "units.meter": {
+      "value": "मीटर"
+    },
+    "units.meters": {
+      "value": "मीटर"
+    },
+    "units.newtons": {
+      "value": "न्यूटन"
+    },
+    "scientificNotation": {
+      "value": "वैज्ञानिक संकेतन"
+    },
+    "pattern_0value_1units": {
+      "value": "{{value}} {{units}}"
+    }
+  },
   "sq": {
     "units.centimeters": {
       "value": "cm"
@@ -1972,55 +1972,6 @@
     },
     "units.picometers": {
       "value": "pm"
-    }
-  },
-  "sr": {
-    "forceOnObjectByOtherObjectPattern": {
-      "value": "Сила којом на {{thisObject}} делује  {{otherObject}}"
-    },
-    "forceOnObjectByOtherObjectWithUnitsPattern": {
-      "value": "Сила којом на {{thisObject}} делује  {{otherObject}} = {{value}} N"
-    },
-    "forceValues": {
-      "value": "Вредности сила"
-    },
-    "decimalNotation": {
-      "value": "Децимална ознака"
-    },
-    "hidden": {
-      "value": "скривено"
-    },
-    "units.meter": {
-      "value": "метар"
-    },
-    "units.meters": {
-      "value": "метара"
-    },
-    "units.newtons": {
-      "value": "њутна"
-    },
-    "scientificNotation": {
-      "value": "Научна нотација"
-    }
-  },
-  "st": {
-    "forceOnObjectByOtherObjectPattern": {
-      "value": "matla a holima {{thisObject}} ka {{otherObject}}"
-    },
-    "forceOnObjectByOtherObjectWithUnitsPattern": {
-      "value": "matla a holima {{thisObject}} ka {{otherObject}}= {{value}} N"
-    },
-    "forceValues": {
-      "value": "Lipalo tsa Matla"
-    },
-    "pattern_0value_1units": {
-      "value": "{{value}} {{units}}"
-    },
-    "units.meter": {
-      "value": "meter"
-    },
-    "units.meters": {
-      "value": "meters"
     }
   },
   "sv": {
@@ -2107,42 +2058,53 @@
       "value": "அறிவியல் முறை"
     }
   },
-  "te": {
-    "units.centimeters": {
-      "value": "cm"
-    },
+  "st": {
     "forceOnObjectByOtherObjectPattern": {
-      "value": "{{thisObject}} పై {{otherObject}} బలం"
+      "value": "matla a holima {{thisObject}} ka {{otherObject}}"
     },
     "forceOnObjectByOtherObjectWithUnitsPattern": {
-      "value": "{{thisObject}} పై {{otherObject}} బలం  = {{value}} N"
+      "value": "matla a holima {{thisObject}} ka {{otherObject}}= {{value}} N"
     },
     "forceValues": {
-      "value": "బలం విలువలు"
-    },
-    "units.picometers": {
-      "value": "pm"
+      "value": "Lipalo tsa Matla"
     },
     "pattern_0value_1units": {
       "value": "{{value}} {{units}}"
-    },
-    "decimalNotation": {
-      "value": "దశాంశ సంకేత పద్ధతి"
-    },
-    "hidden": {
-      "value": "దాచిఉంచండి "
     },
     "units.meter": {
       "value": "meter"
     },
     "units.meters": {
       "value": "meters"
+    }
+  },
+  "sr": {
+    "forceOnObjectByOtherObjectPattern": {
+      "value": "Сила којом на {{thisObject}} делује  {{otherObject}}"
+    },
+    "forceOnObjectByOtherObjectWithUnitsPattern": {
+      "value": "Сила којом на {{thisObject}} делује  {{otherObject}} = {{value}} N"
+    },
+    "forceValues": {
+      "value": "Вредности сила"
+    },
+    "decimalNotation": {
+      "value": "Децимална ознака"
+    },
+    "hidden": {
+      "value": "скривено"
+    },
+    "units.meter": {
+      "value": "метар"
+    },
+    "units.meters": {
+      "value": "метара"
     },
     "units.newtons": {
-      "value": "newtons"
+      "value": "њутна"
     },
     "scientificNotation": {
-      "value": "శాస్త్రీయ సంకేత పద్ధతి"
+      "value": "Научна нотација"
     }
   },
   "th": {
@@ -2180,6 +2142,26 @@
       "value": "{{value}} {{units}}"
     }
   },
+  "tr": {
+    "units.centimeters": {
+      "value": "cm"
+    },
+    "forceOnObjectByOtherObjectPattern": {
+      "value": "{{otherObject}} 'nin {{thisObject}} Uyguladığı Kuvvet"
+    },
+    "forceOnObjectByOtherObjectWithUnitsPattern": {
+      "value": "{{otherObject}} 'nin {{thisObject}} Uyguladığı Kuvvet = {{value}} N"
+    },
+    "forceValues": {
+      "value": "Kuvvet Değerleri"
+    },
+    "units.picometers": {
+      "value": "pm"
+    },
+    "pattern_0value_1units": {
+      "value": "{{value}} {{units}}"
+    }
+  },
   "tk": {
     "units.centimeters": {
       "value": "sm"
@@ -2210,64 +2192,6 @@
     },
     "scientificNotation": {
       "value": "Ylmy ýazuw"
-    },
-    "pattern_0value_1units": {
-      "value": "{{value}} {{units}}"
-    },
-    "units.picometers": {
-      "value": "pm"
-    }
-  },
-  "tr": {
-    "units.centimeters": {
-      "value": "cm"
-    },
-    "forceOnObjectByOtherObjectPattern": {
-      "value": "{{otherObject}} 'nin {{thisObject}} Uyguladığı Kuvvet"
-    },
-    "forceOnObjectByOtherObjectWithUnitsPattern": {
-      "value": "{{otherObject}} 'nin {{thisObject}} Uyguladığı Kuvvet = {{value}} N"
-    },
-    "forceValues": {
-      "value": "Kuvvet Değerleri"
-    },
-    "units.picometers": {
-      "value": "pm"
-    },
-    "pattern_0value_1units": {
-      "value": "{{value}} {{units}}"
-    }
-  },
-  "tw": {
-    "units.centimeters": {
-      "value": "cm"
-    },
-    "decimalNotation": {
-      "value": "Dɛsemal Nkyerɛase (Notahyen)"
-    },
-    "forceOnObjectByOtherObjectPattern": {
-      "value": "Fɔɔse a ɛwo {{thisObject}} ɛne {{otherObject}}"
-    },
-    "forceOnObjectByOtherObjectWithUnitsPattern": {
-      "value": "Fɔɔse a ɛwo {{thisObject}} ɛne {{otherObject}} = {{value}} N"
-    },
-    "forceValues": {
-      "value": "Fɔɔse Valuus"
-    },
-    "hidden": {
-      "value": "Asie"
-    },
-    "units.meter": {
-      "value": "mita"
-    },
-    "units.meters": {
-      "value": "mitas"
-    },
-    "units.newtons": {
-      "value": "newtons"
-    },
-    "scientificNotation": {
-      "value": "Nyansapɛ nkyerɛase (Notahyen)"
     },
     "pattern_0value_1units": {
       "value": "{{value}} {{units}}"
@@ -2312,6 +2236,111 @@
     },
     "scientificNotation": {
       "value": "Наукові позначення"
+    }
+  },
+  "tw": {
+    "units.centimeters": {
+      "value": "cm"
+    },
+    "decimalNotation": {
+      "value": "Dɛsemal Nkyerɛase (Notahyen)"
+    },
+    "forceOnObjectByOtherObjectPattern": {
+      "value": "Fɔɔse a ɛwo {{thisObject}} ɛne {{otherObject}}"
+    },
+    "forceOnObjectByOtherObjectWithUnitsPattern": {
+      "value": "Fɔɔse a ɛwo {{thisObject}} ɛne {{otherObject}} = {{value}} N"
+    },
+    "forceValues": {
+      "value": "Fɔɔse Valuus"
+    },
+    "hidden": {
+      "value": "Asie"
+    },
+    "units.meter": {
+      "value": "mita"
+    },
+    "units.meters": {
+      "value": "mitas"
+    },
+    "units.newtons": {
+      "value": "newtons"
+    },
+    "scientificNotation": {
+      "value": "Nyansapɛ nkyerɛase (Notahyen)"
+    },
+    "pattern_0value_1units": {
+      "value": "{{value}} {{units}}"
+    },
+    "units.picometers": {
+      "value": "pm"
+    }
+  },
+  "te": {
+    "units.centimeters": {
+      "value": "cm"
+    },
+    "forceOnObjectByOtherObjectPattern": {
+      "value": "{{thisObject}} పై {{otherObject}} బలం"
+    },
+    "forceOnObjectByOtherObjectWithUnitsPattern": {
+      "value": "{{thisObject}} పై {{otherObject}} బలం  = {{value}} N"
+    },
+    "forceValues": {
+      "value": "బలం విలువలు"
+    },
+    "units.picometers": {
+      "value": "pm"
+    },
+    "pattern_0value_1units": {
+      "value": "{{value}} {{units}}"
+    },
+    "decimalNotation": {
+      "value": "దశాంశ సంకేత పద్ధతి"
+    },
+    "hidden": {
+      "value": "దాచిఉంచండి "
+    },
+    "units.meter": {
+      "value": "meter"
+    },
+    "units.meters": {
+      "value": "meters"
+    },
+    "units.newtons": {
+      "value": "newtons"
+    },
+    "scientificNotation": {
+      "value": "శాస్త్రీయ సంకేత పద్ధతి"
+    }
+  },
+  "zh_CN": {
+    "forceOnObjectByOtherObjectPattern": {
+      "value": "{{thisObject}} 受到 {{otherObject}} 的力"
+    },
+    "forceOnObjectByOtherObjectWithUnitsPattern": {
+      "value": "{{thisObject}} 受到 {{otherObject}} 的力 = {{value}} 牛"
+    },
+    "forceValues": {
+      "value": "力的大小"
+    },
+    "units.meter": {
+      "value": "米"
+    },
+    "units.meters": {
+      "value": "米"
+    },
+    "units.newtons": {
+      "value": "牛"
+    },
+    "units.centimeters": {
+      "value": "厘米"
+    },
+    "units.picometers": {
+      "value": "皮米"
+    },
+    "pattern_0value_1units": {
+      "value": "{{value}} {{units}}"
     }
   },
   "uz": {
@@ -2388,131 +2417,6 @@
     },
     "units.picometers": {
       "value": "pm"
-    }
-  },
-  "yo": {
-    "forceOnObjectByOtherObjectPattern": {
-      "value": "Ipá on {{thisObject}} by {{otherObject}}"
-    },
-    "forceOnObjectByOtherObjectWithUnitsPattern": {
-      "value": " Ipá on {{thisObject}} by {{otherObject}} = {{value}} N"
-    },
-    "forceValues": {
-      "value": "Iye Ipá"
-    },
-    "decimalNotation": {
-      "value": "Akọ silẹ Elẹẹmẹwa"
-    },
-    "hidden": {
-      "value": "Farasin"
-    },
-    "scientificNotation": {
-      "value": "Akọ silẹ sáyẹ́nsì"
-    }
-  },
-  "zh_CN": {
-    "forceOnObjectByOtherObjectPattern": {
-      "value": "{{thisObject}} 受到 {{otherObject}} 的力"
-    },
-    "forceOnObjectByOtherObjectWithUnitsPattern": {
-      "value": "{{thisObject}} 受到 {{otherObject}} 的力 = {{value}} 牛"
-    },
-    "forceValues": {
-      "value": "力的大小"
-    },
-    "units.meter": {
-      "value": "米"
-    },
-    "units.meters": {
-      "value": "米"
-    },
-    "units.newtons": {
-      "value": "牛"
-    },
-    "units.centimeters": {
-      "value": "厘米"
-    },
-    "units.picometers": {
-      "value": "皮米"
-    },
-    "pattern_0value_1units": {
-      "value": "{{value}} {{units}}"
-    }
-  },
-  "zh_TW": {
-    "units.centimeters": {
-      "value": "公分"
-    },
-    "decimalNotation": {
-      "value": "十進制記數法"
-    },
-    "forceOnObjectByOtherObjectPattern": {
-      "value": "{{otherObject}} 施在 {{thisObject}} 上的力"
-    },
-    "forceOnObjectByOtherObjectWithUnitsPattern": {
-      "value": "{{otherObject}} 施在 {{thisObject}} 上的力 = {{value}} 牛頓"
-    },
-    "forceValues": {
-      "value": "力的值"
-    },
-    "hidden": {
-      "value": "隱藏"
-    },
-    "units.meter": {
-      "value": "公尺"
-    },
-    "units.meters": {
-      "value": "公尺"
-    },
-    "units.newtons": {
-      "value": "牛頓"
-    },
-    "scientificNotation": {
-      "value": "科學記數法"
-    },
-    "pattern_0value_1units": {
-      "value": "{{value}} {{units}}"
-    },
-    "units.picometers": {
-      "value": "pm"
-    }
-  },
-  "zu": {
-    "forceOnObjectByOtherObjectPattern": {
-      "value": "Force on {{thisObject}} by {{otherObject}}"
-    },
-    "forceOnObjectByOtherObjectWithUnitsPattern": {
-      "value": "Force on {{thisObject}} by {{otherObject}} = {{value}} N"
-    },
-    "pattern_0value_1units": {
-      "value": "{{value}} {{units}}"
-    },
-    "units.centimeters": {
-      "value": "cm"
-    },
-    "forceValues": {
-      "value": "amanani amandla okudonsa nokuphusha"
-    },
-    "units.picometers": {
-      "value": "pm"
-    },
-    "units.newtons": {
-      "value": "newtons"
-    },
-    "units.meters": {
-      "value": "amamitha"
-    },
-    "units.meter": {
-      "value": "imitha"
-    },
-    "decimalNotation": {
-      "value": "inombolo yedesimali"
-    },
-    "hidden": {
-      "value": "kufihliwe"
-    },
-    "scientificNotation": {
-      "value": "umbalo wesayensi"
     }
   },
   "en": {
@@ -2904,6 +2808,26 @@
       }
     }
   },
+  "yo": {
+    "forceOnObjectByOtherObjectPattern": {
+      "value": "Ipá on {{thisObject}} by {{otherObject}}"
+    },
+    "forceOnObjectByOtherObjectWithUnitsPattern": {
+      "value": " Ipá on {{thisObject}} by {{otherObject}} = {{value}} N"
+    },
+    "forceValues": {
+      "value": "Iye Ipá"
+    },
+    "decimalNotation": {
+      "value": "Akọ silẹ Elẹẹmẹwa"
+    },
+    "hidden": {
+      "value": "Farasin"
+    },
+    "scientificNotation": {
+      "value": "Akọ silẹ sáyẹ́nsì"
+    }
+  },
   "ko": {
     "units.centimeters": {
       "value": "cm"
@@ -2983,6 +2907,82 @@
     },
     "pattern_0value_1units": {
       "value": "{{value}} {{units}}"
+    }
+  },
+  "zh_TW": {
+    "units.centimeters": {
+      "value": "公分"
+    },
+    "decimalNotation": {
+      "value": "十進制記數法"
+    },
+    "forceOnObjectByOtherObjectPattern": {
+      "value": "{{otherObject}} 施在 {{thisObject}} 上的力"
+    },
+    "forceOnObjectByOtherObjectWithUnitsPattern": {
+      "value": "{{otherObject}} 施在 {{thisObject}} 上的力 = {{value}} 牛頓"
+    },
+    "forceValues": {
+      "value": "力的值"
+    },
+    "hidden": {
+      "value": "隱藏"
+    },
+    "units.meter": {
+      "value": "公尺"
+    },
+    "units.meters": {
+      "value": "公尺"
+    },
+    "units.newtons": {
+      "value": "牛頓"
+    },
+    "scientificNotation": {
+      "value": "科學記數法"
+    },
+    "pattern_0value_1units": {
+      "value": "{{value}} {{units}}"
+    },
+    "units.picometers": {
+      "value": "pm"
+    }
+  },
+  "zu": {
+    "forceOnObjectByOtherObjectPattern": {
+      "value": "Force on {{thisObject}} by {{otherObject}}"
+    },
+    "forceOnObjectByOtherObjectWithUnitsPattern": {
+      "value": "Force on {{thisObject}} by {{otherObject}} = {{value}} N"
+    },
+    "pattern_0value_1units": {
+      "value": "{{value}} {{units}}"
+    },
+    "units.centimeters": {
+      "value": "cm"
+    },
+    "forceValues": {
+      "value": "amanani amandla okudonsa nokuphusha"
+    },
+    "units.picometers": {
+      "value": "pm"
+    },
+    "units.newtons": {
+      "value": "newtons"
+    },
+    "units.meters": {
+      "value": "amamitha"
+    },
+    "units.meter": {
+      "value": "imitha"
+    },
+    "decimalNotation": {
+      "value": "inombolo yedesimali"
+    },
+    "hidden": {
+      "value": "kufihliwe"
+    },
+    "scientificNotation": {
+      "value": "umbalo wesayensi"
     }
   }
 }
