@@ -221,17 +221,17 @@
       "value": "Maũndũ <br>nĩ ũndũ wa ũritũ!"
     }
   },
-  "kn": {
-    "rangePattern": {
-      "value": "{{lowValue}} ಇಂದ {{highValue}}"
-    }
-  },
   "ko": {
     "pointsOffScale": {
       "value": "점이 스케일을 벗어남"
     },
     "rangePattern": {
       "value": "{{lowValue}} to {{highValue}}"
+    }
+  },
+  "kn": {
+    "rangePattern": {
+      "value": "{{lowValue}} ಇಂದ {{highValue}}"
     }
   },
   "lg": {
@@ -280,6 +280,14 @@
     },
     "pointsOffScale": {
       "value": "Punti<br>barra l-limitu!"
+    }
+  },
+  "om": {
+    "pointsOffScale": {
+      "value": "Qabxiilee<br>Iskeelii alaa!"
+    },
+    "rangePattern": {
+      "value": "{{lowValue}} gara {{highValue}}"
     }
   },
   "pl": {
@@ -398,25 +406,17 @@
       "value": "{{lowValue}} ten {{highValue}}e"
     }
   },
+  "uk": {
+    "rangePattern": {
+      "value": "{{lowValue}} до {{highValue}}"
+    }
+  },
   "tw": {
     "pointsOffScale": {
       "value": "kyerɛ<br>off skele!"
     },
     "rangePattern": {
       "value": "{{lowValue}} to {{highValue}}"
-    }
-  },
-  "uk": {
-    "rangePattern": {
-      "value": "{{lowValue}} до {{highValue}}"
-    }
-  },
-  "uz": {
-    "rangePattern": {
-      "value": "{{lowValue}} dan {{highValue}}"
-    },
-    "pointsOffScale": {
-      "value": "Ballar<br>shkaladan tashqari!"
     }
   },
   "vi": {
@@ -427,9 +427,12 @@
       "value": "{{lowValue}} tới {{highValue}}"
     }
   },
-  "zh_CN": {
+  "uz": {
     "rangePattern": {
-      "value": "{{lowValue}} to {{highValue}}"
+      "value": "{{lowValue}} dan {{highValue}}"
+    },
+    "pointsOffScale": {
+      "value": "Ballar<br>shkaladan tashqari!"
     }
   },
   "zh_HK": {
@@ -438,6 +441,11 @@
     },
     "rangePattern": {
       "value": "{{lowValue}} 至{{highValue}}"
+    }
+  },
+  "zh_CN": {
+    "rangePattern": {
+      "value": "{{lowValue}} to {{highValue}}"
     }
   },
   "zh_TW": {
@@ -462,14 +470,6 @@
     },
     "pointsOffScale": {
       "value": "Points<br>off scale!"
-    }
-  },
-  "om": {
-    "pointsOffScale": {
-      "value": "Qabxiilee<br>Iskeelii alaa!"
-    },
-    "rangePattern": {
-      "value": "{{lowValue}} gara {{highValue}}"
     }
   },
   "ny": {

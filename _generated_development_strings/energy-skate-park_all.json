@@ -1,4 +1,451 @@
 {
+  "am": {
+    "screens.graphs": {
+      "value": "ግራፎች "
+    },
+    "screens.intro": {
+      "value": "መግቢያ"
+    },
+    "screens.playground": {
+      "value": "መጫወቻ ቦታ"
+    },
+    "screens.measure": {
+      "value": "ለካ"
+    },
+    "energies.kinetic": {
+      "value": "ተንቀሳቃሽ"
+    },
+    "energies.potential": {
+      "value": "እምቅ"
+    },
+    "energies.thermal": {
+      "value": "ሙቅት"
+    },
+    "energies.total": {
+      "value": "ጠቅላላ "
+    },
+    "plots.timeSwitchLabel": {
+      "value": "ጊዜ"
+    },
+    "plots.positionSwitchLabel": {
+      "value": "አቀማመጥ"
+    },
+    "plots.energyGraph.label": {
+      "value": "የጉልበት ግራፍ"
+    },
+    "plots.positionLabel": {
+      "value": "አቀማመጥ(ሜትር)"
+    },
+    "plots.energyLabel": {
+      "value": "ጉልበት(ጁል)"
+    },
+    "plots.timeLabel": {
+      "value": "ጊዜ(ሴኮንድ)"
+    },
+    "energies.energy": {
+      "value": "ጉልበት "
+    },
+    "pathSensor.energyJoulesPattern": {
+      "value": "{{value}} J"
+    },
+    "pathSensor.heightMetersPattern": {
+      "value": "ቁመት = {{value}} ሜ"
+    },
+    "pathSensor.speedMetersPerSecondPattern": {
+      "value": "ፍጥነት = {{value}} ሜ/ሴ"
+    },
+    "skaterControls.restartSkater": {
+      "value": "መንሸራተቻውን እንደገና አስጀምር/ሪ"
+    },
+    "speedometer.label": {
+      "value": "ፍጥነት"
+    },
+    "speedometer.metersPerSecondPattern": {
+      "value": "{{value}} ሜ/ሴ"
+    },
+    "measuringTape.units": {
+      "value": "ሜ"
+    },
+    "heightLabels.zeroM": {
+      "value": "0ሜ"
+    },
+    "heightLabels.heightEqualsZero": {
+      "value": "ቁመት = 0"
+    },
+    "visibilityControls.path": {
+      "value": "መንገድ"
+    },
+    "visibilityControls.referenceHeight": {
+      "value": "የማጣቀሻ ቁመት"
+    },
+    "visibilityControls.grid": {
+      "value": "ፍርግርግ"
+    },
+    "trackControls.stickToTrack": {
+      "value": "በትራክ ላይ ተገናኝቶዋል"
+    },
+    "plots.pieChart.label": {
+      "value": "የፓይ ቻርት"
+    },
+    "plots.barGraph.label": {
+      "value": "ባር ግራፍ"
+    },
+    "visibilityControls.speed": {
+      "value": "ፍጥነት "
+    },
+    "physicalControls.friction": {
+      "value": "ሰበቃ "
+    },
+    "physicalControls.gravityControls.gravity": {
+      "value": "ስበት"
+    },
+    "physicalControls.gravityControls.gravityMetersPerSecondSquaredPattern": {
+      "value": "{{value}} ሜ/ሴ<sup>2</sup>"
+    },
+    "physicalControls.gravityControls.gravityNewtonsPerKilogramPattern": {
+      "value": "{{value}} ኒውተን/ኪሎ ግራም"
+    },
+    "physicalControls.gravityControls.moon": {
+      "value": "ጨረቃ"
+    },
+    "physicalControls.gravityControls.earth": {
+      "value": "መሬት"
+    },
+    "physicalControls.gravityControls.jupiter": {
+      "value": "ጁፒተር "
+    },
+    "physicalControls.tiny": {
+      "value": "ጥቃቅን"
+    },
+    "skaterControls.label": {
+      "value": "መንሸራተቻ"
+    },
+    "skaterControls.skater1MassPattern": {
+      "value": "መንሸራተቻ 1 ({{value}} ኪ.ግ)"
+    },
+    "skaterControls.skater2MassPattern": {
+      "value": "መንሸራተቻ 2 ({{value}} ኪ.ግ)"
+    },
+    "skaterControls.skater3MassPattern": {
+      "value": "መንሸራተቻ 3 ({{value}} ኪ.ግ)"
+    },
+    "skaterControls.skater4MassPattern": {
+      "value": "መንሸራተቻ 4 ({{value}} ኪ.ግ)"
+    },
+    "skaterControls.skater5MassPattern": {
+      "value": "መንሸራተቻ 5 ({{value}} ኪ.ግ)"
+    },
+    "skaterControls.dogMassPattern": {
+      "value": "ውሻ  ({{value}} ኪ.ግ)"
+    },
+    "physicalControls.massControls.mass": {
+      "value": "ክብደት "
+    },
+    "physicalControls.massControls.massKilogramsPattern": {
+      "value": "{{value}} ኪ.ግ"
+    },
+    "physicalControls.small": {
+      "value": "ትንሽ"
+    },
+    "physicalControls.large": {
+      "value": "ትልቅ"
+    },
+    "physicalControls.lots": {
+      "value": "ብዙ"
+    },
+    "physicalControls.none": {
+      "value": "ምንም"
+    },
+    "physicalControls.custom": {
+      "value": "ማስተካከያ "
+    },
+    "energy-skate-park.title": {
+      "value": "የጉልበት መንሸራተቻ ፓርክ "
+    }
+  },
+  "ar": {
+    "energies.energy": {
+      "value": "نوع الطاقة"
+    },
+    "energies.kinetic": {
+      "value": "الحركية"
+    },
+    "energies.potential": {
+      "value": "الوضع"
+    },
+    "energies.thermal": {
+      "value": "الحرارية"
+    },
+    "energies.total": {
+      "value": "المجموع"
+    },
+    "speedometer.label": {
+      "value": "السرعة"
+    },
+    "skaterControls.restartSkater": {
+      "value": "إعادة التزلّج"
+    },
+    "visibilityControls.path": {
+      "value": "المسار"
+    },
+    "visibilityControls.referenceHeight": {
+      "value": "مرجع الارتفاع"
+    },
+    "visibilityControls.grid": {
+      "value": "شُبَيْكَة الإحداثيات"
+    },
+    "trackControls.stickToTrack": {
+      "value": "ملازمة المسار"
+    },
+    "plots.pieChart.label": {
+      "value": "الرسم البياني الدائري"
+    },
+    "plots.barGraph.label": {
+      "value": "الرسم البياني العمودي"
+    },
+    "visibilityControls.speed": {
+      "value": "السرعة"
+    },
+    "physicalControls.friction": {
+      "value": "مقدار الاحتكاك"
+    },
+    "physicalControls.gravityControls.moon": {
+      "value": "القمر"
+    },
+    "physicalControls.gravityControls.earth": {
+      "value": "الأرض"
+    },
+    "physicalControls.gravityControls.jupiter": {
+      "value": "المشتري"
+    },
+    "physicalControls.gravityControls.gravity": {
+      "value": "مقدار الجاذبية"
+    },
+    "physicalControls.tiny": {
+      "value": "منخفض"
+    },
+    "skaterControls.label": {
+      "value": "المُتزلِّج"
+    },
+    "physicalControls.massControls.mass": {
+      "value": "الكتلة"
+    },
+    "physicalControls.small": {
+      "value": "صغير"
+    },
+    "physicalControls.large": {
+      "value": "كبير"
+    },
+    "physicalControls.custom": {
+      "value": "إختيارُ المسار"
+    },
+    "physicalControls.lots": {
+      "value": "عالٍ"
+    },
+    "physicalControls.none": {
+      "value": "صفر"
+    },
+    "heightLabels.heightEqualsZero": {
+      "value": "الارتفاع = 0"
+    },
+    "energy-skate-park.title": {
+      "value": "الطاقة في منتزه التزلج"
+    },
+    "screens.graphs": {
+      "value": "الرسومات البيانية"
+    },
+    "plots.timeSwitchLabel": {
+      "value": "الزمن"
+    },
+    "plots.positionSwitchLabel": {
+      "value": "الموضع"
+    },
+    "plots.energyGraph.label": {
+      "value": "التمثيل البياني لنوع الطاقة"
+    },
+    "plots.positionLabel": {
+      "value": "الموضع (m)"
+    },
+    "plots.energyLabel": {
+      "value": "الطاقة (J)"
+    },
+    "plots.timeLabel": {
+      "value": "الزمن (s)"
+    },
+    "screens.intro": {
+      "value": "مقدّمة"
+    },
+    "screens.measure": {
+      "value": "قِسْ"
+    },
+    "screens.playground": {
+      "value": "الملعب"
+    }
+  },
+  "ar_MA": {
+    "energies.energy": {
+      "value": "الطاقة"
+    },
+    "energies.kinetic": {
+      "value": "الحركية"
+    },
+    "energies.potential": {
+      "value": "الثقالية"
+    },
+    "energies.thermal": {
+      "value": "الحرارية"
+    },
+    "energies.total": {
+      "value": "الاجمالية"
+    },
+    "speedometer.label": {
+      "value": "السرعة"
+    },
+    "heightLabels.zeroM": {
+      "value": "0 متر"
+    },
+    "skaterControls.restartSkater": {
+      "value": "اعادة المتزلج"
+    },
+    "speedometer.metersPerSecondPattern": {
+      "value": "{{value}} m/s"
+    },
+    "measuringTape.units": {
+      "value": "m"
+    },
+    "visibilityControls.path": {
+      "value": "المسار"
+    },
+    "visibilityControls.referenceHeight": {
+      "value": "مرجع الارتفاع"
+    },
+    "visibilityControls.grid": {
+      "value": "الشبكة"
+    },
+    "trackControls.stickToTrack": {
+      "value": "تتبع المسار"
+    },
+    "plots.pieChart.label": {
+      "value": "المبيان الدائري"
+    },
+    "plots.barGraph.label": {
+      "value": "المبيان بالأعمدة"
+    },
+    "visibilityControls.speed": {
+      "value": "السرعة"
+    },
+    "physicalControls.friction": {
+      "value": "شدة الاحتكاكات"
+    },
+    "physicalControls.gravityControls.moon": {
+      "value": "القمر"
+    },
+    "physicalControls.gravityControls.earth": {
+      "value": "الأرض"
+    },
+    "physicalControls.gravityControls.jupiter": {
+      "value": "المشتري"
+    },
+    "physicalControls.gravityControls.gravity": {
+      "value": "شدة الثقالة"
+    },
+    "physicalControls.gravityControls.gravityMetersPerSecondSquaredPattern": {
+      "value": "{{value}} m/s<sup>2</sup>"
+    },
+    "physicalControls.gravityControls.gravityNewtonsPerKilogramPattern": {
+      "value": "{{value}} N/kg"
+    },
+    "physicalControls.tiny": {
+      "value": "رقيق"
+    },
+    "skaterControls.label": {
+      "value": "المتزحلق"
+    },
+    "skaterControls.skater1MassPattern": {
+      "value": "المتزحلق 1 ({{value}} kg)"
+    },
+    "skaterControls.skater2MassPattern": {
+      "value": "المتزحلق 2 ({{value}} kg)"
+    },
+    "skaterControls.skater3MassPattern": {
+      "value": "المتزحلق 3 ({{value}} kg)"
+    },
+    "skaterControls.skater4MassPattern": {
+      "value": "المتزحلق 4 ({{value}} kg)"
+    },
+    "skaterControls.skater5MassPattern": {
+      "value": "المتزحلق 5 ({{value}} kg)"
+    },
+    "skaterControls.dogMassPattern": {
+      "value": "الكلب ({{value}} kg)"
+    },
+    "physicalControls.massControls.mass": {
+      "value": "الكتلة"
+    },
+    "physicalControls.massControls.massKilogramsPattern": {
+      "value": "{{value}} kg"
+    },
+    "physicalControls.small": {
+      "value": "صغير"
+    },
+    "physicalControls.large": {
+      "value": "كبير"
+    },
+    "physicalControls.custom": {
+      "value": "حسب الاختيار"
+    },
+    "physicalControls.lots": {
+      "value": "كمية كبيرة"
+    },
+    "physicalControls.none": {
+      "value": "منعدم"
+    },
+    "heightLabels.heightEqualsZero": {
+      "value": "الارتفاع = 0"
+    },
+    "energy-skate-park.title": {
+      "value": "طاقة المتزحلق"
+    },
+    "screens.graphs": {
+      "value": "مبيانات الطاقة"
+    },
+    "plots.timeSwitchLabel": {
+      "value": "الزمن"
+    },
+    "plots.positionSwitchLabel": {
+      "value": "الموضع"
+    },
+    "plots.energyGraph.label": {
+      "value": "مبيان الطاقة"
+    },
+    "plots.positionLabel": {
+      "value": "الموضع (m)"
+    },
+    "plots.energyLabel": {
+      "value": "الطاقة (J)"
+    },
+    "plots.timeLabel": {
+      "value": "الزمن (s)"
+    },
+    "screens.intro": {
+      "value": "مقدمة"
+    },
+    "screens.measure": {
+      "value": "قياسات تجريبية"
+    },
+    "pathSensor.energyJoulesPattern": {
+      "value": "{{value}} J"
+    },
+    "pathSensor.heightMetersPattern": {
+      "value": "الارتفاع = {{value}} m"
+    },
+    "pathSensor.speedMetersPerSecondPattern": {
+      "value": "السرعة = {{value}} m/s"
+    },
+    "screens.playground": {
+      "value": "فضاء للعب"
+    }
+  },
   "az": {
     "energies.kinetic": {
       "value": "Kinetik"
@@ -351,123 +798,180 @@
       "value": "Энергетычны скейт-парк"
     }
   },
-  "ar": {
-    "energies.energy": {
-      "value": "نوع الطاقة"
+  "bg": {
+    "preferences.metersPerSecondSquared": {
+      "value": "m/s<sup>2</sup>"
     },
-    "energies.kinetic": {
-      "value": "الحركية"
+    "preferences.newtonsPerKilogram": {
+      "value": "N/kg"
     },
-    "energies.potential": {
-      "value": "الوضع"
+    "preferences.accelerationUnits": {
+      "value": "Единици за ускорение"
     },
-    "energies.thermal": {
-      "value": "الحرارية"
+    "characterSet.unitedStatesOfAmerica": {
+      "value": "Съединени Американски щати"
     },
-    "energies.total": {
-      "value": "المجموع"
-    },
-    "speedometer.label": {
-      "value": "السرعة"
-    },
-    "skaterControls.restartSkater": {
-      "value": "إعادة التزلّج"
-    },
-    "visibilityControls.path": {
-      "value": "المسار"
-    },
-    "visibilityControls.referenceHeight": {
-      "value": "مرجع الارتفاع"
-    },
-    "visibilityControls.grid": {
-      "value": "شُبَيْكَة الإحداثيات"
-    },
-    "trackControls.stickToTrack": {
-      "value": "ملازمة المسار"
-    },
-    "plots.pieChart.label": {
-      "value": "الرسم البياني الدائري"
-    },
-    "plots.barGraph.label": {
-      "value": "الرسم البياني العمودي"
-    },
-    "visibilityControls.speed": {
-      "value": "السرعة"
-    },
-    "physicalControls.friction": {
-      "value": "مقدار الاحتكاك"
-    },
-    "physicalControls.gravityControls.moon": {
-      "value": "القمر"
-    },
-    "physicalControls.gravityControls.earth": {
-      "value": "الأرض"
-    },
-    "physicalControls.gravityControls.jupiter": {
-      "value": "المشتري"
-    },
-    "physicalControls.gravityControls.gravity": {
-      "value": "مقدار الجاذبية"
-    },
-    "physicalControls.tiny": {
-      "value": "منخفض"
-    },
-    "skaterControls.label": {
-      "value": "المُتزلِّج"
-    },
-    "physicalControls.massControls.mass": {
-      "value": "الكتلة"
-    },
-    "physicalControls.small": {
-      "value": "صغير"
-    },
-    "physicalControls.large": {
-      "value": "كبير"
-    },
-    "physicalControls.custom": {
-      "value": "إختيارُ المسار"
-    },
-    "physicalControls.lots": {
-      "value": "عالٍ"
-    },
-    "physicalControls.none": {
-      "value": "صفر"
-    },
-    "heightLabels.heightEqualsZero": {
-      "value": "الارتفاع = 0"
-    },
-    "energy-skate-park.title": {
-      "value": "الطاقة في منتزه التزلج"
+    "characterSet.africa": {
+      "value": "Африка"
     },
     "screens.graphs": {
-      "value": "الرسومات البيانية"
-    },
-    "plots.timeSwitchLabel": {
-      "value": "الزمن"
-    },
-    "plots.positionSwitchLabel": {
-      "value": "الموضع"
-    },
-    "plots.energyGraph.label": {
-      "value": "التمثيل البياني لنوع الطاقة"
-    },
-    "plots.positionLabel": {
-      "value": "الموضع (m)"
-    },
-    "plots.energyLabel": {
-      "value": "الطاقة (J)"
-    },
-    "plots.timeLabel": {
-      "value": "الزمن (s)"
+      "value": "Графики"
     },
     "screens.intro": {
-      "value": "مقدّمة"
+      "value": "Въведение"
     },
     "screens.measure": {
-      "value": "قِسْ"
+      "value": "Измерване"
     },
     "screens.playground": {
-      "value": "الملعب"
+      "value": "Площадка"
+    },
+    "energies.kinetic": {
+      "value": "Кинетична"
+    },
+    "energies.potential": {
+      "value": "Потенциална"
+    },
+    "energies.thermal": {
+      "value": "Термична"
+    },
+    "energies.total": {
+      "value": "Общо"
+    },
+    "plots.timeSwitchLabel": {
+      "value": "Време"
+    },
+    "plots.positionSwitchLabel": {
+      "value": "Позиция"
+    },
+    "plots.energyGraph.label": {
+      "value": "Графики на Енергията"
+    },
+    "plots.positionLabel": {
+      "value": "Позиция (m)"
+    },
+    "plots.energyLabel": {
+      "value": "Енергия (J)"
+    },
+    "plots.timeLabel": {
+      "value": "Време (s)"
+    },
+    "energies.energy": {
+      "value": "Енергия"
+    },
+    "pathSensor.energyJoulesPattern": {
+      "value": "{{value}} J"
+    },
+    "pathSensor.heightMetersPattern": {
+      "value": "Височина = {{value}} m"
+    },
+    "pathSensor.speedMetersPerSecondPattern": {
+      "value": "Скорост= {{value}} m/s"
+    },
+    "skaterControls.restartSkater": {
+      "value": "Пусни отново"
+    },
+    "speedometer.label": {
+      "value": "Скорост"
+    },
+    "speedometer.metersPerSecondPattern": {
+      "value": "{{value}} m/s"
+    },
+    "measuringTape.units": {
+      "value": "m"
+    },
+    "heightLabels.zeroM": {
+      "value": "0 m"
+    },
+    "heightLabels.heightEqualsZero": {
+      "value": "Височина = 0"
+    },
+    "physicalControls.gravityControls.gravityNewtonsPerKilogramPattern": {
+      "value": "{{value}} N/kg"
+    },
+    "visibilityControls.path": {
+      "value": "Траектория"
+    },
+    "visibilityControls.referenceHeight": {
+      "value": "Еталонна височина"
+    },
+    "visibilityControls.grid": {
+      "value": "Мрежа"
+    },
+    "trackControls.stickToTrack": {
+      "value": "Придържайте се към пистата"
+    },
+    "plots.pieChart.label": {
+      "value": "Кръгова диаграма"
+    },
+    "visibilityControls.speed": {
+      "value": "Скорост"
+    },
+    "physicalControls.friction": {
+      "value": "Триене"
+    },
+    "physicalControls.gravityControls.moon": {
+      "value": "Луна"
+    },
+    "physicalControls.gravityControls.earth": {
+      "value": "Земя"
+    },
+    "physicalControls.gravityControls.jupiter": {
+      "value": "Юпитер"
+    },
+    "physicalControls.gravityControls.gravity": {
+      "value": "Гравитация"
+    },
+    "physicalControls.gravityControls.gravityMetersPerSecondSquaredPattern": {
+      "value": "{{value}} m/s<sup>2</sup>"
+    },
+    "physicalControls.tiny": {
+      "value": "Малка"
+    },
+    "skaterControls.label": {
+      "value": "Скейтър"
+    },
+    "skaterControls.skater1MassPattern": {
+      "value": "Скейтър 1 ({{value}} kg)"
+    },
+    "skaterControls.skater2MassPattern": {
+      "value": "Скейтър 2 ({{value}} kg)"
+    },
+    "skaterControls.skater3MassPattern": {
+      "value": "Скейтър 3 ({{value}} kg)"
+    },
+    "skaterControls.skater4MassPattern": {
+      "value": "Скейтър 4 ({{value}} kg)"
+    },
+    "skaterControls.skater5MassPattern": {
+      "value": "Скейтър 5 ({{value}} kg)"
+    },
+    "skaterControls.dogMassPattern": {
+      "value": "Куче ({{value}} kg)"
+    },
+    "physicalControls.massControls.mass": {
+      "value": "Тегло"
+    },
+    "physicalControls.massControls.massKilogramsPattern": {
+      "value": "{{value}} kg"
+    },
+    "physicalControls.small": {
+      "value": "Малко"
+    },
+    "physicalControls.large": {
+      "value": "Голямо"
+    },
+    "physicalControls.lots": {
+      "value": "Голяма"
+    },
+    "physicalControls.none": {
+      "value": "Без"
+    },
+    "physicalControls.custom": {
+      "value": "По избор"
+    },
+    "energy-skate-park.title": {
+      "value": "Енергия Скейт Парк"
     }
   },
   "bn": {
@@ -643,168 +1147,147 @@
       "value": "ত্বরণের একক"
     }
   },
-  "ar_MA": {
+  "bs": {
     "energies.energy": {
-      "value": "الطاقة"
+      "value": "Energija"
     },
     "energies.kinetic": {
-      "value": "الحركية"
+      "value": "Kinetička"
     },
     "energies.potential": {
-      "value": "الثقالية"
+      "value": "Potencijalna"
     },
     "energies.thermal": {
-      "value": "الحرارية"
+      "value": "Toplotna"
     },
     "energies.total": {
-      "value": "الاجمالية"
+      "value": "Ukupna"
     },
     "speedometer.label": {
-      "value": "السرعة"
-    },
-    "heightLabels.zeroM": {
-      "value": "0 متر"
+      "value": "Brzina"
     },
     "skaterControls.restartSkater": {
-      "value": "اعادة المتزلج"
-    },
-    "speedometer.metersPerSecondPattern": {
-      "value": "{{value}} m/s"
-    },
-    "measuringTape.units": {
-      "value": "m"
+      "value": "Vrati skejtera"
     },
     "visibilityControls.path": {
-      "value": "المسار"
+      "value": "Putanja"
     },
     "visibilityControls.referenceHeight": {
-      "value": "مرجع الارتفاع"
+      "value": "Referentna visina"
     },
     "visibilityControls.grid": {
-      "value": "الشبكة"
+      "value": "Mreža"
     },
     "trackControls.stickToTrack": {
-      "value": "تتبع المسار"
+      "value": "Pričvrsti za stazu"
     },
     "plots.pieChart.label": {
-      "value": "المبيان الدائري"
+      "value": "Kružni grafik"
     },
     "plots.barGraph.label": {
-      "value": "المبيان بالأعمدة"
+      "value": "Trakasti grafik"
     },
     "visibilityControls.speed": {
-      "value": "السرعة"
+      "value": "Brzina"
     },
     "physicalControls.friction": {
-      "value": "شدة الاحتكاكات"
+      "value": "Trenje"
     },
     "physicalControls.gravityControls.moon": {
-      "value": "القمر"
+      "value": "Mjesec"
     },
     "physicalControls.gravityControls.earth": {
-      "value": "الأرض"
+      "value": "Zemlja"
     },
     "physicalControls.gravityControls.jupiter": {
-      "value": "المشتري"
+      "value": "Jupiter"
     },
     "physicalControls.gravityControls.gravity": {
-      "value": "شدة الثقالة"
-    },
-    "physicalControls.gravityControls.gravityMetersPerSecondSquaredPattern": {
-      "value": "{{value}} m/s<sup>2</sup>"
-    },
-    "physicalControls.gravityControls.gravityNewtonsPerKilogramPattern": {
-      "value": "{{value}} N/kg"
+      "value": "Gravitacija"
     },
     "physicalControls.tiny": {
-      "value": "رقيق"
+      "value": "Slaba"
     },
     "skaterControls.label": {
-      "value": "المتزحلق"
+      "value": "Skejter"
     },
     "skaterControls.skater1MassPattern": {
-      "value": "المتزحلق 1 ({{value}} kg)"
+      "value": "Skejter 1 ({{value}} kg)"
     },
     "skaterControls.skater2MassPattern": {
-      "value": "المتزحلق 2 ({{value}} kg)"
+      "value": "Skejter 2 ({{value}} kg)"
     },
     "skaterControls.skater3MassPattern": {
-      "value": "المتزحلق 3 ({{value}} kg)"
+      "value": "Skejter 3 ({{value}} kg)"
     },
     "skaterControls.skater4MassPattern": {
-      "value": "المتزحلق 4 ({{value}} kg)"
+      "value": "Skejter 4 ({{value}} kg)"
     },
     "skaterControls.skater5MassPattern": {
-      "value": "المتزحلق 5 ({{value}} kg)"
+      "value": "Skejter 5 ({{value}} kg)"
     },
     "skaterControls.dogMassPattern": {
-      "value": "الكلب ({{value}} kg)"
+      "value": "pas ({{value}} kg)"
     },
     "physicalControls.massControls.mass": {
-      "value": "الكتلة"
-    },
-    "physicalControls.massControls.massKilogramsPattern": {
-      "value": "{{value}} kg"
+      "value": "masa"
     },
     "physicalControls.small": {
-      "value": "صغير"
+      "value": "Mala"
     },
     "physicalControls.large": {
-      "value": "كبير"
+      "value": "Velika"
     },
     "physicalControls.custom": {
-      "value": "حسب الاختيار"
+      "value": "Podesi"
     },
     "physicalControls.lots": {
-      "value": "كمية كبيرة"
+      "value": "Mnogo"
     },
     "physicalControls.none": {
-      "value": "منعدم"
+      "value": "Bez"
     },
     "heightLabels.heightEqualsZero": {
-      "value": "الارتفاع = 0"
+      "value": "Visina = 0"
     },
     "energy-skate-park.title": {
-      "value": "طاقة المتزحلق"
+      "value": "Energija u skejt parku"
     },
     "screens.graphs": {
-      "value": "مبيانات الطاقة"
+      "value": "Grafici"
     },
     "plots.timeSwitchLabel": {
-      "value": "الزمن"
+      "value": "Vrijeme"
     },
     "plots.positionSwitchLabel": {
-      "value": "الموضع"
+      "value": "Položaj"
     },
     "plots.energyGraph.label": {
-      "value": "مبيان الطاقة"
+      "value": "Grafik energije"
     },
     "plots.positionLabel": {
-      "value": "الموضع (m)"
+      "value": "Položaj (m)"
     },
     "plots.energyLabel": {
-      "value": "الطاقة (J)"
+      "value": "Energija (J)"
     },
     "plots.timeLabel": {
-      "value": "الزمن (s)"
+      "value": "Vrijeme (s)"
     },
     "screens.intro": {
-      "value": "مقدمة"
+      "value": "Uvod"
     },
     "screens.measure": {
-      "value": "قياسات تجريبية"
-    },
-    "pathSensor.energyJoulesPattern": {
-      "value": "{{value}} J"
+      "value": "Mjerenje"
     },
     "pathSensor.heightMetersPattern": {
-      "value": "الارتفاع = {{value}} m"
+      "value": "Visina = {{value}} m"
     },
     "pathSensor.speedMetersPerSecondPattern": {
-      "value": "السرعة = {{value}} m/s"
+      "value": "Brzina = {{value}} m/s"
     },
     "screens.playground": {
-      "value": "فضاء للعب"
+      "value": "Igralište"
     }
   },
   "ca": {
@@ -12208,489 +12691,6 @@
     },
     "screens.playground": {
       "value": "Spēļlaukums"
-    }
-  },
-  "bg": {
-    "preferences.metersPerSecondSquared": {
-      "value": "m/s<sup>2</sup>"
-    },
-    "preferences.newtonsPerKilogram": {
-      "value": "N/kg"
-    },
-    "preferences.accelerationUnits": {
-      "value": "Единици за ускорение"
-    },
-    "characterSet.unitedStatesOfAmerica": {
-      "value": "Съединени Американски щати"
-    },
-    "characterSet.africa": {
-      "value": "Африка"
-    },
-    "screens.graphs": {
-      "value": "Графики"
-    },
-    "screens.intro": {
-      "value": "Въведение"
-    },
-    "screens.measure": {
-      "value": "Измерване"
-    },
-    "screens.playground": {
-      "value": "Площадка"
-    },
-    "energies.kinetic": {
-      "value": "Кинетична"
-    },
-    "energies.potential": {
-      "value": "Потенциална"
-    },
-    "energies.thermal": {
-      "value": "Термична"
-    },
-    "energies.total": {
-      "value": "Общо"
-    },
-    "plots.timeSwitchLabel": {
-      "value": "Време"
-    },
-    "plots.positionSwitchLabel": {
-      "value": "Позиция"
-    },
-    "plots.energyGraph.label": {
-      "value": "Графики на Енергията"
-    },
-    "plots.positionLabel": {
-      "value": "Позиция (m)"
-    },
-    "plots.energyLabel": {
-      "value": "Енергия (J)"
-    },
-    "plots.timeLabel": {
-      "value": "Време (s)"
-    },
-    "energies.energy": {
-      "value": "Енергия"
-    },
-    "pathSensor.energyJoulesPattern": {
-      "value": "{{value}} J"
-    },
-    "pathSensor.heightMetersPattern": {
-      "value": "Височина = {{value}} m"
-    },
-    "pathSensor.speedMetersPerSecondPattern": {
-      "value": "Скорост= {{value}} m/s"
-    },
-    "skaterControls.restartSkater": {
-      "value": "Пусни отново"
-    },
-    "speedometer.label": {
-      "value": "Скорост"
-    },
-    "speedometer.metersPerSecondPattern": {
-      "value": "{{value}} m/s"
-    },
-    "measuringTape.units": {
-      "value": "m"
-    },
-    "heightLabels.zeroM": {
-      "value": "0 m"
-    },
-    "heightLabels.heightEqualsZero": {
-      "value": "Височина = 0"
-    },
-    "physicalControls.gravityControls.gravityNewtonsPerKilogramPattern": {
-      "value": "{{value}} N/kg"
-    },
-    "visibilityControls.path": {
-      "value": "Траектория"
-    },
-    "visibilityControls.referenceHeight": {
-      "value": "Еталонна височина"
-    },
-    "visibilityControls.grid": {
-      "value": "Мрежа"
-    },
-    "trackControls.stickToTrack": {
-      "value": "Придържайте се към пистата"
-    },
-    "plots.pieChart.label": {
-      "value": "Кръгова диаграма"
-    },
-    "visibilityControls.speed": {
-      "value": "Скорост"
-    },
-    "physicalControls.friction": {
-      "value": "Триене"
-    },
-    "physicalControls.gravityControls.moon": {
-      "value": "Луна"
-    },
-    "physicalControls.gravityControls.earth": {
-      "value": "Земя"
-    },
-    "physicalControls.gravityControls.jupiter": {
-      "value": "Юпитер"
-    },
-    "physicalControls.gravityControls.gravity": {
-      "value": "Гравитация"
-    },
-    "physicalControls.gravityControls.gravityMetersPerSecondSquaredPattern": {
-      "value": "{{value}} m/s<sup>2</sup>"
-    },
-    "physicalControls.tiny": {
-      "value": "Малка"
-    },
-    "skaterControls.label": {
-      "value": "Скейтър"
-    },
-    "skaterControls.skater1MassPattern": {
-      "value": "Скейтър 1 ({{value}} kg)"
-    },
-    "skaterControls.skater2MassPattern": {
-      "value": "Скейтър 2 ({{value}} kg)"
-    },
-    "skaterControls.skater3MassPattern": {
-      "value": "Скейтър 3 ({{value}} kg)"
-    },
-    "skaterControls.skater4MassPattern": {
-      "value": "Скейтър 4 ({{value}} kg)"
-    },
-    "skaterControls.skater5MassPattern": {
-      "value": "Скейтър 5 ({{value}} kg)"
-    },
-    "skaterControls.dogMassPattern": {
-      "value": "Куче ({{value}} kg)"
-    },
-    "physicalControls.massControls.mass": {
-      "value": "Тегло"
-    },
-    "physicalControls.massControls.massKilogramsPattern": {
-      "value": "{{value}} kg"
-    },
-    "physicalControls.small": {
-      "value": "Малко"
-    },
-    "physicalControls.large": {
-      "value": "Голямо"
-    },
-    "physicalControls.lots": {
-      "value": "Голяма"
-    },
-    "physicalControls.none": {
-      "value": "Без"
-    },
-    "physicalControls.custom": {
-      "value": "По избор"
-    },
-    "energy-skate-park.title": {
-      "value": "Енергия Скейт Парк"
-    }
-  },
-  "bs": {
-    "energies.energy": {
-      "value": "Energija"
-    },
-    "energies.kinetic": {
-      "value": "Kinetička"
-    },
-    "energies.potential": {
-      "value": "Potencijalna"
-    },
-    "energies.thermal": {
-      "value": "Toplotna"
-    },
-    "energies.total": {
-      "value": "Ukupna"
-    },
-    "speedometer.label": {
-      "value": "Brzina"
-    },
-    "skaterControls.restartSkater": {
-      "value": "Vrati skejtera"
-    },
-    "visibilityControls.path": {
-      "value": "Putanja"
-    },
-    "visibilityControls.referenceHeight": {
-      "value": "Referentna visina"
-    },
-    "visibilityControls.grid": {
-      "value": "Mreža"
-    },
-    "trackControls.stickToTrack": {
-      "value": "Pričvrsti za stazu"
-    },
-    "plots.pieChart.label": {
-      "value": "Kružni grafik"
-    },
-    "plots.barGraph.label": {
-      "value": "Trakasti grafik"
-    },
-    "visibilityControls.speed": {
-      "value": "Brzina"
-    },
-    "physicalControls.friction": {
-      "value": "Trenje"
-    },
-    "physicalControls.gravityControls.moon": {
-      "value": "Mjesec"
-    },
-    "physicalControls.gravityControls.earth": {
-      "value": "Zemlja"
-    },
-    "physicalControls.gravityControls.jupiter": {
-      "value": "Jupiter"
-    },
-    "physicalControls.gravityControls.gravity": {
-      "value": "Gravitacija"
-    },
-    "physicalControls.tiny": {
-      "value": "Slaba"
-    },
-    "skaterControls.label": {
-      "value": "Skejter"
-    },
-    "skaterControls.skater1MassPattern": {
-      "value": "Skejter 1 ({{value}} kg)"
-    },
-    "skaterControls.skater2MassPattern": {
-      "value": "Skejter 2 ({{value}} kg)"
-    },
-    "skaterControls.skater3MassPattern": {
-      "value": "Skejter 3 ({{value}} kg)"
-    },
-    "skaterControls.skater4MassPattern": {
-      "value": "Skejter 4 ({{value}} kg)"
-    },
-    "skaterControls.skater5MassPattern": {
-      "value": "Skejter 5 ({{value}} kg)"
-    },
-    "skaterControls.dogMassPattern": {
-      "value": "pas ({{value}} kg)"
-    },
-    "physicalControls.massControls.mass": {
-      "value": "masa"
-    },
-    "physicalControls.small": {
-      "value": "Mala"
-    },
-    "physicalControls.large": {
-      "value": "Velika"
-    },
-    "physicalControls.custom": {
-      "value": "Podesi"
-    },
-    "physicalControls.lots": {
-      "value": "Mnogo"
-    },
-    "physicalControls.none": {
-      "value": "Bez"
-    },
-    "heightLabels.heightEqualsZero": {
-      "value": "Visina = 0"
-    },
-    "energy-skate-park.title": {
-      "value": "Energija u skejt parku"
-    },
-    "screens.graphs": {
-      "value": "Grafici"
-    },
-    "plots.timeSwitchLabel": {
-      "value": "Vrijeme"
-    },
-    "plots.positionSwitchLabel": {
-      "value": "Položaj"
-    },
-    "plots.energyGraph.label": {
-      "value": "Grafik energije"
-    },
-    "plots.positionLabel": {
-      "value": "Položaj (m)"
-    },
-    "plots.energyLabel": {
-      "value": "Energija (J)"
-    },
-    "plots.timeLabel": {
-      "value": "Vrijeme (s)"
-    },
-    "screens.intro": {
-      "value": "Uvod"
-    },
-    "screens.measure": {
-      "value": "Mjerenje"
-    },
-    "pathSensor.heightMetersPattern": {
-      "value": "Visina = {{value}} m"
-    },
-    "pathSensor.speedMetersPerSecondPattern": {
-      "value": "Brzina = {{value}} m/s"
-    },
-    "screens.playground": {
-      "value": "Igralište"
-    }
-  },
-  "am": {
-    "screens.graphs": {
-      "value": "ግራፎች "
-    },
-    "screens.intro": {
-      "value": "መግቢያ"
-    },
-    "screens.playground": {
-      "value": "መጫወቻ ቦታ"
-    },
-    "screens.measure": {
-      "value": "ለካ"
-    },
-    "energies.kinetic": {
-      "value": "ተንቀሳቃሽ"
-    },
-    "energies.potential": {
-      "value": "እምቅ"
-    },
-    "energies.thermal": {
-      "value": "ሙቅት"
-    },
-    "energies.total": {
-      "value": "ጠቅላላ "
-    },
-    "plots.timeSwitchLabel": {
-      "value": "ጊዜ"
-    },
-    "plots.positionSwitchLabel": {
-      "value": "አቀማመጥ"
-    },
-    "plots.energyGraph.label": {
-      "value": "የጉልበት ግራፍ"
-    },
-    "plots.positionLabel": {
-      "value": "አቀማመጥ(ሜትር)"
-    },
-    "plots.energyLabel": {
-      "value": "ጉልበት(ጁል)"
-    },
-    "plots.timeLabel": {
-      "value": "ጊዜ(ሴኮንድ)"
-    },
-    "energies.energy": {
-      "value": "ጉልበት "
-    },
-    "pathSensor.energyJoulesPattern": {
-      "value": "{{value}} J"
-    },
-    "pathSensor.heightMetersPattern": {
-      "value": "ቁመት = {{value}} ሜ"
-    },
-    "pathSensor.speedMetersPerSecondPattern": {
-      "value": "ፍጥነት = {{value}} ሜ/ሴ"
-    },
-    "skaterControls.restartSkater": {
-      "value": "መንሸራተቻውን እንደገና አስጀምር/ሪ"
-    },
-    "speedometer.label": {
-      "value": "ፍጥነት"
-    },
-    "speedometer.metersPerSecondPattern": {
-      "value": "{{value}} ሜ/ሴ"
-    },
-    "measuringTape.units": {
-      "value": "ሜ"
-    },
-    "heightLabels.zeroM": {
-      "value": "0ሜ"
-    },
-    "heightLabels.heightEqualsZero": {
-      "value": "ቁመት = 0"
-    },
-    "visibilityControls.path": {
-      "value": "መንገድ"
-    },
-    "visibilityControls.referenceHeight": {
-      "value": "የማጣቀሻ ቁመት"
-    },
-    "visibilityControls.grid": {
-      "value": "ፍርግርግ"
-    },
-    "trackControls.stickToTrack": {
-      "value": "በትራክ ላይ ተገናኝቶዋል"
-    },
-    "plots.pieChart.label": {
-      "value": "የፓይ ቻርት"
-    },
-    "plots.barGraph.label": {
-      "value": "ባር ግራፍ"
-    },
-    "visibilityControls.speed": {
-      "value": "ፍጥነት "
-    },
-    "physicalControls.friction": {
-      "value": "ሰበቃ "
-    },
-    "physicalControls.gravityControls.gravity": {
-      "value": "ስበት"
-    },
-    "physicalControls.gravityControls.gravityMetersPerSecondSquaredPattern": {
-      "value": "{{value}} ሜ/ሴ<sup>2</sup>"
-    },
-    "physicalControls.gravityControls.gravityNewtonsPerKilogramPattern": {
-      "value": "{{value}} ኒውተን/ኪሎ ግራም"
-    },
-    "physicalControls.gravityControls.moon": {
-      "value": "ጨረቃ"
-    },
-    "physicalControls.gravityControls.earth": {
-      "value": "መሬት"
-    },
-    "physicalControls.gravityControls.jupiter": {
-      "value": "ጁፒተር "
-    },
-    "physicalControls.tiny": {
-      "value": "ጥቃቅን"
-    },
-    "skaterControls.label": {
-      "value": "መንሸራተቻ"
-    },
-    "skaterControls.skater1MassPattern": {
-      "value": "መንሸራተቻ 1 ({{value}} ኪ.ግ)"
-    },
-    "skaterControls.skater2MassPattern": {
-      "value": "መንሸራተቻ 2 ({{value}} ኪ.ግ)"
-    },
-    "skaterControls.skater3MassPattern": {
-      "value": "መንሸራተቻ 3 ({{value}} ኪ.ግ)"
-    },
-    "skaterControls.skater4MassPattern": {
-      "value": "መንሸራተቻ 4 ({{value}} ኪ.ግ)"
-    },
-    "skaterControls.skater5MassPattern": {
-      "value": "መንሸራተቻ 5 ({{value}} ኪ.ግ)"
-    },
-    "skaterControls.dogMassPattern": {
-      "value": "ውሻ  ({{value}} ኪ.ግ)"
-    },
-    "physicalControls.massControls.mass": {
-      "value": "ክብደት "
-    },
-    "physicalControls.massControls.massKilogramsPattern": {
-      "value": "{{value}} ኪ.ግ"
-    },
-    "physicalControls.small": {
-      "value": "ትንሽ"
-    },
-    "physicalControls.large": {
-      "value": "ትልቅ"
-    },
-    "physicalControls.lots": {
-      "value": "ብዙ"
-    },
-    "physicalControls.none": {
-      "value": "ምንም"
-    },
-    "physicalControls.custom": {
-      "value": "ማስተካከያ "
-    },
-    "energy-skate-park.title": {
-      "value": "የጉልበት መንሸራተቻ ፓርክ "
     }
   }
 }

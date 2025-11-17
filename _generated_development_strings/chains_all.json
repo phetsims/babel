@@ -1,4 +1,30 @@
 {
+  "ab": {
+    "patternString": {
+      "value": "{0}: {1} {2} Tue 8/15/2023"
+    },
+    "size": {
+      "value": "Biglyness"
+    },
+    "plainString": {
+      "value": "'Tis a challenge to be a yellow fellow"
+    },
+    "multilineString": {
+      "value": "Break me off a <br>piece of that kit kat bar."
+    },
+    "htmlString": {
+      "value": "Turning left on <i>red</i> is a <b>bold</b> move."
+    },
+    "namedPlaceholdersString": {
+      "value": "{{name}} is switching to main at {{speed}} parsecs/decade"
+    },
+    "chains.title": {
+      "value": "Chains 8/13/2025"
+    },
+    "nestedLevel1.nestedLevel2.message": {
+      "value": "Nested is the bested."
+    }
+  },
   "ar": {
     "size": {
       "value": "حجم"
@@ -56,6 +82,11 @@
       "value": "Μέγεθος"
     }
   },
+  "en_CA": {
+    "chains.title": {
+      "value": "Chains, eh? Soory, we don't have any meese to share."
+    }
+  },
   "es": {
     "htmlString": {
       "value": "Test 2"
@@ -99,35 +130,24 @@
       "value": "Chains Test1"
     }
   },
-  "en_CA": {
+  "es_PE": {
     "chains.title": {
-      "value": "Chains, eh? Soory, we don't have any meese to share."
-    }
-  },
-  "ab": {
-    "patternString": {
-      "value": "{0}: {1} {2} Tue 8/15/2023"
-    },
-    "size": {
-      "value": "Biglyness"
-    },
-    "plainString": {
-      "value": "'Tis a challenge to be a yellow fellow"
-    },
-    "multilineString": {
-      "value": "Break me off a <br>piece of that kit kat bar."
+      "value": "Cadenas"
     },
     "htmlString": {
-      "value": "Turning left on <i>red</i> is a <b>bold</b> move."
+      "value": "Girar en rojo <i>a la izquierda</i> es un <b>paso</b> valiente."
     },
-    "namedPlaceholdersString": {
-      "value": "{{name}} is switching to main at {{speed}} parsecs/decade"
+    "multilineString": {
+      "value": "Dame un\ndescanso"
     },
-    "chains.title": {
-      "value": "Chains 8/13/2025"
+    "patternString": {
+      "value": "{0}: {1} {2}"
     },
-    "nestedLevel1.nestedLevel2.message": {
-      "value": "Nested is the bested."
+    "plainString": {
+      "value": "No es fácil ser verde."
+    },
+    "size": {
+      "value": "Tamaño"
     }
   },
   "fr": {
@@ -151,26 +171,6 @@
     },
     "chains.title": {
       "value": "Chaines"
-    }
-  },
-  "es_PE": {
-    "chains.title": {
-      "value": "Cadenas"
-    },
-    "htmlString": {
-      "value": "Girar en rojo <i>a la izquierda</i> es un <b>paso</b> valiente."
-    },
-    "multilineString": {
-      "value": "Dame un\ndescanso"
-    },
-    "patternString": {
-      "value": "{0}: {1} {2}"
-    },
-    "plainString": {
-      "value": "No es fácil ser verde."
-    },
-    "size": {
-      "value": "Tamaño"
     }
   },
   "ga": {
@@ -225,6 +225,54 @@
     },
     "size": {
       "value": "Dimensione"
+    }
+  },
+  "kn": {
+    "chains.title": {
+      "value": "ಸರಪಣಿಗಳು"
+    },
+    "htmlString": {
+      "value": "ಎಡಕ್ಕೆ ತಿರುವುದು <i>ಕೆಂಪು ಬಣ್ಣಿನ್ನಲ್ಲಿ</i>ಒಂದು<b> ದಿಟ್ಟ</b> ನಡೆ ಆಗಿದೆ"
+    },
+    "multilineString": {
+      "value": "ನನಗೆ ಒಂದು\nವಿರಾಮ ನೀಡಿ"
+    },
+    "patternString": {
+      "value": "{0}: {1} {2}"
+    },
+    "plainString": {
+      "value": "ಹಸಿರಾಗಿರುವುದು ಸುಲಭ ಅಲ್ಲ."
+    },
+    "size": {
+      "value": "ಗಾತ್ರ"
+    }
+  },
+  "lk": {
+    "multilineString": {
+      "value": "a break,\nif you would"
+    },
+    "plainString": {
+      "value": "Green isn't easy-ish"
+    }
+  },
+  "lv": {
+    "chains.title": {
+      "value": "Virknes"
+    },
+    "htmlString": {
+      "value": "Pagriešanās pa kreisi pie <i>sarkanā</i> ir <b>drosmīgs</b> solis."
+    },
+    "multilineString": {
+      "value": "Dodiet man\npārtraukumu."
+    },
+    "patternString": {
+      "value": "{0}: {1} {2}"
+    },
+    "plainString": {
+      "value": "Nav viegli būt zaļam."
+    },
+    "size": {
+      "value": "Izmērs"
     }
   },
   "nl": {
@@ -415,54 +463,6 @@
           "value": "Right now, the weather is { a11y_nested_selector }."
         }
       }
-    }
-  },
-  "kn": {
-    "chains.title": {
-      "value": "ಸರಪಣಿಗಳು"
-    },
-    "htmlString": {
-      "value": "ಎಡಕ್ಕೆ ತಿರುವುದು <i>ಕೆಂಪು ಬಣ್ಣಿನ್ನಲ್ಲಿ</i>ಒಂದು<b> ದಿಟ್ಟ</b> ನಡೆ ಆಗಿದೆ"
-    },
-    "multilineString": {
-      "value": "ನನಗೆ ಒಂದು\nವಿರಾಮ ನೀಡಿ"
-    },
-    "patternString": {
-      "value": "{0}: {1} {2}"
-    },
-    "plainString": {
-      "value": "ಹಸಿರಾಗಿರುವುದು ಸುಲಭ ಅಲ್ಲ."
-    },
-    "size": {
-      "value": "ಗಾತ್ರ"
-    }
-  },
-  "lk": {
-    "multilineString": {
-      "value": "a break,\nif you would"
-    },
-    "plainString": {
-      "value": "Green isn't easy-ish"
-    }
-  },
-  "lv": {
-    "chains.title": {
-      "value": "Virknes"
-    },
-    "htmlString": {
-      "value": "Pagriešanās pa kreisi pie <i>sarkanā</i> ir <b>drosmīgs</b> solis."
-    },
-    "multilineString": {
-      "value": "Dodiet man\npārtraukumu."
-    },
-    "patternString": {
-      "value": "{0}: {1} {2}"
-    },
-    "plainString": {
-      "value": "Nav viegli būt zaļam."
-    },
-    "size": {
-      "value": "Izmērs"
     }
   }
 }
