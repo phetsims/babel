@@ -52,6 +52,32 @@
       "value": "Projektormodus"
     }
   },
+  "am": {
+    "electricField": {
+      "value": "የኤሌክትሪክ መስክ"
+    },
+    "directionOnly": {
+      "value": "አቅጣጫ ብቻ"
+    },
+    "voltage": {
+      "value": "ቦልቴጅ"
+    },
+    "values": {
+      "value": "ዋጋ"
+    },
+    "sensors": {
+      "value": "ቃኚዎች"
+    },
+    "angleUnit": {
+      "value": "ዲግሪ"
+    },
+    "equipotential": {
+      "value": "እኩል ክሂሎታዊ መስመር"
+    },
+    "charges-and-fields.title": {
+      "value": "ሙሎችና የኤሌክትሪክ መስኮች"
+    }
+  },
   "ar": {
     "electricField": {
       "value": "المجال الكهربي"
@@ -105,30 +131,57 @@
       "value": "وضع جهاز الإسقاط الضوئي"
     }
   },
-  "am": {
+  "ar_SA": {
     "electricField": {
-      "value": "የኤሌክትሪክ መስክ"
+      "value": "المجال الكهربائي"
     },
     "directionOnly": {
-      "value": "አቅጣጫ ብቻ"
+      "value": "الاتجاة فقط"
     },
     "voltage": {
-      "value": "ቦልቴጅ"
+      "value": "الجهد الكهربائي"
+    },
+    "grid": {
+      "value": "الشبكة"
     },
     "values": {
-      "value": "ዋጋ"
+      "value": "القيم"
+    },
+    "voltageUnit": {
+      "value": "V"
+    },
+    "minusOneNanoC": {
+      "value": " 1nC  -"
+    },
+    "plusOneNanoC": {
+      "value": " 1nC  +"
     },
     "sensors": {
-      "value": "ቃኚዎች"
+      "value": "مجسات"
+    },
+    "pattern.0value.1units": {
+      "value": "{1} {0}"
+    },
+    "eFieldUnit": {
+      "value": "V/m"
     },
     "angleUnit": {
-      "value": "ዲግሪ"
+      "value": "deg"
     },
     "equipotential": {
-      "value": "እኩል ክሂሎታዊ መስመር"
+      "value": "متساوية الجهد"
+    },
+    "centimeterUnit": {
+      "value": "cm"
+    },
+    "oneMeter": {
+      "value": "1 متر"
     },
     "charges-and-fields.title": {
-      "value": "ሙሎችና የኤሌክትሪክ መስኮች"
+      "value": "الشحنات والمجالات"
+    },
+    "options.projectorColors": {
+      "value": "نظام العرض"
     }
   },
   "ar_MA": {
@@ -182,59 +235,6 @@
     },
     "options.projectorColors": {
       "value": "وضع جهاز الإسقاط"
-    }
-  },
-  "ar_SA": {
-    "electricField": {
-      "value": "المجال الكهربائي"
-    },
-    "directionOnly": {
-      "value": "الاتجاة فقط"
-    },
-    "voltage": {
-      "value": "الجهد الكهربائي"
-    },
-    "grid": {
-      "value": "الشبكة"
-    },
-    "values": {
-      "value": "القيم"
-    },
-    "voltageUnit": {
-      "value": "V"
-    },
-    "minusOneNanoC": {
-      "value": " 1nC  -"
-    },
-    "plusOneNanoC": {
-      "value": " 1nC  +"
-    },
-    "sensors": {
-      "value": "مجسات"
-    },
-    "pattern.0value.1units": {
-      "value": "{1} {0}"
-    },
-    "eFieldUnit": {
-      "value": "V/m"
-    },
-    "angleUnit": {
-      "value": "deg"
-    },
-    "equipotential": {
-      "value": "متساوية الجهد"
-    },
-    "centimeterUnit": {
-      "value": "cm"
-    },
-    "oneMeter": {
-      "value": "1 متر"
-    },
-    "charges-and-fields.title": {
-      "value": "الشحنات والمجالات"
-    },
-    "options.projectorColors": {
-      "value": "نظام العرض"
     }
   },
   "az": {
@@ -2837,18 +2837,18 @@
       "value": "د پروجکتور موډ (حالت)"
     }
   },
-  "pt_BR": {
+  "pt": {
     "electricField": {
       "value": "Campo Elétrico"
     },
     "directionOnly": {
-      "value": "Só direção"
+      "value": "Apenas a direção"
     },
     "voltage": {
-      "value": "Tensão"
+      "value": "Voltagem"
     },
     "grid": {
-      "value": "Grade"
+      "value": "Grelha"
     },
     "values": {
       "value": "Valores"
@@ -2860,7 +2860,7 @@
       "value": "-1 nC"
     },
     "plusOneNanoC": {
-      "value": "+1 nC"
+      "value": "+ nC"
     },
     "sensors": {
       "value": "Sensores"
@@ -2890,18 +2890,18 @@
       "value": "Modo Projetor"
     }
   },
-  "pt": {
+  "pt_BR": {
     "electricField": {
       "value": "Campo Elétrico"
     },
     "directionOnly": {
-      "value": "Apenas a direção"
+      "value": "Só direção"
     },
     "voltage": {
-      "value": "Voltagem"
+      "value": "Tensão"
     },
     "grid": {
-      "value": "Grelha"
+      "value": "Grade"
     },
     "values": {
       "value": "Valores"
@@ -2913,7 +2913,7 @@
       "value": "-1 nC"
     },
     "plusOneNanoC": {
-      "value": "+ nC"
+      "value": "+1 nC"
     },
     "sensors": {
       "value": "Sensores"

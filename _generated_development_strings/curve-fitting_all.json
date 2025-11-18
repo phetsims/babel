@@ -82,6 +82,89 @@
       "value": "Krommepassing"
     }
   },
+  "am": {
+    "pointCoordinatesPattern": {
+      "value": "({{xCoordinate}}, {{yCoordinate}})"
+    },
+    "deltaEqualsPattern": {
+      "value": "Δ<sub>{{y}}</sub> = {{deltaValue}}"
+    },
+    "ySymbol": {
+      "value": "y"
+    },
+    "cubic": {
+      "value": "ኪዩቢክ"
+    },
+    "linear": {
+      "value": "ሊንየር"
+    },
+    "quadratic": {
+      "value": "ክዋድራቲክ"
+    },
+    "aSymbol": {
+      "value": "a"
+    },
+    "bSymbol": {
+      "value": "b"
+    },
+    "cSymbol": {
+      "value": "c"
+    },
+    "dSymbol": {
+      "value": "d"
+    },
+    "xSymbol": {
+      "value": "x"
+    },
+    "adjustableFit": {
+      "value": "የሚስተካከል ተስማሚ"
+    },
+    "bestFit": {
+      "value": "የተሻለ ተስማሚ"
+    },
+    "curve": {
+      "value": "ከርቭ(እጥፋት)"
+    },
+    "residuals": {
+      "value": "ቀሪዎች"
+    },
+    "values": {
+      "value": "ዋጋዎች"
+    },
+    "fEqualsNumberOfParametersPattern": {
+      "value": "{{fSymbol}}= የተስማሚ ተተኪ ፊደሎች ብዛት(ለምሳሌ {{fSymbol}} = 4, ለኪዩቢክ ተስማሚ)"
+    },
+    "nEqualsNumberOfDataPointsPattern": {
+      "value": "{{nSymbol}} =የዳታ ነጥቦች ብዛት"
+    },
+    "chiSymbol": {
+      "value": "X"
+    },
+    "fSymbol": {
+      "value": "f"
+    },
+    "nSymbol": {
+      "value": "N"
+    },
+    "theReducedChiSquaredStatisticIs": {
+      "value": "የተቀነሰው ቺ-ስክዌርድ ስታትስቲክ፡ "
+    },
+    "deviations": {
+      "value": "ልዩነቶች"
+    },
+    "rSymbol": {
+      "value": "r"
+    },
+    "equation": {
+      "value": "እኩልታ"
+    },
+    "undefined": {
+      "value": "ያልተገለጸ"
+    },
+    "curve-fitting.title": {
+      "value": "ከርቭ ፊቲንግ"
+    }
+  },
   "ar": {
     "pointCoordinatesPattern": {
       "value": "({{xCoordinate}}, {{yCoordinate}})"
@@ -329,89 +412,6 @@
     },
     "curve-fitting.title": {
       "value": "Əyri xətt uyğunluqları"
-    }
-  },
-  "am": {
-    "pointCoordinatesPattern": {
-      "value": "({{xCoordinate}}, {{yCoordinate}})"
-    },
-    "deltaEqualsPattern": {
-      "value": "Δ<sub>{{y}}</sub> = {{deltaValue}}"
-    },
-    "ySymbol": {
-      "value": "y"
-    },
-    "cubic": {
-      "value": "ኪዩቢክ"
-    },
-    "linear": {
-      "value": "ሊንየር"
-    },
-    "quadratic": {
-      "value": "ክዋድራቲክ"
-    },
-    "aSymbol": {
-      "value": "a"
-    },
-    "bSymbol": {
-      "value": "b"
-    },
-    "cSymbol": {
-      "value": "c"
-    },
-    "dSymbol": {
-      "value": "d"
-    },
-    "xSymbol": {
-      "value": "x"
-    },
-    "adjustableFit": {
-      "value": "የሚስተካከል ተስማሚ"
-    },
-    "bestFit": {
-      "value": "የተሻለ ተስማሚ"
-    },
-    "curve": {
-      "value": "ከርቭ(እጥፋት)"
-    },
-    "residuals": {
-      "value": "ቀሪዎች"
-    },
-    "values": {
-      "value": "ዋጋዎች"
-    },
-    "fEqualsNumberOfParametersPattern": {
-      "value": "{{fSymbol}}= የተስማሚ ተተኪ ፊደሎች ብዛት(ለምሳሌ {{fSymbol}} = 4, ለኪዩቢክ ተስማሚ)"
-    },
-    "nEqualsNumberOfDataPointsPattern": {
-      "value": "{{nSymbol}} =የዳታ ነጥቦች ብዛት"
-    },
-    "chiSymbol": {
-      "value": "X"
-    },
-    "fSymbol": {
-      "value": "f"
-    },
-    "nSymbol": {
-      "value": "N"
-    },
-    "theReducedChiSquaredStatisticIs": {
-      "value": "የተቀነሰው ቺ-ስክዌርድ ስታትስቲክ፡ "
-    },
-    "deviations": {
-      "value": "ልዩነቶች"
-    },
-    "rSymbol": {
-      "value": "r"
-    },
-    "equation": {
-      "value": "እኩልታ"
-    },
-    "undefined": {
-      "value": "ያልተገለጸ"
-    },
-    "curve-fitting.title": {
-      "value": "ከርቭ ፊቲንግ"
     }
   },
   "bg": {
@@ -2909,89 +2909,6 @@
       "value": "Dopasowanie krzywej"
     }
   },
-  "ny": {
-    "pointCoordinatesPattern": {
-      "value": "({{xCoordinate}}, {{yCoordinate}})"
-    },
-    "deltaEqualsPattern": {
-      "value": "Δ<sub>{{y}}</sub> = {{deltaValue}}"
-    },
-    "ySymbol": {
-      "value": "y"
-    },
-    "cubic": {
-      "value": "Cubic"
-    },
-    "linear": {
-      "value": "Linear"
-    },
-    "quadratic": {
-      "value": "Quadratic"
-    },
-    "aSymbol": {
-      "value": "a"
-    },
-    "bSymbol": {
-      "value": "b"
-    },
-    "cSymbol": {
-      "value": "c"
-    },
-    "dSymbol": {
-      "value": "d"
-    },
-    "xSymbol": {
-      "value": "x"
-    },
-    "adjustableFit": {
-      "value": "Kukwanira kosinthika"
-    },
-    "bestFit": {
-      "value": "Mzere wogawa pakati mofanana"
-    },
-    "curve": {
-      "value": "Chopindika"
-    },
-    "residuals": {
-      "value": "Zotsalira"
-    },
-    "values": {
-      "value": "Manambala"
-    },
-    "fEqualsNumberOfParametersPattern": {
-      "value": "{{fSymbol}} = chiwerengero cha magawo oyenera (monga {{fSymbol}} = 4, kwa kukwanira kwa kuyibiki)"
-    },
-    "nEqualsNumberOfDataPointsPattern": {
-      "value": "{{nSymbol}} = chiwerengero cha mfundo za data"
-    },
-    "chiSymbol": {
-      "value": "X"
-    },
-    "fSymbol": {
-      "value": "f"
-    },
-    "nSymbol": {
-      "value": "N"
-    },
-    "theReducedChiSquaredStatisticIs": {
-      "value": "Chiwerengero chochepetsedwa cha chi-squared ndi:"
-    },
-    "deviations": {
-      "value": "Zopatuka"
-    },
-    "rSymbol": {
-      "value": "r"
-    },
-    "equation": {
-      "value": "Equation"
-    },
-    "undefined": {
-      "value": "Chosadziwika"
-    },
-    "curve-fitting.title": {
-      "value": "Kukwaniritsa Chopindika"
-    }
-  },
   "ps": {
     "pointCoordinatesPattern": {
       "value": ""
@@ -3073,6 +2990,89 @@
     },
     "curve-fitting.title": {
       "value": "د منحنی تناسب"
+    }
+  },
+  "pt": {
+    "pointCoordinatesPattern": {
+      "value": "({{xCoordinate}}, {{yCoordinate}})"
+    },
+    "deltaEqualsPattern": {
+      "value": "Δ<sub>{{y}}</sub> = {{deltaValue}}"
+    },
+    "ySymbol": {
+      "value": "y"
+    },
+    "cubic": {
+      "value": "Cúbcio"
+    },
+    "linear": {
+      "value": "Linear"
+    },
+    "quadratic": {
+      "value": "Quadrático"
+    },
+    "aSymbol": {
+      "value": "a"
+    },
+    "bSymbol": {
+      "value": "b"
+    },
+    "cSymbol": {
+      "value": "c"
+    },
+    "dSymbol": {
+      "value": "d"
+    },
+    "xSymbol": {
+      "value": "x"
+    },
+    "adjustableFit": {
+      "value": "Variar ajuste"
+    },
+    "bestFit": {
+      "value": "Melhor ajuste"
+    },
+    "curve": {
+      "value": "Curva"
+    },
+    "residuals": {
+      "value": "Residuais"
+    },
+    "values": {
+      "value": "Valores"
+    },
+    "fEqualsNumberOfParametersPattern": {
+      "value": "{{fSymbol}} = número de parâmetros de ajuste (e.g. {{fSymbol}} = 4, para uma ajuste cúbico)"
+    },
+    "nEqualsNumberOfDataPointsPattern": {
+      "value": "{{nSymbol}} = número de pontos de dados"
+    },
+    "chiSymbol": {
+      "value": "X"
+    },
+    "fSymbol": {
+      "value": "f"
+    },
+    "nSymbol": {
+      "value": "N"
+    },
+    "theReducedChiSquaredStatisticIs": {
+      "value": "A estatística do chi-quadrado reduzido é:"
+    },
+    "deviations": {
+      "value": "Desvios"
+    },
+    "rSymbol": {
+      "value": "r"
+    },
+    "equation": {
+      "value": "Equação"
+    },
+    "undefined": {
+      "value": "indefinido"
+    },
+    "curve-fitting.title": {
+      "value": "Ajuste da Curva"
     }
   },
   "pt_BR": {
@@ -3239,89 +3239,6 @@
     },
     "curve-fitting.title": {
       "value": "Încadrearea curbei"
-    }
-  },
-  "pt": {
-    "pointCoordinatesPattern": {
-      "value": "({{xCoordinate}}, {{yCoordinate}})"
-    },
-    "deltaEqualsPattern": {
-      "value": "Δ<sub>{{y}}</sub> = {{deltaValue}}"
-    },
-    "ySymbol": {
-      "value": "y"
-    },
-    "cubic": {
-      "value": "Cúbcio"
-    },
-    "linear": {
-      "value": "Linear"
-    },
-    "quadratic": {
-      "value": "Quadrático"
-    },
-    "aSymbol": {
-      "value": "a"
-    },
-    "bSymbol": {
-      "value": "b"
-    },
-    "cSymbol": {
-      "value": "c"
-    },
-    "dSymbol": {
-      "value": "d"
-    },
-    "xSymbol": {
-      "value": "x"
-    },
-    "adjustableFit": {
-      "value": "Variar ajuste"
-    },
-    "bestFit": {
-      "value": "Melhor ajuste"
-    },
-    "curve": {
-      "value": "Curva"
-    },
-    "residuals": {
-      "value": "Residuais"
-    },
-    "values": {
-      "value": "Valores"
-    },
-    "fEqualsNumberOfParametersPattern": {
-      "value": "{{fSymbol}} = número de parâmetros de ajuste (e.g. {{fSymbol}} = 4, para uma ajuste cúbico)"
-    },
-    "nEqualsNumberOfDataPointsPattern": {
-      "value": "{{nSymbol}} = número de pontos de dados"
-    },
-    "chiSymbol": {
-      "value": "X"
-    },
-    "fSymbol": {
-      "value": "f"
-    },
-    "nSymbol": {
-      "value": "N"
-    },
-    "theReducedChiSquaredStatisticIs": {
-      "value": "A estatística do chi-quadrado reduzido é:"
-    },
-    "deviations": {
-      "value": "Desvios"
-    },
-    "rSymbol": {
-      "value": "r"
-    },
-    "equation": {
-      "value": "Equação"
-    },
-    "undefined": {
-      "value": "indefinido"
-    },
-    "curve-fitting.title": {
-      "value": "Ajuste da Curva"
     }
   },
   "ru": {
@@ -4201,216 +4118,6 @@
       "value": "Çyzyga laýyklama"
     }
   },
-  "tr": {
-    "cubic": {
-      "value": "Kübik"
-    },
-    "linear": {
-      "value": "Doğrusal"
-    },
-    "quadratic": {
-      "value": "İkinci Dereceden"
-    },
-    "adjustableFit": {
-      "value": "Ayarlanabilir eğri"
-    },
-    "bestFit": {
-      "value": "En Uygun eğri"
-    },
-    "curve": {
-      "value": "Eğri"
-    },
-    "residuals": {
-      "value": "Kalanlar"
-    },
-    "values": {
-      "value": "Değerler"
-    },
-    "fEqualsNumberOfParametersPattern": {
-      "value": "{{fSymbol}} = çizimdeki parametre sayısı (örnek: {{fSymbol}} = 4, kübik çizim için )"
-    },
-    "nEqualsNumberOfDataPointsPattern": {
-      "value": "{{nSymbol}} = nokta sayısı"
-    },
-    "deviations": {
-      "value": "Sapmalar"
-    },
-    "equation": {
-      "value": "Eşitlik"
-    },
-    "undefined": {
-      "value": "belirsiz"
-    },
-    "curve-fitting.title": {
-      "value": "Eğri Çizimi"
-    }
-  },
-  "tw": {
-    "pointCoordinatesPattern": {
-      "value": "({{xCoordinate}}, {{yCoordinate}})"
-    },
-    "deltaEqualsPattern": {
-      "value": "Δ<sub>{{y}}</sub> = {{deltaValue}}"
-    },
-    "ySymbol": {
-      "value": "y"
-    },
-    "cubic": {
-      "value": "osikyisu/ ade a ne ba sɛ sikyi"
-    },
-    "linear": {
-      "value": "tee"
-    },
-    "quadratic": {
-      "value": "tene"
-    },
-    "aSymbol": {
-      "value": "a"
-    },
-    "bSymbol": {
-      "value": "b"
-    },
-    "cSymbol": {
-      "value": "c"
-    },
-    "dSymbol": {
-      "value": "d"
-    },
-    "xSymbol": {
-      "value": "x"
-    },
-    "adjustableFit": {
-      "value": "sesa ma ɛmfa pɛpɛɛpɛ"
-    },
-    "bestFit": {
-      "value": "deɛ afa pɛpɛɛpɛ"
-    },
-    "curve": {
-      "value": "kɔntɔn"
-    },
-    "residuals": {
-      "value": "deɛ aka"
-    },
-    "values": {
-      "value": "ano"
-    },
-    "fEqualsNumberOfParametersPattern": {
-      "value": "{{fSymbol}} = nambas a ɛfa pɛpɛɛpɛ    (e.g. {{fSymbol}} = 4, ma osikyisu/ ade a ne ba sɛ sikyi fa)"
-    },
-    "nEqualsNumberOfDataPointsPattern": {
-      "value": "{{nSymbol}} = namba a ɛwɔ data no mu"
-    },
-    "chiSymbol": {
-      "value": "X"
-    },
-    "fSymbol": {
-      "value": "f"
-    },
-    "nSymbol": {
-      "value": "N"
-    },
-    "theReducedChiSquaredStatisticIs": {
-      "value": "te Chi-square statistics no so"
-    },
-    "deviations": {
-      "value": "fom kwan"
-    },
-    "rSymbol": {
-      "value": "r"
-    },
-    "equation": {
-      "value": "iqueshion"
-    },
-    "undefined": {
-      "value": "deɛ wo ntumi nkyerɛ"
-    },
-    "curve-fitting.title": {
-      "value": "sɛ kɔntɔn no ɛfa "
-    }
-  },
-  "uz": {
-    "pointCoordinatesPattern": {
-      "value": "({{xCoordinate}}, {{yCoordinate}})"
-    },
-    "deltaEqualsPattern": {
-      "value": "Δ<sub>{{y}}</sub> = {{deltaValue}}"
-    },
-    "ySymbol": {
-      "value": "y"
-    },
-    "cubic": {
-      "value": "Kubik"
-    },
-    "linear": {
-      "value": "Chiziqli"
-    },
-    "quadratic": {
-      "value": "Kvadratik"
-    },
-    "aSymbol": {
-      "value": "a"
-    },
-    "bSymbol": {
-      "value": "b"
-    },
-    "cSymbol": {
-      "value": "c"
-    },
-    "dSymbol": {
-      "value": "d"
-    },
-    "xSymbol": {
-      "value": "x"
-    },
-    "adjustableFit": {
-      "value": "Grafikni moslashtirish"
-    },
-    "bestFit": {
-      "value": "Mos grafik"
-    },
-    "curve": {
-      "value": "Funksiyaning grafigi"
-    },
-    "residuals": {
-      "value": "Chetlashishlar"
-    },
-    "values": {
-      "value": "Qiymatlar"
-    },
-    "fEqualsNumberOfParametersPattern": {
-      "value": "{{fSymbol}} = funksiya parametrlari soni (malasan, kubik funksiya uchun, {{fSymbol}} = 4)"
-    },
-    "nEqualsNumberOfDataPointsPattern": {
-      "value": "{{nSymbol}} = nuqtalar soni"
-    },
-    "chiSymbol": {
-      "value": "X"
-    },
-    "fSymbol": {
-      "value": "f"
-    },
-    "nSymbol": {
-      "value": "N"
-    },
-    "theReducedChiSquaredStatisticIs": {
-      "value": "Chi-kvadrat statistika formulasi"
-    },
-    "deviations": {
-      "value": "Og‘ishlar"
-    },
-    "rSymbol": {
-      "value": "r"
-    },
-    "equation": {
-      "value": "Tenglama"
-    },
-    "undefined": {
-      "value": "Aniqlanmagan"
-    },
-    "curve-fitting.title": {
-      "value": "Regressiya chizig‘i"
-    }
-  },
   "vi": {
     "pointCoordinatesPattern": {
       "value": "({{xCoordinate}}, {{yCoordinate}})"
@@ -4494,7 +4201,7 @@
       "value": "Vẽ đường cong thực nghiệm"
     }
   },
-  "yo": {
+  "tw": {
     "pointCoordinatesPattern": {
       "value": "({{xCoordinate}}, {{yCoordinate}})"
     },
@@ -4505,13 +4212,13 @@
       "value": "y"
     },
     "cubic": {
-      "value": "Onigun"
+      "value": "osikyisu/ ade a ne ba sɛ sikyi"
     },
     "linear": {
-      "value": "Gbọọrọ"
+      "value": "tee"
     },
     "quadratic": {
-      "value": "Kuadiratiki"
+      "value": "tene"
     },
     "aSymbol": {
       "value": "a"
@@ -4529,25 +4236,25 @@
       "value": "x"
     },
     "adjustableFit": {
-      "value": "Asopọ kọ́nà tale ṣàtúnṣe rẹ́"
+      "value": "sesa ma ɛmfa pɛpɛɛpɛ"
     },
     "bestFit": {
-      "value": "Asopọ kọ́nà to dara julọ"
+      "value": "deɛ afa pɛpɛɛpɛ"
     },
     "curve": {
-      "value": "kọ́nà"
+      "value": "kɔntɔn"
     },
     "residuals": {
-      "value": "Iyoku"
+      "value": "deɛ aka"
     },
     "values": {
-      "value": "Idiyele"
+      "value": "ano"
     },
     "fEqualsNumberOfParametersPattern": {
-      "value": "{{fSymbol}} = number of parameters in fit (e.g. {{fSymbol}} = 4, for a cubic fit"
+      "value": "{{fSymbol}} = nambas a ɛfa pɛpɛɛpɛ    (e.g. {{fSymbol}} = 4, ma osikyisu/ ade a ne ba sɛ sikyi fa)"
     },
     "nEqualsNumberOfDataPointsPattern": {
-      "value": "{{nSymbol}} = number of data points"
+      "value": "{{nSymbol}} = namba a ɛwɔ data no mu"
     },
     "chiSymbol": {
       "value": "X"
@@ -4559,22 +4266,22 @@
       "value": "N"
     },
     "theReducedChiSquaredStatisticIs": {
-      "value": "Awon Statistiki ta dín kù ni:"
+      "value": "te Chi-square statistics no so"
     },
     "deviations": {
-      "value": "ìyapa"
+      "value": "fom kwan"
     },
     "rSymbol": {
       "value": "r"
     },
     "equation": {
-      "value": "Ìṣedọ́gba"
+      "value": "iqueshion"
     },
     "undefined": {
-      "value": "Aisọ pato"
+      "value": "deɛ wo ntumi nkyerɛ"
     },
     "curve-fitting.title": {
-      "value": "Awọn asopọ kọ́nà"
+      "value": "sɛ kɔntɔn no ɛfa "
     }
   },
   "zh_CN": {
@@ -4992,6 +4699,89 @@
       "value": "Waltaasisa  Qonyoo "
     }
   },
+  "ny": {
+    "pointCoordinatesPattern": {
+      "value": "({{xCoordinate}}, {{yCoordinate}})"
+    },
+    "deltaEqualsPattern": {
+      "value": "Δ<sub>{{y}}</sub> = {{deltaValue}}"
+    },
+    "ySymbol": {
+      "value": "y"
+    },
+    "cubic": {
+      "value": "Cubic"
+    },
+    "linear": {
+      "value": "Linear"
+    },
+    "quadratic": {
+      "value": "Quadratic"
+    },
+    "aSymbol": {
+      "value": "a"
+    },
+    "bSymbol": {
+      "value": "b"
+    },
+    "cSymbol": {
+      "value": "c"
+    },
+    "dSymbol": {
+      "value": "d"
+    },
+    "xSymbol": {
+      "value": "x"
+    },
+    "adjustableFit": {
+      "value": "Kukwanira kosinthika"
+    },
+    "bestFit": {
+      "value": "Mzere wogawa pakati mofanana"
+    },
+    "curve": {
+      "value": "Chopindika"
+    },
+    "residuals": {
+      "value": "Zotsalira"
+    },
+    "values": {
+      "value": "Manambala"
+    },
+    "fEqualsNumberOfParametersPattern": {
+      "value": "{{fSymbol}} = chiwerengero cha magawo oyenera (monga {{fSymbol}} = 4, kwa kukwanira kwa kuyibiki)"
+    },
+    "nEqualsNumberOfDataPointsPattern": {
+      "value": "{{nSymbol}} = chiwerengero cha mfundo za data"
+    },
+    "chiSymbol": {
+      "value": "X"
+    },
+    "fSymbol": {
+      "value": "f"
+    },
+    "nSymbol": {
+      "value": "N"
+    },
+    "theReducedChiSquaredStatisticIs": {
+      "value": "Chiwerengero chochepetsedwa cha chi-squared ndi:"
+    },
+    "deviations": {
+      "value": "Zopatuka"
+    },
+    "rSymbol": {
+      "value": "r"
+    },
+    "equation": {
+      "value": "Equation"
+    },
+    "undefined": {
+      "value": "Chosadziwika"
+    },
+    "curve-fitting.title": {
+      "value": "Kukwaniritsa Chopindika"
+    }
+  },
   "nl": {
     "cubic": {
       "value": "Kubieke"
@@ -5037,6 +4827,216 @@
     },
     "curve-fitting.title": {
       "value": "Fitting van kromme"
+    }
+  },
+  "tr": {
+    "cubic": {
+      "value": "Kübik"
+    },
+    "linear": {
+      "value": "Doğrusal"
+    },
+    "quadratic": {
+      "value": "İkinci Dereceden"
+    },
+    "adjustableFit": {
+      "value": "Ayarlanabilir eğri"
+    },
+    "bestFit": {
+      "value": "En Uygun eğri"
+    },
+    "curve": {
+      "value": "Eğri"
+    },
+    "residuals": {
+      "value": "Kalanlar"
+    },
+    "values": {
+      "value": "Değerler"
+    },
+    "fEqualsNumberOfParametersPattern": {
+      "value": "{{fSymbol}} = çizimdeki parametre sayısı (örnek: {{fSymbol}} = 4, kübik çizim için )"
+    },
+    "nEqualsNumberOfDataPointsPattern": {
+      "value": "{{nSymbol}} = nokta sayısı"
+    },
+    "deviations": {
+      "value": "Sapmalar"
+    },
+    "equation": {
+      "value": "Eşitlik"
+    },
+    "undefined": {
+      "value": "belirsiz"
+    },
+    "curve-fitting.title": {
+      "value": "Eğri Çizimi"
+    }
+  },
+  "yo": {
+    "pointCoordinatesPattern": {
+      "value": "({{xCoordinate}}, {{yCoordinate}})"
+    },
+    "deltaEqualsPattern": {
+      "value": "Δ<sub>{{y}}</sub> = {{deltaValue}}"
+    },
+    "ySymbol": {
+      "value": "y"
+    },
+    "cubic": {
+      "value": "Onigun"
+    },
+    "linear": {
+      "value": "Gbọọrọ"
+    },
+    "quadratic": {
+      "value": "Kuadiratiki"
+    },
+    "aSymbol": {
+      "value": "a"
+    },
+    "bSymbol": {
+      "value": "b"
+    },
+    "cSymbol": {
+      "value": "c"
+    },
+    "dSymbol": {
+      "value": "d"
+    },
+    "xSymbol": {
+      "value": "x"
+    },
+    "adjustableFit": {
+      "value": "Asopọ kọ́nà tale ṣàtúnṣe rẹ́"
+    },
+    "bestFit": {
+      "value": "Asopọ kọ́nà to dara julọ"
+    },
+    "curve": {
+      "value": "kọ́nà"
+    },
+    "residuals": {
+      "value": "Iyoku"
+    },
+    "values": {
+      "value": "Idiyele"
+    },
+    "fEqualsNumberOfParametersPattern": {
+      "value": "{{fSymbol}} = number of parameters in fit (e.g. {{fSymbol}} = 4, for a cubic fit"
+    },
+    "nEqualsNumberOfDataPointsPattern": {
+      "value": "{{nSymbol}} = number of data points"
+    },
+    "chiSymbol": {
+      "value": "X"
+    },
+    "fSymbol": {
+      "value": "f"
+    },
+    "nSymbol": {
+      "value": "N"
+    },
+    "theReducedChiSquaredStatisticIs": {
+      "value": "Awon Statistiki ta dín kù ni:"
+    },
+    "deviations": {
+      "value": "ìyapa"
+    },
+    "rSymbol": {
+      "value": "r"
+    },
+    "equation": {
+      "value": "Ìṣedọ́gba"
+    },
+    "undefined": {
+      "value": "Aisọ pato"
+    },
+    "curve-fitting.title": {
+      "value": "Awọn asopọ kọ́nà"
+    }
+  },
+  "uz": {
+    "pointCoordinatesPattern": {
+      "value": "({{xCoordinate}}, {{yCoordinate}})"
+    },
+    "deltaEqualsPattern": {
+      "value": "Δ<sub>{{y}}</sub> = {{deltaValue}}"
+    },
+    "ySymbol": {
+      "value": "y"
+    },
+    "cubic": {
+      "value": "Kubik"
+    },
+    "linear": {
+      "value": "Chiziqli"
+    },
+    "quadratic": {
+      "value": "Kvadratik"
+    },
+    "aSymbol": {
+      "value": "a"
+    },
+    "bSymbol": {
+      "value": "b"
+    },
+    "cSymbol": {
+      "value": "c"
+    },
+    "dSymbol": {
+      "value": "d"
+    },
+    "xSymbol": {
+      "value": "x"
+    },
+    "adjustableFit": {
+      "value": "Grafikni moslashtirish"
+    },
+    "bestFit": {
+      "value": "Mos grafik"
+    },
+    "curve": {
+      "value": "Funksiyaning grafigi"
+    },
+    "residuals": {
+      "value": "Chetlashishlar"
+    },
+    "values": {
+      "value": "Qiymatlar"
+    },
+    "fEqualsNumberOfParametersPattern": {
+      "value": "{{fSymbol}} = funksiya parametrlari soni (malasan, kubik funksiya uchun, {{fSymbol}} = 4)"
+    },
+    "nEqualsNumberOfDataPointsPattern": {
+      "value": "{{nSymbol}} = nuqtalar soni"
+    },
+    "chiSymbol": {
+      "value": "X"
+    },
+    "fSymbol": {
+      "value": "f"
+    },
+    "nSymbol": {
+      "value": "N"
+    },
+    "theReducedChiSquaredStatisticIs": {
+      "value": "Chi-kvadrat statistika formulasi"
+    },
+    "deviations": {
+      "value": "Og‘ishlar"
+    },
+    "rSymbol": {
+      "value": "r"
+    },
+    "equation": {
+      "value": "Tenglama"
+    },
+    "undefined": {
+      "value": "Aniqlanmagan"
+    },
+    "curve-fitting.title": {
+      "value": "Regressiya chizig‘i"
     }
   }
 }

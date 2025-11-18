@@ -1,4 +1,27 @@
 {
+  "ar": {
+    "screen.compare": {
+      "value": "قارن"
+    },
+    "isLessThan": {
+      "value": "{{greaterNumber}}اقل من{{smallerNumber}}"
+    },
+    "isGreaterThan": {
+      "value": "{{smallerNumber}}أكبر من{{greaterNumber}}"
+    },
+    "isEqualTo": {
+      "value": "{{equalNumberRight}}مساوي ل{{equalNumberLeft}}"
+    },
+    "number-compare.title": {
+      "value": "مقارنة الأرقام"
+    },
+    "automaticallyHearNumberSentence": {
+      "value": "سماع جملة الأرقام تلقائيًا"
+    },
+    "automaticallyHearNumberSentenceDescription": {
+      "value": "استمع إلى جملة الأرقام المحدثة تلقائيًا أثناء تفاعلك."
+    }
+  },
   "am": {
     "screen.compare": {
       "value": "ማወዳደር"
@@ -36,27 +59,27 @@
       "value": "{{equalNumberLeft}} يساوي {{equalNumberRight}}"
     }
   },
-  "ar": {
+  "bg": {
     "screen.compare": {
-      "value": "قارن"
+      "value": "Сравни"
     },
     "isLessThan": {
-      "value": "{{greaterNumber}}اقل من{{smallerNumber}}"
+      "value": "{{smallerNumber}} е по-малко от {{greaterNumber}}"
     },
     "isGreaterThan": {
-      "value": "{{smallerNumber}}أكبر من{{greaterNumber}}"
+      "value": "{{greaterNumber}} е по-голямо от {{smallerNumber}}"
     },
     "isEqualTo": {
-      "value": "{{equalNumberRight}}مساوي ل{{equalNumberLeft}}"
+      "value": "{{equalNumberLeft}} е равно на {{equalNumberRight}}"
     },
     "number-compare.title": {
-      "value": "مقارنة الأرقام"
+      "value": "Сравни числата"
     },
     "automaticallyHearNumberSentence": {
-      "value": "سماع جملة الأرقام تلقائيًا"
+      "value": "Автоматично чуване на числово изречение"
     },
     "automaticallyHearNumberSentenceDescription": {
-      "value": "استمع إلى جملة الأرقام المحدثة تلقائيًا أثناء تفاعلك."
+      "value": "Чуйте автоматично актуализиране на числовото изречение, докато взаимодействате."
     }
   },
   "az": {
@@ -80,29 +103,6 @@
     },
     "automaticallyHearNumberSentenceDescription": {
       "value": "Qarşılıqlı əlaqə qurarkən tənliyin yenilənməsini avtomatik eşidin."
-    }
-  },
-  "bg": {
-    "screen.compare": {
-      "value": "Сравни"
-    },
-    "isLessThan": {
-      "value": "{{smallerNumber}} е по-малко от {{greaterNumber}}"
-    },
-    "isGreaterThan": {
-      "value": "{{greaterNumber}} е по-голямо от {{smallerNumber}}"
-    },
-    "isEqualTo": {
-      "value": "{{equalNumberLeft}} е равно на {{equalNumberRight}}"
-    },
-    "number-compare.title": {
-      "value": "Сравни числата"
-    },
-    "automaticallyHearNumberSentence": {
-      "value": "Автоматично чуване на числово изречение"
-    },
-    "automaticallyHearNumberSentenceDescription": {
-      "value": "Чуйте автоматично актуализиране на числовото изречение, докато взаимодействате."
     }
   },
   "bn": {
@@ -220,29 +220,6 @@
       "value": "Hør tallet update automatisk når du ændrer."
     }
   },
-  "el": {
-    "screen.compare": {
-      "value": "Σύγκριση"
-    },
-    "isLessThan": {
-      "value": "{{smallerNumber}} είναι μικρότερο από {{greaterNumber}}"
-    },
-    "isGreaterThan": {
-      "value": "{{greaterNumber}} είναι μεγαλύτερο από  {{smallerNumber}}"
-    },
-    "isEqualTo": {
-      "value": "{{equalNumberLeft}} είναι ίσο με {{equalNumberRight}}"
-    },
-    "number-compare.title": {
-      "value": "Σύγκριση αριθμών"
-    },
-    "automaticallyHearNumberSentence": {
-      "value": "Αυτόματη εκφώνηση αριθμών"
-    },
-    "automaticallyHearNumberSentenceDescription": {
-      "value": "Ακούστε την ενημερωμένη εκφώνηση αριθμών καθώς αλληλεπιδράτε."
-    }
-  },
   "de": {
     "screen.compare": {
       "value": "Vergleichen"
@@ -264,6 +241,29 @@
     },
     "automaticallyHearNumberSentenceDescription": {
       "value": "Höre die Aktualisierung des Zahlensatzes automatisch, während du interagierst."
+    }
+  },
+  "el": {
+    "screen.compare": {
+      "value": "Σύγκριση"
+    },
+    "isLessThan": {
+      "value": "{{smallerNumber}} είναι μικρότερο από {{greaterNumber}}"
+    },
+    "isGreaterThan": {
+      "value": "{{greaterNumber}} είναι μεγαλύτερο από  {{smallerNumber}}"
+    },
+    "isEqualTo": {
+      "value": "{{equalNumberLeft}} είναι ίσο με {{equalNumberRight}}"
+    },
+    "number-compare.title": {
+      "value": "Σύγκριση αριθμών"
+    },
+    "automaticallyHearNumberSentence": {
+      "value": "Αυτόματη εκφώνηση αριθμών"
+    },
+    "automaticallyHearNumberSentenceDescription": {
+      "value": "Ακούστε την ενημερωμένη εκφώνηση αριθμών καθώς αλληλεπιδράτε."
     }
   },
   "es": {
@@ -498,6 +498,20 @@
       "value": "Tande mizajou nimewo fraz la otomatikman pandan w ap entèraji avè l."
     }
   },
+  "ig": {
+    "screen.compare": {
+      "value": "Tulee Ya"
+    },
+    "isLessThan": {
+      "value": "{{smallerNumber}} erughị {{greaterNumber}}"
+    },
+    "isGreaterThan": {
+      "value": "{{greaterNumber}} karịrị {{smallerNumber}}"
+    },
+    "isEqualTo": {
+      "value": "{{equalNumberLeft}} hà nhata na {{equalNumberRight}}"
+    }
+  },
   "it": {
     "screen.compare": {
       "value": "Confronta"
@@ -519,20 +533,6 @@
     },
     "automaticallyHearNumberSentenceDescription": {
       "value": "Ascolta la frase numerica che si aggiorna automaticamente mentre interagisci."
-    }
-  },
-  "ig": {
-    "screen.compare": {
-      "value": "Tulee Ya"
-    },
-    "isLessThan": {
-      "value": "{{smallerNumber}} erughị {{greaterNumber}}"
-    },
-    "isGreaterThan": {
-      "value": "{{greaterNumber}} karịrị {{smallerNumber}}"
-    },
-    "isEqualTo": {
-      "value": "{{equalNumberLeft}} hà nhata na {{equalNumberRight}}"
     }
   },
   "iw": {
@@ -752,6 +752,29 @@
       "value": "{{equalNumberLeft}} ndi ofanana ndi {{equalNumberRight}}"
     }
   },
+  "pr": {
+    "number-compare.title": {
+      "value": "Kaaka jurhukua"
+    },
+    "screen.compare": {
+      "value": "Jurhukua"
+    },
+    "automaticallyHearNumberSentence": {
+      "value": "Jarhati jurhiani kaaka jinkoni sapichu jinkoni uandantsï"
+    },
+    "automaticallyHearNumberSentenceDescription": {
+      "value": "Sapichu jurhiani kaaka jarhati jinkoni jurhukua uarhukua iásïsimu."
+    },
+    "isEqualTo": {
+      "value": "{{equalNumberLeft}} jurámukua jarhati {{equalNumberRight}}"
+    },
+    "isGreaterThan": {
+      "value": "{{greaterNumber}} iasïka ka janikua {{smallerNumber}}"
+    },
+    "isLessThan": {
+      "value": "{{smallerNumber}} janikua iasïka {{greaterNumber}}"
+    }
+  },
   "ps": {
     "screen.compare": {
       "value": "پرتله (مقایسه)"
@@ -767,29 +790,6 @@
     },
     "number-compare.title": {
       "value": "د عددونو پرتله کول"
-    }
-  },
-  "pt_BR": {
-    "screen.compare": {
-      "value": "Comparar"
-    },
-    "isLessThan": {
-      "value": "{{smallerNumber}} é menor que {{greaterNumber}}"
-    },
-    "isGreaterThan": {
-      "value": "{{greaterNumber}} é maior que {{smallerNumber}}"
-    },
-    "isEqualTo": {
-      "value": "{{equalNumberLeft}} é igual a {{equalNumberRight}}"
-    },
-    "number-compare.title": {
-      "value": "Comparar Números"
-    },
-    "automaticallyHearNumberSentence": {
-      "value": "Ouvir Sentença Numérica Automaticamente"
-    },
-    "automaticallyHearNumberSentenceDescription": {
-      "value": "Ouça a atualização da sentença numérica automaticamente conforme você interage."
     }
   },
   "ro": {
@@ -815,64 +815,27 @@
       "value": "Actualizare automată a propoziției cu numere pe măsură ce interacționați."
     }
   },
-  "rw": {
+  "pt_BR": {
     "screen.compare": {
-      "value": "Kugereranya"
+      "value": "Comparar"
     },
     "isLessThan": {
-      "value": "{{smallerNumber}} irutwa na {{greaterNumber}}"
+      "value": "{{smallerNumber}} é menor que {{greaterNumber}}"
     },
     "isGreaterThan": {
-      "value": "{{greaterNumber}} iruta {{smallerNumber}}"
+      "value": "{{greaterNumber}} é maior que {{smallerNumber}}"
     },
     "isEqualTo": {
-      "value": "{{equalNumberLeft}} ingana na {{equalNumberRight}}"
-    }
-  },
-  "sk": {
-    "screen.compare": {
-      "value": "Porovnanie"
-    },
-    "isLessThan": {
-      "value": "{{smallerNumber}} je menšie než {{greaterNumber}}"
-    },
-    "isGreaterThan": {
-      "value": "{{greaterNumber}} je väčšie než {{smallerNumber}}"
-    },
-    "isEqualTo": {
-      "value": "{{equalNumberLeft}} sa rovná  {{equalNumberRight}}"
+      "value": "{{equalNumberLeft}} é igual a {{equalNumberRight}}"
     },
     "number-compare.title": {
-      "value": "Porovnanie čísel"
+      "value": "Comparar Números"
     },
     "automaticallyHearNumberSentence": {
-      "value": "Automatické počúvanie výroku o číslach"
+      "value": "Ouvir Sentença Numérica Automaticamente"
     },
     "automaticallyHearNumberSentenceDescription": {
-      "value": "Vypočujte si, ako sa pri interakcii automaticky aktualizuje výrok o číslach."
-    }
-  },
-  "sl": {
-    "screen.compare": {
-      "value": "Primerjaj"
-    },
-    "isLessThan": {
-      "value": "{{smallerNumber}} je manjše kot {{greaterNumber}}"
-    },
-    "isGreaterThan": {
-      "value": "{{greaterNumber}} je večje kot {{smallerNumber}}"
-    },
-    "isEqualTo": {
-      "value": "{{equalNumberLeft}} je enako {{equalNumberRight}}"
-    },
-    "number-compare.title": {
-      "value": "Primerjava števil"
-    },
-    "automaticallyHearNumberSentence": {
-      "value": "Samodejno poslušaj številko stavka"
-    },
-    "automaticallyHearNumberSentenceDescription": {
-      "value": "Poslušaj številko stavka samodejno medtem ko delaš."
+      "value": "Ouça a atualização da sentença numérica automaticamente conforme você interage."
     }
   },
   "sn": {
@@ -898,18 +861,27 @@
       "value": "Hear the number sentence update automatically as you interact."
     }
   },
-  "sq": {
+  "sl": {
     "screen.compare": {
-      "value": "Krahasoni"
+      "value": "Primerjaj"
     },
     "isLessThan": {
-      "value": "{{smallerNumber}} është më pak se {{greaterNumber}}"
+      "value": "{{smallerNumber}} je manjše kot {{greaterNumber}}"
     },
     "isGreaterThan": {
-      "value": "{{greaterNumber}} është me e madhe se {{smallerNumber}}"
+      "value": "{{greaterNumber}} je večje kot {{smallerNumber}}"
     },
     "isEqualTo": {
-      "value": "{{equalNumberLeft}} është e barabartë me {{equalNumberRight}}"
+      "value": "{{equalNumberLeft}} je enako {{equalNumberRight}}"
+    },
+    "number-compare.title": {
+      "value": "Primerjava števil"
+    },
+    "automaticallyHearNumberSentence": {
+      "value": "Samodejno poslušaj številko stavka"
+    },
+    "automaticallyHearNumberSentenceDescription": {
+      "value": "Poslušaj številko stavka samodejno medtem ko delaš."
     }
   },
   "sr": {
@@ -972,27 +944,27 @@
       "value": "Hör tal meningen uppdateras automatiskt när du spelar."
     }
   },
-  "sw": {
+  "sk": {
     "screen.compare": {
-      "value": "Linganisha"
+      "value": "Porovnanie"
     },
     "isLessThan": {
-      "value": "{{smallerNumber}} ni ndogo kuliko {{greaterNumber}}"
+      "value": "{{smallerNumber}} je menšie než {{greaterNumber}}"
     },
     "isGreaterThan": {
-      "value": "{{greaterNumber}} ni kubwa kuliko {{smallerNumber}}"
+      "value": "{{greaterNumber}} je väčšie než {{smallerNumber}}"
     },
     "isEqualTo": {
-      "value": "{{equalNumberLeft}} inalingana na {{equalNumberRight}}"
+      "value": "{{equalNumberLeft}} sa rovná  {{equalNumberRight}}"
     },
     "number-compare.title": {
-      "value": "Nambari Linganisha"
+      "value": "Porovnanie čísel"
     },
     "automaticallyHearNumberSentence": {
-      "value": "Sikia Sentensi ya Namba kiotomatiki"
+      "value": "Automatické počúvanie výroku o číslach"
     },
     "automaticallyHearNumberSentenceDescription": {
-      "value": "Sikia sasisho la sentensi ya nambari kiotomatiki unapowasiliana."
+      "value": "Vypočujte si, ako sa pri interakcii automaticky aktualizuje výrok o číslach."
     }
   },
   "te": {
@@ -1157,43 +1129,6 @@
       "value": "{{equalNumberLeft}} 等于 {{equalNumberRight}}"
     }
   },
-  "pr": {
-    "number-compare.title": {
-      "value": "Kaaka jurhukua"
-    },
-    "screen.compare": {
-      "value": "Jurhukua"
-    },
-    "automaticallyHearNumberSentence": {
-      "value": "Jarhati jurhiani kaaka jinkoni sapichu jinkoni uandantsï"
-    },
-    "automaticallyHearNumberSentenceDescription": {
-      "value": "Sapichu jurhiani kaaka jarhati jinkoni jurhukua uarhukua iásïsimu."
-    },
-    "isEqualTo": {
-      "value": "{{equalNumberLeft}} jurámukua jarhati {{equalNumberRight}}"
-    },
-    "isGreaterThan": {
-      "value": "{{greaterNumber}} iasïka ka janikua {{smallerNumber}}"
-    },
-    "isLessThan": {
-      "value": "{{smallerNumber}} janikua iasïka {{greaterNumber}}"
-    }
-  },
-  "zh_HK": {
-    "screen.compare": {
-      "value": "比較"
-    },
-    "isLessThan": {
-      "value": "{{smallerNumber}} 小於 {{greaterNumber}}"
-    },
-    "isGreaterThan": {
-      "value": "{{greaterNumber}} 大於{{smallerNumber}}"
-    },
-    "isEqualTo": {
-      "value": "{{equalNumberLeft}} 等於{{equalNumberRight}}"
-    }
-  },
   "zh_TW": {
     "screen.compare": {
       "value": "比較"
@@ -1215,6 +1150,20 @@
     },
     "automaticallyHearNumberSentenceDescription": {
       "value": "互動時自動聽到更新後的數字的句子"
+    }
+  },
+  "zh_HK": {
+    "screen.compare": {
+      "value": "比較"
+    },
+    "isLessThan": {
+      "value": "{{smallerNumber}} 小於 {{greaterNumber}}"
+    },
+    "isGreaterThan": {
+      "value": "{{greaterNumber}} 大於{{smallerNumber}}"
+    },
+    "isEqualTo": {
+      "value": "{{equalNumberLeft}} 等於{{equalNumberRight}}"
     }
   },
   "zu": {
@@ -1284,6 +1233,57 @@
     },
     "automaticallyHearNumberSentenceDescription": {
       "value": "Odsłuchaj automatycznie aktualizowaną  podczas interakcji nazwę liczby."
+    }
+  },
+  "sw": {
+    "screen.compare": {
+      "value": "Linganisha"
+    },
+    "isLessThan": {
+      "value": "{{smallerNumber}} ni ndogo kuliko {{greaterNumber}}"
+    },
+    "isGreaterThan": {
+      "value": "{{greaterNumber}} ni kubwa kuliko {{smallerNumber}}"
+    },
+    "isEqualTo": {
+      "value": "{{equalNumberLeft}} inalingana na {{equalNumberRight}}"
+    },
+    "number-compare.title": {
+      "value": "Nambari Linganisha"
+    },
+    "automaticallyHearNumberSentence": {
+      "value": "Sikia Sentensi ya Namba kiotomatiki"
+    },
+    "automaticallyHearNumberSentenceDescription": {
+      "value": "Sikia sasisho la sentensi ya nambari kiotomatiki unapowasiliana."
+    }
+  },
+  "sq": {
+    "screen.compare": {
+      "value": "Krahasoni"
+    },
+    "isLessThan": {
+      "value": "{{smallerNumber}} është më pak se {{greaterNumber}}"
+    },
+    "isGreaterThan": {
+      "value": "{{greaterNumber}} është me e madhe se {{smallerNumber}}"
+    },
+    "isEqualTo": {
+      "value": "{{equalNumberLeft}} është e barabartë me {{equalNumberRight}}"
+    }
+  },
+  "rw": {
+    "screen.compare": {
+      "value": "Kugereranya"
+    },
+    "isLessThan": {
+      "value": "{{smallerNumber}} irutwa na {{greaterNumber}}"
+    },
+    "isGreaterThan": {
+      "value": "{{greaterNumber}} iruta {{smallerNumber}}"
+    },
+    "isEqualTo": {
+      "value": "{{equalNumberLeft}} ingana na {{equalNumberRight}}"
     }
   },
   "om": {
