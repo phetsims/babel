@@ -36,7 +36,7 @@
     ]
   },
   "animationSpeedLimitReached": {
-    "value": "Animacijos greičio riba pasiekta! Simuliacijos greitis sumažintas iki {{percent}}% normalaus greičio.",
+    "value": "Animacijos greičio riba pasiekta!. Simuliacijos greitis sumažintas iki {{percent}}% normalaus greičio.",
     "history": [
       {
         "userId": 533254,
@@ -50,6 +50,13 @@
         "timestamp": 1678696522167,
         "oldValue": "Animacijos greičio riba pasiekta!. Simuliacijos greitis sumažintas iki {{percent}}% normalaus greičio.  ",
         "newValue": "Animacijos greičio riba pasiekta! Simuliacijos greitis sumažintas iki {{percent}}% normalaus greičio.",
+        "explanation": null
+      },
+      {
+        "userId": 859922,
+        "timestamp": 1763458255104,
+        "oldValue": "Animacijos greičio riba pasiekta! Simuliacijos greitis sumažintas iki {{percent}}% normalaus greičio.",
+        "newValue": "Animacijos greičio riba pasiekta!. Simuliacijos greitis sumažintas iki {{percent}}% normalaus greičio.",
         "explanation": null
       }
     ]
@@ -434,13 +441,20 @@
     ]
   },
   "schematicStandard": {
-    "value": "Schematinis standartas",
+    "value": "Standartinė schema",
     "history": [
       {
         "userId": 859922,
         "timestamp": 1678696522167,
         "oldValue": "",
         "newValue": "Schematinis standartas"
+      },
+      {
+        "userId": 859922,
+        "timestamp": 1763458255104,
+        "oldValue": "Schematinis standartas",
+        "newValue": "Standartinė schema",
+        "explanation": null
       }
     ]
   },
@@ -621,24 +635,38 @@
     ]
   },
   "resistanceOhmsValuePattern": {
-    "value": "{{resistance}} ohmai",
+    "value": "{{resistance}} ohms",
     "history": [
       {
         "userId": 859922,
         "timestamp": 1678696522167,
         "oldValue": "",
         "newValue": "{{resistance}} ohmai"
+      },
+      {
+        "userId": 859922,
+        "timestamp": 1763458255104,
+        "oldValue": "{{resistance}} ohmai",
+        "newValue": "{{resistance}} ohms",
+        "explanation": null
       }
     ]
   },
   "tapCircuitElementToEdit": {
-    "value": "Palieskite grandinės dalį, kad pakeistumėte.",
+    "value": "Paliesk grandinės elementą, kad redaguotum",
     "history": [
       {
         "userId": 859922,
         "timestamp": 1678696522167,
         "oldValue": "",
         "newValue": "Palieskite grandinės dalį, kad pakeistumėte."
+      },
+      {
+        "userId": 859922,
+        "timestamp": 1763458255104,
+        "oldValue": "Palieskite grandinės dalį, kad pakeistumėte.",
+        "newValue": "Paliesk grandinės elementą, kad redaguotum",
+        "explanation": null
       }
     ]
   },
@@ -654,24 +682,38 @@
     ]
   },
   "currentWithUnits": {
-    "value": "Srovė (A)",
+    "value": "Srovės stipris (A)",
     "history": [
       {
         "userId": 859922,
         "timestamp": 1678696522167,
         "oldValue": "",
         "newValue": "Srovė (A)"
+      },
+      {
+        "userId": 859922,
+        "timestamp": 1763458255104,
+        "oldValue": "Srovė (A)",
+        "newValue": "Srovės stipris (A)",
+        "explanation": null
       }
     ]
   },
   "stopwatch": {
-    "value": "Laikmatis",
+    "value": "Chronometras",
     "history": [
       {
         "userId": 859922,
         "timestamp": 1678696522167,
         "oldValue": "",
         "newValue": "Laikmatis"
+      },
+      {
+        "userId": 859922,
+        "timestamp": 1763458255104,
+        "oldValue": "Laikmatis",
+        "newValue": "Chronometras",
+        "explanation": null
       }
     ]
   },
@@ -731,13 +773,20 @@
     ]
   },
   "phaseShift": {
-    "value": "Fazės poslinkis",
+    "value": "Fazės pokytis",
     "history": [
       {
         "userId": 859922,
         "timestamp": 1678696522167,
         "oldValue": "",
         "newValue": "Fazės poslinkis"
+      },
+      {
+        "userId": 859922,
+        "timestamp": 1763458255104,
+        "oldValue": "Fazės poslinkis",
+        "newValue": "Fazės pokytis",
+        "explanation": null
       }
     ]
   },
@@ -804,6 +853,17 @@
         "timestamp": 1678696522167,
         "oldValue": "",
         "newValue": "{{resistance}} H"
+      }
+    ]
+  },
+  "realBulb": {
+    "value": "Tikra lemputė",
+    "history": [
+      {
+        "userId": 859922,
+        "timestamp": 1763458255104,
+        "oldValue": "",
+        "newValue": "Tikra lemputė"
       }
     ]
   }
