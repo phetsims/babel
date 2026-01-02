@@ -62,7 +62,7 @@
     ]
   },
   "dotPlot": {
-    "value": "Gràfic de punts",
+    "value": "Diagrama de punts",
     "history": [
       {
         "userId": 1094568,
@@ -75,6 +75,13 @@
         "timestamp": 1669651424950,
         "oldValue": "Gràfic de Punts",
         "newValue": "Gràfic de punts"
+      },
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "Gràfic de punts",
+        "newValue": "Diagrama de punts",
+        "explanation": null
       }
     ]
   },
@@ -167,7 +174,7 @@
     ]
   },
   "sortData": {
-    "value": "Ordenar dades",
+    "value": "Ordena les dades",
     "history": [
       {
         "userId": 1094568,
@@ -180,6 +187,13 @@
         "timestamp": 1669651424950,
         "oldValue": "Ordenar Dades",
         "newValue": "Ordenar dades"
+      },
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "Ordenar dades",
+        "newValue": "Ordena les dades",
+        "explanation": null
       }
     ]
   },
@@ -206,7 +220,7 @@
     ]
   },
   "predictMean": {
-    "value": "Predir mitjana",
+    "value": "Prediu la mitjana",
     "history": [
       {
         "userId": 1094568,
@@ -219,11 +233,18 @@
         "timestamp": 1669651424950,
         "oldValue": "Predir Mitjana",
         "newValue": "Predir mitjana"
+      },
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "Predir mitjana",
+        "newValue": "Prediu la mitjana",
+        "explanation": null
       }
     ]
   },
   "predictMedian": {
-    "value": "Predir mediana",
+    "value": "Prediu la mediana",
     "history": [
       {
         "userId": 1094568,
@@ -236,6 +257,13 @@
         "timestamp": 1669651424950,
         "oldValue": "Predir Mediana",
         "newValue": "Predir mediana"
+      },
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "Predir mediana",
+        "newValue": "Prediu la mediana",
+        "explanation": null
       }
     ]
   },
@@ -253,6 +281,567 @@
         "timestamp": 1669651424950,
         "oldValue": "Centre i Variabilitat",
         "newValue": "Centre i variabilitat"
+      }
+    ]
+  },
+  "screen.variability": {
+    "value": "Variabilitat",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Variabilitat"
+      }
+    ]
+  },
+  "dataValuesInMeters": {
+    "value": "Valors de dades (en metres):",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Valors de dades (en metres):"
+      }
+    ]
+  },
+  "distanceInMetersAccordionBoxTitle": {
+    "value": "Distància de xut (metres)",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Distància de xut (metres)"
+      }
+    ]
+  },
+  "distanceInMetersChartLabel": {
+    "value": "Distància (en metres)",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Distància (en metres)"
+      }
+    ]
+  },
+  "interquartileRangeIQR": {
+    "value": "Rang interquartílic (IQR)",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Rang interquartílic (IQR)"
+      }
+    ]
+  },
+  "intervalTool": {
+    "value": "Eina d’interval",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Eina d’interval"
+      }
+    ]
+  },
+  "iqr": {
+    "value": "IQR",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "IQR"
+      }
+    ]
+  },
+  "iqrDescription": {
+    "value": "El rang interquartílic (IQR) representa el 50 % central de les dades.",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "El rang interquartílic (IQR) representa el 50 % central de les dades."
+      }
+    ]
+  },
+  "iqrEqualsIQRUnitsPattern": {
+    "value": "IQR = {{iqr}} {{units}}",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "IQR = {{iqr}} {{units}}"
+      }
+    ]
+  },
+  "iqrEqualsQ3MinusQ3Pattern": {
+    "value": "IQR = {{q3}} − {{q1}}",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "IQR = {{q3}} − {{q1}}"
+      }
+    ]
+  },
+  "iqrEqualsUnknown": {
+    "value": "IQR = ?",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "IQR = ?"
+      }
+    ]
+  },
+  "iqrEqualsValueMPattern": {
+    "value": "IQR = {{value}} m",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "IQR = {{value}} m"
+      }
+    ]
+  },
+  "keyboardHelpDialog.endOfNumberLine": {
+    "value": "Extrem de la recta numèrica",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Extrem de la recta numèrica"
+      }
+    ]
+  },
+  "keyboardHelpDialog.grabOrReleaseBall": {
+    "value": "Pilota",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Pilota"
+      }
+    ]
+  },
+  "kickValuePattern": {
+    "value": "Xut {{value}}",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Xut {{value}}"
+      }
+    ]
+  },
+  "mad": {
+    "value": "MAD",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "MAD"
+      }
+    ]
+  },
+  "madDescription": {
+    "value": "La <strong>desviació absoluta mitjana (DAM)</strong> és la distància mitjana de cada dada respecte de la mitjana.",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "La <strong>desviació absoluta mitjana (DAM)</strong> és la distància mitjana de cada dada respecte de la mitjana."
+      }
+    ]
+  },
+  "madEquals": {
+    "value": "MAD =",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "MAD ="
+      }
+    ]
+  },
+  "madEqualsMADMetersPattern": {
+    "value": "MAD = {{mad}} metres",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "MAD = {{mad}} metres"
+      }
+    ]
+  },
+  "madEqualsUnknown": {
+    "value": "MAD = ?",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "MAD = ?"
+      }
+    ]
+  },
+  "madEqualsValueMPattern": {
+    "value": "MAD = {{value}} m",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "MAD = {{value}} m"
+      }
+    ]
+  },
+  "max": {
+    "value": "màx.",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "màx."
+      }
+    ]
+  },
+  "maxKicks": {
+    "value": "Nre. màx. de xuts",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Nre. màx. de xuts"
+      }
+    ]
+  },
+  "maxKicksDescription": {
+    "value": "Determina el nombre màxim de xuts permès per a totes les pantalles. El nombre màxim de xuts a la pantalla de la mediana és 15.",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Determina el nombre màxim de xuts permès per a totes les pantalles. El nombre màxim de xuts a la pantalla de la mediana és 15."
+      }
+    ]
+  },
+  "meanAbsoluteDeviationMAD": {
+    "value": "Desviació absoluta mitjana (DAM)",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Desviació absoluta mitjana (DAM)"
+      }
+    ]
+  },
+  "meanDescription": {
+    "value": "La <strong>mitjana</strong> és el valor mitjà de tots els valors de qualsevol conjunt de dades.",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "La <strong>mitjana</strong> és el valor mitjà de tots els valors de qualsevol conjunt de dades."
+      }
+    ]
+  },
+  "meanEquals": {
+    "value": "Mitjana =",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Mitjana ="
+      }
+    ]
+  },
+  "meanEqualsUnknown": {
+    "value": "Mitjana = ?",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Mitjana = ?"
+      }
+    ]
+  },
+  "meanEqualsValueMPattern": {
+    "value": "Mitjana = {{value}} m",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Mitjana = {{value}} m"
+      }
+    ]
+  },
+  "meanEqualsValueMetersPattern": {
+    "value": "Mitjana = {{value}} meters",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Mitjana = {{value}} meters"
+      }
+    ]
+  },
+  "medianDescription": {
+    "value": "La <strong>mediana</strong> és el nombre que divideix un conjunt de dades ordenat per la meitat.",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "La <strong>mediana</strong> és el nombre que divideix un conjunt de dades ordenat per la meitat."
+      }
+    ]
+  },
+  "medianEqualsUnknown": {
+    "value": "Mediana = ?",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Mediana = ?"
+      }
+    ]
+  },
+  "medianEqualsValueMPattern": {
+    "value": "Mediana = {{value}} m",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Mediana = {{value}} m"
+      }
+    ]
+  },
+  "medianEqualsValueUnitsPattern": {
+    "value": "Mediana = {{value}} {{units}}",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Mediana = {{value}} {{units}}"
+      }
+    ]
+  },
+  "meter": {
+    "value": "metre",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "metre"
+      }
+    ]
+  },
+  "meters": {
+    "value": "metres",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "metres"
+      }
+    ]
+  },
+  "min": {
+    "value": "mín.",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "mín."
+      }
+    ]
+  },
+  "needAtLeastFiveKicks": {
+    "value": "Calen almenys cinc xuts",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Calen almenys cinc xuts"
+      }
+    ]
+  },
+  "outliers": {
+    "value": "Valors atípics",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Valors atípics"
+      }
+    ]
+  },
+  "outliersDescription": {
+    "value": "Mostra els valors atípics al diagrama de caixa com a marques en comptes d’incloure’ls en els bigotis.",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Mostra els valors atípics al diagrama de caixa com a marques en comptes d’incloure’ls en els bigotis."
+      }
+    ]
+  },
+  "pointer": {
+    "value": "Punter",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Punter"
+      }
+    ]
+  },
+  "q1": {
+    "value": "Q1",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Q1"
+      }
+    ]
+  },
+  "q3": {
+    "value": "Q3",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Q3"
+      }
+    ]
+  },
+  "range": {
+    "value": "Rang",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Rang"
+      }
+    ]
+  },
+  "rangeDescription": {
+    "value": "El <strong>rang</strong> és la distància entre els punts de dades mínim i màxim.",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "El <strong>rang</strong> és la distància entre els punts de dades mínim i màxim."
+      }
+    ]
+  },
+  "rangeEqualsMaxMinusMinPattern": {
+    "value": "Rang = {{max}} − {{min}}",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Rang = {{max}} − {{min}}"
+      }
+    ]
+  },
+  "rangeEqualsRangeUnitsPattern": {
+    "value": "Rang = {{range}} {{units}}",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Rang = {{range}} {{units}}"
+      }
+    ]
+  },
+  "rangeEqualsUnknown": {
+    "value": "Rang = ?",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Rang = ?"
+      }
+    ]
+  },
+  "rangeEqualsValueMPattern": {
+    "value": "Rang = {{value}} m",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Rang = {{value}} m"
+      }
+    ]
+  },
+  "valueKicksPattern": {
+    "value": "{{value}} xuts",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "{{value}} xuts"
+      }
+    ]
+  },
+  "variabilityQuestion": {
+    "value": "Quina és la dispersió de les distàncies de xut?",
+    "history": [
+      {
+        "userId": 936741,
+        "timestamp": 1767376643444,
+        "oldValue": "",
+        "newValue": "Quina és la dispersió de les distàncies de xut?"
       }
     ]
   }
