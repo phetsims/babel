@@ -27093,14 +27093,8 @@
     "material.apple": {
       "value": "Apple"
     },
-    "material.boatHull": {
-      "value": "Boat Hull"
-    },
     "material.brick": {
       "value": "Brick"
-    },
-    "material.concrete": {
-      "value": "Concrete"
     },
     "material.cement": {
       "value": "Cement"
@@ -27111,23 +27105,23 @@
     "material.custom": {
       "value": "Custom"
     },
-    "material.fluidA": {
-      "value": "Fluid A"
+    "material.densityA": {
+      "value": "Density A"
     },
-    "material.fluidB": {
-      "value": "Fluid B"
+    "material.densityB": {
+      "value": "Density B"
     },
-    "material.fluidC": {
-      "value": "Fluid C"
+    "material.densityC": {
+      "value": "Density C"
     },
-    "material.fluidD": {
-      "value": "Fluid D"
+    "material.densityD": {
+      "value": "Density D"
     },
-    "material.fluidE": {
-      "value": "Fluid E"
+    "material.densityE": {
+      "value": "Density E"
     },
-    "material.fluidF": {
-      "value": "Fluid F"
+    "material.densityF": {
+      "value": "Density F"
     },
     "material.diamond": {
       "value": "Diamond"
@@ -27150,30 +27144,6 @@
     "material.ice": {
       "value": "Ice"
     },
-    "material.materialR": {
-      "value": "Material R"
-    },
-    "material.materialS": {
-      "value": "Material S"
-    },
-    "material.materialT": {
-      "value": "Material T"
-    },
-    "material.materialU": {
-      "value": "Material U"
-    },
-    "material.materialV": {
-      "value": "Material V"
-    },
-    "material.materialW": {
-      "value": "Material W"
-    },
-    "material.materialX": {
-      "value": "Material X"
-    },
-    "material.materialY": {
-      "value": "Material Y"
-    },
     "material.lead": {
       "value": "Lead"
     },
@@ -27185,9 +27155,6 @@
     },
     "material.platinum": {
       "value": "Platinum"
-    },
-    "material.pvc": {
-      "value": "PVC"
     },
     "material.pyrite": {
       "value": "Pyrite"
@@ -27219,9 +27186,6 @@
     "material.wood": {
       "value": "Wood"
     },
-    "shapeTagPattern": {
-      "value": "Shape {{tag}}"
-    },
     "shape.block": {
       "value": "Block"
     },
@@ -27240,9 +27204,6 @@
     "shape.verticalCylinder": {
       "value": "Vertical Cylinder"
     },
-    "shape.duck": {
-      "value": "Duck"
-    },
     "materialInside": {
       "value": "Material Inside"
     },
@@ -27252,12 +27213,6 @@
     "boatVolume": {
       "value": "Boat Volume"
     },
-    "bottle": {
-      "value": "Bottle"
-    },
-    "boat": {
-      "value": "Boat"
-    },
     "kilogramsPattern": {
       "value": "{{kilograms}} kg"
     },
@@ -27266,9 +27221,6 @@
     },
     "decimetersCubedPattern": {
       "value": "{{decimetersCubed}} dm<sup>3</sup>"
-    },
-    "N": {
-      "value": "N"
     },
     "newtonsPattern": {
       "value": "{{newtons}} N"
@@ -27291,8 +27243,8 @@
     "volume": {
       "value": "Volume"
     },
-    "massValues": {
-      "value": "Mass Values"
+    "masses": {
+      "value": "Masses"
     },
     "forceValues": {
       "value": "Force Values"
@@ -27320,12 +27272,6 @@
     },
     "densityReadoutDecimetersCubed": {
       "value": "Density (kg/dm<sup>3</sup>)"
-    },
-    "densityComparison": {
-      "value": "Density Comparison"
-    },
-    "objectDensity": {
-      "value": "Object Density"
     },
     "massLabel.primary": {
       "value": "A"
@@ -27393,8 +27339,11 @@
     "massLabel.e": {
       "value": "E"
     },
-    "blockPattern": {
-      "value": "Block {{tag}}"
+    "blockA": {
+      "value": "Block A:"
+    },
+    "blockB": {
+      "value": "Block B:"
     },
     "blocks": {
       "value": "Blocks"
@@ -27438,20 +27387,14 @@
     "height": {
       "value": "Height"
     },
-    "radius": {
-      "value": "Radius"
+    "average": {
+      "value": "Average"
     },
-    "widthAndDepth": {
-      "value": "Width & Depth"
+    "densityReadoutPattern": {
+      "value": "{{material}}: {{density}} kg/L"
     },
-    "systemA": {
-      "value": "System A"
-    },
-    "nameColonPattern": {
-      "value": "{{name}}:"
-    },
-    "nameColonValueUnitsPattern": {
-      "value": "{{name}}: {{valueWithUnits}}"
+    "densityReadoutDecimetersCubedPattern": {
+      "value": "{{material}}: {{density}} kg/dm<sup>3</sup>"
     },
     "whatIsTheFluidDensity": {
       "value": "What is the fluid density?"
@@ -27459,51 +27402,17 @@
     "whatIsTheValueOfGravity": {
       "value": "What is the value of gravity?"
     },
-    "whatIsTheMaterial": {
-      "value": "What is this material?"
-    },
-    "vectorZoom": {
-      "value": "Vector Zoom"
+    "vectorScale": {
+      "value": "Vector Scale"
     },
     "volumeUnits": {
       "value": "Volume units:"
-    },
-    "preferences.percentSubmerged.title": {
-      "value": "Percent Submerged"
-    },
-    "preferences.percentSubmerged.description": {
-      "value": "Show the percentage of the object submerged in the fluid."
     },
     "liters": {
       "value": "L"
     },
     "decimetersCubed": {
       "value": "dm<sup>3</sup>"
-    },
-    "questionMark": {
-      "value": "?"
-    },
-    "shapesInfoDialog": {
-      "value": "This simulation is limited to vertical forces, without considering torque. Object rotations and other more complex movements are not considered in the model."
-    },
-    "percentSubmerged": {
-      "value": "% Submerged"
-    },
-    "valuePercent": {
-      "value": "{{value}}%"
-    },
-    "fluidDisplaced": {
-      "value": "Fluid Displaced"
-    },
-    "depthLines": {
-      "value": "Depth Lines"
-    },
-    "itemLowercase": {
-      "value": "item"
-    },
-    "itemTitlecase": {
-      "value": "Item"
-    },
-    "a11y": {}
+    }
   }
 }

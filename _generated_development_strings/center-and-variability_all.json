@@ -8953,7 +8953,7 @@
     "meanEqualsValueMPattern": {
       "value": "Mean = {{value}} m"
     },
-    "meanEqualsUnknown": {
+    "meanUnknownValue": {
       "value": "Mean = ?"
     },
     "meanEqualsValueMetersPattern": {
@@ -8965,28 +8965,28 @@
     "medianEqualsValueMPattern": {
       "value": "Median = {{value}} m"
     },
-    "medianEqualsUnknown": {
+    "medianUnknownValue": {
       "value": "Median = ?"
     },
-    "medianEqualsValueUnitsPattern": {
+    "medianEqualsValueMetersPattern": {
       "value": "Median = {{value}} {{units}}"
     },
     "iqrEqualsValueMPattern": {
       "value": "IQR = {{value}} m"
     },
-    "iqrEqualsUnknown": {
+    "iqrUnknownValue": {
       "value": "IQR = ?"
     },
     "rangeEqualsValueMPattern": {
       "value": "Range = {{value}} m"
     },
-    "rangeEqualsUnknown": {
+    "rangeUnknownValue": {
       "value": "Range = ?"
     },
     "madEqualsValueMPattern": {
       "value": "MAD = {{value}} m"
     },
-    "madEqualsUnknown": {
+    "madUnknownValue": {
       "value": "MAD = ?"
     },
     "plotType": {
@@ -9061,13 +9061,13 @@
     "iqrDescription": {
       "value": "<strong>Interquartile range (IQR)</strong> is the middle 50% of the data."
     },
-    "dataValuesInMeters": {
+    "dataValues": {
       "value": "Data Values (in meters):"
     },
-    "iqrEqualsQ3MinusQ3Pattern": {
+    "iqrCalculationPattern1": {
       "value": "IQR = {{q3}} – {{q1}}"
     },
-    "iqrEqualsIQRUnitsPattern": {
+    "iqrCalculationPattern2": {
       "value": "IQR = {{iqr}} {{units}}"
     },
     "meters": {
@@ -9082,13 +9082,13 @@
     "madEquals": {
       "value": "MAD ="
     },
-    "madEqualsMADMetersPattern": {
+    "madCalculationResultPattern": {
       "value": "MAD = {{mad}} meters"
     },
-    "rangeEqualsMaxMinusMinPattern": {
+    "rangeCalculationPattern": {
       "value": "Range = {{max}} – {{min}}"
     },
-    "rangeEqualsRangeUnitsPattern": {
+    "rangeCalculationResultPattern": {
       "value": "Range = {{range}} {{units}}"
     },
     "needAtLeastOneKick": {
@@ -9109,83 +9109,11 @@
     "outliersDescription": {
       "value": "Shows outliers on the boxplot as markings rather than being included in the whisker."
     },
-    "valueKicksPattern": {
+    "kicksPattern": {
       "value": "{{value}} Kicks"
     },
     "pointer": {
       "value": "Pointer"
-    },
-    "keyboardHelpDialog.move": {
-      "value": "Move"
-    },
-    "keyboardHelpDialog.endOfNumberLine": {
-      "value": "end of number line"
-    },
-    "keyboardHelpDialog.startOfNumberLine": {
-      "value": "start of number line"
-    },
-    "keyboardHelpDialog.grabOrReleaseBall": {
-      "value": "Grab or Release Ball"
-    },
-    "keyboardHelpDialog.moveGrabbedBallTitle": {
-      "value": "Move Grabbed Ball"
-    },
-    "keyboardHelpDialog.moveGrabbedBall": {
-      "value": "Move grabbed ball"
-    },
-    "keyboardHelpDialog.grabOrRelease": {
-      "value": "Grab or release"
-    },
-    "keyboardHelpDialog.jumpToStartOfNumberLine": {
-      "value": "Jump to start of number line"
-    },
-    "keyboardHelpDialog.jumpToEndOfNumberLine": {
-      "value": "Jump to end of number line"
-    },
-    "keyboardHelpDialog.jumpBallToTickMark": {
-      "value": "Jump ball to tick mark"
-    },
-    "keyboardHelpDialog.moveInLargerSteps": {
-      "value": "Move in larger steps"
-    },
-    "keyboardHelpDialog.medianScreen.grabOrReleaseBallOrCard": {
-      "value": "Grab or Release Ball or Card"
-    },
-    "keyboardHelpDialog.medianScreen.movePredictMedian": {
-      "value": "Move Predict Median"
-    },
-    "keyboardHelpDialog.medianScreen.predictMedian": {
-      "value": "predict median"
-    },
-    "keyboardHelpDialog.medianScreen.moveGrabbedBallOrCardTitle": {
-      "value": "Move Grabbed Ball or Card"
-    },
-    "keyboardHelpDialog.medianScreen.moveGrabbedBallOrCard": {
-      "value": "Move grabbed ball or card"
-    },
-    "keyboardHelpDialog.medianScreen.jumpToStartOfCardsOrNumberLine": {
-      "value": "Jump to start of cards or number line"
-    },
-    "keyboardHelpDialog.medianScreen.jumpToEndOfCardsOrNumberLine": {
-      "value": "Jump to end of cards or number line"
-    },
-    "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanOrMedian": {
-      "value": "Move Predict Mean or Median"
-    },
-    "keyboardHelpDialog.meanAndMedianScreen.movePredictionPointer": {
-      "value": "Move prediction pointer"
-    },
-    "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanInSmallerSteps": {
-      "value": "Move predict mean in smaller steps"
-    },
-    "keyboardHelpDialog.meanAndMedianScreen.moveInLargerSteps": {
-      "value": "Move in larger steps"
-    },
-    "keyboardHelpDialog.variabilityScreen.movePointerIntervalHandleOrIntervalBlock": {
-      "value": "Move Pointer, Interval Handles, or Interval Block"
-    },
-    "keyboardHelpDialog.variabilityScreen.object": {
-      "value": "object"
     }
   }
 }

@@ -8362,29 +8362,32 @@
     "undefined": {
       "value": "undefined"
     },
-    "alwaysCircular": {
-      "value": "Always Circular"
+    "circularOrbit": {
+      "value": "Always circular"
     },
     "targetOrbit": {
-      "value": "Target Orbit:"
+      "value": "Target orbit:"
     },
     "stopwatch": {
       "value": "Stopwatch"
     },
-    "axes": {
+    "axis": {
       "value": "Axes"
     },
     "foci": {
       "value": "Foci"
     },
-    "string": {
+    "strings": {
       "value": "String"
     },
-    "semiaxes": {
+    "semiaxis": {
       "value": "Semiaxes"
     },
     "eccentricity": {
       "value": "Eccentricity"
+    },
+    "eccentricityEquation": {
+      "value": "Eccentricity ="
     },
     "apoapsis": {
       "value": "Apoapsis"
@@ -8401,16 +8404,19 @@
     "period": {
       "value": "Period"
     },
-    "periodDivision": {
+    "eraser": {
+      "value": "Eraser"
+    },
+    "area.periodDivision": {
       "value": "Period Divisions"
     },
-    "areaValues": {
+    "area.values": {
       "value": "Area Values"
     },
-    "timeValues": {
+    "area.timeValues": {
       "value": "Time Values"
     },
-    "areaUnits": {
+    "area.areaUnits": {
       "value": "Area (AU<sup>2</sup>)"
     },
     "sweptArea": {
@@ -8420,10 +8426,10 @@
       "value": "None"
     },
     "graph.title": {
-      "value": "{{period}} vs {{axis}} Graph"
+      "value": "T{{periodPower}} vs a{{axisPower}} Graph"
     },
     "graph.a": {
-      "value": "Semi-major Axis (a)"
+      "value": "Semimajor Axis (a)"
     },
     "graph.t": {
       "value": "Period (T)"
@@ -8431,47 +8437,77 @@
     "units.AU": {
       "value": "AU"
     },
+    "units.AU2": {
+      "value": "AU²"
+    },
     "units.years": {
       "value": "years"
     },
     "units.kms": {
       "value": "km/s"
     },
-    "symbol.a": {
+    "units.degrees": {
+      "value": "°"
+    },
+    "symbols.semiMajorAxis": {
       "value": "a"
     },
-    "symbol.b": {
+    "symbols.semiMajorAxisSquared": {
+      "value": "a<sup>2</sup>"
+    },
+    "symbols.semiMajorAxisCubed": {
+      "value": "a<sup>3</sup>"
+    },
+    "symbols.semiMinorAxis": {
       "value": "b"
     },
-    "symbol.c": {
+    "symbols.focalDistance": {
       "value": "c"
     },
-    "symbol.d": {
-      "value": "d"
-    },
-    "symbol.r": {
-      "value": "r"
-    },
-    "symbol.R": {
-      "value": "R"
-    },
-    "symbol.T": {
+    "symbols.period": {
       "value": "T"
     },
-    "symbol.v": {
-      "value": "v"
+    "symbols.periodSquared": {
+      "value": "T<sup>2</sup>"
+    },
+    "symbols.periodCubed": {
+      "value": "T<sup>3</sup>"
+    },
+    "symbols.radius": {
+      "value": "R"
+    },
+    "symbols.positionMagnitude": {
+      "value": "|r|"
+    },
+    "symbols.velocityMagnitude": {
+      "value": "|v|"
+    },
+    "symbols.distance1": {
+      "value": "d<sub>1</sub>"
+    },
+    "symbols.distance2": {
+      "value": "d<sub>2</sub>"
+    },
+    "symbols.distanceAngle": {
+      "value": "θ<sub>r</sub>"
+    },
+    "symbols.velocityAngle": {
+      "value": "θ<sub>v</sub>"
+    },
+    "pattern.textEqualsValueUnits": {
+      "value": "{{text}} = {{value}} {{units}}"
     },
     "pattern.valueUnits": {
       "value": "{{value}} {{units}}"
     },
-    "pattern.warningMessage": {
+    "warning.warning": {
       "value": "Warning: {{message}}"
     },
-    "warning.theBodyWillCrashIntoTheSun": {
-      "value": "The body will crash into the sun."
+    "warning.crashOrbit": {
+      "value": "The body will crash into the sun"
     },
-    "warning.theBodyWillEscapeTheSystem": {
-      "value": "The body will escape the system."
+    "warning.escapeOrbit": {
+      "value": "The body will escape the system"
     },
     "orbit.mercury": {
       "value": "Mercury"
@@ -8497,56 +8533,20 @@
     "orbit.halley": {
       "value": "Halley"
     },
-    "orbit.targetOrbit1": {
-      "value": "Target Orbit 1"
-    },
-    "orbit.targetOrbit2": {
-      "value": "Target Orbit 2"
-    },
-    "orbit.targetOrbit3": {
-      "value": "Target Orbit 3"
-    },
-    "orbit.targetOrbit4": {
-      "value": "Target Orbit 4"
-    },
-    "keyboardHelpDialog.chooseATargetOribit": {
-      "value": "Choose a Target Orbit"
-    },
-    "keyboardHelpDialog.targetOrbits": {
-      "value": "target orbits"
-    },
-    "keyboardHelpDialog.targetOrbit": {
-      "value": "target orbit"
-    },
-    "infoDialog.orbitalData": {
-      "value": "Orbital Data"
-    },
-    "infoDialog.moreOrbitalData": {
-      "value": "More Orbital Data"
-    },
-    "infoDialog.semiMajorAxis": {
+    "infoDialog.semimajorAxis": {
       "value": "<b>Semi-major axis (a):</b> represents half of the longest diameter of the elliptical orbit."
     },
-    "infoDialog.semiMinorAxis": {
+    "infoDialog.semiminorAxis": {
       "value": "<b>Semi-minor axis (b):</b> represents half of the shortest diameter of the elliptical orbit."
     },
     "infoDialog.focalDistance": {
       "value": "<b>Focal Distance (c):</b> represents the distance between the center of the ellipse and one of the foci."
     },
-    "infoDialog.planetsPositionVector": {
+    "infoDialog.planetPosition": {
       "value": "<b>Planet's position vector (|r| and θ<sub>r</sub>):</b> the vector magnitude |r| is equal to the distance between the star and the planet. The vector direction (θ<sub>r</sub>) is measured with respect to the horizontal."
     },
-    "infoDialog.planetsVelocityVector": {
+    "infoDialog.planetVelocity": {
       "value": "<b>Planet's velocity vector (|v| and θ<sub>v</sub>):</b> the vector magnitude |v| is equal to the speed of the planet. The vector direction (θ<sub>v</sub>) is measured with respect to the horizontal."
-    },
-    "infoDialog.angleBetweenVectors": {
-      "value": "<b>Angle between vectors r and v (θ<sub>rv</sub>)."
-    },
-    "preferences.moreOrbitalData.title": {
-      "value": "More Orbital Data"
-    },
-    "preferences.moreOrbitalData.description": {
-      "value": "Display information about the planet's position and velocity vectors in the First and Second Law Screens."
     },
     "a11y": {}
   }

@@ -3,14 +3,8 @@
     "models-of-the-hydrogen-atom.title": {
       "value": "Models of the Hydrogen Atom"
     },
-    "screen.spectra": {
-      "value": "Spectra"
-    },
-    "screen.energyLevels": {
-      "value": "Energy Levels"
-    },
-    "3DHeight": {
-      "value": "3D Height"
+    "3DView": {
+      "value": "3D view"
     },
     "billiardBall": {
       "value": "Billiard Ball"
@@ -18,14 +12,17 @@
     "bohr": {
       "value": "Bohr"
     },
-    "brightness": {
-      "value": "Brightness"
+    "brightnessView": {
+      "value": "brightness view"
     },
     "classical": {
       "value": "Classical"
     },
     "classicalSolarSystem": {
       "value": "Classical Solar System"
+    },
+    "close": {
+      "value": "Close"
     },
     "deBroglie": {
       "value": "de Broglie"
@@ -39,20 +36,29 @@
     "experiment": {
       "value": "Experiment"
     },
-    "model": {
-      "value": "Model"
+    "prediction": {
+      "value": "Prediction"
+    },
+    "fast": {
+      "value": "fast forward"
     },
     "hydrogenSymbol": {
       "value": "H"
     },
-    "symbolEquals": {
-      "value": "{{symbol}} = "
+    "legend": {
+      "value": "Legend"
     },
-    "symbolEqualsValue": {
-      "value": "{{symbol}} = {{value}}"
+    "nEquals": {
+      "value": "{{nSymbol}} = {{nValue}}"
     },
     "nlmEquals": {
-      "value": "({{nSymbol}},{{lSymbol}},{{mSymbol}}) = ({{nValue}},{{lValue}},{{mValue}}) = {{nValue}}{{orbitalShape}}"
+      "value": "({{nSymbol}},{{lSymbol}},{{mSymbol}}) = ({{nValue}},{{lValue}},{{mValue}})"
+    },
+    "neutron": {
+      "value": "neutron"
+    },
+    "normal": {
+      "value": "normal speed"
     },
     "photon": {
       "value": "photon"
@@ -66,14 +72,32 @@
     "quantum": {
       "value": "Quantum"
     },
-    "radialDistance": {
-      "value": "Radial Distance"
+    "radialView": {
+      "value": "radial view"
     },
     "schrodinger": {
       "value": "Schrödinger"
     },
-    "spectrometerPhotonsEmittedPerNanometer": {
+    "screen.spectra": {
+      "value": "Spectra"
+    },
+    "screen.energyLevels": {
+      "value": "Energy Levels"
+    },
+    "showAbsorptionWavelengths": {
+      "value": "Show absorption wavelengths"
+    },
+    "slow": {
+      "value": "slow motion"
+    },
+    "spectrometerCollapsed": {
+      "value": "Spectrometer"
+    },
+    "spectrometerExpanded": {
       "value": "Spectrometer (photons emitted / nm)"
+    },
+    "viewSnapshots": {
+      "value": "View snapshots"
     },
     "n": {
       "value": "n"
@@ -90,72 +114,8 @@
     "z": {
       "value": "z"
     },
-    "exciteElectron": {
-      "value": "Excite Electron"
-    },
-    "white": {
-      "value": "White"
-    },
-    "monochromatic": {
-      "value": "Monochromatic"
-    },
-    "uv": {
-      "value": "UV"
-    },
-    "ir": {
-      "value": "IR"
-    },
-    "visible": {
-      "value": "Visible"
-    },
-    "nTransition": {
-      "value": "n transition"
-    },
-    "wavelengthNanometers": {
-      "value": "wavelength (nm)"
-    },
-    "questionMark": {
-      "value": "?"
-    },
-    "transitions": {
-      "value": "Transitions"
-    },
-    "s": {
-      "value": "s"
-    },
-    "p": {
-      "value": "p"
-    },
-    "d": {
-      "value": "d"
-    },
-    "quantumNumbers": {
-      "value": "Quantum Numbers"
-    },
-    "nlmInfo": {
-      "value": "The Schrödinger model uses 3 quantum numbers ({{n}},{{l}},{{m}}) to describe the most probable location of an electron, also known as an <b>orbital</b>."
-    },
-    "nInfo": {
-      "value": "{{n}}, the <b>Principal Quantum Number</b>, describes the electron's energy and its probable distance from the nucleus."
-    },
-    "lInfo": {
-      "value": "{{l}}, the <b>Angular Quantum Number</b>, describes the shape of the orbital. Orbital shapes are spherical ({{l}} = 0 or {{s}}), peanut-shaped ({{l}} = 1 or {{p}}), and become more complex as {{l}} increases."
-    },
-    "mInfo": {
-      "value": "{{m}}, the <b>Magnetic Quantum Number</b>, describes the orientation of the orbital in space."
-    },
-    "snapshotNumberName": {
-      "value": "Snapshot {{number}}: {{name}}"
-    },
-    "energy": {
-      "value": "Energy"
-    },
-    "experimentOopsDialogTitle": {
-      "value": "Oops!"
-    },
-    "experimentOopsDialogMessage": {
-      "value": "The electron is stuck in an excited state. Resetting the electron."
-    },
-    "a11y": {}
+    "exciteAtom": {
+      "value": "Excite Atom"
+    }
   }
 }
