@@ -1,18 +1,18 @@
 {
-  "ar": {
-    "pointsOffScale": {
-      "value": "نقاط <br> خارج النطاق!"
-    },
-    "rangePattern": {
-      "value": "{{lowValue}} إلى {{highValue}}"
-    }
-  },
   "am": {
     "pointsOffScale": {
       "value": "ነጥቦች<br>ከልኬት ውጭ!"
     },
     "rangePattern": {
       "value": "{{lowValue}} ወደ{{highValue}}"
+    }
+  },
+  "ar": {
+    "pointsOffScale": {
+      "value": "نقاط <br> خارج النطاق!"
+    },
+    "rangePattern": {
+      "value": "{{lowValue}} إلى {{highValue}}"
     }
   },
   "ar_MA": {
@@ -31,6 +31,14 @@
       "value": "{{lowValue}}dan {{highValue}}a qədər"
     }
   },
+  "bg": {
+    "rangePattern": {
+      "value": "{{lowValue}} към {{highValue}}"
+    },
+    "pointsOffScale": {
+      "value": "Точки<br>извън скалата!"
+    }
+  },
   "bn": {
     "pointsOffScale": {
       "value": "Points<br>off scale!"
@@ -42,14 +50,6 @@
   "bs": {
     "rangePattern": {
       "value": "{{lowValue}} dо {{highValue}}"
-    }
-  },
-  "bg": {
-    "rangePattern": {
-      "value": "{{lowValue}} към {{highValue}}"
-    },
-    "pointsOffScale": {
-      "value": "Точки<br>извън скалата!"
     }
   },
   "ca": {
@@ -73,20 +73,20 @@
       "value": "{{lowValue}} til {{highValue}}"
     }
   },
-  "el": {
-    "pointsOffScale": {
-      "value": "Βαθμοί<br>εκτός κλίμακας!"
-    },
-    "rangePattern": {
-      "value": "{{lowValue}} ως {{highValue}}"
-    }
-  },
   "de": {
     "pointsOffScale": {
       "value": "Punkte<br>ausserhalb!"
     },
     "rangePattern": {
       "value": "{{lowValue}} bis {{highValue}}"
+    }
+  },
+  "el": {
+    "pointsOffScale": {
+      "value": "Βαθμοί<br>εκτός κλίμακας!"
+    },
+    "rangePattern": {
+      "value": "{{lowValue}} ως {{highValue}}"
     }
   },
   "es": {
@@ -126,6 +126,22 @@
       "value": "امتیاز خارج از مقیاس"
     }
   },
+  "fa_DA": {
+    "rangePattern": {
+      "value": "{{lowValue}} الی {{highValue}}"
+    },
+    "pointsOffScale": {
+      "value": "امتیاز خارج از مقیاس"
+    }
+  },
+  "fi": {
+    "rangePattern": {
+      "value": "väli [{{lowValue}}, {{highValue}}]"
+    },
+    "pointsOffScale": {
+      "value": "Pisteet eivät ole asteikolla"
+    }
+  },
   "fr": {
     "pointsOffScale": {
       "value": "Points<br>hors échelle !"
@@ -139,28 +155,12 @@
       "value": "{{lowValue}} થી {{highValue}}"
     }
   },
-  "fi": {
-    "rangePattern": {
-      "value": "väli [{{lowValue}}, {{highValue}}]"
-    },
-    "pointsOffScale": {
-      "value": "Pisteet eivät ole asteikolla"
-    }
-  },
   "hi": {
     "pointsOffScale": {
       "value": "पैमाने पर अंक <br>"
     },
     "rangePattern": {
       "value": "{{lowValue}} to {{highValue}}"
-    }
-  },
-  "fa_DA": {
-    "rangePattern": {
-      "value": "{{lowValue}} الی {{highValue}}"
-    },
-    "pointsOffScale": {
-      "value": "امتیاز خارج از مقیاس"
     }
   },
   "hr": {
@@ -274,6 +274,22 @@
       "value": "Markah<br>melepasi had!"
     }
   },
+  "mt": {
+    "rangePattern": {
+      "value": "{{lowValue}} to {{highValue}}"
+    },
+    "pointsOffScale": {
+      "value": "Punti<br>barra l-limitu!"
+    }
+  },
+  "nl": {
+    "pointsOffScale": {
+      "value": "Punten <br> buiten schaal!"
+    },
+    "rangePattern": {
+      "value": "{{lowValue}} tot {{highValue}}"
+    }
+  },
   "ny": {
     "pointsOffScale": {
       "value": "Mapointi<br>kuchoka pa sikelo!"
@@ -282,12 +298,12 @@
       "value": "{{lowValue}} ku {{highValue}}"
     }
   },
-  "mt": {
-    "rangePattern": {
-      "value": "{{lowValue}} to {{highValue}}"
-    },
+  "om": {
     "pointsOffScale": {
-      "value": "Punti<br>barra l-limitu!"
+      "value": "Qabxiilee<br>Iskeelii alaa!"
+    },
+    "rangePattern": {
+      "value": "{{lowValue}} gara {{highValue}}"
     }
   },
   "pl": {
@@ -311,20 +327,20 @@
       "value": "{{lowValue}} até {{highValue}}"
     }
   },
-  "ro": {
-    "pointsOffScale": {
-      "value": "Valori<br>în afara  scalei!"
-    },
-    "rangePattern": {
-      "value": "de la {{lowValue}} la {{highValue}}"
-    }
-  },
   "qu": {
     "rangePattern": {
       "value": "{{lowValue}} to {{highValue}}"
     },
     "pointsOffScale": {
       "value": "Haypasqan<br>Sayaynin waqtanpi!"
+    }
+  },
+  "ro": {
+    "pointsOffScale": {
+      "value": "Valori<br>în afara  scalei!"
+    },
+    "rangePattern": {
+      "value": "de la {{lowValue}} la {{highValue}}"
     }
   },
   "rw": {
@@ -343,20 +359,20 @@
       "value": "Body<br>mimo stupnicu!"
     }
   },
-  "sq": {
-    "pointsOffScale": {
-      "value": "Pikët<br>jashtë shkallës!"
-    },
-    "rangePattern": {
-      "value": "{{lowValue}} deri te {{highValue}}"
-    }
-  },
   "sl": {
     "pointsOffScale": {
       "value": "Točke<br>izven lestvice!"
     },
     "rangePattern": {
       "value": "{{lowValue}} do {{highValue}}"
+    }
+  },
+  "sq": {
+    "pointsOffScale": {
+      "value": "Pikët<br>jashtë shkallës!"
+    },
+    "rangePattern": {
+      "value": "{{lowValue}} deri te {{highValue}}"
     }
   },
   "sr": {
@@ -462,30 +478,6 @@
     },
     "pointsOffScale": {
       "value": "amaphuzu<br>esikalini!"
-    }
-  },
-  "en": {
-    "rangePattern": {
-      "value": "{{lowValue}} to {{highValue}}"
-    },
-    "pointsOffScale": {
-      "value": "Points<br>off scale!"
-    }
-  },
-  "om": {
-    "pointsOffScale": {
-      "value": "Qabxiilee<br>Iskeelii alaa!"
-    },
-    "rangePattern": {
-      "value": "{{lowValue}} gara {{highValue}}"
-    }
-  },
-  "nl": {
-    "pointsOffScale": {
-      "value": "Punten <br> buiten schaal!"
-    },
-    "rangePattern": {
-      "value": "{{lowValue}} tot {{highValue}}"
     }
   }
 }

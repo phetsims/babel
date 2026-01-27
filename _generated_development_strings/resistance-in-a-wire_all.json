@@ -1398,6 +1398,123 @@
       "value": "R"
     }
   },
+  "iw": {
+    "area": {
+      "value": "שטח"
+    },
+    "areaSymbol": {
+      "value": "A"
+    },
+    "cm": {
+      "value": "ס\"מ"
+    },
+    "length": {
+      "value": "אורך"
+    },
+    "lengthSymbol": {
+      "value": "L"
+    },
+    "ohm": {
+      "value": "אוהם"
+    },
+    "ohmsSymbol": {
+      "value": "Ω"
+    },
+    "pattern.0label.1value.2units": {
+      "value": "{0} = {1} {2}"
+    },
+    "pattern.0resistanceUnits.1lengthUnits": {
+      "value": "{0}{1}"
+    },
+    "resistance": {
+      "value": "התנגדות"
+    },
+    "resistance-in-a-wire.title": {
+      "value": "התנגדות בתיל"
+    },
+    "resistanceEq": {
+      "value": "התנגדות = "
+    },
+    "resistanceSymbol": {
+      "value": "R"
+    },
+    "resistivity": {
+      "value": "התנגדות סגולית"
+    },
+    "resistivitySymbol": {
+      "value": "ρ"
+    },
+    "translation.credits": {
+      "value": ""
+    }
+  },
+  "ja": {
+    "area": {
+      "value": "断面積"
+    },
+    "areaSymbol": {
+      "value": "S"
+    },
+    "cm": {
+      "value": "cm"
+    },
+    "length": {
+      "value": "長さ"
+    },
+    "ohm": {
+      "value": "Ω"
+    },
+    "resistance": {
+      "value": "抵抗"
+    },
+    "resistivity": {
+      "value": "抵抗率"
+    },
+    "resistance-in-a-wire.title": {
+      "value": "導線の電気抵抗"
+    },
+    "resistanceEq": {
+      "value": "電気抵抗="
+    }
+  },
+  "ka": {
+    "area": {
+      "value": "ფართობი"
+    },
+    "areaSymbol": {
+      "value": "A"
+    },
+    "cm": {
+      "value": "სმ"
+    },
+    "length": {
+      "value": "სიგრძე"
+    },
+    "lengthSymbol": {
+      "value": "L"
+    },
+    "ohm": {
+      "value": "ომი"
+    },
+    "resistance": {
+      "value": "წინაღობა"
+    },
+    "resistivity": {
+      "value": "კუთრი წინაღობა"
+    },
+    "resistanceSymbol": {
+      "value": "R"
+    },
+    "resistance-in-a-wire.title": {
+      "value": "გამტარის წინაღობა"
+    },
+    "resistanceEq": {
+      "value": "წინაღობა = "
+    },
+    "translation.credits": {
+      "value": "თარგმანი - თეიმურაზ ხუნდაძე"
+    }
+  },
   "ki": {
     "area": {
       "value": "gĩcigo"
@@ -3241,346 +3358,6 @@
     },
     "resistance-in-a-wire.title": {
       "value": "ukumelana nocingo"
-    }
-  },
-  "en": {
-    "resistance-in-a-wire.title": {
-      "value": "Resistance in a Wire"
-    },
-    "area": {
-      "value": "area"
-    },
-    "areaSymbol": {
-      "value": "A"
-    },
-    "cm": {
-      "value": "cm"
-    },
-    "length": {
-      "value": "length"
-    },
-    "lengthSymbol": {
-      "value": "L"
-    },
-    "ohm": {
-      "value": "ohms"
-    },
-    "pattern.0label.1value.2units": {
-      "value": "{0} = {1} {2}"
-    },
-    "pattern.0resistanceUnits.1lengthUnits": {
-      "value": "{0}{1}"
-    },
-    "resistance": {
-      "value": "resistance"
-    },
-    "resistanceSymbol": {
-      "value": "R"
-    },
-    "resistivity": {
-      "value": "resistivity"
-    },
-    "a11y": {
-      "summary": {
-        "sim": {
-          "value": "In the Play Area you find the Resistance equation, <b>R</b> equals <b>rho</b> times <b>L</b> over <b>A</b>, and a piece of wire. Sliders for resistivity, length, and area allow changes to the equation and the piece of wire. The Control Area has a button to reset the sim."
-        },
-        "currently": {
-          "value": "Currently,"
-        },
-        "resistancePattern": {
-          "value": "resistance, <b>R</b>, is {{value}} ohms"
-        },
-        "resistivityPattern": {
-          "value": "resistivity, <b>rho</b>, is {{value}} ohm centimeters"
-        },
-        "lengthPattern": {
-          "value": "length, <b>L</b>, is {{value}} centimeters"
-        },
-        "areaPattern": {
-          "value": "area, <b>A</b>, is {{value}} centimeters squared"
-        },
-        "interactionHint": {
-          "value": "Look for resistivity, length, and area sliders to play, or read on for details about equation and wire."
-        }
-      },
-      "equation": {
-        "resistanceEquation": {
-          "value": "Resistance Equation"
-        },
-        "resistanceEquationDescription": {
-          "value": "Resistance, <b>R</b>, is equal to resistivity, <b>rho</b>, times length, <b>L</b>, over area, <b>A</b>."
-        },
-        "rhoLAndAComparablePattern": {
-          "value": "Size of letter R is {{rToAll}} the size of the letter rho, letter L, and letter A."
-        },
-        "lAndAComparablePattern": {
-          "value": "Size of letter R is {{rToRho}} the size of letter rho, and {{rToLAndA}} letter L and letter A."
-        },
-        "noneComparablePattern": {
-          "value": "Size of letter R is {{rToRho}} the size of letter rho, {{rToL}} letter L, and {{rToA}} letter A."
-        },
-        "sizes": {
-          "muchMuchSmallerThan": {
-            "value": "much much smaller than"
-          },
-          "muchSmallerThan": {
-            "value": "much smaller than"
-          },
-          "slightlySmallerThan": {
-            "value": "slightly smaller than"
-          },
-          "comparableTo": {
-            "value": "comparable to"
-          },
-          "slightlyLargerThan": {
-            "value": "slightly larger than"
-          },
-          "muchLargerThan": {
-            "value": "much larger than"
-          },
-          "muchMuchLargerThan": {
-            "value": "much much larger than"
-          }
-        },
-        "alerts": {
-          "grows": {
-            "value": "grows"
-          },
-          "shrinks": {
-            "value": "shrinks"
-          },
-          "growsALot": {
-            "value": "grows a lot"
-          },
-          "shrinksALot": {
-            "value": "shrinks a lot"
-          }
-        }
-      },
-      "wire": {
-        "wireDescriptionPattern": {
-          "value": "Currently, wire is {{length}}, {{thickness}}, and there is a {{impurities}} of impurities in wire. Resistance is {{resistance}} ohms."
-        },
-        "resistivityUnitsPattern": {
-          "value": "{{value}} ohm centimeters"
-        },
-        "extremelyShort": {
-          "value": "extremely short"
-        },
-        "veryShort": {
-          "value": "very short"
-        },
-        "short": {
-          "value": "short"
-        },
-        "ofMediumLength": {
-          "value": "of medium length"
-        },
-        "long": {
-          "value": "long"
-        },
-        "veryLong": {
-          "value": "very long"
-        },
-        "extremelyLong": {
-          "value": "extremely long"
-        },
-        "extremelyThin": {
-          "value": "extremely thin"
-        },
-        "veryThin": {
-          "value": "very thin"
-        },
-        "thin": {
-          "value": "thin"
-        },
-        "ofMediumThickness": {
-          "value": "of medium thickness"
-        },
-        "thick": {
-          "value": "thick"
-        },
-        "veryThick": {
-          "value": "very thick"
-        },
-        "extremelyThick": {
-          "value": "extremely thick"
-        },
-        "aTinyAmountOfImpurities": {
-          "value": "tiny amount"
-        },
-        "aVerySmallAmountOfImpurities": {
-          "value": "very small amount"
-        },
-        "aSmallAmountOfImpurities": {
-          "value": "small amount"
-        },
-        "aMediumAmountOfImpurities": {
-          "value": "medium amount"
-        },
-        "aLargeAmountOfImpurities": {
-          "value": "large amount"
-        },
-        "aVeryLargeAmountOfImpurities": {
-          "value": "very large amount"
-        },
-        "aHugeAmountOfImpurities": {
-          "value": "huge amount"
-        }
-      },
-      "controls": {
-        "lengthUnitsPattern": {
-          "value": "{{value}} centimeters"
-        },
-        "areaUnitsPattern": {
-          "value": "{{value}} centimeters squared"
-        },
-        "resistivitySliderLabel": {
-          "value": "rho, Resistivity"
-        },
-        "lengthSliderLabel": {
-          "value": "L, Length"
-        },
-        "areaSliderLabel": {
-          "value": "A, Area"
-        },
-        "sliderControls": {
-          "value": "Slider Controls"
-        },
-        "slidersDescription": {
-          "value": "Resistivity, Length, and Area sliders allow changes to equation and wire."
-        },
-        "sizeChangeAlertPattern": {
-          "value": "As letter {{letter}} {{letterChange}}, letter R {{rChange}}. Resistance now {{resistance}} ohms."
-        },
-        "letterRho": {
-          "value": "rho"
-        },
-        "letterL": {
-          "value": "L"
-        },
-        "letterA": {
-          "value": "A"
-        }
-      }
-    }
-  },
-  "ka": {
-    "area": {
-      "value": "ფართობი"
-    },
-    "areaSymbol": {
-      "value": "A"
-    },
-    "cm": {
-      "value": "სმ"
-    },
-    "length": {
-      "value": "სიგრძე"
-    },
-    "lengthSymbol": {
-      "value": "L"
-    },
-    "ohm": {
-      "value": "ომი"
-    },
-    "resistance": {
-      "value": "წინაღობა"
-    },
-    "resistivity": {
-      "value": "კუთრი წინაღობა"
-    },
-    "resistanceSymbol": {
-      "value": "R"
-    },
-    "resistance-in-a-wire.title": {
-      "value": "გამტარის წინაღობა"
-    },
-    "resistanceEq": {
-      "value": "წინაღობა = "
-    },
-    "translation.credits": {
-      "value": "თარგმანი - თეიმურაზ ხუნდაძე"
-    }
-  },
-  "ja": {
-    "area": {
-      "value": "断面積"
-    },
-    "areaSymbol": {
-      "value": "S"
-    },
-    "cm": {
-      "value": "cm"
-    },
-    "length": {
-      "value": "長さ"
-    },
-    "ohm": {
-      "value": "Ω"
-    },
-    "resistance": {
-      "value": "抵抗"
-    },
-    "resistivity": {
-      "value": "抵抗率"
-    },
-    "resistance-in-a-wire.title": {
-      "value": "導線の電気抵抗"
-    },
-    "resistanceEq": {
-      "value": "電気抵抗="
-    }
-  },
-  "iw": {
-    "area": {
-      "value": "שטח"
-    },
-    "areaSymbol": {
-      "value": "A"
-    },
-    "cm": {
-      "value": "ס\"מ"
-    },
-    "length": {
-      "value": "אורך"
-    },
-    "lengthSymbol": {
-      "value": "L"
-    },
-    "ohm": {
-      "value": "אוהם"
-    },
-    "ohmsSymbol": {
-      "value": "Ω"
-    },
-    "pattern.0label.1value.2units": {
-      "value": "{0} = {1} {2}"
-    },
-    "pattern.0resistanceUnits.1lengthUnits": {
-      "value": "{0}{1}"
-    },
-    "resistance": {
-      "value": "התנגדות"
-    },
-    "resistance-in-a-wire.title": {
-      "value": "התנגדות בתיל"
-    },
-    "resistanceEq": {
-      "value": "התנגדות = "
-    },
-    "resistanceSymbol": {
-      "value": "R"
-    },
-    "resistivity": {
-      "value": "התנגדות סגולית"
-    },
-    "resistivitySymbol": {
-      "value": "ρ"
-    },
-    "translation.credits": {
-      "value": ""
     }
   }
 }

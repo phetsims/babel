@@ -1173,6 +1173,87 @@
       "value": "pm"
     }
   },
+  "kk": {
+    "forceOnObjectByOtherObjectPattern": {
+      "value": "{{thisObject}} жағынан {{otherObject}} әрекет ететін күш"
+    },
+    "forceOnObjectByOtherObjectWithUnitsPattern": {
+      "value": "{{thisObject}} жағынан {{otherObject}} әрекет ететін күш = {{value}} Н"
+    },
+    "forceValues": {
+      "value": "Күштің мәні"
+    },
+    "units.meter": {
+      "value": "метр"
+    },
+    "units.meters": {
+      "value": "метрлер"
+    },
+    "units.newtons": {
+      "value": "ньютондар"
+    },
+    "units.centimeters": {
+      "value": "см"
+    },
+    "units.picometers": {
+      "value": "пм"
+    },
+    "pattern_0value_1units": {
+      "value": "{{value}} {{units}}"
+    }
+  },
+  "km": {
+    "forceValues": {
+      "value": "តម្លៃកម្លាំងទំនាញ"
+    },
+    "units.newtons": {
+      "value": "ញូតុន"
+    },
+    "units.meters": {
+      "value": "ម៉ែត្រ"
+    },
+    "units.meter": {
+      "value": "ម៉ែត្រ"
+    }
+  },
+  "ko": {
+    "units.centimeters": {
+      "value": "cm"
+    },
+    "decimalNotation": {
+      "value": "소숫점 표시법"
+    },
+    "forceOnObjectByOtherObjectPattern": {
+      "value": " {{thisObject}}에 대한{{otherObject}}의 힘 "
+    },
+    "forceOnObjectByOtherObjectWithUnitsPattern": {
+      "value": "{{thisObject}}에 대한 {{otherObject}}의 힘 = {{value}} N"
+    },
+    "forceValues": {
+      "value": "힘 값"
+    },
+    "hidden": {
+      "value": "감춰진 값"
+    },
+    "units.meter": {
+      "value": "미터"
+    },
+    "units.meters": {
+      "value": "미터"
+    },
+    "units.newtons": {
+      "value": "뉴턴"
+    },
+    "scientificNotation": {
+      "value": "과학적 표시법"
+    },
+    "pattern_0value_1units": {
+      "value": "{{value}} {{units}}"
+    },
+    "units.picometers": {
+      "value": "pm"
+    }
+  },
   "ku": {
     "forceOnObjectByOtherObjectPattern": {
       "value": "{{thisObject}} لەلایەن {{otherObject}}هێز لەسەر"
@@ -2513,476 +2594,6 @@
     },
     "scientificNotation": {
       "value": "umbalo wesayensi"
-    }
-  },
-  "en": {
-    "forceOnObjectByOtherObjectPattern": {
-      "value": "Force on {{thisObject}} by {{otherObject}}"
-    },
-    "forceOnObjectByOtherObjectWithUnitsPattern": {
-      "value": "Force on {{thisObject}} by {{otherObject}} = {{value}} N"
-    },
-    "forceValues": {
-      "value": "Force Values"
-    },
-    "pattern_0value_1units": {
-      "value": "{{value}} {{units}}"
-    },
-    "scientificNotation": {
-      "value": "Scientific Notation"
-    },
-    "decimalNotation": {
-      "value": "Decimal Notation"
-    },
-    "hidden": {
-      "value": "Hidden"
-    },
-    "units.meter": {
-      "value": "meter"
-    },
-    "units.meters": {
-      "value": "meters"
-    },
-    "units.newtons": {
-      "value": "newtons"
-    },
-    "units.picometers": {
-      "value": "pm"
-    },
-    "units.centimeters": {
-      "value": "cm"
-    },
-    "a11y": {
-      "screenSummary": {
-        "forceVectorArrows": {
-          "value": "Force vector arrows"
-        },
-        "summaryVectorSizePattern": {
-          "value": "{{forceVectorArrows}} are {{size}}."
-        },
-        "summaryVectorSizeValueUnitsPattern": {
-          "value": "{{forceVectorArrows}} are {{size}} at {{forceValue}} {{units}}."
-        },
-        "robotPullSummaryPattern": {
-          "value": "Robots pull {{effort}} keeping spheres in place."
-        },
-        "robotPushSummaryPattern": {
-          "value": "Robots push {{effort}} keeping spheres in place."
-        },
-        "summaryInteractionHintPattern": {
-          "value": "Change position, and {{massOrCharge}} of spheres to explore."
-        },
-        "quantitativeAndQualitativePattern": {
-          "value": "{{qualitativeClause}}{{quantitativeClause}}."
-        },
-        "qualitativeDistanceEachOtherPattern": {
-          "value": "{{qualitativeDistance}} each other"
-        },
-        "distanceAndValueSummaryPattern": {
-          "value": "{{object1Label}} and {{object2Label}} are {{qualitativeDistanceFromEachOther}}"
-        },
-        "centersOfObjectsDistancePattern": {
-          "value": "Centers of {{objectsDistanceClause}}"
-        },
-        "centersExactlyPattern": {
-          "value": ", centers exactly {{distanceAndUnits}} apart"
-        }
-      },
-      "sphere": {
-        "spherePositions": {
-          "value": "Sphere Positions"
-        },
-        "distanceApartPattern": {
-          "value": "{{distanceAndUnits}} apart"
-        },
-        "positionHelpText": {
-          "value": "Centers of spheres, {{distanceApart}}. Move spheres, closer or farther from each other."
-        },
-        "forceVectorMagnitudeUnitsPattern": {
-          "value": "{{forceMagnitude}} on {{thisObjectLabel}} by {{otherObjectLabel}} is {{forceValue}} {{units}}."
-        },
-        "forceMagnitude": {
-          "value": "Force magnitude"
-        },
-        "forceVectorSizePattern": {
-          "value": "{{forceVector}} is {{size}}"
-        },
-        "forceVectorsSizePattern": {
-          "value": "{{forceVectors}} {{size}}"
-        },
-        "forceAndVectorPattern": {
-          "value": "{{forceVectorSize}}, and points directly at {{otherObjectLabel}}."
-        },
-        "forceVectorCapitalized": {
-          "value": "Force vector"
-        },
-        "objectLabelPositionPattern": {
-          "value": "Move {{label}}"
-        }
-      },
-      "position": {
-        "valuetext": {
-          "distanceAndUnitsPattern": {
-            "value": "{{distance}} {{units}}"
-          },
-          "quantitativeDistancePattern": {
-            "value": "{{distanceAndUnits}} from"
-          },
-          "distanceFromOtherObjectPattern": {
-            "value": "{{distance}} {{otherObjectLabel}}"
-          },
-          "positionDistanceFromOtherObjectPattern": {
-            "value": "{{positionRegion}}, {{distanceFromOtherObject}}"
-          },
-          "distanceFromOtherObjectSentencePattern": {
-            "value": "{{distanceFromOtherObject}}"
-          },
-          "centersApartPattern": {
-            "value": "Centers of spheres {{distanceAndUnits}} apart."
-          }
-        },
-        "landmarks": {
-          "leftSideOfTrack": {
-            "value": "left side of track"
-          },
-          "rightSideOfTrack": {
-            "value": "right side of track"
-          },
-          "lastStopRight": {
-            "value": "Last stop right"
-          },
-          "lastStopLeft": {
-            "value": "Last stop left"
-          }
-        }
-      },
-      "positionProgressOrLandmarkClause": {
-        "value": "{{progressOrLandmark}},"
-      },
-      "regionForceClausePattern": {
-        "value": "{{relativeDistance}} {{otherObjectLabel}}, {{forceClause}}."
-      },
-      "vectorForceClausePattern": {
-        "value": "{{vectorClause}}, {{forceValuesClause}}"
-      },
-      "alerts": {
-        "vectorChangePattern": {
-          "value": "{{positionProgressOrLandmarkClause}} {{vectors}} {{changeDirection}}"
-        },
-        "vectorChangeSentencePattern": {
-          "value": "{{vectorChange}}."
-        },
-        "vectorChangeForcesNowValuePattern": {
-          "value": "{{vectorChangeClause}}, forces now {{forceValue}} {{units}}."
-        },
-        "vectorsCapitalized": {
-          "value": "Force vectors"
-        },
-        "vectorChangeClausePattern": {
-          "value": "{{vectors}} {{changeDirection}}"
-        },
-        "vectorChangeForcesNowClausePattern": {
-          "value": "{{vectors}} {{changeDirection}}, forces now {{forceValue}} {{units}}"
-        },
-        "vectors": {
-          "value": "force vectors"
-        },
-        "vectorsSizeClausePattern": {
-          "value": "{{vectors}} {{size}}"
-        },
-        "forcesValueUnitsClausePattern": {
-          "value": "forces {{forceValue}} {{units}}"
-        }
-      },
-      "qualitative": {
-        "tiny": {
-          "value": "tiny"
-        },
-        "verySmall": {
-          "value": "very small"
-        },
-        "small": {
-          "value": "small"
-        },
-        "mediumSize": {
-          "value": "medium size"
-        },
-        "large": {
-          "value": "large"
-        },
-        "veryLarge": {
-          "value": "very large"
-        },
-        "huge": {
-          "value": "huge"
-        },
-        "getBigger": {
-          "value": "get bigger"
-        },
-        "getSmaller": {
-          "value": "get smaller"
-        },
-        "farthestFrom": {
-          "value": "farthest from"
-        },
-        "extremelyFarFrom": {
-          "value": "extremely far from"
-        },
-        "veryFarFrom": {
-          "value": "very far from"
-        },
-        "farFrom": {
-          "value": "far from"
-        },
-        "notSoCloseTo": {
-          "value": "not so close to"
-        },
-        "closeTo": {
-          "value": "close to"
-        },
-        "veryCloseTo": {
-          "value": "very close to"
-        },
-        "extremelyCloseTo": {
-          "value": "extremely close to"
-        },
-        "closestTo": {
-          "value": "closest to"
-        },
-        "farthestFromCapitalized": {
-          "value": "Farthest from"
-        },
-        "extremelyFarFromCapitalized": {
-          "value": "Extremely far from"
-        },
-        "veryFarFromCapitalized": {
-          "value": "Very far from"
-        },
-        "farFromCapitalized": {
-          "value": "Far from"
-        },
-        "notSoCloseToCapitalized": {
-          "value": "Not so close to"
-        },
-        "closeToCapitalized": {
-          "value": "Close to"
-        },
-        "veryCloseToCapitalized": {
-          "value": "Very close to"
-        },
-        "extremelyCloseToCapitalized": {
-          "value": "Extremely close to"
-        },
-        "closestToCapitalized": {
-          "value": "Closest to"
-        },
-        "closer": {
-          "value": "Closer"
-        },
-        "fartherAway": {
-          "value": "Farther away"
-        },
-        "left": {
-          "value": "left"
-        },
-        "right": {
-          "value": "right"
-        }
-      },
-      "pullerEffort": {
-        "veryHard": {
-          "value": "very hard"
-        },
-        "hard": {
-          "value": "hard"
-        },
-        "moderately": {
-          "value": "moderately"
-        },
-        "gently": {
-          "value": "gently"
-        },
-        "lightly": {
-          "value": "lightly"
-        },
-        "aLittle": {
-          "value": "a little"
-        },
-        "aTinyBit": {
-          "value": "very little"
-        }
-      },
-      "ruler": {
-        "rulerLabel": {
-          "value": "Ruler"
-        },
-        "rulerHelpText": {
-          "value": "If needed, grab ruler to measure distance between centers of spheres. {{deviceSpecificHint}}"
-        },
-        "rulerKeyboardHint": {
-          "value": "Once grabbed, use keyboard shortcuts to move ruler."
-        },
-        "measureDistanceRuler": {
-          "value": "Measure Distance Ruler"
-        }
-      },
-      "forceValuesCheckboxHelpText": {
-        "value": "Explore value of forces in newtons."
-      },
-      "valuesInUnitsPattern": {
-        "value": "Force values in {{units}}."
-      },
-      "forceValuesHidden": {
-        "value": "Force values hidden."
-      },
-      "forceValuesHelpText": {
-        "value": "Choose force value representation."
-      },
-      "forcesInScientificNotation": {
-        "value": "Force values in newtons with scientific notation."
-      },
-      "scientificNotationPattern": {
-        "value": "{{mantissa}} times 10 to the {{exponent}}"
-      },
-      "negativeValuePattern": {
-        "value": "negative {{value}}"
-      },
-      "valuePattern": {
-        "value": "{{value}}"
-      },
-      "voicing": {
-        "verboseMassInteractionHintPattern": {
-          "value": "Move {{objectLabel}}, {{objectColor}} Sphere"
-        },
-        "briefMassInteractionHintPattern": {
-          "value": "Move {{objectLabel}}"
-        },
-        "positionChangePattern": {
-          "value": "{{valueText}}. {{vectorText}}"
-        },
-        "briefNewForceNoValuesAlert": {
-          "value": "Forces {{change}}."
-        },
-        "briefNewForceAlertPattern": {
-          "value": "Forces {{change}}, now {{value}} newtons."
-        },
-        "bigger": {
-          "value": "bigger"
-        },
-        "smaller": {
-          "value": "smaller"
-        },
-        "levels": {
-          "forceEqualsPattern": {
-            "value": "Force on {{object1}} by {{object2}} equals {{value}} newtons"
-          },
-          "forceOnObjectsPattern": {
-            "value": "Force on {{object1}} by {{object2}}"
-          },
-          "forceArrowSizePattern": {
-            "value": "{{response}}, force arrow {{size}}."
-          },
-          "massQuantitativePattern": {
-            "value": "{{object}}, {{distance}} from {{otherObject}}."
-          },
-          "massQualitativePattern": {
-            "value": "{{object}}, {{distance}} {{otherObject}}."
-          },
-          "moveObjectPattern": {
-            "value": "Move {{description}}"
-          },
-          "massQuantitativeWithoutLabelPattern": {
-            "value": "{{distance}} from {{otherObject}}."
-          },
-          "massQualitativeWithoutLabelPattern": {
-            "value": "{{distance}} {{otherObject}}."
-          },
-          "moveSpheresHintString": {
-            "value": "Move spheres, closer or farther from each other."
-          }
-        }
-      }
-    }
-  },
-  "ko": {
-    "units.centimeters": {
-      "value": "cm"
-    },
-    "decimalNotation": {
-      "value": "소숫점 표시법"
-    },
-    "forceOnObjectByOtherObjectPattern": {
-      "value": " {{thisObject}}에 대한{{otherObject}}의 힘 "
-    },
-    "forceOnObjectByOtherObjectWithUnitsPattern": {
-      "value": "{{thisObject}}에 대한 {{otherObject}}의 힘 = {{value}} N"
-    },
-    "forceValues": {
-      "value": "힘 값"
-    },
-    "hidden": {
-      "value": "감춰진 값"
-    },
-    "units.meter": {
-      "value": "미터"
-    },
-    "units.meters": {
-      "value": "미터"
-    },
-    "units.newtons": {
-      "value": "뉴턴"
-    },
-    "scientificNotation": {
-      "value": "과학적 표시법"
-    },
-    "pattern_0value_1units": {
-      "value": "{{value}} {{units}}"
-    },
-    "units.picometers": {
-      "value": "pm"
-    }
-  },
-  "km": {
-    "forceValues": {
-      "value": "តម្លៃកម្លាំងទំនាញ"
-    },
-    "units.newtons": {
-      "value": "ញូតុន"
-    },
-    "units.meters": {
-      "value": "ម៉ែត្រ"
-    },
-    "units.meter": {
-      "value": "ម៉ែត្រ"
-    }
-  },
-  "kk": {
-    "forceOnObjectByOtherObjectPattern": {
-      "value": "{{thisObject}} жағынан {{otherObject}} әрекет ететін күш"
-    },
-    "forceOnObjectByOtherObjectWithUnitsPattern": {
-      "value": "{{thisObject}} жағынан {{otherObject}} әрекет ететін күш = {{value}} Н"
-    },
-    "forceValues": {
-      "value": "Күштің мәні"
-    },
-    "units.meter": {
-      "value": "метр"
-    },
-    "units.meters": {
-      "value": "метрлер"
-    },
-    "units.newtons": {
-      "value": "ньютондар"
-    },
-    "units.centimeters": {
-      "value": "см"
-    },
-    "units.picometers": {
-      "value": "пм"
-    },
-    "pattern_0value_1units": {
-      "value": "{{value}} {{units}}"
     }
   }
 }

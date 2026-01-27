@@ -1109,7 +1109,7 @@
       "value": "Gràfic lineal"
     },
     "dotPlot": {
-      "value": "Gràfic de punts"
+      "value": "Diagrama de punts"
     },
     "medianQuestion": {
       "value": "Quina és la distància normal d'un xut?"
@@ -1136,7 +1136,7 @@
       "value": "{{value}} Xut/s"
     },
     "sortData": {
-      "value": "Ordenar dades"
+      "value": "Ordena les dades"
     },
     "mean": {
       "value": "Mitjana"
@@ -1145,13 +1145,166 @@
       "value": "Mediana"
     },
     "predictMean": {
-      "value": "Predir mitjana"
+      "value": "Prediu la mitjana"
     },
     "predictMedian": {
-      "value": "Predir mediana"
+      "value": "Prediu la mediana"
     },
     "center-and-variability.title": {
       "value": "Centre i variabilitat"
+    },
+    "screen.variability": {
+      "value": "Variabilitat"
+    },
+    "dataValuesInMeters": {
+      "value": "Valors de dades (en metres):"
+    },
+    "distanceInMetersAccordionBoxTitle": {
+      "value": "Distància de xut (metres)"
+    },
+    "distanceInMetersChartLabel": {
+      "value": "Distància (en metres)"
+    },
+    "interquartileRangeIQR": {
+      "value": "Rang interquartílic (IQR)"
+    },
+    "intervalTool": {
+      "value": "Eina d’interval"
+    },
+    "iqr": {
+      "value": "IQR"
+    },
+    "iqrDescription": {
+      "value": "El rang interquartílic (IQR) representa el 50 % central de les dades."
+    },
+    "iqrEqualsIQRUnitsPattern": {
+      "value": "IQR = {{iqr}} {{units}}"
+    },
+    "iqrEqualsQ3MinusQ3Pattern": {
+      "value": "IQR = {{q3}} − {{q1}}"
+    },
+    "iqrEqualsUnknown": {
+      "value": "IQR = ?"
+    },
+    "iqrEqualsValueMPattern": {
+      "value": "IQR = {{value}} m"
+    },
+    "keyboardHelpDialog.endOfNumberLine": {
+      "value": "Extrem de la recta numèrica"
+    },
+    "keyboardHelpDialog.grabOrReleaseBall": {
+      "value": "Pilota"
+    },
+    "kickValuePattern": {
+      "value": "Xut {{value}}"
+    },
+    "mad": {
+      "value": "MAD"
+    },
+    "madDescription": {
+      "value": "La <strong>desviació absoluta mitjana (DAM)</strong> és la distància mitjana de cada dada respecte de la mitjana."
+    },
+    "madEquals": {
+      "value": "MAD ="
+    },
+    "madEqualsMADMetersPattern": {
+      "value": "MAD = {{mad}} metres"
+    },
+    "madEqualsUnknown": {
+      "value": "MAD = ?"
+    },
+    "madEqualsValueMPattern": {
+      "value": "MAD = {{value}} m"
+    },
+    "max": {
+      "value": "màx."
+    },
+    "maxKicks": {
+      "value": "Nre. màx. de xuts"
+    },
+    "maxKicksDescription": {
+      "value": "Determina el nombre màxim de xuts permès per a totes les pantalles. El nombre màxim de xuts a la pantalla de la mediana és 15."
+    },
+    "meanAbsoluteDeviationMAD": {
+      "value": "Desviació absoluta mitjana (DAM)"
+    },
+    "meanDescription": {
+      "value": "La <strong>mitjana</strong> és el valor mitjà de tots els valors de qualsevol conjunt de dades."
+    },
+    "meanEquals": {
+      "value": "Mitjana ="
+    },
+    "meanEqualsUnknown": {
+      "value": "Mitjana = ?"
+    },
+    "meanEqualsValueMPattern": {
+      "value": "Mitjana = {{value}} m"
+    },
+    "meanEqualsValueMetersPattern": {
+      "value": "Mitjana = {{value}} meters"
+    },
+    "medianDescription": {
+      "value": "La <strong>mediana</strong> és el nombre que divideix un conjunt de dades ordenat per la meitat."
+    },
+    "medianEqualsUnknown": {
+      "value": "Mediana = ?"
+    },
+    "medianEqualsValueMPattern": {
+      "value": "Mediana = {{value}} m"
+    },
+    "medianEqualsValueUnitsPattern": {
+      "value": "Mediana = {{value}} {{units}}"
+    },
+    "meter": {
+      "value": "metre"
+    },
+    "meters": {
+      "value": "metres"
+    },
+    "min": {
+      "value": "mín."
+    },
+    "needAtLeastFiveKicks": {
+      "value": "Calen almenys cinc xuts"
+    },
+    "outliers": {
+      "value": "Valors atípics"
+    },
+    "outliersDescription": {
+      "value": "Mostra els valors atípics al diagrama de caixa com a marques en comptes d’incloure’ls en els bigotis."
+    },
+    "pointer": {
+      "value": "Punter"
+    },
+    "q1": {
+      "value": "Q1"
+    },
+    "q3": {
+      "value": "Q3"
+    },
+    "range": {
+      "value": "Rang"
+    },
+    "rangeDescription": {
+      "value": "El <strong>rang</strong> és la distància entre els punts de dades mínim i màxim."
+    },
+    "rangeEqualsMaxMinusMinPattern": {
+      "value": "Rang = {{max}} − {{min}}"
+    },
+    "rangeEqualsRangeUnitsPattern": {
+      "value": "Rang = {{range}} {{units}}"
+    },
+    "rangeEqualsUnknown": {
+      "value": "Rang = ?"
+    },
+    "rangeEqualsValueMPattern": {
+      "value": "Rang = {{value}} m"
+    },
+    "valueKicksPattern": {
+      "value": "{{value}} xuts"
+    },
+    "variabilityQuestion": {
+      "value": "Quina és la dispersió de les distàncies de xut?"
     }
   },
   "cs": {
@@ -6288,6 +6441,531 @@
       "value": "Pakati ndi Kusiyana"
     }
   },
+  "om": {
+    "screen.median": {
+      "value": "Midiyaanii"
+    },
+    "screen.meanAndMedian": {
+      "value": "Giddu galeessaa & Midiyaanii"
+    },
+    "plotType": {
+      "value": "Gosa Pilootii"
+    },
+    "linePlot": {
+      "value": "Pilootii Sararaa"
+    },
+    "dotPlot": {
+      "value": "Pilootii Tuqaa"
+    },
+    "medianQuestion": {
+      "value": "Fageenyi dhiittaa idilee maali?"
+    },
+    "meanAndMedianQuestion": {
+      "value": "Tokkoon tokkoon dhiittaa giddugaleessaa fi midiyaanii irratti dhiibbaa akkamii qaba?"
+    },
+    "distanceInMeters": {
+      "value": "Fageenya (meetiraan)"
+    },
+    "youSortedTheData": {
+      "value": "Daataa tartiibesitteeta!"
+    },
+    "medianEqualsValue": {
+      "value": "Midiyaanii = {{value}}"
+    },
+    "valueUnknown": {
+      "value": "?"
+    },
+    "meanEqualsValue": {
+      "value": "Giddu galeessa = {{value}}"
+    },
+    "kickValue": {
+      "value": "Dhiiti {{value}}"
+    },
+    "sortData": {
+      "value": "Daataa tartiibessi"
+    },
+    "mean": {
+      "value": "Giddu galeessa"
+    },
+    "median": {
+      "value": "Midiyaanii"
+    },
+    "predictMean": {
+      "value": "Giddugaleessa Tilmaama"
+    },
+    "predictMedian": {
+      "value": "Midiyaanii Tilmaama"
+    },
+    "center-and-variability.title": {
+      "value": "Giddugaleessaa fi Jijjiirama"
+    }
+  },
+  "pl": {
+    "screen.median": {
+      "value": "Mediana"
+    },
+    "screen.meanAndMedian": {
+      "value": "Średnia i mediana"
+    },
+    "plotType": {
+      "value": "Typ wykresu"
+    },
+    "linePlot": {
+      "value": "Wykres liniowy"
+    },
+    "dotPlot": {
+      "value": "Wykres punktowy"
+    },
+    "medianQuestion": {
+      "value": "Jaka jest typowa odległość przebyta przez piłkę?"
+    },
+    "meanAndMedianQuestion": {
+      "value": "Jak każde kopnięcie wpływa na średnią i medianę?"
+    },
+    "distanceInMeters": {
+      "value": "Odległość (w metrach)"
+    },
+    "youSortedTheData": {
+      "value": "Posortowano dane!"
+    },
+    "medianEqualsValue": {
+      "value": "Mediana = {{value}}"
+    },
+    "meanEqualsValue": {
+      "value": "Średnia = {{value}}"
+    },
+    "kickValue": {
+      "value": "Kopnięcie {{value}}"
+    },
+    "sortData": {
+      "value": "Sortuj dane"
+    },
+    "mean": {
+      "value": "Średnia"
+    },
+    "median": {
+      "value": "Mediana"
+    },
+    "predictMean": {
+      "value": "Podaj średnią"
+    },
+    "predictMedian": {
+      "value": "Podaj medianę"
+    },
+    "center-and-variability.title": {
+      "value": "Tendencja centralna i zróżnicowanie"
+    },
+    "valueUnknown": {
+      "value": "?"
+    },
+    "screen.variability": {
+      "value": "Zróżnicowanie"
+    },
+    "outliers": {
+      "value": "Obserwacje odstające"
+    },
+    "outliersDescription": {
+      "value": "Pokazuje wartości odstające na wykresie pudełkowym jako zaznaczenia, a nie jako uwzględnione w wąsach."
+    },
+    "keyboardHelpDialog.medianScreen.grabOrReleaseBallOrCard": {
+      "value": "Chwyć lub puść piłkę lub kartę"
+    },
+    "keyboardHelpDialog.medianScreen.moveGrabbedBallOrCardTitle": {
+      "value": "Przesuń chwyconą piłkę lub kartę"
+    },
+    "keyboardHelpDialog.medianScreen.moveGrabbedBallOrCard": {
+      "value": "Przesuń chwyconą piłkę lub kartę"
+    },
+    "keyboardHelpDialog.medianScreen.jumpToStartOfCardsOrNumberLine": {
+      "value": "Skocz do początku kart lub osi liczbowej"
+    },
+    "keyboardHelpDialog.medianScreen.jumpToEndOfCardsOrNumberLine": {
+      "value": "Skocz do końca kart lub osi liczbowej"
+    },
+    "keyboardHelpDialog.grabOrReleaseBall": {
+      "value": "Chwyć lub puść piłkę"
+    },
+    "keyboardHelpDialog.moveGrabbedBallTitle": {
+      "value": "Przesuń chwyconą piłkę"
+    },
+    "keyboardHelpDialog.moveGrabbedBall": {
+      "value": "Przesuń chwyconą piłkę"
+    },
+    "keyboardHelpDialog.jumpToStartOfNumberLine": {
+      "value": "Skocz do początku osi liczbowej"
+    },
+    "keyboardHelpDialog.jumpToEndOfNumberLine": {
+      "value": "Skocz do końca osi liczbowej"
+    },
+    "variabilityQuestion": {
+      "value": "Jaki jest rozkład odległości kopnięć?"
+    },
+    "distanceInMetersAccordionBoxTitle": {
+      "value": "Odległość kopnięcia (metry)"
+    },
+    "pointer": {
+      "value": "Wskaźnik"
+    },
+    "keyboardHelpDialog.grabOrRelease": {
+      "value": "Chwyć lub puść"
+    },
+    "keyboardHelpDialog.moveInLargerSteps": {
+      "value": "Przesuwaj większymi krokami"
+    },
+    "keyboardHelpDialog.jumpBallToTickMark": {
+      "value": "Skocz piłką do znacznika"
+    },
+    "keyboardHelpDialog.medianScreen.predictMedian": {
+      "value": "przewidywana mediana"
+    },
+    "keyboardHelpDialog.endOfNumberLine": {
+      "value": "koniec osi liczbowej"
+    },
+    "keyboardHelpDialog.startOfNumberLine": {
+      "value": "początek osi liczbowej"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.moveInLargerSteps": {
+      "value": "Przesuwaj większymi krokami"
+    },
+    "medianEqualsValueMPattern": {
+      "value": "Mediana = {{value}} m"
+    },
+    "medianEqualsUnknown": {
+      "value": "Mediana = ?"
+    },
+    "meanEqualsValueMPattern": {
+      "value": "Średnia = {{value}} m"
+    },
+    "meanEqualsUnknown": {
+      "value": "Średnia = ?"
+    },
+    "keyboardHelpDialog.variabilityScreen.object": {
+      "value": "obiekt"
+    },
+    "range": {
+      "value": "Rozstęp"
+    },
+    "interquartileRangeIQR": {
+      "value": "Rozstęp ćwiartkowy (IQR)"
+    },
+    "meanAbsoluteDeviationMAD": {
+      "value": "Średnie odchylenie bezwzględne (MAD)"
+    },
+    "iqr": {
+      "value": "IQR"
+    },
+    "mad": {
+      "value": "MAD"
+    },
+    "rangeEqualsValueMPattern": {
+      "value": "Rozstęp = {{value}} m"
+    },
+    "iqrEqualsValueMPattern": {
+      "value": "IQR = {{value}} m"
+    },
+    "madEqualsValueMPattern": {
+      "value": "MAD = {{value}} m"
+    },
+    "rangeEqualsUnknown": {
+      "value": "Rozstęp = ?"
+    },
+    "iqrEqualsUnknown": {
+      "value": "IQR = ?"
+    },
+    "madEqualsUnknown": {
+      "value": "MAD = ?"
+    },
+    "medianDescription": {
+      "value": "<strong>Mediana</strong> to liczba, która dzieli posortowany zestaw danych na pół."
+    },
+    "needAtLeastOneKick": {
+      "value": "Potrzeba co najmniej jednego kopnięcia"
+    },
+    "kickValuePattern": {
+      "value": "Kopnięć: {{value}}"
+    },
+    "medianEqualsValueUnitsPattern": {
+      "value": "Mediana = {{value}} {{units}}"
+    },
+    "meanDescription": {
+      "value": "<strong>Średnia</strong> to przeciętna wszystkich wartości w dowolnym zestawie danych."
+    },
+    "meanEquals": {
+      "value": "Średnia ="
+    },
+    "rangeDescription": {
+      "value": "<strong>Rozstęp</strong> to odległość między minimalnym i maksymalnym punktem danych."
+    },
+    "rangeEqualsMaxMinusMinPattern": {
+      "value": "Rozstęp = {{max}} – {{min}}"
+    },
+    "rangeEqualsRangeUnitsPattern": {
+      "value": "Rozstęp = {{range}} {{units}}"
+    },
+    "iqrDescription": {
+      "value": "<strong>Rozstęp międzykwartylowy (IQR)</strong> to środkowe 50% danych."
+    },
+    "iqrEqualsQ3MinusQ3Pattern": {
+      "value": "IQR = {{q3}} – {{q1}}"
+    },
+    "iqrEqualsIQRUnitsPattern": {
+      "value": "IQR = {{iqr}} {{units}}"
+    },
+    "madDescription": {
+      "value": "<strong>Średnie odchylenie bezwzględne (MAD)</strong> to średnia odległość od każdego punktu danych do średniej."
+    },
+    "madEquals": {
+      "value": "MAD ="
+    },
+    "madEqualsMADMetersPattern": {
+      "value": "MAD = {{mad}} m"
+    },
+    "medianEqualsValuePattern": {
+      "value": "Mediana = {{value}}"
+    },
+    "dataValuesInMeters": {
+      "value": "Wartości danych (w metrach):"
+    },
+    "distanceInMetersChartLabel": {
+      "value": "Odległość (w metrach)"
+    },
+    "needAtLeastFiveKicks": {
+      "value": "Potrzeba co najmniej pięciu kopnięć"
+    },
+    "min": {
+      "value": "min"
+    },
+    "max": {
+      "value": "max"
+    },
+    "q1": {
+      "value": "Q1"
+    },
+    "q3": {
+      "value": "Q3"
+    },
+    "maxKicks": {
+      "value": "Maksymalna liczba kopnięć"
+    },
+    "maxKicksDescription": {
+      "value": "Określa maksymalną liczbę rzutów dozwolonych na wszystkich ekranach. Maksymalna liczba rzutów na ekranie Mediana wynosi 15."
+    },
+    "valueKicksPattern": {
+      "value": "Liczba kopnięć: {{value}}"
+    },
+    "intervalTool": {
+      "value": "Przedział"
+    },
+    "keyboardHelpDialog.medianScreen.movePredictMedian": {
+      "value": "Przesuń przewidywaną medianę"
+    },
+    "keyboardHelpDialog.move": {
+      "value": "Przesuń"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanOrMedian": {
+      "value": "Przesuń przewidywaną medianę lub średnią"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.movePredictionPointer": {
+      "value": "Przesuń wskaźnik prognozy"
+    },
+    "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanInSmallerSteps": {
+      "value": "Przesuń mniejszymi krokami"
+    },
+    "keyboardHelpDialog.variabilityScreen.movePointerIntervalHandleOrIntervalBlock": {
+      "value": "Przesuń wskaźnik, uchwyty przedziałów lub blok interwałów"
+    },
+    "meter": {
+      "value": "m"
+    },
+    "meters": {
+      "value": "m"
+    },
+    "meanEqualsValueMetersPattern": {
+      "value": "Średnia = {{value}} m"
+    }
+  },
+  "ps": {
+    "screen.median": {
+      "value": "میانه"
+    },
+    "screen.meanAndMedian": {
+      "value": "اوسط او میانه"
+    },
+    "screen.variability": {
+      "value": "بدلون"
+    },
+    "plotType": {
+      "value": "د ګراف ډول"
+    },
+    "medianQuestion": {
+      "value": "د هر ډول معمولی شوټ اوږدوالی څومره دی؟"
+    },
+    "meanAndMedianQuestion": {
+      "value": "هر شوټ څنګه په اوسط او میانه اغیزه کوي؟"
+    },
+    "keyboardHelpDialog.grabOrReleaseBall": {
+      "value": "د توپ نیول او پریښودل"
+    },
+    "keyboardHelpDialog.moveGrabbedBallTitle": {
+      "value": "د نیول شوي توپ ته حرکت ورکول"
+    },
+    "keyboardHelpDialog.moveGrabbedBall": {
+      "value": "د نیول شوي توپ ته حرکت ورکول"
+    },
+    "keyboardHelpDialog.grabOrRelease": {
+      "value": "نیول او پریښودل"
+    },
+    "keyboardHelpDialog.moveInLargerSteps": {
+      "value": "په غټو قدمونو حرکت کول"
+    },
+    "keyboardHelpDialog.move": {
+      "value": "حرکت کول"
+    },
+    "keyboardHelpDialog.medianScreen.predictMedian": {
+      "value": "د میانه وړاندوینه"
+    },
+    "keyboardHelpDialog.endOfNumberLine": {
+      "value": "د عددونو د محور پای"
+    },
+    "keyboardHelpDialog.startOfNumberLine": {
+      "value": "د عددونو د محور پایل"
+    },
+    "valueKicksPattern": {
+      "value": "{{value}} شوټ"
+    },
+    "distanceInMetersAccordionBoxTitle": {
+      "value": "واټن (in meters)"
+    },
+    "median": {
+      "value": "میانه"
+    },
+    "mean": {
+      "value": "اوسط"
+    },
+    "predictMedian": {
+      "value": "د میانې وړاندوینه"
+    },
+    "predictMean": {
+      "value": "د اوسط وړاندوینه"
+    },
+    "valueUnknown": {
+      "value": "?"
+    },
+    "medianEqualsValueMPattern": {
+      "value": "میانه = {{value}} m"
+    },
+    "medianEqualsUnknown": {
+      "value": "میانه = ?"
+    },
+    "meanEqualsValueMPattern": {
+      "value": "اوسط = {{value}} m"
+    },
+    "meanEqualsUnknown": {
+      "value": "اوسط = ?"
+    },
+    "dotPlot": {
+      "value": "نقطه یې ګراف"
+    },
+    "linePlot": {
+      "value": "خطی ګراف"
+    },
+    "keyboardHelpDialog.variabilityScreen.object": {
+      "value": "شی"
+    },
+    "range": {
+      "value": "Range"
+    },
+    "meanAbsoluteDeviationMAD": {
+      "value": "د مطلق انحراف اوسط (MAD)"
+    },
+    "iqr": {
+      "value": "IQR"
+    },
+    "mad": {
+      "value": "MAD"
+    },
+    "rangeEqualsValueMPattern": {
+      "value": "Range = {{value}} m"
+    },
+    "iqrEqualsValueMPattern": {
+      "value": "IQR = {{value}} m"
+    },
+    "madEqualsValueMPattern": {
+      "value": "MAD = {{value}} m"
+    },
+    "rangeEqualsUnknown": {
+      "value": "Range = ?"
+    },
+    "iqrEqualsUnknown": {
+      "value": "IQR = ?"
+    },
+    "madEqualsUnknown": {
+      "value": "MAD = ?"
+    },
+    "needAtLeastOneKick": {
+      "value": "کم تر کمه یو شوټ ته ضرورت ده"
+    },
+    "sortData": {
+      "value": "د ډیټاګانو ترتیب"
+    },
+    "kickValuePattern": {
+      "value": "Kick {{value}}"
+    },
+    "medianEqualsValueUnitsPattern": {
+      "value": "میانه = {{value}} {{units}}"
+    },
+    "meter": {
+      "value": "متر"
+    },
+    "meters": {
+      "value": "مترونه"
+    },
+    "meanEquals": {
+      "value": "اوسط="
+    },
+    "meanEqualsValueMetersPattern": {
+      "value": "اوسط = {{value}} متر"
+    },
+    "rangeEqualsMaxMinusMinPattern": {
+      "value": "Range = {{max}} – {{min}}"
+    },
+    "rangeEqualsRangeUnitsPattern": {
+      "value": "Range = {{range}} {{units}}"
+    },
+    "iqrEqualsQ3MinusQ3Pattern": {
+      "value": "IQR = {{q3}} – {{q1}}"
+    },
+    "iqrEqualsIQRUnitsPattern": {
+      "value": "IQR = {{iqr}} {{units}}"
+    },
+    "madEquals": {
+      "value": "MAD ="
+    },
+    "medianEqualsValuePattern": {
+      "value": "میانه = {{value}}"
+    },
+    "distanceInMetersChartLabel": {
+      "value": "واټن (in meters)"
+    },
+    "needAtLeastFiveKicks": {
+      "value": "کم تر کمه پنځه شوټو ته اړتیا لري"
+    },
+    "min": {
+      "value": "اصغري"
+    },
+    "max": {
+      "value": "اعظمي"
+    },
+    "q1": {
+      "value": "Q1"
+    },
+    "q3": {
+      "value": "Q3"
+    },
+    "center-and-variability.title": {
+      "value": "مرکز او بدلون منونکی"
+    }
+  },
   "pt_BR": {
     "screen.median": {
       "value": "Mediana"
@@ -8886,1208 +9564,6 @@
     },
     "q3": {
       "value": "Q3"
-    }
-  },
-  "en": {
-    "center-and-variability.title": {
-      "value": "Center and Variability"
-    },
-    "screen.median": {
-      "value": "Median"
-    },
-    "screen.meanAndMedian": {
-      "value": "Mean & Median"
-    },
-    "screen.variability": {
-      "value": "Variability"
-    },
-    "kickValuePattern": {
-      "value": "Kick {{value}}"
-    },
-    "distanceInMetersAccordionBoxTitle": {
-      "value": "Kick Distance (meters)"
-    },
-    "distanceInMetersChartLabel": {
-      "value": "Distance (in meters)"
-    },
-    "meanEqualsValueMetersPattern": {
-      "value": "Mean = {{value}} meters"
-    },
-    "meanEqualsValueMPattern": {
-      "value": "Mean = {{value}} m"
-    },
-    "meanEqualsUnknown": {
-      "value": "Mean = ?"
-    },
-    "medianEqualsValuePattern": {
-      "value": "Median = {{value}}"
-    },
-    "medianEqualsValueMPattern": {
-      "value": "Median = {{value}} m"
-    },
-    "medianEqualsUnknown": {
-      "value": "Median = ?"
-    },
-    "medianEqualsValueUnitsPattern": {
-      "value": "Median = {{value}} {{units}}"
-    },
-    "plotType": {
-      "value": "Plot Type"
-    },
-    "dotPlot": {
-      "value": "Dot Plot"
-    },
-    "linePlot": {
-      "value": "Line Plot"
-    },
-    "median": {
-      "value": "Median"
-    },
-    "mean": {
-      "value": "Mean"
-    },
-    "meanEquals": {
-      "value": "Mean ="
-    },
-    "valueUnknown": {
-      "value": "?"
-    },
-    "meters": {
-      "value": "meters"
-    },
-    "meter": {
-      "value": "meter"
-    },
-    "needAtLeastFiveKicks": {
-      "value": "Need at least five kicks"
-    },
-    "maxKicks": {
-      "value": "Max Kicks"
-    },
-    "maxKicksDescription": {
-      "value": "Determines the maximum number of kicks allowed for all screens. The maximum number of kicks on the Median screen is 15."
-    },
-    "outliers": {
-      "value": "Outliers"
-    },
-    "outliersDescription": {
-      "value": "Shows outliers on the boxplot as markings rather than being included in the whisker."
-    },
-    "valueKicksPattern": {
-      "value": "{{value}} Kicks"
-    },
-    "pointer": {
-      "value": "Pointer"
-    },
-    "medianQuestion": {
-      "value": "What is the typical kick distance?"
-    },
-    "sortData": {
-      "value": "Sort Data"
-    },
-    "youSortedTheData": {
-      "value": "You sorted the data!"
-    },
-    "medianDescription": {
-      "value": "<strong>Median</strong> is the number that splits a sorted data set in half."
-    },
-    "meanAndMedianQuestion": {
-      "value": "How does each kick influence the mean and median?"
-    },
-    "meanDescription": {
-      "value": "<strong>Mean</strong> is the average of all values in any data set."
-    },
-    "variabilityQuestion": {
-      "value": "How spread out are the kick distances?"
-    },
-    "iqrEqualsValueMPattern": {
-      "value": "IQR = {{value}} m"
-    },
-    "iqrEqualsUnknown": {
-      "value": "IQR = ?"
-    },
-    "rangeEqualsValueMPattern": {
-      "value": "Range = {{value}} m"
-    },
-    "rangeEqualsUnknown": {
-      "value": "Range = ?"
-    },
-    "madEqualsValueMPattern": {
-      "value": "MAD = {{value}} m"
-    },
-    "madEqualsUnknown": {
-      "value": "MAD = ?"
-    },
-    "madEquals": {
-      "value": "MAD ="
-    },
-    "range": {
-      "value": "Range"
-    },
-    "interquartileRangeIQR": {
-      "value": "Interquartile Range (IQR)"
-    },
-    "iqr": {
-      "value": "IQR"
-    },
-    "min": {
-      "value": "min"
-    },
-    "max": {
-      "value": "max"
-    },
-    "q1": {
-      "value": "Q1"
-    },
-    "q3": {
-      "value": "Q3"
-    },
-    "meanAbsoluteDeviationMAD": {
-      "value": "Mean Absolute Deviation (MAD)"
-    },
-    "mad": {
-      "value": "MAD"
-    },
-    "intervalTool": {
-      "value": "Interval Tool"
-    },
-    "predictMean": {
-      "value": "Predict Mean"
-    },
-    "predictMedian": {
-      "value": "Predict Median"
-    },
-    "rangeDescription": {
-      "value": "<strong>Range</strong> is the distance between the minimum and maximum data points."
-    },
-    "iqrDescription": {
-      "value": "<strong>Interquartile range (IQR)</strong> is the middle 50% of the data."
-    },
-    "dataValuesInMeters": {
-      "value": "Data Values (in meters):"
-    },
-    "iqrEqualsQ3MinusQ3Pattern": {
-      "value": "IQR = {{q3}} − {{q1}}"
-    },
-    "iqrEqualsIQRUnitsPattern": {
-      "value": "IQR = {{iqr}} {{units}}"
-    },
-    "madDescription": {
-      "value": "<strong>Mean absolute deviation (MAD)</strong> is the average distance from each data point to the mean."
-    },
-    "madEqualsMADMetersPattern": {
-      "value": "MAD = {{mad}} meters"
-    },
-    "rangeEqualsMaxMinusMinPattern": {
-      "value": "Range = {{max}} − {{min}}"
-    },
-    "rangeEqualsRangeUnitsPattern": {
-      "value": "Range = {{range}} {{units}}"
-    },
-    "keyboardHelpDialog.move": {
-      "value": "Move"
-    },
-    "keyboardHelpDialog.endOfNumberLine": {
-      "value": "end of number line"
-    },
-    "keyboardHelpDialog.startOfNumberLine": {
-      "value": "start of number line"
-    },
-    "keyboardHelpDialog.grabOrReleaseBall": {
-      "value": "Ball"
-    },
-    "keyboardHelpDialog.moveGrabbedBallTitle": {
-      "value": "Move Grabbed Ball"
-    },
-    "keyboardHelpDialog.moveGrabbedBall": {
-      "value": "Move grabbed ball"
-    },
-    "keyboardHelpDialog.grabOrRelease": {
-      "value": "Grab or release"
-    },
-    "keyboardHelpDialog.jumpToStartOfNumberLine": {
-      "value": "Jump to start of number line"
-    },
-    "keyboardHelpDialog.jumpToEndOfNumberLine": {
-      "value": "Jump to end of number line"
-    },
-    "keyboardHelpDialog.jumpBallToTickMark": {
-      "value": "Jump ball to tick mark"
-    },
-    "keyboardHelpDialog.moveInLargerSteps": {
-      "value": "Move in larger steps"
-    },
-    "keyboardHelpDialog.medianScreen.grabOrReleaseBallOrCard": {
-      "value": "Ball or Card"
-    },
-    "keyboardHelpDialog.medianScreen.movePredictMedian": {
-      "value": "Move Predict Median"
-    },
-    "keyboardHelpDialog.medianScreen.predictMedian": {
-      "value": "predict median"
-    },
-    "keyboardHelpDialog.medianScreen.moveGrabbedBallOrCardTitle": {
-      "value": "Move Grabbed Ball or Card"
-    },
-    "keyboardHelpDialog.medianScreen.moveGrabbedBallOrCard": {
-      "value": "Move grabbed ball or card"
-    },
-    "keyboardHelpDialog.medianScreen.jumpToStartOfCardsOrNumberLine": {
-      "value": "Jump to start of cards or number line"
-    },
-    "keyboardHelpDialog.medianScreen.jumpToEndOfCardsOrNumberLine": {
-      "value": "Jump to end of cards or number line"
-    },
-    "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanOrMedian": {
-      "value": "Move Predict Mean or Median"
-    },
-    "keyboardHelpDialog.meanAndMedianScreen.movePredictionPointer": {
-      "value": "Move prediction pointer"
-    },
-    "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanInSmallerSteps": {
-      "value": "Move predict mean in smaller steps"
-    },
-    "keyboardHelpDialog.meanAndMedianScreen.moveInLargerSteps": {
-      "value": "Move in larger steps"
-    },
-    "keyboardHelpDialog.variabilityScreen.movePointerIntervalHandleOrIntervalBlock": {
-      "value": "Move Pointer, Interval Handles, or Interval Block"
-    },
-    "keyboardHelpDialog.variabilityScreen.object": {
-      "value": "object"
-    },
-    "a11y": {
-      "screenSummary": {
-        "playArea": {
-          "guidingQuestion": {
-            "value": "Guiding question: \"{$question}\""
-          }
-        },
-        "currentDetails": {
-          "countAtMeter": {
-            "value": "{$number} at meter {$distance}"
-          }
-        },
-        "interactionHint": {
-          "noBalls": {
-            "value": "Kick soccer balls to create a data set."
-          }
-        }
-      },
-      "soccerField": {
-        "accessibleHeading": {
-          "value": "Soccer Field"
-        }
-      },
-      "eraseButton": {
-        "accessibleName": {
-          "value": "Erase Current Data"
-        },
-        "accessibleHelpText": {
-          "value": "Remove soccer balls from field."
-        },
-        "contextResponse": {
-          "value": "Field cleared."
-        }
-      },
-      "medianPredictionSlider": {
-        "accessibleName": {
-          "value": "Median Prediction"
-        }
-      },
-      "meanPredictionSlider": {
-        "accessibleName": {
-          "value": "Mean Prediction"
-        }
-      },
-      "medianCheckbox": {
-        "accessibleName": {
-          "value": "Median on Field"
-        },
-        "accessibleHelpText": {
-          "value": "Show or hide red highlights marking middle soccer\n ball or balls and arrow pointing to median kick distance."
-        }
-      },
-      "meanCheckbox": {
-        "accessibleName": {
-          "value": "Mean on Field"
-        },
-        "accessibleHelpText": {
-          "value": "Show or hide purple triangle indicating mean kick distance."
-        }
-      },
-      "predictMedianCheckbox": {
-        "accessibleName": {
-          "value": "Predict Median Pointer"
-        },
-        "accessibleHelpText": {
-          "value": "Show or hide movable prediction pointer on field."
-        }
-      },
-      "predictMeanCheckbox": {
-        "accessibleName": {
-          "value": "Predict Mean Pointer"
-        },
-        "accessibleHelpText": {
-          "value": "Show or hide movable prediction pointer on field."
-        }
-      },
-      "infoDialog": {
-        "dataValues": {
-          "value": "Data Values (in meters): {$values}"
-        }
-      },
-      "noKicksLeftResponse": {
-        "value": "No kicks left"
-      },
-      "meanReadout": {
-        "accessibleParagraph": {
-          "value": "{$value ->\n[null] Mean = ?\n[1] Mean = 1 meter\n*[other] Mean = {$value} meters\n}"
-        }
-      },
-      "medianReadout": {
-        "accessibleParagraph": {
-          "value": "{$value ->\n[null] Median = ?\n[1] Median = 1 meter\n*[other] Median = {$value} meters\n}"
-        }
-      },
-      "medianScreen": {
-        "screenButtonsHelpText": {
-          "value": "Kick soccer balls and explore data set to find value of median."
-        },
-        "screenSummary": {
-          "playArea": {
-            "value": "At edge of field, up to {$maxBalls} kickers are ready to kick a soccer ball a random distance between 1 and 15 meters. Stacks of balls form when they land at the same distance. A sortable data card appears for each kicked ball recording the kick distance. Each ball can be moved to adjust its kick distance. There are checkboxes to auto-sort the data cards and highlight or predict the median."
-          },
-          "controlArea": {
-            "value": "Additionally, access detailed median information, clear data set, and reset the sim to start over."
-          },
-          "currentDetails": {
-            "soccerBalls": {
-              "value": "Currently, { NUMBER($number, type: \"cardinal\") ->\n[0] 0 soccer balls on field.\n[1] 1 soccer ball on field:\n*[other] {$number} soccer balls on field:\n}"
-            },
-            "cards": {
-              "value": "{ NUMBER($number, type: \"cardinal\") ->\n[0] 0 data cards are listed.\n[1] 1 data card lists the kick distance as {$distances}.\n*[other] {$number} data cards list the kick distances as {$distances}.\n}"
-            }
-          },
-          "interactionHint": {
-            "someBalls": {
-              "value": "Move soccer balls or sort distance data cards to explore data."
-            }
-          }
-        },
-        "dataCardsGroup": {
-          "noCardsAccessibleName": {
-            "value": "No cards to grab"
-          },
-          "selectAccessibleName": {
-            "value": "Kick Distance {$value}, card {$index} of {$total}"
-          },
-          "sortAccessibleName": {
-            "value": "Kick Distance {$value}, position {$index} of {$total}"
-          },
-          "selectAccessibleHelpText": {
-            "value": "Choose card to grab or release to sort data"
-          },
-          "sortAccessibleHelpText": {
-            "value": "Move card to sort data"
-          }
-        },
-        "sortDataCheckbox": {
-          "accessibleName": {
-            "value": "Sort Data Cards"
-          },
-          "accessibleHelpText": {
-            "value": "Explore with or without data auto-sorted numerically."
-          }
-        },
-        "medianCheckbox": {
-          "accessibleName": {
-            "value": "Median on Data Cards"
-          },
-          "accessibleHelpText": {
-            "value": "Analyze data cards with or without median value shown and located if data is sorted."
-          }
-        },
-        "infoButton": {
-          "accessibleName": {
-            "value": "Median Details"
-          }
-        }
-      },
-      "meanAndMedianScreen": {
-        "screenButtonsHelpText": {
-          "value": "Kick soccer balls and explore data set to compare mean and median."
-        },
-        "screenSummary": {
-          "playArea": {
-            "value": "At edge of field, up to {$maxBalls} kickers are ready to kick a soccer ball a random distance between 1 and 15 meters. Stacks of balls form when they land at the same distance. A mark appears on a plot for each kicked ball recording the kick distance. Each ball can be moved to adjust its kick distance. There are checkboxes to highlight or predict the median and mean."
-          },
-          "currentDetails": {
-            "soccerBalls": {
-              "value": "Currently, { NUMBER($number, type: \"cardinal\") ->\n[0] 0 soccer balls on field.\n[1] 1 soccer ball on field:\n*[other] {$number} soccer balls on field:\n}"
-            },
-            "plot": {
-              "value": "{ NUMBER($number, type: \"cardinal\") ->\n[0] 0 marks on plot.\n[1] 1 mark on plot matches kick distance on field.\n*[other] {$number} marks on plot match kick distances on field.\n}"
-            }
-          },
-          "controlArea": {
-            "value": "Additionally, access detailed mean and median information, clear data set, and reset the sim to start over."
-          },
-          "interactionHint": {
-            "someBalls": {
-              "value": "Move soccer balls or explore plot to analyze data."
-            }
-          }
-        },
-        "meanAndMedianAccordionBox": {
-          "accessibleParagraph": {
-            "value": "Kick distance (meters) plot."
-          }
-        },
-        "plotMedianCheckbox": {
-          "accessibleName": {
-            "value": "Median on Plot"
-          },
-          "accessibleHelpText": {
-            "value": "Analyze data with or without median value shown and located on plot."
-          }
-        },
-        "meanCheckbox": {
-          "accessibleName": {
-            "value": "Mean on Plot"
-          },
-          "accessibleHelpText": {
-            "value": "Analyze data with or without mean value shown and located on plot."
-          }
-        },
-        "infoButton": {
-          "accessibleName": {
-            "value": "Median and Mean Details"
-          }
-        },
-        "infoDialog": {
-          "meanEquationDescription": {
-            "value": "Mean = {$values} all over {$total}, which equals {$sum} over {$total}"
-          }
-        }
-      },
-      "variabilityScreen": {
-        "screenButtonsHelpText": {
-          "value": "Kick soccer balls and explore data sets to compare measures of variability."
-        },
-        "screenSummary": {
-          "playArea": {
-            "value": "At edge of field, one of four kickers is ready to kick up to {$maxBalls} soccer balls a random distance between 1 and 15 meters. Stacks of balls form when they land at the same distance. A mark appears on a plot for each kicked ball recording the kick distance. Each ball can be moved to adjust its kick distance. Explore the range, interquartile range (IQR), and mean absolute deviation (MAD) for each kicker’s kick distribution."
-          },
-          "currentDetails": {
-            "soccerBalls": {
-              "value": "{$kicker} kicker selected. Currently, { NUMBER($number, type: \"cardinal\") ->\n[0] 0 soccer balls on field.\n[1] 1 soccer ball on field:\n*[other] {$number} soccer balls on field:\n}"
-            },
-            "plot": {
-              "value": "{ NUMBER($number, type: \"cardinal\") ->\n[0] 0 marks on plot\n[1] 1 mark on plot matches kick distance on field\n*[other] {$number} marks on plot match kick distances on field\n}, and {$measure} is being explored."
-            }
-          },
-          "controlArea": {
-            "value": "Additionally, access detailed variability information, clear data set, and reset the sim to start over."
-          },
-          "interactionHint": {
-            "someBalls": {
-              "value": "Move soccer balls or explore plot to analyze data."
-            }
-          }
-        },
-        "sceneKickerRadioButtonGroup": {
-          "accessibleName": {
-            "value": "Choose Kicker"
-          },
-          "accessibleHelpText": {
-            "value": "Compare kick distance distributions of four different kickers."
-          },
-          "kicker1RadioButton": {
-            "accessibleName": {
-              "value": "Green Jersey 1"
-            }
-          },
-          "kicker2RadioButton": {
-            "accessibleName": {
-              "value": "Blue Jersey 2"
-            }
-          },
-          "kicker3RadioButton": {
-            "accessibleName": {
-              "value": "Red Jersey 3"
-            }
-          },
-          "kicker4RadioButton": {
-            "accessibleName": {
-              "value": "Yellow Jersey 4"
-            }
-          }
-        },
-        "pointerCheckbox": {
-          "accessibleHelpText": {
-            "value": "Show or hide movable prediction pointer on field."
-          }
-        },
-        "pointerNode": {
-          "accessibleName": {
-            "value": "Prediction Pointer"
-          }
-        },
-        "measuresRadioButtonGroup": {
-          "accessibleName": {
-            "value": "Variability Measures"
-          },
-          "accessibleHelpText": {
-            "value": "Explore measures of variability."
-          }
-        },
-        "measureAccordionBox": {
-          "rangeAccessibleHelpText": {
-            "value": "Predict and view range of kick distribution."
-          },
-          "rangeAccessibleParagraph": {
-            "value": "{ $value ->\n[null] Range = ?\n[1] Range = 1 meter\n*[other] Range = { $value } meters\n}"
-          },
-          "iqrAccessibleHelpText": {
-            "value": "Predict and view IQR of kick distribution."
-          },
-          "iqrAccessibleParagraph": {
-            "value": "{ $value ->\n[null] IQR = ?\n[1] IQR = 1 meter\n*[other] IQR = { $value } meters\n}"
-          },
-          "madAccessibleHelpText": {
-            "value": "Predict and view MAD of kick distribution."
-          },
-          "madAccessibleParagraph": {
-            "value": "{ $value ->\n[null] MAD = ?\n[1] MAD = 1 meter\n*[other] MAD = { $value } meters\n}"
-          }
-        },
-        "rangeCheckbox": {
-          "accessibleHelpText": {
-            "value": "Explore with or without range highlighted on plot."
-          }
-        },
-        "iqrCheckbox": {
-          "accessibleHelpText": {
-            "value": "Explore with or without IQR highlighted on plot."
-          }
-        },
-        "madCheckbox": {
-          "accessibleHelpText": {
-            "value": "Explore with or without MAD highlighted on plot."
-          }
-        },
-        "infoButton": {
-          "accessibleName": {
-            "value": "{$measure} Details"
-          }
-        },
-        "infoDialog": {
-          "rangeMinusPattern": {
-            "value": "Range = {$max} − {$min}"
-          },
-          "iqrMinusPattern": {
-            "value": "IQR = {$q3} − {$q1}"
-          },
-          "boxPlot": {
-            "accessibleParagraph": {
-              "value": "There is a box plot with arrows pointing to min, Q1, median, Q3, and max. IQR = Q3 − Q1."
-            }
-          },
-          "madEquationDescription": {
-            "value": "MAD = the quantity {$madValues} all over {$total}, which equals {$numerator} over {$total}."
-          },
-          "madPlot": {
-            "accessibleParagraph": {
-              "value": "There is a diagram showing distances from each kick to left and right of mean. MAD = average of these distances."
-            }
-          }
-        },
-        "intervalTool": {
-          "accessibleHeading": {
-            "value": "Interval Tool Controls"
-          },
-          "accessibleHelpText": {
-            "value": "Define boundaries of interval region. Shift interval region to estimate distribution variability or future kick locations."
-          },
-          "handle1": {
-            "accessibleName": {
-              "value": "Boundary A"
-            }
-          },
-          "handle2": {
-            "accessibleName": {
-              "value": "Boundary B"
-            }
-          },
-          "rectangle": {
-            "accessibleName": {
-              "value": "Interval Region"
-            }
-          },
-          "rectangleObjectResponsePattern": {
-            "value": "Bounded by {$valueA} and {$valueB}, width {$width}"
-          }
-        }
-      },
-      "preferences": {
-        "plotTypeRadioButtonGroup": {
-          "accessibleHelpText": {
-            "value": "Determines whether an x or dot marks a kick distance on the plot."
-          }
-        }
-      },
-      "keyboardHelp": {
-        "moveGrabbedBallOrCardDescription": {
-          "value": "Move grabbed ball or card with Left and Right arrow keys, or A and D keys, or Up and Down arrow keys or W and S keys."
-        },
-        "moveGrabbedBallDescription": {
-          "value": "Move grabbed ball with Left and Right arrow keys, or A and D keys, or Up and Down arrow keys or W and S keys."
-        },
-        "moveInLargerStepsDescription": {
-          "value": "Move in larger steps with Page Up or Page Down key."
-        },
-        "jumpToStartOfNumberLineDescription": {
-          "value": "Jump to start of number line with Home key."
-        },
-        "jumpToEndOfNumberLineDescription": {
-          "value": "Jump to end of number line with End key."
-        },
-        "jumpToStartOfCardsOrNumberLineDescription": {
-          "value": "Jump to start of cards or number line with Home key."
-        },
-        "jumpToEndOfCardsOrNumberLineDescription": {
-          "value": "Jump to end of cards or number line with End key."
-        },
-        "jumpBallToTickMarkDescription": {
-          "value": "Jump ball to tick mark with number Zero through Nine keys."
-        }
-      }
-    }
-  },
-  "ps": {
-    "screen.median": {
-      "value": "میانه"
-    },
-    "screen.meanAndMedian": {
-      "value": "اوسط او میانه"
-    },
-    "screen.variability": {
-      "value": "بدلون"
-    },
-    "plotType": {
-      "value": "د ګراف ډول"
-    },
-    "medianQuestion": {
-      "value": "د هر ډول معمولی شوټ اوږدوالی څومره دی؟"
-    },
-    "meanAndMedianQuestion": {
-      "value": "هر شوټ څنګه په اوسط او میانه اغیزه کوي؟"
-    },
-    "keyboardHelpDialog.grabOrReleaseBall": {
-      "value": "د توپ نیول او پریښودل"
-    },
-    "keyboardHelpDialog.moveGrabbedBallTitle": {
-      "value": "د نیول شوي توپ ته حرکت ورکول"
-    },
-    "keyboardHelpDialog.moveGrabbedBall": {
-      "value": "د نیول شوي توپ ته حرکت ورکول"
-    },
-    "keyboardHelpDialog.grabOrRelease": {
-      "value": "نیول او پریښودل"
-    },
-    "keyboardHelpDialog.moveInLargerSteps": {
-      "value": "په غټو قدمونو حرکت کول"
-    },
-    "keyboardHelpDialog.move": {
-      "value": "حرکت کول"
-    },
-    "keyboardHelpDialog.medianScreen.predictMedian": {
-      "value": "د میانه وړاندوینه"
-    },
-    "keyboardHelpDialog.endOfNumberLine": {
-      "value": "د عددونو د محور پای"
-    },
-    "keyboardHelpDialog.startOfNumberLine": {
-      "value": "د عددونو د محور پایل"
-    },
-    "valueKicksPattern": {
-      "value": "{{value}} شوټ"
-    },
-    "distanceInMetersAccordionBoxTitle": {
-      "value": "واټن (in meters)"
-    },
-    "median": {
-      "value": "میانه"
-    },
-    "mean": {
-      "value": "اوسط"
-    },
-    "predictMedian": {
-      "value": "د میانې وړاندوینه"
-    },
-    "predictMean": {
-      "value": "د اوسط وړاندوینه"
-    },
-    "valueUnknown": {
-      "value": "?"
-    },
-    "medianEqualsValueMPattern": {
-      "value": "میانه = {{value}} m"
-    },
-    "medianEqualsUnknown": {
-      "value": "میانه = ?"
-    },
-    "meanEqualsValueMPattern": {
-      "value": "اوسط = {{value}} m"
-    },
-    "meanEqualsUnknown": {
-      "value": "اوسط = ?"
-    },
-    "dotPlot": {
-      "value": "نقطه یې ګراف"
-    },
-    "linePlot": {
-      "value": "خطی ګراف"
-    },
-    "keyboardHelpDialog.variabilityScreen.object": {
-      "value": "شی"
-    },
-    "range": {
-      "value": "Range"
-    },
-    "meanAbsoluteDeviationMAD": {
-      "value": "د مطلق انحراف اوسط (MAD)"
-    },
-    "iqr": {
-      "value": "IQR"
-    },
-    "mad": {
-      "value": "MAD"
-    },
-    "rangeEqualsValueMPattern": {
-      "value": "Range = {{value}} m"
-    },
-    "iqrEqualsValueMPattern": {
-      "value": "IQR = {{value}} m"
-    },
-    "madEqualsValueMPattern": {
-      "value": "MAD = {{value}} m"
-    },
-    "rangeEqualsUnknown": {
-      "value": "Range = ?"
-    },
-    "iqrEqualsUnknown": {
-      "value": "IQR = ?"
-    },
-    "madEqualsUnknown": {
-      "value": "MAD = ?"
-    },
-    "needAtLeastOneKick": {
-      "value": "کم تر کمه یو شوټ ته ضرورت ده"
-    },
-    "sortData": {
-      "value": "د ډیټاګانو ترتیب"
-    },
-    "kickValuePattern": {
-      "value": "Kick {{value}}"
-    },
-    "medianEqualsValueUnitsPattern": {
-      "value": "میانه = {{value}} {{units}}"
-    },
-    "meter": {
-      "value": "متر"
-    },
-    "meters": {
-      "value": "مترونه"
-    },
-    "meanEquals": {
-      "value": "اوسط="
-    },
-    "meanEqualsValueMetersPattern": {
-      "value": "اوسط = {{value}} متر"
-    },
-    "rangeEqualsMaxMinusMinPattern": {
-      "value": "Range = {{max}} – {{min}}"
-    },
-    "rangeEqualsRangeUnitsPattern": {
-      "value": "Range = {{range}} {{units}}"
-    },
-    "iqrEqualsQ3MinusQ3Pattern": {
-      "value": "IQR = {{q3}} – {{q1}}"
-    },
-    "iqrEqualsIQRUnitsPattern": {
-      "value": "IQR = {{iqr}} {{units}}"
-    },
-    "madEquals": {
-      "value": "MAD ="
-    },
-    "medianEqualsValuePattern": {
-      "value": "میانه = {{value}}"
-    },
-    "distanceInMetersChartLabel": {
-      "value": "واټن (in meters)"
-    },
-    "needAtLeastFiveKicks": {
-      "value": "کم تر کمه پنځه شوټو ته اړتیا لري"
-    },
-    "min": {
-      "value": "اصغري"
-    },
-    "max": {
-      "value": "اعظمي"
-    },
-    "q1": {
-      "value": "Q1"
-    },
-    "q3": {
-      "value": "Q3"
-    },
-    "center-and-variability.title": {
-      "value": "مرکز او بدلون منونکی"
-    }
-  },
-  "pl": {
-    "screen.median": {
-      "value": "Mediana"
-    },
-    "screen.meanAndMedian": {
-      "value": "Średnia i mediana"
-    },
-    "plotType": {
-      "value": "Typ wykresu"
-    },
-    "linePlot": {
-      "value": "Wykres liniowy"
-    },
-    "dotPlot": {
-      "value": "Wykres punktowy"
-    },
-    "medianQuestion": {
-      "value": "Jaka jest typowa odległość przebyta przez piłkę?"
-    },
-    "meanAndMedianQuestion": {
-      "value": "Jak każde kopnięcie wpływa na średnią i medianę?"
-    },
-    "distanceInMeters": {
-      "value": "Odległość (w metrach)"
-    },
-    "youSortedTheData": {
-      "value": "Posortowano dane!"
-    },
-    "medianEqualsValue": {
-      "value": "Mediana = {{value}}"
-    },
-    "meanEqualsValue": {
-      "value": "Średnia = {{value}}"
-    },
-    "kickValue": {
-      "value": "Kopnięcie {{value}}"
-    },
-    "sortData": {
-      "value": "Sortuj dane"
-    },
-    "mean": {
-      "value": "Średnia"
-    },
-    "median": {
-      "value": "Mediana"
-    },
-    "predictMean": {
-      "value": "Podaj średnią"
-    },
-    "predictMedian": {
-      "value": "Podaj medianę"
-    },
-    "center-and-variability.title": {
-      "value": "Tendencja centralna i zróżnicowanie"
-    },
-    "valueUnknown": {
-      "value": "?"
-    },
-    "screen.variability": {
-      "value": "Zróżnicowanie"
-    },
-    "outliers": {
-      "value": "Obserwacje odstające"
-    },
-    "outliersDescription": {
-      "value": "Pokazuje wartości odstające na wykresie pudełkowym jako zaznaczenia, a nie jako uwzględnione w wąsach."
-    },
-    "keyboardHelpDialog.medianScreen.grabOrReleaseBallOrCard": {
-      "value": "Chwyć lub puść piłkę lub kartę"
-    },
-    "keyboardHelpDialog.medianScreen.moveGrabbedBallOrCardTitle": {
-      "value": "Przesuń chwyconą piłkę lub kartę"
-    },
-    "keyboardHelpDialog.medianScreen.moveGrabbedBallOrCard": {
-      "value": "Przesuń chwyconą piłkę lub kartę"
-    },
-    "keyboardHelpDialog.medianScreen.jumpToStartOfCardsOrNumberLine": {
-      "value": "Skocz do początku kart lub osi liczbowej"
-    },
-    "keyboardHelpDialog.medianScreen.jumpToEndOfCardsOrNumberLine": {
-      "value": "Skocz do końca kart lub osi liczbowej"
-    },
-    "keyboardHelpDialog.grabOrReleaseBall": {
-      "value": "Chwyć lub puść piłkę"
-    },
-    "keyboardHelpDialog.moveGrabbedBallTitle": {
-      "value": "Przesuń chwyconą piłkę"
-    },
-    "keyboardHelpDialog.moveGrabbedBall": {
-      "value": "Przesuń chwyconą piłkę"
-    },
-    "keyboardHelpDialog.jumpToStartOfNumberLine": {
-      "value": "Skocz do początku osi liczbowej"
-    },
-    "keyboardHelpDialog.jumpToEndOfNumberLine": {
-      "value": "Skocz do końca osi liczbowej"
-    },
-    "variabilityQuestion": {
-      "value": "Jaki jest rozkład odległości kopnięć?"
-    },
-    "distanceInMetersAccordionBoxTitle": {
-      "value": "Odległość kopnięcia (metry)"
-    },
-    "pointer": {
-      "value": "Wskaźnik"
-    },
-    "keyboardHelpDialog.grabOrRelease": {
-      "value": "Chwyć lub puść"
-    },
-    "keyboardHelpDialog.moveInLargerSteps": {
-      "value": "Przesuwaj większymi krokami"
-    },
-    "keyboardHelpDialog.jumpBallToTickMark": {
-      "value": "Skocz piłką do znacznika"
-    },
-    "keyboardHelpDialog.medianScreen.predictMedian": {
-      "value": "przewidywana mediana"
-    },
-    "keyboardHelpDialog.endOfNumberLine": {
-      "value": "koniec osi liczbowej"
-    },
-    "keyboardHelpDialog.startOfNumberLine": {
-      "value": "początek osi liczbowej"
-    },
-    "keyboardHelpDialog.meanAndMedianScreen.moveInLargerSteps": {
-      "value": "Przesuwaj większymi krokami"
-    },
-    "medianEqualsValueMPattern": {
-      "value": "Mediana = {{value}} m"
-    },
-    "medianEqualsUnknown": {
-      "value": "Mediana = ?"
-    },
-    "meanEqualsValueMPattern": {
-      "value": "Średnia = {{value}} m"
-    },
-    "meanEqualsUnknown": {
-      "value": "Średnia = ?"
-    },
-    "keyboardHelpDialog.variabilityScreen.object": {
-      "value": "obiekt"
-    },
-    "range": {
-      "value": "Rozstęp"
-    },
-    "interquartileRangeIQR": {
-      "value": "Rozstęp ćwiartkowy (IQR)"
-    },
-    "meanAbsoluteDeviationMAD": {
-      "value": "Średnie odchylenie bezwzględne (MAD)"
-    },
-    "iqr": {
-      "value": "IQR"
-    },
-    "mad": {
-      "value": "MAD"
-    },
-    "rangeEqualsValueMPattern": {
-      "value": "Rozstęp = {{value}} m"
-    },
-    "iqrEqualsValueMPattern": {
-      "value": "IQR = {{value}} m"
-    },
-    "madEqualsValueMPattern": {
-      "value": "MAD = {{value}} m"
-    },
-    "rangeEqualsUnknown": {
-      "value": "Rozstęp = ?"
-    },
-    "iqrEqualsUnknown": {
-      "value": "IQR = ?"
-    },
-    "madEqualsUnknown": {
-      "value": "MAD = ?"
-    },
-    "medianDescription": {
-      "value": "<strong>Mediana</strong> to liczba, która dzieli posortowany zestaw danych na pół."
-    },
-    "needAtLeastOneKick": {
-      "value": "Potrzeba co najmniej jednego kopnięcia"
-    },
-    "kickValuePattern": {
-      "value": "Kopnięć: {{value}}"
-    },
-    "medianEqualsValueUnitsPattern": {
-      "value": "Mediana = {{value}} {{units}}"
-    },
-    "meanDescription": {
-      "value": "<strong>Średnia</strong> to przeciętna wszystkich wartości w dowolnym zestawie danych."
-    },
-    "meanEquals": {
-      "value": "Średnia ="
-    },
-    "rangeDescription": {
-      "value": "<strong>Rozstęp</strong> to odległość między minimalnym i maksymalnym punktem danych."
-    },
-    "rangeEqualsMaxMinusMinPattern": {
-      "value": "Rozstęp = {{max}} – {{min}}"
-    },
-    "rangeEqualsRangeUnitsPattern": {
-      "value": "Rozstęp = {{range}} {{units}}"
-    },
-    "iqrDescription": {
-      "value": "<strong>Rozstęp międzykwartylowy (IQR)</strong> to środkowe 50% danych."
-    },
-    "iqrEqualsQ3MinusQ3Pattern": {
-      "value": "IQR = {{q3}} – {{q1}}"
-    },
-    "iqrEqualsIQRUnitsPattern": {
-      "value": "IQR = {{iqr}} {{units}}"
-    },
-    "madDescription": {
-      "value": "<strong>Średnie odchylenie bezwzględne (MAD)</strong> to średnia odległość od każdego punktu danych do średniej."
-    },
-    "madEquals": {
-      "value": "MAD ="
-    },
-    "madEqualsMADMetersPattern": {
-      "value": "MAD = {{mad}} m"
-    },
-    "medianEqualsValuePattern": {
-      "value": "Mediana = {{value}}"
-    },
-    "dataValuesInMeters": {
-      "value": "Wartości danych (w metrach):"
-    },
-    "distanceInMetersChartLabel": {
-      "value": "Odległość (w metrach)"
-    },
-    "needAtLeastFiveKicks": {
-      "value": "Potrzeba co najmniej pięciu kopnięć"
-    },
-    "min": {
-      "value": "min"
-    },
-    "max": {
-      "value": "max"
-    },
-    "q1": {
-      "value": "Q1"
-    },
-    "q3": {
-      "value": "Q3"
-    },
-    "maxKicks": {
-      "value": "Maksymalna liczba kopnięć"
-    },
-    "maxKicksDescription": {
-      "value": "Określa maksymalną liczbę rzutów dozwolonych na wszystkich ekranach. Maksymalna liczba rzutów na ekranie Mediana wynosi 15."
-    },
-    "valueKicksPattern": {
-      "value": "Liczba kopnięć: {{value}}"
-    },
-    "intervalTool": {
-      "value": "Przedział"
-    },
-    "keyboardHelpDialog.medianScreen.movePredictMedian": {
-      "value": "Przesuń przewidywaną medianę"
-    },
-    "keyboardHelpDialog.move": {
-      "value": "Przesuń"
-    },
-    "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanOrMedian": {
-      "value": "Przesuń przewidywaną medianę lub średnią"
-    },
-    "keyboardHelpDialog.meanAndMedianScreen.movePredictionPointer": {
-      "value": "Przesuń wskaźnik prognozy"
-    },
-    "keyboardHelpDialog.meanAndMedianScreen.movePredictMeanInSmallerSteps": {
-      "value": "Przesuń mniejszymi krokami"
-    },
-    "keyboardHelpDialog.variabilityScreen.movePointerIntervalHandleOrIntervalBlock": {
-      "value": "Przesuń wskaźnik, uchwyty przedziałów lub blok interwałów"
-    },
-    "meter": {
-      "value": "m"
-    },
-    "meters": {
-      "value": "m"
-    },
-    "meanEqualsValueMetersPattern": {
-      "value": "Średnia = {{value}} m"
-    }
-  },
-  "om": {
-    "screen.median": {
-      "value": "Midiyaanii"
-    },
-    "screen.meanAndMedian": {
-      "value": "Giddu galeessaa & Midiyaanii"
-    },
-    "plotType": {
-      "value": "Gosa Pilootii"
-    },
-    "linePlot": {
-      "value": "Pilootii Sararaa"
-    },
-    "dotPlot": {
-      "value": "Pilootii Tuqaa"
-    },
-    "medianQuestion": {
-      "value": "Fageenyi dhiittaa idilee maali?"
-    },
-    "meanAndMedianQuestion": {
-      "value": "Tokkoon tokkoon dhiittaa giddugaleessaa fi midiyaanii irratti dhiibbaa akkamii qaba?"
-    },
-    "distanceInMeters": {
-      "value": "Fageenya (meetiraan)"
-    },
-    "youSortedTheData": {
-      "value": "Daataa tartiibesitteeta!"
-    },
-    "medianEqualsValue": {
-      "value": "Midiyaanii = {{value}}"
-    },
-    "valueUnknown": {
-      "value": "?"
-    },
-    "meanEqualsValue": {
-      "value": "Giddu galeessa = {{value}}"
-    },
-    "kickValue": {
-      "value": "Dhiiti {{value}}"
-    },
-    "sortData": {
-      "value": "Daataa tartiibessi"
-    },
-    "mean": {
-      "value": "Giddu galeessa"
-    },
-    "median": {
-      "value": "Midiyaanii"
-    },
-    "predictMean": {
-      "value": "Giddugaleessa Tilmaama"
-    },
-    "predictMedian": {
-      "value": "Midiyaanii Tilmaama"
-    },
-    "center-and-variability.title": {
-      "value": "Giddugaleessaa fi Jijjiirama"
     }
   }
 }
