@@ -1,17 +1,24 @@
 {
   "pressureNoise": {
-    "value": "د فشار غږ",
+    "value": "د فشار اوازونه",
     "history": [
       {
         "userId": 11191855,
         "timestamp": 1703444039381,
         "oldValue": "",
         "newValue": "د فشار غږ"
+      },
+      {
+        "userId": 11192058,
+        "timestamp": 1770619478606,
+        "oldValue": "د فشار غږ",
+        "newValue": "د فشار اوازونه",
+        "explanation": null
       }
     ]
   },
   "atmospheres": {
-    "value": "اتموسفیر",
+    "value": "atm",
     "history": [
       {
         "userId": 11191855,
@@ -24,6 +31,13 @@
         "timestamp": 1730976868026,
         "oldValue": "atm",
         "newValue": "اتموسفیر",
+        "explanation": null
+      },
+      {
+        "userId": 11192058,
+        "timestamp": 1770619478606,
+        "oldValue": "اتموسفیر",
+        "newValue": "atm",
         "explanation": null
       }
     ]
@@ -51,19 +65,13 @@
     ]
   },
   "picoseconds": {
-    "value": "",
+    "value": "ps",
     "history": [
       {
-        "userId": 11191855,
-        "timestamp": 1703444039381,
+        "userId": 11192058,
+        "timestamp": 1770619478606,
         "oldValue": "",
         "newValue": "ps"
-      },
-      {
-        "userId": 11314807,
-        "timestamp": 1730976868026,
-        "oldValue": "ps",
-        "newValue": ""
       }
     ]
   },
@@ -90,7 +98,7 @@
     ]
   },
   "wallCollisions": {
-    "value": "له دېوال سره ټکرونه",
+    "value": "له دېوال سره د ټکرونو شمېر",
     "history": [
       {
         "userId": 11191855,
@@ -103,6 +111,13 @@
         "timestamp": 1722162751238,
         "oldValue": "له دیوال سره ټکرونه",
         "newValue": "له دېوال سره ټکرونه",
+        "explanation": null
+      },
+      {
+        "userId": 11192058,
+        "timestamp": 1770619478606,
+        "oldValue": "له دېوال سره ټکرونه",
+        "newValue": "له دېوال سره د ټکرونو شمېر",
         "explanation": null
       }
     ]
@@ -214,24 +229,38 @@
     ]
   },
   "holdConstant.title": {
-    "value": "ثابت ساتل",
+    "value": "ثابت یې وساتئ",
     "history": [
       {
         "userId": 11191855,
         "timestamp": 1703444039381,
         "oldValue": "",
         "newValue": "ثابت ساتل"
+      },
+      {
+        "userId": 11192058,
+        "timestamp": 1770619478606,
+        "oldValue": "ثابت ساتل",
+        "newValue": "ثابت یې وساتئ",
+        "explanation": null
       }
     ]
   },
   "holdConstant.temperature": {
-    "value": "حرارت (T)",
+    "value": "تودوخه(T)",
     "history": [
       {
         "userId": 11191855,
         "timestamp": 1703444039381,
         "oldValue": "",
         "newValue": "حرارت (T)"
+      },
+      {
+        "userId": 11192058,
+        "timestamp": 1770619478606,
+        "oldValue": "حرارت (T)",
+        "newValue": "تودوخه(T)",
+        "explanation": null
       }
     ]
   },
@@ -302,13 +331,20 @@
     ]
   },
   "particles": {
-    "value": "ذرات",
+    "value": "ذرې",
     "history": [
       {
         "userId": 11191855,
         "timestamp": 1703444039381,
         "oldValue": "",
         "newValue": "ذرات"
+      },
+      {
+        "userId": 11192058,
+        "timestamp": 1770619478606,
+        "oldValue": "ذرات",
+        "newValue": "ذرې",
+        "explanation": null
       }
     ]
   },
@@ -368,13 +404,20 @@
     ]
   },
   "screen.ideal": {
-    "value": "ایدیال",
+    "value": "ایډیال",
     "history": [
       {
         "userId": 11191855,
         "timestamp": 1703444039381,
         "oldValue": "",
         "newValue": "ایدیال"
+      },
+      {
+        "userId": 11192058,
+        "timestamp": 1770619478606,
+        "oldValue": "ایدیال",
+        "newValue": "ایډیال",
+        "explanation": null
       }
     ]
   },
@@ -496,6 +539,28 @@
         "timestamp": 1730976868026,
         "oldValue": "",
         "newValue": "د یوال پر ځای کول"
+      }
+    ]
+  },
+  "pressureNoiseDescription": {
+    "value": "د دې لپاره چې واقعي ښکاره شي فشار سنج ته یو څه غږونه اضافه کړئ .",
+    "history": [
+      {
+        "userId": 11192058,
+        "timestamp": 1770619478606,
+        "oldValue": "",
+        "newValue": "د دې لپاره چې واقعي ښکاره شي فشار سنج ته یو څه غږونه اضافه کړئ ."
+      }
+    ]
+  },
+  "keyboardHelpDialog.changeUnits": {
+    "value": "د واحداتو بدلون",
+    "history": [
+      {
+        "userId": 11192058,
+        "timestamp": 1770619478606,
+        "oldValue": "",
+        "newValue": "د واحداتو بدلون"
       }
     ]
   }
