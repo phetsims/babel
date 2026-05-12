@@ -22,13 +22,20 @@
     ]
   },
   "screen.sum": {
-    "value": "חיבור",
+    "value": "סכום",
     "history": [
       {
         "userId": 282815,
         "timestamp": 1756470267420,
         "oldValue": "",
         "newValue": "חיבור"
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1778610676165,
+        "oldValue": "חיבור",
+        "newValue": "סכום",
+        "explanation": null
       }
     ]
   },
@@ -66,13 +73,20 @@
     ]
   },
   "addends": {
-    "value": "הוספה",
+    "value": "ערכים",
     "history": [
       {
         "userId": 282815,
         "timestamp": 1756470267420,
         "oldValue": "",
         "newValue": "הוספה"
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1778610676165,
+        "oldValue": "הוספה",
+        "newValue": "ערכים",
+        "explanation": null
       }
     ]
   },
@@ -99,13 +113,20 @@
     ]
   },
   "automaticallyHearPhraseDescription": {
-    "value": "שמע את הביטוי באופן אוטומטי באינטראקציה.",
+    "value": "שמע את הביטוי באופן אוטומטי בכל פעם שהתוספות משתנות.\nכאשר מופעלת הקריאה האוטומטית עלולה להפריע לקוראי המסך.",
     "history": [
       {
         "userId": 282815,
         "timestamp": 1756470267420,
         "oldValue": "",
         "newValue": "שמע את הביטוי באופן אוטומטי באינטראקציה."
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1778610676165,
+        "oldValue": "שמע את הביטוי באופן אוטומטי באינטראקציה.",
+        "newValue": "שמע את הביטוי באופן אוטומטי בכל פעם שהתוספות משתנות.\nכאשר מופעלת הקריאה האוטומטית עלולה להפריע לקוראי המסך.",
+        "explanation": null
       }
     ]
   },
@@ -396,24 +417,38 @@
     ]
   },
   "numberModelTypeDescription": {
-    "value": "בר בין ייצוג מספר מסורתי או דגם עמודות יחסי.",
+    "value": "בחרו בין ייצוג קשרים בין מספרים מסורתי או דגם עמודות יחסי.",
     "history": [
       {
         "userId": 282815,
         "timestamp": 1756470267420,
         "oldValue": "",
         "newValue": "בר בין ייצוג מספר מסורתי או דגם עמודות יחסי."
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1778610676165,
+        "oldValue": "בר בין ייצוג מספר מסורתי או דגם עמודות יחסי.",
+        "newValue": "בחרו בין ייצוג קשרים בין מספרים מסורתי או דגם עמודות יחסי.",
+        "explanation": null
       }
     ]
   },
   "phrase": {
-    "value": "ביטוי",
+    "value": "ביטוי מילולי",
     "history": [
       {
         "userId": 282815,
         "timestamp": 1756470267420,
         "oldValue": "",
         "newValue": "ביטוי"
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1778610676165,
+        "oldValue": "ביטוי",
+        "newValue": "ביטוי מילולי",
+        "explanation": null
       }
     ]
   },
@@ -473,13 +508,20 @@
     ]
   },
   "tickNumbers": {
-    "value": "מספר כרטיסים",
+    "value": "מספר שנתות",
     "history": [
       {
         "userId": 282815,
         "timestamp": 1756470267420,
         "oldValue": "",
         "newValue": "מספר כרטיסים"
+      },
+      {
+        "userId": 282815,
+        "timestamp": 1778610676165,
+        "oldValue": "מספר כרטיסים",
+        "newValue": "מספר שנתות",
+        "explanation": null
       }
     ]
   },
@@ -502,6 +544,171 @@
         "timestamp": 1756470267420,
         "oldValue": "",
         "newValue": "סך הקפיצות"
+      }
+    ]
+  },
+  "screen.game": {
+    "value": "משחק",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1778610676165,
+        "oldValue": "",
+        "newValue": "משחק"
+      }
+    ]
+  },
+  "barModelLowercase": {
+    "value": "דגם עמודות",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1778610676165,
+        "oldValue": "",
+        "newValue": "דגם עמודות"
+      }
+    ]
+  },
+  "gameScreen.infoDialog.levelWithDescription": {
+    "value": "רמה {{level}}: {{description}}",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1778610676165,
+        "oldValue": "",
+        "newValue": "רמה {{level}}: {{description}}"
+      }
+    ]
+  },
+  "gameScreen.levelDescriptions.level1": {
+    "value": "ערך נעלם ב{{numberModelType}} ({{yValueMin}}-{{yValueMax}})",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1778610676165,
+        "oldValue": "",
+        "newValue": "ערך נעלם ב{{numberModelType}} ({{yValueMin}}-{{yValueMax}})"
+      }
+    ]
+  },
+  "gameScreen.levelDescriptions.level2": {
+    "value": "ערך נעלם ב{{numberModelType}} ({{yValue}} בלבד)",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1778610676165,
+        "oldValue": "",
+        "newValue": "ערך נעלם ב{{numberModelType}} ({{yValue}} בלבד)"
+      }
+    ]
+  },
+  "gameScreen.levelDescriptions.level3": {
+    "value": "ערך נעלם במשוואות פירוק לגורמים ({{yValue}} בלבד)",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1778610676165,
+        "oldValue": "",
+        "newValue": "ערך נעלם במשוואות פירוק לגורמים ({{yValue}} בלבד)"
+      }
+    ]
+  },
+  "gameScreen.levelDescriptions.level4": {
+    "value": "ערך נעלם במשוואת חיבור ({{yValue}} בלבד)",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1778610676165,
+        "oldValue": "",
+        "newValue": "ערך נעלם במשוואת חיבור ({{yValue}} בלבד)"
+      }
+    ]
+  },
+  "gameScreen.levelDescriptions.level5": {
+    "value": "ערך נעלם ב{{numberModelType}} ({{yValueMin}}-{{yValueMax}})",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1778610676165,
+        "oldValue": "",
+        "newValue": "ערך נעלם ב{{numberModelType}} ({{yValueMin}}-{{yValueMax}})"
+      }
+    ]
+  },
+  "gameScreen.levelDescriptions.level6": {
+    "value": "ערך נעם במשוואות חיסור ({{yValueMin}}-{{yValueMax}})",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1778610676165,
+        "oldValue": "",
+        "newValue": "ערך נעם במשוואות חיסור ({{yValueMin}}-{{yValueMax}})"
+      }
+    ]
+  },
+  "gameScreen.levelDescriptions.level7": {
+    "value": "ערך נעלם או סכום במשוואת חיבור ({{yValueMin}}-{{yValueMax}})",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1778610676165,
+        "oldValue": "",
+        "newValue": "ערך נעלם או סכום במשוואת חיבור ({{yValueMin}}-{{yValueMax}})"
+      }
+    ]
+  },
+  "gameScreen.levelDescriptions.level8": {
+    "value": "משוואות עם ({{yValueMin}}-{{yValueMax}}) שנתות",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1778610676165,
+        "oldValue": "",
+        "newValue": "משוואות עם ({{yValueMin}}-{{yValueMax}}) שנתות"
+      }
+    ]
+  },
+  "keyboardHelpDialog.gameScreen.moveKittenItemHeading": {
+    "value": "הזזת החתול",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1778610676165,
+        "oldValue": "",
+        "newValue": "הזזת החתול"
+      }
+    ]
+  },
+  "levelPattern": {
+    "value": "רמה {{level}}",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1778610676165,
+        "oldValue": "",
+        "newValue": "רמה {{level}}"
+      }
+    ]
+  },
+  "numberBondLowercase": {
+    "value": "מספר קשרים",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1778610676165,
+        "oldValue": "",
+        "newValue": "מספר קשרים"
+      }
+    ]
+  },
+  "tryAgain": {
+    "value": "נסו שנית",
+    "history": [
+      {
+        "userId": 282815,
+        "timestamp": 1778610676165,
+        "oldValue": "",
+        "newValue": "נסו שנית"
       }
     ]
   }
