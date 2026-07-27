@@ -23,18 +23,6 @@
       }
     ]
   },
-  "ControlPanel.BuildAtmosphere": {
-    "value": ""
-  },
-  "ControlPanel.CH4": {
-    "value": ""
-  },
-  "ControlPanel.CO": {
-    "value": ""
-  },
-  "ControlPanel.CO2": {
-    "value": ""
-  },
   "ControlPanel.CarbonDioxide": {
     "value": "Карбон диоксиді",
     "history": [
@@ -58,9 +46,6 @@
         "explanation": null
       }
     ]
-  },
-  "ControlPanel.H2O": {
-    "value": ""
   },
   "ControlPanel.Methane": {
     "value": "Метан",
@@ -98,12 +83,6 @@
       }
     ]
   },
-  "ControlPanel.N2": {
-    "value": ""
-  },
-  "ControlPanel.NO2": {
-    "value": ""
-  },
   "ControlPanel.Nitrogen": {
     "value": "Азот",
     "history": [
@@ -117,7 +96,7 @@
     ]
   },
   "ControlPanel.NitrogenDioxide": {
-    "value": "Азот диокиді",
+    "value": "Азот диоксиді",
     "history": [
       {
         "userId": 456246,
@@ -125,14 +104,15 @@
         "oldValue": "",
         "newValue": "Азот диокиді",
         "explanation": null
+      },
+      {
+        "userId": 11596119,
+        "timestamp": 1785113019488,
+        "oldValue": "Азот диокиді",
+        "newValue": "Азот диоксиді",
+        "explanation": null
       }
     ]
-  },
-  "ControlPanel.O2": {
-    "value": ""
-  },
-  "ControlPanel.O3": {
-    "value": ""
   },
   "ControlPanel.Oxygen": {
     "value": "Оттегі",
@@ -324,7 +304,7 @@
     ]
   },
   "SpectrumWindow.gammaRayBandLabel": {
-    "value": "Гамма сәулелену",
+    "value": "Гамма<br>сәулелену</br>",
     "history": [
       {
         "userId": 456246,
@@ -332,11 +312,18 @@
         "oldValue": "",
         "newValue": "Гамма сәулелену",
         "explanation": null
+      },
+      {
+        "userId": 11596119,
+        "timestamp": 1785113019488,
+        "oldValue": "Гамма сәулелену",
+        "newValue": "Гамма<br>сәулелену</br>",
+        "explanation": null
       }
     ]
   },
   "SpectrumWindow.infraredBandLabel": {
-    "value": "Инфрақызыл сәулелену",
+    "value": "Инфрақызыл<br>сәулелену</br>",
     "history": [
       {
         "userId": 456246,
@@ -350,6 +337,13 @@
         "timestamp": 1502785128055,
         "oldValue": "Инфрақызыл",
         "newValue": "Инфрақызыл сәулелену",
+        "explanation": null
+      },
+      {
+        "userId": 11596119,
+        "timestamp": 1785113019488,
+        "oldValue": "Инфрақызыл сәулелену",
+        "newValue": "Инфрақызыл<br>сәулелену</br>",
         "explanation": null
       }
     ]
@@ -367,7 +361,7 @@
     ]
   },
   "SpectrumWindow.microwaveBandLabel": {
-    "value": "Микротолқынды",
+    "value": "Микро-<br>толқындары</br>",
     "history": [
       {
         "userId": 456246,
@@ -375,11 +369,18 @@
         "oldValue": "",
         "newValue": "Микротолқынды",
         "explanation": null
+      },
+      {
+        "userId": 11596119,
+        "timestamp": 1785113019488,
+        "oldValue": "Микротолқынды",
+        "newValue": "Микро-<br>толқындары</br>",
+        "explanation": null
       }
     ]
   },
   "SpectrumWindow.radioBandLabel": {
-    "value": "Радиотолқындар",
+    "value": "Радио-<br>толқындары</br>",
     "history": [
       {
         "userId": 456246,
@@ -393,6 +394,13 @@
         "timestamp": 1502785128055,
         "oldValue": "Радио",
         "newValue": "Радиотолқындар",
+        "explanation": null
+      },
+      {
+        "userId": 11596119,
+        "timestamp": 1785113019488,
+        "oldValue": "Радиотолқындар",
+        "newValue": "Радио-<br>толқындары</br>",
         "explanation": null
       }
     ]
@@ -417,7 +425,7 @@
     ]
   },
   "SpectrumWindow.ultravioletBandLabel": {
-    "value": "Ультрафиолет",
+    "value": "Ультра-<br>күлгін<br>сәулелену</br>",
     "history": [
       {
         "userId": 456246,
@@ -425,17 +433,31 @@
         "oldValue": "",
         "newValue": "Ультрафиолет",
         "explanation": null
+      },
+      {
+        "userId": 11596119,
+        "timestamp": 1785113019488,
+        "oldValue": "Ультрафиолет",
+        "newValue": "Ультра-<br>күлгін<br>сәулелену</br>",
+        "explanation": null
       }
     ]
   },
   "SpectrumWindow.visibleBandLabel": {
-    "value": "Көрінетін",
+    "value": "Көрінетін жарық",
     "history": [
       {
         "userId": 456246,
         "timestamp": 1502446911380,
         "oldValue": "",
         "newValue": "Көрінетін",
+        "explanation": null
+      },
+      {
+        "userId": 11596119,
+        "timestamp": 1785113019488,
+        "oldValue": "Көрінетін",
+        "newValue": "Көрінетін жарық",
         "explanation": null
       }
     ]
@@ -453,7 +475,7 @@
     ]
   },
   "SpectrumWindow.xrayBandLabel": {
-    "value": "Рентген сәулелері",
+    "value": "Рентген<br>сәулелері",
     "history": [
       {
         "userId": 456246,
@@ -467,6 +489,13 @@
         "timestamp": 1502785128055,
         "oldValue": "Рентген",
         "newValue": "Рентген сәулелері",
+        "explanation": null
+      },
+      {
+        "userId": 11596119,
+        "timestamp": 1785113019488,
+        "oldValue": "Рентген сәулелері",
+        "newValue": "Рентген<br>сәулелері",
         "explanation": null
       }
     ]
