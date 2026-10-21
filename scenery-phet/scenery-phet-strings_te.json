@@ -601,13 +601,20 @@
     ]
   },
   "keyboardHelpDialog.comboBox.popUpListPattern": {
-    "value": "1. Pop up list of {{thingPlural}}",
+    "value": "1. Show {{thingPlural}}",
     "history": [
       {
         "userId": 789806,
         "timestamp": 1657474917165,
         "oldValue": "",
         "newValue": "1. Pop up list of {{thingPlural}}"
+      },
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "1. Pop up list of {{thingPlural}}",
+        "newValue": "1. Show {{thingPlural}}",
+        "explanation": null
       }
     ]
   },
@@ -623,24 +630,38 @@
     ]
   },
   "keyboardHelpDialog.comboBox.chooseNewPattern": {
-    "value": "3. Choose new {{thingSingular}}",
+    "value": "3. Change {{thingSingular}}",
     "history": [
       {
         "userId": 789806,
         "timestamp": 1657474917165,
         "oldValue": "",
         "newValue": "3. Choose new {{thingSingular}}"
+      },
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "3. Choose new {{thingSingular}}",
+        "newValue": "3. Change {{thingSingular}}",
+        "explanation": null
       }
     ]
   },
   "keyboardHelpDialog.comboBox.closeWithoutChanging": {
-    "value": "4. Close list without changing",
+    "value": "4. Close without changing",
     "history": [
       {
         "userId": 789806,
         "timestamp": 1657474917165,
         "oldValue": "",
         "newValue": "4. Close list without changing"
+      },
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "4. Close list without changing",
+        "newValue": "4. Close without changing",
+        "explanation": null
       }
     ]
   },
@@ -711,7 +732,7 @@
     ]
   },
   "keyboardHelpDialog.comboBox.option": {
-    "value": "option",
+    "value": "choice",
     "history": [
       {
         "userId": 789806,
@@ -724,11 +745,18 @@
         "timestamp": 1657623398132,
         "oldValue": "ఎంపిక",
         "newValue": "option"
+      },
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "option",
+        "newValue": "choice",
+        "explanation": null
       }
     ]
   },
   "keyboardHelpDialog.comboBox.options": {
-    "value": "options",
+    "value": "choices",
     "history": [
       {
         "userId": 789806,
@@ -741,6 +769,13 @@
         "timestamp": 1657623398132,
         "oldValue": "ఎంపికలు ",
         "newValue": "options"
+      },
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "options",
+        "newValue": "choices",
+        "explanation": null
       }
     ]
   },
@@ -818,13 +853,20 @@
     ]
   },
   "keyboardHelpDialog.comboBox.headingString": {
-    "value": "Pop open menu",
+    "value": "Change Choice",
     "history": [
       {
         "userId": 789806,
         "timestamp": 1657474917165,
         "oldValue": "",
         "newValue": "Pop open menu"
+      },
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "Pop open menu",
+        "newValue": "Change Choice",
+        "explanation": null
       }
     ]
   },
@@ -1739,6 +1781,292 @@
         "timestamp": 1792074841057,
         "oldValue": "",
         "newValue": "{{value}} years"
+      }
+    ]
+  },
+  "units.femtoseconds.symbol": {
+    "value": "fs",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "fs"
+      }
+    ]
+  },
+  "units.femtoseconds.symbolPattern": {
+    "value": "{{value}} fs",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "{{value}} fs"
+      }
+    ]
+  },
+  "units.kilograms.symbol": {
+    "value": "kg",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "kg"
+      }
+    ]
+  },
+  "units.kilograms.symbolPattern": {
+    "value": "{{value}} kg",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "{{value}} kg"
+      }
+    ]
+  },
+  "units.kilometersPerSecond.symbol": {
+    "value": "km/s",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "km/s"
+      }
+    ]
+  },
+  "units.kilometersPerSecond.symbolPattern": {
+    "value": "{{value}} km/s",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "{{value}} km/s"
+      }
+    ]
+  },
+  "units.metersPerSecond.symbol": {
+    "value": "m/s",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "m/s"
+      }
+    ]
+  },
+  "units.metersPerSecond.symbolPattern": {
+    "value": "{{value}} m/s",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "{{value}} m/s"
+      }
+    ]
+  },
+  "units.meters.symbol": {
+    "value": "m",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "m"
+      }
+    ]
+  },
+  "units.meters.symbolPattern": {
+    "value": "{{value}} m",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "{{value}} m"
+      }
+    ]
+  },
+  "units.micrometers.symbol": {
+    "value": "μm",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "μm"
+      }
+    ]
+  },
+  "units.micrometers.symbolPattern": {
+    "value": "{{value}} μm",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "{{value}} μm"
+      }
+    ]
+  },
+  "units.microseconds.symbol": {
+    "value": "μs",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "μs"
+      }
+    ]
+  },
+  "units.microseconds.symbolPattern": {
+    "value": "{{value}} μs",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "{{value}} μs"
+      }
+    ]
+  },
+  "units.millimeters.symbol": {
+    "value": "mm",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "mm"
+      }
+    ]
+  },
+  "units.millimeters.symbolPattern": {
+    "value": "{{value}} mm",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "{{value}} mm"
+      }
+    ]
+  },
+  "units.milliseconds.symbol": {
+    "value": "ms",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "ms"
+      }
+    ]
+  },
+  "units.milliseconds.symbolPattern": {
+    "value": "{{value}} ms",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "{{value}} ms"
+      }
+    ]
+  },
+  "units.nanometers.symbol": {
+    "value": "nm",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "nm"
+      }
+    ]
+  },
+  "units.nanometers.symbolPattern": {
+    "value": "{{value}} nm",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "{{value}} nm"
+      }
+    ]
+  },
+  "units.nanoseconds.symbol": {
+    "value": "ns",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "ns"
+      }
+    ]
+  },
+  "units.nanoseconds.symbolPattern": {
+    "value": "{{value}} ns",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "{{value}} ns"
+      }
+    ]
+  },
+  "units.picometers.symbol": {
+    "value": "pm",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "pm"
+      }
+    ]
+  },
+  "units.picometers.symbolPattern": {
+    "value": "{{value}} pm",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "{{value}} pm"
+      }
+    ]
+  },
+  "units.picoseconds.symbol": {
+    "value": "ps",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "ps"
+      }
+    ]
+  },
+  "units.picoseconds.symbolPattern": {
+    "value": "{{value}} ps",
+    "history": [
+      {
+        "userId": 789806,
+        "timestamp": 1792575288456,
+        "oldValue": "",
+        "newValue": "{{value}} ps"
       }
     ]
   }
