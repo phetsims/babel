@@ -1,4 +1,386 @@
 {
+  "pl": {
+    "screen.manyWells": {
+      "value": "Wiele studni"
+    },
+    "potentials.finiteSquare": {
+      "value": "Skończona prostokątna"
+    },
+    "potentials.poschlTeller": {
+      "value": "Pöschl-Teller"
+    },
+    "energyLevel": {
+      "value": "Poziom energetyczny"
+    },
+    "energyLevelPattern": {
+      "value": "E<sub>{{energyLevelNumber}}</sub>"
+    },
+    "electricField": {
+      "value": "Pole elektryczne"
+    },
+    "numberOfWells": {
+      "value": "Liczba studni"
+    },
+    "potentials.harmonicOscillator": {
+      "value": "Oscylator harmoniczny"
+    },
+    "angularFrequencyPattern": {
+      "value": "{{omega}} = {{value}} {{units}}"
+    },
+    "magnificationPower": {
+      "value": "{{value}}×"
+    },
+    "slowest": {
+      "value": "wolno"
+    },
+    "fastest": {
+      "value": "szybko"
+    },
+    "magnifier": {
+      "value": "Lupa"
+    },
+    "values": {
+      "value": "Wartości"
+    },
+    "potentials.asymmetricTriangle": {
+      "value": "Asymetryczna trójkątna"
+    },
+    "potentials.coulomb": {
+      "value": "Coulomb"
+    },
+    "potentials.infiniteSquare": {
+      "value": "Nieskończona prostokątna"
+    },
+    "potentials.morse": {
+      "value": "Morse"
+    },
+    "potentials.steppedInfinite": {
+      "value": "Schodkowa nieskończona"
+    },
+    "potentials.doubleSquare": {
+      "value": "Podwójna prostokątna"
+    },
+    "stepHeightPattern": {
+      "value": "wysokość schodka = {{value}} {{units}}"
+    },
+    "separationPattern": {
+      "value": "separacja = {{value}} {{units}}"
+    },
+    "spacingPattern": {
+      "value": "odstęp = {{value}} {{units}}"
+    },
+    "widthPattern": {
+      "value": "szerokość = {{value}} {{units}}"
+    },
+    "depthPattern": {
+      "value": "głębokość = {{value}} {{units}}"
+    },
+    "screen.superposition": {
+      "value": "Superpozycja"
+    },
+    "superpositionStates.custom1": {
+      "value": "Własna 1"
+    },
+    "superpositionStates.custom2": {
+      "value": "Własna 2"
+    },
+    "superpositionStates.custom3": {
+      "value": "Własna 3"
+    },
+    "superpositionStates.custom4": {
+      "value": "Własna 4"
+    },
+    "superpositionStates.custom5": {
+      "value": "Własna 5"
+    },
+    "superpositionStates.preset1.groundState0": {
+      "value": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub>"
+    },
+    "superpositionStates.preset1.groundState1": {
+      "value": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset2.groundState0": {
+      "value": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset2.groundState1": {
+      "value": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>3</sub>"
+    },
+    "superpositionStates.preset3.groundState0": {
+      "value": "{{a}}{{psi}}<sub>0</sub> - {{a}}{{psi}}<sub>1</sub>"
+    },
+    "superpositionStates.preset3.groundState1": {
+      "value": "{{a}}{{psi}}<sub>1</sub> - {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset4.groundState0": {
+      "value": "-{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub>"
+    },
+    "superpositionStates.preset4.groundState1": {
+      "value": "-{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset5.groundState0": {
+      "value": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset5.groundState1": {
+      "value": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub> + {{a}}{{psi}}<sub>3</sub>"
+    },
+    "superpositionStates.wavePacket": {
+      "value": "Paczka falowa"
+    },
+    "incompatibleSuperpositionState": {
+      "value": "Stan niezgodnej superpozycji"
+    },
+    "superpositionState": {
+      "value": "Stan superpozycji"
+    },
+    "probabilityDensityDialogTitle": {
+      "value": "Gęstość prawdopodobieństwa"
+    },
+    "waveFunctionDialogTitle": {
+      "value": "Funkcja falowa"
+    },
+    "superpositionStateRequiresTwoOrMore": {
+      "value": "Stan superpozycji wymaga co najmniej dwóch niezerowych modułów."
+    },
+    "superpositionStateRequiresFinite": {
+      "value": "Stan superpozycji wymaga {{requiredNumber}} poziomów energetycznych.\nObecny potencjał ma {{actualNumber}} poziomy."
+    },
+    "superpositionStateRequiresInfinite": {
+      "value": "Stan superpozycji wymaga {{requiredNumber}} poziomów energetycznych.\nObecny potencjał ma nieskończenie wiele poziomów."
+    },
+    "energyLevelsSingular": {
+      "value": "Poziomy energetyczne: E<sub>{{groundStateNumber}}</sub>"
+    },
+    "energyLevelsPlural": {
+      "value": "Poziomy energetyczne: E<sub>{{groundStateNumber}}</sub> to E<sub>{{maxEnergyLevelNumber}}</sub>"
+    },
+    "energyLevelsInfinite": {
+      "value": "Poziomy energetyczne: E<sub>{{groundStateNumber}}</sub> do E<sub style=\"font-size: 20px;\">{{infinitySymbol}}</sub>"
+    },
+    "superpositionStateDialogTitle": {
+      "value": "Stan superpozycji: {{name}}"
+    },
+    "customDialogSubtitle": {
+      "value": "{{equation}}\ngdzie |{{c}}| to moduł, a {{phi}} to faza."
+    },
+    "pageNumberPattern": {
+      "value": "strona {{pageNumber}} z {{totalPages}}"
+    },
+    "presetDialogSubtitle": {
+      "value": "{{equation}}\ngdzie {{a}} to amplituda."
+    },
+    "clearButton": {
+      "value": "Wyczyść"
+    },
+    "normalizeAndSaveButton": {
+      "value": "Normalizuj i zapisz"
+    },
+    "screen.twoWells": {
+      "value": "Dwie studnie"
+    },
+    "mass": {
+      "value": "Masa"
+    },
+    "energyOffset": {
+      "value": "Przesunięcie energii"
+    },
+    "quantum-bound-states.title": {
+      "value": "Kwantowe stany związane"
+    },
+    "screen.oneWell": {
+      "value": "Jedna studnia"
+    }
+  },
+  "pt_BR": {
+    "screen.manyWells": {
+      "value": "Vários Poços"
+    },
+    "potentials.finiteSquare": {
+      "value": "Quadrado Finito"
+    },
+    "potentials.poschlTeller": {
+      "value": "Pöschl-Teller"
+    },
+    "energyLevel": {
+      "value": "Nível de Energia"
+    },
+    "energyLevelPattern": {
+      "value": "E<sub>{{energyLevelNumber}}</sub>"
+    },
+    "electricField": {
+      "value": "Campo Elétrico"
+    },
+    "numberOfWells": {
+      "value": "Número de Poços"
+    },
+    "potentials.harmonicOscillator": {
+      "value": "Oscilador Harmônico"
+    },
+    "angularFrequencyPattern": {
+      "value": "{{omega}} = {{value}} {{units}}"
+    },
+    "magnificationPower": {
+      "value": "{{value}}×"
+    },
+    "slowest": {
+      "value": "mais lento"
+    },
+    "fastest": {
+      "value": "mais rápido"
+    },
+    "magnifier": {
+      "value": "Lupa"
+    },
+    "values": {
+      "value": "Valores"
+    },
+    "potentials.asymmetricTriangle": {
+      "value": "Triângulo Assimétrico"
+    },
+    "potentials.coulomb": {
+      "value": "Coulomb"
+    },
+    "potentials.infiniteSquare": {
+      "value": "Quadrado Infinito"
+    },
+    "potentials.morse": {
+      "value": "Morse"
+    },
+    "potentials.steppedInfinite": {
+      "value": "Infinito com Degrau"
+    },
+    "potentials.doubleSquare": {
+      "value": "Duplo Quadrado"
+    },
+    "stepHeightPattern": {
+      "value": "altura do degrau = {{value}} {{units}}"
+    },
+    "separationPattern": {
+      "value": "separação = {{value}} {{units}}"
+    },
+    "spacingPattern": {
+      "value": "espaçamento = {{value}} {{units}}"
+    },
+    "widthPattern": {
+      "value": "largura = {{value}} {{units}}"
+    },
+    "depthPattern": {
+      "value": "profundidade = {{value}} {{units}}"
+    },
+    "screen.superposition": {
+      "value": "Superposição"
+    },
+    "superpositionStates.custom1": {
+      "value": "Personalizado 1"
+    },
+    "superpositionStates.custom2": {
+      "value": "Personalizado 2"
+    },
+    "superpositionStates.custom3": {
+      "value": "Personalizado 3"
+    },
+    "superpositionStates.custom4": {
+      "value": "Personalizado 4"
+    },
+    "superpositionStates.custom5": {
+      "value": "Personalizado 5"
+    },
+    "superpositionStates.preset1.groundState0": {
+      "value": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub>"
+    },
+    "superpositionStates.preset1.groundState1": {
+      "value": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset2.groundState0": {
+      "value": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset2.groundState1": {
+      "value": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>3</sub>"
+    },
+    "superpositionStates.preset3.groundState0": {
+      "value": "{{a}}{{psi}}<sub>0</sub> - {{a}}{{psi}}<sub>1</sub>"
+    },
+    "superpositionStates.preset3.groundState1": {
+      "value": "{{a}}{{psi}}<sub>1</sub> - {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset4.groundState0": {
+      "value": "-{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub>"
+    },
+    "superpositionStates.preset4.groundState1": {
+      "value": "-{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset5.groundState0": {
+      "value": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset5.groundState1": {
+      "value": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub> + {{a}}{{psi}}<sub>3</sub>"
+    },
+    "superpositionStates.wavePacket": {
+      "value": "Pacote de Onda"
+    },
+    "incompatibleSuperpositionState": {
+      "value": "Estado de Superposição Incompatível"
+    },
+    "superpositionState": {
+      "value": "Estado de Superposição"
+    },
+    "probabilityDensityDialogTitle": {
+      "value": "Densidade de Probabilidade"
+    },
+    "waveFunctionDialogTitle": {
+      "value": "Função de Onda"
+    },
+    "superpositionStateRequiresTwoOrMore": {
+      "value": "Um estado de superposição requer duas ou mais magnitudes não nulas."
+    },
+    "superpositionStateRequiresFinite": {
+      "value": "O Estado de Superposição requer {{requiredNumber}} níveis de energia.<br>O potencial atual possui {{actualNumber}} níveis de energia."
+    },
+    "superpositionStateRequiresInfinite": {
+      "value": "O Estado de Superposição requer {{requiredNumber}} níveis de energia.<br>O potencial atual possui infinitos níveis de energia."
+    },
+    "energyLevelsSingular": {
+      "value": "Níveis de Energia: E<sub>{{groundStateNumber}}</sub>"
+    },
+    "energyLevelsPlural": {
+      "value": "Níveis de Energia: E<sub>{{groundStateNumber}}</sub> para E<sub>{{maxEnergyLevelNumber}}</sub>"
+    },
+    "energyLevelsInfinite": {
+      "value": "Níveis de Energia: E<sub>{{groundStateNumber}}</sub> para E<sub style=\"font-size: 20px;\">{{infinitySymbol}}</sub>"
+    },
+    "superpositionStateDialogTitle": {
+      "value": "Estado de Superposição: {{name}}"
+    },
+    "customDialogSubtitle": {
+      "value": "{{equation}}<br>onde |{{c}}| é a magnitude e {{phi}} é a fase."
+    },
+    "pageNumberPattern": {
+      "value": "página {{pageNumber}} de {{totalPages}}"
+    },
+    "presetDialogSubtitle": {
+      "value": "{{equation}}<br>onde {{a}} é amplitude."
+    },
+    "clearButton": {
+      "value": "Limpar"
+    },
+    "normalizeAndSaveButton": {
+      "value": "Normalizar & Salvar"
+    },
+    "screen.twoWells": {
+      "value": "Dois Poços"
+    },
+    "mass": {
+      "value": "Massa"
+    },
+    "energyOffset": {
+      "value": "Compensação de Energia"
+    },
+    "quantum-bound-states.title": {
+      "value": "Estados Quânticos Ligados"
+    },
+    "screen.oneWell": {
+      "value": "Poço Único"
+    }
+  },
   "vi": {
     "screen.manyWells": {
       "value": "Nhiều giếng"
@@ -55,13 +437,13 @@
       "value": "Morse"
     },
     "potentials.steppedInfinite": {
-      "value": "Vô hạn từng bậc"
+      "value": "Vô hạn có bậc"
     },
     "potentials.doubleSquare": {
       "value": "Vuông kép"
     },
     "stepHeightPattern": {
-      "value": "step height = {{value}} {{units}}"
+      "value": "độ cao bậc = {{value}} {{units}}"
     },
     "separationPattern": {
       "value": "độ phân cách = {{value}} {{units}}"
@@ -74,6 +456,120 @@
     },
     "depthPattern": {
       "value": "độ sâu = {{value}} {{units}}"
+    },
+    "screen.superposition": {
+      "value": "Sự chồng chập"
+    },
+    "superpositionStates.custom1": {
+      "value": "Tuỳ chỉnh 1"
+    },
+    "superpositionStates.custom2": {
+      "value": "Tuỳ chỉnh 2"
+    },
+    "superpositionStates.custom3": {
+      "value": "Tuỳ chỉnh 3"
+    },
+    "superpositionStates.custom4": {
+      "value": "Tuỳ chỉnh 4"
+    },
+    "superpositionStates.custom5": {
+      "value": "Tuỳ chỉnh 5"
+    },
+    "superpositionStates.preset1.groundState0": {
+      "value": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub>"
+    },
+    "superpositionStates.preset1.groundState1": {
+      "value": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset2.groundState0": {
+      "value": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset2.groundState1": {
+      "value": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>3</sub>"
+    },
+    "superpositionStates.preset3.groundState0": {
+      "value": "{{a}}{{psi}}<sub>0</sub> - {{a}}{{psi}}<sub>1</sub>"
+    },
+    "superpositionStates.preset3.groundState1": {
+      "value": "{{a}}{{psi}}<sub>1</sub> - {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset4.groundState0": {
+      "value": "-{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub>"
+    },
+    "superpositionStates.preset4.groundState1": {
+      "value": "-{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset5.groundState0": {
+      "value": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset5.groundState1": {
+      "value": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub> + {{a}}{{psi}}<sub>3</sub>"
+    },
+    "superpositionStates.wavePacket": {
+      "value": "Gói sóng"
+    },
+    "incompatibleSuperpositionState": {
+      "value": "Trạng thái chồng chập không tương thích"
+    },
+    "superpositionState": {
+      "value": "Trạng thái chồng chập"
+    },
+    "probabilityDensityDialogTitle": {
+      "value": "Mật độ xác suất"
+    },
+    "waveFunctionDialogTitle": {
+      "value": "Hàm sóng"
+    },
+    "superpositionStateRequiresTwoOrMore": {
+      "value": "Một trạng thái chồng chập cần 2 hay các độ lớn khác 0"
+    },
+    "superpositionStateRequiresFinite": {
+      "value": "Superposition State requires {{requiredNumber}} energy levels.<br>The current potential has {{actualNumber}} energy levels."
+    },
+    "superpositionStateRequiresInfinite": {
+      "value": "Superposition State requires {{requiredNumber}} energy levels.<br>The current potential has infinite energy levels."
+    },
+    "energyLevelsSingular": {
+      "value": "Mức năng lượng: E<sub>{{groundStateNumber}}</sub>"
+    },
+    "energyLevelsPlural": {
+      "value": "Mức năng lượng: E<sub>{{groundStateNumber}}</sub> tới E<sub>{{maxEnergyLevelNumber}}</sub>"
+    },
+    "energyLevelsInfinite": {
+      "value": "Mức năng lượng: E<sub>{{groundStateNumber}}</sub> tới E<sub style=\"font-size: 20px;\">{{infinitySymbol}}</sub>"
+    },
+    "superpositionStateDialogTitle": {
+      "value": "Trạng thái chồng chập: {{name}}"
+    },
+    "customDialogSubtitle": {
+      "value": "{{equation}}<br>where |{{c}}| is magnitude and {{phi}} is phase."
+    },
+    "pageNumberPattern": {
+      "value": "page {{pageNumber}} of {{totalPages}}"
+    },
+    "presetDialogSubtitle": {
+      "value": "{{equation}}<br>where {{a}} is amplitude."
+    },
+    "clearButton": {
+      "value": "Xoá"
+    },
+    "normalizeAndSaveButton": {
+      "value": "Chuẩn hoá và lưu lại"
+    },
+    "screen.twoWells": {
+      "value": "Hai giếng"
+    },
+    "mass": {
+      "value": "Khối lượng"
+    },
+    "energyOffset": {
+      "value": "Độ dịch năng lượng"
+    },
+    "quantum-bound-states.title": {
+      "value": "Trạng thái liên kết lượng tử"
+    },
+    "screen.oneWell": {
+      "value": "Một giếng"
     }
   }
 }
