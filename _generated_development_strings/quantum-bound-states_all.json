@@ -1,4 +1,195 @@
 {
+  "da": {
+    "screen.manyWells": {
+      "value": "Mange brønde"
+    },
+    "potentials.finiteSquare": {
+      "value": "Endelig firkant"
+    },
+    "potentials.poschlTeller": {
+      "value": "Pöschl-Teller"
+    },
+    "energyLevel": {
+      "value": "Energiniveau"
+    },
+    "energyLevelPattern": {
+      "value": "E<sub>{{energyLevelNumber}}</sub>"
+    },
+    "electricField": {
+      "value": "Elektrisk felt"
+    },
+    "numberOfWells": {
+      "value": "Antal brønde"
+    },
+    "potentials.harmonicOscillator": {
+      "value": "Harmonisk svingning"
+    },
+    "angularFrequencyPattern": {
+      "value": "{{omega}} = {{value}} {{units}}"
+    },
+    "magnificationPower": {
+      "value": "{{value}}×"
+    },
+    "slowest": {
+      "value": "langsomst"
+    },
+    "fastest": {
+      "value": "hurtigst"
+    },
+    "magnifier": {
+      "value": "Forstørrelsesglas"
+    },
+    "values": {
+      "value": "Værdier"
+    },
+    "potentials.asymmetricTriangle": {
+      "value": "Asymmetrisk trekant"
+    },
+    "potentials.coulomb": {
+      "value": "Coulomb"
+    },
+    "potentials.infiniteSquare": {
+      "value": "Uendelig firkant"
+    },
+    "potentials.morse": {
+      "value": "Morse"
+    },
+    "potentials.steppedInfinite": {
+      "value": "Trinvis uendelighed"
+    },
+    "potentials.doubleSquare": {
+      "value": "Dobbelt kvadrat"
+    },
+    "stepHeightPattern": {
+      "value": "trinhøjde = {{value}} {{units}}"
+    },
+    "separationPattern": {
+      "value": "separation = {{value}} {{units}}"
+    },
+    "spacingPattern": {
+      "value": "afstand = {{value}} {{units}}"
+    },
+    "widthPattern": {
+      "value": "bredde = {{value}} {{units}}"
+    },
+    "depthPattern": {
+      "value": "dybte = {{value}} {{units}}"
+    },
+    "incompatibleSuperpositionState": {
+      "value": "Inkompatibel superpositions-tilstand"
+    },
+    "superpositionState": {
+      "value": "Superpositions-tilstand"
+    },
+    "superpositionStates.custom1": {
+      "value": "Tilpasset 1"
+    },
+    "superpositionStates.custom2": {
+      "value": "Tilpasset 2"
+    },
+    "superpositionStates.custom3": {
+      "value": "Tilpasset 3"
+    },
+    "superpositionStates.custom4": {
+      "value": "Tilpasset 4"
+    },
+    "superpositionStates.custom5": {
+      "value": "Tilpasset 5"
+    },
+    "superpositionStates.preset1.groundState0": {
+      "value": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub>"
+    },
+    "superpositionStates.preset1.groundState1": {
+      "value": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset2.groundState0": {
+      "value": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset2.groundState1": {
+      "value": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>3</sub>"
+    },
+    "superpositionStates.preset3.groundState0": {
+      "value": "{{a}}{{psi}}<sub>0</sub> - {{a}}{{psi}}<sub>1</sub>"
+    },
+    "superpositionStates.preset3.groundState1": {
+      "value": "{{a}}{{psi}}<sub>1</sub> - {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset4.groundState0": {
+      "value": "-{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub>"
+    },
+    "superpositionStates.preset4.groundState1": {
+      "value": "-{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset5.groundState0": {
+      "value": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset5.groundState1": {
+      "value": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub> + {{a}}{{psi}}<sub>3</sub>"
+    },
+    "superpositionStates.wavePacket": {
+      "value": "Bølgepakke"
+    },
+    "mass": {
+      "value": "Masse"
+    },
+    "energyOffset": {
+      "value": "Energikompensation"
+    },
+    "probabilityDensityDialogTitle": {
+      "value": "Sandsynlighedstæthed"
+    },
+    "waveFunctionDialogTitle": {
+      "value": "Bølgefunktion"
+    },
+    "superpositionStateRequiresTwoOrMore": {
+      "value": "En superpositionstilstand kræver to eller flere størrelser, der er forskellige fra nul."
+    },
+    "superpositionStateRequiresFinite": {
+      "value": "Superpositionstilstanden kræver {{requiredNumber}} energiniveauer.<br>Det nuværende potentiale har {{actualNumber}} energiniveauer."
+    },
+    "superpositionStateRequiresInfinite": {
+      "value": "Superpositionstilstanden kræver {{requiredNumber}} energiniveauer.<br>Det nuværende potentiale har uendelige energiniveauer."
+    },
+    "energyLevelsSingular": {
+      "value": "Energiniveauer: E<sub>{{groundStateNumber}}</sub>"
+    },
+    "energyLevelsPlural": {
+      "value": "Energiniveauer: E<sub>{{groundStateNumber}}</sub> til E<sub>{{maxEnergyLevelNumber}}</sub>"
+    },
+    "energyLevelsInfinite": {
+      "value": "Energiniveauer: E<sub>{{groundStateNumber}}</sub> til E<sub style=\"font-size: 20px;\">{{infinitySymbol}}</sub>"
+    },
+    "superpositionStateDialogTitle": {
+      "value": "Superpositionstilstand: {{name}}"
+    },
+    "customDialogSubtitle": {
+      "value": "{{equation}}<br>hvor |{{c}}| er størrelsen, og {{phi}} er fasen."
+    },
+    "pageNumberPattern": {
+      "value": "side {{pageNumber}} af {{totalPages}}"
+    },
+    "presetDialogSubtitle": {
+      "value": "{{equation}}<br>hvor {{a}} er amplitude."
+    },
+    "clearButton": {
+      "value": "Klar"
+    },
+    "normalizeAndSaveButton": {
+      "value": "Normalisér og gem"
+    },
+    "quantum-bound-states.title": {
+      "value": "Kvantebundet tilstand"
+    },
+    "screen.oneWell": {
+      "value": "En brønd"
+    },
+    "screen.superposition": {
+      "value": "Superposition"
+    },
+    "screen.twoWells": {
+      "value": "To brønde"
+    }
+  },
   "pl": {
     "screen.manyWells": {
       "value": "Wiele studni"
