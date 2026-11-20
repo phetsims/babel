@@ -22,13 +22,20 @@
     ]
   },
   "energyLevel": {
-    "value": "Elektrisch niveau",
+    "value": "Energie niveau",
     "history": [
       {
         "userId": 148415,
         "timestamp": 1795166335843,
         "oldValue": "",
         "newValue": "Elektrisch niveau"
+      },
+      {
+        "userId": 148415,
+        "timestamp": 1795169278668,
+        "oldValue": "Elektrisch niveau",
+        "newValue": "Energie niveau",
+        "explanation": null
       }
     ]
   },
@@ -205,6 +212,259 @@
         "timestamp": 1795166335843,
         "oldValue": "",
         "newValue": "breedte = {{value}} {{units}}"
+      }
+    ]
+  },
+  "clearButton": {
+    "value": "Wis",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1795169278668,
+        "oldValue": "",
+        "newValue": "Wis"
+      }
+    ]
+  },
+  "customDialogSubtitle": {
+    "value": "{{equation}}<br>waar |{{c}}| is grootte en {{phi}} is fase.",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1795169278668,
+        "oldValue": "",
+        "newValue": "{{equation}}<br>waar |{{c}}| is grootte en {{phi}} is fase."
+      }
+    ]
+  },
+  "energyLevelsInfinite": {
+    "value": "Energieniveaus: E<sub>{{groundStateNumber}}</sub> tot E<sub style=\"font-size: 20px;\">{{infinitySymbol}}</sub>",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1795169278668,
+        "oldValue": "",
+        "newValue": "Energieniveaus: E<sub>{{groundStateNumber}}</sub> tot E<sub style=\"font-size: 20px;\">{{infinitySymbol}}</sub>"
+      }
+    ]
+  },
+  "energyLevelsPlural": {
+    "value": "Energieniveaus: E<sub>{{groundStateNumber}}</sub> tot E<sub>{{maxEnergyLevelNumber}}</sub>",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1795169278668,
+        "oldValue": "",
+        "newValue": "Energieniveaus: E<sub>{{groundStateNumber}}</sub> tot E<sub>{{maxEnergyLevelNumber}}</sub>"
+      }
+    ]
+  },
+  "energyLevelsSingular": {
+    "value": "Energieniveaus: E<sub>{{groundStateNumber}}</sub>",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1795169278668,
+        "oldValue": "",
+        "newValue": "Energieniveaus: E<sub>{{groundStateNumber}}</sub>"
+      }
+    ]
+  },
+  "incompatibleSuperpositionState": {
+    "value": "Onverenigbare superpositietoestand",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1795169278668,
+        "oldValue": "",
+        "newValue": "Onverenigbare superpositietoestand"
+      }
+    ]
+  },
+  "normalizeAndSaveButton": {
+    "value": "Normaliseer & bewaar",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1795169278668,
+        "oldValue": "",
+        "newValue": "Normaliseer & bewaar"
+      }
+    ]
+  },
+  "pageNumberPattern": {
+    "value": "pagina {{pageNumber}} van {{totalPages}}",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1795169278668,
+        "oldValue": "",
+        "newValue": "pagina {{pageNumber}} van {{totalPages}}"
+      }
+    ]
+  },
+  "presetDialogSubtitle": {
+    "value": "{{equation}}<br>waar {{a}} is amplitude.",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1795169278668,
+        "oldValue": "",
+        "newValue": "{{equation}}<br>waar {{a}} is amplitude."
+      }
+    ]
+  },
+  "probabilityDensityDialogTitle": {
+    "value": "Waarschijnlijkheidsdichtheid",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1795169278668,
+        "oldValue": "",
+        "newValue": "Waarschijnlijkheidsdichtheid"
+      }
+    ]
+  },
+  "screen.superposition": {
+    "value": "Superpositie",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1795169278668,
+        "oldValue": "",
+        "newValue": "Superpositie"
+      }
+    ]
+  },
+  "superpositionState": {
+    "value": "Superpositietoestand",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1795169278668,
+        "oldValue": "",
+        "newValue": "Superpositietoestand"
+      }
+    ]
+  },
+  "superpositionStateDialogTitle": {
+    "value": "Superpositietoestand: {{name}}",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1795169278668,
+        "oldValue": "",
+        "newValue": "Superpositietoestand: {{name}}"
+      }
+    ]
+  },
+  "superpositionStateRequiresFinite": {
+    "value": "De superpositietoestand vereist {{requiredNumber}} energieniveaus.<br>De huidige potentiaal heeft {{actualNumber}} energieniveaus.",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1795169278668,
+        "oldValue": "",
+        "newValue": "De superpositietoestand vereist {{requiredNumber}} energieniveaus.<br>De huidige potentiaal heeft {{actualNumber}} energieniveaus."
+      }
+    ]
+  },
+  "superpositionStateRequiresInfinite": {
+    "value": "De superpositietoestand vereist {{requiredNumber}} energieniveaus.<br>De huidige potentiaal heeft oneindig veel energieniveaus.",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1795169278668,
+        "oldValue": "",
+        "newValue": "De superpositietoestand vereist {{requiredNumber}} energieniveaus.<br>De huidige potentiaal heeft oneindig veel energieniveaus."
+      }
+    ]
+  },
+  "superpositionStateRequiresTwoOrMore": {
+    "value": "Een superpositietoestand vereist twee of meer amplitudes die ongelijk zijn aan nul.",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1795169278668,
+        "oldValue": "",
+        "newValue": "Een superpositietoestand vereist twee of meer amplitudes die ongelijk zijn aan nul."
+      }
+    ]
+  },
+  "superpositionStates.custom1": {
+    "value": "Aangepast 1",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1795169278668,
+        "oldValue": "",
+        "newValue": "Aangepast 1"
+      }
+    ]
+  },
+  "superpositionStates.custom2": {
+    "value": "Aangepast 2",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1795169278668,
+        "oldValue": "",
+        "newValue": "Aangepast 2"
+      }
+    ]
+  },
+  "superpositionStates.custom3": {
+    "value": "Aangepast 3",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1795169278668,
+        "oldValue": "",
+        "newValue": "Aangepast 3"
+      }
+    ]
+  },
+  "superpositionStates.custom4": {
+    "value": "Aangepast 4",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1795169278668,
+        "oldValue": "",
+        "newValue": "Aangepast 4"
+      }
+    ]
+  },
+  "superpositionStates.custom5": {
+    "value": "Aangepast 5",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1795169278668,
+        "oldValue": "",
+        "newValue": "Aangepast 5"
+      }
+    ]
+  },
+  "superpositionStates.wavePacket": {
+    "value": "Golfpakket",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1795169278668,
+        "oldValue": "",
+        "newValue": "Golfpakket"
+      }
+    ]
+  },
+  "waveFunctionDialogTitle": {
+    "value": "Golffunctie",
+    "history": [
+      {
+        "userId": 148415,
+        "timestamp": 1795169278668,
+        "oldValue": "",
+        "newValue": "Golffunctie"
       }
     ]
   }
