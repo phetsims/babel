@@ -33,13 +33,20 @@
     ]
   },
   "energyLevel": {
-    "value": "Nivel de energie",
+    "value": "Nivel energetic",
     "history": [
       {
         "userId": 183155,
         "timestamp": 1795152180492,
         "oldValue": "",
         "newValue": "Nivel de energie"
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "Nivel de energie",
+        "newValue": "Nivel energetic",
+        "explanation": null
       }
     ]
   },
@@ -139,13 +146,20 @@
     ]
   },
   "potentials.finiteSquare": {
-    "value": "Pătrat finit",
+    "value": "Groapă de potențial finită",
     "history": [
       {
         "userId": 183155,
         "timestamp": 1795152180492,
         "oldValue": "",
         "newValue": "Pătrat finit"
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "Pătrat finit",
+        "newValue": "Groapă de potențial finită",
+        "explanation": null
       }
     ]
   },
@@ -161,35 +175,56 @@
     ]
   },
   "potentials.infiniteSquare": {
-    "value": "Groapă pătratică de potențial infinită",
+    "value": "Groapă cu pereți infiniți",
     "history": [
       {
         "userId": 183155,
         "timestamp": 1795152180492,
         "oldValue": "",
         "newValue": "Groapă pătratică de potențial infinită"
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "Groapă pătratică de potențial infinită",
+        "newValue": "Groapă cu pereți infiniți",
+        "explanation": null
       }
     ]
   },
   "potentials.morse": {
-    "value": "potențial Morse",
+    "value": "Potențial Morse",
     "history": [
       {
         "userId": 183155,
         "timestamp": 1795152180492,
         "oldValue": "",
         "newValue": "potențial Morse"
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "potențial Morse",
+        "newValue": "Potențial Morse",
+        "explanation": null
       }
     ]
   },
   "potentials.poschlTeller": {
-    "value": "potențial Pöschl-Teller",
+    "value": "Potențial Pöschl-Teller",
     "history": [
       {
         "userId": 183155,
         "timestamp": 1795152180492,
         "oldValue": "",
         "newValue": "potențial Pöschl-Teller"
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "potențial Pöschl-Teller",
+        "newValue": "Potențial Pöschl-Teller",
+        "explanation": null
       }
     ]
   },
@@ -205,13 +240,20 @@
     ]
   },
   "screen.manyWells": {
-    "value": "Multe gropi de potențial",
+    "value": "Mai multe gropi de potențial",
     "history": [
       {
         "userId": 183155,
         "timestamp": 1795152180492,
         "oldValue": "",
         "newValue": "Multe gropi de potențial"
+      },
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "Multe gropi de potențial",
+        "newValue": "Mai multe gropi de potențial",
+        "explanation": null
       }
     ]
   },
@@ -278,6 +320,424 @@
         "timestamp": 1795152180492,
         "oldValue": "",
         "newValue": "lărgime = {{value}} {{units}}"
+      }
+    ]
+  },
+  "quantum-bound-states.title": {
+    "value": "Stări cuantice legate",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "Stări cuantice legate"
+      }
+    ]
+  },
+  "screen.oneWell": {
+    "value": "O groapă de potențial",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "O groapă de potențial"
+      }
+    ]
+  },
+  "screen.superposition": {
+    "value": "Superpoziție",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "Superpoziție"
+      }
+    ]
+  },
+  "screen.twoWells": {
+    "value": "2 gropi de potențial",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "2 gropi de potențial"
+      }
+    ]
+  },
+  "clearButton": {
+    "value": "Șterge",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "Șterge"
+      }
+    ]
+  },
+  "customDialogSubtitle": {
+    "value": "{{equation}}<br> unde |{{c}}| este modulul și {{phi}} este faza",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "{{equation}}<br> unde |{{c}}| este modulul și {{phi}} este faza"
+      }
+    ]
+  },
+  "energyLevelsInfinite": {
+    "value": "Niveluri energetice: E<sub>{{groundStateNumber}}</sub> la E<sub style=\"font-size: 20px;\">{{infinitySymbol}}</sub>",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "Niveluri energetice: E<sub>{{groundStateNumber}}</sub> la E<sub style=\"font-size: 20px;\">{{infinitySymbol}}</sub>"
+      }
+    ]
+  },
+  "energyLevelsPlural": {
+    "value": "Niveluri energetice: E<sub>{{groundStateNumber}}</sub> la E<sub>{{maxEnergyLevelNumber}}</sub>",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "Niveluri energetice: E<sub>{{groundStateNumber}}</sub> la E<sub>{{maxEnergyLevelNumber}}</sub>"
+      }
+    ]
+  },
+  "energyLevelsSingular": {
+    "value": "Niveluri energetice: E<sub>{{groundStateNumber}}</sub>",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "Niveluri energetice: E<sub>{{groundStateNumber}}</sub>"
+      }
+    ]
+  },
+  "energyOffset": {
+    "value": "Decalaj energetic",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "Decalaj energetic"
+      }
+    ]
+  },
+  "incompatibleSuperpositionState": {
+    "value": "Stare de superpoziție incompatibilă",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "Stare de superpoziție incompatibilă"
+      }
+    ]
+  },
+  "mass": {
+    "value": "Masă",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "Masă"
+      }
+    ]
+  },
+  "normalizeAndSaveButton": {
+    "value": "Normalizează și salvează",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "Normalizează și salvează"
+      }
+    ]
+  },
+  "pageNumberPattern": {
+    "value": "{{pageNumber}} / {{totalPages}}",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "{{pageNumber}} / {{totalPages}}"
+      }
+    ]
+  },
+  "presetDialogSubtitle": {
+    "value": "{{equation}}<br>unde {{a}} este amplitudinea.",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "{{equation}}<br>unde {{a}} este amplitudinea."
+      }
+    ]
+  },
+  "probabilityDensityDialogTitle": {
+    "value": "Densitate probabilității",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "Densitate probabilității"
+      }
+    ]
+  },
+  "superpositionState": {
+    "value": "Superpoziție de stări",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "Superpoziție de stări"
+      }
+    ]
+  },
+  "superpositionStateDialogTitle": {
+    "value": "Superpoziție de stări: {{name}}",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "Superpoziție de stări: {{name}}"
+      }
+    ]
+  },
+  "superpositionStateRequiresFinite": {
+    "value": "Superpoziția de stări necesită {{requiredNumber}} nivele energetice.<br>Actualul potențial are {{actualNumber}} niveluri de energie.",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "Superpoziția de stări necesită {{requiredNumber}} nivele energetice.<br>Actualul potențial are {{actualNumber}} niveluri de energie."
+      }
+    ]
+  },
+  "superpositionStateRequiresInfinite": {
+    "value": "Superpoziția de stări necesită {{requiredNumber}} niveluri energetice.<br>Actualul potențial are o infinitate de niveluri de energie.",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "Superpoziția de stări necesită {{requiredNumber}} niveluri energetice.<br>Actualul potențial are o infinitate de niveluri de energie."
+      }
+    ]
+  },
+  "superpositionStateRequiresTwoOrMore": {
+    "value": "Superpoziție de stări necesită două sau mai multe module diferite de zero.",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "Superpoziție de stări necesită două sau mai multe module diferite de zero."
+      }
+    ]
+  },
+  "superpositionStates.custom1": {
+    "value": "Personalizat 1",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "Personalizat 1"
+      }
+    ]
+  },
+  "superpositionStates.custom2": {
+    "value": "Personalizat 2",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "Personalizat 2"
+      }
+    ]
+  },
+  "superpositionStates.custom3": {
+    "value": "Personalizat 3",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "Personalizat 3"
+      }
+    ]
+  },
+  "superpositionStates.custom4": {
+    "value": "Personalizat 4",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "Personalizat 4"
+      }
+    ]
+  },
+  "superpositionStates.custom5": {
+    "value": "Personalizat 5",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "Personalizat 5"
+      }
+    ]
+  },
+  "superpositionStates.preset1.groundState0": {
+    "value": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub>",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub>"
+      }
+    ]
+  },
+  "superpositionStates.preset1.groundState1": {
+    "value": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>"
+      }
+    ]
+  },
+  "superpositionStates.preset2.groundState0": {
+    "value": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>2</sub>",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>2</sub>"
+      }
+    ]
+  },
+  "superpositionStates.preset2.groundState1": {
+    "value": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>3</sub>",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>3</sub>"
+      }
+    ]
+  },
+  "superpositionStates.preset3.groundState0": {
+    "value": "{{a}}{{psi}}<sub>0</sub> - {{a}}{{psi}}<sub>1</sub>",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "{{a}}{{psi}}<sub>0</sub> - {{a}}{{psi}}<sub>1</sub>"
+      }
+    ]
+  },
+  "superpositionStates.preset3.groundState1": {
+    "value": "{{a}}{{psi}}<sub>1</sub> - {{a}}{{psi}}<sub>2</sub>",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "{{a}}{{psi}}<sub>1</sub> - {{a}}{{psi}}<sub>2</sub>"
+      }
+    ]
+  },
+  "superpositionStates.preset4.groundState0": {
+    "value": "-{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub>",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "-{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub>"
+      }
+    ]
+  },
+  "superpositionStates.preset4.groundState1": {
+    "value": "-{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "-{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>"
+      }
+    ]
+  },
+  "superpositionStates.preset5.groundState0": {
+    "value": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>"
+      }
+    ]
+  },
+  "superpositionStates.preset5.groundState1": {
+    "value": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub> + {{a}}{{psi}}<sub>3</sub>",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub> + {{a}}{{psi}}<sub>3</sub>"
+      }
+    ]
+  },
+  "superpositionStates.wavePacket": {
+    "value": "Pachet de unde",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "Pachet de unde"
+      }
+    ]
+  },
+  "waveFunctionDialogTitle": {
+    "value": "Funcția de undă",
+    "history": [
+      {
+        "userId": 183155,
+        "timestamp": 1795158803253,
+        "oldValue": "",
+        "newValue": "Funcția de undă"
       }
     ]
   }
