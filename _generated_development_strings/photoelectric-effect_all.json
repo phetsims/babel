@@ -1,4 +1,948 @@
 {
+  "da": {
+    "photoelectric-effect.title": {
+      "value": "Fotoelektrisk effekt"
+    },
+    "energy.energyGraphAccordionBox.title": {
+      "value": "Energigrafer"
+    },
+    "energy.metalPropertiesAccordionBox.title": {
+      "value": "Metal-egenskaber"
+    },
+    "screen.energy": {
+      "value": "Energi"
+    },
+    "screen.experiment": {
+      "value": "Eksperiment"
+    },
+    "screen.intro": {
+      "value": "Intro"
+    },
+    "current.label": {
+      "value": "Strøm"
+    },
+    "energyUnits.electronVolts": {
+      "value": "Elektronvolt (eV)"
+    },
+    "energyUnits.joules": {
+      "value": "Joule (J)"
+    },
+    "energyUnits.scaledUnitsPattern": {
+      "value": "×{{base}}<sup>{{exponent}}</sup> {{units}}"
+    },
+    "energy.bandDepthWithSymbolPattern": {
+      "value": "Bånddybde ({{symbol}})"
+    },
+    "energy.fermiLevelWithSymbolPattern": {
+      "value": "Fermi niveau ({{symbol}})"
+    },
+    "energy.graph.bandDepthSymbol": {
+      "value": "D"
+    },
+    "energy.graph.energyAxisLabelPattern": {
+      "value": "Energi ({{units}})"
+    },
+    "energy.graph.fermiLevelSymbol": {
+      "value": "E<sub>F</sub>"
+    },
+    "energy.graph.graphControls.photonArrow": {
+      "value": "Fotonpil"
+    },
+    "energy.graph.legend.bindingEnergy": {
+      "value": "Elektronbindingsenergi"
+    },
+    "energy.graph.legend.emptyStates": {
+      "value": "Tomme tilstande"
+    },
+    "energy.graph.legend.filledStates": {
+      "value": "Fulde tilstande"
+    },
+    "energy.graph.legend.kineticEnergy": {
+      "value": "Elektronens kinetiske energi"
+    },
+    "energy.graph.legend.photonEnergy": {
+      "value": "Fotonenergi"
+    },
+    "energy.workFunctionWithSymbolPattern": {
+      "value": "Arbejdsfunktion  ({{symbol}})"
+    },
+    "experiment.graph.currentAxisLabelPattern": {
+      "value": "Strøm ({{units}})"
+    },
+    "experiment.graph.energyAxisLabelPattern": {
+      "value": "Elektron KE<sub>maks</sub> ({{units}})"
+    },
+    "experiment.graph.frequencyAxisLabel": {
+      "value": "Frekvens (x10<sup>15</sup> Hz)"
+    },
+    "experiment.graph.frequencyEnergyTitle": {
+      "value": "Elektronens kinetiske energi vs. lysfrekvens"
+    },
+    "experiment.graph.intensityAxisLabel": {
+      "value": "Intensitet (%)"
+    },
+    "experiment.graph.intensityCurrentTitle": {
+      "value": "Strøm vs. intensitet"
+    },
+    "experiment.graph.referenceLine": {
+      "value": "Referencelinje"
+    },
+    "experiment.graph.snapshotLabels.intensity": {
+      "value": "Intensitet:"
+    },
+    "experiment.graph.snapshotLabels.metal": {
+      "value": "Metal:"
+    },
+    "experiment.graph.snapshotLabels.voltage": {
+      "value": "Spænding:"
+    },
+    "experiment.graph.snapshotLabels.wavelength": {
+      "value": "Bølgelængde:"
+    },
+    "experiment.graph.snapshotNumberPattern": {
+      "value": "Snapshot {{snapshotNumber}}"
+    },
+    "experiment.graph.snapshotSaved": {
+      "value": "Gemt!"
+    },
+    "experiment.graph.voltageAxisLabel": {
+      "value": "Spænding (V)"
+    },
+    "experiment.graph.voltageCurrentTitle": {
+      "value": "Strøm vs. spænding"
+    },
+    "highestEnergyOnly": {
+      "value": "Kun højeste energi"
+    },
+    "intensity.label": {
+      "value": "Intensitet"
+    },
+    "keyboardHelpDialog.changeMetal": {
+      "value": "Skift metal"
+    },
+    "keyboardHelpDialog.metal": {
+      "value": "metal"
+    },
+    "keyboardHelpDialog.metals": {
+      "value": "metaller"
+    },
+    "keyboardHelpDialog.referenceLine.heading": {
+      "value": "Referencelinje"
+    },
+    "lightSource.burst": {
+      "value": "Flere"
+    },
+    "lightSource.fire": {
+      "value": "Skyd"
+    },
+    "lightSource.single": {
+      "value": "Enkelt"
+    },
+    "metals.calcium": {
+      "value": "Kalcium"
+    },
+    "metals.copper": {
+      "value": "Kobber"
+    },
+    "metals.custom": {
+      "value": "Tilpasset"
+    },
+    "metals.magnesium": {
+      "value": "Magnesium"
+    },
+    "metals.mystery": {
+      "value": "Mysterium"
+    },
+    "metals.mystery1": {
+      "value": "Mysterium 1"
+    },
+    "metals.mystery2": {
+      "value": "Mysterium 2"
+    },
+    "metals.mystery3": {
+      "value": "Mysterium 3"
+    },
+    "metals.mystery4": {
+      "value": "Mysterium 4"
+    },
+    "metals.mystery5": {
+      "value": "Mysterium 5"
+    },
+    "metals.platinum": {
+      "value": "Platinum"
+    },
+    "metals.potassium": {
+      "value": "Kalium"
+    },
+    "metals.silver": {
+      "value": "Sølv"
+    },
+    "metals.sodium": {
+      "value": "Natrium"
+    },
+    "preferences.alwaysAbsorbAtFermiLevel.description": {
+      "value": "Elektroner vil altid blive frigivet med en bindingsenergi, der er lig med løsrivelsesarbejdet."
+    },
+    "preferences.alwaysAbsorbAtFermiLevel.label": {
+      "value": "Fotonabsorption ved Fermi-energiniveauet"
+    },
+    "preferences.energyUnits.description": {
+      "value": "Angiv enheder for hver energiværdi. Joule vises i standard-tierpotensform."
+    },
+    "preferences.energyUnits.label": {
+      "value": "Energienheder"
+    },
+    "preferences.mysteryMetal.bandDepthWithSymbolPattern": {
+      "value": "Mysterium 2, bånddybde ({{symbol}})"
+    },
+    "preferences.mysteryMetal.description": {
+      "value": "Tilføj et definerbart mysterium 2, som et målmetal i simuleringen."
+    },
+    "preferences.mysteryMetal.label": {
+      "value": "Andet mystiske metal"
+    },
+    "preferences.mysteryMetal.workFunctionWithSymbolPattern": {
+      "value": "Mystisk metal 2, arbejdsfunktion ({{symbol}})"
+    },
+    "preferences.photonModeControl.description": {
+      "value": "Normalisér intensiteten, så antallet af udsendte fotoner er uafhængig af fotonernes bølgelængde."
+    },
+    "preferences.photonModeControl.label": {
+      "value": "Normalisér intensiteten"
+    },
+    "preferences.showAllGraphData.description": {
+      "value": "Vis alle datapunkter for de aktuelle eksperimentparametre."
+    },
+    "preferences.showAllGraphData.label": {
+      "value": "Alle grafdata"
+    },
+    "preferences.showPhotons.description": {
+      "value": "Vis individuelle fotoner, der udsendes af lyskilden."
+    },
+    "preferences.showPhotons.label": {
+      "value": "Fotoner"
+    },
+    "showElectrons": {
+      "value": "Vis elektroner"
+    },
+    "spectrumTrack.ir": {
+      "value": "IR"
+    },
+    "spectrumTrack.uv": {
+      "value": "UV"
+    },
+    "velocityVectors": {
+      "value": "Hastighedsvektorer"
+    },
+    "voltage.label": {
+      "value": "Spænding"
+    },
+    "voltage.valueReadoutPattern": {
+      "value": "{{value}} V"
+    },
+    "wavelength.label": {
+      "value": "Bølgelængde"
+    }
+  },
+  "de": {
+    "photoelectric-effect.title": {
+      "value": "Photoelektrischer Effekt"
+    },
+    "energy.energyGraphAccordionBox.title": {
+      "value": "Energiediagramme"
+    },
+    "energy.metalPropertiesAccordionBox.title": {
+      "value": "Metalleigenschaften"
+    },
+    "screen.energy": {
+      "value": "Energie"
+    },
+    "screen.experiment": {
+      "value": "Experiment"
+    },
+    "screen.intro": {
+      "value": "Einführung"
+    },
+    "current.label": {
+      "value": "Stromstärke"
+    },
+    "energyUnits.electronVolts": {
+      "value": "Elektronenvolt (eV)"
+    },
+    "energyUnits.joules": {
+      "value": "Joule (J)"
+    },
+    "energyUnits.scaledUnitsPattern": {
+      "value": "×{{base}}<sup>{{exponent}}</sup> {{units}}"
+    },
+    "energy.bandDepthWithSymbolPattern": {
+      "value": "Bandtiefe ({{symbol}})"
+    },
+    "energy.fermiLevelWithSymbolPattern": {
+      "value": "Fermi-Niveau ({{symbol}})"
+    },
+    "energy.graph.bandDepthSymbol": {
+      "value": "D"
+    },
+    "energy.graph.energyAxisLabelPattern": {
+      "value": "Energie ({{units}})"
+    },
+    "energy.graph.fermiLevelSymbol": {
+      "value": "E<sub>F</sub>"
+    },
+    "energy.graph.graphControls.photonArrow": {
+      "value": "Photonenpfeil"
+    },
+    "energy.graph.legend.bindingEnergy": {
+      "value": "Elektronenbindungsenergie"
+    },
+    "energy.graph.legend.emptyStates": {
+      "value": "Freie Zustände"
+    },
+    "energy.graph.legend.filledStates": {
+      "value": "Besetzte Zustände"
+    },
+    "energy.graph.legend.kineticEnergy": {
+      "value": "Kinetische Elektronenenergie"
+    },
+    "energy.graph.legend.photonEnergy": {
+      "value": "Photonenenergie"
+    },
+    "energy.workFunctionWithSymbolPattern": {
+      "value": "Austrittsarbeit ({{symbol}})"
+    },
+    "experiment.graph.currentAxisLabelPattern": {
+      "value": "Stromstärke ({{units}})"
+    },
+    "experiment.graph.energyAxisLabelPattern": {
+      "value": "Max. kinetische Elektronenenergie ({{units}})"
+    },
+    "experiment.graph.frequencyAxisLabel": {
+      "value": "Frequenz (×10<sup>15</sup> Hz)"
+    },
+    "experiment.graph.frequencyEnergyTitle": {
+      "value": "Kinetische Elektronenenergie gegen Lichtfrequenz"
+    },
+    "experiment.graph.intensityAxisLabel": {
+      "value": "Intensität (%)"
+    },
+    "experiment.graph.intensityCurrentTitle": {
+      "value": "Stromstärke gegen Intensität"
+    },
+    "experiment.graph.referenceLine": {
+      "value": "Bezugslinie"
+    },
+    "experiment.graph.snapshotLabels.intensity": {
+      "value": "Intensität:"
+    },
+    "experiment.graph.snapshotLabels.metal": {
+      "value": "Metall:"
+    },
+    "experiment.graph.snapshotLabels.voltage": {
+      "value": "Spannung:"
+    },
+    "experiment.graph.snapshotLabels.wavelength": {
+      "value": "Wellenlänge:"
+    },
+    "experiment.graph.snapshotNumberPattern": {
+      "value": "Momentaufnahme {{snapshotNumber}}"
+    },
+    "experiment.graph.snapshotSaved": {
+      "value": "Gespeichert!"
+    },
+    "experiment.graph.voltageAxisLabel": {
+      "value": "Spannung (V)"
+    },
+    "experiment.graph.voltageCurrentTitle": {
+      "value": "Stromstärke gegen Spannung"
+    },
+    "highestEnergyOnly": {
+      "value": "Nur höchste Energie"
+    },
+    "intensity.label": {
+      "value": "Intensität"
+    },
+    "keyboardHelpDialog.changeMetal": {
+      "value": "Metall wechseln"
+    },
+    "keyboardHelpDialog.metal": {
+      "value": "Metall"
+    },
+    "keyboardHelpDialog.metals": {
+      "value": "Metalle"
+    },
+    "keyboardHelpDialog.referenceLine.heading": {
+      "value": "Bezugslinie"
+    },
+    "lightSource.burst": {
+      "value": "Impuls"
+    },
+    "lightSource.fire": {
+      "value": "Auslösen"
+    },
+    "lightSource.single": {
+      "value": "Einzeln"
+    },
+    "metals.calcium": {
+      "value": "Calcium"
+    },
+    "metals.copper": {
+      "value": "Kupfer"
+    },
+    "metals.custom": {
+      "value": "Benutzerdefiniert"
+    },
+    "metals.magnesium": {
+      "value": "Magnesium"
+    },
+    "metals.mystery": {
+      "value": "Unbekannt"
+    },
+    "metals.mystery1": {
+      "value": "Unbekannt 1"
+    },
+    "metals.mystery2": {
+      "value": "Unbekannt 2"
+    },
+    "metals.mystery3": {
+      "value": "Unbekannt 3"
+    },
+    "metals.mystery4": {
+      "value": "Unbekannt 4"
+    },
+    "metals.mystery5": {
+      "value": "Unbekannt 5"
+    },
+    "metals.platinum": {
+      "value": "Platin"
+    },
+    "metals.potassium": {
+      "value": "Kalium"
+    },
+    "metals.silver": {
+      "value": "Silber"
+    },
+    "metals.sodium": {
+      "value": "Natrium"
+    },
+    "preferences.alwaysAbsorbAtFermiLevel.description": {
+      "value": "Elektronen werden stets mit einer Bindungsenergie gleich der Austrittsarbeit ausgelöst."
+    },
+    "preferences.alwaysAbsorbAtFermiLevel.label": {
+      "value": "Photonenabsorption am Fermi-Energieniveau"
+    },
+    "preferences.energyUnits.description": {
+      "value": "Legt die Einheiten für jeden Energiewert fest. Joule werden in gebräuchlichen Zehnerpotenzen angezeigt."
+    },
+    "preferences.energyUnits.label": {
+      "value": "Energieeinheiten"
+    },
+    "preferences.mysteryMetal.bandDepthWithSymbolPattern": {
+      "value": "Unbekanntes Metall 2, Bandtiefe ({{symbol}})"
+    },
+    "preferences.mysteryMetal.description": {
+      "value": "Fügt ein definierbares „Unbekanntes Metall 2“ als Zielmetall in der Simulation hinzu."
+    },
+    "preferences.mysteryMetal.label": {
+      "value": "Zweites unbekanntes Metall"
+    },
+    "preferences.mysteryMetal.workFunctionWithSymbolPattern": {
+      "value": "Unbekanntes Metall 2, Austrittsarbeit ({{symbol}})"
+    },
+    "preferences.photonModeControl.description": {
+      "value": "Normiert die Intensität, sodass die Anzahl der emittierten Photonen unabhängig von der Photonenwellenlänge ist."
+    },
+    "preferences.photonModeControl.label": {
+      "value": "Normierte Intensität"
+    },
+    "preferences.showAllGraphData.description": {
+      "value": "Zeigt alle Datenpunkte für die aktuellen Experimentparameter an."
+    },
+    "preferences.showAllGraphData.label": {
+      "value": "Alle Diagrammdaten"
+    },
+    "preferences.showPhotons.description": {
+      "value": "Zeigt einzelne von der Lichtquelle emittierte Photonen."
+    },
+    "preferences.showPhotons.label": {
+      "value": "Photonen"
+    },
+    "showElectrons": {
+      "value": "Elektronen anzeigen"
+    },
+    "spectrumTrack.ir": {
+      "value": "IR"
+    },
+    "spectrumTrack.uv": {
+      "value": "UV"
+    },
+    "velocityVectors": {
+      "value": "Geschwindigkeitsvektoren"
+    },
+    "voltage.label": {
+      "value": "Spannung"
+    },
+    "voltage.valueReadoutPattern": {
+      "value": "{{value}} V"
+    },
+    "wavelength.label": {
+      "value": "Wellenlänge"
+    }
+  },
+  "it": {
+    "photoelectric-effect.title": {
+      "value": "Effetto fotoelettrico"
+    },
+    "energy.energyGraphAccordionBox.title": {
+      "value": "Grafici dell'energia"
+    },
+    "energy.metalPropertiesAccordionBox.title": {
+      "value": "Proprietà dei metalli"
+    },
+    "screen.energy": {
+      "value": "Energia"
+    },
+    "screen.experiment": {
+      "value": "Esperimento"
+    },
+    "screen.intro": {
+      "value": "Introduzione"
+    },
+    "current.label": {
+      "value": "Intensità di corrente"
+    },
+    "energyUnits.electronVolts": {
+      "value": "Elettronvolt (eV)"
+    },
+    "energyUnits.joules": {
+      "value": "Joule (J)"
+    },
+    "energyUnits.scaledUnitsPattern": {
+      "value": "×{{base}}<sup>{{exponent}}</sup> {{units}}"
+    },
+    "energy.graph.bandDepthSymbol": {
+      "value": "D"
+    },
+    "energy.graph.energyAxisLabelPattern": {
+      "value": "Energia ({{units}})"
+    },
+    "energy.graph.fermiLevelSymbol": {
+      "value": "E<sub>F</sub>"
+    },
+    "energy.graph.legend.bindingEnergy": {
+      "value": "Energia di legame dell'elettrone"
+    },
+    "energy.graph.legend.kineticEnergy": {
+      "value": "Energia cinetica dell'elettrone"
+    },
+    "energy.graph.legend.photonEnergy": {
+      "value": "Energia del fotone"
+    },
+    "energy.workFunctionWithSymbolPattern": {
+      "value": "Funzione lavoro ({{symbol}})"
+    },
+    "experiment.graph.currentAxisLabelPattern": {
+      "value": "Intensità di corrente ({{units}})"
+    },
+    "experiment.graph.energyAxisLabelPattern": {
+      "value": "Energia cinetica dell'elettrone<sub>max</sub> ({{units}})"
+    },
+    "experiment.graph.frequencyAxisLabel": {
+      "value": "Frequenza (x10<sup>15</sup> Hz)"
+    },
+    "experiment.graph.frequencyEnergyTitle": {
+      "value": "Energia cinetica dell'elettrone contro frequenza luminosa"
+    },
+    "experiment.graph.intensityAxisLabel": {
+      "value": "Intensità luminosa(%)"
+    },
+    "experiment.graph.intensityCurrentTitle": {
+      "value": "Intensità di corrente contro Intensità luminosa"
+    },
+    "experiment.graph.referenceLine": {
+      "value": "Linea di riferimento"
+    },
+    "experiment.graph.snapshotLabels.intensity": {
+      "value": "Intensità luminosa:"
+    },
+    "experiment.graph.snapshotLabels.metal": {
+      "value": "Metallo:"
+    },
+    "experiment.graph.snapshotLabels.voltage": {
+      "value": "Tensione:"
+    },
+    "experiment.graph.snapshotLabels.wavelength": {
+      "value": "Lunghezza d'onda:"
+    },
+    "experiment.graph.snapshotSaved": {
+      "value": "Salvato!"
+    },
+    "experiment.graph.voltageAxisLabel": {
+      "value": "Tensione (V)"
+    },
+    "experiment.graph.voltageCurrentTitle": {
+      "value": "Intensità elettrica contro Tensione"
+    },
+    "intensity.label": {
+      "value": "Intensità luminosa"
+    },
+    "keyboardHelpDialog.changeMetal": {
+      "value": "Cambia metallo"
+    },
+    "keyboardHelpDialog.metal": {
+      "value": "metallo"
+    },
+    "keyboardHelpDialog.metals": {
+      "value": "metalli"
+    },
+    "keyboardHelpDialog.referenceLine.heading": {
+      "value": "Line di riferimento"
+    },
+    "lightSource.burst": {
+      "value": "Multiplo"
+    },
+    "lightSource.fire": {
+      "value": "Tiro"
+    },
+    "lightSource.single": {
+      "value": "Singolo"
+    },
+    "metals.calcium": {
+      "value": "Calcio"
+    },
+    "metals.copper": {
+      "value": "Rame"
+    },
+    "metals.custom": {
+      "value": "Personale"
+    },
+    "metals.magnesium": {
+      "value": "Magnesio"
+    },
+    "metals.mystery": {
+      "value": "Misterioso"
+    },
+    "metals.mystery1": {
+      "value": "Misterioso 1"
+    },
+    "metals.mystery2": {
+      "value": "Misterioso 2"
+    },
+    "metals.mystery3": {
+      "value": "Misterioso 3"
+    },
+    "metals.mystery4": {
+      "value": "Misterioso 4"
+    },
+    "metals.mystery5": {
+      "value": "Misterioso 5"
+    },
+    "metals.platinum": {
+      "value": "Platino"
+    },
+    "metals.potassium": {
+      "value": "Potassio"
+    },
+    "metals.silver": {
+      "value": "Argento"
+    },
+    "metals.sodium": {
+      "value": "Sodio"
+    },
+    "preferences.alwaysAbsorbAtFermiLevel.description": {
+      "value": "Gli elettroni verranno sempre espulsi con un'energia di legame pari alla funzione lavoro."
+    },
+    "preferences.mysteryMetal.description": {
+      "value": "Aggiungi un \"Misterioso 2\" definibile come metallo bersaglio nella simulazione."
+    },
+    "preferences.mysteryMetal.label": {
+      "value": "Secondo metallo  misterioso"
+    },
+    "preferences.photonModeControl.description": {
+      "value": "Normalizza l'intensità in modo che il numero di fotoni emessi sia indipendente dalla lunghezza d'onda dei fotoni."
+    },
+    "preferences.photonModeControl.label": {
+      "value": "Intensità normalizzata"
+    },
+    "preferences.showAllGraphData.description": {
+      "value": "Visualizza tutti i punti dati per i parametri dell'esperimento corrente."
+    },
+    "preferences.showAllGraphData.label": {
+      "value": "Tutti i grafici"
+    },
+    "preferences.showPhotons.description": {
+      "value": "Mostra i singoli fotoni emessi dalla sorgente luminosa."
+    },
+    "preferences.showPhotons.label": {
+      "value": "Fotoni"
+    },
+    "showElectrons": {
+      "value": "Mostra gli elettroni"
+    },
+    "spectrumTrack.ir": {
+      "value": "IR"
+    },
+    "spectrumTrack.uv": {
+      "value": "UV"
+    },
+    "velocityVectors": {
+      "value": "Vettori velocità"
+    },
+    "voltage.label": {
+      "value": "Tensione"
+    },
+    "voltage.valueReadoutPattern": {
+      "value": "{{value}} V"
+    },
+    "wavelength.label": {
+      "value": "Lunghezza d'onda"
+    }
+  },
+  "pl": {
+    "photoelectric-effect.title": {
+      "value": "Efekt fotoelektryczny"
+    },
+    "energy.energyGraphAccordionBox.title": {
+      "value": "Wykresy energii"
+    },
+    "energy.metalPropertiesAccordionBox.title": {
+      "value": "Właściwości metalu"
+    },
+    "screen.energy": {
+      "value": "Energia"
+    },
+    "screen.experiment": {
+      "value": "Eksperyment"
+    },
+    "screen.intro": {
+      "value": "Wstęp"
+    },
+    "current.label": {
+      "value": "Natężenie prądu"
+    },
+    "energyUnits.electronVolts": {
+      "value": "Elektronowolty (eV)"
+    },
+    "energyUnits.joules": {
+      "value": "Dżule (J)"
+    },
+    "energyUnits.scaledUnitsPattern": {
+      "value": "×{{base}}<sup>{{exponent}}</sup> {{units}}"
+    },
+    "energy.bandDepthWithSymbolPattern": {
+      "value": "Głębokość pasma ({{symbol}})"
+    },
+    "energy.fermiLevelWithSymbolPattern": {
+      "value": "Poziom Fermiego ({{symbol}})"
+    },
+    "energy.graph.bandDepthSymbol": {
+      "value": "D"
+    },
+    "energy.graph.energyAxisLabelPattern": {
+      "value": "Energia ({{units}})"
+    },
+    "energy.graph.fermiLevelSymbol": {
+      "value": "E<sub>F</sub>"
+    },
+    "energy.graph.graphControls.photonArrow": {
+      "value": "Strzałka fotonu"
+    },
+    "energy.graph.legend.bindingEnergy": {
+      "value": "Energia wiązania elektronu"
+    },
+    "energy.graph.legend.emptyStates": {
+      "value": "Stany nieobsadzone"
+    },
+    "energy.graph.legend.filledStates": {
+      "value": "Stany obsadzone"
+    },
+    "energy.graph.legend.kineticEnergy": {
+      "value": "Ek elektronu"
+    },
+    "energy.graph.legend.photonEnergy": {
+      "value": "Energia fotonu"
+    },
+    "energy.workFunctionWithSymbolPattern": {
+      "value": "Praca wyjścia ({{symbol}})"
+    },
+    "experiment.graph.currentAxisLabelPattern": {
+      "value": "Netężenie prądu ({{units}})"
+    },
+    "experiment.graph.energyAxisLabelPattern": {
+      "value": "E<sub>k max</sub> elektronu ({{units}})"
+    },
+    "experiment.graph.frequencyAxisLabel": {
+      "value": "Częstotliwość (x10<sup>15</sup> Hz)"
+    },
+    "experiment.graph.frequencyEnergyTitle": {
+      "value": "Energia kinetyczna elektronu w funkcji częstotliwości światła"
+    },
+    "experiment.graph.intensityAxisLabel": {
+      "value": "Natężenie światła (%)"
+    },
+    "experiment.graph.intensityCurrentTitle": {
+      "value": "Natężenie prądu w funkcji natężenia światła"
+    },
+    "experiment.graph.referenceLine": {
+      "value": "Linia odniesienia"
+    },
+    "experiment.graph.snapshotLabels.intensity": {
+      "value": "Natężenie:"
+    },
+    "experiment.graph.snapshotLabels.metal": {
+      "value": "Metal:"
+    },
+    "experiment.graph.snapshotLabels.voltage": {
+      "value": "Napięcie:"
+    },
+    "experiment.graph.snapshotLabels.wavelength": {
+      "value": "Długość fali:"
+    },
+    "experiment.graph.snapshotNumberPattern": {
+      "value": "Zrzut ekranu {{snapshotNumber}}"
+    },
+    "experiment.graph.snapshotSaved": {
+      "value": "Zapisano!"
+    },
+    "experiment.graph.voltageAxisLabel": {
+      "value": "Napięcie (V)"
+    },
+    "experiment.graph.voltageCurrentTitle": {
+      "value": "Natężenie prądu w funkcji napięcia"
+    },
+    "highestEnergyOnly": {
+      "value": "tylko o najwyższej energii"
+    },
+    "intensity.label": {
+      "value": "Natężenie"
+    },
+    "keyboardHelpDialog.changeMetal": {
+      "value": "Zmień metal"
+    },
+    "keyboardHelpDialog.metal": {
+      "value": "metal"
+    },
+    "keyboardHelpDialog.metals": {
+      "value": "metale"
+    },
+    "keyboardHelpDialog.referenceLine.heading": {
+      "value": "Linia odniesienia"
+    },
+    "lightSource.burst": {
+      "value": "Seria"
+    },
+    "lightSource.fire": {
+      "value": "Wystrzel"
+    },
+    "lightSource.single": {
+      "value": "Pojedynczy"
+    },
+    "metals.calcium": {
+      "value": "Wapń"
+    },
+    "metals.copper": {
+      "value": "Miedź"
+    },
+    "metals.custom": {
+      "value": "Własny"
+    },
+    "metals.magnesium": {
+      "value": "Magnez"
+    },
+    "metals.mystery": {
+      "value": "Nieznany"
+    },
+    "metals.mystery1": {
+      "value": "Nieznany 1"
+    },
+    "metals.mystery2": {
+      "value": "Nieznany 2"
+    },
+    "metals.mystery3": {
+      "value": "Nieznany 3"
+    },
+    "metals.mystery4": {
+      "value": "Nieznany 4"
+    },
+    "metals.mystery5": {
+      "value": "Nieznany 5"
+    },
+    "metals.platinum": {
+      "value": "Platyna"
+    },
+    "metals.potassium": {
+      "value": "Potas"
+    },
+    "metals.silver": {
+      "value": "Srebro"
+    },
+    "metals.sodium": {
+      "value": "Sód"
+    },
+    "preferences.alwaysAbsorbAtFermiLevel.description": {
+      "value": "Wybijane elektrony zawsze mają energię wiązania równą pracy wyjścia."
+    },
+    "preferences.alwaysAbsorbAtFermiLevel.label": {
+      "value": "Absorpcja fotonów na poziomie energii Fermiego"
+    },
+    "preferences.energyUnits.description": {
+      "value": "Ustaw jednostki dla każdej wartości energii. Dżule są wyświetlane w standardowym zapisie wykładniczym (potęgi liczby dziesięć)."
+    },
+    "preferences.energyUnits.label": {
+      "value": "Jednostki energii"
+    },
+    "preferences.mysteryMetal.bandDepthWithSymbolPattern": {
+      "value": "Nieznany metal 2, Głębokość pasma ({{symbol}})"
+    },
+    "preferences.mysteryMetal.description": {
+      "value": "Dodaj definiowalny nieznany metal 2 jako metal docelowy w symulacji."
+    },
+    "preferences.mysteryMetal.label": {
+      "value": "Drugi nieznany metal"
+    },
+    "preferences.mysteryMetal.workFunctionWithSymbolPattern": {
+      "value": "Nieznany metal 2, Praca wyjścia ({{symbol}})"
+    },
+    "preferences.photonModeControl.description": {
+      "value": "Znormalizuj natężenie, tak aby liczba emitowanych fotonów była niezależna od długości fali fotonów."
+    },
+    "preferences.photonModeControl.label": {
+      "value": "Znormalizowane natężenie"
+    },
+    "preferences.showAllGraphData.description": {
+      "value": "Wyświetl wszystkie punkty danych dla bieżących parametrów eksperymentu."
+    },
+    "preferences.showAllGraphData.label": {
+      "value": "Wszystkie dane wykresu"
+    },
+    "preferences.showPhotons.description": {
+      "value": "Pokaż poszczególne fotony emitowane przez źródło światła."
+    },
+    "preferences.showPhotons.label": {
+      "value": "Fotony"
+    },
+    "showElectrons": {
+      "value": "Pokaż elektrony"
+    },
+    "spectrumTrack.ir": {
+      "value": "IR"
+    },
+    "spectrumTrack.uv": {
+      "value": "UV"
+    },
+    "velocityVectors": {
+      "value": "Wektory prędkości"
+    },
+    "voltage.label": {
+      "value": "Napięcie"
+    },
+    "voltage.valueReadoutPattern": {
+      "value": "{{value}} V"
+    },
+    "wavelength.label": {
+      "value": "Długość fali"
+    }
+  },
   "ro": {
     "photoelectric-effect.title": {
       "value": "Efectul fotoelectric"
@@ -242,6 +1186,251 @@
     },
     "wavelength.label": {
       "value": "Lungime de undă"
+    }
+  },
+  "te": {
+    "photoelectric-effect.title": {
+      "value": "విద్యుత్కాంతి ప్రభావం"
+    },
+    "energy.energyGraphAccordionBox.title": {
+      "value": "శక్తి గ్రాఫ్‌లు"
+    },
+    "energy.metalPropertiesAccordionBox.title": {
+      "value": "లోహ ధర్మాలు"
+    },
+    "screen.energy": {
+      "value": "శక్తి"
+    },
+    "screen.experiment": {
+      "value": "ప్రయోగం"
+    },
+    "screen.intro": {
+      "value": "పరిచయం"
+    },
+    "current.label": {
+      "value": "విద్యుత్ ప్రవాహం"
+    },
+    "energyUnits.electronVolts": {
+      "value": "ఎలక్ట్రాన్ వోల్టులు (eV)"
+    },
+    "energyUnits.joules": {
+      "value": "జౌళ్లు (J)"
+    },
+    "energyUnits.scaledUnitsPattern": {
+      "value": "×{{base}}<sup>{{exponent}}</sup> {{units}}"
+    },
+    "energy.bandDepthWithSymbolPattern": {
+      "value": "Band Depth ({{symbol}})"
+    },
+    "energy.fermiLevelWithSymbolPattern": {
+      "value": "Fermi Level ({{symbol}})"
+    },
+    "energy.graph.bandDepthSymbol": {
+      "value": "D"
+    },
+    "energy.graph.energyAxisLabelPattern": {
+      "value": "Energy ({{units}})"
+    },
+    "energy.graph.fermiLevelSymbol": {
+      "value": "E<sub>F</sub>"
+    },
+    "energy.graph.graphControls.photonArrow": {
+      "value": "ఫోటాన్ Arrow"
+    },
+    "energy.graph.legend.bindingEnergy": {
+      "value": "ఎలక్ట్రాన్ బంధన శక్తి"
+    },
+    "energy.graph.legend.emptyStates": {
+      "value": "ఖాళీ స్థితులు"
+    },
+    "energy.graph.legend.filledStates": {
+      "value": "నిండిన స్థితులు"
+    },
+    "energy.graph.legend.kineticEnergy": {
+      "value": "ఎలక్ట్రాన్ గతి శక్తి"
+    },
+    "energy.graph.legend.photonEnergy": {
+      "value": "ఫోటాన్ శక్తి"
+    },
+    "energy.workFunctionWithSymbolPattern": {
+      "value": "Work Function ({{symbol}})"
+    },
+    "experiment.graph.currentAxisLabelPattern": {
+      "value": "విద్యుత్ ప్రవాహం  ({{units}})"
+    },
+    "experiment.graph.energyAxisLabelPattern": {
+      "value": "Electron KE<sub>max</sub> ({{units}})"
+    },
+    "experiment.graph.frequencyAxisLabel": {
+      "value": "పౌనఃపున్యం (x10<sup>15</sup> Hz)"
+    },
+    "experiment.graph.frequencyEnergyTitle": {
+      "value": "ఎలక్ట్రాన్ గతి శక్తి మరియు కాంతి పౌనఃపున్యం"
+    },
+    "experiment.graph.intensityAxisLabel": {
+      "value": "తీవ్రత (%)"
+    },
+    "experiment.graph.intensityCurrentTitle": {
+      "value": "విద్యుత్ ప్రవాహం మరియు తీవ్రత"
+    },
+    "experiment.graph.referenceLine": {
+      "value": "రిఫరెన్స్ లైన్"
+    },
+    "experiment.graph.snapshotLabels.intensity": {
+      "value": "తీవ్రత:"
+    },
+    "experiment.graph.snapshotLabels.metal": {
+      "value": "లోహం:"
+    },
+    "experiment.graph.snapshotLabels.voltage": {
+      "value": "వోల్టేజ్:"
+    },
+    "experiment.graph.snapshotLabels.wavelength": {
+      "value": "తరంగదైర్ఘ్యం:"
+    },
+    "experiment.graph.snapshotNumberPattern": {
+      "value": "Snapshot {{snapshotNumber}}"
+    },
+    "experiment.graph.snapshotSaved": {
+      "value": "సేవ్ చేయబడింది!"
+    },
+    "experiment.graph.voltageAxisLabel": {
+      "value": "వోల్టేజ్ (V)"
+    },
+    "experiment.graph.voltageCurrentTitle": {
+      "value": "విద్యుత్ ప్రవాహం vs వోల్టేజ్"
+    },
+    "highestEnergyOnly": {
+      "value": "అత్యధిక శక్తి మాత్రమే"
+    },
+    "intensity.label": {
+      "value": "తీవ్రత"
+    },
+    "keyboardHelpDialog.changeMetal": {
+      "value": "లోహాన్ని మార్చండి"
+    },
+    "keyboardHelpDialog.metal": {
+      "value": "లోహం"
+    },
+    "keyboardHelpDialog.metals": {
+      "value": "లోహాలు"
+    },
+    "keyboardHelpDialog.referenceLine.heading": {
+      "value": "రిఫరెన్స్ లైన్"
+    },
+    "lightSource.burst": {
+      "value": "Burst (పేలుడు)"
+    },
+    "lightSource.fire": {
+      "value": "అగ్ని"
+    },
+    "lightSource.single": {
+      "value": "ఏకైక"
+    },
+    "metals.calcium": {
+      "value": "కాల్షియం"
+    },
+    "metals.copper": {
+      "value": "రాగి"
+    },
+    "metals.custom": {
+      "value": "ప్రత్యేకమైన"
+    },
+    "metals.magnesium": {
+      "value": "మెగ్నీషియం"
+    },
+    "metals.mystery": {
+      "value": "Mystery"
+    },
+    "metals.mystery1": {
+      "value": "Mystery 1"
+    },
+    "metals.mystery2": {
+      "value": "Mystery 2"
+    },
+    "metals.mystery3": {
+      "value": "Mystery 3"
+    },
+    "metals.mystery4": {
+      "value": "Mystery 4"
+    },
+    "metals.mystery5": {
+      "value": "Mystery 5"
+    },
+    "metals.platinum": {
+      "value": "ప్లాటినం"
+    },
+    "metals.potassium": {
+      "value": "పొటాషియం"
+    },
+    "metals.silver": {
+      "value": "వెండి"
+    },
+    "metals.sodium": {
+      "value": "సోడియం"
+    },
+    "preferences.alwaysAbsorbAtFermiLevel.description": {
+      "value": "ఎలక్ట్రాన్లు ఎల్లప్పుడూ వర్క్ ఫంక్షన్‌కు సమానమైన బంధన శక్తితో బయటకు విడుదలవుతాయి."
+    },
+    "preferences.alwaysAbsorbAtFermiLevel.label": {
+      "value": "ఫెర్మీ శక్తి స్థాయి వద్ద ఫోటాన్ శోషణ"
+    },
+    "preferences.energyUnits.description": {
+      "value": "ప్రతి శక్తి విలువకు ప్రమాణాలను సెట్ చేయండి. జూల్స్ (Joules) పది యొక్క ఘాతాంక రూపంలో (powers of ten) కనిపిస్తాయి."
+    },
+    "preferences.energyUnits.label": {
+      "value": "శక్తి ప్రమాణాలు"
+    },
+    "preferences.mysteryMetal.bandDepthWithSymbolPattern": {
+      "value": "Mystery Metal 2, Band Depth ({{symbol}})"
+    },
+    "preferences.mysteryMetal.description": {
+      "value": "సిమ్‌లో నిర్వచించదగిన మిస్టరీ 2ని టార్గెట్ మెటల్‌గా జోడించండి."
+    },
+    "preferences.mysteryMetal.label": {
+      "value": "రెండవ రహస్య లోహం"
+    },
+    "preferences.mysteryMetal.workFunctionWithSymbolPattern": {
+      "value": "Mystery Metal 2, Work Function ({{symbol}})"
+    },
+    "preferences.photonModeControl.description": {
+      "value": "ఉద్గారమయ్యే ఫోటాన్‌ల సంఖ్య ఫోటాన్ తరంగదైర్ఘ్యంపై ఆధారపడకుండా ఉండేలా తీవ్రతను సాధారణీకరించండి."
+    },
+    "preferences.photonModeControl.label": {
+      "value": "సాధారణీకరించిన తీవ్రత"
+    },
+    "preferences.showAllGraphData.description": {
+      "value": "ప్రస్తుత ప్రయోగ పారామితుల కోసం అన్ని డేటా పాయింట్లను ప్రదర్శించండి."
+    },
+    "preferences.showAllGraphData.label": {
+      "value": "అన్ని గ్రాఫ్ల డేటా"
+    },
+    "preferences.showPhotons.description": {
+      "value": "కాంతి వనరు నుండి వెలువడే విడి ఫోటాన్లను చూపండి."
+    },
+    "preferences.showPhotons.label": {
+      "value": "ఫోటాన్లు"
+    },
+    "showElectrons": {
+      "value": "ఎలక్ట్రాన్లను చూపించు"
+    },
+    "spectrumTrack.ir": {
+      "value": "IR"
+    },
+    "spectrumTrack.uv": {
+      "value": "UV"
+    },
+    "velocityVectors": {
+      "value": "వేగ సదిశలు"
+    },
+    "voltage.label": {
+      "value": "వోల్టేజీ"
+    },
+    "voltage.valueReadoutPattern": {
+      "value": "{{value}} V"
+    },
+    "wavelength.label": {
+      "value": "తరంగదైర్ఘ్యం"
     }
   }
 }
