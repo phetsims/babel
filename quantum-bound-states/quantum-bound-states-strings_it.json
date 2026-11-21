@@ -183,7 +183,7 @@
     ]
   },
   "stepHeightPattern": {
-    "value": "altezza gradino = {{value}} {{units}}",
+    "value": "step height = {{value}} {{units}}",
     "history": [
       {
         "userId": 157247,
@@ -196,6 +196,13 @@
         "timestamp": 1795293974142,
         "oldValue": "step height = {{value}} {{units}}",
         "newValue": "altezza gradino = {{value}} {{units}}",
+        "explanation": null
+      },
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "altezza gradino = {{value}} {{units}}",
+        "newValue": "step height = {{value}} {{units}}",
         "explanation": null
       }
     ]
@@ -278,13 +285,383 @@
     ]
   },
   "potentials.steppedInfinite": {
-    "value": "Potenziale infinito a gradini",
+    "value": "Buca infinita con gradino",
     "history": [
       {
         "userId": 1008323,
         "timestamp": 1795293974142,
         "oldValue": "",
         "newValue": "Potenziale infinito a gradini"
+      },
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "Potenziale infinito a gradini",
+        "newValue": "Buca infinita con gradino",
+        "explanation": null
+      }
+    ]
+  },
+  "screen.superposition": {
+    "value": "Sovrapposizione",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "Sovrapposizione"
+      }
+    ]
+  },
+  "superpositionStates.custom1": {
+    "value": "Personalizza 1",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "Personalizza 1"
+      }
+    ]
+  },
+  "superpositionStates.custom2": {
+    "value": "Personalizza 2",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "Personalizza 2"
+      }
+    ]
+  },
+  "superpositionStates.custom3": {
+    "value": "Personalizza 3",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "Personalizza 3"
+      }
+    ]
+  },
+  "superpositionStates.custom4": {
+    "value": "Personalizza 4",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "Personalizza 4"
+      }
+    ]
+  },
+  "superpositionStates.custom5": {
+    "value": "Personalizza 5",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "Personalizza 5"
+      }
+    ]
+  },
+  "superpositionStates.preset1.groundState0": {
+    "value": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub>",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub>"
+      }
+    ]
+  },
+  "superpositionStates.preset1.groundState1": {
+    "value": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>"
+      }
+    ]
+  },
+  "superpositionStates.preset2.groundState0": {
+    "value": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>2</sub>",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>2</sub>"
+      }
+    ]
+  },
+  "superpositionStates.preset2.groundState1": {
+    "value": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>3</sub>",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>3</sub>"
+      }
+    ]
+  },
+  "superpositionStates.preset3.groundState0": {
+    "value": "{{a}}{{psi}}<sub>0</sub> - {{a}}{{psi}}<sub>1</sub>",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "{{a}}{{psi}}<sub>0</sub> - {{a}}{{psi}}<sub>1</sub>"
+      }
+    ]
+  },
+  "superpositionStates.preset3.groundState1": {
+    "value": "{{a}}{{psi}}<sub>1</sub> - {{a}}{{psi}}<sub>2</sub>",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "{{a}}{{psi}}<sub>1</sub> - {{a}}{{psi}}<sub>2</sub>"
+      }
+    ]
+  },
+  "superpositionStates.preset4.groundState0": {
+    "value": "-{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub>",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "-{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub>"
+      }
+    ]
+  },
+  "superpositionStates.preset4.groundState1": {
+    "value": "-{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "-{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>"
+      }
+    ]
+  },
+  "superpositionStates.preset5.groundState0": {
+    "value": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>"
+      }
+    ]
+  },
+  "superpositionStates.preset5.groundState1": {
+    "value": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub> + {{a}}{{psi}}<sub>3</sub>",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub> + {{a}}{{psi}}<sub>3</sub>"
+      }
+    ]
+  },
+  "superpositionStates.wavePacket": {
+    "value": "Pacchetto d’onda",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "Pacchetto d’onda"
+      }
+    ]
+  },
+  "incompatibleSuperpositionState": {
+    "value": "Stato di sovrapposizione incompatibile",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "Stato di sovrapposizione incompatibile"
+      }
+    ]
+  },
+  "superpositionState": {
+    "value": "Stato di sovrapposizione",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "Stato di sovrapposizione"
+      }
+    ]
+  },
+  "probabilityDensityDialogTitle": {
+    "value": "Densità di probabilità",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "Densità di probabilità"
+      }
+    ]
+  },
+  "waveFunctionDialogTitle": {
+    "value": "Funzione d’onda",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "Funzione d’onda"
+      }
+    ]
+  },
+  "superpositionStateRequiresTwoOrMore": {
+    "value": "Uno stato di sovrapposizione richiede due o più ampiezze non nulle.",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "Uno stato di sovrapposizione richiede due o più ampiezze non nulle."
+      }
+    ]
+  },
+  "superpositionStateRequiresFinite": {
+    "value": "Stato di sovrapposizione che richiede {{requiredNumber}} livelli di energia.<br>L’attuale potenziale ha {{actualNumber}} livelli di energia.",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "Stato di sovrapposizione che richiede {{requiredNumber}} livelli di energia.<br>L’attuale potenziale ha {{actualNumber}} livelli di energia."
+      }
+    ]
+  },
+  "superpositionStateRequiresInfinite": {
+    "value": "Stato di sovrapposizione che richiede {{requiredNumber}} livelli di energia.<br>L’attuale potenziale ha infiniti livelli di energia.",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "Stato di sovrapposizione che richiede {{requiredNumber}} livelli di energia.<br>L’attuale potenziale ha infiniti livelli di energia."
+      }
+    ]
+  },
+  "energyLevelsSingular": {
+    "value": "Livelli di energia: E<sub>{{groundStateNumber}}</sub>",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "Livelli di energia: E<sub>{{groundStateNumber}}</sub>"
+      }
+    ]
+  },
+  "energyLevelsPlural": {
+    "value": "Livelli di energia: da E<sub>{{groundStateNumber}}</sub> a E<sub>{{maxEnergyLevelNumber}}</sub>",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "Livelli di energia: da E<sub>{{groundStateNumber}}</sub> a E<sub>{{maxEnergyLevelNumber}}</sub>"
+      }
+    ]
+  },
+  "energyLevelsInfinite": {
+    "value": "Livelli di energia: da E<sub>{{groundStateNumber}}</sub>a E<sub style=\"font-size: 20px;\">{{infinitySymbol}}</sub>",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "Livelli di energia: da E<sub>{{groundStateNumber}}</sub>a E<sub style=\"font-size: 20px;\">{{infinitySymbol}}</sub>"
+      }
+    ]
+  },
+  "superpositionStateDialogTitle": {
+    "value": "Stato di sovrapposizione: {{name}}",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "Stato di sovrapposizione: {{name}}"
+      }
+    ]
+  },
+  "customDialogSubtitle": {
+    "value": "{{equation}}<br>dove |{{c}}| è l’ampiezza e {{phi}} è la fase.",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "{{equation}}<br>dove |{{c}}| è l’ampiezza e {{phi}} è la fase."
+      }
+    ]
+  },
+  "pageNumberPattern": {
+    "value": "pagina {{pageNumber}} di {{totalPages}}",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "pagina {{pageNumber}} di {{totalPages}}"
+      }
+    ]
+  },
+  "presetDialogSubtitle": {
+    "value": "{{equation}}<br>dove {{a}} è l’ampiezza.",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "{{equation}}<br>dove {{a}} è l’ampiezza."
+      }
+    ]
+  },
+  "clearButton": {
+    "value": "Cancella",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "Cancella"
+      }
+    ]
+  },
+  "normalizeAndSaveButton": {
+    "value": "Normalizza e salva",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795294379766,
+        "oldValue": "",
+        "newValue": "Normalizza e salva"
       }
     ]
   }
