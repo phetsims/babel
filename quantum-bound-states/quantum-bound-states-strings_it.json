@@ -262,13 +262,20 @@
     ]
   },
   "numberOfWells": {
-    "value": "Numero buche di potenziale",
+    "value": "Numero di buche",
     "history": [
       {
         "userId": 1008323,
         "timestamp": 1795293974142,
         "oldValue": "",
         "newValue": "Numero buche di potenziale"
+      },
+      {
+        "userId": 1008323,
+        "timestamp": 1795295275218,
+        "oldValue": "Numero buche di potenziale",
+        "newValue": "Numero di buche",
+        "explanation": null
       }
     ]
   },
@@ -320,7 +327,7 @@
     ]
   },
   "potentials.steppedInfinite": {
-    "value": "Buca di potenziale infinita con gradino",
+    "value": "Buca infinita con gradino",
     "history": [
       {
         "userId": 1008323,
@@ -340,6 +347,13 @@
         "timestamp": 1795294979413,
         "oldValue": "Buca infinita con gradino",
         "newValue": "Buca di potenziale infinita con gradino",
+        "explanation": null
+      },
+      {
+        "userId": 1008323,
+        "timestamp": 1795295275218,
+        "oldValue": "Buca di potenziale infinita con gradino",
+        "newValue": "Buca infinita con gradino",
         "explanation": null
       }
     ]
@@ -521,7 +535,7 @@
     ]
   },
   "superpositionStates.wavePacket": {
-    "value": "Pacchetto d'onda",
+    "value": "Pacchetto d’onda",
     "history": [
       {
         "userId": 1008323,
@@ -534,6 +548,13 @@
         "timestamp": 1795294979413,
         "oldValue": "Pacchetto d’onda",
         "newValue": "Pacchetto d'onda",
+        "explanation": null
+      },
+      {
+        "userId": 1008323,
+        "timestamp": 1795295275218,
+        "oldValue": "Pacchetto d'onda",
+        "newValue": "Pacchetto d’onda",
         "explanation": null
       }
     ]
@@ -572,7 +593,7 @@
     ]
   },
   "waveFunctionDialogTitle": {
-    "value": "Funzione d'onda",
+    "value": "Funzione d’onda",
     "history": [
       {
         "userId": 1008323,
@@ -586,11 +607,18 @@
         "oldValue": "Funzione d’onda",
         "newValue": "Funzione d'onda",
         "explanation": null
+      },
+      {
+        "userId": 1008323,
+        "timestamp": 1795295275218,
+        "oldValue": "Funzione d'onda",
+        "newValue": "Funzione d’onda",
+        "explanation": null
       }
     ]
   },
   "superpositionStateRequiresTwoOrMore": {
-    "value": "Uno stato di sovrapposizione richiede due o più ampiezze non nulle",
+    "value": "Uno stato di sovrapposizione richiede due o più ampiezze non nulle.",
     "history": [
       {
         "userId": 1008323,
@@ -604,11 +632,18 @@
         "oldValue": "Uno stato di sovrapposizione richiede due o più ampiezze non nulle.",
         "newValue": "Uno stato di sovrapposizione richiede due o più ampiezze non nulle",
         "explanation": null
+      },
+      {
+        "userId": 1008323,
+        "timestamp": 1795295275218,
+        "oldValue": "Uno stato di sovrapposizione richiede due o più ampiezze non nulle",
+        "newValue": "Uno stato di sovrapposizione richiede due o più ampiezze non nulle.",
+        "explanation": null
       }
     ]
   },
   "superpositionStateRequiresFinite": {
-    "value": "Lo stato di sovrapposizione richiede {{requiredNumber}} livelli di energia.<br>L'attuale potenziale ha {{actualNumber}} livelli di energia.",
+    "value": "Stato di sovrapposizione che richiede {{requiredNumber}} livelli di energia.<br>L’attuale potenziale ha {{actualNumber}} livelli di energia.",
     "history": [
       {
         "userId": 1008323,
@@ -629,11 +664,18 @@
         "oldValue": "Stato di sovrapposizione che richiede {{requiredNumber}} e livelli di energia.<br>L’attuale potenziale ha {{actualNumber}} livelli di energia.",
         "newValue": "Lo stato di sovrapposizione richiede {{requiredNumber}} livelli di energia.<br>L'attuale potenziale ha {{actualNumber}} livelli di energia.",
         "explanation": null
+      },
+      {
+        "userId": 1008323,
+        "timestamp": 1795295275218,
+        "oldValue": "Lo stato di sovrapposizione richiede {{requiredNumber}} livelli di energia.<br>L'attuale potenziale ha {{actualNumber}} livelli di energia.",
+        "newValue": "Stato di sovrapposizione che richiede {{requiredNumber}} livelli di energia.<br>L’attuale potenziale ha {{actualNumber}} livelli di energia.",
+        "explanation": null
       }
     ]
   },
   "superpositionStateRequiresInfinite": {
-    "value": "Lo stato di sovrapposizione richiede {{requiredNumber}} livelli di energia.<br>L'attuale potenziale ha infiniti livelli di energia.",
+    "value": "Superposition stato di sovrapposizione che richiede {{requiredNumber}} livelli di energia.<br>Il potenziale attuale ha infinito livelli di energia.",
     "history": [
       {
         "userId": 1008323,
@@ -646,6 +688,13 @@
         "timestamp": 1795294979413,
         "oldValue": "Stato di sovrapposizione che richiede {{requiredNumber}} livelli di energia.<br>L’attuale potenziale ha infiniti livelli di energia.",
         "newValue": "Lo stato di sovrapposizione richiede {{requiredNumber}} livelli di energia.<br>L'attuale potenziale ha infiniti livelli di energia.",
+        "explanation": null
+      },
+      {
+        "userId": 1008323,
+        "timestamp": 1795295275218,
+        "oldValue": "Lo stato di sovrapposizione richiede {{requiredNumber}} livelli di energia.<br>L'attuale potenziale ha infiniti livelli di energia.",
+        "newValue": "Superposition stato di sovrapposizione che richiede {{requiredNumber}} livelli di energia.<br>Il potenziale attuale ha infinito livelli di energia.",
         "explanation": null
       }
     ]
@@ -702,7 +751,7 @@
     ]
   },
   "customDialogSubtitle": {
-    "value": "{{equation}}<br>dove |{{c}}| è l'ampiezza e {{phi}} è la fase.",
+    "value": "{{equation}}<br>dove |{{c}}| è l’ampiezza e {{phi}} è la fase.",
     "history": [
       {
         "userId": 1008323,
@@ -715,6 +764,13 @@
         "timestamp": 1795294979413,
         "oldValue": "{{equation}}<br>dove |{{c}}| è l’ampiezza e {{phi}} è la fase.",
         "newValue": "{{equation}}<br>dove |{{c}}| è l'ampiezza e {{phi}} è la fase.",
+        "explanation": null
+      },
+      {
+        "userId": 1008323,
+        "timestamp": 1795295275218,
+        "oldValue": "{{equation}}<br>dove |{{c}}| è l'ampiezza e {{phi}} è la fase.",
+        "newValue": "{{equation}}<br>dove |{{c}}| è l’ampiezza e {{phi}} è la fase.",
         "explanation": null
       }
     ]
@@ -731,7 +787,7 @@
     ]
   },
   "presetDialogSubtitle": {
-    "value": "{{equation}}<br>dove {{a}} è l'ampiezza.",
+    "value": "{{equation}}<br>dove {{a}} è l’ampiezza.",
     "history": [
       {
         "userId": 1008323,
@@ -744,6 +800,13 @@
         "timestamp": 1795294979413,
         "oldValue": "{{equation}}<br>dove {{a}} è l’ampiezza.",
         "newValue": "{{equation}}<br>dove {{a}} è l'ampiezza.",
+        "explanation": null
+      },
+      {
+        "userId": 1008323,
+        "timestamp": 1795295275218,
+        "oldValue": "{{equation}}<br>dove {{a}} è l'ampiezza.",
+        "newValue": "{{equation}}<br>dove {{a}} è l’ampiezza.",
         "explanation": null
       }
     ]
@@ -760,7 +823,7 @@
     ]
   },
   "normalizeAndSaveButton": {
-    "value": "Normalizza e Salva",
+    "value": "Normalizza e salva",
     "history": [
       {
         "userId": 1008323,
@@ -773,6 +836,13 @@
         "timestamp": 1795294664674,
         "oldValue": "Normalizza e salva",
         "newValue": "Normalizza e Salva",
+        "explanation": null
+      },
+      {
+        "userId": 1008323,
+        "timestamp": 1795295275218,
+        "oldValue": "Normalizza e Salva",
+        "newValue": "Normalizza e salva",
         "explanation": null
       }
     ]
@@ -807,6 +877,28 @@
         "timestamp": 1795294979413,
         "oldValue": "",
         "newValue": "Spostamento energetico"
+      }
+    ]
+  },
+  "quantum-bound-states.title": {
+    "value": "Stati quantici legati",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795295275218,
+        "oldValue": "",
+        "newValue": "Stati quantici legati"
+      }
+    ]
+  },
+  "screen.oneWell": {
+    "value": "Singola buca",
+    "history": [
+      {
+        "userId": 1008323,
+        "timestamp": 1795295275218,
+        "oldValue": "",
+        "newValue": "Singola buca"
       }
     ]
   }
