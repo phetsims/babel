@@ -19,7 +19,7 @@
       "value": "Intro"
     },
     "current.label": {
-      "value": "Strøm"
+      "value": "Strømstyrke"
     },
     "energyUnits.electronVolts": {
       "value": "Elektronvolt (eV)"
@@ -49,7 +49,7 @@
       "value": "Fotonpil"
     },
     "energy.graph.legend.bindingEnergy": {
-      "value": "Elektronbindingsenergi"
+      "value": "Elektronens bindingsenergi"
     },
     "energy.graph.legend.emptyStates": {
       "value": "Tomme tilstande"
@@ -64,10 +64,10 @@
       "value": "Fotonenergi"
     },
     "energy.workFunctionWithSymbolPattern": {
-      "value": "Arbejdsfunktion  ({{symbol}})"
+      "value": "Løsrivelsesenergi ({{symbol}})"
     },
     "experiment.graph.currentAxisLabelPattern": {
-      "value": "Strøm ({{units}})"
+      "value": "Strømstyrke ({{units}})"
     },
     "experiment.graph.energyAxisLabelPattern": {
       "value": "Elektron KE<sub>maks</sub> ({{units}})"
@@ -82,7 +82,7 @@
       "value": "Intensitet (%)"
     },
     "experiment.graph.intensityCurrentTitle": {
-      "value": "Strøm vs. intensitet"
+      "value": "Strømstyrke vs. intensitet"
     },
     "experiment.graph.referenceLine": {
       "value": "Referencelinje"
@@ -109,7 +109,7 @@
       "value": "Spænding (V)"
     },
     "experiment.graph.voltageCurrentTitle": {
-      "value": "Strøm vs. spænding"
+      "value": "Strømstyrke vs. spænding"
     },
     "highestEnergyOnly": {
       "value": "Kun højeste energi"
@@ -202,7 +202,7 @@
       "value": "Andet mystiske metal"
     },
     "preferences.mysteryMetal.workFunctionWithSymbolPattern": {
-      "value": "Mystisk metal 2, arbejdsfunktion ({{symbol}})"
+      "value": "Mystisk metal 2, frigørelsesenergi ({{symbol}})"
     },
     "preferences.photonModeControl.description": {
       "value": "Normalisér intensiteten, så antallet af udsendte fotoner er uafhængig af fotonernes bølgelængde."
@@ -539,7 +539,7 @@
       "value": "Energia del fotone"
     },
     "energy.workFunctionWithSymbolPattern": {
-      "value": "Funzione lavoro ({{symbol}})"
+      "value": "Lavoro di estrazione ({{symbol}})"
     },
     "experiment.graph.currentAxisLabelPattern": {
       "value": "Intensità di corrente ({{units}})"
@@ -551,13 +551,13 @@
       "value": "Frequenza (x10<sup>15</sup> Hz)"
     },
     "experiment.graph.frequencyEnergyTitle": {
-      "value": "Energia cinetica dell'elettrone contro frequenza luminosa"
+      "value": "Grafico Energia cinetica dell'elettrone-frequenza luminosa"
     },
     "experiment.graph.intensityAxisLabel": {
       "value": "Intensità luminosa(%)"
     },
     "experiment.graph.intensityCurrentTitle": {
-      "value": "Intensità di corrente contro Intensità luminosa"
+      "value": "Grafico Intensità di corrente-Intensità luminosa"
     },
     "experiment.graph.referenceLine": {
       "value": "Linea di riferimento"
@@ -581,7 +581,7 @@
       "value": "Tensione (V)"
     },
     "experiment.graph.voltageCurrentTitle": {
-      "value": "Intensità elettrica contro Tensione"
+      "value": "Grafico Intensità di corrente-Tensione"
     },
     "intensity.label": {
       "value": "Intensità luminosa"
@@ -596,7 +596,7 @@
       "value": "metalli"
     },
     "keyboardHelpDialog.referenceLine.heading": {
-      "value": "Line di riferimento"
+      "value": "Linea di riferimento"
     },
     "lightSource.burst": {
       "value": "Multiplo"
@@ -614,7 +614,7 @@
       "value": "Rame"
     },
     "metals.custom": {
-      "value": "Personale"
+      "value": "Personalizza"
     },
     "metals.magnesium": {
       "value": "Magnesio"
@@ -650,10 +650,10 @@
       "value": "Sodio"
     },
     "preferences.alwaysAbsorbAtFermiLevel.description": {
-      "value": "Gli elettroni verranno sempre espulsi con un'energia di legame pari alla funzione lavoro."
+      "value": "Gli elettroni verranno sempre espulsi con energia di legame pari al lavoro di estrazione."
     },
     "preferences.mysteryMetal.description": {
-      "value": "Aggiungi un \"Misterioso 2\" definibile come metallo bersaglio nella simulazione."
+      "value": "Permetti di aggiungere nella simulazione un ulteriore metallo bersaglio indicato con \"Misterioso 2\"."
     },
     "preferences.mysteryMetal.label": {
       "value": "Secondo metallo  misterioso"
@@ -665,7 +665,7 @@
       "value": "Intensità normalizzata"
     },
     "preferences.showAllGraphData.description": {
-      "value": "Visualizza tutti i punti dati per i parametri dell'esperimento corrente."
+      "value": "Visualizza tutti i valori per i parametri dell'esperimento corrente."
     },
     "preferences.showAllGraphData.label": {
       "value": "Tutti i grafici"
@@ -696,6 +696,42 @@
     },
     "wavelength.label": {
       "value": "Lunghezza d'onda"
+    },
+    "energy.bandDepthWithSymbolPattern": {
+      "value": "Profondità di banda ({{symbol}})"
+    },
+    "energy.fermiLevelWithSymbolPattern": {
+      "value": "Livello di Fermi ({{symbol}})"
+    },
+    "energy.graph.graphControls.photonArrow": {
+      "value": "Energia fornita dal fotone"
+    },
+    "energy.graph.legend.emptyStates": {
+      "value": "Stati non occupati"
+    },
+    "energy.graph.legend.filledStates": {
+      "value": "Stati occupati"
+    },
+    "experiment.graph.snapshotNumberPattern": {
+      "value": "Istantanea {{snapshotNumber}}"
+    },
+    "highestEnergyOnly": {
+      "value": "Solo energia massima"
+    },
+    "preferences.alwaysAbsorbAtFermiLevel.label": {
+      "value": "Assorbimento di fotoni con energia di Fermi"
+    },
+    "preferences.energyUnits.description": {
+      "value": "Scegli l’unità di misura per l’energia. I valori in Joule sono espressi come potenze di dieci."
+    },
+    "preferences.energyUnits.label": {
+      "value": "Unità di misura dell’energia"
+    },
+    "preferences.mysteryMetal.bandDepthWithSymbolPattern": {
+      "value": "Metallo Misterioso 2, Profondità di banda ({{symbol}})"
+    },
+    "preferences.mysteryMetal.workFunctionWithSymbolPattern": {
+      "value": "Metallo misterioso 2, Lavoro di estrazione ({{symbol}})"
     }
   },
   "pl": {

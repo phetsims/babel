@@ -577,7 +577,7 @@
       "value": "Molte buche"
     },
     "potentials.finiteSquare": {
-      "value": "Buca di potenziale"
+      "value": "Buca di potenziale finita"
     },
     "potentials.poschlTeller": {
       "value": "Pöschl-Teller"
@@ -622,7 +622,7 @@
       "value": "distanza= {{value}} {{units}}"
     },
     "stepHeightPattern": {
-      "value": "step height = {{value}} {{units}}"
+      "value": "altezza gradino = {{value}} {{units}}"
     },
     "spacingPattern": {
       "value": "spaziatura= {{value}} {{units}}"
@@ -632,6 +632,135 @@
     },
     "widthPattern": {
       "value": "larghezza= {{value}} {{units}}"
+    },
+    "numberOfWells": {
+      "value": "Numero di buche"
+    },
+    "potentials.asymmetricTriangle": {
+      "value": "Triangolo asimmetrico"
+    },
+    "potentials.infiniteSquare": {
+      "value": "Buca di potenziale infinita"
+    },
+    "potentials.morse": {
+      "value": "Potenziale di Morse"
+    },
+    "potentials.steppedInfinite": {
+      "value": "Buca infinita con gradino"
+    },
+    "screen.superposition": {
+      "value": "Sovrapposizione"
+    },
+    "superpositionStates.custom1": {
+      "value": "Personalizza 1"
+    },
+    "superpositionStates.custom2": {
+      "value": "Personalizza 2"
+    },
+    "superpositionStates.custom3": {
+      "value": "Personalizza 3"
+    },
+    "superpositionStates.custom4": {
+      "value": "Personalizza 4"
+    },
+    "superpositionStates.custom5": {
+      "value": "Personalizza 5"
+    },
+    "superpositionStates.preset1.groundState0": {
+      "value": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub>"
+    },
+    "superpositionStates.preset1.groundState1": {
+      "value": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset2.groundState0": {
+      "value": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset2.groundState1": {
+      "value": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>3</sub>"
+    },
+    "superpositionStates.preset3.groundState0": {
+      "value": "{{a}}{{psi}}<sub>0</sub> - {{a}}{{psi}}<sub>1</sub>"
+    },
+    "superpositionStates.preset3.groundState1": {
+      "value": "{{a}}{{psi}}<sub>1</sub> - {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset4.groundState0": {
+      "value": "-{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub>"
+    },
+    "superpositionStates.preset4.groundState1": {
+      "value": "-{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset5.groundState0": {
+      "value": "{{a}}{{psi}}<sub>0</sub> + {{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub>"
+    },
+    "superpositionStates.preset5.groundState1": {
+      "value": "{{a}}{{psi}}<sub>1</sub> + {{a}}{{psi}}<sub>2</sub> + {{a}}{{psi}}<sub>3</sub>"
+    },
+    "superpositionStates.wavePacket": {
+      "value": "Pacchetto d’onda"
+    },
+    "incompatibleSuperpositionState": {
+      "value": "Stato di sovrapposizione incompatibile"
+    },
+    "superpositionState": {
+      "value": "Stato di sovrapposizione"
+    },
+    "probabilityDensityDialogTitle": {
+      "value": "Densità di probabilità"
+    },
+    "waveFunctionDialogTitle": {
+      "value": "Funzione d’onda"
+    },
+    "superpositionStateRequiresTwoOrMore": {
+      "value": "Uno stato di sovrapposizione richiede due o più ampiezze non nulle."
+    },
+    "superpositionStateRequiresFinite": {
+      "value": "Stato di sovrapposizione che richiede {{requiredNumber}} livelli di energia.<br>L’attuale potenziale ha {{actualNumber}} livelli di energia."
+    },
+    "superpositionStateRequiresInfinite": {
+      "value": "Superposition stato di sovrapposizione che richiede {{requiredNumber}} livelli di energia.<br>Il potenziale attuale ha infinito livelli di energia."
+    },
+    "energyLevelsSingular": {
+      "value": "Livelli di energia: E<sub>{{groundStateNumber}}</sub>"
+    },
+    "energyLevelsPlural": {
+      "value": "Livelli di energia: da E<sub>{{groundStateNumber}}</sub> a E<sub>{{maxEnergyLevelNumber}}</sub>"
+    },
+    "energyLevelsInfinite": {
+      "value": "Livelli di energia: da E<sub>{{groundStateNumber}}</sub> a E<sub style=\"font-size: 20px;\">{{infinitySymbol}}</sub>"
+    },
+    "superpositionStateDialogTitle": {
+      "value": "Stato di sovrapposizione: {{name}}"
+    },
+    "customDialogSubtitle": {
+      "value": "{{equation}}<br>dove |{{c}}| è l’ampiezza e {{phi}} è la fase."
+    },
+    "pageNumberPattern": {
+      "value": "pagina {{pageNumber}} di {{totalPages}}"
+    },
+    "presetDialogSubtitle": {
+      "value": "{{equation}}<br>dove {{a}} è l’ampiezza."
+    },
+    "clearButton": {
+      "value": "Cancella"
+    },
+    "normalizeAndSaveButton": {
+      "value": "Normalizza e salva"
+    },
+    "screen.twoWells": {
+      "value": "Due buche"
+    },
+    "mass": {
+      "value": "Massa"
+    },
+    "energyOffset": {
+      "value": "Spostamento energetico"
+    },
+    "quantum-bound-states.title": {
+      "value": "Stati quantici legati"
+    },
+    "screen.oneWell": {
+      "value": "Singola buca"
     }
   },
   "km": {
@@ -795,6 +924,12 @@
     },
     "waveFunctionDialogTitle": {
       "value": "Golffunctie"
+    },
+    "energyOffset": {
+      "value": "Energie Offset"
+    },
+    "mass": {
+      "value": "Massa"
     }
   },
   "pl": {
